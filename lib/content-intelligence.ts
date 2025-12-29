@@ -388,4 +388,3 @@ Identify and return JSON only:
     return null;
   }
 }
-

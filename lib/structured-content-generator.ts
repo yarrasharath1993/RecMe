@@ -346,4 +346,3 @@ export async function generateArticleWithStructure(
     wordCount: structured.totalWordCount,
   };
 }
-

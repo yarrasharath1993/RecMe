@@ -129,4 +129,3 @@ function ActivityItem({ time, action }: { time: string; action: string }) {
     </div>
   );
 }
-

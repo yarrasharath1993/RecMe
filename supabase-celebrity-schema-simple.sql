@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS celebrity_events (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   celebrity_id UUID NOT NULL REFERENCES celebrities(id) ON DELETE CASCADE,
   event_type TEXT NOT NULL CHECK (event_type IN (
-    'birthday', 'death_anniversary', 'debut_anniversary', 
+    'birthday', 'death_anniversary', 'debut_anniversary',
     'movie_anniversary', 'award_anniversary', 'career_milestone'
   )),
   event_month INTEGER NOT NULL CHECK (event_month BETWEEN 1 AND 12),
@@ -171,7 +171,7 @@ DECLARE
 BEGIN
   SELECT * INTO v_celebrity FROM celebrities WHERE id = p_celebrity_id;
   IF NOT FOUND THEN RETURN 0; END IF;
-  
+
   IF v_celebrity.birth_date IS NOT NULL THEN
     INSERT INTO celebrity_events (celebrity_id, event_type, event_month, event_day, event_year, priority_score)
     VALUES (p_celebrity_id, 'birthday',
@@ -183,7 +183,7 @@ BEGIN
     ) ON CONFLICT DO NOTHING;
     v_count := v_count + 1;
   END IF;
-  
+
   IF v_celebrity.death_date IS NOT NULL THEN
     INSERT INTO celebrity_events (celebrity_id, event_type, event_month, event_day, event_year, priority_score)
     VALUES (p_celebrity_id, 'death_anniversary',
@@ -195,7 +195,7 @@ BEGIN
     ) ON CONFLICT DO NOTHING;
     v_count := v_count + 1;
   END IF;
-  
+
   RETURN v_count;
 END;
 $$ LANGUAGE plpgsql;
@@ -215,4 +215,3 @@ DROP TRIGGER IF EXISTS trigger_historic_posts_updated_at ON historic_posts;
 CREATE TRIGGER trigger_historic_posts_updated_at
   BEFORE UPDATE ON historic_posts FOR EACH ROW
   EXECUTE FUNCTION update_celebrity_updated_at();
-

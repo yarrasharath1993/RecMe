@@ -14,7 +14,8 @@ import {
   Image as ImageIcon,
   Film,
   Heart,
-  Brain
+  Brain,
+  MessageSquareQuote
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -68,8 +69,8 @@ export default async function AdminLayout({
             <NavItem href="/admin" icon={LayoutDashboard}>
               Dashboard
             </NavItem>
-            <NavItem href="/admin/intelligence" icon={Brain}>
-              AI Intelligence
+            <NavItem href="/admin/editorial" icon={Brain}>
+              Editorial AI
             </NavItem>
             <NavItem href="/admin/posts" icon={FileText}>
               Posts
