@@ -180,6 +180,38 @@ function buildSearchQueries(title: string, content: string, category: string): s
 }
 
 /**
+ * Search TMDB for person/celebrity photos
+ */
+async function searchTMDBPerson(personName: string): Promise<ImageResult | null> {
+  const apiKey = process.env.TMDB_API_KEY || process.env.NEXT_PUBLIC_TMDB_API_KEY;
+  if (!apiKey) return null;
+  
+  try {
+    const response = await fetch(
+      `https://api.themoviedb.org/3/search/person?api_key=${apiKey}&query=${encodeURIComponent(personName)}&language=en-US`
+    );
+    
+    if (!response.ok) return null;
+    
+    const data = await response.json();
+    const person = data.results?.[0];
+    
+    if (person && person.profile_path) {
+      console.log(`   👤 Found TMDB person: ${person.name}`);
+      return {
+        url: `https://image.tmdb.org/t/p/w500${person.profile_path}`,
+        source: 'unsplash' as const,
+        query: personName,
+        description: `${person.name} photo`,
+      };
+    }
+  } catch (error) {
+    console.error('TMDB person search error:', error);
+  }
+  return null;
+}
+
+/**
  * Search TMDB for movie posters
  */
 async function searchTMDBPoster(movieName: string): Promise<ImageResult | null> {
@@ -208,6 +240,100 @@ async function searchTMDBPoster(movieName: string): Promise<ImageResult | null> 
   return null;
 }
 
+// Telugu to English name mappings
+const TELUGU_NAME_MAP: Record<string, string> = {
+  'అల్లు అర్జున్': 'Allu Arjun',
+  'అల్లు శిరీష్': 'Allu Sirish',
+  'మహేష్ బాబు': 'Mahesh Babu',
+  'ప్రభాస్': 'Prabhas',
+  'జూనియర్ ఎన్టీఆర్': 'Jr NTR',
+  'రామ్ చరణ్': 'Ram Charan',
+  'విజయ్ దేవరకొండ': 'Vijay Deverakonda',
+  'నాని': 'Nani',
+  'రవి తేజ': 'Ravi Teja',
+  'పవన్ కల్యాణ్': 'Pawan Kalyan',
+  'చిరంజీవి': 'Chiranjeevi',
+  'నాగార్జున': 'Nagarjuna',
+  'సమంత': 'Samantha',
+  'రష్మిక': 'Rashmika Mandanna',
+  'పూజా హెగ్డే': 'Pooja Hegde',
+  'అనుష్క': 'Anushka Shetty',
+  'తమన్నా': 'Tamanna',
+  'సాయి పల్లవి': 'Sai Pallavi',
+  'కీర్తి సురేష్': 'Keerthy Suresh',
+  'రాజమౌళి': 'SS Rajamouli',
+  'సుకుమార్': 'Sukumar',
+  'త్రివిక్రమ్': 'Trivikram',
+  'విరాట్ కోహ్లీ': 'Virat Kohli',
+  'ధోనీ': 'MS Dhoni',
+  'రోహిత్ శర్మ': 'Rohit Sharma',
+};
+
+// Known Telugu celebrities for quick matching
+const TELUGU_CELEBRITIES = [
+  // Actors
+  'Allu Arjun', 'Allu Sirish', 'Mahesh Babu', 'Prabhas', 'Jr NTR', 'Ram Charan', 
+  'Vijay Deverakonda', 'Nani', 'Ravi Teja', 'Pawan Kalyan', 'Chiranjeevi',
+  'Nagarjuna', 'Venkatesh', 'Rana Daggubati', 'Varun Tej', 'Naga Chaitanya',
+  'Sharwanand', 'Siddharth', 'Nithin', 'Sudheer Babu', 'Naveen Polishetty',
+  // Actresses  
+  'Samantha', 'Rashmika Mandanna', 'Pooja Hegde', 'Anushka Shetty', 'Kajal Aggarwal',
+  'Tamanna', 'Rakul Preet', 'Keerthy Suresh', 'Sai Pallavi', 'Shruti Haasan',
+  'Kiara Advani', 'Sreeleela', 'Nayanthara', 'Trisha', 'Hansika', 'Malavika Mohanan',
+  // Directors
+  'SS Rajamouli', 'Trivikram', 'Sukumar', 'Koratala Siva', 'Prashanth Neel',
+  // Cricket  
+  'Virat Kohli', 'MS Dhoni', 'Rohit Sharma', 'Hardik Pandya', 'KL Rahul',
+];
+
+/**
+ * Extract celebrity name from text (supports Telugu and English)
+ */
+function extractCelebrityName(text: string): string | null {
+  // First check Telugu name mappings
+  for (const [teluguName, englishName] of Object.entries(TELUGU_NAME_MAP)) {
+    if (text.includes(teluguName)) {
+      console.log(`   🔤 Matched Telugu name: "${teluguName}" → "${englishName}"`);
+      return englishName;
+    }
+  }
+  
+  const lowerText = text.toLowerCase();
+  
+  // Check English celebrity names
+  for (const celeb of TELUGU_CELEBRITIES) {
+    // Check for exact match or partial match
+    if (lowerText.includes(celeb.toLowerCase())) {
+      return celeb;
+    }
+    // Check first name only (e.g., "Allu" for Allu family)
+    const firstName = celeb.split(' ')[0];
+    if (firstName.length > 4 && lowerText.includes(firstName.toLowerCase())) {
+      return celeb;
+    }
+    // Check last name for unique surnames
+    const lastName = celeb.split(' ').pop() || '';
+    if (lastName.length > 5 && lowerText.includes(lastName.toLowerCase())) {
+      return celeb;
+    }
+  }
+  
+  // Special handling for "Shirish" / "శిరీష్" - common variations
+  if (lowerText.includes('shirish') || text.includes('శిరీష్')) {
+    return 'Allu Sirish';
+  }
+  
+  // Try to find capitalized names that look like person names
+  const namePattern = /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)\b/g;
+  const matches = text.match(namePattern);
+  if (matches && matches.length > 0) {
+    // Return the first multi-word capitalized name
+    return matches[0];
+  }
+  
+  return null;
+}
+
 /**
  * Main function - Get the best relevant image for an article
  */
@@ -219,6 +345,17 @@ export async function fetchRelevantImage(
   const fullText = `${title} ${content}`;
 
   console.log(`\n🔍 [ImageFetch] "${title.substring(0, 50)}..."`);
+
+  // Priority 0: Check for celebrity/person name - search TMDB for their photo
+  const celebrityName = extractCelebrityName(fullText);
+  if (celebrityName) {
+    console.log(`   👤 Detected celebrity: "${celebrityName}"`);
+    const personResult = await searchTMDBPerson(celebrityName);
+    if (personResult) {
+      console.log(`   ✅ Found TMDB person photo: "${personResult.description}"`);
+      return personResult;
+    }
+  }
 
   // Priority 1: Check if this is about a movie - use TMDB for official poster
   const detectedMovie = detectMovieInText(fullText);

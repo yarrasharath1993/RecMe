@@ -236,7 +236,7 @@ CRITICAL RULES:
 
 STRUCTURE:
 - Opening: State the main news (1-2 sentences)
-- Body: Explain what happened (2-3 sentences)  
+- Body: Explain what happened (2-3 sentences)
 - Closing: What readers should know (1 sentence)
 
 DO NOT:
