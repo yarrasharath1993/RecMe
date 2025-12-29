@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Link from 'next/link';
 import { Newspaper, Menu } from 'lucide-react';
+import { DedicationsWidget } from '@/components/DedicationsWidget';
 import './globals.css';
 
 const geistSans = Geist({
@@ -62,6 +63,12 @@ export default function RootLayout({
                 >
                   🔥 హాట్
                 </Link>
+                <Link
+                  href="/reviews"
+                  className="flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-yellow-500 to-amber-500 text-black font-bold rounded-full text-sm hover:opacity-90 transition-opacity"
+                >
+                  ⭐ రివ్యూలు
+                </Link>
                 <NavLink href="/category/gossip">గాసిప్</NavLink>
                 <NavLink href="/category/sports">స్పోర్ట్స్</NavLink>
                 <NavLink href="/category/politics">రాజకీయాలు</NavLink>
@@ -79,6 +86,9 @@ export default function RootLayout({
         {/* Main content */}
         <main>{children}</main>
 
+        {/* Dedications Widget - Bottom Left */}
+        <DedicationsWidget position="bottom-left" />
+
         {/* Footer */}
         <footer className="bg-[#141414] border-t border-[#262626] mt-12">
           <div className="container mx-auto px-4 py-8">
@@ -95,9 +105,10 @@ export default function RootLayout({
               <div>
                 <h4 className="font-bold text-white mb-4">విభాగాలు</h4>
                 <ul className="space-y-2 text-sm">
+                  <li><Link href="/reviews" className="text-[#737373] hover:text-[#eab308]">🎬 మూవీ రివ్యూలు</Link></li>
+                  <li><Link href="/hot" className="text-[#737373] hover:text-[#eab308]">🔥 హాట్ మీడియా</Link></li>
                   <li><Link href="/category/gossip" className="text-[#737373] hover:text-[#eab308]">గాసిప్</Link></li>
                   <li><Link href="/category/sports" className="text-[#737373] hover:text-[#eab308]">స్పోర్ట్స్</Link></li>
-                  <li><Link href="/category/politics" className="text-[#737373] hover:text-[#eab308]">రాజకీయాలు</Link></li>
                   <li><Link href="/category/entertainment" className="text-[#737373] hover:text-[#eab308]">వినోదం</Link></li>
                 </ul>
               </div>

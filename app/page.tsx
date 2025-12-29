@@ -61,7 +61,7 @@ export default async function HomePage() {
       <section className="bg-gradient-to-r from-yellow-500/10 via-orange-500/5 to-pink-500/10 border-b border-yellow-500/20">
         <div className="container mx-auto px-4 py-3 text-center">
           <p className="text-sm md:text-base text-gray-300">
-            <span className="text-yellow-500 font-bold">TeluguVibes</span> — Premium Telugu Entertainment & Culture Portal 
+            <span className="text-yellow-500 font-bold">TeluguVibes</span> — Premium Telugu Entertainment & Culture Portal
             <span className="hidden md:inline"> | Serving 80M+ Telugu Speakers Worldwide 🌍</span>
           </p>
         </div>

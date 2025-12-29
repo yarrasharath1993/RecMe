@@ -11,7 +11,9 @@ import {
   Calendar,
   Sparkles,
   Flame,
-  Image as ImageIcon
+  Image as ImageIcon,
+  Film,
+  Heart
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -70,6 +72,19 @@ export default async function AdminLayout({
             </NavItem>
             <NavItem href="/admin/drafts" icon={TrendingUp}>
               Trending Drafts
+            </NavItem>
+
+            {/* Reviews & Dedications */}
+            <div className="pt-4 mt-4 border-t border-[#262626]">
+              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
+                Reviews & Community
+              </span>
+            </div>
+            <NavItem href="/admin/reviews" icon={Film}>
+              Movie Reviews
+            </NavItem>
+            <NavItem href="/admin/dedications" icon={Heart}>
+              Dedications
             </NavItem>
 
             {/* Hot Media Section */}

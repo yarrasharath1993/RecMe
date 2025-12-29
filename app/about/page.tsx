@@ -23,8 +23,12 @@ export default function AboutPage() {
             తెలుగు వైబ్స్ గురించి
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed">
-            TeluguVibes is a premium Telugu entertainment and culture portal built to serve the 
-            <span className="text-yellow-500 font-bold"> 80+ million Telugu-speaking audience </span> 
+            TeluguVibes is a premium Telugu entertainment and culture portal
+            built to serve the
+            <span className="text-yellow-500 font-bold">
+              {" "}
+              80+ million Telugu-speaking audience{" "}
+            </span>
             worldwide with viral, evergreen, and community-driven content.
           </p>
         </div>
@@ -33,12 +37,15 @@ export default function AboutPage() {
       {/* Mission Section */}
       <section className="py-16 px-4 bg-[#141414]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">మా లక్ష్యం</h2>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">
+            మా లక్ష్యం
+          </h2>
           <div className="bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 rounded-2xl p-8">
             <p className="text-lg text-gray-300 leading-relaxed text-center">
-              తెలుగు సంస్కృతి, సినిమా, వినోదం మరియు వార్తలను ప్రపంచవ్యాప్తంగా ఉన్న తెలుగు ప్రేక్షకులకు 
-              చేరవేయడం మా ధ్యేయం. మేము AI-సహాయక సంపాదకీయ వర్క్‌ఫ్లోలు, లైసెన్స్ చేయబడిన మీడియా 
-              మరియు చారిత్రక సాంస్కృతిక మేధస్సును కలిపి - చట్టబద్ధంగా, సమర్థంగా మరియు స్థిరంగా 
+              తెలుగు సంస్కృతి, సినిమా, వినోదం మరియు వార్తలను ప్రపంచవ్యాప్తంగా
+              ఉన్న తెలుగు ప్రేక్షకులకు చేరవేయడం మా ధ్యేయం. మేము AI-సహాయక
+              సంపాదకీయ వర్క్‌ఫ్లోలు, లైసెన్స్ చేయబడిన మీడియా మరియు చారిత్రక
+              సాంస్కృతిక మేధస్సును కలిపి - చట్టబద్ధంగా, సమర్థంగా మరియు స్థిరంగా
               కంటెంట్‌ను అందిస్తాము.
             </p>
           </div>
@@ -48,7 +55,9 @@ export default function AboutPage() {
       {/* Features Grid */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center">మేము ఏమి అందిస్తాము</h2>
+          <h2 className="text-3xl font-bold text-white mb-12 text-center">
+            మేము ఏమి అందిస్తాము
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <FeatureCard
               icon={<Zap className="w-8 h-8" />}
@@ -105,7 +114,9 @@ export default function AboutPage() {
       {/* Values Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center">మా విలువలు</h2>
+          <h2 className="text-3xl font-bold text-white mb-12 text-center">
+            మా విలువలు
+          </h2>
           <div className="space-y-6">
             <ValueItem
               title="Quality Over Quantity"
@@ -130,9 +141,12 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-yellow-500/20 to-orange-500/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">మాతో కనెక్ట్ అవ్వండి</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">
+            మాతో కనెక్ట్ అవ్వండి
+          </h2>
           <p className="text-gray-300 mb-8">
-            Have suggestions, feedback, or want to collaborate? We'd love to hear from you!
+            Have suggestions, feedback, or want to collaborate? We'd love to
+            hear from you!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
