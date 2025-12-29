@@ -15,7 +15,8 @@ import {
   Film,
   Heart,
   Brain,
-  MessageSquareQuote
+  MessageSquareQuote,
+  Database
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -106,6 +107,16 @@ export default async function AdminLayout({
             </NavItem>
             <NavItem href="/admin/media/entities" icon={ImageIcon}>
               Entities
+            </NavItem>
+
+            {/* Knowledge Graph */}
+            <div className="pt-4 mt-4 border-t border-[#262626]">
+              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
+                Knowledge Graph
+              </span>
+            </div>
+            <NavItem href="/admin/knowledge-graph" icon={Database}>
+              Telugu Cinema KG
             </NavItem>
 
             {/* Celebrity Section */}

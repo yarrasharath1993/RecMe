@@ -288,13 +288,13 @@ const TELUGU_NAME_MAP: Record<string, string> = {
 // Known Telugu celebrities for quick matching
 const TELUGU_CELEBRITIES = [
   // Actors
-  'Allu Arjun', 'Allu Sirish', 'Mahesh Babu', 'Prabhas', 'Jr NTR', 'Ram Charan', 
+  'Allu Arjun', 'Allu Sirish', 'Mahesh Babu', 'Prabhas', 'Jr NTR', 'Ram Charan',
   'Vijay Deverakonda', 'Nani', 'Ravi Teja', 'Pawan Kalyan', 'Chiranjeevi',
   'Nagarjuna', 'Venkatesh', 'Rana Daggubati', 'Varun Tej', 'Naga Chaitanya',
   'Sharwanand', 'Siddharth', 'Nithin', 'Sudheer Babu', 'Naveen Polishetty',
   'Nandamuri Balakrishna', 'Mohan Babu', 'Manchu Vishnu', 'Manchu Manoj',
   'Naga Shaurya', 'Sunil', 'Brahmanandam', 'Ali', 'Sivaji',
-  // Actresses  
+  // Actresses
   'Samantha', 'Rashmika Mandanna', 'Pooja Hegde', 'Anushka Shetty', 'Kajal Aggarwal',
   'Tamanna', 'Rakul Preet', 'Keerthy Suresh', 'Sai Pallavi', 'Shruti Haasan',
   'Kiara Advani', 'Sreeleela', 'Nayanthara', 'Trisha', 'Hansika', 'Malavika Mohanan',
@@ -302,7 +302,7 @@ const TELUGU_CELEBRITIES = [
   'SS Rajamouli', 'Trivikram', 'Sukumar', 'Koratala Siva', 'Prashanth Neel',
   'Ram Gopal Varma', 'RGV', 'Puri Jagannadh', 'Boyapati Srinu', 'Harish Shankar',
   'Anil Ravipudi', 'Vamshi Paidipally', 'Raghavendra Rao', 'Dil Raju',
-  // Cricket  
+  // Cricket
   'Virat Kohli', 'MS Dhoni', 'Rohit Sharma', 'Hardik Pandya', 'KL Rahul',
 ];
 
