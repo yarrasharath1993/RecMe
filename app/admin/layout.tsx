@@ -69,7 +69,10 @@ export default async function AdminLayout({
             <NavItem href="/admin" icon={LayoutDashboard}>
               Dashboard
             </NavItem>
-            <NavItem href="/admin/editorial" icon={Brain}>
+            <NavItem href="/admin/intelligence" icon={Brain}>
+              Intelligence
+            </NavItem>
+            <NavItem href="/admin/editorial" icon={MessageSquareQuote}>
               Editorial AI
             </NavItem>
             <NavItem href="/admin/posts" icon={FileText}>

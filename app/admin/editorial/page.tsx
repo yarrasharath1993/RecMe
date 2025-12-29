@@ -169,7 +169,7 @@ export default function EditorialIntelligencePage() {
                     className="flex items-center justify-between p-4 bg-gray-800 rounded-xl"
                   >
                     <div className="flex-1">
-                      <Link 
+                      <Link
                         href={`/admin/posts/${gate.post_id}/edit`}
                         className="font-medium text-white hover:text-orange-400"
                       >
@@ -455,4 +455,3 @@ function ActionButton({ icon, label, onClick }: {
     </button>
   );
 }
-

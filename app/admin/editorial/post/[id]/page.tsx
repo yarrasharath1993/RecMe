@@ -40,7 +40,7 @@ export default function EditorialPostPage({
 }) {
   const { id: postId } = use(params);
   const router = useRouter();
-  
+
   const [post, setPost] = useState<any>(null);
   const [pov, setPov] = useState<POVData | null>(null);
   const [povText, setPovText] = useState('');
@@ -358,4 +358,3 @@ export default function EditorialPostPage({
     </div>
   );
 }
-

@@ -1,7 +1,7 @@
 /**
  * TeluguVibes Human POV Layer
  * Anti-AI Fatigue System
- * 
+ *
  * RULE: No content publishes without human perspective
  */
 
@@ -23,7 +23,7 @@ export interface HumanPOV {
   editor_name?: string;
 }
 
-export type POVType = 
+export type POVType =
   | 'insider_trivia'
   | 'cultural_context'
   | 'opinionated_framing'
@@ -168,7 +168,7 @@ What unique value did the human add?`
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content || '';
-    
+
     try {
       const parsed = JSON.parse(content);
       return {
@@ -209,7 +209,7 @@ export async function generatePOVSuggestions(postId: string): Promise<POVSuggest
   if (!groqKey) return getDefaultSuggestions(post);
 
   try {
-    const learningContext = learnings?.map(l => 
+    const learningContext = learnings?.map(l =>
       `Type: ${l.pov_type}, Impact: ${l.avg_impact_score}%, Good additions: ${l.successful_additions?.join(', ')}`
     ).join('\n') || 'No learned patterns yet';
 
@@ -253,13 +253,13 @@ Generate 3 POV suggestions:`
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content || '';
-    
+
     try {
       // Extract JSON from response
       const jsonMatch = content.match(/\[[\s\S]*\]/);
       if (jsonMatch) {
         const suggestions = JSON.parse(jsonMatch[0]);
-        
+
         // Store suggestions
         for (const s of suggestions) {
           await supabase.from('pov_suggestions').insert({
@@ -269,7 +269,7 @@ Generate 3 POV suggestions:`
             reasoning: s.reasoning,
           });
         }
-        
+
         return suggestions;
       }
     } catch {
@@ -351,14 +351,14 @@ async function learnFromPOV(pov: HumanPOV): Promise<void> {
 
 function extractPOVPatterns(text: string): string[] {
   const patterns: string[] = [];
-  
+
   // Detect common patterns
   if (text.includes('పరిశ్రమ') || text.includes('industry')) patterns.push('industry_reference');
   if (text.includes('నా అభిప్రాయం') || text.includes('my opinion')) patterns.push('personal_opinion');
   if (text.includes('చరిత్ర') || text.includes('history')) patterns.push('historical_context');
   if (text.includes('భవిష్యత్') || text.includes('future')) patterns.push('prediction');
   if (text.includes('అభిమానులు') || text.includes('fans')) patterns.push('fan_perspective');
-  
+
   return patterns;
 }
 
@@ -399,14 +399,14 @@ export async function measurePOVImpact(postId: string): Promise<{
     .single();
 
   const bounceImprovement = updatedPov?.pov_impact_score || 0;
-  
+
   return {
     hasImpact: bounceImprovement > 0,
     bounceImprovement,
     dwellImprovement: 0, // Would need additional tracking
-    recommendation: bounceImprovement > 10 
+    recommendation: bounceImprovement > 10
       ? 'POV significantly improving engagement!'
-      : bounceImprovement > 0 
+      : bounceImprovement > 0
         ? 'POV helping slightly, consider more insider info'
         : 'Consider a different POV type for better impact',
   };
@@ -455,4 +455,3 @@ export async function getPromptImprovements(category: string): Promise<string> {
     ? `\n\nBased on editorial patterns, also include:\n${promptAdditions.map(a => `- ${a}`).join('\n')}`
     : '';
 }
-

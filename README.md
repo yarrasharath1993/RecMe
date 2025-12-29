@@ -1,116 +1,72 @@
 # 🎬 TeluguVibes
 
-> **Premium Telugu Entertainment & Culture Portal**
+**Production-Ready Self-Learning Telugu Entertainment Platform**
 
-TeluguVibes is a premium Telugu entertainment and culture portal built with Next.js 15, designed to serve the 80+ million Telugu-speaking audience worldwide. It combines AI-assisted editorial workflows, licensed media, and historic cultural intelligence to deliver viral, evergreen, and community-driven content at scale—legally, efficiently, and sustainably.
+A next-generation media platform that learns from trends, users, and editors to continuously evolve while maintaining legal safety and AdSense compliance.
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
-![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green?logo=supabase)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwindcss)
-![License](https://img.shields.io/badge/License-Private-red)
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     TELUGUVIBES ARCHITECTURE                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │   Frontend   │    │   Backend    │    │   AI Layer   │       │
+│  │   Next.js    │◄──►│   Supabase   │◄──►│  Groq/Gemini │       │
+│  │   App Router │    │   Postgres   │    │              │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│         │                   │                   │                │
+│         ▼                   ▼                   ▼                │
+│  ┌──────────────────────────────────────────────────────┐       │
+│  │              SELF-LEARNING INTELLIGENCE               │       │
+│  │  • Trend Ingestion (TMDB, YouTube, News)             │       │
+│  │  • Topic Clustering & Saturation Detection           │       │
+│  │  • Content Performance Learning                       │       │
+│  │  • Audience Preference Adaptation                     │       │
+│  │  • Entity Popularity Tracking                         │       │
+│  └──────────────────────────────────────────────────────┘       │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## ✨ Features
 
-### 📰 Viral News Engine
-- Auto-imports trending topics from NewsData.io & GNews
-- AI rewrites content into original Telugu articles (300-500 words)
-- Smart image pipeline (TMDB, Unsplash, Pexels, Wikimedia)
-- One-click publish from admin drafts
+### 📰 Content Management
+- **Trending News** - AI-assisted, admin-approved articles
+- **Movie Reviews** - Auto-generated with learned emphasis
+- **Complete Movie Catalogue** - Past to present Telugu films
+- **Historic Intelligence** - Birthdays, anniversaries, retrospectives
+- **Hot Media** - Photos, videos, social embeds (legal only)
+- **OTT Releases** - Streaming availability tracking
 
-### 🔥 Hot Media Section
-- Trending actress/anchor photos & videos
-- Legal social embeds (Instagram, YouTube, Twitter, Facebook)
-- Masonry grid with lightbox viewer
-- Celebrity tagging & categorization
+### 🧠 Self-Learning Intelligence
+- **Trend Ingestion** - TMDB, YouTube, News APIs, Internal analytics
+- **Topic Fatigue Detection** - Avoids oversaturated topics
+- **Audience Preferences** - Learns best times, categories, lengths
+- **Performance Learning** - Adapts titles, hooks, content style
+- **Entity Popularity** - Tracks celebrity & movie buzz
 
-### 🎂 Historic Celebrity Intelligence
-- Auto-generates "On This Day" birthday/anniversary posts
-- Wikidata + TMDB integration for Telugu celebrities
-- AI-written tribute articles in Telugu
-- Evergreen content recycling for SEO
+### 🖼️ Legal Image System
+- **Priority Sources**: TMDB → Wikimedia → Wikipedia → Unsplash
+- **Never Scrapes**: Google Images, IMDb, Pinterest
+- **Performance Tracking**: Learns which images engage best
+- **License Storage**: Attribution and source tracking
 
-### 💬 Community Features
-- Real-time comments (Supabase Realtime)
-- Profanity filtering & moderation
-- Rate limiting & spam protection
-- Positive comment highlighting
+### 📊 Zero-Click SEO
+- **Schema.org Markup** - Article, Person, Movie, Q&A
+- **Citation Blocks** - Optimized for AI search quotes
+- **Answer Summaries** - 40-60 word direct answers
+- **Author Entities** - E-E-A-T signal building
 
-### 🛡️ Legal & AdSense Safe
-- No illegal scraping - uses official APIs only
-- Social embeds via oEmbed (platform-approved)
-- Licensed images from Wikimedia/Unsplash/Pexels/TMDB
-- Admin moderation required for all content
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- Supabase account
-- API keys (see Environment Variables)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/sharath317/teluguvibes.git
-cd teluguvibes
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your API keys
-
-# Run database migrations
-# Copy SQL files to Supabase SQL Editor:
-# - supabase-schema.sql (core tables)
-# - supabase-celebrity-schema.sql (celebrity system)
-# - supabase-media-schema.sql (hot media system)
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
----
-
-## 🔐 Environment Variables
-
-Create `.env.local` with:
-
-```env
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-
-# Authentication (Google OAuth)
-AUTH_SECRET=your_nextauth_secret
-AUTH_GOOGLE_ID=your_google_client_id
-AUTH_GOOGLE_SECRET=your_google_client_secret
-
-# AI Content Generation
-GROQ_API_KEY=your_groq_api_key
-
-# News APIs
-NEWSDATA_API_KEY=your_newsdata_key
-GNEWS_API_KEY=your_gnews_key
-
-# Image APIs
-UNSPLASH_ACCESS_KEY=your_unsplash_key
-PEXELS_API_KEY=your_pexels_key
-TMDB_API_KEY=your_tmdb_key
-
-# Optional
-GOLD_API_KEY=your_goldapi_key
-FACEBOOK_ACCESS_TOKEN=your_facebook_token
-```
+### 👤 Human POV Layer
+- **Mandatory Human Touch** - Every article needs editor perspective
+- **Anti-AI Fatigue** - Tracks what humans add that AI misses
+- **Learning System** - Improves AI prompts from patterns
 
 ---
 
@@ -118,121 +74,271 @@ FACEBOOK_ACCESS_TOKEN=your_facebook_token
 
 ```
 telugu-portal/
-├── app/                    # Next.js App Router
-│   ├── admin/              # Admin dashboard
-│   │   ├── celebrities/    # Celebrity management
-│   │   ├── drafts/         # AI-generated drafts
-│   │   ├── media/          # Hot media manager
-│   │   └── posts/          # Content management
-│   ├── category/[cat]/     # Category pages
-│   ├── hot/                # Hot media section
-│   ├── post/[slug]/        # Article pages
-│   └── page.tsx            # Homepage
-├── components/             # React components
-│   ├── media/              # Embed renderers, cards
-│   └── ...                 # UI components
-├── lib/                    # Business logic
-│   ├── celebrity/          # Celebrity data pipeline
-│   ├── media/              # Embed & image fetchers
-│   └── ...                 # AI, news, validation
-├── types/                  # TypeScript definitions
-└── public/                 # Static assets
+├── app/
+│   ├── admin/
+│   │   ├── intelligence/     # AI Dashboard
+│   │   ├── editorial/        # Human POV Editor
+│   │   ├── posts/            # Content Management
+│   │   ├── celebrities/      # Celebrity Manager
+│   │   ├── media/            # Hot Media Manager
+│   │   └── reviews/          # Movie Reviews
+│   ├── api/
+│   │   ├── cron/
+│   │   │   ├── intelligence/ # 6-hourly learning cycle
+│   │   │   └── on-this-day/  # Daily historic posts
+│   │   └── admin/
+│   │       ├── intelligence/ # AI APIs
+│   │       └── editorial/    # POV & Citation APIs
+│   ├── post/[slug]/          # Article pages
+│   ├── reviews/              # Review listing & detail
+│   └── hot/                  # Hot media gallery
+├── components/
+│   ├── analytics/            # Browser-native tracking
+│   └── ...
+├── lib/
+│   ├── intelligence/
+│   │   ├── trend-ingestion.ts     # Multi-source trends
+│   │   ├── learning-engine.ts     # Performance learning
+│   │   ├── image-intelligence.ts  # Legal image system
+│   │   └── review-pipeline.ts     # Auto reviews
+│   ├── editorial/
+│   │   ├── human-pov.ts      # Human perspective
+│   │   └── zero-click-seo.ts # Citation optimization
+│   └── celebrity/            # Historic content
+├── supabase-complete-schema.sql  # Full database
+└── vercel.json               # Cron configuration
 ```
 
 ---
 
 ## 🗄️ Database Schema
 
+### Core Tables
 | Table | Purpose |
 |-------|---------|
-| `posts` | News articles & content |
-| `comments` | User comments |
-| `categories` | Content categories |
-| `celebrities` | Telugu celebrity profiles |
-| `celebrity_events` | Birthdays, anniversaries |
-| `celebrity_works` | Filmography |
-| `historic_posts` | Auto-generated tribute posts |
-| `media_entities` | Actresses, anchors, influencers |
-| `media_posts` | Photos, videos, social embeds |
-| `media_collections` | Curated galleries |
+| `posts` | Main content articles |
+| `movies` | Complete Telugu film catalogue |
+| `celebrities` | Actor/director profiles |
+| `movie_reviews` | Film reviews with ratings |
+
+### Intelligence Tables
+| Table | Purpose |
+|-------|---------|
+| `trend_signals` | Raw signals from all sources |
+| `topic_clusters` | Merged keywords & saturation |
+| `content_performance` | Views, CTR, scroll depth |
+| `audience_preferences` | Learned category/time prefs |
+| `ai_learnings` | What patterns work/fail |
+| `entity_popularity` | Celebrity/movie buzz scores |
+
+### Editorial Tables
+| Table | Purpose |
+|-------|---------|
+| `human_pov` | Editor perspectives |
+| `citation_blocks` | Schema.org Q&A |
+| `publishing_gates` | Quality checkpoints |
+
+### Media Tables
+| Table | Purpose |
+|-------|---------|
+| `image_registry` | Licensed images with source |
+| `media_posts` | Hot photos & social embeds |
 
 ---
 
-## 🌐 Routes
+## 🔄 Learning Cycle
 
-| Route | Description |
-|-------|-------------|
-| `/` | Homepage with trending feed |
-| `/hot` | Hot photos & videos |
-| `/category/[cat]` | Category filtered content |
-| `/post/[slug]` | Article detail page |
-| `/about` | About TeluguVibes |
-| `/contact` | Contact form |
-| `/privacy` | Privacy policy |
-| `/admin` | Admin dashboard (protected) |
-| `/admin/media` | Hot media manager |
-| `/admin/celebrities` | Celebrity manager |
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **Database**: Supabase (PostgreSQL + Realtime)
-- **Styling**: Tailwind CSS
-- **Auth**: NextAuth.js v5 (Google OAuth)
-- **AI**: Groq (Llama), Google Gemini
-- **APIs**: NewsData.io, GNews, TMDB, Unsplash, Pexels
-- **Deployment**: Vercel
-
----
-
-## 📈 Monetization
-
-- **AdSense slots**: Header, sidebar, mid-article, mobile sticky
-- **Sponsored content**: Movie promotions
-- **Affiliate marketing**: Movie tickets, merchandise
-- **Future**: Premium membership
-
----
-
-## 🚢 Deployment
-
-### Vercel (Recommended)
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Set environment variables in Vercel dashboard
 ```
-
-### Manual
-
-```bash
-npm run build
-npm start
+Every 6 Hours:
+┌─────────────────────────────────────────────────────────┐
+│  1. TREND INGESTION                                      │
+│     • Fetch from TMDB, YouTube, News APIs               │
+│     • Store in trend_signals                            │
+│     • Cluster into topic_clusters                       │
+├─────────────────────────────────────────────────────────┤
+│  2. PERFORMANCE LEARNING                                 │
+│     • Analyze high/low performers                       │
+│     • Extract title patterns                            │
+│     • Learn optimal content length                      │
+│     • Store in ai_learnings                             │
+├─────────────────────────────────────────────────────────┤
+│  3. AUDIENCE PREFERENCES                                 │
+│     • Update category preferences                       │
+│     • Learn peak traffic hours                          │
+│     • Store in audience_preferences                     │
+├─────────────────────────────────────────────────────────┤
+│  4. ENTITY POPULARITY                                    │
+│     • Track celebrity mentions                          │
+│     • Score trending actors/movies                      │
+│     • Store in entity_popularity                        │
+├─────────────────────────────────────────────────────────┤
+│  5. REVIEW PIPELINE                                      │
+│     • Detect new Telugu movies from TMDB                │
+│     • Generate adaptive reviews                         │
+│     • Learn from review performance                     │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📄 License
+## 🚀 Getting Started
 
-Private repository. All rights reserved.
+### Prerequisites
+- Node.js 18+
+- Supabase account
+- API Keys: TMDB, Groq, YouTube (optional)
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/sharath317/teluguvibes.git
+cd telugu-portal
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+```
+
+### Environment Variables
+
+```env
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+
+# Auth
+NEXTAUTH_SECRET=your_secret
+NEXTAUTH_URL=http://localhost:3000
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+# AI
+GROQ_API_KEY=your_groq_key
+GEMINI_API_KEY=your_gemini_key
+
+# APIs
+TMDB_API_KEY=your_tmdb_key
+YOUTUBE_API_KEY=your_youtube_key
+GNEWS_API_KEY=your_gnews_key
+UNSPLASH_ACCESS_KEY=your_unsplash_key
+
+# Cron (Production)
+CRON_SECRET=your_cron_secret
+```
+
+### Database Setup
+
+```bash
+# Run complete schema in Supabase SQL Editor
+cat supabase-complete-schema.sql
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
 
 ---
 
-## 👨‍💻 Author
+## 📊 Admin Dashboard
 
-Built with ❤️ for the Telugu community.
+### Intelligence (`/admin/intelligence`)
+- Trend heatmap
+- Topic fatigue warnings
+- AI learnings
+- Entity popularity
+- Recommendations
+
+### Editorial AI (`/admin/editorial`)
+- Human POV editor
+- Citation block generator
+- Publishing gates
+- POV impact metrics
+
+### Posts (`/admin/posts`)
+- Create/edit content
+- Draft management
+- Publish workflow
 
 ---
 
-## 🙏 Acknowledgments
+## ⏰ Cron Jobs
 
-- Telugu film industry for endless entertainment
-- Open source community for amazing tools
-- AI providers for content generation capabilities
+| Job | Schedule | Purpose |
+|-----|----------|---------|
+| `/api/cron/intelligence` | Every 6 hours | Trend ingestion & learning |
+| `/api/cron/on-this-day` | Daily 5 AM | Historic content generation |
+
+---
+
+## 🔒 Legal & Safety
+
+### Image Sources (Priority Order)
+1. **TMDB** - Movie posters, actor photos
+2. **Wikimedia Commons** - Historic images
+3. **Wikipedia** - Article thumbnails
+4. **Unsplash/Pexels** - Stock photos
+5. **AI Generated** - Fallback illustrations
+
+### Never Used
+- ❌ Google Images scraping
+- ❌ IMDb images
+- ❌ Pinterest downloads
+- ❌ Instagram image downloads (embed only)
+
+### AdSense Compliance
+- All content admin-approved
+- Profanity filtering
+- Toxicity checks
+- Safe image validation
+
+---
+
+## 📈 Performance Metrics
+
+| Metric | Tracked | Used For |
+|--------|---------|----------|
+| Views | Per post | Content ranking |
+| Scroll depth | % of page | Content length optimization |
+| Time on page | Seconds | Engagement scoring |
+| CTR | From listings | Title optimization |
+| Bounce rate | % exits | Quality assessment |
+| Shares | Per post | Viral potential |
+
+---
+
+## 🎯 Core Principles
+
+1. **NO auto-publish** - Admin always reviews
+2. **NO blind AI** - Pre-generation reasoning required
+3. **NO generic output** - Human POV layer mandatory
+4. **Legal-first** - Only licensed/embed content
+5. **Learn continuously** - Improve from every interaction
+
+---
+
+## 📜 License
+
+MIT License - See LICENSE file
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Please read CONTRIBUTING.md first.
+
+---
+
+## 📞 Contact
+
+- **Website**: https://teluguvibes.com
+- **GitHub**: https://github.com/sharath317/teluguvibes
+
+---
+
+*Built with ❤️ for Telugu cinema fans*

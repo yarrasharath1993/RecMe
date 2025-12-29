@@ -3,17 +3,17 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { 
-  generateCitationBlocks, 
+import {
+  generateCitationBlocks,
   getCitationBlocks,
   generateAnswerSummary,
-  checkZeroClickOptimization 
+  checkZeroClickOptimization
 } from '@/lib/editorial/zero-click-seo';
 
 // Get citation data for a post
 export async function GET(request: NextRequest) {
   const postId = request.nextUrl.searchParams.get('postId');
-  
+
   if (!postId) {
     return NextResponse.json({ error: 'postId required' }, { status: 400 });
   }
@@ -23,7 +23,7 @@ export async function GET(request: NextRequest) {
       getCitationBlocks(postId),
       checkZeroClickOptimization(postId),
     ]);
-    
+
     return NextResponse.json({ citations, optimization });
   } catch (error) {
     console.error('Error fetching citations:', error);
@@ -46,25 +46,25 @@ export async function POST(request: NextRequest) {
     switch (action) {
       case 'generate_citations':
         result = await generateCitationBlocks(post_id);
-        return NextResponse.json({ 
-          success: true, 
+        return NextResponse.json({
+          success: true,
           message: `Generated ${result.length} citation blocks`,
-          citations: result 
+          citations: result
         });
 
       case 'generate_summary':
         result = await generateAnswerSummary(post_id);
-        return NextResponse.json({ 
-          success: !!result, 
+        return NextResponse.json({
+          success: !!result,
           message: result ? 'Summary generated' : 'Failed to generate summary',
-          summary: result 
+          summary: result
         });
 
       case 'check_optimization':
         result = await checkZeroClickOptimization(post_id);
-        return NextResponse.json({ 
-          success: true, 
-          optimization: result 
+        return NextResponse.json({
+          success: true,
+          optimization: result
         });
 
       default:
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
           generateCitationBlocks(post_id),
           generateAnswerSummary(post_id),
         ]);
-        
+
         return NextResponse.json({
           success: true,
           message: 'SEO optimization generated',
@@ -86,4 +86,3 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Failed to generate citations' }, { status: 500 });
   }
 }
-

@@ -1,7 +1,7 @@
 /**
  * TeluguVibes Zero-Click SEO Optimization
  * Optimize content to be QUOTED by search AI
- * 
+ *
  * Even if users don't click, TeluguVibes gets cited
  */
 
@@ -98,18 +98,18 @@ Generate citation blocks:`
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content || '';
-    
+
     try {
       const jsonMatch = content.match(/\[[\s\S]*\]/);
       if (jsonMatch) {
         const blocks = JSON.parse(jsonMatch[0]);
-        
+
         const citationBlocks: CitationBlock[] = [];
-        
+
         for (const block of blocks) {
           // Generate full schema
           const schemaJson = generateQASchema(block.question, block.answer, post.title);
-          
+
           const { data: inserted } = await supabase
             .from('citation_blocks')
             .insert({
@@ -127,7 +127,7 @@ Generate citation blocks:`
             citationBlocks.push(inserted);
           }
         }
-        
+
         return citationBlocks;
       }
     } catch (e) {
@@ -244,10 +244,10 @@ Generate answer summary:`
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content || '';
-    
+
     try {
       const parsed = JSON.parse(content);
-      
+
       const summary: AnswerSummary = {
         post_id: postId,
         summary: parsed.summary,
@@ -426,7 +426,7 @@ export async function recordCitation(
 
   if (citationBlock) {
     const citedBy = [...(citationBlock.cited_by || []), source];
-    
+
     await supabase
       .from('citation_blocks')
       .update({
@@ -496,7 +496,7 @@ export async function getCitationAnalytics(days: number = 30): Promise<{
 
   for (const p of performance) {
     postIds.add(p.post_id);
-    
+
     if (p.source) {
       sourceCounts.set(p.source, (sourceCounts.get(p.source) || 0) + 1);
     }
@@ -540,9 +540,9 @@ export async function checkZeroClickOptimization(postId: string): Promise<{
   checks.push({
     name: 'Answer Summary (40-60 words)',
     passed: !!summary && (summary.word_count || 0) >= 40 && (summary.word_count || 0) <= 60,
-    recommendation: !summary 
-      ? 'Generate an answer-first summary' 
-      : (summary.word_count || 0) < 40 
+    recommendation: !summary
+      ? 'Generate an answer-first summary'
+      : (summary.word_count || 0) < 40
         ? 'Summary too short, aim for 40-60 words'
         : (summary.word_count || 0) > 60
           ? 'Summary too long, trim to 40-60 words'
@@ -558,8 +558,8 @@ export async function checkZeroClickOptimization(postId: string): Promise<{
   checks.push({
     name: 'Citation Blocks (Q&A)',
     passed: (citationCount || 0) >= 2,
-    recommendation: (citationCount || 0) < 2 
-      ? 'Add at least 2 Q&A citation blocks' 
+    recommendation: (citationCount || 0) < 2
+      ? 'Add at least 2 Q&A citation blocks'
       : undefined,
   });
 
@@ -573,10 +573,10 @@ export async function checkZeroClickOptimization(postId: string): Promise<{
   checks.push({
     name: 'Human POV',
     passed: !!pov?.is_approved,
-    recommendation: !pov 
-      ? 'Add human editorial perspective' 
-      : !pov.is_approved 
-        ? 'POV needs approval' 
+    recommendation: !pov
+      ? 'Add human editorial perspective'
+      : !pov.is_approved
+        ? 'POV needs approval'
         : undefined,
   });
 
@@ -599,4 +599,3 @@ export async function checkZeroClickOptimization(postId: string): Promise<{
 
   return { score, checks };
 }
-

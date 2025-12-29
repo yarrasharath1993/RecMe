@@ -8,7 +8,7 @@ import { addHumanPOV, getPOV, generatePOVSuggestions } from '@/lib/editorial/hum
 // Get POV for a post
 export async function GET(request: NextRequest) {
   const postId = request.nextUrl.searchParams.get('postId');
-  
+
   if (!postId) {
     return NextResponse.json({ error: 'postId required' }, { status: 400 });
   }
@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
   try {
     const pov = await getPOV(postId);
     const suggestions = await generatePOVSuggestions(postId);
-    
+
     return NextResponse.json({ pov, suggestions });
   } catch (error) {
     console.error('Error fetching POV:', error);
@@ -31,8 +31,8 @@ export async function POST(request: NextRequest) {
     const { post_id, pov_text, pov_type, editor_id, editor_name } = body;
 
     if (!post_id || !pov_text || !pov_type || !editor_id) {
-      return NextResponse.json({ 
-        error: 'post_id, pov_text, pov_type, and editor_id are required' 
+      return NextResponse.json({
+        error: 'post_id, pov_text, pov_type, and editor_id are required'
       }, { status: 400 });
     }
 
@@ -54,4 +54,3 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Failed to add POV' }, { status: 500 });
   }
 }
-
