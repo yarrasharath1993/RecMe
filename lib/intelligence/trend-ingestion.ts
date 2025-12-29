@@ -347,7 +347,7 @@ async function clusterTopics(signals: TrendSignal[]): Promise<void> {
         is_saturated: false,
         category: clusterSignals[0].category,
       });
-    
+
     if (error) {
       console.error('Cluster insert error:', error);
     } else {

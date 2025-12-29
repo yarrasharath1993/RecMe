@@ -248,9 +248,19 @@ PEXELS_API_KEY=your_key_here`}
       <div className="grid lg:grid-cols-2 gap-6">
         {/* Pending Drafts */}
         <div className="bg-[#141414] border border-[#262626] rounded-xl p-6">
-          <h2 className="text-lg font-bold text-white mb-4">
-            Pending Drafts ({drafts.length})
-          </h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-bold text-white">
+              Pending Drafts ({drafts.length})
+            </h2>
+            <button
+              onClick={fetchDrafts}
+              disabled={fetchingDrafts}
+              className="text-xs flex items-center gap-1 px-3 py-1 bg-[#262626] text-gray-300 rounded hover:bg-[#363636] transition-colors disabled:opacity-50"
+            >
+              <RefreshCw className={`w-3 h-3 ${fetchingDrafts ? 'animate-spin' : ''}`} />
+              Refresh
+            </button>
+          </div>
 
           {fetchingDrafts ? (
             <div className="space-y-3">

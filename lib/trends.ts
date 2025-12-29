@@ -1,5 +1,7 @@
 import slugify from 'slugify';
 import type { TrendingTopic } from '@/types/database';
+import { generateArticleContent } from './ai-content-generator';
+import { fetchRelevantImage } from './image-fetcher';
 
 /**
  * Fetch trending topics from multiple sources
@@ -87,10 +89,9 @@ export async function fetchTwitterTrends(): Promise<TrendingTopic[]> {
 }
 
 /**
- * Convert trending topic to post draft format
- * Note: This creates a basic draft. For AI-generated content, use "Import from News Sources"
+ * Convert trending topic to post draft format with AI-generated content & images
  */
-export function trendToPostDraft(trend: TrendingTopic) {
+export async function trendToPostDraft(trend: TrendingTopic) {
   const slug = slugify(trend.title, {
     lower: true,
     strict: true,
@@ -98,34 +99,66 @@ export function trendToPostDraft(trend: TrendingTopic) {
   });
 
   const timestamp = Date.now().toString(36);
+  const randomId = Math.random().toString(36).substring(2, 7);
 
-  // Generate a more detailed template
-  const body = `🔥 ${trend.title}
+  // Try to generate AI content
+  let aiContent = null;
+  try {
+    aiContent = await generateArticleContent(
+      trend.title,
+      `This is trending news about "${trend.title}". Traffic: ${trend.traffic}. Source: ${trend.source || 'Google Trends'}.`,
+      'trending'
+    );
+  } catch (error) {
+    console.error('AI content generation failed for trend:', trend.title, error);
+  }
+
+  // Use AI content if available, otherwise use template
+  const title = aiContent?.title || trend.title;
+  const body = aiContent?.body || generateFallbackContent(trend);
+
+  // Fetch relevant image
+  let imageUrl = '';
+  let imageSource = '';
+  try {
+    const imageResult = await fetchRelevantImage(title, body, 'trending');
+    if (imageResult && imageResult.url) {
+      imageUrl = imageResult.url;
+      imageSource = imageResult.source;
+      console.log(`Found image for "${title.substring(0, 30)}..." from ${imageSource}`);
+    }
+  } catch (error) {
+    console.error('Image fetch failed for trend:', trend.title, error);
+  }
+
+  return {
+    title,
+    slug: `trending-${slug}-${timestamp}-${randomId}`,
+    telugu_body: body,
+    category: 'trending' as const,
+    status: 'draft' as const,
+    image_urls: imageUrl ? [imageUrl] : [],
+    image_url: imageUrl || null,
+    image_source: imageSource || null,
+    tags: aiContent?.tags || [],
+  };
+}
+
+/**
+ * Generate fallback content when AI is unavailable
+ */
+function generateFallbackContent(trend: TrendingTopic): string {
+  return `🔥 ${trend.title}
 
 ఈ టాపిక్ ప్రస్తుతం సోషల్ మీడియాలో ట్రెండింగ్‌లో ఉంది! ${trend.traffic} కంటే ఎక్కువ మంది ఈ విషయం గురించి చర్చిస్తున్నారు.
 
 **ట్రెండింగ్ వివరాలు:**
-
-ఈ వార్త భారతదేశంలో, ముఖ్యంగా తెలుగు రాష్ట్రాల్లో పెద్ద ఎత్తున వైరల్ అవుతోంది. సోషల్ మీడియా ప్లాట్‌ఫారమ్‌లలో అభిమానులు మరియు యూజర్లు ఈ టాపిక్‌పై తమ అభిప్రాయాలను షేర్ చేస్తున్నారు.
+ఈ వార్త భారతదేశంలో, ముఖ్యంగా తెలుగు రాష్ట్రాల్లో పెద్ద ఎత్తున వైరల్ అవుతోంది.
 
 **సోషల్ మీడియా రియాక్షన్లు:**
-
-ట్విట్టర్, ఫేస్‌బుక్, ఇన్‌స్టాగ్రామ్‌లో ఈ వార్త టాప్ ట్రెండ్‌గా ఉంది. వేలాది మంది యూజర్లు ఈ విషయంపై చర్చిస్తున్నారు.
-
-**ముందుకు:**
-
-ఈ విషయంలో మరిన్ని అప్‌డేట్లు వచ్చినప్పుడు మేము మీకు తెలియజేస్తాము.
+ట్విట్టర్, ఫేస్‌బుక్, ఇన్‌స్టాగ్రామ్‌లో ఈ వార్త టాప్ ట్రెండ్‌గా ఉంది.
 
 📣 ఈ వార్తపై మీ అభిప్రాయం ఏమిటి? కామెంట్స్‌లో మీ థాట్స్ షేర్ చేయండి!`;
-
-  return {
-    title: trend.title,
-    slug: `trending-${slug}-${timestamp}`,
-    telugu_body: body,
-    category: 'trending' as const,
-    status: 'draft' as const,
-    image_urls: [] as string[],
-  };
 }
 
 /**

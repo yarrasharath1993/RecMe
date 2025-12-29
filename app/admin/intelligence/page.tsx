@@ -207,31 +207,39 @@ export default function IntelligenceDashboard() {
                 <h2 className="text-lg font-bold text-white">Top Trending Topics</h2>
               </div>
               <div className="space-y-3">
-                {trendClusters
-                  .filter(c => !c.is_saturated)
-                  .slice(0, 8)
-                  .map((cluster, i) => (
-                    <div
-                      key={cluster.id}
-                      className="flex items-center justify-between p-3 bg-gray-800 rounded-lg"
-                    >
-                      <div className="flex items-center gap-3">
-                        <span className="text-sm text-gray-500 w-5">{i + 1}</span>
-                        <div>
-                          <span className="text-white">{cluster.cluster_name}</span>
-                          <span className="text-xs text-gray-500 ml-2">
-                            ({cluster.total_signals} signals)
+                {trendClusters.length === 0 ? (
+                  <p className="text-gray-500 text-center py-8">
+                    No trends yet. Click "Sync Now" to fetch latest data.
+                  </p>
+                ) : (
+                  trendClusters
+                    .filter(c => !c.is_saturated)
+                    .slice(0, 8)
+                    .map((cluster, i) => (
+                      <div
+                        key={cluster.id}
+                        className="flex items-center justify-between p-3 bg-gray-800 rounded-lg"
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm text-gray-500 w-5">{i + 1}</span>
+                          <div>
+                            <span className="text-white">
+                              {formatClusterName(cluster.cluster_name)}
+                            </span>
+                            <span className="text-xs text-gray-500 ml-2">
+                              ({cluster.total_signals} signals)
+                            </span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <TrendMeter score={cluster.avg_score} />
+                          <span className="text-xs px-2 py-0.5 bg-blue-500/20 text-blue-400 rounded">
+                            {cluster.category || 'General'}
                           </span>
                         </div>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <TrendMeter score={cluster.avg_score} />
-                        <span className="text-xs px-2 py-0.5 bg-blue-500/20 text-blue-400 rounded">
-                          {cluster.category || 'General'}
-                        </span>
-                      </div>
-                    </div>
-                  ))}
+                    ))
+                )}
               </div>
             </section>
 
@@ -373,6 +381,16 @@ export default function IntelligenceDashboard() {
       )}
     </div>
   );
+}
+
+// ===== HELPERS =====
+
+function formatClusterName(name: string): string {
+  // Convert snake_case to Title Case
+  return name
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 }
 
 // ===== COMPONENTS =====

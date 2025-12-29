@@ -21,7 +21,7 @@ export async function GET() {
   }
 }
 
-// POST: Import trends as drafts
+// POST: Import trends as drafts with AI-generated content
 export async function POST() {
   try {
     // Fetch trends
@@ -34,10 +34,19 @@ export async function POST() {
       });
     }
 
-    // Convert to post drafts
-    const drafts = trends.map(trendToPostDraft);
+    console.log(`Processing ${trends.length} trends with AI content generation...`);
 
-    // Insert into Supabase (ignore duplicates based on slug)
+    // Convert to post drafts with AI content (process sequentially to avoid rate limits)
+    const drafts = [];
+    for (const trend of trends.slice(0, 10)) { // Limit to 10 to avoid timeouts
+      console.log(`Generating content for: ${trend.title}`);
+      const draft = await trendToPostDraft(trend);
+      drafts.push(draft);
+    }
+
+    console.log(`Generated ${drafts.length} drafts, inserting to database...`);
+
+    // Insert into Supabase
     const { data, error } = await supabase
       .from('posts')
       .insert(drafts)
@@ -46,7 +55,6 @@ export async function POST() {
     if (error) {
       // If duplicate slug error, try with unique slugs
       if (error.code === '23505') {
-        // Generate more unique slugs and retry
         const uniqueDrafts = drafts.map(draft => ({
           ...draft,
           slug: `${draft.slug}-${Math.random().toString(36).substring(2, 7)}`,
@@ -66,7 +74,7 @@ export async function POST() {
         }
 
         return NextResponse.json({
-          message: 'Trends imported as drafts',
+          message: 'Trends imported as drafts with AI content',
           count: retryData?.length || 0,
           drafts: retryData,
         });
@@ -80,7 +88,7 @@ export async function POST() {
     }
 
     return NextResponse.json({
-      message: 'Trends imported as drafts',
+      message: 'Trends imported as drafts with AI content',
       count: data?.length || 0,
       drafts: data,
     });
