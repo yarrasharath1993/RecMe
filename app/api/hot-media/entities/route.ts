@@ -1,6 +1,6 @@
 // Hot Media Entities API - Fetch actresses, anchors, influencers
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase-server';
+import { createServerSupabaseClient } from '@/lib/supabase-server';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
   const verified = searchParams.get('verified');
   
   try {
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     
     let query = supabase
       .from('media_entities')

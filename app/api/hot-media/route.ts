@@ -1,6 +1,6 @@
 // Hot Media API - CRUD operations for glamour content
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase-server';
+import { createServerSupabaseClient } from '@/lib/supabase-server';
 import { fetchMediaFromUrl, validateUrl } from '@/lib/hot-media/embed-validator';
 import { analyzeGlamContent, suggestCategory, suggestTags } from '@/lib/hot-media/ai-caption-generator';
 import { checkContentSafety, getSafetyBadge } from '@/lib/hot-media/safety-checker';
@@ -24,7 +24,7 @@ export async function GET(request: NextRequest) {
   const sortOrder = searchParams.get('order') || 'desc';
   
   try {
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     
     let query = supabase
       .from('hot_media')
@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
     // Get entity info if entity_id provided
     let entityInfo = { name: entity_name || 'Celebrity', type: 'actress' };
     if (entity_id) {
-      const supabase = await createClient();
+      const supabase = await createServerSupabaseClient();
       const { data: entity } = await supabase
         .from('media_entities')
         .select('name_en, entity_type')
@@ -147,7 +147,7 @@ export async function POST(request: NextRequest) {
     };
     
     // Insert into database
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     const { data, error } = await supabase
       .from('hot_media')
       .insert(mediaRecord)

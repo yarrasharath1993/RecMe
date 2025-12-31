@@ -1,6 +1,6 @@
 // Hot Media API - Single item operations
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase-server';
+import { createServerSupabaseClient } from '@/lib/supabase-server';
 import { getSafetyBadge } from '@/lib/hot-media/safety-checker';
 
 export const runtime = 'nodejs';
@@ -14,7 +14,7 @@ export async function GET(
   const { id } = await params;
   
   try {
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     
     const { data, error } = await supabase
       .from('hot_media')
@@ -74,7 +74,7 @@ export async function PATCH(
       updateData.published_at = new Date().toISOString();
     }
     
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     const { data, error } = await supabase
       .from('hot_media')
       .update(updateData)
@@ -105,7 +105,7 @@ export async function DELETE(
   const { id } = await params;
   
   try {
-    const supabase = await createClient();
+    const supabase = await createServerSupabaseClient();
     
     const { error } = await supabase
       .from('hot_media')
