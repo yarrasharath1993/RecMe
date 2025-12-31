@@ -66,7 +66,7 @@ export function NewsCard({ post, featured = false }: NewsCardProps) {
           />
           {/* Category Badge */}
           <div className="absolute top-2 left-2">
-            <span 
+            <span
               className="px-2 py-0.5 rounded text-[10px] font-bold text-white uppercase"
               style={{ backgroundColor: categoryColors[post.category] }}
             >
@@ -87,7 +87,7 @@ export function NewsCard({ post, featured = false }: NewsCardProps) {
           </h3>
 
           {featured && post.telugu_body && (
-            <p 
+            <p
               className="mt-1.5 text-xs line-clamp-2"
               style={{ color: 'var(--text-secondary)' }}
             >
@@ -96,7 +96,7 @@ export function NewsCard({ post, featured = false }: NewsCardProps) {
           )}
 
           {/* Meta */}
-          <div 
+          <div
             className="flex items-center gap-3 mt-2 text-[10px]"
             style={{ color: 'var(--text-tertiary)' }}
           >
@@ -126,31 +126,31 @@ export function NewsCardSkeleton({ featured = false }: { featured?: boolean }) {
         border: '1px solid var(--border-primary)'
       }}
     >
-      <div 
+      <div
         className={featured ? 'aspect-video' : 'aspect-[16/10]'}
         style={{ background: 'var(--bg-tertiary)' }}
       />
       <div className="p-3 space-y-2">
-        <div 
+        <div
           className="h-4 rounded w-3/4"
           style={{ background: 'var(--bg-tertiary)' }}
         />
-        <div 
+        <div
           className="h-4 rounded w-1/2"
           style={{ background: 'var(--bg-tertiary)' }}
         />
         {featured && (
-          <div 
+          <div
             className="h-3 rounded w-full"
             style={{ background: 'var(--bg-tertiary)' }}
           />
         )}
         <div className="flex gap-3 pt-1">
-          <div 
+          <div
             className="h-3 rounded w-16"
             style={{ background: 'var(--bg-tertiary)' }}
           />
-          <div 
+          <div
             className="h-3 rounded w-12"
             style={{ background: 'var(--bg-tertiary)' }}
           />

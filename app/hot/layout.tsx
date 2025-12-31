@@ -13,7 +13,7 @@ export default function HotLayout({
 }) {
   return (
     <div className="hot-section" data-no-ads="true" data-ad-free="true">
-      {/* 
+      {/*
         AD-FREE SECTION
         This layout explicitly excludes AdSense slots to:
         1. Comply with AdSense content policies for glamour content
@@ -21,10 +21,9 @@ export default function HotLayout({
         3. Avoid any monetization policy violations
       */}
       {children}
-      
+
       {/* NO AdSense containers in this section */}
       {/* If you need to add ads later, create a separate monetization strategy */}
     </div>
   );
 }
-

@@ -332,37 +332,56 @@ function TrendingItem({ post, rank, onClick }: { post: MediaPost; rank: number; 
   );
 }
 
-// Social Buzz Item
+// Social Buzz Item - Compact vertical layout
 function SocialItem({ post, onClick }: { post: MediaPost; onClick: () => void }) {
   const isTweet = post.media_type === 'twitter_post';
+  const isReel = post.media_type === 'instagram_reel';
 
   return (
     <div
       onClick={onClick}
-      className="flex-shrink-0 w-64 p-3 rounded-lg cursor-pointer group transition-colors"
+      className="flex items-center gap-2 p-2 rounded-lg cursor-pointer group transition-colors hover:bg-[var(--bg-hover)]"
       style={{ background: 'var(--bg-secondary)' }}
     >
-      <div className="flex items-start gap-2">
-        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-          isTweet ? 'bg-blue-500/20 text-blue-400' : 'bg-pink-500/20 text-pink-400'
-        }`}>
-          {isTweet ? <Twitter className="w-4 h-4" /> : <Instagram className="w-4 h-4" />}
-        </div>
-        <div className="flex-1 min-w-0">
-          <h4
-            className="text-xs font-medium line-clamp-2 group-hover:underline"
-            style={{ color: 'var(--text-primary)' }}
-          >
-            {post.title}
-          </h4>
-          <p className="text-xs mt-1 line-clamp-1" style={{ color: 'var(--text-secondary)' }}>
-            {post.caption}
-          </p>
-          <div className="flex items-center gap-2 mt-1 text-xs" style={{ color: 'var(--text-tertiary)' }}>
-            <span className="flex items-center gap-0.5">
-              <Heart className="w-3 h-3" /> {formatNumber(post.likes || 0)}
-            </span>
+      {/* Thumbnail or Platform Icon */}
+      <div className="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+        {(post.thumbnail_url || post.image_url) ? (
+          <Image
+            src={post.thumbnail_url || post.image_url || ''}
+            alt=""
+            fill
+            className="object-cover"
+            unoptimized
+          />
+        ) : (
+          <div className={`w-full h-full flex items-center justify-center ${
+            isTweet ? 'bg-blue-500/20' : 'bg-pink-500/20'
+          }`}>
+            {isTweet ? <Twitter className="w-5 h-5 text-blue-400" /> : <Instagram className="w-5 h-5 text-pink-400" />}
           </div>
+        )}
+        {isReel && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+            <Play className="w-4 h-4 text-white" />
+          </div>
+        )}
+      </div>
+      
+      {/* Content */}
+      <div className="flex-1 min-w-0">
+        <h4
+          className="text-xs font-medium line-clamp-1 group-hover:underline"
+          style={{ color: 'var(--text-primary)' }}
+        >
+          {post.title || post.caption || 'Viral Post'}
+        </h4>
+        <div className="flex items-center gap-2 mt-0.5 text-xs" style={{ color: 'var(--text-tertiary)' }}>
+          <span className={`flex items-center gap-0.5 ${isTweet ? 'text-blue-400' : 'text-pink-400'}`}>
+            {isTweet ? <Twitter className="w-3 h-3" /> : <Instagram className="w-3 h-3" />}
+          </span>
+          <span className="flex items-center gap-0.5">
+            <Heart className="w-3 h-3" /> {formatNumber(post.likes || 0)}
+          </span>
         </div>
       </div>
     </div>
@@ -691,7 +710,7 @@ export default function HotMediaPage() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-3 py-4 space-y-6">
+      <div className="max-w-7xl mx-auto px-3 py-3 space-y-4">
         {/* ========== TOP SECTION: Featured + Trending + Social ========== */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* Main Featured - Takes more space */}
@@ -724,21 +743,29 @@ export default function HotMediaPage() {
             </HorizontalCarousel>
           </div>
 
-          {/* Social Buzz */}
+          {/* Social Buzz - Vertical Column Layout */}
           <div className="lg:col-span-3">
-            <HorizontalCarousel
-              title="Social Buzz"
-              icon={<Share2 className="w-4 h-4 text-pink-500" />}
-              showAll
-              onShowAll={() => setActiveTab('social')}
-            >
-              {socialPosts.map((post) => (
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="flex items-center gap-2 font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>
+                <Share2 className="w-4 h-4 text-pink-500" />
+                Social Buzz
+              </h3>
+              <button
+                onClick={() => setActiveTab('social')}
+                className="text-xs hover:underline"
+                style={{ color: 'var(--brand-primary)' }}
+              >
+                View All →
+              </button>
+            </div>
+            <div className="flex flex-col gap-1.5 max-h-[320px] overflow-y-auto scrollbar-hide">
+              {socialPosts.slice(0, 8).map((post) => (
                 <SocialItem key={post.id} post={post} onClick={() => setSelectedPost(post)} />
               ))}
               {socialPosts.length === 0 && (
-                <p className="text-xs py-8 px-4" style={{ color: 'var(--text-tertiary)' }}>No social posts yet</p>
+                <p className="text-xs py-4 text-center" style={{ color: 'var(--text-tertiary)' }}>No social posts yet</p>
               )}
-            </HorizontalCarousel>
+            </div>
           </div>
         </div>
 
@@ -902,14 +929,16 @@ export default function HotMediaPage() {
                 ))}
               </div>
 
-              <div ref={loadMoreRef} className="h-8 mt-6">
+              {/* Minimal Load More Indicator */}
+              <div ref={loadMoreRef} className="h-4 mt-3 flex items-center justify-center">
                 {loading && (
-                  <div className="flex justify-center">
-                    <div className="animate-spin w-6 h-6 border-2 rounded-full" style={{ borderColor: 'var(--brand-primary)', borderTopColor: 'transparent' }} />
+                  <div className="flex items-center gap-2">
+                    <div className="animate-spin w-4 h-4 border-2 rounded-full" style={{ borderColor: 'var(--brand-primary)', borderTopColor: 'transparent' }} />
+                    <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>Loading...</span>
                   </div>
                 )}
                 {!hasMore && posts.length > 0 && (
-                  <p className="text-center text-xs" style={{ color: 'var(--text-tertiary)' }}>End of content</p>
+                  <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>• End •</span>
                 )}
               </div>
             </>

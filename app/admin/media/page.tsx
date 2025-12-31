@@ -515,7 +515,7 @@ function AddMediaModal({
                     type="button"
                     onClick={() => {
                       // Find matching entity
-                      const match = entities.find(e => 
+                      const match = entities.find(e =>
                         e.name_en.toLowerCase().includes(actress.name.toLowerCase()) ||
                         e.instagram_handle === actress.instagram
                       );

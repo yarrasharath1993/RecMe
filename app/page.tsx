@@ -53,7 +53,7 @@ async function getHotMedia() {
     .eq('status', 'approved')
     .order('trending_score', { ascending: false })
     .limit(10);
-  
+
   return data || [];
 }
 
@@ -61,7 +61,7 @@ export const revalidate = 60;
 
 export default async function HomePage() {
   const [posts, popularPosts, hotMedia] = await Promise.all([
-    getPosts(), 
+    getPosts(),
     getPopularPosts(),
     getHotMedia()
   ]);
@@ -74,9 +74,9 @@ export default async function HomePage() {
   return (
     <main style={{ backgroundColor: 'var(--bg-primary)', minHeight: '100vh' }}>
       {/* Hero Tagline */}
-      <section 
+      <section
         className="border-b"
-        style={{ 
+        style={{
           background: 'linear-gradient(90deg, rgba(234,179,8,0.1), rgba(249,115,22,0.05), rgba(236,72,153,0.1))',
           borderColor: 'var(--border-primary)'
         }}
@@ -102,8 +102,8 @@ export default async function HomePage() {
                 <Flame className="w-4 h-4 text-orange-500" />
                 🔥 Hot & Trending
               </h2>
-              <Link 
-                href="/hot" 
+              <Link
+                href="/hot"
                 className="text-xs hover:underline"
                 style={{ color: 'var(--brand-primary)' }}
               >
@@ -134,7 +134,7 @@ export default async function HomePage() {
                       </div>
                     )}
                     <div className="absolute bottom-2 left-2 right-2">
-                      <span 
+                      <span
                         className="inline-block px-1.5 py-0.5 text-[10px] font-bold rounded uppercase mb-1"
                         style={{ background: 'var(--brand-primary)', color: 'var(--bg-primary)' }}
                       >
@@ -142,7 +142,7 @@ export default async function HomePage() {
                       </span>
                     </div>
                   </div>
-                  <h4 
+                  <h4
                     className="text-xs font-medium line-clamp-2 group-hover:underline"
                     style={{ color: 'var(--text-primary)' }}
                   >
@@ -177,7 +177,7 @@ export default async function HomePage() {
           {/* Sidebar - 1/3 */}
           <div className="space-y-4">
             {/* Quick Links */}
-            <div 
+            <div
               className="rounded-xl p-4"
               style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)' }}
             >
@@ -212,7 +212,7 @@ export default async function HomePage() {
 
 function QuickLink({ href, icon, label, color }: { href: string; icon: React.ReactNode; label: string; color: string }) {
   return (
-    <Link 
+    <Link
       href={href}
       className="flex items-center gap-2 px-3 py-2 rounded-lg transition-colors"
       style={{ background: 'var(--bg-tertiary)' }}
@@ -225,11 +225,11 @@ function QuickLink({ href, icon, label, color }: { href: string; icon: React.Rea
 
 function EmptyState() {
   return (
-    <div 
+    <div
       className="rounded-xl p-12 text-center"
-      style={{ 
-        background: 'var(--bg-secondary)', 
-        border: '1px solid var(--border-primary)' 
+      style={{
+        background: 'var(--bg-secondary)',
+        border: '1px solid var(--border-primary)'
       }}
     >
       <div className="text-6xl mb-4">📰</div>
@@ -242,9 +242,9 @@ function EmptyState() {
       <a
         href="/admin"
         className="inline-block px-6 py-3 font-bold rounded-lg transition-colors"
-        style={{ 
-          background: 'var(--brand-primary)', 
-          color: 'var(--bg-primary)' 
+        style={{
+          background: 'var(--brand-primary)',
+          color: 'var(--bg-primary)'
         }}
       >
         అడ్మిన్ డాష్‌బోర్డ్ కు వెళ్ళండి
@@ -262,7 +262,7 @@ function NewsFeed({ featuredPost, posts }: { featuredPost: Post; posts: Post[] }
       {/* Section Header */}
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-bold flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
-          <span 
+          <span
             className="w-1 h-5 rounded-full"
             style={{ background: 'var(--brand-primary)' }}
           />
@@ -317,11 +317,11 @@ function NewsFeed({ featuredPost, posts }: { featuredPost: Post; posts: Post[] }
       {/* Load More */}
       {posts.length >= 6 && (
         <div className="text-center pt-2">
-          <button 
+          <button
             className="px-6 py-2.5 rounded-lg transition-colors text-sm font-medium"
-            style={{ 
-              background: 'var(--bg-tertiary)', 
-              color: 'var(--text-primary)' 
+            style={{
+              background: 'var(--bg-tertiary)',
+              color: 'var(--text-primary)'
             }}
           >
             మరిన్ని వార్తలు చూడండి →
@@ -341,7 +341,7 @@ function CategoryPill({
   href?: string;
   active?: boolean;
 }) {
-  const style = active 
+  const style = active
     ? { background: 'var(--brand-primary)', color: 'var(--bg-primary)' }
     : { background: 'var(--bg-tertiary)', color: 'var(--text-secondary)' };
 

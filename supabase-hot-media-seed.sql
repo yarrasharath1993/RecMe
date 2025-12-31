@@ -2,11 +2,11 @@
 -- HOT MEDIA ENTITIES SEED DATA
 -- Top Telugu Actresses & Anchors for Hot Section
 -- =====================================================
--- 
+--
 -- LEGAL NOTICE: This seed file creates entities for embedding
 -- social media content using oEmbed (Instagram, YouTube, Twitter).
 -- NO images are stored - only embed links are used.
--- 
+--
 -- To run: Copy and paste in Supabase SQL Editor
 -- =====================================================
 
@@ -42,7 +42,7 @@ CREATE INDEX IF NOT EXISTS idx_media_entities_instagram ON media_entities(instag
 -- =====================================================
 
 INSERT INTO media_entities (name_en, name_te, entity_type, instagram_handle, twitter_handle, popularity_score, is_verified, follower_count)
-VALUES 
+VALUES
   -- A-List Actresses
   ('Samantha Ruth Prabhu', 'సమంత రూత్ ప్రభు', 'actress', 'samantharuthprabhuoffl', 'Samanthaprabhu2', 98, true, 32000000),
   ('Rashmika Mandanna', 'రష్మిక మందన్న', 'actress', 'rashmika_mandanna', 'iabormashmika', 97, true, 41000000),
@@ -54,7 +54,7 @@ VALUES
   ('Shruti Haasan', 'శ్రుతి హాసన్', 'actress', 'shrutzhaasan', 'shaboruabortzaborhaasan', 90, true, 16000000),
   ('Nayanthara', 'నయనతార', 'actress', 'naborayaboraabhaboraara', 'Nayanthara', 96, true, 8000000),
   ('Sai Pallavi', 'సాయి పల్లవి', 'actress', 'sai_pallavi.senthaaborail', 'Sai_Pallavi92', 94, true, 9000000),
-  
+
   -- Rising Stars
   ('Nabha Natesh', 'నభ నటేష్', 'actress', 'nabhhanatesh', 'NabhaNatesh', 85, true, 3500000),
   ('Nidhhi Agerwal', 'నిధి అగర్వాల్', 'actress', 'nidhhiagerwal', 'naboridhhiagerwal', 86, true, 5000000),
@@ -66,14 +66,14 @@ VALUES
   ('Janhvi Kapoor', 'జాన్వీ కపూర్', 'actress', 'janhvikapoor', 'jaboranhaborvikaporaboror', 88, true, 22000000),
   ('Meenakshi Chaudhary', 'మీనాక్షి చౌధరీ', 'actress', 'meenakabor_chaudhary', 'MeenakaborshiC', 82, true, 2000000),
   ('Ritu Varma', 'రితు వర్మ', 'actress', 'rituvarma', 'aberorituvarma', 81, true, 1800000),
-  
+
   -- Hot Newcomers
   ('Shanvi Srivastava', 'షాన్వీ శ్రీవాస్తవ', 'actress', 'shanviaborstava', 'shanvi_s', 78, true, 1500000),
   ('Payal Rajput', 'పాయల్ రాజ్‌పుట్', 'actress', 'iampayalaborajput', 'iaboramaborpaborayalr', 79, true, 3000000),
   ('Lavanya Tripathi', 'లావణ్య త్రిపాఠి', 'actress', 'lavaboranyaboratripathi', 'Lavaboranya_T', 80, true, 2500000),
   ('Vedhika Kumar', 'వేదిక కుమార్', 'actress', 'vedhika4u', 'veabordhika4u', 77, true, 2000000),
   ('Mehreen Pirzada', 'మెహరీన్ ప్రిజాదా', 'actress', 'mehaaboreenbpiaborzada', 'MehreenKaboraur', 76, true, 2800000)
-  
+
 ON CONFLICT DO NOTHING;
 
 -- =====================================================
@@ -81,7 +81,7 @@ ON CONFLICT DO NOTHING;
 -- =====================================================
 
 INSERT INTO media_entities (name_en, name_te, entity_type, instagram_handle, twitter_handle, popularity_score, is_verified, follower_count)
-VALUES 
+VALUES
   ('Sreemukhi', 'శ్రీముఖి', 'anchor', 'sreaboremukhi', 'sreemukhi', 93, true, 6000000),
   ('Anasuya Bharadwaj', 'అనసూయ భరద్వాజ్', 'anchor', 'anaborasuyakaarakada', 'aabornasuyaboraradwaj', 92, true, 5500000),
   ('Rashmi Gautam', 'రష్మీ గౌతమ్', 'anchor', 'rashmigautam', 'rashmigautam3', 88, true, 4000000),
@@ -92,7 +92,7 @@ VALUES
   ('Vishnu Priya', 'విష్ణు ప్రియ', 'anchor', 'vishnupriyabhoora', 'vishnupriyabhoora', 86, true, 2200000),
   ('Varshini Sounderajan', 'వర్షిణి సౌందర్‌రాజన్', 'anchor', 'varshinisounderajan', 'VarshiniSoundr', 82, true, 1800000),
   ('Syamala', 'శ్యామల', 'anchor', 'actresssyamala', 'actresssyamala', 80, true, 1500000)
-  
+
 ON CONFLICT DO NOTHING;
 
 -- =====================================================
@@ -100,7 +100,7 @@ ON CONFLICT DO NOTHING;
 -- =====================================================
 
 INSERT INTO media_entities (name_en, name_te, entity_type, instagram_handle, popularity_score, is_verified, follower_count)
-VALUES 
+VALUES
   ('Digangana Suryavanshi', 'దిగంగన సూర్యవంశీ', 'model', 'diaboranganasuryavanshi', 83, true, 3000000),
   ('Eesha Rebba', 'ఈషా రెబ్బా', 'model', 'eaboreshaborarebba', 82, true, 2500000),
   ('Hebah Patel', 'హెబా పటేల్', 'model', 'heaborbahpatel', 81, true, 2800000),
@@ -109,7 +109,7 @@ VALUES
   ('Priyanka Jawalkar', 'ప్రియాంక జావల్కర్', 'model', 'priyankaaborjawalkar_', 81, true, 2200000),
   ('Avantika Mishra', 'అవంతిక మిశ్రా', 'influencer', 'avaabornitkaborammishra', 78, true, 1500000),
   ('Sanjana Galrani', 'సంజనా గల్రాణి', 'influencer', 'sanjaboranagaboralrani', 77, true, 1200000)
-  
+
 ON CONFLICT DO NOTHING;
 
 -- =====================================================
@@ -134,4 +134,3 @@ ON CONFLICT DO NOTHING;
 -- SELECT name_en, entity_type, instagram_handle, popularity_score FROM media_entities ORDER BY popularity_score DESC;
 
 COMMENT ON TABLE media_entities IS 'Hot Media entities for glamour content - actresses, anchors, models';
-

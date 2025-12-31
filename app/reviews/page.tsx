@@ -79,15 +79,15 @@ export default function ReviewsPage() {
   }, [searchQuery]);
 
   return (
-    <main className="min-h-screen bg-[#0a0a0a] pb-20">
+    <main className="min-h-screen pb-20" style={{ backgroundColor: 'var(--bg-primary)' }}>
       {/* Hero Section */}
-      <section className="relative py-12 px-4 bg-gradient-to-b from-yellow-500/10 to-transparent">
+      <section className="relative py-8 px-4" style={{ background: 'linear-gradient(180deg, rgba(234,179,8,0.1), transparent)' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-3 mb-4">
-            <Film className="w-10 h-10 text-yellow-500" />
-            <h1 className="text-4xl font-bold text-white">మూవీ రివ్యూలు</h1>
+          <div className="flex items-center gap-3 mb-3">
+            <Film className="w-8 h-8" style={{ color: 'var(--brand-primary)' }} />
+            <h1 className="text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>మూవీ రివ్యూలు</h1>
           </div>
-          <p className="text-gray-400 max-w-2xl">
+          <p className="max-w-2xl text-sm" style={{ color: 'var(--text-secondary)' }}>
             In-depth Telugu movie reviews covering direction, screenplay, acting, music,
             and cinematography. Find your next watch based on our expert analysis.
           </p>
@@ -95,7 +95,7 @@ export default function ReviewsPage() {
       </section>
 
       {/* Quick Filters */}
-      <section className="sticky top-0 z-30 bg-[#0a0a0a]/95 backdrop-blur-lg border-b border-gray-800">
+      <section className="sticky top-0 z-30 backdrop-blur-lg border-b" style={{ backgroundColor: 'var(--bg-primary)', borderColor: 'var(--border-primary)', opacity: 0.98 }}>
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-wrap items-center gap-3">
             {/* Search */}

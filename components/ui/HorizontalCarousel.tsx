@@ -63,7 +63,7 @@ export function HorizontalCarousel({
       {/* Header */}
       {title && (
         <div className="flex items-center justify-between mb-2 px-1">
-          <h3 
+          <h3
             className="flex items-center gap-2 text-sm font-semibold"
             style={{ color: 'var(--text-primary)' }}
           >
@@ -72,7 +72,7 @@ export function HorizontalCarousel({
           </h3>
           {(showAllHref || onShowAll) && (
             showAllHref ? (
-              <a 
+              <a
                 href={showAllHref}
                 className="text-xs hover:underline"
                 style={{ color: 'var(--brand-primary)' }}
@@ -80,7 +80,7 @@ export function HorizontalCarousel({
                 View All →
               </a>
             ) : (
-              <button 
+              <button
                 onClick={onShowAll}
                 className="text-xs hover:underline"
                 style={{ color: 'var(--brand-primary)' }}
@@ -94,7 +94,7 @@ export function HorizontalCarousel({
 
       {/* Scroll Container */}
       <div className="relative">
-        <div 
+        <div
           ref={scrollRef}
           className={`flex ${gapClass} overflow-x-auto scrollbar-hide scroll-smooth pb-1`}
         >
@@ -106,8 +106,8 @@ export function HorizontalCarousel({
           <button
             onClick={() => scroll('left')}
             className="absolute left-0 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg"
-            style={{ 
-              background: 'var(--bg-primary)', 
+            style={{
+              background: 'var(--bg-primary)',
               color: 'var(--text-primary)',
               border: '1px solid var(--border-primary)'
             }}
@@ -119,8 +119,8 @@ export function HorizontalCarousel({
           <button
             onClick={() => scroll('right')}
             className="absolute right-0 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg"
-            style={{ 
-              background: 'var(--bg-primary)', 
+            style={{
+              background: 'var(--bg-primary)',
               color: 'var(--text-primary)',
               border: '1px solid var(--border-primary)'
             }}
@@ -169,7 +169,7 @@ export function CarouselCard({
   }[width];
 
   return (
-    <a 
+    <a
       href={href}
       className={`flex-shrink-0 ${widthClass} group cursor-pointer`}
     >
@@ -181,22 +181,22 @@ export function CarouselCard({
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
-          <div 
+          <div
             className="w-full h-full"
             style={{ background: 'var(--bg-tertiary)' }}
           />
         )}
-        
+
         {/* Gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-        
+
         {/* Badge */}
         {badge && (
-          <span 
+          <span
             className="absolute top-1.5 left-1.5 px-1.5 py-0.5 text-[10px] font-bold rounded uppercase"
-            style={{ 
-              background: badgeColor, 
-              color: badgeColor === 'var(--brand-primary)' ? 'var(--bg-primary)' : 'white' 
+            style={{
+              background: badgeColor,
+              color: badgeColor === 'var(--brand-primary)' ? 'var(--bg-primary)' : 'white'
             }}
           >
             {badge}
@@ -206,8 +206,8 @@ export function CarouselCard({
         {/* Custom overlay */}
         {overlay}
       </div>
-      
-      <h4 
+
+      <h4
         className="text-xs font-medium line-clamp-2 group-hover:underline"
         style={{ color: 'var(--text-primary)' }}
       >
@@ -216,4 +216,3 @@ export function CarouselCard({
     </a>
   );
 }
-
