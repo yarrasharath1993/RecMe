@@ -7,6 +7,7 @@ import {
   ArrowLeft, Edit, Trash2, Calendar, Film, Star,
   Check, X, ExternalLink, Cake, Heart
 } from 'lucide-react';
+import { SocialProfilesTab } from '@/components/admin/SocialProfilesTab';
 
 interface Celebrity {
   id: string;
@@ -246,6 +247,12 @@ export default function CelebrityDetailPage({ params }: { params: Promise<{ id: 
               </div>
             )}
           </div>
+
+          {/* Social Profiles */}
+          <SocialProfilesTab 
+            celebrityId={id} 
+            celebrityName={celebrity.name_en} 
+          />
         </div>
 
         {/* Right Column - Sidebar */}
