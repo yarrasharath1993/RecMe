@@ -45,7 +45,8 @@
     "discover:dry": "npx tsx scripts/discover-entities.ts --dry",
     "discover:wikidata": "npx tsx scripts/discover-entities.ts --source=wikidata",
     "discover:rank": "npx tsx scripts/discover-entities.ts --rank-only",
-    "discover:full": "npx tsx scripts/discover-entities.ts --verbose"
+    "discover:full": "npx tsx scripts/discover-entities.ts --verbose",
+    "hot:populate": "npx tsx scripts/populate-hot-media.ts"
   },
   "dependencies": {
     "@auth/core": "^0.41.0",
