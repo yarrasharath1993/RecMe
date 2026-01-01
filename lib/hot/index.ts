@@ -8,6 +8,12 @@
 // Source Engine - Metadata fetching from multiple sources
 export * from './source-engine';
 
+// Entity Discovery - Auto-discover celebrities from Wikidata/TMDB
+export * from './entity-discovery';
+
+// Ranking Engine - Hot score calculation and candidate ranking
+export * from './ranking-engine';
+
 // Glamour Validation - Quality gates for glamour content
 export * from './glamour-validation';
 

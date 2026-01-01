@@ -40,7 +40,12 @@
     "ingest:social:dry": "npx tsx scripts/ingest-social.ts --dry",
     "ingest:social:wikidata": "npx tsx scripts/ingest-social.ts --source=wikidata",
     "ingest:social:tmdb": "npx tsx scripts/ingest-social.ts --source=tmdb",
-    "ingest:social:update": "npx tsx scripts/ingest-social.ts --update"
+    "ingest:social:update": "npx tsx scripts/ingest-social.ts --update",
+    "discover": "npx tsx scripts/discover-entities.ts",
+    "discover:dry": "npx tsx scripts/discover-entities.ts --dry",
+    "discover:wikidata": "npx tsx scripts/discover-entities.ts --source=wikidata",
+    "discover:rank": "npx tsx scripts/discover-entities.ts --rank-only",
+    "discover:full": "npx tsx scripts/discover-entities.ts --verbose"
   },
   "dependencies": {
     "@auth/core": "^0.41.0",
