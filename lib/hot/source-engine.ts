@@ -635,3 +635,172 @@ export async function refreshStaleMetadata(
 // Export known celebrity data for other modules
 export { CELEBRITY_SOCIAL_DATA };
 
+// ============================================================================
+// INSTAGRAM oEMBED INTEGRATION (Extended for Hot & Glamour)
+// ============================================================================
+
+/**
+ * Instagram embed metadata (NO image download, oEmbed only)
+ * 
+ * Note: Instagram oEmbed requires access token since 2020.
+ * Set INSTAGRAM_ACCESS_TOKEN in .env.local after configuring Meta Developer App.
+ * See docs/INSTAGRAM-SETUP.md for setup instructions.
+ */
+export interface InstagramMetadata {
+  handle: string;
+  profile_url: string;
+  embed_available: boolean;
+  last_verified_at: string;
+}
+
+/**
+ * Fetch Instagram oEmbed for a post URL
+ * Uses authenticated API when token available, falls back to profile links
+ * 
+ * REUSE: This extends existing Instagram embed logic in lib/hot-media/instagram-embed.ts
+ */
+export async function fetchInstagramEmbed(postUrl: string): Promise<{
+  success: boolean;
+  embed_html?: string;
+  thumbnail_url?: string;
+  author_name?: string;
+  error?: string;
+}> {
+  const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
+  
+  // Extract post ID
+  const postIdMatch = postUrl.match(/\/(p|reel|tv)\/([A-Za-z0-9_-]+)/);
+  if (!postIdMatch) {
+    return { success: false, error: 'Invalid Instagram URL format' };
+  }
+  
+  const postId = postIdMatch[2];
+  const normalizedUrl = `https://www.instagram.com/p/${postId}/`;
+  
+  if (accessToken) {
+    // AUTHENTICATED oEmbed - Full data with thumbnails
+    try {
+      const params = new URLSearchParams({
+        url: normalizedUrl,
+        access_token: accessToken,
+        maxwidth: '540',
+        omitscript: 'true',
+      });
+      
+      const response = await fetch(
+        `https://graph.facebook.com/v18.0/instagram_oembed?${params}`
+      );
+      
+      if (response.ok) {
+        const data = await response.json();
+        return {
+          success: true,
+          embed_html: data.html,
+          thumbnail_url: data.thumbnail_url,
+          author_name: data.author_name,
+        };
+      }
+    } catch (error) {
+      console.warn('Authenticated Instagram oEmbed failed:', error);
+    }
+  }
+  
+  // FALLBACK: Generate link card (no auth needed)
+  // This creates a beautiful gradient card that links to Instagram
+  return {
+    success: true,
+    embed_html: `<div class="instagram-link-card" data-url="${normalizedUrl}">View on Instagram</div>`,
+    author_name: '',
+    error: accessToken ? 'oEmbed failed, using link card' : 'No access token, using link card',
+  };
+}
+
+/**
+ * Verify Instagram handle is valid (metadata only)
+ */
+export async function verifyInstagramHandle(handle: string): Promise<InstagramMetadata> {
+  const profileUrl = `https://www.instagram.com/${handle}/`;
+  
+  return {
+    handle,
+    profile_url: profileUrl,
+    embed_available: !!process.env.INSTAGRAM_ACCESS_TOKEN,
+    last_verified_at: new Date().toISOString(),
+  };
+}
+
+/**
+ * Get hot content source priority order
+ */
+export function getSourcePriority(): string[] {
+  return [
+    'instagram_embed', // If authenticated
+    'tmdb_backdrop',   // Full-body movie shots
+    'tmdb_tagged',     // Events, photoshoots
+    'youtube_thumbnail', // Song video stills
+    'wikimedia',       // CC licensed
+    'wikipedia',       // Fair use
+    'ai_generated',    // Fallback
+  ];
+}
+
+/**
+ * Hot content metadata format (as per spec)
+ */
+export interface HotContentMetadata {
+  entity_id?: string;
+  actress_name: string;
+  platform: 'instagram' | 'youtube' | 'tmdb' | 'wikimedia';
+  handle_or_id: string;
+  embed_url?: string;
+  popularity_score: number;
+  last_trending_at?: string;
+}
+
+/**
+ * Transform CelebrityMetadata to HotContentMetadata format
+ */
+export function toHotContentMetadata(celebrity: CelebrityMetadata): HotContentMetadata[] {
+  const results: HotContentMetadata[] = [];
+  
+  // Instagram
+  if (celebrity.instagram_id) {
+    results.push({
+      entity_id: celebrity.id,
+      actress_name: celebrity.name_en,
+      platform: 'instagram',
+      handle_or_id: celebrity.instagram_id,
+      embed_url: `https://www.instagram.com/${celebrity.instagram_id}/`,
+      popularity_score: celebrity.popularity_score,
+      last_trending_at: celebrity.last_seen_at,
+    });
+  }
+  
+  // TMDB
+  if (celebrity.tmdb_id) {
+    results.push({
+      entity_id: celebrity.id,
+      actress_name: celebrity.name_en,
+      platform: 'tmdb',
+      handle_or_id: String(celebrity.tmdb_id),
+      popularity_score: celebrity.popularity_score,
+      last_trending_at: celebrity.last_seen_at,
+    });
+  }
+  
+  // YouTube
+  if (celebrity.youtube_channel_id) {
+    results.push({
+      entity_id: celebrity.id,
+      actress_name: celebrity.name_en,
+      platform: 'youtube',
+      handle_or_id: celebrity.youtube_channel_id,
+      embed_url: `https://www.youtube.com/channel/${celebrity.youtube_channel_id}`,
+      popularity_score: celebrity.popularity_score,
+      last_trending_at: celebrity.last_seen_at,
+    });
+  }
+  
+  return results;
+}
+

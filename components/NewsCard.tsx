@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Clock, Eye } from 'lucide-react';
 import type { Post, Category } from '@/types/database';
+import { getCategoryMeta } from '@/lib/config/navigation';
 
 interface NewsCardProps {
   post: Post;
@@ -14,14 +15,6 @@ const categoryLabels: Record<Category, string> = {
   politics: 'రాజకీయాలు',
   entertainment: 'వినోదం',
   trending: 'ట్రెండింగ్',
-};
-
-const categoryColors: Record<Category, string> = {
-  gossip: '#ec4899',
-  sports: '#3b82f6',
-  politics: '#ef4444',
-  entertainment: '#a855f7',
-  trending: '#f59e0b',
 };
 
 function formatTimeAgo(dateString: string): string {
@@ -43,32 +36,44 @@ function formatTimeAgo(dateString: string): string {
 
 export function NewsCard({ post, featured = false }: NewsCardProps) {
   const imageUrl = post.image_url || post.image_urls?.[0] || `https://picsum.photos/seed/${post.id}/800/600`;
+  const categoryMeta = getCategoryMeta(post.category);
 
   return (
     <Link href={`/post/${post.slug}`}>
       <article
-        className={`news-card rounded-xl overflow-hidden transition-all hover:shadow-lg ${
+        className={`news-card glow-card img-zoom rounded-xl overflow-hidden transition-all group ${
           featured ? 'col-span-2 row-span-2' : ''
-        }`}
+        } glow-${post.category}`}
         style={{
           background: 'var(--bg-secondary)',
-          border: '1px solid var(--border-primary)'
+          border: '1px solid var(--border-primary)',
+          ['--category-glow' as string]: categoryMeta.glowColor,
         }}
       >
         {/* Image */}
-        <div className={`relative ${featured ? 'aspect-video' : 'aspect-[16/10]'}`}>
+        <div className={`relative ${featured ? 'aspect-video' : 'aspect-[16/10]'} overflow-hidden`}>
           <Image
             src={imageUrl}
             alt={post.title}
             fill
-            className="object-cover"
+            className="object-cover transition-transform duration-500 group-hover:scale-110"
             sizes={featured ? '(max-width: 768px) 100vw, 66vw' : '(max-width: 768px) 100vw, 33vw'}
+          />
+          {/* Gradient overlay on hover */}
+          <div 
+            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            style={{
+              background: `linear-gradient(to top, ${categoryMeta.color}40, transparent 60%)`
+            }}
           />
           {/* Category Badge */}
           <div className="absolute top-2 left-2">
             <span
-              className="px-2 py-0.5 rounded text-[10px] font-bold text-white uppercase"
-              style={{ backgroundColor: categoryColors[post.category] }}
+              className="px-2 py-0.5 rounded text-[10px] font-bold text-white uppercase shadow-lg"
+              style={{ 
+                background: `linear-gradient(135deg, ${categoryMeta.color}, ${categoryMeta.color}cc)`,
+                boxShadow: `0 2px 8px ${categoryMeta.color}50`
+              }}
             >
               {categoryLabels[post.category]}
             </span>

@@ -3,10 +3,13 @@
  *
  * Interactive Telugu cinema games.
  * Focus on nostalgia, fun, and cultural respect.
+ * Shows related Fun Corner sections below for easy browsing.
  */
 
 import Link from 'next/link';
 import { Gamepad2, Film, MessageSquareQuote, Trophy, Sparkles, Clapperboard } from 'lucide-react';
+import { RelatedSections } from '@/components/RelatedSections';
+import { BottomInfoBar } from '@/components/BottomInfoBar';
 
 const GAME_TYPES = [
   // PARTY GAMES (for groups)
@@ -172,6 +175,12 @@ export default function GamesPage() {
           </div>
         </div>
       </div>
+
+      {/* Related Sections from Fun Corner */}
+      <RelatedSections currentSectionId="games" />
+
+      {/* Bottom Info Bar */}
+      <BottomInfoBar />
     </div>
   );
 }

@@ -3,18 +3,22 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import {
   Flame, Camera, ChevronLeft, ChevronRight, TrendingUp, Heart,
-  Eye, Play, X, Star, Sparkles, Grid3X3
+  Eye, Play, X, Star, Sparkles, Grid3X3, Settings, HeartOff
 } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useHotPersonalization, type HotMediaItem } from '@/lib/browser/useHotPersonalization';
 
 // ============== TYPES ==============
-interface GlamPost {
+interface GlamPost extends HotMediaItem {
   id: string;
   entity_name: string;
   entity_type: string;
   image_url: string;
   thumbnail_url: string;
+  embed_html?: string;
+  embed_url?: string;
+  platform: string;
   caption: string;
   category: string;
   views: number;
@@ -23,6 +27,69 @@ interface GlamPost {
   is_featured: boolean;
   is_hot: boolean;
   published_at: string;
+}
+
+// ============== INSTAGRAM LINK CARD (No Auth Workaround) ==============
+function InstagramLinkCard({ 
+  postUrl, 
+  celebrityName,
+  caption 
+}: { 
+  postUrl: string; 
+  celebrityName: string;
+  caption?: string;
+}) {
+  const handleClick = () => {
+    window.open(postUrl, '_blank', 'noopener,noreferrer');
+  };
+
+  return (
+    <div 
+      className="w-full max-w-md mx-auto rounded-xl overflow-hidden cursor-pointer transform transition-all hover:scale-[1.02]"
+      onClick={handleClick}
+      style={{
+        background: 'linear-gradient(135deg, #833AB4 0%, #E1306C 50%, #F77737 100%)',
+        minHeight: '400px',
+      }}
+    >
+      {/* Header */}
+      <div className="flex items-center gap-3 p-4 bg-black/20">
+        <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+          <span className="text-xl">📸</span>
+        </div>
+        <div>
+          <p className="text-white font-bold">{celebrityName}</p>
+          <p className="text-white/70 text-sm">Instagram</p>
+        </div>
+      </div>
+      
+      {/* Content */}
+      <div className="flex flex-col items-center justify-center p-8" style={{ minHeight: '280px' }}>
+        <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center mb-6">
+          <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <p className="text-white text-center text-lg font-medium mb-2">
+          {caption || `${celebrityName} on Instagram`}
+        </p>
+        <p className="text-white/60 text-sm mb-6">Tap to view on Instagram</p>
+        
+        {/* Button */}
+        <button className="px-6 py-3 bg-white rounded-full text-gray-900 font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors">
+          <span>View Post</span>
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </button>
+      </div>
+      
+      {/* Footer */}
+      <div className="p-4 bg-black/20 text-center">
+        <p className="text-white/50 text-xs">Opens in Instagram app or website</p>
+      </div>
+    </div>
+  );
 }
 
 // ============== AUTO CAROUSEL (5 seconds) ==============
@@ -136,6 +203,8 @@ function AutoCarousel({ posts, onSelect }: { posts: GlamPost[]; onSelect: (post:
 
 // ============== GALLERY CARD (Tupaki Style) ==============
 function GalleryCard({ post, onClick }: { post: GlamPost; onClick: () => void }) {
+  const isInstagram = post.platform === 'instagram';
+  
   return (
     <div
       onClick={onClick}
@@ -150,6 +219,23 @@ function GalleryCard({ post, onClick }: { post: GlamPost; onClick: () => void })
             fill
             className="object-cover transition-transform group-hover:scale-105"
           />
+        ) : isInstagram ? (
+          // Instagram placeholder with gradient
+          <div 
+            className="w-full h-full flex flex-col items-center justify-center gap-3 p-4"
+            style={{ 
+              background: 'linear-gradient(135deg, #833AB4 0%, #E1306C 50%, #F77737 100%)',
+            }}
+          >
+            <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+              <span className="text-3xl">📸</span>
+            </div>
+            <div className="text-center">
+              <p className="text-white font-bold text-sm">{post.entity_name}</p>
+              <p className="text-white/80 text-xs mt-1">Instagram Post</p>
+              <p className="text-white/60 text-xs mt-2">Click to view</p>
+            </div>
+          </div>
         ) : (
           <div className="w-full h-full flex items-center justify-center" style={{ background: 'var(--bg-tertiary)' }}>
             <Camera className="w-8 h-8 opacity-30" />
@@ -159,13 +245,21 @@ function GalleryCard({ post, onClick }: { post: GlamPost; onClick: () => void })
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
         
-        {/* Hot Badge */}
-        {post.is_hot && (
-          <div className="absolute top-2 right-2 px-2 py-0.5 rounded text-xs font-bold"
-            style={{ background: '#ff4444', color: 'white' }}>
-            🔥 HOT
-          </div>
-        )}
+        {/* Platform & Hot Badge */}
+        <div className="absolute top-2 right-2 flex flex-col gap-1 items-end">
+          {post.platform === 'instagram' && (
+            <div className="px-2 py-0.5 rounded text-xs font-bold"
+              style={{ background: 'linear-gradient(45deg, #833AB4, #E1306C, #F77737)', color: 'white' }}>
+              📸 IG
+            </div>
+          )}
+          {post.is_hot && (
+            <div className="px-2 py-0.5 rounded text-xs font-bold"
+              style={{ background: '#ff4444', color: 'white' }}>
+              🔥 HOT
+            </div>
+          )}
+        </div>
         
         {/* Views */}
         <div className="absolute bottom-2 right-2 flex items-center gap-1 px-2 py-1 rounded text-xs"
@@ -259,12 +353,16 @@ function Lightbox({
   post, 
   posts, 
   onClose, 
-  onNavigate 
+  onNavigate,
+  isFavorite,
+  onToggleFavorite,
 }: { 
   post: GlamPost; 
   posts: GlamPost[]; 
   onClose: () => void; 
   onNavigate: (post: GlamPost) => void;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
 }) {
   const currentIdx = posts.findIndex(p => p.id === post.id);
   const hasPrev = currentIdx > 0;
@@ -286,34 +384,61 @@ function Lightbox({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.95)' }}>
-      {/* Close */}
-      <button
-        onClick={onClose}
-        className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full flex items-center justify-center hover:bg-white/10"
-        style={{ color: 'white' }}
-      >
-        <X className="w-6 h-6" />
-      </button>
-
-      {/* Image */}
-      <div className="relative max-w-5xl max-h-[85vh] w-full mx-4">
-        <div className="relative aspect-[3/4] md:aspect-[4/3]">
-          {post.image_url && (
-            <Image
-              src={post.image_url}
-              alt={post.entity_name}
-              fill
-              className="object-contain"
-              priority
-            />
-          )}
-        </div>
+      {/* Top bar */}
+      <div className="absolute top-4 left-4 right-4 z-10 flex items-center justify-between">
+        {/* Favorite button */}
+        <button
+          onClick={onToggleFavorite}
+          className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
+            isFavorite ? 'bg-red-500 scale-110' : 'hover:bg-white/10'
+          }`}
+          style={{ color: 'white' }}
+          title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        >
+          <Heart className={`w-5 h-5 ${isFavorite ? 'fill-white' : ''}`} />
+        </button>
         
-        {/* Caption */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-          <h3 className="text-xl font-bold text-white">{post.entity_name}</h3>
-          <p className="text-white/80 text-sm">{post.caption}</p>
-        </div>
+        {/* Close */}
+        <button
+          onClick={onClose}
+          className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white/10"
+          style={{ color: 'white' }}
+        >
+          <X className="w-6 h-6" />
+        </button>
+      </div>
+
+      {/* Content */}
+      <div className="relative max-w-5xl max-h-[85vh] w-full mx-4 overflow-y-auto">
+        {/* Instagram Link Card (No Auth Workaround) */}
+        {post.platform === 'instagram' && post.embed_url ? (
+          <div className="flex flex-col items-center py-4">
+            <InstagramLinkCard 
+              postUrl={post.embed_url} 
+              celebrityName={post.entity_name}
+              caption={post.caption}
+            />
+          </div>
+        ) : (
+          <>
+            <div className="relative aspect-[3/4] md:aspect-[4/3]">
+              {post.image_url && (
+                <Image
+                  src={post.image_url}
+                  alt={post.entity_name}
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              )}
+            </div>
+            {/* Caption overlay for images */}
+            <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+              <h3 className="text-xl font-bold text-white">{post.entity_name}</h3>
+              <p className="text-white/80 text-sm">{post.caption}</p>
+            </div>
+          </>
+        )}
       </div>
 
       {/* Nav */}
@@ -353,6 +478,34 @@ export default function HotGalleryPage() {
   const [selectedPost, setSelectedPost] = useState<GlamPost | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState('all');
+  const [showSettings, setShowSettings] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Personalization hook
+  const {
+    state: personalizationState,
+    trackView,
+    trackClick,
+    toggleFavorite,
+    setIntensity,
+    isFavorite,
+    personalizeContent,
+    filterByUserIntensity,
+    trackScrollDepth,
+  } = useHotPersonalization();
+
+  // Track scroll depth
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = window.innerHeight;
+      const scrollPercentage = Math.round((scrollTop / (scrollHeight - clientHeight)) * 100);
+      trackScrollDepth(scrollPercentage);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [trackScrollDepth]);
 
   // Fetch all posts
   const fetchPosts = useCallback(async () => {
@@ -367,6 +520,9 @@ export default function HotGalleryPage() {
         entity_type: m.entity_type,
         image_url: m.image_url,
         thumbnail_url: m.thumbnail_url || m.image_url,
+        embed_html: m.embed_html,
+        embed_url: m.embed_url,
+        platform: m.platform || 'tmdb',
         caption: m.selected_caption || m.caption_te || '',
         category: m.category,
         views: m.views || 0,
@@ -375,16 +531,23 @@ export default function HotGalleryPage() {
         is_featured: m.is_featured,
         is_hot: m.is_hot,
         published_at: m.published_at,
+        tags: m.tags || [],
       }));
       
-      setPosts(allPosts);
+      // Apply personalization ordering
+      const personalizedPosts = personalizationState.isLoaded 
+        ? personalizeContent(allPosts) 
+        : allPosts;
       
-      // Featured: top trending
-      setFeaturedPosts(allPosts.filter(p => p.trending_score > 70).slice(0, 8));
+      setPosts(personalizedPosts);
       
-      // Group by actress
+      // Featured: top trending (personalized)
+      const featured = personalizedPosts.filter(p => p.trending_score > 70).slice(0, 8);
+      setFeaturedPosts(featured.length > 0 ? featured : personalizedPosts.slice(0, 8));
+      
+      // Group by actress (prioritize favorites)
       const byActress: Record<string, GlamPost[]> = {};
-      allPosts.forEach(p => {
+      personalizedPosts.forEach(p => {
         if (!byActress[p.entity_name]) byActress[p.entity_name] = [];
         byActress[p.entity_name].push(p);
       });
@@ -394,11 +557,24 @@ export default function HotGalleryPage() {
       console.error('Error:', error);
     }
     setLoading(false);
-  }, []);
+  }, [personalizationState.isLoaded, personalizeContent]);
 
   useEffect(() => {
     fetchPosts();
   }, [fetchPosts]);
+
+  // Handle post click with tracking
+  const handlePostClick = useCallback((post: GlamPost) => {
+    trackClick(post);
+    setSelectedPost(post);
+  }, [trackClick]);
+
+  // Track view when post enters lightbox
+  useEffect(() => {
+    if (selectedPost) {
+      trackView(selectedPost);
+    }
+  }, [selectedPost, trackView]);
 
   // Filter posts by category
   const filteredPosts = activeCategory === 'all' 
@@ -420,7 +596,7 @@ export default function HotGalleryPage() {
   ];
 
   return (
-    <main className="min-h-screen pb-16" style={{ background: 'var(--bg-primary)' }}>
+    <main ref={containerRef} className="min-h-screen pb-16" style={{ background: 'var(--bg-primary)' }}>
       {/* ========== HEADER ========== */}
       <div className="sticky top-0 z-40 border-b" style={{ 
         background: 'var(--bg-primary)', 
@@ -434,15 +610,89 @@ export default function HotGalleryPage() {
                 Photo Gallery
               </h1>
             </div>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
+              {/* Favorites count */}
+              {personalizationState.preferences?.favoriteCelebrities.length ? (
+                <span className="text-xs px-2 py-1 rounded flex items-center gap-1" style={{ 
+                  background: 'rgba(255, 68, 68, 0.15)', 
+                  color: '#ff4444' 
+                }}>
+                  <Heart className="w-3 h-3 fill-current" />
+                  {personalizationState.preferences.favoriteCelebrities.length}
+                </span>
+              ) : null}
+              
+              {/* Photo count */}
               <span className="text-xs px-2 py-1 rounded" style={{ 
                 background: 'var(--bg-secondary)', 
                 color: 'var(--text-secondary)' 
               }}>
                 {posts.length} Photos
               </span>
+              
+              {/* Settings */}
+              <button
+                onClick={() => setShowSettings(!showSettings)}
+                className="w-8 h-8 rounded-full flex items-center justify-center transition-colors"
+                style={{ 
+                  background: showSettings ? 'var(--brand-primary)' : 'var(--bg-secondary)',
+                  color: showSettings ? 'white' : 'var(--text-secondary)'
+                }}
+              >
+                <Settings className="w-4 h-4" />
+              </button>
             </div>
           </div>
+          
+          {/* Personalization Settings Panel */}
+          {showSettings && (
+            <div className="mt-3 p-3 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
+              <div className="flex flex-col gap-3">
+                {/* Intensity Slider */}
+                <div>
+                  <label className="text-xs font-medium mb-2 block" style={{ color: 'var(--text-secondary)' }}>
+                    Content Intensity
+                  </label>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>Mild</span>
+                    <input
+                      type="range"
+                      min="1"
+                      max="5"
+                      value={personalizationState.preferences?.intensityPreference || 3}
+                      onChange={(e) => setIntensity(parseInt(e.target.value))}
+                      className="flex-1 h-2 rounded-lg appearance-none cursor-pointer"
+                      style={{ background: 'var(--bg-tertiary)' }}
+                    />
+                    <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>Bold</span>
+                  </div>
+                </div>
+                
+                {/* Stats */}
+                <div className="flex items-center justify-between text-xs" style={{ color: 'var(--text-tertiary)' }}>
+                  <span>Views: {personalizationState.preferences?.totalViews || 0}</span>
+                  <span>Engagement: {personalizationState.engagementLevel}</span>
+                </div>
+                
+                {/* Top interests */}
+                {personalizationState.topCelebrities.length > 0 && (
+                  <div>
+                    <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>Your interests:</span>
+                    <div className="flex flex-wrap gap-1 mt-1">
+                      {personalizationState.topCelebrities.slice(0, 5).map((c) => (
+                        <span key={c.name} className="px-2 py-0.5 rounded text-xs" style={{ 
+                          background: 'var(--bg-tertiary)', 
+                          color: 'var(--text-primary)' 
+                        }}>
+                          {c.name}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -480,9 +730,9 @@ export default function HotGalleryPage() {
         {topActresses.map(([name, actressPosts]) => (
           <section key={name}>
             <ActressRow
-              title={`${name} 📸`}
+              title={`${name} ${isFavorite(name) ? '❤️' : '📸'}`}
               posts={actressPosts}
-              onSelect={setSelectedPost}
+              onSelect={handlePostClick}
             />
           </section>
         ))}
@@ -508,7 +758,7 @@ export default function HotGalleryPage() {
           ) : (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
               {filteredPosts.map((post) => (
-                <GalleryCard key={post.id} post={post} onClick={() => setSelectedPost(post)} />
+                <GalleryCard key={post.id} post={post} onClick={() => handlePostClick(post)} />
               ))}
             </div>
           )}
@@ -526,7 +776,7 @@ export default function HotGalleryPage() {
             {posts.filter(p => p.trending_score > 50).slice(0, 6).map((post, idx) => (
               <div
                 key={post.id}
-                onClick={() => setSelectedPost(post)}
+                onClick={() => handlePostClick(post)}
                 className="flex gap-3 p-3 rounded-lg cursor-pointer hover:scale-[1.02] transition-transform"
                 style={{ background: 'var(--bg-secondary)' }}
               >
@@ -568,6 +818,8 @@ export default function HotGalleryPage() {
           posts={posts}
           onClose={() => setSelectedPost(null)}
           onNavigate={setSelectedPost}
+          isFavorite={isFavorite(selectedPost.entity_name)}
+          onToggleFavorite={() => toggleFavorite(selectedPost.entity_name)}
         />
       )}
     </main>

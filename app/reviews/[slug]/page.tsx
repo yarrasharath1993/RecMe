@@ -84,6 +84,9 @@ export default async function MovieReviewPage({ params }: PageProps) {
 
   const { movie, reviews, similar } = data;
   const featuredReview = reviews.find(r => r.is_featured) || reviews[0];
+  
+  // Use review's overall_rating if movie has no avg_rating
+  const displayRating = movie.avg_rating || movie.our_rating || featuredReview?.overall_rating || 0;
 
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
@@ -197,28 +200,34 @@ export default async function MovieReviewPage({ params }: PageProps) {
               </div>
 
               {/* Rating */}
-              <div className="flex items-center gap-6 mb-6">
-                <div className="flex items-center gap-2">
-                  <div className="w-16 h-16 rounded-full bg-yellow-500 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-black">{movie.avg_rating.toFixed(1)}</span>
-                  </div>
-                  <div>
-                    <div className="flex">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star
-                          key={star}
-                          className={`w-5 h-5 ${
-                            star <= movie.avg_rating / 2
-                              ? 'text-yellow-500 fill-yellow-500'
-                              : 'text-gray-600'
-                          }`}
-                        />
-                      ))}
+              {displayRating > 0 && (
+                <div className="flex items-center gap-6 mb-6">
+                  <div className="flex items-center gap-2">
+                    <div className="w-16 h-16 rounded-full bg-yellow-500 flex items-center justify-center">
+                      <span className="text-2xl font-bold text-black">
+                        {displayRating.toFixed(1)}
+                      </span>
                     </div>
-                    <p className="text-gray-400 text-sm">{movie.total_reviews} reviews</p>
+                    <div>
+                      <div className="flex">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <Star
+                            key={star}
+                            className={`w-5 h-5 ${
+                              star <= displayRating / 2
+                                ? 'text-yellow-500 fill-yellow-500'
+                                : 'text-gray-600'
+                            }`}
+                          />
+                        ))}
+                      </div>
+                      <p className="text-gray-400 text-sm">
+                        {reviews.length > 0 ? `${reviews.length} review${reviews.length > 1 ? 's' : ''}` : 'No reviews yet'}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
 
               {/* Genres */}
               <div className="flex flex-wrap gap-2 mb-6">
@@ -282,17 +291,34 @@ export default async function MovieReviewPage({ params }: PageProps) {
       )}
 
       {/* Rating Breakdown */}
-      {featuredReview && (
+      {featuredReview && (featuredReview.dimensions || featuredReview.direction_rating) && (
         <section className="max-w-7xl mx-auto px-4 py-8 border-t border-gray-800">
           <h2 className="text-2xl font-bold text-white mb-6">Rating Breakdown</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <RatingBar label="Direction" rating={featuredReview.direction_rating} icon={<Clapperboard />} />
-            <RatingBar label="Screenplay" rating={featuredReview.screenplay_rating} icon={<Film />} />
-            <RatingBar label="Acting" rating={featuredReview.acting_rating} icon={<User />} />
-            <RatingBar label="Music" rating={featuredReview.music_rating} icon={<Music />} />
-            <RatingBar label="Cinematography" rating={featuredReview.cinematography_rating} icon={<Camera />} />
-            <RatingBar label="Production" rating={featuredReview.production_rating} icon={<Award />} />
-            <RatingBar label="Entertainment" rating={featuredReview.entertainment_rating} icon={<Heart />} />
+            {featuredReview.dimensions ? (
+              // Use dimensions from template reviews
+              <>
+                {Object.entries(featuredReview.dimensions).map(([key, dim]: [string, any]) => (
+                  <RatingBar
+                    key={key}
+                    label={dim.name_te || dim.name}
+                    rating={dim.score}
+                    icon={key.includes('music') ? <Music /> : key.includes('direct') ? <Clapperboard /> : <Film />}
+                  />
+                ))}
+              </>
+            ) : (
+              // Use direct rating fields
+              <>
+                <RatingBar label="Direction" rating={featuredReview.direction_rating} icon={<Clapperboard />} />
+                <RatingBar label="Screenplay" rating={featuredReview.screenplay_rating} icon={<Film />} />
+                <RatingBar label="Acting" rating={featuredReview.acting_rating} icon={<User />} />
+                <RatingBar label="Music" rating={featuredReview.music_rating} icon={<Music />} />
+                <RatingBar label="Cinematography" rating={featuredReview.cinematography_rating} icon={<Camera />} />
+                <RatingBar label="Production" rating={featuredReview.production_rating} icon={<Award />} />
+                <RatingBar label="Entertainment" rating={featuredReview.entertainment_rating} icon={<Heart />} />
+              </>
+            )}
           </div>
         </section>
       )}
@@ -372,7 +398,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="text-white font-bold">{m.avg_rating.toFixed(1)}</span>
+                    <span className="text-white font-bold">{(m.avg_rating || 0).toFixed(1)}</span>
                   </div>
                 </div>
                 <p className="text-gray-400 text-sm mt-2 truncate group-hover:text-white transition-colors">
@@ -450,8 +476,8 @@ function DetailedReviewCard({ review }: { review: MovieReview }) {
       )}
 
       {/* Summary */}
-      {review.summary && (
-        <p className="text-gray-300 leading-relaxed mb-4">{review.summary}</p>
+      {(review.summary || review.summary_te) && (
+        <p className="text-gray-300 leading-relaxed mb-4">{review.summary_te || review.summary}</p>
       )}
 
       {/* Detailed Sections */}
@@ -471,10 +497,13 @@ function DetailedReviewCard({ review }: { review: MovieReview }) {
       </div>
 
       {/* Verdict */}
-      {review.verdict && (
+      {(review.verdict || review.verdict_te) && (
         <div className="mt-6 pt-6 border-t border-gray-800">
           <h4 className="text-lg font-bold text-yellow-500 mb-2">Final Verdict</h4>
-          <p className="text-gray-300">{review.verdict}</p>
+          <p className="text-gray-300 text-xl">{review.verdict_te || review.verdict}</p>
+          {review.verdict_te && review.verdict && review.verdict_te !== review.verdict && (
+            <p className="text-gray-500 mt-1">{review.verdict}</p>
+          )}
         </div>
       )}
 

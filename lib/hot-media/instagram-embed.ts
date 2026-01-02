@@ -62,6 +62,11 @@ export function detectInstagramType(url: string): 'post' | 'reel' | 'tv' | 'unkn
 /**
  * Fetch Instagram oEmbed data
  * Uses the official Facebook/Instagram oEmbed endpoint
+ * 
+ * Priority:
+ * 1. Authenticated oEmbed (with INSTAGRAM_ACCESS_TOKEN) - returns thumbnails!
+ * 2. Public oEmbed endpoint (deprecated, may not work)
+ * 3. Fallback blockquote embed
  */
 export async function fetchInstagramEmbed(postUrl: string): Promise<InstagramPostInfo> {
   const postId = extractInstagramPostId(postUrl);
@@ -82,11 +87,54 @@ export async function fetchInstagramEmbed(postUrl: string): Promise<InstagramPos
   // Normalize URL
   const normalizedUrl = `https://www.instagram.com/p/${postId}/`;
   
+  // Check for access token (authenticated oEmbed)
+  const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
+  
   try {
-    // Instagram oEmbed endpoint (public, no auth required for basic embeds)
+    let response: Response;
+    
+    if (accessToken) {
+      // AUTHENTICATED oEmbed - Returns thumbnails and full data!
+      // Uses Facebook Graph API endpoint
+      const params = new URLSearchParams({
+        url: normalizedUrl,
+        access_token: accessToken,
+        maxwidth: '540',
+        omitscript: 'true',
+      });
+      
+      response = await fetch(
+        `https://graph.facebook.com/v18.0/instagram_oembed?${params}`,
+        {
+          headers: { 'Accept': 'application/json' },
+        }
+      );
+      
+      if (response.ok) {
+        const data: InstagramEmbed = await response.json();
+        
+        // Extract handle from author_url or author_name
+        const handleMatch = data.author_url?.match(/instagram\.com\/([^\/]+)/);
+        const handle = handleMatch ? handleMatch[1] : data.author_name || '';
+
+        return {
+          postId,
+          postUrl: normalizedUrl,
+          embedHtml: data.html,
+          authorName: data.author_name || '',
+          authorHandle: handle,
+          thumbnailUrl: data.thumbnail_url || '', // ✅ Now we get thumbnails!
+          isValid: true,
+        };
+      }
+      
+      console.warn('Authenticated oEmbed failed, trying public endpoint...');
+    }
+    
+    // PUBLIC oEmbed endpoint (deprecated since 2020, may not work)
     const oembedUrl = `https://api.instagram.com/oembed?url=${encodeURIComponent(normalizedUrl)}&omitscript=true`;
     
-    const response = await fetch(oembedUrl, {
+    response = await fetch(oembedUrl, {
       headers: {
         'Accept': 'application/json',
         'User-Agent': 'TeluguVibes/1.0',
@@ -94,8 +142,7 @@ export async function fetchInstagramEmbed(postUrl: string): Promise<InstagramPos
     });
 
     if (!response.ok) {
-      // Instagram might require access token for some requests
-      // Try alternative approach
+      // All oEmbed endpoints failed, use fallback
       return {
         postId,
         postUrl: normalizedUrl,
@@ -104,7 +151,9 @@ export async function fetchInstagramEmbed(postUrl: string): Promise<InstagramPos
         authorHandle: '',
         thumbnailUrl: '',
         isValid: true,
-        error: 'oEmbed unavailable, using fallback',
+        error: accessToken 
+          ? 'Both authenticated and public oEmbed failed, using fallback'
+          : 'oEmbed unavailable (no access token configured), using fallback. See docs/INSTAGRAM-SETUP.md',
       };
     }
 
@@ -167,38 +216,41 @@ export function getInstagramEmbedScript(): string {
  */
 export const TELUGU_CELEBRITY_INSTAGRAM: Record<string, string> = {
   // Top Actresses
-  'Samantha Ruth Prabhu': 'samantharuthprabhuoffl',
+  'Samantha Ruth Prabhu': 'samaboranthakkarani',
   'Rashmika Mandanna': 'rashmika_mandanna',
-  'Pooja Hegde': 'hegaboradepooja',
-  'Kajal Aggarwal': 'kaaborajalagarwalofficial',
-  'Tamannaah Bhatia': 'taaboramannaboraahspeaks',
+  'Pooja Hegde': 'hegdepooja',
+  'Kajal Aggarwal': 'kajaboralaggarwalofficial',
+  'Tamannaah Bhatia': 'taaboramannabhatia',
   'Anupama Parameswaran': 'anupamaparameswaran96',
   'Keerthy Suresh': 'keerthysureshofficial',
-  'Shruti Haasan': 'shaborarutzhaasan',
+  'Shruti Haasan': 'shaborautihaasan',
   'Nayanthara': 'nayaboranthara',
   'Sai Pallavi': 'sai_pallavi.senthamarai',
   'Rakul Preet Singh': 'rakulpreet',
   'Sreeleela': 'sreeleela14',
-  'Krithi Shetty': 'krithi.shetty',
+  'Krithi Shetty': 'krithi.shetty_official',
   'Nabha Natesh': 'nabhanatesh',
-  'Nidhhi Agerwal': 'naboraidaboraddhiagerwal',
+  'Nidhhi Agerwal': 'niaboradhiagerwal',
   
-  // Tupaki-featured
+  // Popular Telugu Actresses
   'Divi Vadthya': 'divi_vadthya',
-  'Malavika Mohanan': 'maaboralavikamohanan_',
-  'Anveshi Jain': 'anveshi25',
-  'Faria Abdullah': 'faboraaria__',
+  'Malavika Mohanan': 'malavikaboramohanan_',
+  'Anveshi Jain': 'anvaboraeshi25',
+  'Faria Abdullah': 'fariaabdullah',
   'Priyanka Arul Mohan': 'priyankaarulmohan',
   'Meenakshi Chaudhary': 'meenakshichaudhary006',
-  'Pragya Jaiswal': 'pragyajaiswal',
+  'Pragya Jaiswal': 'pragyaboraajaiswal',
   'Payal Rajput': 'iampayalrajput',
+  'Ritu Varma': 'rituvarma',
+  'Shriya Saran': 'shraboraiyasaran',
+  'Trisha Krishnan': 'trishakrishnan',
   
   // Anchors
   'Sreemukhi': 'sreemukhi',
-  'Anasuya Bharadwaj': 'anaborasuyakabbaboraradorai',
-  'Rashmi Gautam': 'rashaborahmigautam',
-  'Suma Kanakala': 'aboraanchorsuma',
+  'Anasuya Bharadwaj': 'anaborasuyabharadwaj',
+  'Rashmi Gautam': 'rashmigautam',
   'Varshini Sounderajan': 'varshinisofficial',
+  'Lasya Manjunath': 'lasyamanjunath',
 };
 
 /**

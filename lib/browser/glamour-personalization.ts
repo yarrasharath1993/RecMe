@@ -482,6 +482,122 @@ export function exportPersonalizationData(): string {
 }
 
 /**
+ * Get similar celebrities based on user's viewing patterns
+ */
+export function getSimilarCelebrities(celebrity: string, limit = 5): string[] {
+  const prefs = loadPreferences();
+  
+  // Find celebrities viewed in same sessions
+  const viewedCelebs = prefs.viewedCelebrities
+    .filter(c => c.name !== celebrity)
+    .sort((a, b) => b.interestScore - a.interestScore);
+  
+  return viewedCelebs.slice(0, limit).map(c => c.name);
+}
+
+/**
+ * Get recommended categories based on user preferences
+ */
+export function getRecommendedCategories(): string[] {
+  const prefs = loadPreferences();
+  const intensity = prefs.intensityPreference;
+  
+  // Base categories everyone sees
+  const baseCategories = ['photoshoot', 'fashion', 'events'];
+  
+  // Add more based on intensity
+  if (intensity >= 3) {
+    baseCategories.push('beach', 'gym');
+  }
+  if (intensity >= 4) {
+    baseCategories.push('bikini', 'hot');
+  }
+  
+  // Personalize with user's actual interests
+  const userCategories = getTopCategories(3).map(c => c.category);
+  const combined = [...new Set([...userCategories, ...baseCategories])];
+  
+  return combined;
+}
+
+/**
+ * Calculate user engagement level (for analytics)
+ */
+export function getEngagementLevel(): 'new' | 'casual' | 'regular' | 'power' {
+  const prefs = loadPreferences();
+  
+  if (prefs.totalViews < 5) return 'new';
+  if (prefs.totalViews < 20) return 'casual';
+  if (prefs.totalViews < 100) return 'regular';
+  return 'power';
+}
+
+/**
+ * Track scroll depth for engagement metrics
+ */
+export function recordScrollDepth(depth: number, section: string): void {
+  if (!isBrowser()) return;
+  
+  const key = `scroll_depth_${section}`;
+  const currentDepth = parseInt(sessionStorage.getItem(key) || '0');
+  
+  if (depth > currentDepth) {
+    sessionStorage.setItem(key, depth.toString());
+  }
+}
+
+/**
+ * Get glamour content recommendations
+ */
+export function getGlamourRecommendations(): {
+  celebrities: string[];
+  categories: string[];
+  contentTypes: ('image' | 'video' | 'reel' | 'embed')[];
+  intensity: number;
+} {
+  const prefs = loadPreferences();
+  
+  return {
+    celebrities: getTopCelebrities(10).map(c => c.name),
+    categories: getRecommendedCategories(),
+    contentTypes: prefs.preferredContentTypes
+      .filter(t => t.preference > 40)
+      .sort((a, b) => b.preference - a.preference)
+      .map(t => t.type),
+    intensity: prefs.intensityPreference,
+  };
+}
+
+/**
+ * Filter content based on intensity preference
+ */
+export function filterByIntensity<T extends { category?: string; tags?: string[] }>(
+  content: T[]
+): T[] {
+  const prefs = loadPreferences();
+  const intensity = prefs.intensityPreference;
+  
+  // Define category intensity levels
+  const intensityMap: Record<string, number> = {
+    fashion: 1,
+    events: 1,
+    photoshoot: 2,
+    traditional: 1,
+    beach: 3,
+    gym: 3,
+    bikini: 4,
+    hot: 4,
+    viral: 2,
+  };
+  
+  return content.filter(item => {
+    const category = item.category?.toLowerCase() || '';
+    const categoryIntensity = intensityMap[category] || 2;
+    return categoryIntensity <= intensity;
+  });
+}
+
+/**
  * React hook for personalization (use in components)
  */
 export function useGlamourPersonalization() {
@@ -518,11 +634,17 @@ export function useGlamourPersonalization() {
         timestamp: new Date().toISOString(),
       });
     },
+    recordScrollDepth,
     getTopCelebrities,
     getTopCategories,
+    getSimilarCelebrities,
+    getRecommendedCategories,
+    getRecommendations: getGlamourRecommendations,
+    getEngagementLevel,
     toggleFavorite: toggleFavoriteCelebrity,
     setIntensity: setIntensityPreference,
     personalizeOrder: personalizeContentOrder,
+    filterByIntensity,
     getSummary: getPersonalizationSummary,
     clearData: clearPersonalizationData,
     exportData: exportPersonalizationData,

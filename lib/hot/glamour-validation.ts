@@ -489,3 +489,230 @@ export function quickValidateGlamour(content: Partial<GlamourContent>): {
 // Export constants for other modules
 export { SAFE_GLAM_TERMS, BORDERLINE_TERMS, UNSAFE_TERMS, KNOWN_ACTRESSES, KNOWN_ANCHORS };
 
+// ============================================================
+// EXTENDED VALIDATION (Admin Portal Enhancement)
+// ============================================================
+
+/**
+ * Validation result with admin UI indicators
+ */
+export interface AdminValidationResult extends GlamourValidationResult {
+  badges: StatusBadge[];
+  imageConfidence: ConfidenceIndicator;
+  contentConfidence: ConfidenceIndicator;
+  actionButtons: ActionButton[];
+  whyFailed?: string[];
+}
+
+export interface StatusBadge {
+  type: 'success' | 'warning' | 'error' | 'info';
+  label: string;
+  tooltip: string;
+}
+
+export interface ConfidenceIndicator {
+  level: 'green' | 'yellow' | 'red';
+  score: number;
+  label: string;
+}
+
+export interface ActionButton {
+  id: string;
+  label: string;
+  action: 'approve' | 'reject' | 'regenerate' | 'edit';
+  variant: 'primary' | 'secondary' | 'danger';
+}
+
+/**
+ * Full admin validation with UI components
+ * REUSE: Extends existing validateGlamourContent
+ */
+export function validateForAdmin(content: GlamourContent): AdminValidationResult {
+  // Run base validation
+  const baseResult = validateGlamourContent(content);
+  
+  // Generate status badges
+  const badges: StatusBadge[] = [];
+  
+  if (baseResult.status === 'READY') {
+    badges.push({
+      type: 'success',
+      label: '✅ READY',
+      tooltip: 'Content passes all checks and is ready for publishing',
+    });
+  } else if (baseResult.status === 'NEEDS_REWORK') {
+    badges.push({
+      type: 'warning',
+      label: '⚠️ NEEDS REWORK',
+      tooltip: 'Content needs adjustments. See suggestions below.',
+    });
+  } else {
+    badges.push({
+      type: 'error',
+      label: '❌ REJECTED',
+      tooltip: 'Content failed critical safety checks',
+    });
+  }
+  
+  // Add specific check badges
+  const identityCheck = baseResult.checks.find(c => c.name === 'actress_identity');
+  if (identityCheck?.passed) {
+    badges.push({
+      type: 'info',
+      label: '🎭 Verified',
+      tooltip: identityCheck.reason,
+    });
+  }
+  
+  const sensualityCheck = baseResult.checks.find(c => c.name === 'sensuality_threshold');
+  if (sensualityCheck?.passed) {
+    badges.push({
+      type: 'success',
+      label: '💰 AdSense Safe',
+      tooltip: 'Content is safe for monetization',
+    });
+  }
+  
+  // Image confidence indicator
+  const imageCheck = baseResult.checks.find(c => c.name === 'image_relevance');
+  const imageConfidence: ConfidenceIndicator = {
+    level: (imageCheck?.score || 0) >= 70 ? 'green' : (imageCheck?.score || 0) >= 50 ? 'yellow' : 'red',
+    score: imageCheck?.score || 0,
+    label: `Image: ${imageCheck?.score || 0}%`,
+  };
+  
+  // Content confidence indicator
+  const contentScore = Math.round(
+    (baseResult.checks
+      .filter(c => c.name !== 'image_relevance')
+      .reduce((sum, c) => sum + c.score, 0)) / 4
+  );
+  const contentConfidence: ConfidenceIndicator = {
+    level: contentScore >= 70 ? 'green' : contentScore >= 50 ? 'yellow' : 'red',
+    score: contentScore,
+    label: `Content: ${contentScore}%`,
+  };
+  
+  // Generate action buttons based on status
+  const actionButtons: ActionButton[] = [];
+  
+  if (baseResult.status === 'READY') {
+    actionButtons.push({
+      id: 'approve',
+      label: 'Publish Now',
+      action: 'approve',
+      variant: 'primary',
+    });
+  }
+  
+  if (baseResult.status === 'NEEDS_REWORK') {
+    actionButtons.push({
+      id: 'regenerate',
+      label: 'Regenerate Content',
+      action: 'regenerate',
+      variant: 'primary',
+    });
+    actionButtons.push({
+      id: 'approve-anyway',
+      label: 'Approve Anyway',
+      action: 'approve',
+      variant: 'secondary',
+    });
+  }
+  
+  if (baseResult.status !== 'READY') {
+    actionButtons.push({
+      id: 'edit',
+      label: 'Edit Manually',
+      action: 'edit',
+      variant: 'secondary',
+    });
+  }
+  
+  actionButtons.push({
+    id: 'reject',
+    label: 'Delete',
+    action: 'reject',
+    variant: 'danger',
+  });
+  
+  // Why failed explanation
+  const whyFailed = baseResult.checks
+    .filter(c => !c.passed)
+    .map(c => `${c.name}: ${c.reason}`);
+  
+  return {
+    ...baseResult,
+    badges,
+    imageConfidence,
+    contentConfidence,
+    actionButtons,
+    whyFailed: whyFailed.length > 0 ? whyFailed : undefined,
+  };
+}
+
+/**
+ * Batch validation for admin bulk operations
+ */
+export function batchValidateForAdmin(
+  contents: GlamourContent[]
+): {
+  results: Map<string, AdminValidationResult>;
+  summary: {
+    ready: number;
+    needsRework: number;
+    rejected: number;
+    avgConfidence: number;
+  };
+} {
+  const results = new Map<string, AdminValidationResult>();
+  let ready = 0;
+  let needsRework = 0;
+  let rejected = 0;
+  let totalScore = 0;
+  
+  for (const content of contents) {
+    const key = `${content.entity_name}_${content.category}`;
+    const result = validateForAdmin(content);
+    results.set(key, result);
+    
+    if (result.status === 'READY') ready++;
+    else if (result.status === 'NEEDS_REWORK') needsRework++;
+    else rejected++;
+    
+    totalScore += result.score;
+  }
+  
+  return {
+    results,
+    summary: {
+      ready,
+      needsRework,
+      rejected,
+      avgConfidence: contents.length > 0 ? Math.round(totalScore / contents.length) : 0,
+    },
+  };
+}
+
+/**
+ * Get recommended action for a validation result
+ */
+export function getRecommendedAction(result: GlamourValidationResult): {
+  action: 'auto_approve' | 'review' | 'regenerate' | 'reject';
+  reason: string;
+} {
+  if (result.status === 'REJECTED') {
+    return { action: 'reject', reason: 'Failed critical safety checks' };
+  }
+  
+  if (result.status === 'READY' && result.score >= 80) {
+    return { action: 'auto_approve', reason: 'Passes all checks with high confidence' };
+  }
+  
+  if (result.status === 'NEEDS_REWORK' && result.variants && result.variants.length > 0) {
+    return { action: 'regenerate', reason: 'Better variants available' };
+  }
+  
+  return { action: 'review', reason: 'Needs human review' };
+}
+

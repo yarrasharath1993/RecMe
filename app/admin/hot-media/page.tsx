@@ -69,6 +69,97 @@ export default function AdminHotMediaPage() {
   const [statusFilter, setStatusFilter] = useState<string>('pending');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   const [showAddModal, setShowAddModal] = useState(false);
+  
+  // Bulk selection state
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [isBulkOperating, setIsBulkOperating] = useState(false);
+  
+  // Toggle selection
+  const toggleSelection = (id: string) => {
+    const newSet = new Set(selectedIds);
+    if (newSet.has(id)) {
+      newSet.delete(id);
+    } else {
+      newSet.add(id);
+    }
+    setSelectedIds(newSet);
+  };
+  
+  const selectAll = () => {
+    if (selectedIds.size === media.length) {
+      setSelectedIds(new Set());
+    } else {
+      setSelectedIds(new Set(media.map(m => m.id)));
+    }
+  };
+  
+  // Bulk operations
+  const handleBulkApprove = async () => {
+    if (selectedIds.size === 0) return;
+    setIsBulkOperating(true);
+    try {
+      await Promise.all([...selectedIds].map(id =>
+        fetch(`/api/hot-media/${id}`, {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ status: 'approved' }),
+        })
+      ));
+      setMedia(media.map(m => selectedIds.has(m.id) ? { ...m, status: 'approved' } : m));
+      setSelectedIds(new Set());
+    } catch (error) {
+      console.error('Bulk approve error:', error);
+    }
+    setIsBulkOperating(false);
+  };
+  
+  const handleBulkDelete = async () => {
+    if (selectedIds.size === 0) return;
+    if (!confirm(`Delete ${selectedIds.size} items?`)) return;
+    setIsBulkOperating(true);
+    try {
+      await Promise.all([...selectedIds].map(id =>
+        fetch(`/api/hot-media/${id}`, { method: 'DELETE' })
+      ));
+      setMedia(media.filter(m => !selectedIds.has(m.id)));
+      setSelectedIds(new Set());
+    } catch (error) {
+      console.error('Bulk delete error:', error);
+    }
+    setIsBulkOperating(false);
+  };
+  
+  // One-click regenerate
+  const handleRegenerate = async (id: string) => {
+    try {
+      const response = await fetch(`/api/hot-media/${id}/regenerate`, {
+        method: 'POST',
+      });
+      if (response.ok) {
+        const updated = await response.json();
+        setMedia(media.map(m => m.id === id ? { ...m, ...updated } : m));
+      }
+    } catch (error) {
+      console.error('Regenerate error:', error);
+    }
+  };
+  
+  // Select variant
+  const handleSelectVariant = async (id: string, variant: CaptionVariant) => {
+    try {
+      await fetch(`/api/hot-media/${id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          selected_caption: variant.text,
+          caption_te: variant.text 
+        }),
+      });
+      setMedia(media.map(m => m.id === id ? { ...m, selected_caption: variant.text, caption_te: variant.text } : m));
+    } catch (error) {
+      console.error('Select variant error:', error);
+    }
+  };
 
   // Fetch data
   useEffect(() => {
@@ -178,6 +269,48 @@ export default function AdminHotMediaPage() {
           Add Hot Media
         </button>
       </div>
+
+      {/* Bulk Actions Bar */}
+      {selectedIds.size > 0 && (
+        <div 
+          className="flex items-center justify-between gap-4 p-4 rounded-xl mb-6"
+          style={{ backgroundColor: 'var(--brand-primary)', color: 'var(--bg-primary)' }}
+        >
+          <div className="flex items-center gap-3">
+            <input
+              type="checkbox"
+              checked={selectedIds.size === media.length}
+              onChange={selectAll}
+              className="w-5 h-5 rounded"
+            />
+            <span className="font-medium">{selectedIds.size} selected</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleBulkApprove}
+              disabled={isBulkOperating}
+              className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-sm font-medium bg-green-600 hover:bg-green-700 text-white disabled:opacity-50"
+            >
+              <Check className="w-4 h-4" />
+              Approve All
+            </button>
+            <button
+              onClick={handleBulkDelete}
+              disabled={isBulkOperating}
+              className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-sm font-medium bg-red-600 hover:bg-red-700 text-white disabled:opacity-50"
+            >
+              <Trash2 className="w-4 h-4" />
+              Delete All
+            </button>
+            <button
+              onClick={() => setSelectedIds(new Set())}
+              className="px-3 py-1.5 rounded-lg text-sm font-medium bg-white/20 hover:bg-white/30"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">

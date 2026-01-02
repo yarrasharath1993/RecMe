@@ -1,18 +1,32 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Inter, Poppins, Noto_Sans_Telugu } from 'next/font/google';
 import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { DedicationsWidget } from '@/components/DedicationsWidget';
+import { LanguageProvider } from '@/lib/i18n';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+// English fonts - Modern & Clean
+const inter = Inter({
   subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const poppins = Poppins({
+  weight: ['400', '500', '600', '700', '800'],
   subsets: ['latin'],
+  variable: '--font-poppins',
+  display: 'swap',
+});
+
+// Telugu font - Noto Sans Telugu (Best for readability)
+const notoSansTelugu = Noto_Sans_Telugu({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['telugu'],
+  variable: '--font-telugu',
+  display: 'swap',
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -41,16 +55,17 @@ export default function RootLayout({
   return (
     <html lang="te" className="dark" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[var(--bg-primary)] text-[var(--text-primary)] min-h-screen`}
+        className={`${inter.variable} ${poppins.variable} ${notoSansTelugu.variable} font-telugu antialiased bg-[var(--bg-primary)] text-[var(--text-primary)] min-h-screen`}
       >
-        {/* Header */}
-        <Header />
+        <LanguageProvider>
+          {/* Header */}
+          <Header />
 
-        {/* Main content */}
-        <main>{children}</main>
+          {/* Main content */}
+          <main>{children}</main>
 
-        {/* Dedications Widget - Bottom Left */}
-        <DedicationsWidget position="bottom-left" />
+          {/* Dedications Widget - Bottom Left */}
+          <DedicationsWidget position="bottom-left" />
 
         {/* Footer */}
         <footer className="bg-[var(--bg-secondary)] border-t border-[var(--border-secondary)] mt-12">
@@ -103,6 +118,7 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        </LanguageProvider>
       </body>
     </html>
   );

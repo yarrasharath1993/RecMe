@@ -112,6 +112,8 @@ LIMIT 20;
 
 ## CLI Commands
 
+### Discovery Commands
+
 | Command | Description |
 |---------|-------------|
 | `pnpm discover` | Full discovery pipeline |
@@ -119,9 +121,33 @@ LIMIT 20;
 | `pnpm discover:wikidata` | Wikidata source only |
 | `pnpm discover:rank` | Recalculate rankings only |
 | `pnpm discover:full` | Verbose output |
-| `pnpm hot:ingest --dry` | Preview hot content |
-| `pnpm hot:ingest --smart` | Smart update mode |
-| `pnpm hot:reset --confirm` | Reset all hot content |
+
+### Hot Content Ingestion
+
+| Command | Description |
+|---------|-------------|
+| `pnpm hot:ingest --dry` | Preview hot content (no DB writes) |
+| `pnpm hot:ingest --smart` | Smart update (preserve high performers) |
+| `pnpm hot:ingest --full` | Full ingestion with all sources |
+| `pnpm hot:ingest --refresh` | Refresh stale metadata |
+| `pnpm hot:reset --confirm` | Archive & rebuild all hot content |
+
+### Glamour Image Fetching
+
+| Command | Description |
+|---------|-------------|
+| `pnpm glamour:fetch` | Fetch glamour images from TMDB |
+| `pnpm glamour:fetch:dry` | Preview mode (no DB writes) |
+| `pnpm glamour:fetch:clean` | Clean existing TMDB images first |
+
+### Social Handle Ingestion
+
+| Command | Description |
+|---------|-------------|
+| `pnpm ingest:social` | Full social handle ingestion |
+| `pnpm ingest:social --dry` | Preview mode |
+| `pnpm ingest:social --platform=instagram,tiktok` | Specific platforms |
+| `pnpm ingest:social --celebrity=Rashmika` | Single celebrity |
 
 ## Database Schema
 
@@ -215,20 +241,170 @@ const HOT_CONTENT_PLATFORM_PRIORITY = [
 ];
 ```
 
+## Image Intelligence
+
+### Source Priority
+
+The system uses multiple sources for glamour images with the following priority:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    IMAGE SOURCE PRIORITY                        │
+└─────────────────────────────────────────────────────────────────┘
+       1. Instagram oEmbed (authenticated)
+       2. TMDB Movie Backdrops (full-body, scene shots)
+       3. TMDB Tagged Images (events, photoshoots)
+       4. YouTube Thumbnails
+       5. Wikimedia Commons (CC licensed)
+       6. TMDB Profile Images (fallback)
+       7. AI-generated glam art (last resort)
+```
+
+### Image Scoring Dimensions
+
+| Dimension | Weight | Description |
+|-----------|--------|-------------|
+| Legal Safety | 30% | License verification |
+| Glamour Suitability | 25% | Full-body, events, fashion |
+| Freshness | 20% | Recent content preferred |
+| Engagement Likelihood | 15% | Based on past performance |
+| Identity Match | 10% | Celebrity face verification |
+
+### Auto-Reject Rules
+
+Images are automatically rejected if:
+- ❌ License unclear or missing
+- ❌ Resolution < 400x600 pixels
+- ❌ Face mismatch with celebrity
+- ❌ Non-editorial usage risk
+- ❌ Aspect ratio unsuitable (headshots only)
+
+## AI Glamour Content
+
+### Content Structure
+
+The AI generates Telugu-first glamour content with this structure:
+
+```
+1. Hook (2-3 emotional Telugu lines)
+2. Why trending now
+3. Glamour angle (photoshoot/beach/event/nostalgia)
+4. Social buzz summary
+5. Past relevance (movies, IPL, awards)
+6. Closing fan-connect line
+```
+
+### Caption Generation
+
+```typescript
+// Example AI-generated caption
+{
+  hook: "తెలుగు తెరపై మెరిసిన సమంత అందాల విందు! ✨",
+  whyTrending: "లేటెస్ట్ ఫ్యాషన్ లుక్‌తో సోషల్ మీడియాలో ట్రెండింగ్",
+  glamourAngle: "ఈ ఫోటోషూట్‌లో తన గ్లామర్‌తో అందరినీ ఆకట్టుకుంటున్నారు",
+  socialBuzz: "#Samantha #Glamour - ఫ్యాన్స్ నుండి అద్భుతమైన రెస్పాన్స్",
+  closingNote: "మరిన్ని అప్‌డేట్స్ కోసం చూస్తూ ఉండండి! 🔥"
+}
+```
+
+## Browser Personalization
+
+### Features
+
+Zero-backend personalization for the Hot section:
+
+| Feature | Description |
+|---------|-------------|
+| Viewed Celebrities | Tracks which celebrities user views |
+| Intensity Preference | 1-5 scale for content boldness |
+| Favorite Toggle | Heart button to save favorites |
+| Category Interests | Tracks preferred categories |
+| Scroll Depth | Engagement analytics |
+
+### Implementation
+
+```typescript
+// lib/browser/glamour-personalization.ts
+import { useHotPersonalization } from '@/lib/browser/useHotPersonalization';
+
+function HotGallery() {
+  const {
+    trackView,
+    trackClick,
+    toggleFavorite,
+    personalizeContent,
+    setIntensity,
+  } = useHotPersonalization();
+  
+  // Content automatically reordered based on interests
+  const personalizedPosts = personalizeContent(posts);
+}
+```
+
+### Personalization Data (localStorage)
+
+```json
+{
+  "version": 1,
+  "viewedCelebrities": [
+    {"name": "Samantha", "views": 12, "interestScore": 85}
+  ],
+  "favoriteCelebrities": ["Rashmika Mandanna"],
+  "intensityPreference": 3,
+  "totalViews": 45,
+  "categoryInterests": [
+    {"category": "fashion", "views": 15, "interestScore": 72}
+  ]
+}
+```
+
+### GDPR Compliance
+
+- ✅ All data stored in localStorage only
+- ✅ No server-side tracking
+- ✅ Clear data function available
+- ✅ Export data function available
+- ✅ No login required
+
+## Admin Portal
+
+### Hot Media Management
+
+Access: `/admin/hot-media`
+
+| Feature | Description |
+|---------|-------------|
+| Bulk Actions | Approve, reject, delete multiple items |
+| Variant Switcher | Pick best AI-generated caption |
+| Confidence Badges | Green/Yellow/Red indicators |
+| One-click Regenerate | Re-run AI on single item |
+| Status Filters | Filter by READY/NEEDS_REWORK/REJECTED |
+
+### Status Badge Colors
+
+| Color | Confidence | Action Required |
+|-------|------------|-----------------|
+| 🟢 Green | ≥80% | Ready to publish |
+| 🟡 Yellow | 60-79% | Review recommended |
+| 🔴 Red | <60% | Manual review needed |
+
 ## Maintenance
 
 ### Daily Tasks (Automated)
 - Refresh materialized view every 15 minutes
 - Update trending scores from analytics
+- Update browser personalization rankings
 
 ### Weekly Tasks
 - Run `pnpm discover --source=wikidata` for new celebrities
+- Run `pnpm glamour:fetch` for new images
 - Review flagged content in admin
 
 ### Monthly Tasks
 - Audit image licenses
 - Review blocking rules
 - Update ranking weights if needed
+- Clean up low-performing content
 
 ## Monitoring
 
@@ -237,9 +413,11 @@ const HOT_CONTENT_PLATFORM_PRIORITY = [
 - Average hot_score
 - Social profile coverage
 - Content approval rate
+- Personalization engagement rate
 
 ### Alerts
 - Discovery errors
 - Low confidence scores
 - License verification failures
+- High rejection rates
 

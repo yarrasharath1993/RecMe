@@ -296,3 +296,4 @@ COMMENT ON TABLE hot_image_references IS
 COMMENT ON TABLE entity_discovery_log IS 
 'Log of all entity discovery runs for auditing and debugging.';
 
+

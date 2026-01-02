@@ -2,12 +2,15 @@
  * TELUGU LIFE STORIES PAGE
  *
  * Heartwarming, relatable Telugu narratives.
+ * Shows related Fun Corner sections below for easy browsing.
  */
 
 import Link from 'next/link';
 import { Heart, Users, Sparkles, Home, GraduationCap, Briefcase, BookOpen } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 import { STORY_CATEGORY_CONFIG } from '@/lib/stories/types';
+import { RelatedSections } from '@/components/RelatedSections';
+import { BottomInfoBar } from '@/components/BottomInfoBar';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -191,6 +194,12 @@ export default async function StoriesPage() {
           <p className="mt-1">© TeluguVibes - Transformative content, cultural authenticity.</p>
         </div>
       </div>
+
+      {/* Related Sections from Fun Corner */}
+      <RelatedSections currentSectionId="stories" />
+
+      {/* Bottom Info Bar */}
+      <BottomInfoBar />
     </div>
   );
 }

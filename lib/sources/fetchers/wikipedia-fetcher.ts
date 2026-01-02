@@ -178,3 +178,4 @@ export class WikipediaFetcher extends BaseFetcher<WikiEntity> {
 
 
 
+

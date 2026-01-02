@@ -330,3 +330,4 @@ curl "http://localhost:3000/api/celebrity/CELEBRITY_ID/social"
 | `components/admin/SocialProfilesTab.tsx` | Admin UI component |
 | `supabase-social-profiles-schema.sql` | Database schema |
 
+

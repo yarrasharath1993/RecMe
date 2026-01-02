@@ -623,3 +623,4 @@ function getVerdictBadgeColor(verdict: string): string {
 
 
 
+

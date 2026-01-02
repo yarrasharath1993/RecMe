@@ -404,3 +404,208 @@ export async function getImageOptions(context: ImageFetchContext, count: number 
   const result = await selectBestImage(context);
   return result.candidates.slice(0, count);
 }
+
+// ============================================================
+// GLAMOUR IMAGE INTELLIGENCE (Extended for Hot & Glamour Content)
+// ============================================================
+
+/**
+ * Image source priority for glamour content
+ * REUSE: Extends existing priority with glamour-specific ordering
+ */
+export const GLAMOUR_SOURCE_PRIORITY = [
+  'instagram_embed', // oEmbed (when authenticated)
+  'tmdb',            // Movie backdrops, tagged images
+  'youtube',         // Song video thumbnails
+  'wikimedia',       // CC licensed event photos
+  'ai_generated',    // Fallback: stylized glam art
+] as const;
+
+/**
+ * Glamour image metadata (extended from base metadata)
+ */
+export interface GlamourImageMetadata {
+  source: ImageSource | 'instagram_embed' | 'youtube';
+  license_type: 'api-provided' | 'cc-by' | 'cc-by-sa' | 'public-domain' | 'embed' | 'fair-use';
+  author?: string;
+  confidence_score: number;
+  glamour_score: number;
+  freshness_days: number;
+  is_full_body: boolean;
+}
+
+/**
+ * Auto-reject rules for glamour images
+ */
+export interface GlamourRejectRules {
+  unknownLicense: boolean;
+  lowResolution: boolean;
+  actressMismatch: boolean;
+  nonEditorialUsage: boolean;
+}
+
+/**
+ * Calculate glamour score for an image
+ * Higher scores = more suitable for Hot & Glamour section
+ */
+export function calculateGlamourScore(candidate: ImageCandidate): number {
+  let score = candidate.score;
+  
+  // Aspect ratio bonus (wide/landscape = more likely full body)
+  const ar = candidate.metadata.aspectRatio || 0;
+  if (ar >= 1.5 && ar <= 2.0) {
+    score += 15; // Cinematic aspect ratio
+  } else if (ar >= 1.2 && ar < 1.5) {
+    score += 10; // Standard landscape
+  } else if (ar < 0.7) {
+    score -= 10; // Portrait/headshot penalty
+  }
+  
+  // High resolution bonus for glamour
+  if (candidate.metadata.width && candidate.metadata.width >= 1280) {
+    score += 10;
+  }
+  
+  // Source priority for glamour
+  const glamourSourceBonus: Record<string, number> = {
+    'tmdb': 20,        // Movie stills = high quality
+    'wikimedia': 10,   // Licensed photos
+    'wikipedia': 5,    // Acceptable fallback
+    'unsplash': -5,    // Generic, not Telugu-specific
+    'pexels': -5,
+    'ai_generated': 0, // Neutral fallback
+  };
+  score += glamourSourceBonus[candidate.source] || 0;
+  
+  // License confidence
+  if (candidate.metadata.license === 'TMDB Terms of Use' || 
+      candidate.metadata.license?.includes('CC')) {
+    score += 10; // Clear license
+  } else if (candidate.metadata.license?.includes('unknown')) {
+    score -= 20; // Unknown = risky
+  }
+  
+  return Math.min(100, Math.max(0, score));
+}
+
+/**
+ * Check if image should be auto-rejected for glamour content
+ */
+export function shouldRejectForGlamour(
+  candidate: ImageCandidate,
+  expectedCelebrity?: string
+): GlamourRejectRules {
+  const rules: GlamourRejectRules = {
+    unknownLicense: false,
+    lowResolution: false,
+    actressMismatch: false,
+    nonEditorialUsage: false,
+  };
+  
+  // Unknown license check
+  if (!candidate.metadata.license || 
+      candidate.metadata.license.toLowerCase().includes('unknown')) {
+    rules.unknownLicense = true;
+  }
+  
+  // Low resolution check (< 600px width)
+  if (candidate.metadata.width && candidate.metadata.width < 600) {
+    rules.lowResolution = true;
+  }
+  
+  // Celebrity name mismatch (if sourceUrl doesn't contain name)
+  if (expectedCelebrity && candidate.metadata.sourceUrl) {
+    const normalizedName = expectedCelebrity.toLowerCase().replace(/\s+/g, '');
+    const normalizedUrl = candidate.metadata.sourceUrl.toLowerCase();
+    if (!normalizedUrl.includes(normalizedName.slice(0, 6))) {
+      rules.actressMismatch = true;
+    }
+  }
+  
+  // Non-editorial usage patterns (paparazzi, leaked, etc.)
+  const blockedPatterns = ['paparazzi', 'leaked', 'private', 'stolen', 'screenshot'];
+  if (candidate.metadata.sourceUrl) {
+    for (const pattern of blockedPatterns) {
+      if (candidate.metadata.sourceUrl.toLowerCase().includes(pattern)) {
+        rules.nonEditorialUsage = true;
+        break;
+      }
+    }
+  }
+  
+  return rules;
+}
+
+/**
+ * Select best glamour image with extended metadata
+ */
+export async function selectGlamourImage(
+  context: ImageFetchContext & { celebrityName: string }
+): Promise<ImageSelectionResult & { glamourMetadata?: GlamourImageMetadata }> {
+  const result = await selectBestImage(context);
+  
+  if (!result.selectedImage) {
+    return result;
+  }
+  
+  // Calculate glamour score
+  const glamourScore = calculateGlamourScore(result.selectedImage);
+  
+  // Check rejection rules
+  const rejectRules = shouldRejectForGlamour(result.selectedImage, context.celebrityName);
+  const hasRejectReason = Object.values(rejectRules).some(v => v);
+  
+  if (hasRejectReason) {
+    // Find next best candidate that doesn't have rejection reasons
+    for (const candidate of result.candidates.slice(1)) {
+      const candidateRejectRules = shouldRejectForGlamour(candidate, context.celebrityName);
+      if (!Object.values(candidateRejectRules).some(v => v)) {
+        result.selectedImage = candidate;
+        result.selectionReason = `Selected alternate ${candidate.source} image (original rejected for: ${
+          Object.entries(rejectRules).filter(([, v]) => v).map(([k]) => k).join(', ')
+        })`;
+        break;
+      }
+    }
+  }
+  
+  // Attach glamour metadata
+  const glamourMetadata: GlamourImageMetadata = {
+    source: result.selectedImage.source,
+    license_type: result.selectedImage.metadata.license?.includes('CC') ? 'cc-by' : 'api-provided',
+    author: result.selectedImage.metadata.author,
+    confidence_score: result.selectedImage.score,
+    glamour_score: glamourScore,
+    freshness_days: 0, // Would be calculated from fetch date
+    is_full_body: (result.selectedImage.metadata.aspectRatio || 0) >= 1.2,
+  };
+  
+  return {
+    ...result,
+    glamourMetadata,
+  };
+}
+
+/**
+ * Get multiple glamour image options for admin selection
+ */
+export async function getGlamourImageOptions(
+  context: ImageFetchContext & { celebrityName: string },
+  count: number = 5
+): Promise<(ImageCandidate & { glamourScore: number; rejectReasons: string[] })[]> {
+  const result = await selectBestImage(context);
+  
+  return result.candidates.slice(0, count).map(candidate => {
+    const glamourScore = calculateGlamourScore(candidate);
+    const rejectRules = shouldRejectForGlamour(candidate, context.celebrityName);
+    const rejectReasons = Object.entries(rejectRules)
+      .filter(([, v]) => v)
+      .map(([k]) => k);
+    
+    return {
+      ...candidate,
+      glamourScore,
+      rejectReasons,
+    };
+  });
+}
