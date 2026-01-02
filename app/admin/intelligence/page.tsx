@@ -111,8 +111,10 @@ export default function IntelligenceDashboard() {
             <Brain className="w-8 h-8 text-purple-400" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-white">Intelligence Dashboard</h1>
-            <p className="text-gray-400">Self-Learning System Overview</p>
+            <h1 className="text-2xl font-bold text-white mb-2">Content Intelligence</h1>
+            <p className="text-gray-400 text-sm">
+              Real-time trending detection • Velocity spikes • Performance signals
+            </p>
           </div>
         </div>
 

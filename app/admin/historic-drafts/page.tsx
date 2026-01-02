@@ -87,10 +87,13 @@ export default function HistoricDraftsPage() {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-white flex items-center gap-3">
+          <h1 className="text-2xl font-bold text-white flex items-center gap-3 mb-2">
             <Sparkles className="w-7 h-7 text-[#eab308]" />
-            Historic Drafts
+            Draft Quarantine
           </h1>
+          <p className="text-gray-400 text-sm">
+            Failed ingestions • Canary experiments • Content decay rework • Auto-cleanup after 30 days
+          </p>
           <p className="text-[#737373] mt-1">
             AI-generated celebrity event posts awaiting review
           </p>

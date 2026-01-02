@@ -19,7 +19,51 @@ export default async function AdminDashboard() {
     <div>
       <h1 className="text-2xl font-bold text-white mb-6">Dashboard</h1>
 
-      {/* Stats Grid */}
+      {/* System Health Overview */}
+      <div className="mb-4">
+        <h2 className="text-lg font-semibold text-white mb-4">System Health</h2>
+      </div>
+      
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <HealthMetricCard
+          title="Review Coverage"
+          value="—"
+          subtext="Run coverage check"
+          icon={FileText}
+          status="info"
+          link="/admin/reviews-coverage"
+        />
+        <HealthMetricCard
+          title="Orphan Entities"
+          value="—"
+          subtext="Run audit to detect"
+          icon={TrendingUp}
+          status="warning"
+          link="/admin/knowledge-graph"
+        />
+        <HealthMetricCard
+          title="Duplicate Movies"
+          value="—"
+          subtext="Run detection"
+          icon={MessageCircle}
+          status="success"
+          link="/admin/movie-catalogue"
+        />
+        <HealthMetricCard
+          title="Pending Validation"
+          value="—"
+          subtext="Check catalogue"
+          icon={Eye}
+          status="info"
+          link="/admin/movie-catalogue"
+        />
+      </div>
+      
+      {/* Content Stats */}
+      <div className="mb-4">
+        <h2 className="text-lg font-semibold text-white mb-4">Content Metrics</h2>
+      </div>
+      
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <StatCard
           title="Total Posts"
@@ -52,14 +96,17 @@ export default async function AdminDashboard() {
         <div className="bg-[#141414] border border-[#262626] rounded-xl p-6">
           <h2 className="text-lg font-bold text-white mb-4">Quick Actions</h2>
           <div className="space-y-3">
+            <ActionButton href="/admin/intelligence">
+              📊 View Trending Content
+            </ActionButton>
+            <ActionButton href="/admin/editorial">
+              ✅ Review Editorial Queue
+            </ActionButton>
+            <ActionButton href="/admin/reviews-coverage">
+              📝 Generate Missing Reviews
+            </ActionButton>
             <ActionButton href="/admin/posts/new">
               ➕ Create New Post
-            </ActionButton>
-            <ActionButton href="/admin/drafts">
-              📥 Import Google Trends
-            </ActionButton>
-            <ActionButton href="/admin/posts?status=draft">
-              📝 Review Drafts ({stats.draftPosts})
             </ActionButton>
           </div>
         </div>
@@ -130,6 +177,40 @@ function ActivityItem({ time, action }: { time: string; action: string }) {
   );
 }
 
+function HealthMetricCard({
+  title,
+  value,
+  subtext,
+  icon: Icon,
+  status,
+  link,
+}: {
+  title: string;
+  value: string;
+  subtext: string;
+  icon: React.ComponentType<{ className?: string }>;
+  status: 'success' | 'warning' | 'error' | 'info';
+  link: string;
+}) {
+  const colors = {
+    success: 'bg-green-500',
+    warning: 'bg-yellow-500',
+    error: 'bg-red-500',
+    info: 'bg-blue-500',
+  };
 
-
-
+  return (
+    <a href={link} className="bg-[#141414] border border-[#262626] rounded-xl p-6 hover:bg-[#1a1a1a] transition-colors">
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="text-sm text-[#737373]">{title}</p>
+          <p className="text-2xl font-bold text-white mt-1">{value}</p>
+          <p className="text-xs text-[#737373] mt-1">{subtext}</p>
+        </div>
+        <div className={`${colors[status]} p-3 rounded-lg`}>
+          <Icon className="w-6 h-6 text-white" />
+        </div>
+      </div>
+    </a>
+  );
+}

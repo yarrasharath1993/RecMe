@@ -90,8 +90,10 @@ export default function KnowledgeGraphPage() {
             <Database className="w-8 h-8 text-orange-400" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-white">Telugu Cinema Knowledge Graph</h1>
-            <p className="text-gray-400">1931 (Bhakta Prahlada) → Present</p>
+            <h1 className="text-2xl font-bold text-white mb-2">Entity Integrity Graph</h1>
+            <p className="text-gray-400 text-sm">
+              Movie ↔ Actor ↔ Director ↔ Review relationship validation
+            </p>
           </div>
         </div>
 
@@ -112,6 +114,115 @@ export default function KnowledgeGraphPage() {
         </div>
       ) : (
         <div className="space-y-6">
+          {/* Health Indicators */}
+          <section className="grid grid-cols-3 gap-4">
+            <div className="bg-[#141414] border border-[#262626] rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <XCircle className="w-6 h-6 text-orange-400" />
+                <div>
+                  <h3 className="text-lg font-semibold text-white">Orphan Entities</h3>
+                  <p className="text-xs text-gray-500">Entities with no links</p>
+                </div>
+              </div>
+              <div className="flex items-baseline gap-2">
+                <span className="text-3xl font-bold text-orange-400">—</span>
+                <span className="text-sm text-gray-500">Run audit to detect</span>
+              </div>
+            </div>
+            
+            <div className="bg-[#141414] border border-[#262626] rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <XCircle className="w-6 h-6 text-red-400" />
+                <div>
+                  <h3 className="text-lg font-semibold text-white">Duplicate Entities</h3>
+                  <p className="text-xs text-gray-500">Same person, multiple records</p>
+                </div>
+              </div>
+              <div className="flex items-baseline gap-2">
+                <span className="text-3xl font-bold text-red-400">—</span>
+                <span className="text-sm text-gray-500">Run audit to detect</span>
+              </div>
+            </div>
+            
+            <div className="bg-[#141414] border border-[#262626] rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <XCircle className="w-6 h-6 text-yellow-400" />
+                <div>
+                  <h3 className="text-lg font-semibold text-white">Broken Links</h3>
+                  <p className="text-xs text-gray-500">Invalid movie/person refs</p>
+                </div>
+              </div>
+              <div className="flex items-baseline gap-2">
+                <span className="text-3xl font-bold text-yellow-400">—</span>
+                <span className="text-sm text-gray-500">Run audit to detect</span>
+              </div>
+            </div>
+          </section>
+          
+          {/* CLI Commands */}
+          <section className="bg-[#141414] border border-[#262626] rounded-xl p-6">
+            <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <Database className="w-5 h-5 text-blue-400" />
+              Data Integrity Commands
+            </h2>
+            <p className="text-sm text-gray-400 mb-4">
+              Run these commands to detect and resolve entity issues. Results will update the health indicators above.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-[#0a0a0a] border border-[#262626] rounded-lg p-4">
+                <h3 className="text-sm font-semibold text-white mb-2">Resolve Orphan Entities</h3>
+                <code className="text-xs text-blue-400 block mb-3 bg-[#1a1a1a] p-2 rounded">
+                  pnpm orphan:resolve
+                </code>
+                <p className="text-xs text-gray-500 mb-3">
+                  Detects and links entities with no movie/person relationships.
+                </p>
+                <button className="text-xs px-3 py-1.5 bg-blue-500/20 text-blue-400 rounded hover:bg-blue-500/30 transition-colors">
+                  Run Command
+                </button>
+              </div>
+              
+              <div className="bg-[#0a0a0a] border border-[#262626] rounded-lg p-4">
+                <h3 className="text-sm font-semibold text-white mb-2">Merge Duplicate Movies</h3>
+                <code className="text-xs text-red-400 block mb-3 bg-[#1a1a1a] p-2 rounded">
+                  pnpm intel:movie-audit:duplicates --auto-merge
+                </code>
+                <p className="text-xs text-gray-500 mb-3">
+                  Identifies and merges duplicate movie entries automatically.
+                </p>
+                <button className="text-xs px-3 py-1.5 bg-red-500/20 text-red-400 rounded hover:bg-red-500/30 transition-colors">
+                  Run Command
+                </button>
+              </div>
+              
+              <div className="bg-[#0a0a0a] border border-[#262626] rounded-lg p-4">
+                <h3 className="text-sm font-semibold text-white mb-2">Validate Entity Links</h3>
+                <code className="text-xs text-yellow-400 block mb-3 bg-[#1a1a1a] p-2 rounded">
+                  pnpm intel:validate --strict
+                </code>
+                <p className="text-xs text-gray-500 mb-3">
+                  Checks for broken movie/person references across tables.
+                </p>
+                <button className="text-xs px-3 py-1.5 bg-yellow-500/20 text-yellow-400 rounded hover:bg-yellow-500/30 transition-colors">
+                  Run Command
+                </button>
+              </div>
+              
+              <div className="bg-[#0a0a0a] border border-[#262626] rounded-lg p-4">
+                <h3 className="text-sm font-semibold text-white mb-2">Full Entity Audit</h3>
+                <code className="text-xs text-green-400 block mb-3 bg-[#1a1a1a] p-2 rounded">
+                  pnpm intel:entity-audit
+                </code>
+                <p className="text-xs text-gray-500 mb-3">
+                  Comprehensive check for all entity integrity issues.
+                </p>
+                <button className="text-xs px-3 py-1.5 bg-green-500/20 text-green-400 rounded hover:bg-green-500/30 transition-colors">
+                  Run Command
+                </button>
+              </div>
+            </div>
+          </section>
+          
           {/* Stats Grid */}
           <section className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <StatCard

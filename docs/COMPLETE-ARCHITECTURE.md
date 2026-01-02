@@ -78,17 +78,21 @@
 │  ┌──────────────────────────────────────────────────────────────────────────────────┐   │
 │  │                              ADMIN DASHBOARD                                      │   │
 │  ├──────────────────────────────────────────────────────────────────────────────────┤   │
-│  │  /admin                    Main dashboard with stats                             │   │
-│  │  /admin/posts              Content management (create/edit/publish)               │   │
-│  │  /admin/movie-catalogue    Movie management                                       │   │
-│  │  /admin/reviews-coverage   Review coverage dashboard                              │   │
-│  │  /admin/celebrities        Celebrity management + calendar                        │   │
-│  │  /admin/hot-media          Glamour content management                             │   │
-│  │  /admin/intelligence       AI analytics & learning                                │   │
-│  │  /admin/editorial          Human POV & citations                                  │   │
-│  │  /admin/knowledge-graph    Entity relationships                                   │   │
-│  │  /admin/trend-fusion       Trend analysis                                         │   │
-│  │  /admin/games              Interactive games                                      │   │
+│  │  PRIMARY SECTIONS (System-Critical)                                           │   │
+│  │  /admin                    Main dashboard with health metrics                    │   │
+│  │  /admin/intelligence       Content Intelligence (trending, velocity)             │   │
+│  │  /admin/movie-catalogue    Movie Control Center (coverage, validation)           │   │
+│  │  /admin/reviews-coverage   Review Quality & Coverage                             │   │
+│  │  /admin/knowledge-graph    Entity Integrity Graph (orphans, duplicates)          │   │
+│  │                                                                                   │   │
+│  │  SECONDARY SECTIONS (Operations)                                              │   │
+│  │  /admin/editorial          Editorial Oversight (approve/reject, featured)        │   │
+│  │  /admin/content-manager    Content Manager (standalone)                          │   │
+│  │  /admin/historic-drafts    Draft Quarantine (failed ingestions, cleanup)         │   │
+│  │                                                                                   │   │
+│  │  DEPRECATED (Auto-Redirect)                                                   │   │
+│  │  /admin/reviews            → redirects to /admin/reviews-coverage                │   │
+│  │  /admin/trend-fusion       → redirects to /admin/intelligence                    │   │
 │  └──────────────────────────────────────────────────────────────────────────────────┘   │
 │                                                                                          │
 └──────────────────────────────────────────────────────────────────────────────────────────┘
@@ -842,6 +846,150 @@ pnpm ingest:accelerated --skip-finalize   # Only fast mode
 - Profanity filtering
 - Toxicity checks
 - Safe image validation
+
+---
+
+## 🎛️ Admin System Structure
+
+The admin system has been consolidated from 19 navigation items to 7 core sections with clear ownership and zero overlap.
+
+### PRIMARY SECTIONS (System-Critical)
+
+#### 1. **Content Intelligence** (`/admin/intelligence`)
+- **Purpose:** Real-time trending detection and performance signals
+- **Features:**
+  - Trending movies, actors, and topics
+  - Velocity & spike detection
+  - "Why this is trending" explanations
+- **Access:** READ-ONLY (no content mutation)
+- **Links:** All trends link to affected movies/reviews
+
+#### 2. **Movie Control Center** (`/admin/movie-catalogue`)
+- **Purpose:** Single source of truth for movie data and metrics
+- **Features:**
+  - Coverage metrics by language and decade
+  - Validation states (raw/partial/verified)
+  - Media completeness percentage
+  - Review availability status
+  - Duplicate risk detection
+- **Access:** Metrics dashboard only (no write/edit actions)
+- **Health Metrics:**
+  - Coverage %
+  - Missing movies
+  - Pending validation
+  - Duplicate risks
+
+#### 3. **Review Quality & Coverage** (`/admin/reviews-coverage`)
+- **Purpose:** Monitor and maintain review completeness and quality
+- **Features:**
+  - Review coverage percentage tracking
+  - Confidence score distribution
+  - Malformed/thin review detection
+  - Re-enrichment candidate identification
+- **Access:** System operations only (no free-text editing)
+- **Actions:** All fixes happen via enrichment pipelines
+
+#### 4. **Entity Integrity Graph** (`/admin/knowledge-graph`)
+- **Purpose:** Maintain data relationships and entity health
+- **Features:**
+  - Movie ↔ Actor ↔ Director ↔ Review link validation
+  - Orphan entity detection and resolution
+  - Duplicate entity merging
+  - Broken relationship repair
+- **Access:** System-only operations (no editorial actions)
+- **Health Indicators:**
+  - Orphan entities count
+  - Duplicate entities count
+  - Broken links count
+- **CLI Commands:**
+  - `pnpm orphan:resolve` - Link orphaned entities
+  - `pnpm intel:movie-audit:duplicates --auto-merge` - Merge duplicates
+  - `pnpm intel:validate --strict` - Validate entity links
+  - `pnpm intel:entity-audit` - Full integrity check
+
+### SECONDARY SECTIONS (Operations)
+
+#### 5. **Editorial Oversight** (`/admin/editorial`)
+- **Purpose:** Human review and content approval
+- **Tabs:**
+  - **Approval Queue:** Approve/reject content requiring review
+  - **Featured Content:** Promote content across platform
+  - **Posts:** Manage articles and publications
+  - **Media:** Hot media and image management
+  - **Celebrities:** Celebrity profiles and events
+  - **Community:** Dedications and games management
+- **Access:** Final human gate for publishing decisions
+- **Rules:** No content creation or rewriting, approval only
+
+#### 6. **Content Manager** (`/admin/content-manager`)
+- **Purpose:** Standalone content management workflow
+- **Features:** Trending content import, drafts management
+- **Access:** Kept separate per user decision
+- **Integration:** Works with Google Trends and news sources
+
+#### 7. **Draft Quarantine** (`/admin/historic-drafts`)
+- **Purpose:** Isolate and manage system-generated draft content
+- **Features:**
+  - Failed ingestion recovery
+  - Canary experiment drafts
+  - Content decay rework
+  - Auto-cleanup after 30 days
+- **Access:** System-generated only (no manual creation)
+- **Rules:** Automatic cleanup of stale drafts
+
+### Deprecated Routes (Auto-Redirect)
+
+For backward compatibility, the following routes automatically redirect:
+
+- **`/admin/reviews`** → `/admin/reviews-coverage`
+  - Reason: Consolidated into Review Quality & Coverage
+  
+- **`/admin/trend-fusion`** → `/admin/intelligence`
+  - Reason: Merged into Content Intelligence
+
+### Standalone Routes (Accessed via Editorial)
+
+These routes remain functional but are accessed through Editorial Oversight tabs:
+
+- `/admin/posts` - Posts management
+- `/admin/posts/[id]/edit` - Post editing
+- `/admin/posts/new` - New post creation
+- `/admin/celebrities` - Celebrity management
+- `/admin/celebrities/calendar` - Events calendar
+- `/admin/media` - Media management
+- `/admin/dedications` - Dedications management
+- `/admin/games` - Games management
+
+### Admin Dashboard Health Metrics
+
+The main dashboard (`/admin`) surfaces critical system health indicators:
+
+**System Health Cards:**
+- **Review Coverage** - Links to Reviews Coverage page
+- **Orphan Entities** - Links to Knowledge Graph
+- **Duplicate Movies** - Links to Movie Catalogue
+- **Pending Validation** - Links to Movie Catalogue
+
+**Content Metrics:**
+- Total Posts
+- Total Views
+- Comments
+- Pending Drafts
+
+**Quick Actions:**
+- View Trending Content → `/admin/intelligence`
+- Review Editorial Queue → `/admin/editorial`
+- Generate Missing Reviews → `/admin/reviews-coverage`
+- Create New Post → `/admin/posts/new`
+
+### Design Principles
+
+1. **Clear Ownership:** Each section has a single, well-defined responsibility
+2. **Zero Overlap:** No duplicate routes or ambiguous section purposes
+3. **Health-First:** System health metrics are prominently displayed
+4. **CLI Integration:** Admin pages link to relevant CLI commands for data operations
+5. **Minimal Human Intervention:** System self-evolves based on learning signals
+6. **Self-Documenting:** Tooltips and help text explain system behavior
 
 ---
 

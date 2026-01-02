@@ -41,6 +41,7 @@ interface POVSuggestion {
 }
 
 export default function EditorialIntelligencePage() {
+  const [activeTab, setActiveTab] = useState<'queue' | 'featured' | 'posts' | 'media' | 'celebrities' | 'community'>('queue');
   const [povMetrics, setPovMetrics] = useState<POVMetrics | null>(null);
   const [citationMetrics, setCitationMetrics] = useState<CitationMetrics | null>(null);
   const [pendingGates, setPendingGates] = useState<PublishingGate[]>([]);
@@ -87,14 +88,16 @@ export default function EditorialIntelligencePage() {
   return (
     <div className="p-6 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
           <div className="p-3 bg-gradient-to-br from-orange-500/20 to-pink-500/20 rounded-xl">
-            <Brain className="w-8 h-8 text-orange-500" />
+            <MessageSquareQuote className="w-8 h-8 text-orange-500" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-white">Editorial Intelligence</h1>
-            <p className="text-gray-400">Human POV + Zero-Click SEO + AI Learning</p>
+            <h1 className="text-2xl font-bold text-white mb-2">Editorial Oversight</h1>
+            <p className="text-gray-400 text-sm">
+              Approve/reject queue • Featured content • Posts, Media, Celebrities, Community
+            </p>
           </div>
         </div>
 
@@ -106,13 +109,41 @@ export default function EditorialIntelligencePage() {
           Refresh
         </button>
       </div>
+      
+      {/* Tabs */}
+      <div className="flex gap-2 border-b border-[#333] mb-6">
+        {[
+          { id: 'queue', label: 'Approval Queue', icon: CheckCircle },
+          { id: 'featured', label: 'Featured Content', icon: Star },
+          { id: 'posts', label: 'Posts', icon: FileText },
+          { id: 'media', label: 'Media', icon: Eye },
+          { id: 'celebrities', label: 'Celebrities', icon: Users },
+          { id: 'community', label: 'Community', icon: Target },
+        ].map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id as any)}
+            className={`flex items-center gap-2 px-4 py-2 border-b-2 transition-colors ${
+              activeTab === tab.id
+                ? 'border-orange-500 text-orange-500'
+                : 'border-transparent text-gray-400 hover:text-white'
+            }`}
+          >
+            <tab.icon className="w-4 h-4" />
+            {tab.label}
+          </button>
+        ))}
+      </div>
 
-      {loading ? (
+      {loading && activeTab === 'queue' ? (
         <div className="text-center py-12 text-gray-500">
           <Brain className="w-12 h-12 mx-auto mb-4 animate-pulse" />
           <p>Loading editorial intelligence...</p>
         </div>
       ) : (
+        <>
+          {/* Approval Queue Tab */}
+          {activeTab === 'queue' && (
         <div className="space-y-6">
           {/* Quick Stats */}
           <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -378,6 +409,121 @@ export default function EditorialIntelligencePage() {
             />
           </section>
         </div>
+          )}
+          
+          {/* Featured Content Tab */}
+          {activeTab === 'featured' && (
+            <div className="space-y-6">
+              <div className="bg-[#141414] border border-[#262626] rounded-xl p-8 text-center">
+                <Star className="w-12 h-12 mx-auto text-gray-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Featured Content Management</h3>
+                <p className="text-gray-400 text-sm">
+                  Promote and feature content across the platform. Coming soon.
+                </p>
+              </div>
+            </div>
+          )}
+          
+          {/* Posts Tab */}
+          {activeTab === 'posts' && (
+            <div className="space-y-6">
+              <div className="bg-[#141414] border border-[#262626] rounded-xl p-8">
+                <FileText className="w-12 h-12 text-gray-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Posts Management</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  Manage all posts, drafts, and publications.
+                </p>
+                <div className="flex gap-3">
+                  <Link
+                    href="/admin/posts"
+                    className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                  >
+                    View All Posts
+                  </Link>
+                  <Link
+                    href="/admin/posts/new"
+                    className="px-4 py-2 bg-[#262626] text-white rounded-lg hover:bg-[#363636] transition-colors"
+                  >
+                    Create New Post
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {/* Media Tab */}
+          {activeTab === 'media' && (
+            <div className="space-y-6">
+              <div className="bg-[#141414] border border-[#262626] rounded-xl p-8">
+                <Eye className="w-12 h-12 text-gray-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Media Management</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  Manage hot media, images, and visual content.
+                </p>
+                <Link
+                  href="/admin/media"
+                  className="inline-block px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                >
+                  Manage Media
+                </Link>
+              </div>
+            </div>
+          )}
+          
+          {/* Celebrities Tab */}
+          {activeTab === 'celebrities' && (
+            <div className="space-y-6">
+              <div className="bg-[#141414] border border-[#262626] rounded-xl p-8">
+                <Users className="w-12 h-12 text-gray-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Celebrity Management</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  Manage celebrity profiles, events, and calendar.
+                </p>
+                <div className="flex gap-3">
+                  <Link
+                    href="/admin/celebrities"
+                    className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                  >
+                    View All Celebrities
+                  </Link>
+                  <Link
+                    href="/admin/celebrities/calendar"
+                    className="px-4 py-2 bg-[#262626] text-white rounded-lg hover:bg-[#363636] transition-colors"
+                  >
+                    Events Calendar
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {/* Community Tab */}
+          {activeTab === 'community' && (
+            <div className="space-y-6">
+              <div className="bg-[#141414] border border-[#262626] rounded-xl p-8">
+                <Target className="w-12 h-12 text-gray-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Community Management</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  Manage dedications, games, and community features.
+                </p>
+                <div className="flex gap-3">
+                  <Link
+                    href="/admin/dedications"
+                    className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                  >
+                    Manage Dedications
+                  </Link>
+                  <Link
+                    href="/admin/games"
+                    className="px-4 py-2 bg-[#262626] text-white rounded-lg hover:bg-[#363636] transition-colors"
+                  >
+                    Manage Games
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

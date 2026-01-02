@@ -258,7 +258,7 @@ export default function ReviewsPage() {
       if (filters.sortBy) params.set('sortBy', filters.sortBy);
       if (filters.sortOrder) params.set('sortOrder', filters.sortOrder);
       if (selectedLanguage) params.set('language', selectedLanguage);
-      params.set('limit', '100');
+      params.set('limit', '500');  // Show more movies
 
       const res = await fetch(`/api/movies?${params}`);
       const data = await res.json();

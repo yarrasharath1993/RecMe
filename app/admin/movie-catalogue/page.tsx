@@ -163,12 +163,12 @@ export default function MovieCataloguePage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-white flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-white flex items-center gap-2 mb-2">
             <Film className="w-7 h-7 text-orange-500" />
-            Telugu Movie Catalogue
+            Movie Control Center
           </h1>
-          <p className="text-gray-400 mt-1">
-            Complete Telugu cinema database from 1931 to present
+          <p className="text-gray-400 text-sm">
+            Coverage metrics • Validation states • Media completeness • Review availability
           </p>
         </div>
         <button
@@ -222,7 +222,39 @@ export default function MovieCataloguePage() {
       {/* Overview Tab */}
       {activeTab === 'overview' && stats && (
         <div className="space-y-6">
-          {/* Stats Cards */}
+          {/* Health Metrics */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <StatCard
+              icon={CheckCircle2}
+              label="Coverage %"
+              value={`${Math.round((stats.with_tmdb / stats.total_movies) * 100)}%`}
+              subValue={`${stats.with_tmdb} verified`}
+              color="green"
+            />
+            <StatCard
+              icon={AlertCircle}
+              label="Missing Movies"
+              value={(stats.total_movies - stats.with_tmdb).toLocaleString()}
+              subValue="Need enrichment"
+              color="orange"
+            />
+            <StatCard
+              icon={Clock}
+              label="Pending Validation"
+              value="—"
+              subValue="Run audit to check"
+              color="yellow"
+            />
+            <StatCard
+              icon={Merge}
+              label="Duplicate Risks"
+              value={duplicates.length > 0 ? duplicates.length.toString() : '—'}
+              subValue={duplicates.length > 0 ? 'Check duplicates tab' : 'Run detection'}
+              color={duplicates.length > 0 ? 'red' : 'green'}
+            />
+          </div>
+          
+          {/* Core Stats Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <StatCard
               icon={Film}

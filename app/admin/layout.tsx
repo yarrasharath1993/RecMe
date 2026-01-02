@@ -68,87 +68,43 @@ export default async function AdminLayout({
         {/* Sidebar */}
         <aside className="w-64 bg-[#141414] border-r border-[#262626] min-h-[calc(100vh-64px)] p-4">
           <nav className="space-y-2">
+            {/* PRIMARY SECTIONS - System-Critical */}
+            <div className="mb-2">
+              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
+                System Core
+              </span>
+            </div>
+            
             <NavItem href="/admin" icon={LayoutDashboard}>
               Dashboard
+            </NavItem>
+            <NavItem href="/admin/intelligence" icon={Brain}>
+              Content Intelligence
+            </NavItem>
+            <NavItem href="/admin/movie-catalogue" icon={Film}>
+              Movie Control Center
+            </NavItem>
+            <NavItem href="/admin/reviews-coverage" icon={Film}>
+              Review Quality & Coverage
+            </NavItem>
+            <NavItem href="/admin/knowledge-graph" icon={Database}>
+              Entity Integrity Graph
+            </NavItem>
+
+            {/* SECONDARY SECTIONS - Operations */}
+            <div className="pt-4 mt-4 border-t border-[#262626]">
+              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
+                Operations
+              </span>
+            </div>
+            <NavItem href="/admin/editorial" icon={MessageSquareQuote}>
+              Editorial Oversight
             </NavItem>
             <NavItem href="/admin/content-manager" icon={FileText}>
               Content Manager
             </NavItem>
-            <NavItem href="/admin/intelligence" icon={Brain}>
-              Intelligence
-            </NavItem>
-            <NavItem href="/admin/editorial" icon={MessageSquareQuote}>
-              Editorial AI
-            </NavItem>
-            <NavItem href="/admin/posts" icon={FileText}>
-              Posts
-            </NavItem>
-            <NavItem href="/admin/drafts" icon={TrendingUp}>
-              Trending Drafts
-            </NavItem>
-
-            {/* Reviews & Dedications */}
-            <div className="pt-4 mt-4 border-t border-[#262626]">
-              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
-                Reviews & Community
-              </span>
-            </div>
-            <NavItem href="/admin/reviews" icon={Film}>
-              Movie Reviews
-            </NavItem>
-            <NavItem href="/admin/dedications" icon={Heart}>
-              Dedications
-            </NavItem>
-
-            {/* Hot Media Section */}
-            <div className="pt-4 mt-4 border-t border-[#262626]">
-              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
-                Hot Media
-              </span>
-            </div>
-            <NavItem href="/admin/media" icon={Flame}>
-              Media Manager
-            </NavItem>
-            <NavItem href="/admin/image-intelligence" icon={ImageIcon}>
-              Image Intelligence
-            </NavItem>
-            <NavItem href="/admin/media/entities" icon={ImageIcon}>
-              Entities
-            </NavItem>
-
-            {/* Movie Catalogue & Knowledge Graph */}
-            <div className="pt-4 mt-4 border-t border-[#262626]">
-              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
-                Movie Database
-              </span>
-            </div>
-            <NavItem href="/admin/movie-catalogue" icon={Film}>
-              Movie Catalogue
-            </NavItem>
-            <NavItem href="/admin/knowledge-graph" icon={Database}>
-              Telugu Cinema KG
-            </NavItem>
-
-            {/* Celebrity Section */}
-            <div className="pt-4 mt-4 border-t border-[#262626]">
-              <span className="px-3 text-xs font-medium text-[#737373] uppercase tracking-wider">
-                Celebrities
-              </span>
-            </div>
-            <NavItem href="/admin/celebrities" icon={Users}>
-              All Celebrities
-            </NavItem>
-            <NavItem href="/admin/celebrities/calendar" icon={Calendar}>
-              Events Calendar
-            </NavItem>
-            <NavItem href="/admin/historic-intelligence" icon={Sparkles}>
-              Historic Intelligence
-            </NavItem>
-            <NavItem href="/admin/trend-fusion" icon={Zap}>
-              Trend-Historic Fusion
-            </NavItem>
             <NavItem href="/admin/historic-drafts" icon={Calendar}>
-              Historic Drafts
+              Draft Quarantine
             </NavItem>
 
             <div className="pt-4 mt-4 border-t border-[#262626]">
