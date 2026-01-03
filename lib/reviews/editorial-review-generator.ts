@@ -173,6 +173,9 @@ interface ReviewDataSources {
 // GENERATOR CLASS
 // ============================================================
 
+// Track last successful provider globally to avoid restarting from groq each time
+let lastSuccessfulProvider: AIProvider | null = null;
+
 export class EditorialReviewGenerator {
   private supabase: ReturnType<typeof createClient>;
   private preferredProvider: AIProvider;
@@ -182,8 +185,9 @@ export class EditorialReviewGenerator {
     const { keyManager } = require('../ai/key-manager');
     keyManager.initialize();
 
-    // Determine preferred provider based on available keys
-    this.preferredProvider = (process.env.AI_PROVIDER as AIProvider) || 'groq';
+    // Use last successful provider if available, otherwise determine from env
+    const envProvider = (process.env.AI_PROVIDER as AIProvider) || 'groq';
+    this.preferredProvider = lastSuccessfulProvider || envProvider;
     
     const availableProviders = keyManager.getAvailableProviders();
     console.log(`🤖 Available providers: ${availableProviders.join(', ')}`);
@@ -364,7 +368,11 @@ export class EditorialReviewGenerator {
             result = await this.huggingfaceCompletion(client.huggingfaceKey, prompt, maxTokens);
           }
           
-          if (result) return result;
+          if (result) {
+            // Track this provider as working for future calls
+            lastSuccessfulProvider = provider;
+            return result;
+          }
         } catch (error: any) {
           lastError = error;
           const reason = getFailureReason(error);
