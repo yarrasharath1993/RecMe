@@ -252,3 +252,6 @@ COMMENT ON TABLE user_badges IS 'Badges earned by users';
 
 
 
+
+
+

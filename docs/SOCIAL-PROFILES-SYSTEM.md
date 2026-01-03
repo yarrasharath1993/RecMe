@@ -331,3 +331,6 @@ curl "http://localhost:3000/api/celebrity/CELEBRITY_ID/social"
 | `supabase-social-profiles-schema.sql` | Database schema |
 
 
+
+
+

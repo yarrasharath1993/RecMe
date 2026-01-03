@@ -33,25 +33,35 @@ function getSupabaseClient() {
 }
 
 // Patterns that indicate a person name, not a movie
+// Be conservative - only flag obvious person names, not Telugu movie titles
 const PERSON_NAME_PATTERNS = [
-  /^[A-Z]\.\s*[A-Z]/i,           // Initials like "A. B. Name"
-  /\b(Reddy|Rao|Naidu|Sharma|Kumar|Singh|Varma|Babu)\s*$/i, // Common surname endings
-  /^[A-Z][a-z]+\s+[A-Z][a-z]+$/,  // Simple "First Last" pattern
+  /^[A-Z]\.\s*[A-Z]\.\s*[A-Z]/i,           // Multiple initials like "A. B. C. Name"
+  /^(Dr|Mr|Mrs|Ms|Sri|Shri)\.\s/i,          // Titles like "Dr. Name"
 ];
+
+// Definite person name endings (actors/directors) - only if title is very short
+const OBVIOUS_SURNAME_PATTERN = /^[A-Z][a-z]+\s+(Reddy|Rao|Naidu)$/i;
 
 function isLikelyPersonName(title: string | null): boolean {
   if (!title) return true;
   if (title.length < 3) return true;
   
-  // Check for person name patterns
+  // Very short titles that match "First Last" with common surname
+  if (OBVIOUS_SURNAME_PATTERN.test(title) && title.split(' ').length === 2) {
+    // Check if it's a known actor/director pattern - skip these
+    return true;
+  }
+  
+  // Check for person name patterns (initials, titles)
   for (const pattern of PERSON_NAME_PATTERNS) {
     if (pattern.test(title)) {
-      // But allow if it contains typical movie keywords
-      const movieKeywords = /movie|film|story|love|war|hero|action|drama|comedy|thriller|horror/i;
-      if (!movieKeywords.test(title)) {
-        return true;
-      }
+      return true;
     }
+  }
+  
+  // Entries that look like comma-separated cast lists (Wikipedia artifacts)
+  if (title.includes(',') && title.split(',').length >= 3) {
+    return true;
   }
   
   return false;
@@ -86,14 +96,21 @@ function shouldPromote(movie: Movie): { promote: boolean; reason: string } {
     return { promote: false, reason: 'Invalid year' };
   }
   
-  // Must have poster OR backdrop
-  if (!movie.poster_url && !movie.backdrop_url) {
+  // Telugu movies: relaxed poster requirement (many classics have no poster on TMDB)
+  // Other languages: require poster OR backdrop
+  const isTelugu = movie.language === 'Telugu';
+  if (!isTelugu && !movie.poster_url && !movie.backdrop_url) {
     return { promote: false, reason: 'No poster or backdrop' };
   }
   
   // Must have genre OR TMDB ID (indicates verified movie)
+  // For Telugu without poster: require TMDB ID OR genre (some validation)
   if ((!movie.genres || movie.genres.length === 0) && !movie.tmdb_id) {
-    return { promote: false, reason: 'No genre or TMDB ID' };
+    // Telugu movies can be promoted with just title+year if no poster
+    // but for other languages, this is a hard requirement
+    if (!isTelugu) {
+      return { promote: false, reason: 'No genre or TMDB ID' };
+    }
   }
   
   return { promote: true, reason: 'Meets promotion criteria' };
@@ -253,4 +270,7 @@ async function main() {
 }
 
 main().catch(console.error);
+
+
+
 

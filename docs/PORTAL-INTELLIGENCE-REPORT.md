@@ -355,3 +355,6 @@ The current implementation covers 36 celebrities with 185 photos. Adding Instagr
 *Report generated for TeluguVibes competitive analysis. No copyrighted content was scraped or copied.*
 
 
+
+
+

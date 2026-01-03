@@ -228,3 +228,6 @@ COMMENT ON COLUMN telugu_movie_index.confidence_score IS 'Confidence that this i
 SELECT 'Telugu movie index schema created!' as status;
 
 
+
+
+

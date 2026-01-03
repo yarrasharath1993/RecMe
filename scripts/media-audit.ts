@@ -175,3 +175,6 @@ function createProgressBar(percent: number, width: number = 20): string {
 
 main();
 
+
+
+

@@ -166,6 +166,10 @@
     "pipeline:optimized": "npx tsx scripts/run-optimized-pipeline.ts",
     "celebs:enrich:images": "npx tsx scripts/enrich-celebrity-images-by-search.ts",
     "celebs:enrich:images:top": "npx tsx scripts/enrich-celebrity-images-by-search.ts --top --limit=30",
+    "fix:language": "npx tsx scripts/fix-language-mismatch.ts",
+    "fix:language:audit": "npx tsx scripts/fix-language-mismatch.ts --audit",
+    "fix:language:fix": "npx tsx scripts/fix-language-mismatch.ts --fix",
+    "fix:language:unpublish": "npx tsx scripts/fix-language-mismatch.ts --fix --unpublish",
     "reviews:enhance:apply": "npx tsx scripts/reviews-enhance.ts --apply",
     "reviews:enhance:confidence": "npx tsx scripts/reviews-enhance.ts --confidence-only",
     "reviews:enhance:movie": "npx tsx scripts/reviews-enhance.ts --movie",
@@ -214,7 +218,13 @@
     "cleanup:sample": "npx tsx scripts/cleanup-sample-data.ts",
     "cleanup:sample:dry": "npx tsx scripts/cleanup-sample-data.ts --dry",
     "intel:review-confidence:score": "npx tsx scripts/reviews-enhance.ts --confidence-only",
-    "reviews:generate:structured": "npx tsx scripts/generate-canonical-reviews.ts --structured"
+    "reviews:generate:structured": "npx tsx scripts/generate-canonical-reviews.ts --structured",
+    "content:inject": "npx tsx scripts/inject-content-batch.ts",
+    "content:inject:all": "npx tsx scripts/inject-content-batch.ts --type=all",
+    "content:inject:stories": "npx tsx scripts/inject-content-batch.ts --type=stories",
+    "content:inject:health": "npx tsx scripts/inject-content-batch.ts --type=health",
+    "content:inject:games": "npx tsx scripts/inject-content-batch.ts --type=games",
+    "content:inject:dry": "npx tsx scripts/inject-content-batch.ts --dry"
   },
   "dependencies": {
     "@auth/core": "^0.41.0",

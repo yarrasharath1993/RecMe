@@ -436,3 +436,6 @@ function colorCoverage(percent: number): string {
 
 main();
 
+
+
+

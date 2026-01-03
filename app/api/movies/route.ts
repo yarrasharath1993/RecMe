@@ -37,8 +37,18 @@ export async function GET(request: NextRequest) {
   let query = supabase
     .from('movies')
     .select('*', { count: 'exact' })
-    .eq('is_published', true)
-    .not('poster_url', 'is', null);  // Only show movies with posters
+    .eq('is_published', true);
+
+  // For Telugu, show all published movies (many classics have no poster on TMDB)
+  // For other languages, require poster for better UX
+  if (language === 'Telugu') {
+    // No poster filter - Telugu gets 100% visibility
+  } else if (language) {
+    query = query.not('poster_url', 'is', null);
+  } else {
+    // Default: require poster for mixed language results
+    query = query.not('poster_url', 'is', null);
+  }
 
   // Apply filters
   if (genre) {
@@ -83,8 +93,6 @@ export async function GET(request: NextRequest) {
 
   if (language) {
     query = query.eq('language', language);
-    // Quality gate removed - all published movies with posters are visible
-    // Tags (blockbuster, classic, underrated) are for filtering, not gating
   }
 
   if (search) {

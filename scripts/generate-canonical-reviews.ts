@@ -79,11 +79,11 @@ async function getMoviesNeedingReviews(
   options: { limit: number; force: boolean }
 ): Promise<Movie[]> {
   // Get all movies
-  const { data: movies, error } = await supabase
+  const { data: movies, error} = await supabase
     .from('movies')
     .select('*')
     .eq('is_published', true)
-    .order('popularity', { ascending: false })
+    .order('release_year', { ascending: false })
     .limit(options.limit);
 
   if (error || !movies) {

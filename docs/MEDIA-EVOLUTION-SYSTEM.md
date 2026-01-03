@@ -377,3 +377,6 @@ scripts/
 5. **Enrichment over ingestion** - Add to index first, enrich separately
 6. **All operations logged** - Traceable and recomputable
 
+
+
+

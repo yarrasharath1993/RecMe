@@ -153,3 +153,6 @@ COMMENT ON COLUMN story_posts.post_type IS 'initial=first post, update=new devel
 SELECT 'Story arcs schema created!' as status;
 
 
+
+
+

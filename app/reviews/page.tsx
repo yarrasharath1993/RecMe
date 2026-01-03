@@ -132,75 +132,83 @@ export default function ReviewsPage() {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(false);
   const [filters, setFilters] = useState<ReviewFilters>({
-    sortBy: 'rating',
-    sortOrder: 'desc',
+    sortBy: "rating",
+    sortOrder: "desc",
   });
   const [showFilters, setShowFilters] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedLanguage, setSelectedLanguage] = useState('Telugu');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedLanguage, setSelectedLanguage] = useState("Telugu");
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [showSearchResults, setShowSearchResults] = useState(false);
-  const [viewMode, setViewMode] = useState<'sections' | 'grid'>('sections');
+  const [viewMode, setViewMode] = useState<"sections" | "grid">("sections");
 
   const searchRef = useRef<HTMLDivElement>(null);
 
   // Initialize filters from URL params on mount
   useEffect(() => {
-    const actor = searchParams.get('actor');
-    const director = searchParams.get('director');
-    const genre = searchParams.get('genre');
-    const language = searchParams.get('language');
-    
+    const actor = searchParams.get("actor");
+    const director = searchParams.get("director");
+    const genre = searchParams.get("genre");
+    const language = searchParams.get("language");
+
     if (actor || director || genre || language) {
       const urlFilters: ReviewFilters = {
-        sortBy: 'rating',
-        sortOrder: 'desc',
+        sortBy: "rating",
+        sortOrder: "desc",
         ...(actor && { actor }),
         ...(director && { director }),
         ...(genre && { genre: genre as Genre }),
       };
       setFilters(urlFilters);
       if (language) setSelectedLanguage(language);
-      setViewMode('grid'); // Switch to grid when URL has filters
+      setViewMode("grid"); // Switch to grid when URL has filters
     }
   }, [searchParams]);
 
   // Update URL when filters change (for bookmarkable links)
-  const updateUrl = useCallback((newFilters: ReviewFilters, mode: 'sections' | 'grid') => {
-    if (mode === 'sections') {
-      // Clear URL params when going back to sections view
-      router.replace('/reviews', { scroll: false });
-    } else {
-      const params = new URLSearchParams();
-      if (newFilters.actor) params.set('actor', newFilters.actor);
-      if (newFilters.director) params.set('director', newFilters.director);
-      if (newFilters.genre) params.set('genre', newFilters.genre);
-      
-      const url = params.toString() ? `/reviews?${params.toString()}` : '/reviews';
-      router.replace(url, { scroll: false });
-    }
-  }, [router]);
+  const updateUrl = useCallback(
+    (newFilters: ReviewFilters, mode: "sections" | "grid") => {
+      if (mode === "sections") {
+        // Clear URL params when going back to sections view
+        router.replace("/reviews", { scroll: false });
+      } else {
+        const params = new URLSearchParams();
+        if (newFilters.actor) params.set("actor", newFilters.actor);
+        if (newFilters.director) params.set("director", newFilters.director);
+        if (newFilters.genre) params.set("genre", newFilters.genre);
+
+        const url = params.toString()
+          ? `/reviews?${params.toString()}`
+          : "/reviews";
+        router.replace(url, { scroll: false });
+      }
+    },
+    [router]
+  );
 
   // Fetch sections on mount
-  useEffect(() => {
-    fetchSections();
-  }, []);
-
-  // Fetch sections
-  const fetchSections = async () => {
+  // Fetch sections (depends on selected language)
+  const fetchSections = useCallback(async (language: string) => {
     setLoadingSections(true);
     try {
-      const res = await fetch('/api/reviews/sections');
+      const params = new URLSearchParams();
+      if (language) params.set("language", language);
+      const res = await fetch(`/api/reviews/sections?${params}`);
       const data = await res.json();
       if (data.sections) {
         setSections(data.sections);
         setSpotlights(data.spotlights || []);
       }
     } catch (error) {
-      console.error('Error fetching sections:', error);
+      console.error("Error fetching sections:", error);
     }
     setLoadingSections(false);
-  };
+  }, []);
+
+  // Re-fetch sections when language changes
+  useEffect(() => {
+    fetchSections(selectedLanguage);
+  }, [selectedLanguage, fetchSections]);
 
   // Unified search
   const handleSearch = useCallback(async (query: string) => {
@@ -211,12 +219,14 @@ export default function ReviewsPage() {
     }
 
     try {
-      const res = await fetch(`/api/reviews/sections?search=${encodeURIComponent(query)}`);
+      const res = await fetch(
+        `/api/reviews/sections?search=${encodeURIComponent(query)}`
+      );
       const data = await res.json();
       setSearchResults(data.results || []);
       setShowSearchResults(true);
     } catch (error) {
-      console.error('Search error:', error);
+      console.error("Search error:", error);
     }
   }, []);
 
@@ -234,37 +244,37 @@ export default function ReviewsPage() {
         setShowSearchResults(false);
       }
     };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   // Fetch filtered movies when switching to grid view
   const fetchMovies = useCallback(async () => {
-    if (viewMode !== 'grid') return;
+    if (viewMode !== "grid") return;
     setLoading(true);
     try {
       const params = new URLSearchParams();
-      if (filters.genre) params.set('genre', filters.genre);
-      if (filters.actor) params.set('actor', filters.actor);
-      if (filters.director) params.set('director', filters.director);
+      if (filters.genre) params.set("genre", filters.genre);
+      if (filters.actor) params.set("actor", filters.actor);
+      if (filters.director) params.set("director", filters.director);
       if (filters.yearRange) {
-        params.set('yearFrom', String(filters.yearRange.from));
-        params.set('yearTo', String(filters.yearRange.to));
+        params.set("yearFrom", String(filters.yearRange.from));
+        params.set("yearTo", String(filters.yearRange.to));
       }
-      if (filters.minRating) params.set('minRating', String(filters.minRating));
-      if (filters.isUnderrated) params.set('underrated', 'true');
-      if (filters.isBlockbuster) params.set('blockbuster', 'true');
-      if (filters.isClassic) params.set('classic', 'true');
-      if (filters.sortBy) params.set('sortBy', filters.sortBy);
-      if (filters.sortOrder) params.set('sortOrder', filters.sortOrder);
-      if (selectedLanguage) params.set('language', selectedLanguage);
-      params.set('limit', '500');  // Show more movies
+      if (filters.minRating) params.set("minRating", String(filters.minRating));
+      if (filters.isUnderrated) params.set("underrated", "true");
+      if (filters.isBlockbuster) params.set("blockbuster", "true");
+      if (filters.isClassic) params.set("classic", "true");
+      if (filters.sortBy) params.set("sortBy", filters.sortBy);
+      if (filters.sortOrder) params.set("sortOrder", filters.sortOrder);
+      if (selectedLanguage) params.set("language", selectedLanguage);
+      params.set("limit", "500"); // Show more movies
 
       const res = await fetch(`/api/movies?${params}`);
       const data = await res.json();
       setMovies(data.movies || []);
     } catch (error) {
-      console.error('Error fetching movies:', error);
+      console.error("Error fetching movies:", error);
     }
     setLoading(false);
   }, [filters, viewMode, selectedLanguage]);
@@ -274,39 +284,68 @@ export default function ReviewsPage() {
   }, [fetchMovies]);
 
   const clearFilters = useCallback(() => {
-    const defaultFilters: ReviewFilters = { sortBy: 'rating', sortOrder: 'desc' };
+    const defaultFilters: ReviewFilters = {
+      sortBy: "rating",
+      sortOrder: "desc",
+    };
     setFilters(defaultFilters);
-    setSearchQuery('');
-    setViewMode('sections');
-    updateUrl(defaultFilters, 'sections'); // Clear URL params
+    setSearchQuery("");
+    setViewMode("sections");
+    updateUrl(defaultFilters, "sections"); // Clear URL params
   }, [updateUrl]);
 
-  const applyFilter = useCallback((newFilters: Partial<ReviewFilters>) => {
-    const updatedFilters = { ...filters, ...newFilters };
-    setFilters(updatedFilters);
-    setViewMode('grid');
-    updateUrl(updatedFilters, 'grid'); // Update URL with new filters
-  }, [filters, updateUrl]);
+  const applyFilter = useCallback(
+    (newFilters: Partial<ReviewFilters>) => {
+      const updatedFilters = { ...filters, ...newFilters };
+      setFilters(updatedFilters);
+      setViewMode("grid");
+      updateUrl(updatedFilters, "grid"); // Update URL with new filters
+    },
+    [filters, updateUrl]
+  );
 
-  const hasActiveFilters = filters.genre || filters.isUnderrated || filters.isBlockbuster || 
-    filters.isClassic || filters.minRating || filters.yearRange || filters.actor || filters.director;
+  const hasActiveFilters =
+    filters.genre ||
+    filters.isUnderrated ||
+    filters.isBlockbuster ||
+    filters.isClassic ||
+    filters.minRating ||
+    filters.yearRange ||
+    filters.actor ||
+    filters.director;
 
   return (
-    <main className="min-h-screen pb-16" style={{ backgroundColor: 'var(--bg-primary)' }}>
+    <main
+      className="min-h-screen pb-16"
+      style={{ backgroundColor: "var(--bg-primary)" }}
+    >
       {/* Hero Section */}
       <section
         className="relative py-6 px-4"
-        style={{ background: 'linear-gradient(180deg, rgba(234,179,8,0.08), transparent)' }}
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(234,179,8,0.08), transparent)",
+        }}
       >
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-3 mb-2">
-            <Film className="w-7 h-7" style={{ color: 'var(--brand-primary)' }} />
-            <h1 className="text-2xl md:text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>
+            <Film
+              className="w-7 h-7"
+              style={{ color: "var(--brand-primary)" }}
+            />
+            <h1
+              className="text-2xl md:text-3xl font-bold"
+              style={{ color: "var(--text-primary)" }}
+            >
               మూవీ రివ్యూలు
             </h1>
           </div>
-          <p className="text-sm max-w-2xl" style={{ color: 'var(--text-secondary)' }}>
-            Discover Telugu cinema. In-depth reviews, smart recommendations, and curated collections.
+          <p
+            className="text-sm max-w-2xl"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            Discover Telugu cinema. In-depth reviews, smart recommendations, and
+            curated collections.
           </p>
         </div>
       </section>
@@ -315,40 +354,45 @@ export default function ReviewsPage() {
       <section
         className="sticky top-0 z-30 backdrop-blur-xl border-b"
         style={{
-          backgroundColor: 'var(--bg-primary)',
-          borderColor: 'var(--border-primary)',
-          opacity: 0.98
+          backgroundColor: "var(--bg-primary)",
+          borderColor: "var(--border-primary)",
+          opacity: 0.98,
         }}
       >
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex flex-wrap items-center gap-2">
             {/* Unified Search */}
-            <div className="relative flex-1 min-w-[180px] max-w-md" ref={searchRef}>
+            <div
+              className="relative flex-1 min-w-[180px] max-w-md"
+              ref={searchRef}
+            >
               <Search
                 className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"
-                style={{ color: 'var(--text-tertiary)' }}
+                style={{ color: "var(--text-tertiary)" }}
               />
               <input
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                onFocus={() => searchQuery.length >= 2 && setShowSearchResults(true)}
+                onFocus={() =>
+                  searchQuery.length >= 2 && setShowSearchResults(true)
+                }
                 placeholder="Search movies, actors, directors..."
                 className="w-full pl-9 pr-3 py-2 rounded-lg text-sm focus:outline-none transition-colors"
                 style={{
-                  backgroundColor: 'var(--bg-secondary)',
-                  border: '1px solid var(--border-primary)',
-                  color: 'var(--text-primary)'
+                  backgroundColor: "var(--bg-secondary)",
+                  border: "1px solid var(--border-primary)",
+                  color: "var(--text-primary)",
                 }}
               />
-              
+
               {/* Search Results Dropdown */}
               {showSearchResults && searchResults.length > 0 && (
                 <div
                   className="absolute top-full left-0 right-0 mt-1 rounded-lg shadow-xl overflow-hidden z-50"
                   style={{
-                    backgroundColor: 'var(--bg-secondary)',
-                    border: '1px solid var(--border-primary)'
+                    backgroundColor: "var(--bg-secondary)",
+                    border: "1px solid var(--border-primary)",
                   }}
                 >
                   {searchResults.map((result) => (
@@ -356,7 +400,9 @@ export default function ReviewsPage() {
                       key={result.id}
                       href={result.link}
                       className="flex items-center gap-3 px-4 py-3 hover:opacity-80 transition-opacity"
-                      style={{ borderBottom: '1px solid var(--border-primary)' }}
+                      style={{
+                        borderBottom: "1px solid var(--border-primary)",
+                      }}
                       onClick={() => setShowSearchResults(false)}
                     >
                       {result.image_url ? (
@@ -368,29 +414,46 @@ export default function ReviewsPage() {
                           className="rounded object-cover"
                         />
                       ) : (
-                        <div 
+                        <div
                           className="w-8 h-12 rounded flex items-center justify-center"
-                          style={{ backgroundColor: 'var(--bg-tertiary)' }}
+                          style={{ backgroundColor: "var(--bg-tertiary)" }}
                         >
-                          {result.type === 'movie' && <Film className="w-4 h-4" />}
-                          {result.type === 'actor' && <User className="w-4 h-4" />}
-                          {result.type === 'director' && <Award className="w-4 h-4" />}
-                          {result.type === 'genre' && <Sparkles className="w-4 h-4" />}
+                          {result.type === "movie" && (
+                            <Film className="w-4 h-4" />
+                          )}
+                          {result.type === "actor" && (
+                            <User className="w-4 h-4" />
+                          )}
+                          {result.type === "director" && (
+                            <Award className="w-4 h-4" />
+                          )}
+                          {result.type === "genre" && (
+                            <Sparkles className="w-4 h-4" />
+                          )}
                         </div>
                       )}
                       <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium truncate" style={{ color: 'var(--text-primary)' }}>
+                        <p
+                          className="text-sm font-medium truncate"
+                          style={{ color: "var(--text-primary)" }}
+                        >
                           {result.title}
                         </p>
                         {result.subtitle && (
-                          <p className="text-xs truncate" style={{ color: 'var(--text-tertiary)' }}>
+                          <p
+                            className="text-xs truncate"
+                            style={{ color: "var(--text-tertiary)" }}
+                          >
                             {result.subtitle}
                           </p>
                         )}
                       </div>
-                      <span 
+                      <span
                         className="px-2 py-0.5 text-[10px] rounded-full uppercase"
-                        style={{ backgroundColor: 'var(--bg-tertiary)', color: 'var(--text-secondary)' }}
+                        style={{
+                          backgroundColor: "var(--bg-tertiary)",
+                          color: "var(--text-secondary)",
+                        }}
                       >
                         {result.type}
                       </span>
@@ -403,7 +466,9 @@ export default function ReviewsPage() {
             {/* Quick Tags */}
             <QuickTag
               active={filters.isUnderrated}
-              onClick={() => applyFilter({ isUnderrated: !filters.isUnderrated })}
+              onClick={() =>
+                applyFilter({ isUnderrated: !filters.isUnderrated })
+              }
               icon={<Gem className="w-3.5 h-3.5" />}
               label="Hidden Gems"
               activeColor="purple"
@@ -411,7 +476,9 @@ export default function ReviewsPage() {
 
             <QuickTag
               active={filters.isBlockbuster}
-              onClick={() => applyFilter({ isBlockbuster: !filters.isBlockbuster })}
+              onClick={() =>
+                applyFilter({ isBlockbuster: !filters.isBlockbuster })
+              }
               icon={<Award className="w-3.5 h-3.5" />}
               label="Blockbusters"
               activeColor="orange"
@@ -430,14 +497,24 @@ export default function ReviewsPage() {
               onClick={() => setShowFilters(!showFilters)}
               className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium transition-colors"
               style={{
-                backgroundColor: showFilters ? 'var(--brand-primary)' : 'var(--bg-secondary)',
-                color: showFilters ? 'var(--bg-primary)' : 'var(--text-secondary)',
-                border: `1px solid ${showFilters ? 'var(--brand-primary)' : 'var(--border-primary)'}`
+                backgroundColor: showFilters
+                  ? "var(--brand-primary)"
+                  : "var(--bg-secondary)",
+                color: showFilters
+                  ? "var(--bg-primary)"
+                  : "var(--text-secondary)",
+                border: `1px solid ${
+                  showFilters ? "var(--brand-primary)" : "var(--border-primary)"
+                }`,
               }}
             >
               <Filter className="w-3.5 h-3.5" />
               Filters
-              <ChevronDown className={`w-3.5 h-3.5 transition-transform ${showFilters ? 'rotate-180' : ''}`} />
+              <ChevronDown
+                className={`w-3.5 h-3.5 transition-transform ${
+                  showFilters ? "rotate-180" : ""
+                }`}
+              />
             </button>
 
             {/* Clear Filters */}
@@ -445,7 +522,7 @@ export default function ReviewsPage() {
               <button
                 onClick={clearFilters}
                 className="flex items-center gap-1 px-2 py-2 rounded-lg text-xs transition-colors"
-                style={{ color: 'var(--text-secondary)' }}
+                style={{ color: "var(--text-secondary)" }}
               >
                 <X className="w-3.5 h-3.5" />
                 Clear
@@ -458,44 +535,58 @@ export default function ReviewsPage() {
             <div
               className="mt-3 p-3 rounded-xl grid grid-cols-2 md:grid-cols-4 gap-3"
               style={{
-                backgroundColor: 'var(--bg-secondary)',
-                border: '1px solid var(--border-primary)'
+                backgroundColor: "var(--bg-secondary)",
+                border: "1px solid var(--border-primary)",
               }}
             >
               <FilterSelect
                 label="Genre"
-                value={filters.genre || ''}
-                onChange={(v) => applyFilter({ genre: v as Genre || undefined })}
-                options={[{ value: '', label: 'All Genres' }, ...GENRES.map(g => ({ value: g, label: g }))]}
+                value={filters.genre || ""}
+                onChange={(v) =>
+                  applyFilter({ genre: (v as Genre) || undefined })
+                }
+                options={[
+                  { value: "", label: "All Genres" },
+                  ...GENRES.map((g) => ({ value: g, label: g })),
+                ]}
               />
 
               <FilterSelect
                 label="Era"
-                value={filters.yearRange ? `${filters.yearRange.from}-${filters.yearRange.to}` : ''}
+                value={
+                  filters.yearRange
+                    ? `${filters.yearRange.from}-${filters.yearRange.to}`
+                    : ""
+                }
                 onChange={(v) => {
                   if (!v) {
                     applyFilter({ yearRange: undefined });
                   } else {
-                    const [from, to] = v.split('-').map(Number);
+                    const [from, to] = v.split("-").map(Number);
                     applyFilter({ yearRange: { from, to } });
                   }
                 }}
                 options={[
-                  { value: '', label: 'All Years' },
-                  ...YEAR_RANGES.map(r => ({ value: `${r.from}-${r.to}`, label: r.label }))
+                  { value: "", label: "All Years" },
+                  ...YEAR_RANGES.map((r) => ({
+                    value: `${r.from}-${r.to}`,
+                    label: r.label,
+                  })),
                 ]}
               />
 
               <FilterSelect
                 label="Min Rating"
-                value={filters.minRating?.toString() || ''}
-                onChange={(v) => applyFilter({ minRating: v ? parseFloat(v) : undefined })}
+                value={filters.minRating?.toString() || ""}
+                onChange={(v) =>
+                  applyFilter({ minRating: v ? parseFloat(v) : undefined })
+                }
                 options={[
-                  { value: '', label: 'Any Rating' },
-                  { value: '9', label: '9+ Masterpiece' },
-                  { value: '8', label: '8+ Excellent' },
-                  { value: '7', label: '7+ Good' },
-                  { value: '6', label: '6+ Average' },
+                  { value: "", label: "Any Rating" },
+                  { value: "9", label: "9+ Masterpiece" },
+                  { value: "8", label: "8+ Excellent" },
+                  { value: "7", label: "7+ Good" },
+                  { value: "6", label: "6+ Average" },
                 ]}
               />
 
@@ -503,15 +594,18 @@ export default function ReviewsPage() {
                 label="Sort By"
                 value={`${filters.sortBy}-${filters.sortOrder}`}
                 onChange={(v) => {
-                  const [sortBy, sortOrder] = v.split('-');
-                  applyFilter({ sortBy: sortBy as ReviewFilters['sortBy'], sortOrder: sortOrder as ReviewFilters['sortOrder'] });
+                  const [sortBy, sortOrder] = v.split("-");
+                  applyFilter({
+                    sortBy: sortBy as ReviewFilters["sortBy"],
+                    sortOrder: sortOrder as ReviewFilters["sortOrder"],
+                  });
                 }}
                 options={[
-                  { value: 'rating-desc', label: 'Highest Rated' },
-                  { value: 'rating-asc', label: 'Lowest Rated' },
-                  { value: 'year-desc', label: 'Newest First' },
-                  { value: 'year-asc', label: 'Oldest First' },
-                  { value: 'reviews-desc', label: 'Most Reviewed' },
+                  { value: "rating-desc", label: "Highest Rated" },
+                  { value: "rating-asc", label: "Lowest Rated" },
+                  { value: "year-desc", label: "Newest First" },
+                  { value: "year-asc", label: "Oldest First" },
+                  { value: "reviews-desc", label: "Most Reviewed" },
                 ]}
               />
             </div>
@@ -521,30 +615,39 @@ export default function ReviewsPage() {
 
       {/* Language Tabs */}
       <section className="max-w-7xl mx-auto px-4 pt-3">
-        <div className="flex gap-1 overflow-x-auto scrollbar-hide border-b" style={{ borderColor: 'var(--border-primary)' }}>
+        <div
+          className="flex gap-1 overflow-x-auto scrollbar-hide border-b"
+          style={{ borderColor: "var(--border-primary)" }}
+        >
           {LANGUAGES.map((lang) => (
             <button
               key={lang.code}
               onClick={() => {
                 // Clear actor/director filters when switching languages
-                const resetFilters: ReviewFilters = { sortBy: 'rating', sortOrder: 'desc' };
+                const resetFilters: ReviewFilters = {
+                  sortBy: "rating",
+                  sortOrder: "desc",
+                };
                 setFilters(resetFilters);
                 setSelectedLanguage(lang.code);
-                if (lang.code !== 'Telugu') {
-                  setViewMode('grid');
+                if (lang.code !== "Telugu") {
+                  setViewMode("grid");
                 } else {
-                  setViewMode('sections');
+                  setViewMode("sections");
                 }
                 // Clear URL params when switching languages
-                router.replace('/reviews', { scroll: false });
+                router.replace("/reviews", { scroll: false });
               }}
               className={`flex items-center gap-1.5 px-4 py-2 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                 selectedLanguage === lang.code
-                  ? 'border-yellow-500'
-                  : 'border-transparent hover:border-gray-500'
+                  ? "border-yellow-500"
+                  : "border-transparent hover:border-gray-500"
               }`}
               style={{
-                color: selectedLanguage === lang.code ? 'var(--brand-primary)' : 'var(--text-secondary)',
+                color:
+                  selectedLanguage === lang.code
+                    ? "var(--brand-primary)"
+                    : "var(--text-secondary)",
               }}
             >
               <span>{lang.icon}</span>
@@ -560,12 +663,12 @@ export default function ReviewsPage() {
       </section>
 
       {/* Genre Pills (only for Telugu) */}
-      {selectedLanguage === 'Telugu' && (
+      {selectedLanguage === "Telugu" && (
         <section className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
             <GenrePill
               label="All"
-              active={!filters.genre && viewMode === 'sections'}
+              active={!filters.genre && viewMode === "sections"}
               onClick={() => {
                 clearFilters(); // Clears all filters AND updates URL
               }}
@@ -583,17 +686,30 @@ export default function ReviewsPage() {
       )}
 
       {/* Other Language Notice */}
-      {selectedLanguage !== 'Telugu' && (
+      {selectedLanguage !== "Telugu" && (
         <section className="max-w-7xl mx-auto px-4 py-3">
-          <div 
+          <div
             className="flex items-center gap-3 p-3 rounded-lg"
-            style={{ backgroundColor: 'var(--bg-secondary)', border: '1px solid var(--border-primary)' }}
+            style={{
+              backgroundColor: "var(--bg-secondary)",
+              border: "1px solid var(--border-primary)",
+            }}
           >
-            <Gem className="w-5 h-5" style={{ color: 'var(--brand-primary)' }} />
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-              Showing only <strong style={{ color: 'var(--text-primary)' }}>top-rated, classics, and hidden gems</strong> from {selectedLanguage} cinema.
-              {selectedLanguage !== 'Telugu' && (
-                <span className="ml-2 text-xs" style={{ color: 'var(--text-tertiary)' }}>
+            <Gem
+              className="w-5 h-5"
+              style={{ color: "var(--brand-primary)" }}
+            />
+            <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
+              Showing only{" "}
+              <strong style={{ color: "var(--text-primary)" }}>
+                top-rated, classics, and hidden gems
+              </strong>{" "}
+              from {selectedLanguage} cinema.
+              {selectedLanguage !== "Telugu" && (
+                <span
+                  className="ml-2 text-xs"
+                  style={{ color: "var(--text-tertiary)" }}
+                >
                   (Quality-curated selection)
                 </span>
               )}
@@ -603,7 +719,7 @@ export default function ReviewsPage() {
       )}
 
       {/* Main Content */}
-      {viewMode === 'sections' ? (
+      {viewMode === "sections" ? (
         // Smart Sections View
         <div className="max-w-7xl mx-auto px-4 py-4 space-y-8">
           {loadingSections ? (
@@ -611,10 +727,17 @@ export default function ReviewsPage() {
             <div className="space-y-8">
               {[1, 2, 3].map((i) => (
                 <div key={i}>
-                  <div className="h-6 w-48 rounded animate-pulse mb-4" style={{ backgroundColor: 'var(--bg-tertiary)' }} />
+                  <div
+                    className="h-6 w-48 rounded animate-pulse mb-4"
+                    style={{ backgroundColor: "var(--bg-tertiary)" }}
+                  />
                   <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
                     {[1, 2, 3, 4, 5, 6].map((j) => (
-                      <div key={j} className="aspect-[2/3] rounded-xl animate-pulse" style={{ backgroundColor: 'var(--bg-tertiary)' }} />
+                      <div
+                        key={j}
+                        className="aspect-[2/3] rounded-xl animate-pulse"
+                        style={{ backgroundColor: "var(--bg-tertiary)" }}
+                      />
                     ))}
                   </div>
                 </div>
@@ -625,31 +748,64 @@ export default function ReviewsPage() {
               {/* Quick Links Section - Top 10, Best 10, etc. */}
               <section className="mb-8">
                 <div className="flex items-center gap-2 mb-4">
-                  <Sparkles className="w-5 h-5" style={{ color: 'var(--brand-primary)' }} />
-                  <h2 className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>
+                  <Sparkles
+                    className="w-5 h-5"
+                    style={{ color: "var(--brand-primary)" }}
+                  />
+                  <h2
+                    className="text-xl font-bold"
+                    style={{ color: "var(--text-primary)" }}
+                  >
                     Quick Links
                   </h2>
                 </div>
                 <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
                   {[
-                    { label: 'Top 10 Movies', icon: '🏆', link: '/reviews?sort=rating&limit=10' },
-                    { label: 'Best of 2024', icon: '⭐', link: '/reviews?year=2024&sort=rating' },
-                    { label: 'Hidden Gems', icon: '💎', link: '/reviews/hidden-gems' },
-                    { label: 'Blockbusters', icon: '🎬', link: '/reviews/blockbusters' },
-                    { label: 'Classics', icon: '🎭', link: '/reviews/classics' },
-                    { label: 'Most Watched', icon: '👁️', link: '/reviews?sort=views' },
+                    {
+                      label: "Top 10 Movies",
+                      icon: "🏆",
+                      link: "/reviews?sort=rating&limit=10",
+                    },
+                    {
+                      label: "Best of 2024",
+                      icon: "⭐",
+                      link: "/reviews?year=2024&sort=rating",
+                    },
+                    {
+                      label: "Hidden Gems",
+                      icon: "💎",
+                      link: "/reviews/hidden-gems",
+                    },
+                    {
+                      label: "Blockbusters",
+                      icon: "🎬",
+                      link: "/reviews/blockbusters",
+                    },
+                    {
+                      label: "Classics",
+                      icon: "🎭",
+                      link: "/reviews/classics",
+                    },
+                    {
+                      label: "Most Watched",
+                      icon: "👁️",
+                      link: "/reviews?sort=views",
+                    },
                   ].map((quickLink) => (
                     <Link
                       key={quickLink.label}
                       href={quickLink.link}
                       className="flex-shrink-0 snap-start flex items-center gap-2 px-4 py-3 rounded-xl transition-transform hover:scale-105"
-                      style={{ 
-                        backgroundColor: 'var(--bg-secondary)',
-                        border: '1px solid var(--border-primary)'
+                      style={{
+                        backgroundColor: "var(--bg-secondary)",
+                        border: "1px solid var(--border-primary)",
                       }}
                     >
                       <span className="text-2xl">{quickLink.icon}</span>
-                      <span className="text-sm font-medium whitespace-nowrap" style={{ color: 'var(--text-primary)' }}>
+                      <span
+                        className="text-sm font-medium whitespace-nowrap"
+                        style={{ color: "var(--text-primary)" }}
+                      >
                         {quickLink.label}
                       </span>
                     </Link>
@@ -662,16 +818,21 @@ export default function ReviewsPage() {
                 <section>
                   <HorizontalCarousel
                     title="Star Spotlight"
-                    titleIcon={<User className="w-5 h-5" style={{ color: 'var(--brand-primary)' }} />}
+                    titleIcon={
+                      <User
+                        className="w-5 h-5"
+                        style={{ color: "var(--brand-primary)" }}
+                      />
+                    }
                     gap="md"
                   >
                     {spotlights.slice(0, 12).map((spotlight) => (
-                      <SpotlightCard 
-                        key={spotlight.id} 
+                      <SpotlightCard
+                        key={spotlight.id}
                         spotlight={spotlight}
                         onSelect={(name) => {
                           setFilters({ ...filters, actor: name });
-                          setViewMode('grid');
+                          setViewMode("grid");
                         }}
                       />
                     ))}
@@ -692,18 +853,41 @@ export default function ReviewsPage() {
           {loading ? (
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
               {[...Array(12)].map((_, i) => (
-                <div key={i} className="aspect-[2/3] rounded-xl animate-pulse" style={{ backgroundColor: 'var(--bg-tertiary)' }} />
+                <div
+                  key={i}
+                  className="aspect-[2/3] rounded-xl animate-pulse"
+                  style={{ backgroundColor: "var(--bg-tertiary)" }}
+                />
               ))}
             </div>
           ) : movies.length === 0 ? (
-            <div className="text-center py-16 rounded-xl" style={{ backgroundColor: 'var(--bg-secondary)' }}>
-              <Film className="w-12 h-12 mx-auto mb-3" style={{ color: 'var(--text-tertiary)' }} />
-              <h3 className="text-lg" style={{ color: 'var(--text-secondary)' }}>No movies found</h3>
-              <p className="text-sm mt-1" style={{ color: 'var(--text-tertiary)' }}>Try adjusting your filters</p>
+            <div
+              className="text-center py-16 rounded-xl"
+              style={{ backgroundColor: "var(--bg-secondary)" }}
+            >
+              <Film
+                className="w-12 h-12 mx-auto mb-3"
+                style={{ color: "var(--text-tertiary)" }}
+              />
+              <h3
+                className="text-lg"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                No movies found
+              </h3>
+              <p
+                className="text-sm mt-1"
+                style={{ color: "var(--text-tertiary)" }}
+              >
+                Try adjusting your filters
+              </p>
               <button
                 onClick={clearFilters}
                 className="mt-4 px-4 py-2 rounded-lg text-sm font-medium"
-                style={{ backgroundColor: 'var(--brand-primary)', color: 'var(--bg-primary)' }}
+                style={{
+                  backgroundColor: "var(--brand-primary)",
+                  color: "var(--bg-primary)",
+                }}
               >
                 Clear Filters
               </button>
@@ -711,13 +895,19 @@ export default function ReviewsPage() {
           ) : (
             <>
               <div className="flex items-center justify-between mb-3">
-                <p className="text-xs" style={{ color: 'var(--text-tertiary)' }}>
+                <p
+                  className="text-xs"
+                  style={{ color: "var(--text-tertiary)" }}
+                >
                   {movies.length} movies found
                 </p>
                 <button
                   onClick={clearFilters}
                   className="text-xs px-3 py-1 rounded-full"
-                  style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text-secondary)' }}
+                  style={{
+                    backgroundColor: "var(--bg-secondary)",
+                    color: "var(--text-secondary)",
+                  }}
                 >
                   ← Back to Discover
                 </button>

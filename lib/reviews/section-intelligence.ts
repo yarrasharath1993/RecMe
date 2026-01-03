@@ -44,7 +44,7 @@ export interface ReviewSection {
   id: string;
   title: string;
   title_te?: string;
-  type: 'recently_released' | 'upcoming' | 'trending' | 'classics' | 'genre' | 'spotlight' | 'custom';
+  type: 'recently_released' | 'upcoming' | 'trending' | 'classics' | 'blockbusters' | 'hidden-gems' | 'cult-classics' | 'recommended' | 'genre' | 'spotlight' | 'custom';
   movies: MovieCard[];
   viewAllLink?: string;
   icon?: string;
@@ -73,6 +73,7 @@ export interface SectionConfig {
   genreMinMovies: number;    // Min movies for a genre section
   spotlightMinMovies: number; // Min movies for spotlight
   maxMoviesPerSection: number;
+  language?: string;         // Language filter (defaults to 'Telugu')
 }
 
 const DEFAULT_CONFIG: SectionConfig = {
@@ -83,6 +84,7 @@ const DEFAULT_CONFIG: SectionConfig = {
   genreMinMovies: 5,
   spotlightMinMovies: 3,
   maxMoviesPerSection: 12,
+  language: 'Telugu',
 };
 
 // ============================================================
@@ -105,6 +107,7 @@ function getSupabaseClient() {
  */
 export async function getRecentlyReleased(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
   const today = new Date().toISOString().split('T')[0];
   const currentYear = new Date().getFullYear();
 
@@ -113,6 +116,7 @@ export async function getRecentlyReleased(config: SectionConfig = DEFAULT_CONFIG
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
     .eq('is_published', true)
+    .eq('language', language) // ✅ FILTER BY LANGUAGE
     .or(`release_date.lte.${today},and(release_date.is.null,release_year.lte.${currentYear - 1})`)
     .gte('release_year', currentYear - 2)
     .order('release_year', { ascending: false })
@@ -137,6 +141,7 @@ export async function getRecentlyReleased(config: SectionConfig = DEFAULT_CONFIG
  */
 export async function getUpcoming(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
   const today = new Date().toISOString().split('T')[0];
   const currentYear = new Date().getFullYear();
 
@@ -145,6 +150,7 @@ export async function getUpcoming(config: SectionConfig = DEFAULT_CONFIG): Promi
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, synopsis')
     .eq('is_published', true)
+    .eq('language', language) // ✅ FILTER BY LANGUAGE
     .or(`release_date.gt.${today},and(release_date.is.null,release_year.gt.${currentYear})`)
     .order('release_date', { ascending: true, nullsFirst: false })
     .limit(config.maxMoviesPerSection);
@@ -173,14 +179,16 @@ export async function getUpcoming(config: SectionConfig = DEFAULT_CONFIG): Promi
 /**
  * Trending Reviews (based on rating and reviews)
  */
-export async function getTrending(): Promise<ReviewSection> {
+export async function getTrending(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   // Get popular movies sorted by rating and reviews
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
     .eq('is_published', true)
+    .eq('language', language) // ✅ FILTER BY LANGUAGE
     .not('avg_rating', 'is', null)
     .order('avg_rating', { ascending: false })
     .order('total_reviews', { ascending: false })
@@ -204,12 +212,14 @@ export async function getTrending(): Promise<ReviewSection> {
  */
 export async function getClassics(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   // Get movies tagged as classics
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, is_classic')
     .eq('is_published', true)
+    .eq('language', language)
     .eq('is_classic', true)
     .order('release_year', { ascending: false })
     .limit(config.maxMoviesPerSection);
@@ -230,13 +240,15 @@ export async function getClassics(config: SectionConfig = DEFAULT_CONFIG): Promi
 /**
  * Blockbusters (big-budget, star-studded hits)
  */
-export async function getBlockbusters(): Promise<ReviewSection> {
+export async function getBlockbusters(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
     .eq('is_published', true)
+    .eq('language', language)
     .eq('is_blockbuster', true)
     .order('avg_rating', { ascending: false })
     .limit(12);
@@ -257,13 +269,15 @@ export async function getBlockbusters(): Promise<ReviewSection> {
 /**
  * Hidden Gems (underrated movies worth discovering)
  */
-export async function getHiddenGems(): Promise<ReviewSection> {
+export async function getHiddenGems(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
     .eq('is_published', true)
+    .eq('language', language)
     .eq('is_underrated', true)
     .order('avg_rating', { ascending: false })
     .limit(12);
@@ -284,13 +298,15 @@ export async function getHiddenGems(): Promise<ReviewSection> {
 /**
  * Cult Classics (movies with cult following)
  */
-export async function getCultClassics(): Promise<ReviewSection> {
+export async function getCultClassics(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, tags')
     .eq('is_published', true)
+    .eq('language', language)
     .contains('tags', ['cult-classic'])
     .order('release_year', { ascending: false })
     .limit(12);
@@ -311,14 +327,16 @@ export async function getCultClassics(): Promise<ReviewSection> {
 /**
  * Most Recommended - rotating selection of highly rated classic and modern films
  */
-export async function getMostRecommended(): Promise<ReviewSection> {
+export async function getMostRecommended(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
 
   // Get a mix of highly rated classics and modern hits
   const { data: movies } = await supabase
     .from('movies')
     .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
     .eq('is_published', true)
+    .eq('language', language)
     .not('avg_rating', 'is', null)
     .gte('avg_rating', 7)
     .order('avg_rating', { ascending: false })
@@ -345,6 +363,7 @@ export async function getMostRecommended(): Promise<ReviewSection> {
  */
 export async function getGenreSections(config: SectionConfig = DEFAULT_CONFIG): Promise<ReviewSection[]> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
   
   const PRIORITY_GENRES = [
     { genre: 'Action', title: 'Action Entertainers', title_te: 'యాక్షన్', icon: '💥' },
@@ -365,6 +384,7 @@ export async function getGenreSections(config: SectionConfig = DEFAULT_CONFIG): 
       .from('movies')
       .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
       .eq('is_published', true)
+      .eq('language', language)
       .contains('genres', [genre])
       .order('avg_rating', { ascending: false })
       .limit(config.maxMoviesPerSection);
@@ -392,6 +412,7 @@ export async function getGenreSections(config: SectionConfig = DEFAULT_CONFIG): 
  */
 export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFIG): Promise<SpotlightSection[]> {
   const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
   const spotlights: SpotlightSection[] = [];
 
   // Get top heroes by movie count and rating
@@ -399,6 +420,7 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
     .from('movies')
     .select('hero')
     .eq('is_published', true)
+    .eq('language', language)
     .not('hero', 'is', null);
 
   const heroCounts = new Map<string, number>();
@@ -419,11 +441,14 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
         .from('movies')
         .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
         .eq('is_published', true)
+        .eq('language', language)
         .eq('hero', heroName)
         .order('avg_rating', { ascending: false })
         .limit(8);
 
-      const avgRating = movies?.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / (movies?.length || 1);
+      const avgRating = (movies && movies.length > 0)
+        ? movies.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / movies.length
+        : 0;
 
       // Try to get celebrity image
       const { data: celeb } = await supabase
@@ -451,6 +476,7 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
     .from('movies')
     .select('heroine')
     .eq('is_published', true)
+    .eq('language', language)
     .not('heroine', 'is', null);
 
   const heroineCounts = new Map<string, number>();
@@ -470,11 +496,14 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
         .from('movies')
         .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
         .eq('is_published', true)
+        .eq('language', language)
         .eq('heroine', heroineName)
         .order('avg_rating', { ascending: false })
         .limit(8);
 
-      const avgRating = movies?.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / (movies?.length || 1);
+      const avgRating = (movies && movies.length > 0)
+        ? movies.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / movies.length
+        : 0;
 
       const { data: celeb } = await supabase
         .from('celebrities')
@@ -520,12 +549,12 @@ export async function getAllReviewSections(config: SectionConfig = DEFAULT_CONFI
   ] = await Promise.all([
     getRecentlyReleased(config),
     getUpcoming(config),
-    getTrending(),
-    getMostRecommended(),
-    getBlockbusters(),
-    getHiddenGems(),
+    getTrending(config),
+    getMostRecommended(config),
+    getBlockbusters(config),
+    getHiddenGems(config),
     getClassics(config),
-    getCultClassics(),
+    getCultClassics(config),
     getGenreSections(config),
     getSpotlightSections(config),
   ]);
@@ -747,7 +776,27 @@ export async function getMovieContextSections(movieId: string): Promise<{
 // HELPERS
 // ============================================================
 
-function mapToMovieCard(movie: any): MovieCard {
+interface RawMovie {
+  id: string;
+  title_en: string;
+  title_te?: string;
+  slug: string;
+  poster_url?: string;
+  backdrop_url?: string;
+  release_year?: number;
+  release_date?: string;
+  genres?: string[];
+  director?: string;
+  hero?: string;
+  heroine?: string;
+  avg_rating?: number;
+  total_reviews?: number;
+  is_classic?: boolean;
+  is_blockbuster?: boolean;
+  is_underrated?: boolean;
+}
+
+function mapToMovieCard(movie: RawMovie): MovieCard {
   return {
     id: movie.id,
     title_en: movie.title_en,

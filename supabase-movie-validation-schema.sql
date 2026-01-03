@@ -244,3 +244,6 @@ WHERE data_quality_score IS NULL OR data_quality_score = 0;
 SELECT 'Movie validation schema migration complete!' as status;
 
 
+
+
+

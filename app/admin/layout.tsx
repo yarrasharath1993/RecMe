@@ -17,7 +17,8 @@ import {
   Brain,
   MessageSquareQuote,
   Database,
-  Zap
+  Zap,
+  Activity
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -89,6 +90,9 @@ export default async function AdminLayout({
             </NavItem>
             <NavItem href="/admin/knowledge-graph" icon={Database}>
               Entity Integrity Graph
+            </NavItem>
+            <NavItem href="/admin/observatory" icon={Activity}>
+              System Observatory
             </NavItem>
 
             {/* SECONDARY SECTIONS - Operations */}

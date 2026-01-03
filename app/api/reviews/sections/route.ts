@@ -31,6 +31,9 @@ export async function GET(request: NextRequest) {
   if (searchParams.get('classicYearThreshold')) {
     config.classicYearThreshold = parseInt(searchParams.get('classicYearThreshold')!);
   }
+  if (searchParams.get('language')) {
+    config.language = searchParams.get('language')!;
+  }
 
   try {
     const { sections, spotlights } = await getAllReviewSections(config as SectionConfig);
@@ -42,6 +45,7 @@ export async function GET(request: NextRequest) {
       config: {
         recentDays: config.recentDays || 60,
         classicYearThreshold: config.classicYearThreshold || 2000,
+        language: config.language || 'Telugu',
       },
       generatedAt: new Date().toISOString(),
     });
