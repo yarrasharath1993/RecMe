@@ -590,10 +590,20 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
 /**
  * Get all sections for the Reviews page
  */
-export async function getAllReviewSections(config: SectionConfig = DEFAULT_CONFIG): Promise<{
+export async function getAllReviewSections(partialConfig: Partial<SectionConfig> = {}): Promise<{
   sections: ReviewSection[];
   spotlights: SpotlightSection[];
 }> {
+  // Merge partial config with defaults to ensure all required properties exist
+  const config: SectionConfig = {
+    ...DEFAULT_CONFIG,
+    ...partialConfig,
+    maxMoviesPerSection: {
+      ...DEFAULT_CONFIG.maxMoviesPerSection,
+      ...(partialConfig.maxMoviesPerSection || {}),
+    },
+  };
+
   const [
     recentlyReleased,
     upcoming,

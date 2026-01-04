@@ -36,7 +36,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const { sections, spotlights } = await getAllReviewSections(config as SectionConfig);
+    const { sections, spotlights } = await getAllReviewSections(config);
 
     return NextResponse.json({
       success: true,
