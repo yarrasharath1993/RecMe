@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { 
   ThumbsUp, ThumbsDown, Star, ChevronDown, ChevronUp, 
-  Users, Sparkles, Gem, Trophy, Crown, Medal, Flame, Heart
+  Users, Sparkles, Gem, Trophy, Crown, Medal, Flame, Heart, Globe
 } from 'lucide-react';
 
 interface QuickVerdictProps {
@@ -29,6 +29,10 @@ interface QuickVerdictProps {
     nandi_awards?: string[];
     other_awards?: string[];
     box_office_records?: string[];
+  };
+  culturalHighlights?: {
+    legacy_status?: string;
+    cult_status?: boolean;
   };
 }
 
@@ -112,7 +116,7 @@ const getStyle = (category?: string) => {
   return categoryStyles[normalized] || categoryStyles['recommended'];
 };
 
-export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore, awards }: QuickVerdictProps) {
+export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore, awards, culturalHighlights }: QuickVerdictProps) {
   const [showSkip, setShowSkip] = useState(false);
   const [showAllReasons, setShowAllReasons] = useState(false);
   
@@ -128,9 +132,10 @@ export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore, awa
     ...(awards?.other_awards || []).map(a => ({ type: 'Award', award: a })),
   ];
   const hasAwards = allAwards.length > 0;
+  const hasCulturalHighlights = culturalHighlights?.legacy_status || culturalHighlights?.cult_status;
   
   // Don't render if no content
-  if (!hasWatchReasons && !hasVerdict && !hasAwards) return null;
+  if (!hasWatchReasons && !hasVerdict && !hasAwards && !hasCulturalHighlights) return null;
   
   const style = getStyle(verdict?.category);
   const visibleReasons = showAllReasons ? whyWatch?.reasons : whyWatch?.reasons?.slice(0, 3);
@@ -237,6 +242,29 @@ export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore, awa
                 {allAwards.length > 5 && (
                   <span className="text-xs px-2.5 py-1 text-yellow-400">
                     +{allAwards.length - 5} more
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+          
+          {/* Cultural Legacy Highlights */}
+          {hasCulturalHighlights && (
+            <div className="mt-4 pt-3 border-t border-gray-800/50">
+              <div className="flex items-center gap-2 mb-2">
+                <Globe className="w-3.5 h-3.5 text-purple-400" />
+                <span className="text-gray-500 text-xs uppercase tracking-wide">Legacy</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {culturalHighlights?.legacy_status && (
+                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-medium shadow-lg">
+                    {culturalHighlights.legacy_status}
+                  </span>
+                )}
+                {culturalHighlights?.cult_status && (
+                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-full font-medium shadow-lg flex items-center gap-1">
+                    <Flame className="w-3 h-3" />
+                    Cult Classic
                   </span>
                 )}
               </div>

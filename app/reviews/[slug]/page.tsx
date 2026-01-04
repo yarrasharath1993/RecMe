@@ -16,6 +16,7 @@ import { QuickVerdictCard } from "@/components/reviews/QuickVerdictCard";
 import { CompactRatings } from "@/components/reviews/CompactRatings";
 import { CompactCast } from "@/components/reviews/CompactCast";
 import { ReviewAccordion, PerformanceContent, StoryContent, DirectionContent, CulturalContent } from "@/components/reviews/ReviewAccordion";
+import { SimilarMoviesCarousel } from "@/components/reviews/SimilarMoviesCarousel";
 import { MovieBadges } from "@/components/reviews/MovieBadges";
 import type { Movie, MovieReview } from '@/types/reviews';
 import type { ReviewInsights } from "@/lib/reviews/review-insights";
@@ -74,12 +75,12 @@ async function getMovieData(slug: string) {
 
   const { data: similar } = await supabase
     .from("movies")
-    .select("id, title_en, slug, poster_url, avg_rating, release_year")
+    .select("id, title_en, title_te, slug, poster_url, avg_rating, release_year, runtime_minutes, genres")
     .eq("is_published", true)
     .neq("id", movie.id)
     .overlaps("genres", movie.genres)
     .order("avg_rating", { ascending: false })
-    .limit(6);
+    .limit(12);
 
   // Fetch review insights if available (from featured review or movie)
   let insights: ReviewInsights | null = null;
@@ -296,6 +297,10 @@ export default async function MovieReviewPage({ params }: PageProps) {
                   verdict={editorialReview?.verdict}
                   qualityScore={editorialReview?._quality_score}
                   awards={editorialReview?.awards}
+                  culturalHighlights={editorialReview?.cultural_impact ? {
+                    legacy_status: editorialReview.cultural_impact.legacy_status,
+                    cult_status: editorialReview.cultural_impact.cult_status
+                  } : undefined}
                 />
               </div>
             </div>
@@ -311,6 +316,10 @@ export default async function MovieReviewPage({ params }: PageProps) {
           verdict={editorialReview?.verdict}
           qualityScore={editorialReview?._quality_score}
           awards={editorialReview?.awards}
+          culturalHighlights={editorialReview?.cultural_impact ? {
+            legacy_status: editorialReview.cultural_impact.legacy_status,
+            cult_status: editorialReview.cultural_impact.cult_status
+          } : undefined}
         />
       </div>
 
@@ -464,33 +473,10 @@ export default async function MovieReviewPage({ params }: PageProps) {
         </section>
       )}
 
-      {/* Similar Movies - Horizontal scroll on mobile */}
+      {/* Similar Movies - Netflix-style Carousel */}
       {similar.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 py-6 border-t border-gray-800">
-          <h2 className="text-lg font-bold text-white mb-4">Similar Movies</h2>
-          <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory md:grid md:grid-cols-6 md:overflow-visible">
-            {similar.slice(0, 6).map((m: any) => (
-              <Link key={m.id} href={`/reviews/${m.slug}`} className="flex-shrink-0 w-24 md:w-auto snap-start group">
-                <div className="relative aspect-[2/3] rounded-lg overflow-hidden bg-gray-800">
-                  {m.poster_url ? (
-                    <Image src={m.poster_url} alt={m.title_en} fill className="object-cover" />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center">
-                      <Film className="w-6 h-6 text-gray-600" />
-                    </div>
-                  )}
-                  {m.avg_rating > 0 && (
-                    <div className="absolute bottom-1 right-1 px-1.5 py-0.5 bg-black/80 rounded text-xs text-yellow-500 font-medium">
-                      {m.avg_rating.toFixed(1)}
-                    </div>
-                  )}
-                </div>
-                <p className="text-gray-400 text-xs mt-1.5 truncate group-hover:text-white transition-colors">
-                  {m.title_en}
-                </p>
-              </Link>
-            ))}
-          </div>
+          <SimilarMoviesCarousel movies={similar} title="Similar Movies" />
         </section>
       )}
     </main>
