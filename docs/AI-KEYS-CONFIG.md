@@ -15,20 +15,27 @@ Add these lines to your `.env.local`:
 AI_PROVIDER=groq
 
 # ============================================================
-# GROQ API KEYS (2 keys)
+# GROQ API KEYS (up to 6 keys supported)
 # Get keys from: https://console.groq.com/keys
 # ============================================================
 GROQ_API_KEY=gsk_your_groq_key_here
 GROQ_API_KEY_2=gsk_your_second_groq_key_here
+GROQ_API_KEY_3=gsk_your_third_groq_key_here
+GROQ_API_KEY_4=gsk_your_fourth_groq_key_here
+GROQ_API_KEY_5=gsk_your_fifth_groq_key_here
+GROQ_API_KEY_6=gsk_your_sixth_groq_key_here
 
 # ============================================================
-# OPENAI API KEYS (4 keys)
+# OPENAI API KEYS (up to 7 keys supported)
 # Get keys from: https://platform.openai.com/api-keys
 # ============================================================
 OPENAI_API_KEY=sk-proj-your_openai_key_here
 OPENAI_API_KEY_2=sk-proj-your_second_openai_key_here
 OPENAI_API_KEY_3=sk-proj-your_third_openai_key_here
 OPENAI_API_KEY_4=sk-proj-your_fourth_openai_key_here
+OPENAI_API_KEY_5=sk-proj-your_fifth_openai_key_here
+OPENAI_API_KEY_6=sk-proj-your_sixth_openai_key_here
+OPENAI_API_KEY_7=sk-proj-your_seventh_openai_key_here
 
 # ============================================================
 # COHERE API KEY (1 key)
