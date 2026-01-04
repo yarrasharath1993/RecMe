@@ -73,14 +73,62 @@ async function getMovieData(slug: string) {
     .order("is_featured", { ascending: false })
     .order("created_at", { ascending: false });
 
-  const { data: similar } = await supabase
-    .from("movies")
-    .select("id, title_en, title_te, slug, poster_url, avg_rating, release_year, runtime_minutes, genres")
-    .eq("is_published", true)
-    .neq("id", movie.id)
-    .overlaps("genres", movie.genres)
-    .order("avg_rating", { ascending: false })
-    .limit(12);
+  // Find similar movies with fallback strategies
+  let similar: any[] = [];
+  
+  // Strategy 1: Genre overlap (if movie has genres)
+  if (movie.genres && movie.genres.length > 0) {
+    const { data: genreSimilar } = await supabase
+      .from("movies")
+      .select("id, title_en, title_te, slug, poster_url, avg_rating, release_year, runtime_minutes, genres")
+      .eq("is_published", true)
+      .neq("id", movie.id)
+      .overlaps("genres", movie.genres)
+      .order("avg_rating", { ascending: false })
+      .limit(12);
+    similar = genreSimilar || [];
+  }
+  
+  // Strategy 2: Fallback to same director or era if no genre matches
+  if (similar.length < 6) {
+    const fallbackQuery = supabase
+      .from("movies")
+      .select("id, title_en, title_te, slug, poster_url, avg_rating, release_year, runtime_minutes, genres")
+      .eq("is_published", true)
+      .eq("language", movie.language || "Telugu")
+      .neq("id", movie.id)
+      .not("poster_url", "is", null)
+      .order("avg_rating", { ascending: false })
+      .limit(12 - similar.length);
+    
+    // Prefer same director if available
+    if (movie.director) {
+      const { data: directorSimilar } = await fallbackQuery.eq("director", movie.director);
+      if (directorSimilar && directorSimilar.length > 0) {
+        const existingIds = new Set(similar.map(m => m.id));
+        similar = [...similar, ...directorSimilar.filter(m => !existingIds.has(m.id))];
+      }
+    }
+    
+    // If still not enough, get top-rated from same language
+    if (similar.length < 6) {
+      const { data: topRated } = await supabase
+        .from("movies")
+        .select("id, title_en, title_te, slug, poster_url, avg_rating, release_year, runtime_minutes, genres")
+        .eq("is_published", true)
+        .eq("language", movie.language || "Telugu")
+        .neq("id", movie.id)
+        .not("poster_url", "is", null)
+        .gte("avg_rating", 7)
+        .order("avg_rating", { ascending: false })
+        .limit(12 - similar.length);
+      
+      if (topRated) {
+        const existingIds = new Set(similar.map(m => m.id));
+        similar = [...similar, ...topRated.filter(m => !existingIds.has(m.id))];
+      }
+    }
+  }
 
   // Fetch review insights if available (from featured review or movie)
   let insights: ReviewInsights | null = null;
