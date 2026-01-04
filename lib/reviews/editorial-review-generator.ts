@@ -810,15 +810,16 @@ Return ONLY valid JSON (no markdown):
 
   /**
    * Generate Audience vs Critics POV section (100-150 words)
-   * OPTIMIZED: Compact prompt, reduced tokens
+   * OPTIMIZED: Compact but explicit JSON prompt
    */
   private async generatePerspectives(sources: ReviewDataSources): Promise<EditorialReview['perspectives']> {
-    // Compact prompt for light tier
-    const prompt = `${sources.movie.title_en} (${sources.movie.avg_rating || 7}/10): Audience vs critics.
-JSON:{"audience_reception":"50w","critic_consensus":"50w","divergence_points":["",""]}`; 
+    const prompt = `For ${sources.movie.title_en} (${sources.movie.avg_rating || 7}/10), analyze audience vs critics reception.
+
+Return ONLY valid JSON:
+{"audience_reception":"50 words about mass appeal","critic_consensus":"50 words on critical reception","divergence_points":["point1","point2"]}`; 
 
     try {
-      const content = await this.aiCompletion(prompt, 250, 0.4); // Reduced from 600
+      const content = await this.aiCompletion(prompt, 300, 0.4);
       return this.parseAIResponse(content);
     } catch (error) {
       console.error('Error generating perspectives:', error);
@@ -832,15 +833,16 @@ JSON:{"audience_reception":"50w","critic_consensus":"50w","divergence_points":["
 
   /**
    * Generate Why You Should Watch section (80-100 words)
-   * OPTIMIZED: Compact prompt, reduced tokens
+   * OPTIMIZED: Compact but explicit JSON prompt
    */
   private async generateWhyWatch(sources: ReviewDataSources): Promise<EditorialReview['why_watch']> {
-    // Compact prompt for light tier
-    const prompt = `${sources.movie.title_en} (${sources.movie.genres?.[0]}): 3-5 watch reasons + audience types.
-JSON:{"reasons":["","",""],"best_for":["",""]}`;
+    const prompt = `List 3-5 reasons to watch ${sources.movie.title_en} (${sources.movie.genres?.[0] || 'Drama'}).
+
+Return ONLY valid JSON:
+{"reasons":["reason1","reason2","reason3"],"best_for":["audience type1","audience type2"]}`;
 
     try {
-      const content = await this.aiCompletion(prompt, 200, 0.5); // Reduced from 400
+      const content = await this.aiCompletion(prompt, 250, 0.5);
       return this.parseAIResponse(content);
     } catch (error) {
       console.error('Error generating why watch:', error);
@@ -853,15 +855,16 @@ JSON:{"reasons":["","",""],"best_for":["",""]}`;
 
   /**
    * Generate Why You May Skip section (60-80 words)
-   * OPTIMIZED: Compact prompt, reduced tokens
+   * OPTIMIZED: Compact but explicit JSON prompt
    */
   private async generateWhySkip(sources: ReviewDataSources): Promise<EditorialReview['why_skip']> {
-    // Compact prompt for light tier
-    const prompt = `${sources.movie.title_en}: 2-3 honest drawbacks + not suitable for.
-JSON:{"drawbacks":["",""],"not_for":[""]}`;
+    const prompt = `List 2-3 honest drawbacks of ${sources.movie.title_en}.
+
+Return ONLY valid JSON:
+{"drawbacks":["drawback1","drawback2"],"not_for":["audience type to avoid"]}`;
 
     try {
-      const content = await this.aiCompletion(prompt, 150, 0.4); // Reduced from 400
+      const content = await this.aiCompletion(prompt, 200, 0.4);
       return this.parseAIResponse(content);
     } catch (error) {
       console.error('Error generating why skip:', error);
@@ -882,12 +885,14 @@ JSON:{"drawbacks":["",""],"not_for":[""]}`;
     const isClassic = sources.movie.is_classic;
     const legacyStatus = isBlockbuster ? 'Blockbuster' : isClassic ? 'Classic' : 'Notable Film';
     
-    // OPTIMIZED: Compact prompt for premium tier but still reduced
-    const prompt = `Cultural impact of ${sources.movie.title_en} (${sources.movie.release_year}). Hero: ${sources.movie.hero}. ${isOld ? 'Classic.' : ''} ${isBlockbuster ? 'Blockbuster.' : ''}
-JSON:{"cultural_significance":"50w","influence_on_cinema":"40w","memorable_elements":["",""],"legacy_status":"${legacyStatus}","cult_status":${isOld || isBlockbuster}}`;
+    // OPTIMIZED: Compact but explicit JSON prompt
+    const prompt = `Analyze cultural impact of ${sources.movie.title_en} (${sources.movie.release_year}) starring ${sources.movie.hero}. ${isOld ? 'Classic film.' : ''} ${isBlockbuster ? 'Blockbuster.' : ''}
+
+Return ONLY valid JSON:
+{"cultural_significance":"50 word analysis","influence_on_cinema":"40 word analysis","memorable_elements":["iconic moment1","iconic moment2"],"legacy_status":"${legacyStatus}","cult_status":${isOld || isBlockbuster}}`;
 
     try {
-      const content = await this.aiCompletion(prompt, 300, 0.6); // Reduced from 600
+      const content = await this.aiCompletion(prompt, 350, 0.6);
       return this.parseAIResponse(content);
     } catch (error) {
       console.error('Error generating cultural impact:', error);
@@ -913,12 +918,14 @@ JSON:{"cultural_significance":"50w","influence_on_cinema":"40w","memorable_eleme
       return undefined;
     }
 
-    // OPTIMIZED: Compact prompt for light tier
-    const prompt = `${sources.movie.title_en} (${sources.movie.release_year}) awards. Hero: ${sources.movie.hero}
-JSON:{"national_awards":[],"filmfare_awards":[],"nandi_awards":[],"box_office_records":[]}`;
+    // OPTIMIZED: Compact but explicit JSON prompt
+    const prompt = `List any known awards for ${sources.movie.title_en} (${sources.movie.release_year}). Hero: ${sources.movie.hero}. If no awards, return empty arrays.
+
+Return ONLY valid JSON:
+{"national_awards":[],"filmfare_awards":[],"nandi_awards":[],"box_office_records":[]}`;
 
     try {
-      const content = await this.aiCompletion(prompt, 150, 0.3); // Reduced from 400
+      const content = await this.aiCompletion(prompt, 200, 0.3);
       const parsed = this.parseAIResponse(content);
       
       // Only return if there are actual awards
@@ -963,12 +970,14 @@ JSON:{"national_awards":[],"filmfare_awards":[],"nandi_awards":[],"box_office_re
     else if (rating >= 5.0) category = 'average';
     else category = 'skippable';
 
-    // OPTIMIZED: Compact prompt for light tier
-    const prompt = `Verdict for ${sources.movie.title_en} (${rating.toFixed(1)}/10, ${category}). 50-80w summary.
-JSON:{"category":"${category}","final_rating":${rating.toFixed(1)},"en":"","te":"","confidence_score":0.85}`;
+    // OPTIMIZED: Compact but explicit JSON prompt
+    const prompt = `Write final verdict for ${sources.movie.title_en} rated ${rating.toFixed(1)}/10 (${category}).
+
+Return ONLY valid JSON:
+{"category":"${category}","final_rating":${rating.toFixed(1)},"en":"50-80 word English verdict","te":"50-80 word Telugu verdict","confidence_score":0.85}`;
 
     try {
-      const content = await this.aiCompletion(prompt, 200, 0.5); // Reduced from 400
+      const content = await this.aiCompletion(prompt, 250, 0.5);
       const parsed = this.parseAIResponse(content);
       // Ensure category and rating match our logic
       parsed.category = category;
