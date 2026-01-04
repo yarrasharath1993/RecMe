@@ -299,7 +299,59 @@ export class EditorialReviewGenerator {
       cleaned = jsonMatch[0];
     }
     
-    return JSON.parse(cleaned);
+    // Try parsing directly first
+    try {
+      return JSON.parse(cleaned);
+    } catch (e) {
+      // If parsing fails, try to fix common truncation issues
+      
+      // Fix unterminated strings - find last complete key-value pair
+      const lastCompleteComma = cleaned.lastIndexOf('",');
+      const lastCompleteBrace = cleaned.lastIndexOf('"}');
+      const lastCompletePoint = Math.max(lastCompleteComma, lastCompleteBrace);
+      
+      if (lastCompletePoint > 0) {
+        // Truncate at last complete point and close the object
+        let fixed = cleaned.substring(0, lastCompletePoint + 2);
+        
+        // Count open braces and close them
+        const openBraces = (fixed.match(/\{/g) || []).length;
+        const closeBraces = (fixed.match(/\}/g) || []).length;
+        const openBrackets = (fixed.match(/\[/g) || []).length;
+        const closeBrackets = (fixed.match(/\]/g) || []).length;
+        
+        fixed += ']'.repeat(Math.max(0, openBrackets - closeBrackets));
+        fixed += '}'.repeat(Math.max(0, openBraces - closeBraces));
+        
+        try {
+          return JSON.parse(fixed);
+        } catch (e2) {
+          // Last resort: try to extract individual fields
+          const partialResult: Record<string, any> = {};
+          
+          // Extract key-value pairs using regex
+          const kvRegex = /"([^"]+)":\s*"([^"]+)"/g;
+          let match;
+          while ((match = kvRegex.exec(cleaned)) !== null) {
+            partialResult[match[1]] = match[2];
+          }
+          
+          // Extract numeric values
+          const numRegex = /"([^"]+)":\s*(\d+\.?\d*)/g;
+          while ((match = numRegex.exec(cleaned)) !== null) {
+            partialResult[match[1]] = parseFloat(match[2]);
+          }
+          
+          if (Object.keys(partialResult).length > 0) {
+            return partialResult;
+          }
+          
+          throw e; // Re-throw original error if nothing worked
+        }
+      }
+      
+      throw e; // Re-throw if can't fix
+    }
   }
 
   /**
