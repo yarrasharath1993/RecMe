@@ -1069,7 +1069,7 @@ Return ONLY valid JSON:
     // 4. TMDB rating (weight: 20%) - audience consensus
     // For mass-classics/masterpieces: allow up to 9.5 (minimal cap)
     // For regular movies: cap at 8.5 to prevent inflation
-    const cappedTmdb = isBlockbuster || isCultClassic 
+    const cappedTmdb = isMassClassic || isCultClassic 
       ? Math.min(tmdbRating, 9.5)
       : Math.min(tmdbRating, 8.5);
     scores.push(cappedTmdb);

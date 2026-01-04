@@ -1,0 +1,7380 @@
+{
+  "generated_at": "2026-01-04T18:39:46.599Z",
+  "summary": {
+    "total_movies": 5785,
+    "movies_with_rating": 5759,
+    "average_rating": 5.37,
+    "highest_rating": 9.5,
+    "lowest_rating": 5
+  },
+  "category_distribution": [
+    {
+      "category": "masterpiece",
+      "count": 10,
+      "percentage": 0.2,
+      "avg_rating": 9.26
+    },
+    {
+      "category": "must-watch",
+      "count": 16,
+      "percentage": 0.3,
+      "avg_rating": 8.94
+    },
+    {
+      "category": "mass-classic",
+      "count": 41,
+      "percentage": 0.7,
+      "avg_rating": 8.36
+    },
+    {
+      "category": "highly-recommended",
+      "count": 65,
+      "percentage": 1.1,
+      "avg_rating": 7.96
+    },
+    {
+      "category": "watchable",
+      "count": 326,
+      "percentage": 5.6,
+      "avg_rating": 7.15
+    },
+    {
+      "category": "one-time-watch",
+      "count": 5301,
+      "percentage": 91.6,
+      "avg_rating": 5.19
+    },
+    {
+      "category": "uncategorized",
+      "count": 26,
+      "percentage": 0.4,
+      "avg_rating": null
+    }
+  ],
+  "era_distribution": [
+    {
+      "era": "Pre-1970 (Golden Age)",
+      "count": 613,
+      "avg_rating": 5.15
+    },
+    {
+      "era": "1970-1989 (Classics)",
+      "count": 1176,
+      "avg_rating": 5.14
+    },
+    {
+      "era": "1990-2009 (Modern Era)",
+      "count": 1292,
+      "avg_rating": 5.49
+    },
+    {
+      "era": "2010-2019 (Contemporary)",
+      "count": 1203,
+      "avg_rating": 5.41
+    },
+    {
+      "era": "2020-Present (Current)",
+      "count": 1475,
+      "avg_rating": 5.51
+    }
+  ],
+  "top_100_overall": [
+    {
+      "rank": 1,
+      "slug": "malliswari-1951",
+      "title": "Malliswari",
+      "year": 1951,
+      "rating": 9.5,
+      "category": "masterpiece",
+      "hero": "N.T. Rama Rao",
+      "director": "B.N. Reddi"
+    },
+    {
+      "rank": 2,
+      "slug": "malini-and-co-2015",
+      "title": "Malini & Co.",
+      "year": 2015,
+      "rating": 9.5,
+      "category": "masterpiece",
+      "hero": "Zakir Hussain",
+      "director": "K Veeru"
+    },
+    {
+      "rank": 3,
+      "slug": "ashwamedham-1992",
+      "title": "Ashwamedham",
+      "year": 1992,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": "Nandamuri Balakrishna",
+      "director": "K Raghavendra Rao"
+    },
+    {
+      "rank": 4,
+      "slug": "mayabazar-1957",
+      "title": "Mayabazar",
+      "year": 1957,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 5,
+      "slug": "magadheera-2009",
+      "title": "Magadheera",
+      "year": 2009,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": "Ram Charan",
+      "director": "S. S. Rajamouli"
+    },
+    {
+      "rank": 6,
+      "slug": "sagara-sangamam-1983",
+      "title": "Sagara Sangamam",
+      "year": 1983,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 7,
+      "slug": "sankarabharanam-1980",
+      "title": "Sankarabharanam",
+      "year": 1980,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 8,
+      "slug": "lava-kusa-1963",
+      "title": "Lava Kusa",
+      "year": 1963,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 9,
+      "slug": "pathala-bhairavi-1951",
+      "title": "Pathala Bhairavi",
+      "year": 1951,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 10,
+      "slug": "sri-venkateswara-mahatmyam-1960",
+      "title": "Sri Venkateswara Mahatmyam",
+      "year": 1960,
+      "rating": 9.2,
+      "category": "masterpiece",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 11,
+      "slug": "simhasanam-1986",
+      "title": "Simhasanam",
+      "year": 1986,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 12,
+      "slug": "bandhuvulostunnaru-jagratha-1989",
+      "title": "Bandhuvulostunnaru Jagratha",
+      "year": 1989,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 13,
+      "slug": "pratighatana-1985",
+      "title": "Pratighatana",
+      "year": 1985,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Vijayashanti",
+      "director": "T Krishna"
+    },
+    {
+      "rank": 14,
+      "slug": "dongala-bandi-2008",
+      "title": "Dongala Bandi",
+      "year": 2008,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Allari Naresh",
+      "director": "Satish Vegesna"
+    },
+    {
+      "rank": 15,
+      "slug": "ammayi-kosam-2001",
+      "title": "Ammayi Kosam",
+      "year": 2001,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Ravi Teja",
+      "director": "Muppalaneni Shiva"
+    },
+    {
+      "rank": 16,
+      "slug": "kaashmora-1986",
+      "title": "Kaashmora",
+      "year": 1986,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 17,
+      "slug": "swayamkrushi-1987",
+      "title": "Swayamkrushi",
+      "year": 1987,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 18,
+      "slug": "pelli-pustakam-1991",
+      "title": "Pelli Pustakam",
+      "year": 1991,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Rajendra Prasad",
+      "director": "Bapu"
+    },
+    {
+      "rank": 19,
+      "slug": "subhalagnam-1994",
+      "title": "Subhalagnam",
+      "year": 1994,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Aamani",
+      "director": "S.V. Krishna Reddy"
+    },
+    {
+      "rank": 20,
+      "slug": "achari-america-yatra-2018",
+      "title": "Achari America Yatra",
+      "year": 2018,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 21,
+      "slug": "i-liked-the-girl-1999",
+      "title": "I liked the girl",
+      "year": 1999,
+      "rating": 9,
+      "category": "must-watch",
+      "hero": "Srikanth",
+      "director": "E.V.V. Satyanarayana"
+    },
+    {
+      "rank": 22,
+      "slug": "seetha-kalyanam-1976",
+      "title": "Seetha Kalyanam",
+      "year": 1976,
+      "rating": 8.9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 23,
+      "slug": "alluri-seetarama-raju-1974",
+      "title": "Alluri Seetarama Raju",
+      "year": 1974,
+      "rating": 8.9,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 24,
+      "slug": "rrr",
+      "title": "RRR",
+      "year": 2004,
+      "rating": 8.8,
+      "category": "must-watch",
+      "hero": "Jr. NTR, Ram Charan",
+      "director": "S.S. Rajamouli"
+    },
+    {
+      "rank": 25,
+      "slug": "daana-veera-soora-karna-1977",
+      "title": "Daana Veera Soora Karna",
+      "year": 1977,
+      "rating": 8.8,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 26,
+      "slug": "challenge-1984",
+      "title": "Challenge",
+      "year": 1984,
+      "rating": 8.7,
+      "category": "must-watch",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 27,
+      "slug": "senapathi-2021",
+      "title": "Senapathi",
+      "year": 2021,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 28,
+      "slug": "dhira-2020",
+      "title": "Dhira",
+      "year": 2020,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "Vijay Sethupathi",
+      "director": "Arun Kumar Rapolu"
+    },
+    {
+      "rank": 29,
+      "slug": "pravarakyudu-2009",
+      "title": "Pravarakyudu",
+      "year": 2009,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "Jagapati Babu",
+      "director": "Madan Ramigani"
+    },
+    {
+      "rank": 30,
+      "slug": "pravarakhyudu-2009",
+      "title": "Pravarakhyudu",
+      "year": 2009,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "Madan",
+      "director": "Pravarakhyudu"
+    },
+    {
+      "rank": 31,
+      "slug": "ram-asur-2021",
+      "title": "Ram Asur",
+      "year": 2021,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 32,
+      "slug": "golmaal-2003",
+      "title": "Golmaal",
+      "year": 2003,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "J. D. Chakravarthi",
+      "director": "P. N. Ramachandra Rao"
+    },
+    {
+      "rank": 33,
+      "slug": "happy-ending-2024",
+      "title": "Happy Ending",
+      "year": 2024,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 34,
+      "slug": "super-machi-2022",
+      "title": "Super Machi",
+      "year": 2022,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 35,
+      "slug": "pushpak-vimaan-2024",
+      "title": "Pushpak Vimaan",
+      "year": 2024,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 36,
+      "slug": "rrr-2022",
+      "title": "RRR",
+      "year": 2022,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "N.T. Rama Rao Jr.",
+      "director": "S. S. Rajamouli"
+    },
+    {
+      "rank": 37,
+      "slug": "nippu-ravva-1993",
+      "title": "Nippu Ravva",
+      "year": 1993,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "Nandamuri Balakrishna",
+      "director": "A. Kodandarami Reddy"
+    },
+    {
+      "rank": 38,
+      "slug": "ammo-okato-tareekhu-2000",
+      "title": "Ammo! Okato Tareekhu",
+      "year": 2000,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": "L. B. Sriram",
+      "director": "E.V.V. Satyanarayana"
+    },
+    {
+      "rank": 39,
+      "slug": "martin-luther-king-2023",
+      "title": "Martin Luther King",
+      "year": 2023,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 40,
+      "slug": "3e-2022",
+      "title": "3e",
+      "year": 2022,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 41,
+      "slug": "geethanjali-malli-vachindi-2024",
+      "title": "Geethanjali Malli Vachindi",
+      "year": 2024,
+      "rating": 8.5,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 42,
+      "slug": "35-chinna-katha-kaadu-2024",
+      "title": "35 - Chinna Katha Kaadu",
+      "year": 2024,
+      "rating": 8.4,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 43,
+      "slug": "desa-drohulu-1964",
+      "title": "Desa Drohulu",
+      "year": 1964,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 44,
+      "slug": "ave-kallu-1967",
+      "title": "Ave Kallu",
+      "year": 1967,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 45,
+      "slug": "karthavarayani-katha-1958",
+      "title": "Karthavarayani Katha",
+      "year": 1958,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 46,
+      "slug": "daiva-balam-1959",
+      "title": "Daiva Balam",
+      "year": 1959,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 47,
+      "slug": "bhama-vijayam-1967",
+      "title": "Bhama Vijayam",
+      "year": 1967,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 48,
+      "slug": "money-1993",
+      "title": "Money",
+      "year": 1993,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": "J. D. Chakravarthi",
+      "director": "Siva Nageshwara Rao"
+    },
+    {
+      "rank": 49,
+      "slug": "aakasa-ramanna-1965",
+      "title": "Aakasa Ramanna",
+      "year": 1965,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 50,
+      "slug": "marmayogi-1964",
+      "title": "Marmayogi",
+      "year": 1964,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 51,
+      "slug": "ramu-1968",
+      "title": "Ramu",
+      "year": 1968,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 52,
+      "slug": "swathi-kiranam-1992",
+      "title": "Swathi Kiranam",
+      "year": 1992,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": "Manjunath",
+      "director": "K. Viswanath"
+    },
+    {
+      "rank": 53,
+      "slug": "bhookailas-1958",
+      "title": "Bhookailas",
+      "year": 1958,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": "N.T. Rama Rao",
+      "director": "K. Shankar"
+    },
+    {
+      "rank": 54,
+      "slug": "aradhana-1962",
+      "title": "Aradhana",
+      "year": 1962,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 55,
+      "slug": "kanyasulkam-1955",
+      "title": "Kanyasulkam",
+      "year": 1955,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 56,
+      "slug": "idi-katha-kaadu-1979",
+      "title": "Idi Katha Kaadu",
+      "year": 1979,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 57,
+      "slug": "siri-siri-muvva-1976",
+      "title": "Siri Siri Muvva",
+      "year": 1976,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 58,
+      "slug": "maa-pelliki-randi-2001",
+      "title": "Maa Pelliki Randi",
+      "year": 2001,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": "J. D. Chakravarthi",
+      "director": "Muppalaneni Shiva"
+    },
+    {
+      "rank": 59,
+      "slug": "sri-rajeshwari-vilas-coffee-club-1976",
+      "title": "Sri Rajeshwari Vilas Coffee Club",
+      "year": 1976,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 60,
+      "slug": "sri-ramaanjaneya-yuddham-1975",
+      "title": "Sri Ramaanjaneya Yuddham",
+      "year": 1975,
+      "rating": 8.3,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 61,
+      "slug": "anandam-2001",
+      "title": "Anandam",
+      "year": 2001,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": "Jai Akash",
+      "director": "Sreenu Vaitla"
+    },
+    {
+      "rank": 62,
+      "slug": "skylab-2021",
+      "title": "Skylab",
+      "year": 2021,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 63,
+      "slug": "natyam-2021",
+      "title": "Natyam",
+      "year": 2021,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": "Sandhya Raju",
+      "director": "Revanth Korukonda"
+    },
+    {
+      "rank": 64,
+      "slug": "missamma-2003",
+      "title": "Missamma",
+      "year": 2003,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": "Bhumika Chawla",
+      "director": "G. Neelakanta Reddy"
+    },
+    {
+      "rank": 65,
+      "slug": "joker-1993",
+      "title": "Joker",
+      "year": 1993,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": "Rajendra Prasad",
+      "director": "Vamsy"
+    },
+    {
+      "rank": 66,
+      "slug": "prasanna-vadanam-2024",
+      "title": "Prasanna Vadanam",
+      "year": 2024,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 67,
+      "slug": "jagadeka-veerudu-athiloka-sundari-1990",
+      "title": "Jagadeka Veerudu Athiloka Sundari",
+      "year": 1990,
+      "rating": 8.2,
+      "category": "mass-classic",
+      "hero": "Chiranjeevi",
+      "director": "K Raghavendra Rao"
+    },
+    {
+      "rank": 68,
+      "slug": "wo-vvaraprasad-1998",
+      "title": "W/O V.Varaprasad",
+      "year": 1998,
+      "rating": 8.1,
+      "category": "highly-recommended",
+      "hero": "Vineeth Radhakrishnan",
+      "director": "Vamsy"
+    },
+    {
+      "rank": 69,
+      "slug": "jersey-2019",
+      "title": "Jersey",
+      "year": 2019,
+      "rating": 8.1,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 70,
+      "slug": "cauliflower-2021",
+      "title": "Cauliflower",
+      "year": 2021,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 71,
+      "slug": "highway-2022",
+      "title": "Highway",
+      "year": 2022,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Anand Deverakonda",
+      "director": "K. V. Guhan"
+    },
+    {
+      "rank": 72,
+      "slug": "induvadana-2022",
+      "title": "Induvadana",
+      "year": 2022,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 73,
+      "slug": "saptagiri-express-2016",
+      "title": "Saptagiri Express",
+      "year": 2016,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Mahesh Achanta",
+      "director": "Arun Pawar"
+    },
+    {
+      "rank": 74,
+      "slug": "alludugaru-1990",
+      "title": "Alludugaru",
+      "year": 1990,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Mohan Babu",
+      "director": "K Raghavendra Rao"
+    },
+    {
+      "rank": 75,
+      "slug": "the-end-2014",
+      "title": "The End",
+      "year": 2014,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Yuva Chandraa",
+      "director": "Rahul Sankrityan"
+    },
+    {
+      "rank": 76,
+      "slug": "osey-ramulamma-1997",
+      "title": "Osey Ramulamma",
+      "year": 1997,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Vijayashanti",
+      "director": "Dasari Narayana Rao"
+    },
+    {
+      "rank": 77,
+      "slug": "kondaveeti-donga-1990",
+      "title": "Kondaveeti Donga",
+      "year": 1990,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Chiranjeevi",
+      "director": "A. Kodandarami Reddy"
+    },
+    {
+      "rank": 78,
+      "slug": "red-bus-2014",
+      "title": "Red Bus",
+      "year": 2014,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Vishnu Manchu",
+      "director": "Dasari Narayana Rao"
+    },
+    {
+      "rank": 79,
+      "slug": "thyagayya-1981",
+      "title": "Thyagayya",
+      "year": 1981,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 80,
+      "slug": "vimanam-2023",
+      "title": "Vimanam",
+      "year": 2023,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 81,
+      "slug": "sundari-2021",
+      "title": "Sundari",
+      "year": 2021,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 82,
+      "slug": "marokshanam-2023",
+      "title": "Marokshanam",
+      "year": 2023,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 83,
+      "slug": "vijetha-1985",
+      "title": "Vijetha",
+      "year": 1985,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 84,
+      "slug": "bheem-a-2025",
+      "title": "Bheem-a",
+      "year": 2025,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 85,
+      "slug": "brahmachari-mogudu-1994",
+      "title": "Brahmachari Mogudu",
+      "year": 1994,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Rajendra Prasad",
+      "director": "Narasimha Rao Relangi"
+    },
+    {
+      "rank": 86,
+      "slug": "sutradhaarulu-1989",
+      "title": "Sutradhaarulu",
+      "year": 1989,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Nageshwara Rao Akkineni",
+      "director": "K. Viswanath"
+    },
+    {
+      "rank": 87,
+      "slug": "kirrak-party-2018",
+      "title": "Kirrak Party",
+      "year": 2018,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Nikhil Siddhartha",
+      "director": "Sharan Koppisetty"
+    },
+    {
+      "rank": 88,
+      "slug": "abhilasha-1983",
+      "title": "Abhilasha",
+      "year": 1983,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 89,
+      "slug": "happy-wedding-2018",
+      "title": "Happy Wedding",
+      "year": 2018,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Sumanth Ashwin",
+      "director": "Lakshman Karya"
+    },
+    {
+      "rank": 90,
+      "slug": "lucky-chance-1994",
+      "title": "Lucky Chance",
+      "year": 1994,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Rajendra Prasad",
+      "director": "Siva Nageshwara Rao"
+    },
+    {
+      "rank": 91,
+      "slug": "malli-pelli-2023",
+      "title": "Malli Pelli",
+      "year": 2023,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 92,
+      "slug": "krishnavataram-1982",
+      "title": "Krishnavataram",
+      "year": 1982,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 93,
+      "slug": "prema-yuddham-1990",
+      "title": "Prema Yuddham",
+      "year": 1990,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Amala Akkineni",
+      "director": "S V Rajendra Singh Babu"
+    },
+    {
+      "rank": 94,
+      "slug": "mallesham-2019",
+      "title": "Mallesham",
+      "year": 2019,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 95,
+      "slug": "o-saathiya-2023",
+      "title": "O Saathiya",
+      "year": 2023,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    },
+    {
+      "rank": 96,
+      "slug": "devullu-2000",
+      "title": "Devullu",
+      "year": 2000,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Nitya Shetty",
+      "director": "Kodi Ramakrishna"
+    },
+    {
+      "rank": 97,
+      "slug": "asadhyudu-2006",
+      "title": "Asadhyudu",
+      "year": 2006,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Kalyan Ram",
+      "director": "Anil Krishna"
+    },
+    {
+      "rank": 98,
+      "slug": "shatruvu-1991",
+      "title": "Shatruvu",
+      "year": 1991,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Venkatesh",
+      "director": "Kodi Ramakrishna"
+    },
+    {
+      "rank": 99,
+      "slug": "thodu-1997",
+      "title": "Thodu",
+      "year": 1997,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": "Sarath Babu",
+      "director": "Akkineni Kutumba Rao"
+    },
+    {
+      "rank": 100,
+      "slug": "ammu-2022",
+      "title": "Ammu",
+      "year": 2022,
+      "rating": 8,
+      "category": "highly-recommended",
+      "hero": null,
+      "director": null
+    }
+  ],
+  "bottom_100_overall": [
+    {
+      "rank": 1,
+      "slug": "chandamama-raave-asap-2021",
+      "title": "Chandamama Raave Asap",
+      "year": 2021,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 2,
+      "slug": "manchi-vallaki-manchivadu-1973",
+      "title": "Manchi Vallaki Manchivadu",
+      "year": 1973,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 3,
+      "slug": "musica-of-hiem-2021",
+      "title": "Musica of Hiem",
+      "year": 2021,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 4,
+      "slug": "what-the-fish-null",
+      "title": "What The Fish",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 5,
+      "slug": "krishnudu-shweta-prasad-bhanu-sri-mehra-sumit-arora-2012",
+      "title": "Krishnudu, Shweta Prasad, Bhanu Sri Mehra, Sumit Arora",
+      "year": 2012,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 6,
+      "slug": "tyson-naidu-null",
+      "title": "Tyson Naidu",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 7,
+      "slug": "gandhi-puttina-desam-1973",
+      "title": "Gandhi Puttina Desam",
+      "year": 1973,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 8,
+      "slug": "sri-sita-ramula-kalyanam-chootamu-raarandi-1998",
+      "title": "Sri Sita Ramula Kalyanam Chootamu Raarandi",
+      "year": 1998,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 9,
+      "slug": "natudu",
+      "title": "Natudu",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 10,
+      "slug": "maa-inti-devudu-1975",
+      "title": "Maa Inti Devudu",
+      "year": 1975,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 11,
+      "slug": "premalo-pavani-kalyan-2002",
+      "title": "Premalo Pavani Kalyan",
+      "year": 2003,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 12,
+      "slug": "maro-maya-bazaar-1983",
+      "title": "Maro Maya Bazaar",
+      "year": 1983,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 13,
+      "slug": "maa-inti-bangaram-null",
+      "title": "Maa Inti Bangaram",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 14,
+      "slug": "gopi-galla-goa-trip-2025",
+      "title": "Gopi Galla Goa Trip",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 15,
+      "slug": "c-o-surya-2017",
+      "title": "C/o Surya",
+      "year": 2017,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 16,
+      "slug": "pushpa-3-the-rampage-null",
+      "title": "Pushpa 3 - The Rampage",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 17,
+      "slug": "sri-kanaka-mahalakshmi-recording-dance-troupe-1988",
+      "title": "Sri Kanaka Mahalakshmi Recording Dance Troupe",
+      "year": 1988,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 18,
+      "slug": "malli-malli-chusa-2019",
+      "title": "Malli Malli Chusa",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 19,
+      "slug": "thank-you-subba-rao-2001",
+      "title": "Thank You Subba Rao",
+      "year": 2001,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 20,
+      "slug": "b-jeeevan-reddy-2022",
+      "title": "B Jeeevan Reddy",
+      "year": 2022,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 21,
+      "slug": "alladin-and-the-wonderful-lamp-1957",
+      "title": "Alladin and the Wonderful Lamp",
+      "year": 1957,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 22,
+      "slug": "okkaroju-48-hours-2023",
+      "title": "Okkaroju...48 Hours",
+      "year": 2023,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 23,
+      "slug": "pellante-noorella-panta-1992",
+      "title": "Pellante Noorella Panta",
+      "year": 1992,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 24,
+      "slug": "police-vari-heccharika-2025",
+      "title": "Police Vari Heccharika",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 25,
+      "slug": "edurinti-mogudu-pakkinti-pellam-1991",
+      "title": "Edurinti Mogudu Pakkinti Pellam",
+      "year": 1991,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 26,
+      "slug": "dabbu-bhale-jabbu-1992",
+      "title": "Dabbu Bhale Jabbu",
+      "year": 1992,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 27,
+      "slug": "bilalpur-police-station-2019",
+      "title": "Bilalpur Police Station",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 28,
+      "slug": "pm-in-hyderabad-2022",
+      "title": "Pm in Hyderabad",
+      "year": 2022,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 29,
+      "slug": "p-n-ramachandra-rao-1987",
+      "title": "P. N. Ramachandra Rao",
+      "year": 1987,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 30,
+      "slug": "i-love-you-1979",
+      "title": "I Love You",
+      "year": 1979,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 31,
+      "slug": "crazy-crazy-feeling-2019",
+      "title": "Crazy Crazy Feeling",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 32,
+      "slug": "prasanth-kumar-dimmala-2023",
+      "title": "Prasanth Kumar Dimmala",
+      "year": 2023,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 33,
+      "slug": "all-the-best-2012",
+      "title": "All the Best",
+      "year": 2012,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 34,
+      "slug": "krishna-rao-supermarket-2019",
+      "title": "Krishna Rao Supermarket",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 35,
+      "slug": "maharani-tamil-dubbed-nayakkarin-magal-1982-1983",
+      "title": "Maharani (Tamil Dubbed Nayakkarin Magal 1982)",
+      "year": 1983,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 36,
+      "slug": "sivaji-poonam-kaur-2007",
+      "title": "Sivaji, Poonam Kaur",
+      "year": 2007,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 37,
+      "slug": "ajay-chitra-badrinath-jaya-prakash-reddy-2004",
+      "title": "Ajay, Chitra, Badrinath, Jaya Prakash Reddy",
+      "year": 2004,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 38,
+      "slug": "joker-mama-super-alludu-1992",
+      "title": "Joker Mama Super Alludu",
+      "year": 1992,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 39,
+      "slug": "bhanumati-gari-mogudu-1987",
+      "title": "Bhanumati Gari Mogudu",
+      "year": 1987,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 40,
+      "slug": "they-call-him-og-2025",
+      "title": "They Call Him OG",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 41,
+      "slug": "veeraaraju-1991-2025",
+      "title": "Veeraaraju 1991",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 42,
+      "slug": "ashwani-kumar-v-2019",
+      "title": "Ashwani Kumar. V",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 43,
+      "slug": "takshakudu-null",
+      "title": "Takshakudu",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 44,
+      "slug": "naresh-aamani-akhil-charan-kiran-sonu-poonam-srikoti-naga-babu-2017",
+      "title": "Naresh, Aamani, Akhil, Charan, Kiran, Sonu, Poonam, Srikoti, Naga Babu",
+      "year": 2017,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 45,
+      "slug": "ranga-the-donga-2010",
+      "title": "Ranga the Donga",
+      "year": 2010,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 46,
+      "slug": "m-l-a-1957",
+      "title": "M.L.A.",
+      "year": 2006,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 47,
+      "slug": "idi-maa-ashokgadi-love-story-2003",
+      "title": "Idi Maa Ashokgadi Love Story",
+      "year": 2003,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 48,
+      "slug": "nyayam-meere-cheppali-1985",
+      "title": "Nyayam Meere Cheppali",
+      "year": 1985,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 49,
+      "slug": "chal-mohana-ranga-1978",
+      "title": "Chal Mohana Ranga",
+      "year": 1978,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 50,
+      "slug": "thank-you-dear-2025",
+      "title": "Thank You Dear",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 51,
+      "slug": "indira-productionsvaishno-academy-2006",
+      "title": "Indira Productionsvaishno Academy",
+      "year": 2006,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 52,
+      "slug": "valliddari-vayasu-padahare-2006",
+      "title": "Valliddari Vayasu Padahare",
+      "year": 2006,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 53,
+      "slug": "moodu-mulla-bandham-1980",
+      "title": "Moodu Mulla Bandham",
+      "year": 1980,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 54,
+      "slug": "apparao-ki-oka-nela-thappindi-2001",
+      "title": "Apparao ki Oka Nela Thappindi",
+      "year": 2001,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 55,
+      "slug": "doo-doo-basavanna-1978",
+      "title": "Doo Doo Basavanna",
+      "year": 1978,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 56,
+      "slug": "huliya-haalina-mevu-1982",
+      "title": "Huliya Haalina Mevu",
+      "year": 1982,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 57,
+      "slug": "love-is-in-the-vamsham-2025",
+      "title": "Love Is in the Vamsham",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 58,
+      "slug": "operation-duryodhana-2-2013",
+      "title": "Operation Duryodhana 2",
+      "year": 2013,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 59,
+      "slug": "mantra-2-2015",
+      "title": "Mantra 2",
+      "year": 2015,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 60,
+      "slug": "o-manishi-katha-2014",
+      "title": "O Manishi Katha",
+      "year": 2014,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 61,
+      "slug": "vennela-1-1-2-2012",
+      "title": "Vennela 1 1/2",
+      "year": 2012,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 62,
+      "slug": "jwala-dweepa-rahasyam-1965",
+      "title": "Jwala Dweepa Rahasyam",
+      "year": 1965,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 63,
+      "slug": "bharath-kumar-p-narendra-2019",
+      "title": "Bharath Kumar P & Narendra",
+      "year": 2019,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 64,
+      "slug": "k-shravan-kumar-2023",
+      "title": "K. Shravan Kumar",
+      "year": 2023,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 65,
+      "slug": "veedu-samanyudu-kadhu-1999",
+      "title": "Veedu Samanyudu Kadhu",
+      "year": 1999,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 66,
+      "slug": "rendu-rellu-aaru-2017",
+      "title": "Rendu Rellu Aaru",
+      "year": 2017,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 67,
+      "slug": "sri-rama-pattabhishekam-1978",
+      "title": "Sri Rama Pattabhishekam",
+      "year": 1978,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 68,
+      "slug": "darling-darling-darling-1983",
+      "title": "Darling, Darling, Darling",
+      "year": 1983,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 69,
+      "slug": "srihari-sai-kumar-roja-lekha-washington-brahmaji-krishi-arimanda-ashish-vidyarthi-2013",
+      "title": "Srihari, Sai Kumar, Roja, Lekha Washington, Brahmaji, Krishi Arimanda, Ashish Vidyarthi",
+      "year": 2013,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 70,
+      "slug": "rendu-rellu-aaru-1986",
+      "title": "Rendu Rellu Aaru",
+      "year": 1986,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 71,
+      "slug": "stuartpuram-police-station-1991",
+      "title": "Stuartpuram Police Station",
+      "year": 1991,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 72,
+      "slug": "vamsi-krishna-naveena-suman-chandra-mohan-giribabu-brahmanandam-2005",
+      "title": "Vamsi Krishna, Naveena, Suman, Chandra Mohan, Giribabu, Brahmanandam",
+      "year": 2005,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 73,
+      "slug": "subba-rayudi-pelli-1992",
+      "title": "Subba Rayudi Pelli",
+      "year": 1992,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 74,
+      "slug": "ramana-anita-patel-siva-krishna-2004",
+      "title": "Ramana, Anita Patel, Siva Krishna",
+      "year": 2004,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 75,
+      "slug": "sambhavami-yuge-yuge-2006",
+      "title": "Sambhavami Yuge Yuge",
+      "year": 1972,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 76,
+      "slug": "oka-roju-raju-1944",
+      "title": "Oka Roju Raju",
+      "year": 1944,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 77,
+      "slug": "varanasi",
+      "title": "Vāranāsi",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 78,
+      "slug": "vinay-babu-reena-rashmi-amar-vizag-prasad-mallikharjuna-rao-2004",
+      "title": "Vinay Babu, Reena, Rashmi, Amar, Vizag Prasad, Mallikharjuna Rao",
+      "year": 2004,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 79,
+      "slug": "mana-voori-pandavulu-1978",
+      "title": "Mana Voori Pandavulu",
+      "year": 1978,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 80,
+      "slug": "nenu-naa-rakshasi-2011",
+      "title": "Nenu Naa Rakshasi",
+      "year": 2011,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 81,
+      "slug": "satya-2-2013",
+      "title": "Satya 2",
+      "year": 2013,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 82,
+      "slug": "https-ghantasalagalamrutamu-blogspot-com-2009-07-1960-16-html-bhakta-sabari-1960",
+      "title": "[https://ghantasalagalamrutamu.blogspot.com/2009/07/1960_16.html Bhakta Sabari]",
+      "year": 1960,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 83,
+      "slug": "maanas-nitya-naresh-brahmanandam-ali-shakalaka-shankar-krishna-bhagawan-2018",
+      "title": "Maanas, Nitya Naresh, Brahmanandam, Ali, Shakalaka Shankar, Krishna Bhagawan",
+      "year": 2018,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 84,
+      "slug": "implies-that-the-film-is-multilingual-and-the-gross-collection-figure-includes-the-worldwide-collection-of-the-other-simultaneously-filmed-version-2025",
+      "title": "Implies that the film is multilingual and the gross collection figure includes the worldwide collection of the other simultaneously filmed version.",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 85,
+      "slug": "sri-chamundeswari-mahima-1975",
+      "title": "Sri Chamundeswari Mahima",
+      "year": 1975,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 86,
+      "slug": "ninna-nedu-repu-2008",
+      "title": "Ninna Nedu Repu",
+      "year": 2008,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 87,
+      "slug": "garividi-lakshmi-null",
+      "title": "Garividi Lakshmi",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 88,
+      "slug": "lahiri-lahiri-lahirilo-2002",
+      "title": "Lahiri Lahiri Lahirilo",
+      "year": 2002,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 89,
+      "slug": "dhanalakshmi-i-love-you-2002",
+      "title": "Dhanalakshmi, I Love You",
+      "year": 2002,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 90,
+      "slug": "rowdy-ramudu-konte-krishnudu-1980",
+      "title": "Rowdy Ramudu Konte Krishnudu",
+      "year": 1980,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 91,
+      "slug": "avadhi-the-tale-of-love-2025",
+      "title": "AVADHI THE TALE OF LOVE",
+      "year": 2025,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 92,
+      "slug": "umapathi-null",
+      "title": "Umapathi",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 93,
+      "slug": "kannyaka-parameswari-mahatmyam-1961",
+      "title": "Kannyaka Parameswari Mahatmyam",
+      "year": 1961,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 94,
+      "slug": "pedaraasi-peddamma-katha-1968",
+      "title": "Pedaraasi Peddamma Katha",
+      "year": 1968,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 95,
+      "slug": "paramanandham-shishyulu-null",
+      "title": "Paramanandham Shishyulu",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 96,
+      "slug": "janakiram-null",
+      "title": "Janakiram",
+      "year": null,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 97,
+      "slug": "ee-charithra-ye-siratho-1982",
+      "title": "Ee Charithra Ye Siratho",
+      "year": 1982,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 98,
+      "slug": "gudachari-no1-1983",
+      "title": "Gudachari No.1",
+      "year": 1983,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 99,
+      "slug": "naa-pere-bhagavan-1976",
+      "title": "Naa Pere Bhagavan",
+      "year": 1976,
+      "rating": 5,
+      "category": "one-time-watch"
+    },
+    {
+      "rank": 100,
+      "slug": "like-share-subscribe-2022",
+      "title": "Like, Share & Subscribe",
+      "year": 2022,
+      "rating": 5,
+      "category": "one-time-watch"
+    }
+  ],
+  "by_category": {
+    "masterpiece": {
+      "count": 10,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "malliswari-1951",
+          "title": "Malliswari",
+          "year": 1951,
+          "rating": 9.5,
+          "hero": "N.T. Rama Rao",
+          "director": "B.N. Reddi"
+        },
+        {
+          "rank": 2,
+          "slug": "malini-and-co-2015",
+          "title": "Malini & Co.",
+          "year": 2015,
+          "rating": 9.5,
+          "hero": "Zakir Hussain",
+          "director": "K Veeru"
+        },
+        {
+          "rank": 3,
+          "slug": "ashwamedham-1992",
+          "title": "Ashwamedham",
+          "year": 1992,
+          "rating": 9.2,
+          "hero": "Nandamuri Balakrishna",
+          "director": "K Raghavendra Rao"
+        },
+        {
+          "rank": 4,
+          "slug": "mayabazar-1957",
+          "title": "Mayabazar",
+          "year": 1957,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 5,
+          "slug": "magadheera-2009",
+          "title": "Magadheera",
+          "year": 2009,
+          "rating": 9.2,
+          "hero": "Ram Charan",
+          "director": "S. S. Rajamouli"
+        },
+        {
+          "rank": 6,
+          "slug": "sagara-sangamam-1983",
+          "title": "Sagara Sangamam",
+          "year": 1983,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 7,
+          "slug": "sankarabharanam-1980",
+          "title": "Sankarabharanam",
+          "year": 1980,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "lava-kusa-1963",
+          "title": "Lava Kusa",
+          "year": 1963,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 9,
+          "slug": "pathala-bhairavi-1951",
+          "title": "Pathala Bhairavi",
+          "year": 1951,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 10,
+          "slug": "sri-venkateswara-mahatmyam-1960",
+          "title": "Sri Venkateswara Mahatmyam",
+          "year": 1960,
+          "rating": 9.2,
+          "hero": null,
+          "director": null
+        }
+      ],
+      "bottom_100": []
+    },
+    "must-watch": {
+      "count": 16,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "simhasanam-1986",
+          "title": "Simhasanam",
+          "year": 1986,
+          "rating": 9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 2,
+          "slug": "bandhuvulostunnaru-jagratha-1989",
+          "title": "Bandhuvulostunnaru Jagratha",
+          "year": 1989,
+          "rating": 9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 3,
+          "slug": "pratighatana-1985",
+          "title": "Pratighatana",
+          "year": 1985,
+          "rating": 9,
+          "hero": "Vijayashanti",
+          "director": "T Krishna"
+        },
+        {
+          "rank": 4,
+          "slug": "dongala-bandi-2008",
+          "title": "Dongala Bandi",
+          "year": 2008,
+          "rating": 9,
+          "hero": "Allari Naresh",
+          "director": "Satish Vegesna"
+        },
+        {
+          "rank": 5,
+          "slug": "ammayi-kosam-2001",
+          "title": "Ammayi Kosam",
+          "year": 2001,
+          "rating": 9,
+          "hero": "Ravi Teja",
+          "director": "Muppalaneni Shiva"
+        },
+        {
+          "rank": 6,
+          "slug": "kaashmora-1986",
+          "title": "Kaashmora",
+          "year": 1986,
+          "rating": 9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 7,
+          "slug": "swayamkrushi-1987",
+          "title": "Swayamkrushi",
+          "year": 1987,
+          "rating": 9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "pelli-pustakam-1991",
+          "title": "Pelli Pustakam",
+          "year": 1991,
+          "rating": 9,
+          "hero": "Rajendra Prasad",
+          "director": "Bapu"
+        },
+        {
+          "rank": 9,
+          "slug": "subhalagnam-1994",
+          "title": "Subhalagnam",
+          "year": 1994,
+          "rating": 9,
+          "hero": "Aamani",
+          "director": "S.V. Krishna Reddy"
+        },
+        {
+          "rank": 10,
+          "slug": "achari-america-yatra-2018",
+          "title": "Achari America Yatra",
+          "year": 2018,
+          "rating": 9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 11,
+          "slug": "i-liked-the-girl-1999",
+          "title": "I liked the girl",
+          "year": 1999,
+          "rating": 9,
+          "hero": "Srikanth",
+          "director": "E.V.V. Satyanarayana"
+        },
+        {
+          "rank": 12,
+          "slug": "seetha-kalyanam-1976",
+          "title": "Seetha Kalyanam",
+          "year": 1976,
+          "rating": 8.9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 13,
+          "slug": "alluri-seetarama-raju-1974",
+          "title": "Alluri Seetarama Raju",
+          "year": 1974,
+          "rating": 8.9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 14,
+          "slug": "rrr",
+          "title": "RRR",
+          "year": 2004,
+          "rating": 8.8,
+          "hero": "Jr. NTR, Ram Charan",
+          "director": "S.S. Rajamouli"
+        },
+        {
+          "rank": 15,
+          "slug": "daana-veera-soora-karna-1977",
+          "title": "Daana Veera Soora Karna",
+          "year": 1977,
+          "rating": 8.8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 16,
+          "slug": "challenge-1984",
+          "title": "Challenge",
+          "year": 1984,
+          "rating": 8.7,
+          "hero": null,
+          "director": null
+        }
+      ],
+      "bottom_100": []
+    },
+    "mass-classic": {
+      "count": 41,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "senapathi-2021",
+          "title": "Senapathi",
+          "year": 2021,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 2,
+          "slug": "dhira-2020",
+          "title": "Dhira",
+          "year": 2020,
+          "rating": 8.5,
+          "hero": "Vijay Sethupathi",
+          "director": "Arun Kumar Rapolu"
+        },
+        {
+          "rank": 3,
+          "slug": "pravarakyudu-2009",
+          "title": "Pravarakyudu",
+          "year": 2009,
+          "rating": 8.5,
+          "hero": "Jagapati Babu",
+          "director": "Madan Ramigani"
+        },
+        {
+          "rank": 4,
+          "slug": "pravarakhyudu-2009",
+          "title": "Pravarakhyudu",
+          "year": 2009,
+          "rating": 8.5,
+          "hero": "Madan",
+          "director": "Pravarakhyudu"
+        },
+        {
+          "rank": 5,
+          "slug": "ram-asur-2021",
+          "title": "Ram Asur",
+          "year": 2021,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 6,
+          "slug": "golmaal-2003",
+          "title": "Golmaal",
+          "year": 2003,
+          "rating": 8.5,
+          "hero": "J. D. Chakravarthi",
+          "director": "P. N. Ramachandra Rao"
+        },
+        {
+          "rank": 7,
+          "slug": "happy-ending-2024",
+          "title": "Happy Ending",
+          "year": 2024,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "super-machi-2022",
+          "title": "Super Machi",
+          "year": 2022,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 9,
+          "slug": "pushpak-vimaan-2024",
+          "title": "Pushpak Vimaan",
+          "year": 2024,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 10,
+          "slug": "rrr-2022",
+          "title": "RRR",
+          "year": 2022,
+          "rating": 8.5,
+          "hero": "N.T. Rama Rao Jr.",
+          "director": "S. S. Rajamouli"
+        },
+        {
+          "rank": 11,
+          "slug": "nippu-ravva-1993",
+          "title": "Nippu Ravva",
+          "year": 1993,
+          "rating": 8.5,
+          "hero": "Nandamuri Balakrishna",
+          "director": "A. Kodandarami Reddy"
+        },
+        {
+          "rank": 12,
+          "slug": "ammo-okato-tareekhu-2000",
+          "title": "Ammo! Okato Tareekhu",
+          "year": 2000,
+          "rating": 8.5,
+          "hero": "L. B. Sriram",
+          "director": "E.V.V. Satyanarayana"
+        },
+        {
+          "rank": 13,
+          "slug": "martin-luther-king-2023",
+          "title": "Martin Luther King",
+          "year": 2023,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 14,
+          "slug": "3e-2022",
+          "title": "3e",
+          "year": 2022,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 15,
+          "slug": "geethanjali-malli-vachindi-2024",
+          "title": "Geethanjali Malli Vachindi",
+          "year": 2024,
+          "rating": 8.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 16,
+          "slug": "35-chinna-katha-kaadu-2024",
+          "title": "35 - Chinna Katha Kaadu",
+          "year": 2024,
+          "rating": 8.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 17,
+          "slug": "desa-drohulu-1964",
+          "title": "Desa Drohulu",
+          "year": 1964,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 18,
+          "slug": "ave-kallu-1967",
+          "title": "Ave Kallu",
+          "year": 1967,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 19,
+          "slug": "karthavarayani-katha-1958",
+          "title": "Karthavarayani Katha",
+          "year": 1958,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 20,
+          "slug": "daiva-balam-1959",
+          "title": "Daiva Balam",
+          "year": 1959,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 21,
+          "slug": "bhama-vijayam-1967",
+          "title": "Bhama Vijayam",
+          "year": 1967,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 22,
+          "slug": "money-1993",
+          "title": "Money",
+          "year": 1993,
+          "rating": 8.3,
+          "hero": "J. D. Chakravarthi",
+          "director": "Siva Nageshwara Rao"
+        },
+        {
+          "rank": 23,
+          "slug": "aakasa-ramanna-1965",
+          "title": "Aakasa Ramanna",
+          "year": 1965,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 24,
+          "slug": "marmayogi-1964",
+          "title": "Marmayogi",
+          "year": 1964,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 25,
+          "slug": "ramu-1968",
+          "title": "Ramu",
+          "year": 1968,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 26,
+          "slug": "swathi-kiranam-1992",
+          "title": "Swathi Kiranam",
+          "year": 1992,
+          "rating": 8.3,
+          "hero": "Manjunath",
+          "director": "K. Viswanath"
+        },
+        {
+          "rank": 27,
+          "slug": "bhookailas-1958",
+          "title": "Bhookailas",
+          "year": 1958,
+          "rating": 8.3,
+          "hero": "N.T. Rama Rao",
+          "director": "K. Shankar"
+        },
+        {
+          "rank": 28,
+          "slug": "aradhana-1962",
+          "title": "Aradhana",
+          "year": 1962,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 29,
+          "slug": "kanyasulkam-1955",
+          "title": "Kanyasulkam",
+          "year": 1955,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 30,
+          "slug": "idi-katha-kaadu-1979",
+          "title": "Idi Katha Kaadu",
+          "year": 1979,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 31,
+          "slug": "siri-siri-muvva-1976",
+          "title": "Siri Siri Muvva",
+          "year": 1976,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 32,
+          "slug": "maa-pelliki-randi-2001",
+          "title": "Maa Pelliki Randi",
+          "year": 2001,
+          "rating": 8.3,
+          "hero": "J. D. Chakravarthi",
+          "director": "Muppalaneni Shiva"
+        },
+        {
+          "rank": 33,
+          "slug": "sri-rajeshwari-vilas-coffee-club-1976",
+          "title": "Sri Rajeshwari Vilas Coffee Club",
+          "year": 1976,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 34,
+          "slug": "sri-ramaanjaneya-yuddham-1975",
+          "title": "Sri Ramaanjaneya Yuddham",
+          "year": 1975,
+          "rating": 8.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 35,
+          "slug": "anandam-2001",
+          "title": "Anandam",
+          "year": 2001,
+          "rating": 8.2,
+          "hero": "Jai Akash",
+          "director": "Sreenu Vaitla"
+        },
+        {
+          "rank": 36,
+          "slug": "skylab-2021",
+          "title": "Skylab",
+          "year": 2021,
+          "rating": 8.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 37,
+          "slug": "natyam-2021",
+          "title": "Natyam",
+          "year": 2021,
+          "rating": 8.2,
+          "hero": "Sandhya Raju",
+          "director": "Revanth Korukonda"
+        },
+        {
+          "rank": 38,
+          "slug": "missamma-2003",
+          "title": "Missamma",
+          "year": 2003,
+          "rating": 8.2,
+          "hero": "Bhumika Chawla",
+          "director": "G. Neelakanta Reddy"
+        },
+        {
+          "rank": 39,
+          "slug": "joker-1993",
+          "title": "Joker",
+          "year": 1993,
+          "rating": 8.2,
+          "hero": "Rajendra Prasad",
+          "director": "Vamsy"
+        },
+        {
+          "rank": 40,
+          "slug": "prasanna-vadanam-2024",
+          "title": "Prasanna Vadanam",
+          "year": 2024,
+          "rating": 8.2,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 41,
+          "slug": "jagadeka-veerudu-athiloka-sundari-1990",
+          "title": "Jagadeka Veerudu Athiloka Sundari",
+          "year": 1990,
+          "rating": 8.2,
+          "hero": "Chiranjeevi",
+          "director": "K Raghavendra Rao"
+        }
+      ],
+      "bottom_100": []
+    },
+    "highly-recommended": {
+      "count": 65,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "wo-vvaraprasad-1998",
+          "title": "W/O V.Varaprasad",
+          "year": 1998,
+          "rating": 8.1,
+          "hero": "Vineeth Radhakrishnan",
+          "director": "Vamsy"
+        },
+        {
+          "rank": 2,
+          "slug": "jersey-2019",
+          "title": "Jersey",
+          "year": 2019,
+          "rating": 8.1,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 3,
+          "slug": "cauliflower-2021",
+          "title": "Cauliflower",
+          "year": 2021,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 4,
+          "slug": "highway-2022",
+          "title": "Highway",
+          "year": 2022,
+          "rating": 8,
+          "hero": "Anand Deverakonda",
+          "director": "K. V. Guhan"
+        },
+        {
+          "rank": 5,
+          "slug": "induvadana-2022",
+          "title": "Induvadana",
+          "year": 2022,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 6,
+          "slug": "saptagiri-express-2016",
+          "title": "Saptagiri Express",
+          "year": 2016,
+          "rating": 8,
+          "hero": "Mahesh Achanta",
+          "director": "Arun Pawar"
+        },
+        {
+          "rank": 7,
+          "slug": "alludugaru-1990",
+          "title": "Alludugaru",
+          "year": 1990,
+          "rating": 8,
+          "hero": "Mohan Babu",
+          "director": "K Raghavendra Rao"
+        },
+        {
+          "rank": 8,
+          "slug": "the-end-2014",
+          "title": "The End",
+          "year": 2014,
+          "rating": 8,
+          "hero": "Yuva Chandraa",
+          "director": "Rahul Sankrityan"
+        },
+        {
+          "rank": 9,
+          "slug": "osey-ramulamma-1997",
+          "title": "Osey Ramulamma",
+          "year": 1997,
+          "rating": 8,
+          "hero": "Vijayashanti",
+          "director": "Dasari Narayana Rao"
+        },
+        {
+          "rank": 10,
+          "slug": "kondaveeti-donga-1990",
+          "title": "Kondaveeti Donga",
+          "year": 1990,
+          "rating": 8,
+          "hero": "Chiranjeevi",
+          "director": "A. Kodandarami Reddy"
+        },
+        {
+          "rank": 11,
+          "slug": "red-bus-2014",
+          "title": "Red Bus",
+          "year": 2014,
+          "rating": 8,
+          "hero": "Vishnu Manchu",
+          "director": "Dasari Narayana Rao"
+        },
+        {
+          "rank": 12,
+          "slug": "thyagayya-1981",
+          "title": "Thyagayya",
+          "year": 1981,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 13,
+          "slug": "vimanam-2023",
+          "title": "Vimanam",
+          "year": 2023,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 14,
+          "slug": "sundari-2021",
+          "title": "Sundari",
+          "year": 2021,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 15,
+          "slug": "marokshanam-2023",
+          "title": "Marokshanam",
+          "year": 2023,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 16,
+          "slug": "vijetha-1985",
+          "title": "Vijetha",
+          "year": 1985,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 17,
+          "slug": "bheem-a-2025",
+          "title": "Bheem-a",
+          "year": 2025,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 18,
+          "slug": "brahmachari-mogudu-1994",
+          "title": "Brahmachari Mogudu",
+          "year": 1994,
+          "rating": 8,
+          "hero": "Rajendra Prasad",
+          "director": "Narasimha Rao Relangi"
+        },
+        {
+          "rank": 19,
+          "slug": "sutradhaarulu-1989",
+          "title": "Sutradhaarulu",
+          "year": 1989,
+          "rating": 8,
+          "hero": "Nageshwara Rao Akkineni",
+          "director": "K. Viswanath"
+        },
+        {
+          "rank": 20,
+          "slug": "kirrak-party-2018",
+          "title": "Kirrak Party",
+          "year": 2018,
+          "rating": 8,
+          "hero": "Nikhil Siddhartha",
+          "director": "Sharan Koppisetty"
+        },
+        {
+          "rank": 21,
+          "slug": "abhilasha-1983",
+          "title": "Abhilasha",
+          "year": 1983,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 22,
+          "slug": "happy-wedding-2018",
+          "title": "Happy Wedding",
+          "year": 2018,
+          "rating": 8,
+          "hero": "Sumanth Ashwin",
+          "director": "Lakshman Karya"
+        },
+        {
+          "rank": 23,
+          "slug": "lucky-chance-1994",
+          "title": "Lucky Chance",
+          "year": 1994,
+          "rating": 8,
+          "hero": "Rajendra Prasad",
+          "director": "Siva Nageshwara Rao"
+        },
+        {
+          "rank": 24,
+          "slug": "malli-pelli-2023",
+          "title": "Malli Pelli",
+          "year": 2023,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 25,
+          "slug": "krishnavataram-1982",
+          "title": "Krishnavataram",
+          "year": 1982,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 26,
+          "slug": "prema-yuddham-1990",
+          "title": "Prema Yuddham",
+          "year": 1990,
+          "rating": 8,
+          "hero": "Amala Akkineni",
+          "director": "S V Rajendra Singh Babu"
+        },
+        {
+          "rank": 27,
+          "slug": "mallesham-2019",
+          "title": "Mallesham",
+          "year": 2019,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 28,
+          "slug": "o-saathiya-2023",
+          "title": "O Saathiya",
+          "year": 2023,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 29,
+          "slug": "devullu-2000",
+          "title": "Devullu",
+          "year": 2000,
+          "rating": 8,
+          "hero": "Nitya Shetty",
+          "director": "Kodi Ramakrishna"
+        },
+        {
+          "rank": 30,
+          "slug": "asadhyudu-2006",
+          "title": "Asadhyudu",
+          "year": 2006,
+          "rating": 8,
+          "hero": "Kalyan Ram",
+          "director": "Anil Krishna"
+        },
+        {
+          "rank": 31,
+          "slug": "shatruvu-1991",
+          "title": "Shatruvu",
+          "year": 1991,
+          "rating": 8,
+          "hero": "Venkatesh",
+          "director": "Kodi Ramakrishna"
+        },
+        {
+          "rank": 32,
+          "slug": "thodu-1997",
+          "title": "Thodu",
+          "year": 1997,
+          "rating": 8,
+          "hero": "Sarath Babu",
+          "director": "Akkineni Kutumba Rao"
+        },
+        {
+          "rank": 33,
+          "slug": "ammu-2022",
+          "title": "Ammu",
+          "year": 2022,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 34,
+          "slug": "sankranthi-2005",
+          "title": "Sankranthi",
+          "year": 2005,
+          "rating": 8,
+          "hero": "Venkatesh",
+          "director": "Muppalaneni Shiva"
+        },
+        {
+          "rank": 35,
+          "slug": "hero-1984",
+          "title": "Hero",
+          "year": 1984,
+          "rating": 8,
+          "hero": "Chiranjeevi",
+          "director": "Vijaya Bapineedu"
+        },
+        {
+          "rank": 36,
+          "slug": "raksha-2008",
+          "title": "Raksha",
+          "year": 2008,
+          "rating": 8,
+          "hero": "Jagapati Babu",
+          "director": "Vamsikrishna Akella"
+        },
+        {
+          "rank": 37,
+          "slug": "mosagallaku-mosagadu-1971",
+          "title": "Mosagallaku Mosagadu",
+          "year": 1971,
+          "rating": 8,
+          "hero": "Krishna",
+          "director": "B. Vittalacharya"
+        },
+        {
+          "rank": 38,
+          "slug": "vinara-sodara-veera-kumara-2019",
+          "title": "Vinara Sodara Veera Kumara",
+          "year": 2019,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 39,
+          "slug": "arjun-chakravarthy-journey-of-an-unsung-champion-2025",
+          "title": "Arjun Chakravarthy: Journey of an Unsung Champion",
+          "year": 2025,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 40,
+          "slug": "rama-rao-gopal-rao-1984",
+          "title": "Rama Rao Gopal Rao",
+          "year": 1984,
+          "rating": 8,
+          "hero": "Rao Gopal Rao",
+          "director": "Jandhyala Subramanya Sastry"
+        },
+        {
+          "rank": 41,
+          "slug": "is-this-just-a-story-1983",
+          "title": "Is This Just a Story?",
+          "year": 1983,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 42,
+          "slug": "athade-oka-sainyam-2004",
+          "title": "Athade Oka Sainyam",
+          "year": 2004,
+          "rating": 8,
+          "hero": "Jagapati Babu",
+          "director": "S.V. Krishna Reddy"
+        },
+        {
+          "rank": 43,
+          "slug": "anaganaga-o-athidhi-2020",
+          "title": "Anaganaga O Athidhi",
+          "year": 2020,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 44,
+          "slug": "m-dharmaraju-ma-1994",
+          "title": "M Dharmaraju M.A.",
+          "year": 1994,
+          "rating": 8,
+          "hero": "Mohan Babu",
+          "director": "Ravi Raja Pinisetty"
+        },
+        {
+          "rank": 45,
+          "slug": "desamlo-dongalu-paddaru-2018",
+          "title": "Desamlo Dongalu Paddaru",
+          "year": 2018,
+          "rating": 8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 46,
+          "slug": "nee-jathaga-nenundali-2014",
+          "title": "Nee Jathaga Nenundali",
+          "year": 2014,
+          "rating": 8,
+          "hero": "Sachiin Joshi",
+          "director": "Jaya Ravindra"
+        },
+        {
+          "rank": 47,
+          "slug": "missamma-1955",
+          "title": "Missamma",
+          "year": 1955,
+          "rating": 7.9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 48,
+          "slug": "pokiri-2006",
+          "title": "Pokiri",
+          "year": 2006,
+          "rating": 7.9,
+          "hero": "Mahesh Babu",
+          "director": "Puri Jagannadh"
+        },
+        {
+          "rank": 49,
+          "slug": "athadu-2005",
+          "title": "Athadu",
+          "year": 2005,
+          "rating": 7.9,
+          "hero": "Mahesh Babu",
+          "director": "Trivikram Srinivas"
+        },
+        {
+          "rank": 50,
+          "slug": "okkadu-2003",
+          "title": "Okkadu",
+          "year": 2003,
+          "rating": 7.9,
+          "hero": "Mahesh Babu",
+          "director": "Gunasekhar"
+        },
+        {
+          "rank": 51,
+          "slug": "drushyam-2014",
+          "title": "Drushyam",
+          "year": 2014,
+          "rating": 7.9,
+          "hero": "Venkatesh",
+          "director": "Sripriya"
+        },
+        {
+          "rank": 52,
+          "slug": "gundamma-katha-1962",
+          "title": "Gundamma Katha",
+          "year": 1962,
+          "rating": 7.9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 53,
+          "slug": "anaganaga-2025",
+          "title": "Anaganaga",
+          "year": 2025,
+          "rating": 7.9,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 54,
+          "slug": "hi-nanna-2023",
+          "title": "Hi Nanna",
+          "year": 2023,
+          "rating": 7.9,
+          "hero": "Nani",
+          "director": "Shouryuv"
+        },
+        {
+          "rank": 55,
+          "slug": "swarnakamalam-1988",
+          "title": "Swarnakamalam",
+          "year": 1988,
+          "rating": 7.8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 56,
+          "slug": "lakshmi-nivasam-1968",
+          "title": "Lakshmi Nivasam",
+          "year": 1968,
+          "rating": 7.8,
+          "hero": "Krishna",
+          "director": "V. Madhusudhan Rao"
+        },
+        {
+          "rank": 57,
+          "slug": "khaleja-2010",
+          "title": "Khaleja",
+          "year": 2010,
+          "rating": 7.8,
+          "hero": "Mahesh Babu",
+          "director": "Trivikram Srinivas"
+        },
+        {
+          "rank": 58,
+          "slug": "gouravam-2013",
+          "title": "Gouravam",
+          "year": 2013,
+          "rating": 7.8,
+          "hero": "Allu Sirish",
+          "director": "Radha Mohan"
+        },
+        {
+          "rank": 59,
+          "slug": "yuvaraju-2000",
+          "title": "Yuvaraju",
+          "year": 2000,
+          "rating": 7.8,
+          "hero": "Mahesh Babu",
+          "director": "Y. V. S. Chowdary"
+        },
+        {
+          "rank": 60,
+          "slug": "arjun-reddy-2017",
+          "title": "Arjun Reddy",
+          "year": 2017,
+          "rating": 7.8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 61,
+          "slug": "yamudiki-mogudu-1988",
+          "title": "Yamudiki Mogudu",
+          "year": 1988,
+          "rating": 7.8,
+          "hero": "Chiranjeevi",
+          "director": "Ravi Raja Pinisetty"
+        },
+        {
+          "rank": 62,
+          "slug": "badi-panthulu-1972",
+          "title": "Badi Panthulu",
+          "year": 1972,
+          "rating": 7.8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 63,
+          "slug": "8-vasantalu-2025",
+          "title": "8 Vasantalu",
+          "year": 2025,
+          "rating": 7.8,
+          "hero": "Ananthika Sanilkumar",
+          "director": "Phanindra Narsetti"
+        },
+        {
+          "rank": 64,
+          "slug": "raju-gari-gadhi-3-2019",
+          "title": "Raju Gari Gadhi 3",
+          "year": 2019,
+          "rating": 7.8,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 65,
+          "slug": "thimmarusu-assignment-vali-2021",
+          "title": "Thimmarusu: Assignment Vali",
+          "year": 2021,
+          "rating": 7.8,
+          "hero": "Satyadev Kancharana",
+          "director": "Sharan Koppisetty"
+        }
+      ],
+      "bottom_100": []
+    },
+    "watchable": {
+      "count": 326,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "mathu-vadalara-2019",
+          "title": "Mathu Vadalara",
+          "year": 2019,
+          "rating": 7.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 2,
+          "slug": "columbus-2015",
+          "title": "Columbus",
+          "year": 2015,
+          "rating": 7.7,
+          "hero": "Sumanth Ashwin",
+          "director": "R. Samala"
+        },
+        {
+          "rank": 3,
+          "slug": "rangasthalam-2018",
+          "title": "Rangasthalam",
+          "year": 2018,
+          "rating": 7.7,
+          "hero": "Ram Charan",
+          "director": "Sukumar"
+        },
+        {
+          "rank": 4,
+          "slug": "santosham-2002",
+          "title": "Santosham",
+          "year": 2002,
+          "rating": 7.7,
+          "hero": "Nagarjuna Akkineni",
+          "director": "Dasaradh"
+        },
+        {
+          "rank": 5,
+          "slug": "sita-ramam-2022",
+          "title": "Sita Ramam",
+          "year": 2022,
+          "rating": 7.7,
+          "hero": "Dulquer Salmaan",
+          "director": "Hanu Raghavapudi"
+        },
+        {
+          "rank": 6,
+          "slug": "mahavatar-narsimha-2025",
+          "title": "Mahavatar Narsimha",
+          "year": 2025,
+          "rating": 7.7,
+          "hero": "Harjeet Walia",
+          "director": "Ashwin Kumar"
+        },
+        {
+          "rank": 7,
+          "slug": "chantabbai-1986",
+          "title": "Chantabbai",
+          "year": 1986,
+          "rating": 7.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "rakshasudu-2019",
+          "title": "Rakshasudu",
+          "year": 2019,
+          "rating": 7.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 9,
+          "slug": "mister-pellam-1993",
+          "title": "Mister Pellam",
+          "year": 1993,
+          "rating": 7.7,
+          "hero": "Rajendra Prasad",
+          "director": "Bapu"
+        },
+        {
+          "rank": 10,
+          "slug": "eega-2012",
+          "title": "Eega",
+          "year": 2012,
+          "rating": 7.7,
+          "hero": "Sudeepa",
+          "director": "S. S. Rajamouli"
+        },
+        {
+          "rank": 11,
+          "slug": "chiru-navvuto-2000",
+          "title": "Chiru Navvuto",
+          "year": 2000,
+          "rating": 7.7,
+          "hero": "Venu Thottempudi",
+          "director": "G. Ram Prasad"
+        },
+        {
+          "rank": 12,
+          "slug": "pedarayudu-1995",
+          "title": "Pedarayudu",
+          "year": 1995,
+          "rating": 7.7,
+          "hero": "Mohan Babu",
+          "director": "Ravi Raja Pinisetty"
+        },
+        {
+          "rank": 13,
+          "slug": "april-1st-vidudala-1991",
+          "title": "April 1st Vidudala",
+          "year": 1991,
+          "rating": 7.7,
+          "hero": "Rajendra Prasad",
+          "director": "Vamsy"
+        },
+        {
+          "rank": 14,
+          "slug": "manchi-lakshanalunna-abbayi-2018",
+          "title": "Manchi Lakshanalunna Abbayi",
+          "year": 2018,
+          "rating": 7.7,
+          "hero": "Kalyan Ram",
+          "director": "Upendra Madhav"
+        },
+        {
+          "rank": 15,
+          "slug": "yamaleela-1994",
+          "title": "Yamaleela",
+          "year": 1994,
+          "rating": 7.6,
+          "hero": "Kaikala Satyanarayana",
+          "director": "S.V. Krishna Reddy"
+        },
+        {
+          "rank": 16,
+          "slug": "lucky-baskhar-2024",
+          "title": "Lucky Baskhar",
+          "year": 2024,
+          "rating": 7.6,
+          "hero": "Dulquer Salmaan",
+          "director": "Venky Atluri"
+        },
+        {
+          "rank": 17,
+          "slug": "pasivadi-pranam-1987",
+          "title": "Pasivadi Pranam",
+          "year": 1987,
+          "rating": 7.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 18,
+          "slug": "mem-famous-2023",
+          "title": "Mem Famous",
+          "year": 2023,
+          "rating": 7.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 19,
+          "slug": "goodachari-116-1966",
+          "title": "Goodachari 116",
+          "year": 1966,
+          "rating": 7.6,
+          "hero": "Krishna",
+          "director": "M. Mallikarjuna Rao"
+        },
+        {
+          "rank": 20,
+          "slug": "chi-la-sow-2018",
+          "title": "Chi La Sow",
+          "year": 2018,
+          "rating": 7.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 21,
+          "slug": "mahanati-2018",
+          "title": "Mahanati",
+          "year": 2018,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 22,
+          "slug": "paanch-minar-2025",
+          "title": "Paanch Minar",
+          "year": 2025,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 23,
+          "slug": "geetha-govindam-2018",
+          "title": "Geetha Govindam",
+          "year": 2018,
+          "rating": 7.5,
+          "hero": "Vijay Deverakonda",
+          "director": "Parasuram Petla"
+        },
+        {
+          "rank": 24,
+          "slug": "godava-2007",
+          "title": "Godava",
+          "year": 2007,
+          "rating": 7.5,
+          "hero": "Vaibhav",
+          "director": "A. Kodandarami Reddy"
+        },
+        {
+          "rank": 25,
+          "slug": "kalyana-vaibhogame-2016",
+          "title": "Kalyana Vaibhogame",
+          "year": 2016,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 26,
+          "slug": "prema-katha-1999",
+          "title": "Prema Katha",
+          "year": 1999,
+          "rating": 7.5,
+          "hero": "Sumanth",
+          "director": "Ram Gopal Varma"
+        },
+        {
+          "rank": 27,
+          "slug": "www-2021",
+          "title": "WWW",
+          "year": 2021,
+          "rating": 7.5,
+          "hero": "Thrigun",
+          "director": "K. V. Guhan"
+        },
+        {
+          "rank": 28,
+          "slug": "little-hearts-2025",
+          "title": "Little Hearts",
+          "year": 2025,
+          "rating": 7.5,
+          "hero": "Mouli",
+          "director": "Sai Marthand"
+        },
+        {
+          "rank": 29,
+          "slug": "kinnerasani-2022",
+          "title": "Kinnerasani",
+          "year": 2022,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 30,
+          "slug": "lakshmi-narasimha-2004",
+          "title": "Lakshmi Narasimha",
+          "year": 2004,
+          "rating": 7.5,
+          "hero": "Nandamuri Balakrishna",
+          "director": "Jayant Paranji"
+        },
+        {
+          "rank": 31,
+          "slug": "top-hero-1994",
+          "title": "Top Hero",
+          "year": 1994,
+          "rating": 7.5,
+          "hero": "Nandamuri Balakrishna",
+          "director": "S.V. Krishna Reddy"
+        },
+        {
+          "rank": 32,
+          "slug": "rowdy-alludu-1991",
+          "title": "Rowdy Alludu",
+          "year": 1991,
+          "rating": 7.5,
+          "hero": "Chiranjeevi",
+          "director": "K Raghavendra Rao"
+        },
+        {
+          "rank": 33,
+          "slug": "bakasura-restaurant-2025",
+          "title": "Bakasura Restaurant",
+          "year": 2025,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 34,
+          "slug": "lakshmi-bomb-2017",
+          "title": "Lakshmi Bomb",
+          "year": 2017,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 35,
+          "slug": "play-back-2021",
+          "title": "Play Back",
+          "year": 2021,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 36,
+          "slug": "yevade-subramanyam-2015",
+          "title": "Yevade Subramanyam",
+          "year": 2015,
+          "rating": 7.5,
+          "hero": "Nani",
+          "director": "Nag Ashwin"
+        },
+        {
+          "rank": 37,
+          "slug": "killer-1992",
+          "title": "Killer",
+          "year": 1992,
+          "rating": 7.5,
+          "hero": "Nagarjuna Akkineni",
+          "director": "Fazil"
+        },
+        {
+          "rank": 38,
+          "slug": "manasantha-nuvve-2001",
+          "title": "Manasantha Nuvve",
+          "year": 2001,
+          "rating": 7.5,
+          "hero": "Uday Kiran",
+          "director": "V. N. Aditya"
+        },
+        {
+          "rank": 39,
+          "slug": "chandamama-kathalu-2014",
+          "title": "Chandamama Kathalu",
+          "year": 2014,
+          "rating": 7.5,
+          "hero": "Lakshmi Manchu",
+          "director": "Praveen Sattaru"
+        },
+        {
+          "rank": 40,
+          "slug": "jodi-2019",
+          "title": "Jodi",
+          "year": 2019,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 41,
+          "slug": "gaayam-1993",
+          "title": "Gaayam",
+          "year": 1993,
+          "rating": 7.5,
+          "hero": "Jagapati Babu",
+          "director": "Ram Gopal Varma"
+        },
+        {
+          "rank": 42,
+          "slug": "gunturodu-2017",
+          "title": "Gunturodu",
+          "year": 2017,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 43,
+          "slug": "aakhari-poratam-1988",
+          "title": "Aakhari Poratam",
+          "year": 1988,
+          "rating": 7.5,
+          "hero": "Sridevi",
+          "director": "K Raghavendra Rao"
+        },
+        {
+          "rank": 44,
+          "slug": "colour-photo-2020",
+          "title": "Colour Photo",
+          "year": 2020,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 45,
+          "slug": "court-state-vs-a-nobody-2025",
+          "title": "Court: State vs. A Nobody",
+          "year": 2025,
+          "rating": 7.5,
+          "hero": "Priyadarshi Pullikonda",
+          "director": "Ram Jagadeesh"
+        },
+        {
+          "rank": 46,
+          "slug": "the-rite-a-passion-2002",
+          "title": "The Rite, a Passion",
+          "year": 2002,
+          "rating": 7.5,
+          "hero": "Jaya Sheela",
+          "director": "K.N.T. Sastry"
+        },
+        {
+          "rank": 47,
+          "slug": "om-3d-2013",
+          "title": "Om 3D",
+          "year": 2013,
+          "rating": 7.5,
+          "hero": "Kalyan Ram",
+          "director": "Sunil Kumar Reddy"
+        },
+        {
+          "rank": 48,
+          "slug": "akhanda-2-thaandavam-2025",
+          "title": "Akhanda 2: Thaandavam",
+          "year": 2025,
+          "rating": 7.5,
+          "hero": "Nandamuri Balakrishna",
+          "director": "Boyapati Srinu"
+        },
+        {
+          "rank": 49,
+          "slug": "where-is-the-venkatalakshmi-2019",
+          "title": "Where Is the Venkatalakshmi",
+          "year": 2019,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 50,
+          "slug": "kanchanamala-cable-tv-2005",
+          "title": "Kanchanamala Cable TV",
+          "year": 2005,
+          "rating": 7.5,
+          "hero": "Srikanth",
+          "director": "Parthasaradhi"
+        },
+        {
+          "rank": 51,
+          "slug": "bahubali-2-the-conclusion-2017",
+          "title": "Bāhubali 2: The Conclusion",
+          "year": 2017,
+          "rating": 7.5,
+          "hero": "Prabhas",
+          "director": "S. S. Rajamouli"
+        },
+        {
+          "rank": 52,
+          "slug": "memu-vayasuku-vacham-2012",
+          "title": "Memu Vayasuku Vacham",
+          "year": 2012,
+          "rating": 7.5,
+          "hero": "Tanish Alladi",
+          "director": "Trinadha Rao Nakkina"
+        },
+        {
+          "rank": 53,
+          "slug": "the-rose-villa-2021",
+          "title": "The Rose Villa",
+          "year": 2021,
+          "rating": 7.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 54,
+          "slug": "happy-happy-ga-2010",
+          "title": "Happy Happy Ga",
+          "year": 2010,
+          "rating": 7.5,
+          "hero": "Varun Sandesh",
+          "director": "Priya Sharan"
+        },
+        {
+          "rank": 55,
+          "slug": "bahubali-the-beginning-2015",
+          "title": "Bāhubali: The Beginning",
+          "year": 2015,
+          "rating": 7.5,
+          "hero": "Prabhas",
+          "director": "S. S. Rajamouli"
+        },
+        {
+          "rank": 56,
+          "slug": "varudu-kaavalenu-2021",
+          "title": "Varudu Kaavalenu",
+          "year": 2021,
+          "rating": 7.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 57,
+          "slug": "bhadra-2005",
+          "title": "Bhadra",
+          "year": 2005,
+          "rating": 7.4,
+          "hero": "Ravi Teja",
+          "director": "Boyapati Srinu"
+        },
+        {
+          "rank": 58,
+          "slug": "fidaa-2017",
+          "title": "Fidaa",
+          "year": 2017,
+          "rating": 7.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 59,
+          "slug": "khadgam-2002",
+          "title": "Khadgam",
+          "year": 2002,
+          "rating": 7.4,
+          "hero": "Srikanth",
+          "director": "Pasupuleti Krishna Vamsi"
+        },
+        {
+          "rank": 60,
+          "slug": "pelli-choopulu-2016",
+          "title": "Pelli Choopulu",
+          "year": 2016,
+          "rating": 7.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 61,
+          "slug": "guru-2017",
+          "title": "Guru",
+          "year": 2017,
+          "rating": 7.4,
+          "hero": "Venkatesh",
+          "director": "Sudha Kongara Prasad"
+        },
+        {
+          "rank": 62,
+          "slug": "mad-2025",
+          "title": "(MAD)²",
+          "year": 2025,
+          "rating": 7.4,
+          "hero": "Sangeeth Shobhan",
+          "director": "Kalyan Shankar"
+        },
+        {
+          "rank": 63,
+          "slug": "gang-leader-1991",
+          "title": "Gang Leader",
+          "year": 1991,
+          "rating": 7.4,
+          "hero": "Chiranjeevi",
+          "director": "Vijaya Bapineedu"
+        },
+        {
+          "rank": 64,
+          "slug": "blade-babji-2008",
+          "title": "Blade Babji",
+          "year": 2008,
+          "rating": 7.4,
+          "hero": "Allari Naresh",
+          "director": "Devi Prasad"
+        },
+        {
+          "rank": 65,
+          "slug": "pushpa-the-rise-2021",
+          "title": "Pushpa: The Rise",
+          "year": 2021,
+          "rating": 7.4,
+          "hero": "Allu Arjun",
+          "director": "Sukumar"
+        },
+        {
+          "rank": 66,
+          "slug": "ee-nagaraniki-emaindi-2018",
+          "title": "Ee Nagaraniki Emaindi?",
+          "year": 2018,
+          "rating": 7.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 67,
+          "slug": "agent-sai-srinivasa-athreya-2019",
+          "title": "Agent Sai Srinivasa Athreya",
+          "year": 2019,
+          "rating": 7.4,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 68,
+          "slug": "anaganaga-oka-roju-1997",
+          "title": "Anaganaga Oka Roju",
+          "year": 1997,
+          "rating": 7.4,
+          "hero": "Urmila Matondkar",
+          "director": "Ram Gopal Varma"
+        },
+        {
+          "rank": 69,
+          "slug": "janatha-garage-2016",
+          "title": "Janatha Garage",
+          "year": 2016,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 70,
+          "slug": "anukshanam-2014",
+          "title": "Anukshanam",
+          "year": 2014,
+          "rating": 7.3,
+          "hero": "Vishnu Manchu",
+          "director": "Ram Gopal Varma"
+        },
+        {
+          "rank": 71,
+          "slug": "ninne-pelladatha-1996",
+          "title": "Ninne Pelladatha",
+          "year": 1996,
+          "rating": 7.3,
+          "hero": "Nagarjuna Akkineni",
+          "director": "Pasupuleti Krishna Vamsi"
+        },
+        {
+          "rank": 72,
+          "slug": "dookudu-2011",
+          "title": "Dookudu",
+          "year": 2011,
+          "rating": 7.3,
+          "hero": "Mahesh Babu",
+          "director": "Sreenu Vaitla"
+        },
+        {
+          "rank": 73,
+          "slug": "avakai-biryani-2008",
+          "title": "Avakai Biryani",
+          "year": 2008,
+          "rating": 7.3,
+          "hero": "Kamal Kamaraju",
+          "director": "Anish Kuruvilla"
+        },
+        {
+          "rank": 74,
+          "slug": "gharshana-2004",
+          "title": "Gharshana",
+          "year": 2004,
+          "rating": 7.3,
+          "hero": "Venkatesh",
+          "director": "Gautham Vasudev Menon"
+        },
+        {
+          "rank": 75,
+          "slug": "srimanthudu-2015",
+          "title": "Srimanthudu",
+          "year": 2015,
+          "rating": 7.3,
+          "hero": "Mahesh Babu",
+          "director": "Koratala Siva"
+        },
+        {
+          "rank": 76,
+          "slug": "adrushtavanthulu-1969",
+          "title": "Adrushtavanthulu",
+          "year": 1969,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 77,
+          "slug": "adbhutham-2021",
+          "title": "Adbhutham",
+          "year": 2021,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 78,
+          "slug": "thammudu-1999",
+          "title": "Thammudu",
+          "year": 1999,
+          "rating": 7.3,
+          "hero": "Pawan Kalyan",
+          "director": "P.A. Arun Prasad"
+        },
+        {
+          "rank": 79,
+          "slug": "race-gurram-2014",
+          "title": "Race Gurram",
+          "year": 2014,
+          "rating": 7.3,
+          "hero": "Allu Arjun",
+          "director": "Surender Reddy"
+        },
+        {
+          "rank": 80,
+          "slug": "love-story-2021",
+          "title": "Love Story",
+          "year": 2021,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 81,
+          "slug": "gamanam-2021",
+          "title": "Gamanam",
+          "year": 2021,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 82,
+          "slug": "doctor-chakravarthy-1964",
+          "title": "Doctor Chakravarthy",
+          "year": 1964,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 83,
+          "slug": "naandhi-2021",
+          "title": "Naandhi",
+          "year": 2021,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 84,
+          "slug": "veta-1986",
+          "title": "Veta",
+          "year": 1986,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 85,
+          "slug": "pilla-zamindar-2011",
+          "title": "Pilla Zamindar",
+          "year": 2011,
+          "rating": 7.3,
+          "hero": "Nani",
+          "director": "Ashok G."
+        },
+        {
+          "rank": 86,
+          "slug": "maro-charitra-1978",
+          "title": "Maro Charitra",
+          "year": 1978,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 87,
+          "slug": "bala-nagamma-1959",
+          "title": "Bala Nagamma",
+          "year": 1959,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 88,
+          "slug": "mooga-manasulu-1963",
+          "title": "Mooga Manasulu",
+          "year": 1963,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 89,
+          "slug": "narthanasala-1963",
+          "title": "Narthanasala",
+          "year": 1963,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 90,
+          "slug": "srimadhvirata-parvamu-1979",
+          "title": "Srimadhvirata Parvamu",
+          "year": 1979,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 91,
+          "slug": "anthuleni-katha-1976",
+          "title": "Anthuleni Katha",
+          "year": 1976,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 92,
+          "slug": "chanakya-chandragupta-1977",
+          "title": "Chanakya Chandragupta",
+          "year": 1977,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 93,
+          "slug": "aatma-gowravam-1965",
+          "title": "Aatma Gowravam",
+          "year": 1965,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 94,
+          "slug": "kumari-21f-2015",
+          "title": "Kumari 21F",
+          "year": 2015,
+          "rating": 7.3,
+          "hero": "Raj Tarun",
+          "director": "Palnati Surya Pratap"
+        },
+        {
+          "rank": 95,
+          "slug": "nenu-meeku-telusa-2008",
+          "title": "Nenu Meeku Telusa...?",
+          "year": 2008,
+          "rating": 7.3,
+          "hero": "Manchu Manoj",
+          "director": "Ajay Sastri"
+        },
+        {
+          "rank": 96,
+          "slug": "bheemili-kabaddi-jattu-2010",
+          "title": "Bheemili Kabaddi Jattu",
+          "year": 2010,
+          "rating": 7.3,
+          "hero": "Nani",
+          "director": "Tatineni Satya"
+        },
+        {
+          "rank": 97,
+          "slug": "paramanandayya-sishyula-katha-1966",
+          "title": "Paramanandayya Sishyula Katha",
+          "year": 1966,
+          "rating": 7.3,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 98,
+          "slug": "tej-i-love-you-2018",
+          "title": "Tej... I Love You",
+          "year": 2018,
+          "rating": 7.3,
+          "hero": "Sai Durgha Tej",
+          "director": "A. Karunakaran"
+        },
+        {
+          "rank": 99,
+          "slug": "athili-sathibabu-lkg-2007",
+          "title": "Athili Sathibabu LKG",
+          "year": 2007,
+          "rating": 7.3,
+          "hero": "Allari Naresh",
+          "director": "E.V.V. Satyanarayana"
+        },
+        {
+          "rank": 100,
+          "slug": "ee-maaya-peremito-2018",
+          "title": "Ee Maaya Peremito",
+          "year": 2018,
+          "rating": 7.3,
+          "hero": "Rahul Vijay",
+          "director": "Ramu Koppula"
+        }
+      ],
+      "bottom_100": [
+        {
+          "rank": 1,
+          "slug": "middle-class-melodies-2020",
+          "title": "Middle Class Melodies",
+          "year": 2020,
+          "rating": 6.8
+        },
+        {
+          "rank": 2,
+          "slug": "courier-boy-kalyan-2015",
+          "title": "Courier Boy Kalyan",
+          "year": 2015,
+          "rating": 6.8
+        },
+        {
+          "rank": 3,
+          "slug": "avunu-valliddaru-ishtapaddaru-2002",
+          "title": "Avunu Valliddaru Ishtapaddaru!",
+          "year": 2002,
+          "rating": 6.8
+        },
+        {
+          "rank": 4,
+          "slug": "seethamma-vakitlo-sirimalle-chettu-2013",
+          "title": "Seethamma Vakitlo Sirimalle Chettu",
+          "year": 2013,
+          "rating": 6.8
+        },
+        {
+          "rank": 5,
+          "slug": "andhra-king-taluka-2025",
+          "title": "Andhra King Taluka",
+          "year": 2025,
+          "rating": 6.8
+        },
+        {
+          "rank": 6,
+          "slug": "shyam-singha-roy-2021",
+          "title": "Shyam Singha Roy",
+          "year": 2021,
+          "rating": 6.8
+        },
+        {
+          "rank": 7,
+          "slug": "gentleman-2016",
+          "title": "Gentleman",
+          "year": 2016,
+          "rating": 6.8
+        },
+        {
+          "rank": 8,
+          "slug": "hanuman-junction-2001",
+          "title": "Hanuman Junction",
+          "year": 2001,
+          "rating": 6.8
+        },
+        {
+          "rank": 9,
+          "slug": "khaidi-1983",
+          "title": "Khaidi",
+          "year": 1983,
+          "rating": 6.8
+        },
+        {
+          "rank": 10,
+          "slug": "nirmala-convent-2016",
+          "title": "Nirmala Convent",
+          "year": 2016,
+          "rating": 6.8
+        },
+        {
+          "rank": 11,
+          "slug": "samajavaragamana-2023",
+          "title": "Samajavaragamana",
+          "year": 2023,
+          "rating": 6.8
+        },
+        {
+          "rank": 12,
+          "slug": "cinema-bandi-2021",
+          "title": "Cinema Bandi",
+          "year": 2021,
+          "rating": 6.8
+        },
+        {
+          "rank": 13,
+          "slug": "rajakumarudu-1999",
+          "title": "Rajakumarudu",
+          "year": 1999,
+          "rating": 6.8
+        },
+        {
+          "rank": 14,
+          "slug": "dhruva-2016",
+          "title": "Dhruva",
+          "year": 2016,
+          "rating": 6.8
+        },
+        {
+          "rank": 15,
+          "slug": "thellavarithe-guruvaram-2021",
+          "title": "Thellavarithe Guruvaram",
+          "year": 2021,
+          "rating": 6.8
+        },
+        {
+          "rank": 16,
+          "slug": "godavari-2006",
+          "title": "Godavari",
+          "year": 2006,
+          "rating": 6.8
+        },
+        {
+          "rank": 17,
+          "slug": "golimaar-2010",
+          "title": "Golimaar",
+          "year": 2010,
+          "rating": 6.8
+        },
+        {
+          "rank": 18,
+          "slug": "masooda-2022",
+          "title": "Masooda",
+          "year": 2022,
+          "rating": 6.8
+        },
+        {
+          "rank": 19,
+          "slug": "dear-comrade-2019",
+          "title": "Dear Comrade",
+          "year": 2019,
+          "rating": 6.8
+        },
+        {
+          "rank": 20,
+          "slug": "patel-sir-2017",
+          "title": "Patel S.i.r",
+          "year": 2017,
+          "rating": 6.8
+        },
+        {
+          "rank": 21,
+          "slug": "super-police-1994",
+          "title": "Super Police",
+          "year": 1994,
+          "rating": 6.8
+        },
+        {
+          "rank": 22,
+          "slug": "mantra-2007",
+          "title": "Mantra",
+          "year": 2007,
+          "rating": 6.8
+        },
+        {
+          "rank": 23,
+          "slug": "nuvve-kavali-2000",
+          "title": "Nuvve Kavali",
+          "year": 2000,
+          "rating": 6.8
+        },
+        {
+          "rank": 24,
+          "slug": "singham-123-2015",
+          "title": "Singham 123",
+          "year": 2015,
+          "rating": 6.9
+        },
+        {
+          "rank": 25,
+          "slug": "hit-the-2nd-case-2022",
+          "title": "HIT: The 2nd Case",
+          "year": 2022,
+          "rating": 6.9
+        },
+        {
+          "rank": 26,
+          "slug": "ye-maaya-chesave-2010",
+          "title": "Ye Maaya Chesave",
+          "year": 2010,
+          "rating": 6.9
+        },
+        {
+          "rank": 27,
+          "slug": "devara-part-1-2024",
+          "title": "Devara: Part 1",
+          "year": 2024,
+          "rating": 6.9
+        },
+        {
+          "rank": 28,
+          "slug": "ala-modalaindi-2011",
+          "title": "Ala Modalaindi",
+          "year": 2011,
+          "rating": 6.9
+        },
+        {
+          "rank": 29,
+          "slug": "okkadunnadu-2007",
+          "title": "Okkadunnadu",
+          "year": 2007,
+          "rating": 6.9
+        },
+        {
+          "rank": 30,
+          "slug": "ninnila-ninnila-2021",
+          "title": "Ninnila Ninnila",
+          "year": 2021,
+          "rating": 6.9
+        },
+        {
+          "rank": 31,
+          "slug": "mental-madhilo-2017",
+          "title": "Mental Madhilo",
+          "year": 2017,
+          "rating": 6.9
+        },
+        {
+          "rank": 32,
+          "slug": "nuvvostanante-nenoddantana-2005",
+          "title": "Nuvvostanante Nenoddantana",
+          "year": 2005,
+          "rating": 6.9
+        },
+        {
+          "rank": 33,
+          "slug": "ishq-2012",
+          "title": "Ishq",
+          "year": 2012,
+          "rating": 6.9
+        },
+        {
+          "rank": 34,
+          "slug": "goodachari-2018",
+          "title": "Goodachari",
+          "year": 2018,
+          "rating": 6.9
+        },
+        {
+          "rank": 35,
+          "slug": "republic-2021",
+          "title": "Republic",
+          "year": 2021,
+          "rating": 6.9
+        },
+        {
+          "rank": 36,
+          "slug": "chitralahari-2019",
+          "title": "Chitralahari",
+          "year": 2019,
+          "rating": 6.9
+        },
+        {
+          "rank": 37,
+          "slug": "ori-devuda-2022",
+          "title": "Ori Devuda..!",
+          "year": 2022,
+          "rating": 6.9
+        },
+        {
+          "rank": 38,
+          "slug": "nannaku-prematho-2016",
+          "title": "Nannaku Prematho...",
+          "year": 2016,
+          "rating": 6.9
+        },
+        {
+          "rank": 39,
+          "slug": "kalki-2019",
+          "title": "Kalki",
+          "year": 2019,
+          "rating": 6.9
+        },
+        {
+          "rank": 40,
+          "slug": "aa-naluguru-2004",
+          "title": "Aa Naluguru",
+          "year": 2004,
+          "rating": 6.9
+        },
+        {
+          "rank": 41,
+          "slug": "narappa-2021",
+          "title": "Narappa",
+          "year": 2021,
+          "rating": 6.9
+        },
+        {
+          "rank": 42,
+          "slug": "manamantha-2016",
+          "title": "Manamantha",
+          "year": 2016,
+          "rating": 6.9
+        },
+        {
+          "rank": 43,
+          "slug": "dil-2003",
+          "title": "Dil",
+          "year": 2003,
+          "rating": 6.9
+        },
+        {
+          "rank": 44,
+          "slug": "balagam-2023",
+          "title": "Balagam",
+          "year": 2023,
+          "rating": 6.9
+        },
+        {
+          "rank": 45,
+          "slug": "true-2021",
+          "title": "True",
+          "year": 2021,
+          "rating": 6.9
+        },
+        {
+          "rank": 46,
+          "slug": "the-ghazi-attack-2017",
+          "title": "The Ghazi Attack",
+          "year": 2017,
+          "rating": 7
+        },
+        {
+          "rank": 47,
+          "slug": "bamma-maata-bangaru-baata-1989",
+          "title": "Bamma Maata Bangaru Baata",
+          "year": 1989,
+          "rating": 7
+        },
+        {
+          "rank": 48,
+          "slug": "naa-autograph-sweet-memories-2004",
+          "title": "Naa Autograph Sweet Memories",
+          "year": 2004,
+          "rating": 7
+        },
+        {
+          "rank": 49,
+          "slug": "a-film-by-aravind-2005",
+          "title": "A Film by Aravind",
+          "year": 2005,
+          "rating": 7
+        },
+        {
+          "rank": 50,
+          "slug": "nenu-leni-na-premakatha-2021",
+          "title": "Nenu Leni Na Premakatha",
+          "year": 2021,
+          "rating": 7
+        },
+        {
+          "rank": 51,
+          "slug": "rrr-behind-and-beyond-2024",
+          "title": "RRR: Behind & Beyond",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 52,
+          "slug": "alaa-ninnu-cheri-2023",
+          "title": "Alaa Ninnu Cheri",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 53,
+          "slug": "stand-up-rahul-2022",
+          "title": "Stand Up Rahul",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 54,
+          "slug": "katha-kanchiki-manam-intiki-2022",
+          "title": "Katha Kanchiki Manam Intiki",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 55,
+          "slug": "thank-you-brother-2021",
+          "title": "Thank You Brother!",
+          "year": 2021,
+          "rating": 7
+        },
+        {
+          "rank": 56,
+          "slug": "devaki-nandana-vasudeva-2024",
+          "title": "Devaki Nandana Vasudeva",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 57,
+          "slug": "neeku-naaku-dash-dash-2012",
+          "title": "Neeku Naaku Dash Dash",
+          "year": 2012,
+          "rating": 7
+        },
+        {
+          "rank": 58,
+          "slug": "needi-naadi-oke-katha-2018",
+          "title": "Needi Naadi Oke Katha",
+          "year": 2018,
+          "rating": 7
+        },
+        {
+          "rank": 59,
+          "slug": "kapata-nataka-sutradhari-2021",
+          "title": "Kapata Nataka Sutradhari",
+          "year": 2021,
+          "rating": 7
+        },
+        {
+          "rank": 60,
+          "slug": "shiva-143-2020",
+          "title": "Shiva 143",
+          "year": 2020,
+          "rating": 7
+        },
+        {
+          "rank": 61,
+          "slug": "priyathama-neevachata-kusalama-2013",
+          "title": "Priyathama Neevachata Kusalama",
+          "year": 2013,
+          "rating": 7
+        },
+        {
+          "rank": 62,
+          "slug": "organic-mama-hybrid-alludu-2023",
+          "title": "Organic Mama Hybrid Alludu",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 63,
+          "slug": "uma-maheswara-ugra-roopasya-2020",
+          "title": "Uma Maheswara Ugra Roopasya",
+          "year": 2020,
+          "rating": 7
+        },
+        {
+          "rank": 64,
+          "slug": "telugu-veera-levara-1995",
+          "title": "Telugu Veera Levara",
+          "year": 1995,
+          "rating": 7
+        },
+        {
+          "rank": 65,
+          "slug": "the-great-indian-suicide-2023",
+          "title": "The Great Indian Suicide",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 66,
+          "slug": "sridevi-shoban-babu-2023",
+          "title": "Sridevi Shoban Babu",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 67,
+          "slug": "sathi-gani-rendu-ekaralu-2023",
+          "title": "Sathi Gani Rendu Ekaralu",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 68,
+          "slug": "10th-class-diaries-2022",
+          "title": "10th Class Diaries",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 69,
+          "slug": "my-dear-donga-2024",
+          "title": "My Dear Donga",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 70,
+          "slug": "kota-bommali-ps-2023",
+          "title": "Kota Bommali Ps",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 71,
+          "slug": "masthu-shades-unnai-ra-2024",
+          "title": "Masthu Shades Unnai Ra",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 72,
+          "slug": "bujji-ila-raa-2022",
+          "title": "Bujji... Ila Raa",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 73,
+          "slug": "kick-2009",
+          "title": "Kick",
+          "year": 2009,
+          "rating": 7
+        },
+        {
+          "rank": 74,
+          "slug": "muta-mestri-1993",
+          "title": "Muta Mestri",
+          "year": 1993,
+          "rating": 7
+        },
+        {
+          "rank": 75,
+          "slug": "shivam-bhaje-2024",
+          "title": "Shivam Bhaje",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 76,
+          "slug": "jalsa-2008",
+          "title": "Jalsa",
+          "year": 2008,
+          "rating": 7
+        },
+        {
+          "rank": 77,
+          "slug": "aatagadharaa-siva-2018",
+          "title": "Aatagadharaa Siva",
+          "year": 2018,
+          "rating": 7
+        },
+        {
+          "rank": 78,
+          "slug": "prema-vimanam-2023",
+          "title": "Prema Vimanam",
+          "year": 2023,
+          "rating": 7
+        },
+        {
+          "rank": 79,
+          "slug": "kushi-kushiga-2004",
+          "title": "Kushi Kushiga",
+          "year": 2004,
+          "rating": 7
+        },
+        {
+          "rank": 80,
+          "slug": "virgin-story-2022",
+          "title": "Virgin Story",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 81,
+          "slug": "shikaaru-2022",
+          "title": "Shikaaru",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 82,
+          "slug": "neetho-2022",
+          "title": "Neetho",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 83,
+          "slug": "sammohanam-2018",
+          "title": "Sammohanam",
+          "year": 2018,
+          "rating": 7
+        },
+        {
+          "rank": 84,
+          "slug": "mee-sreyobhilashi-2007",
+          "title": "Mee Sreyobhilashi",
+          "year": 2007,
+          "rating": 7
+        },
+        {
+          "rank": 85,
+          "slug": "cheppalani-undhi-2022",
+          "title": "Cheppalani Undhi",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 86,
+          "slug": "wo-ram-2018",
+          "title": "W/o Ram",
+          "year": 2018,
+          "rating": 7
+        },
+        {
+          "rank": 87,
+          "slug": "kirayi-dada-1987",
+          "title": "Kirayi Dada",
+          "year": 1987,
+          "rating": 7
+        },
+        {
+          "rank": 88,
+          "slug": "boy-2019",
+          "title": "Boy",
+          "year": 2019,
+          "rating": 7
+        },
+        {
+          "rank": 89,
+          "slug": "mukhachitram-2022",
+          "title": "Mukhachitram",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 90,
+          "slug": "sashi-2021",
+          "title": "Sashi",
+          "year": 2021,
+          "rating": 7
+        },
+        {
+          "rank": 91,
+          "slug": "next-nuvve-2017",
+          "title": "Next Nuvve",
+          "year": 2017,
+          "rating": 7
+        },
+        {
+          "rank": 92,
+          "slug": "sarangapani-jathakam-2025",
+          "title": "Sarangapani Jathakam",
+          "year": 2025,
+          "rating": 7
+        },
+        {
+          "rank": 93,
+          "slug": "wanted-pandugod-2022",
+          "title": "Wanted PanduGod",
+          "year": 2022,
+          "rating": 7
+        },
+        {
+          "rank": 94,
+          "slug": "aaviri-2019",
+          "title": "Aaviri",
+          "year": 2019,
+          "rating": 7
+        },
+        {
+          "rank": 95,
+          "slug": "geethanjali-1989",
+          "title": "Geethanjali",
+          "year": 1989,
+          "rating": 7
+        },
+        {
+          "rank": 96,
+          "slug": "sankeertana-1987",
+          "title": "Sankeertana",
+          "year": 1987,
+          "rating": 7
+        },
+        {
+          "rank": 97,
+          "slug": "family-circus-2001",
+          "title": "Family Circus",
+          "year": 2001,
+          "rating": 7
+        },
+        {
+          "rank": 98,
+          "slug": "double-engine-2024",
+          "title": "Double Engine",
+          "year": 2024,
+          "rating": 7
+        },
+        {
+          "rank": 99,
+          "slug": "yuvatha-2008",
+          "title": "Yuvatha",
+          "year": 2008,
+          "rating": 7
+        },
+        {
+          "rank": 100,
+          "slug": "intinti-ramayanam-2023",
+          "title": "Intinti Ramayanam",
+          "year": 2023,
+          "rating": 7
+        }
+      ]
+    },
+    "one-time-watch": {
+      "count": 5301,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "raja-raja-chora-2021",
+          "title": "Raja Raja Chora",
+          "year": 2021,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 2,
+          "slug": "pareshan-2023",
+          "title": "Pareshan",
+          "year": 2023,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 3,
+          "slug": "jack-2025",
+          "title": "Jack",
+          "year": 2025,
+          "rating": 6.7,
+          "hero": "Siddhu Jonnalagadda",
+          "director": null
+        },
+        {
+          "rank": 4,
+          "slug": "bhamakalapam-2022",
+          "title": "Bhamakalapam",
+          "year": 2022,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 5,
+          "slug": "james-bond-2015",
+          "title": "James Bond",
+          "year": 2015,
+          "rating": 6.7,
+          "hero": "Allari Naresh",
+          "director": null
+        },
+        {
+          "rank": 6,
+          "slug": "express-raja-2016",
+          "title": "Express Raja",
+          "year": 2016,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 7,
+          "slug": "chatrapathi-2005",
+          "title": "Chatrapathi",
+          "year": 2005,
+          "rating": 6.7,
+          "hero": "Prabhas",
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "sneham-kosam-1999",
+          "title": "Sneham Kosam",
+          "year": 1999,
+          "rating": 6.7,
+          "hero": "Chiranjeevi",
+          "director": null
+        },
+        {
+          "rank": 9,
+          "slug": "allari-2002",
+          "title": "Allari",
+          "year": 2002,
+          "rating": 6.7,
+          "hero": "Allari Naresh",
+          "director": null
+        },
+        {
+          "rank": 10,
+          "slug": "murari-2001",
+          "title": "Murari",
+          "year": 2001,
+          "rating": 6.7,
+          "hero": "Mahesh Babu",
+          "director": null
+        },
+        {
+          "rank": 11,
+          "slug": "aarambham-2024",
+          "title": "Aarambham",
+          "year": 2024,
+          "rating": 6.7,
+          "hero": "Mohan Bhagath",
+          "director": null
+        },
+        {
+          "rank": 12,
+          "slug": "mithai-2019",
+          "title": "Mithai",
+          "year": 2019,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 13,
+          "slug": "dasara-2023",
+          "title": "Dasara",
+          "year": 2023,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 14,
+          "slug": "jayam-2002",
+          "title": "Jayam",
+          "year": 2002,
+          "rating": 6.7,
+          "hero": "Nithiin",
+          "director": null
+        },
+        {
+          "rank": 15,
+          "slug": "swathi-muthyam-2022",
+          "title": "Swathi Muthyam",
+          "year": 2022,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 16,
+          "slug": "raja-vikramarka-1990",
+          "title": "Raja Vikramarka",
+          "year": 1990,
+          "rating": 6.7,
+          "hero": "Chiranjeevi",
+          "director": null
+        },
+        {
+          "rank": 17,
+          "slug": "gaami-2024",
+          "title": "Gaami",
+          "year": 2024,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 18,
+          "slug": "vikram-1986",
+          "title": "Vikram",
+          "year": 1986,
+          "rating": 6.7,
+          "hero": "Nagarjuna Akkineni",
+          "director": null
+        },
+        {
+          "rank": 19,
+          "slug": "dhee-2007",
+          "title": "Dhee",
+          "year": 2007,
+          "rating": 6.7,
+          "hero": "Vishnu Manchu",
+          "director": null
+        },
+        {
+          "rank": 20,
+          "slug": "devil-2023",
+          "title": "Devil",
+          "year": 2023,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 21,
+          "slug": "sultan-1999",
+          "title": "Sultan",
+          "year": 1999,
+          "rating": 6.7,
+          "hero": "Nandamuri Balakrishna",
+          "director": null
+        },
+        {
+          "rank": 22,
+          "slug": "malliswari-2004",
+          "title": "Malliswari",
+          "year": 2004,
+          "rating": 6.7,
+          "hero": "Venkatesh",
+          "director": null
+        },
+        {
+          "rank": 23,
+          "slug": "villagelo-vinayakudu-2009",
+          "title": "Villagelo Vinayakudu",
+          "year": 2009,
+          "rating": 6.7,
+          "hero": "Krishnudu",
+          "director": null
+        },
+        {
+          "rank": 24,
+          "slug": "oohalu-gusagusalade-2014",
+          "title": "Oohalu Gusagusalade",
+          "year": 2014,
+          "rating": 6.7,
+          "hero": "Naga Shaurya",
+          "director": null
+        },
+        {
+          "rank": 25,
+          "slug": "sisindri-1995",
+          "title": "Sisindri",
+          "year": 1995,
+          "rating": 6.7,
+          "hero": "Akhil Akkineni",
+          "director": null
+        },
+        {
+          "rank": 26,
+          "slug": "oh-baby-2019",
+          "title": "Oh! Baby",
+          "year": 2019,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 27,
+          "slug": "disco-raja-2020",
+          "title": "Disco Raja",
+          "year": 2020,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 28,
+          "slug": "swayamvaram-1999",
+          "title": "Swayamvaram",
+          "year": 1999,
+          "rating": 6.7,
+          "hero": "Venu Thottempudi",
+          "director": null
+        },
+        {
+          "rank": 29,
+          "slug": "jyo-achyutananda-2016",
+          "title": "Jyo Achyutananda",
+          "year": 2016,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 30,
+          "slug": "arundhati-2009",
+          "title": "Arundhati",
+          "year": 2009,
+          "rating": 6.7,
+          "hero": "Anushka Shetty",
+          "director": null
+        },
+        {
+          "rank": 31,
+          "slug": "yatra-2019",
+          "title": "Yatra",
+          "year": 2019,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 32,
+          "slug": "evadi-gola-vadide-2005",
+          "title": "Evadi Gola Vadide",
+          "year": 2005,
+          "rating": 6.7,
+          "hero": "Brahmanandam",
+          "director": "E.V.V. Satyanarayana"
+        },
+        {
+          "rank": 33,
+          "slug": "son-of-satyamurthy-2015",
+          "title": "Son of Satyamurthy",
+          "year": 2015,
+          "rating": 6.7,
+          "hero": "Allu Arjun",
+          "director": "Trivikram Srinivas"
+        },
+        {
+          "rank": 34,
+          "slug": "salaar-part-1-ceasefire-2023",
+          "title": "Salaar: Part 1 - Ceasefire",
+          "year": 2023,
+          "rating": 6.7,
+          "hero": "Prabhas",
+          "director": "Prashanth Neel"
+        },
+        {
+          "rank": 35,
+          "slug": "drushyam-2-2021",
+          "title": "Drushyam 2",
+          "year": 2021,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 36,
+          "slug": "gunde-jaari-gallanthayyinde-2013",
+          "title": "Gunde Jaari Gallanthayyinde",
+          "year": 2013,
+          "rating": 6.7,
+          "hero": "Nithiin",
+          "director": "Vijay Kumar Konda"
+        },
+        {
+          "rank": 37,
+          "slug": "aadavari-matalaku-arthale-verule-2007",
+          "title": "Aadavari Matalaku Arthale Verule",
+          "year": 2007,
+          "rating": 6.7,
+          "hero": "Venkatesh",
+          "director": "Selvaraghavan"
+        },
+        {
+          "rank": 38,
+          "slug": "aadavari-matalaku-ardhalu-verule-2007",
+          "title": "Aadavari Matalaku Ardhalu Verule",
+          "year": 2007,
+          "rating": 6.7,
+          "hero": "Venkatesh",
+          "director": "Selvaraghavan"
+        },
+        {
+          "rank": 39,
+          "slug": "ramarao-on-duty-2022",
+          "title": "Ramarao on Duty",
+          "year": 2022,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 40,
+          "slug": "raja-vaaru-rani-gaaru-2019",
+          "title": "Raja Vaaru Rani Gaaru",
+          "year": 2019,
+          "rating": 6.7,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 41,
+          "slug": "kotha-bangaru-lokam-2008",
+          "title": "Kotha Bangaru Lokam",
+          "year": 2008,
+          "rating": 6.7,
+          "hero": "Varun Sandesh",
+          "director": "Srikanth Addala"
+        },
+        {
+          "rank": 42,
+          "slug": "aarya-2-2009",
+          "title": "Aarya 2",
+          "year": 2009,
+          "rating": 6.7,
+          "hero": "Allu Arjun",
+          "director": "Sukumar"
+        },
+        {
+          "rank": 43,
+          "slug": "intlo-illalu-vantintlo-priyuralu-1996",
+          "title": "Intlo Illalu Vantintlo Priyuralu",
+          "year": 1996,
+          "rating": 6.7,
+          "hero": "Venkatesh",
+          "director": "E.V.V. Satyanarayana"
+        },
+        {
+          "rank": 44,
+          "slug": "gabbar-singh-2012",
+          "title": "Gabbar Singh",
+          "year": 2012,
+          "rating": 6.6,
+          "hero": "Pawan Kalyan",
+          "director": "Harish Shankar"
+        },
+        {
+          "rank": 45,
+          "slug": "kingdom-2025",
+          "title": "Kingdom",
+          "year": 2025,
+          "rating": 6.6,
+          "hero": "Vijay Deverakonda",
+          "director": null
+        },
+        {
+          "rank": 46,
+          "slug": "v-2020",
+          "title": "V",
+          "year": 2020,
+          "rating": 6.6,
+          "hero": "Nani",
+          "director": null
+        },
+        {
+          "rank": 47,
+          "slug": "atharintiki-daaredi-2013",
+          "title": "Atharintiki Daaredi",
+          "year": 2013,
+          "rating": 6.6,
+          "hero": "Pawan Kalyan",
+          "director": null
+        },
+        {
+          "rank": 48,
+          "slug": "ganesh-1998",
+          "title": "Ganesh",
+          "year": 1998,
+          "rating": 6.6,
+          "hero": "Venkatesh",
+          "director": null
+        },
+        {
+          "rank": 49,
+          "slug": "pataas-2015",
+          "title": "Pataas",
+          "year": 2015,
+          "rating": 6.6,
+          "hero": "Kalyan Ram",
+          "director": null
+        },
+        {
+          "rank": 50,
+          "slug": "pindam-2023",
+          "title": "Pindam",
+          "year": 2023,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 51,
+          "slug": "brindavanam-2010",
+          "title": "Brindavanam",
+          "year": 2010,
+          "rating": 6.6,
+          "hero": "N.T. Rama Rao Jr.",
+          "director": null
+        },
+        {
+          "rank": 52,
+          "slug": "committee-kurrollu-2024",
+          "title": "Committee Kurrollu",
+          "year": 2024,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 53,
+          "slug": "anando-brahma-2017",
+          "title": "Anando Brahma",
+          "year": 2017,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 54,
+          "slug": "tagore-2003",
+          "title": "Tagore",
+          "year": 2003,
+          "rating": 6.6,
+          "hero": "Chiranjeevi",
+          "director": null
+        },
+        {
+          "rank": 55,
+          "slug": "keedaa-cola-2023",
+          "title": "Keedaa Cola",
+          "year": 2023,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 56,
+          "slug": "swati-muthyam-1986",
+          "title": "Swati Muthyam",
+          "year": 1986,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 57,
+          "slug": "neninthe-2008",
+          "title": "Neninthe",
+          "year": 2008,
+          "rating": 6.6,
+          "hero": "Ravi Teja",
+          "director": null
+        },
+        {
+          "rank": 58,
+          "slug": "neevevaro-2018",
+          "title": "Neevevaro",
+          "year": 2018,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 59,
+          "slug": "okka-kshanam-2017",
+          "title": "Okka Kshanam",
+          "year": 2017,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 60,
+          "slug": "1-nenokkadine-2014",
+          "title": "1: Nenokkadine",
+          "year": 2014,
+          "rating": 6.6,
+          "hero": "Mahesh Babu",
+          "director": "Sukumar"
+        },
+        {
+          "rank": 61,
+          "slug": "hit-the-first-case-2020",
+          "title": "Hit: the First Case",
+          "year": 2020,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 62,
+          "slug": "jai-lava-kusa-2017",
+          "title": "Jai Lava Kusa",
+          "year": 2017,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 63,
+          "slug": "eedo-rakam-aado-rakam-2016",
+          "title": "Eedo Rakam Aado Rakam",
+          "year": 2016,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 64,
+          "slug": "nene-raju-nene-mantri-2017",
+          "title": "Nene Raju Nene Mantri",
+          "year": 2017,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 65,
+          "slug": "bedurulanka-2012-2023",
+          "title": "Bedurulanka 2012",
+          "year": 2023,
+          "rating": 6.6,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 66,
+          "slug": "happy-2006",
+          "title": "Happy",
+          "year": 2006,
+          "rating": 6.5,
+          "hero": "Allu Arjun",
+          "director": "A. Karunakaran"
+        },
+        {
+          "rank": 67,
+          "slug": "maisamma-ips-2007",
+          "title": "Maisamma IPS",
+          "year": 2007,
+          "rating": 6.5,
+          "hero": "Mumaith Khan",
+          "director": "Bharat Parepalli"
+        },
+        {
+          "rank": 68,
+          "slug": "priyamaina-neeku-2001",
+          "title": "Priyamaina Neeku",
+          "year": 2001,
+          "rating": 6.5,
+          "hero": "Tarun",
+          "director": null
+        },
+        {
+          "rank": 69,
+          "slug": "daasi-1988",
+          "title": "Daasi",
+          "year": 1988,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 70,
+          "slug": "arjuna-phalguna-2021",
+          "title": "Arjuna Phalguna",
+          "year": 2021,
+          "rating": 6.5,
+          "hero": "Sree Vishnu",
+          "director": null
+        },
+        {
+          "rank": 71,
+          "slug": "orange-2010",
+          "title": "Orange",
+          "year": 2010,
+          "rating": 6.5,
+          "hero": "Ram Charan",
+          "director": null
+        },
+        {
+          "rank": 72,
+          "slug": "veede-2003",
+          "title": "Veede",
+          "year": 2003,
+          "rating": 6.5,
+          "hero": "Ravi Teja",
+          "director": null
+        },
+        {
+          "rank": 73,
+          "slug": "ruler-2019",
+          "title": "Ruler",
+          "year": 2019,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 74,
+          "slug": "sundara-kanda-1992",
+          "title": "Sundara Kanda",
+          "year": 1992,
+          "rating": 6.5,
+          "hero": "Venkatesh",
+          "director": null
+        },
+        {
+          "rank": 75,
+          "slug": "the-girlfriend-2025",
+          "title": "The Girlfriend",
+          "year": 2025,
+          "rating": 6.5,
+          "hero": "Rashmika Mandanna",
+          "director": null
+        },
+        {
+          "rank": 76,
+          "slug": "mayuri-1985",
+          "title": "Mayuri",
+          "year": 1985,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 77,
+          "slug": "dollar-dreams-2000",
+          "title": "Dollar Dreams",
+          "year": 2000,
+          "rating": 6.5,
+          "hero": "Santosh Kumar",
+          "director": null
+        },
+        {
+          "rank": 78,
+          "slug": "devaraya-2012",
+          "title": "Devaraya",
+          "year": 2012,
+          "rating": 6.5,
+          "hero": "Srikanth",
+          "director": null
+        },
+        {
+          "rank": 79,
+          "slug": "manoharam-2000",
+          "title": "Manoharam",
+          "year": 2000,
+          "rating": 6.5,
+          "hero": "Jagapati Babu",
+          "director": null
+        },
+        {
+          "rank": 80,
+          "slug": "konda-polam-2021",
+          "title": "Konda Polam",
+          "year": 2021,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 81,
+          "slug": "sye-2004",
+          "title": "Sye",
+          "year": 2004,
+          "rating": 6.5,
+          "hero": "Nithiin",
+          "director": null
+        },
+        {
+          "rank": 82,
+          "slug": "takkari-donga-2002",
+          "title": "Takkari Donga",
+          "year": 2002,
+          "rating": 6.5,
+          "hero": "Mahesh Babu",
+          "director": null
+        },
+        {
+          "rank": 83,
+          "slug": "ninnu-kori-2017",
+          "title": "Ninnu Kori",
+          "year": 2017,
+          "rating": 6.5,
+          "hero": "Nani",
+          "director": null
+        },
+        {
+          "rank": 84,
+          "slug": "rdx-love-2019",
+          "title": "RDX Love",
+          "year": 2019,
+          "rating": 6.5,
+          "hero": "Tejus Kancherla",
+          "director": null
+        },
+        {
+          "rank": 85,
+          "slug": "funky-2026",
+          "title": "Funky",
+          "year": 2026,
+          "rating": 6.5,
+          "hero": "Vishwak Sen",
+          "director": null
+        },
+        {
+          "rank": 86,
+          "slug": "hanu-man-2024",
+          "title": "Hanu-man",
+          "year": 2024,
+          "rating": 6.5,
+          "hero": "Teja Sajja",
+          "director": null
+        },
+        {
+          "rank": 87,
+          "slug": "dharma-chakram-1996",
+          "title": "Dharma Chakram",
+          "year": 1996,
+          "rating": 6.5,
+          "hero": "Venkatesh",
+          "director": null
+        },
+        {
+          "rank": 88,
+          "slug": "zombie-reddy-2021",
+          "title": "Zombie Reddy",
+          "year": 2021,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 89,
+          "slug": "sudigaadu-2012",
+          "title": "Sudigaadu",
+          "year": 2012,
+          "rating": 6.5,
+          "hero": "Allari Naresh",
+          "director": null
+        },
+        {
+          "rank": 90,
+          "slug": "vikramarkudu-2006",
+          "title": "Vikramarkudu",
+          "year": 2006,
+          "rating": 6.5,
+          "hero": "Ravi Teja",
+          "director": null
+        },
+        {
+          "rank": 91,
+          "slug": "pandava-vanavasamu-1965",
+          "title": "Pandava Vanavasamu",
+          "year": 1965,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 92,
+          "slug": "orey-bujjiga-2020",
+          "title": "Orey Bujjiga",
+          "year": 2020,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 93,
+          "slug": "mad-2023",
+          "title": "MAD",
+          "year": 2023,
+          "rating": 6.5,
+          "hero": "Sangeeth Shobhan",
+          "director": null
+        },
+        {
+          "rank": 94,
+          "slug": "a-aa-2016",
+          "title": "A Aa",
+          "year": 2016,
+          "rating": 6.5,
+          "hero": "Nithiin",
+          "director": null
+        },
+        {
+          "rank": 95,
+          "slug": "evvarikee-cheppoddu-2019",
+          "title": "Evvarikee Cheppoddu",
+          "year": 2019,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 96,
+          "slug": "y-2021",
+          "title": "Y",
+          "year": 2021,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 97,
+          "slug": "mirai-2025",
+          "title": "Mirai",
+          "year": 2025,
+          "rating": 6.5,
+          "hero": "Teja Sajja",
+          "director": null
+        },
+        {
+          "rank": 98,
+          "slug": "subhalekha-1982",
+          "title": "Subhalekha",
+          "year": 1982,
+          "rating": 6.5,
+          "hero": "Chiranjeevi",
+          "director": null
+        },
+        {
+          "rank": 99,
+          "slug": "darling-2010",
+          "title": "Darling",
+          "year": 2010,
+          "rating": 6.5,
+          "hero": "Prabhas",
+          "director": null
+        },
+        {
+          "rank": 100,
+          "slug": "sr-kalyanamandapam-2021",
+          "title": "Sr Kalyanamandapam",
+          "year": 2021,
+          "rating": 6.5,
+          "hero": null,
+          "director": null
+        }
+      ],
+      "bottom_100": [
+        {
+          "rank": 1,
+          "slug": "chandamama-raave-asap-2021",
+          "title": "Chandamama Raave Asap",
+          "year": 2021,
+          "rating": 5
+        },
+        {
+          "rank": 2,
+          "slug": "manchi-vallaki-manchivadu-1973",
+          "title": "Manchi Vallaki Manchivadu",
+          "year": 1973,
+          "rating": 5
+        },
+        {
+          "rank": 3,
+          "slug": "musica-of-hiem-2021",
+          "title": "Musica of Hiem",
+          "year": 2021,
+          "rating": 5
+        },
+        {
+          "rank": 4,
+          "slug": "what-the-fish-null",
+          "title": "What The Fish",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 5,
+          "slug": "krishnudu-shweta-prasad-bhanu-sri-mehra-sumit-arora-2012",
+          "title": "Krishnudu, Shweta Prasad, Bhanu Sri Mehra, Sumit Arora",
+          "year": 2012,
+          "rating": 5
+        },
+        {
+          "rank": 6,
+          "slug": "tyson-naidu-null",
+          "title": "Tyson Naidu",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 7,
+          "slug": "gandhi-puttina-desam-1973",
+          "title": "Gandhi Puttina Desam",
+          "year": 1973,
+          "rating": 5
+        },
+        {
+          "rank": 8,
+          "slug": "sri-sita-ramula-kalyanam-chootamu-raarandi-1998",
+          "title": "Sri Sita Ramula Kalyanam Chootamu Raarandi",
+          "year": 1998,
+          "rating": 5
+        },
+        {
+          "rank": 9,
+          "slug": "natudu",
+          "title": "Natudu",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 10,
+          "slug": "maa-inti-devudu-1975",
+          "title": "Maa Inti Devudu",
+          "year": 1975,
+          "rating": 5
+        },
+        {
+          "rank": 11,
+          "slug": "premalo-pavani-kalyan-2002",
+          "title": "Premalo Pavani Kalyan",
+          "year": 2003,
+          "rating": 5
+        },
+        {
+          "rank": 12,
+          "slug": "maro-maya-bazaar-1983",
+          "title": "Maro Maya Bazaar",
+          "year": 1983,
+          "rating": 5
+        },
+        {
+          "rank": 13,
+          "slug": "maa-inti-bangaram-null",
+          "title": "Maa Inti Bangaram",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 14,
+          "slug": "gopi-galla-goa-trip-2025",
+          "title": "Gopi Galla Goa Trip",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 15,
+          "slug": "c-o-surya-2017",
+          "title": "C/o Surya",
+          "year": 2017,
+          "rating": 5
+        },
+        {
+          "rank": 16,
+          "slug": "pushpa-3-the-rampage-null",
+          "title": "Pushpa 3 - The Rampage",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 17,
+          "slug": "sri-kanaka-mahalakshmi-recording-dance-troupe-1988",
+          "title": "Sri Kanaka Mahalakshmi Recording Dance Troupe",
+          "year": 1988,
+          "rating": 5
+        },
+        {
+          "rank": 18,
+          "slug": "malli-malli-chusa-2019",
+          "title": "Malli Malli Chusa",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 19,
+          "slug": "thank-you-subba-rao-2001",
+          "title": "Thank You Subba Rao",
+          "year": 2001,
+          "rating": 5
+        },
+        {
+          "rank": 20,
+          "slug": "b-jeeevan-reddy-2022",
+          "title": "B Jeeevan Reddy",
+          "year": 2022,
+          "rating": 5
+        },
+        {
+          "rank": 21,
+          "slug": "alladin-and-the-wonderful-lamp-1957",
+          "title": "Alladin and the Wonderful Lamp",
+          "year": 1957,
+          "rating": 5
+        },
+        {
+          "rank": 22,
+          "slug": "okkaroju-48-hours-2023",
+          "title": "Okkaroju...48 Hours",
+          "year": 2023,
+          "rating": 5
+        },
+        {
+          "rank": 23,
+          "slug": "pellante-noorella-panta-1992",
+          "title": "Pellante Noorella Panta",
+          "year": 1992,
+          "rating": 5
+        },
+        {
+          "rank": 24,
+          "slug": "police-vari-heccharika-2025",
+          "title": "Police Vari Heccharika",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 25,
+          "slug": "edurinti-mogudu-pakkinti-pellam-1991",
+          "title": "Edurinti Mogudu Pakkinti Pellam",
+          "year": 1991,
+          "rating": 5
+        },
+        {
+          "rank": 26,
+          "slug": "dabbu-bhale-jabbu-1992",
+          "title": "Dabbu Bhale Jabbu",
+          "year": 1992,
+          "rating": 5
+        },
+        {
+          "rank": 27,
+          "slug": "bilalpur-police-station-2019",
+          "title": "Bilalpur Police Station",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 28,
+          "slug": "pm-in-hyderabad-2022",
+          "title": "Pm in Hyderabad",
+          "year": 2022,
+          "rating": 5
+        },
+        {
+          "rank": 29,
+          "slug": "p-n-ramachandra-rao-1987",
+          "title": "P. N. Ramachandra Rao",
+          "year": 1987,
+          "rating": 5
+        },
+        {
+          "rank": 30,
+          "slug": "i-love-you-1979",
+          "title": "I Love You",
+          "year": 1979,
+          "rating": 5
+        },
+        {
+          "rank": 31,
+          "slug": "crazy-crazy-feeling-2019",
+          "title": "Crazy Crazy Feeling",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 32,
+          "slug": "prasanth-kumar-dimmala-2023",
+          "title": "Prasanth Kumar Dimmala",
+          "year": 2023,
+          "rating": 5
+        },
+        {
+          "rank": 33,
+          "slug": "all-the-best-2012",
+          "title": "All the Best",
+          "year": 2012,
+          "rating": 5
+        },
+        {
+          "rank": 34,
+          "slug": "krishna-rao-supermarket-2019",
+          "title": "Krishna Rao Supermarket",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 35,
+          "slug": "maharani-tamil-dubbed-nayakkarin-magal-1982-1983",
+          "title": "Maharani (Tamil Dubbed Nayakkarin Magal 1982)",
+          "year": 1983,
+          "rating": 5
+        },
+        {
+          "rank": 36,
+          "slug": "sivaji-poonam-kaur-2007",
+          "title": "Sivaji, Poonam Kaur",
+          "year": 2007,
+          "rating": 5
+        },
+        {
+          "rank": 37,
+          "slug": "ajay-chitra-badrinath-jaya-prakash-reddy-2004",
+          "title": "Ajay, Chitra, Badrinath, Jaya Prakash Reddy",
+          "year": 2004,
+          "rating": 5
+        },
+        {
+          "rank": 38,
+          "slug": "joker-mama-super-alludu-1992",
+          "title": "Joker Mama Super Alludu",
+          "year": 1992,
+          "rating": 5
+        },
+        {
+          "rank": 39,
+          "slug": "bhanumati-gari-mogudu-1987",
+          "title": "Bhanumati Gari Mogudu",
+          "year": 1987,
+          "rating": 5
+        },
+        {
+          "rank": 40,
+          "slug": "they-call-him-og-2025",
+          "title": "They Call Him OG",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 41,
+          "slug": "veeraaraju-1991-2025",
+          "title": "Veeraaraju 1991",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 42,
+          "slug": "ashwani-kumar-v-2019",
+          "title": "Ashwani Kumar. V",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 43,
+          "slug": "takshakudu-null",
+          "title": "Takshakudu",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 44,
+          "slug": "naresh-aamani-akhil-charan-kiran-sonu-poonam-srikoti-naga-babu-2017",
+          "title": "Naresh, Aamani, Akhil, Charan, Kiran, Sonu, Poonam, Srikoti, Naga Babu",
+          "year": 2017,
+          "rating": 5
+        },
+        {
+          "rank": 45,
+          "slug": "ranga-the-donga-2010",
+          "title": "Ranga the Donga",
+          "year": 2010,
+          "rating": 5
+        },
+        {
+          "rank": 46,
+          "slug": "m-l-a-1957",
+          "title": "M.L.A.",
+          "year": 2006,
+          "rating": 5
+        },
+        {
+          "rank": 47,
+          "slug": "idi-maa-ashokgadi-love-story-2003",
+          "title": "Idi Maa Ashokgadi Love Story",
+          "year": 2003,
+          "rating": 5
+        },
+        {
+          "rank": 48,
+          "slug": "nyayam-meere-cheppali-1985",
+          "title": "Nyayam Meere Cheppali",
+          "year": 1985,
+          "rating": 5
+        },
+        {
+          "rank": 49,
+          "slug": "chal-mohana-ranga-1978",
+          "title": "Chal Mohana Ranga",
+          "year": 1978,
+          "rating": 5
+        },
+        {
+          "rank": 50,
+          "slug": "thank-you-dear-2025",
+          "title": "Thank You Dear",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 51,
+          "slug": "indira-productionsvaishno-academy-2006",
+          "title": "Indira Productionsvaishno Academy",
+          "year": 2006,
+          "rating": 5
+        },
+        {
+          "rank": 52,
+          "slug": "valliddari-vayasu-padahare-2006",
+          "title": "Valliddari Vayasu Padahare",
+          "year": 2006,
+          "rating": 5
+        },
+        {
+          "rank": 53,
+          "slug": "moodu-mulla-bandham-1980",
+          "title": "Moodu Mulla Bandham",
+          "year": 1980,
+          "rating": 5
+        },
+        {
+          "rank": 54,
+          "slug": "apparao-ki-oka-nela-thappindi-2001",
+          "title": "Apparao ki Oka Nela Thappindi",
+          "year": 2001,
+          "rating": 5
+        },
+        {
+          "rank": 55,
+          "slug": "doo-doo-basavanna-1978",
+          "title": "Doo Doo Basavanna",
+          "year": 1978,
+          "rating": 5
+        },
+        {
+          "rank": 56,
+          "slug": "huliya-haalina-mevu-1982",
+          "title": "Huliya Haalina Mevu",
+          "year": 1982,
+          "rating": 5
+        },
+        {
+          "rank": 57,
+          "slug": "love-is-in-the-vamsham-2025",
+          "title": "Love Is in the Vamsham",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 58,
+          "slug": "operation-duryodhana-2-2013",
+          "title": "Operation Duryodhana 2",
+          "year": 2013,
+          "rating": 5
+        },
+        {
+          "rank": 59,
+          "slug": "mantra-2-2015",
+          "title": "Mantra 2",
+          "year": 2015,
+          "rating": 5
+        },
+        {
+          "rank": 60,
+          "slug": "o-manishi-katha-2014",
+          "title": "O Manishi Katha",
+          "year": 2014,
+          "rating": 5
+        },
+        {
+          "rank": 61,
+          "slug": "vennela-1-1-2-2012",
+          "title": "Vennela 1 1/2",
+          "year": 2012,
+          "rating": 5
+        },
+        {
+          "rank": 62,
+          "slug": "jwala-dweepa-rahasyam-1965",
+          "title": "Jwala Dweepa Rahasyam",
+          "year": 1965,
+          "rating": 5
+        },
+        {
+          "rank": 63,
+          "slug": "bharath-kumar-p-narendra-2019",
+          "title": "Bharath Kumar P & Narendra",
+          "year": 2019,
+          "rating": 5
+        },
+        {
+          "rank": 64,
+          "slug": "k-shravan-kumar-2023",
+          "title": "K. Shravan Kumar",
+          "year": 2023,
+          "rating": 5
+        },
+        {
+          "rank": 65,
+          "slug": "veedu-samanyudu-kadhu-1999",
+          "title": "Veedu Samanyudu Kadhu",
+          "year": 1999,
+          "rating": 5
+        },
+        {
+          "rank": 66,
+          "slug": "rendu-rellu-aaru-2017",
+          "title": "Rendu Rellu Aaru",
+          "year": 2017,
+          "rating": 5
+        },
+        {
+          "rank": 67,
+          "slug": "sri-rama-pattabhishekam-1978",
+          "title": "Sri Rama Pattabhishekam",
+          "year": 1978,
+          "rating": 5
+        },
+        {
+          "rank": 68,
+          "slug": "darling-darling-darling-1983",
+          "title": "Darling, Darling, Darling",
+          "year": 1983,
+          "rating": 5
+        },
+        {
+          "rank": 69,
+          "slug": "srihari-sai-kumar-roja-lekha-washington-brahmaji-krishi-arimanda-ashish-vidyarthi-2013",
+          "title": "Srihari, Sai Kumar, Roja, Lekha Washington, Brahmaji, Krishi Arimanda, Ashish Vidyarthi",
+          "year": 2013,
+          "rating": 5
+        },
+        {
+          "rank": 70,
+          "slug": "rendu-rellu-aaru-1986",
+          "title": "Rendu Rellu Aaru",
+          "year": 1986,
+          "rating": 5
+        },
+        {
+          "rank": 71,
+          "slug": "stuartpuram-police-station-1991",
+          "title": "Stuartpuram Police Station",
+          "year": 1991,
+          "rating": 5
+        },
+        {
+          "rank": 72,
+          "slug": "vamsi-krishna-naveena-suman-chandra-mohan-giribabu-brahmanandam-2005",
+          "title": "Vamsi Krishna, Naveena, Suman, Chandra Mohan, Giribabu, Brahmanandam",
+          "year": 2005,
+          "rating": 5
+        },
+        {
+          "rank": 73,
+          "slug": "subba-rayudi-pelli-1992",
+          "title": "Subba Rayudi Pelli",
+          "year": 1992,
+          "rating": 5
+        },
+        {
+          "rank": 74,
+          "slug": "ramana-anita-patel-siva-krishna-2004",
+          "title": "Ramana, Anita Patel, Siva Krishna",
+          "year": 2004,
+          "rating": 5
+        },
+        {
+          "rank": 75,
+          "slug": "sambhavami-yuge-yuge-2006",
+          "title": "Sambhavami Yuge Yuge",
+          "year": 1972,
+          "rating": 5
+        },
+        {
+          "rank": 76,
+          "slug": "oka-roju-raju-1944",
+          "title": "Oka Roju Raju",
+          "year": 1944,
+          "rating": 5
+        },
+        {
+          "rank": 77,
+          "slug": "varanasi",
+          "title": "Vāranāsi",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 78,
+          "slug": "vinay-babu-reena-rashmi-amar-vizag-prasad-mallikharjuna-rao-2004",
+          "title": "Vinay Babu, Reena, Rashmi, Amar, Vizag Prasad, Mallikharjuna Rao",
+          "year": 2004,
+          "rating": 5
+        },
+        {
+          "rank": 79,
+          "slug": "mana-voori-pandavulu-1978",
+          "title": "Mana Voori Pandavulu",
+          "year": 1978,
+          "rating": 5
+        },
+        {
+          "rank": 80,
+          "slug": "nenu-naa-rakshasi-2011",
+          "title": "Nenu Naa Rakshasi",
+          "year": 2011,
+          "rating": 5
+        },
+        {
+          "rank": 81,
+          "slug": "satya-2-2013",
+          "title": "Satya 2",
+          "year": 2013,
+          "rating": 5
+        },
+        {
+          "rank": 82,
+          "slug": "https-ghantasalagalamrutamu-blogspot-com-2009-07-1960-16-html-bhakta-sabari-1960",
+          "title": "[https://ghantasalagalamrutamu.blogspot.com/2009/07/1960_16.html Bhakta Sabari]",
+          "year": 1960,
+          "rating": 5
+        },
+        {
+          "rank": 83,
+          "slug": "maanas-nitya-naresh-brahmanandam-ali-shakalaka-shankar-krishna-bhagawan-2018",
+          "title": "Maanas, Nitya Naresh, Brahmanandam, Ali, Shakalaka Shankar, Krishna Bhagawan",
+          "year": 2018,
+          "rating": 5
+        },
+        {
+          "rank": 84,
+          "slug": "implies-that-the-film-is-multilingual-and-the-gross-collection-figure-includes-the-worldwide-collection-of-the-other-simultaneously-filmed-version-2025",
+          "title": "Implies that the film is multilingual and the gross collection figure includes the worldwide collection of the other simultaneously filmed version.",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 85,
+          "slug": "sri-chamundeswari-mahima-1975",
+          "title": "Sri Chamundeswari Mahima",
+          "year": 1975,
+          "rating": 5
+        },
+        {
+          "rank": 86,
+          "slug": "ninna-nedu-repu-2008",
+          "title": "Ninna Nedu Repu",
+          "year": 2008,
+          "rating": 5
+        },
+        {
+          "rank": 87,
+          "slug": "garividi-lakshmi-null",
+          "title": "Garividi Lakshmi",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 88,
+          "slug": "lahiri-lahiri-lahirilo-2002",
+          "title": "Lahiri Lahiri Lahirilo",
+          "year": 2002,
+          "rating": 5
+        },
+        {
+          "rank": 89,
+          "slug": "dhanalakshmi-i-love-you-2002",
+          "title": "Dhanalakshmi, I Love You",
+          "year": 2002,
+          "rating": 5
+        },
+        {
+          "rank": 90,
+          "slug": "rowdy-ramudu-konte-krishnudu-1980",
+          "title": "Rowdy Ramudu Konte Krishnudu",
+          "year": 1980,
+          "rating": 5
+        },
+        {
+          "rank": 91,
+          "slug": "avadhi-the-tale-of-love-2025",
+          "title": "AVADHI THE TALE OF LOVE",
+          "year": 2025,
+          "rating": 5
+        },
+        {
+          "rank": 92,
+          "slug": "umapathi-null",
+          "title": "Umapathi",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 93,
+          "slug": "kannyaka-parameswari-mahatmyam-1961",
+          "title": "Kannyaka Parameswari Mahatmyam",
+          "year": 1961,
+          "rating": 5
+        },
+        {
+          "rank": 94,
+          "slug": "pedaraasi-peddamma-katha-1968",
+          "title": "Pedaraasi Peddamma Katha",
+          "year": 1968,
+          "rating": 5
+        },
+        {
+          "rank": 95,
+          "slug": "paramanandham-shishyulu-null",
+          "title": "Paramanandham Shishyulu",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 96,
+          "slug": "janakiram-null",
+          "title": "Janakiram",
+          "year": null,
+          "rating": 5
+        },
+        {
+          "rank": 97,
+          "slug": "ee-charithra-ye-siratho-1982",
+          "title": "Ee Charithra Ye Siratho",
+          "year": 1982,
+          "rating": 5
+        },
+        {
+          "rank": 98,
+          "slug": "gudachari-no1-1983",
+          "title": "Gudachari No.1",
+          "year": 1983,
+          "rating": 5
+        },
+        {
+          "rank": 99,
+          "slug": "naa-pere-bhagavan-1976",
+          "title": "Naa Pere Bhagavan",
+          "year": 1976,
+          "rating": 5
+        },
+        {
+          "rank": 100,
+          "slug": "like-share-subscribe-2022",
+          "title": "Like, Share & Subscribe",
+          "year": 2022,
+          "rating": 5
+        }
+      ]
+    },
+    "uncategorized": {
+      "count": 26,
+      "top_100": [
+        {
+          "rank": 1,
+          "slug": "mulagapaka-babu-rao-2024",
+          "title": "Mulagapaka Babu Rao",
+          "year": 2024,
+          "rating": null,
+          "hero": "MBR Creations",
+          "director": null
+        },
+        {
+          "rank": 2,
+          "slug": "sri-krishna-rayabaram-1960",
+          "title": "Sri Krishna Rayabaram",
+          "year": 1960,
+          "rating": null,
+          "hero": "Raghuramaiah",
+          "director": "Jagannadh"
+        },
+        {
+          "rank": 3,
+          "slug": "april-28th-em-jarigindi-2021",
+          "title": "April 28th Em Jarigindi",
+          "year": 2021,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 4,
+          "slug": "samsaram-oka-chadarangam-1987",
+          "title": "Samsaram Oka Chadarangam",
+          "year": 1987,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 5,
+          "slug": "praveen-kumar-vss-2024",
+          "title": "Praveen Kumar VSS",
+          "year": 2024,
+          "rating": null,
+          "hero": "Radhavi Entertainments",
+          "director": null
+        },
+        {
+          "rank": 6,
+          "slug": "intlo-deyyam-nakem-bhayam-2016",
+          "title": "Intlo Deyyam Nakem Bhayam",
+          "year": 2016,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 7,
+          "slug": "a-ad-infinitum-2021",
+          "title": "A (ad Infinitum)",
+          "year": 2021,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 8,
+          "slug": "krishna-gaadi-veera-prema-gaadha-2016",
+          "title": "Krishna Gaadi Veera Prema Gaadha",
+          "year": 2016,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 9,
+          "slug": "jamba-lakidi-pamba-2018",
+          "title": "Jamba Lakidi Pamba",
+          "year": 2018,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 10,
+          "slug": "niku-naku-pellanta-tom-tom-tom-2022",
+          "title": "Niku Naku Pellanta Tom Tom Tom",
+          "year": 2022,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 11,
+          "slug": "c202-2024",
+          "title": "C202",
+          "year": 2024,
+          "rating": null,
+          "hero": null,
+          "director": "Munna Kasi"
+        },
+        {
+          "rank": 12,
+          "slug": "kudirithe-kappu-coffee-2011",
+          "title": "Kudirithe Kappu Coffee",
+          "year": 2011,
+          "rating": null,
+          "hero": "Varun Sandesh",
+          "director": "Ramana Salwa"
+        },
+        {
+          "rank": 13,
+          "slug": "sri-krishnarjuna-vijayam-1996",
+          "title": "Sri Krishnarjuna Vijayam",
+          "year": 1996,
+          "rating": null,
+          "hero": "Nandamuri Balakrishna",
+          "director": "Singeetam Srinivasa Rao"
+        },
+        {
+          "rank": 14,
+          "slug": "srinatha-kavi-saarvabhoumudu-1993",
+          "title": "Srinatha Kavi Saarvabhoumudu",
+          "year": 1993,
+          "rating": null,
+          "hero": "N.T. Rama Rao",
+          "director": "Bapu"
+        },
+        {
+          "rank": 15,
+          "slug": "prema-katha-chitram-2-2019",
+          "title": "Prema Katha Chitram 2",
+          "year": 2019,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 16,
+          "slug": "idi-naa-love-story-2018",
+          "title": "Idi Naa Love Story",
+          "year": 2018,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 17,
+          "slug": "narra-shiva-nagu-2024",
+          "title": "Narra Shiva Nagu",
+          "year": 2024,
+          "rating": null,
+          "hero": "Everest Entertainments",
+          "director": null
+        },
+        {
+          "rank": 18,
+          "slug": "akbar-saleem-anarkali-1978",
+          "title": "Akbar Saleem Anarkali",
+          "year": 1978,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 19,
+          "slug": "nenu-student-sir-2023",
+          "title": "Nenu Student Sir!",
+          "year": 2023,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 20,
+          "slug": "100-crores-2024",
+          "title": "100 Crores",
+          "year": 2024,
+          "rating": null,
+          "hero": "Rahul Haridas",
+          "director": "Virat Chakravarthy"
+        },
+        {
+          "rank": 21,
+          "slug": "kamalakar-rao-ponnapalli-2024",
+          "title": "Kamalakar Rao Ponnapalli",
+          "year": 2024,
+          "rating": null,
+          "hero": "Sri Priya International",
+          "director": null
+        },
+        {
+          "rank": 22,
+          "slug": "nuvvu-leka-nenu-lenu-2002",
+          "title": "Nuvvu Leka Nenu Lenu",
+          "year": 2002,
+          "rating": null,
+          "hero": "Tarun",
+          "director": "Y. Kasi Viswanath"
+        },
+        {
+          "rank": 23,
+          "slug": "komal-r-bharadwaj-2024",
+          "title": "Komal R Bharadwaj",
+          "year": 2024,
+          "rating": null,
+          "hero": "Single Cell Universe",
+          "director": null
+        },
+        {
+          "rank": 24,
+          "slug": "kartha-karma-kriya-2018",
+          "title": "Kartha Karma Kriya",
+          "year": 2018,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 25,
+          "slug": "the-suicide-note-2023",
+          "title": "The Suicide Note",
+          "year": 2023,
+          "rating": null,
+          "hero": null,
+          "director": null
+        },
+        {
+          "rank": 26,
+          "slug": "slum-dog-husband-2023",
+          "title": "Slum Dog Husband",
+          "year": 2023,
+          "rating": null,
+          "hero": null,
+          "director": null
+        }
+      ],
+      "bottom_100": []
+    }
+  },
+  "by_era": {
+    "Pre-1970 (Golden Age)": {
+      "count": 613,
+      "top_20": [
+        {
+          "rank": 1,
+          "slug": "malliswari-1951",
+          "title": "Malliswari",
+          "year": 1951,
+          "rating": 9.5,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 2,
+          "slug": "mayabazar-1957",
+          "title": "Mayabazar",
+          "year": 1957,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 3,
+          "slug": "lava-kusa-1963",
+          "title": "Lava Kusa",
+          "year": 1963,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 4,
+          "slug": "pathala-bhairavi-1951",
+          "title": "Pathala Bhairavi",
+          "year": 1951,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 5,
+          "slug": "sri-venkateswara-mahatmyam-1960",
+          "title": "Sri Venkateswara Mahatmyam",
+          "year": 1960,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 6,
+          "slug": "desa-drohulu-1964",
+          "title": "Desa Drohulu",
+          "year": 1964,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 7,
+          "slug": "ave-kallu-1967",
+          "title": "Ave Kallu",
+          "year": 1967,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 8,
+          "slug": "karthavarayani-katha-1958",
+          "title": "Karthavarayani Katha",
+          "year": 1958,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 9,
+          "slug": "daiva-balam-1959",
+          "title": "Daiva Balam",
+          "year": 1959,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 10,
+          "slug": "bhama-vijayam-1967",
+          "title": "Bhama Vijayam",
+          "year": 1967,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 11,
+          "slug": "aakasa-ramanna-1965",
+          "title": "Aakasa Ramanna",
+          "year": 1965,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 12,
+          "slug": "marmayogi-1964",
+          "title": "Marmayogi",
+          "year": 1964,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 13,
+          "slug": "ramu-1968",
+          "title": "Ramu",
+          "year": 1968,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 14,
+          "slug": "bhookailas-1958",
+          "title": "Bhookailas",
+          "year": 1958,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 15,
+          "slug": "aradhana-1962",
+          "title": "Aradhana",
+          "year": 1962,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 16,
+          "slug": "kanyasulkam-1955",
+          "title": "Kanyasulkam",
+          "year": 1955,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 17,
+          "slug": "missamma-1955",
+          "title": "Missamma",
+          "year": 1955,
+          "rating": 7.9,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 18,
+          "slug": "gundamma-katha-1962",
+          "title": "Gundamma Katha",
+          "year": 1962,
+          "rating": 7.9,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 19,
+          "slug": "lakshmi-nivasam-1968",
+          "title": "Lakshmi Nivasam",
+          "year": 1968,
+          "rating": 7.8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 20,
+          "slug": "goodachari-116-1966",
+          "title": "Goodachari 116",
+          "year": 1966,
+          "rating": 7.6,
+          "category": "watchable"
+        }
+      ]
+    },
+    "1970-1989 (Classics)": {
+      "count": 1176,
+      "top_20": [
+        {
+          "rank": 1,
+          "slug": "sagara-sangamam-1983",
+          "title": "Sagara Sangamam",
+          "year": 1983,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 2,
+          "slug": "sankarabharanam-1980",
+          "title": "Sankarabharanam",
+          "year": 1980,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 3,
+          "slug": "simhasanam-1986",
+          "title": "Simhasanam",
+          "year": 1986,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 4,
+          "slug": "bandhuvulostunnaru-jagratha-1989",
+          "title": "Bandhuvulostunnaru Jagratha",
+          "year": 1989,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 5,
+          "slug": "pratighatana-1985",
+          "title": "Pratighatana",
+          "year": 1985,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 6,
+          "slug": "kaashmora-1986",
+          "title": "Kaashmora",
+          "year": 1986,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 7,
+          "slug": "swayamkrushi-1987",
+          "title": "Swayamkrushi",
+          "year": 1987,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 8,
+          "slug": "seetha-kalyanam-1976",
+          "title": "Seetha Kalyanam",
+          "year": 1976,
+          "rating": 8.9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 9,
+          "slug": "alluri-seetarama-raju-1974",
+          "title": "Alluri Seetarama Raju",
+          "year": 1974,
+          "rating": 8.9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 10,
+          "slug": "daana-veera-soora-karna-1977",
+          "title": "Daana Veera Soora Karna",
+          "year": 1977,
+          "rating": 8.8,
+          "category": "must-watch"
+        },
+        {
+          "rank": 11,
+          "slug": "challenge-1984",
+          "title": "Challenge",
+          "year": 1984,
+          "rating": 8.7,
+          "category": "must-watch"
+        },
+        {
+          "rank": 12,
+          "slug": "idi-katha-kaadu-1979",
+          "title": "Idi Katha Kaadu",
+          "year": 1979,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 13,
+          "slug": "siri-siri-muvva-1976",
+          "title": "Siri Siri Muvva",
+          "year": 1976,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 14,
+          "slug": "sri-rajeshwari-vilas-coffee-club-1976",
+          "title": "Sri Rajeshwari Vilas Coffee Club",
+          "year": 1976,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 15,
+          "slug": "sri-ramaanjaneya-yuddham-1975",
+          "title": "Sri Ramaanjaneya Yuddham",
+          "year": 1975,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 16,
+          "slug": "thyagayya-1981",
+          "title": "Thyagayya",
+          "year": 1981,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 17,
+          "slug": "vijetha-1985",
+          "title": "Vijetha",
+          "year": 1985,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 18,
+          "slug": "sutradhaarulu-1989",
+          "title": "Sutradhaarulu",
+          "year": 1989,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 19,
+          "slug": "abhilasha-1983",
+          "title": "Abhilasha",
+          "year": 1983,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 20,
+          "slug": "krishnavataram-1982",
+          "title": "Krishnavataram",
+          "year": 1982,
+          "rating": 8,
+          "category": "highly-recommended"
+        }
+      ]
+    },
+    "1990-2009 (Modern Era)": {
+      "count": 1292,
+      "top_20": [
+        {
+          "rank": 1,
+          "slug": "ashwamedham-1992",
+          "title": "Ashwamedham",
+          "year": 1992,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 2,
+          "slug": "magadheera-2009",
+          "title": "Magadheera",
+          "year": 2009,
+          "rating": 9.2,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 3,
+          "slug": "dongala-bandi-2008",
+          "title": "Dongala Bandi",
+          "year": 2008,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 4,
+          "slug": "ammayi-kosam-2001",
+          "title": "Ammayi Kosam",
+          "year": 2001,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 5,
+          "slug": "pelli-pustakam-1991",
+          "title": "Pelli Pustakam",
+          "year": 1991,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 6,
+          "slug": "subhalagnam-1994",
+          "title": "Subhalagnam",
+          "year": 1994,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 7,
+          "slug": "i-liked-the-girl-1999",
+          "title": "I liked the girl",
+          "year": 1999,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 8,
+          "slug": "rrr",
+          "title": "RRR",
+          "year": 2004,
+          "rating": 8.8,
+          "category": "must-watch"
+        },
+        {
+          "rank": 9,
+          "slug": "pravarakyudu-2009",
+          "title": "Pravarakyudu",
+          "year": 2009,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 10,
+          "slug": "pravarakhyudu-2009",
+          "title": "Pravarakhyudu",
+          "year": 2009,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 11,
+          "slug": "golmaal-2003",
+          "title": "Golmaal",
+          "year": 2003,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 12,
+          "slug": "nippu-ravva-1993",
+          "title": "Nippu Ravva",
+          "year": 1993,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 13,
+          "slug": "ammo-okato-tareekhu-2000",
+          "title": "Ammo! Okato Tareekhu",
+          "year": 2000,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 14,
+          "slug": "money-1993",
+          "title": "Money",
+          "year": 1993,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 15,
+          "slug": "swathi-kiranam-1992",
+          "title": "Swathi Kiranam",
+          "year": 1992,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 16,
+          "slug": "maa-pelliki-randi-2001",
+          "title": "Maa Pelliki Randi",
+          "year": 2001,
+          "rating": 8.3,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 17,
+          "slug": "anandam-2001",
+          "title": "Anandam",
+          "year": 2001,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 18,
+          "slug": "missamma-2003",
+          "title": "Missamma",
+          "year": 2003,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 19,
+          "slug": "joker-1993",
+          "title": "Joker",
+          "year": 1993,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 20,
+          "slug": "jagadeka-veerudu-athiloka-sundari-1990",
+          "title": "Jagadeka Veerudu Athiloka Sundari",
+          "year": 1990,
+          "rating": 8.2,
+          "category": "mass-classic"
+        }
+      ]
+    },
+    "2010-2019 (Contemporary)": {
+      "count": 1203,
+      "top_20": [
+        {
+          "rank": 1,
+          "slug": "malini-and-co-2015",
+          "title": "Malini & Co.",
+          "year": 2015,
+          "rating": 9.5,
+          "category": "masterpiece"
+        },
+        {
+          "rank": 2,
+          "slug": "achari-america-yatra-2018",
+          "title": "Achari America Yatra",
+          "year": 2018,
+          "rating": 9,
+          "category": "must-watch"
+        },
+        {
+          "rank": 3,
+          "slug": "jersey-2019",
+          "title": "Jersey",
+          "year": 2019,
+          "rating": 8.1,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 4,
+          "slug": "saptagiri-express-2016",
+          "title": "Saptagiri Express",
+          "year": 2016,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 5,
+          "slug": "the-end-2014",
+          "title": "The End",
+          "year": 2014,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 6,
+          "slug": "red-bus-2014",
+          "title": "Red Bus",
+          "year": 2014,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 7,
+          "slug": "kirrak-party-2018",
+          "title": "Kirrak Party",
+          "year": 2018,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 8,
+          "slug": "happy-wedding-2018",
+          "title": "Happy Wedding",
+          "year": 2018,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 9,
+          "slug": "mallesham-2019",
+          "title": "Mallesham",
+          "year": 2019,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 10,
+          "slug": "vinara-sodara-veera-kumara-2019",
+          "title": "Vinara Sodara Veera Kumara",
+          "year": 2019,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 11,
+          "slug": "desamlo-dongalu-paddaru-2018",
+          "title": "Desamlo Dongalu Paddaru",
+          "year": 2018,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 12,
+          "slug": "nee-jathaga-nenundali-2014",
+          "title": "Nee Jathaga Nenundali",
+          "year": 2014,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 13,
+          "slug": "drushyam-2014",
+          "title": "Drushyam",
+          "year": 2014,
+          "rating": 7.9,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 14,
+          "slug": "khaleja-2010",
+          "title": "Khaleja",
+          "year": 2010,
+          "rating": 7.8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 15,
+          "slug": "gouravam-2013",
+          "title": "Gouravam",
+          "year": 2013,
+          "rating": 7.8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 16,
+          "slug": "arjun-reddy-2017",
+          "title": "Arjun Reddy",
+          "year": 2017,
+          "rating": 7.8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 17,
+          "slug": "raju-gari-gadhi-3-2019",
+          "title": "Raju Gari Gadhi 3",
+          "year": 2019,
+          "rating": 7.8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 18,
+          "slug": "mathu-vadalara-2019",
+          "title": "Mathu Vadalara",
+          "year": 2019,
+          "rating": 7.7,
+          "category": "watchable"
+        },
+        {
+          "rank": 19,
+          "slug": "columbus-2015",
+          "title": "Columbus",
+          "year": 2015,
+          "rating": 7.7,
+          "category": "watchable"
+        },
+        {
+          "rank": 20,
+          "slug": "rangasthalam-2018",
+          "title": "Rangasthalam",
+          "year": 2018,
+          "rating": 7.7,
+          "category": "watchable"
+        }
+      ]
+    },
+    "2020-Present (Current)": {
+      "count": 1475,
+      "top_20": [
+        {
+          "rank": 1,
+          "slug": "senapathi-2021",
+          "title": "Senapathi",
+          "year": 2021,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 2,
+          "slug": "dhira-2020",
+          "title": "Dhira",
+          "year": 2020,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 3,
+          "slug": "ram-asur-2021",
+          "title": "Ram Asur",
+          "year": 2021,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 4,
+          "slug": "happy-ending-2024",
+          "title": "Happy Ending",
+          "year": 2024,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 5,
+          "slug": "super-machi-2022",
+          "title": "Super Machi",
+          "year": 2022,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 6,
+          "slug": "pushpak-vimaan-2024",
+          "title": "Pushpak Vimaan",
+          "year": 2024,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 7,
+          "slug": "rrr-2022",
+          "title": "RRR",
+          "year": 2022,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 8,
+          "slug": "martin-luther-king-2023",
+          "title": "Martin Luther King",
+          "year": 2023,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 9,
+          "slug": "3e-2022",
+          "title": "3e",
+          "year": 2022,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 10,
+          "slug": "geethanjali-malli-vachindi-2024",
+          "title": "Geethanjali Malli Vachindi",
+          "year": 2024,
+          "rating": 8.5,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 11,
+          "slug": "35-chinna-katha-kaadu-2024",
+          "title": "35 - Chinna Katha Kaadu",
+          "year": 2024,
+          "rating": 8.4,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 12,
+          "slug": "skylab-2021",
+          "title": "Skylab",
+          "year": 2021,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 13,
+          "slug": "natyam-2021",
+          "title": "Natyam",
+          "year": 2021,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 14,
+          "slug": "prasanna-vadanam-2024",
+          "title": "Prasanna Vadanam",
+          "year": 2024,
+          "rating": 8.2,
+          "category": "mass-classic"
+        },
+        {
+          "rank": 15,
+          "slug": "cauliflower-2021",
+          "title": "Cauliflower",
+          "year": 2021,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 16,
+          "slug": "highway-2022",
+          "title": "Highway",
+          "year": 2022,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 17,
+          "slug": "induvadana-2022",
+          "title": "Induvadana",
+          "year": 2022,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 18,
+          "slug": "vimanam-2023",
+          "title": "Vimanam",
+          "year": 2023,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 19,
+          "slug": "sundari-2021",
+          "title": "Sundari",
+          "year": 2021,
+          "rating": 8,
+          "category": "highly-recommended"
+        },
+        {
+          "rank": 20,
+          "slug": "marokshanam-2023",
+          "title": "Marokshanam",
+          "year": 2023,
+          "rating": 8,
+          "category": "highly-recommended"
+        }
+      ]
+    }
+  }
+}

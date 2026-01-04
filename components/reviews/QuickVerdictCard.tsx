@@ -23,6 +23,13 @@ interface QuickVerdictProps {
     cult?: boolean;
   };
   qualityScore?: number;
+  awards?: {
+    national_awards?: string[];
+    filmfare_awards?: string[];
+    nandi_awards?: string[];
+    other_awards?: string[];
+    box_office_records?: string[];
+  };
 }
 
 // Category styling with unique icons and colors
@@ -105,7 +112,7 @@ const getStyle = (category?: string) => {
   return categoryStyles[normalized] || categoryStyles['recommended'];
 };
 
-export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore }: QuickVerdictProps) {
+export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore, awards }: QuickVerdictProps) {
   const [showSkip, setShowSkip] = useState(false);
   const [showAllReasons, setShowAllReasons] = useState(false);
   
@@ -113,8 +120,17 @@ export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore }: Q
   const hasSkipReasons = whySkip?.reasons && whySkip.reasons.length > 0;
   const hasVerdict = verdict?.en || verdict?.category;
   
+  // Collect all awards into a flat list for compact display
+  const allAwards = [
+    ...(awards?.national_awards || []).map(a => ({ type: 'National', award: a })),
+    ...(awards?.filmfare_awards || []).map(a => ({ type: 'Filmfare', award: a })),
+    ...(awards?.nandi_awards || []).map(a => ({ type: 'Nandi', award: a })),
+    ...(awards?.other_awards || []).map(a => ({ type: 'Award', award: a })),
+  ];
+  const hasAwards = allAwards.length > 0;
+  
   // Don't render if no content
-  if (!hasWatchReasons && !hasVerdict) return null;
+  if (!hasWatchReasons && !hasVerdict && !hasAwards) return null;
   
   const style = getStyle(verdict?.category);
   const visibleReasons = showAllReasons ? whyWatch?.reasons : whyWatch?.reasons?.slice(0, 3);
@@ -198,6 +214,31 @@ export function QuickVerdictCard({ whyWatch, whySkip, verdict, qualityScore }: Q
                     {tag}
                   </span>
                 ))}
+              </div>
+            </div>
+          )}
+          
+          {/* Awards & Achievements */}
+          {hasAwards && (
+            <div className="mt-4 pt-3 border-t border-gray-800/50">
+              <div className="flex items-center gap-2 mb-2">
+                <Trophy className="w-3.5 h-3.5 text-yellow-500" />
+                <span className="text-gray-500 text-xs uppercase tracking-wide">Awards</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {allAwards.slice(0, 5).map((item, i) => (
+                  <span 
+                    key={i} 
+                    className="text-xs px-2.5 py-1 bg-gradient-to-r from-yellow-900/40 to-amber-900/40 text-yellow-300 rounded-full border border-yellow-800/30"
+                  >
+                    🏆 {item.award}
+                  </span>
+                ))}
+                {allAwards.length > 5 && (
+                  <span className="text-xs px-2.5 py-1 text-yellow-400">
+                    +{allAwards.length - 5} more
+                  </span>
+                )}
               </div>
             </div>
           )}

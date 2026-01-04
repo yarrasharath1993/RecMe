@@ -1,0 +1,141 @@
+🔑 Smart Key Manager loaded:
+   groq: 6 keys
+   openai: 7 keys
+   cohere: 1 keys
+   huggingface: 1 keys
+🔑 Initializing AI client...
+(node:38006) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+🔍 Validating all API keys...
+   ✅ groq key validated (199ms)
+   ✅ groq key validated (216ms)
+   ✅ groq key validated (217ms)
+   ✅ groq key validated (220ms)
+   ✅ groq key validated (223ms)
+   ✅ groq key validated (229ms)
+   ❌ openai key failed: 401 Incorrect API key provided: sk-proj-**********
+   ❌ openai key failed: 401 Incorrect API key provided: sk-proj-**********
+   ✅ openai key validated (685ms)
+   ✅ openai key validated (987ms)
+   ✅ openai key validated (1009ms)
+   ✅ openai key validated (1073ms)
+   ✅ openai key validated (1175ms)
+
+📊 Key Manager Status:
+──────────────────────────────────────────────────
+groq: 6 keys (✅6 ⏳0 ❌0)
+openai: 7 keys (✅5 ⏳0 ❌2)
+cohere: 1 keys (✅0 ⏳0 ❌0)
+huggingface: 1 keys (✅0 ⏳0 ❌0)
+──────────────────────────────────────────────────
+✅ AI client ready
+
+
+🚀 Starting Editorial Review Rewriter
+============================================================
+Mode: LIVE
+Target: 100 movies
+Batch Size: 10
+Start From: 0
+============================================================
+
+📊 Fetching top 100 Telugu movies by our_rating...
+✅ Found 100 movies
+
+Top 10 movies to process:
+  1. Malini & Co. (2015) - 9.5 [masterpiece]
+  2. Malliswari (1951) - 9.5 [masterpiece]
+  3. Sagara Sangamam (1983) - 9.2 [masterpiece]
+  4. Sankarabharanam (1980) - 9.2 [masterpiece]
+  5. Lava Kusa (1963) - 9.2 [masterpiece]
+  6. Mayabazar (1957) - 9.2 [masterpiece]
+  7. Ashwamedham (1992) - 9.2 [masterpiece]
+  8. Sri Venkateswara Mahatmyam (1960) - 9.2 [masterpiece]
+  9. Pathala Bhairavi (1951) - 9.2 [masterpiece]
+  10. Magadheera (2009) - 9.2 [masterpiece]
+
+📈 Processing 100 movies in batches of 10...
+
+
+📦 Batch 1/10
+------------------------------------------------------------
+
+🎬 Processing: Malini & Co. (2015)
+   Review status: EXISTS (updating)
+
+🎬 Generating editorial review for movie: 07976920-4f85-4ae2-b14f-d9bad2e15efa
+📊 AI: ai_completion/undefined | 84→97 tokens | $0.000126 | 387ms | 🔄 generated
+📊 AI: ai_completion/undefined | 127→342 tokens | $0.000345 | 1493ms | 🔄 generated
+📊 AI: ai_completion/undefined | 385→134 tokens | $0.000333 | 1973ms | 🔄 generated
+📊 AI: ai_completion/undefined | 242→112 tokens | $0.000231 | 377ms | 🔄 generated
+📊 AI: ai_completion/undefined | 336→143 tokens | $0.000311 | 504ms | 🔄 generated
+📊 AI: ai_completion/undefined | 403→205 tokens | $0.000400 | 589ms | 🔄 generated
+📊 AI: ai_completion/undefined | 61→25 tokens | $0.000056 | 187ms | 🔄 generated
+📊 AI: ai_completion/undefined | 47→55 tokens | $0.000071 | 255ms | 🔄 generated
+📊 AI: ai_completion/undefined | 42→67 tokens | $0.000078 | 327ms | 🔄 generated
+📊 AI: ai_completion/undefined | 67→122 tokens | $0.000136 | 451ms | 🔄 generated
+📊 AI: ai_completion/undefined | 65→88 tokens | $0.000108 | 565ms | 🔄 generated
+   Quality Score: 90.0%
+   ✅ Review updated successfully
+
+🎬 Processing: Malliswari (1951)
+   Review status: MISSING (creating)
+
+🎬 Generating editorial review for movie: 2a9a0c32-9ff9-49e5-9ef4-6e90f600e07f
+📊 AI: ai_completion/undefined | 90→97 tokens | $0.000130 | 372ms | 🔄 generated
+📊 AI: ai_completion/undefined | 128→342 tokens | $0.000346 | 1757ms | 🔄 generated
+📊 AI: ai_completion/undefined | 385→132 tokens | $0.000331 | 1729ms | 🔄 generated
+📊 AI: ai_completion/undefined | 233→161 tokens | $0.000265 | 491ms | 🔄 generated
+📊 AI: ai_completion/undefined | 274→198 tokens | $0.000318 | 648ms | 🔄 generated
+📊 AI: ai_completion/undefined | 293→213 tokens | $0.000341 | 655ms | 🔄 generated
+📊 AI: ai_completion/undefined | 61→25 tokens | $0.000056 | 211ms | 🔄 generated
+📊 AI: ai_completion/undefined | 41→35 tokens | $0.000052 | 226ms | 🔄 generated
+📊 AI: ai_completion/undefined | 46→60 tokens | $0.000075 | 249ms | 🔄 generated
+📊 AI: ai_completion/undefined | 67→128 tokens | $0.000141 | 439ms | 🔄 generated
+📊 AI: ai_completion/undefined | 64→96 tokens | $0.000114 | 982ms | 🔄 generated
+   Quality Score: 85.0%
+   ❌ Error creating review: Could not find the 'review_text' column of 'movie_reviews' in the schema cache
+
+🎬 Processing: Sagara Sangamam (1983)
+   Review status: MISSING (creating)
+
+🎬 Generating editorial review for movie: 2a852220-fecb-4b1e-a2ef-a3058c88b043
+📊 AI: ai_completion/undefined | 89→100 tokens | $0.000132 | 405ms | 🔄 generated
+📊 AI: ai_completion/undefined | 127→343 tokens | $0.000346 | 1305ms | 🔄 generated
+📊 AI: ai_completion/undefined | 387→135 tokens | $0.000335 | 1925ms | 🔄 generated
+📊 AI: ai_completion/undefined | 274→173 tokens | $0.000298 | 549ms | 🔄 generated
+📊 AI: ai_completion/undefined | 233→149 tokens | $0.000255 | 645ms | 🔄 generated
+📊 AI: ai_completion/undefined | 291→226 tokens | $0.000350 | 836ms | 🔄 generated
+📊 AI: ai_completion/undefined | 42→42 tokens | $0.000058 | 373ms | 🔄 generated
+📊 AI: ai_completion/undefined | 48→54 tokens | $0.000071 | 422ms | 🔄 generated
+📊 AI: ai_completion/undefined | 60→81 tokens | $0.000099 | 424ms | 🔄 generated
+📊 AI: ai_completion/undefined | 68→119 tokens | $0.000134 | 583ms | 🔄 generated
+📊 AI: ai_completion/undefined | 66→112 tokens | $0.000127 | 971ms | 🔄 generated
+   Quality Score: 90.0%
+   ❌ Error creating review: Could not find the 'review_text' column of 'movie_reviews' in the schema cache
+
+🎬 Processing: Sankarabharanam (1980)
+   Review status: MISSING (creating)
+
+🎬 Generating editorial review for movie: 99e725b0-4ccf-49c7-8295-dc2aec633399
+📊 AI: ai_completion/undefined | 89→98 tokens | $0.000130 | 415ms | 🔄 generated
+📊 AI: ai_completion/undefined | 127→356 tokens | $0.000356 | 1108ms | 🔄 generated
+📊 AI: ai_completion/undefined | 400→134 tokens | $0.000342 | 1735ms | 🔄 generated
+📊 AI: ai_completion/undefined | 233→138 tokens | $0.000246 | 487ms | 🔄 generated
+📊 AI: ai_completion/undefined | 274→142 tokens | $0.000274 | 513ms | 🔄 generated
+📊 AI: ai_completion/undefined | 291→206 tokens | $0.000334 | 683ms | 🔄 generated
+📊 AI: ai_completion/undefined | 60→40 tokens | $0.000067 | 255ms | 🔄 generated
+📊 AI: ai_completion/undefined | 42→39 tokens | $0.000056 | 256ms | 🔄 generated
+📊 AI: ai_completion/undefined | 48→64 tokens | $0.000079 | 275ms | 🔄 generated
+📊 AI: ai_completion/undefined | 68→104 tokens | $0.000122 | 473ms | 🔄 generated
+📊 AI: ai_completion/undefined | 68→106 tokens | $0.000124 | 749ms | 🔄 generated
+   Quality Score: 84.0%
+   ❌ Error creating review: Could not find the 'review_text' column of 'movie_reviews' in the schema cache
+
+🎬 Processing: Lava Kusa (1963)
+   Review status: MISSING (creating)
+
+🎬 Generating editorial review for movie: 97aec26f-f735-4dc8-91af-15d154c31483
+📊 AI: ai_completion/undefined | 87→83 tokens | $0.000117 | 340ms | 🔄 generated
+📊 AI: ai_completion/undefined | 125→320 tokens | $0.000327 | 1069ms | 🔄 generated
+📊 AI: ai_completion/undefined | 362→135 tokens | $0.000320 | 1765ms | 🔄 generated

@@ -15,7 +15,7 @@ import { CompactSynopsis } from "@/components/reviews/CompactSynopsis";
 import { QuickVerdictCard } from "@/components/reviews/QuickVerdictCard";
 import { CompactRatings } from "@/components/reviews/CompactRatings";
 import { CompactCast } from "@/components/reviews/CompactCast";
-import { ReviewAccordion, PerformanceContent, StoryContent, DirectionContent, CulturalContent, AwardsContent } from "@/components/reviews/ReviewAccordion";
+import { ReviewAccordion, PerformanceContent, StoryContent, DirectionContent, CulturalContent } from "@/components/reviews/ReviewAccordion";
 import { MovieBadges } from "@/components/reviews/MovieBadges";
 import type { Movie, MovieReview } from '@/types/reviews';
 import type { ReviewInsights } from "@/lib/reviews/review-insights";
@@ -295,6 +295,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
                   whySkip={editorialReview?.why_skip}
                   verdict={editorialReview?.verdict}
                   qualityScore={editorialReview?._quality_score}
+                  awards={editorialReview?.awards}
                 />
               </div>
             </div>
@@ -309,6 +310,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
           whySkip={editorialReview?.why_skip}
           verdict={editorialReview?.verdict}
           qualityScore={editorialReview?._quality_score}
+          awards={editorialReview?.awards}
         />
       </div>
 
@@ -346,12 +348,6 @@ export default async function MovieReviewPage({ params }: PageProps) {
                 title: 'Cultural Impact',
                 icon: 'cultural' as const,
                 content: <CulturalContent cultural={editorialReview.cultural_impact} />
-              }] : []),
-              ...(editorialReview.awards ? [{
-                id: 'awards',
-                title: 'Awards & Achievements',
-                icon: 'awards' as const,
-                content: <AwardsContent awards={editorialReview.awards} />
               }] : []),
             ]}
           />

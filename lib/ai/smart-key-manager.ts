@@ -102,7 +102,8 @@ class SmartKeyManager {
    */
   private loadKeys(): void {
     const keyPatterns: Record<AIProvider, string[]> = {
-      groq: ['GROQ_API_KEY', 'GROQ_API_KEY_2', 'GROQ_API_KEY_3', 'GROQ_API_KEY_4', 'GROQ_API_KEY_5', 'GROQ_API_KEY_6'],
+        // UPGRADED/UNLIMITED KEY FIRST for priority
+        groq: ['GROQ_API_KEY_UNLIMITED', 'GROQ_API_KEY', 'GROQ_API_KEY_2', 'GROQ_API_KEY_3', 'GROQ_API_KEY_4', 'GROQ_API_KEY_5', 'GROQ_API_KEY_6'],
       openai: ['OPENAI_API_KEY', 'OPENAI_API_KEY_2', 'OPENAI_API_KEY_3', 'OPENAI_API_KEY_4', 'OPENAI_API_KEY_5', 'OPENAI_API_KEY_6', 'OPENAI_API_KEY_7'],
       cohere: ['COHERE_API_KEY', 'COHERE_API_KEY_2'],
       huggingface: ['HUGGINGFACE_API_KEY', 'HF_API_KEY'],

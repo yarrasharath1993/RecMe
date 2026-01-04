@@ -18,15 +18,16 @@ interface RewriteOptions {
 }
 
 async function fetchTopTeluguMovies(limit: number = 500): Promise<any[]> {
-  console.log(`📊 Fetching top ${limit} Telugu movies...`);
+  console.log(`📊 Fetching top ${limit} Telugu movies by our_rating (with images)...`);
   
   const { data, error } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, release_year, avg_rating')
+    .select('id, title_en, title_te, slug, release_year, our_rating, avg_rating, verdict')
     .eq('language', 'Telugu')
     .eq('is_published', true)
-    .not('avg_rating', 'is', null)
-    .order('avg_rating', { ascending: false })
+    .not('our_rating', 'is', null)
+    .not('poster_url', 'is', null) // Only movies with images
+    .order('our_rating', { ascending: false })
     .limit(limit);
 
   if (error) {
@@ -35,6 +36,14 @@ async function fetchTopTeluguMovies(limit: number = 500): Promise<any[]> {
   }
 
   console.log(`✅ Found ${data?.length || 0} movies\n`);
+
+  // Show top 10
+  console.log('Top 10 movies to process:');
+  data?.slice(0, 10).forEach((m, i) => {
+    console.log(`  ${i + 1}. ${m.title_en} (${m.release_year}) - ${m.our_rating} [${m.verdict}]`);
+  });
+  console.log('');
+
   return data || [];
 }
 
@@ -42,22 +51,42 @@ async function rewriteReview(movie: any, dryRun: boolean = false): Promise<{ suc
   try {
     console.log(`\n🎬 Processing: ${movie.title_en} (${movie.release_year})`);
     
-    // Generate editorial review
-    const editorialReview = await generateEditorialReview(movie.id);
+    // Check if review exists
+    const { data: existingReview } = await supabase
+      .from('movie_reviews')
+      .select('id')
+      .eq('movie_id', movie.id)
+      .single();
+
+    const hasExistingReview = !!existingReview;
+    console.log(`   Review status: ${hasExistingReview ? 'EXISTS (updating)' : 'MISSING (creating)'}`);
+
+    // Generate editorial review with retry for quality
+    let editorialReview = await generateEditorialReview(movie.id);
+    let retryCount = 0;
+    const maxRetries = 2;
+    const minQuality = 0.85; // 85% minimum quality
     
-    console.log(`   Quality Score: ${(editorialReview.quality_score * 100).toFixed(1)}%`);
+    while (editorialReview.quality_score < minQuality && retryCount < maxRetries) {
+      retryCount++;
+      console.log(`   ⚠️  Quality ${(editorialReview.quality_score * 100).toFixed(1)}% < ${minQuality * 100}%, retry ${retryCount}/${maxRetries}...`);
+      await new Promise(resolve => setTimeout(resolve, 2000)); // Wait before retry
+      editorialReview = await generateEditorialReview(movie.id);
+    }
     
-    // Validate quality
-    if (editorialReview.quality_score < 0.7) {
-      console.warn(`   ⚠️  Low quality score, skipping...`);
+    console.log(`   Quality Score: ${(editorialReview.quality_score * 100).toFixed(1)}%${retryCount > 0 ? ` (after ${retryCount} retries)` : ''}`);
+    
+    // Validate quality - accept 80%+ after retries
+    if (editorialReview.quality_score < 0.80) {
+      console.warn(`   ❌ Quality too low after retries, skipping...`);
       return { success: false, qualityScore: editorialReview.quality_score };
     }
 
     if (dryRun) {
-      console.log(`   🔍 DRY RUN - Would save review`);
-      console.log(`   Synopsis length: ${editorialReview.synopsis.en.split(' ').length} words`);
-      console.log(`   Lead actors: ${editorialReview.performances.lead_actors.length}`);
-      console.log(`   Verdict: ${editorialReview.verdict.category}`);
+      console.log(`   🔍 DRY RUN - Would ${hasExistingReview ? 'update' : 'create'} review`);
+      console.log(`   Synopsis length: ${editorialReview.synopsis?.en?.split(' ').length || 0} words`);
+      console.log(`   Lead actors: ${editorialReview.performances?.lead_actors?.length || 0}`);
+      console.log(`   Verdict: ${editorialReview.verdict?.category || 'N/A'}`);
       return { success: true, qualityScore: editorialReview.quality_score };
     }
 
@@ -70,19 +99,39 @@ async function rewriteReview(movie: any, dryRun: boolean = false): Promise<{ suc
       _generated_at: new Date().toISOString(),
     };
 
-    const { error } = await supabase
-      .from('movie_reviews')
-      .update({
-        dimensions_json: reviewData,
-      })
-      .eq('movie_id', movie.id);
+    if (hasExistingReview) {
+    // Update existing review
+      const { error } = await supabase
+        .from('movie_reviews')
+        .update({
+          dimensions_json: reviewData,
+          overall_rating: editorialReview.verdict?.final_rating || null,
+        })
+        .eq('movie_id', movie.id);
 
-    if (error) {
-      console.error(`   ❌ Error saving review:`, error.message);
-      return { success: false, qualityScore: editorialReview.quality_score };
+      if (error) {
+        console.error(`   ❌ Error updating review:`, error.message);
+        return { success: false, qualityScore: editorialReview.quality_score };
+      }
+    } else {
+      // Create new review - use correct column names
+      const { error } = await supabase
+        .from('movie_reviews')
+        .insert({
+          movie_id: movie.id,
+          reviewer_name: 'TeluguVibes Editorial',
+          summary: editorialReview.synopsis?.en || '',
+          overall_rating: editorialReview.verdict?.final_rating || null,
+          dimensions_json: reviewData,
+        });
+
+      if (error) {
+        console.error(`   ❌ Error creating review:`, error.message);
+        return { success: false, qualityScore: editorialReview.quality_score };
+      }
     }
 
-    console.log(`   ✅ Review saved successfully`);
+    console.log(`   ✅ Review ${hasExistingReview ? 'updated' : 'created'} successfully`);
     return { success: true, qualityScore: editorialReview.quality_score };
   } catch (error: any) {
     console.error(`   ❌ Error generating review:`, error.message);
@@ -180,6 +229,12 @@ async function main() {
     const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 500;
     const batchSize = batchArg ? parseInt(batchArg.split('=')[1]) : 10;
     const startFrom = startArg ? parseInt(startArg.split('=')[1]) : 0;
+
+    // Initialize AI client with key validation
+    console.log('🔑 Initializing AI client...');
+    const { smartAI } = await import('../lib/ai/smart-key-manager');
+    await smartAI.initialize();
+    console.log('✅ AI client ready\n');
 
     await rewriteTopTeluguReviews({
       limit,

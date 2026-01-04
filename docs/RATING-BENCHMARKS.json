@@ -1,0 +1,255 @@
+{
+  "masterpiece": {
+    "movie": {
+      "slug": "mayabazar-1957",
+      "title_en": "Mayabazar",
+      "release_year": 1957,
+      "hero": null,
+      "director": null,
+      "avg_rating": 7.9,
+      "is_blockbuster": false,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 9.2,
+      "category": "masterpiece",
+      "cult": true,
+      "quality_score": 0.85,
+      "scores": {
+        "story": 8,
+        "direction": 8,
+        "performances": [
+          {
+            "name": "N.T. Rama Rao",
+            "score": 8.5
+          },
+          {
+            "name": "Savithri",
+            "score": 7.5
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": true,
+        "legacy_status": "Notable Film",
+        "memorable_elements": [
+          "Savithri's comedic role",
+          "NTR's iconic portrayal"
+        ],
+        "influence_on_cinema": "Inspired numerous remakes and adaptations, shaping the fantasy genre",
+        "cultural_significance": "Revolutionized Indian cinema with mythological storytelling, memorable characters, and catchy music"
+      }
+    }
+  },
+  "must-watch": {
+    "movie": {
+      "slug": "mahanati-2018",
+      "title_en": "Mahanati",
+      "release_year": 2018,
+      "hero": null,
+      "director": null,
+      "avg_rating": 7.5,
+      "is_blockbuster": true,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 8.6,
+      "category": "must-watch",
+      "cult": true,
+      "quality_score": 0.85,
+      "scores": {
+        "story": 8,
+        "direction": 8,
+        "performances": [
+          {
+            "name": "Keerthy Suresh",
+            "score": 9
+          },
+          {
+            "name": "Dulquer Salmaan",
+            "score": 8
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": true,
+        "legacy_status": "Blockbuster",
+        "memorable_elements": [
+          "Savitri's tragic life story",
+          "Keerthy Suresh's stellar performance"
+        ],
+        "influence_on_cinema": "Revitalized biographical dramas in Indian cinema",
+        "cultural_significance": "Mahanati celebrated Savitri's life, empowering women and preserving Telugu cinema's history"
+      }
+    }
+  },
+  "mass-classic": {
+    "movie": {
+      "slug": "athadu-2005",
+      "title_en": "Athadu",
+      "release_year": 2005,
+      "hero": "Mahesh Babu",
+      "director": "Trivikram Srinivas",
+      "avg_rating": 7.28,
+      "is_blockbuster": true,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 8.4,
+      "category": "mass-classic",
+      "cult": true,
+      "quality_score": 0.9,
+      "scores": {
+        "story": 8,
+        "direction": 8,
+        "performances": [
+          {
+            "name": "Mahesh Babu",
+            "score": 8
+          },
+          {
+            "name": "Trisha Krishnan",
+            "score": 7
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": true,
+        "legacy_status": "Notable Film",
+        "memorable_elements": [
+          "interval block",
+          "Mahesh Babu's dialogue delivery"
+        ],
+        "influence_on_cinema": "Inspired action-thrillers in Tollywood",
+        "cultural_significance": "Revolutionized Telugu cinema with stylish narration and Mahesh Babu's performance"
+      }
+    }
+  },
+  "highly-recommended": {
+    "movie": {
+      "slug": "samsaram-oka-chadarangam-1987",
+      "title_en": "Samsaram Oka Chadarangam",
+      "release_year": 1987,
+      "hero": null,
+      "director": null,
+      "avg_rating": 8,
+      "is_blockbuster": false,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 7.9,
+      "category": "highly-recommended",
+      "cult": true,
+      "quality_score": 0.9,
+      "scores": {
+        "story": 8,
+        "direction": 8,
+        "performances": [
+          {
+            "name": "Unknown",
+            "score": 8
+          },
+          {
+            "name": "Unknown",
+            "score": 7
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": false,
+        "legacy_status": "Notable Film",
+        "memorable_elements": [
+          "Humorous scenes",
+          "Emotional dialogues",
+          "Melodious songs"
+        ],
+        "influence_on_cinema": "It influenced later family dramas with its relatable portrayal of everyday life.",
+        "cultural_significance": "Samsaram Oka Chadarangam reflected middle-class family values, resonating with 80s Telugu audiences."
+      }
+    }
+  },
+  "watchable": {
+    "movie": {
+      "slug": "jamba-lakidi-pamba-2018",
+      "title_en": "Jamba Lakidi Pamba",
+      "release_year": 2018,
+      "hero": null,
+      "director": null,
+      "avg_rating": 7,
+      "is_blockbuster": false,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 6.8,
+      "category": "watchable",
+      "cult": false,
+      "quality_score": 0.87,
+      "scores": {
+        "story": 6,
+        "direction": 7,
+        "performances": [
+          {
+            "name": "Unknown",
+            "score": 8
+          },
+          {
+            "name": "Unknown",
+            "score": 7
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": false,
+        "legacy_status": "Notable Film",
+        "memorable_elements": [
+          "Srinivas Reddy's comedy",
+          "Sidhu Jonnalagadda's performance"
+        ],
+        "influence_on_cinema": "This film influenced later Telugu comedies with its unique storytelling and satire.",
+        "cultural_significance": "Jamba Lakidi Pamba explores Telugu culture, relationships, and social norms, offering a comedic perspective on marriage and family values."
+      }
+    }
+  },
+  "one-time-watch": {
+    "movie": {
+      "slug": "inttelligent-2018",
+      "title_en": "Inttelligent",
+      "release_year": 2018,
+      "hero": null,
+      "director": null,
+      "avg_rating": 6.6,
+      "is_blockbuster": false,
+      "is_classic": false
+    },
+    "editorial_review": {
+      "final_rating": 6.2,
+      "category": "one-time-watch",
+      "cult": false,
+      "quality_score": 0.87,
+      "scores": {
+        "story": 6,
+        "direction": 7,
+        "performances": [
+          {
+            "name": "Sai Dharam Tej",
+            "score": 6
+          },
+          {
+            "name": "Lavanya Tripathi",
+            "score": 5
+          }
+        ]
+      },
+      "cultural_impact": {
+        "cult_status": false,
+        "legacy_status": "Notable Film",
+        "memorable_elements": [
+          "Sai Dharam Tej's performance",
+          "Vennela Kishore's comedy"
+        ],
+        "influence_on_cinema": "Influence on Telugu cinema was minor, with few notable aspects",
+        "cultural_significance": "Inttelligent had limited cultural impact due to mixed reviews"
+      }
+    }
+  }
+}
