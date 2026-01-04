@@ -175,6 +175,8 @@ interface ReviewDataSources {
 
 // Track last successful provider globally to avoid restarting from groq each time
 let lastSuccessfulProvider: AIProvider | null = null;
+// Track providers that are currently rate limited (cleared after cooldown)
+const rateLimitedProviders: Set<AIProvider> = new Set();
 
 export class EditorialReviewGenerator {
   private supabase: ReturnType<typeof createClient>;
@@ -322,19 +324,33 @@ export class EditorialReviewGenerator {
     const maxRetries = 2; // Reduced retries per provider since we have more providers
     let lastError: Error | null = null;
     
-    // Build fallback chain based on available providers
+    // Build fallback chain based on available providers, skipping rate-limited ones
     // Priority: groq (fastest) > openai (best JSON) > cohere > huggingface
     const allProviders: AIProvider[] = ['groq', 'openai', 'cohere', 'huggingface'];
-    const providers: AIProvider[] = [this.preferredProvider];
     
-    // Add other available providers as fallbacks
+    // Start with last successful provider if available, skip rate-limited ones
+    const startProvider = lastSuccessfulProvider && !rateLimitedProviders.has(lastSuccessfulProvider) 
+      ? lastSuccessfulProvider 
+      : allProviders.find(p => !rateLimitedProviders.has(p) && keyManager.hasKeys(p)) || this.preferredProvider;
+    
+    const providers: AIProvider[] = [startProvider];
+    
+    // Add other available providers as fallbacks (skip rate-limited)
     for (const p of allProviders) {
-      if (p !== this.preferredProvider && keyManager.hasKeys(p)) {
+      if (p !== startProvider && keyManager.hasKeys(p) && !rateLimitedProviders.has(p)) {
         providers.push(p);
       }
     }
+    
+    // If all are rate-limited, try all anyway
+    if (providers.length === 0) {
+      providers.push(...allProviders.filter(p => keyManager.hasKeys(p)));
+    }
 
+    console.log(`📋 Providers: ${providers.join(' → ')} (rate-limited: ${Array.from(rateLimitedProviders).join(', ') || 'none'})`);
+    
     for (const provider of providers) {
+      console.log(`\n🔄 Trying provider: ${provider}`);
       for (let attempt = 0; attempt < maxRetries; attempt++) {
         const client = this.getAIClient(provider);
         
@@ -379,6 +395,13 @@ export class EditorialReviewGenerator {
           
           console.warn(`⚠️ ${provider} request failed (attempt ${attempt + 1}/${maxRetries}): ${reason}`);
           keyManager.markKeyFailed(provider, client.key, reason);
+          
+          // Mark provider as rate-limited if that's the reason
+          if (reason === 'rate_limit') {
+            rateLimitedProviders.add(provider);
+            // Clear after 60 seconds
+            setTimeout(() => rateLimitedProviders.delete(provider), 60000);
+          }
           
           // Small delay before retry
           if (attempt < maxRetries - 1) {

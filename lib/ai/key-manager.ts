@@ -21,6 +21,10 @@
  *   const nextKey = keyManager.getKey('groq'); // Gets next key
  */
 
+// Load environment variables
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+
 // ============================================================
 // TYPES
 // ============================================================
