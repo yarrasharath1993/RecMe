@@ -957,15 +957,26 @@ Return ONLY valid JSON:
     // Calculate proper rating from multiple sources (NOT just avg_rating which can be inflated)
     const rating = this.calculateFinalRating(sources, generatedScores);
     
-    // Determine category based on calculated rating and movie attributes
-    let category: EditorialReview['verdict']['category'] = 'one-time-watch';
-    const isBlockbuster = sources.movie.is_blockbuster;
-    const isClassic = sources.movie.is_classic;
-    const isUnderrated = sources.movie.is_underrated;
+    // Determine movie attributes for category classification
+    const tmdbRating = sources.movie.avg_rating || 5.0;
+    const boxOffice = sources.movie.worldwide_gross_inr || 0;
+    const releaseYear = sources.movie.release_year || 2020;
+    const isOldClassic = releaseYear < 1990;
+    const isBlockbuster = boxOffice > 1000000000 || tmdbRating >= 8.5 || sources.movie.is_blockbuster;
+    const isClassic = isOldClassic || sources.movie.is_classic;
+    const isCultClassic = culturalImpact.cult_status || (isOldClassic && tmdbRating >= 7.0);
+    const isHiddenGem = sources.movie.is_underrated || (tmdbRating >= 7.0 && boxOffice < 100000000);
     
-    if (rating >= 8.5 && (isBlockbuster || isClassic)) category = 'must-watch';
-    else if (rating >= 8.0) category = culturalImpact.cult_status ? 'cult' : 'blockbuster';
-    else if (rating >= 7.0) category = isUnderrated ? 'hidden-gem' : 'recommended';
+    // Determine category based on rating and attributes
+    let category: EditorialReview['verdict']['category'] = 'one-time-watch';
+    
+    if (rating >= 9.0) category = 'must-watch';
+    else if (rating >= 8.5 && (isBlockbuster || isClassic)) category = 'must-watch';
+    else if (rating >= 8.0 && isBlockbuster) category = 'blockbuster';
+    else if (rating >= 8.0 && isCultClassic) category = 'cult';
+    else if (rating >= 7.5 && isHiddenGem) category = 'hidden-gem';
+    else if (rating >= 7.5) category = 'blockbuster';
+    else if (rating >= 7.0) category = 'recommended';
     else if (rating >= 6.0) category = 'one-time-watch';
     else if (rating >= 5.0) category = 'average';
     else category = 'skippable';
@@ -997,6 +1008,7 @@ Return ONLY valid JSON:
 
   /**
    * Calculate proper final rating from multiple sources
+   * IMPROVED: Better weights, category boosts, and wider distribution
    */
   private calculateFinalRating(
     sources: ReviewDataSources,
@@ -1006,45 +1018,71 @@ Return ONLY valid JSON:
       performanceScores?: number[];
     }
   ): number {
+    // Determine movie category for differentiated scoring
+    const tmdbRating = sources.movie.avg_rating || 5.0;
+    const boxOffice = sources.movie.worldwide_gross_inr || 0;
+    const releaseYear = sources.movie.release_year || 2020;
+    const isOldClassic = releaseYear < 1990;
+    const isBlockbuster = boxOffice > 1000000000 || tmdbRating >= 8.5; // 100 crore+ or high TMDB
+    const isHit = boxOffice > 500000000 || tmdbRating >= 7.5;
+    const isCultClassic = isOldClassic && tmdbRating >= 7.0;
+    
+    // Calculate category boost
+    let categoryBoost = 0;
+    let categoryName = 'regular';
+    if (isBlockbuster) {
+      categoryBoost = 0.8;
+      categoryName = 'blockbuster';
+    } else if (isCultClassic || isOldClassic) {
+      categoryBoost = 1.0;
+      categoryName = 'classic';
+    } else if (isHit) {
+      categoryBoost = 0.5;
+      categoryName = 'hit';
+    }
+    
+    // Collect scores with new weights
     const scores: number[] = [];
     const weights: number[] = [];
     
-    // 1. Existing review's overall_rating (weight: 30%) - most reliable if exists
-    // Fetched from movie_reviews table, not the inflated movies.avg_rating
-    if (sources.review_rating && sources.review_rating > 0 && sources.review_rating <= 10) {
-      scores.push(sources.review_rating);
-      weights.push(0.30);
-    }
-    
-    // 2. Generated story score (weight: 20%)
+    // 1. Story score (weight: 25%) - primary quality indicator
     if (generatedScores?.storyScore && generatedScores.storyScore > 0) {
       scores.push(generatedScores.storyScore);
-      weights.push(0.20);
+      weights.push(0.25);
     }
     
-    // 3. Generated direction score (weight: 20%)
+    // 2. Direction score (weight: 25%) - technical quality
     if (generatedScores?.directionScore && generatedScores.directionScore > 0) {
       scores.push(generatedScores.directionScore);
-      weights.push(0.20);
+      weights.push(0.25);
     }
     
-    // 4. Average of performance scores (weight: 15%)
+    // 3. Performance scores (weight: 20%) - acting quality
     if (generatedScores?.performanceScores && generatedScores.performanceScores.length > 0) {
       const avgPerf = generatedScores.performanceScores.reduce((a, b) => a + b, 0) / generatedScores.performanceScores.length;
       scores.push(avgPerf);
-      weights.push(0.15);
+      weights.push(0.20);
     }
     
-    // 5. TMDB/avg_rating as fallback (weight: 15%) - but cap it at 8.5 to prevent inflation
-    const tmdbRating = Math.min(sources.movie.avg_rating || 5.0, 8.5);
-    if (scores.length < 3) {
-      scores.push(tmdbRating);
-      weights.push(0.15);
+    // 4. TMDB rating (weight: 20%) - audience consensus
+    // For blockbusters/classics: allow up to 9.5 (minimal cap)
+    // For regular movies: cap at 8.5 to prevent inflation
+    const cappedTmdb = isBlockbuster || isCultClassic 
+      ? Math.min(tmdbRating, 9.5)
+      : Math.min(tmdbRating, 8.5);
+    scores.push(cappedTmdb);
+    weights.push(0.20);
+    
+    // 5. DB Rating (weight: 10%) - only if reliable (> 6.0)
+    // Reduced from 30% to 10% as it was dragging scores down
+    if (sources.review_rating && sources.review_rating > 6.0 && sources.review_rating <= 10) {
+      scores.push(sources.review_rating);
+      weights.push(0.10);
     }
     
-    // If we have no scores at all, use a conservative default
+    // If we have no scores at all, use TMDB as fallback
     if (scores.length === 0) {
-      return 6.0;
+      return Math.min(tmdbRating, 7.5);
     }
     
     // Normalize weights
@@ -1057,8 +1095,11 @@ Return ONLY valid JSON:
       finalRating += scores[i] * normalizedWeights[i];
     }
     
-    // Clamp between 1 and 10
-    finalRating = Math.max(1, Math.min(10, finalRating));
+    // Apply category boost
+    finalRating += categoryBoost;
+    
+    // Clamp between 5.0 and 9.5 (reasonable range for movies)
+    finalRating = Math.max(5.0, Math.min(9.5, finalRating));
     
     // Round to 1 decimal
     return Math.round(finalRating * 10) / 10;
