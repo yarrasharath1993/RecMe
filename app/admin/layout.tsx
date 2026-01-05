@@ -18,7 +18,9 @@ import {
   MessageSquareQuote,
   Database,
   Zap,
-  Activity
+  Activity,
+  Edit,
+  BarChart3,
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -85,8 +87,11 @@ export default async function AdminLayout({
             <NavItem href="/admin/movie-catalogue" icon={Film}>
               Movie Control Center
             </NavItem>
-            <NavItem href="/admin/reviews-coverage" icon={Film}>
-              Review Quality & Coverage
+            <NavItem href="/admin/reviews" icon={Edit}>
+              Movie Reviews
+            </NavItem>
+            <NavItem href="/admin/reviews-coverage" icon={BarChart3}>
+              Review Coverage
             </NavItem>
             <NavItem href="/admin/knowledge-graph" icon={Database}>
               Entity Integrity Graph

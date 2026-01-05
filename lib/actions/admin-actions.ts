@@ -252,6 +252,83 @@ export async function rejectReview(reviewId: string) {
   return { success: true };
 }
 
+export async function updateMovieReview(
+  movieId: string,
+  data: {
+    overall_rating?: number;
+    direction_rating?: number;
+    screenplay_rating?: number;
+    acting_rating?: number;
+    music_rating?: number;
+    cinematography_rating?: number;
+    production_rating?: number;
+    entertainment_rating?: number;
+    title?: string;
+    title_te?: string;
+    summary?: string;
+    summary_te?: string;
+    verdict?: string;
+    verdict_te?: string;
+    direction_review?: string;
+    screenplay_review?: string;
+    acting_review?: string;
+    music_review?: string;
+    cinematography_review?: string;
+    strengths?: string[];
+    weaknesses?: string[];
+    recommended_for?: string[];
+    is_featured?: boolean;
+    is_spoiler_free?: boolean;
+    status?: string;
+    worth_watching?: boolean;
+  }
+) {
+  await requireAdmin();
+
+  // Check if review exists
+  const { data: existingReview } = await supabase
+    .from('movie_reviews')
+    .select('id')
+    .eq('movie_id', movieId)
+    .single();
+
+  const reviewData = {
+    ...data,
+    movie_id: movieId,
+    reviewer_type: 'admin',
+    reviewer_name: 'TeluguVibes Editor',
+    updated_at: new Date().toISOString(),
+  };
+
+  if (existingReview) {
+    const { error } = await supabase
+      .from('movie_reviews')
+      .update(reviewData)
+      .eq('id', existingReview.id);
+
+    if (error) {
+      throw new Error(`Failed to update review: ${error.message}`);
+    }
+  } else {
+    const { error } = await supabase
+      .from('movie_reviews')
+      .insert({
+        ...reviewData,
+        created_at: new Date().toISOString(),
+      });
+
+    if (error) {
+      throw new Error(`Failed to create review: ${error.message}`);
+    }
+  }
+
+  revalidatePath('/reviews');
+  revalidatePath('/admin/reviews');
+  revalidatePath(`/reviews/*`);
+
+  return { success: true };
+}
+
 // ============================================================
 // CELEBRITY ACTIONS
 // ============================================================
@@ -499,6 +576,7 @@ export async function getAdminStats() {
     totalCelebrities: celebritiesResult.count || 0,
   };
 }
+
 
 
 
