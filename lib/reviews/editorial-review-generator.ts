@@ -21,6 +21,7 @@ import { modelRouter, TaskType } from '../ai/model-router';
 import { aiCache } from '../ai/cache';
 import { aiMetrics } from '../ai/metrics';
 import { gatherMultiSourceData, type MultiSourceMovieData } from './multi-source-data';
+import { transformExternalData, applyTemplatePatterns, type TransformedReviewData } from './external-data-transformer';
 
 // ============================================================
 // AI PROVIDER CONFIGURATION
@@ -142,6 +143,9 @@ export interface EditorialReview {
   sources_used: string[];
   generated_at: string;
   quality_score: number;
+  
+  // Enrichment tracking - which sections came from which source
+  enrichment_sources?: Record<string, string>;
 }
 
 interface CastMember {
@@ -260,6 +264,8 @@ interface ReviewDataSources {
   };
   // Multi-source data (reduces AI calls by providing factual data)
   multiSource?: MultiSourceMovieData;
+  // Transformed data from external sources (template-processed)
+  transformed?: TransformedReviewData;
 }
 
 // ============================================================
@@ -562,6 +568,8 @@ export class EditorialReviewGenerator {
       sources_used: [...new Set(sourcesUsed)],
       generated_at: new Date().toISOString(),
       quality_score: 0, // Will be calculated
+      // Track which sections came from which source
+      enrichment_sources: sources.transformed?.enrichmentSources || {},
     };
 
     // 6. Calculate quality score
@@ -617,6 +625,32 @@ export class EditorialReviewGenerator {
       console.log(`  - Legacy: ${multiSource.aiContext.hasLegacy ? '✓' : '✗'}`);
     }
 
+    // Transform external data through template layer
+    let transformed: TransformedReviewData | undefined;
+    if (multiSource) {
+      transformed = transformExternalData(multiSource, {
+        title: enrichedMovie.title_en,
+        titleTe: enrichedMovie.title_te,
+        hero: enrichedMovie.hero,
+        heroine: enrichedMovie.heroine,
+        genres: enrichedMovie.genres,
+        releaseYear: enrichedMovie.release_year,
+      });
+      
+      // Apply template patterns (Telugu templates)
+      transformed = applyTemplatePatterns(transformed, {
+        title: enrichedMovie.title_en,
+        titleTe: enrichedMovie.title_te,
+        hero: enrichedMovie.hero,
+        director: enrichedMovie.director,
+        genres: enrichedMovie.genres,
+      });
+      
+      console.log(`[Editorial] Template transformation applied:`);
+      console.log(`  - AI sections needed: ${transformed.aiSectionsNeeded.join(', ')}`);
+      console.log(`  - Enrichment sources: ${JSON.stringify(transformed.enrichmentSources)}`);
+    }
+
     return {
       movie: enrichedMovie,
       review_rating: review?.overall_rating || review?.composite_score || 0,
@@ -631,6 +665,7 @@ export class EditorialReviewGenerator {
         vote_average: movie.avg_rating || 0,
       },
       multiSource: multiSource || undefined,
+      transformed,
     };
   }
 
@@ -1456,6 +1491,181 @@ Return ONLY valid JSON:
   }
 }
 
+  /**
+   * Check if a movie already has an AI-generated editorial review
+   * Returns the existing review if it exists and is AI-generated
+   */
+  async getExistingReview(movieId: string): Promise<{ 
+    exists: boolean; 
+    isAiGenerated: boolean;
+    review?: any;
+    enrichmentSources?: Record<string, string>;
+  }> {
+    const { data, error } = await this.supabase
+      .from('movie_reviews')
+      .select('id, editorial_review, enrichment_sources, source, updated_at')
+      .eq('movie_id', movieId)
+      .single();
+    
+    if (error || !data) {
+      return { exists: false, isAiGenerated: false };
+    }
+    
+    const isAiGenerated = data.source === 'ai_editorial' || 
+                          data.editorial_review?.generated_at !== undefined;
+    
+    return {
+      exists: true,
+      isAiGenerated,
+      review: data.editorial_review,
+      enrichmentSources: data.enrichment_sources || {},
+    };
+  }
+
+  /**
+   * Enrich an existing AI review without overwriting its content
+   * Only adds missing sections from external sources
+   */
+  async enrichExistingReview(
+    movieId: string,
+    existingReview: any,
+    existingEnrichmentSources: Record<string, string>
+  ): Promise<{ enriched: boolean; sectionsAdded: string[] }> {
+    // Gather new multi-source data
+    const multiSource = await gatherMultiSourceData(movieId).catch(() => null);
+    
+    if (!multiSource) {
+      return { enriched: false, sectionsAdded: [] };
+    }
+    
+    // Get movie data for transformer
+    const { data: movie } = await this.supabase
+      .from('movies')
+      .select('title_en, title_te, hero, heroine, director, genres, release_year')
+      .eq('id', movieId)
+      .single();
+    
+    if (!movie) {
+      return { enriched: false, sectionsAdded: [] };
+    }
+    
+    // Transform external data
+    const transformed = transformExternalData(multiSource, {
+      title: movie.title_en,
+      titleTe: movie.title_te,
+      hero: movie.hero,
+      heroine: movie.heroine,
+      genres: movie.genres,
+      releaseYear: movie.release_year,
+    });
+    
+    const sectionsAdded: string[] = [];
+    const updatedReview = { ...existingReview };
+    const updatedSources = { ...existingEnrichmentSources };
+    
+    // Only add ratings if not present
+    if (!existingReview.ratings && transformed.ratings) {
+      updatedReview.ratings = transformed.ratings;
+      updatedSources['ratings'] = 'multi_source';
+      sectionsAdded.push('ratings');
+    }
+    
+    // Only add awards if not present AND we have new data
+    if (!existingReview.awards && transformed.awards?.structured?.length) {
+      // Convert transformed awards to EditorialReview awards format
+      const categorizedAwards: Record<string, string[]> = {
+        national_awards: [],
+        filmfare_awards: [],
+        nandi_awards: [],
+        other_awards: [],
+      };
+      
+      for (const award of transformed.awards.structured) {
+        const lowerName = award.award.toLowerCase();
+        const awardStr = `${award.award}${award.year ? ` (${award.year})` : ''}`;
+        
+        if (lowerName.includes('national')) {
+          categorizedAwards.national_awards.push(awardStr);
+        } else if (lowerName.includes('filmfare')) {
+          categorizedAwards.filmfare_awards.push(awardStr);
+        } else if (lowerName.includes('nandi')) {
+          categorizedAwards.nandi_awards.push(awardStr);
+        } else {
+          categorizedAwards.other_awards.push(awardStr);
+        }
+      }
+      
+      const hasAwards = Object.values(categorizedAwards).some(arr => arr.length > 0);
+      if (hasAwards) {
+        updatedReview.awards = {
+          national_awards: categorizedAwards.national_awards.length ? categorizedAwards.national_awards : undefined,
+          filmfare_awards: categorizedAwards.filmfare_awards.length ? categorizedAwards.filmfare_awards : undefined,
+          nandi_awards: categorizedAwards.nandi_awards.length ? categorizedAwards.nandi_awards : undefined,
+          other_awards: categorizedAwards.other_awards.length ? categorizedAwards.other_awards : undefined,
+        };
+        updatedSources['awards'] = transformed.awards.source;
+        sectionsAdded.push('awards');
+      }
+    }
+    
+    // Don't overwrite synopsis, cultural_impact, or other AI-generated sections
+    // They were intentionally generated by AI and should be preserved
+    
+    if (sectionsAdded.length > 0) {
+      // Update the review in database
+      await this.supabase
+        .from('movie_reviews')
+        .update({
+          editorial_review: updatedReview,
+          enrichment_sources: updatedSources,
+          updated_at: new Date().toISOString(),
+        })
+        .eq('movie_id', movieId);
+      
+      console.log(`   ✓ Enriched existing review with: ${sectionsAdded.join(', ')}`);
+    }
+    
+    return { enriched: sectionsAdded.length > 0, sectionsAdded };
+  }
+
+  /**
+   * Generate or enrich a review
+   * - If movie has no review: generate new
+   * - If movie has AI review: only enrich with missing factual data
+   */
+  async generateOrEnrichReview(movieId: string): Promise<{
+    action: 'generated' | 'enriched' | 'skipped';
+    review?: EditorialReview;
+    sectionsAdded?: string[];
+  }> {
+    console.log(`\n🎬 Checking existing review for movie: ${movieId}`);
+    
+    const existing = await this.getExistingReview(movieId);
+    
+    if (existing.exists && existing.isAiGenerated) {
+      console.log(`   📋 Found existing AI review, will only enrich with factual data`);
+      
+      const result = await this.enrichExistingReview(
+        movieId,
+        existing.review,
+        existing.enrichmentSources || {}
+      );
+      
+      if (result.enriched) {
+        return { action: 'enriched', sectionsAdded: result.sectionsAdded };
+      } else {
+        console.log(`   ⏭ No new data to add, skipping`);
+        return { action: 'skipped' };
+      }
+    }
+    
+    // No existing AI review - generate new
+    console.log(`   📝 No existing AI review, generating new...`);
+    const review = await this.generateReview(movieId);
+    return { action: 'generated', review };
+  }
+}
+
 // ============================================================
 // EXPORTS
 // ============================================================
@@ -1463,4 +1673,16 @@ Return ONLY valid JSON:
 export async function generateEditorialReview(movieId: string): Promise<EditorialReview> {
   const generator = new EditorialReviewGenerator();
   return await generator.generateReview(movieId);
+}
+
+/**
+ * Generate or enrich a review without overwriting existing AI content
+ */
+export async function generateOrEnrichEditorialReview(movieId: string): Promise<{
+  action: 'generated' | 'enriched' | 'skipped';
+  review?: EditorialReview;
+  sectionsAdded?: string[];
+}> {
+  const generator = new EditorialReviewGenerator();
+  return await generator.generateOrEnrichReview(movieId);
 }
