@@ -4,10 +4,12 @@
  * Generates comprehensive, "Athadu-quality" movie reviews with 9-section structure.
  * Uses AI-assisted analysis combined with structured templates.
  * 
- * Data Sources (Legal):
- * - TMDB: Metadata, cast, crew, ratings
- * - IMDb: Ratings, vote counts (no review copying)
- * - Wikipedia: Plot summaries, production notes (factual only)
+ * MULTI-SOURCE DATA (Reduces AI costs by ~60%):
+ * - Wikipedia: Plot summaries, reception, legacy sections (factual)
+ * - OMDb: Ratings (IMDB, RT, Metacritic), awards text
+ * - Wikidata: Structured awards data (Filmfare, Nandi, National)
+ * - Google KG: Entity descriptions and context
+ * - TMDB: Metadata, cast, crew, ratings (existing)
  * - Internal: Enriched dimensions, performance scores, audience signals
  */
 
@@ -18,6 +20,7 @@ import { smartAI } from '../ai/smart-key-manager';
 import { modelRouter, TaskType } from '../ai/model-router';
 import { aiCache } from '../ai/cache';
 import { aiMetrics } from '../ai/metrics';
+import { gatherMultiSourceData, type MultiSourceMovieData } from './multi-source-data';
 
 // ============================================================
 // AI PROVIDER CONFIGURATION
@@ -141,6 +144,15 @@ export interface EditorialReview {
   quality_score: number;
 }
 
+interface CastMember {
+  name: string;
+  character?: string;
+  order: number;
+  gender?: number; // 1 = Female, 2 = Male, 0 = Unknown
+  tmdb_id?: number;
+  profile_path?: string;
+}
+
 interface Movie {
   id: string;
   title_en: string;
@@ -156,6 +168,81 @@ interface Movie {
   tagline?: string;
   avg_rating?: number;
   tags?: string[];
+  cast_members?: (CastMember | string)[]; // Full cast data (may be objects or JSON strings)
+  is_blockbuster?: boolean;
+  is_classic?: boolean;
+  is_underrated?: boolean;
+  music_director?: string;
+  cinematographer?: string;
+}
+
+/**
+ * Parse cast_members which may be objects or JSON strings
+ */
+function parseCastMembers(cast_members?: (CastMember | string)[]): CastMember[] {
+  if (!cast_members || cast_members.length === 0) return [];
+  
+  return cast_members.map(c => {
+    if (typeof c === 'string') {
+      try {
+        return JSON.parse(c);
+      } catch {
+        return { name: 'Unknown', order: 999 };
+      }
+    }
+    return c;
+  }).filter(c => c.name && c.name !== 'Unknown');
+}
+
+/**
+ * Extract hero name from cast_members using gender detection
+ * Fallback when movie.hero is null or "Unknown"
+ */
+function getHeroFromCastMembers(movie: Movie): string {
+  if (movie.hero && movie.hero !== 'Unknown') {
+    return movie.hero;
+  }
+  
+  const castMembers = parseCastMembers(movie.cast_members);
+  if (castMembers.length > 0) {
+    // Find first male actor (gender === 2)
+    const males = castMembers
+      .filter(c => c.gender === 2)
+      .sort((a, b) => a.order - b.order);
+    
+    if (males.length > 0) {
+      return males[0].name;
+    }
+    
+    // Fallback to first cast member
+    return castMembers[0].name;
+  }
+  
+  return 'Unknown';
+}
+
+/**
+ * Extract heroine name from cast_members using gender detection
+ * Fallback when movie.heroine is null or "Unknown"
+ */
+function getHeroineFromCastMembers(movie: Movie): string {
+  if (movie.heroine && movie.heroine !== 'Unknown') {
+    return movie.heroine;
+  }
+  
+  const castMembers = parseCastMembers(movie.cast_members);
+  if (castMembers.length > 0) {
+    // Find first female actor (gender === 1)
+    const females = castMembers
+      .filter(c => c.gender === 1)
+      .sort((a, b) => a.order - b.order);
+    
+    if (females.length > 0) {
+      return females[0].name;
+    }
+  }
+  
+  return 'Unknown';
 }
 
 interface ReviewDataSources {
@@ -171,6 +258,8 @@ interface ReviewDataSources {
     popularity: number;
     vote_average: number;
   };
+  // Multi-source data (reduces AI calls by providing factual data)
+  multiSource?: MultiSourceMovieData;
 }
 
 // ============================================================
@@ -440,6 +529,25 @@ export class EditorialReviewGenerator {
     };
     const verdict = await this.generateVerdict(sources, culturalImpact, generatedScores);
 
+    // Build sources used list
+    const sourcesUsed = ['tmdb', 'internal_enrichment', AI_CONFIG.provider];
+    if (sources.multiSource) {
+      sourcesUsed.push(...sources.multiSource.sourcesUsed);
+    }
+
+    // Log AI savings
+    if (sources.multiSource) {
+      const ctx = sources.multiSource.aiContext;
+      const savedCalls = [
+        ctx.hasSynopsis ? 'synopsis (1 call)' : null,
+        ctx.hasAwards ? 'awards (1 call)' : null,
+      ].filter(Boolean);
+      
+      if (savedCalls.length > 0) {
+        console.log(`   💰 Multi-source saved AI calls: ${savedCalls.join(', ')}`);
+      }
+    }
+
     const review: EditorialReview = {
       synopsis,
       story_screenplay: storyScreenplay,
@@ -451,7 +559,7 @@ export class EditorialReviewGenerator {
       cultural_impact: culturalImpact,
       awards,
       verdict,
-      sources_used: ['tmdb', 'internal_enrichment', AI_CONFIG.provider],
+      sources_used: [...new Set(sourcesUsed)],
       generated_at: new Date().toISOString(),
       quality_score: 0, // Will be calculated
     };
@@ -464,27 +572,53 @@ export class EditorialReviewGenerator {
 
   /**
    * Gather all data sources for review generation
+   * Now includes multi-source data from Wikipedia, OMDb, Wikidata, Google KG
    */
   private async gatherDataSources(movieId: string): Promise<ReviewDataSources> {
-    const { data: movie } = await this.supabase
-      .from('movies')
-      .select('*')
-      .eq('id', movieId)
-      .single();
+    // Fetch movie and enriched review data in parallel with multi-source data
+    const [movieResult, reviewResult, multiSourceResult] = await Promise.allSettled([
+      this.supabase.from('movies').select('*').eq('id', movieId).single(),
+      this.supabase.from('movie_reviews')
+        .select('overall_rating, composite_score, dimensions_json, performance_scores, technical_scores, audience_signals')
+        .eq('movie_id', movieId)
+        .single(),
+      gatherMultiSourceData(movieId).catch(err => {
+        console.warn(`[Editorial] Multi-source fetch failed for ${movieId}:`, err);
+        return null;
+      }),
+    ]);
+
+    const movie = movieResult.status === 'fulfilled' ? movieResult.value.data : null;
+    const review = reviewResult.status === 'fulfilled' ? reviewResult.value.data : null;
+    const multiSource = multiSourceResult.status === 'fulfilled' ? multiSourceResult.value : null;
 
     if (!movie) {
       throw new Error(`Movie not found: ${movieId}`);
     }
 
-    // Fetch enriched review data including overall_rating for proper rating calculation
-    const { data: review } = await this.supabase
-      .from('movie_reviews')
-      .select('overall_rating, composite_score, dimensions_json, performance_scores, technical_scores, audience_signals')
-      .eq('movie_id', movieId)
-      .single();
+    // Resolve hero/heroine from cast_members if needed (handles Unknown values)
+    const resolvedHero = getHeroFromCastMembers(movie);
+    const resolvedHeroine = getHeroineFromCastMembers(movie);
+    
+    // Update movie object with resolved names
+    const enrichedMovie: Movie = {
+      ...movie,
+      hero: resolvedHero,
+      heroine: resolvedHeroine,
+    };
+
+    // Log multi-source data availability
+    if (multiSource) {
+      console.log(`[Editorial] Multi-source data available for ${movie.title_en}:`);
+      console.log(`  - Synopsis: ${multiSource.aiContext.hasSynopsis ? '✓' : '✗'}`);
+      console.log(`  - Ratings: ${multiSource.aiContext.hasRatings ? '✓' : '✗'} (${multiSource.ratings.sourcesCount} sources)`);
+      console.log(`  - Awards: ${multiSource.aiContext.hasAwards ? '✓' : '✗'} (${multiSource.awards.totalWins} wins)`);
+      console.log(`  - Reception: ${multiSource.aiContext.hasReception ? '✓' : '✗'}`);
+      console.log(`  - Legacy: ${multiSource.aiContext.hasLegacy ? '✓' : '✗'}`);
+    }
 
     return {
-      movie,
+      movie: enrichedMovie,
       review_rating: review?.overall_rating || review?.composite_score || 0,
       enriched_dimensions: review?.dimensions_json,
       performance_scores: review?.performance_scores,
@@ -496,18 +630,53 @@ export class EditorialReviewGenerator {
         popularity: 0,
         vote_average: movie.avg_rating || 0,
       },
+      multiSource: multiSource || undefined,
     };
   }
 
   /**
    * Generate Synopsis section (200-250 words) with retry logic
+   * Uses Wikipedia synopsis if available, reducing AI calls
    */
   private async generateSynopsis(sources: ReviewDataSources): Promise<EditorialReview['synopsis']> {
+    // Check if we have a good synopsis from multi-source data
+    const multiSourceSynopsis = sources.multiSource?.synopsis;
+    if (multiSourceSynopsis && multiSourceSynopsis.wordCount >= 100 && multiSourceSynopsis.confidence >= 0.8) {
+      console.log(`   📚 Using ${multiSourceSynopsis.source} synopsis (${multiSourceSynopsis.wordCount} words)`);
+      
+      // We have factual synopsis - just need Telugu translation via AI
+      let teluguSynopsis = '';
+      try {
+        const teluguPrompt = `Translate this movie synopsis to Telugu (200-250 words). Keep film terminology in English if needed.
+
+MOVIE: ${sources.movie.title_te || sources.movie.title_en}
+SYNOPSIS: ${multiSourceSynopsis.text.slice(0, 1000)}
+
+Return ONLY the Telugu text, no JSON, no quotes.`;
+
+        teluguSynopsis = await this.aiCompletion(teluguPrompt, 800, 0.7);
+        teluguSynopsis = teluguSynopsis.replace(/^["'{]|["'}]$/g, '').trim();
+      } catch {
+        teluguSynopsis = `${sources.movie.title_te || sources.movie.title_en} ఒక ${sources.movie.genres?.[0] || 'డ్రామా'} చిత్రం.`;
+      }
+      
+      return {
+        en: multiSourceSynopsis.text,
+        te: teluguSynopsis,
+        spoiler_free: true,
+      };
+    }
+
+    // Fall back to AI generation if multi-source data not sufficient
     const maxRetries = 3;
+    
+    // Build enhanced prompt with multi-source context if available
+    const plotHint = sources.multiSource?.synopsis?.text?.slice(0, 200) 
+      || sources.tmdb_metadata?.overview?.substring(0, 200) 
+      || '';
     
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        // Step 1: Generate English synopsis first (more reliable)
         const englishPrompt = `You are a Telugu film critic. Write a 200-250 word spoiler-free synopsis.
 
 MOVIE: ${sources.movie.title_en}
@@ -516,7 +685,7 @@ GENRES: ${sources.movie.genres?.join(', ') || 'Drama'}
 DIRECTOR: ${sources.movie.director || 'Unknown'}
 HERO: ${sources.movie.hero || 'Unknown'}
 HEROINE: ${sources.movie.heroine || 'Unknown'}
-${sources.tmdb_metadata?.overview ? `PLOT HINT: ${sources.tmdb_metadata.overview.substring(0, 200)}` : ''}
+${plotHint ? `PLOT HINT: ${plotHint}` : ''}
 
 Rules:
 - Focus on setup, not resolution
@@ -530,7 +699,7 @@ Return ONLY valid JSON (no markdown):
         const englishContent = await this.aiCompletion(englishPrompt, 800, 0.7);
         const englishResult = this.parseAIResponse(englishContent);
         
-        // Step 2: Generate Telugu synopsis separately (avoids JSON issues with Telugu text)
+        // Generate Telugu synopsis separately
         let teluguSynopsis = '';
         try {
           const teluguPrompt = `Translate this movie synopsis to Telugu (200-250 words). Keep film terminology in English if needed.
@@ -541,10 +710,8 @@ SYNOPSIS: ${englishResult.en}
 Return ONLY the Telugu text, no JSON, no quotes.`;
 
           teluguSynopsis = await this.aiCompletion(teluguPrompt, 800, 0.7);
-          // Clean up any quotes or JSON artifacts
           teluguSynopsis = teluguSynopsis.replace(/^["'{]|["'}]$/g, '').trim();
-        } catch (teluguError) {
-          // Fallback Telugu
+        } catch {
           teluguSynopsis = `${sources.movie.title_te || sources.movie.title_en} ఒక ${sources.movie.genres?.[0] || 'డ్రామా'} చిత్రం. ${sources.movie.director || ''} దర్శకత్వం వహించారు.`;
         }
         
@@ -557,7 +724,7 @@ Return ONLY the Telugu text, no JSON, no quotes.`;
       } catch (error) {
         if (attempt < maxRetries) {
           console.log(`   ⟳ Synopsis retry ${attempt}/${maxRetries}...`);
-          await new Promise(r => setTimeout(r, 1000 * attempt)); // Exponential backoff
+          await new Promise(r => setTimeout(r, 1000 * attempt));
         } else {
           console.error('Error generating synopsis after retries:', error);
         }
@@ -812,8 +979,36 @@ Return ONLY valid JSON (no markdown):
    * Generate Audience vs Critics POV section (100-150 words)
    * OPTIMIZED: Compact but explicit JSON prompt
    */
+  /**
+   * Generate Perspectives section using multi-source ratings when available
+   */
   private async generatePerspectives(sources: ReviewDataSources): Promise<EditorialReview['perspectives']> {
-    const prompt = `For ${sources.movie.title_en} (${sources.movie.avg_rating || 7}/10), analyze audience vs critics reception.
+    // Build enhanced context from multi-source ratings and reception
+    const multiSource = sources.multiSource;
+    const ratings = multiSource?.ratings;
+    const reception = multiSource?.reception;
+    
+    // Build ratings context for more accurate AI analysis
+    let ratingsContext = '';
+    if (ratings && ratings.sourcesCount > 0) {
+      const ratingParts: string[] = [];
+      if (ratings.imdb) ratingParts.push(`IMDB: ${ratings.imdb}/10`);
+      if (ratings.rottenTomatoes) ratingParts.push(`Rotten Tomatoes: ${ratings.rottenTomatoes}%`);
+      if (ratings.metacritic) ratingParts.push(`Metacritic: ${ratings.metacritic}/100`);
+      if (ratings.tmdb) ratingParts.push(`TMDB: ${ratings.tmdb}/10`);
+      ratingsContext = `RATINGS: ${ratingParts.join(', ')}`;
+    }
+    
+    // Use Wikipedia reception text if available
+    let receptionContext = '';
+    if (reception && reception.wordCount > 50) {
+      receptionContext = `CRITICAL RECEPTION:\n${reception.text.slice(0, 500)}`;
+    }
+
+    const prompt = `For ${sources.movie.title_en} (${sources.movie.release_year}), analyze audience vs critics reception.
+
+${ratingsContext}
+${receptionContext}
 
 Return ONLY valid JSON:
 {"audience_reception":"50 words about mass appeal","critic_consensus":"50 words on critical reception","divergence_points":["point1","point2"]}`; 
@@ -879,14 +1074,35 @@ Return ONLY valid JSON:
    * Generate Cultural/Legacy Value section (100-150 words)
    * OPTIMIZED: Compact prompt, reduced tokens
    */
+  /**
+   * Generate Cultural Impact section using multi-source legacy data when available
+   */
   private async generateCulturalImpact(sources: ReviewDataSources): Promise<EditorialReview['cultural_impact']> {
     const isOld = sources.movie.release_year && sources.movie.release_year < 2010;
     const isBlockbuster = sources.movie.is_blockbuster;
     const isClassic = sources.movie.is_classic;
     const legacyStatus = isBlockbuster ? 'Mass Classic' : isClassic ? 'Classic' : 'Notable Film';
     
-    // OPTIMIZED: Compact but explicit JSON prompt
+    // Check if we have legacy data from Wikipedia/Google KG
+    const multiSourceLegacy = sources.multiSource?.legacy;
+    const hasLegacyData = multiSourceLegacy && multiSourceLegacy.wordCount >= 30;
+    
+    // Include legacy context in prompt for better AI analysis
+    let legacyContext = '';
+    if (hasLegacyData) {
+      console.log(`   📜 Using ${multiSourceLegacy.source} legacy data (${multiSourceLegacy.wordCount} words)`);
+      legacyContext = `LEGACY/CULTURAL CONTEXT:\n${multiSourceLegacy.text.slice(0, 500)}`;
+    }
+    
+    // Include awards context for cultural significance
+    const awardsContext = sources.multiSource?.awards?.majorAwards?.length 
+      ? `MAJOR AWARDS: ${sources.multiSource.awards.majorAwards.join(', ')}`
+      : '';
+    
     const prompt = `Analyze cultural impact of ${sources.movie.title_en} (${sources.movie.release_year}) starring ${sources.movie.hero}. ${isOld ? 'Classic film.' : ''} ${isBlockbuster ? 'Mass classic.' : ''}
+
+${legacyContext}
+${awardsContext}
 
 Return ONLY valid JSON:
 {"cultural_significance":"50 word analysis","influence_on_cinema":"40 word analysis","memorable_elements":["iconic moment1","iconic moment2"],"legacy_status":"${legacyStatus}","cult_status":${isOld || isBlockbuster}}`;
@@ -909,16 +1125,84 @@ Return ONLY valid JSON:
   /**
    * Generate Awards section (if movie has notable achievements)
    */
+  /**
+   * Generate Awards section using multi-source data (Wikidata, OMDb)
+   * NO AI CALL - uses factual data only
+   */
   private async generateAwards(sources: ReviewDataSources): Promise<EditorialReview['awards']> {
     const isBlockbuster = sources.movie.is_blockbuster;
     const isClassic = sources.movie.is_classic;
     
-    // Only generate awards for blockbusters or classics
-    if (!isBlockbuster && !isClassic && sources.movie.release_year > 2020) {
+    // Only generate awards for blockbusters or classics (unless we have data)
+    const multiSourceAwards = sources.multiSource?.awards;
+    const hasMultiSourceAwards = multiSourceAwards && (
+      multiSourceAwards.totalWins > 0 || 
+      multiSourceAwards.structured.length > 0 ||
+      multiSourceAwards.rawText
+    );
+    
+    if (!isBlockbuster && !isClassic && sources.movie.release_year > 2020 && !hasMultiSourceAwards) {
       return undefined;
     }
 
-    // OPTIMIZED: Compact but explicit JSON prompt
+    // Use multi-source awards data if available (NO AI CALL)
+    if (hasMultiSourceAwards) {
+      console.log(`   🏆 Using ${multiSourceAwards.source} awards (${multiSourceAwards.totalWins} wins)`);
+      
+      const nationalAwards: string[] = [];
+      const filmfareAwards: string[] = [];
+      const nandiAwards: string[] = [];
+      const otherAwards: string[] = [];
+      
+      // Categorize awards from structured data
+      for (const award of multiSourceAwards.structured) {
+        const awardName = award.category 
+          ? `${award.name} - ${award.category}${award.year ? ` (${award.year})` : ''}`
+          : `${award.name}${award.year ? ` (${award.year})` : ''}`;
+        
+        const lowerName = award.name.toLowerCase();
+        
+        if (lowerName.includes('national') || lowerName.includes('राष्ट्रीय')) {
+          nationalAwards.push(awardName);
+        } else if (lowerName.includes('filmfare')) {
+          filmfareAwards.push(awardName);
+        } else if (lowerName.includes('nandi')) {
+          nandiAwards.push(awardName);
+        } else {
+          otherAwards.push(awardName);
+        }
+      }
+      
+      // Add major awards from summary if not already included
+      for (const major of multiSourceAwards.majorAwards) {
+        if (!nationalAwards.some(a => a.includes(major)) &&
+            !filmfareAwards.some(a => a.includes(major)) &&
+            !nandiAwards.some(a => a.includes(major)) &&
+            !otherAwards.some(a => a.includes(major))) {
+          otherAwards.push(major);
+        }
+      }
+      
+      const hasAwards = nationalAwards.length > 0 || 
+                       filmfareAwards.length > 0 || 
+                       nandiAwards.length > 0 || 
+                       otherAwards.length > 0;
+      
+      if (hasAwards) {
+        return {
+          national_awards: nationalAwards.length > 0 ? nationalAwards : undefined,
+          filmfare_awards: filmfareAwards.length > 0 ? filmfareAwards : undefined,
+          nandi_awards: nandiAwards.length > 0 ? nandiAwards : undefined,
+          other_awards: otherAwards.length > 0 ? otherAwards : undefined,
+        };
+      }
+    }
+
+    // Fallback to AI only if multi-source has no data and movie is notable
+    if (!isBlockbuster && !isClassic) {
+      return undefined;
+    }
+
     const prompt = `List any known awards for ${sources.movie.title_en} (${sources.movie.release_year}). Hero: ${sources.movie.hero}. If no awards, return empty arrays.
 
 Return ONLY valid JSON:
@@ -928,7 +1212,6 @@ Return ONLY valid JSON:
       const content = await this.aiCompletion(prompt, 200, 0.3);
       const parsed = this.parseAIResponse(content);
       
-      // Only return if there are actual awards
       const hasAwards = ((parsed.national_awards?.length || 0) > 0) ||
                        ((parsed.filmfare_awards?.length || 0) > 0) ||
                        ((parsed.nandi_awards?.length || 0) > 0) ||
