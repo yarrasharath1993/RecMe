@@ -121,7 +121,7 @@ export default function GamesPage() {
                 <div className="card h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-xl border border-transparent hover:border-orange-500/30">
                   {/* Gradient header */}
                   <div className={`h-24 bg-gradient-to-r ${game.color} rounded-t-xl flex items-center justify-center`}>
-                    <Icon className="w-12 h-12 text-white opacity-90" />
+                    <Icon className="w-12 h-12 text-[var(--text-primary)] opacity-90" />
                   </div>
 
                   <div className="p-5">
@@ -132,7 +132,7 @@ export default function GamesPage() {
                         </h3>
                         <p className="text-sm text-orange-400">{game.title_te}</p>
                       </div>
-                      <span className="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-300">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[var(--bg-secondary)] text-gray-300">
                         {game.difficulty}
                       </span>
                     </div>

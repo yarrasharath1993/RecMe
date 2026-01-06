@@ -15,6 +15,7 @@ interface RatingItem {
 interface CompactRatingsProps {
   ratings: RatingItem[];
   overallRating?: number;
+  compact?: boolean;
 }
 
 // Icon and color mapping for each rating type
@@ -80,7 +81,7 @@ const getScoreColor = (score: number) => {
   return 'text-orange-400';
 };
 
-export function CompactRatings({ ratings, overallRating }: CompactRatingsProps) {
+export function CompactRatings({ ratings, overallRating, compact = false }: CompactRatingsProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   
   // Filter out ratings without valid scores
@@ -91,6 +92,28 @@ export function CompactRatings({ ratings, overallRating }: CompactRatingsProps) 
   // Show top 4 ratings, rest in expansion
   const visibleRatings = validRatings.slice(0, 4);
   const hiddenRatings = validRatings.slice(4);
+  
+  // Compact mode - horizontal inline bars
+  if (compact) {
+    return (
+      <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+        {visibleRatings.map((rating) => {
+          const config = iconConfig[rating.icon] || iconConfig.story;
+          const scoreColor = getScoreColor(rating.score);
+          return (
+            <div 
+              key={rating.label} 
+              className="flex-shrink-0 flex items-center gap-1.5 px-2 py-1.5 bg-[var(--bg-secondary)]/60 rounded-lg border border-[var(--border-primary)]/30"
+            >
+              <config.Icon className={`w-3 h-3 ${config.color}`} />
+              <span className="text-[var(--text-secondary)] text-[10px]">{rating.label}</span>
+              <span className={`text-xs font-bold ${scoreColor}`}>{rating.score.toFixed(1)}</span>
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
   
   return (
     <div className="bg-gradient-to-br from-gray-900/80 to-gray-950/80 rounded-xl p-4 border border-gray-800/50 shadow-lg">
@@ -132,7 +155,7 @@ export function CompactRatings({ ratings, overallRating }: CompactRatingsProps) 
         <>
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="w-full mt-3 py-2 flex items-center justify-center gap-1.5 text-gray-500 hover:text-gray-300 text-xs font-medium transition-colors rounded-lg hover:bg-gray-800/30"
+            className="w-full mt-3 py-2 flex items-center justify-center gap-1.5 text-[var(--text-tertiary)] hover:text-gray-300 text-xs font-medium transition-colors rounded-lg hover:bg-[var(--bg-secondary)]/30"
           >
             {isExpanded ? 'Show less' : `Show ${hiddenRatings.length} more`}
             <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
@@ -179,13 +202,13 @@ function RatingPill({
   const scoreColor = getScoreColor(score);
   
   return (
-    <div className="flex items-center gap-2.5 p-2.5 bg-gray-800/40 hover:bg-gray-800/60 rounded-lg transition-colors border border-gray-700/30">
+    <div className="flex items-center gap-2.5 p-2.5 bg-[var(--bg-secondary)]/40 hover:bg-[var(--bg-secondary)]/60 rounded-lg transition-colors border border-[var(--border-primary)]/30">
       <div className={`p-1.5 rounded-md ${iconBg} flex-shrink-0`}>
         <Icon className={`w-3.5 h-3.5 ${iconColor}`} />
       </div>
       <div className="flex-1 min-w-0">
         <div className="flex items-center justify-between mb-1.5">
-          <span className="text-gray-400 text-xs truncate">{label}</span>
+          <span className="text-[var(--text-secondary)] text-xs truncate">{label}</span>
           <span className={`text-xs font-bold ${scoreColor}`}>{score.toFixed(1)}</span>
         </div>
         <div className="h-1.5 bg-gray-700/50 rounded-full overflow-hidden">

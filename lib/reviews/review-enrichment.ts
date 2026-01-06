@@ -510,3 +510,22 @@ export function getDimensionScore(dimensions: ReviewDimensions | null, dimension
   }
 }
 
+// ============================================================
+// SMART REVIEW INTEGRATION
+// ============================================================
+
+// Re-export smart review derivation functions for convenience
+export {
+  deriveSmartReviewFields,
+  deriveAndStoreSmartReview,
+  batchDeriveSmartReviews,
+  getFieldsNeedingReview,
+} from './smart-review-derivation';
+
+export type {
+  SmartReviewFields,
+  SmartReviewDerivationInput,
+  LegacyStatus,
+  BestOfTags,
+} from './smart-review.types';
+

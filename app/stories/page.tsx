@@ -164,7 +164,7 @@ export default async function StoriesPage() {
                     <span className="text-lg">
                       {STORY_CATEGORY_CONFIG[story.category as keyof typeof STORY_CATEGORY_CONFIG]?.emoji || '📖'}
                     </span>
-                    <span className="text-xs px-2 py-0.5 bg-gray-800 text-gray-400 rounded-full">
+                    <span className="text-xs px-2 py-0.5 bg-[var(--bg-secondary)] text-[var(--text-secondary)] rounded-full">
                       {STORY_CATEGORY_CONFIG[story.category as keyof typeof STORY_CATEGORY_CONFIG]?.name_en || 'Story'}
                     </span>
                   </div>

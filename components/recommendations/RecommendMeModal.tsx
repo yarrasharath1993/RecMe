@@ -8,15 +8,18 @@
  * - Toggle filters (family-friendly, blockbusters, hidden gems)
  * - Results display using SimilarMoviesCarousel
  * - Scroll position preservation
+ * - Visual confidence awareness (extended Jan 2026)
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import {
   X, Sparkles, ChevronDown, ChevronUp, Film, Loader2,
-  Globe, Theater, Heart, Calendar, Star, Flame, Gem, Users, RefreshCw
+  Globe, Theater, Heart, Calendar, Star, Flame, Gem, Users, RefreshCw,
+  Eye, ImageOff
 } from 'lucide-react';
 import { SimilarMoviesCarousel, type SimilarSection } from '@/components/reviews/SimilarMoviesCarousel';
 import type { MoodPreference, EraPreference, RecommendMePreferences } from '@/lib/movies/recommend-me';
+import { applyVisualConfidenceBoost, type SimilarSectionWithVisual } from '@/lib/movies/similarity-engine';
 
 // ============================================================
 // TYPES
@@ -92,7 +95,7 @@ function Chip({
         transition-all duration-150 border
         ${selected
           ? 'bg-orange-500/20 border-orange-500 text-orange-400'
-          : 'bg-gray-800/50 border-gray-700 text-gray-400 hover:border-gray-600 hover:text-gray-300'
+          : 'bg-[var(--bg-secondary)]/50 border-[var(--border-primary)] text-[var(--text-secondary)] hover:border-gray-600 hover:text-[var(--text-secondary)]'
         }
       `}
     >
@@ -118,15 +121,15 @@ function Toggle({
   icon: React.ReactNode;
 }) {
   return (
-    <label className="flex items-center justify-between gap-3 p-3 rounded-lg bg-gray-800/30 border border-gray-800 cursor-pointer hover:border-gray-700 transition-colors">
+    <label className="flex items-center justify-between gap-3 p-3 rounded-lg bg-[var(--bg-secondary)]/30 border border-gray-800 cursor-pointer hover:border-[var(--border-primary)] transition-colors">
       <div className="flex items-center gap-2">
-        <span className="text-gray-400">{icon}</span>
-        <span className="text-sm text-gray-300">{label}</span>
+        <span className="text-[var(--text-secondary)]">{icon}</span>
+        <span className="text-sm text-[var(--text-secondary)]">{label}</span>
       </div>
       <div
         className={`
           relative w-10 h-6 rounded-full transition-colors
-          ${checked ? 'bg-orange-500' : 'bg-gray-700'}
+          ${checked ? 'bg-orange-500' : 'bg-[var(--bg-tertiary)]'}
         `}
         onClick={() => onChange(!checked)}
       >
@@ -164,11 +167,11 @@ function PreferenceSection({
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between p-3 bg-gray-800/30 hover:bg-gray-800/50 transition-colors"
+        className="w-full flex items-center justify-between p-3 bg-[var(--bg-secondary)]/30 hover:bg-[var(--bg-secondary)]/50 transition-colors"
       >
         <div className="flex items-center gap-2">
-          <span className="text-gray-400">{icon}</span>
-          <span className="text-sm font-medium text-white">{title}</span>
+          <span className="text-[var(--text-secondary)]">{icon}</span>
+          <span className="text-sm font-medium text-[var(--text-primary)]">{title}</span>
         </div>
         {isOpen ? (
           <ChevronUp className="w-4 h-4 text-gray-500" />
@@ -212,6 +215,9 @@ export function RecommendMeModal({
   const [blockbustersOnly, setBlockbustersOnly] = useState(false);
   const [hiddenGems, setHiddenGems] = useState(false);
   const [highlyRatedOnly, setHighlyRatedOnly] = useState(false);
+  
+  // Visual confidence preference (extended Jan 2026)
+  const [prioritizeVisuals, setPrioritizeVisuals] = useState(false);
 
   // Results state
   const [sections, setSections] = useState<SimilarSection[]>([]);
@@ -281,6 +287,7 @@ export function RecommendMeModal({
     setBlockbustersOnly(false);
     setHiddenGems(false);
     setHighlyRatedOnly(false);
+    setPrioritizeVisuals(false);
     setSections([]);
     setHasSearched(false);
     setError(null);
@@ -313,7 +320,11 @@ export function RecommendMeModal({
       const data = await res.json();
 
       if (data.success) {
-        setSections(data.sections);
+        // Apply visual confidence boost if enabled
+        const resultSections = prioritizeVisuals 
+          ? applyVisualConfidenceBoost(data.sections)
+          : data.sections;
+        setSections(resultSections);
       } else {
         setError(data.error || 'Failed to get recommendations');
       }
@@ -322,7 +333,7 @@ export function RecommendMeModal({
     } finally {
       setLoading(false);
     }
-  }, [languages, genres, moods, era, familyFriendly, blockbustersOnly, hiddenGems, highlyRatedOnly]);
+  }, [languages, genres, moods, era, familyFriendly, blockbustersOnly, hiddenGems, highlyRatedOnly, prioritizeVisuals]);
 
   // Close on escape key
   useEffect(() => {
@@ -348,7 +359,7 @@ export function RecommendMeModal({
       />
 
       {/* Modal */}
-      <div className="relative w-full max-w-5xl max-h-[95vh] m-4 bg-gray-900 rounded-2xl shadow-2xl overflow-hidden flex flex-col">
+      <div className="relative w-full max-w-5xl max-h-[95vh] m-4 bg-[var(--bg-primary)] rounded-2xl shadow-2xl overflow-hidden flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-800 bg-gradient-to-r from-orange-950/30 via-gray-900 to-gray-900">
           <div className="flex items-center gap-3">
@@ -356,15 +367,15 @@ export function RecommendMeModal({
               <Sparkles className="w-5 h-5 text-orange-400" />
             </div>
             <div>
-              <h2 className="text-xl font-bold text-white">Recommend Me</h2>
-              <p className="text-sm text-gray-400">Find your perfect movie</p>
+              <h2 className="text-xl font-bold text-[var(--text-primary)]">Recommend Me</h2>
+              <p className="text-sm text-[var(--text-secondary)]">Find your perfect movie</p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-lg hover:bg-gray-800 transition-colors"
+            className="p-2 rounded-lg hover:bg-[var(--bg-secondary)] transition-colors"
           >
-            <X className="w-5 h-5 text-gray-400" />
+            <X className="w-5 h-5 text-[var(--text-secondary)]" />
           </button>
         </div>
 
@@ -373,7 +384,7 @@ export function RecommendMeModal({
           {/* Preferences Section */}
           {!hasSearched && (
             <div className="p-6 space-y-4">
-              <p className="text-gray-400 text-sm">
+              <p className="text-[var(--text-secondary)] text-sm">
                 Select your preferences below, or leave empty for random picks from our catalogue.
                 All fields are optional!
               </p>
@@ -487,6 +498,12 @@ export function RecommendMeModal({
                     label="Hidden Gems"
                     icon={<Gem className="w-4 h-4" />}
                   />
+                  <Toggle
+                    checked={prioritizeVisuals}
+                    onChange={setPrioritizeVisuals}
+                    label="Quality Posters"
+                    icon={<Eye className="w-4 h-4" />}
+                  />
                 </div>
               </PreferenceSection>
             </div>
@@ -498,7 +515,7 @@ export function RecommendMeModal({
               {loading ? (
                 <div className="flex flex-col items-center justify-center py-20">
                   <Loader2 className="w-10 h-10 text-orange-500 animate-spin mb-4" />
-                  <p className="text-gray-400">Finding perfect movies for you...</p>
+                  <p className="text-[var(--text-secondary)]">Finding perfect movies for you...</p>
                 </div>
               ) : error ? (
                 <div className="flex flex-col items-center justify-center py-20">
@@ -506,7 +523,7 @@ export function RecommendMeModal({
                   <p className="text-red-400 mb-4">{error}</p>
                   <button
                     onClick={handleGetRecommendations}
-                    className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                    className="px-4 py-2 bg-orange-500 text-[var(--text-primary)] rounded-lg hover:bg-orange-600 transition-colors"
                   >
                     Try Again
                   </button>
@@ -514,10 +531,10 @@ export function RecommendMeModal({
               ) : sections.length === 0 ? (
                 <div className="flex flex-col items-center justify-center py-20">
                   <Film className="w-12 h-12 text-gray-600 mb-4" />
-                  <p className="text-gray-400 mb-4">No movies found matching your criteria</p>
+                  <p className="text-[var(--text-secondary)] mb-4">No movies found matching your criteria</p>
                   <button
                     onClick={handleReset}
-                    className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors"
+                    className="px-4 py-2 bg-[var(--bg-tertiary)] text-[var(--text-primary)] rounded-lg hover:bg-gray-600 transition-colors"
                   >
                     Reset & Try Again
                   </button>
@@ -527,16 +544,16 @@ export function RecommendMeModal({
                   {/* Results header */}
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-lg font-semibold text-white">
+                      <h3 className="text-lg font-semibold text-[var(--text-primary)]">
                         Found {totalMovies} movies for you
                       </h3>
-                      <p className="text-sm text-gray-400">
+                      <p className="text-sm text-[var(--text-secondary)]">
                         Across {sections.length} categories
                       </p>
                     </div>
                     <button
                       onClick={handleReset}
-                      className="flex items-center gap-2 px-3 py-1.5 text-sm text-gray-400 hover:text-white border border-gray-700 rounded-lg hover:border-gray-600 transition-colors"
+                      className="flex items-center gap-2 px-3 py-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] border border-[var(--border-primary)] rounded-lg hover:border-gray-600 transition-colors"
                     >
                       <RefreshCw className="w-4 h-4" />
                       New Search
@@ -553,17 +570,17 @@ export function RecommendMeModal({
 
         {/* Footer */}
         {!hasSearched && (
-          <div className="px-6 py-4 border-t border-gray-800 bg-gray-900/80 flex items-center justify-between gap-4">
+          <div className="px-6 py-4 border-t border-gray-800 bg-[var(--bg-primary)]/80 flex items-center justify-between gap-4">
             <button
               onClick={handleReset}
-              className="px-4 py-2 text-sm text-gray-400 hover:text-white transition-colors"
+              className="px-4 py-2 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
             >
               Reset All
             </button>
             <button
               onClick={handleGetRecommendations}
               disabled={loading}
-              className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-medium rounded-xl hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/25 disabled:opacity-50"
+              className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-orange-500 to-amber-500 text-[var(--text-primary)] font-medium rounded-xl hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/25 disabled:opacity-50"
             >
               {loading ? (
                 <Loader2 className="w-4 h-4 animate-spin" />
@@ -578,4 +595,5 @@ export function RecommendMeModal({
     </div>
   );
 }
+
 

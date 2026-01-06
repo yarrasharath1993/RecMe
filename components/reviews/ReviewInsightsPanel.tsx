@@ -191,7 +191,7 @@ function InsightSection({
     <div>
       <div className="flex items-center gap-2 mb-3">
         <span className="text-yellow-500">{icon}</span>
-        <h4 className="text-white font-semibold">{title}</h4>
+        <h4 className="text-[var(--text-primary)] font-semibold">{title}</h4>
         <span className="text-[var(--text-tertiary,#666)] text-sm">({titleTe})</span>
       </div>
       {children}
@@ -213,8 +213,8 @@ function PerformanceCard({ performance }: { performance: PerformanceInsight }) {
     <div className="p-4 bg-[var(--bg-tertiary,#1a1a1a)] rounded-lg">
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
-          <span className="font-medium text-white">{performance.actor}</span>
-          <span className={`px-2 py-0.5 text-xs rounded-full ${toneColors[performance.tone.type] || 'bg-gray-500/20 text-gray-400'}`}>
+          <span className="font-medium text-[var(--text-primary)]">{performance.actor}</span>
+          <span className={`px-2 py-0.5 text-xs rounded-full ${toneColors[performance.tone.type] || 'bg-gray-500/20 text-[var(--text-secondary)]'}`}>
             {performance.tone.type}
           </span>
         </div>
@@ -251,13 +251,13 @@ function DirectionCard({ direction }: { direction: DirectionInsight }) {
   return (
     <div className="p-4 bg-[var(--bg-tertiary,#1a1a1a)] rounded-lg">
       <div className="flex flex-wrap gap-2 mb-3">
-        <span className={`px-3 py-1 text-sm rounded-full ${styleColors[direction.style] || 'bg-gray-500/20 text-gray-400'}`}>
+        <span className={`px-3 py-1 text-sm rounded-full ${styleColors[direction.style] || 'bg-gray-500/20 text-[var(--text-secondary)]'}`}>
           {direction.style} style
         </span>
         <span className={`px-3 py-1 text-sm rounded-full bg-gray-700 ${pacingColors[direction.pacing_control]}`}>
           {direction.pacing_control} pacing
         </span>
-        <span className={`px-3 py-1 text-sm rounded-full ${direction.emotional_payoff === 'strong' ? 'bg-green-500/20 text-green-400' : direction.emotional_payoff === 'weak' ? 'bg-red-500/20 text-red-400' : 'bg-gray-700 text-gray-300'}`}>
+        <span className={`px-3 py-1 text-sm rounded-full ${direction.emotional_payoff === 'strong' ? 'bg-green-500/20 text-green-400' : direction.emotional_payoff === 'weak' ? 'bg-red-500/20 text-red-400' : 'bg-gray-700 text-[var(--text-secondary)]'}`}>
           {direction.emotional_payoff} payoff
         </span>
       </div>
@@ -285,7 +285,7 @@ function TechnicalCard({ technical }: { technical: TechnicalInsight }) {
       </span>
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-1">
-          <span className="font-medium text-white capitalize">{technical.aspect}</span>
+          <span className="font-medium text-[var(--text-primary)] capitalize">{technical.aspect}</span>
           {technical.notable && (
             <span className="px-2 py-0.5 bg-yellow-500/20 text-yellow-400 text-xs rounded">
               Notable

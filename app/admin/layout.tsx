@@ -21,7 +21,8 @@ import {
   Activity,
   Edit,
   BarChart3,
-} from 'lucide-react';
+  ScanEye,
+} from "lucide-react";
 
 export default async function AdminLayout({
   children,
@@ -31,7 +32,7 @@ export default async function AdminLayout({
   const session = await auth();
 
   if (!session?.user) {
-    redirect('/auth/signin');
+    redirect("/auth/signin");
   }
 
   return (
@@ -46,13 +47,11 @@ export default async function AdminLayout({
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="text-sm text-[#737373]">
-              {session.user.email}
-            </span>
+            <span className="text-sm text-[#737373]">{session.user.email}</span>
             <form
               action={async () => {
-                'use server';
-                await signOut({ redirectTo: '/' });
+                "use server";
+                await signOut({ redirectTo: "/" });
               }}
             >
               <button
@@ -77,7 +76,7 @@ export default async function AdminLayout({
                 System Core
               </span>
             </div>
-            
+
             <NavItem href="/admin" icon={LayoutDashboard}>
               Dashboard
             </NavItem>
@@ -92,6 +91,9 @@ export default async function AdminLayout({
             </NavItem>
             <NavItem href="/admin/reviews-coverage" icon={BarChart3}>
               Review Coverage
+            </NavItem>
+            <NavItem href="/admin/visual-intelligence" icon={ScanEye}>
+              Visual Intelligence
             </NavItem>
             <NavItem href="/admin/knowledge-graph" icon={Database}>
               Entity Integrity Graph
@@ -134,9 +136,7 @@ export default async function AdminLayout({
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-6">
-          {children}
-        </main>
+        <main className="flex-1 p-6">{children}</main>
       </div>
     </div>
   );

@@ -1,0 +1,40 @@
+Category,Title,Year,Current Hero,Director,Issue
+Pre-Debut,"Illale Devata",1985,"Akkineni Nagarjuna","Kodanda Rami Reddy",Before 1986
+Pre-Debut,"Illale Devatha",1985,"Akkineni Nagarjuna","Kodandarami Reddy",Before 1986
+Invalid,"Illale Devata",1985,"Akkineni Nagarjuna","Kodanda Rami Reddy",Possibly not a movie
+Invalid,"Illale Devatha",1985,"Akkineni Nagarjuna","Kodandarami Reddy",Possibly not a movie
+Invalid,"Captain Nagarjun",1986,"Nagarjuna","Kodandarami Reddy",Possibly not a movie
+Invalid,"Kirayi Dada",1987,"Nagarjuna Akkineni","A. Kodandarami Reddy",Possibly not a movie
+Invalid,"Janaki Ramudu",1988,"Nagarjuna","K. Raghavendra Rao",Possibly not a movie
+Invalid,"Vicky Daada",1989,"Nagarjuna","Kodandarami Reddy",Possibly not a movie
+Invalid,"Srirama Chandrudu",1989,"Akkineni Nagarjuna","Deva Das Kanakala",Possibly not a movie
+Invalid,"Vicky Dada",1989,"Nagarjuna Akkineni","A. Kodandarami Reddy",Possibly not a movie
+Invalid,"Neti Siddhartha",1990,"Nagarjuna Akkineni","Kranthi Kumar",Possibly not a movie
+Invalid,"Jaitra Yatra",1991,"Nagarjuna Akkineni","Uppalapati Narayana Rao",Possibly not a movie
+Invalid,"Prema Vijeta",1992,"Nagarjuna","Kodandarami Reddy",Possibly not a movie
+Invalid,"Allari Alludu",1993,"Nagarjuna Akkineni","A. Kodandarami Reddy",Possibly not a movie
+Invalid,"Govindha Govindha",1993,"Nagarjuna","Ram Gopal Varma",Possibly not a movie
+Invalid,"Chirunavvula Varamistava",1993,"Nagarjuna","Muthyala Subbaiah",Possibly not a movie
+Invalid,"Hello Brother",1994,"Nagarjuna Akkineni","E.V.V. Satyanarayana",Possibly not a movie
+Invalid,"Big Boss",1995,"Nagarjuna","Kodandarami Reddy",Possibly not a movie
+Invalid,"Gharana Bullodu",1995,"Akkineni Nagarjuna","K. Raghavendra Rao",Possibly not a movie
+Invalid,"Ninne Pelladata",1996,"Nagarjuna","Krishna Vamsi",Possibly not a movie
+Invalid,"Ninne Pelladatha",1996,"Nagarjuna Akkineni","Pasupuleti Krishna Vamsi",Possibly not a movie
+Invalid,"Auto Driver",1998,"Akkineni Nagarjuna","Suresh Krissna",Possibly not a movie
+Invalid,"Seetharama Raju",1999,"Nagarjuna Akkineni","YVS Chowdary",Possibly not a movie
+Invalid,"Pilla Nachindi",1999,"Nagarjuna","E.V.V. Satyanarayana",Possibly not a movie
+Invalid,"Nuvvu Vastavani",2000,"Nagarjuna Akkineni","VR Pratap",Possibly not a movie
+Invalid,"Bava Nachadu",2001,"Nagarjuna Akkineni","K. S. Ravikumar",Possibly not a movie
+Invalid,"Snehamante Idera",2001,"Nagarjuna Akkineni","Balasekaran",Possibly not a movie
+Invalid,"Akasa Veedhilo",2001,"Nagarjuna Akkineni","Singeetam Srinivasa Rao",Possibly not a movie
+Invalid,"Sri Ramadasu",2006,"Nagarjuna Akkineni","K",Possibly not a movie
+Invalid,"Shirdi Sai",2012,"Akkineni Nagarjuna","K. Raghavendra Rao",Possibly not a movie
+Invalid,"Wild Dog",2021,"Nagarjuna Akkineni","Ahishor Solomon",Possibly not a movie
+Invalid,"The Ghost",2022,"Nagarjuna Akkineni","Praveen Sattaru",Possibly not a movie
+Duplicate,"Illale Devata",1985,-,-,"Similar to Illale Devatha (1985)"
+Duplicate,"Geetanjali",1989,-,-,"Similar to Geethanjali (1989)"
+Duplicate,"Vicky Daada",1989,-,-,"Similar to Vicky Dada (1989)"
+Duplicate,"Chaitanya",1990,-,-,"Similar to Chaitanya (1991)"
+Duplicate,"Antham",1992,-,-,"Similar to Antam (1992)"
+Duplicate,"Criminal",1994,-,-,"Similar to Criminal (1995)"
+Duplicate,"Ninne Pelladata",1996,-,-,"Similar to Ninne Pelladatha (1996)"

@@ -1489,7 +1489,6 @@ Return ONLY valid JSON:
 
     return score / maxScore;
   }
-}
 
   /**
    * Check if a movie already has an AI-generated editorial review
@@ -1664,6 +1663,239 @@ Return ONLY valid JSON:
     const review = await this.generateReview(movieId);
     return { action: 'generated', review };
   }
+}
+
+// ============================================================
+// CAST CORRECTION UTILITIES
+// ============================================================
+
+interface CastChange {
+  field: 'hero' | 'heroine' | 'director';
+  oldValue: string | null;
+  newValue: string;
+}
+
+/**
+ * Update performance names in an existing review when cast is corrected.
+ * Propagates hero/heroine changes to:
+ * - performances.lead_actors[].name
+ * - performances.lead_actors[].analysis
+ * - synopsis text
+ * - cultural_impact references
+ * - verdict references
+ */
+export async function updatePerformanceNames(
+  movieId: string,
+  changes: CastChange[],
+  options: { dryRun?: boolean } = {}
+): Promise<{
+  updated: boolean;
+  fieldsChanged: string[];
+  preview?: any;
+}> {
+  const { dryRun = false } = options;
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+
+  // Fetch existing review
+  const { data: review, error } = await supabase
+    .from('movie_reviews')
+    .select('id, dimensions_json, editorial_review')
+    .eq('movie_id', movieId)
+    .single();
+
+  if (error || !review) {
+    console.log(`  No review found for movie ${movieId}`);
+    return { updated: false, fieldsChanged: [] };
+  }
+
+  const fieldsChanged: string[] = [];
+  let dimensions = review.dimensions_json ? { ...review.dimensions_json } : null;
+  let editorial = review.editorial_review ? { ...review.editorial_review } : null;
+
+  // Helper: replace name in string
+  const replaceName = (text: string, oldName: string | null, newName: string): string => {
+    if (!text || !oldName) return text;
+    return text.replace(new RegExp(oldName, 'gi'), newName);
+  };
+
+  // Helper: replace name in object (deep)
+  const replaceInObject = (obj: any, oldName: string | null, newName: string): any => {
+    if (!obj || !oldName) return obj;
+    const str = JSON.stringify(obj);
+    if (!str.includes(oldName)) return obj;
+    return JSON.parse(str.replace(new RegExp(oldName, 'gi'), newName));
+  };
+
+  for (const change of changes) {
+    if (!change.oldValue) continue;
+
+    // Update dimensions_json
+    if (dimensions) {
+      // performances.lead_actors
+      if (dimensions.performances?.lead_actors) {
+        for (let i = 0; i < dimensions.performances.lead_actors.length; i++) {
+          const actor = dimensions.performances.lead_actors[i];
+          if (actor.name?.toLowerCase() === change.oldValue.toLowerCase()) {
+            dimensions.performances.lead_actors[i].name = change.newValue;
+            dimensions.performances.lead_actors[i].analysis = replaceName(
+              actor.analysis || '',
+              change.oldValue,
+              change.newValue
+            );
+            fieldsChanged.push('dimensions.performances.lead_actors.name');
+          }
+        }
+      }
+
+      // synopsis
+      if (dimensions.synopsis && typeof dimensions.synopsis === 'string') {
+        const updated = replaceName(dimensions.synopsis, change.oldValue, change.newValue);
+        if (updated !== dimensions.synopsis) {
+          dimensions.synopsis = updated;
+          fieldsChanged.push('dimensions.synopsis');
+        }
+      } else if (dimensions.synopsis?.en) {
+        const updated = replaceName(dimensions.synopsis.en, change.oldValue, change.newValue);
+        if (updated !== dimensions.synopsis.en) {
+          dimensions.synopsis.en = updated;
+          fieldsChanged.push('dimensions.synopsis.en');
+        }
+      }
+
+      // cultural_impact
+      if (dimensions.cultural_impact) {
+        const updated = replaceInObject(dimensions.cultural_impact, change.oldValue, change.newValue);
+        if (JSON.stringify(updated) !== JSON.stringify(dimensions.cultural_impact)) {
+          dimensions.cultural_impact = updated;
+          fieldsChanged.push('dimensions.cultural_impact');
+        }
+      }
+
+      // verdict
+      if (dimensions.verdict) {
+        const updated = replaceInObject(dimensions.verdict, change.oldValue, change.newValue);
+        if (JSON.stringify(updated) !== JSON.stringify(dimensions.verdict)) {
+          dimensions.verdict = updated;
+          fieldsChanged.push('dimensions.verdict');
+        }
+      }
+
+      // why_watch / why_skip
+      if (dimensions.why_watch) {
+        const updated = replaceInObject(dimensions.why_watch, change.oldValue, change.newValue);
+        if (JSON.stringify(updated) !== JSON.stringify(dimensions.why_watch)) {
+          dimensions.why_watch = updated;
+          fieldsChanged.push('dimensions.why_watch');
+        }
+      }
+    }
+
+    // Update editorial_review (legacy format)
+    if (editorial) {
+      if (editorial.performances?.lead_actors) {
+        for (let i = 0; i < editorial.performances.lead_actors.length; i++) {
+          const actor = editorial.performances.lead_actors[i];
+          if (actor.name?.toLowerCase() === change.oldValue.toLowerCase()) {
+            editorial.performances.lead_actors[i].name = change.newValue;
+            editorial.performances.lead_actors[i].analysis = replaceName(
+              actor.analysis || '',
+              change.oldValue,
+              change.newValue
+            );
+            fieldsChanged.push('editorial.performances.lead_actors.name');
+          }
+        }
+      }
+
+      if (editorial.synopsis?.en) {
+        const updated = replaceName(editorial.synopsis.en, change.oldValue, change.newValue);
+        if (updated !== editorial.synopsis.en) {
+          editorial.synopsis.en = updated;
+          fieldsChanged.push('editorial.synopsis.en');
+        }
+      }
+    }
+  }
+
+  // Deduplicate field changes
+  const uniqueFields = [...new Set(fieldsChanged)];
+
+  if (uniqueFields.length === 0) {
+    return { updated: false, fieldsChanged: [] };
+  }
+
+  if (dryRun) {
+    return {
+      updated: true,
+      fieldsChanged: uniqueFields,
+      preview: { dimensions, editorial }
+    };
+  }
+
+  // Apply updates
+  const updates: any = { updated_at: new Date().toISOString() };
+  if (dimensions) updates.dimensions_json = dimensions;
+  if (editorial) updates.editorial_review = editorial;
+
+  const { error: updateError } = await supabase
+    .from('movie_reviews')
+    .update(updates)
+    .eq('id', review.id);
+
+  if (updateError) {
+    console.log(`  ✗ Failed to update review: ${updateError.message}`);
+    return { updated: false, fieldsChanged: [] };
+  }
+
+  console.log(`  ✓ Updated review: ${uniqueFields.join(', ')}`);
+  return { updated: true, fieldsChanged: uniqueFields };
+}
+
+/**
+ * Batch update performance names for multiple movies
+ */
+export async function batchUpdatePerformanceNames(
+  updates: Array<{ movieId: string; changes: CastChange[] }>,
+  options: { dryRun?: boolean; parallel?: boolean } = {}
+): Promise<{
+  processed: number;
+  updated: number;
+  results: Array<{ movieId: string; updated: boolean; fieldsChanged: string[] }>;
+}> {
+  const { dryRun = false, parallel = false } = options;
+  const results: Array<{ movieId: string; updated: boolean; fieldsChanged: string[] }> = [];
+
+  if (parallel) {
+    // Process in parallel batches
+    const batchSize = 5;
+    for (let i = 0; i < updates.length; i += batchSize) {
+      const batch = updates.slice(i, i + batchSize);
+      const batchResults = await Promise.all(
+        batch.map(u => updatePerformanceNames(u.movieId, u.changes, { dryRun }))
+      );
+      
+      batch.forEach((u, idx) => {
+        results.push({
+          movieId: u.movieId,
+          ...batchResults[idx]
+        });
+      });
+    }
+  } else {
+    for (const update of updates) {
+      const result = await updatePerformanceNames(update.movieId, update.changes, { dryRun });
+      results.push({ movieId: update.movieId, ...result });
+    }
+  }
+
+  return {
+    processed: results.length,
+    updated: results.filter(r => r.updated).length,
+    results
+  };
 }
 
 // ============================================================

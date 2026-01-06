@@ -28,8 +28,8 @@ export function RecommendMeButton({
   const [isOpen, setIsOpen] = useState(false);
 
   const baseStyles = variant === 'primary'
-    ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white hover:from-orange-600 hover:to-amber-600 shadow-lg shadow-orange-500/20'
-    : 'bg-gray-800 border border-gray-700 text-gray-300 hover:bg-gray-700 hover:text-white';
+    ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-[var(--text-primary)] hover:from-orange-600 hover:to-amber-600 shadow-lg shadow-orange-500/20'
+    : 'bg-[var(--bg-secondary)] border border-gray-700 text-[var(--text-secondary)] hover:bg-gray-700 hover:text-[var(--text-primary)]';
 
   return (
     <>
@@ -54,4 +54,5 @@ export function RecommendMeButton({
     </>
   );
 }
+
 

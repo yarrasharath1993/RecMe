@@ -123,3 +123,4 @@ COMMENT ON COLUMN movie_reviews.enrichment_version IS
 -- }
 
 
+

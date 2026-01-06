@@ -157,7 +157,7 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
     <div className="space-y-3">
       {!compact && (
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold text-white flex items-center gap-2">
+          <h3 className="text-lg font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-yellow-400" />
             Browse by Mood
           </h3>
@@ -177,11 +177,11 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
                 className={`group flex items-center gap-2 px-3 py-2 rounded-xl border transition-all ${
                   isActive 
                     ? `bg-gradient-to-r ${mood.bgGradient} border-${mood.color.split('-')[1]}-500/50 ring-2 ring-${mood.color.split('-')[1]}-500/20`
-                    : 'bg-gray-900/50 border-gray-700/50 hover:bg-gray-800/70 hover:border-gray-600'
+                    : 'bg-[var(--bg-primary)]/50 border-[var(--border-primary)]/50 hover:bg-[var(--bg-secondary)]/70 hover:border-gray-600'
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? mood.color : 'text-gray-400 group-hover:' + mood.color}`} />
-                <span className={`text-sm font-medium ${isActive ? 'text-white' : 'text-gray-300'}`}>
+                <Icon className={`w-4 h-4 ${isActive ? mood.color : 'text-[var(--text-secondary)] group-hover:' + mood.color}`} />
+                <span className={`text-sm font-medium ${isActive ? 'text-[var(--text-primary)]' : 'text-gray-300'}`}>
                   {mood.label}
                 </span>
               </button>
@@ -192,13 +192,13 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
             <Link
               key={mood.id}
               href={`/reviews?${mood.query}`}
-              className={`group flex items-center gap-2 px-3 py-2 rounded-xl bg-gradient-to-r ${mood.bgGradient} border border-gray-700/30 hover:border-gray-600 transition-all hover:scale-105`}
+              className={`group flex items-center gap-2 px-3 py-2 rounded-xl bg-gradient-to-r ${mood.bgGradient} border border-[var(--border-primary)]/30 hover:border-gray-600 transition-all hover:scale-105`}
             >
               <Icon className={`w-4 h-4 ${mood.color}`} />
               <div className="flex flex-col">
-                <span className="text-sm font-medium text-white">{mood.label}</span>
+                <span className="text-sm font-medium text-[var(--text-primary)]">{mood.label}</span>
                 {!compact && (
-                  <span className="text-[10px] text-gray-400">{mood.description}</span>
+                  <span className="text-[10px] text-[var(--text-secondary)]">{mood.description}</span>
                 )}
               </div>
             </Link>
@@ -208,7 +208,7 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
         {compact && moods.length > 6 && !showAll && (
           <button
             onClick={() => setShowAll(true)}
-            className="flex items-center gap-1.5 px-3 py-2 bg-gray-800/50 hover:bg-gray-700/50 rounded-xl text-gray-400 hover:text-gray-300 text-sm transition-all border border-gray-700/30"
+            className="flex items-center gap-1.5 px-3 py-2 bg-[var(--bg-secondary)]/50 hover:bg-gray-700/50 rounded-xl text-[var(--text-secondary)] hover:text-gray-300 text-sm transition-all border border-[var(--border-primary)]/30"
           >
             +{moods.length - 6} more
           </button>
@@ -221,5 +221,6 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
 // Export moods for use in filtering logic
 export { moods };
 export type { MoodOption };
+
 
 

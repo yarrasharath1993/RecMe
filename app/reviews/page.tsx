@@ -22,6 +22,7 @@ import type { Movie, Genre, ReviewFilters } from '@/types/reviews';
 import { HorizontalCarousel } from '@/components/ui/HorizontalCarousel';
 import { MoodIndicators } from '@/components/reviews/MoodIndicators';
 import { RecommendMeModal } from '@/components/recommendations/RecommendMeModal';
+import { isMovieUpcoming, getUpcomingLabel } from "@/lib/utils/movie-status";
 
 // ============================================================
 // TYPES
@@ -34,6 +35,7 @@ interface MovieCard {
   slug: string;
   poster_url?: string;
   release_year?: number;
+  release_date?: string;
   genres: string[];
   director?: string;
   hero?: string;
@@ -58,7 +60,7 @@ interface ReviewSection {
 
 interface SpotlightSection {
   id: string;
-  type: 'hero' | 'heroine' | 'director';
+  type: "hero" | "heroine" | "director";
   name: string;
   name_te?: string;
   image_url?: string;
@@ -69,7 +71,7 @@ interface SpotlightSection {
 }
 
 interface SearchResult {
-  type: 'movie' | 'actor' | 'director' | 'genre';
+  type: "movie" | "actor" | "director" | "genre";
   id: string;
   title: string;
   subtitle?: string;
@@ -82,38 +84,102 @@ interface SearchResult {
 // ============================================================
 
 const GENRES: Genre[] = [
-  'Action', 'Drama', 'Romance', 'Comedy', 'Thriller',
-  'Horror', 'Fantasy', 'Crime', 'Family', 'Mystery',
+  "Action",
+  "Drama",
+  "Romance",
+  "Comedy",
+  "Thriller",
+  "Horror",
+  "Fantasy",
+  "Crime",
+  "Family",
+  "Mystery",
 ];
 
 const LANGUAGES = [
-  { code: 'Telugu', label: 'తెలుగు', icon: '🎬', primary: true },
-  { code: 'Hindi', label: 'హిందీ', icon: '🇮🇳', primary: false },
-  { code: 'Tamil', label: 'తమిళం', icon: '🎭', primary: false },
-  { code: 'Malayalam', label: 'మలయాళం', icon: '🌟', primary: false },
-  { code: 'English', label: 'ఇంగ్లీష్', icon: '🎥', primary: false },
-  { code: 'Kannada', label: 'కన్నడ', icon: '🎪', primary: false },
+  {
+    code: "Telugu",
+    label: "Telugu",
+    labelTe: "తెలుగు",
+    icon: "🎬",
+    flag: "🇮🇳",
+    primary: true,
+  },
+  {
+    code: "Hindi",
+    label: "Hindi",
+    labelTe: "హిందీ",
+    icon: "🎭",
+    flag: "🇮🇳",
+    primary: false,
+  },
+  {
+    code: "Tamil",
+    label: "Tamil",
+    labelTe: "తమిళం",
+    icon: "🎬",
+    flag: "🇮🇳",
+    primary: false,
+  },
+  {
+    code: "Malayalam",
+    label: "Malayalam",
+    labelTe: "మలయాళం",
+    icon: "🌴",
+    flag: "🇮🇳",
+    primary: false,
+  },
+  {
+    code: "English",
+    label: "English",
+    labelTe: "ఇంగ్లీష్",
+    icon: "🎥",
+    flag: "🇬🇧",
+    primary: false,
+  },
+  {
+    code: "Kannada",
+    label: "Kannada",
+    labelTe: "కన్నడ",
+    icon: "🎪",
+    flag: "🇮🇳",
+    primary: false,
+  },
 ];
 
+const GENRE_ICONS: Record<string, { icon: string; color: string }> = {
+  All: { icon: "🎬", color: "#f59e0b" },
+  Action: { icon: "💥", color: "#ef4444" },
+  Drama: { icon: "🎭", color: "#8b5cf6" },
+  Romance: { icon: "💕", color: "#ec4899" },
+  Comedy: { icon: "😂", color: "#22c55e" },
+  Thriller: { icon: "🔪", color: "#64748b" },
+  Horror: { icon: "👻", color: "#1e293b" },
+  Fantasy: { icon: "✨", color: "#6366f1" },
+  Crime: { icon: "🔍", color: "#78716c" },
+  Family: { icon: "👨‍👩‍👧‍👦", color: "#14b8a6" },
+  Mystery: { icon: "🕵️", color: "#a855f7" },
+};
+
 const YEAR_RANGES = [
-  { label: 'All Time', from: 1950, to: 2030 },
-  { label: '2020s', from: 2020, to: 2029 },
-  { label: '2010s', from: 2010, to: 2019 },
-  { label: '2000s', from: 2000, to: 2009 },
-  { label: '90s', from: 1990, to: 1999 },
-  { label: 'Classics', from: 1950, to: 1989 },
+  { label: "All Time", from: 1950, to: 2030 },
+  { label: "2020s", from: 2020, to: 2029 },
+  { label: "2010s", from: 2010, to: 2019 },
+  { label: "2000s", from: 2000, to: 2009 },
+  { label: "90s", from: 1990, to: 1999 },
+  { label: "Classics", from: 1950, to: 1989 },
 ];
 
 const SECTION_ICONS: Record<string, React.ReactNode> = {
-  'recently_released': <Calendar className="w-5 h-5" />,
-  'upcoming': <Sparkles className="w-5 h-5" />,
-  'trending': <TrendingUp className="w-5 h-5" />,
-  'recommended': <ThumbsUp className="w-5 h-5" />,
-  'blockbusters': <Award className="w-5 h-5" />,
-  'hidden-gems': <Gem className="w-5 h-5" />,
-  'classics': <Star className="w-5 h-5" />,
-  'cult-classics': <Sparkles className="w-5 h-5" />,
-  'genre': <Film className="w-5 h-5" />,
+  recently_released: <Calendar className="w-5 h-5" />,
+  upcoming: <Sparkles className="w-5 h-5" />,
+  trending: <TrendingUp className="w-5 h-5" />,
+  recommended: <ThumbsUp className="w-5 h-5" />,
+  blockbusters: <Award className="w-5 h-5" />,
+  "hidden-gems": <Gem className="w-5 h-5" />,
+  classics: <Star className="w-5 h-5" />,
+  "cult-classics": <Sparkles className="w-5 h-5" />,
+  genre: <Film className="w-5 h-5" />,
 };
 
 // ============================================================
@@ -129,10 +195,18 @@ export default function ReviewsPage() {
   const [sections, setSections] = useState<ReviewSection[]>([]);
   const [spotlights, setSpotlights] = useState<SpotlightSection[]>([]);
   const [loadingSections, setLoadingSections] = useState(true);
+  const [hasMoreSections, setHasMoreSections] = useState(false);
+  const [loadingMoreSections, setLoadingMoreSections] = useState(false);
+  const lazyLoadTriggerRef = useRef<HTMLDivElement>(null);
 
   // Filter/search state
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [hasMoreMovies, setHasMoreMovies] = useState(false);
+  const [movieOffset, setMovieOffset] = useState(0);
+  const movieLoadMoreRef = useRef<HTMLDivElement>(null);
+  const MOVIES_PER_PAGE = 24;
   const [filters, setFilters] = useState<ReviewFilters>({
     sortBy: "rating",
     sortOrder: "desc",
@@ -145,6 +219,7 @@ export default function ReviewsPage() {
   const [viewMode, setViewMode] = useState<"sections" | "grid">("sections");
   const [activeMood, setActiveMood] = useState<string | undefined>();
   const [showRecommendModal, setShowRecommendModal] = useState(false);
+  const [showQuickLinksModal, setShowQuickLinksModal] = useState(false);
 
   const searchRef = useRef<HTMLDivElement>(null);
 
@@ -203,29 +278,87 @@ export default function ReviewsPage() {
     [router, selectedLanguage, activeMood]
   );
 
-  // Fetch sections on mount
-  // Fetch sections (depends on selected language)
-  const fetchSections = useCallback(async (language: string) => {
+  // Fetch initial sections (fast load - only 3 sections)
+  const fetchInitialSections = useCallback(async (language: string) => {
     setLoadingSections(true);
     try {
       const params = new URLSearchParams();
+      params.set("mode", "initial");
       if (language) params.set("language", language);
       const res = await fetch(`/api/reviews/sections?${params}`);
       const data = await res.json();
       if (data.sections) {
         setSections(data.sections);
         setSpotlights(data.spotlights || []);
+        setHasMoreSections(data.hasMore || false);
       }
     } catch (error) {
-      console.error("Error fetching sections:", error);
+      console.error("Error fetching initial sections:", error);
     }
     setLoadingSections(false);
   }, []);
 
+  // Fetch lazy sections (remaining sections + spotlights on scroll)
+  const fetchLazySections = useCallback(
+    async (language: string) => {
+      if (loadingMoreSections || !hasMoreSections) return;
+
+      setLoadingMoreSections(true);
+      try {
+        const params = new URLSearchParams();
+        params.set("mode", "lazy");
+        if (language) params.set("language", language);
+        const res = await fetch(`/api/reviews/sections?${params}`);
+        const data = await res.json();
+        if (data.sections) {
+          setSections((prev) => [...prev, ...data.sections]);
+        }
+        if (data.spotlights) {
+          setSpotlights(data.spotlights);
+        }
+        setHasMoreSections(false); // All sections loaded
+      } catch (error) {
+        console.error("Error fetching lazy sections:", error);
+      }
+      setLoadingMoreSections(false);
+    },
+    [loadingMoreSections, hasMoreSections]
+  );
+
   // Re-fetch sections when language changes
   useEffect(() => {
-    fetchSections(selectedLanguage);
-  }, [selectedLanguage, fetchSections]);
+    fetchInitialSections(selectedLanguage);
+  }, [selectedLanguage, fetchInitialSections]);
+
+  // IntersectionObserver for lazy loading more sections
+  useEffect(() => {
+    if (!hasMoreSections || loadingMoreSections) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          fetchLazySections(selectedLanguage);
+        }
+      },
+      { threshold: 0.1, rootMargin: "200px" }
+    );
+
+    const trigger = lazyLoadTriggerRef.current;
+    if (trigger) {
+      observer.observe(trigger);
+    }
+
+    return () => {
+      if (trigger) {
+        observer.unobserve(trigger);
+      }
+    };
+  }, [
+    hasMoreSections,
+    loadingMoreSections,
+    fetchLazySections,
+    selectedLanguage,
+  ]);
 
   // Unified search
   const handleSearch = useCallback(async (query: string) => {
@@ -265,40 +398,97 @@ export default function ReviewsPage() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Fetch filtered movies when switching to grid view
-  const fetchMovies = useCallback(async () => {
-    if (viewMode !== "grid") return;
-    setLoading(true);
-    try {
-      const params = new URLSearchParams();
-      if (filters.genre) params.set("genre", filters.genre);
-      if (filters.actor) params.set("actor", filters.actor);
-      if (filters.director) params.set("director", filters.director);
-      if (filters.yearRange) {
-        params.set("yearFrom", String(filters.yearRange.from));
-        params.set("yearTo", String(filters.yearRange.to));
-      }
-      if (filters.minRating) params.set("minRating", String(filters.minRating));
-      if (filters.isUnderrated) params.set("underrated", "true");
-      if (filters.isBlockbuster) params.set("blockbuster", "true");
-      if (filters.isClassic) params.set("classic", "true");
-      if (filters.sortBy) params.set("sortBy", filters.sortBy);
-      if (filters.sortOrder) params.set("sortOrder", filters.sortOrder);
-      if (selectedLanguage) params.set("language", selectedLanguage);
-      params.set("limit", "500"); // Show more movies
-
-      const res = await fetch(`/api/movies?${params}`);
-      const data = await res.json();
-      setMovies(data.movies || []);
-    } catch (error) {
-      console.error("Error fetching movies:", error);
+  // Build filter params helper
+  const buildFilterParams = useCallback(() => {
+    const params = new URLSearchParams();
+    if (filters.genre) params.set("genre", filters.genre);
+    if (filters.actor) params.set("actor", filters.actor);
+    if (filters.director) params.set("director", filters.director);
+    if (filters.yearRange) {
+      params.set("yearFrom", String(filters.yearRange.from));
+      params.set("yearTo", String(filters.yearRange.to));
     }
-    setLoading(false);
+    if (filters.minRating) params.set("minRating", String(filters.minRating));
+    if (filters.isUnderrated) params.set("underrated", "true");
+    if (filters.isBlockbuster) params.set("blockbuster", "true");
+    if (filters.isClassic) params.set("classic", "true");
+    if (filters.sortBy) params.set("sortBy", filters.sortBy);
+    if (filters.sortOrder) params.set("sortOrder", filters.sortOrder);
+    if (selectedLanguage) params.set("language", selectedLanguage);
+    return params;
+  }, [filters, selectedLanguage]);
+
+  // Fetch filtered movies when switching to grid view (paginated)
+  const fetchMovies = useCallback(
+    async (reset = true) => {
+      if (viewMode !== "grid") return;
+
+      if (reset) {
+        setLoading(true);
+        setMovieOffset(0);
+      } else {
+        setLoadingMore(true);
+      }
+
+      try {
+        const params = buildFilterParams();
+        const offset = reset ? 0 : movieOffset;
+        params.set("limit", String(MOVIES_PER_PAGE));
+        params.set("offset", String(offset));
+
+        const res = await fetch(`/api/movies?${params}`);
+        const data = await res.json();
+        const newMovies = data.movies || [];
+
+        if (reset) {
+          setMovies(newMovies);
+          setMovieOffset(MOVIES_PER_PAGE);
+        } else {
+          setMovies((prev) => [...prev, ...newMovies]);
+          setMovieOffset(offset + MOVIES_PER_PAGE);
+        }
+
+        // Check if there are more movies to load
+        setHasMoreMovies(newMovies.length === MOVIES_PER_PAGE);
+      } catch (error) {
+        console.error("Error fetching movies:", error);
+      }
+
+      setLoading(false);
+      setLoadingMore(false);
+    },
+    [viewMode, buildFilterParams, movieOffset]
+  );
+
+  // Initial fetch when filters change
+  useEffect(() => {
+    fetchMovies(true);
   }, [filters, viewMode, selectedLanguage]);
 
+  // IntersectionObserver for infinite scroll in grid view
   useEffect(() => {
-    fetchMovies();
-  }, [fetchMovies]);
+    if (!hasMoreMovies || loadingMore || viewMode !== "grid") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          fetchMovies(false);
+        }
+      },
+      { threshold: 0.1, rootMargin: "200px" }
+    );
+
+    const trigger = movieLoadMoreRef.current;
+    if (trigger) {
+      observer.observe(trigger);
+    }
+
+    return () => {
+      if (trigger) {
+        observer.unobserve(trigger);
+      }
+    };
+  }, [hasMoreMovies, loadingMore, viewMode, fetchMovies]);
 
   const clearFilters = useCallback(() => {
     const defaultFilters: ReviewFilters = {
@@ -483,7 +673,7 @@ export default function ReviewsPage() {
             {/* Recommend Me CTA */}
             <button
               onClick={() => setShowRecommendModal(true)}
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-sm font-medium rounded-lg hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/20"
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 text-[var(--text-primary)] text-sm font-medium rounded-lg hover:from-orange-600 hover:to-amber-600 transition-all shadow-lg shadow-orange-500/20"
             >
               <Wand2 className="w-4 h-4" />
               <span className="hidden sm:inline">Recommend Me</span>
@@ -640,74 +830,111 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Language Tabs */}
+      {/* Language Tabs - Compact scrollable design */}
       <section className="max-w-7xl mx-auto px-4 pt-3">
-        <div
-          className="flex gap-1 overflow-x-auto scrollbar-hide border-b"
-          style={{ borderColor: "var(--border-primary)" }}
-        >
-          {LANGUAGES.map((lang) => (
-            <button
-              key={lang.code}
-              onClick={() => {
-                // Clear actor/director filters when switching languages
-                const resetFilters: ReviewFilters = {
-                  sortBy: "rating",
-                  sortOrder: "desc",
-                };
-                setFilters(resetFilters);
-                setSelectedLanguage(lang.code);
-                if (lang.code !== "Telugu") {
-                  setViewMode("grid");
-                } else {
-                  setViewMode("sections");
-                }
-                // Clear URL params when switching languages
-                router.replace("/reviews", { scroll: false });
-              }}
-              className={`flex items-center gap-1.5 px-4 py-2 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
-                selectedLanguage === lang.code
-                  ? "border-yellow-500"
-                  : "border-transparent hover:border-gray-500"
-              }`}
-              style={{
-                color:
+        <div className="flex items-center gap-2">
+          <span
+            className="text-xs font-medium shrink-0 hidden sm:block"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            Language:
+          </span>
+          <div
+            className="flex gap-1.5 overflow-x-auto scrollbar-hide py-1 flex-1"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            {LANGUAGES.map((lang) => (
+              <button
+                key={lang.code}
+                onClick={() => {
+                  const resetFilters: ReviewFilters = {
+                    sortBy: "rating",
+                    sortOrder: "desc",
+                  };
+                  setFilters(resetFilters);
+                  setSelectedLanguage(lang.code);
+                  if (lang.code !== "Telugu") {
+                    setViewMode("grid");
+                  } else {
+                    setViewMode("sections");
+                  }
+                  router.replace("/reviews", { scroll: false });
+                }}
+                className={`group relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all whitespace-nowrap ${
                   selectedLanguage === lang.code
-                    ? "var(--brand-primary)"
-                    : "var(--text-secondary)",
-              }}
-            >
-              <span>{lang.icon}</span>
-              <span>{lang.label}</span>
-              {lang.primary && (
-                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-yellow-500/20 text-yellow-500 ml-1">
-                  Primary
+                    ? "ring-2 ring-yellow-500/50"
+                    : "hover:bg-[var(--bg-tertiary)]/50"
+                }`}
+                style={{
+                  backgroundColor:
+                    selectedLanguage === lang.code
+                      ? "var(--brand-primary)"
+                      : "var(--bg-secondary)",
+                  color:
+                    selectedLanguage === lang.code
+                      ? "var(--bg-primary)"
+                      : "var(--text-secondary)",
+                  border: `1px solid ${
+                    selectedLanguage === lang.code
+                      ? "var(--brand-primary)"
+                      : "var(--border-primary)"
+                  }`,
+                }}
+                title={`${lang.label} (${lang.labelTe})`}
+              >
+                <span className="text-sm">{lang.flag}</span>
+                <span className="hidden sm:inline">{lang.label}</span>
+                <span className="sm:hidden">{lang.code.slice(0, 3)}</span>
+                {lang.primary && selectedLanguage === lang.code && (
+                  <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                )}
+
+                {/* Tooltip on hover */}
+                <span
+                  className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded text-[10px] font-medium opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 whitespace-nowrap"
+                  style={{
+                    backgroundColor: "var(--bg-tertiary)",
+                    color: "var(--text-primary)",
+                  }}
+                >
+                  {lang.labelTe}
                 </span>
-              )}
-            </button>
-          ))}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Genre Pills (only for Telugu) */}
+      {/* Genre Pills - Desktop only (moved to Browse Collections modal on mobile) */}
       {selectedLanguage === "Telugu" && (
-        <section className="max-w-7xl mx-auto px-4 py-3">
-          <div className="flex gap-1.5 overflow-x-auto scrollbar-hide">
-            <GenrePill
-              label="All"
-              active={!filters.genre && viewMode === "sections"}
-              onClick={() => {
-                clearFilters(); // Clears all filters AND updates URL
-              }}
-            />
-            {GENRES.map((genre) => (
+        <section className="hidden sm:block max-w-7xl mx-auto px-4 py-2">
+          <div className="flex items-center gap-2">
+            <span
+              className="text-xs font-medium shrink-0"
+              style={{ color: "var(--text-tertiary)" }}
+            >
+              Genre:
+            </span>
+            <div
+              className="flex gap-1.5 overflow-x-auto scrollbar-hide py-1 flex-1"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+            >
               <GenrePill
-                key={genre}
-                label={genre}
-                active={filters.genre === genre}
-                onClick={() => applyFilter({ genre })}
+                label="All"
+                icon={GENRE_ICONS["All"].icon}
+                active={!filters.genre && viewMode === "sections"}
+                onClick={() => clearFilters()}
               />
-            ))}
+              {GENRES.map((genre) => (
+                <GenrePill
+                  key={genre}
+                  label={genre}
+                  icon={GENRE_ICONS[genre]?.icon || "🎬"}
+                  active={filters.genre === genre}
+                  onClick={() => applyFilter({ genre })}
+                />
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -772,24 +999,73 @@ export default function ReviewsPage() {
             </div>
           ) : (
             <>
-              {/* Quick Links Section - Top 10, Best 10, etc. */}
-              <section className="mb-8">
-                <div className="flex items-center gap-2 mb-4">
-                  <Sparkles
-                    className="w-5 h-5"
-                    style={{ color: "var(--brand-primary)" }}
-                  />
-                  <h2
-                    className="text-xl font-bold"
-                    style={{ color: "var(--text-primary)" }}
-                  >
-                    Quick Links
-                  </h2>
-                </div>
-                <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
+              {/* Browse Collections - Enhanced CTA Button (Mobile) + Full Row (Desktop) */}
+              <section className="mb-4">
+                {/* Mobile: Enhanced CTA button with preview */}
+                <button
+                  onClick={() => setShowQuickLinksModal(true)}
+                  className="sm:hidden w-full rounded-xl transition-all active:scale-[0.98] overflow-hidden"
+                  style={{
+                    background:
+                      "linear-gradient(135deg, rgba(249,115,22,0.1), rgba(234,179,8,0.05))",
+                    border: "1px solid rgba(249,115,22,0.3)",
+                  }}
+                >
+                  <div className="px-4 py-3 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center">
+                        <Sparkles className="w-4 h-4 text-[var(--text-primary)]" />
+                      </div>
+                      <div className="text-left">
+                        <span
+                          className="font-semibold block text-sm"
+                          style={{ color: "var(--text-primary)" }}
+                        >
+                          Browse & Discover
+                        </span>
+                        <span
+                          className="text-[10px]"
+                          style={{ color: "var(--text-tertiary)" }}
+                        >
+                          Genres • Moods • Collections
+                        </span>
+                      </div>
+                    </div>
+                    <ChevronRight
+                      className="w-5 h-5"
+                      style={{ color: "var(--brand-primary)" }}
+                    />
+                  </div>
+                  {/* Preview pills */}
+                  <div className="px-4 pb-3 flex gap-1.5 overflow-hidden">
+                    {["🎬 Action", "💕 Romance", "😂 Comedy", "💎 Gems"].map(
+                      (tag) => (
+                        <span
+                          key={tag}
+                          className="text-[10px] px-2 py-0.5 rounded-full whitespace-nowrap"
+                          style={{
+                            backgroundColor: "var(--bg-tertiary)",
+                            color: "var(--text-secondary)",
+                          }}
+                        >
+                          {tag}
+                        </span>
+                      )
+                    )}
+                    <span
+                      className="text-[10px] px-2 py-0.5"
+                      style={{ color: "var(--text-tertiary)" }}
+                    >
+                      +12 more
+                    </span>
+                  </div>
+                </button>
+
+                {/* Desktop: Horizontal scroll row */}
+                <div className="hidden sm:flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
                   {[
                     {
-                      label: "Top 10 Movies",
+                      label: "Top 10",
                       icon: "🏆",
                       link: "/reviews?sort=rating&limit=10",
                     },
@@ -813,22 +1089,17 @@ export default function ReviewsPage() {
                       icon: "🎭",
                       link: "/reviews/classics",
                     },
-                    {
-                      label: "Most Watched",
-                      icon: "👁️",
-                      link: "/reviews?sort=views",
-                    },
                   ].map((quickLink) => (
                     <Link
                       key={quickLink.label}
                       href={quickLink.link}
-                      className="flex-shrink-0 snap-start flex items-center gap-2 px-4 py-3 rounded-xl transition-transform hover:scale-105"
+                      className="flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-lg transition-transform hover:scale-105"
                       style={{
                         backgroundColor: "var(--bg-secondary)",
                         border: "1px solid var(--border-primary)",
                       }}
                     >
-                      <span className="text-2xl">{quickLink.icon}</span>
+                      <span className="text-lg">{quickLink.icon}</span>
                       <span
                         className="text-sm font-medium whitespace-nowrap"
                         style={{ color: "var(--text-primary)" }}
@@ -853,7 +1124,7 @@ export default function ReviewsPage() {
                     }
                     gap="md"
                   >
-                    {spotlights.slice(0, 12).map((spotlight) => (
+                    {spotlights.map((spotlight) => (
                       <SpotlightCard
                         key={spotlight.id}
                         spotlight={spotlight}
@@ -869,14 +1140,13 @@ export default function ReviewsPage() {
                 </section>
               )}
 
-              {/* Mood-Based Browse */}
-              <section className="mb-8">
-                <MoodIndicators 
-                  compact 
+              {/* Mood-Based Browse - Desktop only (moved to Browse modal on mobile) */}
+              <section className="hidden sm:block mb-8">
+                <MoodIndicators
+                  compact
                   activeMood={activeMood}
                   onMoodSelect={(mood) => {
                     setActiveMood(mood === activeMood ? undefined : mood);
-                    // TODO: Filter sections by mood
                   }}
                 />
               </section>
@@ -885,6 +1155,26 @@ export default function ReviewsPage() {
               {sections.map((section) => (
                 <MovieSection key={section.id} section={section} />
               ))}
+
+              {/* Lazy Load Trigger */}
+              {hasMoreSections && (
+                <div
+                  ref={lazyLoadTriggerRef}
+                  className="py-8 flex justify-center"
+                >
+                  {loadingMoreSections ? (
+                    <div
+                      className="flex items-center gap-2"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      <div className="w-5 h-5 border-2 border-orange-500 border-t-transparent rounded-full animate-spin" />
+                      <span>Loading more sections...</span>
+                    </div>
+                  ) : (
+                    <div className="h-1" />
+                  )}
+                </div>
+              )}
             </>
           )}
         </div>
@@ -958,6 +1248,26 @@ export default function ReviewsPage() {
                   <SmallMovieCard key={movie.id} movie={movie} />
                 ))}
               </div>
+
+              {/* Load More Trigger for Infinite Scroll */}
+              {hasMoreMovies && (
+                <div
+                  ref={movieLoadMoreRef}
+                  className="py-8 flex justify-center"
+                >
+                  {loadingMore ? (
+                    <div
+                      className="flex items-center gap-2"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      <div className="w-5 h-5 border-2 border-orange-500 border-t-transparent rounded-full animate-spin" />
+                      <span>Loading more movies...</span>
+                    </div>
+                  ) : (
+                    <div className="h-1" />
+                  )}
+                </div>
+              )}
             </>
           )}
         </section>
@@ -969,6 +1279,199 @@ export default function ReviewsPage() {
         onClose={() => setShowRecommendModal(false)}
         prefillLanguage={selectedLanguage}
       />
+
+      {/* Browse & Discover Modal */}
+      {showQuickLinksModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center"
+          onClick={() => setShowQuickLinksModal(false)}
+        >
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+
+          {/* Modal Content */}
+          <div
+            className="relative w-full sm:max-w-lg bg-[var(--bg-primary)] rounded-t-2xl sm:rounded-2xl border border-[var(--border-primary)]/50 overflow-hidden animate-in slide-in-from-bottom duration-300 max-h-[85vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Handle bar (mobile) */}
+            <div className="sm:hidden w-12 h-1 bg-gray-600 rounded-full mx-auto mt-3" />
+
+            {/* Header */}
+            <div className="sticky top-0 z-10 px-4 py-3 border-b border-[var(--border-primary)] flex items-center justify-between bg-[var(--bg-primary)]/95 backdrop-blur-sm">
+              <h2 className="text-lg font-bold text-[var(--text-primary)] flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-yellow-500" />
+                Browse & Discover
+              </h2>
+              <button
+                onClick={() => setShowQuickLinksModal(false)}
+                className="p-1.5 rounded-lg hover:bg-[var(--bg-secondary)] transition-colors"
+              >
+                <X className="w-5 h-5 text-[var(--text-secondary)]" />
+              </button>
+            </div>
+
+            {/* Quick Links Section */}
+            <div className="px-4 pt-4 pb-2">
+              <h3 className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-2">
+                Collections
+              </h3>
+              <div
+                className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide"
+                style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+              >
+                {[
+                  {
+                    label: "Top 10",
+                    icon: "🏆",
+                    link: "/reviews?sort=rating&limit=10",
+                  },
+                  {
+                    label: "Best 2024",
+                    icon: "⭐",
+                    link: "/reviews?year=2024&sort=rating",
+                  },
+                  { label: "Gems", icon: "💎", link: "/reviews/hidden-gems" },
+                  {
+                    label: "Blockbusters",
+                    icon: "🎬",
+                    link: "/reviews/blockbusters",
+                  },
+                  { label: "Classics", icon: "🎭", link: "/reviews/classics" },
+                ].map((item) => (
+                  <Link
+                    key={item.label}
+                    href={item.link}
+                    onClick={() => setShowQuickLinksModal(false)}
+                    className="flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all active:scale-95"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, rgba(234,179,8,0.15), rgba(249,115,22,0.1))",
+                      border: "1px solid rgba(234,179,8,0.3)",
+                    }}
+                  >
+                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-sm font-medium text-[var(--text-primary)] whitespace-nowrap">
+                      {item.label}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Genres Section */}
+            <div className="px-4 pt-2 pb-2">
+              <h3 className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-2">
+                Genres
+              </h3>
+              <div
+                className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide"
+                style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+              >
+                {GENRES.map((genre) => (
+                  <button
+                    key={genre}
+                    onClick={() => {
+                      applyFilter({ genre });
+                      setShowQuickLinksModal(false);
+                    }}
+                    className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all active:scale-95 ${
+                      filters.genre === genre ? "ring-2 ring-yellow-500/50" : ""
+                    }`}
+                    style={{
+                      backgroundColor:
+                        filters.genre === genre
+                          ? "var(--brand-primary)"
+                          : "rgba(255,255,255,0.05)",
+                      color:
+                        filters.genre === genre
+                          ? "black"
+                          : "var(--text-secondary)",
+                      border: "1px solid rgba(255,255,255,0.1)",
+                    }}
+                  >
+                    <span className="text-base">
+                      {GENRE_ICONS[genre]?.icon || "🎬"}
+                    </span>
+                    <span className="text-sm font-medium whitespace-nowrap">
+                      {genre}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Moods Section */}
+            <div className="px-4 pt-2 pb-3">
+              <h3 className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-2">
+                Moods
+              </h3>
+              <div
+                className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide"
+                style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+              >
+                {[
+                  { id: "action-packed", label: "Action Packed", icon: "⚡" },
+                  { id: "emotional", label: "Emotional", icon: "💔" },
+                  { id: "comedy", label: "Comedy", icon: "😂" },
+                  { id: "thrilling", label: "Thrilling", icon: "🔥" },
+                  { id: "romantic", label: "Romantic", icon: "💕" },
+                  { id: "family", label: "Family", icon: "👨‍👩‍👧‍👦" },
+                  { id: "feel-good", label: "Feel Good", icon: "😊" },
+                  { id: "intense", label: "Intense", icon: "😰" },
+                ].map((mood) => (
+                  <button
+                    key={mood.id}
+                    onClick={() => {
+                      setActiveMood(
+                        mood.id === activeMood ? undefined : mood.id
+                      );
+                      setShowQuickLinksModal(false);
+                    }}
+                    className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all active:scale-95 ${
+                      activeMood === mood.id ? "ring-2 ring-purple-500/50" : ""
+                    }`}
+                    style={{
+                      backgroundColor:
+                        activeMood === mood.id
+                          ? "rgba(168,85,247,0.2)"
+                          : "rgba(255,255,255,0.05)",
+                      color:
+                        activeMood === mood.id
+                          ? "#a855f7"
+                          : "var(--text-secondary)",
+                      border: `1px solid ${
+                        activeMood === mood.id
+                          ? "rgba(168,85,247,0.5)"
+                          : "rgba(255,255,255,0.1)"
+                      }`,
+                    }}
+                  >
+                    <span className="text-base">{mood.icon}</span>
+                    <span className="text-sm font-medium whitespace-nowrap">
+                      {mood.label}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Footer CTA */}
+            <div className="px-4 pb-4 pt-2 border-t border-[var(--border-primary)]">
+              <button
+                onClick={() => {
+                  setShowQuickLinksModal(false);
+                  setShowRecommendModal(true);
+                }}
+                className="w-full py-3 bg-gradient-to-r from-orange-500 to-amber-500 text-[var(--text-primary)] font-semibold rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-orange-500/20"
+              >
+                <Wand2 className="w-4 h-4" />
+                Get Personalized Recommendations
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
@@ -999,13 +1502,19 @@ function MovieSection({ section }: { section: ReviewSection }) {
   return (
     <section className="relative group/section">
       <div className="flex items-center justify-between mb-3">
-        <h2 className="text-lg font-bold flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
-          <span style={{ color: 'var(--brand-primary)' }}>
+        <h2
+          className="text-lg font-bold flex items-center gap-2"
+          style={{ color: "var(--text-primary)" }}
+        >
+          <span style={{ color: "var(--brand-primary)" }}>
             {SECTION_ICONS[section.type] || <Film className="w-5 h-5" />}
           </span>
           {section.title}
           {section.title_te && (
-            <span className="text-sm font-normal ml-1" style={{ color: 'var(--text-tertiary)' }}>
+            <span
+              className="text-sm font-normal ml-1"
+              style={{ color: "var(--text-tertiary)" }}
+            >
               ({section.title_te})
             </span>
           )}
@@ -1014,43 +1523,47 @@ function MovieSection({ section }: { section: ReviewSection }) {
           <Link
             href={section.viewAllLink}
             className="flex items-center gap-1 text-xs hover:underline"
-            style={{ color: 'var(--brand-primary)' }}
+            style={{ color: "var(--brand-primary)" }}
           >
             View All <ChevronRight className="w-3 h-3" />
           </Link>
         )}
       </div>
-      
+
       {/* Scroll buttons */}
       <button
-        onClick={() => scroll('left')}
+        onClick={() => scroll("left")}
         className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-16 rounded-r-lg opacity-0 group-hover/section:opacity-100 transition-opacity flex items-center justify-center"
-        style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
+        style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
       >
-        <ChevronRight className="w-5 h-5 text-white rotate-180" />
+        <ChevronRight className="w-5 h-5 text-[var(--text-primary)] rotate-180" />
       </button>
       <button
-        onClick={() => scroll('right')}
+        onClick={() => scroll("right")}
         className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-16 rounded-l-lg opacity-0 group-hover/section:opacity-100 transition-opacity flex items-center justify-center"
-        style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
+        style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
       >
-        <ChevronRight className="w-5 h-5 text-white" />
+        <ChevronRight className="w-5 h-5 text-[var(--text-primary)]" />
       </button>
-      
+
       {/* Horizontal scroll container with 2 rows */}
       <div
         ref={scrollRef}
         className="overflow-x-auto scrollbar-hide scroll-smooth"
-        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
-        <div className={`grid gap-3 ${isUpcoming ? 'grid-rows-1' : 'grid-rows-2'} grid-flow-col auto-cols-[calc(33.333%-8px)] sm:auto-cols-[calc(25%-9px)] md:auto-cols-[calc(16.666%-10px)]`}>
-          {displayMovies.map((movie) => (
+        <div
+          className={`grid gap-3 ${
+            isUpcoming ? "grid-rows-1" : "grid-rows-2"
+          } grid-flow-col auto-cols-[calc(33.333%-8px)] sm:auto-cols-[calc(25%-9px)] md:auto-cols-[calc(16.666%-10px)]`}
+        >
+          {displayMovies.map((movie) =>
             isUpcoming ? (
               <UpcomingMovieCard key={movie.id} movie={movie} />
             ) : (
               <SmallMovieCard key={movie.id} movie={movie} />
             )
-          ))}
+          )}
         </div>
       </div>
     </section>
@@ -1072,7 +1585,7 @@ function SpotlightCard({ spotlight, onSelect }: { spotlight: SpotlightSection; o
     <button
       onClick={handleClick}
       className="group relative rounded-xl overflow-hidden transition-transform hover:scale-[1.02] text-left w-36 sm:w-40 flex-shrink-0"
-      style={{ backgroundColor: 'var(--bg-secondary)' }}
+      style={{ backgroundColor: "var(--bg-secondary)" }}
     >
       <div className="relative aspect-[3/4]">
         {spotlight.image_url ? (
@@ -1086,17 +1599,19 @@ function SpotlightCard({ spotlight, onSelect }: { spotlight: SpotlightSection; o
         ) : (
           <div
             className="w-full h-full flex items-center justify-center"
-            style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)' }}
+            style={{ background: "linear-gradient(135deg, #f59e0b, #d97706)" }}
           >
-            <span className="text-3xl font-bold text-white">{getInitials(spotlight.name)}</span>
+            <span className="text-3xl font-bold text-[var(--text-primary)]">
+              {getInitials(spotlight.name)}
+            </span>
           </div>
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-3">
-          <p className="text-white font-bold text-sm truncate group-hover:text-yellow-500 transition-colors">
+          <p className="text-[var(--text-primary)] font-bold text-sm truncate group-hover:text-yellow-500 transition-colors">
             {spotlight.name}
           </p>
-          <div className="flex items-center gap-2 mt-1 text-[10px] text-gray-400">
+          <div className="flex items-center gap-2 mt-1 text-[10px] text-[var(--text-secondary)]">
             <span>{spotlight.total_movies} Movies</span>
             <span>•</span>
             <span className="flex items-center gap-0.5">
@@ -1120,7 +1635,7 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
     <Link
       href={`/reviews/${movie.slug}`}
       className="group relative rounded-xl overflow-hidden transition-transform hover:scale-[1.02]"
-      style={{ backgroundColor: 'var(--bg-secondary)' }}
+      style={{ backgroundColor: "var(--bg-secondary)" }}
     >
       <div className="relative aspect-[2/3]">
         {movie.poster_url ? (
@@ -1134,9 +1649,15 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
         ) : (
           <div
             className="w-full h-full flex items-center justify-center"
-            style={{ background: 'linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary))' }}
+            style={{
+              background:
+                "linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary))",
+            }}
           >
-            <Film className="w-8 h-8" style={{ color: 'var(--text-tertiary)' }} />
+            <Film
+              className="w-8 h-8"
+              style={{ color: "var(--text-tertiary)" }}
+            />
           </div>
         )}
 
@@ -1144,7 +1665,7 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
 
         {/* Coming Soon Badge */}
         <div className="absolute top-1.5 left-1.5">
-          <span className="px-2 py-0.5 bg-gradient-to-r from-orange-500 to-red-500 text-white text-[10px] font-bold rounded-full">
+          <span className="px-2 py-0.5 bg-gradient-to-r from-orange-500 to-red-500 text-[var(--text-primary)] text-[10px] font-bold rounded-full">
             🎬 COMING SOON
           </span>
         </div>
@@ -1152,24 +1673,24 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
         {/* Release Date */}
         <div
           className="absolute top-1.5 right-1.5 flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold"
-          style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
+          style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
         >
           <Calendar className="w-3 h-3 text-yellow-500" />
-          <span className="text-white">{formattedDate}</span>
+          <span className="text-[var(--text-primary)]">{formattedDate}</span>
         </div>
 
         {/* Info */}
         <div className="absolute bottom-0 left-0 right-0 p-2">
-          <h3 className="text-white text-xs font-bold truncate group-hover:text-yellow-500 transition-colors">
+          <h3 className="text-[var(--text-primary)] text-xs font-bold truncate group-hover:text-yellow-500 transition-colors">
             {movie.title_en}
           </h3>
           {movie.director && (
-            <p className="text-[10px] text-gray-400 truncate mt-0.5">
+            <p className="text-[10px] text-[var(--text-secondary)] truncate mt-0.5">
               Dir: {movie.director}
             </p>
           )}
           {movie.synopsis && (
-            <p className="text-[9px] text-gray-500 line-clamp-2 mt-1">
+            <p className="text-[9px] text-[var(--text-tertiary)] line-clamp-2 mt-1">
               {movie.synopsis}
             </p>
           )}
@@ -1181,11 +1702,14 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
 
 function SmallMovieCard({ movie }: { movie: MovieCard | Movie }) {
   const m = movie as MovieCard;
+  const isUpcoming = isMovieUpcoming(m);
+  const upcomingLabel = isUpcoming ? getUpcomingLabel(m) : "";
+  
   return (
     <Link
       href={`/reviews/${m.slug}`}
       className="group relative rounded-xl overflow-hidden transition-transform hover:scale-[1.02]"
-      style={{ backgroundColor: 'var(--bg-secondary)' }}
+      style={{ backgroundColor: "var(--bg-secondary)" }}
     >
       <div className="relative aspect-[2/3]">
         {m.poster_url ? (
@@ -1199,42 +1723,66 @@ function SmallMovieCard({ movie }: { movie: MovieCard | Movie }) {
         ) : (
           <div
             className="w-full h-full flex items-center justify-center"
-            style={{ background: 'linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary))' }}
+            style={{
+              background:
+                "linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary))",
+            }}
           >
-            <Film className="w-8 h-8" style={{ color: 'var(--text-tertiary)' }} />
+            <Film
+              className="w-8 h-8"
+              style={{ color: "var(--text-tertiary)" }}
+            />
           </div>
         )}
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
-        {/* Badges */}
+        {/* Badges - show Coming Soon for upcoming, other badges for released */}
         <div className="absolute top-1.5 left-1.5 flex flex-col gap-0.5">
-          {m.is_underrated && (
-            <span className="px-1.5 py-0.5 bg-purple-500 text-white text-[10px] font-bold rounded">💎</span>
-          )}
-          {m.is_blockbuster && (
-            <span className="px-1.5 py-0.5 bg-orange-500 text-white text-[10px] font-bold rounded">🎬</span>
-          )}
-          {m.is_classic && (
-            <span className="px-1.5 py-0.5 bg-yellow-500 text-black text-[10px] font-bold rounded">⭐</span>
+          {isUpcoming ? (
+            <span className="px-1.5 py-0.5 bg-gradient-to-r from-orange-500 to-red-500 text-[var(--text-primary)] text-[10px] font-bold rounded">
+              {upcomingLabel}
+            </span>
+          ) : (
+            <>
+              {m.is_underrated && (
+                <span className="px-1.5 py-0.5 bg-purple-500 text-[var(--text-primary)] text-[10px] font-bold rounded">
+                  💎
+                </span>
+              )}
+              {m.is_blockbuster && (
+                <span className="px-1.5 py-0.5 bg-orange-500 text-[var(--text-primary)] text-[10px] font-bold rounded">
+                  🎬
+                </span>
+              )}
+              {m.is_classic && (
+                <span className="px-1.5 py-0.5 bg-yellow-500 text-black text-[10px] font-bold rounded">
+                  ⭐
+                </span>
+              )}
+            </>
           )}
         </div>
 
-        {/* Rating */}
-        <div
-          className="absolute top-1.5 right-1.5 flex items-center gap-0.5 px-1.5 py-0.5 rounded text-xs font-bold"
-          style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}
-        >
-          <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
-          <span className="text-white">{m.avg_rating?.toFixed(1) || '—'}</span>
-        </div>
+        {/* Rating - hide for upcoming movies */}
+        {!isUpcoming && (
+          <div
+            className="absolute top-1.5 right-1.5 flex items-center gap-0.5 px-1.5 py-0.5 rounded text-xs font-bold"
+            style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
+          >
+            <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+            <span className="text-[var(--text-primary)]">
+              {m.avg_rating?.toFixed(1) || "—"}
+            </span>
+          </div>
+        )}
 
         {/* Info */}
         <div className="absolute bottom-0 left-0 right-0 p-2">
-          <h3 className="text-white text-xs font-bold truncate group-hover:text-yellow-500 transition-colors">
+          <h3 className="text-[var(--text-primary)] text-xs font-bold truncate group-hover:text-yellow-500 transition-colors">
             {m.title_en}
           </h3>
-          <div className="flex items-center gap-1.5 mt-0.5 text-[10px] text-gray-400">
+          <div className="flex items-center gap-1.5 mt-0.5 text-[10px] text-[var(--text-secondary)]">
             <span>{m.release_year}</span>
             {m.director && (
               <>
@@ -1320,24 +1868,45 @@ function FilterSelect({
 
 function GenrePill({
   label,
+  icon,
   active,
-  onClick
+  onClick,
 }: {
   label: string;
+  icon?: string;
   active: boolean;
   onClick: () => void;
 }) {
   return (
     <button
       onClick={onClick}
-      className="px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors"
+      className={`group relative flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-all ${
+        active ? "ring-2 ring-yellow-500/50" : "hover:scale-105"
+      }`}
       style={{
-        backgroundColor: active ? 'var(--brand-primary)' : 'var(--bg-secondary)',
-        color: active ? 'var(--bg-primary)' : 'var(--text-secondary)',
-        border: `1px solid ${active ? 'var(--brand-primary)' : 'var(--border-primary)'}`
+        backgroundColor: active
+          ? "var(--brand-primary)"
+          : "var(--bg-secondary)",
+        color: active ? "var(--bg-primary)" : "var(--text-secondary)",
+        border: `1px solid ${
+          active ? "var(--brand-primary)" : "var(--border-primary)"
+        }`,
       }}
+      title={label}
     >
-      {label}
+      {icon && <span className="text-sm">{icon}</span>}
+      <span className="hidden sm:inline">{label}</span>
+
+      {/* Tooltip on mobile - shows on tap/hover */}
+      <span
+        className="absolute -bottom-7 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded text-[10px] font-medium opacity-0 group-hover:opacity-100 sm:group-hover:opacity-0 transition-opacity pointer-events-none z-50"
+        style={{
+          backgroundColor: "var(--bg-tertiary)",
+          color: "var(--text-primary)",
+        }}
+      >
+        {label}
+      </span>
     </button>
   );
 }

@@ -9,13 +9,25 @@
  * - Internal box office classification
  */
 
-import { createClient } from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import type { CareerVisualization, CareerMovie } from '../games/types';
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+// Lazy initialization to avoid issues during module import
+let supabaseInstance: SupabaseClient | null = null;
+
+function getSupabase(): SupabaseClient {
+  if (!supabaseInstance) {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    
+    if (!url || !key) {
+      throw new Error('Supabase URL and Service Role Key are required');
+    }
+    
+    supabaseInstance = createClient(url, key);
+  }
+  return supabaseInstance;
+}
 
 // ============================================================
 // VERDICT COLORS
@@ -63,12 +75,31 @@ export class CareerVisualizer {
    * Get career visualization for a celebrity
    */
   async getCareerVisualization(celebIdOrSlug: string): Promise<CareerVisualization | null> {
-    // Get celebrity
-    const { data: celebrity } = await supabase
-      .from('celebrities')
-      .select('*')
-      .or(`id.eq.${celebIdOrSlug},slug.eq.${celebIdOrSlug}`)
-      .single();
+    // Get celebrity - try by slug first (most common), then by UUID if valid
+    const supabase = getSupabase();
+    
+    // Check if input looks like a UUID
+    const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(celebIdOrSlug);
+    
+    let celebrity;
+    if (isUUID) {
+      const { data } = await supabase
+        .from('celebrities')
+        .select('*')
+        .eq('id', celebIdOrSlug)
+        .single();
+      celebrity = data;
+    }
+    
+    // If not found by ID, try by slug
+    if (!celebrity) {
+      const { data } = await supabase
+        .from('celebrities')
+        .select('*')
+        .eq('slug', celebIdOrSlug)
+        .single();
+      celebrity = data;
+    }
 
     if (!celebrity) return null;
 
@@ -107,11 +138,14 @@ export class CareerVisualizer {
    * Get all movies for a celebrity
    */
   private async getCelebrityMovies(celebId: string, celebName: string): Promise<CareerMovie[]> {
-    // First try to get from movies table with celebrity link
+    const supabase = getSupabase();
+    
+    // First try to get from movies table with celebrity link (hero, heroine, or director)
     const { data: linkedMovies } = await supabase
       .from('movies')
       .select('*')
-      .or(`hero.ilike.%${celebName}%,heroine.ilike.%${celebName}%,cast.cs.{${celebName}}`)
+      .or(`hero.ilike.%${celebName}%,heroine.ilike.%${celebName}%,director.ilike.%${celebName}%`)
+      .eq('is_published', true)
       .order('release_year', { ascending: false });
 
     // Also try filmography from celebrity record
@@ -163,7 +197,9 @@ export class CareerVisualizer {
 
     // Determine role
     let role = 'Supporting';
-    if (movie.hero?.toLowerCase().includes(celebName.toLowerCase())) {
+    if (movie.director?.toLowerCase().includes(celebName.toLowerCase())) {
+      role = 'Director';
+    } else if (movie.hero?.toLowerCase().includes(celebName.toLowerCase())) {
       role = 'Lead';
     } else if (movie.heroine?.toLowerCase().includes(celebName.toLowerCase())) {
       role = 'Lead';
@@ -297,6 +333,7 @@ export async function getCareerVisualization(
 ): Promise<CareerVisualization | null> {
   return getCareerVisualizer().getCareerVisualization(celebIdOrSlug);
 }
+
 
 
 

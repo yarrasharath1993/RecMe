@@ -9,6 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { createClient } from '@supabase/supabase-js';
 import { Film, Star, Calendar, TrendingUp, Filter } from 'lucide-react';
+import { isMovieUpcoming, getUpcomingLabel } from '@/lib/utils/movie-status';
 
 export const revalidate = 3600;
 
@@ -92,8 +93,8 @@ export default async function MoviesPage({ searchParams }: PageProps) {
                 href={tab.key === 'all' ? '/movies' : `/movies?decade=${tab.key}`}
                 className={`px-4 py-2 rounded-full transition-all ${
                   isActive
-                    ? 'bg-orange-500 text-white'
-                    : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                    ? 'bg-orange-500 text-[var(--text-primary)]'
+                    : 'bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-[var(--bg-tertiary)]'
                 }`}
               >
                 {tab.label}
@@ -119,6 +120,8 @@ export default async function MoviesPage({ searchParams }: PageProps) {
 
 function MovieCard({ movie }: { movie: any }) {
   const posterUrl = movie.poster_url || `https://via.placeholder.com/300x450?text=${encodeURIComponent(movie.title_en || 'Movie')}`;
+  const isUpcoming = isMovieUpcoming(movie);
+  const upcomingLabel = isUpcoming ? getUpcomingLabel(movie) : '';
 
   const verdictColors: Record<string, string> = {
     Blockbuster: 'bg-green-500',
@@ -132,7 +135,7 @@ function MovieCard({ movie }: { movie: any }) {
   return (
     <Link
       href={`/reviews/${movie.slug || movie.id}`}
-      className="group relative bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-orange-500 transition-all"
+      className="group relative bg-[var(--bg-primary)] rounded-xl overflow-hidden border border-[var(--border-primary)] hover:border-orange-500 transition-all"
     >
       <div className="aspect-[2/3] relative">
         <Image
@@ -144,21 +147,27 @@ function MovieCard({ movie }: { movie: any }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
-        {/* Verdict Badge */}
-        {movie.verdict && (
-          <div className={`absolute top-2 right-2 px-2 py-0.5 rounded text-xs font-bold text-white ${verdictColors[movie.verdict] || 'bg-gray-600'}`}>
+        {/* Coming Soon Badge for upcoming movies */}
+        {isUpcoming ? (
+          <div className="absolute top-2 left-2 px-2 py-0.5 bg-gradient-to-r from-orange-500 to-red-500 rounded text-xs font-bold text-[var(--text-primary)]">
+            {upcomingLabel}
+          </div>
+        ) : movie.verdict && (
+          /* Verdict Badge for released movies */
+          <div className={`absolute top-2 right-2 px-2 py-0.5 rounded text-xs font-bold text-[var(--text-primary)] ${verdictColors[movie.verdict] || 'bg-gray-600'}`}>
             {movie.verdict}
           </div>
         )}
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 p-3">
-        <h3 className="text-white font-bold text-sm truncate group-hover:text-orange-400 transition-colors">
+        <h3 className="text-[var(--text-primary)] font-bold text-sm truncate group-hover:text-orange-400 transition-colors">
           {movie.title_te || movie.title_en}
         </h3>
         <div className="flex items-center gap-2 mt-1">
-          <span className="text-gray-400 text-xs">{movie.release_year}</span>
-          {movie.avg_rating > 0 && (
+          <span className="text-[var(--text-secondary)] text-xs">{movie.release_year}</span>
+          {/* Show rating only for released movies */}
+          {!isUpcoming && movie.avg_rating > 0 && (
             <span className="flex items-center gap-0.5 text-yellow-400 text-xs">
               <Star className="w-3 h-3 fill-yellow-400" />
               {movie.avg_rating.toFixed(1)}
@@ -174,15 +183,15 @@ function EmptyState({ decade }: { decade?: string }) {
   return (
     <div className="text-center py-16">
       <Film className="w-16 h-16 text-gray-600 mx-auto mb-4" />
-      <h2 className="text-xl font-bold text-white mb-2">సినిమాలు కనుగొనబడలేదు</h2>
-      <p className="text-gray-400 mb-6">
+      <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">సినిమాలు కనుగొనబడలేదు</h2>
+      <p className="text-[var(--text-secondary)] mb-6">
         {decade
           ? `${decade} కాలంలో సినిమాలు లేవు`
           : 'డేటాబేస్ లో సినిమాలు లేవు'}
       </p>
       <Link
         href="/admin/movie-catalogue"
-        className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+        className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 text-[var(--text-primary)] rounded-lg hover:bg-orange-600 transition-colors"
       >
         Add Movies
       </Link>

@@ -346,3 +346,4 @@ CREATE TRIGGER trg_update_movie_quality_flags
 -- SET mood_tags = ARRAY['dark-intense', 'emotional', 'gripping']
 -- WHERE title_en ILIKE 'Arjun Reddy';
 
+

@@ -87,17 +87,20 @@ const DEFAULT_CONFIG: SectionConfig = {
   recentDays: 60,
   upcomingDays: 90,
   classicYearThreshold: 2000,
-  classicMinRating: 7.0,  // ✅ Relaxed from 7.5 to 7.0
+  classicMinRating: 7.0,
   genreMinMovies: 5,
   spotlightMinMovies: 3,
   maxMoviesPerSection: {
-    hero: 24,        // Show 24 movies in top sections
-    standard: 18,    // Show 18 in standard sections
-    genre: 15,       // Show 15 in genre sections
-    spotlight: 12,   // Show 12 in actor spotlights
+    hero: 12,        // Reduced from 24 for performance
+    standard: 10,    // Reduced from 18 for performance
+    genre: 8,        // Reduced from 15 for performance
+    spotlight: 6,    // Reduced from 12 for performance
   },
   language: 'Telugu',
 };
+
+// Slim movie fields for optimized API responses
+const SLIM_MOVIE_FIELDS = 'id, title_en, title_te, slug, poster_url, release_year, avg_rating, genres' as const;
 
 // ============================================================
 // SUPABASE CLIENT
@@ -468,120 +471,156 @@ export async function getGenreSections(config: SectionConfig = DEFAULT_CONFIG): 
 
 /**
  * Hero/Heroine Spotlight sections
+ * 
+ * FIXED: Uses proper count queries instead of fetching all rows
+ * (Supabase has a default limit of 1000 rows which caused incorrect counts)
  */
 export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFIG): Promise<SpotlightSection[]> {
   const supabase = getSupabaseClient();
   const language = config.language || 'Telugu';
   const spotlights: SpotlightSection[] = [];
+  const MIN_MOVIES_FOR_SPOTLIGHT = 5; // Minimum movies to appear in spotlight
 
-  // Get top heroes by movie count and rating
-  const { data: heroStats } = await supabase
-    .from('movies')
-    .select('hero')
-    .eq('is_published', true)
-    .eq('language', language)
-    .not('hero', 'is', null);
-
+  // DYNAMIC: Fetch ALL unique heroes, heroines, and directors from database
+  // Note: Supabase has a default limit of 1000 rows, so we need to fetch in batches
   const heroCounts = new Map<string, number>();
-  for (const m of heroStats || []) {
-    if (m.hero) {
-      heroCounts.set(m.hero, (heroCounts.get(m.hero) || 0) + 1);
-    }
-  }
-
-  // Get top 3 heroes with most movies
-  const topHeroes = Array.from(heroCounts.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 3);
-
-  for (const [heroName, count] of topHeroes) {
-    if (count >= 1) {
-      const { data: movies } = await supabase
-        .from('movies')
-        .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
-        .eq('is_published', true)
-        .eq('language', language)
-        .eq('hero', heroName)
-        .order('avg_rating', { ascending: false })
-        .limit(config.maxMoviesPerSection.spotlight); // ✅ Spotlight section
-
-      const avgRating = (movies && movies.length > 0)
-        ? movies.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / movies.length
-        : 0;
-
-      // Try to get celebrity image
-      const { data: celeb } = await supabase
-        .from('celebrities')
-        .select('profile_image, name_te')
-        .ilike('name_en', heroName)
-        .single();
-
-      spotlights.push({
-        id: `hero-${heroName.toLowerCase().replace(/\s+/g, '-')}`,
-        type: 'hero',
-        name: heroName,
-        name_te: celeb?.name_te,
-        image_url: celeb?.profile_image,
-        movies: (movies || []).map(mapToMovieCard),
-        total_movies: count,
-        avg_rating: avgRating,
-        link: `/reviews?actor=${encodeURIComponent(heroName)}`,
-      });
-    }
-  }
-
-  // Similar for heroines
-  const { data: heroineStats } = await supabase
-    .from('movies')
-    .select('heroine')
-    .eq('is_published', true)
-    .eq('language', language)
-    .not('heroine', 'is', null);
-
   const heroineCounts = new Map<string, number>();
-  for (const m of heroineStats || []) {
-    if (m.heroine) {
-      heroineCounts.set(m.heroine, (heroineCounts.get(m.heroine) || 0) + 1);
+  const directorCounts = new Map<string, number>();
+  
+  const BATCH_SIZE = 1000;
+  let offset = 0;
+  let hasMore = true;
+  
+  while (hasMore) {
+    const { data: batch } = await supabase
+      .from('movies')
+      .select('hero, heroine, director')
+      .eq('is_published', true)
+      .eq('language', language)
+      .range(offset, offset + BATCH_SIZE - 1);
+    
+    if (!batch || batch.length === 0) {
+      hasMore = false;
+      break;
+    }
+    
+    for (const m of batch) {
+      if (m.hero && m.hero !== 'Unknown' && m.hero !== 'N/A') {
+        heroCounts.set(m.hero, (heroCounts.get(m.hero) || 0) + 1);
+      }
+      if (m.heroine && m.heroine !== 'Unknown' && m.heroine !== 'N/A' && m.heroine !== 'No Female Lead') {
+        heroineCounts.set(m.heroine, (heroineCounts.get(m.heroine) || 0) + 1);
+      }
+      if (m.director && m.director !== 'Unknown' && m.director !== 'N/A') {
+        directorCounts.set(m.director, (directorCounts.get(m.director) || 0) + 1);
+      }
+    }
+    
+    if (batch.length < BATCH_SIZE) {
+      hasMore = false;
+    } else {
+      offset += BATCH_SIZE;
     }
   }
 
-  const topHeroines = Array.from(heroineCounts.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 2);
+  // Build dynamic spotlight list sorted by movie count
+  const topActors: Array<{ name: string; type: 'hero' | 'heroine' | 'director'; count: number }> = [];
 
-  for (const [heroineName, count] of topHeroines) {
-    if (count >= 1) {
-      const { data: movies } = await supabase
-        .from('movies')
-        .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
-        .eq('is_published', true)
-        .eq('language', language)
-        .eq('heroine', heroineName)
-        .order('avg_rating', { ascending: false })
-        .limit(config.maxMoviesPerSection.spotlight); // ✅ Spotlight section
-
-      const avgRating = (movies && movies.length > 0)
-        ? movies.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / movies.length
-        : 0;
-
-      const { data: celeb } = await supabase
-        .from('celebrities')
-        .select('profile_image, name_te')
-        .ilike('name_en', heroineName)
-        .single();
-
-      spotlights.push({
-        id: `heroine-${heroineName.toLowerCase().replace(/\s+/g, '-')}`,
-        type: 'heroine',
-        name: heroineName,
-        name_te: celeb?.name_te,
-        image_url: celeb?.profile_image,
-        movies: (movies || []).map(mapToMovieCard),
-        total_movies: count,
-        avg_rating: avgRating,
-        link: `/reviews?actor=${encodeURIComponent(heroineName)}`,
-      });
+  // Add all heroes with minimum movies
+  for (const [name, count] of heroCounts.entries()) {
+    if (count >= MIN_MOVIES_FOR_SPOTLIGHT) {
+      topActors.push({ name, type: 'hero', count });
     }
+  }
+
+  // Add all heroines with minimum movies
+  for (const [name, count] of heroineCounts.entries()) {
+    if (count >= MIN_MOVIES_FOR_SPOTLIGHT) {
+      topActors.push({ name, type: 'heroine', count });
+    }
+  }
+
+  // Add all directors with minimum movies
+  for (const [name, count] of directorCounts.entries()) {
+    if (count >= MIN_MOVIES_FOR_SPOTLIGHT) {
+      topActors.push({ name, type: 'director', count });
+    }
+  }
+
+  // Sort by movie count (highest first)
+  topActors.sort((a, b) => b.count - a.count);
+
+  for (const actor of topActors) {
+    const field = actor.type === 'director' ? 'director' : actor.type;
+    const totalCount = actor.count;
+
+    // Get top movies for display
+    const { data: movies } = await supabase
+      .from('movies')
+      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+      .eq('is_published', true)
+      .eq('language', language)
+      .eq(field, actor.name)
+      .order('avg_rating', { ascending: false, nullsFirst: false })
+      .limit(config.maxMoviesPerSection.spotlight);
+
+    // Smart rating calculation:
+    // 1. Get all movies with actual ratings for this actor
+    // 2. Calculate weighted average based on rated movies only
+    // 3. Apply cultural significance baseline for legendary actors with sparse ratings
+    const { data: ratedMovies } = await supabase
+      .from('movies')
+      .select('avg_rating, total_reviews')
+      .eq('is_published', true)
+      .eq('language', language)
+      .eq(field, actor.name)
+      .gt('avg_rating', 0);
+
+    const ratedCount = ratedMovies?.length || 0;
+    const ratingCoverage = totalCount > 0 ? ratedCount / totalCount : 0;
+    
+    let avgRating = 0;
+    if (ratedMovies && ratedMovies.length > 0) {
+      // Weighted average: movies with more reviews count more
+      const totalWeight = ratedMovies.reduce((sum, m) => sum + Math.max(m.total_reviews || 1, 1), 0);
+      const weightedSum = ratedMovies.reduce((sum, m) => sum + (m.avg_rating || 0) * Math.max(m.total_reviews || 1, 1), 0);
+      avgRating = weightedSum / totalWeight;
+    }
+    
+    // Apply cultural significance baseline for legendary actors with low rating coverage
+    // Actors with 100+ movies are considered legendary; 50+ are established
+    if (totalCount >= 100 && ratingCoverage < 0.1) {
+      // Legendary actors with <10% rating coverage: use 7.0 baseline (industry icons)
+      avgRating = Math.max(avgRating, 7.0);
+    } else if (totalCount >= 50 && ratingCoverage < 0.2) {
+      // Established actors with <20% rating coverage: use 6.5 baseline
+      avgRating = Math.max(avgRating, 6.5);
+    } else if (totalCount >= 20 && ratingCoverage < 0.3) {
+      // Known actors with <30% rating coverage: use 6.0 baseline
+      avgRating = Math.max(avgRating, 6.0);
+    }
+    
+    // Ensure minimum rating of 5.0 for any actor in spotlight
+    avgRating = Math.max(avgRating, 5.0);
+
+    // Try to get celebrity image
+    const { data: celeb } = await supabase
+      .from('celebrities')
+      .select('profile_image, name_te')
+      .ilike('name_en', actor.name)
+      .single();
+
+    spotlights.push({
+      id: `${actor.type}-${actor.name.toLowerCase().replace(/\s+/g, '-')}`,
+      type: actor.type,
+      name: actor.name,
+      name_te: celeb?.name_te,
+      image_url: celeb?.profile_image,
+      movies: (movies || []).map(mapToMovieCard),
+      total_movies: totalCount,
+      avg_rating: avgRating,
+      link: `/reviews?actor=${encodeURIComponent(actor.name)}`,
+    });
   }
 
   return spotlights;
@@ -653,6 +692,193 @@ export async function getAllReviewSections(partialConfig: Partial<SectionConfig>
   };
 }
 
+/**
+ * Get initial sections for fast first load (3 sections only, NO spotlights)
+ * Used for mode=initial to reduce payload size and load time
+ * Spotlights are loaded via mode=lazy for better performance
+ */
+export async function getInitialSections(partialConfig: Partial<SectionConfig> = {}): Promise<{
+  sections: ReviewSection[];
+  spotlights: SpotlightSection[];
+  hasMore: boolean;
+  totalSections: number;
+}> {
+  const config: SectionConfig = {
+    ...DEFAULT_CONFIG,
+    ...partialConfig,
+    maxMoviesPerSection: {
+      ...DEFAULT_CONFIG.maxMoviesPerSection,
+      ...(partialConfig.maxMoviesPerSection || {}),
+    },
+  };
+
+  // Only fetch the first 3 most important sections (NO spotlights - they're slow)
+  const [
+    recentlyReleased,
+    trending,
+    blockbusters,
+  ] = await Promise.all([
+    getRecentlyReleased(config),
+    getTrending(config),
+    getBlockbusters(config),
+  ]);
+
+  const sections = [
+    recentlyReleased,
+    trending,
+    blockbusters,
+  ].filter(s => s.isVisible);
+
+  sections.sort((a, b) => a.priority - b.priority);
+
+  return {
+    sections,
+    spotlights: [], // Spotlights loaded lazily for performance
+    hasMore: true,
+    totalSections: 9,
+  };
+}
+
+/**
+ * Get lazy-loaded sections (everything after initial, including spotlights)
+ * Used for mode=lazy to load remaining sections on scroll
+ */
+export async function getLazySections(partialConfig: Partial<SectionConfig> = {}): Promise<{
+  sections: ReviewSection[];
+  spotlights: SpotlightSection[];
+}> {
+  const config: SectionConfig = {
+    ...DEFAULT_CONFIG,
+    ...partialConfig,
+    maxMoviesPerSection: {
+      ...DEFAULT_CONFIG.maxMoviesPerSection,
+      ...(partialConfig.maxMoviesPerSection || {}),
+    },
+  };
+
+  // Fetch the remaining sections (not included in initial) + spotlights
+  const [
+    upcoming,
+    top10AllTime,
+    mostRecommended,
+    hiddenGems,
+    classics,
+    cultClassics,
+    genreSections,
+    spotlights,
+  ] = await Promise.all([
+    getUpcoming(config),
+    getTop10('all-time', config),
+    getMostRecommended(config),
+    getHiddenGems(config),
+    getClassics(config),
+    getCultClassics(config),
+    getGenreSections(config),
+    getTopSpotlights(config, 6), // Fast version: only top 6 spotlights
+  ]);
+
+  const sections = [
+    upcoming,
+    top10AllTime,
+    mostRecommended,
+    hiddenGems,
+    classics,
+    cultClassics,
+    ...genreSections,
+  ].filter(s => s.isVisible);
+
+  sections.sort((a, b) => a.priority - b.priority);
+
+  return { sections, spotlights };
+}
+
+/**
+ * Fast spotlight fetcher - only returns top N spotlights with minimal queries
+ * Optimized version that avoids N+1 query problem
+ */
+async function getTopSpotlights(config: SectionConfig, limit: number = 6): Promise<SpotlightSection[]> {
+  const supabase = getSupabaseClient();
+  const language = config.language || 'Telugu';
+
+  // Single query to get top actors by movie count using aggregation
+  const { data: heroData } = await supabase
+    .from('movies')
+    .select('hero')
+    .eq('is_published', true)
+    .eq('language', language)
+    .not('hero', 'is', null)
+    .not('hero', 'in', '("Unknown","N/A")');
+
+  // Count heroes efficiently in JS
+  const heroCounts = new Map<string, number>();
+  for (const m of heroData || []) {
+    if (m.hero) {
+      heroCounts.set(m.hero, (heroCounts.get(m.hero) || 0) + 1);
+    }
+  }
+
+  // Get top heroes sorted by count
+  const topHeroes = Array.from(heroCounts.entries())
+    .filter(([, count]) => count >= 5)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit);
+
+  // Batch fetch celebrity images for all top heroes at once
+  const heroNames = topHeroes.map(([name]) => name);
+  const { data: celebs } = await supabase
+    .from('celebrities')
+    .select('name_en, name_te, profile_image')
+    .in('name_en', heroNames);
+
+  const celebMap = new Map(
+    (celebs || []).map(c => [c.name_en.toLowerCase(), c])
+  );
+
+  // Build spotlights with minimal additional queries
+  const spotlights: SpotlightSection[] = [];
+
+  for (const [heroName, count] of topHeroes) {
+    // Get top 6 movies for this hero
+    const { data: movies } = await supabase
+      .from('movies')
+      .select('id, title_en, title_te, slug, poster_url, release_year, genres, avg_rating')
+      .eq('is_published', true)
+      .eq('language', language)
+      .eq('hero', heroName)
+      .order('avg_rating', { ascending: false, nullsFirst: false })
+      .limit(6);
+
+    const celeb = celebMap.get(heroName.toLowerCase());
+    const avgRating = movies && movies.length > 0
+      ? movies.reduce((sum, m) => sum + (m.avg_rating || 0), 0) / movies.length
+      : 6.0;
+
+    spotlights.push({
+      id: `hero-${heroName.toLowerCase().replace(/\s+/g, '-')}`,
+      type: 'hero',
+      name: heroName,
+      name_te: celeb?.name_te,
+      image_url: celeb?.profile_image,
+      movies: (movies || []).map(m => ({
+        id: m.id,
+        title_en: m.title_en,
+        title_te: m.title_te,
+        slug: m.slug,
+        poster_url: m.poster_url,
+        release_year: m.release_year,
+        genres: m.genres || [],
+        avg_rating: m.avg_rating || 0,
+        total_reviews: 0,
+      })),
+      total_movies: count,
+      avg_rating: Math.max(avgRating, 5.0),
+      link: `/reviews?actor=${encodeURIComponent(heroName)}`,
+    });
+  }
+
+  return spotlights;
+}
+
 // ============================================================
 // UNIFIED SEARCH
 // ============================================================
@@ -669,23 +895,108 @@ export interface SearchResult {
 
 /**
  * Unified search across movies, actors, directors
+ * 
+ * Ensures balanced results: actors/directors appear even when many movies match.
+ * Result composition: up to 6 movies + 2 actors + 1 director + 1 genre = 10 max
  */
 export async function unifiedSearch(query: string, limit: number = 10): Promise<SearchResult[]> {
   if (!query || query.length < 2) return [];
 
   const supabase = getSupabaseClient();
-  const results: SearchResult[] = [];
   const searchTerm = `%${query}%`;
 
-  // Search movies
-  const { data: movies } = await supabase
-    .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, director, release_year')
-    .eq('is_published', true)
-    .or(`title_en.ilike.${searchTerm},title_te.ilike.${searchTerm}`)
-    .limit(limit);
+  // Run all searches in parallel for speed
+  const [moviesResult, directorResult, actorResult] = await Promise.all([
+    // Search movies by title
+    supabase
+      .from('movies')
+      .select('id, title_en, title_te, slug, poster_url, director, release_year')
+      .eq('is_published', true)
+      .or(`title_en.ilike.${searchTerm},title_te.ilike.${searchTerm}`)
+      .limit(6), // Limit movies to leave room for actors/directors
 
-  for (const m of movies || []) {
+    // Search by director name
+    supabase
+      .from('movies')
+      .select('director')
+      .eq('is_published', true)
+      .ilike('director', searchTerm)
+      .limit(5),
+
+    // Search by actor (hero/heroine)
+    supabase
+      .from('movies')
+      .select('hero, heroine')
+      .eq('is_published', true)
+      .or(`hero.ilike.${searchTerm},heroine.ilike.${searchTerm}`)
+      .limit(20), // Get more to find unique actors
+  ]);
+
+  const results: SearchResult[] = [];
+
+  // 1. Add ACTORS first (high priority for actor searches like "Krishna")
+  const actors = new Set<string>();
+  for (const m of actorResult.data || []) {
+    if (m.hero && m.hero.toLowerCase().includes(query.toLowerCase())) actors.add(m.hero);
+    if (m.heroine && m.heroine.toLowerCase().includes(query.toLowerCase())) actors.add(m.heroine);
+  }
+
+  // Fetch actor images from celebrities table
+  const actorList = Array.from(actors).slice(0, 3);
+  const actorImages: Record<string, string | null> = {};
+  
+  for (const actor of actorList) {
+    const { data: celeb } = await supabase
+      .from('celebrities')
+      .select('profile_image')
+      .ilike('name_en', actor)
+      .single();
+    actorImages[actor] = celeb?.profile_image || null;
+  }
+
+  for (const actor of actorList) {
+    results.push({
+      type: 'actor',
+      id: `actor-${actor}`,
+      title: actor,
+      subtitle: 'Actor',
+      image_url: actorImages[actor] || undefined,
+      link: `/reviews?actor=${encodeURIComponent(actor)}`,
+      score: 95, // High score to appear before most movies
+    });
+  }
+
+  // 2. Add DIRECTORS
+  const directors = [...new Set((directorResult.data || []).map(m => m.director).filter(Boolean))];
+  const directorList = directors.slice(0, 2);
+  
+  // Fetch director images from celebrities table
+  const directorImages: Record<string, string | null> = {};
+  for (const director of directorList) {
+    if (director) {
+      const { data: celeb } = await supabase
+        .from('celebrities')
+        .select('profile_image')
+        .ilike('name_en', director)
+        .single();
+      directorImages[director] = celeb?.profile_image || null;
+    }
+  }
+  
+  for (const director of directorList) {
+    results.push({
+      type: 'director',
+      id: `director-${director}`,
+      title: director!,
+      subtitle: 'Director',
+      image_url: directorImages[director!] || undefined,
+      link: `/reviews?director=${encodeURIComponent(director!)}`,
+      score: 90,
+    });
+  }
+
+  // 3. Add MOVIES
+  for (const m of moviesResult.data || []) {
     results.push({
       type: 'movie',
       id: m.id,
@@ -693,59 +1004,14 @@ export async function unifiedSearch(query: string, limit: number = 10): Promise<
       subtitle: `${m.release_year} • ${m.director || 'Unknown Director'}`,
       image_url: m.poster_url,
       link: `/reviews/${m.slug}`,
-      score: 100,
+      score: 85,
     });
   }
 
-  // Search by director
-  const { data: directorMovies } = await supabase
-    .from('movies')
-    .select('director')
-    .eq('is_published', true)
-    .ilike('director', searchTerm)
-    .limit(5);
-
-  const directors = [...new Set((directorMovies || []).map(m => m.director).filter(Boolean))];
-  for (const director of directors.slice(0, 3)) {
-    results.push({
-      type: 'director',
-      id: `director-${director}`,
-      title: director!,
-      subtitle: 'Director',
-      link: `/reviews?director=${encodeURIComponent(director!)}`,
-      score: 80,
-    });
-  }
-
-  // Search by actor (hero/heroine)
-  const { data: actorMovies } = await supabase
-    .from('movies')
-    .select('hero, heroine')
-    .eq('is_published', true)
-    .or(`hero.ilike.${searchTerm},heroine.ilike.${searchTerm}`)
-    .limit(10);
-
-  const actors = new Set<string>();
-  for (const m of actorMovies || []) {
-    if (m.hero && m.hero.toLowerCase().includes(query.toLowerCase())) actors.add(m.hero);
-    if (m.heroine && m.heroine.toLowerCase().includes(query.toLowerCase())) actors.add(m.heroine);
-  }
-
-  for (const actor of Array.from(actors).slice(0, 3)) {
-    results.push({
-      type: 'actor',
-      id: `actor-${actor}`,
-      title: actor,
-      subtitle: 'Actor',
-      link: `/reviews?actor=${encodeURIComponent(actor)}`,
-      score: 75,
-    });
-  }
-
-  // Search genres
+  // 4. Add GENRES (lowest priority)
   const GENRES = ['Action', 'Drama', 'Romance', 'Comedy', 'Thriller', 'Horror', 'Fantasy', 'Crime', 'Period', 'Family'];
   const matchingGenres = GENRES.filter(g => g.toLowerCase().includes(query.toLowerCase()));
-  for (const genre of matchingGenres.slice(0, 2)) {
+  for (const genre of matchingGenres.slice(0, 1)) {
     results.push({
       type: 'genre',
       id: `genre-${genre}`,
@@ -756,7 +1022,7 @@ export async function unifiedSearch(query: string, limit: number = 10): Promise<
     });
   }
 
-  // Sort by score and limit
+  // Sort by score (actors first, then directors, then movies, then genres)
   return results.sort((a, b) => b.score - a.score).slice(0, limit);
 }
 

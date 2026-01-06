@@ -232,3 +232,4 @@ SELECT 'Telugu movie index schema created!' as status;
 
 
 
+

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#0a0a0a]">
+    <main className="min-h-screen bg-[var(--bg-primary)]">
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-transparent to-orange-500/10" />
@@ -19,10 +19,10 @@ export default function AboutPage() {
               <Newspaper className="w-12 h-12 text-yellow-500" />
             </div>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-6">
             తెలుగు వైబ్స్ గురించి
           </h1>
-          <p className="text-xl text-gray-300 leading-relaxed">
+          <p className="text-xl text-[var(--text-secondary)] leading-relaxed">
             TeluguVibes is a premium Telugu entertainment and culture portal
             built to serve the
             <span className="text-yellow-500 font-bold">
@@ -37,11 +37,11 @@ export default function AboutPage() {
       {/* Mission Section */}
       <section className="py-16 px-4 bg-[#141414]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-8 text-center">
             మా లక్ష్యం
           </h2>
           <div className="bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 rounded-2xl p-8">
-            <p className="text-lg text-gray-300 leading-relaxed text-center">
+            <p className="text-lg text-[var(--text-secondary)] leading-relaxed text-center">
               తెలుగు సంస్కృతి, సినిమా, వినోదం మరియు వార్తలను ప్రపంచవ్యాప్తంగా
               ఉన్న తెలుగు ప్రేక్షకులకు చేరవేయడం మా ధ్యేయం. మేము AI-సహాయక
               సంపాదకీయ వర్క్‌ఫ్లోలు, లైసెన్స్ చేయబడిన మీడియా మరియు చారిత్రక
@@ -55,7 +55,7 @@ export default function AboutPage() {
       {/* Features Grid */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-12 text-center">
             మేము ఏమి అందిస్తాము
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -114,7 +114,7 @@ export default function AboutPage() {
       {/* Values Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-white mb-12 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-12 text-center">
             మా విలువలు
           </h2>
           <div className="space-y-6">
@@ -141,10 +141,10 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-yellow-500/20 to-orange-500/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-6">
             మాతో కనెక్ట్ అవ్వండి
           </h2>
-          <p className="text-gray-300 mb-8">
+          <p className="text-[var(--text-secondary)] mb-8">
             Have suggestions, feedback, or want to collaborate? We'd love to
             hear from you!
           </p>
@@ -157,7 +157,7 @@ export default function AboutPage() {
             </Link>
             <Link
               href="/"
-              className="px-8 py-3 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-700 transition-colors"
+              className="px-8 py-3 bg-[var(--bg-secondary)] text-[var(--text-primary)] font-medium rounded-lg hover:bg-gray-700 transition-colors"
             >
               Explore Content
             </Link>
@@ -180,13 +180,13 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="bg-gray-900 rounded-xl p-6 hover:bg-gray-800 transition-colors group">
+    <div className="bg-[var(--bg-primary)] rounded-xl p-6 hover:bg-[var(--bg-secondary)] transition-colors group">
       <div className="text-yellow-500 mb-4 group-hover:scale-110 transition-transform">
         {icon}
       </div>
-      <h3 className="text-xl font-bold text-white mb-1">{title}</h3>
+      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-1">{title}</h3>
       <p className="text-yellow-500 text-sm mb-3">{titleTe}</p>
-      <p className="text-gray-400 text-sm">{description}</p>
+      <p className="text-[var(--text-secondary)] text-sm">{description}</p>
     </div>
   );
 }
@@ -195,16 +195,16 @@ function StatCard({ number, label }: { number: string; label: string }) {
   return (
     <div>
       <div className="text-4xl font-bold text-yellow-500 mb-2">{number}</div>
-      <div className="text-gray-400">{label}</div>
+      <div className="text-[var(--text-secondary)]">{label}</div>
     </div>
   );
 }
 
 function ValueItem({ title, description }: { title: string; description: string }) {
   return (
-    <div className="bg-gray-900 rounded-xl p-6 border-l-4 border-yellow-500">
-      <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
-      <p className="text-gray-400">{description}</p>
+    <div className="bg-[var(--bg-primary)] rounded-xl p-6 border-l-4 border-yellow-500">
+      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-2">{title}</h3>
+      <p className="text-[var(--text-secondary)]">{description}</p>
     </div>
   );
 }

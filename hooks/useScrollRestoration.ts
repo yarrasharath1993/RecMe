@@ -239,5 +239,179 @@ export function useFilterScrollMemory(filterKey: string) {
   });
 }
 
+// ============================================================
+// TAG NAVIGATION STATE (Extended Jan 2026)
+// ============================================================
+
+interface TagNavigationState {
+  scrollY: number;
+  activeSections: string[];
+  clickedTags: string[];
+  lastClickedTag?: string;
+  timestamp: number;
+}
+
+interface UseTagNavigationStateOptions {
+  /** Prefix for storage key */
+  keyPrefix?: string;
+  /** Max age for stored state in ms (default: 30 minutes) */
+  maxAge?: number;
+}
+
+const TAG_NAV_STORAGE_PREFIX = 'telugu_tag_nav_';
+const TAG_NAV_DEFAULT_MAX_AGE = 30 * 60 * 1000; // 30 minutes
+
+/**
+ * Hook for preserving tag navigation state
+ * 
+ * Saves and restores:
+ * - Scroll position
+ * - Active sections/carousels
+ * - Clicked tags
+ * 
+ * Usage:
+ * const { saveState, restoreState, recordTagClick, clearState } = useTagNavigationState();
+ */
+export function useTagNavigationState(options: UseTagNavigationStateOptions = {}) {
+  const { keyPrefix = 'default', maxAge = TAG_NAV_DEFAULT_MAX_AGE } = options;
+  const pathname = usePathname();
+  const storageKey = `${TAG_NAV_STORAGE_PREFIX}${keyPrefix}_${pathname}`;
+
+  /**
+   * Get stored state
+   */
+  const getStoredState = useCallback((): TagNavigationState | null => {
+    if (typeof window === 'undefined') return null;
+    
+    try {
+      const stored = sessionStorage.getItem(storageKey);
+      if (!stored) return null;
+      
+      const state: TagNavigationState = JSON.parse(stored);
+      
+      // Check if state is expired
+      if (Date.now() - state.timestamp > maxAge) {
+        sessionStorage.removeItem(storageKey);
+        return null;
+      }
+      
+      return state;
+    } catch {
+      return null;
+    }
+  }, [storageKey, maxAge]);
+
+  /**
+   * Save current state
+   */
+  const saveState = useCallback((partialState: Partial<Omit<TagNavigationState, 'timestamp'>>) => {
+    if (typeof window === 'undefined') return;
+    
+    const existingState = getStoredState();
+    const newState: TagNavigationState = {
+      scrollY: partialState.scrollY ?? existingState?.scrollY ?? window.scrollY,
+      activeSections: partialState.activeSections ?? existingState?.activeSections ?? [],
+      clickedTags: partialState.clickedTags ?? existingState?.clickedTags ?? [],
+      lastClickedTag: partialState.lastClickedTag ?? existingState?.lastClickedTag,
+      timestamp: Date.now(),
+    };
+    
+    try {
+      sessionStorage.setItem(storageKey, JSON.stringify(newState));
+    } catch {
+      // Storage full or unavailable
+    }
+  }, [storageKey, getStoredState]);
+
+  /**
+   * Record a tag click (appends to history)
+   */
+  const recordTagClick = useCallback((tag: string) => {
+    const existingState = getStoredState();
+    const clickedTags = existingState?.clickedTags ?? [];
+    
+    // Add tag if not already present
+    if (!clickedTags.includes(tag)) {
+      clickedTags.push(tag);
+    }
+    
+    saveState({
+      scrollY: window.scrollY,
+      clickedTags,
+      lastClickedTag: tag,
+    });
+  }, [getStoredState, saveState]);
+
+  /**
+   * Set active section
+   */
+  const setActiveSection = useCallback((sectionId: string) => {
+    const existingState = getStoredState();
+    const activeSections = existingState?.activeSections ?? [];
+    
+    // Add section if not already present
+    if (!activeSections.includes(sectionId)) {
+      activeSections.push(sectionId);
+    }
+    
+    saveState({
+      activeSections,
+    });
+  }, [getStoredState, saveState]);
+
+  /**
+   * Restore state
+   */
+  const restoreState = useCallback((): TagNavigationState | null => {
+    const state = getStoredState();
+    
+    if (state && typeof window !== 'undefined') {
+      // Restore scroll position with slight delay
+      setTimeout(() => {
+        window.scrollTo({
+          top: state.scrollY,
+          behavior: 'auto',
+        });
+      }, 50);
+    }
+    
+    return state;
+  }, [getStoredState]);
+
+  /**
+   * Clear stored state
+   */
+  const clearState = useCallback(() => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.removeItem(storageKey);
+    }
+  }, [storageKey]);
+
+  /**
+   * Get clicked tags
+   */
+  const getClickedTags = useCallback((): string[] => {
+    return getStoredState()?.clickedTags ?? [];
+  }, [getStoredState]);
+
+  /**
+   * Check if a tag was previously clicked
+   */
+  const wasTagClicked = useCallback((tag: string): boolean => {
+    return getClickedTags().includes(tag);
+  }, [getClickedTags]);
+
+  return {
+    saveState,
+    restoreState,
+    recordTagClick,
+    setActiveSection,
+    clearState,
+    getClickedTags,
+    wasTagClicked,
+    getStoredState,
+  };
+}
+
 export default useScrollRestoration;
 

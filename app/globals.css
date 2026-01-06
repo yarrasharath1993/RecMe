@@ -70,6 +70,11 @@
   --bg-card: #121218;
   --bg-elevated: #1a1a24;
   
+  /* Card backgrounds with subtle gradients for verdict/accordion */
+  --bg-card-gradient-start: #0f0f15;
+  --bg-card-gradient-end: #08080c;
+  --bg-card-accent: #16161f;
+  
   /* RGB versions for alpha usage */
   --bg-secondary-rgb: 15, 15, 21;
   --bg-primary-rgb: 8, 8, 12;
@@ -137,38 +142,44 @@
    ============================================================ */
 
 .light {
-  /* Warm, soft backgrounds */
-  --bg-primary: #fefefe;
-  --bg-secondary: #f8f7f4;
-  --bg-tertiary: #f0efe8;
-  --bg-hover: #e8e6dd;
-  --bg-active: #ddd9cc;
+  /* Warm, soft backgrounds - increased contrast */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f4f0;
+  --bg-tertiary: #e8e7e2;
+  --bg-hover: #dcdbd5;
+  --bg-active: #d0cfc8;
   --bg-card: #ffffff;
   --bg-elevated: #ffffff;
   
+  /* Card backgrounds with subtle gradients for verdict/accordion */
+  --bg-card-gradient-start: #f8f7f4;
+  --bg-card-gradient-end: #f0efe8;
+  --bg-card-accent: #ede9dd;
+  
   /* RGB versions */
-  --bg-secondary-rgb: 248, 247, 244;
-  --bg-primary-rgb: 254, 254, 254;
+  --bg-secondary-rgb: 245, 244, 240;
+  --bg-primary-rgb: 255, 255, 255;
 
-  /* Rich text colors */
-  --text-primary: #1a1a2e;
-  --text-secondary: #4a4a5a;
-  --text-tertiary: #7a7a8a;
-  --text-disabled: #D1D5DB;
+  /* Rich text colors - deeper for better contrast */
+  --text-primary: #0d0d14;
+  --text-secondary: #3d3d4a;
+  --text-tertiary: #5c5c6a;
+  --text-disabled: #a0a0a8;
 
-  --border-primary: #e0ddd5;
-  --border-secondary: #ebe8e0;
-  --border-accent: #d5d2c8;
-  --border-glow: rgba(255, 107, 0, 0.2);
+  /* Borders - slightly stronger */
+  --border-primary: #d0cdc5;
+  --border-secondary: #e0ddd5;
+  --border-accent: #c5c2b8;
+  --border-glow: rgba(255, 107, 0, 0.3);
 
   /* Enhanced shadows for light mode */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.12);
-  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.15);
-  --shadow-glow: 0 0 20px rgba(255, 107, 0, 0.2);
-  --shadow-glow-pink: 0 0 25px rgba(247, 37, 133, 0.25);
-  --shadow-glow-purple: 0 0 25px rgba(114, 9, 183, 0.25);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.18);
+  --shadow-glow: 0 0 20px rgba(255, 107, 0, 0.25);
+  --shadow-glow-pink: 0 0 25px rgba(247, 37, 133, 0.3);
+  --shadow-glow-purple: 0 0 25px rgba(114, 9, 183, 0.3);
 
   color-scheme: light;
 }

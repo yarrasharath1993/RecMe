@@ -36,10 +36,10 @@ export default async function OnThisDayIndexPage() {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <header className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+          <h1 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-2">
             📅 ఈ రోజు తెలుగు సినిమాలో
           </h1>
-          <p className="text-gray-400">
+          <p className="text-[var(--text-secondary)]">
             తెలుగు సినిమా చరిత్రలో ప్రతి రోజూ ఏం జరిగిందో తెలుసుకోండి
           </p>
         </header>
@@ -48,25 +48,25 @@ export default async function OnThisDayIndexPage() {
         <section className="mb-12">
           <div className="card overflow-hidden">
             <div className="bg-gradient-to-r from-orange-600 to-orange-500 px-6 py-4">
-              <h2 className="text-xl font-bold text-white">🟢 నేడు - {dateLabel}</h2>
+              <h2 className="text-xl font-bold text-[var(--text-primary)]">🟢 నేడు - {dateLabel}</h2>
             </div>
 
             {data.event_count === 0 ? (
               <div className="p-8 text-center">
-                <p className="text-gray-400">నేడు కోసం ఎటువంటి సంఘటనలు కనుగొనబడలేదు</p>
+                <p className="text-[var(--text-secondary)]">నేడు కోసం ఎటువంటి సంఘటనలు కనుగొనబడలేదు</p>
               </div>
             ) : (
               <div className="divide-y divide-gray-700">
                 {data.events.slice(0, 5).map((event, index) => (
-                  <div key={index} className="p-4 hover:bg-gray-800/50">
+                  <div key={index} className="p-4 hover:bg-[var(--bg-secondary)]/50">
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-sm px-2 py-0.5 bg-orange-500/20 text-orange-400 rounded">
                         {event.type === 'birthday' ? '🎂' : event.type === 'death_anniversary' ? '🙏' : '🎬'}
                       </span>
                       <span className="text-xs text-gray-500">{event.year}</span>
                     </div>
-                    <h3 className="font-medium text-white">{event.title_te}</h3>
-                    <p className="text-sm text-gray-400 mt-1">{event.summary_te}</p>
+                    <h3 className="font-medium text-[var(--text-primary)]">{event.title_te}</h3>
+                    <p className="text-sm text-[var(--text-secondary)] mt-1">{event.summary_te}</p>
                   </div>
                 ))}
               </div>
@@ -75,7 +75,7 @@ export default async function OnThisDayIndexPage() {
             {data.event_count > 5 && (
               <Link
                 href={`/on-this-day/${currentYear}/${String(currentMonth + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`}
-                className="block px-6 py-3 bg-gray-800/50 text-center text-orange-400 hover:text-orange-300"
+                className="block px-6 py-3 bg-[var(--bg-secondary)]/50 text-center text-orange-400 hover:text-orange-300"
               >
                 +{data.event_count - 5} మరిన్ని చూడండి →
               </Link>
@@ -85,7 +85,7 @@ export default async function OnThisDayIndexPage() {
 
         {/* Month calendar */}
         <section>
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">
             📆 {monthName} {currentYear}
           </h2>
           <div className="grid grid-cols-7 gap-2">
@@ -114,8 +114,8 @@ export default async function OnThisDayIndexPage() {
                   className={`
                     p-2 text-center rounded-lg transition-colors
                     ${isToday
-                      ? 'bg-orange-500 text-white font-bold'
-                      : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                      ? 'bg-orange-500 text-[var(--text-primary)] font-bold'
+                      : 'bg-[var(--bg-secondary)] text-gray-300 hover:bg-gray-700'
                     }
                   `}
                 >
@@ -128,7 +128,7 @@ export default async function OnThisDayIndexPage() {
 
         {/* Other months */}
         <section className="mt-12">
-          <h2 className="text-xl font-bold text-white mb-4">📅 ఇతర నెలలు</h2>
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">📅 ఇతర నెలలు</h2>
           <div className="grid grid-cols-3 md:grid-cols-4 gap-2">
             {Array.from({ length: 12 }).map((_, monthIndex) => {
               const date = new Date(currentYear, monthIndex, 1);
@@ -143,7 +143,7 @@ export default async function OnThisDayIndexPage() {
                     p-3 text-center rounded-lg transition-colors
                     ${isCurrentMonth
                       ? 'bg-orange-500/20 text-orange-400 border border-orange-500/50'
-                      : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                      : 'bg-[var(--bg-secondary)] text-gray-300 hover:bg-gray-700'
                     }
                   `}
                 >
@@ -157,6 +157,7 @@ export default async function OnThisDayIndexPage() {
     </div>
   );
 }
+
 
 
 

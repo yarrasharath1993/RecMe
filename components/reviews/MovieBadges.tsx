@@ -5,6 +5,7 @@ import { Gem, Trophy, Crown, Flame, Star, Heart, Sparkles } from 'lucide-react';
 interface MovieBadgesProps {
   isMassClassic?: boolean;
   isMasterpiece?: boolean;
+  isBlockbuster?: boolean;
   isUnderrated?: boolean;
   isClassic?: boolean;
   isCult?: boolean;
@@ -32,6 +33,12 @@ const badges: Record<string, BadgeConfig> = {
     label: 'Masterpiece',
     shortLabel: 'MP',
     className: 'bg-gradient-to-r from-yellow-400 to-amber-500 text-black shadow-yellow-500/30',
+  },
+  blockbuster: {
+    icon: <Trophy className="w-3 h-3" />,
+    label: 'Blockbuster',
+    shortLabel: '🎬',
+    className: 'bg-gradient-to-r from-orange-500 to-red-500 text-white shadow-orange-500/30',
   },
   cult: {
     icon: <Flame className="w-3 h-3" />,
@@ -74,6 +81,7 @@ const badges: Record<string, BadgeConfig> = {
 export function MovieBadges({ 
   isMassClassic, 
   isMasterpiece,
+  isBlockbuster,
   isUnderrated, 
   isClassic, 
   isCult, 
@@ -85,7 +93,8 @@ export function MovieBadges({
   
   if (isMasterpiece) activeBadges.push('masterpiece');
   if (isMassClassic) activeBadges.push('mass-classic');
-  if (isHit && !isMassClassic) activeBadges.push('hit');
+  if (isBlockbuster) activeBadges.push('blockbuster');
+  if (isHit && !isMassClassic && !isBlockbuster) activeBadges.push('hit');
   if (isClassic) activeBadges.push('classic');
   if (isUnderrated) activeBadges.push('underrated');
   if (isCult) activeBadges.push('cult');

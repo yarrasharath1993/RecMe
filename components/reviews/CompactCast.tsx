@@ -9,7 +9,16 @@ import { useState } from 'react';
 interface CastMember {
   role: string;
   name: string;
-  icon: 'director' | 'actor' | 'actress' | 'music' | 'camera' | 'writer' | 'producer' | 'art';
+  icon: 'director' | 'actor' | 'actress' | 'music' | 'camera' | 'writer' | 'producer' | 'art' | 'editor' | 'choreographer';
+}
+
+interface CrewData {
+  cinematographer?: string;
+  editor?: string;
+  writer?: string;
+  choreographer?: string;
+  art_director?: string;
+  lyricist?: string;
 }
 
 interface CompactCastProps {
@@ -17,6 +26,8 @@ interface CompactCastProps {
   performances?: {
     lead_actors?: Array<{ name: string; score: number; career_significance?: string }>;
   };
+  crew?: CrewData;
+  compact?: boolean;
 }
 
 // Role-based styling with unique colors and icons
@@ -74,6 +85,18 @@ const roleStyles: Record<string, {
     iconColor: 'text-rose-400',
     borderColor: 'border-rose-700/40',
   },
+  editor: { 
+    Icon: Film, 
+    bg: 'from-indigo-900/40 to-indigo-900/20',
+    iconColor: 'text-indigo-400',
+    borderColor: 'border-indigo-700/40',
+  },
+  choreographer: { 
+    Icon: User, 
+    bg: 'from-fuchsia-900/40 to-fuchsia-900/20',
+    iconColor: 'text-fuchsia-400',
+    borderColor: 'border-fuchsia-700/40',
+  },
 };
 
 const getStyle = (icon: string) => {
@@ -87,16 +110,61 @@ const getScoreColor = (score: number) => {
   return 'bg-orange-500/20 text-orange-400 border-orange-600/30';
 };
 
-export function CompactCast({ cast, performances }: CompactCastProps) {
+export function CompactCast({ cast, performances, crew, compact = false }: CompactCastProps) {
   const [showAll, setShowAll] = useState(false);
   
   // Filter out empty cast members
   const validCast = cast.filter(c => c.name);
   
-  if (validCast.length === 0) return null;
+  // Add crew members if available (not in compact mode)
+  const crewMembers: CastMember[] = [];
+  if (crew && !compact) {
+    if (crew.cinematographer) crewMembers.push({ role: 'Cinematographer', name: crew.cinematographer, icon: 'camera' });
+    if (crew.editor) crewMembers.push({ role: 'Editor', name: crew.editor, icon: 'editor' });
+    if (crew.writer) crewMembers.push({ role: 'Writer', name: crew.writer, icon: 'writer' });
+    if (crew.choreographer) crewMembers.push({ role: 'Choreographer', name: crew.choreographer, icon: 'choreographer' });
+    if (crew.art_director) crewMembers.push({ role: 'Art Director', name: crew.art_director, icon: 'art' });
+  }
   
-  // Show first 4, rest on expand
-  const visibleCast = showAll ? validCast : validCast.slice(0, 4);
+  // Combine cast and crew
+  const allMembers = [...validCast, ...crewMembers];
+  
+  if (allMembers.length === 0) return null;
+  
+  // Show first 4 in compact mode, first 5 in normal mode
+  const initialCount = compact ? 4 : 5;
+  const visibleCast = showAll ? allMembers : allMembers.slice(0, initialCount);
+  
+  // Compact mode: horizontal scroll
+  if (compact) {
+    return (
+      <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+        {visibleCast.map((member, i) => {
+          const style = getStyle(member.icon);
+          const Icon = style.Icon;
+          
+          return (
+            <div 
+              key={i} 
+              className={`flex-shrink-0 flex items-center gap-2 px-2.5 py-1.5 rounded-lg bg-gradient-to-r ${style.bg} border ${style.borderColor}`}
+            >
+              <div className={`p-1 rounded bg-[var(--bg-primary)]/50 ${style.iconColor}`}>
+                <Icon className="w-3 h-3" />
+              </div>
+              <div className="flex flex-col min-w-0">
+                <span className="text-[var(--text-primary)] text-xs font-medium truncate max-w-[80px]">
+                  {member.name}
+                </span>
+                <span className="text-[var(--text-tertiary)] text-[9px] uppercase tracking-wider">
+                  {member.role}
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
   
   return (
     <div className="flex flex-wrap gap-2">
@@ -112,14 +180,14 @@ export function CompactCast({ cast, performances }: CompactCastProps) {
             key={i} 
             className={`group flex items-center gap-2.5 px-3 py-2 rounded-lg bg-gradient-to-r ${style.bg} border ${style.borderColor} hover:border-gray-600 transition-all cursor-default`}
           >
-            <div className={`p-1.5 rounded-md bg-gray-900/50 ${style.iconColor}`}>
+            <div className={`p-1.5 rounded-md bg-[var(--bg-primary)]/50 ${style.iconColor}`}>
               <Icon className="w-3.5 h-3.5" />
             </div>
             <div className="flex flex-col min-w-0">
-              <span className="text-white text-sm font-medium truncate max-w-[120px]">
+              <span className="text-[var(--text-primary)] text-sm font-medium truncate max-w-[120px]">
                 {member.name}
               </span>
-              <span className="text-gray-500 text-[10px] uppercase tracking-wider">
+              <span className="text-[var(--text-tertiary)] text-[10px] uppercase tracking-wider">
                 {member.role}
               </span>
             </div>
@@ -133,12 +201,12 @@ export function CompactCast({ cast, performances }: CompactCastProps) {
         );
       })}
       
-      {validCast.length > 4 && !showAll && (
+      {allMembers.length > initialCount && !showAll && (
         <button
           onClick={() => setShowAll(true)}
-          className="flex items-center gap-1.5 px-3 py-2 bg-gray-800/30 hover:bg-gray-800/50 rounded-lg text-gray-400 hover:text-gray-300 text-sm transition-all border border-gray-700/30"
+          className="flex items-center gap-1.5 px-3 py-2 bg-[var(--bg-secondary)]/30 hover:bg-[var(--bg-secondary)]/50 rounded-lg text-[var(--text-secondary)] hover:text-[var(--text-secondary)] text-sm transition-all border border-[var(--border-primary)]/30"
         >
-          +{validCast.length - 4} more
+          +{allMembers.length - initialCount} more
           <ChevronRight className="w-3.5 h-3.5" />
         </button>
       )}

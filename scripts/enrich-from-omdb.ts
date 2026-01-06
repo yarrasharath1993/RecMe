@@ -1,435 +1,210 @@
-#!/usr/bin/env npx tsx
 /**
- * OMDb Enrichment Script
+ * OMDB ENRICHMENT SCRIPT
  * 
- * Enriches movies with OMDb data (ratings, awards, plot) WITHOUT overwriting existing data.
- * Only adds missing fields - never overwrites AI-generated reviews.
+ * Uses the existing OMDB fetcher to enrich movies with:
+ * - Director
+ * - Hero/Heroine (from actors list)
+ * - Poster URL
  * 
- * Data enriched:
- * - IMDb rating (imdb_rating)
- * - Rotten Tomatoes score (rotten_tomatoes_score)
- * - Metacritic score (metacritic_score)
- * - Awards text (awards_text from OMDb)
- * - Plot (only if overview is missing AND no AI review exists)
- * - Runtime (if missing)
- * - Box office (if missing)
- * 
- * Usage:
- *   npx tsx scripts/enrich-from-omdb.ts                  # Dry run
- *   npx tsx scripts/enrich-from-omdb.ts --apply          # Apply changes
- *   npx tsx scripts/enrich-from-omdb.ts --apply --limit=50
- *   npx tsx scripts/enrich-from-omdb.ts --apply --force  # Re-enrich even with existing data
+ * Works with movies that have IMDB IDs but missing data.
  */
 
-import { config } from 'dotenv';
-import { resolve } from 'path';
-
-config({ path: resolve(process.cwd(), '.env.local') });
-
-import chalk from 'chalk';
 import { createClient } from '@supabase/supabase-js';
+import * as dotenv from 'dotenv';
+import { getOMDbFetcher } from '../lib/sources/fetchers/omdb-fetcher';
 
-// ============================================================
-// CONFIG
-// ============================================================
+dotenv.config({ path: '.env.local' });
 
-const OMDB_API_KEY = process.env.OMDB_API_KEY;
-const OMDB_BASE_URL = 'https://www.omdbapi.com';
-const RATE_LIMIT_MS = 200; // 5 requests per second (conservative)
-
-interface OMDbResponse {
-  Title: string;
-  Year: string;
-  Rated: string;
-  Released: string;
-  Runtime: string;
-  Genre: string;
-  Director: string;
-  Writer: string;
-  Actors: string;
-  Plot: string;
-  Language: string;
-  Country: string;
-  Awards: string;
-  Poster: string;
-  Ratings: Array<{ Source: string; Value: string }>;
-  Metascore: string;
-  imdbRating: string;
-  imdbVotes: string;
-  imdbID: string;
-  Type: string;
-  BoxOffice: string;
-  Response: string;
-  Error?: string;
-}
-
-interface Movie {
-  id: string;
-  title_en: string;
-  release_year: number | null;
-  imdb_id: string | null;
-  imdb_rating: number | null;
-  rotten_tomatoes_score: number | null;
-  metacritic_score: number | null;
-  awards_text: string | null;
-  overview: string | null;
-  ai_review: string | null;
-  runtime_minutes: number | null;
-  box_office: number | null;
-}
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.SUPABASE_SERVICE_ROLE_KEY!
+);
 
 interface EnrichmentResult {
-  movie: string;
-  success: boolean;
-  changes: string[];
-  error?: string;
+  processed: number;
+  enriched: number;
+  heroAdded: number;
+  heroineAdded: number;
+  directorAdded: number;
+  posterAdded: number;
+  errors: string[];
 }
 
-// ============================================================
-// SUPABASE
-// ============================================================
+// Common male Telugu actor first names (to help identify hero vs supporting)
+const maleActorIndicators = [
+  'Chiranjeevi', 'Nagarjuna', 'Mahesh', 'Pawan', 'Allu', 'Ram', 'NTR', 'Prabhas',
+  'Venkatesh', 'Balakrishna', 'Ravi', 'Nani', 'Vijay', 'Sudheer', 'Sai', 'Varun'
+];
 
-function getSupabase() {
-  return createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-  );
-}
+// Common female Telugu actress first names
+const femaleActorIndicators = [
+  'Samantha', 'Rashmika', 'Pooja', 'Kajal', 'Anushka', 'Tamanna', 'Shruti',
+  'Nayanthara', 'Trisha', 'Sridevi', 'Ramya', 'Lavanya', 'Priyanka', 'Sneha'
+];
 
-// ============================================================
-// OMDB API
-// ============================================================
+async function enrichFromOmdb(limit: number = 100, dryRun: boolean = true): Promise<EnrichmentResult> {
+  const result: EnrichmentResult = {
+    processed: 0,
+    enriched: 0,
+    heroAdded: 0,
+    heroineAdded: 0,
+    directorAdded: 0,
+    posterAdded: 0,
+    errors: []
+  };
 
-async function fetchFromOMDb(imdbId: string): Promise<OMDbResponse | null> {
-  if (!OMDB_API_KEY) {
-    throw new Error('OMDB_API_KEY not set');
-  }
+  console.log(`\n${'═'.repeat(70)}`);
+  console.log(`OMDB ENRICHMENT ${dryRun ? '(DRY RUN)' : '(LIVE)'}`);
+  console.log(`${'═'.repeat(70)}\n`);
 
-  try {
-    const url = `${OMDB_BASE_URL}/?apikey=${OMDB_API_KEY}&i=${imdbId}&plot=full`;
-    const response = await fetch(url);
-    const data: OMDbResponse = await response.json();
+  const omdb = getOMDbFetcher();
 
-    if (data.Response === 'False') {
-      return null;
-    }
-
-    return data;
-  } catch (error) {
-    console.error(`OMDb fetch error for ${imdbId}:`, error);
-    return null;
-  }
-}
-
-async function fetchByTitle(title: string, year?: number): Promise<OMDbResponse | null> {
-  if (!OMDB_API_KEY) {
-    throw new Error('OMDB_API_KEY not set');
-  }
-
-  try {
-    let url = `${OMDB_BASE_URL}/?apikey=${OMDB_API_KEY}&t=${encodeURIComponent(title)}&plot=full`;
-    if (year) {
-      url += `&y=${year}`;
-    }
-
-    const response = await fetch(url);
-    const data: OMDbResponse = await response.json();
-
-    if (data.Response === 'False') {
-      return null;
-    }
-
-    return data;
-  } catch (error) {
-    console.error(`OMDb fetch error for "${title}":`, error);
-    return null;
-  }
-}
-
-// ============================================================
-// PARSING
-// ============================================================
-
-function parseRuntime(runtime: string): number | null {
-  if (!runtime || runtime === 'N/A') return null;
-  const match = runtime.match(/(\d+)/);
-  return match ? parseInt(match[1]) : null;
-}
-
-function parseRating(rating: string): number | null {
-  if (!rating || rating === 'N/A') return null;
-  const num = parseFloat(rating);
-  return isNaN(num) ? null : num;
-}
-
-function parseRottenTomatoes(ratings: Array<{ Source: string; Value: string }>): number | null {
-  const rt = ratings?.find(r => r.Source === 'Rotten Tomatoes');
-  if (!rt) return null;
-  const match = rt.Value.match(/(\d+)/);
-  return match ? parseInt(match[1]) : null;
-}
-
-function parseMetacritic(metascore: string): number | null {
-  if (!metascore || metascore === 'N/A') return null;
-  const num = parseInt(metascore);
-  return isNaN(num) ? null : num;
-}
-
-function parseBoxOffice(boxOffice: string): number | null {
-  if (!boxOffice || boxOffice === 'N/A') return null;
-  const cleaned = boxOffice.replace(/[$,]/g, '');
-  const num = parseInt(cleaned);
-  return isNaN(num) ? null : num;
-}
-
-// ============================================================
-// ENRICHMENT
-// ============================================================
-
-async function enrichMovie(
-  movie: Movie,
-  omdbData: OMDbResponse,
-  force: boolean
-): Promise<{ updates: Record<string, any>; changes: string[] }> {
-  const updates: Record<string, any> = {};
-  const changes: string[] = [];
-
-  // IMDb Rating - only if missing or force
-  const imdbRating = parseRating(omdbData.imdbRating);
-  if (imdbRating !== null && (force || movie.imdb_rating === null)) {
-    updates.imdb_rating = imdbRating;
-    changes.push(`imdb_rating: ${imdbRating}`);
-  }
-
-  // Rotten Tomatoes - only if missing or force
-  const rtScore = parseRottenTomatoes(omdbData.Ratings);
-  if (rtScore !== null && (force || movie.rotten_tomatoes_score === null)) {
-    updates.rotten_tomatoes_score = rtScore;
-    changes.push(`rotten_tomatoes: ${rtScore}%`);
-  }
-
-  // Metacritic - only if missing or force
-  const metaScore = parseMetacritic(omdbData.Metascore);
-  if (metaScore !== null && (force || movie.metacritic_score === null)) {
-    updates.metacritic_score = metaScore;
-    changes.push(`metacritic: ${metaScore}`);
-  }
-
-  // Awards text - only if missing or force
-  if (omdbData.Awards && omdbData.Awards !== 'N/A' && (force || !movie.awards_text)) {
-    updates.awards_text = omdbData.Awards;
-    changes.push(`awards: "${omdbData.Awards.substring(0, 40)}..."`);
-  }
-
-  // Runtime - only if missing
-  const runtime = parseRuntime(omdbData.Runtime);
-  if (runtime !== null && movie.runtime_minutes === null) {
-    updates.runtime_minutes = runtime;
-    changes.push(`runtime: ${runtime}min`);
-  }
-
-  // Box office - only if missing
-  const boxOffice = parseBoxOffice(omdbData.BoxOffice);
-  if (boxOffice !== null && movie.box_office === null) {
-    updates.box_office = boxOffice;
-    changes.push(`box_office: $${boxOffice.toLocaleString()}`);
-  }
-
-  // Plot/Overview - ONLY if there's no existing overview AND no AI review
-  // This ensures we NEVER overwrite AI-generated content
-  if (
-    omdbData.Plot && 
-    omdbData.Plot !== 'N/A' && 
-    !movie.overview && 
-    !movie.ai_review
-  ) {
-    updates.overview = omdbData.Plot;
-    changes.push('overview (no AI review present)');
-  }
-
-  // Store IMDB ID if not present
-  if (!movie.imdb_id && omdbData.imdbID) {
-    updates.imdb_id = omdbData.imdbID;
-    changes.push(`imdb_id: ${omdbData.imdbID}`);
-  }
-
-  if (Object.keys(updates).length > 0) {
-    updates.updated_at = new Date().toISOString();
-  }
-
-  return { updates, changes };
-}
-
-// ============================================================
-// MAIN
-// ============================================================
-
-async function main() {
-  const args = process.argv.slice(2);
-  const dryRun = !args.includes('--apply');
-  const force = args.includes('--force');
-  const limitArg = args.find(a => a.startsWith('--limit='));
-  const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 100;
-
-  console.log(chalk.cyan.bold(`
-╔══════════════════════════════════════════════════════════════════╗
-║              OMDb ENRICHMENT (SAFE - NO OVERWRITES)              ║
-╚══════════════════════════════════════════════════════════════════╝
-`));
-
-  if (!OMDB_API_KEY) {
-    console.error(chalk.red('❌ OMDB_API_KEY not set in .env.local'));
-    process.exit(1);
-  }
-
-  console.log(chalk.gray(`  API Key: ${OMDB_API_KEY.substring(0, 4)}...`));
-  console.log(chalk.gray(`  Limit: ${limit} movies`));
-  console.log(chalk.gray(`  Force overwrite: ${force ? 'Yes' : 'No'}`));
-  console.log('');
-
-  if (dryRun) {
-    console.log(chalk.yellow.bold('🔍 DRY RUN MODE - No changes will be made'));
-    console.log(chalk.gray('   Add --apply to save changes to database\n'));
-  } else {
-    console.log(chalk.green.bold('⚡ APPLY MODE - Will update database\n'));
-  }
-
-  const supabase = getSupabase();
-
-  // Get movies with IMDB IDs that might need enrichment
-  let query = supabase
+  // Get movies with IMDB ID but missing any data
+  const { data: movies, error } = await supabase
     .from('movies')
-    .select(`
-      id, title_en, release_year, imdb_id,
-      imdb_rating, rotten_tomatoes_score, metacritic_score,
-      awards_text, overview, ai_review, runtime_minutes, box_office
-    `)
-    .eq('is_published', true)
-    .order('release_year', { ascending: false });
-
-  if (!force) {
-    // Only get movies missing ratings data
-    query = query.or('imdb_rating.is.null,rotten_tomatoes_score.is.null,metacritic_score.is.null');
-  }
-
-  query = query.limit(limit);
-
-  const { data: movies, error } = await query;
+    .select('id, slug, title_en, release_year, imdb_id, hero, heroine, director, poster_url')
+    .eq('language', 'Telugu')
+    .not('our_rating', 'is', null)
+    .not('imdb_id', 'is', null)
+    .or('hero.is.null,heroine.is.null,director.is.null,poster_url.is.null')
+    .limit(limit);
 
   if (error) {
-    console.error(chalk.red('Error fetching movies:'), error.message);
-    process.exit(1);
+    console.error('Error fetching movies:', error);
+    return result;
   }
 
-  if (!movies || movies.length === 0) {
-    console.log(chalk.green('✅ No movies need OMDb enrichment!'));
-    return;
-  }
+  console.log(`Found ${movies?.length || 0} movies with IMDB ID needing enrichment\n`);
 
-  console.log(chalk.cyan(`📋 Processing ${movies.length} movies...\n`));
+  for (const movie of movies || []) {
+    result.processed++;
+    console.log(`[${result.processed}/${movies?.length}] ${movie.title_en} (${movie.release_year})`);
+    console.log(`   IMDB ID: ${movie.imdb_id}`);
 
-  const results: EnrichmentResult[] = [];
-  let enriched = 0;
-  let skipped = 0;
-  let failed = 0;
-  let noMatch = 0;
+    try {
+      const omdbData = await omdb.fetchByImdbId(movie.imdb_id);
+      
+      if (!omdbData) {
+        console.log('   ⚠️  No OMDB data found');
+        continue;
+      }
 
-  for (let i = 0; i < movies.length; i++) {
-    const movie = movies[i] as Movie;
-    
-    process.stdout.write(`\r  [${i + 1}/${movies.length}] ${movie.title_en?.substring(0, 35).padEnd(35)}...`);
+      const updates: Record<string, any> = {};
 
-    // Fetch from OMDb (prefer IMDB ID, fallback to title)
-    let omdbData: OMDbResponse | null = null;
-    
-    if (movie.imdb_id) {
-      omdbData = await fetchFromOMDb(movie.imdb_id);
+      // Add director if missing
+      if (!movie.director && omdbData.director && omdbData.director !== 'N/A') {
+        updates.director = omdbData.director;
+        result.directorAdded++;
+        console.log(`   ✓ Director: ${omdbData.director}`);
+      }
+
+      // Add poster if missing (OMDB provides poster URL)
+      if (!movie.poster_url && omdbData.imdbId) {
+        // Try to construct poster URL from IMDB data
+        // OMDB doesn't always return poster, but we can try
+        const posterUrl = `https://img.omdbapi.com/?apikey=${process.env.OMDB_API_KEY}&i=${movie.imdb_id}`;
+        updates.poster_url = posterUrl;
+        result.posterAdded++;
+        console.log(`   ✓ Poster URL added`);
+      }
+
+      // Extract hero/heroine from actors
+      if (omdbData.actors && omdbData.actors.length > 0) {
+        // First actor is usually the hero
+        if (!movie.hero && omdbData.actors[0]) {
+          const firstActor = omdbData.actors[0];
+          // Check if it's a male actor (rough heuristic)
+          const isMale = maleActorIndicators.some(name => 
+            firstActor.toLowerCase().includes(name.toLowerCase())
+          ) || !femaleActorIndicators.some(name => 
+            firstActor.toLowerCase().includes(name.toLowerCase())
+          );
+          
+          if (isMale) {
+            updates.hero = firstActor;
+            result.heroAdded++;
+            console.log(`   ✓ Hero: ${firstActor}`);
+          }
+        }
+
+        // Look for heroine in actors list
+        if (!movie.heroine) {
+          for (const actor of omdbData.actors) {
+            const isFemale = femaleActorIndicators.some(name => 
+              actor.toLowerCase().includes(name.toLowerCase())
+            );
+            if (isFemale) {
+              updates.heroine = actor;
+              result.heroineAdded++;
+              console.log(`   ✓ Heroine: ${actor}`);
+              break;
+            }
+          }
+        }
+      }
+
+      // Apply updates if any
+      if (Object.keys(updates).length > 0) {
+        if (!dryRun) {
+          const { error: updateError } = await supabase
+            .from('movies')
+            .update(updates)
+            .eq('id', movie.id);
+
+          if (updateError) {
+            result.errors.push(`Failed to update ${movie.title_en}: ${updateError.message}`);
+            console.log(`   ✗ Update failed: ${updateError.message}`);
+          } else {
+            result.enriched++;
+            console.log(`   ✓ Updated ${Object.keys(updates).length} fields`);
+          }
+        } else {
+          result.enriched++;
+          console.log(`   Would update: ${Object.keys(updates).join(', ')}`);
+        }
+      } else {
+        console.log('   No new data to add');
+      }
+
+    } catch (err) {
+      const errorMsg = err instanceof Error ? err.message : String(err);
+      result.errors.push(`Error processing ${movie.title_en}: ${errorMsg}`);
+      console.log(`   ✗ Error: ${errorMsg}`);
     }
-    
-    if (!omdbData) {
-      omdbData = await fetchByTitle(movie.title_en, movie.release_year || undefined);
-    }
 
-    if (!omdbData) {
-      noMatch++;
-      results.push({ movie: movie.title_en, success: false, error: 'No OMDb match' });
-      await new Promise(r => setTimeout(r, RATE_LIMIT_MS));
-      continue;
-    }
-
-    // Enrich with only missing data
-    const { updates, changes } = await enrichMovie(movie, omdbData, force);
-
-    if (changes.length === 0) {
-      skipped++;
-      results.push({ movie: movie.title_en, success: true, changes: ['already_complete'] });
-      await new Promise(r => setTimeout(r, RATE_LIMIT_MS));
-      continue;
-    }
-
-    if (dryRun) {
-      enriched++;
-      results.push({ movie: movie.title_en, success: true, changes });
-      console.log(chalk.green(`\n    ✓ Would update: ${changes.join(', ')}`));
-      await new Promise(r => setTimeout(r, RATE_LIMIT_MS));
-      continue;
-    }
-
-    // Apply updates
-    const { error: updateError } = await supabase
-      .from('movies')
-      .update(updates)
-      .eq('id', movie.id);
-
-    if (updateError) {
-      failed++;
-      results.push({ movie: movie.title_en, success: false, error: updateError.message, changes });
-    } else {
-      enriched++;
-      results.push({ movie: movie.title_en, success: true, changes });
-    }
-
-    await new Promise(r => setTimeout(r, RATE_LIMIT_MS));
+    // Small delay to respect rate limits
+    await new Promise(resolve => setTimeout(resolve, 100));
   }
 
   // Summary
-  console.log('\n');
-  console.log(chalk.cyan.bold('═══════════════════════════════════════════════════════════'));
-  console.log(chalk.bold('📊 ENRICHMENT SUMMARY'));
-  console.log(chalk.cyan.bold('═══════════════════════════════════════════════════════════\n'));
-
-  console.log(`  Total Processed:    ${movies.length}`);
-  console.log(`  ${chalk.green('Enriched:')}          ${enriched}`);
-  console.log(`  ${chalk.gray('Already Complete:')} ${skipped}`);
-  console.log(`  ${chalk.yellow('No OMDb Match:')}    ${noMatch}`);
-  console.log(`  ${chalk.red('Failed:')}            ${failed}`);
-
-  // Show sample changes
-  const changedMovies = results.filter(r => r.success && r.changes.length > 0 && !r.changes.includes('already_complete'));
-  if (changedMovies.length > 0) {
-    console.log(chalk.cyan('\n📝 Sample Changes:'));
-    changedMovies.slice(0, 5).forEach(r => {
-      console.log(`   ${r.movie}: ${r.changes.join(', ')}`);
-    });
+  console.log(`\n${'═'.repeat(70)}`);
+  console.log(`ENRICHMENT SUMMARY ${dryRun ? '(DRY RUN)' : '(COMPLETED)'}`);
+  console.log(`${'═'.repeat(70)}`);
+  console.log(`  Processed:        ${result.processed}`);
+  console.log(`  Enriched:         ${result.enriched}`);
+  console.log(`  Heroes added:     ${result.heroAdded}`);
+  console.log(`  Heroines added:   ${result.heroineAdded}`);
+  console.log(`  Directors added:  ${result.directorAdded}`);
+  console.log(`  Posters added:    ${result.posterAdded}`);
+  if (result.errors.length > 0) {
+    console.log(`  Errors:           ${result.errors.length}`);
   }
-
-  // Show failures
-  const failures = results.filter(r => !r.success && r.error !== 'No OMDb match');
-  if (failures.length > 0) {
-    console.log(chalk.yellow('\n⚠️ Errors:'));
-    failures.slice(0, 5).forEach(r => {
-      console.log(chalk.yellow(`   ${r.movie}: ${r.error}`));
-    });
-  }
-
-  if (dryRun && enriched > 0) {
-    console.log(chalk.yellow('\n⚠️  This was a DRY RUN. Run with --apply to save changes.'));
-  } else if (!dryRun && enriched > 0) {
-    console.log(chalk.green('\n✅ Changes saved to database!'));
-  }
-
   console.log('');
+
+  if (dryRun) {
+    console.log('Run with --execute to apply these changes.\n');
+  }
+
+  return result;
+}
+
+async function main() {
+  const args = process.argv.slice(2);
+  const dryRun = !args.includes('--execute');
+  const limitArg = args.find(a => a.startsWith('--limit='));
+  const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 100;
+
+  await enrichFromOmdb(limit, dryRun);
 }
 
 main().catch(console.error);
-

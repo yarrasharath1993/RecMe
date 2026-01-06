@@ -84,9 +84,9 @@ export default function CareerPage() {
   return (
     <div className="min-h-screen pb-16" style={{ backgroundColor: 'var(--bg-primary)' }}>
       {/* Header */}
-      <div className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+      <div className="sticky top-0 z-50 bg-[var(--bg-primary)]/95 backdrop-blur-sm border-b border-[var(--border-primary)]">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href={`/celebrity/${slug}`} className="flex items-center gap-2 text-gray-400 hover:text-white">
+          <Link href={`/celebrity/${slug}`} className="flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
             <ArrowLeft className="w-5 h-5" />
             <span>Back to Profile</span>
           </Link>
@@ -143,7 +143,7 @@ export default function CareerPage() {
             <div className="flex flex-wrap gap-4">
               {/* Year filter */}
               <div>
-                <label className="text-xs text-gray-400 block mb-1">Year</label>
+                <label className="text-xs text-[var(--text-secondary)] block mb-1">Year</label>
                 <select
                   value={yearFilter || ''}
                   onChange={(e) => setYearFilter(e.target.value ? parseInt(e.target.value) : null)}
@@ -159,7 +159,7 @@ export default function CareerPage() {
               {/* Genre filter */}
               {data.genres.length > 0 && (
                 <div>
-                  <label className="text-xs text-gray-400 block mb-1">Genre</label>
+                  <label className="text-xs text-[var(--text-secondary)] block mb-1">Genre</label>
                   <select
                     value={genreFilter || ''}
                     onChange={(e) => setGenreFilter(e.target.value || null)}
@@ -176,7 +176,7 @@ export default function CareerPage() {
               {/* Role filter */}
               {data.roles.length > 0 && (
                 <div>
-                  <label className="text-xs text-gray-400 block mb-1">Role</label>
+                  <label className="text-xs text-[var(--text-secondary)] block mb-1">Role</label>
                   <select
                     value={roleFilter || ''}
                     onChange={(e) => setRoleFilter(e.target.value || null)}
@@ -236,7 +236,7 @@ export default function CareerPage() {
         )}
 
         {/* Disclaimer */}
-        <div className="mt-8 p-4 bg-gray-800/50 rounded-lg text-center">
+        <div className="mt-8 p-4 bg-[var(--bg-secondary)]/50 rounded-lg text-center">
           <p className="text-xs" style={{ color: 'var(--text-tertiary)' }}>
             📊 Box office verdicts are estimates based on available data. Some classifications may vary based on different sources.
           </p>
@@ -254,7 +254,7 @@ function StatCard({
   label,
   value,
   icon: Icon,
-  color = 'text-white'
+  color = 'text-[var(--text-primary)]'
 }: {
   label: string;
   value: number | string;
@@ -262,10 +262,10 @@ function StatCard({
   color?: string;
 }) {
   return (
-    <div className="bg-gray-800/50 p-3 rounded-lg">
+    <div className="bg-[var(--bg-secondary)]/50 p-3 rounded-lg">
       <div className="flex items-center gap-2 mb-1">
         <Icon className={`w-4 h-4 ${color}`} />
-        <span className="text-xs text-gray-400">{label}</span>
+        <span className="text-xs text-[var(--text-secondary)]">{label}</span>
       </div>
       <p className={`text-xl font-bold ${color}`}>{value}</p>
     </div>
@@ -302,7 +302,7 @@ function MovieCard({ movie }: { movie: CareerMovie }) {
 
         {/* Verdict badge */}
         <div
-          className="absolute top-2 right-2 px-2 py-0.5 rounded-full text-xs font-bold text-white shadow-lg"
+          className="absolute top-2 right-2 px-2 py-0.5 rounded-full text-xs font-bold text-[var(--text-primary)] shadow-lg"
           style={{ backgroundColor: movie.verdict_color }}
         >
           {VERDICT_LABELS[movie.verdict]?.slice(0, 3) || '?'}
@@ -310,7 +310,7 @@ function MovieCard({ movie }: { movie: CareerMovie }) {
 
         {/* Estimated badge */}
         {movie.is_estimated && (
-          <div className="absolute bottom-2 left-2 px-1.5 py-0.5 bg-gray-900/80 rounded text-xs text-gray-400">
+          <div className="absolute bottom-2 left-2 px-1.5 py-0.5 bg-[var(--bg-primary)]/80 rounded text-xs text-[var(--text-secondary)]">
             Est.
           </div>
         )}
@@ -324,7 +324,7 @@ function MovieCard({ movie }: { movie: CareerMovie }) {
         <div className="flex items-center justify-between text-xs" style={{ color: 'var(--text-secondary)' }}>
           <span>{movie.year}</span>
           {movie.role && (
-            <span className="px-1.5 py-0.5 bg-gray-800 rounded">
+            <span className="px-1.5 py-0.5 bg-[var(--bg-secondary)] rounded">
               {movie.role}
             </span>
           )}
@@ -334,14 +334,14 @@ function MovieCard({ movie }: { movie: CareerMovie }) {
       {/* Hover overlay */}
       <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center p-4">
         <div className="text-center">
-          <p className="font-bold text-white mb-1">{movie.title}</p>
+          <p className="font-bold text-[var(--text-primary)] mb-1">{movie.title}</p>
           {movie.title_te && <p className="text-sm text-orange-400 mb-2">{movie.title_te}</p>}
-          <p className="text-sm text-gray-300">{movie.year}</p>
+          <p className="text-sm text-[var(--text-secondary)]">{movie.year}</p>
           {movie.director && (
-            <p className="text-xs text-gray-400 mt-1">Dir: {movie.director}</p>
+            <p className="text-xs text-[var(--text-secondary)] mt-1">Dir: {movie.director}</p>
           )}
           <div
-            className="mt-2 px-3 py-1 rounded-full inline-block text-sm font-bold text-white"
+            className="mt-2 px-3 py-1 rounded-full inline-block text-sm font-bold text-[var(--text-primary)]"
             style={{ backgroundColor: movie.verdict_color }}
           >
             {VERDICT_LABELS_TE[movie.verdict] || VERDICT_LABELS[movie.verdict]}
@@ -351,6 +351,7 @@ function MovieCard({ movie }: { movie: CareerMovie }) {
     </div>
   );
 }
+
 
 
 

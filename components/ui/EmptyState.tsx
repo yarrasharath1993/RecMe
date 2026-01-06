@@ -11,14 +11,14 @@
  * - Optional action button
  * - Icon customization
  * - Accessible messaging
+ * 
+ * REFACTORED to use design system primitives (Button, Text)
  */
 
 import { ReactNode } from 'react';
-import Link from 'next/link';
 import {
   Film,
   Search,
-  FileQuestion,
   Inbox,
   AlertCircle,
   RefreshCw,
@@ -28,6 +28,10 @@ import {
   Heart,
   Star,
 } from 'lucide-react';
+
+// Import design system primitives
+import { Button } from '@/components/ui/primitives/Button';
+import { Text, Heading } from '@/components/ui/primitives/Text';
 
 // ============================================================
 // TYPES
@@ -118,35 +122,34 @@ const VARIANT_CONFIG: Record<
 };
 
 // ============================================================
-// ACTION BUTTON COMPONENT
+// ACTION BUTTON COMPONENT (Now uses Button primitive)
 // ============================================================
 
 function ActionButton({ action }: { action: EmptyStateAction }) {
-  const baseClass =
-    'inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm transition-colors';
-  const variantClass =
-    action.variant === 'secondary'
-      ? 'bg-[var(--bg-secondary)] text-[var(--text-primary)] hover:bg-[var(--bg-tertiary)]'
-      : 'bg-[var(--brand-primary)] text-white hover:opacity-90';
+  const buttonVariant = action.variant === 'secondary' ? 'secondary' : 'primary';
 
   if (action.href) {
     return (
-      <Link href={action.href} className={`${baseClass} ${variantClass}`}>
+      <Button
+        as="a"
+        href={action.href}
+        variant={buttonVariant}
+        rightIcon={<ArrowRight className="w-4 h-4" />}
+      >
         {action.label}
-        <ArrowRight className="w-4 h-4" />
-      </Link>
+      </Button>
     );
   }
 
   return (
-    <button onClick={action.onClick} className={`${baseClass} ${variantClass}`}>
+    <Button onClick={action.onClick} variant={buttonVariant}>
       {action.label}
-    </button>
+    </Button>
   );
 }
 
 // ============================================================
-// MAIN COMPONENT
+// MAIN COMPONENT (Now uses Text primitives)
 // ============================================================
 
 export function EmptyState({
@@ -167,21 +170,21 @@ export function EmptyState({
   const sizeConfig = {
     sm: {
       container: 'py-6',
-      iconClass: 'w-10 h-10',
-      titleClass: 'text-base',
-      descClass: 'text-sm',
+      iconSize: 'w-10 h-10',
+      titleVariant: 'heading-sm' as const,
+      descVariant: 'body-sm' as const,
     },
     md: {
       container: 'py-12',
-      iconClass: 'w-12 h-12',
-      titleClass: 'text-lg',
-      descClass: 'text-sm',
+      iconSize: 'w-12 h-12',
+      titleVariant: 'heading-md' as const,
+      descVariant: 'body-sm' as const,
     },
     lg: {
       container: 'py-16',
-      iconClass: 'w-16 h-16',
-      titleClass: 'text-xl',
-      descClass: 'text-base',
+      iconSize: 'w-16 h-16',
+      titleVariant: 'heading-lg' as const,
+      descVariant: 'body-md' as const,
     },
   }[size];
 
@@ -192,27 +195,31 @@ export function EmptyState({
       aria-live="polite"
     >
       {/* Icon */}
-      <div className="mb-4 text-[var(--text-tertiary)]">{displayIcon}</div>
+      <div className="mb-4 text-[var(--text-tertiary)]">
+        {displayIcon}
+      </div>
 
-      {/* Title */}
-      <h3
-        className={`font-semibold text-[var(--text-primary)] mb-2 ${sizeConfig.titleClass}`}
-      >
+      {/* Title - Using Heading primitive */}
+      <Heading level="h3" className={`mb-2 ${sizeConfig.titleVariant === 'heading-sm' ? 'text-base' : sizeConfig.titleVariant === 'heading-lg' ? 'text-xl' : 'text-lg'}`}>
         {displayTitle}
-      </h3>
+      </Heading>
 
-      {/* Description */}
-      <p
-        className={`text-[var(--text-secondary)] max-w-md mx-auto mb-6 ${sizeConfig.descClass}`}
+      {/* Description - Using Text primitive */}
+      <Text
+        variant={sizeConfig.descVariant}
+        color="secondary"
+        className="max-w-md mx-auto mb-6"
       >
         {displayDescription}
-      </p>
+      </Text>
 
-      {/* Actions */}
+      {/* Actions - Using Button primitives */}
       {(action || secondaryAction) && (
         <div className="flex flex-wrap items-center justify-center gap-3">
           {action && <ActionButton action={action} />}
-          {secondaryAction && <ActionButton action={{ ...secondaryAction, variant: 'secondary' }} />}
+          {secondaryAction && (
+            <ActionButton action={{ ...secondaryAction, variant: 'secondary' }} />
+          )}
         </div>
       )}
     </div>
@@ -283,4 +290,3 @@ export function OfflineState({ onRetry }: { onRetry?: () => void }) {
 }
 
 export default EmptyState;
-

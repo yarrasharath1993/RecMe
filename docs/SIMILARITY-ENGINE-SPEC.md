@@ -283,6 +283,88 @@ interface SimilarSection {
 
 ---
 
+## 14. Visual Confidence Integration (Added Jan 2026)
+
+### 14.1 Overview
+
+The similarity engine now supports visual confidence awareness through an additive wrapper function. This does NOT modify the core `calculateRelevanceScore` or section generation logic.
+
+### 14.2 Visual Confidence Boost
+
+When enabled, movies with higher visual confidence receive a slight ranking boost:
+
+```
+displayRank = relevanceScore * (1 + boostFactor)
+
+where boostFactor = ((confidence - threshold) / (1 - threshold)) * maxBoost
+```
+
+Default configuration:
+- `confidenceThreshold`: 0.3
+- `maxBoostFactor`: 0.1 (10% maximum boost)
+
+### 14.3 Section Priority Boost
+
+Sections with higher average visual confidence get up to 5 priority points added:
+
+```
+boostedPriority = basePriority + (avgVisualConfidence * 5)
+```
+
+### 14.4 New Functions
+
+| Function | Purpose |
+|----------|---------|
+| `applyVisualConfidenceBoost()` | Wrapper that applies boost to sections |
+| `getSimilarMovieSectionsWithVisual()` | Convenience function for visual-aware sections |
+| `filterByVisualConfidence()` | Filter movies by minimum confidence |
+| `groupByVisualTier()` | Separate movies into tier groups |
+
+### 14.5 Extended Types
+
+```typescript
+interface SimilarMovieWithVisual extends SimilarMovie {
+  poster_confidence?: number;
+  poster_visual_type?: string;
+  displayRank?: number;
+}
+
+interface SimilarSectionWithVisual extends SimilarSection {
+  movies: SimilarMovieWithVisual[];
+  avgVisualConfidence?: number;
+}
+```
+
+### 14.6 Usage
+
+```typescript
+// Basic usage
+const sections = await getSimilarMovieSections(sourceMovie);
+const boostedSections = applyVisualConfidenceBoost(sections);
+
+// Or use convenience function
+const sections = await getSimilarMovieSectionsWithVisual(sourceMovie);
+```
+
+### 14.7 Backward Compatibility
+
+- All existing functions remain unchanged
+- Visual boost is opt-in via wrapper functions
+- Existing integrations continue to work without modification
+
+---
+
+## 15. Change Log
+
+| Version | Date       | Changes                                           |
+|---------|------------|---------------------------------------------------|
+| 1.0     | Dec 2025   | Initial implementation (3 sections max)           |
+| 2.0     | Jan 2026   | Expanded to 8 sections, added fallbacks, formalized |
+| 2.1     | Jan 2026   | Added visual confidence integration (Section 14)  |
+
+---
+
 *This specification is locked. Any changes require versioning and backward compatibility analysis.*
+
 
 

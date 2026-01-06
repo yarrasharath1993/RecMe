@@ -202,7 +202,7 @@ function SectionCarousel({
             </span>
           </div>
           <div className="min-w-0 flex-1">
-            <h3 className="text-xs font-semibold text-white truncate">{title}</h3>
+            <h3 className="text-xs font-semibold text-[var(--text-primary)] truncate">{title}</h3>
             {subtitle && (
               <p className="text-[10px] text-gray-500 truncate">{subtitle}</p>
             )}
@@ -216,7 +216,7 @@ function SectionCarousel({
             disabled={!canScrollLeft}
             className={`p-1 rounded-full transition-all ${
               canScrollLeft
-                ? 'bg-white/10 hover:bg-white/20 text-white'
+                ? 'bg-white/10 hover:bg-white/20 text-[var(--text-primary)]'
                 : 'bg-white/5 text-gray-600 cursor-not-allowed'
             }`}
             aria-label="Scroll left"
@@ -228,7 +228,7 @@ function SectionCarousel({
             disabled={!canScrollRight}
             className={`p-1 rounded-full transition-all ${
               canScrollRight
-                ? 'bg-white/10 hover:bg-white/20 text-white'
+                ? 'bg-white/10 hover:bg-white/20 text-[var(--text-primary)]'
                 : 'bg-white/5 text-gray-600 cursor-not-allowed'
             }`}
             aria-label="Scroll right"
@@ -259,7 +259,7 @@ function SectionCarousel({
                 }`}
               >
                 <Link href={`/reviews/${movie.slug}`} className="block group">
-                  <div className="relative aspect-[2/3] rounded-md overflow-hidden bg-gray-800/50 ring-1 ring-white/10 group-hover:ring-white/30 transition-all shadow-md">
+                  <div className="relative aspect-[2/3] rounded-md overflow-hidden bg-[var(--bg-secondary)]/50 ring-1 ring-white/10 group-hover:ring-white/30 transition-all shadow-md">
                     {movie.poster_url ? (
                       <Image
                         src={movie.poster_url}
@@ -278,7 +278,7 @@ function SectionCarousel({
                     {movie.avg_rating && movie.avg_rating > 0 && (
                       <div className="absolute top-1 right-1 flex items-center gap-0.5 px-1 py-0.5 bg-black/75 backdrop-blur-sm rounded text-[9px] font-semibold">
                         <Star className="w-2 h-2 text-amber-400 fill-amber-400" />
-                        <span className="text-white">{movie.avg_rating.toFixed(1)}</span>
+                        <span className="text-[var(--text-primary)]">{movie.avg_rating.toFixed(1)}</span>
                       </div>
                     )}
 
@@ -288,11 +288,11 @@ function SectionCarousel({
                         hoveredId === movie.id ? 'opacity-100' : 'opacity-0'
                       }`}
                     >
-                      <h4 className="text-white font-medium text-[10px] leading-tight line-clamp-2">
+                      <h4 className="text-[var(--text-primary)] font-medium text-[10px] leading-tight line-clamp-2">
                         {movie.title_en}
                       </h4>
                       
-                      <div className="flex items-center gap-1 text-gray-400 text-[8px] mt-0.5">
+                      <div className="flex items-center gap-1 text-[var(--text-secondary)] text-[8px] mt-0.5">
                         {movie.release_year && <span>{movie.release_year}</span>}
                         {movie.genres && movie.genres[0] && (
                           <>

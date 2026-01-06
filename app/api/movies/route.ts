@@ -56,7 +56,9 @@ export async function GET(request: NextRequest) {
   }
 
   if (actor) {
-    query = query.or(`hero.ilike.%${actor}%,heroine.ilike.%${actor}%,cast_members.cs.{${actor}}`);
+    // Use exact match for actor name (not partial match)
+    // This ensures "Krishna" doesn't match "Balakrishna", "Krishnam Raju", etc.
+    query = query.or(`hero.eq.${actor},heroine.eq.${actor}`);
   }
 
   if (director) {

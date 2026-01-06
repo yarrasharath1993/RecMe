@@ -629,3 +629,154 @@ export async function getSimilarMovieSections(source: SourceMovie): Promise<Simi
   return allSections.slice(0, MAX_SECTIONS);
 }
 
+// ============================================================
+// VISUAL CONFIDENCE INTEGRATION (ADDITIVE)
+// ============================================================
+
+/**
+ * Extended SimilarMovie type with visual confidence data
+ */
+export interface SimilarMovieWithVisual extends SimilarMovie {
+  poster_confidence?: number;
+  poster_visual_type?: string;
+  displayRank?: number;
+}
+
+/**
+ * Extended SimilarSection type with visual confidence
+ */
+export interface SimilarSectionWithVisual extends Omit<SimilarSection, 'movies'> {
+  movies: SimilarMovieWithVisual[];
+  avgVisualConfidence?: number;
+}
+
+/**
+ * Apply visual confidence boost to section rankings
+ * 
+ * This is an ADDITIVE wrapper - it does not modify the original
+ * calculateRelevanceScore or getSimilarMovieSections functions.
+ * 
+ * Strategy:
+ * - Movies with higher visual confidence get a slight ranking boost within sections
+ * - Sections with higher average visual confidence get a slight priority boost
+ * - The boost is small (max 10%) to preserve the original relevance-based ordering
+ * 
+ * @param sections - Original sections from getSimilarMovieSections
+ * @param options - Configuration options
+ * @returns Sections with visual confidence boost applied
+ */
+export function applyVisualConfidenceBoost(
+  sections: SimilarSection[],
+  options?: {
+    /** Minimum confidence to consider (default 0.3) */
+    confidenceThreshold?: number;
+    /** Maximum boost factor (default 0.1 = 10%) */
+    maxBoostFactor?: number;
+    /** Whether to boost section priority (default true) */
+    boostSectionPriority?: boolean;
+  }
+): SimilarSectionWithVisual[] {
+  const {
+    confidenceThreshold = 0.3,
+    maxBoostFactor = 0.1,
+    boostSectionPriority = true,
+  } = options || {};
+
+  return sections.map(section => {
+    // Cast movies to extended type
+    const moviesWithVisual = section.movies as SimilarMovieWithVisual[];
+    
+    // Apply per-movie ranking boost based on visual confidence
+    const boostedMovies = moviesWithVisual.map(movie => {
+      const confidence = movie.poster_confidence ?? 0.5;
+      const relevance = movie.relevanceScore ?? 0;
+      
+      // Only boost if above threshold
+      if (confidence >= confidenceThreshold) {
+        // Boost factor scales from 0 to maxBoostFactor based on confidence
+        const boostFactor = (confidence - confidenceThreshold) / (1 - confidenceThreshold) * maxBoostFactor;
+        return {
+          ...movie,
+          displayRank: relevance * (1 + boostFactor),
+        };
+      }
+      
+      return {
+        ...movie,
+        displayRank: relevance,
+      };
+    });
+
+    // Sort by boosted rank
+    boostedMovies.sort((a, b) => (b.displayRank || 0) - (a.displayRank || 0));
+
+    // Calculate average visual confidence for section
+    const avgVisualConfidence = boostedMovies.length > 0
+      ? boostedMovies.reduce((sum, m) => sum + (m.poster_confidence ?? 0.5), 0) / boostedMovies.length
+      : 0.5;
+
+    // Calculate boosted priority
+    let boostedPriority = section.priority;
+    if (boostSectionPriority && avgVisualConfidence >= confidenceThreshold) {
+      // Add up to 5 priority points based on visual confidence
+      boostedPriority = section.priority + (avgVisualConfidence * 5);
+    }
+
+    return {
+      ...section,
+      movies: boostedMovies,
+      priority: boostedPriority,
+      avgVisualConfidence,
+    };
+  }).sort((a, b) => b.priority - a.priority);
+}
+
+/**
+ * Get similar movies with visual confidence data
+ * 
+ * This is a wrapper around getSimilarMovieSections that fetches
+ * visual confidence data for the returned movies.
+ */
+export async function getSimilarMovieSectionsWithVisual(
+  source: SourceMovie
+): Promise<SimilarSectionWithVisual[]> {
+  // Get base sections using existing logic
+  const sections = await getSimilarMovieSections(source);
+  
+  // Apply visual confidence boost
+  return applyVisualConfidenceBoost(sections);
+}
+
+/**
+ * Filter sections by minimum visual confidence
+ */
+export function filterByVisualConfidence(
+  sections: SimilarSectionWithVisual[],
+  minConfidence: number = 0.5
+): SimilarSectionWithVisual[] {
+  return sections.map(section => ({
+    ...section,
+    movies: section.movies.filter(m => (m.poster_confidence ?? 0.5) >= minConfidence),
+  })).filter(section => section.movies.length >= MIN_MOVIES_FOR_SECTION);
+}
+
+/**
+ * Separate movies into tier groups
+ */
+export function groupByVisualTier(
+  movies: SimilarMovieWithVisual[]
+): {
+  tier1: SimilarMovieWithVisual[];
+  tier2: SimilarMovieWithVisual[];
+  tier3: SimilarMovieWithVisual[];
+} {
+  return {
+    tier1: movies.filter(m => (m.poster_confidence ?? 0) >= 0.9),
+    tier2: movies.filter(m => {
+      const conf = m.poster_confidence ?? 0;
+      return conf >= 0.6 && conf < 0.9;
+    }),
+    tier3: movies.filter(m => (m.poster_confidence ?? 0) < 0.6),
+  };
+}
+

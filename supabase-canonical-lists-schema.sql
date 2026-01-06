@@ -177,3 +177,4 @@ CREATE TABLE IF NOT EXISTS canonical_list_stats (
 CREATE INDEX IF NOT EXISTS idx_list_stats_list_date 
 ON canonical_list_stats (list_id, date DESC);
 
+

@@ -1,0 +1,581 @@
+{
+  "actorName": "Nagarjuna",
+  "debutYear": 1986,
+  "wikipediaFilmCount": 90,
+  "databaseFilmCount": 88,
+  "preDebutFilms": [
+    {
+      "id": "dccdce3b-0d0c-4d59-a9be-01cb1bc622ce",
+      "title_en": "Illale Devata",
+      "release_year": 1985,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Poornima",
+      "director": "Kodanda Rami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "5f3b08a2-51c4-4fe5-9eb0-889e52358c1f",
+      "title_en": "Illale Devatha",
+      "release_year": 1985,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Poornima",
+      "director": "Kodandarami Reddy",
+      "our_rating": 6,
+      "cast_members": []
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "dccdce3b-0d0c-4d59-a9be-01cb1bc622ce",
+        "title": "Illale Devata",
+        "year": 1985
+      },
+      "movie2": {
+        "id": "5f3b08a2-51c4-4fe5-9eb0-889e52358c1f",
+        "title": "Illale Devatha",
+        "year": 1985
+      },
+      "similarity": 0.9230769230769231
+    },
+    {
+      "movie1": {
+        "id": "d384b700-405f-42ee-bac2-1f7c69969190",
+        "title": "Geetanjali",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "a49f3ca0-b8fe-49af-a0aa-00236a964aff",
+        "title": "Geethanjali",
+        "year": 1989
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "db08acec-2349-4394-a6de-4b617491d9ac",
+        "title": "Vicky Daada",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "81b5b22b-25b6-4efe-8431-0b8b96bb8828",
+        "title": "Vicky Dada",
+        "year": 1989
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "780ab550-cc4b-4e1e-abb2-a642ec35ce56",
+        "title": "Chaitanya",
+        "year": 1990
+      },
+      "movie2": {
+        "id": "c3306d2c-23e8-46cb-bebf-d6075a3a9372",
+        "title": "Chaitanya",
+        "year": 1991
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "12950451-5298-4484-8271-b19d34e6edb2",
+        "title": "Antham",
+        "year": 1992
+      },
+      "movie2": {
+        "id": "207cfa97-5d6f-47ce-96f9-5dae59e1e951",
+        "title": "Antam",
+        "year": 1992
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "48763e20-c59f-4c27-aacb-a6160a3e70ce",
+        "title": "Criminal",
+        "year": 1994
+      },
+      "movie2": {
+        "id": "336d85cb-bd49-4563-90c2-ec7a1df2f7e9",
+        "title": "Criminal",
+        "year": 1995
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "a05d636e-3ec3-4ac7-8c68-7f999aad8df3",
+        "title": "Ninne Pelladata",
+        "year": 1996
+      },
+      "movie2": {
+        "id": "7b420ac9-81f6-4bec-aa93-045091efaa78",
+        "title": "Ninne Pelladatha",
+        "year": 1996
+      },
+      "similarity": 0.9333333333333333
+    }
+  ],
+  "invalidEntries": [
+    {
+      "id": "dccdce3b-0d0c-4d59-a9be-01cb1bc622ce",
+      "title_en": "Illale Devata",
+      "release_year": 1985,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Poornima",
+      "director": "Kodanda Rami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "5f3b08a2-51c4-4fe5-9eb0-889e52358c1f",
+      "title_en": "Illale Devatha",
+      "release_year": 1985,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Poornima",
+      "director": "Kodandarami Reddy",
+      "our_rating": 6,
+      "cast_members": []
+    },
+    {
+      "id": "b325b197-b917-4b87-83da-88bb03a8b0d9",
+      "title_en": "Captain Nagarjun",
+      "release_year": 1986,
+      "hero": "Nagarjuna",
+      "heroine": "No Female Lead",
+      "director": "Kodandarami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "a8051101-a362-444b-a194-183081691ec9",
+      "title_en": "Kirayi Dada",
+      "release_year": 1987,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Amala Akkineni",
+      "director": "A. Kodandarami Reddy",
+      "our_rating": 7,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Amala Akkineni\",\"character\":\"\",\"order\":1,\"gender\":1,\"tmdb_id\":150369,\"profile_path\":\"/fyBWFzUTya2GVIx74NX9cX7ZtfL.jpg\"}",
+        "{\"name\":\"Khushboo\",\"character\":\"\",\"order\":2,\"gender\":1,\"tmdb_id\":82078,\"profile_path\":\"/cu6ABz6a7iR1hLlCvBUzDSM2vag.jpg\"}",
+        "{\"name\":\"Krishnam Raju\",\"character\":\"\",\"order\":3,\"gender\":2,\"tmdb_id\":1335737,\"profile_path\":\"/bvZLQkr6U1kNNWmHZsRnPXOpg4J.jpg\"}",
+        "{\"name\":\"Jayasudha\",\"character\":\"\",\"order\":4,\"gender\":1,\"tmdb_id\":584418,\"profile_path\":\"/xOP3pYlrqyBw5x9CDEMkYXPzpNu.jpg\"}",
+        "{\"name\":\"Rao Gopal Rao\",\"character\":\"\",\"order\":5,\"gender\":2,\"tmdb_id\":584684,\"profile_path\":\"/5s1FqtrDKSc35NUCH42cPPbtSSs.jpg\"}",
+        "{\"name\":\"Gollapudi Maruti Rao\",\"character\":\"\",\"order\":6,\"gender\":2,\"tmdb_id\":584510,\"profile_path\":\"/n2Dg7xVS8OqTB7Pfc09JtodZUfa.jpg\"}",
+        "{\"name\":\"Murali Mohan\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":584682,\"profile_path\":\"/otex9PxT1wXvvR4ATVG5lZH5UDV.jpg\"}",
+        "{\"name\":\"Annapoorna\",\"character\":\"\",\"order\":8,\"gender\":1,\"tmdb_id\":1107228,\"profile_path\":\"/8yFs4CeF7SoiW5j0BTtZXP2jZ9H.jpg\"}",
+        "{\"name\":\"Sudhakar\",\"character\":\"\",\"order\":9,\"gender\":2,\"tmdb_id\":586556,\"profile_path\":\"/5KLwpe33RflDnJDE1mtychosmLl.jpg\"}",
+        "{\"name\":\"Sreedhar\",\"character\":\"\",\"order\":10,\"gender\":2,\"tmdb_id\":3608455,\"profile_path\":null}",
+        "{\"name\":\"Rallapalli\",\"character\":\"\",\"order\":11,\"gender\":0,\"tmdb_id\":5572196,\"profile_path\":null}",
+        "{\"name\":\"Mada Venkateswara Rao\",\"character\":\"\",\"order\":12,\"gender\":2,\"tmdb_id\":2026457,\"profile_path\":null}",
+        "{\"name\":\"Suthi Veerabhadra Rao\",\"character\":\"\",\"order\":13,\"gender\":2,\"tmdb_id\":928863,\"profile_path\":null}"
+      ]
+    },
+    {
+      "id": "60a90530-3b9b-4294-870f-9fccac870e61",
+      "title_en": "Janaki Ramudu",
+      "release_year": 1988,
+      "hero": "Nagarjuna",
+      "heroine": "Radha",
+      "director": "K. Raghavendra Rao",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "db08acec-2349-4394-a6de-4b617491d9ac",
+      "title_en": "Vicky Daada",
+      "release_year": 1989,
+      "hero": "Nagarjuna",
+      "heroine": "Juhi Chawla",
+      "director": "Kodandarami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "f3008868-4aca-419e-8ddb-baca3f2d8a0e",
+      "title_en": "Srirama Chandrudu",
+      "release_year": 1989,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Ramya Krishna",
+      "director": "Deva Das Kanakala",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "81b5b22b-25b6-4efe-8431-0b8b96bb8828",
+      "title_en": "Vicky Dada",
+      "release_year": 1989,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Radha",
+      "director": "A. Kodandarami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "8dc8e586-f10e-4b3f-935d-5c2b8144d634",
+      "title_en": "Neti Siddhartha",
+      "release_year": 1990,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Shobana",
+      "director": "Kranthi Kumar",
+      "our_rating": 6.5,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Siddhartha\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Shobana\",\"character\":\"Jyothi\",\"order\":1,\"gender\":1,\"tmdb_id\":110298,\"profile_path\":\"/t6niRFC3xCV6hJSuyC9ACWLSVXu.jpg\"}",
+        "{\"name\":\"Ayesha Jhulka\",\"character\":\"Basanthi\",\"order\":2,\"gender\":1,\"tmdb_id\":110290,\"profile_path\":\"/6vgOf0tPGCpac84t7Xs4alAj5s0.jpg\"}",
+        "{\"name\":\"Krishnam Raju\",\"character\":\"Krishna Prasad 'K. P.'\",\"order\":3,\"gender\":2,\"tmdb_id\":1335737,\"profile_path\":\"/bvZLQkr6U1kNNWmHZsRnPXOpg4J.jpg\"}",
+        "{\"name\":\"Sarath Babu\",\"character\":\"\",\"order\":4,\"gender\":2,\"tmdb_id\":237629,\"profile_path\":\"/giugWi2EV6GYxmrkn4XKgyvjRGp.jpg\"}",
+        "{\"name\":\"Prabhakar\",\"character\":\"\",\"order\":5,\"gender\":2,\"tmdb_id\":1333325,\"profile_path\":\"/4u4NKAjoVbBq1Gm0SyTIws1n9T1.jpg\"}",
+        "{\"name\":\"J. D. Chakravarthi\",\"character\":\"\",\"order\":6,\"gender\":2,\"tmdb_id\":88817,\"profile_path\":\"/4sRwxgggTEhsaJzwZRZbxbLRzUA.jpg\"}",
+        "{\"name\":\"Devaraj\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":1333516,\"profile_path\":\"/nUvDzDVZ5q0Hnze8iQwOJe3QiS9.jpg\"}",
+        "{\"name\":\"Vadivukarasi\",\"character\":\"Bharathi\",\"order\":8,\"gender\":1,\"tmdb_id\":581074,\"profile_path\":\"/cGfFXJ20h1KECAzSPfo7zURtdqI.jpg\"}",
+        "{\"name\":\"Tara\",\"character\":\"Rekha\",\"order\":9,\"gender\":1,\"tmdb_id\":1115876,\"profile_path\":\"/MsEYsbgbrDyuxc6V8gDIEHJ80v.jpg\"}",
+        "{\"name\":\"Srilakshmi\",\"character\":\"Writer\",\"order\":10,\"gender\":1,\"tmdb_id\":1325397,\"profile_path\":\"/czQXxJ6c149HPmY0JSHPxEL5wXW.jpg\"}",
+        "{\"name\":\"Devaraj\",\"character\":\"Bhillu\",\"order\":11,\"gender\":2,\"tmdb_id\":1333516,\"profile_path\":\"/nUvDzDVZ5q0Hnze8iQwOJe3QiS9.jpg\"}",
+        "{\"name\":\"Charu Haasan\",\"character\":\"Dr. Nidhi\",\"order\":12,\"gender\":2,\"tmdb_id\":544983,\"profile_path\":\"/8qF7C0xNWkmeQly6f3n3h8D3ubo.jpg\"}",
+        "{\"name\":\"Rajyalakshmi\",\"character\":\"Sofi\",\"order\":13,\"gender\":1,\"tmdb_id\":580893,\"profile_path\":\"/iVQrWhfnqd45IOU1pQNmgPW8t7w.jpg\"}",
+        "{\"name\":\"Rohini\",\"character\":\"Basanthi (voice)\",\"order\":14,\"gender\":1,\"tmdb_id\":467845,\"profile_path\":\"/oeT5DXeqsTY17DtJLTGpQec91fr.jpg\"}"
+      ]
+    },
+    {
+      "id": "f18dcbd9-6db8-4485-984b-b633464797fa",
+      "title_en": "Jaitra Yatra",
+      "release_year": 1991,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Vijayashanti",
+      "director": "Uppalapati Narayana Rao",
+      "our_rating": 5.8,
+      "cast_members": []
+    },
+    {
+      "id": "df0a36d7-92b8-4964-9e4e-dcb1c8bba848",
+      "title_en": "Prema Vijeta",
+      "release_year": 1992,
+      "hero": "Nagarjuna",
+      "heroine": "Nagma",
+      "director": "Kodandarami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "c72d2ecf-7cf8-401d-93ce-3f6896d0b68a",
+      "title_en": "Allari Alludu",
+      "release_year": 1993,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Meena",
+      "director": "A. Kodandarami Reddy",
+      "our_rating": 6.1,
+      "cast_members": []
+    },
+    {
+      "id": "3794078d-1f3e-45d7-a5f1-4e8d6b5a5cef",
+      "title_en": "Govindha Govindha",
+      "release_year": 1993,
+      "hero": "Nagarjuna",
+      "heroine": "Sridevi",
+      "director": "Ram Gopal Varma",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "7465485a-a239-43c2-a979-84994c26340b",
+      "title_en": "Chirunavvula Varamistava",
+      "release_year": 1993,
+      "hero": "Nagarjuna",
+      "heroine": "Tabu",
+      "director": "Muthyala Subbaiah",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "8a0b430f-4432-46b8-84f9-e77bb66a8325",
+      "title_en": "Hello Brother",
+      "release_year": 1994,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Soundarya",
+      "director": "E.V.V. Satyanarayana",
+      "our_rating": 6.2,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Deva & Ravi Varma\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Soundarya\",\"character\":\"Ooha\",\"order\":1,\"gender\":1,\"tmdb_id\":288587,\"profile_path\":\"/pqACucRtWoz3mwhPeSLa9OATilN.jpg\"}",
+        "{\"name\":\"Ramya Krishnan\",\"character\":\"Manga\",\"order\":2,\"gender\":1,\"tmdb_id\":141701,\"profile_path\":\"/kZvSnBTgsMgTsUE5o1yFQnDR3dl.jpg\"}",
+        "{\"name\":\"Srihari\",\"character\":\"Simhachalam\",\"order\":3,\"gender\":2,\"tmdb_id\":146936,\"profile_path\":\"/j0sMxR2Hq69iLCJKMcVHe4XuA17.jpg\"}",
+        "{\"name\":\"Kota Srinivasa Rao\",\"character\":\"S.I.Thadi Mataiyya\",\"order\":4,\"gender\":2,\"tmdb_id\":141695,\"profile_path\":\"/iEJprOPpeLhnyxBu2KdiJtw5Adb.jpg\"}",
+        "{\"name\":\"Brahmanandam\",\"character\":\"Kaasi\",\"order\":5,\"gender\":2,\"tmdb_id\":113810,\"profile_path\":\"/zh6nWEIy3l1dsZA9EDuDezq867b.jpg\"}",
+        "{\"name\":\"Ali Basha\",\"character\":\"Higaral\",\"order\":6,\"gender\":2,\"tmdb_id\":589654,\"profile_path\":\"/1z0YbDqP81BD6VxeghJG7vo9Mny.jpg\"}",
+        "{\"name\":\"Sarath Babu\",\"character\":\"Chakravarthy\",\"order\":7,\"gender\":2,\"tmdb_id\":237629,\"profile_path\":\"/giugWi2EV6GYxmrkn4XKgyvjRGp.jpg\"}",
+        "{\"name\":\"Napoleon\",\"character\":\"Mishra\",\"order\":8,\"gender\":2,\"tmdb_id\":229981,\"profile_path\":\"/sdOwjrQI2R6ozvhZMEwSY7dXeYP.jpg\"}",
+        "{\"name\":\"Rajanala\",\"character\":\"Rajanala\",\"order\":9,\"gender\":0,\"tmdb_id\":5616972,\"profile_path\":null}",
+        "{\"name\":\"Sangeetha\",\"character\":\"Geetha\",\"order\":10,\"gender\":0,\"tmdb_id\":5616973,\"profile_path\":null}",
+        "{\"name\":\"Charan Raj\",\"character\":\"Misro\",\"order\":11,\"gender\":2,\"tmdb_id\":584668,\"profile_path\":\"/mmEb8jPvyhg6BisENTxM3LQpaCr.jpg\"}",
+        "{\"name\":\"Annapoorna\",\"character\":\"Akkamamba\",\"order\":12,\"gender\":1,\"tmdb_id\":1107228,\"profile_path\":\"/8yFs4CeF7SoiW5j0BTtZXP2jZ9H.jpg\"}"
+      ]
+    },
+    {
+      "id": "83f26a10-59e9-4366-92b5-4980dc7ff428",
+      "title_en": "Big Boss",
+      "release_year": 1995,
+      "hero": "Nagarjuna",
+      "heroine": "Ramya Krishna",
+      "director": "Kodandarami Reddy",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "1a32549d-00a9-4baf-82eb-0194e91ddcb8",
+      "title_en": "Gharana Bullodu",
+      "release_year": 1995,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Ramya Krishnan",
+      "director": "K. Raghavendra Rao",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "a05d636e-3ec3-4ac7-8c68-7f999aad8df3",
+      "title_en": "Ninne Pelladata",
+      "release_year": 1996,
+      "hero": "Nagarjuna",
+      "heroine": "Tabu",
+      "director": "Krishna Vamsi",
+      "our_rating": 8.5,
+      "cast_members": []
+    },
+    {
+      "id": "7b420ac9-81f6-4bec-aa93-045091efaa78",
+      "title_en": "Ninne Pelladatha",
+      "release_year": 1996,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Tabu",
+      "director": "Pasupuleti Krishna Vamsi",
+      "our_rating": 7.3,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Seenu\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Tabu\",\"character\":\"Mahalakshmi/Pandu\",\"order\":1,\"gender\":1,\"tmdb_id\":55062,\"profile_path\":\"/cvt5nvCHr1ICf5u8A2mlzLQ8LsV.jpg\"}",
+        "{\"name\":\"Lakshmi\",\"character\":\"Mahalakshmi\",\"order\":2,\"gender\":1,\"tmdb_id\":86015,\"profile_path\":\"/ddJU483vxl0kqPL9O30LDWDBj1J.jpg\"}",
+        "{\"name\":\"Chalapathi Rao\",\"character\":\"Seenu's father\",\"order\":3,\"gender\":2,\"tmdb_id\":585270,\"profile_path\":\"/51zzAobEchxSwHI1b4tUxrVpQaz.jpg\"}",
+        "{\"name\":\"Rama Prabha\",\"character\":\"Maid\",\"order\":4,\"gender\":1,\"tmdb_id\":584623,\"profile_path\":\"/oLF9RSdde7KUTxurEciD7CeW54e.jpg\"}",
+        "{\"name\":\"Chandramohan\",\"character\":\"Murthy\",\"order\":5,\"gender\":2,\"tmdb_id\":586627,\"profile_path\":\"/pXkbPFie2pOGgc9cd84BUz0OP4A.jpg\"}",
+        "{\"name\":\"Brahmanandam\",\"character\":\"\",\"order\":6,\"gender\":2,\"tmdb_id\":113810,\"profile_path\":\"/zh6nWEIy3l1dsZA9EDuDezq867b.jpg\"}",
+        "{\"name\":\"Giri Babu\",\"character\":\"Hari\",\"order\":7,\"gender\":2,\"tmdb_id\":591149,\"profile_path\":\"/rOwTKoZGqAnh1jPCpPnn7ccAT0i.jpg\"}",
+        "{\"name\":\"Ahuti Prasad\",\"character\":\"Mahalakshmi's father\",\"order\":8,\"gender\":2,\"tmdb_id\":1107227,\"profile_path\":\"/z0Al1VOH1O45uDQCXt6kadn9psR.jpg\"}",
+        "{\"name\":\"Ravi Teja\",\"character\":\"guy who misbehaves with Mahalakshmi in disco\",\"order\":9,\"gender\":2,\"tmdb_id\":146935,\"profile_path\":\"/5a9g645O30Qzhe3VFjvkhjnNfm2.jpg\"}",
+        "{\"name\":\"Brahmaji\",\"character\":\"Sivaji\",\"order\":10,\"gender\":2,\"tmdb_id\":213432,\"profile_path\":\"/xDTE7POq1bkyjLINxdy7rW4wQlg.jpg\"}",
+        "{\"name\":\"Sana\",\"character\":\"Seenu's Sister-in-law\",\"order\":11,\"gender\":1,\"tmdb_id\":1137651,\"profile_path\":\"/pcCtKwE1GK9eNeFprC5BBqg87rN.jpg\"}",
+        "{\"name\":\"Manju Bhargavi\",\"character\":\"Mahalakshmi's mother\",\"order\":12,\"gender\":1,\"tmdb_id\":1107245,\"profile_path\":\"/2hWAF3kJHKhcXGdpcfDhihLl3ql.jpg\"}",
+        "{\"name\":\"Banerjee\",\"character\":\"Bachi\",\"order\":13,\"gender\":2,\"tmdb_id\":1422554,\"profile_path\":\"/czUUqcEgBmDBNMx0zwIIy2HSZsp.jpg\"}",
+        "{\"name\":\"C. V. L. Narasimha Rao\",\"character\":\"Vizag Vasu\",\"order\":14,\"gender\":2,\"tmdb_id\":1693611,\"profile_path\":\"/ehPetJv7j7nRWYYRrPUpKvhiru9.jpg\"}"
+      ]
+    },
+    {
+      "id": "d75c4f63-8542-4216-8028-b19a8fd48b48",
+      "title_en": "Auto Driver",
+      "release_year": 1998,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Simran",
+      "director": "Suresh Krissna",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "d1c5f90b-3853-47a8-ac1c-2bec0e33f5ea",
+      "title_en": "Seetharama Raju",
+      "release_year": 1999,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Sakshi Shivanand",
+      "director": "YVS Chowdary",
+      "our_rating": 6.5,
+      "cast_members": []
+    },
+    {
+      "id": "011a6caa-8d52-4d4d-b6ff-a1904b7e4ff8",
+      "title_en": "Pilla Nachindi",
+      "release_year": 1999,
+      "hero": "Nagarjuna",
+      "heroine": "Shilpa Shetty",
+      "director": "E.V.V. Satyanarayana",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "d43fd391-a00d-449e-88df-d7130703e575",
+      "title_en": "Nuvvu Vastavani",
+      "release_year": 2000,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Simran",
+      "director": "VR Pratap",
+      "our_rating": 6.2,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Simran\",\"character\":\"\",\"order\":1,\"gender\":1,\"tmdb_id\":141705,\"profile_path\":\"/BRsVC78sFbFy0NQhaUkGkuUUOL.jpg\"}",
+        "{\"name\":\"Kota Srinivasa Rao\",\"character\":\"\",\"order\":2,\"gender\":2,\"tmdb_id\":141695,\"profile_path\":\"/iEJprOPpeLhnyxBu2KdiJtw5Adb.jpg\"}",
+        "{\"name\":\"Tanikella Bharani\",\"character\":\"\",\"order\":3,\"gender\":2,\"tmdb_id\":565890,\"profile_path\":\"/zRjr0F64Eznbliz1RvN9icj3Lq1.jpg\"}",
+        "{\"name\":\"Brahmanandam\",\"character\":\"\",\"order\":4,\"gender\":2,\"tmdb_id\":113810,\"profile_path\":\"/zh6nWEIy3l1dsZA9EDuDezq867b.jpg\"}",
+        "{\"name\":\"Y. Vijaya\",\"character\":\"\",\"order\":5,\"gender\":1,\"tmdb_id\":584354,\"profile_path\":\"/zyo1kuf67tOhWtecyn8uGaahDsS.jpg\"}",
+        "{\"name\":\"Sudha\",\"character\":\"\",\"order\":6,\"gender\":1,\"tmdb_id\":544889,\"profile_path\":\"/eod26HfPLe95cxTk2ieT1YzNaSl.jpg\"}",
+        "{\"name\":\"Bandla Ganesh\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":1053174,\"profile_path\":\"/874gkTlQBZRawZbvF28bslX09KJ.jpg\"}",
+        "{\"name\":\"Raghu Kunche\",\"character\":\"\",\"order\":8,\"gender\":2,\"tmdb_id\":1543594,\"profile_path\":\"/pTZPnDqhe9NSDaPZgIoStucSVd3.jpg\"}",
+        "{\"name\":\"Ananth Babu\",\"character\":\"\",\"order\":9,\"gender\":2,\"tmdb_id\":1341485,\"profile_path\":\"/6gtD5IYIbEG8KzaSDMDrDWGvTnR.jpg\"}",
+        "{\"name\":\"Ponnambalam\",\"character\":\"\",\"order\":10,\"gender\":2,\"tmdb_id\":584125,\"profile_path\":\"/x4Y8MqXrxcxxEXME4CgifzbwiW6.jpg\"}",
+        "{\"name\":\"Nutan Prasad\",\"character\":\"\",\"order\":11,\"gender\":2,\"tmdb_id\":584670,\"profile_path\":\"/2f0TgaX78PSQP6IV2couwChSbPr.jpg\"}",
+        "{\"name\":\"Rama Prabha\",\"character\":\"\",\"order\":12,\"gender\":1,\"tmdb_id\":584623,\"profile_path\":\"/oLF9RSdde7KUTxurEciD7CeW54e.jpg\"}",
+        "{\"name\":\"Shivaji Raja\",\"character\":\"\",\"order\":13,\"gender\":2,\"tmdb_id\":585567,\"profile_path\":\"/uYGakx7oROck3LhhLPeDxG7F0c9.jpg\"}",
+        "{\"name\":\"Ali Basha\",\"character\":\"\",\"order\":14,\"gender\":2,\"tmdb_id\":589654,\"profile_path\":\"/1z0YbDqP81BD6VxeghJG7vo9Mny.jpg\"}"
+      ]
+    },
+    {
+      "id": "0d1e5833-0416-49bd-8265-628246136270",
+      "title_en": "Bava Nachadu",
+      "release_year": 2001,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Simran",
+      "director": "K. S. Ravikumar",
+      "our_rating": 6.2,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Actor\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Simran\",\"character\":\"Actress\",\"order\":1,\"gender\":1,\"tmdb_id\":141705,\"profile_path\":\"/BRsVC78sFbFy0NQhaUkGkuUUOL.jpg\"}",
+        "{\"name\":\"Reema Sen\",\"character\":\"Actress\",\"order\":2,\"gender\":1,\"tmdb_id\":86225,\"profile_path\":\"/f5Xe92gA1BXa4BddAxnysRZwnjf.jpg\"}"
+      ]
+    },
+    {
+      "id": "6db4edff-700c-4af1-a900-96d006a8d749",
+      "title_en": "Snehamante Idera",
+      "release_year": 2001,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Bhumika Chawla",
+      "director": "Balasekaran",
+      "our_rating": 5.3,
+      "cast_members": []
+    },
+    {
+      "id": "c3520bda-bc8a-4385-bddc-6c1a4f718b24",
+      "title_en": "Akasa Veedhilo",
+      "release_year": 2001,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Raveena Tandon",
+      "director": "Singeetam Srinivasa Rao",
+      "our_rating": 7,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"\",\"order\":0,\"gender\":2,\"tmdb_id\":149958,\"profile_path\":\"/i42K59YZY2NbNfqxfo78YoFz6Bv.jpg\"}",
+        "{\"name\":\"Raveena Tandon\",\"character\":\"\",\"order\":1,\"gender\":1,\"tmdb_id\":123180,\"profile_path\":\"/3ifGMlHKKRFvK9Sg5y2bs5jWUlI.jpg\"}",
+        "{\"name\":\"Rajendra Prasad\",\"character\":\"\",\"order\":2,\"gender\":2,\"tmdb_id\":545595,\"profile_path\":\"/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg\"}",
+        "{\"name\":\"Kasturi Shankar\",\"character\":\"\",\"order\":3,\"gender\":1,\"tmdb_id\":584692,\"profile_path\":\"/deKiycG3EGCKopHdNntEa6o26Mu.jpg\"}",
+        "{\"name\":\"Rahul Dev\",\"character\":\"\",\"order\":4,\"gender\":2,\"tmdb_id\":37234,\"profile_path\":\"/wjADAt1yCyQML0qQIQiGLP9xNUm.jpg\"}",
+        "{\"name\":\"Kota Srinivasa Rao\",\"character\":\"\",\"order\":5,\"gender\":2,\"tmdb_id\":141695,\"profile_path\":\"/iEJprOPpeLhnyxBu2KdiJtw5Adb.jpg\"}",
+        "{\"name\":\"Sudhakar\",\"character\":\"\",\"order\":6,\"gender\":2,\"tmdb_id\":586556,\"profile_path\":\"/5KLwpe33RflDnJDE1mtychosmLl.jpg\"}",
+        "{\"name\":\"Mallikarjuna Rao\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":584511,\"profile_path\":\"/nRTgNcAdSLqRmk5mQXR3Lz3HXbY.jpg\"}",
+        "{\"name\":\"Giri Babu\",\"character\":\"\",\"order\":8,\"gender\":2,\"tmdb_id\":591149,\"profile_path\":\"/rOwTKoZGqAnh1jPCpPnn7ccAT0i.jpg\"}",
+        "{\"name\":\"Chalapathi Rao\",\"character\":\"\",\"order\":9,\"gender\":2,\"tmdb_id\":585270,\"profile_path\":\"/51zzAobEchxSwHI1b4tUxrVpQaz.jpg\"}",
+        "{\"name\":\"Amanchi Venkata Subrahmanyam\",\"character\":\"\",\"order\":10,\"gender\":2,\"tmdb_id\":1334885,\"profile_path\":\"/flibtZ5M6FIFhA6OFvm2IP7NDLX.jpg\"}",
+        "{\"name\":\"M. S. Narayana\",\"character\":\"\",\"order\":11,\"gender\":2,\"tmdb_id\":148052,\"profile_path\":\"/1XRTmhRSOtHBVmoPfz45WxbLfFQ.jpg\"}",
+        "{\"name\":\"Kaushal Manda\",\"character\":\"\",\"order\":12,\"gender\":2,\"tmdb_id\":1125763,\"profile_path\":\"/b33hYCYOXlk1PPWiBG2blIyeh0b.jpg\"}",
+        "{\"name\":\"Shankar Melkote\",\"character\":\"\",\"order\":13,\"gender\":2,\"tmdb_id\":1289120,\"profile_path\":\"/mfmmQ7zfIdZ6yXFDydWVXlzrAW3.jpg\"}",
+        "{\"name\":\"Ironleg Sastri\",\"character\":\"\",\"order\":14,\"gender\":0,\"tmdb_id\":1833212,\"profile_path\":null}"
+      ]
+    },
+    {
+      "id": "da0542f2-146a-4bdc-9d77-5cab28e88c66",
+      "title_en": "Sri Ramadasu",
+      "release_year": 2006,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Sujatha",
+      "director": "K",
+      "our_rating": 5.1,
+      "cast_members": []
+    },
+    {
+      "id": "d30fd6be-5bda-419b-b4d7-21b3bc5349e3",
+      "title_en": "Shirdi Sai",
+      "release_year": 2012,
+      "hero": "Akkineni Nagarjuna",
+      "heroine": "Kamalinee Mukherjee",
+      "director": "K. Raghavendra Rao",
+      "our_rating": 5,
+      "cast_members": []
+    },
+    {
+      "id": "de64448d-4cad-4aad-ae0b-1199699257f0",
+      "title_en": "Wild Dog",
+      "release_year": 2021,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Dia Mirza",
+      "director": "Ahishor Solomon",
+      "our_rating": 5.6,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Vijay Varma\",\"order\":0}",
+        "{\"name\":\"Dia Mirza\",\"character\":\"Priya Varma\",\"order\":1}",
+        "{\"name\":\"Saiyami Kher\",\"character\":\"Arya Pandit\",\"order\":2}",
+        "{\"name\":\"Atul Kulkarni\",\"character\":\"Hemanth\",\"order\":3}",
+        "{\"name\":\"Anish Kuruvilla\",\"character\":\"Vinod Pandey\",\"order\":4}",
+        "{\"name\":\"Dayanand Reddy\",\"character\":\"Mohd. Peerbhoy\",\"order\":5}",
+        "{\"name\":\"Rahul Singh\",\"character\":\"Nawaz\",\"order\":6}",
+        "{\"name\":\"Avijit Dutt\",\"character\":\"Abdulla\",\"order\":7}",
+        "{\"name\":\"Ali Reza\",\"character\":\"Ali Reza\",\"order\":8}",
+        "{\"name\":\"Malhottra Shivam\",\"character\":\"Mirza Baig\",\"order\":9}"
+      ]
+    },
+    {
+      "id": "a1e290f1-ebb8-4d07-8daf-c26fd0fd68eb",
+      "title_en": "The Ghost",
+      "release_year": 2022,
+      "hero": "Nagarjuna Akkineni",
+      "heroine": "Sonal Chauhan",
+      "director": "Praveen Sattaru",
+      "our_rating": 5.1,
+      "cast_members": [
+        "{\"name\":\"Nagarjuna Akkineni\",\"character\":\"Vikram Naidu\",\"order\":0}",
+        "{\"name\":\"Sonal Chauhan\",\"character\":\"Priya\",\"order\":1}",
+        "{\"name\":\"Gul Panag\",\"character\":\"Anupama Nair\",\"order\":2}",
+        "{\"name\":\"Anikha Surendran\",\"character\":\"Aditi Nair\",\"order\":3}",
+        "{\"name\":\"Ravi Varma\",\"character\":\"Pankaj Nair\",\"order\":4}",
+        "{\"name\":\"Srikanth Iyengar\",\"character\":\"Harish\",\"order\":5}",
+        "{\"name\":\"Manish Chaudhary\",\"character\":\"Lala\",\"order\":6}",
+        "{\"name\":\"Bilal Hossein\",\"character\":\"Scorpion\",\"order\":7}",
+        "{\"name\":\"Jayaprakash\",\"character\":\"Nagendra Naidu\",\"order\":8}",
+        "{\"name\":\"Kalyani Natarajan\",\"character\":\"Dr. Iyer\",\"order\":9}"
+      ]
+    }
+  ],
+  "yearDistribution": {
+    "1985": 2,
+    "1986": 3,
+    "1987": 4,
+    "1988": 3,
+    "1989": 7,
+    "1990": 2,
+    "1991": 3,
+    "1992": 7,
+    "1993": 5,
+    "1994": 2,
+    "1995": 4,
+    "1996": 3,
+    "1997": 1,
+    "1998": 3,
+    "1999": 2,
+    "2000": 2,
+    "2001": 4,
+    "2002": 4,
+    "2003": 1,
+    "2004": 2,
+    "2006": 2,
+    "2007": 1,
+    "2008": 3,
+    "2010": 1,
+    "2011": 2,
+    "2012": 3,
+    "2013": 1,
+    "2014": 2,
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1,
+    "2021": 1,
+    "2022": 2,
+    "2024": 1
+  },
+  "summary": "2 pre-debut films, 7 potential duplicates, 30 invalid entries"
+}

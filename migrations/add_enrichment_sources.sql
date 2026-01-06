@@ -26,3 +26,4 @@ UPDATE movie_reviews
 SET enrichment_sources = '{}' 
 WHERE enrichment_sources IS NULL;
 
+

@@ -1,0 +1,852 @@
+# Telugu Movies Needing Images
+
+Last Updated: 2026-01-06
+
+Total: 815 movies (out of 5029 total)
+
+Progress: 84% complete
+
+---
+
+## 1940s (32 movies)
+
+- **Meerabai** (1940) - V. Nagayya
+- **Bondam Pelli** (1940) - V. Nagayya
+- **Bhoja Kalidasu** (1940) - V. Nagayya
+- **Chaduvukunna Bharya** (1940) - V. Nagayya
+- **Mahatma Gandhi** (1941) - V. Nagayya
+- **Parvati Kalyanam** (1941) - C.S.R. Anjaneyulu
+- **Choodamani** (1941) - V. Nagayya
+- **Tara Sasankam** (1941) - Akkineni Nageswara Rao
+- **Tarumaru** (1941) - Ramakrishna Sastry
+- **Bhaktimala** (1941) - V. Nagayya
+- **Babruvahana** (1942) - Akkineni Nageswara Rao
+- **Satyame Jayam** (1942) - V. Nagayya
+- **Jeevana Mukthi** (1942) - V. Nagayya
+- **Deena Bandhu** (1942) - V. Nagayya
+- **Shanta Bala Nagamma** (1942) - M Krishna Rao
+- **Bhakta Kabiru** (1943) - Chittor V. Nagaiah
+- **Panthulamma** (1943) - V. Umamaheswara Rao
+- **Garuda Garvabhangam** (1943) - Vemuri Gaggaiah
+- **Pathi Bhakti** (1943) - Bellari Raghava
+- **Oka Roju Raju** (1944) - Jandhyala Gaurinatha Sastri
+- **Samsara Naradhi** (1944) - C.S.R. Anjaneyulu
+- **Sethu Bandhanam** (1946) - M. Ramana Rao
+- **Narada Naradhi** (1946) - Akkineni Nageswara Rao
+- **Bhakta Tulasidas** (1946) - Honnavar
+- **Griha Pravesam** (1946) - L.V. Prasad
+- **Vanarani** (1946) - Kasturi Siva Rao
+- **Varudhini** (1947) - S.V. Ranga Rao
+- **Ratnamala** (1948) - Akkineni Nageswara Rao
+- **Suvarnamala** (1948) - Akkineni Nageswara Rao
+- **Vindhyarani** (1948) - Akkineni Nageswara Rao
+- **Abhisyanta Kalapam** (1949) - Akkineni Nageswara Rao
+- **Dharmangadha** (1949) - N.T. Rama Rao
+
+## 1950s (91 movies)
+
+- **Thirugubatu** (1950) - C. H. Narayana Rao
+- **Adhrusta Deepudu** (1950) - Akkineni Nageswara Rao
+- **Beedala Patlu** (1950) - N.T. Rama Rao
+- **Vaali – Sugreeva** (1950) - N.T. Rama Rao
+- **Maaya Rambha** (1950) - Akkineni Nageswara Rao
+- **Paramanandayya Sishyulu** (1950) - N.T. Rama Rao
+- **Modhati Rathri** (1950) - N.T. Rama Rao
+- **Chandravanka** (1951) - N.T. Rama Rao
+- **Agni Pareeksha** (1951) - N.T. Rama Rao
+- **Aada Janma** (1951) - Akkineni Nageswara Rao
+- **Nirdoshi** (1951) - Akkineni Nageswara Rao
+- **Mangala** (1951) - N.T. Rama Rao
+- **Mantra Dandam** (1951) - N.T. Rama Rao
+- **Aakasa Raju** (1951) - Akkineni Nageswara Rao
+- **Rupavathi** (1951) - Akkineni Nageswara Rao
+- **Tilottama** (1951) - N.T. Rama Rao
+- **Stree Sahasam** (1951) - N.T. Rama Rao
+- **Penkipilla** (1951) - N.T. Rama Rao
+- **Perantalu** (1951) - Akkineni Nageswara Rao
+- **Navvithe Navaratnalu** (1951) - N.T. Rama Rao
+- **Manavathi** (1952) - Akkineni Nageswara Rao
+- **Peda Raithu** (1952) - N.T. Rama Rao
+- **Maradalu Pelli** (1952) - N.T. Rama Rao
+- **Chinnamma Katha** (1952) - Akkineni Nageswara Rao
+- **Aada bratuku (1952 film)** (1952) - K.Raghuramaiah
+- **Aadarsham** (1952) - Akkineni Nageswara Rao
+- **Prema LekhaluDubbed from Hindi** (1953) - Raj Kapoor
+- **Kitukendo Cheppave Chalaki Bullemma** (1953) - P. Bhanumathi
+- **Pratigna** (1953) - Akkineni Nageswara Rao
+- **Chivaruku Miguledhi Emi Unadhi** (1953) - A. Nageswara Rao
+- **Bratuku Teruvu** (1953) - N.T. Rama Rao
+- **Puttillu** (1953) - N.T. Rama Rao
+- **Kanna Talli** (1953) - N.T. Rama Rao
+- **Kodarikam** (1953) - N.T. Rama Rao
+- **Naa Chellelu** (1953) - Akkineni Nageswara Rao
+- **Achintya Apeksha Ratnavali** (1954) - N.T. Rama Rao
+- **Jatakaphalam** (1954) - N.T. Rama Rao
+- **Rechukka** (1954) - N.T. Rama Rao
+- **Baalanandam** (1954) - N.T. Rama Rao
+- **Palle Paduchu** (1954) - Akkineni Nageswara Rao
+- **Amara Sandhesam** (1954) - N.T. Rama Rao
+- **Sati Sakkubai** (1954) - N.T. Rama Rao
+- **Anta Manavalle** (1954) - Akkineni Nageswara Rao
+- **Kalahasti Mahatyam** (1954) - N.T. Rama Rao
+- **Aggi Ramudu** (1954) - N.T. Rama Rao
+- **Raju Peda** (1954) - N.T. Rama Rao
+- **Nirupedalu** (1954) - Akkineni Nageswara Rao
+- **Menarikam** (1954) - N.T. Rama Rao
+- **Maa Gopi** (1954) - N.T. Rama Rao
+- **Kanyadhanam** (1955) - N.T. Rama Rao
+- **Vadina** (1955) - N.T. Rama Rao
+- **Kanyashulkam** (1955) - N.T. Rama Rao
+- **Beedhala Aasthi** (1955) - N.T. Rama Rao
+- **Ante Kaavali** (1955) - Akkineni Nageswara Rao
+- **Sri Krishna Thulabaram** (1955) - K. Raghuramaiah
+- **Vadina Gari Gajulu** (1955) - Anjali Devi
+- **Aada Bidda** (1955) - Akkineni Nageswara Rao
+- **Sri Jagannatha Mahatyamu** (1955) - Srinadh
+- **Sri Gauri Mahatyam** (1956) - N.T. Rama Rao
+- **Muddu Bidda** (1956) - N.T. Rama Rao
+- **Balasanyasamma Katha** (1956) - Jaggayya
+- **Harishchandra** (1956) - N.T. Rama Rao
+- **Bhakta Markandeya** (1956) - N.T. Rama Rao
+- **Sonta Ooru** (1956) - Akkineni Nageswara Rao
+- **Penki Pellam** (1956) - N.T. Rama Rao
+- **Ilavelpu** (1956) - Akkineni Nageswara Rao
+- **Naga Panchami** (1956) - N.T. Rama Rao
+- **Nagula Chavithi** (1956) - N.T. Rama Rao
+- **Ashtaaishwaryalu** (1956) - Akkineni Nageswara Rao
+- **Melukolupu** (1956) - N.T. Rama Rao
+- **Edi Nijam** (1956) - Akkineni Nageswara Rao
+- **Vadhante Dabbu** (1957) - N.T. Rama Rao
+- **Varudu Kavali** (1957) - N.T. Rama Rao
+- **Peddarikalu** (1957) - N.T. Rama Rao
+- **Repu Needhe** (1957) - Akkineni Nageswara Rao
+- **Bhale Baava** (1957) - Akkineni Nageswara Rao
+- **Dhampathyam** (1957) - Akkineni Nageswara Rao
+- **Parvathi Kalyanam** (1958) - N.T. Rama Rao
+- **Sree Ramanjaneya Yuddham** (1958) - Kanta Rao
+- **Sri Krishna Garadi** (1958) - Jaggayya
+- **Etthuku Pai Etthu** (1958) - Gummadi
+- **Ganga Gouri Samvadam** (1958) - Kanta Rao
+- **Mundhadugu** (1958) - N.T. Rama Rao
+- **Jaya Vijaya** (1959) - N.T. Rama Rao
+- **Veera Pandya Katta Brahmana** (1959) - Sivaji Ganesan
+- **Bhaktha Ambareesha** (1959) - Akkineni Nageswara Rao
+- **Sipayi Koothuru** (1959) - N.T. Rama Rao
+- **Veera Bhaskarudu** (1959) - N.T. Rama Rao
+- **Maa Inti Mahalakshmi** (1959) - Gummadi
+- **Koothuru Kaapuram** (1959) - N.T. Rama Rao
+- **Karmika Vijayam** (1959) - N.T. Rama Rao
+
+## 1960s (58 movies)
+
+- **Sahasra Siracheda Apoorva Chinthamani** (1960) - Kanta Rao
+- **Kanna Koothuru** (1960) - N.T. Rama Rao
+- **Renukadevi Mahatyam** (1960) - N.T. Rama Rao
+- **Kula Daivam** (1960) - N.T. Rama Rao
+- **Ramasundari** (1960) - Akkineni Nageswara Rao
+- **[https://ghantasalagalamrutamu.blogspot.com/2009/07/1960_16.html Bhakta Sabari]** (1960) - Haranath
+- **[https://ghantasalagalamrutamu.blogspot.com/2012/03/1960_15.html Kanakadurga Pooja Mahima]** (1960) - Kanta Rao
+- **Mamaku Tagga Alludu** (1960) - Savitri
+- **[https://ghantasalagalamrutamu.blogspot.com/2011/09/1960.html Dharmame Jayam]** (1960) - Jaggayya
+- **[https://ghantasalagalamrutamu.blogspot.com/2011/01/1960.html Anna Chellelu]** (1960) - J. V. Ramana Murthy
+- **[https://ghantasalagalamrutamu.blogspot.com/2011/02/1960_20.html Jalsa Rayudu]** (1960) - Jaggayya
+- **Nithya Kalyanam Paccha Thoranam** (1960) - Ramakrishna
+- **Korada Veerudu (Tamil: Chavukkadi Chandrakanta)** (1961) - P. S. Veerappa
+- **Kannyaka Parameswari Mahatmyam** (1961) - Sivaji Ganesan
+- **Madana Kamaraju Katha** (1962) - Kanta Rao
+- **Samrat Pruthviraj (Rani Samyukta)** (1962) - Paidi Jairaj
+- **Aasha Jeevulu** (1962) - Akkineni Nageswara Rao
+- **Padandi Mundhuku** (1962) - Jaggayya
+- **Deva Sundari** (1963) - N.T. Rama Rao
+- **Naga Devata (Dub)** (1963) - Mahipal
+- **Bangaru Thimmaraju** (1963) - N.T. Rama Rao
+- **Peetala Meeda Pelli** (1964) - Jaggayya
+- **Akasha Ramanna** (1965) - Kanta Rao
+- **Sati Sakkubai** (1965) - N.T. Rama Rao
+- **Pratignapalana** (1965) - Akkineni Nageswara Rao
+- **Chaduvukonna Bharya** (1965) - N.T. Rama Rao
+- **Loguttu Perumallukeruka** (1966) - N.T. Rama Rao
+- **Hantakulostunnaru Jagratha** (1966) - Krishna
+- **Dwapayana Kaivalyam** (1967) - Akkineni Nageswara Rao
+- **Veera Pooja** (1967) - N.T. Rama Rao
+- **Panthaalu Pattimpulu** (1968) - N.T. Rama Rao
+- **Paala Manasulu** (1968) - Haranath
+- **Nadamanthrapu Siri** (1968) - N.T. Rama Rao
+- **Kumkuma Barani** (1968) - N.T. Rama Rao
+- **Pelliroju** (1968) - Akkineni Nageswara Rao
+- **Amayakudu** (1968) - Krishna
+- **Attagaru Kotha Kodalu** (1968) - Krishna
+- **Pedaraasi Peddamma Katha** (1968) - Tadepalli Lakshmi Kanta Rao
+- **Neerkimi Neervedhaptha Charithra** (1968) - Gummadi
+- **Sati Arundhati** (1968) - Akkineni Nageswara Rao
+- **Devadichina Bharta** (1968) - N.T. Rama Rao
+- **Bhale Master** (1968) - N.T. Rama Rao
+- **Aggi Meeda Guggilam** (1968) - Tadepalli Lakshmi Kanta Rao
+- **Manasamsaram** (1968) - Sobhan Babu
+- **Shri Rama Katha** (1969) - Anjali Devi
+- **Manishichina Maguva** (1969) - N.T. Rama Rao
+- **Poovanam** (1969) - Sobhan Babu
+- **Bhale Abbailu** (1969) - Krishna
+- **Annadammulu** (1969) - Krishna
+- **Bandipotu Bheemanna** (1969) - Krishna
+- **Gandaragandudu** (1969) - N.T. Rama Rao
+- **Muhrutha Balam** (1969) - Krishna
+- **Saptaswaralu** (1969) - Akkineni Nageswara Rao
+- **Mamaku Tagga Kodalu** (1969) - N.T. Rama Rao
+- **Ukkupidugu** (1969) - N.T. Rama Rao
+- **Astulu Anthastulu** (1969) - Krishna
+- **Love in Andhra** (1969) - Krishna
+- **Karpoora Harathi** (1969) - Krishna
+
+## 1970s (115 movies)
+
+- **Paga Sadista** (1970) - Krishna
+- **Akhandudu** (1970) - Krishna
+- **Desamante Manushuloyi** (1970) - N.T. Rama Rao
+- **Pachhani Samsaram** (1970) - Krishna
+- **Andarki Monagadu** (1970) - Krishna
+- **Vichithra Kutumbam** (1971) - N.T. Rama Rao
+- **Master Kiladi** (1971) - Krishna
+- **Varalakshmi Vratam** (1971) - Akkineni Nageswara Rao
+- **Pagabattina Paduchu** (1971) - Ramakrishna
+- **Gudachari 003** (1971) - Krishna
+- **Sati Ansuya** (1971) - Akkineni Nageswara Rao
+- **Pethamdaarlu** (1971) - Chandra Mohan
+- **Bhagyavantudu** (1971) - Akkineni Nageswara Rao
+- **Bangaru Talli** (1971) - Sobhan Babu
+- **Maa Oori Monagallu** (1972) - Krishna
+- **Vinta Dampatulu** (1972) - Akkineni Nageswara Rao
+- **Monagadostunnadu Jagartta** (1972) - Krishna
+- **Hantakulu Devantakulu** (1972) - Krishna
+- **Datta Putrudu** (1972) - N.T. Rama Rao
+- **Sabhash Baby?** (1972) - Sobhan Babu
+- **Abbaigaru Ammaigaru** (1972) - Krishna
+- **Nijam Nirupista** (1972) - Krishna
+- **Antha Mana Manichike** (1972) - Krishna
+- **Bale Mosagadu** (1972) - Krishna
+- **Menakodalu** (1972) - Krishna
+- **Vooriki Vupakari** (1972) - Akkineni Nageswara Rao
+- **Kodalupilla** (1972) - Krishna
+- **Kattula Rattayya** (1972) - Krishna
+- **Manchi Rojulu Vachchaayi** (1972) - ANR Kanchana
+- **Marapurani Talli** (1972) - Krishna
+- **Muhammad Bin Tuglak** (1972) - Nagabhushanam
+- **Meghamala** (1973) - Krishnam Raju
+- **Sneha Bandham** (1973) - Krishna
+- **Doctor Babu** (1973) - Akkineni Nageswara Rao
+- **Sthri Chandra Kala** (1973) - Krishna
+- **Geetaanjali** (1973) - Akkineni Nageswara Rao
+- **Geeta** (1973) - Akkineni Nageswara Rao
+- **Snehabandam** (1973) - Sobhan Babu
+- **Lokam Marali (tamil Dub Naangu Suvargal)** (1973) - Jaishankar
+- **Abhimanavantulu** (1973) - N.T. Rama Rao
+- **Paropakari (Kannada Dub)** (1973) - Rajkumar
+- **Visali** (1973) - Krishna
+- **Oka Nari Vanda Thupakulu** (1973) - Vijaya Lalitha
+- **Amma Manasu** (1974) - Krishna
+- **Manshulu Mati Bommalu** (1974) - Krishna
+- **Intiniti Katha** (1974) - Krishna
+- **Gali Patalu** (1974) - Krishna
+- **Thulambaram** (1974) - Krishnam Raju
+- **Bantrotu Bharya** (1974) - Akkineni Nageswara Rao
+- **Uthama Illalu** (1974) - Krishna
+- **Adapillala Tandri** (1974) - Krishna
+- **Gundelu Teesina Monagaadu** (1974) - Kanta Rao
+- **Adambaralu Anubandhalu** (1974) - Krishna
+- **Sri Chamundeswari Mahima** (1975) - B. Saroja Devi
+- **Cinema Vaibhavam** (1975) - Ensemble Cast
+- **Bullemma Sapatham** (1975) - Krishnam Raju
+- **Ee Kalam Dampathulu** (1975) - Jamuna
+- **Santanam Soubhagyam** (1975) - Krishna
+- **Chinninati Kalalu** (1975) - Krishnam Raju
+- **Devude Digivaste** (1975) - Krishnam Raju
+- **Rakthasambandhalu** (1975) - Krishna
+- **Mallela Manasulu** (1975) - Sobhan Babu
+- **Naaku Swatantram Vachindi** (1975) - Krishnam Raju
+- **Cheekati Velugulu** (1975) - Krishna
+- **Zamindarugari Ammayi** (1975) - Krishna
+- **Aadhani Adrustam** (1975) - Krishnam Raju
+- **Kothakapuram** (1975) - Krishna
+- **Abhimanavathi** (1975) - Krishna
+- **Moguda? Pellama?** (1975) - Krishnam Raju
+- **Ramayya Thandri** (1975) - Krishna
+- **Gajula Kishtayya** (1975) - Krishna
+- **Chittamma Chilakamma** (1975) - Murali Mohan
+- **Ammayila Sapatham** (1975) - Krishnam Raju
+- **Annadammula Katha** (1975) - N.T. Rama Rao
+- **Santhanam Soubhagyam** (1975) - Krishnam Raju
+- **Maa Inti Devudu** (1975) - Vijaya Lalitha
+- **Bharatamlo Oka Ammayi** (1975) - Murali Mohan
+- **Pandati Samsaram** (1975) - Krishna
+- **Manavoori Katha** (1976) - Krishna
+- **Ramarajyamlo Rakthapasam** (1976) - Krishna
+- **Oorummadi Brathukulu** (1976) - Krishnam Raju
+- **Muthyala Pallaki** (1976) - Sobhan Babu
+- **Premalekhalu** (1977) - Murali Mohan
+- **Chillarakottu Chittemma** (1977) - Krishnam Raju
+- **Kalpanaa** (1977) - N.T. Rama Rao
+- **Devathalara Deevinchandi** (1977) - Krishnam Raju
+- **Janmajanmala Bandham** (1977) - Krishna
+- **Eenatibandham ye Natido** (1977) - Krishna
+- **Khaidi Kalidasu** (1977) - Krishnam Raju
+- **Eetharam Manishi** (1977) - N.T. Rama Rao
+- **Khaidi No. 77** (1978) - Murali Mohan
+- **Rowdy Rangamma** (1978) - Krishnam Raju
+- **Sri Renukadevi Mahatyam** (1978) - B. Saroja Devi
+- **Simha Garjana** (1978) - Krishna
+- **Doo Doo Basavanna** (1978) - Chalam
+- **Prema Chesina Pelli** (1978) - Chandra Mohan
+- **Chiranjeevi Rambabu** (1978) - Chiranjeevi
+- **Gamattu Gudachari** (1978) - Krishnam Raju
+- **Rickshaw Raji** (1978) - Krishnam Raju
+- **Indradhanasu** (1978) - Krishna
+- **Seetamalakshmi** (1978) - Chandra Mohan
+- **Andadu Aagadu** (1979) - Krishnam Raju
+- **Nagna Sathyam** (1979) - Krishnam Raju
+- **Naa Illu Naa Vallu** (1979) - Giribabu
+- **Dongalaku Savaal** (1979) - Krishna
+- **Muthaiduva** (1979) - Krishna
+- **Sanku Teertham** (1979) - Krishna
+- **Chaaya** (1979) - Satyendra Kumar
+- **Korikale Gurralaite** (1979) - Sarath Babu
+- **Kaliyuga Mahabharatam** (1979) - Krishnam Raju
+- **Nimajjanam** (1979) - Sobhan Babu
+- **Captain Krishna** (1979) - Krishna
+- **Yevadabbasommu** (1979) - Krishna
+- **Samajaniki Savaal** (1979) - Krishna
+- **ViyyalavariKayyalu** (1979) - Krishna
+
+## 1980s (252 movies)
+
+- **Ammayi Mogudu Mamaku Yamudu** (1980) - Krishna
+- **Aadadi Gadapa Daatite** (1980) - Chiranjeevi
+- **Kodallu Vastunnaru Jagratha** (1980) - Sobhan Babu
+- **Gayyali Gangamma** (1980) - Krishnam Raju
+- **Ragile Hrudayalu** (1980) - Krishna
+- **Allari Bava** (1980) - Krishna
+- **Maa Inti Devatha** (1980) - Krishna
+- **Adhrustavanthudu** (1980) - Krishna
+- **Manavude Mahaneeyudu** (1980) - N.T. Rama Rao
+- **Gandhara Golam** (1980) - Krishnam Raju
+- **Ramudu Parasuramudu** (1980) - Krishna
+- **Kiladi Krishnudu** (1980) - Krishna
+- **Harischandrudu** (1980) - N.T. Rama Rao
+- **Alludu Pattina Bharatam** (1980) - Krishnam Raju
+- **Adadhee Gadapa Datithe** (1980) - Rajendra Prasad
+- **Chesina Baasalu** (1980) - Sarath Babu
+- **Hare Krishna Hallo Radha** (1980) - Krishna
+- **Sirimalle Navvindi** (1980) - Allu Rama Lingaiah
+- **Chinnaari Chittibaau** (1981) - Sobhan Babu
+- **Mayadari Alludu** (1981) - Krishna
+- **Patalam Pandu** (1981) - Sarath Babu
+- **Antham Kaadidi Aarambham** (1981) - Krishna
+- **Bhoga Bagyalu** (1981) - Krishna
+- **Devudu Mamayya** (1981) - Krishnam Raju
+- **Deputy Collector** (1981) - Krishna
+- **Jeevitha Ratham** (1981) - Krishnam Raju
+- **Siddhalingeshwara Mahima** (1981) - Sridhar
+- **Addala Meda** (1981) - Krishnam Raju
+- **Alludugaru Zindabad** (1981) - Krishnam Raju
+- **Jagamondi** (1981) - Krishna
+- **Nayudu gari Abbai** (1981) - Krishna
+- **Prema Natakam** (1981) - Murali Mohan
+- **Daari Tappina Manishi** (1981) - Ranganath
+- **O Amma Katha** (1981) - Sharada
+- **Bhogimanthulu** (1981) - Krishna
+- **Telugunaadu** (1982) - Sarath Babu
+- **K. S. Prakasa Rao** (1982) - Chitra Sahithi
+- **Ee Charithra Ye Siratho** (1982) - Siva Krishna
+- **Poola Pallaki** (1982) - Krishnam Raju
+- **Prema Sankellu** (1982) - Suman
+- **Jagannadha Rathachakralu** (1982) - Krishnam Raju
+- **Garuda Rekhe** (1982) - Krishna
+- **Bairisetty Bhaskara Rao** (1982) - R. Narayana Murthy
+- **Pralaya Rudrudu** (1982) - Krishna
+- **Nipputo Chelagaatam** (1982) - Allu Rama Lingaiah
+- **Chalaki Chellamma** (1982) - Sarath Babu
+- **Aththaku Thagga Allullu** (1982) - Vijayasanthi
+- **P. Chandrasekhara Reddy** (1982) - Chandra Cine Arts
+- **Dharma Vaddi** (1982) - Murali Mohan
+- **Maro Malupu** (1982) - Gummadi
+- **Bangaru Bhoomi** (1982) - Krishna
+- **Viplava Shankam** (1982) - Krishnam Raju
+- **Ee Kaalam Katha** (1982) - Sarath Babu
+- **Propakari Papanna** (1982) - Krishnam Raju
+- **Kommineni** (1982) - Somayajulu
+- **Golkonda Abbulu** (1982) - Arun
+- **Radhamma Mogudu** (1982) - Krishnam Raju
+- **Doctor Malathi** (1982) - Girish
+- **Shamshare Shankar** (1982) - Krishna
+- **K. Hemambaradara Rao** (1982) - Naveena Art Pictures
+- **Cancer-Sukhavyadhulu** (1982) - M. Prabhakar Reddy
+- **Illanta Sandadi** (1982) - Chiranjeevi
+- **Raj Bharat** (1982) - Krishnam Raju
+- **Emandoyi Srimathigaru** (1982) - Sarath Babu
+- **Vamsha Gowravam** (1982) - Krishnam Raju
+- **Ee Charitra Ae Sirato** (1982) - Shiva Krishna
+- **Katta Subba Rao** (1982) - Vishnupriya Productions
+- **Mantralaya Raghavendra Vaibhavam** (1982) - Akkineni Nageswara Rao
+- **Illali Korikalu** (1982) - Sobhan Babu
+- **Ekalavya** (1982) - Krishna
+- **Prema Murthulu** (1982) - Sarath Babu
+- **Devadas Kanakala** (1982) - Krishnam Raju
+- **Jagannatha Radhachakralu** (1982) - Krishna
+- **Iddaru Kodukulu** (1982) - Kamal Haasan
+- **O Adadhi O Magadu** (1982) - Alekhya
+- **C. Venakata Ganesh** (1982) - Sri Dakshayani Creations
+- **P. Sambasiva Rao** (1982) - Hema International
+- **Krishnarjunulu** (1982) - Krishnam Raju
+- **Chilipi Chinnodu** (1982) - Sarath Babu
+- **Nivuru Gappina Nippu** (1982) - Krishna
+- **Kalahala Kapuram** (1982) - Sarath Babu
+- **K. S. Reddy** (1982) - Surekha Enterprises
+- **Prema Nakshathram** (1982) - Krishna
+- **Krishnaarjunulu** (1982) - Krishna
+- **Yuvraju** (1982) - Krishnam Raju
+- **Devi Moogambika** (1983) - Sridhar
+- **Amayakudu Kadhu Asadhyudu** (1983) - Krishna
+- **Rangula Puli** (1983) - Suman
+- **Patnam Vachhina Pasipapa (Tamil Dubbed Azhakia Kanne 1982)** (1983) - Sarath Babu
+- **Gaju Bommalu** (1983) - Naresh
+- **Police Venkataswamy** (1983) - Rajinikanth
+- **Pelli Chesi Choopistham** (1983) - Chandra Mohan
+- **Puli Debba** (1983) - Suman
+- **Apadhbandhavulu** (1983) - Suman
+- **Iddaru Kiladeelu** (1983) - Suman
+- **Antham Chusina Adadhi** (1983) - Rajendra Prasad
+- **Idhi Kadhu Mugimpu** (1983) - Rajendra Prasad
+- **Koti Kokkadu** (1983) - Suman
+- **Keerthi Kantha Kanakam** (1983) - Suman
+- **Lankebindelu** (1983) - Krishna
+- **Balidaanam** (1983) - Sobhan Babu
+- **Maa Intaina Katha** (1983) - Chandra Mohan
+- **Magallako Namaskaram** (1983) - Somayajulu
+- **Vetagadi Vijayam** (1983) - Suman
+- **Rudrakali** (1983) - N.T. Rama Rao
+- **Bharathamma Muddu Biddalu** (1983) - Krishnam Raju
+- **Konte Kodallu** (1983) - Murali Mohan
+- **Akka Mogudu Chelleli Kapuram** (1983) - Chandra Mohan
+- **Simhamtho Chelagatam** (1983) - Suman
+- **Kanthaiyya Kanakaiyya** (1983) - Suman
+- **Kunkuma Tilakam** (1983) - Rajendra Prasad
+- **Muggurammayila Mogudu** (1983) - Rajendra Prasad
+- **Challenge Vetagallu** (1983) - Suman
+- **Chandi Chamundi** (1983) - Kavitha
+- **Prema Jwala** (1983) - Suman
+- **Adadhi Aata Bommaa!** (1983) - Sekthi
+- **Prema Sagaram** (1983) - Kamal Haasan
+- **Kaliyuga Dhaivam** (1983) - Ramakrishna, Sarath Babu
+- **Ee Pillaku Pellavuthunda** (1983) - Gummadi
+- **Agni Samadhi** (1983) - Krishnam Raju
+- **Chattaniki Sawal** (1983) - Suman
+- **Chilaka Josyam** (1983) - Arun Kumar
+- **Manishiko Chartira** (1983) - Suman
+- **Pichi Pantuulu** (1983) - Murali Mohan
+- **Devi Sridevi** (1983) - Murali Mohan
+- **Pralaya Gharjana** (1983) - Krishna
+- **Devi Kanaykumari** (1983) - Krishnam Raju
+- **Nijam Chebithe Nerama** (1983) - Krihnam Raju
+- **Kaksha Sadistha** (1983) - Suman
+- **Moogavadi Paga** (1983) - Suman
+- **Debbaku Debba** (1983) - Rajinikanth
+- **Bandhipotu Rudramma** (1983) - Kavitha
+- **Maharani (Tamil Dubbed Nayakkarin Magal 1982)** (1983) - Sivaji Ganesan
+- **Triveni Sangamam** (1983) - Somayajulu
+- **Pandanti Kapuraniki 12 Suthralu** (1983) - Suman
+- **M.L.A. Yedukondalu** (1983) - Dasari Narayana Rao
+- **Maa Intiki Randi** (1983) - Kodi Ramakrishna
+- **Bhama Rukmini** (1983) - Naresh
+- **Palleturi Monagadu** (1983) - Chiranjeevi
+- **Raakasi Loya** (1983) - Suman
+- **Padmavathi Kalyanam** (1983) - Suman
+- **C I D Simham (Kannada Dub Sahasa Simha 1982)** (1983) - Vishnuvardha
+- **Subha Muhurtham** (1983) - Rajendra Prasad
+- **Prema Vijayam** (1983) - Suman
+- **Kasi Yatra** (1983) - Akkineni Nageswara Rao
+- **Praja Shakthi** (1983) - Krishnam Raju
+- **Eeswarudu Seneswarudu** (1983) - Krishnam Raju
+- **Kodalu Kaavaali** (1983) - Suman
+- **Doctor Gari Kodalu** (1983) - Sivaji Ganesan
+- **Manavulara Manninchandi** (1983) - Kamal Haasan
+- **Intalludu** (1983) - Suman
+- **Grahanam Vidichindi** (1983) - Rajendra Prasad
+- **Raju Rani Jocky** (1983) - Chandra Mohan
+- **Ee Desamlo Oka Roju** (1983) - Rajendra Prasad
+- **Ikanaina Marandi** (1983) - Suman
+- **Palleturi Pidugu** (1983) - Suman
+- **Kanne Donga** (1983) - Krishna
+- **Lanke Bindelu** (1983) - Suman
+- **Kirayi Rangadu** (1983) - Suman
+- **Manishiki Maro Peru** (1983) - Unknown
+- **Raghu Ramudu** (1983) - Suman
+- **Amayaka Chakravarthy** (1983) - Chandra Mohan
+- **Navodayam** (1983) - Sobhan Babu
+- **Desanikokkadu** (1983) - Krishnam Raju
+- **Pidugu lanti Manishi** (1983) - Sivaji Ganesan
+- **Vimukthi Kosam** (1983) - Krishnam Raju
+- **Kala Yamudu** (1983) - Krishna
+- **Kalyana Veena** (1983) - Kamal Haasan
+- **Kirayi Bommalu** (1983) - Suman
+- **Monagadu Vastunnadu Jagratha** (1983) - Krishna
+- **Prema Sagaram (Tamil Dubbed Nenjil Oru Ragam)** (1983) - T. Rajendar
+- **Penki Ghatam (Tamil Dubbed Iniayavaley Vaa)** (1983) - Radhika
+- **Dharma Poratam** (1983) - Nandamuri Balakrishna
+- **Bharya Bharthala Sawal** (1983) - Mohan Babu
+- **Digivachina Devudu** (1983) - Lokesh
+- **Maro Maya Bazaar** (1983) - Chiranjeevi
+- **Kutumba Gowaravam** (1984) - Arun Kumar
+- **Kurukshetramlo Sita** (1984) - Mohan Babu
+- **Kirai Alludu** (1984) - Krishna
+- **Rachayitri** (1984) - Bhanu Chander
+- **Uddhandudu** (1984) - Krishna
+- **Dandayatra** (1984) - Sobhan Babu
+- **Raga Bandham** (1984) - Suman
+- **Kotha Dampathulu** (1984) - Naresh
+- **Aadadhi Visirina Savaal** (1984) - Vijayalalitha
+- **Devalayam** (1984) - Krishnam Raju
+- **Veerabhadrudu** (1984) - Krishnam Raju
+- **Adarshavanthudu** (1984) - Krishnam Raju
+- **Janam Manam** (1984) - Murali Mohan
+- **Inti Guttu** (1984) - Chiranjeevi
+- **Merupu Daadi** (1984) - Sobhan Babu
+- **Sangeeta Samrat** (1984) - Nandamuri Balakrishna
+- **Kurra Cheshtalu** (1984) - Rajendra Prasad
+- **Yama Doothalu** (1984) - Krishna
+- **Pulijoodam** (1984) - Krishna
+- **Mukhyamanthri** (1984) - Krishna
+- **Bangaru Kapuram** (1984) - Krishna
+- **Railu Dopidi** (1984) - Naresh
+- **Nava Mohini** (1984) - Naresh
+- **Rajahmundry Rome** (1984) - Chandra Mohan
+- **Dongala Vetagadu** (1985) - Unknown
+- **Ragile Gundelu** (1985) - Krishna
+- **Kongu Mudi** (1985) - Rajendra Prasad
+- **Bangaru Chilaka** (1985) - Sobhan Babu
+- **Maha Sangramam** (1985) - Krishna
+- **Mogudu Pellalu** (1985) - Naresh
+- **Manthra Dandam** (1985) - Unknown
+- **Maharaju** (1985) - Rajinikanth
+- **Srivari Shobanam** (1985) - Akkineni Nageswara Rao
+- **Devalayam** (1985) - Daggubati Venkatesh
+- **Andharikante Monagadu** (1985) - Krishna
+- **Krishna Paramathma** (1986) - Krishna
+- **P. S. Krishna Mohan Reddy** (1986) - Sri Sailaja Films
+- **Sakkanodu** (1986) - Suman
+- **Naa Pilupe Prabahanajam** (1986) - Krishna
+- **Parasuramudu** (1986) - Krishna
+- **Prema Samrat** (1987) - Kamal Haasan
+- **Maa Ooru** (1987) - Rajendra Prasad
+- **Sardar Dharmanna** (1987) - Krishnam Raju
+- **Dammit Katha Addam Thirigindi** (1987) - Rajendra Prasad
+- **Brahma Nayudu** (1987) - Krishna
+- **S. S. Ravichandra** (1987) - Sarath Babu
+- **Nakoo Pellam Kavali** (1987) - Rajendra Prasad
+- **Dongodochhadu** (1987) - Krishna
+- **Bava Marudula Saval** (1988) - Rajendra Prasad
+- **Sahasam Cheyara Dimbhaka** (1988) - Rajendra Prasad
+- **Bharya Bhartala Bhagotham** (1988) - Rajendra Prasad
+- **Bhama Kalapam** (1988) - Rajendra Prasad
+- **Jeevana Ganga** (1988) - Krishnam Raju
+- **Praja Prathinidhi** (1988) - Krishna
+- **Thodallullu** (1988) - Rajendra Prasad
+- **Maa Inti Maharaju** (1988) - Krishnam Raju
+- **Dorakani Donga** (1988) - Krishna
+- **Chinnodu Peddodu** (1988) - Rajendra Prasad
+- **Illu Illalu Pillalu** (1988) - Chandra Mohan
+- **Choopulu Kalasina Subhavela** (1988) - Mohan
+- **Manchu Kutumbam** (1989) - Rajendra Prasad
+- **Anna Chellalu** (1989) - Sobhan Babu
+- **Mouna Poratam** (1989) - Karthik
+- **Preminchi Choodu** (1989) - Daggubati Venkatesh
+- **Gopala Rao Gari Abbayi** (1989) - Rajendra Prasad
+- **Hai Hai Nayaka** (1989) - Naresh
+- **Jayamu Nischayamu Raa** (1989) - Rajendra Prasad
+- **Chalaki Mogudu Chadastapu Pellam** (1989) - Rajendra Prasad
+- **Bhale Dampathulu** (1989) - Naresh
+- **Joo Laka Taka** (1989) - Rajendra Prasad
+- **Bharata Nari** (1989) - Daggubati Venkatesh
+- **Naga Pournami** (1989) - Daggubati Venkatesh
+- **Paila Pacheesu** (1989) - Rajendra Prasad
+- **Mamatala Kovela** (1989) - Rajendra Prasad
+- **Srirama Chandrudu** (1989) - Akkineni Nagarjuna
+- **Yamapaasam** (1989) - Rajasekhar
+
+## 1990s (146 movies)
+
+- **Yamadharma Raju** (1990) - Nandamuri Balakrishna
+- **20va Shatabdam** (1990) - Suman
+- **Kartavyam** (1990) - Vijayashanti
+- **Lakshmi Durga** (1990) - Naresh
+- **Jayammu Nischayammu Raa** (1990) - Rajendra Prasad
+- **Kadapa Redamma** (1990) - Rajasekhar
+- **Manasu Mamata** (1990) - Naresh
+- **Master Kapuram** (1990) - Rajendra Prasad
+- **Qaidi Dada** (1990) - Daggubati Venkatesh
+- **Adavi Diviteelu** (1990) - Akkineni Nageswara Rao
+- **Yauvana Poratham** (1990) - Abbas
+- **Abhisarika** (1990) - Naresh
+- **Mrugathrushna** (1990) - Murali Mohan
+- **Police Bharya** (1990) - Daggubati Venkatesh
+- **Prema Zindabad** (1990) - Rajendra Prasad
+- **Idem Pellam Baboi** (1990) - Rajendra Prasad
+- **Agni Pravesam** (1990) - Sivaji Raja
+- **Prajala Manishi** (1990) - Krishna
+- **Alajadi** (1990) - Daggubati Venkatesh
+- **Mahajananiki Maradalu Pilla** (1990) - Rajendra Prasad
+- **Udhyamam** (1990) - Bhanu Chander
+- **Rajasekhar** (1990) - Rajasekhar
+- **Navayugam** (1990) - Rajendra Prasad
+- **Nagastram** (1990) - Krishna
+- **Ankitham** (1990) - Sarath Babu
+- **Chevilo Puvvu** (1990) - Brahmanandam
+- **Adadhi** (1990) - Daggubati Venkatesh
+- **Athma Bandham** (1991) - N. Balakrishna
+- **Yugantam** (1991) - Murali Mohan
+- **Athiradhudu** (1991) - Daggubati Venkatesh
+- **Niyantha** (1991) - Dasari Narayana Rao
+- **Siva Shakthi** (1991) - Daggubati Venkatesh
+- **Ashwini** (1991) - Babu Mohan
+- **Parishkaram** (1991) - Rajasekhar
+- **Bharat Bandh** (1991) - Daggubati Venkatesh
+- **Aada Pilla** (1991) - Rajendra Prasad
+- **Madhura Nagarilo** (1991) - Rajendra Prasad
+- **Sri Edukondala Swaami** (1991) - Arun Govil
+- **Stuvartpuram Dongalu** (1991) - Chiranjeevi
+- **Nayakuralu** (1991) - Vinod Kumar
+- **Keechu Raallu** (1991) - Rajendra Prasad
+- **Vichitra Prema** (1991) - Naresh
+- **Naa Pellam Naa Ishtam** (1991) - Naresh
+- **Ramudu Kadu Rakshasudu** (1991) - Suman
+- **Pandirimancham** (1991) - Jagapathi Babu
+- **Nagastharam** (1991) - Krishna
+- **Bava Bava Panneeru** (1991) - Naresh
+- **Prardhana** (1991) - Daggubati Venkatesh
+- **People's Encounter** (1991) - Vinod Kumar Alva
+- **Amma Kadupu Challaga** (1991) - Sanjay Mitra
+- **Adharsham** (1992) - Jagapathi Babu
+- **Akka Mogudu** (1992) - Rajasekhar
+- **Jaganaddam and Sons** (1992) - Suresh
+- **Joker Mama Super Alludu** (1992) - Brahmanandam
+- **Ayyayyo Brahamayya** (1992) - Rajendra Prasad
+- **Kala Rathrilo Kanne Pilla** (1992) - Sharath
+- **Prema Shikharam** (1992) - Jagapathi Babu
+- **Moratodu Naa Mogudu** (1992) - Rajasekhar
+- **Madhavayya Gari Manavadu** (1992) - Harish Kumar
+- **Atta Sommu Alludu Danam** (1992) - Vinod Kumar
+- **Doshi** (1992) - Akkineni Nageswara Rao
+- **Seetapathi Chalo Tirupathi** (1992) - Rajendra Prasad
+- **Raktha Tarpanam** (1992) - Krishna
+- **Rakta Tarpanam** (1992) - Rajendra Prasad
+- **Adrushtam** (1992) - Rajasekhar
+- **Pelli Neeku Sukham Naaku** (1992) - Naresh
+- **Ahankari** (1992) - Daggubati Venkatesh
+- **Pellante Noorella Panta** (1992) - S. P. Balasubrahmanyam
+- **Seetharatnam Gari Abbayi** (1992) - Vanisri
+- **Naga Kanya** (1992) - Daggubati Venkatesh
+- **Naga Bala** (1992) - Daggubati Venkatesh
+- **Prema Drohi** (1992) - Daggubati Venkatesh
+- **Parvatalu Panakalu** (1992) - Rajendra Prasad
+- **Prema Vijeta** (1992) - Akkineni Nagarjuna
+- **Dabbu Bhale Jabbu** (1992) - Raj Kumar
+- **Chakravyuham** (1992) - Daggubati Venkatesh
+- **Donga Police** (1992) - Daggubati Venkatesh
+- **Pranadaata** (1992) - Akkineni Nagarjuna
+- **Chillara Mogudu Allari Koduku** (1992) - Chandra Mohan
+- **Pellam Chebithe Vinali** (1992) - Harish Kumar
+- **Pellam Chatu Mogudu** (1992) - Dasari Narayana Rao
+- **Raktha Tharpanam** (1992) - Krishna
+- **Asadhyulu** (1992) - Jagapathi Babu
+- **Collectorgari Alludu** (1992) - Balaraj
+- **Golmaal Govindam** (1992) - Rajendra Prasad
+- **Allari Pilla** (1992) - Suresh
+- **Bangaru Mama** (1992) - Rajendra Prasad
+- **Kongu Chatu Krishnudu** (1993) - Naresh
+- **Rendilla Poojari** (1993) - Suresh
+- **Ratha Sarathi** (1993) - Daggubati Venkatesh
+- **Kunti Putrudu** (1993) - Daggubati Venkatesh
+- **Kirayi Gunda** (1993) - Krishna
+- **Amma Koduku** (1993) - Naresh
+- **Paruvu Pratishta** (1993) - Srikanth
+- **Aasayam** (1993) - Jagapathi Babu
+- **Chirunavvula Varamistava** (1993) - Akkineni Nagarjuna
+- **Pelli Koduku** (1994) - Naresh
+- **Yes Nenante Nene** (1994) - Krishna
+- **Angarakshakudu** (1994) - Rajasekhar
+- **Gharana Alludu** (1994) - Krishna
+- **Doragariki Donga Pellam** (1994) - Krishna
+- **Maga Rayudu** (1994) - Kota Srinivasa Rao
+- **Raitu Bharatam** (1994) - Krishna
+- **Ammayi Kapuram** (1994) - Sarath Kumar
+- **Police Alludu** (1994) - Krishna
+- **Bharata Simham** (1995) - Krishna
+- **Aadaalla Majaka** (1995) - Vikram
+- **Super Mogudu** (1995) - Krishna
+- **Orey Rikshaw** (1995) - R. Narayana Murthy
+- **Ayanaku Iddaru** (1995) - Daggubati Venkatesh
+- **Raja Simham** (1995) - Rajasekhar
+- **Sampradayam** (1996) - Krishna
+- **Puttinti Gowravam** (1996) - Krishna
+- **Adirindi Alludu** (1996) - Nandamuri Balakrishna
+- **Rayudugaru Nayudugaru** (1996) - Akkineni Nageswara Rao
+- **Amma Ammani Choodalanivundi** (1996) - Vinod Kumar
+- **Akkum Bakkum** (1996) - Krishna
+- **Amma Durgamma** (1996) - Daggubati Venkatesh
+- **Gulabi** (1996) - Jagapathi Babu
+- **Bobbili Dora** (1997) - Krishna
+- **Kurralla Rajyam** (1997) - Ali
+- **Adhirindhi Guru** (1997) - Krishna
+- **Abbayi Gari Pelli** (1997) - Suman
+- **Jai Bajarangabhali** (1997) - Daggubati Venkatesh
+- **Andaru Herole** (1998) - Chandra Mohan
+- **Deergha Sumangali Bhava** (1998) - Rajasekhar
+- **Prema Pallaki** (1998) - Jagapathi Babu
+- **Vareva Moguda** (1998) - Krishna
+- **Gillikajjalu** (1998) - Jagapathi Babu
+- **Pape Naa Pranam** (1998) - J. D. Chakravarthy
+- **Ayanagaru** (1998) - Jagapathi Babu
+- **Navvulata** (1998) - Rajendra Prasad
+- **Nenu Premisthunnanu** (1998) - Ravi Teja
+- **O Panaipothundi Babu** (1998) - Suresh
+- **Vichitram** (1999) - Srikanth
+- **Bobbili Vamsam** (1999) - Daggubati Venkatesh
+- **Maa Balaji** (1999) - Daggubati Venkatesh
+- **Harischandraa** (1999) - Srikanth
+- **Ammo Polisollu** (1999) - Sumanth
+- **Ramasakkanodu** (1999) - Kamal Haasan
+- **Asala Sandadi** (1999) - Jagapathi Babu
+- **Gurupoornima** (1999) - Jagapathi Babu
+- **Veedu Samanyudu Kadhu** (1999) - Prakash Raj
+- **Speed Dancer** (1999) - Raghava Lawrence
+- **Maanavudu Daanavudu** (1999) - Krishna
+- **Yamajathakudu** (1999) - Mohan Babu
+
+## 2000s (46 movies)
+
+- **Okkadu Chalu** (2000) - Rajasekhar
+- **Manasu Paddanu Kaani** (2000) - Venu
+- **S. V. Krishna Reddy** (2000) - Srikanth
+- **Yee Taram Nehru** (2000) - Krishna
+- **Manasunna Maaraju** (2000) - Daggubati Venkatesh
+- **G. Nageswara Reddy** (2001) - Srikanth
+- **Deevinchandi** (2001) - Srikanth
+- **Apparao ki Oka Nela Thappindi** (2001) - Rajendra Prasad
+- **Repallelo Radha** (2001) - Srikanth
+- **Ravi Raja Pinisetty** (2001) - Rajasekhar
+- **Kalisi Naduddam** (2001) - Srikanth
+- **Ayyappa P. Sharma** (2001) - Ayyappa P. Sharma
+- **Athanu** (2001) - Sai Kumar
+- **Prudhvi Narayana** (2002) - Srikanth
+- **Suryam** (2002) - Akkineni Nagarjuna
+- **Trinetram** (2002) - Akkineni Nagarjuna
+- **Pilisthe Palukutha** (2002) - Jagapathi Babu
+- **City** (2003) - Saikumar
+- **Leo Projects Private Limited** (2003) - Srikanth
+- **S. V. Krishna Reddy** (2003) - Srikanth
+- **Tapana** (2004) - Prabhu Deva
+- **7g Brindhavan Colony** (2004) - Ravi Krishna
+- **143 (and I Miss You)** (2004) - Sairam Shankar
+- **T. Kishore, Renuka Menon** (2004) - T. Kishore
+- **CBI Officer** (2004) - Krishna
+- **24 Gantalu** (2004) - Krishna
+- **Evaru Nenu** (2005) - Krishna
+- **Moguds Pellams** (2005) - Srikanth
+- **Naayudamma** (2006) - Srikanth
+- **Premante Inte** (2006) - Sumanth
+- **Shyam Prasad** (2006) - Srikanth
+- **Abhaddam** (2006) - Shanvi
+- **Manodu** (2006) - Priyadarshini Ram
+- **Indian Beauty** (2006) - Collin McManus
+- **Poramboku** (2007) - Navdeep
+- **Bhajantrilu** (2007) - Sivaji
+- **Aapada Mokkulavaadu** (2008) - Allari Naresh
+- **Premabandham** (2008) - Varun Sandesh
+- **Adhyakshaa** (2008) - Jagapathi Babu
+- **Donga Sachinollu** (2008) - Siva Balaji
+- **Mangathaayaru Tiffin Centre** (2008) - Srikanth
+- **Abbo Aadavallu** (2008) - Karthik
+- **Kshudra** (2008) - Priyanka
+- **Swetha 5/10 Wellington Road** (2009) - Sanjay
+- **Satyameva Jayathe** (2009) - Vishal
+- **Manorama** (2009) - Nishanth
+
+## 2010s (59 movies)
+
+- **Madhanudu** (2010) - Sunil
+- **Dasanna** (2010) - Srikanth
+- **Sye Aata** (2010) - Srikanth
+- **Kaluva** (2010) - Sumanth
+- **Nagamani** (2010) - Daggubati Venkatesh
+- **Udatha Udatha Ooch** (2010) - Mallikharjun
+- **Bhairava Ips** (2010) - Sivaji
+- **Prema Rajyam** (2010) - Surya
+- **Chalaki** (2010) - Sai Ram Shankar
+- **Aunty Uncle Nandagopal** (2010) - Srikanth
+- **Em Pillo Em Pillado** (2010) - Tanish
+- **Ramdev** (2010) - Abhishek
+- **Vara Prasad Potti Prasad** (2011) - Srinivas Avasarala
+- **Vankaya Fry** (2011) - Sree
+- **Lokame Kothaga** (2011) - Navdeep
+- **Galli Kurrolu** (2011) - Sri
+- **Sanchalanam** (2011) - Sai Kiran
+- **Nitya Pellikoduku** (2011) - Varun Sandesh
+- **Poru Telangana** (2011) - R. Narayana Murthy
+- **Kodipunju** (2011) - Tanish
+- **Sunil Kumar Reddy** (2012) - Nandam
+- **Chaduvukovali** (2012) - Arun
+- **Nanda Nanditha** (2012) - Surya Teja
+- **Athadu Aame O Scooter** (2013) - Vennela Kishore
+- **Kharjooram** (2013) - Sridhar
+- **Antaku Mundu Aa Taruvaata** (2013) - Sumanth Ashwin
+- **Sevakudu** (2013) - Krishna
+- **Choosinodiki Choosinanta** (2014) - Sivaji
+- **Saheba Subramanyam** (2014) - Dileep
+- **Vichakshana** (2014) - Harsha
+- **Anandam Malli Modalaindi** (2015) - Sumanth
+- **O Manasa** (2015) - Ajay Manthena
+- **Intelligent Idiots** (2015) - Vijay Raghavendra
+- **Karam Dosa** (2016) - Shivakumar Ramachandravarapu
+- **Nee Preme Naa Pranam** (2017) - Lucky
+- **Vivek Athreya** (2017) - Sushanth
+- **Gowtam Tinnanuri** (2017) - Nani
+- **Jayanth C. Paranjee** (2017) - Ganta Ravi
+- **Tatineni Satya** (2017) - Santosh Sobhan
+- **Sriram Adittya** (2017) - Sumanth Ashwin
+- **Krishna Marimuthu** (2017) - Aadhi
+- **Krishna Vamsi** (2017) - Mahanth
+- **Idhi Maa Prema Katha** (2017) - Anchor Ravi
+- **Moodu Puvulu Aaru Kayalu** (2018) - Arjun Yagith
+- **My Dear Marthandam** (2018) - Prudhviraj
+- **Masakkali** (2018) - Sai Ronak
+- **Giridhar Gopal** (2018) - Sumanth Ashwin
+- **R. Indrasena** (2018) - Vijay Antony
+- **Ee Nagariniki Emaindi** (2018) - Vishwak Sen
+- **Paidi Ramesh** (2018) - Naga Shourya
+- **ch ravi kishore babu** (2018) - Friends funding films
+- **Bala Bodepudi** (2018) - Naveen Chandra
+- **Kovera** (2018) - Kovera
+- **Hemanth Srinivas** (2019) - Santosh Shoban
+- **Ranasthalam** (2019) - Sharwanand
+- **Prematho Cheppana** (2019) - Sudheer Babu
+- **Shammer Sulthan** (2019) - Srikanth
+- **Haranath Policherla** (2019) - Kartheek
+- **Caarthick Raju** (2019) - Karthi
+
+## 2020s (16 movies)
+
+- **Buchinaidu Khandriga** (2020) - Santosh Sobhan
+- **Narasimha Nandi** (2020) - Nandamuri Taraka Ratna
+- **Thagite Thandana** (2020) - Rakshit
+- **Gudaputani** (2021) - Sapthagiri
+- **Sesh Kartikeya** (2021) - Kartikeya
+- **Jeffrey Gee Chin** (2021) - Vishnu Manchu
+- **Dr. Mohan** (2021) - Santhosh Shobhan
+- **Barla Narayana** (2023) - Dileep
+- **Abhishek Nama** (2023) - Sushanth
+- **Abhay Bethiganti** (2023) - Kiran Abbavaram
+- **Subramanyam Chigurupati** (2023) - Sushanth
+- **Ashtadigbandhanam** (2023) - Surya Bharath Chandra
+- **Akkada Varu Ikkada Unnaru** (2024) - Jagadesh Raj
+- **Kotha Rangula Prapancham** (2024) - Prudhvi Raj
+- **Man Of The Match** (2026) - Unknown
+- **Sahakutumbaanaam** (2026) - Unknown
+
