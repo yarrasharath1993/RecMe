@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Poppins, Noto_Sans_Telugu } from 'next/font/google';
 import Link from 'next/link';
 import { Header } from '@/components/Header';
-import { DedicationsWidget } from '@/components/DedicationsWidget';
+// import { DedicationsWidget } from '@/components/DedicationsWidget'; // DISABLED: Will enable later
 import { SkipLink } from '@/components/a11y/SkipLink';
 import { LanguageProvider } from '@/lib/i18n';
 import './globals.css';
@@ -72,8 +72,8 @@ export default function RootLayout({
             {children}
           </main>
 
-          {/* Dedications Widget - Bottom Left */}
-          <DedicationsWidget position="bottom-left" />
+          {/* Dedications Widget - DISABLED: Will enable later */}
+          {/* <DedicationsWidget position="bottom-left" /> */}
 
         {/* Footer - Semantic landmark */}
         <footer role="contentinfo" className="bg-[var(--bg-secondary)] border-t border-[var(--border-secondary)] mt-12">
