@@ -19,10 +19,12 @@ import {
   ThumbsUp, Award, Gem, Clock, X, TrendingUp, Sparkles, User, Wand2
 } from 'lucide-react';
 import type { Movie, Genre, ReviewFilters } from '@/types/reviews';
-import { HorizontalCarousel } from '@/components/ui/HorizontalCarousel';
-import { MoodIndicators } from '@/components/reviews/MoodIndicators';
-import { RecommendMeModal } from '@/components/recommendations/RecommendMeModal';
-import { isMovieUpcoming, getUpcomingLabel } from "@/lib/utils/movie-status";
+import { HorizontalCarousel } from "@/components/ui/HorizontalCarousel";
+import { RecommendMeModal } from "@/components/recommendations/RecommendMeModal";
+import { DiscoveryPanel } from "@/components/reviews/DiscoveryPanel";
+import { CategoryMoviesModal, CategoryType } from "@/components/reviews/CategoryMoviesModal";
+import { isMovieUpcoming, getUpcomingLabel, shouldHideRating } from "@/lib/utils/movie-status";
+import { getDisplayRating, getRatingCategory, getCategoryLabel } from "@/lib/ratings/editorial-rating";
 
 // ============================================================
 // TYPES
@@ -40,11 +42,14 @@ interface MovieCard {
   director?: string;
   hero?: string;
   avg_rating: number;
+  our_rating?: number; // Editorial rating - prioritize this over avg_rating
   total_reviews: number;
   is_classic?: boolean;
   is_blockbuster?: boolean;
   is_underrated?: boolean;
 }
+
+// getDisplayRating, getRatingCategory, getCategoryLabel imported from @/lib/ratings/editorial-rating
 
 interface ReviewSection {
   id: string;
@@ -182,6 +187,22 @@ const SECTION_ICONS: Record<string, React.ReactNode> = {
   genre: <Film className="w-5 h-5" />,
 };
 
+// Mood to Genre mapping for filtering
+const MOOD_TO_GENRES: Record<string, Genre[]> = {
+  action: ["Action"],
+  emotional: ["Drama", "Romance", "Family"],
+  comedy: ["Comedy"],
+  thriller: ["Thriller", "Crime"],
+  romantic: ["Romance"],
+  family: ["Family"],
+  mass: ["Action"],
+  classic: [], // Uses is_classic flag instead
+  "feel-good": ["Comedy", "Family", "Romance"],
+  musical: [], // No direct genre mapping
+  intense: ["Action", "Thriller", "Crime"],
+  adventure: ["Fantasy", "Action"],
+};
+
 // ============================================================
 // MAIN COMPONENT
 // ============================================================
@@ -218,8 +239,12 @@ export default function ReviewsPage() {
   const [showSearchResults, setShowSearchResults] = useState(false);
   const [viewMode, setViewMode] = useState<"sections" | "grid">("sections");
   const [activeMood, setActiveMood] = useState<string | undefined>();
+  const [activeEra, setActiveEra] = useState<
+    { from: number; to: number } | undefined
+  >();
   const [showRecommendModal, setShowRecommendModal] = useState(false);
   const [showQuickLinksModal, setShowQuickLinksModal] = useState(false);
+  const [categoryModal, setCategoryModal] = useState<CategoryType>(null);
 
   const searchRef = useRef<HTMLDivElement>(null);
 
@@ -260,14 +285,13 @@ export default function ReviewsPage() {
         if (newFilters.actor) params.set("actor", newFilters.actor);
         if (newFilters.director) params.set("director", newFilters.director);
         if (newFilters.genre) params.set("genre", newFilters.genre);
+        if (newFilters.isClassic) params.set("classic", "true");
         // Preserve language if not default
         if (selectedLanguage && selectedLanguage !== "Telugu") {
           params.set("language", selectedLanguage);
         }
-        // Preserve mood if active
-        if (activeMood) {
-          params.set("mood", activeMood);
-        }
+        // Note: Don't include mood in URL - mood maps to genre/classic filters
+        // The genre/classic param IS the filter, mood is just UI state
 
         const url = params.toString()
           ? `/reviews?${params.toString()}`
@@ -275,7 +299,7 @@ export default function ReviewsPage() {
         router.replace(url, { scroll: false });
       }
     },
-    [router, selectedLanguage, activeMood]
+    [router, selectedLanguage]
   );
 
   // Fetch initial sections (fast load - only 3 sections)
@@ -905,37 +929,81 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Genre Pills - Desktop only (moved to Browse Collections modal on mobile) */}
+      {/* Discovery Panel - Desktop only - combines Mood, Collections, Genres, Eras */}
       {selectedLanguage === "Telugu" && (
-        <section className="hidden sm:block max-w-7xl mx-auto px-4 py-2">
-          <div className="flex items-center gap-2">
-            <span
-              className="text-xs font-medium shrink-0"
-              style={{ color: "var(--text-tertiary)" }}
-            >
-              Genre:
-            </span>
-            <div
-              className="flex gap-1.5 overflow-x-auto scrollbar-hide py-1 flex-1"
-              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-            >
-              <GenrePill
-                label="All"
-                icon={GENRE_ICONS["All"].icon}
-                active={!filters.genre && viewMode === "sections"}
-                onClick={() => clearFilters()}
-              />
-              {GENRES.map((genre) => (
-                <GenrePill
-                  key={genre}
-                  label={genre}
-                  icon={GENRE_ICONS[genre]?.icon || "🎬"}
-                  active={filters.genre === genre}
-                  onClick={() => applyFilter({ genre })}
-                />
-              ))}
-            </div>
-          </div>
+        <section className="hidden sm:block max-w-7xl mx-auto px-4 py-3">
+          <DiscoveryPanel
+            activeMood={activeMood}
+            onMoodSelect={(mood) => {
+              // Update mood state
+              setActiveMood(mood);
+
+              if (mood) {
+                // Map mood to genre(s) and apply filter
+                const genres = MOOD_TO_GENRES[mood] || [];
+
+                if (mood === "classic") {
+                  // Special handling for classics - use isClassic flag
+                  // Clear genre and set isClassic
+                  const newFilters: ReviewFilters = {
+                    sortBy: "rating",
+                    sortOrder: "desc",
+                    isClassic: true,
+                  };
+                  setFilters(newFilters);
+                  setViewMode("grid");
+                  updateUrl(newFilters, "grid");
+                } else if (genres.length > 0) {
+                  // Clear isClassic and set genre
+                  const newFilters: ReviewFilters = {
+                    sortBy: "rating",
+                    sortOrder: "desc",
+                    genre: genres[0],
+                  };
+                  setFilters(newFilters);
+                  setViewMode("grid");
+                  updateUrl(newFilters, "grid");
+                } else {
+                  // For moods without genre mapping (musical), just show all movies
+                  const newFilters: ReviewFilters = {
+                    sortBy: "rating",
+                    sortOrder: "desc",
+                  };
+                  setFilters(newFilters);
+                  setViewMode("grid");
+                  updateUrl(newFilters, "grid");
+                }
+              } else {
+                // Clear mood - go back to sections view
+                clearFilters();
+              }
+            }}
+            onCollectionSelect={(collection) => {
+              // Collections are handled via links in the component
+              console.log("Collection selected:", collection);
+            }}
+            onGenreSelect={(genre) => {
+              applyFilter({ genre: genre as Genre });
+            }}
+            onEraSelect={(era) => {
+              setActiveEra(era);
+              if (era) {
+                applyFilter({ yearRange: era });
+              } else {
+                // Clear year range filter (omit yearRange from restFilters)
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                const { yearRange: _, ...restFilters } = filters;
+                setFilters({
+                  ...restFilters,
+                  sortBy: "rating",
+                  sortOrder: "desc",
+                });
+                setViewMode("sections");
+              }
+            }}
+            activeGenre={filters.genre}
+            activeEra={activeEra}
+          />
         </section>
       )}
 
@@ -1060,55 +1128,6 @@ export default function ReviewsPage() {
                     </span>
                   </div>
                 </button>
-
-                {/* Desktop: Horizontal scroll row */}
-                <div className="hidden sm:flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
-                  {[
-                    {
-                      label: "Top 10",
-                      icon: "🏆",
-                      link: "/reviews?sort=rating&limit=10",
-                    },
-                    {
-                      label: "Best of 2024",
-                      icon: "⭐",
-                      link: "/reviews?year=2024&sort=rating",
-                    },
-                    {
-                      label: "Hidden Gems",
-                      icon: "💎",
-                      link: "/reviews/hidden-gems",
-                    },
-                    {
-                      label: "Blockbusters",
-                      icon: "🎬",
-                      link: "/reviews/blockbusters",
-                    },
-                    {
-                      label: "Classics",
-                      icon: "🎭",
-                      link: "/reviews/classics",
-                    },
-                  ].map((quickLink) => (
-                    <Link
-                      key={quickLink.label}
-                      href={quickLink.link}
-                      className="flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-lg transition-transform hover:scale-105"
-                      style={{
-                        backgroundColor: "var(--bg-secondary)",
-                        border: "1px solid var(--border-primary)",
-                      }}
-                    >
-                      <span className="text-lg">{quickLink.icon}</span>
-                      <span
-                        className="text-sm font-medium whitespace-nowrap"
-                        style={{ color: "var(--text-primary)" }}
-                      >
-                        {quickLink.label}
-                      </span>
-                    </Link>
-                  ))}
-                </div>
               </section>
 
               {/* Hero Spotlights - Horizontal Scroll Carousel */}
@@ -1139,17 +1158,6 @@ export default function ReviewsPage() {
                   </HorizontalCarousel>
                 </section>
               )}
-
-              {/* Mood-Based Browse - Desktop only (moved to Browse modal on mobile) */}
-              <section className="hidden sm:block mb-8">
-                <MoodIndicators
-                  compact
-                  activeMood={activeMood}
-                  onMoodSelect={(mood) => {
-                    setActiveMood(mood === activeMood ? undefined : mood);
-                  }}
-                />
-              </section>
 
               {/* Dynamic Sections */}
               {sections.map((section) => (
@@ -1280,6 +1288,14 @@ export default function ReviewsPage() {
         prefillLanguage={selectedLanguage}
       />
 
+      {/* Category Movies Modal */}
+      <CategoryMoviesModal
+        isOpen={categoryModal !== null}
+        onClose={() => setCategoryModal(null)}
+        category={categoryModal}
+        language={selectedLanguage}
+      />
+
       {/* Browse & Discover Modal */}
       {showQuickLinksModal && (
         <div
@@ -1320,6 +1336,7 @@ export default function ReviewsPage() {
                 className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide"
                 style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
               >
+                {/* Regular filter links */}
                 {[
                   {
                     label: "Top 10",
@@ -1331,13 +1348,6 @@ export default function ReviewsPage() {
                     icon: "⭐",
                     link: "/reviews?year=2024&sort=rating",
                   },
-                  { label: "Gems", icon: "💎", link: "/reviews/hidden-gems" },
-                  {
-                    label: "Blockbusters",
-                    icon: "🎬",
-                    link: "/reviews/blockbusters",
-                  },
-                  { label: "Classics", icon: "🎭", link: "/reviews/classics" },
                 ].map((item) => (
                   <Link
                     key={item.label}
@@ -1355,6 +1365,31 @@ export default function ReviewsPage() {
                       {item.label}
                     </span>
                   </Link>
+                ))}
+                {/* Category modal triggers */}
+                {[
+                  { label: "Gems", icon: "💎", category: "hidden-gems" as CategoryType },
+                  { label: "Blockbusters", icon: "🎬", category: "blockbusters" as CategoryType },
+                  { label: "Classics", icon: "🎭", category: "classics" as CategoryType },
+                ].map((item) => (
+                  <button
+                    key={item.label}
+                    onClick={() => {
+                      setShowQuickLinksModal(false);
+                      setCategoryModal(item.category);
+                    }}
+                    className="flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg transition-all active:scale-95"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, rgba(234,179,8,0.15), rgba(249,115,22,0.1))",
+                      border: "1px solid rgba(234,179,8,0.3)",
+                    }}
+                  >
+                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-sm font-medium text-[var(--text-primary)] whitespace-nowrap">
+                      {item.label}
+                    </span>
+                  </button>
                 ))}
               </div>
             </div>
@@ -1484,21 +1519,21 @@ function MovieSection({ section }: { section: ReviewSection }) {
   if (section.movies.length === 0) return null;
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  const scroll = (direction: 'left' | 'right') => {
+  const scroll = (direction: "left" | "right") => {
     if (scrollRef.current) {
       const scrollAmount = scrollRef.current.clientWidth * 0.8;
       scrollRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth'
+        left: direction === "left" ? -scrollAmount : scrollAmount,
+        behavior: "smooth",
       });
     }
   };
 
   // For upcoming section, show max 12 items
   // For others, show up to 24 items in 2 rows
-  const isUpcoming = section.type === 'upcoming';
+  const isUpcoming = section.type === "upcoming";
   const displayMovies = section.movies.slice(0, isUpcoming ? 12 : 24);
-  
+
   return (
     <section className="relative group/section">
       <div className="flex items-center justify-between mb-3">
@@ -1570,7 +1605,13 @@ function MovieSection({ section }: { section: ReviewSection }) {
   );
 }
 
-function SpotlightCard({ spotlight, onSelect }: { spotlight: SpotlightSection; onSelect?: (name: string) => void }) {
+function SpotlightCard({
+  spotlight,
+  onSelect,
+}: {
+  spotlight: SpotlightSection;
+  onSelect?: (name: string) => void;
+}) {
   const handleClick = (e: React.MouseEvent) => {
     if (onSelect) {
       e.preventDefault();
@@ -1579,7 +1620,12 @@ function SpotlightCard({ spotlight, onSelect }: { spotlight: SpotlightSection; o
   };
 
   // Generate TMDB-style profile URL if no image
-  const getInitials = (name: string) => name.split(' ').map(n => n[0]).join('').slice(0, 2);
+  const getInitials = (name: string) =>
+    name
+      .split(" ")
+      .map((n) => n[0])
+      .join("")
+      .slice(0, 2);
 
   return (
     <button
@@ -1625,11 +1671,19 @@ function SpotlightCard({ spotlight, onSelect }: { spotlight: SpotlightSection; o
   );
 }
 
-function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; release_date?: string } }) {
+function UpcomingMovieCard({
+  movie,
+}: {
+  movie: MovieCard & { synopsis?: string; release_date?: string };
+}) {
   const releaseDate = movie.release_date ? new Date(movie.release_date) : null;
-  const formattedDate = releaseDate 
-    ? releaseDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })
-    : movie.release_year?.toString() || 'TBA';
+  const formattedDate = releaseDate
+    ? releaseDate.toLocaleDateString("en-IN", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+      })
+    : movie.release_year?.toString() || "TBA";
 
   return (
     <Link
@@ -1703,8 +1757,9 @@ function UpcomingMovieCard({ movie }: { movie: MovieCard & { synopsis?: string; 
 function SmallMovieCard({ movie }: { movie: MovieCard | Movie }) {
   const m = movie as MovieCard;
   const isUpcoming = isMovieUpcoming(m);
+  const hideRating = shouldHideRating(m); // Hide for upcoming OR no release year
   const upcomingLabel = isUpcoming ? getUpcomingLabel(m) : "";
-  
+
   return (
     <Link
       href={`/reviews/${m.slug}`}
@@ -1764,15 +1819,15 @@ function SmallMovieCard({ movie }: { movie: MovieCard | Movie }) {
           )}
         </div>
 
-        {/* Rating - hide for upcoming movies */}
-        {!isUpcoming && (
+        {/* Rating - hide for upcoming movies or incomplete data */}
+        {!hideRating && (
           <div
             className="absolute top-1.5 right-1.5 flex items-center gap-0.5 px-1.5 py-0.5 rounded text-xs font-bold"
             style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
           >
             <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
             <span className="text-[var(--text-primary)]">
-              {m.avg_rating?.toFixed(1) || "—"}
+              {getDisplayRating(m).toFixed(1) || "—"}
             </span>
           </div>
         )}
@@ -1802,18 +1857,30 @@ function QuickTag({
   onClick,
   icon,
   label,
-  activeColor
+  activeColor,
 }: {
   active?: boolean;
   onClick: () => void;
   icon: React.ReactNode;
   label: string;
-  activeColor: 'purple' | 'orange' | 'yellow';
+  activeColor: "purple" | "orange" | "yellow";
 }) {
   const colors = {
-    purple: { bg: 'rgba(168,85,247,0.2)', border: 'rgba(168,85,247,0.5)', text: '#a855f7' },
-    orange: { bg: 'rgba(249,115,22,0.2)', border: 'rgba(249,115,22,0.5)', text: '#f97316' },
-    yellow: { bg: 'rgba(234,179,8,0.2)', border: 'rgba(234,179,8,0.5)', text: '#eab308' },
+    purple: {
+      bg: "rgba(168,85,247,0.2)",
+      border: "rgba(168,85,247,0.5)",
+      text: "#a855f7",
+    },
+    orange: {
+      bg: "rgba(249,115,22,0.2)",
+      border: "rgba(249,115,22,0.5)",
+      text: "#f97316",
+    },
+    yellow: {
+      bg: "rgba(234,179,8,0.2)",
+      border: "rgba(234,179,8,0.5)",
+      text: "#eab308",
+    },
   }[activeColor];
 
   return (
@@ -1821,9 +1888,9 @@ function QuickTag({
       onClick={onClick}
       className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium transition-colors"
       style={{
-        backgroundColor: active ? colors.bg : 'var(--bg-secondary)',
-        border: `1px solid ${active ? colors.border : 'var(--border-primary)'}`,
-        color: active ? colors.text : 'var(--text-secondary)'
+        backgroundColor: active ? colors.bg : "var(--bg-secondary)",
+        border: `1px solid ${active ? colors.border : "var(--border-primary)"}`,
+        color: active ? colors.text : "var(--text-secondary)",
       }}
     >
       {icon}
@@ -1836,7 +1903,7 @@ function FilterSelect({
   label,
   value,
   onChange,
-  options
+  options,
 }: {
   label: string;
   value: string;
@@ -1845,7 +1912,10 @@ function FilterSelect({
 }) {
   return (
     <div>
-      <label className="block text-xs mb-1.5" style={{ color: 'var(--text-tertiary)' }}>
+      <label
+        className="block text-xs mb-1.5"
+        style={{ color: "var(--text-tertiary)" }}
+      >
         {label}
       </label>
       <select
@@ -1853,60 +1923,18 @@ function FilterSelect({
         onChange={(e) => onChange(e.target.value)}
         className="w-full px-2.5 py-2 rounded-lg text-sm focus:outline-none transition-colors"
         style={{
-          backgroundColor: 'var(--bg-tertiary)',
-          border: '1px solid var(--border-primary)',
-          color: 'var(--text-primary)'
+          backgroundColor: "var(--bg-tertiary)",
+          border: "1px solid var(--border-primary)",
+          color: "var(--text-primary)",
         }}
       >
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value}>{opt.label}</option>
+          <option key={opt.value} value={opt.value}>
+            {opt.label}
+          </option>
         ))}
       </select>
     </div>
   );
 }
 
-function GenrePill({
-  label,
-  icon,
-  active,
-  onClick,
-}: {
-  label: string;
-  icon?: string;
-  active: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className={`group relative flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-all ${
-        active ? "ring-2 ring-yellow-500/50" : "hover:scale-105"
-      }`}
-      style={{
-        backgroundColor: active
-          ? "var(--brand-primary)"
-          : "var(--bg-secondary)",
-        color: active ? "var(--bg-primary)" : "var(--text-secondary)",
-        border: `1px solid ${
-          active ? "var(--brand-primary)" : "var(--border-primary)"
-        }`,
-      }}
-      title={label}
-    >
-      {icon && <span className="text-sm">{icon}</span>}
-      <span className="hidden sm:inline">{label}</span>
-
-      {/* Tooltip on mobile - shows on tap/hover */}
-      <span
-        className="absolute -bottom-7 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded text-[10px] font-medium opacity-0 group-hover:opacity-100 sm:group-hover:opacity-0 transition-opacity pointer-events-none z-50"
-        style={{
-          backgroundColor: "var(--bg-tertiary)",
-          color: "var(--text-primary)",
-        }}
-      >
-        {label}
-      </span>
-    </button>
-  );
-}

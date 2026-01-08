@@ -240,7 +240,13 @@
     "audit:system": "npx tsx scripts/audit-system.ts",
     "reviews:rewrite:test": "npx tsx scripts/rewrite-editorial-reviews.ts --dry-run --limit=10",
     "reviews:rewrite:top500": "npx tsx scripts/rewrite-editorial-reviews.ts --limit=500",
-    "reviews:rewrite:dry": "npx tsx scripts/rewrite-editorial-reviews.ts --dry-run --limit=500"
+    "reviews:rewrite:dry": "npx tsx scripts/rewrite-editorial-reviews.ts --dry-run --limit=500",
+    "fix:legacy-movies": "npx tsx scripts/fix-legacy-movies.ts",
+    "fix:legacy-movies:dry": "npx tsx scripts/fix-legacy-movies.ts --dry-run",
+    "fix:image-issues": "npx tsx scripts/fix-image-issues.ts",
+    "fix:image-issues:dry": "npx tsx scripts/fix-image-issues.ts --dry-run",
+    "fix:image-issues:duplicates": "npx tsx scripts/fix-image-issues.ts --duplicates",
+    "fix:image-issues:orphans": "npx tsx scripts/fix-image-issues.ts --orphans"
   },
   "dependencies": {
     "@auth/core": "^0.41.0",
@@ -258,13 +264,15 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "rss-parser": "^3.13.0",
-    "slugify": "^1.6.6"
+    "slugify": "^1.6.6",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/uuid": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",

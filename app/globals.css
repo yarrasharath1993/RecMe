@@ -69,12 +69,12 @@
   --bg-active: #2a2a38;
   --bg-card: #121218;
   --bg-elevated: #1a1a24;
-  
+
   /* Card backgrounds with subtle gradients for verdict/accordion */
   --bg-card-gradient-start: #0f0f15;
   --bg-card-gradient-end: #08080c;
   --bg-card-accent: #16161f;
-  
+
   /* RGB versions for alpha usage */
   --bg-secondary-rgb: 15, 15, 21;
   --bg-primary-rgb: 8, 8, 12;
@@ -96,7 +96,7 @@
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.6);
   --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.7);
-  
+
   /* Glow effects for accents */
   --shadow-glow: 0 0 20px rgba(255, 107, 0, 0.4);
   --shadow-glow-pink: 0 0 25px rgba(247, 37, 133, 0.35);
@@ -104,6 +104,22 @@
   --shadow-glow-teal: 0 0 25px rgba(6, 214, 160, 0.35);
   --shadow-glow-blue: 0 0 25px rgba(67, 97, 238, 0.35);
   --shadow-glow-red: 0 0 25px rgba(208, 0, 0, 0.35);
+
+  /* Theme-aware accent colors - optimized for dark backgrounds */
+  --accent-success: #34d399;
+  --accent-success-muted: rgba(16, 185, 129, 0.15);
+  --accent-warning: #fbbf24;
+  --accent-warning-muted: rgba(251, 191, 36, 0.15);
+  --accent-info: #60a5fa;
+  --accent-info-muted: rgba(96, 165, 250, 0.15);
+  --accent-purple: #a78bfa;
+  --accent-purple-muted: rgba(167, 139, 250, 0.15);
+  --accent-orange: #fb923c;
+  --accent-orange-muted: rgba(251, 146, 60, 0.15);
+
+  /* Section backgrounds for cards/carousels */
+  --bg-section: rgba(15, 15, 21, 0.7);
+  --bg-section-accent: rgba(30, 30, 42, 0.5);
 
   color-scheme: dark;
 }
@@ -118,20 +134,20 @@
   --gradient-entertainment: linear-gradient(135deg, #7209b7 0%, #560bad 100%);
   --gradient-gossip: linear-gradient(135deg, #f72585 0%, #b5179e 100%);
   --gradient-reviews: linear-gradient(135deg, #ffd60a 0%, #ffb703 100%);
-  
+
   /* News */
   --gradient-sports: linear-gradient(135deg, #06d6a0 0%, #118ab2 100%);
   --gradient-politics: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
   --gradient-crime: linear-gradient(135deg, #9d0208 0%, #d00000 100%);
   --gradient-world: linear-gradient(135deg, #8338ec 0%, #5a189a 100%);
-  
+
   /* Lifestyle & Tech */
   --gradient-tech: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
   --gradient-business: linear-gradient(135deg, #ffd60a 0%, #e9c46a 100%);
   --gradient-health: linear-gradient(135deg, #38b000 0%, #70e000 100%);
   --gradient-lifestyle: linear-gradient(135deg, #fb5607 0%, #ff006e 100%);
   --gradient-viral: linear-gradient(135deg, #ff006e 0%, #8338ec 100%);
-  
+
   /* Special */
   --gradient-premium: linear-gradient(135deg, #ffd700 0%, #ff8c00 50%, #ff0080 100%);
   --gradient-celestial: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f72585 100%);
@@ -150,12 +166,12 @@
   --bg-active: #d0cfc8;
   --bg-card: #ffffff;
   --bg-elevated: #ffffff;
-  
+
   /* Card backgrounds with subtle gradients for verdict/accordion */
   --bg-card-gradient-start: #f8f7f4;
   --bg-card-gradient-end: #f0efe8;
   --bg-card-accent: #ede9dd;
-  
+
   /* RGB versions */
   --bg-secondary-rgb: 245, 244, 240;
   --bg-primary-rgb: 255, 255, 255;
@@ -181,6 +197,22 @@
   --shadow-glow-pink: 0 0 25px rgba(247, 37, 133, 0.3);
   --shadow-glow-purple: 0 0 25px rgba(114, 9, 183, 0.3);
 
+  /* Theme-aware accent colors - optimized for light backgrounds (darker) */
+  --accent-success: #059669;
+  --accent-success-muted: rgba(5, 150, 105, 0.12);
+  --accent-warning: #d97706;
+  --accent-warning-muted: rgba(217, 119, 6, 0.12);
+  --accent-info: #2563eb;
+  --accent-info-muted: rgba(37, 99, 235, 0.12);
+  --accent-purple: #7c3aed;
+  --accent-purple-muted: rgba(124, 58, 237, 0.12);
+  --accent-orange: #ea580c;
+  --accent-orange-muted: rgba(234, 88, 12, 0.12);
+
+  /* Section backgrounds for cards/carousels */
+  --bg-section: rgba(245, 244, 240, 0.9);
+  --bg-section-accent: rgba(232, 231, 226, 0.7);
+
   color-scheme: light;
 }
 
@@ -197,7 +229,7 @@
   --bg-active: #3a3a68;
   --bg-card: linear-gradient(145deg, #1a1a30, #252545);
   --bg-elevated: linear-gradient(180deg, #202040, #1a1a35);
-  
+
   /* RGB versions */
   --bg-secondary-rgb: 26, 26, 46;
   --bg-primary-rgb: 15, 15, 26;
@@ -224,7 +256,23 @@
   --shadow-glow-purple: 0 0 40px rgba(138, 43, 226, 0.5);
   --shadow-glow-teal: 0 0 40px rgba(0, 255, 255, 0.4);
   --shadow-glow-blue: 0 0 40px rgba(30, 144, 255, 0.5);
-  
+
+  /* Theme-aware accent colors - vibrant/neon for this theme */
+  --accent-success: #4ade80;
+  --accent-success-muted: rgba(74, 222, 128, 0.2);
+  --accent-warning: #fcd34d;
+  --accent-warning-muted: rgba(252, 211, 77, 0.2);
+  --accent-info: #38bdf8;
+  --accent-info-muted: rgba(56, 189, 248, 0.2);
+  --accent-purple: #c084fc;
+  --accent-purple-muted: rgba(192, 132, 252, 0.2);
+  --accent-orange: #fb923c;
+  --accent-orange-muted: rgba(251, 146, 60, 0.2);
+
+  /* Section backgrounds for cards/carousels */
+  --bg-section: rgba(26, 26, 48, 0.8);
+  --bg-section-accent: rgba(37, 37, 69, 0.6);
+
   /* Rainbow gradients */
   --gradient-rainbow: linear-gradient(
     90deg,
@@ -242,7 +290,7 @@
     #1a1a3a 60%,
     #0f0f1a 100%
   );
-  
+
   color-scheme: dark;
 }
 
@@ -833,19 +881,19 @@ body.font-english {
     min-height: 44px;
     min-width: 44px;
   }
-  
+
   /* Increase spacing on mobile */
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
+
   /* Better text readability on mobile */
   body {
     font-size: 16px;
     line-height: 1.6;
   }
-  
+
   /* Prevent horizontal scroll on mobile */
   html, body {
     overflow-x: hidden;
@@ -985,7 +1033,7 @@ body.font-english {
   .mobile-text-xs { font-size: 0.75rem; }
   .mobile-text-base { font-size: 1rem; }
   .mobile-text-lg { font-size: 1.125rem; }
-  
+
   /* Telugu text optimization */
   .font-telugu {
     line-height: 1.7;
@@ -1025,7 +1073,7 @@ body.font-english {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 
+  box-shadow:
     0 8px 32px rgba(0, 0, 0, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -1037,7 +1085,7 @@ body.font-english {
 }
 .glow-card:hover {
   border-color: rgba(255, 107, 0, 0.3);
-  box-shadow: 
+  box-shadow:
     0 8px 24px rgba(0, 0, 0, 0.4),
     0 0 30px rgba(255, 107, 0, 0.15);
   transform: translateY(-2px);
@@ -1146,14 +1194,14 @@ body.font-english {
 
 /* Floating action button glow */
 .fab-glow {
-  box-shadow: 
+  box-shadow:
     0 4px 16px rgba(0, 0, 0, 0.4),
     0 0 20px rgba(255, 107, 0, 0.4);
   transition: all 0.3s var(--ease-bounce);
 }
 .fab-glow:hover {
   transform: scale(1.05);
-  box-shadow: 
+  box-shadow:
     0 6px 24px rgba(0, 0, 0, 0.5),
     0 0 40px rgba(255, 107, 0, 0.5);
 }
@@ -1231,7 +1279,7 @@ body.font-english {
 
 /* Neon text glow */
 .neon-glow {
-  text-shadow: 
+  text-shadow:
     0 0 10px rgba(255, 107, 0, 0.8),
     0 0 20px rgba(255, 107, 0, 0.5),
     0 0 30px rgba(255, 107, 0, 0.3);
@@ -1314,7 +1362,7 @@ body.font-english {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: 
+  background:
     radial-gradient(ellipse at 20% 20%, rgba(0, 255, 135, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 20%, rgba(96, 239, 255, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 40% 80%, rgba(255, 20, 147, 0.15) 0%, transparent 50%),
@@ -1338,13 +1386,13 @@ body.font-english {
 
 @keyframes pulse-glow-ring {
   0%, 100% {
-    box-shadow: 
+    box-shadow:
       0 0 10px rgba(255, 0, 128, 0.4),
       0 0 20px rgba(138, 43, 226, 0.3),
       0 0 30px rgba(0, 255, 255, 0.2);
   }
   50% {
-    box-shadow: 
+    box-shadow:
       0 0 20px rgba(255, 0, 128, 0.6),
       0 0 40px rgba(138, 43, 226, 0.5),
       0 0 60px rgba(0, 255, 255, 0.4);
@@ -1359,7 +1407,7 @@ body.font-english {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: 
+  background-image:
     radial-gradient(2px 2px at 20% 30%, rgba(255, 255, 255, 0.3), transparent),
     radial-gradient(2px 2px at 40% 70%, rgba(255, 200, 100, 0.3), transparent),
     radial-gradient(2px 2px at 60% 20%, rgba(100, 200, 255, 0.3), transparent),
@@ -1584,11 +1632,11 @@ body.font-english {
 }
 
 @keyframes menu-glow {
-  0%, 100% { 
+  0%, 100% {
     filter: drop-shadow(0 0 4px currentColor);
     opacity: 1;
   }
-  50% { 
+  50% {
     filter: drop-shadow(0 0 12px currentColor);
     opacity: 0.9;
   }
@@ -1644,8 +1692,8 @@ body.font-english {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at var(--tap-x, 50%) var(--tap-y, 50%), 
-    rgba(255, 255, 255, 0.3) 0%, 
+  background: radial-gradient(circle at var(--tap-x, 50%) var(--tap-y, 50%),
+    rgba(255, 255, 255, 0.3) 0%,
     transparent 60%);
   opacity: 0;
   transform: scale(0);
@@ -1740,12 +1788,12 @@ body.font-english {
   .mobile-text-base {
     font-size: 16px; /* Prevent zoom on iOS */
   }
-  
+
   /* Increase spacing for fat fingers */
   .mobile-spacing > * + * {
     margin-top: 12px;
   }
-  
+
   /* Full-width buttons on mobile */
   .mobile-full-width {
     width: 100%;
@@ -1821,7 +1869,7 @@ body.font-english {
 
 /* Light theme card buttons */
 .light .menu-card-btn {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08),
               0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 .light .menu-card-btn:hover {
@@ -1842,8 +1890,8 @@ body.font-english {
 
 /* Vibrant theme card buttons - rainbow glow */
 .vibrant .menu-card-btn {
-  background: linear-gradient(145deg, 
-    rgba(30, 30, 60, 0.9), 
+  background: linear-gradient(145deg,
+    rgba(30, 30, 60, 0.9),
     rgba(40, 40, 80, 0.7)
   );
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4),
@@ -1858,8 +1906,8 @@ body.font-english {
 
 /* Vibrant menu section cards */
 .vibrant .menu-section-card {
-  background: linear-gradient(145deg, 
-    rgba(30, 30, 60, 0.95), 
+  background: linear-gradient(145deg,
+    rgba(30, 30, 60, 0.95),
     rgba(20, 20, 40, 0.9)
   ) !important;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1869,8 +1917,8 @@ body.font-english {
 
 /* Vibrant menu effects */
 .vibrant .menu-section-header {
-  background: linear-gradient(90deg, 
-    rgba(255, 0, 128, 0.1), 
+  background: linear-gradient(90deg,
+    rgba(255, 0, 128, 0.1),
     transparent
   );
 }
@@ -2015,11 +2063,11 @@ body.font-english {
   .collapsible-section .section-header {
     padding: 12px 16px;
   }
-  
+
   .collapsible-section .section-content {
     padding: 0 8px;
   }
-  
+
   .load-more-trigger button {
     width: 100%;
     justify-content: center;

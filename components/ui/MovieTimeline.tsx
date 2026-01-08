@@ -3,12 +3,19 @@
  * 
  * Displays the lifecycle of a movie from announcement to OTT release.
  * Visualizes connected story threads and enables "Continue the story" navigation.
+ * 
+ * REFACTORED to use design system primitives (Button, Text, Heading)
  */
 
 'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
+
+// Import design system primitives
+import { Button, IconButton } from '@/components/ui/primitives/Button';
+import { Text, Heading } from '@/components/ui/primitives/Text';
+import { Badge } from '@/components/ui/primitives/Badge';
 
 // ============================================================
 // TYPES
@@ -43,53 +50,63 @@ export function MovieTimeline({ events, movieTitle, className = '' }: MovieTimel
 
   return (
     <div className={`movie-timeline ${className}`}>
-      <h3 className="text-xl font-bold mb-4">Movie Journey</h3>
+      <Heading level="h3" className="mb-4">
+        Movie Journey
+      </Heading>
       
       <div className="timeline-container relative">
         {/* Vertical line */}
-        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300" />
+        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-[var(--border-primary)]" />
 
         {/* Events */}
         <div className="space-y-6">
-          {events.map((event, index) => (
+          {events.map((event) => (
             <div
               key={event.id}
               className="relative flex items-start gap-4"
             >
               {/* Icon */}
-              <div className="flex-shrink-0 w-16 h-16 rounded-full bg-orange-500 text-white flex items-center justify-center text-2xl z-10">
+              <div className="flex-shrink-0 w-16 h-16 rounded-full bg-[var(--brand-primary)] text-white flex items-center justify-center text-2xl z-10">
                 {event.icon}
               </div>
 
               {/* Content */}
-              <div className="flex-1 bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+              <div className="flex-1 bg-[var(--bg-card)] rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border border-[var(--border-primary)]">
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-lg">{event.title}</h4>
-                    <p className="text-sm text-gray-500">
+                    <Text as="h4" variant="heading-sm">
+                      {event.title}
+                    </Text>
+                    <Text variant="caption" color="secondary">
                       {new Date(event.date).toLocaleDateString('en-US', {
                         year: 'numeric',
                         month: 'long',
                         day: 'numeric',
                       })}
-                    </p>
+                    </Text>
                   </div>
 
                   {event.description && (
-                    <button
+                    <IconButton
+                      variant="ghost"
+                      size="sm"
                       onClick={() => setExpandedEvent(expandedEvent === event.id ? null : event.id)}
-                      className="ml-2 text-orange-500 hover:text-orange-600"
                       aria-label={expandedEvent === event.id ? 'Collapse' : 'Expand'}
-                    >
-                      {expandedEvent === event.id ? '▼' : '▶'}
-                    </button>
+                      icon={
+                        <span className="text-[var(--brand-primary)]">
+                          {expandedEvent === event.id ? '▼' : '▶'}
+                        </span>
+                      }
+                    />
                   )}
                 </div>
 
                 {/* Expanded description */}
                 {expandedEvent === event.id && event.description && (
-                  <div className="mt-3 pt-3 border-t border-gray-200">
-                    <p className="text-gray-700">{event.description}</p>
+                  <div className="mt-3 pt-3 border-t border-[var(--border-primary)]">
+                    <Text variant="body-sm" color="secondary">
+                      {event.description}
+                    </Text>
                   </div>
                 )}
 
@@ -97,9 +114,11 @@ export function MovieTimeline({ events, movieTitle, className = '' }: MovieTimel
                 {event.link && (
                   <Link
                     href={event.link}
-                    className="inline-block mt-3 text-orange-500 hover:text-orange-600 text-sm font-medium"
+                    className="inline-block mt-3"
                   >
-                    View Details →
+                    <Text variant="caption" color="brand" weight="medium" className="hover:underline">
+                      View Details →
+                    </Text>
                   </Link>
                 )}
               </div>
@@ -153,7 +172,9 @@ export function ContinueTheStory({ movies, className = '' }: ContinueTheStoryPro
 
   return (
     <div className={`continue-the-story ${className}`}>
-      <h3 className="text-xl font-bold mb-4">Continue the Story</h3>
+      <Heading level="h3" className="mb-4">
+        Continue the Story
+      </Heading>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {movies.map((movie) => (
@@ -170,26 +191,36 @@ export function ContinueTheStory({ movies, className = '' }: ContinueTheStoryPro
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
             ) : (
-              <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400 text-4xl">🎬</span>
+              <div className="w-full h-64 bg-[var(--bg-tertiary)] flex items-center justify-center">
+                <span className="text-[var(--text-tertiary)] text-4xl">🎬</span>
               </div>
             )}
 
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="absolute bottom-0 left-0 right-0 p-3">
-                <p className="text-white text-sm font-medium">{movie.title}</p>
+                <Text variant="caption" weight="medium" className="text-white">
+                  {movie.title}
+                </Text>
                 {movie.releaseYear && (
-                  <p className="text-white/80 text-xs">{movie.releaseYear}</p>
+                  <Text variant="caption" className="text-white/80">
+                    {movie.releaseYear}
+                  </Text>
                 )}
-                <p className="text-orange-400 text-xs mt-1">{movie.relationship}</p>
+                <Text variant="caption" color="brand" className="mt-1">
+                  {movie.relationship}
+                </Text>
               </div>
             </div>
 
             {/* Relationship badge */}
-            <div className="absolute top-2 right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded">
+            <Badge
+              variant="primary"
+              size="sm"
+              className="absolute top-2 right-2"
+            >
               {movie.relationship}
-            </div>
+            </Badge>
           </Link>
         ))}
       </div>
@@ -224,29 +255,31 @@ export function StoryThreads({ threads, className = '' }: StoryThreadsProps) {
 
   return (
     <div className={`story-threads ${className}`}>
-      <h3 className="text-xl font-bold mb-4">Story Threads</h3>
+      <Heading level="h3" className="mb-4">
+        Story Threads
+      </Heading>
 
-      {/* Thread tabs */}
+      {/* Thread tabs - Using Button primitives */}
       <div className="flex gap-2 mb-4 overflow-x-auto pb-2">
         {threads.map((thread) => (
-          <button
+          <Button
             key={thread.id}
             onClick={() => setActiveThread(thread.id)}
-            className={`px-4 py-2 rounded-lg whitespace-nowrap transition-colors ${
-              activeThread === thread.id
-                ? 'bg-orange-500 text-white'
-                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-            }`}
+            variant={activeThread === thread.id ? 'primary' : 'secondary'}
+            size="sm"
+            className="whitespace-nowrap"
           >
             {thread.title}
-          </button>
+          </Button>
         ))}
       </div>
 
       {/* Thread content */}
       {currentThread && (
-        <div className="bg-white rounded-lg shadow-md p-4">
-          <p className="text-gray-700 mb-4">{currentThread.description}</p>
+        <div className="bg-[var(--bg-card)] rounded-lg shadow-md p-4 border border-[var(--border-primary)]">
+          <Text variant="body-sm" color="secondary" className="mb-4">
+            {currentThread.description}
+          </Text>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {currentThread.movies.map((movie) => (
@@ -262,13 +295,17 @@ export function StoryThreads({ threads, className = '' }: StoryThreadsProps) {
                     className="w-full h-32 object-cover rounded-lg shadow group-hover:shadow-lg transition-shadow"
                   />
                 ) : (
-                  <div className="w-full h-32 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-400 text-2xl">🎬</span>
+                  <div className="w-full h-32 bg-[var(--bg-tertiary)] rounded-lg flex items-center justify-center">
+                    <span className="text-[var(--text-tertiary)] text-2xl">🎬</span>
                   </div>
                 )}
-                <p className="text-sm font-medium mt-1 line-clamp-1">{movie.title}</p>
+                <Text variant="caption" weight="medium" className="mt-1 line-clamp-1">
+                  {movie.title}
+                </Text>
                 {movie.releaseYear && (
-                  <p className="text-xs text-gray-500">{movie.releaseYear}</p>
+                  <Text variant="caption" color="tertiary">
+                    {movie.releaseYear}
+                  </Text>
                 )}
               </Link>
             ))}
@@ -278,6 +315,3 @@ export function StoryThreads({ threads, className = '' }: StoryThreadsProps) {
     </div>
   );
 }
-
-
-

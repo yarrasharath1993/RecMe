@@ -111,13 +111,13 @@ export async function paginateRecentlyReleased(
   // Get paginated data
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .or(`release_date.lte.${today},and(release_date.is.null,release_year.lte.${currentYear - 1})`)
     .gte('release_year', currentYear - 2)
     .order('release_year', { ascending: false })
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -145,11 +145,11 @@ export async function paginateBlockbusters(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_blockbuster', true)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -177,7 +177,7 @@ export async function paginateClassics(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, is_classic')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews, is_classic')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_classic', true)
@@ -209,11 +209,11 @@ export async function paginateHiddenGems(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_underrated', true)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -241,7 +241,7 @@ export async function paginateCultClassics(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, tags')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews, tags')
     .eq('is_published', true)
     .eq('language', language)
     .contains('tags', ['cult-classic'])
@@ -273,11 +273,11 @@ export async function paginateByGenre(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .contains('genres', [genre])
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -305,11 +305,11 @@ export async function paginateByActor(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .or(`hero.eq.${actor},heroine.eq.${actor}`)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -337,11 +337,11 @@ export async function paginateByDirector(
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .eq('director', director)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .range(offset, offset + pageSize - 1);
 
   return {
@@ -366,16 +366,16 @@ export async function paginateTop10(
     .select('id', { count: 'exact', head: true })
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null)
-    .gte('avg_rating', 7.0);
+    .not('our_rating', 'is', null)
+    .gte('our_rating', 7.0);
 
   let dataQuery = supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null)
-    .gte('avg_rating', 7.0);
+    .not('our_rating', 'is', null)
+    .gte('our_rating', 7.0);
 
   // Apply timeframe filters
   if (timeframe === 'decade') {
@@ -389,7 +389,7 @@ export async function paginateTop10(
   const { count } = await countQuery;
 
   const { data: movies } = await dataQuery
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .order('total_reviews', { ascending: false })
     .range(offset, offset + pageSize - 1);
 
@@ -414,15 +414,15 @@ export async function paginateTopRated(
     .select('id', { count: 'exact', head: true })
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null);
+    .not('our_rating', 'is', null);
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, our_rating, avg_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null)
-    .order('avg_rating', { ascending: false })
+    .not('our_rating', 'is', null)
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .order('total_reviews', { ascending: false })
     .range(offset, offset + pageSize - 1);
 
@@ -482,6 +482,7 @@ interface RawMovie {
   director?: string;
   hero?: string;
   heroine?: string;
+  our_rating?: number;
   avg_rating?: number;
   total_reviews?: number;
   is_classic?: boolean;
@@ -503,6 +504,7 @@ function mapToMovieCard(movie: RawMovie): MovieCard {
     director: movie.director,
     hero: movie.hero,
     heroine: movie.heroine,
+    our_rating: movie.our_rating,
     avg_rating: movie.avg_rating || 0,
     total_reviews: movie.total_reviews || 0,
     is_classic: movie.is_classic,

@@ -16,6 +16,8 @@
  * - Honest representation (not a fake poster)
  * - Cultural respect for classic films
  * - Accessible and informative
+ * 
+ * REFACTORED to use design system primitives (Text, StatusBadge)
  */
 
 import { Film, Archive, Info, CheckCircle, AlertCircle } from 'lucide-react';
@@ -25,6 +27,10 @@ import {
   getArchiveCardSubtitle,
   getVerificationStatus,
 } from '@/lib/visual-intelligence/archive-card-generator';
+
+// Import design system primitives
+import { Text } from '@/components/ui/primitives/Text';
+import { StatusBadge } from '@/components/ui/primitives/Badge';
 
 // ============================================================
 // TYPES
@@ -94,7 +100,7 @@ function FilmReelBorder({ className }: { className?: string }) {
         {[...Array(8)].map((_, i) => (
           <div
             key={`left-${i}`}
-            className="w-1.5 h-2 bg-gray-700 rounded-sm mx-auto"
+            className="w-1.5 h-2 bg-[var(--border-primary)] rounded-sm mx-auto"
           />
         ))}
       </div>
@@ -103,7 +109,7 @@ function FilmReelBorder({ className }: { className?: string }) {
         {[...Array(8)].map((_, i) => (
           <div
             key={`right-${i}`}
-            className="w-1.5 h-2 bg-gray-700 rounded-sm mx-auto"
+            className="w-1.5 h-2 bg-[var(--border-primary)] rounded-sm mx-auto"
           />
         ))}
       </div>
@@ -125,17 +131,16 @@ export function ArchiveCard({
 }: ArchiveCardProps) {
   const classes = sizeClasses[size];
   const subtitle = getArchiveCardSubtitle(data);
-  const verificationStatus = getVerificationStatus(data);
   const reasonText = getArchiveReasonDisplay(data.archive_reason);
 
   return (
     <div
       className={`
         relative overflow-hidden rounded-lg
-        bg-gradient-to-b from-gray-900 via-gray-850 to-gray-900
-        border border-gray-700
+        bg-gradient-to-b from-[var(--bg-secondary)] via-[var(--bg-tertiary)] to-[var(--bg-secondary)]
+        border border-[var(--border-primary)]
         ${aspectRatioClasses[aspectRatio]}
-        ${onClick ? 'cursor-pointer hover:border-gray-600 transition-colors' : ''}
+        ${onClick ? 'cursor-pointer hover:border-[var(--border-accent)] transition-colors' : ''}
         ${className}
       `}
       onClick={onClick}
@@ -148,58 +153,67 @@ export function ArchiveCard({
       {/* Content container */}
       <div className="absolute inset-3 flex flex-col items-center justify-center text-center px-2">
         {/* Archive icon */}
-        <div className="mb-2 p-2 rounded-full bg-gray-800/50 border border-gray-700">
-          <Archive className={`${classes.icon} text-gray-500`} />
+        <div className="mb-2 p-2 rounded-full bg-[var(--bg-tertiary)] border border-[var(--border-primary)]">
+          <Archive className={`${classes.icon} text-[var(--text-tertiary)]`} />
         </div>
 
         {/* Title */}
-        <h3 className={`${classes.title} font-bold text-gray-200 line-clamp-2 mb-1`}>
+        <Text
+          as="h3"
+          variant="label"
+          weight="bold"
+          className={`line-clamp-2 mb-1 ${classes.title}`}
+        >
           {data.title}
-        </h3>
+        </Text>
 
         {/* Year */}
         {data.year > 0 && (
-          <span className={`${classes.year} text-gray-400 font-medium mb-1`}>
+          <Text
+            as="span"
+            variant="caption"
+            color="tertiary"
+            weight="medium"
+            className={`mb-1 ${classes.year}`}
+          >
             {data.year}
-          </span>
+          </Text>
         )}
 
         {/* Subtitle (actor, studio) */}
         {subtitle && (
-          <p className={`${classes.subtitle} text-gray-500 line-clamp-1 mb-2`}>
+          <Text
+            variant="caption"
+            color="tertiary"
+            className={`line-clamp-1 mb-2 ${classes.subtitle}`}
+          >
             {subtitle}
-          </p>
+          </Text>
         )}
 
-        {/* Verification badge */}
+        {/* Verification badge - Using StatusBadge primitive */}
         {showDetails && (
-          <div
-            className={`
-              ${classes.badge} rounded-full
-              flex items-center gap-0.5
-              ${data.verified_limitation
-                ? 'bg-green-900/30 text-green-400 border border-green-800'
-                : 'bg-amber-900/30 text-amber-400 border border-amber-800'
-              }
-            `}
+          <StatusBadge
+            status={data.verified_limitation ? 'success' : 'warning'}
+            variant="secondary"
+            size="sm"
+            className={classes.badge}
           >
-            {data.verified_limitation ? (
-              <CheckCircle className="w-2 h-2" />
-            ) : (
-              <AlertCircle className="w-2 h-2" />
-            )}
-            <span className="truncate">
-              {data.verified_limitation ? 'Verified' : 'Archival'}
-            </span>
-          </div>
+            {data.verified_limitation ? 'Verified' : 'Archival'}
+          </StatusBadge>
         )}
       </div>
 
       {/* Bottom label */}
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
-        <p className={`${classes.subtitle} text-gray-400 text-center line-clamp-2`}>
+        <Text
+          variant="caption"
+          color="tertiary"
+          align="center"
+          className={`line-clamp-2 ${classes.subtitle}`}
+        >
           {reasonText}
-        </p>
+        </Text>
       </div>
     </div>
   );
@@ -224,33 +238,33 @@ export function ArchiveCardCompact({
     <div
       className={`
         flex items-center gap-3 p-3 rounded-lg
-        bg-gray-900 border border-gray-800
-        ${onClick ? 'cursor-pointer hover:border-gray-700 transition-colors' : ''}
+        bg-[var(--bg-secondary)] border border-[var(--border-primary)]
+        ${onClick ? 'cursor-pointer hover:border-[var(--border-accent)] transition-colors' : ''}
         ${className}
       `}
       onClick={onClick}
     >
       {/* Icon */}
-      <div className="p-2 rounded-lg bg-gray-800">
-        <Film className="w-5 h-5 text-gray-500" />
+      <div className="p-2 rounded-lg bg-[var(--bg-tertiary)]">
+        <Film className="w-5 h-5 text-[var(--text-tertiary)]" />
       </div>
 
       {/* Content */}
       <div className="flex-1 min-w-0">
-        <h4 className="text-sm font-medium text-gray-200 truncate">
+        <Text variant="caption" weight="medium" truncate>
           {data.title}
-        </h4>
-        <p className="text-xs text-gray-500">
+        </Text>
+        <Text variant="caption" color="tertiary">
           {data.year} • {data.lead_actor || 'Classic Film'}
-        </p>
+        </Text>
       </div>
 
       {/* Status indicator */}
       <div className="flex-shrink-0">
         {data.verified_limitation ? (
-          <CheckCircle className="w-4 h-4 text-green-500" />
+          <CheckCircle className="w-4 h-4 text-[var(--success)]" />
         ) : (
-          <Info className="w-4 h-4 text-amber-500" />
+          <Info className="w-4 h-4 text-[var(--warning)]" />
         )}
       </div>
     </div>
@@ -269,43 +283,48 @@ export function ArchiveCardTooltip({ data }: ArchiveCardTooltipProps) {
   const reasonText = getArchiveReasonDisplay(data.archive_reason);
 
   return (
-    <div className="p-3 max-w-xs bg-gray-900 rounded-lg border border-gray-700 shadow-xl">
+    <div className="p-3 max-w-xs bg-[var(--bg-secondary)] rounded-lg border border-[var(--border-primary)] shadow-xl">
       <div className="flex items-start gap-2 mb-2">
-        <Archive className="w-4 h-4 text-gray-500 mt-0.5" />
+        <Archive className="w-4 h-4 text-[var(--text-tertiary)] mt-0.5" />
         <div>
-          <h4 className="text-sm font-medium text-gray-200">{data.title}</h4>
-          <p className="text-xs text-gray-500">
+          <Text variant="caption" weight="medium">
+            {data.title}
+          </Text>
+          <Text variant="caption" color="tertiary">
             {data.year} • {data.lead_actor || 'Classic Film'}
-          </p>
+          </Text>
         </div>
       </div>
       
-      <div className="text-xs text-gray-400 mb-2">
+      <Text variant="caption" color="secondary" className="mb-2">
         {reasonText}
-      </div>
+      </Text>
 
       <div className="flex items-center gap-1 text-[10px]">
         {data.verified_limitation ? (
           <>
-            <CheckCircle className="w-3 h-3 text-green-500" />
-            <span className="text-green-400">Verified archival limitation</span>
+            <CheckCircle className="w-3 h-3 text-[var(--success)]" />
+            <Text as="span" variant="caption" color="success">
+              Verified archival limitation
+            </Text>
           </>
         ) : (
           <>
-            <AlertCircle className="w-3 h-3 text-amber-500" />
-            <span className="text-amber-400">Pending verification</span>
+            <AlertCircle className="w-3 h-3 text-[var(--warning)]" />
+            <Text as="span" variant="caption" color="warning">
+              Pending verification
+            </Text>
           </>
         )}
       </div>
 
       {data.metadata_source && (
-        <p className="text-[10px] text-gray-600 mt-1">
+        <Text variant="caption" color="tertiary" className="mt-1">
           Source: {data.metadata_source}
-        </p>
+        </Text>
       )}
     </div>
   );
 }
 
 export default ArchiveCard;
-

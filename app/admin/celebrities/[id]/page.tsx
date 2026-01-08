@@ -384,3 +384,5 @@ export default function CelebrityDetailPage({ params }: { params: Promise<{ id: 
 
 
 
+
+

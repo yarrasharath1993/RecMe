@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { createClient } from '@supabase/supabase-js';
 import { Film, Star, Calendar, TrendingUp, Filter } from 'lucide-react';
-import { isMovieUpcoming, getUpcomingLabel } from '@/lib/utils/movie-status';
+import { isMovieUpcoming, getUpcomingLabel, shouldHideRating } from '@/lib/utils/movie-status';
 
 export const revalidate = 3600;
 
@@ -121,6 +121,7 @@ export default async function MoviesPage({ searchParams }: PageProps) {
 function MovieCard({ movie }: { movie: any }) {
   const posterUrl = movie.poster_url || `https://via.placeholder.com/300x450?text=${encodeURIComponent(movie.title_en || 'Movie')}`;
   const isUpcoming = isMovieUpcoming(movie);
+  const hideRating = shouldHideRating(movie); // Hide for upcoming OR no release year
   const upcomingLabel = isUpcoming ? getUpcomingLabel(movie) : '';
 
   const verdictColors: Record<string, string> = {
@@ -166,11 +167,11 @@ function MovieCard({ movie }: { movie: any }) {
         </h3>
         <div className="flex items-center gap-2 mt-1">
           <span className="text-[var(--text-secondary)] text-xs">{movie.release_year}</span>
-          {/* Show rating only for released movies */}
-          {!isUpcoming && movie.avg_rating > 0 && (
+          {/* Show rating only for released movies with complete data */}
+          {!hideRating && (movie.our_rating || movie.avg_rating) > 0 && (
             <span className="flex items-center gap-0.5 text-yellow-400 text-xs">
               <Star className="w-3 h-3 fill-yellow-400" />
-              {movie.avg_rating.toFixed(1)}
+              {(movie.our_rating || movie.avg_rating).toFixed(1)}
             </span>
           )}
         </div>
@@ -198,6 +199,8 @@ function EmptyState({ decade }: { decade?: string }) {
     </div>
   );
 }
+
+
 
 
 

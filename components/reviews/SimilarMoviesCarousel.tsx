@@ -34,107 +34,108 @@ interface SimilarMoviesCarouselProps {
 }
 
 // Section styling configuration - expanded with more types
+// Uses CSS variables for theme-aware backgrounds
 const sectionStyles: Record<string, {
   icon: React.ReactNode;
-  gradient: string;
+  accentFrom: string;
   border: string;
   iconBg: string;
   accent: string;
 }> = {
   best: {
     icon: <Sparkles className="w-3.5 h-3.5" />,
-    gradient: 'from-amber-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-amber-700/40',
-    iconBg: 'bg-amber-500/25',
-    accent: 'text-amber-400',
+    accentFrom: 'from-amber-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-amber-500/20',
+    accent: 'text-[var(--accent-warning)]',
   },
   director: {
     icon: <Clapperboard className="w-3.5 h-3.5" />,
-    gradient: 'from-violet-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-violet-700/40',
-    iconBg: 'bg-violet-500/25',
-    accent: 'text-violet-400',
+    accentFrom: 'from-violet-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-violet-500/20',
+    accent: 'text-[var(--accent-purple)]',
   },
   hero: {
     icon: <User className="w-3.5 h-3.5" />,
-    gradient: 'from-blue-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-blue-700/40',
-    iconBg: 'bg-blue-500/25',
-    accent: 'text-blue-400',
+    accentFrom: 'from-blue-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-blue-500/20',
+    accent: 'text-[var(--accent-info)]',
   },
   heroine: {
     icon: <Heart className="w-3.5 h-3.5" />,
-    gradient: 'from-rose-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-rose-700/40',
-    iconBg: 'bg-rose-500/25',
-    accent: 'text-rose-400',
+    accentFrom: 'from-rose-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-rose-500/20',
+    accent: 'text-rose-500',
   },
   genre: {
     icon: <Tag className="w-3.5 h-3.5" />,
-    gradient: 'from-emerald-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-emerald-700/40',
-    iconBg: 'bg-emerald-500/25',
-    accent: 'text-emerald-400',
+    accentFrom: 'from-emerald-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-emerald-500/20',
+    accent: 'text-[var(--accent-success)]',
   },
   era: {
     icon: <Calendar className="w-3.5 h-3.5" />,
-    gradient: 'from-orange-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-orange-700/40',
-    iconBg: 'bg-orange-500/25',
-    accent: 'text-orange-400',
+    accentFrom: 'from-orange-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-orange-500/20',
+    accent: 'text-[var(--accent-orange)]',
   },
   tags: {
     icon: <Trophy className="w-3.5 h-3.5" />,
-    gradient: 'from-pink-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-pink-700/40',
-    iconBg: 'bg-pink-500/25',
-    accent: 'text-pink-400',
+    accentFrom: 'from-pink-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-pink-500/20',
+    accent: 'text-pink-500',
   },
   rating: {
     icon: <Star className="w-3.5 h-3.5" />,
-    gradient: 'from-yellow-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-yellow-700/40',
-    iconBg: 'bg-yellow-500/25',
-    accent: 'text-yellow-400',
+    accentFrom: 'from-yellow-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-yellow-500/20',
+    accent: 'text-[var(--accent-warning)]',
   },
   classics: {
     icon: <Award className="w-3.5 h-3.5" />,
-    gradient: 'from-indigo-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-indigo-700/40',
-    iconBg: 'bg-indigo-500/25',
-    accent: 'text-indigo-400',
+    accentFrom: 'from-indigo-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-indigo-500/20',
+    accent: 'text-indigo-500',
   },
   blockbusters: {
     icon: <Flame className="w-3.5 h-3.5" />,
-    gradient: 'from-red-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-red-700/40',
-    iconBg: 'bg-red-500/25',
-    accent: 'text-red-400',
+    accentFrom: 'from-red-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-red-500/20',
+    accent: 'text-red-500',
   },
   recent: {
     icon: <Sparkles className="w-3.5 h-3.5" />,
-    gradient: 'from-cyan-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-cyan-700/40',
-    iconBg: 'bg-cyan-500/25',
-    accent: 'text-cyan-400',
+    accentFrom: 'from-cyan-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-cyan-500/20',
+    accent: 'text-cyan-500',
   },
   music: {
     icon: <Music className="w-3.5 h-3.5" />,
-    gradient: 'from-fuchsia-950/50 via-gray-900/70 to-gray-900/50',
-    border: 'border-fuchsia-700/40',
-    iconBg: 'bg-fuchsia-500/25',
-    accent: 'text-fuchsia-400',
+    accentFrom: 'from-fuchsia-500/10',
+    border: 'border-[var(--border-primary)]',
+    iconBg: 'bg-fuchsia-500/20',
+    accent: 'text-fuchsia-500',
   },
 };
 
 // Single section carousel component - compact design for 50% width grid
-function SectionCarousel({ 
-  movies, 
-  title, 
+function SectionCarousel({
+  movies,
+  title,
   subtitle,
   matchType = 'best',
-}: { 
-  movies: SimilarMovie[]; 
+}: {
+  movies: SimilarMovie[];
   title: string;
   subtitle?: string;
   matchType?: string;
@@ -185,15 +186,18 @@ function SectionCarousel({
   if (!movies || movies.length === 0) return null;
 
   const style = sectionStyles[matchType] || sectionStyles.best;
-  
+
   // Compact card sizes for 50% width layout
   const cardWidth = 'w-24 md:w-28';
   const posterSize = '(max-width: 768px) 96px, 112px';
 
   return (
-    <div className={`rounded-lg border ${style.border} bg-gradient-to-br ${style.gradient} overflow-hidden h-full`}>
+    <div
+      className={`rounded-lg border ${style.border} overflow-hidden h-full bg-gradient-to-br ${style.accentFrom} to-transparent`}
+      style={{ backgroundColor: 'var(--bg-section)' }}
+    >
       {/* Header - Fixed layout to prevent overflow */}
-      <div className="flex items-center justify-between gap-2 px-3 py-2 border-b border-white/5 min-w-0">
+      <div className="flex items-center justify-between gap-2 px-3 py-2 border-b border-[var(--border-primary)]/30 min-w-0">
         {/* Title section with flex-shrink */}
         <div className="flex items-center gap-2 min-w-0 flex-1">
           <div className={`p-1.5 rounded-md ${style.iconBg} flex-shrink-0`}>
@@ -204,11 +208,11 @@ function SectionCarousel({
           <div className="min-w-0 flex-1">
             <h3 className="text-xs font-semibold text-[var(--text-primary)] truncate">{title}</h3>
             {subtitle && (
-              <p className="text-[10px] text-gray-500 truncate">{subtitle}</p>
+              <p className="text-[10px] text-[var(--text-tertiary)] truncate">{subtitle}</p>
             )}
           </div>
         </div>
-        
+
         {/* Scroll buttons - fixed width, no shrink */}
         <div className="flex items-center gap-1 flex-shrink-0">
           <button
@@ -216,8 +220,8 @@ function SectionCarousel({
             disabled={!canScrollLeft}
             className={`p-1 rounded-full transition-all ${
               canScrollLeft
-                ? 'bg-white/10 hover:bg-white/20 text-[var(--text-primary)]'
-                : 'bg-white/5 text-gray-600 cursor-not-allowed'
+                ? 'bg-[var(--bg-hover)] hover:bg-[var(--bg-active)] text-[var(--text-primary)]'
+                : 'bg-[var(--bg-secondary)] text-[var(--text-disabled)] cursor-not-allowed'
             }`}
             aria-label="Scroll left"
           >
@@ -228,8 +232,8 @@ function SectionCarousel({
             disabled={!canScrollRight}
             className={`p-1 rounded-full transition-all ${
               canScrollRight
-                ? 'bg-white/10 hover:bg-white/20 text-[var(--text-primary)]'
-                : 'bg-white/5 text-gray-600 cursor-not-allowed'
+                ? 'bg-[var(--bg-hover)] hover:bg-[var(--bg-active)] text-[var(--text-primary)]'
+                : 'bg-[var(--bg-secondary)] text-[var(--text-disabled)] cursor-not-allowed'
             }`}
             aria-label="Scroll right"
           >
@@ -259,7 +263,7 @@ function SectionCarousel({
                 }`}
               >
                 <Link href={`/reviews/${movie.slug}`} className="block group">
-                  <div className="relative aspect-[2/3] rounded-md overflow-hidden bg-[var(--bg-secondary)]/50 ring-1 ring-white/10 group-hover:ring-white/30 transition-all shadow-md">
+                  <div className="relative aspect-[2/3] rounded-md overflow-hidden bg-[var(--bg-secondary)] ring-1 ring-[var(--border-primary)] group-hover:ring-[var(--border-accent)] transition-all shadow-md">
                     {movie.poster_url ? (
                       <Image
                         src={movie.poster_url}
@@ -270,15 +274,15 @@ function SectionCarousel({
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">
-                        <Film className="w-6 h-6 text-gray-600" />
+                        <Film className="w-6 h-6 text-[var(--text-disabled)]" />
                       </div>
                     )}
 
                     {/* Rating Badge */}
                     {movie.avg_rating && movie.avg_rating > 0 && (
                       <div className="absolute top-1 right-1 flex items-center gap-0.5 px-1 py-0.5 bg-black/75 backdrop-blur-sm rounded text-[9px] font-semibold">
-                        <Star className="w-2 h-2 text-amber-400 fill-amber-400" />
-                        <span className="text-[var(--text-primary)]">{movie.avg_rating.toFixed(1)}</span>
+                        <Star className="w-2 h-2 text-[var(--accent-warning)] fill-current" />
+                        <span className="text-white">{movie.avg_rating.toFixed(1)}</span>
                       </div>
                     )}
 
@@ -288,15 +292,15 @@ function SectionCarousel({
                         hoveredId === movie.id ? 'opacity-100' : 'opacity-0'
                       }`}
                     >
-                      <h4 className="text-[var(--text-primary)] font-medium text-[10px] leading-tight line-clamp-2">
+                      <h4 className="text-white font-medium text-[10px] leading-tight line-clamp-2">
                         {movie.title_en}
                       </h4>
-                      
-                      <div className="flex items-center gap-1 text-[var(--text-secondary)] text-[8px] mt-0.5">
+
+                      <div className="flex items-center gap-1 text-gray-300 text-[8px] mt-0.5">
                         {movie.release_year && <span>{movie.release_year}</span>}
                         {movie.genres && movie.genres[0] && (
                           <>
-                            <span className="text-gray-600">•</span>
+                            <span className="text-gray-500">•</span>
                             <span className="truncate">{movie.genres[0]}</span>
                           </>
                         )}
@@ -307,8 +311,8 @@ function SectionCarousel({
 
                 {/* Title below poster */}
                 <div className={`mt-1.5 transition-opacity duration-150 ${hoveredId === movie.id ? 'md:opacity-0' : 'opacity-100'}`}>
-                  <p className="text-gray-200 text-[10px] font-medium truncate">{movie.title_en}</p>
-                  <p className="text-gray-500 text-[9px] truncate">
+                  <p className="text-[var(--text-primary)] text-[10px] font-medium truncate">{movie.title_en}</p>
+                  <p className="text-[var(--text-tertiary)] text-[9px] truncate">
                     {movie.release_year}
                   </p>
                 </div>
@@ -326,9 +330,9 @@ export function SimilarMoviesCarousel({ movies, sections, title = "Similar Movie
   if (sections && sections.length > 0) {
     // Filter sections with at least 3 movies
     const validSections = sections.filter(s => s.movies.length >= 3);
-    
+
     if (validSections.length === 0) return null;
-    
+
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {validSections.map((section) => (
@@ -343,7 +347,7 @@ export function SimilarMoviesCarousel({ movies, sections, title = "Similar Movie
       </div>
     );
   }
-  
+
   // Fallback: single section wrapped in grid
   if (movies && movies.length > 0) {
     return (
@@ -356,6 +360,6 @@ export function SimilarMoviesCarousel({ movies, sections, title = "Similar Movie
       </div>
     );
   }
-  
+
   return null;
 }

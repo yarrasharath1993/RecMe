@@ -1,0 +1,1872 @@
+{
+  "generatedAt": "2026-01-06T23:00:54.464Z",
+  "totalMovies": 10,
+  "metrics": {
+    "avgConfidence": 0.7240584297810033,
+    "moviesNeedingReview": 7,
+    "autoApplicable": 3,
+    "gradeDistribution": {
+      "A": 0,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "F": 0
+    }
+  },
+  "commonIssues": [
+    {
+      "field": "language",
+      "count": 10,
+      "severity": "info"
+    },
+    {
+      "field": "release_date",
+      "count": 7,
+      "severity": "critical"
+    },
+    {
+      "field": "awards",
+      "count": 7,
+      "severity": "info"
+    },
+    {
+      "field": "synopsis",
+      "count": 6,
+      "severity": "warning"
+    },
+    {
+      "field": "hero",
+      "count": 4,
+      "severity": "critical"
+    },
+    {
+      "field": "title",
+      "count": 3,
+      "severity": "critical"
+    },
+    {
+      "field": "rating",
+      "count": 3,
+      "severity": "warning"
+    },
+    {
+      "field": "director",
+      "count": 1,
+      "severity": "critical"
+    },
+    {
+      "field": "heroine",
+      "count": 1,
+      "severity": "info"
+    },
+    {
+      "field": "poster_url",
+      "count": 1,
+      "severity": "info"
+    },
+    {
+      "field": "backdrop_url",
+      "count": 1,
+      "severity": "info"
+    }
+  ],
+  "moviesByStatus": {
+    "verified": [],
+    "autoApplicable": [
+      "f08bd1ee-a329-4ea7-a792-d28f876a4d4c",
+      "4ecb9fda-2af1-4d4b-a558-a86735425de6",
+      "bb4d0170-7d8a-4e31-9294-bef20df5563c"
+    ],
+    "needsReview": [
+      "9c2982d1-29e1-43f1-b6dc-00d7e9b7c889",
+      "c1d72cab-a3c4-4203-b208-2a26884920d0",
+      "17a2f543-2189-410f-9341-c848a9750168",
+      "4edf9132-9816-4c57-a569-1c152f688f2d",
+      "ede2f145-a46a-439a-8c6f-1c755c69f76f",
+      "2526bbf3-a8c0-4df8-9c26-67e54e88ee82",
+      "f5cfc89d-bb12-4959-975b-12ae789fe0d4"
+    ],
+    "lowQuality": []
+  },
+  "reports": [
+    {
+      "movieId": "9c2982d1-29e1-43f1-b6dc-00d7e9b7c889",
+      "title": "Nagabandham",
+      "generatedAt": "2026-01-06T23:00:54.462Z",
+      "qualityMetrics": {
+        "grade": "D",
+        "confidence": 0.7449285714285715,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 4,
+        "discrepancyCount": 6,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Abhishek Nama",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "verified"
+        },
+        "heroine": {
+          "value": "Nabha Natesh",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/7r4QUxZ454CSIRLWa1vjNyBG5xk.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "title",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "Nagabandham - The Secret Treasure",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "Nagabandham",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Nagabandham",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "hero",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Virat Karrna",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "Nabha Natesh",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "Nabha Natesh",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "synopsis",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Nagabandham is a Telugu film that likely revolves around a dramatic storyline, given the title's reference to a snake's bond, with Virat Karrna and Nabha Natesh playing key roles. The plot may explore themes of loyalty, friendship, or romance, set against a backdrop that could involve mythology, drama, or action. As the director Abhishek Nama is at the helm, the movie might blend elements of suspense and intrigue, typical of Telugu cinema.",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Nagabandham - Verification Summary\n==================================================\n\nQuality Grade: 🟠 D (74% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   director: Abhishek Nama\n      [internal, omdb, tmdb] (100%)\n   heroine: Nabha Natesh\n      [internal, tmdb] (100%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/7r4QUxZ454CSIRLWa1...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 title:\n      - omdb: Nagabandham - The Secret Treasure\n      - tmdb: Nagabandham\n      ⚡ Requires manual review\n   🔴 release_date:\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🔵 hero:\n      - internal: Virat Karrna\n      - omdb: Nabha Natesh\n      ⚡ Requires manual review\n   🟡 synopsis:\n      - internal: Nagabandham is a Telugu film that likely...\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "director",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Abhishek Nama"
+        },
+        {
+          "type": "auto_apply",
+          "field": "heroine",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Nabha Natesh"
+        },
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/7r4QUxZ454CSIRLWa1vjNyBG5xk.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "title",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "Nagabandham"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "N/A"
+        },
+        {
+          "type": "manual_review",
+          "field": "hero",
+          "reason": "info discrepancy between 2 sources",
+          "suggestedValue": "Nabha Natesh"
+        },
+        {
+          "type": "manual_review",
+          "field": "synopsis",
+          "reason": "warning discrepancy between 3 sources",
+          "suggestedValue": ""
+        }
+      ]
+    },
+    {
+      "movieId": "c1d72cab-a3c4-4203-b208-2a26884920d0",
+      "title": "Pre-production",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "D",
+        "confidence": 0.7235666666666667,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 3,
+        "discrepancyCount": 7,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Sai Kumar Titti",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/uUFrsxjKOKzfGVxBI4toyKnlcQl.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "title",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "Indiana Jones 4: Pre-production",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "Pre-Production",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Pre-Production",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "hero",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Jay Dheep Sampath",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "Daniel D. Gregoire",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "Daniel D. Gregoire",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "synopsis",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Pre-production is a drama film directed by Sai Kumar Titti, starring Jay Dheep Sampath in the lead role. The movie likely explores themes of struggle, perseverance, and self-discovery, as the title 'Pre-production' suggests a story that delves into the behind-the-scenes aspects of life or a creative process. With no female lead, the film may focus on the protagonist's solo journey or male-dominated relationships.",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "A group of friends plan to make their first short film.",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "A group of friends plan to make their first short film.",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "rating",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": 7.2,
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": 0,
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": 4.5,
+          "recommendedSource": "imdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Pre-production - Verification Summary\n==================================================\n\nQuality Grade: 🟠 D (72% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   director: Sai Kumar Titti\n      [internal, omdb, tmdb] (97%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/uUFrsxjKOKzfGVxBI4...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 title:\n      - omdb: Indiana Jones 4: Pre-production\n      - tmdb: Pre-Production\n      ⚡ Requires manual review\n   🔴 release_date:\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🔵 hero:\n      - internal: Jay Dheep Sampath\n      - omdb: Daniel D. Gregoire\n      ⚡ Requires manual review\n   🟡 synopsis:\n      - internal: Pre-production is a drama film directed ...\n      - omdb: N/A\n      - tmdb: A group of friends plan to make their fi...\n      ⚡ Requires manual review\n   🟡 rating:\n      - omdb: 7.2\n      - tmdb: 0\n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/uUFrsxjKOKzfGVxBI4toyKnlcQl.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "title",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "Pre-Production"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "N/A"
+        },
+        {
+          "type": "manual_review",
+          "field": "hero",
+          "reason": "info discrepancy between 2 sources",
+          "suggestedValue": "Daniel D. Gregoire"
+        },
+        {
+          "type": "manual_review",
+          "field": "synopsis",
+          "reason": "warning discrepancy between 3 sources",
+          "suggestedValue": "A group of friends plan to make their first short film."
+        },
+        {
+          "type": "manual_review",
+          "field": "rating",
+          "reason": "warning discrepancy between 2 sources",
+          "suggestedValue": 4.5
+        }
+      ]
+    },
+    {
+      "movieId": "17a2f543-2189-410f-9341-c848a9750168",
+      "title": "SANCTITY",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "C",
+        "confidence": 0.7129666666666666,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 5,
+        "discrepancyCount": 4,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "title": {
+          "value": "SANCTITY",
+          "confidence": 0.8910000000000001,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "director": {
+          "value": "Arjun kishan",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "synopsis": {
+          "value": "Set over the course of a single day, Sanctity follows Sastry, a reserved ITI repair student burdened by the weight of his sister’s urgent chemotherapy. The only person supporting their struggling family is Kumar Sir, a beloved teacher Sastry trusts like a father. But when Sastry accidentally discovers a disturbing truth hidden within the college’s CCTV system, his world collapses in a moment. Torn between loyalty and justice, gratitude and guilt, he is forced into a moral crossroads no student should ever face. As the day unfolds, Sastry must decide whether to protect the man who helped save his family or stand up for the dignity of a girl who suffered silently. His choice will redefine the meaning of right and wrong.",
+          "confidence": 0.756,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/tl3AdOyavaFN338Kt6G5sgT69k6.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "hero",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "rakesh",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "Andrew Amani",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "Andrew Amani",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "SANCTITY - Verification Summary\n==================================================\n\nQuality Grade: 🟡 C (71% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   title: SANCTITY\n      [omdb, tmdb] (89%)\n   director: Arjun kishan\n      [internal, omdb, tmdb] (97%)\n   synopsis: Set over the course of a single day, Sanctity foll...\n      [internal, omdb, tmdb] (76%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/tl3AdOyavaFN338Kt6...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 release_date:\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🔵 hero:\n      - internal: rakesh\n      - omdb: Andrew Amani\n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/tl3AdOyavaFN338Kt6G5sgT69k6.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "N/A"
+        },
+        {
+          "type": "manual_review",
+          "field": "hero",
+          "reason": "info discrepancy between 2 sources",
+          "suggestedValue": "Andrew Amani"
+        }
+      ]
+    },
+    {
+      "movieId": "4edf9132-9816-4c57-a569-1c152f688f2d",
+      "title": "Legacy",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "D",
+        "confidence": 0.7643235294117647,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 3,
+        "discrepancyCount": 9,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "title": {
+          "value": "Legacy",
+          "confidence": 0.8910000000000001,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "synopsis": {
+          "value": "While on a hunting trip in the isolated wilderness, a father and his adopted teenage son are turned into the prey of unknown assailants. They are unexpectedly joined in their fight for survival by a stranger who reveals the disturbing truth about the son's biological father, an international crime lord, and why that crime lord has sent trained assassins to kill the teenager.",
+          "confidence": 0.756,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "11 Mar 2011",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "2020-05-28",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "11 Mar 2011",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "director",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Saikiran Daida",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "Eromose",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "R. Ellis Frazier",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "R. Ellis Frazier",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "hero",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Vishwak Sen",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "Idris Elba",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "Luke Goss",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Luke Goss",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "heroine",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "No Female Lead",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "Amber Pauline",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Amber Pauline",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "rating",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": 5.1,
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": 6.2,
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": 5.5,
+          "recommendedSource": "imdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [
+                {
+                  "name": "1 win & 3 nominations",
+                  "type": "summary",
+                  "count": 4
+                }
+              ],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "1 win & 3 nominations",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "1 win & 3 nominations",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "en",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "en",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "poster_url",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "https://image.tmdb.org/t/p/w500/bVUkNQQrfaeTZPuxJzcY6qxzIiS.jpg",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "https://image.tmdb.org/t/p/w500/pVmhj0GviejGyPucs2JkyJ3NdZu.jpg",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "https://image.tmdb.org/t/p/w500/pVmhj0GviejGyPucs2JkyJ3NdZu.jpg",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "backdrop_url",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "https://image.tmdb.org/t/p/w1280/yYbiTAjzb1jsfj6GQcv3lZpSePp.jpg",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "https://image.tmdb.org/t/p/w1280/xEibikizty3JTCa0UvWay5rLi6c.jpg",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "https://image.tmdb.org/t/p/w1280/xEibikizty3JTCa0UvWay5rLi6c.jpg",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Legacy - Verification Summary\n==================================================\n\nQuality Grade: 🟠 D (76% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   title: Legacy\n      [omdb, tmdb] (89%)\n   synopsis: While on a hunting trip in the isolated wilderness...\n      [internal, omdb, tmdb] (76%)\n   genre: []\n      [omdb, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 release_date:\n      - omdb: 11 Mar 2011\n      - tmdb: 2020-05-28\n      ⚡ Requires manual review\n   🔴 director:\n      - internal: Saikiran Daida\n      - omdb: Eromose\n      - tmdb: R. Ellis Frazier\n      ⚡ Requires manual review\n   🔴 hero:\n      - internal: Vishwak Sen\n      - omdb: Idris Elba\n      - tmdb: Luke Goss\n      ⚡ Requires manual review\n   🔵 heroine:\n      - internal: No Female Lead\n      - tmdb: Amber Pauline\n   🟡 rating:\n      - omdb: 5.1\n      - tmdb: 6.2\n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: [{\"name\":\"1 win & 3 nominations\",\"type\":...\n      - omdb: 1 win & 3 nominations\n   🔵 language:\n      - internal: Telugu\n      - tmdb: en\n   🔵 poster_url:\n      - internal: https://image.tmdb.org/t/p/w500/bVUkNQQr...\n      - tmdb: https://image.tmdb.org/t/p/w500/pVmhj0Gv...\n   🔵 backdrop_url:\n      - internal: https://image.tmdb.org/t/p/w1280/yYbiTAj...\n      - tmdb: https://image.tmdb.org/t/p/w1280/xEibiki...\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "11 Mar 2011"
+        },
+        {
+          "type": "manual_review",
+          "field": "director",
+          "reason": "critical discrepancy between 3 sources",
+          "suggestedValue": "R. Ellis Frazier"
+        },
+        {
+          "type": "manual_review",
+          "field": "hero",
+          "reason": "critical discrepancy between 3 sources",
+          "suggestedValue": "Luke Goss"
+        },
+        {
+          "type": "manual_review",
+          "field": "rating",
+          "reason": "warning discrepancy between 2 sources",
+          "suggestedValue": 5.5
+        }
+      ]
+    },
+    {
+      "movieId": "f08bd1ee-a329-4ea7-a792-d28f876a4d4c",
+      "title": "Anaganaga Oka Rowdy",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "C",
+        "confidence": 0.721,
+        "sourcesUsed": 2,
+        "verifiedFieldCount": 5,
+        "discrepancyCount": 2,
+        "needsManualReview": false
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Manu Yagnaa",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "hero": {
+          "value": "Sumanth",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 0.81,
+          "sources": [
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/1GgBACIEoXXxUpiBaaLhIeFsj1u.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "backdrop_url": {
+          "value": "https://image.tmdb.org/t/p/w1280/x6Ui05zi4vKxPgV4m1kUvYrutrp.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "synopsis",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Anaganaga Oka Rowdy is an action-comedy film that likely revolves around the story of a rowdy or a troublemaker, played by Sumanth, who gets entangled in a series of comedic misadventures and action-packed situations. The movie may explore themes of friendship, loyalty, and redemption, with the protagonist navigating through various challenges. With no female lead, the film might focus on the hero's solo journey and his interactions with other supporting characters.",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Anaganaga Oka Rowdy - Verification Summary\n==================================================\n\nQuality Grade: 🟡 C (72% confidence)\nSources: 2 active\n\n✅ VERIFIED FACTS:\n   director: Manu Yagnaa\n      [internal, tmdb] (100%)\n   hero: Sumanth\n      [internal, tmdb] (100%)\n   genre: []\n      [tmdb] (81%)\n   poster_url: https://image.tmdb.org/t/p/w500/1GgBACIEoXXxUpiBaa...\n      [internal, tmdb] (100%)\n   backdrop_url: https://image.tmdb.org/t/p/w1280/x6Ui05zi4vKxPgV4m...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔵 synopsis:\n      - internal: Anaganaga Oka Rowdy is an action-comedy ...\n      - tmdb: \n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION: Consider additional data sources",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "director",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Manu Yagnaa"
+        },
+        {
+          "type": "auto_apply",
+          "field": "hero",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Sumanth"
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/1GgBACIEoXXxUpiBaaLhIeFsj1u.jpg"
+        },
+        {
+          "type": "auto_apply",
+          "field": "backdrop_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w1280/x6Ui05zi4vKxPgV4m1kUvYrutrp.jpg"
+        }
+      ]
+    },
+    {
+      "movieId": "ede2f145-a46a-439a-8c6f-1c755c69f76f",
+      "title": "Mysaa",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "B",
+        "confidence": 0.7551625,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 8,
+        "discrepancyCount": 3,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "title": {
+          "value": "Mysaa",
+          "confidence": 0.8910000000000001,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "director": {
+          "value": "Rawindra Pulle",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "hero": {
+          "value": "Guru Somasundaram",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "heroine": {
+          "value": "Rashmika Mandanna",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "synopsis": {
+          "value": "Unafraid of war and unwilling to stop until she finds that one answer. She carries no doubts. Only the ache of an answer she's searched her whole life.",
+          "confidence": 0.8316000000000001,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "verified"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/tX6l2OQZfzSrqXSeqqj5wictfed.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "backdrop_url": {
+          "value": "https://image.tmdb.org/t/p/w1280/eomkOPUAGgNoTXhgvcgkrBtTBGF.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Mysaa - Verification Summary\n==================================================\n\nQuality Grade: 🔵 B (76% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   title: Mysaa\n      [omdb, tmdb] (89%)\n   director: Rawindra Pulle\n      [internal, omdb, tmdb] (97%)\n   hero: Guru Somasundaram\n      [internal, omdb, tmdb] (97%)\n   heroine: Rashmika Mandanna\n      [internal, tmdb] (100%)\n   synopsis: Unafraid of war and unwilling to stop until she fi...\n      [internal, omdb, tmdb] (83%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/tX6l2OQZfzSrqXSeqq...\n      [internal, tmdb] (100%)\n   backdrop_url: https://image.tmdb.org/t/p/w1280/eomkOPUAGgNoTXhgv...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 release_date:\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "heroine",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Rashmika Mandanna"
+        },
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/tX6l2OQZfzSrqXSeqqj5wictfed.jpg"
+        },
+        {
+          "type": "auto_apply",
+          "field": "backdrop_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w1280/eomkOPUAGgNoTXhgvcgkrBtTBGF.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "N/A"
+        }
+      ]
+    },
+    {
+      "movieId": "2526bbf3-a8c0-4df8-9c26-67e54e88ee82",
+      "title": "Sahaa",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "D",
+        "confidence": 0.72803125,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 5,
+        "discrepancyCount": 5,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Nishanth Doti",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "hero": {
+          "value": "Kumar Kasaaram",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "heroine": {
+          "value": "Swetha Saluru",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/wgApKzAbl2vXmVtvKQwCEMY1ojm.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "title",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "Suomi sahaa",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "Sahaa",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Sahaa",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "synopsis",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Sahaa is a romantic comedy that follows the story of a young man, played by Kumar Kasaaram, as he navigates love and relationships, likely with the help of his romantic interest, played by Swetha Saluru. Along the way, he encounters various comedic misadventures that test his feelings and resolve. The film's lighthearted tone and romantic themes are set to a soundtrack composed by Shekar Chandra.",
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "Life of Sanju  “A romantic comedy that unveils Sanju’s deeply passionate and unwavering love story.”",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Life of Sanju  “A romantic comedy that unveils Sanju’s deeply passionate and unwavering love story.”",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Sahaa - Verification Summary\n==================================================\n\nQuality Grade: 🟠 D (73% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   director: Nishanth Doti\n      [internal, omdb, tmdb] (97%)\n   hero: Kumar Kasaaram\n      [internal, omdb, tmdb] (97%)\n   heroine: Swetha Saluru\n      [internal, tmdb] (100%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/wgApKzAbl2vXmVtvKQ...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 title:\n      - omdb: Suomi sahaa\n      - tmdb: Sahaa\n      ⚡ Requires manual review\n   🔴 release_date:\n      - omdb: N/A\n      - tmdb: \n      ⚡ Requires manual review\n   🟡 synopsis:\n      - internal: Sahaa is a romantic comedy that follows ...\n      - omdb: N/A\n      - tmdb: Life of Sanju  “A romantic comedy that u...\n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "heroine",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Swetha Saluru"
+        },
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/wgApKzAbl2vXmVtvKQwCEMY1ojm.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "title",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "Sahaa"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "N/A"
+        },
+        {
+          "type": "manual_review",
+          "field": "synopsis",
+          "reason": "warning discrepancy between 3 sources",
+          "suggestedValue": "Life of Sanju  “A romantic comedy that unveils Sanju’s deeply passionate and unwavering love story.”"
+        }
+      ]
+    },
+    {
+      "movieId": "f5cfc89d-bb12-4959-975b-12ae789fe0d4",
+      "title": "Baa Baa Black Sheep",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "C",
+        "confidence": 0.71621875,
+        "sourcesUsed": 3,
+        "verifiedFieldCount": 6,
+        "discrepancyCount": 4,
+        "needsManualReview": true
+      },
+      "verifiedFacts": {
+        "title": {
+          "value": "Baa Baa Black Sheep",
+          "confidence": 0.8910000000000001,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "director": {
+          "value": "Guni Manchikanti",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "hero": {
+          "value": "Vishnu Oi",
+          "confidence": 0.972,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "synopsis": {
+          "value": "",
+          "confidence": 0.756,
+          "sources": [
+            "internal",
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 1,
+          "sources": [
+            "omdb",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/cnQYZLchDlwMqOGsjflyvuidXMm.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "release_date",
+          "severity": "critical",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": "16 Feb 1977",
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": "",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "16 Feb 1977",
+          "recommendedSource": "omdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "rating",
+          "severity": "warning",
+          "sources": [
+            {
+              "name": "omdb",
+              "value": 7.3,
+              "trust": 0.85
+            },
+            {
+              "name": "tmdb",
+              "value": 0,
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": 4.6,
+          "recommendedSource": "imdb",
+          "requiresManualReview": true
+        },
+        {
+          "field": "awards",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": [],
+              "trust": 0.7
+            },
+            {
+              "name": "omdb",
+              "value": "N/A",
+              "trust": 0.85
+            }
+          ],
+          "recommendedValue": "N/A",
+          "recommendedSource": "omdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Baa Baa Black Sheep - Verification Summary\n==================================================\n\nQuality Grade: 🟡 C (72% confidence)\nSources: 3 active\n\n✅ VERIFIED FACTS:\n   title: Baa Baa Black Sheep\n      [omdb, tmdb] (89%)\n   director: Guni Manchikanti\n      [internal, omdb, tmdb] (97%)\n   hero: Vishnu Oi\n      [internal, omdb, tmdb] (97%)\n   synopsis: \n      [internal, omdb, tmdb] (76%)\n   genre: []\n      [omdb, tmdb] (100%)\n   poster_url: https://image.tmdb.org/t/p/w500/cnQYZLchDlwMqOGsjf...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔴 release_date:\n      - omdb: 16 Feb 1977\n      - tmdb: \n      ⚡ Requires manual review\n   🟡 rating:\n      - omdb: 7.3\n      - tmdb: 0\n      ⚡ Requires manual review\n   🔵 awards:\n      - internal: []\n      - omdb: N/A\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION NEEDED: Manual review required",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "genre",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": []
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/cnQYZLchDlwMqOGsjflyvuidXMm.jpg"
+        },
+        {
+          "type": "manual_review",
+          "field": "release_date",
+          "reason": "critical discrepancy between 2 sources",
+          "suggestedValue": "16 Feb 1977"
+        },
+        {
+          "type": "manual_review",
+          "field": "rating",
+          "reason": "warning discrepancy between 2 sources",
+          "suggestedValue": 4.6
+        }
+      ]
+    },
+    {
+      "movieId": "4ecb9fda-2af1-4d4b-a558-a86735425de6",
+      "title": "Reppa",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "C",
+        "confidence": 0.69775,
+        "sourcesUsed": 2,
+        "verifiedFieldCount": 4,
+        "discrepancyCount": 2,
+        "needsManualReview": false
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Filmian",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "hero": {
+          "value": "Suhas",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 0.81,
+          "sources": [
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/yLXxUAuodQhnwV9DLmn82DEmDlv.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "synopsis",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Reppa is a drama, romance, and fantasy film that follows the story of a young man, played by Suhas, who navigates love, relationships, and the supernatural. Alongside Harshitha, he embarks on a journey that explores the complexities of human emotions and the mysteries of the unknown. As the story unfolds, the lines between reality and fantasy blur, leading to a poignant and thought-provoking conclusion.",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "Reppa is the first Indian short film with LSST as genre written and directed by Filmian, the maker of the front page short film.",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "Reppa is the first Indian short film with LSST as genre written and directed by Filmian, the maker of the front page short film.",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "Reppa - Verification Summary\n==================================================\n\nQuality Grade: 🟡 C (70% confidence)\nSources: 2 active\n\n✅ VERIFIED FACTS:\n   director: Filmian\n      [internal, tmdb] (100%)\n   hero: Suhas\n      [internal, tmdb] (100%)\n   genre: []\n      [tmdb] (81%)\n   poster_url: https://image.tmdb.org/t/p/w500/yLXxUAuodQhnwV9DLm...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔵 synopsis:\n      - internal: Reppa is a drama, romance, and fantasy f...\n      - tmdb: Reppa is the first Indian short film wit...\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION: Consider additional data sources",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "director",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Filmian"
+        },
+        {
+          "type": "auto_apply",
+          "field": "hero",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Suhas"
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/yLXxUAuodQhnwV9DLmn82DEmDlv.jpg"
+        }
+      ]
+    },
+    {
+      "movieId": "bb4d0170-7d8a-4e31-9294-bef20df5563c",
+      "title": "As Time Echoes",
+      "generatedAt": "2026-01-06T23:00:54.463Z",
+      "qualityMetrics": {
+        "grade": "C",
+        "confidence": 0.6766363636363636,
+        "sourcesUsed": 2,
+        "verifiedFieldCount": 3,
+        "discrepancyCount": 2,
+        "needsManualReview": false
+      },
+      "verifiedFacts": {
+        "director": {
+          "value": "Sahith Mucherla",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "genre": {
+          "value": [],
+          "confidence": 0.81,
+          "sources": [
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        },
+        "poster_url": {
+          "value": "https://image.tmdb.org/t/p/w500/rW3IT06JWU4o6l97d0xjnr1Q2S7.jpg",
+          "confidence": 1,
+          "sources": [
+            "internal",
+            "tmdb"
+          ],
+          "verificationLevel": "inferred"
+        }
+      },
+      "discrepancies": [
+        {
+          "field": "synopsis",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "As Time Echoes is a film that explores the concept of time and its impact on human life, with Akash Reddy Purma playing the lead role. The story may delve into themes of nostalgia, memories, and the passage of time, as the title suggests. Without a female lead, the movie might focus on the protagonist's solo journey or friendships, navigating the complexities of time and its echoes.",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "“Photographs open doors into the past but they also allow a look into the future.”",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "“Photographs open doors into the past but they also allow a look into the future.”",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        },
+        {
+          "field": "language",
+          "severity": "info",
+          "sources": [
+            {
+              "name": "internal",
+              "value": "Telugu",
+              "trust": 0.7
+            },
+            {
+              "name": "tmdb",
+              "value": "te",
+              "trust": 0.9
+            }
+          ],
+          "recommendedValue": "te",
+          "recommendedSource": "tmdb",
+          "requiresManualReview": false
+        }
+      ],
+      "summary": "As Time Echoes - Verification Summary\n==================================================\n\nQuality Grade: 🟡 C (68% confidence)\nSources: 2 active\n\n✅ VERIFIED FACTS:\n   director: Sahith Mucherla\n      [internal, tmdb] (100%)\n   genre: []\n      [tmdb] (81%)\n   poster_url: https://image.tmdb.org/t/p/w500/rW3IT06JWU4o6l97d0...\n      [internal, tmdb] (100%)\n\n⚠️ DISCREPANCIES:\n   🔵 synopsis:\n      - internal: As Time Echoes is a film that explores t...\n      - tmdb: “Photographs open doors into the past bu...\n   🔵 language:\n      - internal: Telugu\n      - tmdb: te\n\n📋 ACTION: Consider additional data sources",
+      "actions": [
+        {
+          "type": "auto_apply",
+          "field": "director",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "Sahith Mucherla"
+        },
+        {
+          "type": "auto_apply",
+          "field": "poster_url",
+          "reason": "High confidence unanimous agreement",
+          "suggestedValue": "https://image.tmdb.org/t/p/w500/rW3IT06JWU4o6l97d0xjnr1Q2S7.jpg"
+        }
+      ]
+    }
+  ]
+}

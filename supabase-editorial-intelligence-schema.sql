@@ -477,3 +477,5 @@ CREATE TRIGGER trigger_summary_gates
 
 
 
+
+

@@ -1,11 +1,11 @@
 #!/usr/bin/env npx tsx
 /**
- * CAST & CREW ENRICHMENT SCRIPT (Enhanced v2.0)
+ * CAST & CREW ENRICHMENT SCRIPT (Enhanced v3.0)
  *
  * Enriches movies with complete cast and crew data from multiple sources
  * using parallel execution and the waterfall pattern.
  *
- * EXTENDED DATA (v2.0):
+ * EXTENDED DATA (v3.0):
  * - Hero, Heroine, Director (existing)
  * - Music Director
  * - Producer
@@ -23,14 +23,22 @@
  *   1. TMDB Credits API (if tmdb_id exists) - Best for all fields
  *   2. Wikipedia Infobox parsing
  *   3. Wikidata SPARQL queries
+ *   4. MovieBuff (Telugu-specific) - Cast, crew, reviews
+ *   5. JioSaavn - Music director specifically
  */
 
 import { createClient } from '@supabase/supabase-js';
 import * as dotenv from 'dotenv';
 import chalk from 'chalk';
 import { runParallel, type Task } from '../lib/pipeline/execution-controller';
+import { MovieBuffFetcher } from '../lib/sources/fetchers/moviebuff-fetcher';
+import { JioSaavnFetcher } from '../lib/sources/fetchers/jiosaavn-fetcher';
 
 dotenv.config({ path: '.env.local' });
+
+// Initialize fetchers
+const movieBuffFetcher = new MovieBuffFetcher();
+const jioSaavnFetcher = new JioSaavnFetcher();
 
 const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -471,6 +479,128 @@ async function getWikidataLabel(entityId: string): Promise<string | null> {
 }
 
 // ============================================================================
+// MOVIEBUFF (Telugu-specific source)
+// ============================================================================
+
+async function tryMovieBuff(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const movieBuffResult = await movieBuffFetcher.fetchMovie(movie.title_en, movie.release_year);
+
+        if (!movieBuffResult.movie && movieBuffResult.cast.length === 0 && movieBuffResult.crew.length === 0) {
+            return null;
+        }
+
+        const result: CastCrewResult = {
+            source: 'MovieBuff',
+            confidence: 0.80,
+        };
+
+        // Extract director from crew
+        const director = movieBuffResult.crew.find(c => c.role.toLowerCase() === 'director');
+        if (director && !movie.director) {
+            result.director = director.name;
+        }
+
+        // Extract producer from crew
+        const producer = movieBuffResult.crew.find(c => c.role.toLowerCase() === 'producer');
+        if (producer && !movie.producer) {
+            result.producer = producer.name;
+        }
+
+        // Extract music director from crew
+        const musicDirector = movieBuffResult.crew.find(c =>
+            c.role.toLowerCase().includes('music') || c.role.toLowerCase().includes('composer')
+        );
+        if (musicDirector && !movie.music_director) {
+            result.music_director = musicDirector.name;
+        }
+
+        // Extract hero (first male actor) and heroine (first female actor) from cast
+        // MovieBuff cast has roles - we look for lead roles
+        if (movieBuffResult.cast.length > 0) {
+            const leads = movieBuffResult.cast.filter(c =>
+                c.role.toLowerCase() === 'actor' || c.role.toLowerCase() === 'actress' ||
+                c.role.toLowerCase() === 'lead' || c.role.toLowerCase() === 'hero' ||
+                c.role.toLowerCase() === 'heroine'
+            );
+
+            if (leads.length > 0 && !movie.hero) {
+                result.hero = leads[0]?.name;
+            }
+            if (leads.length > 1 && !movie.heroine) {
+                result.heroine = leads[1]?.name;
+            }
+
+            // Supporting cast
+            const supportingCast: SupportingCastMember[] = movieBuffResult.cast
+                .slice(2, 7)
+                .map((c, i) => ({
+                    name: c.name,
+                    role: c.character || c.role,
+                    order: i + 1,
+                    type: 'supporting' as const,
+                }));
+
+            if (supportingCast.length > 0) {
+                result.supporting_cast = supportingCast;
+            }
+        }
+
+        // Extract crew
+        const crewData: CrewData = {};
+        const cinematographer = movieBuffResult.crew.find(c =>
+            c.role.toLowerCase().includes('cinematograph') || c.role.toLowerCase() === 'dop'
+        );
+        if (cinematographer) crewData.cinematographer = cinematographer.name;
+
+        const editor = movieBuffResult.crew.find(c => c.role.toLowerCase() === 'editor');
+        if (editor) crewData.editor = editor.name;
+
+        const writer = movieBuffResult.crew.find(c =>
+            c.role.toLowerCase().includes('writer') || c.role.toLowerCase() === 'screenplay'
+        );
+        if (writer) crewData.writer = writer.name;
+
+        if (Object.keys(crewData).length > 0) {
+            result.crew = crewData;
+        }
+
+        const hasData = result.hero || result.heroine || result.director ||
+            result.music_director || result.producer ||
+            (result.supporting_cast && result.supporting_cast.length > 0);
+
+        return hasData ? result : null;
+    } catch {
+        return null;
+    }
+}
+
+// ============================================================================
+// JIOSAAVN (Music director specifically)
+// ============================================================================
+
+async function tryJioSaavn(movie: Movie): Promise<CastCrewResult | null> {
+    // Only use JioSaavn for music director if missing
+    if (movie.music_director) return null;
+
+    try {
+        const jioResult = await jioSaavnFetcher.searchMovieAlbum(movie.title_en, movie.release_year);
+
+        if (!jioResult.musicDirector) {
+            return null;
+        }
+
+        return {
+            music_director: jioResult.musicDirector,
+            source: 'JioSaavn',
+            confidence: 0.85,
+        };
+    } catch {
+        return null;
+    }
+}
+
+// ============================================================================
 // ENRICHMENT LOGIC
 // ============================================================================
 
@@ -479,17 +609,47 @@ async function enrichMovie(movie: Movie): Promise<CastCrewResult | null> {
         { name: 'TMDB', fn: tryTMDB },
         { name: 'Wikipedia', fn: tryWikipedia },
         { name: 'Wikidata', fn: tryWikidata },
+        { name: 'MovieBuff', fn: tryMovieBuff },
+        { name: 'JioSaavn', fn: tryJioSaavn },
     ];
+
+    // Try each source in order, combining results for missing fields
+    let combinedResult: CastCrewResult | null = null;
 
     for (const source of sources) {
         const result = await source.fn(movie);
+
         if (result) {
-            return result;
+            if (!combinedResult) {
+                combinedResult = result;
+            } else {
+                // Merge missing fields from this source
+                if (result.hero && !combinedResult.hero) combinedResult.hero = result.hero;
+                if (result.heroine && !combinedResult.heroine) combinedResult.heroine = result.heroine;
+                if (result.director && !combinedResult.director) combinedResult.director = result.director;
+                if (result.music_director && !combinedResult.music_director) {
+                    combinedResult.music_director = result.music_director;
+                    combinedResult.source = `${combinedResult.source}+${result.source}`;
+                }
+                if (result.producer && !combinedResult.producer) combinedResult.producer = result.producer;
+                if (result.supporting_cast && (!combinedResult.supporting_cast || combinedResult.supporting_cast.length === 0)) {
+                    combinedResult.supporting_cast = result.supporting_cast;
+                }
+                if (result.crew && (!combinedResult.crew || Object.keys(combinedResult.crew).length === 0)) {
+                    combinedResult.crew = result.crew;
+                }
+            }
         }
+
         await new Promise((r) => setTimeout(r, 100));
+
+        // Check if we have all essential data
+        if (combinedResult?.hero && combinedResult?.director && combinedResult?.music_director) {
+            break;
+        }
     }
 
-    return null;
+    return combinedResult;
 }
 
 // ============================================================================
@@ -499,8 +659,9 @@ async function enrichMovie(movie: Movie): Promise<CastCrewResult | null> {
 async function main(): Promise<void> {
     console.log(chalk.cyan.bold(`
 ╔══════════════════════════════════════════════════════════════════════╗
-║           CAST & CREW ENRICHMENT SCRIPT (v2.0)                       ║
-║     Extended: Music Director, Producer, 5 Supporting, Crew           ║
+║           CAST & CREW ENRICHMENT SCRIPT (v3.0)                       ║
+║   Sources: TMDB, Wikipedia, Wikidata, MovieBuff, JioSaavn            ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
 ╚══════════════════════════════════════════════════════════════════════╝
 `));
 
@@ -576,6 +737,9 @@ async function main(): Promise<void> {
         TMDB: 0,
         Wikipedia: 0,
         Wikidata: 0,
+        MovieBuff: 0,
+        JioSaavn: 0,
+        Combined: 0,
         none: 0,
     };
 
@@ -595,9 +759,15 @@ async function main(): Promise<void> {
         },
         onTaskComplete: (taskResult) => {
             if (taskResult.success && taskResult.result) {
-                const { result: enrichResult } = taskResult.result;
+                const taskData = taskResult.result as unknown as { movie: Movie; result: CastCrewResult | null };
+                const enrichResult = taskData.result;
                 if (enrichResult) {
-                    stats[enrichResult.source as keyof typeof stats]++;
+                    // Track source (handle combined sources like "TMDB+JioSaavn")
+                    if (enrichResult.source.includes('+')) {
+                        stats.Combined++;
+                    } else if (enrichResult.source in stats) {
+                        stats[enrichResult.source as keyof typeof stats]++;
+                    }
                     enriched++;
                 } else {
                     stats.none++;
@@ -647,7 +817,6 @@ async function main(): Promise<void> {
     }
 
     // Summary
-    const duration = 'N/A'; // Would need to track start time
     console.log(chalk.cyan.bold(`
 ═══════════════════════════════════════════════════════════════════
 📊 ENRICHMENT SUMMARY
@@ -662,6 +831,9 @@ async function main(): Promise<void> {
     console.log(`    TMDB:      ${stats.TMDB}`);
     console.log(`    Wikipedia: ${stats.Wikipedia}`);
     console.log(`    Wikidata:  ${stats.Wikidata}`);
+    console.log(`    MovieBuff: ${stats.MovieBuff}`);
+    console.log(`    JioSaavn:  ${stats.JioSaavn}`);
+    console.log(`    Combined:  ${stats.Combined}`);
 
     if (!EXECUTE) {
         console.log(chalk.yellow(`

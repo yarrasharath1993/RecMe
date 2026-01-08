@@ -1,0 +1,232 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-08T00:00:00Z",
+  "description": "Dry-run article data using real, publicly available sources",
+  "complianceNotes": {
+    "scraping": "No scraping - manual summaries only",
+    "copyright": "Fair use summaries - max 100 words from any source",
+    "sources": "Wikipedia, WHO, Wikisource, public court records only"
+  },
+  "articles": [
+    {
+      "id": "dry-run-001",
+      "sourceType": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maryada_Ramanna_(1967_film)",
+      "title": "Maryada Ramanna (1967) - The Original Comedy Classic",
+      "title_te": "మర్యాద రామన్న (1967) - అసలు కామెడీ క్లాసిక్",
+      "summary": "Maryada Ramanna (1967) is a landmark Telugu comedy film directed by B. Vittalacharya and produced by D. Madhusudhana Rao. Starring N.T. Rama Rao and Rajasri, the film became a massive commercial success and is considered one of the finest comedy films in Telugu cinema history. The story follows Ramanna, a man of honor who must navigate a dangerous village conflict while maintaining his principles. The film's success led to multiple remakes including the 2010 Hindi film Maryada Ramanna directed by S.S. Rajamouli. The original remains a cult classic for its wit, timing, and NTR's iconic performance.",
+      "summary_te": "మర్యాద రామన్న (1967) తెలుగు సినిమాలో ఒక మైలురాయి కామెడీ చిత్రం. బి. విట్టలాచార్య దర్శకత్వం వహించిన ఈ చిత్రంలో ఎన్.టి. రామారావు, రాజశ్రీ నటించారు. గౌరవప్రదమైన మనిషి ప్రమాదకరమైన గ్రామ వివాదంలో తన సూత్రాలను కాపాడుకుంటూ ముందుకు సాగే కథ ఇది. ఈ చిత్రం అనేక రీమేక్‌లకు కారణమైంది.",
+      "contentSector": "movies_cinema",
+      "contentSubsector": "cult_classics",
+      "contentType": "article",
+      "audienceProfile": "general",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 85,
+      "sourceRefs": [
+        {
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maryada_Ramanna_(1967_film)",
+          "trustLevel": 0.85,
+          "claimType": "fact"
+        },
+        {
+          "source": "TMDB",
+          "url": "https://www.themoviedb.org/movie/108534",
+          "trustLevel": 0.90,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "historicalPeriod": "1967",
+      "geoContext": "India, Telugu Cinema",
+      "keywords": ["NTR", "B Vittalacharya", "Telugu Comedy", "Cult Classic", "1967"]
+    },
+    {
+      "id": "dry-run-002",
+      "sourceType": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sanjay_Dutt",
+      "title": "Sanjay Dutt TADA Case: A Legal Timeline",
+      "title_te": "సంజయ్ దత్ టాడా కేసు: న్యాయ టైమ్‌లైన్",
+      "summary": "The Sanjay Dutt TADA case is one of India's most prominent legal cases involving a film celebrity. Following the 1993 Mumbai bombings, Dutt was arrested under TADA (Terrorist and Disruptive Activities Prevention Act) for illegal possession of weapons. The Supreme Court of India upheld his conviction in 2013, but reduced his sentence. He was released in 2016 after serving his term. The case spanned over two decades and involved multiple appeals, Supreme Court hearings, and public debates about celebrity treatment in the justice system. This is a factual timeline based on public court records.",
+      "summary_te": "సంజయ్ దత్ టాడా కేసు భారతదేశంలో అత్యంత ప్రముఖ న్యాయ కేసులలో ఒకటి. 1993 ముంబై పేలుళ్ల తర్వాత, ఆయన్ చట్టవిరుద్ధ ఆయుధ స్వాధీనంపై అరెస్టయ్యారు. సుప్రీం కోర్టు 2013లో శిక్షను సమర్థించింది. 2016లో విడుదలయ్యారు.",
+      "contentSector": "crime_courts",
+      "contentSubsector": "court_cases",
+      "contentType": "timeline",
+      "audienceProfile": "adult",
+      "sensitivityLevel": "moderate",
+      "factConfidenceScore": 90,
+      "sourceRefs": [
+        {
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sanjay_Dutt",
+          "trustLevel": 0.85,
+          "claimType": "fact"
+        },
+        {
+          "source": "Supreme Court of India",
+          "url": "https://main.sci.gov.in",
+          "trustLevel": 0.95,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "historicalPeriod": "1993-2016",
+      "geoContext": "India, Mumbai",
+      "requiresDisclaimer": true,
+      "disclaimerType": "legal",
+      "disclaimerText": "This article is based on publicly available court records and news reports. It is provided for informational purposes only and does not constitute legal advice.",
+      "keywords": ["Sanjay Dutt", "TADA", "1993 Mumbai Bombings", "Supreme Court", "Legal Case"]
+    },
+    {
+      "id": "dry-run-003",
+      "sourceType": "wikisource",
+      "sourceUrl": "https://en.wikisource.org/wiki/Panchatantra",
+      "title": "The Lion and the Mouse",
+      "title_te": "సింహం మరియు ఎలుక",
+      "summary": "Once upon a time, a mighty lion was sleeping in the forest. A tiny mouse accidentally ran across the lion's paw, waking him up. The angry lion caught the mouse and was about to eat it. The mouse pleaded, 'Please spare me, O King! Someday I might help you.' The lion laughed but let the mouse go. Days later, the lion was trapped in a hunter's net. The little mouse heard the lion's roars and came running. It gnawed through the ropes and freed the lion. The lion realized that even the smallest friend can be the greatest help. Moral: Kindness is never wasted, and no friend is too small to help.",
+      "summary_te": "ఒకప్పుడు ఒక బలమైన సింహం అడవిలో నిద్రపోతుండేది. ఒక చిన్న ఎలుక ప్రమాదవశాత్తు సింహం పంజా మీద పరిగెత్తింది. కోపంతో సింహం ఎలుకను పట్టుకుంది. ఎలుక వేడుకుంది, 'దయచేసి నన్ను వదిలేయండి! ఏదో ఒక రోజు మీకు సహాయం చేయగలను.' సింహం నవ్వి వదిలేసింది. రోజుల తర్వాత, సింహం వేటగాడి వలలో చిక్కుకుంది. చిన్న ఎలుక తాళ్లను కొరికి సింహాన్ని విడిపించింది. నీతి: దయ ఎప్పుడూ వృథా కాదు.",
+      "contentSector": "kids_family",
+      "contentSubsector": "moral_stories",
+      "contentType": "story",
+      "audienceProfile": "kids",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 100,
+      "sourceRefs": [
+        {
+          "source": "Wikisource/Panchatantra",
+          "url": "https://en.wikisource.org/wiki/Panchatantra",
+          "trustLevel": 1.0,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "ageGroup": "4-6",
+      "geoContext": "India, Ancient Fables",
+      "keywords": ["Panchatantra", "Moral Story", "Kids", "Lion", "Mouse", "Kindness"]
+    },
+    {
+      "id": "dry-run-004",
+      "sourceType": "who",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "title": "Healthy Eating During Pregnancy: WHO Guidelines",
+      "title_te": "గర్భధారణ సమయంలో ఆరోగ్యకరమైన ఆహారం: WHO మార్గదర్శకాలు",
+      "summary": "According to World Health Organization guidelines, pregnant women should focus on a balanced diet rich in fruits, vegetables, whole grains, and lean proteins. Key recommendations include: consuming adequate iron (from leafy greens and fortified foods), folic acid (especially in the first trimester), calcium (dairy or fortified alternatives), and omega-3 fatty acids (from fish or supplements). Avoiding raw or undercooked foods, limiting caffeine, and staying hydrated are also emphasized. This summary is based on WHO public health guidelines and is for informational purposes only - always consult a healthcare provider for personalized advice.",
+      "summary_te": "ప్రపంచ ఆరోగ్య సంస్థ మార్గదర్శకాల ప్రకారం, గర్భిణీ స్త్రీలు పండ్లు, కూరగాయలు, తృణధాన్యాలు మరియు లీన్ ప్రోటీన్లతో సమతుల్య ఆహారంపై దృష్టి పెట్టాలి. ఇనుము, ఫోలిక్ యాసిడ్, కాల్షియం మరియు ఒమేగా-3 ఫ్యాటీ యాసిడ్లు ముఖ్యమైనవి. ఇది సమాచార ప్రయోజనాల కోసం మాత్రమే.",
+      "contentSector": "pregnancy_wellness",
+      "contentSubsector": "nutrition",
+      "contentType": "guide",
+      "audienceProfile": "family",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 95,
+      "sourceRefs": [
+        {
+          "source": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+          "trustLevel": 0.98,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "geoContext": "Global",
+      "requiresDisclaimer": true,
+      "disclaimerType": "medical",
+      "disclaimerText": "This article is for informational purposes only and does not constitute medical advice. Always consult a qualified healthcare provider for personalized guidance.",
+      "keywords": ["Pregnancy", "Nutrition", "WHO", "Health", "Diet", "Wellness"]
+    },
+    {
+      "id": "dry-run-005",
+      "sourceType": "public_recipe",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pesarattu",
+      "title": "Pesarattu - 10-Minute Telugu Breakfast",
+      "title_te": "పెసరట్టు - 10 నిమిషాల తెలుగు అల్పాహారం",
+      "summary": "Pesarattu is a traditional Andhra Pradesh breakfast dosa made from green gram (moong dal). Unlike regular dosa, it requires no fermentation, making it perfect for quick meals. Ingredients: 1 cup green gram, 2-3 green chilies, 1-inch ginger, salt to taste. Method: Soak green gram for 4 hours, grind with chilies, ginger, and salt to a smooth batter. Heat a dosa pan, spread batter thin, drizzle oil, cook until golden. Serve hot with ginger chutney. Nutritionally, pesarattu is high in protein and fiber, making it a healthy bachelor-friendly recipe. Preparation time: 10 minutes (excluding soaking).",
+      "summary_te": "పెసరట్టు ఆంధ్ర ప్రదేశ్‌లో సాంప్రదాయ అల్పాహార దోశ. పచ్చి పెసర్లతో తయారు చేస్తారు. ఫర్మెంటేషన్ అవసరం లేదు. పదార్థాలు: 1 కప్పు పెసర్లు, 2-3 పచ్చి మిర్చి, అల్లం, ఉప్పు. విధానం: పెసర్లను 4 గంటలు నానబెట్టి, మిర్చి, అల్లం, ఉప్పుతో గ్రైండ్ చేయండి. దోసె తవాపై పలచగా పోసి బంగారు రంగు వచ్చే వరకు వేయించండి.",
+      "contentSector": "food_bachelor",
+      "contentSubsector": "quick_meals",
+      "contentType": "recipe",
+      "audienceProfile": "general",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 90,
+      "sourceRefs": [
+        {
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pesarattu",
+          "trustLevel": 0.85,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "geoContext": "India, Andhra Pradesh",
+      "keywords": ["Recipe", "Telugu", "Breakfast", "Pesarattu", "Quick Meal", "Bachelor"]
+    },
+    {
+      "id": "dry-run-006",
+      "sourceType": "wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chiranjeevi",
+      "title": "Chiranjeevi: Career Turning Points",
+      "title_te": "చిరంజీవి: కెరీర్ మలుపులు",
+      "summary": "Chiranjeevi (born Konidela Siva Sankara Vara Prasad in 1955) is one of Telugu cinema's most influential actors. Key career turning points: 1978 - Debut with 'Punadhirallu'; 1985 - 'Khaidi' established him as an action star; 1988 - 'Gang Leader' and 'Gharana Mogudu' cemented his mass appeal; 1992 - 'Aapadbandhavudu' showcased his versatility; 2002 - Entered politics, founding Praja Rajyam Party; 2008 - Merged party with Congress; 2017 - Historic comeback with '151st film'; 2022 - 'Godfather' continued his relevance. His dance moves, particularly in songs like 'I am a Disco Dancer,' became cultural phenomena. This timeline is based on Wikipedia and public records.",
+      "summary_te": "చిరంజీవి (1955లో జన్మించారు) తెలుగు సినిమా అత్యంత ప్రభావశీల నటులలో ఒకరు. కెరీర్ మలుపులు: 1978 - 'పునాదిరాళ్లు'తో అరంగేట్రం; 1985 - 'ఖైదీ' యాక్షన్ స్టార్‌గా నిలబెట్టింది; 1988 - 'గ్యాంగ్ లీడర్' మాస్ అప్పీల్ పెంచింది; 2002 - రాజకీయాల్లో ప్రవేశం; 2017 - చారిత్రక కంబ్యాక్.",
+      "contentSector": "actor_industry",
+      "contentSubsector": "career_arcs",
+      "contentType": "timeline",
+      "audienceProfile": "general",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 85,
+      "sourceRefs": [
+        {
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chiranjeevi",
+          "trustLevel": 0.85,
+          "claimType": "fact"
+        },
+        {
+          "source": "TMDB",
+          "url": "https://www.themoviedb.org/person/76783",
+          "trustLevel": 0.90,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": false,
+      "historicalPeriod": "1978-2024",
+      "geoContext": "India, Telugu Cinema",
+      "keywords": ["Chiranjeevi", "Telugu Cinema", "Career", "Timeline", "Megastar"]
+    },
+    {
+      "id": "dry-run-007",
+      "sourceType": "original",
+      "sourceUrl": null,
+      "title": "What If Mayabazar Was Made Today?",
+      "title_te": "మాయాబజార్ ఈరోజు తీస్తే?",
+      "summary": "DISCLAIMER: This is a fictional/speculative essay and not based on real events. Mayabazar (1957) is considered one of the greatest Telugu films ever made. But what if it were made today with modern technology and contemporary stars? The VFX-heavy sequences like Krishna's magic could rival Hollywood productions. The iconic comedy sequences might feature viral meme-worthy moments. Casting debates would dominate social media - who would play Ghatotkacha? The music would blend classical with contemporary beats. The film would likely be a pan-India release with multiple language versions. This is purely imaginative speculation celebrating the legacy of a classic film.",
+      "summary_te": "డిస్‌క్లైమర్: ఇది కల్పిత/ఊహాత్మక వ్యాసం, నిజ సంఘటనల ఆధారంగా కాదు. మాయాబజార్ (1957) తెలుగు సినిమాలో అత్యుత్తమ చిత్రాలలో ఒకటిగా పరిగణించబడుతుంది. కానీ ఈరోజు ఆధునిక టెక్నాలజీతో తీస్తే? VFX సీక్వెన్సులు హాలీవుడ్‌తో పోటీ పడగలవు. ఇది క్లాసిక్ చిత్రం వారసత్వాన్ని గౌరవిస్తూ పూర్తిగా కల్పనాత్మక ఊహ.",
+      "contentSector": "what_if_fiction",
+      "contentSubsector": "speculative",
+      "contentType": "fictional",
+      "audienceProfile": "general",
+      "sensitivityLevel": "none",
+      "factConfidenceScore": 0,
+      "sourceRefs": [
+        {
+          "source": "Original Speculation",
+          "url": null,
+          "trustLevel": 0,
+          "claimType": "opinion"
+        },
+        {
+          "source": "Wikipedia (Reference Only)",
+          "url": "https://en.wikipedia.org/wiki/Mayabazar",
+          "trustLevel": 0.85,
+          "claimType": "fact"
+        }
+      ],
+      "fictionalLabel": true,
+      "geoContext": "India, Telugu Cinema",
+      "requiresDisclaimer": true,
+      "disclaimerType": "fictional",
+      "disclaimerText": "This is a fictional/speculative essay for entertainment purposes. It does not represent real events, actual production plans, or official announcements.",
+      "keywords": ["Mayabazar", "What If", "Speculation", "Telugu Cinema", "Classic"]
+    }
+  ]
+}
+

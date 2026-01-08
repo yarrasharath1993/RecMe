@@ -9,3 +9,5 @@ import { redirect } from 'next/navigation';
 export default function TrendFusionRedirect() {
   redirect('/admin/intelligence');
 }
+
+

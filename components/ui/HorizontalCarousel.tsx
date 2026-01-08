@@ -3,6 +3,11 @@
 import { useRef, useState, useEffect, ReactNode } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+// Import design system primitives
+import { IconButton } from '@/components/ui/primitives/Button';
+import { Text } from '@/components/ui/primitives/Text';
+import { Badge } from '@/components/ui/primitives/Badge';
+
 interface HorizontalCarouselProps {
   children: ReactNode;
   title?: string;
@@ -79,28 +84,32 @@ export function HorizontalCarousel({
       {/* Header */}
       {title && (
         <div className="flex items-center justify-between mb-2 px-1">
-          <h3
+          <Text
+            as="h3"
+            variant="label"
+            weight="semibold"
+            className="flex items-center gap-2"
             id={`${carouselId}-title`}
-            className="flex items-center gap-2 text-sm font-semibold"
-            style={{ color: 'var(--text-primary)' }}
           >
             {titleIcon}
             {title}
-          </h3>
+          </Text>
           {(showAllHref || onShowAll) && (
             showAllHref ? (
-              <a
+              <Text
+                as="a"
+                // @ts-expect-error - href is valid on anchor element
                 href={showAllHref}
-                className="text-xs hover:underline"
-                style={{ color: 'var(--brand-primary)' }}
+                variant="caption"
+                color="brand"
+                className="hover:underline"
               >
                 View All →
-              </a>
+              </Text>
             ) : (
               <button
                 onClick={onShowAll}
-                className="text-xs hover:underline"
-                style={{ color: 'var(--brand-primary)' }}
+                className="text-xs text-[var(--brand-primary)] hover:underline"
               >
                 View All →
               </button>
@@ -130,36 +139,28 @@ export function HorizontalCarousel({
           {children}
         </div>
 
-        {/* Navigation Arrows - Small, edge-positioned */}
+        {/* Navigation Arrows - Using IconButton primitive */}
         {canScrollLeft && (
-          <button
+          <IconButton
+            variant="secondary"
+            size="sm"
             onClick={() => scroll('left')}
             aria-label="Scroll left"
             aria-controls={carouselId}
-            className="absolute left-0 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
-            style={{
-              background: 'var(--bg-primary)',
-              color: 'var(--text-primary)',
-              border: '1px solid var(--border-primary)'
-            }}
-          >
-            <ChevronLeft className="w-4 h-4" aria-hidden="true" />
-          </button>
+            icon={<ChevronLeft className="w-4 h-4" aria-hidden="true" />}
+            className="absolute left-0 top-1/2 -translate-y-1/2 !w-7 !h-7 opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg"
+          />
         )}
         {canScrollRight && (
-          <button
+          <IconButton
+            variant="secondary"
+            size="sm"
             onClick={() => scroll('right')}
             aria-label="Scroll right"
             aria-controls={carouselId}
-            className="absolute right-0 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
-            style={{
-              background: 'var(--bg-primary)',
-              color: 'var(--text-primary)',
-              border: '1px solid var(--border-primary)'
-            }}
-          >
-            <ChevronRight className="w-4 h-4" aria-hidden="true" />
-          </button>
+            icon={<ChevronRight className="w-4 h-4" aria-hidden="true" />}
+            className="absolute right-0 top-1/2 -translate-y-1/2 !w-7 !h-7 opacity-0 group-hover/carousel:opacity-90 transition-all z-10 shadow-lg"
+          />
         )}
       </div>
     </section>
@@ -223,33 +224,31 @@ export function CarouselCard({
         {/* Gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
-        {/* Badge */}
+        {/* Badge - Using Badge primitive */}
         {badge && (
-          <span
-            className="absolute top-1.5 left-1.5 px-1.5 py-0.5 text-[10px] font-bold rounded uppercase"
-            style={{
-              background: badgeColor,
-              color: badgeColor === 'var(--brand-primary)' ? 'var(--bg-primary)' : 'white'
-            }}
+          <Badge
+            variant="primary"
+            size="sm"
+            className="absolute top-1.5 left-1.5 uppercase"
           >
             {badge}
-          </span>
+          </Badge>
         )}
 
         {/* Custom overlay */}
         {overlay}
       </div>
 
-      <h4
-        className="text-xs font-medium line-clamp-2 group-hover:underline"
-        style={{ color: 'var(--text-primary)' }}
+      <Text
+        as="h4"
+        variant="caption"
+        weight="medium"
+        className="line-clamp-2 group-hover:underline"
       >
         {title}
-      </h4>
+      </Text>
     </a>
   );
 }
-
-
 
 

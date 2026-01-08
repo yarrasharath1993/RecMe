@@ -11,6 +11,8 @@
  * - Amber film icon: "Historical Advertisement" (newspaper/magazine ads)
  * - Blue camera icon: "Studio Publicity Still" (studio photos)
  * - Purple book icon: "Book/Magazine Scan" (with attribution)
+ * 
+ * REFACTORED to use design system primitives (Text)
  */
 
 import { useState } from 'react';
@@ -30,6 +32,9 @@ import {
 import type { VisualType, ArchivalSourceType, LicenseType } from '@/lib/visual-intelligence/types';
 import { VISUAL_TYPE_LABELS, SOURCE_TYPE_LABELS, LICENSE_TYPE_LABELS } from '@/lib/visual-intelligence/types';
 import { getVisualTypeBadgeColor, requiresAttribution } from '@/lib/visual-intelligence/archival-sources';
+
+// Import design system primitives
+import { Text } from '@/components/ui/primitives/Text';
 
 // ============================================================
 // TYPES
@@ -140,54 +145,54 @@ function BadgeTooltip({ visualType, sourceType, sourceName, licenseType, attribu
 
   return (
     <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 z-50">
-      <div className="bg-gray-900 border border-gray-700 rounded-lg shadow-xl p-3 min-w-[220px]">
+      <div className="bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-lg shadow-xl p-3 min-w-[220px]">
         {/* Arrow */}
-        <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-gray-900 border-r border-b border-gray-700 rotate-45" />
+        <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-[var(--bg-secondary)] border-r border-b border-[var(--border-primary)] rotate-45" />
         
         {/* Header */}
         <div className="flex items-center gap-2 mb-2">
           <Icon className={`w-4 h-4 ${colors.icon}`} />
-          <span className={`text-sm font-medium ${colors.text}`}>
+          <Text as="span" variant="label" className={colors.text}>
             {VISUAL_TYPE_LABELS[visualType]}
-          </span>
+          </Text>
         </div>
 
         {/* Details */}
         <div className="space-y-1.5 text-[11px]">
           {sourceType && (
             <div className="flex justify-between">
-              <span className="text-gray-500">Source Type:</span>
-              <span className="text-gray-300">{SOURCE_TYPE_LABELS[sourceType]}</span>
+              <Text as="span" variant="caption" color="tertiary">Source Type:</Text>
+              <Text as="span" variant="caption" color="secondary">{SOURCE_TYPE_LABELS[sourceType]}</Text>
             </div>
           )}
           {sourceName && (
             <div className="flex justify-between">
-              <span className="text-gray-500">Source:</span>
-              <span className="text-gray-300 truncate max-w-[120px]">{sourceName}</span>
+              <Text as="span" variant="caption" color="tertiary">Source:</Text>
+              <Text as="span" variant="caption" color="secondary" className="truncate max-w-[120px]">{sourceName}</Text>
             </div>
           )}
           {licenseType && (
             <div className="flex justify-between">
-              <span className="text-gray-500">License:</span>
-              <span className="text-gray-300">{LICENSE_TYPE_LABELS[licenseType]}</span>
+              <Text as="span" variant="caption" color="tertiary">License:</Text>
+              <Text as="span" variant="caption" color="secondary">{LICENSE_TYPE_LABELS[licenseType]}</Text>
             </div>
           )}
         </div>
 
         {/* Attribution */}
         {attributionText && (
-          <div className="mt-2 pt-2 border-t border-gray-800">
-            <p className="text-[10px] text-gray-400 italic">
+          <div className="mt-2 pt-2 border-t border-[var(--border-primary)]">
+            <Text variant="caption" color="tertiary" className="italic">
               {attributionText}
-            </p>
+            </Text>
           </div>
         )}
 
         {/* Attribution Required Indicator */}
         {needsAttribution && !attributionText && (
-          <div className="mt-2 pt-2 border-t border-gray-800 flex items-center gap-1 text-amber-400 text-[10px]">
+          <div className="mt-2 pt-2 border-t border-[var(--border-primary)] flex items-center gap-1 text-[var(--warning)]">
             <Info className="w-3 h-3" />
-            Attribution required
+            <Text as="span" variant="caption" color="warning">Attribution required</Text>
           </div>
         )}
       </div>
@@ -241,13 +246,13 @@ export function ArchivalTypeBadge({
         aria-label={`${VISUAL_TYPE_LABELS[visualType]}${sourceName ? ` from ${sourceName}` : ''}`}
       >
         <Icon className={`${classes.icon} ${colors.icon}`} />
-        <span className={`font-medium ${colors.text}`}>
+        <Text as="span" variant="label" weight="medium" className={colors.text}>
           {colors.label}
-        </span>
+        </Text>
         
         {/* Attribution indicator dot */}
         {showAttributionIndicator && needsAttribution && (
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 ml-0.5" />
+          <span className="w-1.5 h-1.5 rounded-full bg-[var(--warning)] ml-0.5" />
         )}
       </div>
 
@@ -289,7 +294,7 @@ export function SourceBadge({
   const tierColors: Record<number, { bg: string; text: string; border: string }> = {
     1: { bg: 'bg-green-900/80', text: 'text-green-100', border: 'border-green-700' },
     2: { bg: 'bg-amber-900/80', text: 'text-amber-100', border: 'border-amber-700' },
-    3: { bg: 'bg-gray-800/80', text: 'text-gray-300', border: 'border-gray-600' },
+    3: { bg: 'bg-[var(--bg-tertiary)]', text: 'text-[var(--text-secondary)]', border: 'border-[var(--border-primary)]' },
   };
 
   // Determine tier from source type
@@ -307,9 +312,9 @@ export function SourceBadge({
       `}
     >
       <Icon className={`${classes.icon} ${colors.text}`} />
-      <span className={`font-medium ${colors.text}`}>
+      <Text as="span" variant="label" weight="medium" className={colors.text}>
         {sourceName || SOURCE_TYPE_LABELS[sourceType]}
-      </span>
+      </Text>
     </div>
   );
 }
@@ -336,7 +341,7 @@ export function LicenseBadge({
     ? { bg: 'bg-green-900/60', text: 'text-green-300', border: 'border-green-800' }
     : needsAttribution
     ? { bg: 'bg-amber-900/60', text: 'text-amber-300', border: 'border-amber-800' }
-    : { bg: 'bg-gray-800/60', text: 'text-gray-300', border: 'border-gray-700' };
+    : { bg: 'bg-[var(--bg-tertiary)]', text: 'text-[var(--text-secondary)]', border: 'border-[var(--border-primary)]' };
 
   return (
     <div
@@ -346,9 +351,9 @@ export function LicenseBadge({
         ${className}
       `}
     >
-      <span className={`${colors.text}`}>
+      <Text as="span" variant="caption" className={colors.text}>
         {LICENSE_TYPE_LABELS[licenseType]}
-      </span>
+      </Text>
     </div>
   );
 }
@@ -393,23 +398,24 @@ export function ProvenanceDisplay({
         <LicenseBadge licenseType={licenseType} />
       </div>
       
-      <div className="flex items-center gap-1.5 text-gray-400">
+      <div className="flex items-center gap-1.5 text-[var(--text-tertiary)]">
         <SourceIcon className="w-3 h-3" />
-        <span>{sourceName}</span>
+        <Text as="span" variant="caption" color="tertiary">{sourceName}</Text>
         {yearEstimated && (
           <>
-            <span className="text-gray-600">•</span>
-            <span>{yearEstimated}</span>
+            <span className="text-[var(--border-primary)]">•</span>
+            <Text as="span" variant="caption" color="tertiary">{yearEstimated}</Text>
           </>
         )}
       </div>
 
       {attributionText && (
-        <p className="text-gray-500 italic mt-1">{attributionText}</p>
+        <Text variant="caption" color="tertiary" className="italic mt-1">
+          {attributionText}
+        </Text>
       )}
     </div>
   );
 }
 
 export default ArchivalTypeBadge;
-

@@ -8,6 +8,7 @@
  * - initial: Returns first 3 sections + spotlights (fast load)
  * - lazy: Returns remaining sections (loaded on scroll)
  * - all: Returns all sections (legacy, slower)
+ * - category: Returns movies for a specific category (blockbusters, classics, hidden-gems)
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -16,6 +17,9 @@ import {
   getInitialSections,
   getLazySections,
   unifiedSearch,
+  getBlockbusters,
+  getClassics,
+  getHiddenGems,
   SectionConfig 
 } from '@/lib/reviews/section-intelligence';
 
@@ -47,11 +51,45 @@ export async function GET(request: NextRequest) {
     config.language = searchParams.get('language')!;
   }
 
-  // Mode: initial (fast), lazy (remaining), all (legacy)
+  // Mode: initial (fast), lazy (remaining), all (legacy), category (specific category)
   const mode = searchParams.get('mode') || 'all';
+  const category = searchParams.get('category');
 
   try {
     let response;
+
+    // Category mode - return movies for a specific category
+    if (mode === 'category' && category) {
+      let section;
+      
+      switch (category) {
+        case 'blockbusters':
+          section = await getBlockbusters(config as SectionConfig);
+          break;
+        case 'classics':
+          section = await getClassics(config as SectionConfig);
+          break;
+        case 'hidden-gems':
+          section = await getHiddenGems(config as SectionConfig);
+          break;
+        default:
+          return NextResponse.json(
+            { success: false, error: `Invalid category: ${category}` },
+            { status: 400 }
+          );
+      }
+
+      response = {
+        success: true,
+        category,
+        movies: section.movies,
+        title: section.title,
+        mode: 'category',
+        generatedAt: new Date().toISOString(),
+      };
+      
+      return NextResponse.json(response, { headers: CACHE_HEADERS });
+    }
 
     if (mode === 'initial') {
       // Fast initial load - only 3 sections + spotlights

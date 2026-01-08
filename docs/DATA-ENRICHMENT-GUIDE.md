@@ -1,6 +1,6 @@
 # Telugu Portal Data Enrichment Guide
 
-> **Last Updated:** January 7, 2026  
+> **Last Updated:** January 7, 2026
 > **Current Status:** Full enrichment system with enhanced Wikipedia scraper, extended cast, editorial scores, and multi-source validation
 
 ## Current Coverage (as of last run)
@@ -27,9 +27,10 @@ This document outlines the complete data enrichment strategy for the Telugu Port
 4. [Extended Cast & Crew](#4-extended-cast--crew)
 5. [Editorial Scores](#5-editorial-scores)
 6. [Multi-Source Validation](#6-multi-source-validation)
-7. [Page Coverage Check](#7-page-coverage-check)
-8. [Running the Scripts](#8-running-the-scripts)
-9. [Architecture](#9-architecture)
+7. [Perfection Workflow](#7-perfection-workflow) ⭐ NEW
+8. [Page Coverage Check](#8-page-coverage-check)
+9. [Running the Scripts](#9-running-the-scripts)
+10. [Architecture](#10-architecture)
 
 ---
 
@@ -117,6 +118,27 @@ npx tsx scripts/enrich-master.ts --status
 | `--limit=N` | Limit records per phase (default: 500) |
 | `--concurrency=N` | Parallel requests (default: 20) |
 
+### Filters (NEW)
+
+| Filter | Description |
+|--------|-------------|
+| `--director=NAME` | Filter movies by director (e.g., `--director="Puri Jagannadh"`) |
+| `--actor=NAME` | Filter movies by actor/hero (e.g., `--actor="Mahesh Babu"`) |
+| `--slug=SLUG` | Process a single movie by slug (e.g., `--slug=pokiri-2006`) |
+
+**Examples with Filters:**
+
+```bash
+# Enrich all movies by a director
+npx tsx scripts/enrich-master.ts --full --director="Puri Jagannadh" --execute
+
+# Enrich images only for an actor's filmography
+npx tsx scripts/enrich-master.ts --phase=images --actor="Mahesh Babu" --execute
+
+# Enrich a single movie completely
+npx tsx scripts/enrich-master.ts --full --slug=pokiri-2006 --execute
+```
+
 ### Checkpoint Recovery
 
 Progress is saved to `.enrichment-checkpoint.json`. If a phase fails, run `--resume` to continue from where it stopped.
@@ -192,7 +214,7 @@ The Wikipedia scraper was enhanced on Jan 7, 2026 to better extract data from va
 - **Telugu film verification**: Validates that the Wikipedia page is for a Telugu film
 - **Extended crew extraction**: Cinematography, Edited by, Written by, Screenplay
 
-**Before enhancement:** 0% Wikipedia success rate  
+**Before enhancement:** 0% Wikipedia success rate
 **After enhancement:** ~8% Wikipedia fallback success (recovering data when TMDB fails)
 
 ### Commands
@@ -321,7 +343,109 @@ Generated report includes:
 
 ---
 
-## 7. Page Coverage Check
+## 7. Perfection Workflow
+
+A structured workflow for achieving 100% data quality on a specific director's or actor's filmography. This was developed while perfecting Puri Jagannadh's filmography.
+
+### When to Use
+
+- Fixing all data issues for a celebrity's filmography
+- Ensuring all movies meet quality standards before featuring
+- Preparing for celebrity page launch or update
+
+### Workflow Overview
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    PERFECTION WORKFLOW                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Phase 1         Phase 2         Phase 3         Phase 4       │
+│  ┌─────────┐     ┌─────────┐     ┌─────────┐    ┌──────────┐  │
+│  │ AUDIT   │ ──► │ IMAGES  │ ──► │CAST/CREW│ ──►│ RATINGS  │  │
+│  └─────────┘     └─────────┘     └─────────┘    └──────────┘  │
+│       │              │               │               │         │
+│       ▼              ▼               ▼               ▼         │
+│  Phase 5         Phase 6         Phase 7                       │
+│  ┌─────────┐     ┌─────────┐     ┌─────────┐                  │
+│  │ REVIEWS │ ──► │VALIDATE │ ──► │ CLEANUP │                  │
+│  └─────────┘     └─────────┘     └─────────┘                  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Quick Commands
+
+#### Full Pipeline for Director Filmography
+
+```bash
+# Complete enrichment for a director's movies
+npx tsx scripts/enrich-master.ts --director="Puri Jagannadh" --full --execute
+
+# Or for an actor
+npx tsx scripts/enrich-master.ts --actor="Mahesh Babu" --full --execute
+
+# Or for a single movie
+npx tsx scripts/enrich-master.ts --slug=pokiri-2006 --full --execute
+```
+
+#### Step-by-Step (Manual)
+
+```bash
+# 1. Audit - identify issues
+npx tsx scripts/validate-and-fix-data.ts --director="Puri Jagannadh"
+
+# 2. Images
+npx tsx scripts/enrich-images-fast.ts --director="Puri Jagannadh" --execute
+
+# 3. Cast/Crew
+npx tsx scripts/enrich-cast-crew.ts --extended --director="Puri Jagannadh" --execute
+
+# 4. Ratings
+npx tsx scripts/recalibrate-rating-breakdowns.ts --director="Puri Jagannadh" --execute
+
+# 5. Reviews
+npx tsx scripts/enrich-reviews-fast.ts --director="Puri Jagannadh" --execute
+
+# 6. Validation
+npx tsx scripts/validate-all.ts --director="Puri Jagannadh" --auto-fix
+
+# 7. Cleanup duplicates
+npx tsx scripts/validate-and-fix-data.ts --detect-duplicates --execute
+```
+
+### Verification Checklist
+
+After running the workflow, verify:
+
+- [ ] All movies have valid posters (poster_confidence >= 0.8)
+- [ ] Hero, heroine, director are correctly assigned
+- [ ] Music director and producer are populated
+- [ ] Supporting cast has at least 3 entries
+- [ ] Ratings are reasonable for movie quality
+- [ ] Rating breakdowns align with overall ratings
+- [ ] Reviews have all 9 sections populated
+- [ ] No duplicate entries exist
+- [ ] Celebrity page shows correct filmography
+
+### Common Issues and Fixes
+
+| Issue | Solution |
+|-------|----------|
+| Wrong poster | Manual TMDB fix (see rule file) |
+| Missing TMDB ID | Search TMDB manually, update `tmdb_id` |
+| Wrong cast | Update `hero`, `heroine`, `director` directly |
+| Duplicate movie | Use `--merge-duplicates` or delete via Supabase |
+| Wrong rating | Update `our_rating`, then run recalibrate |
+
+### Rule File Reference
+
+For detailed steps and SQL examples, see:
+`.cursor/rules/movie-perfection-enrichment.mdc`
+
+---
+
+## 8. Page Coverage Check
 
 **Script:** `scripts/check-page-coverage.ts`
 
@@ -356,7 +480,7 @@ npx tsx scripts/check-page-coverage.ts --page=reviews --decade=2020
 
 ---
 
-## 8. Running the Scripts
+## 9. Running the Scripts
 
 ### Prerequisites
 
@@ -402,7 +526,7 @@ npx tsx scripts/check-page-coverage.ts \
 
 ---
 
-## 9. Architecture
+## 10. Architecture
 
 ### Enrichment Flow
 
@@ -479,6 +603,13 @@ movies.rating_source      TEXT   -- 'external', 'editorial_derived'
 ---
 
 ## Changelog
+
+### 2026-01-08 (v2.1) - Perfection Workflow
+- **Added `--director`, `--actor`, `--slug` filters** to master orchestrator for targeted enrichment
+- **Created Perfection Workflow** - structured approach for achieving 100% data quality on filmographies
+- **Added `.cursor/rules/movie-perfection-enrichment.mdc`** - comprehensive enrichment rule with SQL examples
+- **Documented Puri Jagannadh perfection process** as reference workflow
+- Updated documentation with new section and filter examples
 
 ### 2026-01-07 (v2.0)
 - Created master orchestrator with checkpointing

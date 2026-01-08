@@ -1,7 +1,7 @@
 # TeluguVibes CLI Commands Reference
 
-> **Version:** 4.0 - Final Execution Update  
-> **Last Updated:** January 2025
+> **Version:** 5.0 - Data Intelligence Update  
+> **Last Updated:** January 7, 2026
 
 ---
 
@@ -487,5 +487,100 @@ pnpm ingest:accelerated --language=kn
 
 ---
 
-*CLI Reference v3.2 - January 2025 (Production Hardening Update)*
+## 🧠 Data Intelligence Dashboard APIs
+
+### Movie Search
+
+```bash
+# Search movies by title
+curl -s "http://localhost:3000/api/movies/search?q=Pushpa&limit=10"
+```
+
+### Pending Reviews
+
+```bash
+# Get movies without reviews
+curl -s "http://localhost:3000/api/admin/pending-reviews?filter=recent&page=1&limit=20"
+
+# Filters: recent, classic, popular, all
+```
+
+### Force Enrich
+
+```bash
+# Force enrich a single movie
+curl -X POST "http://localhost:3000/api/admin/movies/[movie-id]/enrich" \
+  -H "Content-Type: application/json" \
+  -d '{"sources": ["tmdb", "omdb", "wikipedia"]}'
+```
+
+### Review Generation
+
+```bash
+# Regenerate review (template or AI)
+curl -X POST "http://localhost:3000/api/admin/reviews/[movie-id]/regenerate" \
+  -H "Content-Type: application/json" \
+  -d '{"type": "template"}'
+```
+
+### Data Verification
+
+```bash
+# Run verification for a movie
+curl -X POST "http://localhost:3000/api/admin/verification/[movie-id]" \
+  -H "Content-Type: application/json" \
+  -d '{"sources": ["tmdb", "omdb", "wikipedia"]}'
+```
+
+### Bulk Operations
+
+```bash
+# Bulk enrich movies
+curl -X POST "http://localhost:3000/api/admin/bulk" \
+  -H "Content-Type: application/json" \
+  -d '{"operation": "enrich", "movieIds": ["id1", "id2"], "options": {"sources": ["tmdb"]}}'
+
+# Bulk generate reviews
+curl -X POST "http://localhost:3000/api/admin/bulk" \
+  -H "Content-Type: application/json" \
+  -d '{"operation": "regenerate_review", "movieIds": ["id1", "id2"]}'
+```
+
+### Pipeline Control
+
+```bash
+# Get pipeline status
+curl -s "http://localhost:3000/api/admin/pipeline"
+
+# Start pipeline
+curl -X POST "http://localhost:3000/api/admin/pipeline" \
+  -H "Content-Type: application/json" \
+  -d '{"action": "start", "type": "enrichment", "options": {"limit": 100}}'
+
+# Stop pipeline
+curl -X POST "http://localhost:3000/api/admin/pipeline" \
+  -H "Content-Type: application/json" \
+  -d '{"action": "stop"}'
+```
+
+### Compliance Check
+
+```bash
+# Test compliance layer
+npx tsx -e "
+const { safeFetcher, complianceValidator, SOURCE_CONFIGS } = require('./lib/compliance');
+
+async function test() {
+  console.log('Active sources:', Object.values(SOURCE_CONFIGS).filter(s => s.isActive).length);
+  
+  const check = await safeFetcher.canFetch('tmdb', 'https://api.themoviedb.org/3/movie/123');
+  console.log('TMDB fetch allowed:', check.allowed);
+}
+test();
+"
+```
+
+---
+
+*CLI Reference v4.0 - January 2026 (Data Intelligence Update)*
 

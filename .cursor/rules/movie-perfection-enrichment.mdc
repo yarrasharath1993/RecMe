@@ -1,0 +1,309 @@
+# Movie Perfection Enrichment Rule
+
+> When enriching a specific director/actor's filmography or fixing data quality issues, follow this comprehensive checklist.
+
+## Overview
+
+This rule codifies the workflow used to achieve 100% data quality for director filmographies (e.g., Puri Jagannadh). It leverages existing scripts and tools in the codebase.
+
+---
+
+## Phase 1: Audit and Identification
+
+### 1.1 Query Target Filmography
+
+```sql
+-- Get all movies for a director
+SELECT id, slug, title_en, release_year, hero, heroine, poster_url,
+       poster_confidence, avg_rating, our_rating, tmdb_id
+FROM movies
+WHERE director ILIKE '%Director Name%'
+ORDER BY release_year DESC;
+
+-- Get all movies for an actor
+SELECT id, slug, title_en, release_year, director, poster_url, avg_rating
+FROM movies
+WHERE hero ILIKE '%Actor Name%' OR heroine ILIKE '%Actor Name%'
+ORDER BY release_year DESC;
+```
+
+### 1.2 Check for Issues
+
+Look for:
+- **Wrong images**: poster_url doesn't match the movie
+- **Missing images**: poster_url contains 'placeholder' or is NULL
+- **Duplicate entries**: Same movie title with different slugs
+- **Wrong cast/crew**: Incorrect hero/heroine/director assignments
+- **Wrong ratings**: avg_rating doesn't match known quality
+- **Missing TMDB ID**: tmdb_id is NULL
+
+### 1.3 Generate Audit Report
+
+```bash
+# Run validation to get issues report
+npx tsx scripts/validate-and-fix-data.ts --director="Director Name"
+```
+
+---
+
+## Phase 2: Image Enrichment
+
+### 2.1 Automated Fix (Preferred)
+
+```bash
+# Enrich images for specific movies
+npx tsx scripts/enrich-images-fast.ts --slug=movie-slug --execute
+
+# Enrich all movies for a director (batch)
+npx tsx scripts/enrich-images-fast.ts --director="Director Name" --execute
+```
+
+### 2.2 Manual TMDB Fix
+
+When automated enrichment fails or returns wrong image:
+
+1. **Find correct TMDB ID** at https://www.themoviedb.org/
+2. **Get poster path** from TMDB API or website
+3. **Update database**:
+
+```sql
+UPDATE movies SET
+  tmdb_id = CORRECT_TMDB_ID,
+  poster_url = 'https://image.tmdb.org/t/p/w500/POSTER_PATH.jpg',
+  backdrop_url = 'https://image.tmdb.org/t/p/w1280/BACKDROP_PATH.jpg',
+  poster_confidence = 0.95,
+  poster_visual_type = 'original_poster'
+WHERE slug = 'movie-slug';
+```
+
+### 2.3 Verification
+
+```bash
+# Verify image loads
+curl -I "https://image.tmdb.org/t/p/w500/POSTER_PATH.jpg"
+```
+
+---
+
+## Phase 3: Cast/Crew Enrichment
+
+### 3.1 Extended Cast Enrichment
+
+```bash
+# Enrich full cast including music director, producer, 5 supporting actors
+npx tsx scripts/enrich-cast-crew.ts --extended --slug=movie-slug --execute
+
+# Batch for director's filmography
+npx tsx scripts/enrich-cast-crew.ts --extended --director="Director Name" --execute
+```
+
+### 3.2 Manual Cast Fix
+
+```sql
+UPDATE movies SET
+  hero = 'Lead Actor Name',
+  heroine = 'Lead Actress Name',
+  director = 'Director Name',
+  music_director = 'Music Director Name',
+  producer = 'Producer Name',
+  supporting_cast = '[
+    {"name": "Actor 1", "role": "Character 1", "order": 1},
+    {"name": "Actor 2", "role": "Character 2", "order": 2}
+  ]'::jsonb
+WHERE slug = 'movie-slug';
+```
+
+### 3.3 Cross-Validate
+
+Verify against multiple sources:
+- TMDB credits: `https://api.themoviedb.org/3/movie/{tmdb_id}/credits`
+- Wikipedia infobox
+- MovieBuff page
+
+---
+
+## Phase 4: Rating Recalibration
+
+### 4.1 Update Base Rating
+
+```sql
+-- Update the editorial rating
+UPDATE movies SET our_rating = 7.5 WHERE slug = 'movie-slug';
+
+-- Or update avg_rating if from external source
+UPDATE movies SET avg_rating = 7.8 WHERE slug = 'movie-slug';
+```
+
+### 4.2 Recalibrate Breakdowns
+
+After updating the base rating, recalibrate all dimension scores:
+
+```bash
+# Single movie
+npx tsx scripts/recalibrate-rating-breakdowns.ts --slug=movie-slug --execute
+
+# Batch for director
+npx tsx scripts/recalibrate-rating-breakdowns.ts --director="Director Name" --execute
+```
+
+This updates `dimensions_json` to align story/direction/music/cinematography scores with the new overall rating.
+
+### 4.3 Update Verdict Category
+
+The verdict category is automatically derived from rating:
+- 9.0+: masterpiece
+- 8.5-8.9: must-watch
+- 8.0-8.4: highly-recommended
+- 7.0-7.9: recommended
+- 6.0-6.9: worth-watching
+- 5.0-5.9: one-time-watch
+- <5.0: skip
+
+---
+
+## Phase 5: Review Section Enrichment
+
+### 5.1 Required 9 Sections
+
+Every movie review should have:
+1. **verdict** - Overall recommendation with category
+2. **why_watch** - Reasons to watch (array)
+3. **why_skip** - Considerations/caveats (array)
+4. **performances** - Cast performance analysis
+5. **story_screenplay** - Plot/screenplay analysis
+6. **direction_technicals** - Direction/cinematography/editing
+7. **cultural_impact** - Legacy status, era significance
+8. **awards** - National, Filmfare, Nandi awards
+9. **deep_dive** - Unique aspects, themes, trivia
+
+### 5.2 Enrich Reviews
+
+```bash
+# Enrich all review sections
+npx tsx scripts/enrich-reviews-fast.ts --movie-id=UUID --execute
+
+# Batch for director
+npx tsx scripts/enrich-reviews-fast.ts --director="Director Name" --execute
+```
+
+### 5.3 Migrate Smart Review to UI Columns
+
+If `smart_review` JSONB exists but UI columns are empty:
+
+```bash
+npx tsx scripts/migrate-smart-review-to-columns.ts --movie-id=UUID --execute
+```
+
+---
+
+## Phase 6: Multi-Source Validation
+
+### 6.1 Run Validation
+
+```bash
+# Validate and auto-fix if 3+ sources agree
+npx tsx scripts/validate-all.ts --movie-id=UUID --auto-fix
+
+# Generate report without fixing
+npx tsx scripts/validate-all.ts --director="Director Name" --report=./reports/validation.md
+```
+
+### 6.2 Manual Review
+
+For items flagged as "needs_human_review":
+- Compare values from TMDB, Wikipedia, Wikidata
+- Update with most authoritative source
+- Mark as reviewed
+
+---
+
+## Phase 7: Cleanup
+
+### 7.1 Remove Duplicates
+
+```bash
+# Detect duplicate movies
+npx tsx scripts/validate-and-fix-data.ts --detect-duplicates
+
+# Merge duplicates (keeps higher-rated entry)
+npx tsx scripts/validate-and-fix-data.ts --merge-duplicates --execute
+```
+
+### 7.2 Delete Invalid Entries
+
+For entries that are not valid Telugu movies:
+
+```sql
+-- Soft delete (recommended)
+UPDATE movies SET status = 'deleted' WHERE slug = 'invalid-movie';
+
+-- Hard delete (use with caution)
+DELETE FROM movie_reviews WHERE movie_id = 'UUID';
+DELETE FROM movies WHERE id = 'UUID';
+```
+
+### 7.3 Fix Orphan Records
+
+```bash
+npx tsx scripts/validate-and-fix-data.ts --fix-orphans --execute
+```
+
+---
+
+## Full Pipeline Commands
+
+### Single Movie Perfection
+
+```bash
+# Complete enrichment for one movie
+npx tsx scripts/enrich-images-fast.ts --slug=movie-slug --execute
+npx tsx scripts/enrich-cast-crew.ts --extended --slug=movie-slug --execute
+npx tsx scripts/enrich-reviews-fast.ts --slug=movie-slug --execute
+npx tsx scripts/recalibrate-rating-breakdowns.ts --slug=movie-slug --execute
+npx tsx scripts/validate-all.ts --slug=movie-slug --auto-fix
+```
+
+### Director Filmography Perfection
+
+```bash
+# Complete enrichment for a director's entire filmography
+npx tsx scripts/enrich-master.ts --director="Puri Jagannadh" --full --execute
+```
+
+### Actor Filmography Perfection
+
+```bash
+# Complete enrichment for an actor's filmography
+npx tsx scripts/enrich-master.ts --actor="Mahesh Babu" --full --execute
+```
+
+---
+
+## Verification Checklist
+
+After enrichment, verify:
+
+- [ ] All movies have valid poster images (poster_confidence >= 0.8)
+- [ ] Hero, heroine, director are correctly assigned
+- [ ] Music director and producer are populated
+- [ ] Supporting cast has at least 3 entries
+- [ ] Rating is reasonable for the movie's quality
+- [ ] Rating breakdown aligns with overall rating
+- [ ] Review has all 9 sections populated
+- [ ] No duplicate entries exist
+- [ ] Celebrity page shows correct filmography
+
+---
+
+## Related Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/enrich-master.ts` | Master orchestrator for full pipeline |
+| `scripts/enrich-images-fast.ts` | Parallel image enrichment |
+| `scripts/enrich-cast-crew.ts` | Extended cast/crew from TMDB/Wikipedia |
+| `scripts/enrich-reviews-fast.ts` | Review section generation |
+| `scripts/recalibrate-rating-breakdowns.ts` | Align dimension scores with rating |
+| `scripts/validate-all.ts` | Multi-source validation |
+| `scripts/validate-and-fix-data.ts` | Duplicates, orphans, cleanup |
+| `scripts/check-enrichment-status.ts` | Coverage dashboard |

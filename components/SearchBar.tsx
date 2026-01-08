@@ -12,7 +12,8 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, X, Clock, TrendingUp, ArrowRight } from 'lucide-react';
+import { Search, X, Clock, TrendingUp, ArrowRight, Film, Star } from 'lucide-react';
+import Image from 'next/image';
 
 interface SearchBarProps {
   variant?: 'header' | 'page' | 'mobile';
@@ -21,13 +22,24 @@ interface SearchBarProps {
   onClose?: () => void;
 }
 
+interface MovieSuggestion {
+  id: string;
+  title_en: string;
+  title_te?: string;
+  slug: string;
+  release_year?: number;
+  poster_url?: string;
+  our_rating?: number;
+  director?: string;
+}
+
 // Popular search terms (can be fetched from API)
 const TRENDING_SEARCHES = [
   'పుష్ప 2',
-  'విజయ్ దేవరకొండ',
-  'సమంత',
-  'రష్మిక',
-  'IPL 2026',
+  'Shiva',
+  'RRR',
+  'Baahubali',
+  'Pushpa',
 ];
 
 const MAX_RECENT_SEARCHES = 5;
@@ -46,6 +58,34 @@ export function SearchBar({
   const [isExpanded, setIsExpanded] = useState(variant === 'page');
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [movieSuggestions, setMovieSuggestions] = useState<MovieSuggestion[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+
+  // Fetch movie suggestions as user types
+  useEffect(() => {
+    if (query.length < 2) {
+      setMovieSuggestions([]);
+      return;
+    }
+
+    const timer = setTimeout(async () => {
+      setIsSearching(true);
+      try {
+        const res = await fetch(`/api/movies/search?q=${encodeURIComponent(query)}&limit=5`);
+        if (res.ok) {
+          const data = await res.json();
+          setMovieSuggestions(data.movies || []);
+        }
+      } catch (error) {
+        console.error('Search error:', error);
+        setMovieSuggestions([]);
+      } finally {
+        setIsSearching(false);
+      }
+    }, 300); // Debounce 300ms
+
+    return () => clearTimeout(timer);
+  }, [query]);
 
   // Load recent searches from localStorage
   useEffect(() => {
@@ -274,19 +314,99 @@ export function SearchBar({
             </div>
           )}
 
-          {/* Search Query Suggestions */}
+          {/* Live Movie Suggestions */}
           {query && (
             <div className="p-2">
+              {/* Loading state */}
+              {isSearching && (
+                <div className="flex items-center justify-center py-4">
+                  <div className="w-5 h-5 border-2 border-t-transparent rounded-full animate-spin" 
+                       style={{ borderColor: 'var(--brand-primary)', borderTopColor: 'transparent' }} />
+                </div>
+              )}
+
+              {/* Movie results */}
+              {!isSearching && movieSuggestions.length > 0 && (
+                <div className="space-y-1 mb-2">
+                  <span className="text-xs font-medium px-2" style={{ color: 'var(--text-tertiary)' }}>
+                    Movies
+                  </span>
+                  {movieSuggestions.map((movie) => (
+                    <button
+                      key={movie.id}
+                      onClick={() => {
+                        saveSearch(movie.title_en);
+                        setShowSuggestions(false);
+                        setIsExpanded(false);
+                        router.push(`/reviews/${movie.slug}`);
+                        onClose?.();
+                      }}
+                      className="flex items-center gap-3 w-full px-2 py-2 rounded-lg text-sm text-left transition-colors"
+                      style={{ color: 'var(--text-primary)' }}
+                      onMouseEnter={(e) => e.currentTarget.style.background = 'var(--bg-hover)'}
+                      onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
+                    >
+                      {/* Movie poster or placeholder */}
+                      <div className="w-10 h-14 rounded overflow-hidden flex-shrink-0 bg-[var(--bg-tertiary)]">
+                        {movie.poster_url ? (
+                          <Image
+                            src={movie.poster_url}
+                            alt={movie.title_en}
+                            width={40}
+                            height={56}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center">
+                            <Film className="w-5 h-5" style={{ color: 'var(--text-tertiary)' }} />
+                          </div>
+                        )}
+                      </div>
+                      
+                      {/* Movie info */}
+                      <div className="flex-1 min-w-0">
+                        <div className="font-medium truncate">{movie.title_en}</div>
+                        <div className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-tertiary)' }}>
+                          {movie.release_year && <span>{movie.release_year}</span>}
+                          {movie.director && (
+                            <>
+                              <span>•</span>
+                              <span className="truncate">{movie.director}</span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Rating */}
+                      {movie.our_rating && movie.our_rating > 0 && (
+                        <div className="flex items-center gap-1 text-xs font-medium" style={{ color: 'var(--brand-primary)' }}>
+                          <Star className="w-3 h-3 fill-current" />
+                          {movie.our_rating.toFixed(1)}
+                        </div>
+                      )}
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {/* No results */}
+              {!isSearching && query.length >= 2 && movieSuggestions.length === 0 && (
+                <div className="py-4 text-center text-sm" style={{ color: 'var(--text-tertiary)' }}>
+                  No movies found for &quot;{query}&quot;
+                </div>
+              )}
+
+              {/* Search all option */}
               <button
                 onClick={() => handleSearch(query)}
-                className="flex items-center justify-between w-full px-3 py-2 rounded-lg text-sm transition-colors"
-                style={{ color: 'var(--text-primary)' }}
+                className="flex items-center justify-between w-full px-3 py-2 rounded-lg text-sm transition-colors border-t mt-2 pt-3"
+                style={{ color: 'var(--text-primary)', borderColor: 'var(--border-secondary)' }}
                 onMouseEnter={(e) => e.currentTarget.style.background = 'var(--bg-hover)'}
                 onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
               >
                 <span className="flex items-center gap-2">
                   <Search className="w-4 h-4" style={{ color: 'var(--text-tertiary)' }} />
-                  &quot;{query}&quot; కోసం వెతుకు
+                  Search all for &quot;{query}&quot;
                 </span>
                 <ArrowRight className="w-4 h-4" style={{ color: 'var(--text-tertiary)' }} />
               </button>

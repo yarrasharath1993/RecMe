@@ -22,6 +22,15 @@ import {
   Edit,
   BarChart3,
   ScanEye,
+  Layers,
+  FolderOpen,
+  PenSquare,
+  FileStack,
+  Upload,
+  Baby,
+  Utensils,
+  Scale,
+  BookOpen,
 } from "lucide-react";
 
 export default async function AdminLayout({
@@ -95,11 +104,36 @@ export default async function AdminLayout({
             <NavItem href="/admin/visual-intelligence" icon={ScanEye}>
               Visual Intelligence
             </NavItem>
+            <NavItem href="/admin/data-intelligence" icon={Layers}>
+              Data Intelligence
+            </NavItem>
             <NavItem href="/admin/knowledge-graph" icon={Database}>
               Entity Integrity Graph
             </NavItem>
             <NavItem href="/admin/observatory" icon={Activity}>
               System Observatory
+            </NavItem>
+
+            {/* CONTENT PLATFORM - New Multi-Sector System */}
+            <div className="pt-4 mt-4 border-t border-[#262626]">
+              <span className="px-3 text-xs font-medium text-[#eab308] uppercase tracking-wider">
+                Content Platform
+              </span>
+            </div>
+            <NavItem href="/admin/posts/new" icon={PenSquare}>
+              Create Content
+            </NavItem>
+            <NavItem href="/admin/posts" icon={FileText}>
+              All Posts
+            </NavItem>
+            <NavItem href="/admin/drafts" icon={FileStack}>
+              Drafts
+            </NavItem>
+            <NavItem href="/admin/content-sectors" icon={FolderOpen}>
+              Content Sectors
+            </NavItem>
+            <NavItem href="/admin/batch-publish" icon={Upload}>
+              Batch Publish
             </NavItem>
 
             {/* SECONDARY SECTIONS - Operations */}
@@ -111,7 +145,7 @@ export default async function AdminLayout({
             <NavItem href="/admin/editorial" icon={MessageSquareQuote}>
               Editorial Oversight
             </NavItem>
-            <NavItem href="/admin/content-manager" icon={FileText}>
+            <NavItem href="/admin/content-manager" icon={BookOpen}>
               Content Manager
             </NavItem>
             <NavItem href="/admin/historic-drafts" icon={Calendar}>

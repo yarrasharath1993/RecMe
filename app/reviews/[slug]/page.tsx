@@ -50,7 +50,12 @@ import { MovieBadges } from "@/components/reviews/MovieBadges";
 import { MobileSynopsis } from "@/components/reviews/MobileSynopsis";
 import type { Movie, MovieReview } from "@/types/reviews";
 import type { ReviewInsights } from "@/lib/reviews/review-insights";
-import { isMovieUpcoming, getUpcomingLabel } from "@/lib/utils/movie-status";
+import {
+  isMovieUpcoming,
+  getUpcomingLabel,
+  shouldHideRating,
+} from "@/lib/utils/movie-status";
+// Rating utilities available: getRatingCategory, getCategoryLabel, getCategoryColor from "@/lib/ratings/editorial-rating"
 
 // ISR - Revalidate every hour
 export const revalidate = 3600;
@@ -160,17 +165,18 @@ export default async function MovieReviewPage({ params }: PageProps) {
   const { movie, reviews, similarSections, insights, editorialReview } = data;
   const featuredReview = reviews.find((r) => r.is_featured) || reviews[0];
 
-  // Check if movie is upcoming (not yet released)
+  // Check if movie is upcoming (not yet released) or has incomplete data
   const isUpcoming = isMovieUpcoming(movie);
+  const hideRating = shouldHideRating(movie); // Hide for upcoming OR no release year
   const upcomingLabel = isUpcoming ? getUpcomingLabel(movie) : "";
 
-  // Priority: Editorial review rating > Our rating > Featured review > Movie avg (TMDB can be inflated)
-  // Don't show rating for upcoming movies
-  const displayRating = isUpcoming
+  // Priority: Editorial verdict > Featured review rating > Our rating > Movie avg (TMDB can be inflated)
+  // Don't show rating for upcoming movies or movies without release year
+  const displayRating = hideRating
     ? 0
     : editorialReview?.verdict?.final_rating ||
-      movie.our_rating ||
       featuredReview?.overall_rating ||
+      movie.our_rating ||
       Math.min(movie.avg_rating || 0, 8.5) || // Cap TMDB rating at 8.5 to prevent inflation
       0;
 
@@ -224,8 +230,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
 
               {/* Title + Meta + Rating */}
               <div className="flex-1 min-w-0">
-                {/* Rating Badge - Prominent at top */}
-                {!isUpcoming && displayRating > 0 && (
+                {/* Rating Badge - Prominent at top (hide for upcoming/incomplete) */}
+                {!hideRating && displayRating > 0 && (
                   <div className="flex items-center gap-2 mb-2">
                     <div className="flex items-center gap-1 px-2.5 py-1 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg">
                       <Star className="w-4 h-4 text-black fill-black" />
@@ -367,7 +373,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
         )}
 
         {/* Mobile: Enriched Verdict Card */}
-        {!isUpcoming &&
+        {!hideRating &&
           (editorialReview?.why_watch?.length > 0 ||
             editorialReview?.verdict) && (
             <section className="px-4 py-2">
@@ -654,7 +660,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
                 </div>
               )}
 
-              {!isUpcoming && (
+              {!hideRating && (
                 <div className="mb-4">
                   <MovieBadges
                     isBlockbuster={movie.is_blockbuster}
@@ -727,7 +733,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
                 </div>
               )}
 
-              {editorialReview && !isUpcoming && (
+              {editorialReview && !hideRating && (
                 <CompactRatings
                   ratings={[
                     {
@@ -787,7 +793,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
             </div>
 
             {/* Right: Quick Verdict Card */}
-            {!isUpcoming && (
+            {!hideRating && (
               <div className="w-80 flex-shrink-0">
                 <div className="sticky top-4 space-y-4">
                   <QuickVerdictCard
@@ -806,6 +812,7 @@ export default async function MovieReviewPage({ params }: PageProps) {
                           }
                         : undefined
                     }
+                    isClassic={movie.is_classic}
                   />
                 </div>
               </div>
@@ -814,8 +821,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Editorial Review - Accordion Style (hide for upcoming movies) */}
-      {!isUpcoming &&
+      {/* Editorial Review - Accordion Style (hide for upcoming/incomplete movies) */}
+      {!hideRating &&
         editorialReview &&
         (editorialReview.performances ||
           editorialReview.story_screenplay ||
@@ -891,8 +898,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
           </section>
         )}
 
-      {/* Featured Review (hide for upcoming movies) */}
-      {!isUpcoming && featuredReview && !editorialReview && (
+      {/* Featured Review (hide for upcoming/incomplete movies) */}
+      {!hideRating && featuredReview && !editorialReview && (
         <section className="max-w-7xl mx-auto px-4 py-8 border-t border-[var(--border-primary)]">
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6 flex items-center gap-2">
             <Award className="w-6 h-6 text-yellow-500" />
@@ -902,8 +909,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
         </section>
       )}
 
-      {/* Rating Breakdown - Only for non-editorial reviews (hide for upcoming movies) */}
-      {!isUpcoming &&
+      {/* Rating Breakdown - Only for non-editorial reviews (hide for upcoming/incomplete movies) */}
+      {!hideRating &&
         !editorialReview &&
         (featuredReview?.dimensions || featuredReview?.direction_rating) && (
           <section className="max-w-7xl mx-auto px-4 py-6 border-t border-[var(--border-primary)]">
@@ -958,8 +965,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
           </section>
         )}
 
-      {/* Director's Vision - Only for non-editorial reviews (hide for upcoming movies) */}
-      {!isUpcoming && !editorialReview && featuredReview?.directors_vision && (
+      {/* Director's Vision - Only for non-editorial reviews (hide for upcoming/incomplete movies) */}
+      {!hideRating && !editorialReview && featuredReview?.directors_vision && (
         <section className="max-w-7xl mx-auto px-4 py-6 border-t border-[var(--border-primary)]">
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3 flex items-center gap-2">
             <Eye className="w-5 h-5 text-yellow-500" />
@@ -973,8 +980,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
         </section>
       )}
 
-      {/* Strengths & Weaknesses - Only for non-editorial reviews (hide for upcoming movies) */}
-      {!isUpcoming &&
+      {/* Strengths & Weaknesses - Only for non-editorial reviews (hide for upcoming/incomplete movies) */}
+      {!hideRating &&
         !editorialReview &&
         featuredReview &&
         (featuredReview.strengths?.length > 0 ||
@@ -1027,8 +1034,8 @@ export default async function MovieReviewPage({ params }: PageProps) {
           </section>
         )}
 
-      {/* Enhanced Review Insights - Collapsed by default (hide for upcoming movies) */}
-      {!isUpcoming && insights && !editorialReview && (
+      {/* Enhanced Review Insights - Collapsed by default (hide for upcoming/incomplete movies) */}
+      {!hideRating && insights && !editorialReview && (
         <section className="max-w-7xl mx-auto px-4 py-6 border-t border-[var(--border-primary)]">
           <ReviewInsightsPanel insights={insights} defaultExpanded={false} />
         </section>

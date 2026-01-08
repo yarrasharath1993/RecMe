@@ -1,0 +1,5540 @@
+{
+  "generated": "2026-01-07T00:46:47.647Z",
+  "totalMovies": 257,
+  "issueSummary": {
+    "title_info": 107,
+    "release_date_info": 66,
+    "director_info": 75,
+    "synopsis_warning": 97,
+    "language_info": 257,
+    "synopsis_info": 79,
+    "poster_url_info": 50,
+    "backdrop_url_info": 136,
+    "heroine_info": 112,
+    "hero_info": 158
+  },
+  "categories": {
+    "missingImages": 0,
+    "synopsisIssues": 1,
+    "castCrewIssues": 193,
+    "releaseDate": 21,
+    "other": 42
+  },
+  "movies": {
+    "missingImages": [],
+    "synopsisIssues": [
+      {
+        "id": "2bf9a911-89ad-4f8f-be79-ad90f0d1a5ee",
+        "title": "Rush",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Sathish Poloju",
+          "hero": "Daisy Bopanna",
+          "heroine": "Daisy Bopanna",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 38
+        }
+      }
+    ],
+    "castCrewIssues": [
+      {
+        "id": "5dc576ed-4df3-4078-82fe-8ac128776e62",
+        "title": "Black",
+        "year": 2022,
+        "confidence": "65%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Prïncia Car",
+          "hero": "Aadi Saikumar",
+          "heroine": "Darshana Banik",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 395
+        }
+      },
+      {
+        "id": "a7ab0c69-51a5-47ab-9654-89d8ef6a419e",
+        "title": "Ground",
+        "year": 2024,
+        "confidence": "66%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Aakash Bikki",
+          "hero": "Aakash Bikki",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 159
+        }
+      },
+      {
+        "id": "013511a1-e008-49d6-96a8-585884586002",
+        "title": "Lenin",
+        "year": null,
+        "confidence": "66%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Murali Kishor Abburu",
+          "hero": "Akhil Akkineni",
+          "heroine": "Bhagyashri Borse",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 483
+        }
+      },
+      {
+        "id": "2b29eeca-1b70-4fee-8c3a-7e2a9522818f",
+        "title": "Big Brother",
+        "year": 2024,
+        "confidence": "67%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Subbarao Gosangi",
+          "hero": "Siva Kantamaneni",
+          "heroine": "Pakhi Hegde",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 383
+        }
+      },
+      {
+        "id": "af3dafb2-1971-4a41-9c9c-3980cc726d29",
+        "title": "Crime Reel",
+        "year": 2024,
+        "confidence": "68%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Dadi Lokesh",
+          "hero": "Ashok Reddy",
+          "heroine": "Sangeetha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 232
+        }
+      },
+      {
+        "id": "d00514ad-baa2-4786-94d9-5d38ffb4b615",
+        "title": "Pratibimbalu",
+        "year": 2022,
+        "confidence": "68%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "K. S. Prakash Rao",
+          "hero": "Nageshwara Rao Akkineni",
+          "heroine": "Jayasudha",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 407
+        }
+      },
+      {
+        "id": "e8a9d628-ce40-4cc1-81af-7fb497f03753",
+        "title": "Pushpak Vimaan",
+        "year": 2024,
+        "confidence": "68%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ullas Krishna",
+          "hero": "Balu Varghese",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 419
+        }
+      },
+      {
+        "id": "381147ee-8916-445b-97ea-31513d7a6669",
+        "title": "Beast",
+        "year": 2022,
+        "confidence": "70%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Nelson Dilipkumar",
+          "hero": "Vijay",
+          "heroine": "Pooja Hegde",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 226
+        }
+      },
+      {
+        "id": "927b9c0d-7c4f-4090-b616-c542b898aba7",
+        "title": "Antham Kadidi Aarambam",
+        "year": 2023,
+        "confidence": "70%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vijaya Nirmala",
+          "hero": "Krishna",
+          "heroine": "Vijaya Nirmala",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 22
+        }
+      },
+      {
+        "id": "57ddbb72-83ee-4d87-99a8-a65a20b4ac91",
+        "title": "Chalaname Chitram",
+        "year": 2024,
+        "confidence": "70%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Nagaraj Janagam",
+          "hero": "Srinu Rasuri",
+          "heroine": "Sweety Swathi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 418
+        }
+      },
+      {
+        "id": "7f176765-541a-4c53-b84e-b1e107879b8e",
+        "title": "Case 30",
+        "year": 2023,
+        "confidence": "70%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Sandeep Palle",
+          "hero": "Siddharth Naidu",
+          "heroine": "Shamni",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 407
+        }
+      },
+      {
+        "id": "f2bb5893-0825-43cb-ac6d-c4eddecef97c",
+        "title": "10 Rupees",
+        "year": 2023,
+        "confidence": "71%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "S. Ravikanth",
+          "hero": "Srikanth",
+          "heroine": "Shravya",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 429
+        }
+      },
+      {
+        "id": "42fb455f-0652-4b60-9f35-5cbc0fdc2f74",
+        "title": "Guard",
+        "year": 2025,
+        "confidence": "71%",
+        "grade": "F",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "James Gunn",
+          "hero": "Chris Pratt",
+          "heroine": "Zoe Saldaña",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 187
+        }
+      },
+      {
+        "id": "eb1cb31f-66ec-4f97-b947-4174fe43b4eb",
+        "title": "Kerosene",
+        "year": 2022,
+        "confidence": "71%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Dhruva",
+          "hero": "Dhruva",
+          "heroine": "Preeti Singh",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 417
+        }
+      },
+      {
+        "id": "5c6262e8-c8a6-4db5-a9c9-9f6c4dd4c31e",
+        "title": "Madhurapudi Granam Ane Nenu",
+        "year": 2023,
+        "confidence": "71%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Kalyan Chakravarthy",
+          "hero": "Shiva Kantamaneni",
+          "heroine": "Sravani Shetty",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 398
+        }
+      },
+      {
+        "id": "16e7c5b3-6c24-47b0-9782-163d6bec7d7f",
+        "title": "Sarangadhariya",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Padmarao Abbisetti",
+          "hero": "Raja Raveendar",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 188
+        }
+      },
+      {
+        "id": "19a3b00d-994f-4df4-8c92-630db9061489",
+        "title": "Lover",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Prabhuram Vyas",
+          "hero": "Manikandan",
+          "heroine": "Sri Gouri Priya Reddy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 242
+        }
+      },
+      {
+        "id": "13c7b6e4-09ea-4e77-8cb3-7272a29ea7a6",
+        "title": "Sagiletikatha",
+        "year": 2023,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Rajshekar",
+          "hero": "Raviteja Mahadasyam",
+          "heroine": "Vishika Kota",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 505
+        }
+      },
+      {
+        "id": "461f1f71-f216-4d74-b335-f0490dcb5457",
+        "title": "Aham Reboot",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Prasanth Sagar",
+          "hero": "Sumanth",
+          "heroine": "Archana",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 455
+        }
+      },
+      {
+        "id": "3f106277-fce1-4b21-a2f1-3bbb67f7737c",
+        "title": "Shattered Illusions",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ganesh Yallapragada",
+          "hero": "Achyuth Ram Prasad",
+          "heroine": "Kruthi Kanj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "53c46dd1-79ec-4c6f-a50a-2bcc90a9f399",
+        "title": "Committee Kurrollu",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Yadhu Vamsi",
+          "hero": "Sandeep Saroj",
+          "heroine": "Prawasthi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 204
+        }
+      },
+      {
+        "id": "2048c149-44a0-4af6-9e46-efd0eb14bba5",
+        "title": "Plot",
+        "year": 2023,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Bhanu Bhava",
+          "hero": "Vikas",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 429
+        }
+      },
+      {
+        "id": "1c31eb51-3b2d-4b53-88b8-6b41def6600f",
+        "title": "Vishwak",
+        "year": 2022,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Venugopal",
+          "hero": "Ajay Kumar",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 394
+        }
+      },
+      {
+        "id": "4ff6082f-4b3c-4f5c-bfda-6c18efeae670",
+        "title": "Arjun Chakravarthy",
+        "year": 2025,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vikrant Srinivas",
+          "hero": "Vijaya Rama Raju",
+          "heroine": "Sija Rose",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 184
+        }
+      },
+      {
+        "id": "e9421480-a36c-4013-b1fb-0b06dc44ee77",
+        "title": "Make a Wish",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Sandhya Bayireddy",
+          "hero": "Kiran Kasturi",
+          "heroine": "Sandhya Bayireddy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 464
+        }
+      },
+      {
+        "id": "cc96ddfa-00de-4c68-a257-37f25e1e6df1",
+        "title": "Chivaraku Migiledi",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Chandrasekhar Rathod",
+          "hero": "Anji Ram",
+          "heroine": "Aishwarya Raj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 518
+        }
+      },
+      {
+        "id": "8a28dbc5-6e2b-44a4-800e-cd2c0dccf40d",
+        "title": "1134",
+        "year": 2024,
+        "confidence": "72%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ssharadh Chandra",
+          "hero": "Gangadhar Reddy",
+          "heroine": "Phani Sharma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 403
+        }
+      },
+      {
+        "id": "b304e42e-4aba-4d9b-b314-ab46ed4f019a",
+        "title": "Pickpocket",
+        "year": 2022,
+        "confidence": "73%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Rajesh Kumar",
+          "hero": "Sreenu",
+          "heroine": "Maheshwari",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 391
+        }
+      },
+      {
+        "id": "234da35c-e92e-44a6-99a2-916b40c02752",
+        "title": "Magic",
+        "year": null,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Gowtam Tinnanuri",
+          "hero": "Sara Arjun",
+          "heroine": "Anmol Kajani",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 269
+        }
+      },
+      {
+        "id": "fa26acdc-dcc8-4208-8fac-9c4b2d0677ac",
+        "title": "Valari",
+        "year": 2024,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "M. Mallikarjun",
+          "hero": "Ritika Singh",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 175
+        }
+      },
+      {
+        "id": "0a2325af-0fbc-440f-85db-e89b539034af",
+        "title": "Muthayya",
+        "year": 2022,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Bhaskar Maurya",
+          "hero": "K. Sudhakar Reddy",
+          "heroine": "Akshatha Sreedhar Shastry",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 435
+        }
+      },
+      {
+        "id": "516fbde9-342a-47c7-ba29-9b1629b4b5e9",
+        "title": "Krishna Rama",
+        "year": 2023,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Raj Madiraju",
+          "hero": "Rajendra Prasad",
+          "heroine": "Gautami",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 490
+        }
+      },
+      {
+        "id": "ef6a1926-f70f-4747-a825-8f0cffc96149",
+        "title": "Dragon",
+        "year": 2025,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ashwath Marimuthu",
+          "hero": "Pradeep Ranganathan",
+          "heroine": "Anupama Parameswaran",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 243
+        }
+      },
+      {
+        "id": "e240a37a-d96c-4c0d-9b4e-25fbccc144b0",
+        "title": "Eesaraina!?",
+        "year": 2024,
+        "confidence": "74%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Eshaku Dasari",
+          "hero": "Goutham",
+          "heroine": "Hasini",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "2e52dd37-be49-4e93-8799-b297ba6f12bc",
+        "title": "Thathsama Thathbhava",
+        "year": 2023,
+        "confidence": "74%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vishal Saketh",
+          "hero": "Prajwal Devaraj",
+          "heroine": "Meghana Raj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 436
+        }
+      },
+      {
+        "id": "126fc4bd-25ef-49d6-b1c5-0444af3e12da",
+        "title": "7 Days 6 Nights",
+        "year": 2022,
+        "confidence": "74%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "M.S. Raju",
+          "hero": "Sumanth Ashwin",
+          "heroine": "Meher Chahal",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 438
+        }
+      },
+      {
+        "id": "5c72402b-74d9-4a78-981e-358ece495c86",
+        "title": "Nenu C/o Nuvvu",
+        "year": 2022,
+        "confidence": "75%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Saga Reddy Thumma",
+          "hero": "Rathna Kishore",
+          "heroine": "Sanya Sinha",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 377
+        }
+      },
+      {
+        "id": "1bdb0a1e-af7f-4821-ae90-3967af9dc49a",
+        "title": "Market Mahalakshmi",
+        "year": 2024,
+        "confidence": "75%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "V. S. Mukkhesh",
+          "hero": "Parvateesam",
+          "heroine": "Praneekaanvika",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 148
+        }
+      },
+      {
+        "id": "64a2cf63-a2be-4ca4-9c57-1b8a2f7b1305",
+        "title": "Lilly",
+        "year": 2024,
+        "confidence": "75%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Rachel Feldman",
+          "hero": "John Benjamin Hickey",
+          "heroine": "Patricia Clarkson",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 455
+        }
+      },
+      {
+        "id": "fae84446-8b02-4d04-8724-cf5740fd4edc",
+        "title": "Shashtipoorthi",
+        "year": 2025,
+        "confidence": "75%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Pavan Prabha",
+          "hero": "Rajendra Prasad",
+          "heroine": "Archana",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 278
+        }
+      },
+      {
+        "id": "8ddb51ef-c5ed-41ac-b4fb-d35e15bdbf87",
+        "title": "Agent",
+        "year": 2023,
+        "confidence": "75%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Hemal Tummapudi",
+          "hero": "Lokaditya Siram Vardhan",
+          "heroine": "Sakshi Vaidya",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 366
+        }
+      },
+      {
+        "id": "e4f90c4f-16a4-40d7-b6f1-c214d577d176",
+        "title": "Bangarraju",
+        "year": 2022,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Kalyan Krishna",
+          "hero": "Akkineni Nagarjuna",
+          "heroine": "Ramya Krishnan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 456
+        }
+      },
+      {
+        "id": "a8f83850-7d20-4fae-96ce-c79fadff6073",
+        "title": "Spirit",
+        "year": null,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sandeep Reddy Vanga",
+          "hero": "Prabhas",
+          "heroine": "Triptii Dimri",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 1008
+        }
+      },
+      {
+        "id": "414434ec-7705-4111-9c91-a81e08f28019",
+        "title": "Palik",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Neil Burger",
+          "hero": "Ravula Ramesh Creations",
+          "heroine": "Phoebe Dynevor",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 444
+        }
+      },
+      {
+        "id": "306fc2fc-5728-44f6-b4e5-10a9949b3ae6",
+        "title": "Bhamakalapam 2",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Abhimanyu Tadimeti",
+          "hero": "Priyamani",
+          "heroine": "Saranya Pradeep",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 379
+        }
+      },
+      {
+        "id": "aa1cd916-445b-4f66-ade1-186740e1d71a",
+        "title": "Dear Nanna",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Anji Saladhi",
+          "hero": "Chaitanya Rao",
+          "heroine": "Yashna Chowdary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 226
+        }
+      },
+      {
+        "id": "e72c769c-9ec7-44a3-be84-2ce91e7ea0af",
+        "title": "Tantiram",
+        "year": 2023,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Muthyala Meher Deepak",
+          "hero": "Srikanth Gurram",
+          "heroine": "Priyanka Sharma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 446
+        }
+      },
+      {
+        "id": "a1e39129-2959-4842-b566-07ea94860806",
+        "title": "Mr. King",
+        "year": 2023,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sasiidhar",
+          "hero": "Sharan Kumar",
+          "heroine": "Yashvika Nishkala",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 439
+        }
+      },
+      {
+        "id": "931edc30-8bae-4f26-bf8a-986dfb21fb42",
+        "title": "Yashoda",
+        "year": 2022,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "K. Hari Shankar",
+          "hero": "Samantha Ruth Prabhu",
+          "heroine": "Samantha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 366
+        }
+      },
+      {
+        "id": "7fe26824-3387-450e-836c-9d787e256768",
+        "title": "Devil",
+        "year": 2023,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Cameron Cairnes",
+          "hero": "David Dastmalchian",
+          "heroine": "Laura Gordon",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 525
+        }
+      },
+      {
+        "id": "48f20081-aadf-48a5-aafe-bfc5e1e2ecf0",
+        "title": "LifeStories",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "B",
+        "issues": [
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ujjwal Kashyap",
+          "hero": "Satya Kethineedi",
+          "heroine": "Deviyyani Sharma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 197
+        }
+      },
+      {
+        "id": "a025113a-8466-44cb-94e2-cff830510d6a",
+        "title": "Sheeshmahal",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Camp Sasi",
+          "hero": "Sai",
+          "heroine": "Prerana Sadhu",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 383
+        }
+      },
+      {
+        "id": "093673b0-c505-4a33-9199-dd2e3ec473fe",
+        "title": "Identity",
+        "year": 2025,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Anas Khan",
+          "hero": "Tovino Thomas",
+          "heroine": "Trisha Krishnan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 181
+        }
+      },
+      {
+        "id": "c4fa320c-cd81-490d-b75c-a1b8da516f04",
+        "title": "Saindhav",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sailesh Kolanu",
+          "hero": "Daggubati Venkatesh",
+          "heroine": "Shraddha Srinath",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 145
+        }
+      },
+      {
+        "id": "6a5e050e-f166-4cb1-9bc4-a7023a114dd0",
+        "title": "Naa Saami Ranga",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vijay Binni",
+          "hero": "Akkineni Nagarjuna",
+          "heroine": "Ashika Ranganath",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 411
+        }
+      },
+      {
+        "id": "d7cab5de-5e94-4267-b07b-eec767520465",
+        "title": "Drinker Sai",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "B",
+        "issues": [
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Kiran Tirumalasetti",
+          "hero": "Mahesh Dharma",
+          "heroine": "Aishwarya Sharma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 140
+        }
+      },
+      {
+        "id": "6e1c52a0-4564-4a82-ac77-bfd246fd8593",
+        "title": "Arjun S/o Vyjayanthi",
+        "year": 2025,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Pradeep Chilukuri",
+          "hero": "Nandamuri Kalyan Ram",
+          "heroine": "Vijayashanti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 416
+        }
+      },
+      {
+        "id": "f13f66b8-0096-4d9b-99b1-db118e37b864",
+        "title": "The Birthday Boy",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Whiskey",
+          "hero": "Ravi Krishna",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "bdfa48ad-655f-4f4e-918f-191da69257b6",
+        "title": "Lucky Lakshman",
+        "year": 2022,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "AR Abhi",
+          "hero": "Syed Sohel Ryan",
+          "heroine": "Mokksha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 409
+        }
+      },
+      {
+        "id": "df62cba3-6cc3-4bc1-a123-1b5888565bb8",
+        "title": "Arjun Son of Vyjayanthi",
+        "year": 2025,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Pradeep Chilukuri",
+          "hero": "Nandamuri Kalyan Ram",
+          "heroine": "Vijayashanti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 440
+        }
+      },
+      {
+        "id": "4aee59fe-13bf-4f8d-a63d-f50033ea4b07",
+        "title": "KA",
+        "year": 2024,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Anggy Umbara",
+          "hero": "Giulio Parengkuan",
+          "heroine": "Natasha Wilona",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 143
+        }
+      },
+      {
+        "id": "a2d270c7-61e6-4a39-ae6a-0e30f31321d2",
+        "title": "Natudu",
+        "year": null,
+        "confidence": "76%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Prasad",
+          "hero": "Kavya Shetty",
+          "heroine": "Nagineedu Vellanki",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 456
+        }
+      },
+      {
+        "id": "4edf9132-9816-4c57-a569-1c152f688f2d",
+        "title": "Legacy",
+        "year": null,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Saikiran Daida",
+          "hero": "Vishwak Sen",
+          "heroine": "No Female Lead",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 269
+        }
+      },
+      {
+        "id": "e71b20ba-0488-41ed-bfe0-5f18f4efad84",
+        "title": "Happy Birthday",
+        "year": 2022,
+        "confidence": "76%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Aruna Jayawardana",
+          "hero": "Soorya Dayaruwan",
+          "heroine": "Dilhani Ekanayake",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 448
+        }
+      },
+      {
+        "id": "815a26e8-a1ae-4206-a46e-a366bc6bcd5d",
+        "title": "Marco",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Haneef Adeni",
+          "hero": "Unni Mukundan",
+          "heroine": "Siddique",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 198
+        }
+      },
+      {
+        "id": "f5672885-e6eb-40a2-98b0-18feedbfd2af",
+        "title": "19.20.21",
+        "year": 2023,
+        "confidence": "77%",
+        "grade": "B",
+        "issues": [
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mansore",
+          "hero": "B. V. Shrunga",
+          "heroine": "Rajesh Nataranga",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 316
+        }
+      },
+      {
+        "id": "93ea903a-d6c1-4a58-87af-003474e8ec3a",
+        "title": "Maa Nanna Superhero",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Abhilash Reddy",
+          "hero": "Sudheer Babu",
+          "heroine": "Annie",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 203
+        }
+      },
+      {
+        "id": "a4095d04-0524-4191-acff-7dfd98c644fb",
+        "title": "Amigos",
+        "year": 2023,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Rajendra Reddy",
+          "hero": "Nandamuri Kalyan Ram",
+          "heroine": "Ashika Ranganath",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 403
+        }
+      },
+      {
+        "id": "616fab2d-9004-4756-b662-7b1b0768aa44",
+        "title": "Odela Railway Station",
+        "year": 2022,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ashok Teja",
+          "hero": "Hebah Patel",
+          "heroine": "Sai Ronak",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 563
+        }
+      },
+      {
+        "id": "a1e290f1-ebb8-4d07-8daf-c26fd0fd68eb",
+        "title": "The Ghost",
+        "year": 2022,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Praveen Sattaru",
+          "hero": "Akkineni Nagarjuna",
+          "heroine": "Sonal Chauhan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 415
+        }
+      },
+      {
+        "id": "c28a87b3-6219-44c8-a791-eb79753e5047",
+        "title": "Su from So",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "B",
+        "issues": [
+          "hero (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "JP Tuminad",
+          "hero": "Shaneel Gautham",
+          "heroine": "JP Tuminad",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 208
+        }
+      },
+      {
+        "id": "cd3dd204-11bb-4ca4-abd2-2b874341ad1d",
+        "title": "8 Vasantalu",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Phanindra Narsetti",
+          "hero": "Ananthika Sanilkumar",
+          "heroine": "Ravi Theja Duggirala",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 540
+        }
+      },
+      {
+        "id": "587e7815-9c1c-4352-8627-21d0ca0b5b9a",
+        "title": "Miss. Shetty Mr. Polishetty",
+        "year": 2023,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mahesh Babu P",
+          "hero": "Anushka Shetty",
+          "heroine": "Naveen Polishetty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 521
+        }
+      },
+      {
+        "id": "7644c301-207d-47f9-8e8a-e0bd5a105113",
+        "title": "Sankranthiki Vasthunam",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Anil Ravipudi",
+          "hero": "Daggubati Venkatesh",
+          "heroine": "Aishwarya Rajesh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 499
+        }
+      },
+      {
+        "id": "bfcc573c-fb82-456f-9879-75a7334fd191",
+        "title": "Bhoothaddam Bhaskar Narayana",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "director (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Purushotham Raaj",
+          "hero": "Shiva Kandukuri",
+          "heroine": "Raashi Singh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 399
+        }
+      },
+      {
+        "id": "f2fb2a81-fa6b-4fb8-9712-945e0078676b",
+        "title": "Shambhala",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Toshio Sekine",
+          "hero": "Mo Tzu-Yi",
+          "heroine": "Rina Takeda",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 239
+        }
+      },
+      {
+        "id": "60ce68fe-654f-4f4a-bf2f-6a3d1ac5cc1b",
+        "title": "The Boy, the Mole, the Fox and the Horse",
+        "year": 2022,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Peter Baynton",
+          "hero": "Jude Coward Nicoll",
+          "heroine": "Tom Hollander",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 108
+        }
+      },
+      {
+        "id": "a2c9430e-f77b-4b39-a6b7-fe4fa3e4fa46",
+        "title": "Peddha Kapu - 1",
+        "year": 2023,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Srikanth Addala",
+          "hero": "Virat Karrna",
+          "heroine": "Pragati Srivastava",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 468
+        }
+      },
+      {
+        "id": "44cac203-b5eb-4845-b52c-7da914d18361",
+        "title": "Simbaa",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Murali Manohar Reddy",
+          "hero": "Jagapathi Babu",
+          "heroine": "Anasuya Bharadwaj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 344
+        }
+      },
+      {
+        "id": "6cc0651d-39d0-4f43-9b6e-a69771c28688",
+        "title": "Average Student Nani",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Pawan Kumar Kothuri",
+          "hero": "Sneha Malviya",
+          "heroine": "Sahiba Bhasin",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "ddd938c2-458a-4f51-8389-74a5d7e12c0d",
+        "title": "Ponton's Heart",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Senad Šahmanović",
+          "hero": "Marija Labudović",
+          "heroine": "Jadranka Mamić",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 502
+        }
+      },
+      {
+        "id": "9217b1a4-fae1-4c4d-a53c-ccff890ea890",
+        "title": "Sarkaaru Noukari",
+        "year": 2024,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Shekar Ganganamoni",
+          "hero": "Akash Goparaju",
+          "heroine": "Mani Chandana",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 214
+        }
+      },
+      {
+        "id": "8aaa133c-cd65-43d1-b11f-69963d255bf7",
+        "title": "Arjun S/O Vyjayanthi",
+        "year": 2025,
+        "confidence": "77%",
+        "grade": "B",
+        "issues": [
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Pradeep Chilukuri",
+          "hero": "Nandamuri Kalyan Ram",
+          "heroine": "Vijayashanti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 418
+        }
+      },
+      {
+        "id": "b7626c9d-a6be-437c-b1e6-51df7cc69ba4",
+        "title": "F3: Fun and Frustration",
+        "year": 2022,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Anil Ravipudi",
+          "hero": "Daggubati Venkatesh",
+          "heroine": "Varun Tej",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 460
+        }
+      },
+      {
+        "id": "471ec11a-34c5-43e2-8db2-f7a15388bea8",
+        "title": "Bimbisara",
+        "year": 2022,
+        "confidence": "77%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Malladi Vassishta",
+          "hero": "Nandamuri Kalyan Ram",
+          "heroine": "Catherine Tresa",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 489
+        }
+      },
+      {
+        "id": "d1d9e511-7304-458e-a817-b39c2088ed26",
+        "title": "Satyabhama",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Suman Chikkala",
+          "hero": "Kajal Aggarwal",
+          "heroine": "Kajal Aggarwal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 200
+        }
+      },
+      {
+        "id": "ce2290ce-e813-4c31-ae80-e1d7ec5aead3",
+        "title": "Fear",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Haritha Gogineni",
+          "hero": "Vedhika",
+          "heroine": "Vedhika",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 577
+        }
+      },
+      {
+        "id": "2e3494a8-5894-42db-97ab-349c15792cf1",
+        "title": "Bhola Shankar",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Meher Ramesh",
+          "hero": "Chiranjeevi",
+          "heroine": "Keerthy Suresh, Tamannaah Bhatia",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 386
+        }
+      },
+      {
+        "id": "26e1907c-3d92-483a-adb1-6b629b32ad03",
+        "title": "Making Squid Game: The Challenge",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": null,
+          "hero": "Nicola Brown",
+          "heroine": "Rikki Finlay",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 150
+        }
+      },
+      {
+        "id": "e6180039-66aa-44bf-9364-45126033b5a9",
+        "title": "Rudrangi",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ajay Samrat",
+          "hero": "Jagapathi Babu",
+          "heroine": "Mamta Mohandas",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 482
+        }
+      },
+      {
+        "id": "f312670a-5a2c-4452-96ef-5708615dc9c0",
+        "title": "Champion",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Vikrant Rudra",
+          "hero": "Roshan Meka",
+          "heroine": "Anaswara Rajan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 164
+        }
+      },
+      {
+        "id": "b3c45ff8-b3aa-4e78-b093-764abae51db9",
+        "title": "Kingdom",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Poppy Bullard",
+          "hero": "Vijay Deverakonda",
+          "heroine": "Bhagyashri Borse",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 117
+        }
+      },
+      {
+        "id": "28b89c40-f75a-44d5-ab42-5ed0f3eec052",
+        "title": "Highway",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "K. V. Guhan",
+          "hero": "Anand Deverakonda",
+          "heroine": "Juliette Binoche",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 390
+        }
+      },
+      {
+        "id": "fbd020cb-bc9b-4680-b0c8-b555760a7a3a",
+        "title": "Anthima Theerpu",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "A. Abhiramu",
+          "hero": "Sai Dhanshika",
+          "heroine": "Sai Dhanshika",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 443
+        }
+      },
+      {
+        "id": "412e4b1d-c091-4732-8584-3c1a4e74b0e8",
+        "title": "Kousalya Supraja Rama",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Surya Prasad",
+          "hero": "Meka Srikanth",
+          "heroine": "Sivaji",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 242
+        }
+      },
+      {
+        "id": "bca25488-f35e-495b-90fb-3a3b8c46f71f",
+        "title": "Spy",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Raj Madiraju",
+          "hero": "Nikhil Siddhartha",
+          "heroine": "Iswarya Menon",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 436
+        }
+      },
+      {
+        "id": "ea7641bb-ae11-437e-bd79-8e202acb9b19",
+        "title": "Little Hearts",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sai Marthand",
+          "hero": "Mouli",
+          "heroine": "Shivani Nagaram",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 217
+        }
+      },
+      {
+        "id": "798a3f9c-a35b-4aac-a803-dd263b058eb9",
+        "title": "Hero",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Thomas Astruc",
+          "hero": "Benjamin Bollen",
+          "heroine": "Anouck Hautbois",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 400
+        }
+      },
+      {
+        "id": "a506eb39-aacb-4c0a-8c5e-026975001405",
+        "title": "Mowgli",
+        "year": 2025,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sandeep Raj",
+          "hero": "Roshan Kanakala",
+          "heroine": "Mounika Reddy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 531
+        }
+      },
+      {
+        "id": "b0646d92-177f-4949-a75b-37767c4bd9dc",
+        "title": "Kushi",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Shiva Nirvana",
+          "hero": "Vijay Deverakonda",
+          "heroine": "Samantha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 437
+        }
+      },
+      {
+        "id": "e621270a-a517-467f-83b3-590fb72017b9",
+        "title": "Double Engine",
+        "year": 2024,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Camp Sasi",
+          "hero": "Pawan Ramesh",
+          "heroine": "Gayatri Gupta",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 119
+        }
+      },
+      {
+        "id": "a6e90e17-87ba-452b-8e42-f0f5629f6959",
+        "title": "The Girlfriend",
+        "year": 2025,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Rahul Ravindran",
+          "hero": "Rashmika Mandanna",
+          "heroine": "Rashmika Mandanna",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 222
+        }
+      },
+      {
+        "id": "f4c6f8e5-a011-4562-8656-b7bd6515ae79",
+        "title": "Unstoppable",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Diamond Ratnababu",
+          "hero": "Vj Sunny",
+          "heroine": "Nakshatra",
+          "hasPoster": true,
+          "hasBackdrop": false,
+          "synopsisLength": 398
+        }
+      },
+      {
+        "id": "6ce230d4-8465-438d-b70b-45875ed2f91c",
+        "title": "Baby",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Damien Chazelle",
+          "hero": "Diego Calva",
+          "heroine": "Margot Robbie",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 453
+        }
+      },
+      {
+        "id": "e3e8ec8d-4d10-40ec-9658-99019d914cb5",
+        "title": "Ghatikachalam",
+        "year": 2025,
+        "confidence": "79%",
+        "grade": "D",
+        "issues": [
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ravi Babu",
+          "hero": "Naresh",
+          "heroine": "Varshini Sounderajan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 371
+        }
+      },
+      {
+        "id": "23e394bf-3cdd-403b-88d7-fc9b2014394f",
+        "title": "Son of India",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Diamond Ratnababu",
+          "hero": "Mohan Babu",
+          "heroine": "Srikanth",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 389
+        }
+      },
+      {
+        "id": "b12c42ea-27cf-4795-bcad-1417512c9a2c",
+        "title": "Ammu",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sergio Leone",
+          "hero": "Robert De Niro",
+          "heroine": "Elizabeth McGovern",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 466
+        }
+      },
+      {
+        "id": "0fd4093b-017b-49ce-bd46-083f45e815a0",
+        "title": "Boo",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Emillia  Adey",
+          "hero": "Amelie williams",
+          "heroine": "Rakul Preet Singh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 446
+        }
+      },
+      {
+        "id": "34088788-e5a6-400e-a540-38bc3f24dde1",
+        "title": "MAX",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Vijay Kartikeyaa",
+          "hero": "Sudeepa",
+          "heroine": "Varalaxmi Sarathkumar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 139
+        }
+      },
+      {
+        "id": "0e7dd87c-3f7a-4979-8f41-bab736376a16",
+        "title": "Anaganaga",
+        "year": 2025,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Taraka Rama",
+          "hero": "Saanya Bhatnagar",
+          "heroine": "Kajal Choudhary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 168
+        }
+      },
+      {
+        "id": "b677919a-b5b0-4eb6-a62c-e0c949fec9a4",
+        "title": "10th Class Diaries",
+        "year": 2022,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Karm Chawla",
+          "hero": "Vinay Rajkumar",
+          "heroine": "Anusha Ranganath",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 186
+        }
+      },
+      {
+        "id": "13d107f1-cdc2-4da1-9ee8-c29687d7e427",
+        "title": "The Family Star",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Elan",
+          "hero": "Kavin Raj",
+          "heroine": "Lal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 190
+        }
+      },
+      {
+        "id": "dbcaed11-a484-4cf2-bf22-6bdcfe56bf97",
+        "title": "Santosh",
+        "year": 2025,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sandhya Suri",
+          "hero": "Shahana Goswami",
+          "heroine": "Sunita Rajwar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 280
+        }
+      },
+      {
+        "id": "a0b1a3f1-3dad-467b-aeb1-0883cae14a26",
+        "title": "Memoir of a Snail",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Adam Elliot",
+          "hero": "Sarah Snook",
+          "heroine": "Kodi Smit-McPhee",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 181
+        }
+      },
+      {
+        "id": "a78899c8-e845-497f-a7ed-0744a92053c0",
+        "title": "Kill",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Nikhil Nagesh Bhat",
+          "hero": "Lakshya Lalwani",
+          "heroine": "Raghav Juyal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 294
+        }
+      },
+      {
+        "id": "c6aa0c78-3300-4b1b-a2bd-343ee93be13d",
+        "title": "RRR: Behind & Beyond",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "S. S. Rajamouli",
+          "hero": "N.T. Rama Rao Jr.",
+          "heroine": "Ram Charan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 182
+        }
+      },
+      {
+        "id": "24db641d-3e21-4502-af06-e3d3c7bcd6cc",
+        "title": "Jigra",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Vasan Bala",
+          "hero": "Alia Bhatt",
+          "heroine": "Vedang Raina",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 153
+        }
+      },
+      {
+        "id": "002af0f5-2231-4bab-a769-08907f3684b3",
+        "title": "Vaazha",
+        "year": 2024,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Anand Menen",
+          "hero": "Siju Sunny",
+          "heroine": "Joemon Jyothir",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 231
+        }
+      },
+      {
+        "id": "92cc86bd-3acd-4e6b-a4a4-a19ef82ecaa6",
+        "title": "Nobody 2",
+        "year": 2025,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Timo Tjahjanto",
+          "hero": "Bob Odenkirk",
+          "heroine": "Connie Nielsen",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 222
+        }
+      },
+      {
+        "id": "663813c1-2372-42b3-9dfc-cd78bef3e62c",
+        "title": "Odela 2",
+        "year": 2025,
+        "confidence": "80%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ashok Teja",
+          "hero": "Tamannaah Bhatia",
+          "heroine": "Hebah Patel",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 162
+        }
+      },
+      {
+        "id": "4f1d41e1-1abd-49cc-be6b-06cb1301e013",
+        "title": "Jack",
+        "year": 2025,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Quentin Tarantino",
+          "hero": "Siddhu Jonnalagadda",
+          "heroine": "Pam Grier",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 140
+        }
+      },
+      {
+        "id": "3b0e593f-9717-4597-ac75-dd49ec125535",
+        "title": "#69 Samskar Colony",
+        "year": 2022,
+        "confidence": "80%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Sunil Kumar Reddy",
+          "hero": "Ester Noronha",
+          "heroine": "Rishwi Thimmaraju",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 449
+        }
+      },
+      {
+        "id": "2bb2a51e-dcbe-4444-a01a-422545393761",
+        "title": "Leo",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "D",
+        "issues": [
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Lokesh Kanagaraj",
+          "hero": "Vijay",
+          "heroine": "Sanjay Dutt",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 144
+        }
+      },
+      {
+        "id": "83bba356-bd3f-46f1-b2d3-efd88440e051",
+        "title": "Gabriel's Rapture: Part III",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Tosca Musk",
+          "hero": "Melanie Zanetti",
+          "heroine": "Giulio Berruti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 219
+        }
+      },
+      {
+        "id": "401046a0-cab2-41ea-9dcc-f383f0fc1976",
+        "title": "Daredevil Musthafa",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Shashank Soghal",
+          "hero": "Aditya Ashree",
+          "heroine": "Supreeth Bharadwaj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 350
+        }
+      },
+      {
+        "id": "eff5e331-86e0-4c12-9a85-37059aced008",
+        "title": "Please Don't Feed the Children",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Destry Allyn Spielberg",
+          "hero": "Michelle Dockery",
+          "heroine": "Zoe Colletti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 205
+        }
+      },
+      {
+        "id": "116c6698-74f0-401a-aa94-8c6c63c3521a",
+        "title": "Gatta Kusthi",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Chella Ayyavu",
+          "hero": "Aishwarya Lekshmi",
+          "heroine": "Vishnu Vishal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 318
+        }
+      },
+      {
+        "id": "ee420087-e90d-4bf7-8386-8df4942422a7",
+        "title": "Lost Ladies",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Kiran Rao",
+          "hero": "Nitanshi Goel",
+          "heroine": "Pratibha Ranta",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 214
+        }
+      },
+      {
+        "id": "d251adbe-1831-49ca-8f06-8f158c7273f3",
+        "title": "A Thursday",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Behzad Khambata",
+          "hero": "Yami Gautam Dhar",
+          "heroine": "Atul Kulkarni",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 255
+        }
+      },
+      {
+        "id": "5f7cac48-145f-408e-a948-87a182037d57",
+        "title": "All We Imagine as Light",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Payal Kapadia",
+          "hero": "Kani Kusruti",
+          "heroine": "Divya Prabha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 295
+        }
+      },
+      {
+        "id": "e478a768-be59-4f19-a29c-a6ca1dd9f67e",
+        "title": "Dr. 56",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Rajesh AnandaLeela",
+          "hero": "Priyamani",
+          "heroine": "T Praveen Reddy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 307
+        }
+      },
+      {
+        "id": "fa9cce86-26dd-4144-b6f0-e3888237baf3",
+        "title": "Hostel Hudugaru Bekagiddare",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Nithin Krishnamurthy",
+          "hero": "Prajwal B. P.",
+          "heroine": "Manjunath Nayaka",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 148
+        }
+      },
+      {
+        "id": "6e7551a6-845f-4d84-a4e7-bdb071576ec4",
+        "title": "Good Boy",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ben Leonberg",
+          "hero": "Shane Jensen",
+          "heroine": "Larry Fessenden",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 228
+        }
+      },
+      {
+        "id": "b5fe3fa1-0031-4a51-9e58-4160ecc35810",
+        "title": "Wicked: For Good",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jon M. Chu",
+          "hero": "Cynthia Erivo",
+          "heroine": "Ariana Grande",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 299
+        }
+      },
+      {
+        "id": "f2aef9b1-1175-4164-a767-4433fd31079f",
+        "title": "Crew",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Rajesh Krishnan",
+          "hero": "Tabu",
+          "heroine": "Kareena Kapoor Khan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 140
+        }
+      },
+      {
+        "id": "da3e4f86-869f-430a-b5fd-c77f31ce9683",
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jake Schreier",
+          "hero": "Florence Pugh",
+          "heroine": "Sebastian Stan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 183
+        }
+      },
+      {
+        "id": "c9ff441d-769e-4218-80dc-152c8a0b466c",
+        "title": "Sookshmadarshini",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "MC Jithin",
+          "hero": "Nazriya Nazim",
+          "heroine": "Basil Joseph",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 214
+        }
+      },
+      {
+        "id": "f2e679da-468e-4dde-8ecc-29c1952a70de",
+        "title": "Aattam",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Anand Ekarshi",
+          "hero": "Zarin Shihab",
+          "heroine": "Vinay Forrt",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 236
+        }
+      },
+      {
+        "id": "e595bb1a-13f8-47ce-bfd5-09aaf0a105d8",
+        "title": "Lokah Chapter 1: Chandra",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Dominic Arun",
+          "hero": "Kalyani Priyadarshan",
+          "heroine": "Naslen",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 395
+        }
+      },
+      {
+        "id": "0740dc21-283c-436e-91f3-a39d2676f709",
+        "title": "Young Woman and the Sea",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Joachim Rønning",
+          "hero": "Daisy Ridley",
+          "heroine": "Tilda Cobham-Hervey",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 361
+        }
+      },
+      {
+        "id": "1922b125-398b-4691-86fe-cf55087db141",
+        "title": "Looop Lapeta",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Aakash Bhatia",
+          "hero": "Taapsee Pannu",
+          "heroine": "Tahir Raj Bhasin",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 148
+        }
+      },
+      {
+        "id": "b50189ae-549a-4493-a4ce-5a753cbbbd59",
+        "title": "Do Patti",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Shashanka Chaturvedi",
+          "hero": "Kriti Sanon",
+          "heroine": "Kajol",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 153
+        }
+      },
+      {
+        "id": "75c3e488-9c48-4a08-a74e-6c6d1032d364",
+        "title": "Gangubai Kathiawadi",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sanjay Leela Bhansali",
+          "hero": "Alia Bhatt",
+          "heroine": "Ajay Devgn",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 152
+        }
+      },
+      {
+        "id": "7e649f49-aaad-4f2b-b31c-60d4a1917934",
+        "title": "Jaya Jaya Jaya Jaya Hey",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Vipin Das",
+          "hero": "Darshana Rajendran",
+          "heroine": "Basil Joseph",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 271
+        }
+      },
+      {
+        "id": "8da5f217-f1ba-4886-8f93-2e3e3d4f75f9",
+        "title": "Chor Nikal Ke Bhaga",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ajay Singh",
+          "hero": "Yami Gautam Dhar",
+          "heroine": "Sunny Kaushal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 153
+        }
+      },
+      {
+        "id": "015c3683-2cee-4262-bc50-4e3ac5367d6a",
+        "title": "Super Sharanya",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Girish A. D.",
+          "hero": "Anaswara Rajan",
+          "heroine": "Mamitha Baiju",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 137
+        }
+      },
+      {
+        "id": "13634e8d-876e-4fe4-b894-2636bc9937d7",
+        "title": "Goodbye June",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Kate Winslet",
+          "hero": "Helen Mirren",
+          "heroine": "Toni Collette",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 116
+        }
+      },
+      {
+        "id": "7badf75c-03b8-4757-ae94-2d72f40fd9fb",
+        "title": "Saani Kaayidham",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Arun Matheswaran",
+          "hero": "Keerthy Suresh",
+          "heroine": "Selvaraghavan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 147
+        }
+      },
+      {
+        "id": "11cf9ae5-c19a-45a9-9186-9aabc3ed14ac",
+        "title": "Fackham Hall",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jim O'Hanlon",
+          "hero": "Thomasin McKenzie",
+          "heroine": "Ben Radcliffe",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 301
+        }
+      },
+      {
+        "id": "63ffe204-4aa7-43ff-81fc-7884aed43dc7",
+        "title": "Jurassic World Rebirth",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Gareth Edwards",
+          "hero": "Scarlett Johansson",
+          "heroine": "Mahershala Ali",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 482
+        }
+      },
+      {
+        "id": "84090509-334a-4d2a-9587-9ca30fc810c1",
+        "title": "Predator: Badlands",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Dan Trachtenberg",
+          "hero": "Elle Fanning",
+          "heroine": "Dimitrius Schuster-Koloamatangi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 158
+        }
+      },
+      {
+        "id": "4f90abdc-3982-41e7-8527-7fc7dcc726eb",
+        "title": "Die My Love",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Lynne Ramsay",
+          "hero": "Jennifer Lawrence",
+          "heroine": "Robert Pattinson",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 493
+        }
+      },
+      {
+        "id": "4cc2e762-f0be-4387-9505-d03f4a803946",
+        "title": "Predator: Killer of Killers",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Dan Trachtenberg",
+          "hero": "Lindsay LaVanchy",
+          "heroine": "Louis Ozawa",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 221
+        }
+      },
+      {
+        "id": "1b33fc0d-b975-40ed-a756-04f8daaa1af6",
+        "title": "The Way to the Heart",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Wendy Ord",
+          "hero": "Meghan Heffern",
+          "heroine": "Peter Graham",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 354
+        }
+      },
+      {
+        "id": "5f5d3e98-dbef-4364-b920-072ac47cce19",
+        "title": "Bugonia",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Yorgos Lanthimos",
+          "hero": "Emma Stone",
+          "heroine": "Jesse Plemons",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 147
+        }
+      },
+      {
+        "id": "6e62bfa7-9bcb-4cfa-b639-efcc27828aa0",
+        "title": "Aachar & Co",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sindhu Sreenivasa Murthy",
+          "hero": "Sindhu Sreenivasa Murthy",
+          "heroine": "Anirudh Acharya",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 295
+        }
+      },
+      {
+        "id": "3d8ecd93-df80-4739-8272-aac7001a7554",
+        "title": "Final Destination Bloodlines",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Adam B. Stein",
+          "hero": "Kaitlyn Santa Juana",
+          "heroine": "Teo Briones",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 219
+        }
+      },
+      {
+        "id": "0b0303e1-141e-457a-833c-790432244384",
+        "title": "Selena Gomez: My Mind & Me",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Alek Keshishian",
+          "hero": "Selena Gomez",
+          "heroine": "Raquelle Stevens",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 241
+        }
+      },
+      {
+        "id": "3339bc29-7fdf-4385-b1f5-6f29198842de",
+        "title": "TAYLOR SWIFT | THE ERAS TOUR",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sam Wrench",
+          "hero": "Taylor Swift",
+          "heroine": "Mike Meadows",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 307
+        }
+      },
+      {
+        "id": "575f85e1-37cd-4aa1-9e68-c8473450d914",
+        "title": "Gabriel's Rapture: Part II",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Tosca Musk",
+          "hero": "Melanie Zanetti",
+          "heroine": "Giulio Berruti",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 297
+        }
+      },
+      {
+        "id": "d1aeeea6-fb0f-4e2e-abb2-6ee733401004",
+        "title": "Zebra",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)"
+        ],
+        "currentData": {
+          "director": "Eashvar Karthic",
+          "hero": "Satyadev Kancharana",
+          "heroine": "Priyanka Sarkar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 108
+        }
+      },
+      {
+        "id": "73852771-81fa-454e-bf42-6589a66484e0",
+        "title": "¿Quieres ser mi hijo?",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ihtzi Hurtado",
+          "hero": "Ludwika Paleta",
+          "heroine": "Juanpa Zurita",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 203
+        }
+      },
+      {
+        "id": "46743597-4f42-4bc0-88b6-b5e579f2a158",
+        "title": "MaXXXine",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ti West",
+          "hero": "Mia Goth",
+          "heroine": "Elizabeth Debicki",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 213
+        }
+      },
+      {
+        "id": "bba5164b-bd5b-4f5e-8fbf-88273b0e819a",
+        "title": "Regretting You",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Josh Boone",
+          "hero": "Allison Williams",
+          "heroine": "Mckenna Grace",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 205
+        }
+      },
+      {
+        "id": "cb8fabeb-7bed-4239-98f6-37f75abadc02",
+        "title": "Yatra 2",
+        "year": 2024,
+        "confidence": "81%",
+        "grade": "B",
+        "issues": [
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mahi V. Raghav",
+          "hero": "Jiiva",
+          "heroine": "Mammootty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 456
+        }
+      },
+      {
+        "id": "b1b1d27d-b5ff-494a-9775-c0f8b7c8833c",
+        "title": "White Bird",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Marc Forster",
+          "hero": "Ariella Glaser",
+          "heroine": "Orlando Schwerdt",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 320
+        }
+      },
+      {
+        "id": "8185b0a6-7bf5-4fbd-9f68-996717de938d",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "B",
+        "issues": [
+          "director (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Justin K. Thompson",
+          "hero": "Shameik Moore",
+          "heroine": "Hailee Steinfeld",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 412
+        }
+      },
+      {
+        "id": "65a72a08-95e9-4c72-a38d-bf125579d942",
+        "title": "Darlings",
+        "year": 2022,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jasmeet K Reen",
+          "hero": "Alia Bhatt",
+          "heroine": "Shefali Shah",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 153
+        }
+      },
+      {
+        "id": "5c5ccd83-26e9-4fbc-8763-15aa5f498f72",
+        "title": "Zootopia 2",
+        "year": 2025,
+        "confidence": "81%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jared Bush",
+          "hero": "Ginnifer Goodwin",
+          "heroine": "Jason Bateman",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 367
+        }
+      },
+      {
+        "id": "f3c2c8ce-6907-4ac1-a5ce-3a058c7270df",
+        "title": "Once Upon a Studio",
+        "year": 2023,
+        "confidence": "81%",
+        "grade": "B",
+        "issues": [
+          "director (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Dan Abraham",
+          "hero": "Chris Diamantopoulos",
+          "heroine": "Kaitlyn Robrock",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 142
+        }
+      },
+      {
+        "id": "7a761923-4384-47b0-86c9-10096b8faa6e",
+        "title": "Butterfly",
+        "year": 2022,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Emy Jay",
+          "hero": "Charles \"Skeeta\" Jenkins",
+          "heroine": "Melanie Elise",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 434
+        }
+      },
+      {
+        "id": "190271f9-bfc1-4f0c-a11e-59021e680a3a",
+        "title": "Maa",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Vishal Furia",
+          "hero": "Kajol",
+          "heroine": "Ronit Roy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 683
+        }
+      },
+      {
+        "id": "6c48bb21-ab0f-4d1f-909a-40455401f1e9",
+        "title": "Nimona",
+        "year": 2023,
+        "confidence": "82%",
+        "grade": "D",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Nick Bruno",
+          "hero": "Chloë Grace Moretz",
+          "heroine": "Riz Ahmed",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 545
+        }
+      },
+      {
+        "id": "de83e75d-3e12-4f07-9542-5775fa4bc9c8",
+        "title": "Ballerina",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Len Wiseman",
+          "hero": "Ana de Armas",
+          "heroine": "Keanu Reeves",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 519
+        }
+      },
+      {
+        "id": "60a2500f-5875-4bc1-ba68-dd2b8fc8d41d",
+        "title": "The Housemaid",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Paul Feig",
+          "hero": "Sydney Sweeney",
+          "heroine": "Amanda Seyfried",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 526
+        }
+      },
+      {
+        "id": "359ac426-06a3-4f05-b868-42bb6e9c9b12",
+        "title": "Ghost",
+        "year": 2023,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Mg Srinivas",
+          "hero": "Shiva Rajkumar",
+          "heroine": "Prashant Narayanan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 249
+        }
+      },
+      {
+        "id": "a2535f18-677e-452d-b081-c0668b624757",
+        "title": "Eternity",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "David Freyne",
+          "hero": "Elizabeth Olsen",
+          "heroine": "Miles Teller",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 369
+        }
+      },
+      {
+        "id": "821e69ba-4338-4f66-9639-59d484d1159a",
+        "title": "Elio",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "director (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Madeline Sharafian",
+          "hero": "Yonas Kibreab",
+          "heroine": "Remy Edgerly",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 734
+        }
+      },
+      {
+        "id": "32174d6c-9370-4a63-b76a-3aaf5df60574",
+        "title": "Dhoom Dhaam",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Rishab Seth",
+          "hero": "Yami Gautam Dhar",
+          "heroine": "Pratik Gandhi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 339
+        }
+      },
+      {
+        "id": "e7628c5e-1592-46d2-bd96-b904f09de205",
+        "title": "Redeeming Love",
+        "year": 2022,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "D.J. Caruso",
+          "hero": "Abigail Cowen",
+          "heroine": "Tom Lewis",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 374
+        }
+      },
+      {
+        "id": "4d4272df-b0b5-4566-a918-5833352cd2ab",
+        "title": "Weapons",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Zach Cregger",
+          "hero": "Julia Garner",
+          "heroine": "Josh Brolin",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 397
+        }
+      },
+      {
+        "id": "f539626f-53c5-40bb-a173-ecc8d3ebea66",
+        "title": "Jaane Jaan",
+        "year": 2023,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Sujoy Ghosh",
+          "hero": "Kareena Kapoor Khan",
+          "heroine": "Jaideep Ahlawat",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 757
+        }
+      },
+      {
+        "id": "2e6205fa-1315-486d-b284-89ce4d298645",
+        "title": "Purple Hearts",
+        "year": 2022,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Elizabeth Allen Rosenbaum",
+          "hero": "Sofia Carson",
+          "heroine": "Nicholas Galitzine",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 328
+        }
+      },
+      {
+        "id": "f63f8f79-65b6-436d-bfe8-15aafa204cd0",
+        "title": "Gargi",
+        "year": 2022,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Gautham Ramachandran",
+          "hero": "Sai Pallavi",
+          "heroine": "Aishwarya Lekshmi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 687
+        }
+      },
+      {
+        "id": "7d871488-9f66-4861-94d4-9451377cdc4f",
+        "title": "Lilo & Stitch",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Dean Fleischer Camp",
+          "hero": "Maia Kealoha",
+          "heroine": "Sydney Agudong",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 463
+        }
+      },
+      {
+        "id": "8edd51b9-d252-4d12-a3a5-1a3082a60566",
+        "title": "Maharaj",
+        "year": 2024,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "heroine (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Siddharth P. Malhotra",
+          "hero": "Junaid Khan",
+          "heroine": "Jaideep Ahlawat",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 106
+        }
+      },
+      {
+        "id": "483048dc-36eb-4138-bf94-84638aac9eab",
+        "title": "Cabrini",
+        "year": 2024,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Alejandro Monteverde",
+          "hero": "Cristiana Dell'Anna",
+          "heroine": "David Morse",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 449
+        }
+      },
+      {
+        "id": "b3786f0a-32e0-4069-93b6-bb19f776ea3c",
+        "title": "Top Gear",
+        "year": 2022,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "director (info)",
+          "hero (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "K. Shashikanth",
+          "hero": "Adi Saikumar",
+          "heroine": "Riya Suman",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 525
+        }
+      },
+      {
+        "id": "ca6ace65-b2f5-457c-99f2-3529e964f246",
+        "title": "Wicked",
+        "year": 2024,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Jon M. Chu",
+          "hero": "Cynthia Erivo",
+          "heroine": "Ariana Grande",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 778
+        }
+      },
+      {
+        "id": "f4be5434-b373-4573-95c2-caa93939fb1a",
+        "title": "Barbie",
+        "year": 2023,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Greta Gerwig",
+          "hero": "Margot Robbie",
+          "heroine": "Ryan Gosling",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 556
+        }
+      },
+      {
+        "id": "a9d41d6f-62b3-45ee-805f-5f0b4d3d39d7",
+        "title": "Wildcat",
+        "year": 2025,
+        "confidence": "82%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "James Nunn",
+          "hero": "Kate Beckinsale",
+          "heroine": "Lewis Tan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 217
+        }
+      },
+      {
+        "id": "87037082-89f9-49ab-b07c-a64c7febb736",
+        "title": "KPop Demon Hunters",
+        "year": 2025,
+        "confidence": "83%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Chris Appelhans",
+          "hero": "Arden Cho",
+          "heroine": "May Hong",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 553
+        }
+      },
+      {
+        "id": "82ee344b-c5f6-432e-b488-9260f5e321b8",
+        "title": "The Wild Robot",
+        "year": 2024,
+        "confidence": "83%",
+        "grade": "C",
+        "issues": [
+          "hero (info)",
+          "heroine (info)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Chris Sanders",
+          "hero": "Lupita Nyong'o",
+          "heroine": "Pedro Pascal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 533
+        }
+      }
+    ],
+    "releaseDate": [
+      {
+        "id": "1f8fa34e-41ed-4a79-8581-421273cd1d21",
+        "title": "The Trial",
+        "year": 2023,
+        "confidence": "75%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Raam Ganni",
+          "hero": "Spandana Palli",
+          "heroine": "Spandana Palli",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 488
+        }
+      },
+      {
+        "id": "9c81d419-3263-4260-be41-686bb8e83561",
+        "title": "Dhoom Dhaam",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Sai Kishore Macha",
+          "hero": "Chetan Maddineni",
+          "heroine": "Hebah Patel",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 451
+        }
+      },
+      {
+        "id": "a69ad963-a6ba-4731-b81b-fade533c0ee7",
+        "title": "Eagle",
+        "year": 2024,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Karthik Ghattamaneni",
+          "hero": "Ravi Teja",
+          "heroine": "Anupama Parameswaran",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 99
+        }
+      },
+      {
+        "id": "38820866-3e57-449a-b385-64ba142479a5",
+        "title": "Thalakona",
+        "year": 2024,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Nagesh Naradasi",
+          "hero": "Ajay Ghosh",
+          "heroine": "Apsara Rani",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 501
+        }
+      },
+      {
+        "id": "72991cd4-6fe7-4137-abb5-70a025ed37a7",
+        "title": "Thammudu",
+        "year": 2025,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Venu Sriram",
+          "hero": "Nithiin",
+          "heroine": "Sapthami Gowda",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 441
+        }
+      },
+      {
+        "id": "200053e3-5960-414a-ba16-43091d97e845",
+        "title": "Dheera",
+        "year": 2024,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vikranth Srinivas",
+          "hero": "Mirchi Kiran",
+          "heroine": "Neha Pathan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 363
+        }
+      },
+      {
+        "id": "8212da04-98bc-452c-93dd-f5b4fb81930d",
+        "title": "EVOL",
+        "year": 2024,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ram Yogi Velagapudi",
+          "hero": "Shiva Ramachandravarapu",
+          "heroine": "Jenifer Emmanuel John",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 461
+        }
+      },
+      {
+        "id": "d7458170-d08d-4369-8477-9ebf203ae403",
+        "title": "Vimanam",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Siva Prasad Yanala",
+          "hero": "Samuthirakani",
+          "heroine": "Anasuya Bharadwaj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 496
+        }
+      },
+      {
+        "id": "0a60db76-1b52-48ce-aaba-efd69bdd2615",
+        "title": "Malli Pelli",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "M. S. Raju",
+          "hero": "Naresh",
+          "heroine": "Pavitra Lokesh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 424
+        }
+      },
+      {
+        "id": "79eec80a-7c17-45bb-a61c-0ffb9914eb41",
+        "title": "Custody",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Venkat Prabhu",
+          "hero": "Naga Chaitanya Akkineni",
+          "heroine": "Krithi Shetty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 452
+        }
+      },
+      {
+        "id": "c9c42e95-15cf-4cb9-bcfe-8346f629d618",
+        "title": "Godfather",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mohan Raja",
+          "hero": "Chiranjeevi",
+          "heroine": "Nayanthara",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 412
+        }
+      },
+      {
+        "id": "72032adf-2899-484b-985c-aa68bcb83645",
+        "title": "Khiladi",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ramesh Varma",
+          "hero": "Ravi Teja",
+          "heroine": "Meenakshi Chaudhary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 450
+        }
+      },
+      {
+        "id": "e7027461-4104-476c-be30-270eed521760",
+        "title": "Acharya",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Koratala Siva",
+          "hero": "Chiranjeevi",
+          "heroine": "Pooja Hegde",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 403
+        }
+      },
+      {
+        "id": "6ed962c9-1509-443c-8271-31594e12e448",
+        "title": "Cauliflower",
+        "year": 2021,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "R. K. Malineni",
+          "hero": "Sampoornesh Babu",
+          "heroine": "Vasanthi Krishnan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 385
+        }
+      },
+      {
+        "id": "43b0d164-9386-4128-a30c-cf2543ebb88a",
+        "title": "Atharva",
+        "year": 2023,
+        "confidence": "79%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mahesh Reddy",
+          "hero": "Karthik Raj",
+          "heroine": "Simran Choudhary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 455
+        }
+      },
+      {
+        "id": "553a90cd-6c7c-40a7-9c52-410c8d42d0fb",
+        "title": "Premadesam",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "B",
+        "issues": [
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Srikanth Siddham",
+          "hero": "Thrigun",
+          "heroine": "Megha Akash",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 412
+        }
+      },
+      {
+        "id": "56903637-d3a6-404a-8581-76501b1fdfae",
+        "title": "Bomma Blockbuster",
+        "year": 2022,
+        "confidence": "80%",
+        "grade": "B",
+        "issues": [
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Raj Virat",
+          "hero": "Nandu Vijay Krishna",
+          "heroine": "Rashmi Gautham",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 388
+        }
+      },
+      {
+        "id": "f27e07db-bfd0-45b9-8703-504441c51907",
+        "title": "O Saathiya",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "C",
+        "issues": [
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Divya Bhavana",
+          "hero": "Aryan Gowra",
+          "heroine": "Mishti Chakravarty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 438
+        }
+      },
+      {
+        "id": "a9e77455-724f-4779-aabc-031aed17ce62",
+        "title": "Bhari Taraganam",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "B",
+        "issues": [
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Shekhar Muthyala",
+          "hero": "Ali Basha",
+          "heroine": "Rekha Nirosha",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 435
+        }
+      },
+      {
+        "id": "64fc6fd0-538a-4c3c-a1c0-64fae0763734",
+        "title": "Darling",
+        "year": 2024,
+        "confidence": "82%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Aswin Raam",
+          "hero": "Priyadarshi Pullikonda",
+          "heroine": "Nabha Natesh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 459
+        }
+      },
+      {
+        "id": "c9825c5a-3be3-4f6c-9196-11fad9f77a77",
+        "title": "Usha Parinayam",
+        "year": 2024,
+        "confidence": "82%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "release_date (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "K. Vijaya Bhaskar",
+          "hero": "Vennela Kishore",
+          "heroine": "Aamani",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 451
+        }
+      }
+    ],
+    "other": [
+      {
+        "id": "91332f5b-bf80-40ac-9c36-0f0e93321f38",
+        "title": "Junior",
+        "year": 2025,
+        "confidence": "66%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Radhakrishna Reddy",
+          "hero": "Kireeti Reddy",
+          "heroine": "Sreeleela, Genelia DSouza",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 137
+        }
+      },
+      {
+        "id": "50c7eb71-5e4e-499c-8c87-52c45b932c50",
+        "title": "Anveshi",
+        "year": 2023,
+        "confidence": "66%",
+        "grade": "B",
+        "issues": [
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "V. J. Khanna",
+          "hero": "Vijay Dharan Datla",
+          "heroine": "Simran Gupta, Ananya Nagalla",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 116
+        }
+      },
+      {
+        "id": "319df94e-69e6-417f-9b9b-05f6cee68411",
+        "title": "Madhi",
+        "year": 2022,
+        "confidence": "74%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Naga Dhanush",
+          "hero": "Sreeram Nimmala",
+          "heroine": "Richa Joshi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 394
+        }
+      },
+      {
+        "id": "34825973-65dd-4b2b-b0d9-c28ba5f4a870",
+        "title": "Akkada Ammayi Ikkada Abbayi",
+        "year": 2025,
+        "confidence": "76%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "NitinBharath",
+          "hero": "Pradeep Machiraju",
+          "heroine": "Deepika Pilli",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 1247
+        }
+      },
+      {
+        "id": "8d49f7c3-b928-4f5d-a5c2-ea18b09c670c",
+        "title": "Mirai",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Karthik Ghattamaneni",
+          "hero": "Teja Sajja",
+          "heroine": "Ritika Nayak",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 101
+        }
+      },
+      {
+        "id": "21efa351-4f7b-4c01-bd03-cc1b84687f78",
+        "title": "Ustaad",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Phanideep",
+          "hero": "Sri Simha",
+          "heroine": "Kavya Kalyanram",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 474
+        }
+      },
+      {
+        "id": "e3e0b067-e518-418c-959b-4a6fa248b846",
+        "title": "Sundarakanda",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Venkatesh Nimmalapudi",
+          "hero": "Nara Rohith",
+          "heroine": "Sridevi Vijayakumar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 488
+        }
+      },
+      {
+        "id": "ee2b526d-8122-485b-8295-61aa88b85463",
+        "title": "Ugram",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vijay Kanakamedala",
+          "hero": "Allari Naresh",
+          "heroine": "Mirnaa",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 462
+        }
+      },
+      {
+        "id": "3501ee67-4b7a-4d7f-80c9-c08fd3d767b0",
+        "title": "Bhuvana Vijayam",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Yalamanda Charan",
+          "hero": "Sunil Varma",
+          "heroine": "Vasanthi Krishnan",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 451
+        }
+      },
+      {
+        "id": "c3d4a8f5-5a07-49cf-b178-d96a3c4b6658",
+        "title": "Chor Bazaar",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Jeevan Reddy",
+          "hero": "Akash Puri",
+          "heroine": "Gehna Sippy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 403
+        }
+      },
+      {
+        "id": "f27bb516-5c8c-4e67-92c7-8e52d8daf9a5",
+        "title": "Blind Spot",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Rakesh Varma",
+          "hero": "Naveen Chandra",
+          "heroine": "Raashi Singh",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 196
+        }
+      },
+      {
+        "id": "e2c68aa5-f9a0-4643-9ee8-4ae7a1cb615b",
+        "title": "Suvarna Sundari",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "M. S. N. Surya",
+          "hero": "Sai Kumar",
+          "heroine": "Jaya Prada",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 462
+        }
+      },
+      {
+        "id": "90f8534d-d71a-49bd-ac3c-8fc926a0ca15",
+        "title": "Kinnerasani",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ramana Teja",
+          "hero": "Kalyaan Dhev",
+          "heroine": "Ann Sheetal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 470
+        }
+      },
+      {
+        "id": "46cf36de-fde1-42ef-b6af-befdea729037",
+        "title": "Thank You",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Vikram Kumar",
+          "hero": "Naga Chaitanya Akkineni",
+          "heroine": "Raashii Khanna",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 385
+        }
+      },
+      {
+        "id": "2c253417-1af2-479b-918b-a0a800aee19c",
+        "title": "I Hate You",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Anji Ram",
+          "hero": "Karthik Raju",
+          "heroine": "Sherry Agarwal",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 428
+        }
+      },
+      {
+        "id": "6ba89282-8523-4f7f-bb8b-7dc81d378742",
+        "title": "Swathi Muthyam",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Lakshman K Krishna",
+          "hero": "Bellamkonda Ganesh",
+          "heroine": "Varsha Bollamma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 446
+        }
+      },
+      {
+        "id": "7626b944-a4b8-4573-b0d9-04fb51654e04",
+        "title": "Utsavam",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Arjun Sai",
+          "hero": "Prakash Raj",
+          "heroine": "Regina Cassandra",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 556
+        }
+      },
+      {
+        "id": "5602ab4c-b7d7-401c-9605-6c3234b96e9b",
+        "title": "Kalyanam Kamaneeyam",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Anil kumar Aalla",
+          "hero": "Santosh Shoban",
+          "heroine": "Priya Bhavani Shankar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 425
+        }
+      },
+      {
+        "id": "6ee50ec1-5f96-487f-9ba1-f83092536b49",
+        "title": "Aarambham",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Ajay Nag",
+          "hero": "Mohan Bhagath",
+          "heroine": "Surabhi Prabhavathi",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 179
+        }
+      },
+      {
+        "id": "0bf919a7-a802-4877-9b25-8c30e487622c",
+        "title": "Dhamaka",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Trinadha Rao Nakkina",
+          "hero": "Ravi Teja",
+          "heroine": "Sreeleela",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 373
+        }
+      },
+      {
+        "id": "6eb60af1-378c-4b0b-914e-3b89cc0ac20c",
+        "title": "Bloody Mary",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Chandoo Mondeti",
+          "hero": "Kireeti Damaraju",
+          "heroine": "Nivetha Pethuraj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 426
+        }
+      },
+      {
+        "id": "69e71ef5-9f90-4596-93a1-57117286125f",
+        "title": "Raju Yadav",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "K. Krishnamachary",
+          "hero": "Getup Srinu",
+          "heroine": "Ankitha Karath",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 227
+        }
+      },
+      {
+        "id": "65fbc0cb-7206-4529-8721-ac509724def3",
+        "title": "Bhamakalapam",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Abhimanyu Tadimeti",
+          "hero": "John Vijay",
+          "heroine": "Priyamani",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 391
+        }
+      },
+      {
+        "id": "4353aed0-7765-4ff1-9f2c-5ba631ea470e",
+        "title": "Robinhood",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Venky Kudumula",
+          "hero": "Nithiin",
+          "heroine": "Sreeleela",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 134
+        }
+      },
+      {
+        "id": "8f3caef5-bb21-4ba3-ae75-8abe7f7d0ba7",
+        "title": "Sindhooram",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Shyam Tummalapalli",
+          "hero": "Siva Balaji",
+          "heroine": "Brigida Saga",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 393
+        }
+      },
+      {
+        "id": "89042c43-b7b8-4b8f-92fa-ede6eeea54e1",
+        "title": "Balagam",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Venu",
+          "hero": "Priyadarshi Pullikonda",
+          "heroine": "Kavya Kalyanram",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 422
+        }
+      },
+      {
+        "id": "934ed7c6-503a-4233-abdd-3336e9923592",
+        "title": "Bharathanatyam",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "KVR Mahendra",
+          "hero": "Harsha Vardhan",
+          "heroine": "Gangavva",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 215
+        }
+      },
+      {
+        "id": "c9a3ae2f-1285-4df1-be68-4509d13d17bb",
+        "title": "Skanda: The Attacker",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Boyapati Srinu",
+          "hero": "Ram Pothineni",
+          "heroine": "Sreeleela",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 471
+        }
+      },
+      {
+        "id": "ce74d671-f156-41d9-a001-0aa7957ef863",
+        "title": "Tenant",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "poster_url (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Y. Yugandhar",
+          "hero": "Satyam Rajesh",
+          "heroine": "Megha Chowdhury",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "b04c5b34-982a-4995-b393-53231cd7b3ab",
+        "title": "Ahimsa",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Teja",
+          "hero": "Kamal Kamaraju",
+          "heroine": "Geethika Tiwary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 508
+        }
+      },
+      {
+        "id": "cf7d808b-4dc3-4408-aed1-ee43abc02697",
+        "title": "The Warriorr",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "N. Linguswamy",
+          "hero": "Ram Pothineni",
+          "heroine": "Krithi Shetty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 402
+        }
+      },
+      {
+        "id": "4ecc99b3-d9dc-4b58-9e4f-3385a121c313",
+        "title": "Neetho",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Balu Sharma",
+          "hero": "Aberaam Varma",
+          "heroine": "Saathvika Raj",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 391
+        }
+      },
+      {
+        "id": "37eefd7c-0b4b-455a-8353-14f3f7146995",
+        "title": "Ghani",
+        "year": 2022,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Kiran Korrapati",
+          "hero": "Varun Tej",
+          "heroine": "Saiee Manjrekar",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 397
+        }
+      },
+      {
+        "id": "f622c27d-884d-4f2e-b954-19b9ec48f6e4",
+        "title": "Kismat",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Srinath Badineni",
+          "hero": "Abhinav Gomatam",
+          "heroine": "Riya Suman",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "7602d4b9-dd37-4ad4-84e9-87d9becb20f5",
+        "title": "Rakshana",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Prandeep Thakore",
+          "hero": "Sivannarayana Naripeddi",
+          "heroine": "Payal Rajput",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 233
+        }
+      },
+      {
+        "id": "649399fc-73f8-4d70-83eb-3ef61680c1cf",
+        "title": "Aa Okkati Adakku",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Malli Ankam",
+          "hero": "Allari Naresh",
+          "heroine": "Faria Abdullah",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 170
+        }
+      },
+      {
+        "id": "9bd47fba-ea00-4061-a3c2-f5daae367cca",
+        "title": "Honeymoon Express",
+        "year": 2024,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Bala Rajasekharuni",
+          "hero": "Tanikella Bharani",
+          "heroine": "Hebah Patel",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 406
+        }
+      },
+      {
+        "id": "6e750a81-a67e-43b9-a538-debc5a172a52",
+        "title": "Bubblegum",
+        "year": 2023,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ravikanth Perepu",
+          "hero": "Harsha Chemudu",
+          "heroine": "Maanasa Chaudhary",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 432
+        }
+      },
+      {
+        "id": "8acb6e4f-ea0c-47ff-8393-96da24306c50",
+        "title": "Laila",
+        "year": 2025,
+        "confidence": "78%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Ram Narayan",
+          "hero": "Vishwak Sen",
+          "heroine": "Akanksha Sharma",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 203
+        }
+      },
+      {
+        "id": "3bbe76cf-a0b9-472e-a0ca-825c31c7f278",
+        "title": "Tees Maar Khan",
+        "year": 2022,
+        "confidence": "79%",
+        "grade": "C",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)",
+          "backdrop_url (info)"
+        ],
+        "currentData": {
+          "director": "Kalyanji Gogana",
+          "hero": "Aadi Saikumar",
+          "heroine": "Payal Rajput",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 470
+        }
+      },
+      {
+        "id": "0601e933-39ee-43fa-9ae2-b84b672183cc",
+        "title": "Hunt",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "B",
+        "issues": [
+          "title (info)",
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Mahesh Surapaneni",
+          "hero": "Sudheer Babu",
+          "heroine": "Mounika Reddy",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 509
+        }
+      },
+      {
+        "id": "5665c912-418c-41a1-8b5a-392351ce9039",
+        "title": "Bedurulanka 2012",
+        "year": 2023,
+        "confidence": "80%",
+        "grade": "B",
+        "issues": [
+          "synopsis (warning)",
+          "language (info)"
+        ],
+        "currentData": {
+          "director": "Clax",
+          "hero": "Ajay Ghosh",
+          "heroine": "Neha Shetty",
+          "hasPoster": true,
+          "hasBackdrop": true,
+          "synopsisLength": 473
+        }
+      }
+    ]
+  }
+}

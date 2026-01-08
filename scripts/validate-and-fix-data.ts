@@ -88,39 +88,70 @@ async function detectOrphanCelebrities() {
 
   if (!celebrities) return;
 
+  let orphanCount = 0;
+  let linkedCount = 0;
+
   for (const celeb of celebrities) {
-    // Check if celebrity is referenced in any movie
+    const celebName = celeb.name_en?.trim();
+    if (!celebName || celebName.length < 2) continue;
+
+    // Use PARTIAL matching (ilike) since movie names often include full names
+    // e.g., celebrity "Nagarjuna" should match movie hero "Akkineni Nagarjuna"
+    const searchPattern = `%${celebName}%`;
+
     const { data: heroMovies } = await supabase
       .from('movies')
       .select('id')
-      .eq('hero', celeb.name_en)
+      .ilike('hero', searchPattern)
       .limit(1);
 
     const { data: heroineMovies } = await supabase
       .from('movies')
       .select('id')
-      .eq('heroine', celeb.name_en)
+      .ilike('heroine', searchPattern)
       .limit(1);
 
     const { data: directorMovies } = await supabase
       .from('movies')
       .select('id')
-      .eq('director', celeb.name_en)
+      .ilike('director', searchPattern)
       .limit(1);
 
-    if (!heroMovies?.length && !heroineMovies?.length && !directorMovies?.length) {
+    const { data: musicMovies } = await supabase
+      .from('movies')
+      .select('id')
+      .ilike('music_director', searchPattern)
+      .limit(1);
+
+    const { data: producerMovies } = await supabase
+      .from('movies')
+      .select('id')
+      .ilike('producer', searchPattern)
+      .limit(1);
+
+    const isLinked = 
+      (heroMovies?.length ?? 0) > 0 || 
+      (heroineMovies?.length ?? 0) > 0 || 
+      (directorMovies?.length ?? 0) > 0 ||
+      (musicMovies?.length ?? 0) > 0 ||
+      (producerMovies?.length ?? 0) > 0;
+
+    if (isLinked) {
+      linkedCount++;
+    } else {
+      orphanCount++;
       issues.push({
         type: 'orphan',
         severity: 'low',
         entity: 'celebrities',
         entityId: celeb.id,
-        description: `Celebrity ${celeb.name_en} is not linked to any movie`,
-        fixable: true,
+        description: `Celebrity "${celebName}" is not linked to any movie (checked hero, heroine, director, music_director, producer)`,
+        fixable: false, // Changed to false - requires manual review before deletion
       });
     }
   }
 
-  console.log(`   Found ${issues.filter(i => i.type === 'orphan' && i.entity === 'celebrities').length} orphan celebrities`);
+  console.log(`   Found ${orphanCount} orphan celebrities (${linkedCount} are properly linked)`);
 }
 
 // ============================================================
@@ -337,9 +368,24 @@ async function fixOrphanCelebrities(dryRun: boolean = true) {
   
   if (orphanCelebs.length === 0) return;
 
-  console.log(`\n🔧 ${dryRun ? '[DRY RUN]' : ''} Fixing ${orphanCelebs.length} orphan celebrities...`);
+  // Filter to only fixable issues (orphan celebrities are now marked as NOT auto-fixable)
+  const fixableOrphans = orphanCelebs.filter(i => i.fixable);
+  const reviewRequired = orphanCelebs.filter(i => !i.fixable);
 
-  for (const issue of orphanCelebs) {
+  if (reviewRequired.length > 0) {
+    console.log(`\n⚠️  ${reviewRequired.length} orphan celebrities require MANUAL REVIEW (not auto-deletable)`);
+    console.log('   These use partial name matching and may be false positives.');
+    console.log('   Review with: npx tsx scripts/validate-and-fix-data.ts --list-orphan-celebs');
+  }
+
+  if (fixableOrphans.length === 0) {
+    console.log(`\n✅ No auto-fixable orphan celebrities found.`);
+    return;
+  }
+
+  console.log(`\n🔧 ${dryRun ? '[DRY RUN]' : ''} Fixing ${fixableOrphans.length} orphan celebrities...`);
+
+  for (const issue of fixableOrphans) {
     if (!dryRun) {
       await supabase
         .from('celebrities')
@@ -372,12 +418,82 @@ async function fixIncompleteMovies(dryRun: boolean = true) {
 // MAIN EXECUTION
 // ============================================================
 
+async function listOrphanCelebrities() {
+  console.log('\n📋 ORPHAN CELEBRITIES - MANUAL REVIEW LIST\n');
+  console.log('=' .repeat(70));
+  
+  const { data: celebrities } = await supabase
+    .from('celebrities')
+    .select('id, name_en, name_te, tmdb_id, profile_image');
+
+  if (!celebrities) {
+    console.log('No celebrities found.');
+    return;
+  }
+
+  const orphans: Array<{ id: string; name: string; tmdb: string; hasImage: boolean; reason: string }> = [];
+
+  for (const celeb of celebrities) {
+    const celebName = celeb.name_en?.trim();
+    if (!celebName || celebName.length < 2) continue;
+
+    const searchPattern = `%${celebName}%`;
+
+    const { data: heroMovies } = await supabase.from('movies').select('id, title_en').ilike('hero', searchPattern).limit(1);
+    const { data: heroineMovies } = await supabase.from('movies').select('id, title_en').ilike('heroine', searchPattern).limit(1);
+    const { data: directorMovies } = await supabase.from('movies').select('id, title_en').ilike('director', searchPattern).limit(1);
+    const { data: musicMovies } = await supabase.from('movies').select('id, title_en').ilike('music_director', searchPattern).limit(1);
+
+    const isLinked = 
+      (heroMovies?.length ?? 0) > 0 || 
+      (heroineMovies?.length ?? 0) > 0 || 
+      (directorMovies?.length ?? 0) > 0 ||
+      (musicMovies?.length ?? 0) > 0;
+
+    if (!isLinked) {
+      orphans.push({
+        id: celeb.id,
+        name: celebName,
+        tmdb: celeb.tmdb_id || 'None',
+        hasImage: !!celeb.profile_image,
+        reason: 'No partial match found in hero/heroine/director/music_director',
+      });
+    }
+  }
+
+  if (orphans.length === 0) {
+    console.log('\n✅ No orphan celebrities found! All are linked to movies.\n');
+    return;
+  }
+
+  console.log(`\nFound ${orphans.length} orphan celebrities:\n`);
+  
+  orphans.forEach((o, i) => {
+    console.log(`${i + 1}. ${o.name}`);
+    console.log(`   ID: ${o.id}`);
+    console.log(`   TMDB: ${o.tmdb} | Image: ${o.hasImage ? '✅' : '❌'}`);
+    console.log(`   Reason: ${o.reason}`);
+    console.log('');
+  });
+
+  console.log('=' .repeat(70));
+  console.log('\n💡 To delete a celebrity manually:');
+  console.log('   npx tsx -e "require(\'@supabase/supabase-js\').createClient(...)');
+  console.log('      .from(\'celebrities\').delete().eq(\'id\', \'<ID>\')"\n');
+}
+
 async function main() {
   console.log('🚀 Starting data quality validation...\n');
   console.log('=' .repeat(60));
 
   const dryRun = process.argv.includes('--dry-run');
   const fix = process.argv.includes('--fix');
+
+  // Special command: list orphan celebrities for manual review
+  if (process.argv.includes('--list-orphan-celebs')) {
+    await listOrphanCelebrities();
+    return;
+  }
 
   // Run all validations
   await detectOrphanReviews();

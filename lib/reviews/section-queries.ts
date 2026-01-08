@@ -86,6 +86,7 @@ function buildBaseQuery(config: SectionQueryConfig) {
 
 /**
  * Apply sorting to query
+ * Uses our_rating (editorial) as primary sort for rating-based sorts
  */
 function applySorting(query: any, sortBy: string = 'rating') {
   switch (sortBy) {
@@ -94,7 +95,9 @@ function applySorting(query: any, sortBy: string = 'rating') {
       return query.order('composite_score', { ascending: false, nullsLast: true });
     
     case 'rating':
+      // Use our_rating (editorial) first, then avg_rating as fallback
       return query
+        .order('our_rating', { ascending: false, nullsFirst: false })
         .order('avg_rating', { ascending: false })
         .order('total_reviews', { ascending: false });
     
@@ -108,10 +111,10 @@ function applySorting(query: any, sortBy: string = 'rating') {
     
     case 'rewatch':
       // Requires rewatch_value from dimensions_json
-      return query.order('avg_rating', { ascending: false }); // Fallback
+      return query.order('our_rating', { ascending: false, nullsFirst: false }); // Fallback
     
     default:
-      return query.order('avg_rating', { ascending: false });
+      return query.order('our_rating', { ascending: false, nullsFirst: false });
   }
 }
 

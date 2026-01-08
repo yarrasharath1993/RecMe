@@ -1,0 +1,282 @@
+[
+  {
+    "id": "d79b6116-9e21-4b3b-b041-2cecad34f864",
+    "currentTitle": "The King of Kings",
+    "year": 2025,
+    "tmdbId": 1181107,
+    "director": "Jang Seong-ho",
+    "hero": "Oscar Isaac",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "The King of Kings (2025 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Andhra King Taluka"
+      }
+    ],
+    "recommended": "Andhra King Taluka"
+  },
+  {
+    "id": "eb4dcdaa-d25e-41fa-bd38-83c427185201",
+    "currentTitle": "Love Me",
+    "year": 2024,
+    "tmdbId": 881415,
+    "director": "Arun Bhimavarapu",
+    "hero": "Kristen Stewart",
+    "confidence": "79%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Love Me (2024 American film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Love Me If You Dare"
+      }
+    ],
+    "recommended": "Love Me If You Dare"
+  },
+  {
+    "id": "df7f5d43-3de2-4a76-b490-49f6bcfbf7cb",
+    "currentTitle": "Vidhi",
+    "year": 2023,
+    "tmdbId": 1199878,
+    "director": "Srikanth Ranganathan",
+    "hero": "Rohit Nanda",
+    "confidence": "78%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "List of Telugu films of 2023"
+      },
+      {
+        "source": "tmdb",
+        "value": "Vidhi"
+      }
+    ],
+    "recommended": "Vidhi"
+  },
+  {
+    "id": "5e002bf8-76d9-4448-ae5d-733ca3de9679",
+    "currentTitle": "Love Me If You Dare",
+    "year": 2024,
+    "tmdbId": 1293900,
+    "director": "Arun Bhimavarapu",
+    "hero": "Ashish Reddy",
+    "confidence": "79%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Love Me (2024 American film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Love Me If You Dare"
+      }
+    ],
+    "recommended": "Love Me If You Dare"
+  },
+  {
+    "id": "13d107f1-cdc2-4da1-9ee8-c29687d7e427",
+    "currentTitle": "Star",
+    "year": 2024,
+    "tmdbId": 1276338,
+    "director": "Elan",
+    "hero": "Kavin Raj",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Star (2024 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "The Family Star"
+      }
+    ],
+    "recommended": "The Family Star"
+  },
+  {
+    "id": "da384a2a-0a03-4083-9fd8-1eaa032ed2fb",
+    "currentTitle": "Don",
+    "year": 2022,
+    "tmdbId": 895033,
+    "director": "Cibi Chakaravarthi",
+    "hero": "Sivakarthikeyan",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Don (2022 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Dona Flor and Her Two Husbands"
+      }
+    ],
+    "recommended": "Dona Flor and Her Two Husbands"
+  },
+  {
+    "id": "221ac69e-bdbd-4cf4-bfd4-57f03da3d441",
+    "currentTitle": "Attack",
+    "year": 2022,
+    "tmdbId": 799155,
+    "director": "Lakshya Raj Anand",
+    "hero": "John Abraham",
+    "confidence": "82%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Attack: Part 1"
+      },
+      {
+        "source": "tmdb",
+        "value": "Attack"
+      }
+    ],
+    "recommended": "Attack"
+  },
+  {
+    "id": "b677919a-b5b0-4eb6-a62c-e0c949fec9a4",
+    "currentTitle": "10",
+    "year": 2022,
+    "tmdbId": 1064489,
+    "director": "Karm Chawla",
+    "hero": "Vinay Rajkumar",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "10 (2022 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "10th Class Diaries"
+      }
+    ],
+    "recommended": "10th Class Diaries"
+  },
+  {
+    "id": "34342d96-b78c-4fc2-958b-884a19c18a20",
+    "currentTitle": "Doctor",
+    "year": 2021,
+    "tmdbId": 673692,
+    "director": "Nelson Dilipkumar",
+    "hero": "Sivakarthikeyan",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "tmdb",
+        "value": "Doctor on Call"
+      },
+      {
+        "source": "wikipedia",
+        "value": "Doctor (2021 film)"
+      }
+    ],
+    "recommended": "Doctor on Call"
+  },
+  {
+    "id": "56bd31f7-a74a-4bae-854f-99a3eb738dd6",
+    "currentTitle": "Karna",
+    "year": 2023,
+    "tmdbId": 680017,
+    "director": "Juan Pablo Félix",
+    "hero": "Alfredo Castro",
+    "confidence": "78%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Karna (2023 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Karnawal"
+      }
+    ],
+    "recommended": "Karnawal"
+  },
+  {
+    "id": "715a5072-41eb-4065-97de-9217913422d2",
+    "currentTitle": "Chakravyuham",
+    "year": 2023,
+    "tmdbId": 1134790,
+    "director": "Chetukuri Madhusudhan",
+    "hero": "Ajay",
+    "confidence": "78%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Chakravyuham: The Trap"
+      },
+      {
+        "source": "tmdb",
+        "value": "Chakravyuham"
+      }
+    ],
+    "recommended": "Chakravyuham"
+  },
+  {
+    "id": "37d6de3f-f586-431d-89bf-030ba7263349",
+    "currentTitle": "Vedha",
+    "year": 2022,
+    "tmdbId": 813829,
+    "director": "A Harsha",
+    "hero": "Shiva Rajkumar",
+    "confidence": "81%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Vedha (2022 film)"
+      },
+      {
+        "source": "tmdb",
+        "value": "Vikram Vedha"
+      }
+    ],
+    "recommended": "Vikram Vedha"
+  },
+  {
+    "id": "e7a45854-fa01-45f1-9e21-a611f9d0bcf0",
+    "currentTitle": "Mangalyam",
+    "year": 2022,
+    "tmdbId": 1042155,
+    "director": "Rasool Ellore",
+    "hero": "Rohit",
+    "confidence": "76%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "Bandi Saroj Kumar"
+      },
+      {
+        "source": "tmdb",
+        "value": "Mangalyam"
+      }
+    ],
+    "recommended": "Mangalyam"
+  },
+  {
+    "id": "870e11a5-ba9e-43a2-9ced-fe78d2c19ae8",
+    "currentTitle": "Zinga",
+    "year": 2022,
+    "tmdbId": 992426,
+    "director": "Euridilla Scarponi",
+    "hero": "Enrico Borello",
+    "confidence": "76%",
+    "sources": [
+      {
+        "source": "wikipedia",
+        "value": "List of Telugu films of 2022"
+      },
+      {
+        "source": "tmdb",
+        "value": "Happy Gypsies"
+      }
+    ],
+    "recommended": "Happy Gypsies"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-01-06T23:00:54.466Z",
+  "totalMovies": 10,
+  "metrics": {
+    "avgConfidence": 0.7240584297810033,
+    "moviesNeedingReview": 7,
+    "autoApplicable": 3,
+    "gradeDistribution": {
+      "A": 0,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "F": 0
+    }
+  },
+  "commonIssues": [
+    {
+      "field": "language",
+      "count": 10,
+      "severity": "info"
+    },
+    {
+      "field": "release_date",
+      "count": 7,
+      "severity": "critical"
+    },
+    {
+      "field": "awards",
+      "count": 7,
+      "severity": "info"
+    },
+    {
+      "field": "synopsis",
+      "count": 6,
+      "severity": "warning"
+    },
+    {
+      "field": "hero",
+      "count": 4,
+      "severity": "critical"
+    },
+    {
+      "field": "title",
+      "count": 3,
+      "severity": "critical"
+    },
+    {
+      "field": "rating",
+      "count": 3,
+      "severity": "warning"
+    },
+    {
+      "field": "director",
+      "count": 1,
+      "severity": "critical"
+    },
+    {
+      "field": "heroine",
+      "count": 1,
+      "severity": "info"
+    },
+    {
+      "field": "poster_url",
+      "count": 1,
+      "severity": "info"
+    },
+    {
+      "field": "backdrop_url",
+      "count": 1,
+      "severity": "info"
+    }
+  ],
+  "moviesByStatus": {
+    "verified": [],
+    "autoApplicable": [
+      "f08bd1ee-a329-4ea7-a792-d28f876a4d4c",
+      "4ecb9fda-2af1-4d4b-a558-a86735425de6",
+      "bb4d0170-7d8a-4e31-9294-bef20df5563c"
+    ],
+    "needsReview": [
+      "9c2982d1-29e1-43f1-b6dc-00d7e9b7c889",
+      "c1d72cab-a3c4-4203-b208-2a26884920d0",
+      "17a2f543-2189-410f-9341-c848a9750168",
+      "4edf9132-9816-4c57-a569-1c152f688f2d",
+      "ede2f145-a46a-439a-8c6f-1c755c69f76f",
+      "2526bbf3-a8c0-4df8-9c26-67e54e88ee82",
+      "f5cfc89d-bb12-4959-975b-12ae789fe0d4"
+    ],
+    "lowQuality": []
+  },
+  "duration": 2650
+}

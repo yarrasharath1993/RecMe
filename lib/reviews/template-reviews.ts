@@ -5,10 +5,11 @@
  * NO AI TEXT GENERATION - pure template composition.
  * 
  * Priority order:
- * 1. Has TMDB + IMDb ratings → Calculate weighted dimension scores
- * 2. Has only TMDB rating → Estimate with genre baselines
- * 3. Has cast/crew data → Infer from comparable movies
- * 4. Minimal data → Generate minimal template review
+ * 1. Has verified facts from cross-reference system → Use verified data
+ * 2. Has TMDB + IMDb ratings → Calculate weighted dimension scores
+ * 3. Has only TMDB rating → Estimate with genre baselines
+ * 4. Has cast/crew data → Infer from comparable movies
+ * 5. Minimal data → Generate minimal template review
  */
 
 import { createClient } from '@supabase/supabase-js';
@@ -66,6 +67,11 @@ export interface TemplateReview {
     shooting_locations?: string[];
     production_duration?: string;
   };
+  
+  // v3.0: Verification metadata
+  _verified?: boolean;
+  _verificationGrade?: string;
+  _verifiedFields?: string[];
 }
 
 // Phase 5.1: Performance highlight for individual actors
@@ -112,6 +118,135 @@ function getSupabaseClient() {
   }
   
   return createClient(url, key);
+}
+
+// ============================================================
+// VERIFIED FACTS INTEGRATION
+// ============================================================
+
+export interface VerifiedMovieFacts {
+  director?: { value: string; confidence: number; sources: string[] };
+  hero?: { value: string; confidence: number; sources: string[] };
+  heroine?: { value: string; confidence: number; sources: string[] };
+  rating?: { value: number; confidence: number; sources: string[] };
+  release_date?: { value: string; confidence: number; sources: string[] };
+  runtime?: { value: number; confidence: number; sources: string[] };
+  genre?: { value: string[]; confidence: number; sources: string[] };
+  music_director?: { value: string; confidence: number; sources: string[] };
+  awards?: { value: unknown; confidence: number; sources: string[] };
+  box_office?: { value: string; confidence: number; sources: string[] };
+}
+
+/**
+ * Fetch verified facts for a movie from the verification table
+ */
+export async function getVerifiedFacts(movieId: string): Promise<VerifiedMovieFacts | null> {
+  try {
+    const supabase = getSupabaseClient();
+    
+    const { data, error } = await supabase
+      .from('movie_verification')
+      .select('verified_facts, overall_confidence, data_quality_grade')
+      .eq('movie_id', movieId)
+      .gte('overall_confidence', 0.7) // Only use high-confidence data
+      .single();
+    
+    if (error || !data) return null;
+    
+    return data.verified_facts as VerifiedMovieFacts;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Merge verified facts with movie data, preferring verified data when available
+ */
+export function mergeWithVerifiedFacts(movie: Movie, verifiedFacts: VerifiedMovieFacts | null): Movie {
+  if (!verifiedFacts) return movie;
+  
+  const merged = { ...movie };
+  const CONFIDENCE_THRESHOLD = 0.75;
+  
+  // Director
+  if (verifiedFacts.director && verifiedFacts.director.confidence >= CONFIDENCE_THRESHOLD) {
+    merged.director = verifiedFacts.director.value;
+  }
+  
+  // Hero
+  if (verifiedFacts.hero && verifiedFacts.hero.confidence >= CONFIDENCE_THRESHOLD) {
+    merged.hero = verifiedFacts.hero.value;
+  }
+  
+  // Heroine
+  if (verifiedFacts.heroine && verifiedFacts.heroine.confidence >= CONFIDENCE_THRESHOLD) {
+    merged.heroine = verifiedFacts.heroine.value;
+  }
+  
+  // Rating (prefer verified over raw)
+  if (verifiedFacts.rating && verifiedFacts.rating.confidence >= CONFIDENCE_THRESHOLD) {
+    // Store verified rating as our rating
+    merged.our_rating = verifiedFacts.rating.value;
+  }
+  
+  // Genres
+  if (verifiedFacts.genre && verifiedFacts.genre.confidence >= CONFIDENCE_THRESHOLD) {
+    merged.genres = verifiedFacts.genre.value;
+  }
+  
+  // Runtime
+  if (verifiedFacts.runtime && verifiedFacts.runtime.confidence >= CONFIDENCE_THRESHOLD) {
+    (merged as Movie & { runtime?: number }).runtime = verifiedFacts.runtime.value;
+  }
+  
+  return merged;
+}
+
+/**
+ * Get verification status summary for a movie
+ */
+export interface VerificationStatus {
+  isVerified: boolean;
+  confidence: number;
+  verifiedFields: string[];
+  grade: 'A' | 'B' | 'C' | 'D' | 'F' | 'unverified';
+}
+
+export async function getVerificationStatus(movieId: string): Promise<VerificationStatus> {
+  try {
+    const supabase = getSupabaseClient();
+    
+    const { data, error } = await supabase
+      .from('movie_verification')
+      .select('overall_confidence, data_quality_grade, verified_facts, fields_verified')
+      .eq('movie_id', movieId)
+      .single();
+    
+    if (error || !data) {
+      return {
+        isVerified: false,
+        confidence: 0,
+        verifiedFields: [],
+        grade: 'unverified',
+      };
+    }
+    
+    const verifiedFacts = data.verified_facts as Record<string, unknown> || {};
+    
+    return {
+      isVerified: data.overall_confidence >= 0.7,
+      confidence: data.overall_confidence,
+      verifiedFields: Object.keys(verifiedFacts),
+      grade: data.data_quality_grade as VerificationStatus['grade'],
+    };
+  } catch {
+    return {
+      isVerified: false,
+      confidence: 0,
+      verifiedFields: [],
+      grade: 'unverified',
+    };
+  }
 }
 
 // ============================================================
@@ -907,6 +1042,9 @@ export function generateTemplateReview(movie: Movie): TemplateReview {
     one_liner_en: oneLinerEn,
     strengths,
     weaknesses,
+    // Verification metadata
+    _verified: false as boolean,
+    _verificationGrade: undefined as string | undefined,
     source: 'template_fallback',
     confidence,
     data_quality: dataQuality,
@@ -917,6 +1055,98 @@ export function generateTemplateReview(movie: Movie): TemplateReview {
     critic_audience_gap: criticAudienceGap,
     cultural_context: culturalContext,
   };
+}
+
+/**
+ * Generate a template-based review using verified facts from the verification system
+ * 
+ * This is the preferred method - it fetches verified data first and uses it
+ * to generate more accurate reviews.
+ */
+export async function generateVerifiedTemplateReview(movie: Movie): Promise<TemplateReview> {
+  // Fetch verified facts for this movie
+  const verifiedFacts = await getVerifiedFacts(movie.id);
+  const verificationStatus = await getVerificationStatus(movie.id);
+  
+  // Merge verified facts with movie data
+  const enrichedMovie = mergeWithVerifiedFacts(movie, verifiedFacts);
+  
+  // Generate the base review
+  const review = generateTemplateReview(enrichedMovie);
+  
+  // Add verification metadata
+  review._verified = verificationStatus.isVerified;
+  review._verificationGrade = verificationStatus.grade !== 'unverified' ? verificationStatus.grade : undefined;
+  review._verifiedFields = verificationStatus.verifiedFields;
+  
+  // Boost confidence if data is verified
+  if (verificationStatus.isVerified && verificationStatus.confidence >= 0.8) {
+    review.confidence = Math.min(0.95, review.confidence + 0.2);
+    
+    // Upgrade data quality if verified
+    if (review.data_quality === 'low') {
+      review.data_quality = 'medium';
+    } else if (review.data_quality === 'medium') {
+      review.data_quality = 'high';
+    }
+  }
+  
+  return review;
+}
+
+/**
+ * Generate template reviews for a batch of movies using verified facts
+ */
+export async function generateVerifiedBatchReviews(
+  movies: Movie[],
+  options: { 
+    dryRun?: boolean; 
+    onProgress?: (current: number, total: number, movie: string, verified: boolean) => void;
+  } = {}
+): Promise<{
+  generated: number;
+  verified: number;
+  failed: number;
+  errors: string[];
+}> {
+  const result = {
+    generated: 0,
+    verified: 0,
+    failed: 0,
+    errors: [] as string[],
+  };
+  
+  for (let i = 0; i < movies.length; i++) {
+    const movie = movies[i];
+    
+    try {
+      const review = await generateVerifiedTemplateReview(movie);
+      
+      if (options.onProgress) {
+        options.onProgress(i + 1, movies.length, movie.title_en, review._verified || false);
+      }
+      
+      if (options.dryRun) {
+        result.generated++;
+        if (review._verified) result.verified++;
+        continue;
+      }
+      
+      const saved = await saveTemplateReview(review);
+      if (saved) {
+        result.generated++;
+        if (review._verified) result.verified++;
+      } else {
+        result.failed++;
+        result.errors.push(`Failed to save: ${movie.title_en}`);
+      }
+    } catch (error) {
+      result.failed++;
+      result.errors.push(`Error processing ${movie.title_en}: ${error}`);
+    }
+  }
+  
+  return result;
 }
 
 /**

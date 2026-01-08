@@ -1,0 +1,1001 @@
+Title,Year,Director,Hero,TMDB ID,Slug,Review URL
+"The King of Kings",2025,"Jang Seong-ho","Oscar Isaac",,the-king-of-kings-2025,http://localhost:3000/reviews/the-king-of-kings-2025
+"Karna",2023,"Juan Pablo Félix","Alfredo Castro",,karna-2023,http://localhost:3000/reviews/karna-2023
+"Barla Narayana",2023,"Murali Kishor Abburu","Dileep",,barla-narayana-2023,http://localhost:3000/reviews/barla-narayana-2023
+"Subramanyam Chigurupati",2023,"Srikant G Reddy","Sushanth",,subramanyam-chigurupati-2023,http://localhost:3000/reviews/subramanyam-chigurupati-2023
+"Zinga",2022,"Euridilla Scarponi","Enrico Borello",,zinga-2022,http://localhost:3000/reviews/zinga-2022
+"Lakshman K Krishna",2022,"Vijay Krishna Acharya","Sithara Entertainments",,lakshman-k-krishna-2022,http://localhost:3000/reviews/lakshman-k-krishna-2022
+"Gudaputani",2021,"KM Kumar","Sapthagiri",,gudaputani-2021,http://localhost:3000/reviews/gudaputani-2021
+"A: Ad Infitium",2021,"Ugandhar Muni","Nitin Prasanna",,a-ad-infitium-2021,http://localhost:3000/reviews/a-ad-infitium-2021
+"Guvva Gorinka",2020,"Mohana Krishna Indraganti","Satyadev",,guvva-gorinka-2020,http://localhost:3000/reviews/guvva-gorinka-2020
+"Anaganaga O Athdhi",2020,"Dayal Padmanabhan","Payal Rajput",,anaganaga-o-athdhi-2020,http://localhost:3000/reviews/anaganaga-o-athdhi-2020
+"Thagite Thandana",2020,"Shravan Kumar K.","Rakshit",,thagite-thandana-2020,http://localhost:3000/reviews/thagite-thandana-2020
+"Ranasthalam",2019,"Sudheer Varma","Sharwanand",,ranasthalam-2019,http://localhost:3000/reviews/ranasthalam-2019
+"4 Letters",2019,"R Raghuraj","Eeshwar",,4-letters-2019,http://localhost:3000/reviews/4-letters-2019
+"Danger Love Story",2019,"Shekar Chandra","Khayyum Gaurav",,danger-love-story-2019,http://localhost:3000/reviews/danger-love-story-2019
+"Hulchul",2019,"Glory","Ramarao",,hulchul-2019,http://localhost:3000/reviews/hulchul-2019
+"Kanam",2018,"A.L. Vijay","Naga Shourya",,kanam-2018,http://localhost:3000/reviews/kanam-2018
+"Parichayam",2018,"Lakshman Karya","Virat Konduru",,parichayam-2018,http://localhost:3000/reviews/parichayam-2018
+"Mercury",2018,"Karthik Subbaraj","Prabhu Deva",,mercury-2018,http://localhost:3000/reviews/mercury-2018
+"Ammammagarillu",2018,"Sundar Surya","Naga Shaurya",,ammammagarillu-2018,http://localhost:3000/reviews/ammammagarillu-2018
+"Ee Nagariniki Emaindi",2018,"Tharun Bhascker Dhaassyam","Vishwak Sen",,ee-nagariniki-emaindi-2018,http://localhost:3000/reviews/ee-nagariniki-emaindi-2018
+"Super Sketch",2018,"Ravi Chakravathy","Narsing Yadav",,super-sketch-2018,http://localhost:3000/reviews/super-sketch-2018
+"My Dear Marthandam",2018,"Harish K V","Prudhviraj",,my-dear-marthandam-2018,http://localhost:3000/reviews/my-dear-marthandam-2018
+"Sameeram",2018,"Akram Khan","Varun",,sameeram-2018,http://localhost:3000/reviews/sameeram-2018
+"Sharabha",2018,"Narayan Rogers","Aakash Kumar",,sharabha-2018,http://localhost:3000/reviews/sharabha-2018
+"Maaya",2018,"Neelakanta","Sushanth",,maaya-2018,http://localhost:3000/reviews/maaya-2018
+"Karthikeya",2018,"Chandoo Mondeti","Nikhil Siddharth",,karthikeya-2018,http://localhost:3000/reviews/karthikeya-2018
+"Raa Raa",2018,"Shankar","Shivaji",,raa-raa-2018,http://localhost:3000/reviews/raa-raa-2018
+"Taxiwaala",2018,"Rahul Sankrityan","Vijay Deverakonda",,taxiwaala-2018,http://localhost:3000/reviews/taxiwaala-2018
+"Karma Kartha Kriya",2018,"Nagu Gawara","Vasant Sameer",,karma-kartha-kriya-2018,http://localhost:3000/reviews/karma-kartha-kriya-2018
+"Raju Gadu",2018,"Sanjana Reddy","Raj Tarun",,raju-gadu-2018,http://localhost:3000/reviews/raju-gadu-2018
+"Ego",2018,"Ravikumar Chakravarthy, Subbu Vedula","Ashish Vidhyarthi,  Aashish Raj",,ego-2018,http://localhost:3000/reviews/ego-2018
+"Bluff Master",2018,"Gopi Ganesh","Satyadev",,bluff-master-2018,http://localhost:3000/reviews/bluff-master-2018
+"Rangu",2018,"Karthikeya V.","Tanish",,rangu-2018,http://localhost:3000/reviews/rangu-2018
+"2 Friends",2018,"Srinivas GLB","Suraj Gowda",,2-friends-2018,http://localhost:3000/reviews/2-friends-2018
+"MLA",2018,"Upendra Madhav","Nandamuri Kalyan Ram",,mla-2018,http://localhost:3000/reviews/mla-2018
+"Naa Peru Surya",2018,"Vakkantham Vamsi","Allu Arjun",,naa-peru-surya-2018,http://localhost:3000/reviews/naa-peru-surya-2018
+"ch ravi kishore babu",2018,"Tanikella Bharani, Amar, Santoshi, Posani Krishna Murali","Friends funding films",,ch-ravi-kishore-babu-2018,http://localhost:3000/reviews/ch-ravi-kishore-babu-2018
+"Aithe 2.0",2018,"Raj Madiraju","Indraneil Sengupta",,aithe-2-0-2018,http://localhost:3000/reviews/aithe-2-0-2018
+"Rogue",2017,"Puri Jagannadh","Ishan",,rogue-2017,http://localhost:3000/reviews/rogue-2017
+"Ghazi",2017,"Sankalp Reddy","Rana Daggubati",,ghazi-2017,http://localhost:3000/reviews/ghazi-2017
+"Gulf",2017,"Sunil Kumar Reddy","Chethan",,gulf-2017,http://localhost:3000/reviews/gulf-2017
+"Teja",2017,"B. N. Reddy","Jai",,teja-2017,http://localhost:3000/reviews/teja-2017
+"Lanka",2017,"Sri Muni","Raai Laxmi",,lanka-2017,http://localhost:3000/reviews/lanka-2017
+"Nenorakam",2017,"Sudharshan","Santosh Sobhan",,nenorakam-2017,http://localhost:3000/reviews/nenorakam-2017
+"Kaadhali",2017,"Patthi Pandavasam","Harish Kalyan",,kaadhali-2017,http://localhost:3000/reviews/kaadhali-2017
+"Vaisakham",2017,"Jaya B","Harish",,vaisakham-2017,http://localhost:3000/reviews/vaisakham-2017
+"Jayanth C. Paranjee",2017,"Jayanth C. Paranjee","Ganta Ravi",,jayanth-c-paranjee-2017,http://localhost:3000/reviews/jayanth-c-paranjee-2017
+"Ungarala Rambabu",2017,"Kranthi Madhav","Sunil",,ungarala-rambabu-2017,http://localhost:3000/reviews/ungarala-rambabu-2017
+"C/o Surya",2017,"Suseenthiran","Sundeep Kishan",,c-o-surya-2017,http://localhost:3000/reviews/c-o-surya-2017
+"Eeshwar",2017,"Eeshwar","Dhanraj",,eeshwar-2017,http://localhost:3000/reviews/eeshwar-2017
+"Maa Abbayi",2017,"Kiran Korrapati","Sri Vishnu",,maa-abbayi-2017,http://localhost:3000/reviews/maa-abbayi-2017
+"Saranam Gacchami",2017,"Anil Ravipudi","Varun Tej",,saranam-gacchami-2017,http://localhost:3000/reviews/saranam-gacchami-2017
+"Nee Preme Naa Pranam",2017,"Rajasekhar","Lucky",,nee-preme-naa-pranam-2017,http://localhost:3000/reviews/nee-preme-naa-pranam-2017
+"Ami Thumi",2017,"Indraganti Mohan Krishna","Adivi Sesh",,ami-thumi-2017,http://localhost:3000/reviews/ami-thumi-2017
+"Idhi Maa Prema Katha",2017,"Ayodhya Karthik","Anchor Ravi",,idhi-maa-prema-katha-2017,http://localhost:3000/reviews/idhi-maa-prema-katha-2017
+"Srivalli",2017,"Vijayendra Prasad","Nandamuri Kalyan Ram",,srivalli-2017,http://localhost:3000/reviews/srivalli-2017
+"Baahubali: The Conclusion",2017,"S. S. Rajamouli","Prabhas",,baahubali-the-conclusion-2017,http://localhost:3000/reviews/baahubali-the-conclusion-2017
+"Rishi",2017,"Bhagya Raj","Rishi",,rishi-2017,http://localhost:3000/reviews/rishi-2017
+"Vellipomakey",2017,"Ali Mohammad","Varun Sandesh",,vellipomakey-2017,http://localhost:3000/reviews/vellipomakey-2017
+"Darshakudu",2017,"Haranath","Ashok",,darshakudu-2017,http://localhost:3000/reviews/darshakudu-2017
+"London Babulu",2017,"B. Chinni Krishna","Rakshith",,london-babulu-2017,http://localhost:3000/reviews/london-babulu-2017
+"Virus",2017,"Sriram Adittya","Sumanth Ashwin",,virus-2017,http://localhost:3000/reviews/virus-2017
+"Duvvada Jagannadham",2017,"Harish Shankar","Allu Arjun",,duvvada-jagannadham-2017,http://localhost:3000/reviews/duvvada-jagannadham-2017
+"Kiss Kiss Bang Bang",2017,"Karthik Medikonda","Kiran",,kiss-kiss-bang-bang-2017,http://localhost:3000/reviews/kiss-kiss-bang-bang-2017
+"Chitrangada",2017,"Ashok G","Santosh Shoban",,chitrangada-2017,http://localhost:3000/reviews/chitrangada-2017
+"Seesa",2016,"Dileep","Srikanth",,seesa-2016,http://localhost:3000/reviews/seesa-2016
+"Rojulu Marayi",2016,"M Maruthi","Tejus",,rojulu-marayi-2016,http://localhost:3000/reviews/rojulu-marayi-2016
+"Naruda Donoruda",2016,"Mallik Ram","Sumanth",,naruda-donoruda-2016,http://localhost:3000/reviews/naruda-donoruda-2016
+"Sri Sri",2016,"Sudheer Varma","Sudheer Varma",,sri-sri-2016,http://localhost:3000/reviews/sri-sri-2016
+"Kundanapu Bomma",2016,"V. Selva Ganesh","Sudheer Babu",,kundanapu-bomma-2016,http://localhost:3000/reviews/kundanapu-bomma-2016
+"Pittagoda",2016,"Anudeep KV","Viswa",,pittagoda-2016,http://localhost:3000/reviews/pittagoda-2016
+"Malupu",2016,"Sathya Prabhas Pinisetty","Aadhi",,malupu-2016,http://localhost:3000/reviews/malupu-2016
+"Aatadukundam Raa",2016,"G. Nageswara Reddy","Sushanth",,aatadukundam-raa-2016,http://localhost:3000/reviews/aatadukundam-raa-2016
+"Eluka Majaka",2016,"Relangi Narasimha Rao","Brahmanandam",,eluka-majaka-2016,http://localhost:3000/reviews/eluka-majaka-2016
+"Karva",2016,"Navaneeth","Tilak Shekar",420501,karva-2016,http://localhost:3000/reviews/karva-2016
+"Abhinetri",2016,"A. L. Vijay","Prabhu Deva",,abhinetri-2016,http://localhost:3000/reviews/abhinetri-2016
+"Sahasam Swasaga Sagipo",2016,"Gautham Vasudev Menon","Naga Chaitanya Akkineni",,sahasam-swasaga-sagipo-2016,http://localhost:3000/reviews/sahasam-swasaga-sagipo-2016
+"Savitri",2016,"Pavan Sadineni","Nara Rohit",,savitri-2016,http://localhost:3000/reviews/savitri-2016
+"Meeku Meere Maaku Meme",2016,"Hussain Sha Kiran","Tarun Shetty",,meeku-meere-maaku-meme-2016,http://localhost:3000/reviews/meeku-meere-maaku-meme-2016
+"Attack",2016,"Ram Gopal Varma","Manchu Manoj",,attack-2016,http://localhost:3000/reviews/attack-2016
+"Eedu Gold Ehe",2016,"Veeru Potla","Sunil",,eedu-gold-ehe-2016,http://localhost:3000/reviews/eedu-gold-ehe-2016
+"Siddhartha",2016,"K. V. Dayanand Reddy","Sagar",,siddhartha-2016,http://localhost:3000/reviews/siddhartha-2016
+"Tulasi Dalam",2016,"Hari","Nandamuri Kalyan Ram",,tulasi-dalam-2016,http://localhost:3000/reviews/tulasi-dalam-2016
+"Jai Maruthi 800",2016,"A. Harsha","Sharan",419381,jai-maruthi-800-2016,http://localhost:3000/reviews/jai-maruthi-800-2016
+"Premikudu",2016,"Karthik","Maadhav",,premikudu-2016,http://localhost:3000/reviews/premikudu-2016
+"Ladies & Gentleman",2015,"P.B. Manjunath","Chaitanya Krishna",,ladies-gentleman-2015,http://localhost:3000/reviews/ladies-gentleman-2015
+"Kaki: Sound of Warning",2015,"Manon M","Ashok",,kaki-sound-of-warning-2015,http://localhost:3000/reviews/kaki-sound-of-warning-2015
+"Ketugadu",2015,"Venkataraghavan","Tejus",,ketugadu-2015,http://localhost:3000/reviews/ketugadu-2015
+"Sneha Sagaram",2015,"Samdani","Sugan Kumar",,sneha-sagaram-2015,http://localhost:3000/reviews/sneha-sagaram-2015
+"Pesarattu",2015,"Mahesh Kathi","Nandu",,pesarattu-2015,http://localhost:3000/reviews/pesarattu-2015
+"Bruce Lee",2015,"Sreenu Vaitla","Ram Charan",,bruce-lee-2015,http://localhost:3000/reviews/bruce-lee-2015
+"Kaali Charan",2015,"Aishwarya Dhanush","Vishal",,kaali-charan-2015,http://localhost:3000/reviews/kaali-charan-2015
+"Red Alert",2015,"Chandra Mahesh","Kaushik",,red-alert-2015,http://localhost:3000/reviews/red-alert-2015
+"Size Zero",2015,"Prakash Kovelamudi","Arya",,size-zero-2015,http://localhost:3000/reviews/size-zero-2015
+"Lava Kusa",2015,"Jaya","Ravi Teja",,lava-kusa-2015,http://localhost:3000/reviews/lava-kusa-2015
+"Cinema Choopistha Mava",2015,"Trinadha Rao Nakkina","Raj Tarun",,cinema-choopistha-mava-2015,http://localhost:3000/reviews/cinema-choopistha-mava-2015
+"Vinavayya Ramayya",2015,"G. Ram Prasad","Naga Anvesh",,vinavayya-ramayya-2015,http://localhost:3000/reviews/vinavayya-ramayya-2015
+"Dynamite",2015,"Devakatta","Vishnu Manchu",,dynamite-2015,http://localhost:3000/reviews/dynamite-2015
+"Taskara",2015,"Vikas Vasista is not the director of Taskara, the actual director is Unknown","Sachin Joshi",,taskara-2015,http://localhost:3000/reviews/taskara-2015
+"Budugu",2015,"Manmohan","Lakshmi Manchu",,budugu-2015,http://localhost:3000/reviews/budugu-2015
+"Soukhyam",2015,"A S Ravi Kumar Chowdary","Gopichand",,soukhyam-2015,http://localhost:3000/reviews/soukhyam-2015
+"Superstar Kidnap",2015,"Sushanth Reddy","Aadarsh Balakrishna",,superstar-kidnap-2015,http://localhost:3000/reviews/superstar-kidnap-2015
+"Dongaata",2015,"Vamsi Krishna Akella","Naga Chaitanya Akkineni",,dongaata-2015,http://localhost:3000/reviews/dongaata-2015
+"Ramleela",2015,"Sripuram Kiran","Havish",,ramleela-2015,http://localhost:3000/reviews/ramleela-2015
+"Anandam Malli Modalaindi",2015,"Vamsy","Sumanth",,anandam-malli-modalaindi-2015,http://localhost:3000/reviews/anandam-malli-modalaindi-2015
+"Green Signal",2014,"Abid Bhatt","Revanth",,green-signal-2014,http://localhost:3000/reviews/green-signal-2014
+"Erra Bus",2014,"Dasari Narayana Rao","Vikram Rathod",,erra-bus-2014,http://localhost:3000/reviews/erra-bus-2014
+"Pove Pora",2014,"Chandu","Navdeep",,pove-pora-2014,http://localhost:3000/reviews/pove-pora-2014
+"Yuddham",2014,"Bharath","Naga Chaitanya Akkineni",,yuddham-2014,http://localhost:3000/reviews/yuddham-2014
+"Naa Rakumarudu",2014,"K. Bhagyaraj","Naveen Chandra",,naa-rakumarudu-2014,http://localhost:3000/reviews/naa-rakumarudu-2014
+"Basanti",2014,"Chaitanya Dantuluri","Navdeep",,basanti-2014,http://localhost:3000/reviews/basanti-2014
+"Bhimavaram Bullodu",2014,"Udayasankar","Sunil",,bhimavaram-bullodu-2014,http://localhost:3000/reviews/bhimavaram-bullodu-2014
+"Veta",2014,"Ashok Alle","Srikanth",,veta-2014,http://localhost:3000/reviews/veta-2014
+"Kshatriya",2014,"K. Uday Chandu","Srikanth Meka",,kshatriya-2014,http://localhost:3000/reviews/kshatriya-2014
+"God Father",2014,"Bheemaneni Srinivasa Rao","Sri Hari",,god-father-1995,http://localhost:3000/reviews/god-father-1995
+"Ulavacharu Biryani",2014,"Prakash Raj","Prakash Raj",,ulavacharu-biryani-2014,http://localhost:3000/reviews/ulavacharu-biryani-2014
+"Paisa",2014,"Krishna Vamsi","Nani",,paisa-2014,http://localhost:3000/reviews/paisa-2014
+"Anaamika",2014,"Shekhar Kammula","Nayanthara",,anaamika-2014,http://localhost:3000/reviews/anaamika-2014
+"Govindudu Andarivadele",2014,"Krishna Vamsi","Ram Charan",,govindudu-andarivadele-2014,http://localhost:3000/reviews/govindudu-andarivadele-2014
+"Maaya",2014,"Neelakanta","Harshvardhan Rane",,maaya-2014,http://localhost:3000/reviews/maaya-2014
+"Galata",2014,"Narayan","Srinagar Srinivas",,galata-2014,http://localhost:3000/reviews/galata-2014
+"Kamina",2013,"Jayendra","Santosh Shobhan",,kamina-2013,http://localhost:3000/reviews/kamina-2013
+"Kaalicharan",2013,"Sudheer Varma","Vishnu Manchu",,kaalicharan-2013,http://localhost:3000/reviews/kaalicharan-2013
+"Victory",2013,"Nanda Kishore","Sharan",289277,victory-2013,http://localhost:3000/reviews/victory-2013
+"Second Hand",2013,"Kishore Tirumala","Sudheer Varma",,second-hand-2013,http://localhost:3000/reviews/second-hand-2013
+"Antaku Mundu Aa Taruvaata",2013,"Mohan Krishna Indraganti","Sumanth Ashwin",,antaku-mundu-aa-taruvaata-2013,http://localhost:3000/reviews/antaku-mundu-aa-taruvaata-2013
+"Romance",2013,"Swaroop","Prince",,romance-2013,http://localhost:3000/reviews/romance-2013
+"Mahankali",2013,"Jeevitha","Rajasekhar",,mahankali-2013,http://localhost:3000/reviews/mahankali-2013
+"Pelli Pustakam",2013,"Ramakrishna Machakanti","Rahul",,pelli-pustakam-2013,http://localhost:3000/reviews/pelli-pustakam-2013
+"Potugadu",2013,"Pavan Wadeyar","Manchu Manoj",,potugadu-2013,http://localhost:3000/reviews/potugadu-2013
+"Moksha",2013,"Srikanth Vemula","Sreekanth",,moksha-2013,http://localhost:3000/reviews/moksha-2013
+"Sukumarudu",2013,"G. Ashok","Aadi",,sukumarudu-2013,http://localhost:3000/reviews/sukumarudu-2013
+"Kiss",2013,"Adivi Sesh","Adivi Sesh",,kiss-2013,http://localhost:3000/reviews/kiss-2013
+"Madhumati",2013,"Raaj Shreedhar","Vishnupriyan",,madhumati-2013,http://localhost:3000/reviews/madhumati-2013
+"Toofan",2013,"Apurva Lakhia","Ram Charan",,toofan-2013,http://localhost:3000/reviews/toofan-2013
+"Chandee",2013,"V. Samudra","Priyanshu",,chandee-2013,http://localhost:3000/reviews/chandee-2013
+"Pavitra",2013,"Janardhana Maharshi","Shriya Saran",,pavitra-2013,http://localhost:3000/reviews/pavitra-2013
+"Genius",2012,"Omri-Sarvesh Raana","Havish",,genius-2012,http://localhost:3000/reviews/genius-2012
+"Disco",2012,"Harish Shankar","Nikhil Siddharth",,disco-2012,http://localhost:3000/reviews/disco-2012
+"Dhoni",2012,"Prakash Raj","Akash",,dhoni-2012,http://localhost:3000/reviews/dhoni-2012
+"Kulu Manali",2012,"Veerabhadram","Jaggi",,kulu-manali-2012,http://localhost:3000/reviews/kulu-manali-2012
+"Bus Stop",2012,"Maruthi","Prince",,bus-stop-2012,http://localhost:3000/reviews/bus-stop-2012
+"Lucky",2012,"Hari","Srikanth",,lucky-2012,http://localhost:3000/reviews/lucky-2012
+"Mr. Nookayya",2012,"Ani Kanneganti","Manoj Manchu",,mr-nookayya-2012,http://localhost:3000/reviews/mr-nookayya-2012
+"Friends Book",2012,"R.P. Patnaik","Nischal",,friends-book-2012,http://localhost:3000/reviews/friends-book-2012
+"Dammu",2012,"Boyapati Srinu","N.T. Rama Rao",,dammu-2012,http://localhost:3000/reviews/dammu-2012
+"Edegarike",2012,"Sumana Kittur","Aditya",629360,edegarike-2012,http://localhost:3000/reviews/edegarike-2012
+"Rushi",2012,"Raj Madiraju","Ranji",,rushi-2012,http://localhost:3000/reviews/rushi-2012
+"Akash",2012,"Raj Kandukuri","Akash",,akash-2012,http://localhost:3000/reviews/akash-2012
+"Yamudiki Mogudu",2012,"E Sattibabu","Allari Naresh",,yamudiki-mogudu-2012,http://localhost:3000/reviews/yamudiki-mogudu-2012
+"Denikaina Ready",2012,"G. Nageswara Reddy","Vishnu Manchu",,denikaina-ready-2012,http://localhost:3000/reviews/denikaina-ready-2012
+"Midhunam",2012,"Tanikella Bharani","Srinagar Srinivas",,midhunam-2012,http://localhost:3000/reviews/midhunam-2012
+"Mangala",2011,"Osho Tulasi Ram","Pradeep Rawat",,mangala-2011,http://localhost:3000/reviews/mangala-2011
+"Priyudu",2011,"Shankar","Varun Sandesh",,priyudu-2011,http://localhost:3000/reviews/priyudu-2011
+"Galli Kurrolu",2011,"Lokesh","Sri",,galli-kurrolu-2011,http://localhost:3000/reviews/galli-kurrolu-2011
+"Thimmaraju",2011,"Vijay Krishna","Sai Kumar",,thimmaraju-2011,http://localhost:3000/reviews/thimmaraju-2011
+"Yellow Flowers",2011,"Mallikharjun","Chaitanya",,yellow-flowers-2011,http://localhost:3000/reviews/yellow-flowers-2011
+"Chattam",2011,"P. Vasu","Jagapathi Babu",,chattam-2011,http://localhost:3000/reviews/chattam-2011
+"Maaro",2011,"Sidharth","Srinivas",,maaro-2011,http://localhost:3000/reviews/maaro-2011
+"Kodipunju",2011,"B. V. V. Choudary","Tanish",,kodipunju-2011,http://localhost:3000/reviews/kodipunju-2011
+"Mugguru",2011,"V.N. Aditya","Navdeep",,mugguru-2011,http://localhost:3000/reviews/mugguru-2011
+"Wanted",2011,"B. V. S. Ravi","Gopichand",,wanted-2011,http://localhost:3000/reviews/wanted-2011
+"Rakshana",2011,"Ramesh Puppala","Jagapathi Babu",,rakshana-2011,http://localhost:3000/reviews/rakshana-2011
+"Babloo",2011,"G. Nageswara Reddy","Manoj Manchu",,babloo-2011,http://localhost:3000/reviews/babloo-2011
+"Cricket Girls & Beer",2011,"Adarsh Balakrishna, Surya Tej, Naga Shourya, Sindhu Affan","Vishnu",,cricket-girls-beer-2011,http://localhost:3000/reviews/cricket-girls-beer-2011
+"Nitya Pellikoduku",2011,"Devi Prasad","Varun Sandesh",,nitya-pellikoduku-2011,http://localhost:3000/reviews/nitya-pellikoduku-2011
+"Bhairava Ips",2010,"Rao Bharath","Sivaji",,bhairava-ips-2010,http://localhost:3000/reviews/bhairava-ips-2010
+"Young India",2010,"Dasari Narayana Rao","Sandeep",,young-india-2010,http://localhost:3000/reviews/young-india-2010
+"Saradaga Kasepu",2010,"Vamsy","Allari Naresh",,saradaga-kasepu-2010,http://localhost:3000/reviews/saradaga-kasepu-2010
+"Maro Charitra",2010,"Ravi Yadav","Varun Sandesh",,maro-charitra-2010,http://localhost:3000/reviews/maro-charitra-2010
+"Collector Gari Bharya",2010,"Collector Gari Bharya","Prakash Raj",,collector-gari-bharya-2010,http://localhost:3000/reviews/collector-gari-bharya-2010
+"Comedy Express",2010,"Ravi Varma","Vennela Kishore",,comedy-express-2010,http://localhost:3000/reviews/comedy-express-2010
+"Rakta Charitra",2010,"Ram Gopal Varma","Vivek Oberoi",,rakta-charitra-2010,http://localhost:3000/reviews/rakta-charitra-2010
+"Prema Rajyam",2010,"Lakshman","Surya",,prema-rajyam-2010,http://localhost:3000/reviews/prema-rajyam-2010
+"Taj Mahal",2010,"Arjun","Sivaji",,taj-mahal-2010,http://localhost:3000/reviews/taj-mahal-2010
+"Alasyam Amrutham",2010,"Trivikram Srinivas","Daggubati Venkatesh",,alasyam-amrutham-2010,http://localhost:3000/reviews/alasyam-amrutham-2010
+"Kalavar King",2010,"Lakshman","Baladitya",,kalavar-king-2010,http://localhost:3000/reviews/kalavar-king-2010
+"Sandadi",2010,"Jagadish","Raja",,sandadi-2010,http://localhost:3000/reviews/sandadi-2010
+"Kaluva",2010,"Balaji Sakthivel","Sumanth",,kaluva-2010,http://localhost:3000/reviews/kaluva-2010
+"Nagamani",2010,"P. Vasu","Daggubati Venkatesh",,nagamani-2010,http://localhost:3000/reviews/nagamani-2010
+"High School",2010,"Narasimha Nandi","Ram",,high-school-2010,http://localhost:3000/reviews/high-school-2010
+"Anaganaga Oka Aranyam",2010,"V.K. Prakash","Sai Kumar",,anaganaga-oka-aranyam-2010,http://localhost:3000/reviews/anaganaga-oka-aranyam-2010
+"Puli",2010,"S.J. Surya","Pawan Kalyan",,puli-2010,http://localhost:3000/reviews/puli-2010
+"Madhanudu",2010,"Vijay Bhapineedu","Sunil",,madhanudu-2010,http://localhost:3000/reviews/madhanudu-2010
+"Mouna Ragam",2010,"Vijay Balaji","Tanish",,mouna-ragam-2010,http://localhost:3000/reviews/mouna-ragam-2010
+"Sadhyam",2010,"Karri Balaji","Jagapathi Babu",,sadhyam-2010,http://localhost:3000/reviews/sadhyam-2010
+"Sivaji",2010,"S Shankar","Mahesh Babu",,sivaji-2010,http://localhost:3000/reviews/sivaji-2010
+"My Name Is Amrutha",2010,"Baby Gayathri, Bhanupriya, Bhanuchander","Produced By S Entertainment",,my-name-is-amrutha-2010,http://localhost:3000/reviews/my-name-is-amrutha-2010
+"Indumathi",2009,"Arjun","Srikanth",,indumathi-2009,http://localhost:3000/reviews/indumathi-2009
+"Ninnu Kalisaka",2009,"Bhaskar","Santosh Samrat",,ninnu-kalisaka-2009,http://localhost:3000/reviews/ninnu-kalisaka-2009
+"Malli Malli",2009,"Pascal","Srikanth",,malli-malli-2009,http://localhost:3000/reviews/malli-malli-2009
+"Neramu Siksha",2009,"Vijaya Nirmala","Krishna",,neramu-siksha-2009,http://localhost:3000/reviews/neramu-siksha-2009
+"Bangaru Babu",2009,"Jonnavithhula Ramalingeswara Rao","Jagapathi Babu",,bangaru-babu-2009,http://localhost:3000/reviews/bangaru-babu-2009
+"Aa Okkadu",2009,"N. Satya","Suresh Gopi",,aa-okkadu-2009,http://localhost:3000/reviews/aa-okkadu-2009
+"Bank",2009,"Amruta Arunkumar","Jackie Shroff",,bank-2009,http://localhost:3000/reviews/bank-2009
+"Bendu Apparao R.M.P",2009,"E. V. V. Satyanarayana","Allari Naresh",,bendu-apparao-r-m-p-2009,http://localhost:3000/reviews/bendu-apparao-r-m-p-2009
+"Kalavaramaye Madilo",2009,"Sattibabu","Srikanth",,kalavaramaye-madilo-2009,http://localhost:3000/reviews/kalavaramaye-madilo-2009
+"Bumper Offer",2009,"Jaya Ravindra","Sai Kumar",,bumper-offer-2009,http://localhost:3000/reviews/bumper-offer-2009
+"Mesthri",2009,"Dasari Narayana Rao","Dasari Narayana Rao",,mesthri-2009,http://localhost:3000/reviews/mesthri-2009
+"Punnami Naagu",2009,"A Kodandarami Reddy","Meka Srikanth",,punnami-naagu-2009,http://localhost:3000/reviews/punnami-naagu-2009
+"Pistha",2009,"Paruchuri Murali","Nandamuri Kalyan Ram",,pistha-2009,http://localhost:3000/reviews/pistha-2009
+"Premabhishekam",2008,"S. V. Krishna Reddy","Venu Madhav",,premabhishekam-2008,http://localhost:3000/reviews/premabhishekam-2008
+"Souryam",2008,"Siva","Gopichand",,souryam-2008,http://localhost:3000/reviews/souryam-2008
+"Gorintaku",2008,"Viji","Arun",,gorintaku-2008,http://localhost:3000/reviews/gorintaku-2008
+"Deepavali",2008,"Raghuram","Vishnu",,deepavali-2008,http://localhost:3000/reviews/deepavali-2008
+"Mangathaayaru Tiffin Centre",2008,"Mumaith Khan, Ali, Shafi","Srikanth",,mangathaayaru-tiffin-centre-2008,http://localhost:3000/reviews/mangathaayaru-tiffin-centre-2008
+"Salute",2008,"Babu Suresh","Vishal",,salute-2008,http://localhost:3000/reviews/salute-2008
+"Kathanayakudu",2008,"P. Vasu","Jagapati Babu",,kathanayakudu-2008,http://localhost:3000/reviews/kathanayakudu-2008
+"Sundarakanda",2008,"K Raghavendra Rao","Akkineni Nagarjuna",,sundarakanda-2008,http://localhost:3000/reviews/sundarakanda-2008
+"Vishaka Express",2008,"C. Ramakrishna","Allari Naresh",,vishaka-express-2008,http://localhost:3000/reviews/vishaka-express-2008
+"Buddha",2008,"Prakash","Suresh Gopi",,buddha-2008,http://localhost:3000/reviews/buddha-2008
+"Rainbow",2008,"V.N. Aditya","Raahul",,rainbow-2008,http://localhost:3000/reviews/rainbow-2008
+"Keka",2008,"Teja","Kamal Kamaraju",,keka-2008,http://localhost:3000/reviews/keka-2008
+"Call Center",2008,"G. Nageswara Reddy","Vivek",,call-center-2008,http://localhost:3000/reviews/call-center-2008
+"Gunde Jallumandi",2008,"Madhura Sreedhar","Uday Kiran",,gunde-jallumandi-2008,http://localhost:3000/reviews/gunde-jallumandi-2008
+"Highway",2008,"Kovvi Kalya Krishna","Aditya Om",,highway-2008,http://localhost:3000/reviews/highway-2008
+"Vaana",2008,"M.S. Rajashekar","Vinay Rai",,vaana-2008,http://localhost:3000/reviews/vaana-2008
+"Aalayam",2008,"Muthyala Subbaiah","Sivaji",,aalayam-2008,http://localhost:3000/reviews/aalayam-2008
+"Black & White",2008,"Aditi Roy","Rajeev Kanakala",,black-white-2008,http://localhost:3000/reviews/black-white-2008
+"Andamaina manasulo",2008,"R.P. Patnaik","Rajiv",,andamaina-manasulo-2008,http://localhost:3000/reviews/andamaina-manasulo-2008
+"Aapada Mokkulavaadu",2008,"Ram Gopal Varma","Allari Naresh",,aapada-mokkulavaadu-2008,http://localhost:3000/reviews/aapada-mokkulavaadu-2008
+"Allare Allari",2007,"Muppalaneni Siva","Allari Naresh",,allare-allari-2007,http://localhost:3000/reviews/allare-allari-2007
+"Satyabhama",2007,"Srinivas","Sivaji",,satyabhama-2007,http://localhost:3000/reviews/satyabhama-2007
+"Maharathi",2007,"P. Vasu","Srikanth",,maharathi-2007,http://localhost:3000/reviews/maharathi-2007
+"Chandrahas",2007,"Roja","Srihari",,chandrahas-2007,http://localhost:3000/reviews/chandrahas-2007
+"Yamagola",2007,"Srinivasa Reddy","Sivaji",,yamagola-2007,http://localhost:3000/reviews/yamagola-2007
+"Amma Nanna Lekunte",2007,"Y. Ramakrishna","Krishna",,amma-nanna-lekunte-2007,http://localhost:3000/reviews/amma-nanna-lekunte-2007
+"Viyyalavari Kayyalu",2007,"E.Sattibabu","Uday Kiran",,viyyalavari-kayyalu-2007,http://localhost:3000/reviews/viyyalavari-kayyalu-2007
+"Sunny",2007,"Karan","Nitin",,sunny-2007,http://localhost:3000/reviews/sunny-2007
+"Veduka",2007,"Jitender","Raja",,veduka-2007,http://localhost:3000/reviews/veduka-2007
+"Bhookailas",2007,"Srinivasa Reddy","Venu",,bhookailas-2007,http://localhost:3000/reviews/bhookailas-2007
+"Lakshmi Kalyanam",2007,"Teja","N.T. Rama Rao Jr.",,lakshmi-kalyanam-2007,http://localhost:3000/reviews/lakshmi-kalyanam-2007
+"Notebook",2007,"Rajesh Sharma","Rajesh Sharma",,notebook-2007,http://localhost:3000/reviews/notebook-2007
+"Shirdi",2007,"V. R. Pratap","Krishna",,shirdi-2007,http://localhost:3000/reviews/shirdi-2007
+"Brahma - the Creator",2007,"Brahma – The Creator","Cherukuri Srinivasa Rao",,brahma-the-creator-2007,http://localhost:3000/reviews/brahma-the-creator-2007
+"Takkari",2007,"Amma Rajasekhar","Ravi Teja",,takkari-2007,http://localhost:3000/reviews/takkari-2007
+"Classmates",2007,"Vijay Yesudas","Srinivas Avasarala",,classmates-2007,http://localhost:3000/reviews/classmates-2007
+"Veedhi",2006,"Vijaya Bhaskar","Arun",,veedhi-2006,http://localhost:3000/reviews/veedhi-2006
+"Neeku Naaku",2006,"Krishna Vijay","Srikanth",,neeku-naaku-2006,http://localhost:3000/reviews/neeku-naaku-2006
+"Abhaddam",2006,"Raviraja","Shanvi",,abhaddam-2006,http://localhost:3000/reviews/abhaddam-2006
+"Sardar Papanna",2006,"Pratani Ramakrishna Goud","Krishna",,sardar-papanna-2006,http://localhost:3000/reviews/sardar-papanna-2006
+"Hope",2006,"K. Satyanarayana","D. Ramanaidu",,hope-2006,http://localhost:3000/reviews/hope-2006
+"Manodu",2006,"Priyadarshini Ram","Priyadarshini Ram",,manodu-2006,http://localhost:3000/reviews/manodu-2006
+"Nuvve",2006,"Veera Shankar","Tarun",,nuvve-2006,http://localhost:3000/reviews/nuvve-2006
+"Amma Cheppindi",2006,"G. Ram Prasad","Srikanth",,amma-cheppindi-2006,http://localhost:3000/reviews/amma-cheppindi-2006
+"Samanyudu",2006,"Ravi C Kumar","Jagapathi Babu",,samanyudu-2006,http://localhost:3000/reviews/samanyudu-2006
+"Roommates",2006,"Srikanth Lingula","Balu",,roommates-2006,http://localhost:3000/reviews/roommates-2006
+"Kittu",2006,"Evv Satyanarayana","Allari Naresh",,kittu-2006,http://localhost:3000/reviews/kittu-2006
+"Kokila",2006,"Vamsy","Siddharth",,kokila-2006,http://localhost:3000/reviews/kokila-2006
+"Thrill",2006,"K. Veeru","Venkat",,thrill-2006,http://localhost:3000/reviews/thrill-2006
+"Aadi Lakshmi",2006,"Y.V.S. Chowdary","Srikanth",,aadi-lakshmi-2006,http://localhost:3000/reviews/aadi-lakshmi-2006
+"Premante Inte",2006,"Devakatta","Sumanth",,premante-inte-2006,http://localhost:3000/reviews/premante-inte-2006
+"Raam",2006,"Sriwass","Nitins",,raam-2006,http://localhost:3000/reviews/raam-2006
+"Andhrudu",2005,"Parasuram","Gopichand",,andhrudu-2005,http://localhost:3000/reviews/andhrudu-2005
+"Okkade",2005,"Gunasekhar","Mahesh Babu",,okkade-2005,http://localhost:3000/reviews/okkade-2005
+"786 Khaidi Premakatha",2005,"K.S. Nageswara Rao","Sashikanth",,786-khaidi-premakatha-2005,http://localhost:3000/reviews/786-khaidi-premakatha-2005
+"Nayakudu",2005,"Karthik","Sachin",,nayakudu-2005,http://localhost:3000/reviews/nayakudu-2005
+"Jagapathi",2005,"Johan","Jagapathi Babu",,jagapathi-2005,http://localhost:3000/reviews/jagapathi-2005
+"Good Boy",2005,"Mohan Krishna","Rohit",,good-boy-2005,http://localhost:3000/reviews/good-boy-2005
+"Evadi Gola Vaadidhi",2005,"Srikanth Nahatha","Srikanth",,evadi-gola-vaadidhi-2005,http://localhost:3000/reviews/evadi-gola-vaadidhi-2005
+"Chhatrapati",2005,"Srihari Nanu","Prabhas",,chhatrapati-2005,http://localhost:3000/reviews/chhatrapati-2005
+"Kumkuma",2005,"Jyoti Kumar","Sivaji",,kumkuma-2005,http://localhost:3000/reviews/kumkuma-2005
+"Sravanamasam",2005,"Posani Krishna Murali","Krishna",,sravanamasam-2005,http://localhost:3000/reviews/sravanamasam-2005
+"Youth",2005,"Vinayak","Nithin",,youth-2005,http://localhost:3000/reviews/youth-2005
+"Nireekshana",2005,"Vikraman","Tarun",,nireekshana-2005,http://localhost:3000/reviews/nireekshana-2005
+"Evadi Gola Vaadidi",2005,"E V V Satyanarayana","Aryan Rajesh",,evadi-gola-vaadidi-2005,http://localhost:3000/reviews/evadi-gola-vaadidi-2005
+"Shivashankar",2004,"K. Raghavendra Rao","Daggubati Venkatesh",,shivashankar-2004,http://localhost:3000/reviews/shivashankar-2004
+"Swamy",2004,"Dharani","Vikram",,swamy-2004,http://localhost:3000/reviews/swamy-2004
+"Guri",2004,"B. Satya","Sumanth",,guri-2004,http://localhost:3000/reviews/guri-2004
+"Kaasi",2004,"Lawrence","Jaggi",,kaasi-2004,http://localhost:3000/reviews/kaasi-2004
+"Sankharavam",2004,"Evv Satyanarayana","Ravi Teja",,sankharavam-2004,http://localhost:3000/reviews/sankharavam-2004
+"Letha Manasulu",2004,"Srikanth Addala","Srikanth",,letha-manasulu-2004,http://localhost:3000/reviews/letha-manasulu-2004
+"Puttintiki Ra Chelli",2004,"Kodi Ramakrishna","Arjun",,puttintiki-ra-chelli-2004,http://localhost:3000/reviews/puttintiki-ra-chelli-2004
+"Kaani",2004,"A.M. Burhanuddin","Srikanth",,kaani-2004,http://localhost:3000/reviews/kaani-2004
+"Vidyardhi",2004,"Balachari","Akash",,vidyardhi-2004,http://localhost:3000/reviews/vidyardhi-2004
+"Love Today",2004,"Satin Devi","Uday Kiran",,love-today-2004,http://localhost:3000/reviews/love-today-2004
+"Satta",2004,"Pavan","Srikanth",,satta-2004,http://localhost:3000/reviews/satta-2004
+"Seshadri Naidu",2004,"D. Prabhakar","Srikanth",,seshadri-naidu-2004,http://localhost:3000/reviews/seshadri-naidu-2004
+"24 Gantalu",2004,"D. S. Rao","Krishna",,24-gantalu-2004,http://localhost:3000/reviews/24-gantalu-2004
+"Fools",2003,"Dasari Narayana Rao","Srikanth",,fools-2003,http://localhost:3000/reviews/fools-2003
+"Villain",2003,"Katrina's brother's name is not relevant here, the actual director is: Krishna Vamsi","Ravi Teja",,villain-2003,http://localhost:3000/reviews/villain-2003
+"Vijayam",2003,"Singeetam Srinivasa Rao","Ravi Teja",,vijayam-2003,http://localhost:3000/reviews/vijayam-2003
+"Juniors",2003,"J. Pulla Rao","Allari Naresh",,juniors-2003,http://localhost:3000/reviews/juniors-2003
+"Ammayilu Abbayilu",2003,"Rajan Rajadevi","Sivaji",,ammayilu-abbayilu-2003,http://localhost:3000/reviews/ammayilu-abbayilu-2003
+"Taarak",2003,"Balasekaran","Krishna",,taarak-2003,http://localhost:3000/reviews/taarak-2003
+"Idi Maa Ashokgadi Love Story",2003,"Suresh Krissna","Siva Balaji",,idi-maa-ashokgadi-love-story-2003,http://localhost:3000/reviews/idi-maa-ashokgadi-love-story-2003
+"Nenu Seetamahalakshmi",2003,"Koti","Srikanth",,nenu-seetamahalakshmi-2003,http://localhost:3000/reviews/nenu-seetamahalakshmi-2003
+"Abhimanyu",2003,"Ravi Yadav","Vishnuvardhan",,abhimanyu-2003,http://localhost:3000/reviews/abhimanyu-2003
+"Chantigadu",2003,"B. Gopal","Srikanth",,chantigadu-2003,http://localhost:3000/reviews/chantigadu-2003
+"Agni Varsha",2002,"Arjun Sajnani","Akkineni Nagarjuna",,agni-varsha-2002,http://localhost:3000/reviews/agni-varsha-2002
+"Girl Friend",2002,"Sarath Mandava","Vikram",,girl-friend-2002,http://localhost:3000/reviews/girl-friend-2002
+"Mounamelanoyi",2002,"Subbu","Tarun",,mounamelanoyi-2002,http://localhost:3000/reviews/mounamelanoyi-2002
+"Friends",2002,"Suresh Krissna","Daggubati Venkatesh",,friends-2002,http://localhost:3000/reviews/friends-2002
+"Pilisthe Palukutha",2002,"Kodi Ramakrishna","Jagapathi Babu",,pilisthe-palukutha-2002,http://localhost:3000/reviews/pilisthe-palukutha-2002
+"Parasuram",2002,"Bhimaneni Srinivasa Rao","Srikanth",,parasuram-2002,http://localhost:3000/reviews/parasuram-2002
+"Adrustam",2002,"Lawrence","Tarun",,adrustam-2002,http://localhost:3000/reviews/adrustam-2002
+"Ninu Choodaka Nenundalenu",2002,"R. Srinivas","Sachiin J. Joshi",,ninu-choodaka-nenundalenu-2002,http://localhost:3000/reviews/ninu-choodaka-nenundalenu-2002
+"Dream",2002,"Bhavani Shankar","Jagapathi Babu",,dream-2012,http://localhost:3000/reviews/dream-2012
+"Kalisi Naduddam",2001,"E.V.V. Satyanarayana","Srikanth",,kalisi-naduddam-2001,http://localhost:3000/reviews/kalisi-naduddam-2001
+"Chandra Mahesh",2001,"Jayaraj","Srikanth",,chandra-mahesh-2001,http://localhost:3000/reviews/chandra-mahesh-2001
+"Bhadrachalam",2001,"N. Shankar","Srihari",,bhadrachalam-2001,http://localhost:3000/reviews/bhadrachalam-2001
+"B. Gopal",2001,"B Gopal","Srikanth",,b-gopal-2001,http://localhost:3000/reviews/b-gopal-2001
+"Naa Manasistha Raa",2001,"R.R.Shinde","Srikanth",,naa-manasistha-raa-2001,http://localhost:3000/reviews/naa-manasistha-raa-2001
+"Chinna",2001,"Wangaleedharan","Arjun",,chinna-2001,http://localhost:3000/reviews/chinna-2001
+"Dadagiri",2001,"Krishna","Krishna",,dadagiri-2001,http://localhost:3000/reviews/dadagiri-2001
+"Darling Darling",2001,"Vamsy","Balu",,darling-darling-2001,http://localhost:3000/reviews/darling-darling-2001
+"Kshemamga Velli Labhamga Randi",2000,"Raja Vannem Reddy","Rajendra Prasad",,kshemamga-velli-labhamga-randi-2000,http://localhost:3000/reviews/kshemamga-velli-labhamga-randi-2000
+"Kauravudu",2000,"T. S. Suresh Babu","Arjun",,kauravudu-2000,http://localhost:3000/reviews/kauravudu-2000
+"Durga",2000,"E.V.V. Satyanarayana","Ravi Teja",,durga-2000,http://localhost:3000/reviews/durga-2000
+"Yee Taram Nehru",2000,"Shiva","Krishna",,yee-taram-nehru-2000,http://localhost:3000/reviews/yee-taram-nehru-2000
+"Okkadu Chalu",2000,"Ravi Raja Pinisetty","Rajasekhar",,okkadu-chalu-2000,http://localhost:3000/reviews/okkadu-chalu-2000
+"Vamsoddharakudu",2000,"Sarath","Nandamuri Balakrishna",,vamsoddharakudu-2000,http://localhost:3000/reviews/vamsoddharakudu-2000
+"Manasu Paddanu Kaani",2000,"Veeru K.","Venu",,manasu-paddanu-kaani-2000,http://localhost:3000/reviews/manasu-paddanu-kaani-2000
+"Speed Dancer",1999,"Muppalaneni Shiva","Raghava Lawrence",,speed-dancer-1999,http://localhost:3000/reviews/speed-dancer-1999
+"Velugu Needalu",1999,"K. Vasu","Jagapathi Babu",,velugu-needalu-1999,http://localhost:3000/reviews/velugu-needalu-1999
+"Kaama",1999,"Suresh Krissna","Jagapathi Babu",,kaama-1999,http://localhost:3000/reviews/kaama-1999
+"Panchadara Chilaka",1999,"Dasari Narayana Rao","Srikanth",,panchadara-chilaka-1999,http://localhost:3000/reviews/panchadara-chilaka-1999
+"Bobbili Vamsam",1999,"Kodandarami Reddy","Daggubati Venkatesh",,bobbili-vamsam-1999,http://localhost:3000/reviews/bobbili-vamsam-1999
+"Dollar Dreams",1999,"Sekhar Kammula","Sakshi Ranga Rao",,dollar-dreams-1999,http://localhost:3000/reviews/dollar-dreams-1999
+"Ramasakkanodu",1999,"Kamal Haasan","Kamal Haasan",,ramasakkanodu-1999,http://localhost:3000/reviews/ramasakkanodu-1999
+"Asala Sandadi",1999,"Relangi Narasimha Rao","Jagapathi Babu",,asala-sandadi-1999,http://localhost:3000/reviews/asala-sandadi-1999
+"Ammo Polisollu",1999,"E.V.V. Satyanarayana","Sumanth",,ammo-polisollu-1999,http://localhost:3000/reviews/ammo-polisollu-1999
+"Mechanic Mavayya",1999,"Mutyala Subbaiah","Srikanth",,mechanic-mavayya-1999,http://localhost:3000/reviews/mechanic-mavayya-1999
+"Gurupoornima",1999,"P. N. Ramachandra Rao","Jagapathi Babu",,gurupoornima-1999,http://localhost:3000/reviews/gurupoornima-1999
+"Aavide Syamala",1999,"K Vasu","Srikanth",,aavide-syamala-1999,http://localhost:3000/reviews/aavide-syamala-1999
+"Swapnalokam",1999,"Bhimaneni Srinivasa Rao","Jagapathi Babu",,swapnalokam-1999,http://localhost:3000/reviews/swapnalokam-1999
+"Yamajathakudu",1999,"N Shankar","Mohan Babu",,yamajathakudu-1999,http://localhost:3000/reviews/yamajathakudu-1999
+"Harischandraa",1999,"Suresh Krishna","Srikanth",,harischandraa-1999,http://localhost:3000/reviews/harischandraa-1999
+"Kanyadanam",1998,"Evani Sathya Prabhakar","Vineeth",,kanyadanam-1998,http://localhost:3000/reviews/kanyadanam-1998
+"Daddy Daddy",1998,"Kodi Ramakrishna","Srikanth",,daddy-daddy-1998,http://localhost:3000/reviews/daddy-daddy-1998
+"Prema Pallaki",1998,"Kodandarami Reddy","Jagapathi Babu",,prema-pallaki-1998,http://localhost:3000/reviews/prema-pallaki-1998
+"W/o V. Vara Prasad",1998,"Vamsy","Vineeth",,w-o-v-vara-prasad-1998,http://localhost:3000/reviews/w-o-v-vara-prasad-1998
+"Sambhavam",1998,"A. Kodandarami Reddy","Krishna",,sambhavam-1998,http://localhost:3000/reviews/sambhavam-1998
+"Pape Naa Pranam",1998,"B. V. Ramana","J. D. Chakravarthy",,pape-naa-pranam-1998,http://localhost:3000/reviews/pape-naa-pranam-1998
+"Subhavartha",1998,"Krishna Vijay","Suresh",,subhavartha-1998,http://localhost:3000/reviews/subhavartha-1998
+"Sivayya",1998,"Suresh Varma","Jagapathi Babu",,sivayya-1998,http://localhost:3000/reviews/sivayya-1998
+"Navvulata",1998,"Gopichand Nadella","Rajendra Prasad",,navvulata-1998,http://localhost:3000/reviews/navvulata-1998
+"Deergha Sumangali Bhava",1998,"S. V. Krishna Reddy","Rajasekhar",,deergha-sumangali-bhava-1998,http://localhost:3000/reviews/deergha-sumangali-bhava-1998
+"Eshwar Alla",1998,"Suresh Varma","Vineeth",,eshwar-alla-1998,http://localhost:3000/reviews/eshwar-alla-1998
+"O Panaipothundi Babu",1998,"Siva Nageswara Rao","Suresh",,o-panaipothundi-babu-1998,http://localhost:3000/reviews/o-panaipothundi-babu-1998
+"Maavidaakulu",1998,"E.V.V. Satyanarayana","Jagapathi Babu",,maavidaakulu-1998,http://localhost:3000/reviews/maavidaakulu-1998
+"Nenu Premisthunnanu",1998,"E V V Satyanarayana","Ravi Teja",,nenu-premisthunnanu-1998,http://localhost:3000/reviews/nenu-premisthunnanu-1998
+"Suryudu",1998,"Muthyala Subbaiah","Vijayakanth",,suryudu-1998,http://localhost:3000/reviews/suryudu-1998
+"All Rounder",1998,"E V V Satyanarayana","Daggubati Venkatesh",,all-rounder-1998,http://localhost:3000/reviews/all-rounder-1998
+"Priyuralu",1998,"Muppalaneni Siva","Vineeth",,priyuralu-1998,http://localhost:3000/reviews/priyuralu-1998
+"Khaidi Garu",1998,"Evani Shankar","Srikanth",,khaidi-garu-1998,http://localhost:3000/reviews/khaidi-garu-1998
+"Gillikajjalu",1998,"Evani Sathya Prabhakar","Jagapathi Babu",,gillikajjalu-1998,http://localhost:3000/reviews/gillikajjalu-1998
+"Hello...yama!",1998,"Pavithran","Suresh",,hello-yama-1999,http://localhost:3000/reviews/hello-yama-1999
+"Vaibhavam",1998,"A. Kodandarami Reddy","Krishna",,vaibhavam-1998,http://localhost:3000/reviews/vaibhavam-1998
+"Paradesi",1998,"Bhagyaraj","Vineeth",,paradesi-1998,http://localhost:3000/reviews/paradesi-1998
+"Pelli Kanuka",1998,"Kodi Ramakrishna","Jagapathi Babu",,pelli-kanuka-1998,http://localhost:3000/reviews/pelli-kanuka-1998
+"Manasichi Choodu",1998,"Manoj Kumar","Srikanth",,manasichi-choodu-1998,http://localhost:3000/reviews/manasichi-choodu-1998
+"Vareva Moguda",1998,"S. V. Krishna Reddy","Krishna",,vareva-moguda-1998,http://localhost:3000/reviews/vareva-moguda-1998
+"Adhirindhi Guru",1997,"Sagar","Krishna",,adhirindhi-guru-1997,http://localhost:3000/reviews/adhirindhi-guru-1997
+"Kurralla Rajyam",1997,"Kadambari Kirankumar","Ali",,kurralla-rajyam-1997,http://localhost:3000/reviews/kurralla-rajyam-1997
+"Bobbili Dora",1997,"Sagar","Krishna",,bobbili-dora-1997,http://localhost:3000/reviews/bobbili-dora-1997
+"Ugadi",1997,"S V Krishna Reddy","Srikanth",,ugadi-1997,http://localhost:3000/reviews/ugadi-1997
+"Jai Bajarangabhali",1997,"Kodi Ramakrishna","Daggubati Venkatesh",,jai-bajarangabhali-1997,http://localhost:3000/reviews/jai-bajarangabhali-1997
+"Abbayi Gari Pelli",1997,"Sarath","Suman",,abbayi-gari-pelli-1997,http://localhost:3000/reviews/abbayi-gari-pelli-1997
+"Peddannayya",1997,"Muthyala Subbaiah","Nandamuri Balakrishna",,peddannayya-1997,http://localhost:3000/reviews/peddannayya-1997
+"Amma Durgamma",1996,"K. Raghavendra Rao","Daggubati Venkatesh",,amma-durgamma-1996,http://localhost:3000/reviews/amma-durgamma-1996
+"Chinnabbayi",1996,"A. Kodandarami Reddy","Daggubati Venkatesh",,chinnabbayi-1996,http://localhost:3000/reviews/chinnabbayi-1996
+"Amma Ammani Choodalanivundi",1996,"Sagar","Vinod Kumar",,amma-ammani-choodalanivundi-1996,http://localhost:3000/reviews/amma-ammani-choodalanivundi-1996
+"Vamsanikokkadu",1996,"Sarath","Nandamuri Balakrishna",,vamsanikokkadu-1996,http://localhost:3000/reviews/vamsanikokkadu-1996
+"Akkum Bakkum",1996,"Ram Gopal Varma","Krishna",,akkum-bakkum-1996,http://localhost:3000/reviews/akkum-bakkum-1996
+"Family",1996,"Pedarayudu","Daggubati Venkatesh",,family-1996,http://localhost:3000/reviews/family-1996
+"Sampradayam",1996,"S. V. Krishna Reddy","Krishna",,sampradayam-1996,http://localhost:3000/reviews/sampradayam-1996
+"Srikaram",1996,"Muthyala Subbaiah","Akkineni Nagarjuna",,srikaram-1996,http://localhost:3000/reviews/srikaram-1996
+"Vinodam",1996,"S. V. Krishna Reddy","Srikanth",,vinodam-1996,http://localhost:3000/reviews/vinodam-1996
+"Pavitra Bandham",1996,"Muthyala Subbaiah","Daggubati Venkatesh",,pavitra-bandham-1996,http://localhost:3000/reviews/pavitra-bandham-1996
+"Rayudugaru Nayudugaru",1996,"Dasari Narayana Rao","Akkineni Nageswara Rao",,rayudugaru-nayudugaru-1996,http://localhost:3000/reviews/rayudugaru-nayudugaru-1996
+"Adirindi Alludu",1996,"E.V.V. Satyanarayana","Nandamuri Balakrishna",,adirindi-alludu-1996,http://localhost:3000/reviews/adirindi-alludu-1996
+"Dear Brother",1995,"S. S. Ravichandra","Krishna",,dear-brother-1995,http://localhost:3000/reviews/dear-brother-1995
+"Taj Mahal",1995,"Muppalaneni Shiva","Brahmanandam",,taj-mahal-1995,http://localhost:3000/reviews/taj-mahal-1995
+"Subhamastu",1995,"Krishna Vamsi","Jagapathi Babu",,subhamastu-1995,http://localhost:3000/reviews/subhamastu-1995
+"Real Hero",1995,"S. S. Ravichandra","Krishna",,real-hero-1995,http://localhost:3000/reviews/real-hero-1995
+"Big Boss",1995,"Kodandarami Reddy","Akkineni Nagarjuna",,big-boss-1995,http://localhost:3000/reviews/big-boss-1995
+"Money Money",1995,"Siva Nageswara Rao","JD Chakravarthy",,money-money-1995,http://localhost:3000/reviews/money-money-1995
+"Orey Rikshaw",1995,"Dasari Narayana Rao","R. Narayana Murthy",,orey-rikshaw-1995,http://localhost:3000/reviews/orey-rikshaw-1995
+"Bharata Simham",1995,"Sagar","Krishna",,bharata-simham-1995,http://localhost:3000/reviews/bharata-simham-1995
+"Rambantu",1995,"Bavu","Rajendra Prasad",,rambantu-1995,http://localhost:3000/reviews/rambantu-1995
+"Raitu Bharatam",1994,"Tripuraneni Chittibabu","Krishna",,raitu-bharatam-1994,http://localhost:3000/reviews/raitu-bharatam-1994
+"Govinda Govinda",1994,"Ram Gopal Varma","Paresh Rawal",,govinda-govinda-1994,http://localhost:3000/reviews/govinda-govinda-1994
+"Madam",1994,"Singeetam Srinivasa Rao","Nagesh",,madam-1994,http://localhost:3000/reviews/madam-1994
+"Bramhachari Mogudu",1994,"Relangi Narasimha Rao","Rajendra Prasad",,bramhachari-mogudu-1994,http://localhost:3000/reviews/bramhachari-mogudu-1994
+"Aavesam",1994,"Kodi Ramakrishna","Srikanth",,aavesam-1994,http://localhost:3000/reviews/aavesam-1994
+"Detective Narada",1993,"Vamsy","Nandamuri Balakrishna",,detective-narada-1993,http://localhost:3000/reviews/detective-narada-1993
+"Rakshana",1993,"Uppalapati Surya","Akkineni Nagarjuna",,rakshana-1993,http://localhost:3000/reviews/rakshana-1993
+"Chittemma Mogudu",1993,"Kodanda Rami Reddy","Mohammad Ali",,chittemma-mogudu-1993,http://localhost:3000/reviews/chittemma-mogudu-1993
+"Kunti Putrudu",1993,"Muthyala Subbaiah","Daggubati Venkatesh",,kunti-putrudu-1993,http://localhost:3000/reviews/kunti-putrudu-1993
+"Pillalu Diddina Kapuram",1993,"Perala","Jagapathi Babu",,pillalu-diddina-kapuram-1993,http://localhost:3000/reviews/pillalu-diddina-kapuram-1993
+"Pekata Papa Rao",1993,"Y. Nageswara Rao","Rajendra Prasad",,pekata-papa-rao-1993,http://localhost:3000/reviews/pekata-papa-rao-1993
+"Paruvu Pratishta",1993,"Vasanth","Srikanth",,paruvu-pratishta-1993,http://localhost:3000/reviews/paruvu-pratishta-1993
+"Ratha Sarathi",1993,"Cocaine Narayana","Daggubati Venkatesh",,ratha-sarathi-1993,http://localhost:3000/reviews/ratha-sarathi-1993
+"Kirayi Gunda",1993,"S. S. Ravichandra","Krishna",,kirayi-gunda-1993,http://localhost:3000/reviews/kirayi-gunda-1993
+"Rowdy Annayya",1993,"B. Gopal","Krishna",,rowdy-annayya-1993,http://localhost:3000/reviews/rowdy-annayya-1993
+"Naga Bala",1992,"Muthyala Subbaiah","Daggubati Venkatesh",,naga-bala-1992,http://localhost:3000/reviews/naga-bala-1992
+"Doshi",1992,"Kodandarami Reddy","Akkineni Nageswara Rao",,doshi-1992,http://localhost:3000/reviews/doshi-1992
+"Bhadram Koduko",1992,"A. Kodandarami Reddy","Naresh",,bhadram-koduko-1992,http://localhost:3000/reviews/bhadram-koduko-1992
+"Adharsham",1992,"Bharathiraja","Jagapathi Babu",,adharsham-1992,http://localhost:3000/reviews/adharsham-1992
+"Brundavanam",1992,"Singeetam Srinivasa Rao","Nagesh",,brundavanam-1992,http://localhost:3000/reviews/brundavanam-1992
+"Appula Appa Rao",1992,"E.V.V. Satyanarayana","Rajendra Prasad",,appula-appa-rao-1992,http://localhost:3000/reviews/appula-appa-rao-1992
+"Seetapathi Chalo Tirupathi",1992,"Vijaya Bapineedu","Rajendra Prasad",,seetapathi-chalo-tirupathi-1992,http://localhost:3000/reviews/seetapathi-chalo-tirupathi-1992
+"Rakta Tarpanam",1992,"Kodandarami Reddy","Rajendra Prasad",,rakta-tarpanam-1992,http://localhost:3000/reviews/rakta-tarpanam-1992
+"Atta Sommu Alludu Danam",1992,"Y. Nageswara Rao","Vinod Kumar",,atta-sommu-alludu-danam-1992,http://localhost:3000/reviews/atta-sommu-alludu-danam-1992
+"Madhavayya Gari Manavadu",1992,"Muthyala Subbaiah","Harish Kumar",,madhavayya-gari-manavadu-1992,http://localhost:3000/reviews/madhavayya-gari-manavadu-1992
+"Akka Mogudu",1992,"Kodanda Rami Reddy","Rajasekhar",,akka-mogudu-1992,http://localhost:3000/reviews/akka-mogudu-1992
+"Pattudala",1992,"Kodi Ramakrishna","Suresh",,pattudala-1992,http://localhost:3000/reviews/pattudala-1992
+"Pellam Chatu Mogudu",1992,"Relangi Narasimha Rao","Dasari Narayana Rao",,pellam-chatu-mogudu-1992,http://localhost:3000/reviews/pellam-chatu-mogudu-1992
+"Jaganaddam and Sons",1992,"Anil Kumar","Suresh",,jaganaddam-and-sons-1992,http://localhost:3000/reviews/jaganaddam-and-sons-1992
+"Pranadaata",1992,"A. Kodandarami Reddy","Akkineni Nagarjuna",,pranadaata-1992,http://localhost:3000/reviews/pranadaata-1992
+"Police Brothers",1992,"Relangi Narasimha Rao","Daggubati Venkatesh",,police-brothers-1992,http://localhost:3000/reviews/police-brothers-1992
+"Alexander",1992,"Keyaar","Vijayakanth",,alexander-1992,http://localhost:3000/reviews/alexander-1992
+"Champion",1992,"B. Gopal","Daggubati Venkatesh",,champion-1992,http://localhost:3000/reviews/champion-1992
+"Yagnam",1992,"Gopal B","Unknown",,yagnam-1992,http://localhost:3000/reviews/yagnam-1992
+"Pelli Neeku Sukham Naaku",1992,"P. N. Ramchandra Rao","Naresh",,pelli-neeku-sukham-naaku-1992,http://localhost:3000/reviews/pelli-neeku-sukham-naaku-1992
+"Pellam Chebithe Vinali",1992,"Kodi Ramakrishna","Harish Kumar",,pellam-chebithe-vinali-1992,http://localhost:3000/reviews/pellam-chebithe-vinali-1992
+"Gowramma",1992,"Kodandarami Reddy","Bala Krishna",,gowramma-1992,http://localhost:3000/reviews/gowramma-1992
+"Kala Rathrilo Kanne Pilla",1992,"Raj Kamal","Sharath",,kala-rathrilo-kanne-pilla-1992,http://localhost:3000/reviews/kala-rathrilo-kanne-pilla-1992
+"Aswamedham",1992,"B. Gopal","Bala Krishna",,aswamedham-1992,http://localhost:3000/reviews/aswamedham-1992
+"Ayyayyo Brahamayya",1992,"Kodi Ramakrishna","Rajendra Prasad",,ayyayyo-brahamayya-1992,http://localhost:3000/reviews/ayyayyo-brahamayya-1992
+"Agreement",1992,"Manivannan","Nagendra Babu",,agreement-1992,http://localhost:3000/reviews/agreement-1992
+"Parvatalu Panakalu",1992,"Relangi Narasimha Rao","Rajendra Prasad",,parvatalu-panakalu-1992,http://localhost:3000/reviews/parvatalu-panakalu-1992
+"Yugantam",1991,"S. B. Chakravarthy","Murali Mohan",,yugantam-1991,http://localhost:3000/reviews/yugantam-1991
+"Amma Kadupu Challaga",1991,"Boyina Subbarao","Sanjay Mitra",,amma-kadupu-challaga-1991,http://localhost:3000/reviews/amma-kadupu-challaga-1991
+"Parama Sivudu",1991,"Yogesh Seetha Ramaiah","Krishna",,parama-sivudu-1991,http://localhost:3000/reviews/parama-sivudu-1991
+"Shanti Kranti",1991,"V. Ramachandra Rao","Daggubati Venkatesh",,shanti-kranti-1991,http://localhost:3000/reviews/shanti-kranti-1991
+"Bhargava",1991,"A Kodandarami Reddy","Daggubati Venkatesh",,bhargava-1991,http://localhost:3000/reviews/bhargava-1991
+"Sarpayagam",1991,"Paruchuri Brothers","Daggubati Venkatesh",,sarpayagam-1991,http://localhost:3000/reviews/sarpayagam-1991
+"Seetharamayya Gari Manavaralu",1991,"Kranthi Kumar","Akkineni Nageswara Rao",,seetharamayya-gari-manavaralu-1991,http://localhost:3000/reviews/seetharamayya-gari-manavaralu-1991
+"Prema Thapassu",1991,"Vamsy","Rajendra Prasad",,prema-thapassu-1991,http://localhost:3000/reviews/prema-thapassu-1991
+"Prardhana",1991,"Sharath","Daggubati Venkatesh",,prardhana-1991,http://localhost:3000/reviews/prardhana-1991
+"Naa Pellam Naa Ishtam",1991,"Gedhada Anand Babu","Naresh",,naa-pellam-naa-ishtam-1991,http://localhost:3000/reviews/naa-pellam-naa-ishtam-1991
+"Nagastharam",1991,"Krishna","Krishna",,nagastharam-1991,http://localhost:3000/reviews/nagastharam-1991
+"Nayakuralu",1991,"Sharath","Vinod Kumar",,nayakuralu-1991,http://localhost:3000/reviews/nayakuralu-1991
+"Chanti",1991,"Ravi Raja Pinisetty","Daggubati Venkatesh",,chanti-1991,http://localhost:3000/reviews/chanti-1991
+"Keechu Raallu",1991,"Kodi Ramakrishna","Rajendra Prasad",,keechu-raallu-1991,http://localhost:3000/reviews/keechu-raallu-1991
+"Athiradhudu",1991,"Ravi Raja Pinisetty","Daggubati Venkatesh",,athiradhudu-1991,http://localhost:3000/reviews/athiradhudu-1991
+"Pandirimancham",1991,"Relangi Narasimha Rao","Jagapathi Babu",,pandirimancham-1991,http://localhost:3000/reviews/pandirimancham-1991
+"Sri Edukondala Swaami",1991,"Kamalakara Kameswara Rao","Arun Govil",,sri-edukondala-swaami-1991,http://localhost:3000/reviews/sri-edukondala-swaami-1991
+"April 1 Vidudala",1991,"Vamsy","Rajendra Prasad",,april-1-vidudala-1991,http://localhost:3000/reviews/april-1-vidudala-1991
+"Aagraham",1991,"K. S. Ravi","Rajasekhar",,aagraham-1991,http://localhost:3000/reviews/aagraham-1991
+"Manasu Mamata",1990,"Mouli","Naresh",,manasu-mamata-1990,http://localhost:3000/reviews/manasu-mamata-1990
+"Guru Sishyulu",1990,"S.P. Muthuraman","Krishnam Raju",,guru-sishyulu-1990,http://localhost:3000/reviews/guru-sishyulu-1990
+"Agni Sakshi",1990,"K. Balachander","Daggubati Venkatesh",,agni-sakshi-1990,http://localhost:3000/reviews/agni-sakshi-1990
+"Ankitham",1990,"Kodanda Rami Reddy","Sarath Babu",,ankitham-1990,http://localhost:3000/reviews/ankitham-1990
+"Rajasekhar",1990,"K. S. Prakash Rao","Rajasekhar",,rajasekhar-1990,http://localhost:3000/reviews/rajasekhar-1990
+"Agni Pravesam",1990,"Yandamoori","Sivaji Raja",,agni-pravesam-1990,http://localhost:3000/reviews/agni-pravesam-1990
+"Chinna Kodalu",1990,"Kodanda Rami Reddy","Naresh",,chinna-kodalu-1990,http://localhost:3000/reviews/chinna-kodalu-1990
+"Prajala Manishi",1990,"M. Rosi Raju","Krishna",,prajala-manishi-1990,http://localhost:3000/reviews/prajala-manishi-1990
+"Matti Manushulu",1990,"Kodandarami Reddy","Nandamuri Balakrishna",,matti-manushulu-1990,http://localhost:3000/reviews/matti-manushulu-1990
+"Mahajananiki Maradalu Pilla",1990,"Vallabhaneni Jhanardan","Rajendra Prasad",,mahajananiki-maradalu-pilla-1990,http://localhost:3000/reviews/mahajananiki-maradalu-pilla-1990
+"Aayudham",1990,"Kodi Ramakrishna","Krishna",,aayudham-1990,http://localhost:3000/reviews/aayudham-1990
+"Adadhi",1990,"Girish","Daggubati Venkatesh",,adadhi-1990,http://localhost:3000/reviews/adadhi-1990
+"Vishnu",1990,"V. B. Rajendra Prasad","Krishna",,vishnu-1990,http://localhost:3000/reviews/vishnu-1990
+"Sathruvu",1990,"Kodandarami Reddy","Daggubati Venkatesh",,sathruvu-1990,http://localhost:3000/reviews/sathruvu-1990
+"Mama Alludu",1990,"Relangi Narasimha Rao","Rajendra Prasad",,mama-alludu-1990,http://localhost:3000/reviews/mama-alludu-1990
+"Mrugathrushna",1990,"P. Sambasiva Rao","Murali Mohan",,mrugathrushna-1990,http://localhost:3000/reviews/mrugathrushna-1990
+"Nagastram",1990,"Krishna","Krishna",,nagastram-1990,http://localhost:3000/reviews/nagastram-1990
+"20va Shatabdam",1990,"Kodi Ramakrishna","Suman",,20va-shatabdam-1990,http://localhost:3000/reviews/20va-shatabdam-1990
+"Idem Pellam Baboi",1990,"Ravi Teja","Rajendra Prasad",,idem-pellam-baboi-1990,http://localhost:3000/reviews/idem-pellam-baboi-1990
+"Rao Gari Intlo Rowdy",1990,"Kodi Ramakrishna","Akkineni Nageswara Rao",,rao-gari-intlo-rowdy-1990,http://localhost:3000/reviews/rao-gari-intlo-rowdy-1990
+"Iddaru Iddare",1990,"A Kodandarami Reddy","Daggubati Venkatesh",,iddaru-iddare-1990,http://localhost:3000/reviews/iddaru-iddare-1990
+"Anjali",1990,"Mani Ratnam","Raghuvaran",,anjali-1990,http://localhost:3000/reviews/anjali-1990
+"Lakshmi Durga",1990,"Raghuram","Naresh",,lakshmi-durga-1990,http://localhost:3000/reviews/lakshmi-durga-1990
+"Yauvana Poratham",1990,"Fazil","Abbas",,yauvana-poratham-1990,http://localhost:3000/reviews/yauvana-poratham-1990
+"Master Kapuram",1990,"K. Vasu","Rajendra Prasad",,master-kapuram-1990,http://localhost:3000/reviews/master-kapuram-1990
+"Abhisarika",1990,"Muthyala Subbaiah","Naresh",,abhisarika-1990,http://localhost:3000/reviews/abhisarika-1990
+"Yamapaasam",1989,"Kodanda Rami Reddy","Rajasekhar",,yamapaasam-1989,http://localhost:3000/reviews/yamapaasam-1989
+"Bharata Nari",1989,"Muthyala Subbaiah","Daggubati Venkatesh",,bharata-nari-1989,http://localhost:3000/reviews/bharata-nari-1989
+"Bhale Donga",1989,"Kodi Ramakrishna","N. Balakrishna",,bhale-donga-1989,http://localhost:3000/reviews/bhale-donga-1989
+"Manchu Kutumbam",1989,"Relangi Narasimha Rao","Rajendra Prasad",,manchu-kutumbam-1989,http://localhost:3000/reviews/manchu-kutumbam-1989
+"Ontari Poratam",1989,"K. Raghavendra Rao","Daggubati Venkatesh",,ontari-poratam-1989,http://localhost:3000/reviews/ontari-poratam-1989
+"Bala Gopaludu",1989,"Muthyala Subbaiah","Nandamuri Balakrishna",,bala-gopaludu-1989,http://localhost:3000/reviews/bala-gopaludu-1989
+"Jayamu Nischayamu Raa",1989,"Jandhyala","Rajendra Prasad",,jayamu-nischayamu-raa-1989,http://localhost:3000/reviews/jayamu-nischayamu-raa-1989
+"Parthudu",1989,"K.S.R. Das","Krishna",,parthudu-1989,http://localhost:3000/reviews/parthudu-1989
+"Sarvabhoumudu",1989,"K. Raghavendra Rao","Krishna",,sarvabhoumudu-1989,http://localhost:3000/reviews/sarvabhoumudu-1989
+"Srirama Chandrudu",1989,"Deva Das Kanakala","Akkineni Nagarjuna",,srirama-chandrudu-1989,http://localhost:3000/reviews/srirama-chandrudu-1989
+"Lankeswarudu",1989,"Kodandarami Reddy","Chiranjeevi",,lankeswarudu-1989,http://localhost:3000/reviews/lankeswarudu-1989
+"Joo Laka Taka",1989,"G. Madhusudhan Rao","Rajendra Prasad",,joo-laka-taka-1989,http://localhost:3000/reviews/joo-laka-taka-1989
+"Agni",1989,"Harish Shankar","Daggubati Venkatesh",,agni-1989,http://localhost:3000/reviews/agni-1989
+"Anna Chellalu",1989,"Ravi Raja Pinisetty","Sobhan Babu",,anna-chellalu-1989,http://localhost:3000/reviews/anna-chellalu-1989
+"Kokila",1989,"Geetha Krishna","Akkineni Nagarjuna",,kokila-1989,http://localhost:3000/reviews/kokila-1989
+"Shiva",1989,"Ram Gopal Varma","Akkineni Nagarjuna",,shiva-1989,http://localhost:3000/reviews/shiva-1989
+"Rajakeeya Chadarangam",1989,"Kodandarami Reddy","Krishna",,rajakeeya-chadarangam-1989,http://localhost:3000/reviews/rajakeeya-chadarangam-1989
+"Poola Rangadu",1989,"Kodi Ramakrishna","Daggubati Venkatesh",,poola-rangadu-1989,http://localhost:3000/reviews/poola-rangadu-1989
+"Vichitra Sodarulu",1989,"Kodanda Rami Reddy","Kamal Haasan",,vichitra-sodarulu-1989,http://localhost:3000/reviews/vichitra-sodarulu-1989
+"Mouna Poratam",1989,"Mohan Gandhi","Karthik",,mouna-poratam-1989,http://localhost:3000/reviews/mouna-poratam-1989
+"Naga Pournami",1989,"Kodandarami Reddy","Daggubati Venkatesh",,naga-pournami-1989,http://localhost:3000/reviews/naga-pournami-1989
+"Kallu",1988,"M. V. Raghu","Rajendra Prasad",,kallu-1988,http://localhost:3000/reviews/kallu-1988
+"Donga Kollu",1988,"Kodandarami Reddy","Rajendra Prasad",,donga-kollu-1988,http://localhost:3000/reviews/donga-kollu-1988
+"Chikkadu Dorakadu",1988,"Relangi Narasimha Rao","Rajendra Prasad",,chikkadu-dorakadu-1988,http://localhost:3000/reviews/chikkadu-dorakadu-1988
+"Intinti Bhagavatham",1988,"V. E. Sharma","Naresh",,intinti-bhagavatham-1988,http://localhost:3000/reviews/intinti-bhagavatham-1988
+"Maharajasri Mayagadu",1988,"Vijaya Bapineedu","Krishna",,maharajasri-mayagadu-1988,http://localhost:3000/reviews/maharajasri-mayagadu-1988
+"Maharajashri Mayagaadu",1988,"Vijaya Bapineedu","Rajendra Prasad",,maharajashri-mayagaadu-1988,http://localhost:3000/reviews/maharajashri-mayagaadu-1988
+"Station Master",1988,"Kodanda Rami Reddy","Rajendra Prasad",,station-master-1988,http://localhost:3000/reviews/station-master-1988
+"Thodallullu",1988,"Relangi Narasimha Rao","Rajendra Prasad",,thodallullu-1988,http://localhost:3000/reviews/thodallullu-1988
+"Bava Marudula Saval",1988,"C. V. Ganesh","Rajendra Prasad",,bava-marudula-saval-1988,http://localhost:3000/reviews/bava-marudula-saval-1988
+"Aahuthi",1988,"Kodandarami Reddy","Vijayashanti",,aahuthi-1988,http://localhost:3000/reviews/aahuthi-1988
+"Bharya Bhartala Bhagotham",1988,"Mahesh Kumar","Rajendra Prasad",,bharya-bhartala-bhagotham-1988,http://localhost:3000/reviews/bharya-bhartala-bhagotham-1988
+"Jeevana Jyothi",1988,"K. Raghavendra Rao","Murali Mohan",,jeevana-jyothi-1988,http://localhost:3000/reviews/jeevana-jyothi-1988
+"Brahma Puthrudu",1988,"K. Murali Mohan","Daggubati Venkatesh",,brahma-puthrudu-1988,http://localhost:3000/reviews/brahma-puthrudu-1988
+"Bazaar Rowdy",1988,"A. Kodandarami Reddy","Daggubati Venkatesh",,bazaar-rowdy-1988,http://localhost:3000/reviews/bazaar-rowdy-1988
+"Maharshi",1988,"Vamsy","Kamal Haasan",,maharshi-1988,http://localhost:3000/reviews/maharshi-1988
+"Yuddha Bhoomi",1988,"K. Raghavendra Rao","Chiranjeevi",,yuddha-bhoomi-1988,http://localhost:3000/reviews/yuddha-bhoomi-1988
+"Praja Prathinidhi",1988,"Krishna","Krishna",,praja-prathinidhi-1988,http://localhost:3000/reviews/praja-prathinidhi-1988
+"Sri Kanaka Mahalakshmi Recording Dance Troupe",1988,"Vamsy","Naresh",,sri-kanaka-mahalakshmi-recording-dance-troupe-1988,http://localhost:3000/reviews/sri-kanaka-mahalakshmi-recording-dance-troupe-1988
+"Jhansi Rani",1988,"K. S. R. Das","Vijayashanti",,jhansi-rani-1988,http://localhost:3000/reviews/jhansi-rani-1988
+"Donga Ramudu",1988,"Kodanda Rami Reddy","N. Balakrishna",,donga-ramudu-1988,http://localhost:3000/reviews/donga-ramudu-1988
+"Trinetrudu",1988,"Muktha Srinivasan","Chiranjeevi",,trinetrudu-1988,http://localhost:3000/reviews/trinetrudu-1988
+"Agni Keratalu",1988,"K. Raghavendra Rao","Krishna",,agni-keratalu-1988,http://localhost:3000/reviews/agni-keratalu-1988
+"Varasudochadu",1988,"A Kodandarami Reddy","Daggubati Venkatesh",,varasudochadu-1988,http://localhost:3000/reviews/varasudochadu-1988
+"Abhinandana",1988,"Ashok Kumar","Kartheek",,abhinandana-1988,http://localhost:3000/reviews/abhinandana-1988
+"Choopulu Kalasina Subhavela",1988,"Jandhyala","Mohan",,choopulu-kalasina-subhavela-1988,http://localhost:3000/reviews/choopulu-kalasina-subhavela-1988
+"Kaliyuga Karnudu",1988,"Krishna","Krishna",,kaliyuga-karnudu-1988,http://localhost:3000/reviews/kaliyuga-karnudu-1988
+"Premayanam",1988,"Relangi Narasimha Rao","Akkineni Nagarjuna",,premayanam-1988,http://localhost:3000/reviews/premayanam-1988
+"Donga Pelli",1988,"Ravi Raja Pinisetty starring Sobhan Babu","Sobhan Babu",,donga-pelli-1988,http://localhost:3000/reviews/donga-pelli-1988
+"Asthulu Anthasthulu",1988,"Ashok Kumar","Rajendra Prasad",,asthulu-anthasthulu-1988,http://localhost:3000/reviews/asthulu-anthasthulu-1988
+"Chinnari Devatha",1987,"Kodi Ramakrishna","Daggubati Venkatesh",,chinnari-devatha-1987,http://localhost:3000/reviews/chinnari-devatha-1987
+"Vishwanatha Nayakudu",1987,"Krishna","Krishna",,vishwanatha-nayakudu-1987,http://localhost:3000/reviews/vishwanatha-nayakudu-1987
+"Lawyer Suhasini",1987,"Vamsy","Rajendra Prasad",,lawyer-suhasini-1987,http://localhost:3000/reviews/lawyer-suhasini-1987
+"Thandri Kodukula Challenge",1987,"M. Mallikarjuna Rao","Krishna",,thandri-kodukula-challenge-1987,http://localhost:3000/reviews/thandri-kodukula-challenge-1987
+"Nakoo Pellam Kavali",1987,"Vijaya Bapineedu","Rajendra Prasad",,nakoo-pellam-kavali-1987,http://localhost:3000/reviews/nakoo-pellam-kavali-1987
+"Bharathamlo Arjunudu",1987,"K. Raghavendra Rao","Daggubati Venkatesh",,bharathamlo-arjunudu-1987,http://localhost:3000/reviews/bharathamlo-arjunudu-1987
+"Maharshi",1987,"Vamsy","Kamal Haasan",,maharshi-1987,http://localhost:3000/reviews/maharshi-1987
+"Jebu Donga",1987,"V. B. Rajendra Prasad","Chiranjeevi",,jebu-donga-1975,http://localhost:3000/reviews/jebu-donga-1975
+"Pushpaka Vimanam",1987,"Singitham Srinivasa Rao","Kamal Haasan",,pushpaka-vimanam-1987,http://localhost:3000/reviews/pushpaka-vimanam-1987
+"Bhargava Ramudu",1987,"A. Kodandarami Reddy","Nandamuri Balakrishna",,bhargava-ramudu-1987,http://localhost:3000/reviews/bhargava-ramudu-1987
+"Maa Voori Magadu",1987,"K. Bapaiah","Krishna",,maa-voori-magadu-1987,http://localhost:3000/reviews/maa-voori-magadu-1987
+"Maa Ooru",1987,"Kodanda Rami Reddy","Rajendra Prasad",,maa-ooru-1987,http://localhost:3000/reviews/maa-ooru-1987
+"Thene Manasulu",1987,"K. Vasu","Rajendra Prasad",,thene-manasulu-1987,http://localhost:3000/reviews/thene-manasulu-1987
+"Tene Manasulu",1987,"Rajendra Prasad","Krishna",,tene-manasulu-1987,http://localhost:3000/reviews/tene-manasulu-1987
+"Sankharavam",1987,"Krishnam Raju","Krishnam Raju",,sankharavam-1987,http://localhost:3000/reviews/sankharavam-1987
+"Vamsy",1987,"Krishnam Raju","Krishnam Raju",,vamsy-1987,http://localhost:3000/reviews/vamsy-1987
+"Muvva Gopaludu",1987,"Kodandarami Reddy","Nandamuri Balakrishna",,muvva-gopaludu-1987,http://localhost:3000/reviews/muvva-gopaludu-1987
+"Dammit Katha Addam Thirigindi",1987,"K. Vasu","Rajendra Prasad",,dammit-katha-addam-thirigindi-1987,http://localhost:3000/reviews/dammit-katha-addam-thirigindi-1987
+"Dongodochhadu",1987,"Kodi Ramakrishna","Krishna",,dongodochhadu-1987,http://localhost:3000/reviews/dongodochhadu-1987
+"Bharatamlo Arjunudu",1987,"K. Raghavendra Rao","Daggubati Venkatesh",,bharatamlo-arjunudu-1987,http://localhost:3000/reviews/bharatamlo-arjunudu-1987
+"Santhi Nivasam",1986,"G. Ram Mohana Rao","Krishna",,santhi-nivasam-1986,http://localhost:3000/reviews/santhi-nivasam-1986
+"Ravana Brahma",1986,"Kodandarami Reddy","Krishnam Raju",,ravana-brahma-1986,http://localhost:3000/reviews/ravana-brahma-1986
+"Nippulanti Manishi",1986,"S. B. Chandrashekar","Nandamuri Balakrishna",,nippulanti-manishi-1986,http://localhost:3000/reviews/nippulanti-manishi-1986
+"Muddula Krishnaiah",1986,"Kodandarami Reddy","Nandamuri Balakrishna",,muddula-krishnaiah-1986,http://localhost:3000/reviews/muddula-krishnaiah-1986
+"Captain Nagarjun",1986,"Kodandarami Reddy","Akkineni Nagarjuna",,captain-nagarjun-1986,http://localhost:3000/reviews/captain-nagarjun-1986
+"Brahma Rudrulu",1986,"K. Vasu","Krishna",,brahma-rudrulu-1986,http://localhost:3000/reviews/brahma-rudrulu-1986
+"Naa Pilupe Prabahanajam",1986,"P. Chandrasekhara Reddy","Krishna",,naa-pilupe-prabahanajam-1986,http://localhost:3000/reviews/naa-pilupe-prabahanajam-1986
+"Nireekshana",1986,"Balachandra","Bala Krishna",,nireekshana-1986,http://localhost:3000/reviews/nireekshana-1986
+"Khaidi Rudraiah",1986,"A. Kodandarami Reddy","Krishna",,khaidi-rudraiah-1986,http://localhost:3000/reviews/khaidi-rudraiah-1986
+"Repati Pourulu",1986,"K. Vasu","Krishnam Raju",,repati-pourulu-1986,http://localhost:3000/reviews/repati-pourulu-1986
+"Magadheerudu",1986,"K. Raghavendra Rao","Chiranjeevi",,magadheerudu-1986,http://localhost:3000/reviews/magadheerudu-1986
+"Parasuramudu",1986,"G. Ram Mohana Rao","Krishna",,parasuramudu-1986,http://localhost:3000/reviews/parasuramudu-1986
+"Krishna Paramathma",1986,"Krishna","Krishna",,krishna-paramathma-1986,http://localhost:3000/reviews/krishna-paramathma-1986
+"Swathi Muthyam",1986,"Krasna","Kamal Haasan",,swathi-muthyam-1986,http://localhost:3000/reviews/swathi-muthyam-1986
+"Apoorva Sahodarulu",1986,"K. Raghavendra Rao","Nandamuri Balakrishna",,apoorva-sahodarulu-1986,http://localhost:3000/reviews/apoorva-sahodarulu-1986
+"Ashtalakshmi Vaibhavam",1986,"Suresh Krissna","Nandamuri Balakrishna",,ashtalakshmi-vaibhavam-1986,http://localhost:3000/reviews/ashtalakshmi-vaibhavam-1986
+"Kongu Mudi",1985,"Vijaya Bapineedu","Rajendra Prasad",,kongu-mudi-1985,http://localhost:3000/reviews/kongu-mudi-1985
+"Surya Chandra",1985,"Vijaya Bapineedu","Krishna",,surya-chandra-1985,http://localhost:3000/reviews/surya-chandra-1985
+"Dongala Vetagadu",1985,"K. Raghavendra Rao","Unknown",,dongala-vetagadu-1985,http://localhost:3000/reviews/dongala-vetagadu-1985
+"Rakta Sindhuram",1985,"Raviraja Pinisetty","Chiranjeevi",,rakta-sindhuram-1985,http://localhost:3000/reviews/rakta-sindhuram-1985
+"Vajrayudham",1985,"K. Raghavendra Rao","Krishna",,vajrayudham-1985,http://localhost:3000/reviews/vajrayudham-1985
+"Bhale Thammudu",1985,"Paruchuri Gopala Krishna","Nandamuri Balakrishna",,bhale-thammudu-1985,http://localhost:3000/reviews/bhale-thammudu-1985
+"Srivari Shobanam",1985,"Kashinath","Akkineni Nageswara Rao",,srivari-shobanam-1985,http://localhost:3000/reviews/srivari-shobanam-1985
+"Devalayam",1985,"K. Vasu","Daggubati Venkatesh",,devalayam-1985,http://localhost:3000/reviews/devalayam-1985
+"Bullet",1985,"Bhargava","Krishnam Raju",,bullet-1985,http://localhost:3000/reviews/bullet-1985
+"Lanchavatharam",1985,"K. Vasu","Dasari Narayana Rao",,lanchavatharam-1985,http://localhost:3000/reviews/lanchavatharam-1985
+"Vandemataram",1985,"T. Krishna","Rajasekhar",,vandemataram-1985,http://localhost:3000/reviews/vandemataram-1985
+"Andharikante Monagadu",1985,"T.L.V. Prasad","Krishna",,andharikante-monagadu-1985,http://localhost:3000/reviews/andharikante-monagadu-1985
+"Aalapana",1985,"Vamsy","Murali Mohan",,aalapana-1985,http://localhost:3000/reviews/aalapana-1985
+"Manthra Dandam",1985,"K. Murali Mohan","Unknown",,manthra-dandam-1985,http://localhost:3000/reviews/manthra-dandam-1985
+"Agni Parvatam",1985,"K. Raghavendra Rao","Kongara Jaggayya",,agni-parvatam-1985,http://localhost:3000/reviews/agni-parvatam-1985
+"Donga",1985,"A. Kodandarami Reddy","Chiranjeevi",,donga-1985,http://localhost:3000/reviews/donga-1985
+"Siksha",1985,"K. Balachander","Murali Mohan",,siksha-1985,http://localhost:3000/reviews/siksha-1985
+"Bharyabhartala Bandham",1985,"K. Vasu","R. Narayana Murthy",,bharyabhartala-bandham-1985,http://localhost:3000/reviews/bharyabhartala-bandham-1985
+"Babai Abbai",1985,"Jandhyala","Nandamuri Balakrishna",,babai-abbai-1985,http://localhost:3000/reviews/babai-abbai-1985
+"Sravanthi",1985,"M. Krishnudu","Murali Mohan",,sravanthi-1985,http://localhost:3000/reviews/sravanthi-1985
+"Maha Manishi",1985,"K. Bapayya","Krishna",,maha-manishi-1985,http://localhost:3000/reviews/maha-manishi-1985
+"Palnati Simham",1985,"Krishnam Raju","Krishna",,palnati-simham-1985,http://localhost:3000/reviews/palnati-simham-1985
+"Puli",1985,"Raghvendra Rao","Rajinikanth",,puli-1985,http://localhost:3000/reviews/puli-1985
+"Pattabhishekam",1985,"K. Vasu","Nandamuri Balakrishna",,pattabhishekam-1985,http://localhost:3000/reviews/pattabhishekam-1985
+"Rajahmundry Rome",1984,"V. Madhusudhan Rao","Chandra Mohan",,rajahmundry-rome-1984,http://localhost:3000/reviews/rajahmundry-rome-1984
+"Yama Doothalu",1984,"P. Chandrasekhara Reddy","Rajendra Prasad",,yama-doothalu-1984,http://localhost:3000/reviews/yama-doothalu-1984
+"Goonda",1984,"A. Kodandarami Reddy","Chiranjeevi",,goonda-1984,http://localhost:3000/reviews/goonda-1984
+"Illalu Priyuralu",1984,"Kodandarami Reddy","Sobhan Babu",,illalu-priyuralu-1984,http://localhost:3000/reviews/illalu-priyuralu-1984
+"Kirai Alludu",1984,"K.S.R. Das","Krishna",,kirai-alludu-1984,http://localhost:3000/reviews/kirai-alludu-1984
+"Yuddham",1984,"Dasari Narayana Rao","Krishna",,yuddham-1984,http://localhost:3000/reviews/yuddham-1984
+"Uddhandudu",1984,"P. Sambasiva Rao","Krishna",,uddhandudu-1984,http://localhost:3000/reviews/uddhandudu-1984
+"Kutumba Gowaravam",1984,"K. Vasu","Arun Kumar",,kutumba-gowaravam-1984,http://localhost:3000/reviews/kutumba-gowaravam-1984
+"Swati",1984,"Kranthi Kumar","Suhasini",,swati-1984,http://localhost:3000/reviews/swati-1984
+"Aadadhi Visirina Savaal",1984,"K. S. R. Das (Screenplay/Direction)","Vijayalalitha",,aadadhi-visirina-savaal-1984,http://localhost:3000/reviews/aadadhi-visirina-savaal-1984
+"Seethamma Pelli",1984,"Bapu","Naresh",,seethamma-pelli-1984,http://localhost:3000/reviews/seethamma-pelli-1984
+"Merupu Daadi",1984,"Raviraja Pinisetty","Sobhan Babu",,merupu-daadi-1984,http://localhost:3000/reviews/merupu-daadi-1984
+"Rustum",1984,"A. Kodandarami Reddy","Chiranjeevi",,rustum-1984,http://localhost:3000/reviews/rustum-1984
+"Pulijoodam",1984,"P. Chandrasekhara Reddy","Krishna",,pulijoodam-1984,http://localhost:3000/reviews/pulijoodam-1984
+"Nayakulaku Saval",1984,"K. Vasu","Krishna",,nayakulaku-saval-1984,http://localhost:3000/reviews/nayakulaku-saval-1984
+"Devalayam",1984,"K. Vasu","Krishnam Raju",,devalayam-1984,http://localhost:3000/reviews/devalayam-1984
+"Swathi",1984,"K. Vasu","Kamal Haasan",,swathi-1984,http://localhost:3000/reviews/swathi-1984
+"Mukhyamanthri",1984,"K. Raghavendra Rao","Krishna",,mukhyamanthri-1984,http://localhost:3000/reviews/mukhyamanthri-1984
+"Kurra Cheshtalu",1984,"B. V. Prasad","Rajendra Prasad",,kurra-cheshtalu-1984,http://localhost:3000/reviews/kurra-cheshtalu-1984
+"Sangeeta Samrat",1984,"K. Vasu","Nandamuri Balakrishna",,sangeeta-samrat-1984,http://localhost:3000/reviews/sangeeta-samrat-1984
+"Rowdy",1984,"K. Vasu","Mohan Babu",,rowdy-1984,http://localhost:3000/reviews/rowdy-1984
+"Devanthakudu",1984,"Singeetam Srinivasa Rao","Chiranjeevi",,devanthakudu-1984,http://localhost:3000/reviews/devanthakudu-1984
+"Mahanagaramlo Mayagadu",1984,"Kodandarami Reddy","Rajendra Prasad",,mahanagaramlo-mayagadu-1984,http://localhost:3000/reviews/mahanagaramlo-mayagadu-1984
+"Raktha Sambandham",1984,"K. Vasu","Krishna",,raktha-sambandham-1984,http://localhost:3000/reviews/raktha-sambandham-1984
+"Palnati Puli",1984,"Dasari Narayana Rao","Krishnam Raju",,palnati-puli-1984,http://localhost:3000/reviews/palnati-puli-1984
+"Agni Gundam",1984,"K. Raghavendra Rao","Chiranjeevi",,agni-gundam-1984,http://localhost:3000/reviews/agni-gundam-1984
+"Kurukshetramlo Sita",1984,"B. V. Prasad","Mohan Babu",,kurukshetramlo-sita-1984,http://localhost:3000/reviews/kurukshetramlo-sita-1984
+"Veerabhadrudu",1984,"A Kodandarami Reddy","Krishnam Raju",,veerabhadrudu-1984,http://localhost:3000/reviews/veerabhadrudu-1984
+"Manasa Veena",1984,"Peethambaram","Akkineni Nageswara Rao",,manasa-veena-1984,http://localhost:3000/reviews/manasa-veena-1984
+"Raga Bandham",1984,"Bapu","Suman",,raga-bandham-1984,http://localhost:3000/reviews/raga-bandham-1984
+"Tandava Krishnudu",1984,"P","Kaikala Satyanarayana",,tandava-krishnudu-1984,http://localhost:3000/reviews/tandava-krishnudu-1984
+"Janani Janmabhoomi",1984,"K. Raghavendra Rao","Nandamuri Balakrishna",,janani-janmabhoomi-1984,http://localhost:3000/reviews/janani-janmabhoomi-1984
+"Koteeswarudu",1984,"K. Vasu","Chiranjeevi",,koteeswarudu-1984,http://localhost:3000/reviews/koteeswarudu-1984
+"Bangaru Kapuram",1984,"K. Bapaiah","Krishna",,bangaru-kapuram-1984,http://localhost:3000/reviews/bangaru-kapuram-1984
+"S. P. Bhayankar",1984,"V. B. Rajendra Prasad","Akkineni Nageswara Rao",,s-p-bhayankar-1984,http://localhost:3000/reviews/s-p-bhayankar-1984
+"Disco King",1984,"Bhagyaraj","Kongara Jaggayya",,disco-king-1984,http://localhost:3000/reviews/disco-king-1984
+"Rachayitri",1984,"K. Vasu","Bhanu Chander",,rachayitri-1984,http://localhost:3000/reviews/rachayitri-1984
+"Rana",1984,"K. Raghavendra Rao","Chiranjeevi",,rana-1984,http://localhost:3000/reviews/rana-1984
+"Abhimanyudu",1984,"Dasari Narayana Rao","Krishnam Raju",,abhimanyudu-1984,http://localhost:3000/reviews/abhimanyudu-1984
+"Kathanayakudu",1984,"K. Vasu","Kamal Haasan",,kathanayakudu-1984,http://localhost:3000/reviews/kathanayakudu-1984
+"Moodu Mullu",1983,"Jandhyala Subramanya Sastry","Kota Srinivasa Rao",,moodu-mullu-1983,http://localhost:3000/reviews/moodu-mullu-1983
+"Chandi Rani",1983,"Kodandarami Reddy","Suman",,chandi-rani-1983,http://localhost:3000/reviews/chandi-rani-1983
+"Challenge Vetagallu",1983,"A. Kodandarami Reddy","Suman",,challenge-vetagallu-1983,http://localhost:3000/reviews/challenge-vetagallu-1983
+"Grahanam Vidichindi",1983,"Murali Mohan","Rajendra Prasad",,grahanam-vidichindi-1983,http://localhost:3000/reviews/grahanam-vidichindi-1983
+"Digivachina Devudu",1983,"K. Vasu","Lokesh",,digivachina-devudu-1983,http://localhost:3000/reviews/digivachina-devudu-1983
+"Chilaka Josyam",1983,"A Kodandarami Reddy","Arun Kumar",,chilaka-josyam-1983,http://localhost:3000/reviews/chilaka-josyam-1983
+"Manavulara Manninchandi",1983,"K. Balachander","Kamal Haasan",,manavulara-manninchandi-1983,http://localhost:3000/reviews/manavulara-manninchandi-1983
+"Bandhipotu Rudramma",1983,"B. Bhaskara Rao","Kavitha",,bandhipotu-rudramma-1983,http://localhost:3000/reviews/bandhipotu-rudramma-1983
+"Kanne Donga",1983,"A. Kodandarami Reddy","Krishna",,kanne-donga-1983,http://localhost:3000/reviews/kanne-donga-1983
+"Prema Sagaram (Tamil Dubbed Nenjil Oru Ragam)",1983,"T. Rajendar","T. Rajendar",,prema-sagaram-tamil-dubbed-nenjil-oru-ragam-1983,http://localhost:3000/reviews/prema-sagaram-tamil-dubbed-nenjil-oru-ragam-1983
+"Moogavadi Paga",1983,"Kodandarami Reddy","Suman",,moogavadi-paga-1983,http://localhost:3000/reviews/moogavadi-paga-1983
+"Pralaya Gharjana",1983,"K. Vasu","Krishna",,pralaya-gharjana-1983,http://localhost:3000/reviews/pralaya-gharjana-1983
+"Devi Moogambika",1983,"Renuka Sharma","Sridhar",,devi-moogambika-1983,http://localhost:3000/reviews/devi-moogambika-1983
+"Apadhbandhavulu",1983,"K. Vasu","Suman",,apadhbandhavulu-1983,http://localhost:3000/reviews/apadhbandhavulu-1983
+"Keerthi Kantha Kanakam",1983,"K. Vasu","Suman",,keerthi-kantha-kanakam-1983,http://localhost:3000/reviews/keerthi-kantha-kanakam-1983
+"Monagadu Vastunnadu Jagratha",1983,"A. Kodandarami Reddy","Krishna",,monagadu-vastunnadu-jagratha-1983,http://localhost:3000/reviews/monagadu-vastunnadu-jagratha-1983
+"Prema Vijayam",1983,"Kodandarami Reddy","Suman",,prema-vijayam-1983,http://localhost:3000/reviews/prema-vijayam-1983
+"Palleturi Pidugu",1983,"Kodandarami Reddy","Suman",,palleturi-pidugu-1983,http://localhost:3000/reviews/palleturi-pidugu-1983
+"Muggurammayila Mogudu",1983,"Relangi Narasimha Rao","Rajendra Prasad",,muggurammayila-mogudu-1983,http://localhost:3000/reviews/muggurammayila-mogudu-1983
+"Simhamtho Chelagatam",1983,"Kodandarami Reddy","Suman",,simhamtho-chelagatam-1983,http://localhost:3000/reviews/simhamtho-chelagatam-1983
+"Adadhi Aata Bommaa!",1983,"R K Battula (story/direction)","Sekthi",,adadhi-aata-bommaa-1983,http://localhost:3000/reviews/adadhi-aata-bommaa-1983
+"Amayaka Chakravarthy",1983,"Kodandarami Reddy","Chandra Mohan",,amayaka-chakravarthy-1983,http://localhost:3000/reviews/amayaka-chakravarthy-1983
+"Kasi Yatra",1983,"K. Vasu","Akkineni Nageswara Rao",,kasi-yatra-1983,http://localhost:3000/reviews/kasi-yatra-1983
+"Raakasi Loya",1983,"Kodandarami Reddy","Suman",,raakasi-loya-1983,http://localhost:3000/reviews/raakasi-loya-1983
+"Eeswarudu Seneswarudu",1983,"K. Vasu","Krishnam Raju",,eeswarudu-seneswarudu-1983,http://localhost:3000/reviews/eeswarudu-seneswarudu-1983
+"Chandi Chamundi",1983,"Kodi Ramakrishna","Kavitha",,chandi-chamundi-1983,http://localhost:3000/reviews/chandi-chamundi-1983
+"Koti Kokkadu",1983,"K. Vasu","Suman",,koti-kokkadu-1983,http://localhost:3000/reviews/koti-kokkadu-1983
+"Kanthaiyya Kanakaiyya",1983,"K. Vasu","Suman",,kanthaiyya-kanakaiyya-1983,http://localhost:3000/reviews/kanthaiyya-kanakaiyya-1983
+"Sangharshana",1983,"K","Krishna",,sangharshana-1983,http://localhost:3000/reviews/sangharshana-1983
+"Raju Rani Jocky",1983,"Singeetham Srinivasa Rao","Chandra Mohan",,raju-rani-jocky-1983,http://localhost:3000/reviews/raju-rani-jocky-1983
+"Konte Kodallu",1983,"K Vasu","Murali Mohan",,konte-kodallu-1983,http://localhost:3000/reviews/konte-kodallu-1983
+"Lankebindelu",1983,"Vijaya Nirmala","Krishna",,lankebindelu-1983,http://localhost:3000/reviews/lankebindelu-1983
+"Manishiki Maro Peru",1983,"Tatineni Prasad","Unknown",,manishiki-maro-peru-1983,http://localhost:3000/reviews/manishiki-maro-peru-1983
+"C I D Simham (Kannada Dub Sahasa Simha 1982)",1983,"Joe Simon","Vishnuvardha",,c-i-d-simham-kannada-dub-sahasa-simha-1982-1983,http://localhost:3000/reviews/c-i-d-simham-kannada-dub-sahasa-simha-1982-1983
+"Thodu Needa",1983,"K. Vasu","Kamal Haasan",,thodu-needa-1983,http://localhost:3000/reviews/thodu-needa-1983
+"Kaliyuga Dhaivam",1983,"M. Rosi Raju","Ramakrishna, Sarath Babu",,kaliyuga-dhaivam-1983,http://localhost:3000/reviews/kaliyuga-dhaivam-1983
+"Vimukthi Kosam",1983,"K. Vasu","Krishnam Raju",,vimukthi-kosam-1983,http://localhost:3000/reviews/vimukthi-kosam-1983
+"Chattaniki Sawal",1983,"K. Vasu","Suman",,chattaniki-sawal-1983,http://localhost:3000/reviews/chattaniki-sawal-1983
+"Bharya Bharthala Sawal",1983,"Chandrashekar Reddy","Mohan Babu",,bharya-bharthala-sawal-1983,http://localhost:3000/reviews/bharya-bharthala-sawal-1983
+"Praja Shakthi",1983,"Krasna","Krishnam Raju",,praja-shakthi-1983,http://localhost:3000/reviews/praja-shakthi-1983
+"Nijam Chebithe Nerama",1983,"M. Balaiah","Krihnam Raju",,nijam-chebithe-nerama-1983,http://localhost:3000/reviews/nijam-chebithe-nerama-1983
+"Palleturi Monagadu",1983,"Relangi Narasimha Rao","Chiranjeevi",,palleturi-monagadu-1983,http://localhost:3000/reviews/palleturi-monagadu-1983
+"Patnam Vachhina Pasipapa (Tamil Dubbed Azhakia Kanne 1982)",1983,"J. Mahendran","Sarath Babu",,patnam-vachhina-pasipapa-tamil-dubbed-azhakia-kanne-1982-1983,http://localhost:3000/reviews/patnam-vachhina-pasipapa-tamil-dubbed-azhakia-kanne-1982-1983
+"Kunkuma Tilakam",1983,"Bhargava","Rajendra Prasad",,kunkuma-tilakam-1983,http://localhost:3000/reviews/kunkuma-tilakam-1983
+"Pichi Pantuulu",1983,"Jandhyala","Murali Mohan",,pichi-pantuulu-1983,http://localhost:3000/reviews/pichi-pantuulu-1983
+"Kaksha Sadistha",1983,"Kodandarami Reddy","Suman",,kaksha-sadistha-1983,http://localhost:3000/reviews/kaksha-sadistha-1983
+"Bharathamma Muddu Biddalu",1983,"Veera","Krishnam Raju",,bharathamma-muddu-biddalu-1983,http://localhost:3000/reviews/bharathamma-muddu-biddalu-1983
+"Vetagadi Vijayam",1983,"Kodandarami Reddy","Suman",,vetagadi-vijayam-1983,http://localhost:3000/reviews/vetagadi-vijayam-1983
+"Manishiko Chartira",1983,"Vijaya Bapineedu","Suman",,manishiko-chartira-1983,http://localhost:3000/reviews/manishiko-chartira-1983
+"Muddula Mogudu",1983,"K. Vasu","Sobhan Babu",,muddula-mogudu-1983,http://localhost:3000/reviews/muddula-mogudu-1983
+"Prema Jwala",1983,"K. Vasu","Suman",,prema-jwala-1983,http://localhost:3000/reviews/prema-jwala-1983
+"Rajakumar",1983,"K. Vasu","Kamal Haasan",,rajakumar-1983,http://localhost:3000/reviews/rajakumar-1983
+"Antham Chusina Adadhi",1983,"Bhargava","Rajendra Prasad",,antham-chusina-adadhi-1983,http://localhost:3000/reviews/antham-chusina-adadhi-1983
+"Maharani (Tamil Dubbed Nayakkarin Magal 1982)",1983,"K. S. Gopalakrishnan","Sivaji Ganesan",,maharani-tamil-dubbed-nayakkarin-magal-1982-1983,http://localhost:3000/reviews/maharani-tamil-dubbed-nayakkarin-magal-1982-1983
+"Pelli Chesi Choopistham",1983,"N. A. Pendyala","Chandra Mohan",,pelli-chesi-choopistham-1983,http://localhost:3000/reviews/pelli-chesi-choopistham-1983
+"Doctor Gari Kodalu",1983,"Muktha Srinivasan","Sivaji Ganesan",,doctor-gari-kodalu-1983,http://localhost:3000/reviews/doctor-gari-kodalu-1983
+"Desanikokkadu",1983,"K. Vasu","Krishnam Raju",,desanikokkadu-1983,http://localhost:3000/reviews/desanikokkadu-1983
+"Maa Intaina Katha",1983,"K. Phanindra","Chandra Mohan",,maa-intaina-katha-1983,http://localhost:3000/reviews/maa-intaina-katha-1983
+"Devi Kanaykumari",1983,"K. Shankar","Krishnam Raju",,devi-kanaykumari-1983,http://localhost:3000/reviews/devi-kanaykumari-1983
+"Pidugu lanti Manishi",1983,"M. A. Thirumugham","Sivaji Ganesan",,pidugu-lanti-manishi-1983,http://localhost:3000/reviews/pidugu-lanti-manishi-1983
+"Debbaku Debba",1983,"Kodandarami Reddy","Rajinikanth",,debbaku-debba-1983,http://localhost:3000/reviews/debbaku-debba-1983
+"Chattaniki Veyi Kallu",1983,"Vijaya Nirmala","Krishna",,chattaniki-veyi-kallu-1983,http://localhost:3000/reviews/chattaniki-veyi-kallu-1983
+"Idhi Kadhu Mugimpu",1983,"Satyanarayana Vejella","Rajendra Prasad",,idhi-kadhu-mugimpu-1983,http://localhost:3000/reviews/idhi-kadhu-mugimpu-1983
+"Praja Rajyam",1983,"M. Mallikarjuna Rao","Krishna",,praja-rajyam-1983,http://localhost:3000/reviews/praja-rajyam-1983
+"Iddaru Kiladeelu",1983,"Relangi Narasimha Rao","Suman",,iddaru-kiladeelu-1983,http://localhost:3000/reviews/iddaru-kiladeelu-1983
+"Penki Ghatam (Tamil Dubbed Iniayavaley Vaa)",1983,"N. C. Chakravarthi","Radhika",,penki-ghatam-tamil-dubbed-iniayavaley-vaa-1983,http://localhost:3000/reviews/penki-ghatam-tamil-dubbed-iniayavaley-vaa-1983
+"Magallako Namaskaram",1983,"Bhavaniprasad","Somayajulu",,magallako-namaskaram-1983,http://localhost:3000/reviews/magallako-namaskaram-1983
+"Kirayi Rangadu",1983,"A. Kodandarami Reddy","Suman",,kirayi-rangadu-1983,http://localhost:3000/reviews/kirayi-rangadu-1983
+"Simham Navvindi!",1983,"Deva Das","N.T. Rama Rao",,simham-navvindi-1983,http://localhost:3000/reviews/simham-navvindi-1983
+"Kodalu Kaavaali",1983,"K. Vasu","Suman",,kodalu-kaavaali-1983,http://localhost:3000/reviews/kodalu-kaavaali-1983
+"Chattam",1983,"K. Bapayya","Krishnam Raju",,chattam-1983,http://localhost:3000/reviews/chattam-1983
+"Bhairava Kona",1983,"K. Vasu","Krishnam Raju",,bhairava-kona-1983,http://localhost:3000/reviews/bhairava-kona-1983
+"Amayakudu Kadhu Asadhyudu",1983,"Vijaya Nirmala","Krishna",,amayakudu-kadhu-asadhyudu-1983,http://localhost:3000/reviews/amayakudu-kadhu-asadhyudu-1983
+"Balidaanam",1983,"Dhavala Satyam","Sobhan Babu",,balidaanam-1983,http://localhost:3000/reviews/balidaanam-1983
+"M.L.A. Yedukondalu",1983,"Dasari Narayana Rao","Dasari Narayana Rao",,m-l-a-yedukondalu-1983,http://localhost:3000/reviews/m-l-a-yedukondalu-1983
+"Dharmaatmudu",1983,"Bharathiraja","Krishnam Raju",,dharmaatmudu-1983,http://localhost:3000/reviews/dharmaatmudu-1983
+"Shakthi",1983,"K.Bapayya","Krishna",,shakthi-1983,http://localhost:3000/reviews/shakthi-1983
+"Puli Bebbuli",1983,"Kodandarami Reddy","Chiranjeevi",,puli-bebbuli-1983,http://localhost:3000/reviews/puli-bebbuli-1983
+"Chandashasanudu",1983,"Krasna","Nandamuri Balakrishna",,chandashasanudu-1983,http://localhost:3000/reviews/chandashasanudu-1983
+"Intalludu",1983,"Kodandarami Reddy","Suman",,intalludu-1983,http://localhost:3000/reviews/intalludu-1983
+"Ramarajyamlo Bheemaraju",1983,"A. Kodandarami Reddy","Krishna",,ramarajyamlo-bheemaraju-1983,http://localhost:3000/reviews/ramarajyamlo-bheemaraju-1983
+"Aalaya Sikharam",1983,"Kodandarami Reddy","Chiranjeevi",,aalaya-sikharam-1983,http://localhost:3000/reviews/aalaya-sikharam-1983
+"Trisulam",1983,"K. Vasu","Krishnam Raju",,trisulam-1983,http://localhost:3000/reviews/trisulam-1983
+"Propakari Papanna",1982,"Dasari Narayana Rao","Krishnam Raju",,propakari-papanna-1982,http://localhost:3000/reviews/propakari-papanna-1982
+"Krishnaarjunulu",1982,"K. Raghavendra Rao","Krishna",,krishnaarjunulu-1982,http://localhost:3000/reviews/krishnaarjunulu-1982
+"Doctor Malathi",1982,"K. Vasu","Girish",,doctor-malathi-1982,http://localhost:3000/reviews/doctor-malathi-1982
+"Aththaku Thagga Allullu",1982,"Rama Narayanan","Vijayasanthi",,aththaku-thagga-allullu-1982,http://localhost:3000/reviews/aththaku-thagga-allullu-1982
+"Mahendran",1982,"T. L. V. Prasad","Krishnam Raju",,mahendran-1982,http://localhost:3000/reviews/mahendran-1982
+"Bandhalu Anubandhalu",1982,"H. R. Bhargava","Chiranjeevi",,bandhalu-anubandhalu-1982,http://localhost:3000/reviews/bandhalu-anubandhalu-1982
+"Thanikattu Raja",1982,"V. C. Guhanathan","Rajinikanth",,thanikattu-raja-1982,http://localhost:3000/reviews/thanikattu-raja-1982
+"Emandoyi Srimathigaru",1982,"K. Vasu","Sarath Babu",,emandoyi-srimathigaru-1982,http://localhost:3000/reviews/emandoyi-srimathigaru-1982
+"Nivuru Gappina Nippu",1982,"K. Bapayya","Krishna",,nivuru-gappina-nippu-1982,http://localhost:3000/reviews/nivuru-gappina-nippu-1982
+"Andagaadu",1982,"Bhargava","Rajinikanth",,andagaadu-1982,http://localhost:3000/reviews/andagaadu-1982
+"Raaga Deepam",1982,"A Kodandarami Reddy","Kamal Haasan",,raaga-deepam-1982,http://localhost:3000/reviews/raaga-deepam-1982
+"Garuda Rekhe",1982,"K. Vasu","Krishna",,garuda-rekhe-1982,http://localhost:3000/reviews/garuda-rekhe-1982
+"Meghasandesam",1982,"Dasari Narayana Rao","Akkineni Nageswara Rao",,meghasandesam-1982,http://localhost:3000/reviews/meghasandesam-1982
+"Malle Pandiri",1982,"K. Vasu","S. P. Balasubramaniam",,malle-pandiri-1982,http://localhost:3000/reviews/malle-pandiri-1982
+"Vamsha Gowravam",1982,"Dasari Narayana Rao","Krishnam Raju",,vamsha-gowravam-1982,http://localhost:3000/reviews/vamsha-gowravam-1982
+"Shamsher Shankar",1982,"K.S.R. Das","Krishnam Raju",,shamsher-shankar-1982,http://localhost:3000/reviews/shamsher-shankar-1982
+"Kilinjalgal",1982,"Bhimsingh","Kamal Haasan",,kilinjalgal-1982,http://localhost:3000/reviews/kilinjalgal-1982
+"Ee Charithra Ye Siratho",1982,"Vejella Satyanarayana","Siva Krishna",,ee-charithra-ye-siratho-1982,http://localhost:3000/reviews/ee-charithra-ye-siratho-1982
+"Trisulam",1982,"K. Vasu","Krishnam Raju",,trisulam-1982,http://localhost:3000/reviews/trisulam-1982
+"Raja Chandra",1982,"Kodandarami Reddy","Krishnam Raju",,raja-chandra-1982,http://localhost:3000/reviews/raja-chandra-1982
+"Jagannadha Rathachakralu",1982,"Kodandarami Reddy","Krishnam Raju",,jagannadha-rathachakralu-1982,http://localhost:3000/reviews/jagannadha-rathachakralu-1982
+"Shamshare Shankar",1982,"K.S.R. Das","Krishna",,shamshare-shankar-1982,http://localhost:3000/reviews/shamshare-shankar-1982
+"Telugunaadu",1982,"K. Vasu","Sarath Babu",,telugunaadu-1982,http://localhost:3000/reviews/telugunaadu-1982
+"O Adadhi O Magadu",1982,"Dasari Narayana Rao","Alekhya",,o-adadhi-o-magadu-1982,http://localhost:3000/reviews/o-adadhi-o-magadu-1982
+"Viplava Shankam",1982,"K Vasu","Krishnam Raju",,viplava-shankam-1982,http://localhost:3000/reviews/viplava-shankam-1982
+"Mantralaya Raghavendra Vaibhavam",1982,"Ramakrishna, Chandra Kala","Akkineni Nageswara Rao",,mantralaya-raghavendra-vaibhavam-1982,http://localhost:3000/reviews/mantralaya-raghavendra-vaibhavam-1982
+"Kommineni",1982,"K Vasu","Somayajulu",,kommineni-1982,http://localhost:3000/reviews/kommineni-1982
+"Dharma Vaddi",1982,"B. Bhaskara Rao","Murali Mohan",,dharma-vaddi-1982,http://localhost:3000/reviews/dharma-vaddi-1982
+"Idi Pellantara",1982,"Kodandarami Reddy","Krishnam Raju",,idi-pellantara-1982,http://localhost:3000/reviews/idi-pellantara-1982
+"Illanta Sandadi",1982,"Relangi Narasimha Rao","Chiranjeevi",,illanta-sandadi-1982,http://localhost:3000/reviews/illanta-sandadi-1982
+"Krishnarjunulu",1982,"Dasari Narayana Rao","Krishnam Raju",,krishnarjunulu-1982,http://localhost:3000/reviews/krishnarjunulu-1982
+"Prema Murthulu",1982,"Kodandarami Reddy","Sarath Babu",,prema-murthulu-1982,http://localhost:3000/reviews/prema-murthulu-1982
+"Jaggu",1982,"Kodandarami Reddy","Chiranjeevi",,jaggu-1982,http://localhost:3000/reviews/jaggu-1982
+"Prathikaram",1982,"K. Vasu","Sarath Babu",,prathikaram-1982,http://localhost:3000/reviews/prathikaram-1982
+"Doctor Cine Actor",1982,"Vijaya Nirmala","Krishna",,doctor-cine-actor-1982,http://localhost:3000/reviews/doctor-cine-actor-1982
+"Pralaya Rudrudu",1982,"A. Kodandarami Reddy","Krishna",,pralaya-rudrudu-1982,http://localhost:3000/reviews/pralaya-rudrudu-1982
+"Maro Malupu",1982,"K. Balachander","Gummadi",,maro-malupu-1982,http://localhost:3000/reviews/maro-malupu-1982
+"Bairisetty Bhaskara Rao",1982,"Chiranjeevi","R. Narayana Murthy",,bairisetty-bhaskara-rao-1982,http://localhost:3000/reviews/bairisetty-bhaskara-rao-1982
+"Prema Nakshatram",1982,"Indra Kumar","Naresh",,prema-nakshatram-1982,http://localhost:3000/reviews/prema-nakshatram-1982
+"Radhamma Mogudu",1982,"A. Kodandarami Reddy","Krishnam Raju",,radhamma-mogudu-1982,http://localhost:3000/reviews/radhamma-mogudu-1982
+"Devatha",1982,"K. Vasu","Sobhan Babu",,devatha-1982,http://localhost:3000/reviews/devatha-1982
+"Jagannatha Radhachakralu",1982,"V. Madhusudhan Rao","Krishna",,jagannatha-radhachakralu-1982,http://localhost:3000/reviews/jagannatha-radhachakralu-1982
+"Chandamama",1982,"Kodandarami Reddy","N.T. Rama Rao",,chandamama-1982,http://localhost:3000/reviews/chandamama-1982
+"Ee Kaalam Katha",1982,"Madhav Rao","Sarath Babu",,ee-kaalam-katha-1982,http://localhost:3000/reviews/ee-kaalam-katha-1982
+"Eenadu",1982,"K. Viswanath","Krishna",,eenadu-1982,http://localhost:3000/reviews/eenadu-1982
+"Nipputo Chelagaatam",1982,"Kommineni Seshagiri Rao","Allu Rama Lingaiah",,nipputo-chelagaatam-1982,http://localhost:3000/reviews/nipputo-chelagaatam-1982
+"Vamsy",1982,"Kodi Ramakrishna","Kamal Haasan",,vamsy-1982,http://localhost:3000/reviews/vamsy-1982
+"Prema Nakshathram",1982,"P. Sambasiva Rao","Krishna",,prema-nakshathram-1982,http://localhost:3000/reviews/prema-nakshathram-1982
+"Cancer-Sukhavyadhulu",1982,"M. Prabhakar Reddy","M. Prabhakar Reddy",,cancer-sukhavyadhulu-1982,http://localhost:3000/reviews/cancer-sukhavyadhulu-1982
+"Sitadevi",1982,"K. Vasu","Sobhan Babu",,sitadevi-1982,http://localhost:3000/reviews/sitadevi-1982
+"Kalavaari Samsaram",1982,"K. Vasu","Nandamuri Balakrishna",,kalavaari-samsaram-1982,http://localhost:3000/reviews/kalavaari-samsaram-1982
+"Ee Charitra Ae Sirato",1982,"Vejalla Satyanarayana","Shiva Krishna",,ee-charitra-ae-sirato-1982,http://localhost:3000/reviews/ee-charitra-ae-sirato-1982
+"Chilipi Chinnodu",1982,"K. Vasu","Sarath Babu",,chilipi-chinnodu-1982,http://localhost:3000/reviews/chilipi-chinnodu-1982
+"Bapu",1982,"K. Bapayya","Sobhan Babu",,bapu-1982,http://localhost:3000/reviews/bapu-1982
+"Yuvraju",1982,"Kodandarami Reddy","Krishnam Raju",,yuvraju-1982,http://localhost:3000/reviews/yuvraju-1982
+"Katta Subba Rao",1982,"Sobhan Babu, Lakshmi, Jayasudha, Nutan Prasad, Kaikala Satyanarayana","Vishnupriya Productions",,katta-subba-rao-1982,http://localhost:3000/reviews/katta-subba-rao-1982
+"Oorukichchina Maata",1981,"T. Krishna","Krishnam Raju",,oorukichchina-maata-1981,http://localhost:3000/reviews/oorukichchina-maata-1981
+"Swapna",1981,"K. Vasu","Suman",,swapna-1981,http://localhost:3000/reviews/swapna-1981
+"Viswaroopam",1981,"Kodandarami Reddy","N.T. Rama Rao",,viswaroopam-1981,http://localhost:3000/reviews/viswaroopam-1981
+"Siddhalingeshwara Mahima",1981,"B. Subba Rao","Sridhar",,siddhalingeshwara-mahima-1981,http://localhost:3000/reviews/siddhalingeshwara-mahima-1981
+"Kirayi Rowdylu",1981,"A. Kodandarami Reddy","Chiranjeevi",,kirayi-rowdylu-1981,http://localhost:3000/reviews/kirayi-rowdylu-1981
+"Antham Kaadidi Aarambham",1981,"K.S.R. Das","Krishna",,antham-kaadidi-aarambham-1981,http://localhost:3000/reviews/antham-kaadidi-aarambham-1981
+"Ragile Jwala",1981,"K. Raghavendra Rao","Allu Rama Lingaiah",,ragile-jwala-1981,http://localhost:3000/reviews/ragile-jwala-1981
+"Illalu",1981,"K Vasu","Krishnam Raju",,illalu-1981,http://localhost:3000/reviews/illalu-1981
+"Daari Tappina Manishi",1981,"B. Narasimha Rao","Narasimha Raju",,daari-tappina-manishi-1981,http://localhost:3000/reviews/daari-tappina-manishi-1981
+"Thodu Dongalu",1981,"K. Raghavendra Rao","Krishna",,thodu-dongalu-1981,http://localhost:3000/reviews/thodu-dongalu-1981
+"Priya",1981,"Spencer","Sobhan Babu",,priya-1981,http://localhost:3000/reviews/priya-1981
+"Seethakoka Chilaka",1981,"Bhagyaraj","Karthik",,seethakoka-chilaka-1981,http://localhost:3000/reviews/seethakoka-chilaka-1981
+"Bhoga Bagyalu",1981,"P. Chandrasekhara Reddy","Krishna",,bhoga-bagyalu-1981,http://localhost:3000/reviews/bhoga-bagyalu-1981
+"Gadasari Atha Sogasari Kodalu",1981,"K. Kattubadi","Krishna",,gadasari-atha-sogasari-kodalu-1981,http://localhost:3000/reviews/gadasari-atha-sogasari-kodalu-1981
+"Nayudu gari Abbai",1981,"B.B. Prasad","Krishna",,nayudu-gari-abbai-1981,http://localhost:3000/reviews/nayudu-gari-abbai-1981
+"Chinnaari Chittibaau",1981,"K. Vasu","Sobhan Babu",,chinnaari-chittibaau-1981,http://localhost:3000/reviews/chinnaari-chittibaau-1981
+"Premabhishekam",1981,"Dasari Narayana Rao","Akhil Bharati",,premabhishekam-1981,http://localhost:3000/reviews/premabhishekam-1981
+"Asha Jyoti",1981,"Dasari Narayana Rao","Rajesh Khanna",,asha-jyoti-1981,http://localhost:3000/reviews/asha-jyoti-1981
+"Aakali Rajyam",1981,"K. Balachander","Kamal Haasan",,aakali-rajyam-1981,http://localhost:3000/reviews/aakali-rajyam-1981
+"Saptapadi",1981,"K. Vasu","Sobhan Babu",,saptapadi-1981,http://localhost:3000/reviews/saptapadi-1981
+"Prema Kanuka",1981,"K. Vasu","Akkineni Nageswara Rao",,prema-kanuka-1980,http://localhost:3000/reviews/prema-kanuka-1980
+"Hare Krishna Hallo Radha",1980,"K.S.R. Das","Krishna",,hare-krishna-hallo-radha-1980,http://localhost:3000/reviews/hare-krishna-hallo-radha-1980
+"Prema Pichchi",1980,"A Kodandarami Reddy","Kamal Haasan",,prema-pichchi-1981,http://localhost:3000/reviews/prema-pichchi-1981
+"Buchi Babu",1980,"Dasari Narayana Rao","Krishnam Raju",,buchi-babu-1980,http://localhost:3000/reviews/buchi-babu-1980
+"Guru",1980,"I.V. Sasi","Kamal Haasan",,guru-1980,http://localhost:3000/reviews/guru-1980
+"Rakta Bandham",1980,"K. Vasu","Nutan Prasad",,rakta-bandham-1980,http://localhost:3000/reviews/rakta-bandham-1980
+"Thathayya Premaleelalu",1980,"B. V. Prasad","Chiranjeevi",,thathayya-premaleelalu-1980,http://localhost:3000/reviews/thathayya-premaleelalu-1980
+"Adhrustavanthudu",1980,"G.C. Sekhar","Krishna",,adhrustavanthudu-1980,http://localhost:3000/reviews/adhrustavanthudu-1980
+"Punnami Naagu",1980,"Dadasaheb Balavant Padhye","Chiranjeevi",,punnami-naagu-1980,http://localhost:3000/reviews/punnami-naagu-1980
+"Ramudu Parasuramudu",1980,"Vijaya Nirmala","Krishna",,ramudu-parasuramudu-1980,http://localhost:3000/reviews/ramudu-parasuramudu-1980
+"Alayam",1980,"T. Madhava Rao","Soman",,alayam-1980,http://localhost:3000/reviews/alayam-1980
+"Kotha Jeevithalu",1980,"K. Balachander","Sobhan Babu",,kotha-jeevithalu-1980,http://localhost:3000/reviews/kotha-jeevithalu-1980
+"Challenge Ramudu",1980,"T. L. V. Prasad","Kaikala Satyanarayana",,challenge-ramudu-1980,http://localhost:3000/reviews/challenge-ramudu-1980
+"Kaali",1980,"A. C. Tirulokchandar","Rajinikanth",,kaali-1980,http://localhost:3000/reviews/kaali-1980
+"Harischandrudu",1980,"K Vasu","N.T. Rama Rao",,harischandrudu-1980,http://localhost:3000/reviews/harischandrudu-1980
+"Maa Bhoomi",1980,"Goutam Ghose","Rami Reddy",,maa-bhoomi-1980,http://localhost:3000/reviews/maa-bhoomi-1980
+"Gayyali Gangamma",1980,"L. V. Prasad","Krishnam Raju",,gayyali-gangamma-1980,http://localhost:3000/reviews/gayyali-gangamma-1980
+"Aatagadu",1980,"A. Kodandarami Reddy","Krishnam Raju",,aatagadu-1980,http://localhost:3000/reviews/aatagadu-1980
+"Adadhee Gadapa Datithe",1980,"B. S. Narayana","Rajendra Prasad",,adadhee-gadapa-datithe-1980,http://localhost:3000/reviews/adadhee-gadapa-datithe-1980
+"Kodallu Vastunnaru Jagratha",1980,"Katta Subba Rao","Sobhan Babu",,kodallu-vastunnaru-jagratha-1980,http://localhost:3000/reviews/kodallu-vastunnaru-jagratha-1980
+"Chesina Baasalu",1980,"Kodandarami Reddy","Sarath Babu",,chesina-baasalu-1980,http://localhost:3000/reviews/chesina-baasalu-1980
+"Vamsa Vruksham",1980,"Bapu","Krishnam Raju",,vamsa-vruksham-1980,http://localhost:3000/reviews/vamsa-vruksham-1980
+"Nakili Manishi",1980,"K. Vasu","Chiranjeevi",,nakili-manishi-1980,http://localhost:3000/reviews/nakili-manishi-1980
+"Chuttalunnaru Jagratha",1980,"Kodandarami Reddy","Krishna",,chuttalunnaru-jagratha-1980,http://localhost:3000/reviews/chuttalunnaru-jagratha-1980
+"Bangaru Bava",1980,"K. Vasu","Krishna",,bangaru-bava-1980,http://localhost:3000/reviews/bangaru-bava-1980
+"Bandodu Gundamma",1980,"S.D. Lal","Krishna",,bandodu-gundamma-1980,http://localhost:3000/reviews/bandodu-gundamma-1980
+"Mogudu Kaavali",1980,"K. Vasu","Chiranjeevi",,mogudu-kaavali-1980,http://localhost:3000/reviews/mogudu-kaavali-1980
+"Kaksha",1980,"Vamsy","Sobhan Babu",,kaksha-1980,http://localhost:3000/reviews/kaksha-1980
+"Ammayi Mogudu Mamaku Yamudu",1980,"Amrutha","Krishna",,ammayi-mogudu-mamaku-yamudu-1980,http://localhost:3000/reviews/ammayi-mogudu-mamaku-yamudu-1980
+"Alludu Pattina Bharatam",1980,"K. Vishwanath","Krishnam Raju",,alludu-pattina-bharatam-1980,http://localhost:3000/reviews/alludu-pattina-bharatam-1980
+"Dongalaku Savaal",1979,"K.S.R. Das","Krishna",,dongalaku-savaal-1979,http://localhost:3000/reviews/dongalaku-savaal-1979
+"Vetagadu",1979,"K. Raghavendra Rao","Krishna",,vetagadu-1979,http://localhost:3000/reviews/vetagadu-1979
+"Rama Banam",1979,"K Vasu","N.T. Rama Rao",,rama-banam-1979,http://localhost:3000/reviews/rama-banam-1979
+"Maavari Manchitanam",1979,"B","Gummadi Venkateswara Rao",,maavari-manchitanam-1979,http://localhost:3000/reviews/maavari-manchitanam-1979
+"Gorintaku",1979,"K. Vasu","Sobhan Babu",,gorintaku-1979,http://localhost:3000/reviews/gorintaku-1979
+"Naa Illu Naa Vallu",1979,"Raja Chandra","Giribabu",,naa-illu-naa-vallu-1979,http://localhost:3000/reviews/naa-illu-naa-vallu-1979
+"Driver Ramudu",1979,"K Vasu","N.T. Rama Rao",,driver-ramudu-1979,http://localhost:3000/reviews/driver-ramudu-1979
+"Samajaniki Savaal",1979,"S.P. Rajaram","Krishna",,samajaniki-savaal-1979,http://localhost:3000/reviews/samajaniki-savaal-1979
+"Vetagaadu",1979,"K Vasu","N.T. Rama Rao",,vetagaadu-1979,http://localhost:3000/reviews/vetagaadu-1979
+"Maavaari Manchithanam",1979,"Bhavanichandra","Krishnam Raju",,maavaari-manchithanam-1979,http://localhost:3000/reviews/maavaari-manchithanam-1979
+"Yevadabbasommu",1979,"K.S.R. Das","Krishna",,yevadabbasommu-1979,http://localhost:3000/reviews/yevadabbasommu-1979
+"ViyyalavariKayyalu",1979,"K. Kattubadi","Krishna",,viyyalavarikayyalu-1979,http://localhost:3000/reviews/viyyalavarikayyalu-1979
+"Guppedu Manasu",1979,"K. Balachander","Sarath Babu",,guppedu-manasu-1979,http://localhost:3000/reviews/guppedu-manasu-1979
+"Sanku Teertham",1979,"K. Viswanath","Krishna",,sanku-teertham-1979,http://localhost:3000/reviews/sanku-teertham-1979
+"Kotta Alludu",1979,"K. Vasu","Krishna",,kotta-alludu-1979,http://localhost:3000/reviews/kotta-alludu-1979
+"Muthaiduva",1979,"P. Chandrasekhara Reddy","Krishna",,muthaiduva-1979,http://localhost:3000/reviews/muthaiduva-1979
+"Toorpu Velle Railu",1979,"Bapu","Jyothi",,toorpu-velle-railu-1979,http://localhost:3000/reviews/toorpu-velle-railu-1979
+"Needa",1979,"Dasari Narayana Rao","Krishnam Raju",,needa-1979,http://localhost:3000/reviews/needa-1979
+"Karthika Deepam",1979,"Lakshmi Deepak","Geetha",,karthika-deepam-1979,http://localhost:3000/reviews/karthika-deepam-1979
+"Allari Bullodu",1978,"G.C. Sekhar","Krishna",,allari-bullodu-1978,http://localhost:3000/reviews/allari-bullodu-1978
+"Rickshaw Raji",1978,"K. Vasu","Krishnam Raju",,rickshaw-raji-1978,http://localhost:3000/reviews/rickshaw-raji-1978
+"Indradhanasu",1978,"K. Bapaiah","Krishna",,indradhanasu-1978,http://localhost:3000/reviews/indradhanasu-1978
+"Radha Krishna",1978,"K Vasu","Krishnam Raju",,radha-krishna-1978,http://localhost:3000/reviews/radha-krishna-1978
+"Seetamalakshmi",1978,"K. Vasu","Chandra Mohan",,seetamalakshmi-1978,http://localhost:3000/reviews/seetamalakshmi-1978
+"Vichitra Jeevitham",1978,"K. Vasu","Krishnam Raju",,vichitra-jeevitham-1978,http://localhost:3000/reviews/vichitra-jeevitham-1978
+"Mallepoovu",1978,"K Vasu","Sobhan Babu",,mallepoovu-1978,http://localhost:3000/reviews/mallepoovu-1978
+"Doo Doo Basavanna",1978,"B V Prasad","Chalam",,doo-doo-basavanna-1978,http://localhost:3000/reviews/doo-doo-basavanna-1978
+"Kondura",1978,"K. Vasu","Vishnuvardhan",,kondura-1978,http://localhost:3000/reviews/kondura-1978
+"Pranam Khareedu",1978,"K Vasu","Chiranjeevi",,pranam-khareedu-1978,http://localhost:3000/reviews/pranam-khareedu-1978
+"Sommokadidi Sokokadidi",1978,"Singeetam Srinivasa Rao","Kamal Haasan",,sommokadidi-sokokadidi-1978,http://localhost:3000/reviews/sommokadidi-sokokadidi-1978
+"Sati Savithri",1978,"Bapu","Krishnam Raju",,sati-savithri-1978,http://localhost:3000/reviews/sati-savithri-1978
+"Lawyer Viswanath",1978,"S. D. Lal","Sobhan Babu",,lawyer-viswanath-1978,http://localhost:3000/reviews/lawyer-viswanath-1978
+"Manavoori Pandavulu",1978,"Aldel","Krishnam Raju",,manavoori-pandavulu-1978,http://localhost:3000/reviews/manavoori-pandavulu-1978
+"Chali Cheemalu",1978,"K. Vasu","Krishnam Raju",,chali-cheemalu-1978,http://localhost:3000/reviews/chali-cheemalu-1978
+"Mundadugu",1978,"Dasari Narayana Rao","Krishna",,mundadugu-1978,http://localhost:3000/reviews/mundadugu-1978
+"Khaidi No. 77",1978,"V. Hanuman Prasad","Murali Mohan",,khaidi-no-77-1978,http://localhost:3000/reviews/khaidi-no-77-1978
+"Padaharella Vayasu",1978,"K. Vasu","Sobhan Babu",,padaharella-vayasu-1978,http://localhost:3000/reviews/padaharella-vayasu-1978
+"Jaganmohini",1978,"B. Vittalacharya","Krishnam Raju",,jaganmohini-1978,http://localhost:3000/reviews/jaganmohini-1978
+"Bommarillu",1978,"K. Balachander","Krishnam Raju",,bommarillu-1978,http://localhost:3000/reviews/bommarillu-1978
+"Gamattu Gudachari",1978,"K. Vasu","Krishnam Raju",,gamattu-gudachari-1978,http://localhost:3000/reviews/gamattu-gudachari-1978
+"Rowdy Rangamma",1978,"Kodandarami Reddy","Krishnam Raju",,rowdy-rangamma-1978,http://localhost:3000/reviews/rowdy-rangamma-1978
+"Sri Renukadevi Mahatyam",1978,"C. S. Rao","B. Saroja Devi",,sri-renukadevi-mahatyam-1978,http://localhost:3000/reviews/sri-renukadevi-mahatyam-1978
+"Mugguru Muggure",1978,"S.D. Lal","Krishna",,mugguru-muggure-1978,http://localhost:3000/reviews/mugguru-muggure-1978
+"Moratodu",1977,"K Vasu","Krishnam Raju",,moratodu-1977,http://localhost:3000/reviews/moratodu-1977
+"Kalpanaa",1977,"K Vasu","N.T. Rama Rao",,kalpanaa-1977,http://localhost:3000/reviews/kalpanaa-1977
+"Eetharam Manishi",1977,"Vadaseri","N.T. Rama Rao",,eetharam-manishi-1977,http://localhost:3000/reviews/eetharam-manishi-1977
+"Janmajanmala Bandham",1977,"P. Chandrasekhara Reddy","Krishna",,janmajanmala-bandham-1977,http://localhost:3000/reviews/janmajanmala-bandham-1977
+"Eenatibandham ye Natido",1977,"K.S.R. Das","Krishna",,eenatibandham-ye-natido-1977,http://localhost:3000/reviews/eenatibandham-ye-natido-1977
+"Chakradhari",1977,"Dasari Narayana Rao","Akkineni Nageswara Rao",,chakradhari-1977,http://localhost:3000/reviews/chakradhari-1977
+"Kurukshetram",1977,"B. Vittalacharya","Krishna",,kurukshetram-1977,http://localhost:3000/reviews/kurukshetram-1977
+"Manasaakshi",1977,"Dasari Narayana Rao","Krishnam Raju",,manasaakshi-1977,http://localhost:3000/reviews/manasaakshi-1977
+"Amara Deepam",1977,"K. Raghavendra Rao","Krishnam Raju",,amara-deepam-1977,http://localhost:3000/reviews/amara-deepam-1977
+"Chillarakottu Chittemma",1977,"K Vasu","Krishnam Raju",,chillarakottu-chittemma-1977,http://localhost:3000/reviews/chillarakottu-chittemma-1977
+"Secretary",1976,"K. Vasu","Akkineni Nageswara Rao",,secretary-1976,http://localhost:3000/reviews/secretary-1976
+"Bhale Dongalu",1976,"K.S.R. Das","Krishna",,bhale-dongalu-1976,http://localhost:3000/reviews/bhale-dongalu-1976
+"Jyothi",1976,"K. Vasu","Sobhan Babu",,jyothi-1976,http://localhost:3000/reviews/jyothi-1976
+"Magaadu",1976,"Krasna","N.T. Rama Rao",,magaadu-1976,http://localhost:3000/reviews/magaadu-1976
+"America Ammayi",1976,"Singheetam Srinivasa Rao","Krishnam Raju",,america-ammayi-1976,http://localhost:3000/reviews/america-ammayi-1976
+"Ramarajyamlo Rakthapasam",1976,"P. Chandrasekhara Reddy","Krishna",,ramarajyamlo-rakthapasam-1976,http://localhost:3000/reviews/ramarajyamlo-rakthapasam-1976
+"Bhakta Kannappa",1976,"Bapu","Krishnam Raju",,bhakta-kannappa-1976,http://localhost:3000/reviews/bhakta-kannappa-1976
+"Monagadu",1976,"Krasna","Sobhan Babu",,monagadu-1976,http://localhost:3000/reviews/monagadu-1976
+"Chinninati Kalalu",1975,"K. Vasu","Krishnam Raju",,chinninati-kalalu-1975,http://localhost:3000/reviews/chinninati-kalalu-1975
+"Lakshmana Rekha",1975,"N. Gopala Krishna","Chandra Mohan",,lakshmana-rekha-1975,http://localhost:3000/reviews/lakshmana-rekha-1975
+"Maa Inti Devudu",1975,"B. V. Prasad","Vijaya Lalitha",,maa-inti-devudu-1975,http://localhost:3000/reviews/maa-inti-devudu-1975
+"Sri Chamundeswari Mahima",1975,"Addala Narayana Rao","B. Saroja Devi",,sri-chamundeswari-mahima-1975,http://localhost:3000/reviews/sri-chamundeswari-mahima-1975
+"Yashoda Krishna",1975,"C.S. Rao","Ramakrishna",,yashoda-krishna-1975,http://localhost:3000/reviews/yashoda-krishna-1975
+"Santanam Soubhagyam",1975,"D. S. Prakash Rao","Krishna",,santanam-soubhagyam-1975,http://localhost:3000/reviews/santanam-soubhagyam-1975
+"Cinema Vaibhavam",1975,"Multiple Directors","Ensemble Cast",,cinema-vaibhavam-1975,http://localhost:3000/reviews/cinema-vaibhavam-1975
+"Rakthasambandhalu",1975,"M. Mallikarjuna Rao","Krishna",,rakthasambandhalu-1975,http://localhost:3000/reviews/rakthasambandhalu-1975
+"Chittamma Chilakamma",1975,"B. Bhaskara Rao","Murali Mohan",,chittamma-chilakamma-1975,http://localhost:3000/reviews/chittamma-chilakamma-1975
+"Anuragalu",1975,"K. Vasu","Murali Mohan",,anuragalu-1975,http://localhost:3000/reviews/anuragalu-1975
+"Ammayila Sapatham",1975,"Dasari Narayana Rao","Krishnam Raju",,ammayila-sapatham-1975,http://localhost:3000/reviews/ammayila-sapatham-1975
+"Moguda? Pellama?",1975,"K Vasu","Krishnam Raju",,moguda-pellama-1975,http://localhost:3000/reviews/moguda-pellama-1975
+"Aadhani Adrustam",1975,"K Vasu","Krishnam Raju",,aadhani-adrustam-1975,http://localhost:3000/reviews/aadhani-adrustam-1975
+"Bullemma Sapatham",1975,"Dasari Narayana Rao","Krishnam Raju",,bullemma-sapatham-1975,http://localhost:3000/reviews/bullemma-sapatham-1975
+"Samsaram",1975,"Dasari Narayana Rao","Krishna",,samsaram-1975,http://localhost:3000/reviews/samsaram-1975
+"Raktha Sambandham",1975,"Dasari Narayana Rao","Shobhan Babu",,raktha-sambandham-1975,http://localhost:3000/reviews/raktha-sambandham-1975
+"Bharathi",1975,"K. Viswanath","Krishnam Raju",,bharathi-1975,http://localhost:3000/reviews/bharathi-1975
+"Pandati Samsaram",1975,"Dasari Narayana Rao","Krishna",,pandati-samsaram-1975,http://localhost:3000/reviews/pandati-samsaram-1975
+"Babu",1975,"K. Balachander","Shobhan Babu",,babu-1975,http://localhost:3000/reviews/babu-1975
+"Santhanam Soubhagyam",1975,"Dasari Narayana Rao","Krishnam Raju",,santhanam-soubhagyam-1975,http://localhost:3000/reviews/santhanam-soubhagyam-1975
+"Kothakapuram",1975,"K. Vasu","Krishna",,kothakapuram-1975,http://localhost:3000/reviews/kothakapuram-1975
+"Annadammula Katha",1975,"Dasari Narayana Rao","N.T. Rama Rao",,annadammula-katha-1975,http://localhost:3000/reviews/annadammula-katha-1975
+"Annadammula Anubandham",1975,"B. Vittalacharya","Nandamuri Balakrishna",,annadammula-anubandham-1975,http://localhost:3000/reviews/annadammula-anubandham-1975
+"Ramayya Thandri",1975,"K. Vasu","Krishna",,ramayya-thandri-1975,http://localhost:3000/reviews/ramayya-thandri-1975
+"Jeevana Jyothi",1975,"K. Vasu","Murali Mohan",,jeevana-jyothi-1975,http://localhost:3000/reviews/jeevana-jyothi-1975
+"Cheekati Velugulu",1975,"K. Vasu","Krishna",,cheekati-velugulu-1975,http://localhost:3000/reviews/cheekati-velugulu-1975
+"Thulambaram",1974,"K Vasu","Krishnam Raju",,thulambaram-1974,http://localhost:3000/reviews/thulambaram-1974
+"Thathamma Kala",1974,"Dadasaheb","Krishna",,thathamma-kala-1974,http://localhost:3000/reviews/thathamma-kala-1974
+"Uthama Illalu",1974,"Dasari Narayana Rao","Krishna",,uthama-illalu-1974,http://localhost:3000/reviews/uthama-illalu-1974
+"Manshulu Mati Bommalu",1974,"B. Baskar","Krishna",,manshulu-mati-bommalu-1974,http://localhost:3000/reviews/manshulu-mati-bommalu-1974
+"Dorababu",1974,"Tatineni Rama Rao","Akkineni Nageswara Rao",,dorababu-1974,http://localhost:3000/reviews/dorababu-1974
+"Gundelu Teesina Monagaadu",1974,"N. B. Chakravarthi","Kanta Rao",,gundelu-teesina-monagaadu-1974,http://localhost:3000/reviews/gundelu-teesina-monagaadu-1974
+"Deergha Sumangali",1974,"Adurthi Subba Rao","Krishna",,deergha-sumangali-1974,http://localhost:3000/reviews/deergha-sumangali-1974
+"Nomu",1974,"P. Chandrasekhara Reddy","Sobhan Babu",,nomu-1974,http://localhost:3000/reviews/nomu-1974
+"Urvasi",1974,"K. Bapayya","Sanjeev Kumar",,urvasi-1974,http://localhost:3000/reviews/urvasi-1974
+"Bantrotu Bharya",1974,"Dasari Narayana Rao","Akkineni Nageswara Rao",,bantrotu-bharya-1974,http://localhost:3000/reviews/bantrotu-bharya-1974
+"Intiniti Katha",1974,"K. Balachander","Krishna",,intiniti-katha-1974,http://localhost:3000/reviews/intiniti-katha-1974
+"Gowri",1974,"P. Chandrasekhara Reddy","Krishna",,gowri-1974,http://localhost:3000/reviews/gowri-1974
+"Adapillala Tandri",1974,"Dasari Narayana Rao","Krishna",,adapillala-tandri-1974,http://localhost:3000/reviews/adapillala-tandri-1974
+"Desoddharakulu",1973,"Dasari Narayana Rao","Krishna",,desoddharakulu-1973,http://localhost:3000/reviews/desoddharakulu-1973
+"Mayadari Malligadu",1973,"Adurthi Subba Rao","Krishna",,mayadari-malligadu-1973,http://localhost:3000/reviews/mayadari-malligadu-1973
+"Lokam Marali (tamil Dub Naangu Suvargal)",1973,"K Balachander","Jaishankar",,lokam-marali-tamil-dub-naangu-suvargal-1973,http://localhost:3000/reviews/lokam-marali-tamil-dub-naangu-suvargal-1973
+"Sthri Chandra Kala",1973,"C.S. Rao","Krishna",,sthri-chandra-kala-1973,http://localhost:3000/reviews/sthri-chandra-kala-1973
+"Dhanama? Daivama?",1973,"Dasari Narayana Rao","Akkineni Nageswara Rao",,dhanama-daivama-1973,http://localhost:3000/reviews/dhanama-daivama-1973
+"Visali",1973,"C.S. Rao","Krishna",,visali-1973,http://localhost:3000/reviews/visali-1973
+"Andala Ramudu",1973,"Bapu","Akkineni Nageswara Rao",,andala-ramudu-1973,http://localhost:3000/reviews/andala-ramudu-1973
+"Geetaanjali",1973,"K. Balachander","Akkineni Nageswara Rao",,geetaanjali-1973,http://localhost:3000/reviews/geetaanjali-1973
+"Snehabandam",1973,"K. Vasu","Sobhan Babu",,snehabandam-1973,http://localhost:3000/reviews/snehabandam-1973
+"Vaade Veedu",1973,"Dadasaheb Padamanabh","N.T. Rama Rao",,vaade-veedu-1973,http://localhost:3000/reviews/vaade-veedu-1973
+"Vintha Katha",1973,"K. Balachander","Krishna",,vintha-katha-1973,http://localhost:3000/reviews/vintha-katha-1973
+"Sneha Bandham",1973,"K. Viswanath","Krishna",,sneha-bandham-1973,http://localhost:3000/reviews/sneha-bandham-1973
+"Samsaram Sagaram",1973,"Dasari Narayana Rao","Krishna",,samsaram-sagaram-1973,http://localhost:3000/reviews/samsaram-sagaram-1973
+"Meghamala",1973,"K. Balachander","Krishnam Raju",,meghamala-1973,http://localhost:3000/reviews/meghamala-1973
+"Number One",1973,"KSF Vissu","N.T. Rama Rao",,number-one-1994,http://localhost:3000/reviews/number-one-1994
+"Abhimanavantulu",1973,"K Vasu","N.T. Rama Rao",,abhimanavantulu-1973,http://localhost:3000/reviews/abhimanavantulu-1973
+"Paropakari (Kannada Dub)",1973,"Y. R. Swamy","Rajkumar",,paropakari-kannada-dub-1973,http://localhost:3000/reviews/paropakari-kannada-dub-1973
+"Raj Mahal",1972,"K. Vasu","Krishna",,raj-mahal-1972,http://localhost:3000/reviews/raj-mahal-1972
+"Manchi Rojulu Vachchaayi",1972,"V. Madhusudan Rao","ANR Kanchana",,manchi-rojulu-vachchaayi-1972,http://localhost:3000/reviews/manchi-rojulu-vachchaayi-1972
+"Guduputani",1972,"P. Lakshmi Deepak","Krishna",,guduputani-1972,http://localhost:3000/reviews/guduputani-1972
+"Kula Gowravam",1972,"K Vasu","Akkineni Nageswara Rao",,kula-gowravam-1972,http://localhost:3000/reviews/kula-gowravam-1972
+"Hantakulu Devantakulu",1972,"Dasari Narayana Rao","Krishna",,hantakulu-devantakulu-1972,http://localhost:3000/reviews/hantakulu-devantakulu-1972
+"Datta Putrudu",1972,"Dasari Narayana Rao","N.T. Rama Rao",,datta-putrudu-1972,http://localhost:3000/reviews/datta-putrudu-1972
+"Vinta Dampatulu",1972,"Dasari Narayana Rao","Akkineni Nageswara Rao",,vinta-dampatulu-1972,http://localhost:3000/reviews/vinta-dampatulu-1972
+"Antha Mana Manichike",1972,"Bhanumathi Ramakrishna","Krishna",,antha-mana-manichike-1972,http://localhost:3000/reviews/antha-mana-manichike-1972
+"Sri Krishnanjaneya Yuddham",1972,"C. S. Rao","N.T. Rama Rao",,sri-krishnanjaneya-yuddham-1972,http://localhost:3000/reviews/sri-krishnanjaneya-yuddham-1972
+"Monagadostunnadu Jagratha",1972,"K Vasu","Akkineni Nageswara Rao",,monagadostunnadu-jagratha-1972,http://localhost:3000/reviews/monagadostunnadu-jagratha-1972
+"Kattula Rattayya",1972,"K.S.R. Das","Krishna",,kattula-rattayya-1972,http://localhost:3000/reviews/kattula-rattayya-1972
+"Maa Oori Monagallu",1972,"K.S.R. Das","Krishna",,maa-oori-monagallu-1972,http://localhost:3000/reviews/maa-oori-monagallu-1972
+"Nijam Nirupista",1972,"S.S. Devadas","Krishna",,nijam-nirupista-1972,http://localhost:3000/reviews/nijam-nirupista-1972
+"Bala Bharatam",1972,"Kamalakara Kameswara Rao","Sobhan Babu",,bala-bharatam-1972,http://localhost:3000/reviews/bala-bharatam-1972
+"Bale Mosagadu",1972,"P. Sambasiva Rao","Krishna",,bale-mosagadu-1972,http://localhost:3000/reviews/bale-mosagadu-1972
+"Monagadostunnadu Jagartta",1972,"K.S.R. Das","Krishna",,monagadostunnadu-jagartta-1972,http://localhost:3000/reviews/monagadostunnadu-jagartta-1972
+"Vooriki Vupakari",1972,"K. Vasu","Akkineni Nageswara Rao",,vooriki-vupakari-1972,http://localhost:3000/reviews/vooriki-vupakari-1972
+"Beedala Patlu",1972,"Adurthi Subba Rao","Krishna",,beedala-patlu-1972,http://localhost:3000/reviews/beedala-patlu-1972
+"Sabhash Baby?",1972,"K. Vasu","Sobhan Babu",,sabhash-baby-1972,http://localhost:3000/reviews/sabhash-baby-1972
+"Neeti-Nijayiti",1972,"Singham","Akkineni Nageswara Rao",,neeti-nijayiti-1972,http://localhost:3000/reviews/neeti-nijayiti-1972
+"Muhammad Bin Tuglak",1972,"K. Raghavendra Rao","Nagabhushanam",,muhammad-bin-tuglak-1972,http://localhost:3000/reviews/muhammad-bin-tuglak-1972
+"Kodalupilla",1972,"M. Mallikarjuna Rao","Krishna",,kodalupilla-1972,http://localhost:3000/reviews/kodalupilla-1972
+"Kalam Marindi",1972,"K. Vasu","Krishna",,kalam-marindi-1972,http://localhost:3000/reviews/kalam-marindi-1972
+"Vichitra Bandham",1972,"Adurthi Subba Rao","Akkineni Nageswara Rao",,vichitra-bandham-1972,http://localhost:3000/reviews/vichitra-bandham-1972
+"Chinnanati Snehitulu",1971,"K Vasu","N.T. Rama Rao",,chinnanati-snehitulu-1971,http://localhost:3000/reviews/chinnanati-snehitulu-1971
+"Vichithra Kutumbam",1971,"Adeyachenna","N.T. Rama Rao",,vichithra-kutumbam-1971,http://localhost:3000/reviews/vichithra-kutumbam-1971
+"Adrusta Jathakudu",1971,"K. Vasu","Akkineni Nageswara Rao",,adrusta-jathakudu-1971,http://localhost:3000/reviews/adrusta-jathakudu-1971
+"Prema Nagar",1971,"K Vasu","Akkineni Nageswara Rao",,prema-nagar-1971,http://localhost:3000/reviews/prema-nagar-1971
+"James Bond 777",1971,"K.S.R. Das","Krishna",,james-bond-777-1971,http://localhost:3000/reviews/james-bond-777-1971
+"Nenu Manishine",1971,"Adurthi Subba Rao","Krishna",,nenu-manishine-1971,http://localhost:3000/reviews/nenu-manishine-1971
+"Vikramarka Vijayam",1971,"Kamalakara Kameswara Rao","N.T. Rama Rao",,vikramarka-vijayam-1971,http://localhost:3000/reviews/vikramarka-vijayam-1971
+"Amaayakuraalu",1971,"Shakti Samanta","Akkineni Nageswara Rao",,amaayakuraalu-1971,http://localhost:3000/reviews/amaayakuraalu-1971
+"Anuradha",1971,"V. Madhusudhan Rao","Krishna",,anuradha-1971,http://localhost:3000/reviews/anuradha-1971
+"Sampoorna Ramayanam",1971,"Bapu","N.T. Rama Rao",,sampoorna-ramayanam-1971,http://localhost:3000/reviews/sampoorna-ramayanam-1971
+"Bhagyavantudu",1971,"D. Yoganand","Akkineni Nageswara Rao",,bhagyavantudu-1971,http://localhost:3000/reviews/bhagyavantudu-1971
+"Gudachari 003",1971,"A. R. K. Prasad","Krishna",,gudachari-003-1971,http://localhost:3000/reviews/gudachari-003-1971
+"Sati Ansuya",1971,"Kadri Venkata Reddy","Akkineni Nageswara Rao",,sati-ansuya-1971,http://localhost:3000/reviews/sati-ansuya-1971
+"Agni Pariksha",1970,"K. Varaprasada Rao","Krishna",,agni-pariksha-1970,http://localhost:3000/reviews/agni-pariksha-1970
+"Desamante Manushuloyi",1970,"C.S. Rao","N.T. Rama Rao",,desamante-manushuloyi-1970,http://localhost:3000/reviews/desamante-manushuloyi-1970
+"Andarki Monagadu",1970,"M. Mallikarjuna Rao","Krishna",,andarki-monagadu-1970,http://localhost:3000/reviews/andarki-monagadu-1970
+"Paga Sadista",1970,"K. S. R. Das","Krishna",,paga-sadista-1970,http://localhost:3000/reviews/paga-sadista-1970
+"Balaraju Katha",1970,"Bapu","N.T. Rama Rao",,balaraju-katha-1970,http://localhost:3000/reviews/balaraju-katha-1970
+"Chitti Chellelu",1970,"K. Vasu","Akkineni Nageswara Rao",,chitti-chellelu-1970,http://localhost:3000/reviews/chitti-chellelu-1970
+"Akka Chellelu",1970,"A. Sheshagiri Rao","Krishna",,akka-chellelu-1970,http://localhost:3000/reviews/akka-chellelu-1970
+"Pachhani Samsaram",1970,"P. Lakshmi Deepak","Krishna",,pachhani-samsaram-1970,http://localhost:3000/reviews/pachhani-samsaram-1970
+"Pelli Koothuru",1970,"V. Ramachandra Rao","Krishna",,pelli-koothuru-1970,http://localhost:3000/reviews/pelli-koothuru-1970
+"Maayani Mamata",1970,"Kamalakara K. Rao","N.T. Rama Rao",,maayani-mamata-1970,http://localhost:3000/reviews/maayani-mamata-1970
+"Drohi",1970,"Krasna","Krishna",,drohi-1970,http://localhost:3000/reviews/drohi-1970
+"Dharma Daata",1970,"A Sanjeevi","N.T. Rama Rao",,dharma-daata-1970,http://localhost:3000/reviews/dharma-daata-1970
+"Malli Pelli",1970,"Adurthi Subba Rao","Krishna",,malli-pelli-1970,http://localhost:3000/reviews/malli-pelli-1970
+"Oke Kutumbham",1970,"Adurthi Subba Rao","Akkineni Nageswara Rao",,oke-kutumbham-1970,http://localhost:3000/reviews/oke-kutumbham-1970
+"Aatmiyulu",1969,"V. Madhusudhana Rao","Akkineni Nageswara Rao",,aatmiyulu-1969,http://localhost:3000/reviews/aatmiyulu-1969
+"Manishichina Maguva",1969,"K Vasu","N.T. Rama Rao",,manishichina-maguva-1969,http://localhost:3000/reviews/manishichina-maguva-1969
+"Jagath Kiladeelu",1969,"Dasari Narayana Rao","Krishna",,jagath-kiladeelu-1969,http://localhost:3000/reviews/jagath-kiladeelu-1969
+"Annadammulu",1969,"K. Viswanath","Krishna",,annadammulu-1969,http://localhost:3000/reviews/annadammulu-1969
+"Bandipotu Bheemanna",1969,"K. Pratyagatma","Krishna",,bandipotu-bheemanna-1969,http://localhost:3000/reviews/bandipotu-bheemanna-1969
+"Mathru Devata",1969,"Sadhana","N.T. Rama Rao",,mathru-devata-1969,http://localhost:3000/reviews/mathru-devata-1969
+"Karpoora Harathi",1969,"K. Viswanath","Krishna",,karpoora-harathi-1969,http://localhost:3000/reviews/karpoora-harathi-1969
+"Gandaragandudu",1969,"K Hemambharadhara Rao","N.T. Rama Rao",,gandaragandudu-1969,http://localhost:3000/reviews/gandaragandudu-1969
+"Astulu Anthastulu",1969,"K. Viswanath","Krishna",,astulu-anthastulu-1969,http://localhost:3000/reviews/astulu-anthastulu-1969
+"Bangaru Panjaram",1969,"Vehapally Bhanumathi","N.T. Rama Rao",,bangaru-panjaram-1969,http://localhost:3000/reviews/bangaru-panjaram-1969
+"Kathanayakudu",1969,"K Vasu","N.T. Rama Rao",,kathanayakudu-1969,http://localhost:3000/reviews/kathanayakudu-1969
+"Bommalu Cheppina Katha",1969,"K. Viswanath","Krishna",,bommalu-cheppina-katha-1969,http://localhost:3000/reviews/bommalu-cheppina-katha-1969
+"Saptaswaralu",1969,"Vasu Menon","Akkineni Nageswara Rao",,saptaswaralu-1969,http://localhost:3000/reviews/saptaswaralu-1969
+"Ukkupidugu",1969,"Adurthi Subba Rao","N.T. Rama Rao",,ukkupidugu-1969,http://localhost:3000/reviews/ukkupidugu-1969
+"Bhale Abbailu",1969,"K. Viswanath","Krishna",,bhale-abbailu-1969,http://localhost:3000/reviews/bhale-abbailu-1969
+"Manushulu Marali",1969,"V. Ramachandra Rao","N.T. Rama Rao",,manushulu-marali-1969,http://localhost:3000/reviews/manushulu-marali-1969
+"Poovanam",1969,"Bapu","Sobhan Babu",,poovanam-1969,http://localhost:3000/reviews/poovanam-1969
+"Muhrutha Balam",1969,"K. Viswanath","Krishna",,muhrutha-balam-1969,http://localhost:3000/reviews/muhrutha-balam-1969
+"Nadamanthrapu Siri",1968,"T Rama Rao","N.T. Rama Rao",,nadamanthrapu-siri-1968,http://localhost:3000/reviews/nadamanthrapu-siri-1968
+"Devadichina Bharta",1968,"C Pullaiah","N.T. Rama Rao",,devadichina-bharta-1968,http://localhost:3000/reviews/devadichina-bharta-1968
+"Kumkuma Barani",1968,"K Vasu","N.T. Rama Rao",,kumkuma-barani-1968,http://localhost:3000/reviews/kumkuma-barani-1968
+"Panthaalu Pattimpulu",1968,"V. Rao","N.T. Rama Rao",,panthaalu-pattimpulu-1968,http://localhost:3000/reviews/panthaalu-pattimpulu-1968
+"Aggi Meeda Guggilam",1968,"G. Viswanatham","Tadepalli Lakshmi Kanta Rao",,aggi-meeda-guggilam-1968,http://localhost:3000/reviews/aggi-meeda-guggilam-1968
+"Amayakudu",1968,"V. Ramachandra Rao","Krishna",,amayakudu-1968,http://localhost:3000/reviews/amayakudu-1968
+"Attagaru Kotha Kodalu",1968,"Sanjeevi","Krishna",,attagaru-kotha-kodalu-1968,http://localhost:3000/reviews/attagaru-kotha-kodalu-1968

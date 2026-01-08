@@ -11,8 +11,13 @@
  *   pnpm enrich:movies --limit=10         # Limit to 10 movies
  *   pnpm enrich:movies --all              # Re-enrich all movies
  *   pnpm enrich:movies --missing-cast     # Enrich movies WITH tmdb_id but missing hero/heroine/director
+ *   pnpm enrich:movies --missing-genres   # 🆕 Enrich movies missing GENRES (fast fix!)
+ *   pnpm enrich:movies --genres-only      # 🆕 Only update genres, skip other fields
  *   pnpm enrich:movies --store-cast-json  # Save full cast array to cast_json column
  *   pnpm enrich:movies --language=Telugu  # Target specific language (ignores is_published filter)
+ * 
+ * Quick Genre Fix (for 734 movies missing genres):
+ *   npx tsx scripts/enrich-movies-tmdb.ts --missing-genres --limit=800 --language=Telugu
  */
 
 import { config } from 'dotenv';
@@ -99,6 +104,7 @@ interface EnrichmentResult {
 interface EnrichmentOptions {
   dryRun: boolean;
   storeCastJson: boolean;
+  genresOnly: boolean;
 }
 
 /**
@@ -167,60 +173,74 @@ async function enrichMovie(movie: any, options: EnrichmentOptions): Promise<Enri
     // Build update data
     const updates: Record<string, any> = {};
 
-    if (!movie.tmdb_id && tmdbData.id) {
-      updates.tmdb_id = tmdbData.id;
-      result.changes.push('tmdb_id');
-    }
-
-    if (!movie.poster_url && tmdbData.poster_path) {
-      updates.poster_url = `${TMDB_IMAGE_BASE}/w500${tmdbData.poster_path}`;
-      result.changes.push('poster_url');
-    }
-
-    if (!movie.backdrop_url && tmdbData.backdrop_path) {
-      updates.backdrop_url = `${TMDB_IMAGE_BASE}/w1280${tmdbData.backdrop_path}`;
-      result.changes.push('backdrop_url');
-    }
-
-    // Extract director
-    const director = tmdbData.credits?.crew?.find((c: any) => c.job === 'Director');
-    if (!movie.director && director) {
-      updates.director = director.name;
-      result.changes.push('director');
-    }
-
-    // Extract music director
-    const musicDirector = tmdbData.credits?.crew?.find((c: any) => 
-      c.job === 'Original Music Composer' || c.job === 'Music' || c.job === 'Music Director'
-    );
-    if (!movie.music_director && musicDirector) {
-      updates.music_director = musicDirector.name;
-      result.changes.push('music_director');
-    }
-
-    // Extract hero/heroine using gender detection
-    const cast = tmdbData.credits?.cast || [];
-    
-    if (!movie.hero) {
-      const hero = extractHero(cast);
-      if (hero) {
-        updates.hero = hero;
-        result.changes.push('hero');
+    // GENRES-ONLY mode: Only update genres, skip everything else
+    if (options.genresOnly) {
+      if ((!movie.genres || movie.genres.length === 0) && tmdbData.genres) {
+        updates.genres = tmdbData.genres.map((g: any) => g.name);
+        result.changes.push('genres');
       }
-    }
-    
-    if (!movie.heroine) {
-      const heroine = extractHeroine(cast);
-      if (heroine) {
-        updates.heroine = heroine;
-        result.changes.push('heroine');
+      // Also update tmdb_id if missing (useful for future enrichment)
+      if (!movie.tmdb_id && tmdbData.id) {
+        updates.tmdb_id = tmdbData.id;
+        result.changes.push('tmdb_id');
       }
-    }
+    } else {
+      // Full enrichment mode
+      if (!movie.tmdb_id && tmdbData.id) {
+        updates.tmdb_id = tmdbData.id;
+        result.changes.push('tmdb_id');
+      }
 
-    // Genres
-    if ((!movie.genres || movie.genres.length === 0) && tmdbData.genres) {
-      updates.genres = tmdbData.genres.map((g: any) => g.name);
-      result.changes.push('genres');
+      if (!movie.poster_url && tmdbData.poster_path) {
+        updates.poster_url = `${TMDB_IMAGE_BASE}/w500${tmdbData.poster_path}`;
+        result.changes.push('poster_url');
+      }
+
+      if (!movie.backdrop_url && tmdbData.backdrop_path) {
+        updates.backdrop_url = `${TMDB_IMAGE_BASE}/w1280${tmdbData.backdrop_path}`;
+        result.changes.push('backdrop_url');
+      }
+
+      // Extract director
+      const director = tmdbData.credits?.crew?.find((c: any) => c.job === 'Director');
+      if (!movie.director && director) {
+        updates.director = director.name;
+        result.changes.push('director');
+      }
+
+      // Extract music director
+      const musicDirector = tmdbData.credits?.crew?.find((c: any) => 
+        c.job === 'Original Music Composer' || c.job === 'Music' || c.job === 'Music Director'
+      );
+      if (!movie.music_director && musicDirector) {
+        updates.music_director = musicDirector.name;
+        result.changes.push('music_director');
+      }
+
+      // Extract hero/heroine using gender detection
+      const cast = tmdbData.credits?.cast || [];
+      
+      if (!movie.hero) {
+        const hero = extractHero(cast);
+        if (hero) {
+          updates.hero = hero;
+          result.changes.push('hero');
+        }
+      }
+      
+      if (!movie.heroine) {
+        const heroine = extractHeroine(cast);
+        if (heroine) {
+          updates.heroine = heroine;
+            result.changes.push('heroine');
+        }
+      }
+
+      // Genres
+      if ((!movie.genres || movie.genres.length === 0) && tmdbData.genres) {
+        updates.genres = tmdbData.genres.map((g: any) => g.name);
+        result.changes.push('genres');
+      }
     }
 
     // Runtime
@@ -300,6 +320,8 @@ interface CLIArgs {
   limit: number;
   verbose: boolean;
   missingCast: boolean;      // Target movies WITH tmdb_id but missing hero/heroine/director
+  missingGenres: boolean;    // Target movies missing genres (fast fix for 734 movies!)
+  genresOnly: boolean;       // Only update genres, skip other fields
   storeCastJson: boolean;    // Save full cast array to cast_json column
   language?: string;         // Target specific language (e.g., "Telugu")
 }
@@ -314,6 +336,8 @@ function parseArgs(): CLIArgs {
     verbose: args.includes('-v') || args.includes('--verbose'),
     limit: parseInt(args.find(a => a.startsWith('--limit='))?.split('=')[1] || '50'),
     missingCast: args.includes('--missing-cast'),
+    missingGenres: args.includes('--missing-genres'),
+    genresOnly: args.includes('--genres-only'),
     storeCastJson: args.includes('--store-cast-json'),
     language: languageArg?.split('=')[1],
   };
@@ -344,6 +368,12 @@ async function main() {
   if (args.missingCast) {
     console.log(chalk.cyan('🎭 Mode: Enriching movies WITH tmdb_id but missing cast/crew'));
   }
+  if (args.missingGenres) {
+    console.log(chalk.cyan('🏷️  Mode: Enriching movies missing GENRES (fast fix!)'));
+  }
+  if (args.genresOnly) {
+    console.log(chalk.cyan('⚡ Mode: GENRES-ONLY update (skipping other fields)'));
+  }
   if (args.storeCastJson) {
     console.log(chalk.cyan('💾 Storing full cast_json for review generator'));
   }
@@ -367,7 +397,10 @@ async function main() {
   }
 
   // Determine which movies to target
-  if (args.missingCast) {
+  if (args.missingGenres) {
+    // Movies missing genres - fast fix for 734+ movies!
+    query = query.or('genres.is.null,genres.eq.{}');
+  } else if (args.missingCast) {
     // Movies that HAVE tmdb_id but are missing hero OR heroine OR director
     query = query
       .not('tmdb_id', 'is', null)
@@ -397,6 +430,7 @@ async function main() {
   const enrichmentOptions: EnrichmentOptions = {
     dryRun: args.dryRun,
     storeCastJson: args.storeCastJson,
+    genresOnly: args.genresOnly || args.missingGenres, // Automatically enable genresOnly for --missing-genres
   };
 
   let success = 0;

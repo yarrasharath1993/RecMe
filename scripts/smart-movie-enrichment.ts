@@ -361,6 +361,17 @@ async function upsertMovie(
     movie.imdb_rating >= 0 
     ? Math.min(9.9, Math.round(movie.imdb_rating * 10) / 10) : null;
 
+  // IMPORTANT: Preserve existing images - never overwrite manually added images
+  // Only update images if:
+  // 1. The existing movie has no image (null)
+  // 2. The existing image is a placeholder
+  const shouldUpdatePoster = !existing?.poster_url || 
+    existing?.poster_url?.includes('placeholder') ||
+    existing?.poster_url?.includes('via.placeholder');
+  
+  const shouldUpdateBackdrop = !existing?.backdrop_url || 
+    existing?.backdrop_url?.includes('placeholder');
+
   const movieData: Record<string, any> = {
     tmdb_id: movie.tmdb_id,
     title_en: movie.title_en,
@@ -374,10 +385,16 @@ async function upsertMovie(
     heroine: movie.heroine,
     music_director: movie.music_director,
     cast_members: movie.cast_members,
-    poster_url: movie.poster_url,
-    backdrop_url: movie.backdrop_url,
     is_published: movie.is_published,
   };
+
+  // Only update images if they should be updated (existing is null/placeholder)
+  if (shouldUpdatePoster && movie.poster_url) {
+    movieData.poster_url = movie.poster_url;
+  }
+  if (shouldUpdateBackdrop && movie.backdrop_url) {
+    movieData.backdrop_url = movie.backdrop_url;
+  }
 
   // Only include numeric fields if valid
   if (safeRuntime !== null) {

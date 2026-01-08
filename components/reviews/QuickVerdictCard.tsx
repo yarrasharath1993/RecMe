@@ -1,10 +1,24 @@
 'use client';
 
 import { useState } from 'react';
-import { 
-  ThumbsUp, ThumbsDown, Star, ChevronDown, ChevronUp, 
-  Users, Sparkles, Gem, Trophy, Crown, Medal, Flame, Heart, Globe
-} from 'lucide-react';
+import {
+  ThumbsUp,
+  ThumbsDown,
+  Star,
+  ChevronDown,
+  ChevronUp,
+  Users,
+  Sparkles,
+  Trophy,
+  Flame,
+  Globe,
+} from "lucide-react";
+import {
+  getWatchRecommendation,
+  getWatchLabel,
+  getWatchStyle,
+  type WatchRecommendation,
+} from "@/lib/ratings/editorial-rating";
 
 interface QuickVerdictProps {
   whyWatch?: {
@@ -34,90 +48,37 @@ interface QuickVerdictProps {
     legacy_status?: string;
     cult_status?: boolean;
   };
+  isClassic?: boolean;
   compact?: boolean;
 }
 
-// Category styling with unique icons and colors
-const categoryStyles: Record<
-  string,
-  {
-    icon: React.ReactNode;
-    bg: string;
-    text: string;
-    border: string;
-    glow: string;
-    label: string;
-  }
-> = {
-  masterpiece: {
-    icon: <Crown className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-yellow-400 to-amber-500",
-    text: "text-black",
-    border: "border-yellow-400/50",
-    glow: "shadow-yellow-500/20",
-    label: "🏆 MASTERPIECE",
-  },
-  "must-watch": {
-    icon: <Sparkles className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-amber-500 to-yellow-500",
-    text: "text-black",
-    border: "border-amber-400/50",
-    glow: "shadow-amber-500/20",
-    label: "👑 MUST WATCH",
-  },
-  "mass-classic": {
-    icon: <Gem className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-purple-600 to-pink-600",
-    text: "text-[var(--text-primary)]",
-    border: "border-purple-500/50",
-    glow: "shadow-purple-500/20",
-    label: "💎 MASS CLASSIC",
-  },
-  "highly-recommended": {
-    icon: <Star className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-blue-500 to-cyan-500",
-    text: "text-[var(--text-primary)]",
-    border: "border-blue-400/50",
-    glow: "shadow-blue-500/20",
-    label: "⭐ HIGHLY RECOMMENDED",
-  },
-  recommended: {
-    icon: <Medal className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-sky-500 to-blue-500",
-    text: "text-[var(--text-primary)]",
-    border: "border-sky-400/50",
-    glow: "shadow-sky-500/20",
-    label: "🎖️ RECOMMENDED",
-  },
-  watchable: {
-    icon: <Star className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-gray-500 to-gray-600",
-    text: "text-[var(--text-primary)]",
-    border: "border-gray-500/50",
-    glow: "shadow-gray-500/20",
-    label: "📺 WATCHABLE",
-  },
-  "one-time-watch": {
-    icon: <Star className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-gray-600 to-gray-700",
-    text: "text-[var(--text-primary)]",
-    border: "border-gray-600/50",
-    glow: "shadow-gray-600/20",
-    label: "📽️ ONE-TIME WATCH",
-  },
-  "hidden-gem": {
-    icon: <Heart className="w-4 h-4" />,
-    bg: "bg-gradient-to-r from-emerald-500 to-teal-500",
-    text: "text-[var(--text-primary)]",
-    border: "border-emerald-400/50",
-    glow: "shadow-emerald-500/20",
-    label: "💚 HIDDEN GEM",
-  },
-};
+// Get dynamic style based on rating
+const getStyleFromRating = (
+  rating: number,
+  isClassic?: boolean,
+  isCult?: boolean
+) => {
+  const recommendation = getWatchRecommendation(rating, isClassic, isCult);
+  const style = getWatchStyle(recommendation);
+  const label = getWatchLabel(recommendation);
 
-const getStyle = (category?: string) => {
-  const normalized = category?.toLowerCase().replace(/\s+/g, "-") || "";
-  return categoryStyles[normalized] || categoryStyles["recommended"];
+  // Glow effect mapping
+  const glowMap: Record<WatchRecommendation, string> = {
+    masterpiece: "shadow-yellow-500/20",
+    "must-watch": "shadow-amber-500/20",
+    "highly-recommended": "shadow-emerald-500/20",
+    recommended: "shadow-blue-500/20",
+    "worth-watching": "shadow-sky-500/20",
+    "one-time-watch": "shadow-gray-500/20",
+    skip: "shadow-red-500/20",
+  };
+
+  return {
+    ...style,
+    glow: glowMap[recommendation],
+    label: `${style.icon} ${label}`,
+    recommendation,
+  };
 };
 
 export function QuickVerdictCard({
@@ -127,6 +88,7 @@ export function QuickVerdictCard({
   qualityScore,
   awards,
   culturalHighlights,
+  isClassic,
   compact = false,
 }: QuickVerdictProps) {
   const [showSkip, setShowSkip] = useState(false);
@@ -135,7 +97,7 @@ export function QuickVerdictCard({
 
   const hasWatchReasons = whyWatch?.reasons && whyWatch.reasons.length > 0;
   const hasSkipReasons = whySkip?.reasons && whySkip.reasons.length > 0;
-  const hasVerdict = verdict?.en || verdict?.category;
+  const hasVerdict = verdict?.en || verdict?.final_rating;
 
   // Helper to extract award text (handles both string and {award, winner} objects)
   const getAwardText = (
@@ -173,7 +135,11 @@ export function QuickVerdictCard({
   if (!hasWatchReasons && !hasVerdict && !hasAwards && !hasCulturalHighlights)
     return null;
 
-  const style = getStyle(verdict?.category);
+  // Get style based on actual rating (not category string)
+  const rating = verdict?.final_rating || 6.0;
+  const isCult = verdict?.cult || culturalHighlights?.cult_status;
+  const style = getStyleFromRating(rating, isClassic, isCult);
+
   const visibleReasons = showAllReasons
     ? whyWatch?.reasons
     : whyWatch?.reasons?.slice(0, 3);
@@ -192,26 +158,27 @@ export function QuickVerdictCard({
           onClick={() => setIsExpanded(!isExpanded)}
           className="w-full px-3 py-2.5 flex items-center justify-between"
         >
-          <div className="flex items-center gap-2">
-            {hasVerdict && (
-              <div
-                className={`flex items-center gap-1.5 px-2 py-1 rounded-md ${style.bg} ${style.text}`}
-              >
-                {style.icon}
-                <span className="text-[10px] font-bold">
-                  {verdict?.category?.toUpperCase()}
-                </span>
-              </div>
-            )}
-            {verdict?.final_rating && (
-              <div className="flex items-center gap-1 px-1.5 py-0.5 bg-yellow-500/20 rounded">
-                <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                <span className="text-yellow-400 font-bold text-xs">
-                  {verdict.final_rating}
-                </span>
-              </div>
-            )}
-          </div>
+          {/* Compact: Single unified badge */}
+          {hasVerdict && (
+            <div
+              className={`inline-flex items-center gap-2 px-2.5 py-1 rounded-lg ${style.bg} ${style.text} font-semibold`}
+            >
+              <span className="text-[11px] font-bold tracking-wide">
+                {style.label}
+              </span>
+              {verdict?.final_rating && (
+                <>
+                  <span className="opacity-50 text-xs">|</span>
+                  <div className="flex items-center gap-0.5">
+                    <Star className="w-3 h-3 fill-current" />
+                    <span className="text-[11px] font-bold">
+                      {verdict.final_rating}
+                    </span>
+                  </div>
+                </>
+              )}
+            </div>
+          )}
           <div className="flex items-center gap-1.5 text-[var(--text-secondary)] text-xs">
             <span>{isExpanded ? "Hide" : "Details"}</span>
             <ChevronDown
@@ -234,7 +201,7 @@ export function QuickVerdictCard({
             {/* Why Skip in compact */}
             {hasSkipReasons && (
               <div className="pt-2 border-t border-[var(--border-primary)]/50">
-                <h4 className="text-orange-400 text-xs font-semibold mb-1.5 flex items-center gap-1.5">
+                <h4 className="text-[var(--accent-orange)] text-xs font-semibold mb-1.5 flex items-center gap-1.5">
                   <ThumbsDown className="w-3 h-3" />
                   Consider
                 </h4>
@@ -244,7 +211,7 @@ export function QuickVerdictCard({
                       key={i}
                       className="text-[var(--text-secondary)] text-xs flex items-start gap-1.5"
                     >
-                      <span className="text-orange-400">⚠</span>
+                      <span className="text-[var(--accent-orange)]">⚠</span>
                       <span className="line-clamp-1">{reason}</span>
                     </li>
                   ))}
@@ -258,7 +225,7 @@ export function QuickVerdictCard({
                 {allAwards.slice(0, 3).map((item, i) => (
                   <span
                     key={i}
-                    className="text-[10px] px-2 py-0.5 bg-yellow-500/20 text-yellow-600 dark:text-yellow-300 rounded-full border border-yellow-500/30"
+                    className="text-[10px] px-2 py-0.5 bg-[var(--accent-warning-muted)] text-[var(--accent-warning)] rounded-full border border-[var(--accent-warning)]/30"
                   >
                     🏆{" "}
                     {item.award.length > 20
@@ -281,7 +248,7 @@ export function QuickVerdictCard({
         background: `linear-gradient(to bottom right, var(--bg-card-gradient-start), var(--bg-card-gradient-end))`,
       }}
     >
-      {/* Header with Verdict Badge */}
+      {/* Header - Single unified recommendation + rating badge */}
       {hasVerdict && (
         <div
           className="p-4 border-b border-[var(--border-primary)]/50"
@@ -289,30 +256,23 @@ export function QuickVerdictCard({
             background: `linear-gradient(to right, var(--bg-card-accent), transparent)`,
           }}
         >
-          <div className="flex items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <div
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg ${style.bg} ${style.text} shadow-lg`}
-              >
-                {style.icon}
-                <span className="text-xs font-bold tracking-wide">
-                  {style.label}
-                </span>
-              </div>
-              {verdict?.cult && (
-                <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-red-600 to-orange-600 text-[var(--text-primary)] shadow-lg">
-                  <Flame className="w-3.5 h-3.5" />
-                  <span className="text-xs font-bold">CULT</span>
-                </div>
-              )}
-            </div>
+          {/* Single combined badge: Recommendation + Rating */}
+          <div
+            className={`inline-flex items-center gap-3 px-4 py-2 rounded-xl ${style.bg} ${style.text} shadow-lg`}
+          >
+            <span className="text-sm font-bold tracking-wide">
+              {style.label}
+            </span>
             {verdict?.final_rating && (
-              <div className="flex items-center gap-1.5 px-2 py-1 bg-yellow-500/20 rounded-lg">
-                <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                <span className="text-yellow-400 font-bold text-sm">
-                  {verdict.final_rating}/10
-                </span>
-              </div>
+              <>
+                <span className="opacity-50">|</span>
+                <div className="flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-current" />
+                  <span className="font-bold">
+                    {verdict.final_rating}/10
+                  </span>
+                </div>
+              </>
             )}
           </div>
           {verdict?.en && (
@@ -326,8 +286,8 @@ export function QuickVerdictCard({
       {/* Why Watch - Full content, no cropping */}
       {hasWatchReasons && (
         <div className="p-4">
-          <h4 className="flex items-center gap-2 text-emerald-400 font-semibold text-sm mb-3">
-            <div className="p-1 rounded bg-emerald-500/20">
+          <h4 className="flex items-center gap-2 text-[var(--accent-success)] font-semibold text-sm mb-3">
+            <div className="p-1 rounded bg-[var(--accent-success-muted)]">
               <ThumbsUp className="w-3.5 h-3.5" />
             </div>
             Why You Should Watch
@@ -338,7 +298,7 @@ export function QuickVerdictCard({
                 key={i}
                 className="text-[var(--text-secondary)] text-sm flex items-start gap-2.5 leading-relaxed"
               >
-                <span className="text-emerald-400 mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-[var(--accent-success)] mt-0.5 flex-shrink-0">✓</span>
                 <span>{reason}</span>
               </li>
             ))}
@@ -348,7 +308,7 @@ export function QuickVerdictCard({
           {hasMoreReasons && (
             <button
               onClick={() => setShowAllReasons(!showAllReasons)}
-              className="mt-2 text-emerald-400 hover:text-emerald-300 text-xs font-medium flex items-center gap-1 transition-colors"
+              className="mt-2 text-[var(--accent-success)] hover:opacity-80 text-xs font-medium flex items-center gap-1 transition-colors"
             >
               {showAllReasons
                 ? "Show less"
@@ -374,7 +334,7 @@ export function QuickVerdictCard({
                 {whyWatch.best_for.map((tag, i) => (
                   <span
                     key={i}
-                    className="text-xs px-2.5 py-1 bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 rounded-full border border-emerald-500/30"
+                    className="text-xs px-2.5 py-1 bg-[var(--accent-success-muted)] text-[var(--accent-success)] rounded-full border border-[var(--accent-success)]/30"
                   >
                     {tag}
                   </span>
@@ -387,7 +347,7 @@ export function QuickVerdictCard({
           {hasAwards && (
             <div className="mt-4 pt-3 border-t border-[var(--border-primary)]/50">
               <div className="flex items-center gap-2 mb-2">
-                <Trophy className="w-3.5 h-3.5 text-yellow-500" />
+                <Trophy className="w-3.5 h-3.5 text-[var(--accent-warning)]" />
                 <span className="text-[var(--text-tertiary)] text-xs uppercase tracking-wide">
                   Awards
                 </span>
@@ -396,13 +356,13 @@ export function QuickVerdictCard({
                 {allAwards.slice(0, 5).map((item, i) => (
                   <span
                     key={i}
-                    className="text-xs px-2.5 py-1 bg-amber-500/15 text-amber-700 dark:text-amber-300 rounded-full border border-amber-500/30"
+                    className="text-xs px-2.5 py-1 bg-[var(--accent-warning-muted)] text-[var(--accent-warning)] rounded-full border border-[var(--accent-warning)]/30"
                   >
                     🏆 {item.award}
                   </span>
                 ))}
                 {allAwards.length > 5 && (
-                  <span className="text-xs px-2.5 py-1 text-yellow-400">
+                  <span className="text-xs px-2.5 py-1 text-[var(--accent-warning)]">
                     +{allAwards.length - 5} more
                   </span>
                 )}
@@ -414,19 +374,19 @@ export function QuickVerdictCard({
           {hasCulturalHighlights && (
             <div className="mt-4 pt-3 border-t border-[var(--border-primary)]/50">
               <div className="flex items-center gap-2 mb-2">
-                <Globe className="w-3.5 h-3.5 text-purple-400" />
+                <Globe className="w-3.5 h-3.5 text-[var(--accent-purple)]" />
                 <span className="text-[var(--text-tertiary)] text-xs uppercase tracking-wide">
                   Legacy
                 </span>
               </div>
               <div className="flex flex-wrap gap-1.5">
                 {culturalHighlights?.legacy_status && (
-                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-purple-600 to-pink-600 text-[var(--text-primary)] rounded-full font-medium shadow-lg">
+                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-medium shadow-lg">
                     {culturalHighlights.legacy_status}
                   </span>
                 )}
                 {culturalHighlights?.cult_status && (
-                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-red-600 to-orange-600 text-[var(--text-primary)] rounded-full font-medium shadow-lg flex items-center gap-1">
+                  <span className="text-xs px-2.5 py-1.5 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-full font-medium shadow-lg flex items-center gap-1">
                     <Flame className="w-3 h-3" />
                     Cult Classic
                   </span>
@@ -445,8 +405,8 @@ export function QuickVerdictCard({
             className="w-full px-4 py-3 flex items-center justify-between text-[var(--text-tertiary)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-secondary)]/30 transition-all"
           >
             <span className="flex items-center gap-2 text-sm">
-              <div className="p-1 rounded bg-orange-500/10">
-                <ThumbsDown className="w-3.5 h-3.5 text-orange-400" />
+              <div className="p-1 rounded bg-[var(--accent-orange-muted)]">
+                <ThumbsDown className="w-3.5 h-3.5 text-[var(--accent-orange)]" />
               </div>
               <span className="text-[var(--text-secondary)]">
                 Things to consider
@@ -467,7 +427,7 @@ export function QuickVerdictCard({
                     key={i}
                     className="text-[var(--text-secondary)] text-sm flex items-start gap-2.5 leading-relaxed"
                   >
-                    <span className="text-orange-400 mt-0.5 flex-shrink-0">
+                    <span className="text-[var(--accent-orange)] mt-0.5 flex-shrink-0">
                       ⚠
                     </span>
                     <span>{reason}</span>
@@ -487,7 +447,7 @@ export function QuickVerdictCard({
             background: `linear-gradient(to right, var(--bg-card-accent), var(--bg-secondary))`,
           }}
         >
-          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+          <Sparkles className="w-3.5 h-3.5 text-[var(--accent-warning)]" />
           <span className="text-[var(--text-tertiary)]">
             AI-Enhanced Editorial Review
           </span>

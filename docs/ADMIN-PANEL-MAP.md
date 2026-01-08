@@ -1,7 +1,7 @@
 # Admin Panel Architecture Map
 
-## Version: 1.0
-## Last Updated: January 2026
+## Version: 2.0
+## Last Updated: January 7, 2026
 
 ---
 
@@ -58,6 +58,8 @@ The TeluguVibes Admin Panel provides management interfaces for:
 | Route                      | Panel Name           | Status  | Purpose                          |
 |----------------------------|----------------------|---------|----------------------------------|
 | `/admin/intelligence`      | Intelligence Hub     | Active  | AI insights dashboard            |
+| `/admin/data-intelligence` | Data Intelligence    | Active  | Unified data ops dashboard       |
+| `/admin/visual-intelligence` | Visual Intelligence | Active | Visual & image analysis         |
 | `/admin/trend-fusion`      | Trend Fusion         | Active  | Trending content analysis        |
 | `/admin/knowledge-graph`   | Knowledge Graph      | Active  | Entity relationships             |
 | `/admin/historic-intelligence` | Historic Analysis | Active | Historical data insights         |
@@ -196,6 +198,58 @@ The TeluguVibes Admin Panel provides management interfaces for:
 
 ---
 
+### 3.7 Data Intelligence Dashboard (`/admin/data-intelligence`)
+
+**Purpose**: Unified data operations command center
+
+**Features**:
+- 15+ data source management with compliance status
+- 9-section review editor
+- Pipeline monitoring and control
+- Bulk operations
+- Data verification
+- Pending reviews queue
+
+**Tabs**:
+1. **📊 Overview** - Quick search, movie actions, stats
+2. **⏳ Pending Reviews** - Movies without reviews, batch generation
+3. **🔌 Sources** - Enable/disable data sources, compliance badges
+4. **✏️ Editor** - 9-section review editor for selected movie
+5. **⚡ Pipeline** - Start/stop enrichment pipelines, progress monitoring
+6. **📦 Bulk** - Batch enrich, verify, or generate reviews
+7. **✅ Verify** - Cross-reference data with multiple sources
+
+**Actions**:
+- Force enrich single/batch movies
+- Generate reviews (Template or AI)
+- Run data verification
+- Start/stop enrichment pipelines
+- Bulk operations on selected movies
+
+**APIs Used**:
+- `/api/movies/search` - Movie search
+- `/api/admin/movies/[id]/enrich` - Force enrichment
+- `/api/admin/reviews/[id]/regenerate` - Review generation
+- `/api/admin/verification/[movieId]` - Data verification
+- `/api/admin/bulk` - Bulk operations
+- `/api/admin/pipeline` - Pipeline control
+- `/api/admin/pending-reviews` - Pending reviews list
+
+---
+
+### 3.8 Visual Intelligence (`/admin/visual-intelligence`)
+
+**Purpose**: Visual asset and image quality management
+
+**Features**:
+- Poster confidence scoring
+- Image source tracking
+- Visual quality tiers
+- Archive card data
+- Curation tools
+
+---
+
 ## 4. Route → Feature Matrix
 
 | Feature                | Primary Route           | Secondary Routes        |
@@ -239,6 +293,21 @@ The TeluguVibes Admin Panel provides management interfaces for:
 | `/api/admin/trends`                   | GET    | Trend data               |
 | `/api/admin/knowledge-graph`          | GET    | Entity graph data        |
 
+### 5.4 Data Intelligence APIs
+
+| Endpoint                              | Method | Purpose                  |
+|---------------------------------------|--------|--------------------------|
+| `/api/movies/search`                  | GET    | Movie search by title    |
+| `/api/admin/movies/[id]`              | GET    | Get movie details        |
+| `/api/admin/movies/[id]`              | PUT    | Update movie             |
+| `/api/admin/movies/[id]/enrich`       | POST   | Force enrich movie       |
+| `/api/admin/reviews/[id]/regenerate`  | POST   | Regenerate review        |
+| `/api/admin/verification/[movieId]`   | POST   | Run data verification    |
+| `/api/admin/pending-reviews`          | GET    | Movies without reviews   |
+| `/api/admin/bulk`                     | POST   | Batch operations         |
+| `/api/admin/pipeline`                 | GET    | Pipeline status          |
+| `/api/admin/pipeline`                 | POST   | Start/stop pipeline      |
+
 ---
 
 ## 6. Access Control
@@ -277,30 +346,24 @@ The TeluguVibes Admin Panel provides management interfaces for:
 
 ```
 Dashboard
-├── Content
-│   ├── Posts
-│   ├── Drafts
-│   └── Editorial
-├── Movies
-│   ├── Catalogue
-│   ├── Reviews
-│   └── Coverage
-├── Celebrities
-│   ├── Directory
-│   ├── Calendar
-│   └── Dedications
-├── Intelligence
-│   ├── Trends
-│   ├── Knowledge Graph
-│   └── Observatory
-├── Media
-│   ├── Library
-│   ├── Hot Media
-│   └── Image AI
-└── Tools
-    ├── Content Manager
-    └── Games
+├── System Core
+│   ├── Dashboard
+│   ├── Content Intelligence
+│   ├── Movie Control Center
+│   ├── Movie Reviews
+│   ├── Review Coverage
+│   ├── Visual Intelligence
+│   ├── Data Intelligence ← NEW
+│   ├── Entity Integrity Graph
+│   └── System Observatory
+├── Operations
+│   ├── Editorial Oversight
+│   ├── Content Manager
+│   └── Draft Quarantine
+└── Settings
 ```
+
+**Note**: Data Intelligence Dashboard combines multiple admin functions into one unified interface.
 
 ---
 
@@ -333,14 +396,35 @@ Dashboard
 
 ## 10. Code Locations
 
-| Component         | Path                                   |
-|-------------------|----------------------------------------|
-| Admin Layout      | `app/admin/layout.tsx`                 |
-| Dashboard         | `app/admin/page.tsx`                   |
-| Movie Catalogue   | `app/admin/movie-catalogue/page.tsx`   |
-| Reviews Coverage  | `app/admin/reviews-coverage/page.tsx`  |
-| Knowledge Graph   | `app/admin/knowledge-graph/page.tsx`   |
-| Trend Fusion      | `app/admin/trend-fusion/page.tsx`      |
+| Component            | Path                                        |
+|----------------------|---------------------------------------------|
+| Admin Layout         | `app/admin/layout.tsx`                      |
+| Dashboard            | `app/admin/page.tsx`                        |
+| Movie Catalogue      | `app/admin/movie-catalogue/page.tsx`        |
+| Reviews Coverage     | `app/admin/reviews-coverage/page.tsx`       |
+| Knowledge Graph      | `app/admin/knowledge-graph/page.tsx`        |
+| Trend Fusion         | `app/admin/trend-fusion/page.tsx`           |
+| Data Intelligence    | `app/admin/data-intelligence/page.tsx`      |
+| Visual Intelligence  | `app/admin/visual-intelligence/page.tsx`    |
+
+### Admin Components
+
+| Component         | Path                                        |
+|-------------------|---------------------------------------------|
+| SourceSelector    | `components/admin/SourceSelector.tsx`       |
+| CompliancePanel   | `components/admin/CompliancePanel.tsx`      |
+| SectionEditor     | `components/admin/SectionEditor.tsx`        |
+| PipelineMonitor   | `components/admin/PipelineMonitor.tsx`      |
+
+### Compliance Library
+
+| Module                 | Path                                      |
+|------------------------|-------------------------------------------|
+| SafeFetcher            | `lib/compliance/safe-fetcher.ts`          |
+| ComplianceValidator    | `lib/compliance/compliance-validator.ts`  |
+| DataReviewer           | `lib/compliance/data-reviewer.ts`         |
+| AttributionGenerator   | `lib/compliance/attribution-generator.ts` |
+| Types                  | `lib/compliance/types.ts`                 |
 
 ---
 

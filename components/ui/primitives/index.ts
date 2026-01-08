@@ -1,22 +1,37 @@
 /**
  * UI Primitives
  * 
- * Foundational, stateless building blocks for the design system.
- * These components are theme-aware and use design tokens.
- * 
- * @example
- * import { Button, Text, Badge } from '@/components/ui/primitives';
+ * A collection of accessible, token-driven UI components.
+ * These components form the foundation of the design system.
  */
 
-// Button
+// Layout
+export { Stack, HStack, VStack, StackDivider } from './Stack';
+export type { StackProps, HStackProps, VStackProps, StackDividerProps } from './Stack';
+
+export { Grid, GridItem } from './Grid';
+export type { GridProps, GridItemProps } from './Grid';
+
+// Form Elements
 export { Button, IconButton } from './Button';
-export type { ButtonProps, ButtonVariant, ButtonSize, IconButtonProps } from './Button';
+export type { ButtonProps, IconButtonProps, ButtonVariant, ButtonSize } from './Button';
 
-// Text/Typography
-export { Text, Heading, Paragraph, Caption, Label } from './Text';
-export type { TextProps, TextColor, TextWeight, TextAlign } from './Text';
+export { Input, Textarea } from './Input';
+export type { InputProps, TextareaProps, InputSize, InputVariant } from './Input';
 
-// Badge
-export { Badge, StatusDot, StatusBadge } from './Badge';
-export type { BadgeProps, BadgeVariant, BadgeSize, BadgeGradient, StatusDotProps, StatusBadgeProps } from './Badge';
+export { Select } from './Select';
+export type { SelectProps, SelectOption, SelectSize } from './Select';
 
+// Content
+export { default as Card, CardHeader, CardBody, CardFooter } from './Card';
+export type { CardProps, CardVariant, CardPadding, CardElevation, CardRadius } from './Card';
+
+export { default as Modal, ModalHeader, ModalBody, ModalFooter } from './Modal';
+export type { ModalProps, ModalSize } from './Modal';
+
+export { Alert } from './Alert';
+export type { AlertProps, AlertSeverity, AlertVariant } from './Alert';
+
+// Existing
+export { Badge } from './Badge';
+export { Text } from './Text';

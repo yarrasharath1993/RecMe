@@ -4,6 +4,7 @@
  * Auto-generates data-driven sections for the Reviews landing page.
  * Uses existing movie data, ratings, and learning engine.
  * ZERO manual curation - all sections are dynamically computed.
+ * Updated: Now includes our_rating for editorial rating sync.
  * 
  * Sections:
  * 1. Recently Released (last 30-60 days)
@@ -34,6 +35,7 @@ export interface MovieCard {
   hero?: string;
   heroine?: string;
   avg_rating: number;
+  our_rating?: number; // Editorial rating - prioritize over avg_rating
   total_reviews: number;
   is_classic?: boolean;
   is_blockbuster?: boolean;
@@ -129,13 +131,13 @@ export async function getRecentlyReleased(config: SectionConfig = DEFAULT_CONFIG
   // Get movies that have already been released
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language) // ✅ FILTER BY LANGUAGE
     .or(`release_date.lte.${today},and(release_date.is.null,release_year.lte.${currentYear - 1})`)
     .gte('release_year', currentYear - 2)
     .order('release_year', { ascending: false })
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(config.maxMoviesPerSection.hero); // ✅ Hero section
 
   return {
@@ -201,11 +203,11 @@ export async function getTrending(config: SectionConfig = DEFAULT_CONFIG): Promi
   // Get popular movies sorted by rating and reviews
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language) // ✅ FILTER BY LANGUAGE
-    .not('avg_rating', 'is', null)
-    .order('avg_rating', { ascending: false })
+    .not('our_rating', 'is', null)
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .order('total_reviews', { ascending: false })
     .limit(config.maxMoviesPerSection.hero); // ✅ Hero section
 
@@ -232,7 +234,7 @@ export async function getClassics(config: SectionConfig = DEFAULT_CONFIG): Promi
   // Get movies tagged as classics
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, is_classic')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews, is_classic')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_classic', true)
@@ -261,11 +263,11 @@ export async function getBlockbusters(config: SectionConfig = DEFAULT_CONFIG): P
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_blockbuster', true)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(config.maxMoviesPerSection.standard); // ✅ Standard section
 
   return {
@@ -290,11 +292,11 @@ export async function getHiddenGems(config: SectionConfig = DEFAULT_CONFIG): Pro
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
     .eq('is_underrated', true)
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(config.maxMoviesPerSection.standard); // ✅ Standard section
 
   return {
@@ -319,7 +321,7 @@ export async function getCultClassics(config: SectionConfig = DEFAULT_CONFIG): P
 
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews, tags')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews, tags')
     .eq('is_published', true)
     .eq('language', language)
     .contains('tags', ['cult-classic'])
@@ -352,11 +354,11 @@ export async function getTop10(
   
   let query = supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null)
-    .gte('avg_rating', 7.0);
+    .not('our_rating', 'is', null)
+    .gte('our_rating', 7.0);
   
   // Apply timeframe filters
   if (timeframe === 'decade') {
@@ -366,7 +368,7 @@ export async function getTop10(
   }
   
   const { data: movies } = await query
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .order('total_reviews', { ascending: false })
     .limit(10);
   
@@ -396,12 +398,12 @@ export async function getMostRecommended(config: SectionConfig = DEFAULT_CONFIG)
   // Get a mix of highly rated classics and modern hits
   const { data: movies } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .eq('language', language)
-    .not('avg_rating', 'is', null)
-    .gte('avg_rating', 7)
-    .order('avg_rating', { ascending: false })
+    .not('our_rating', 'is', null)
+    .gte('our_rating', 7)
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(config.maxMoviesPerSection.hero * 2); // ✅ Fetch double for shuffling
 
   // Shuffle to create rotation effect
@@ -444,11 +446,11 @@ export async function getGenreSections(config: SectionConfig = DEFAULT_CONFIG): 
   for (const { genre, title, title_te, icon } of PRIORITY_GENRES) {
     const { data: movies } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
       .eq('is_published', true)
       .eq('language', language)
       .contains('genres', [genre])
-      .order('avg_rating', { ascending: false })
+      .order('our_rating', { ascending: false, nullsFirst: false })
       .limit(config.maxMoviesPerSection.genre); // ✅ Genre section
 
     if ((movies?.length || 0) >= 1) {
@@ -557,11 +559,11 @@ export async function getSpotlightSections(config: SectionConfig = DEFAULT_CONFI
     // Get top movies for display
     const { data: movies } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
       .eq('is_published', true)
       .eq('language', language)
       .eq(field, actor.name)
-      .order('avg_rating', { ascending: false, nullsFirst: false })
+      .order('our_rating', { ascending: false, nullsFirst: false })
       .limit(config.maxMoviesPerSection.spotlight);
 
     // Smart rating calculation:
@@ -841,11 +843,11 @@ async function getTopSpotlights(config: SectionConfig, limit: number = 6): Promi
     // Get top 6 movies for this hero
     const { data: movies } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, genres, avg_rating')
+      .select('id, title_en, title_te, slug, poster_url, release_year, genres, avg_rating, our_rating')
       .eq('is_published', true)
       .eq('language', language)
       .eq('hero', heroName)
-      .order('avg_rating', { ascending: false, nullsFirst: false })
+      .order('our_rating', { ascending: false, nullsFirst: false })
       .limit(6);
 
     const celeb = celebMap.get(heroName.toLowerCase());
@@ -1055,11 +1057,11 @@ export async function getMovieContextSections(movieId: string): Promise<{
   // Similar movies (same genre + high rating)
   const { data: similar } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .neq('id', movieId)
     .overlaps('genres', movie.genres || [])
-    .order('avg_rating', { ascending: false })
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(6);
 
   // Same actor movies
@@ -1067,11 +1069,11 @@ export async function getMovieContextSections(movieId: string): Promise<{
   if (movie.hero) {
     const { data } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
       .eq('is_published', true)
       .eq('hero', movie.hero)
       .neq('id', movieId)
-      .order('avg_rating', { ascending: false })
+      .order('our_rating', { ascending: false, nullsFirst: false })
       .limit(6);
     sameActorMovies = (data || []).map(mapToMovieCard);
   }
@@ -1081,11 +1083,11 @@ export async function getMovieContextSections(movieId: string): Promise<{
   if (movie.director) {
     const { data } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+      .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
       .eq('is_published', true)
       .eq('director', movie.director)
       .neq('id', movieId)
-      .order('avg_rating', { ascending: false })
+      .order('our_rating', { ascending: false, nullsFirst: false })
       .limit(6);
     sameDirectorMovies = (data || []).map(mapToMovieCard);
   }
@@ -1093,13 +1095,13 @@ export async function getMovieContextSections(movieId: string): Promise<{
   // Related classics (same genre, older, high-rated)
   const { data: classics } = await supabase
     .from('movies')
-    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, total_reviews')
+    .select('id, title_en, title_te, slug, poster_url, release_year, release_date, genres, director, hero, heroine, avg_rating, our_rating, total_reviews')
     .eq('is_published', true)
     .neq('id', movieId)
     .overlaps('genres', movie.genres || [])
     .lte('release_year', 2000)
-    .gte('avg_rating', 7.5)
-    .order('avg_rating', { ascending: false })
+    .gte('our_rating', 7.5)
+    .order('our_rating', { ascending: false, nullsFirst: false })
     .limit(6);
 
   return {
@@ -1128,6 +1130,7 @@ interface RawMovie {
   hero?: string;
   heroine?: string;
   avg_rating?: number;
+  our_rating?: number;
   total_reviews?: number;
   is_classic?: boolean;
   is_blockbuster?: boolean;
@@ -1149,6 +1152,7 @@ function mapToMovieCard(movie: RawMovie): MovieCard {
     hero: movie.hero,
     heroine: movie.heroine,
     avg_rating: movie.avg_rating || 0,
+    our_rating: movie.our_rating, // Editorial rating
     total_reviews: movie.total_reviews || 0,
     is_classic: movie.is_classic,
     is_blockbuster: movie.is_blockbuster,

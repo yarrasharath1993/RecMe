@@ -8,6 +8,22 @@ export interface MovieWithReleaseInfo {
 }
 
 /**
+ * Check if a movie should hide its rating
+ * Returns true for:
+ * - Upcoming movies (not yet released)
+ * - Movies with no release year (incomplete data)
+ */
+export function shouldHideRating(movie: MovieWithReleaseInfo): boolean {
+  // No release year at all = incomplete data, hide rating
+  if (!movie.release_year) {
+    return true;
+  }
+  
+  // Check if upcoming
+  return isMovieUpcoming(movie);
+}
+
+/**
  * Check if a movie is upcoming (not yet released)
  */
 export function isMovieUpcoming(movie: MovieWithReleaseInfo): boolean {

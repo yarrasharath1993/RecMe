@@ -36,7 +36,8 @@ export default function PostsPage() {
       const res = await fetch('/api/admin/posts');
       if (res.ok) {
         const data = await res.json();
-        setPosts(data.posts || []);
+        // API returns data.data, not data.posts
+        setPosts(data.data || data.posts || []);
       }
     } catch (error) {
       console.error('Failed to fetch posts:', error);
@@ -140,8 +141,8 @@ export default function PostsPage() {
                     <div className="text-xs text-[#737373] mt-1">{post.slug}</div>
                   </td>
                   <td className="px-6 py-4">
-                    <span className={`${categoryColors[post.category]} px-2 py-1 rounded text-xs font-bold text-white`}>
-                      {categoryLabels[post.category]}
+                    <span className={`${categoryColors[post.category] || 'bg-gray-500'} px-2 py-1 rounded text-xs font-bold text-white`}>
+                      {categoryLabels[post.category] || post.category || 'Unknown'}
                     </span>
                   </td>
                   <td className="px-6 py-4">
@@ -154,7 +155,7 @@ export default function PostsPage() {
                     </span>
                   </td>
                   <td className="px-6 py-4 text-[#737373]">
-                    {post.views.toLocaleString()}
+                    {(post.views || 0).toLocaleString()}
                   </td>
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-2">

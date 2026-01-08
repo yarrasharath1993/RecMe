@@ -1,0 +1,592 @@
+{
+  "generated_at": "2026-01-07T13:01:23.715Z",
+  "summary": {
+    "total_movies_with_ratings": 5011,
+    "low_classics": 0,
+    "inflated_non_notables": 0,
+    "large_discrepancies": 26,
+    "very_low_ratings": 33,
+    "total_needs_review": 59,
+    "last_updated": "2026-01-07T13:16:03.780Z",
+    "updates_applied": 13
+  },
+  "categories": {
+    "low_classics": [],
+    "inflated_ratings": [],
+    "large_discrepancies": [
+      {
+        "title": "Mangalya Bhagyam",
+        "year": 1974,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Hyderabad Blues",
+        "year": 1998,
+        "our_rating": 7.5,
+        "tmdb_rating": 4.6,
+        "diff": "2.9",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "IIT Krishnamurthy",
+        "year": 2020,
+        "our_rating": 4.2,
+        "tmdb_rating": 1,
+        "diff": "3.2",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Panduranga Mahatyam",
+        "year": 1957,
+        "our_rating": 7.5,
+        "tmdb_rating": 1,
+        "diff": "6.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Chilakamma Cheppindi",
+        "year": 1977,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Nindu Hrudayalu",
+        "year": 1969,
+        "our_rating": 7.5,
+        "tmdb_rating": 5,
+        "diff": "2.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Gangotri",
+        "year": 2003,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Sankarabharanam",
+        "year": 1980,
+        "our_rating": 7.5,
+        "tmdb_rating": 5.2,
+        "diff": "2.3",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Kirathakudu",
+        "year": 1986,
+        "our_rating": 7.5,
+        "tmdb_rating": 3,
+        "diff": "4.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Padamati Sandhya Ragam",
+        "year": 1987,
+        "our_rating": 7.5,
+        "tmdb_rating": 5,
+        "diff": "2.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Pavithra Bandham",
+        "year": 1996,
+        "our_rating": 7.5,
+        "tmdb_rating": 5,
+        "diff": "2.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Mahanandi",
+        "year": 2005,
+        "our_rating": 7.5,
+        "tmdb_rating": 4.7,
+        "diff": "2.8",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Nee Kosam",
+        "year": 1999,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Kshana Kshanam",
+        "year": 1991,
+        "our_rating": 7.5,
+        "tmdb_rating": 5.5,
+        "diff": "2.0",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Vicky Dada",
+        "year": 1989,
+        "our_rating": 7.5,
+        "tmdb_rating": 5,
+        "diff": "2.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Jeevana Poratam",
+        "year": 1986,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Kudirithe Kappu Coffee",
+        "year": 2011,
+        "our_rating": 7.6,
+        "tmdb_rating": 9.9,
+        "diff": "2.3",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Devadasu",
+        "year": 1953,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Donga Dongadi",
+        "year": 2004,
+        "our_rating": 7.5,
+        "tmdb_rating": 4,
+        "diff": "3.5",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Superman",
+        "year": 1980,
+        "our_rating": 7.5,
+        "tmdb_rating": 3.1,
+        "diff": "4.4",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Love Cycle",
+        "year": 2023,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "diff": "2.4",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Damarukam",
+        "year": 2012,
+        "our_rating": 7.5,
+        "tmdb_rating": 4.56,
+        "diff": "2.9",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "First Day First Show",
+        "year": 2022,
+        "our_rating": 7.5,
+        "tmdb_rating": 4.3,
+        "diff": "3.2",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Punya Bhoomi Naa Desam",
+        "year": 1995,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "diff": "2.4",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Shirdi Sai",
+        "year": 2012,
+        "our_rating": 7.5,
+        "tmdb_rating": 4.2,
+        "diff": "3.3",
+        "action": "REVIEW: Large difference from TMDB"
+      },
+      {
+        "title": "Saahasa Veerudu Saagara Kanya",
+        "year": 1996,
+        "our_rating": 7.5,
+        "tmdb_rating": 2,
+        "diff": "5.5",
+        "action": "REVIEW: Large difference from TMDB"
+      }
+    ],
+    "very_low_ratings": [
+      {
+        "title": "Ksheera Sagara Madhanam",
+        "year": 2021,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Heads & Tales",
+        "year": 2021,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Shukra",
+        "year": 2021,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Operation Gold Fish",
+        "year": 2019,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Hawaa",
+        "year": 2019,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Love Cycle",
+        "year": 2023,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Run",
+        "year": 2020,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Edu Gold Ehe",
+        "year": 2016,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Fcuk: Father Chitti Umaa Kaarthik",
+        "year": 2021,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Punya Bhoomi Naa Desam",
+        "year": 1995,
+        "our_rating": 3.4,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Avunanna Kadanna",
+        "year": 2005,
+        "our_rating": 3.6,
+        "tmdb_rating": 1.5,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "The Great Story of Sodabuddi",
+        "year": 2016,
+        "our_rating": 3.6,
+        "tmdb_rating": 1,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Bhuvanavijayam",
+        "year": 2023,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Maharadhi",
+        "year": 2007,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Madhura Wines",
+        "year": 2021,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Boni",
+        "year": 2009,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Kathanam",
+        "year": 2019,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Bhuvana Vijayam",
+        "year": 2023,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Veyi Subhamulu Kalugu Neeku",
+        "year": 2022,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Gammathu",
+        "year": 2023,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Rey",
+        "year": 2015,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Leelamahal Centre",
+        "year": 2004,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Leela Mahal Center",
+        "year": 2004,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Allari Pidugu",
+        "year": 2005,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Chittam Maharani",
+        "year": 2022,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Swetha 5/10 Wellington Road",
+        "year": 2009,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Tiger",
+        "year": 2015,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Mr. Pregnant",
+        "year": 2023,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Manasuku Nachindi",
+        "year": 2018,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Political Rowdy",
+        "year": 2005,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Oka Radha Iddaru Krishnula Pelli",
+        "year": 2003,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Iddaru Mitrulu",
+        "year": 1999,
+        "our_rating": 3.8,
+        "tmdb_rating": 2,
+        "action": "REVIEW: Very low rating"
+      },
+      {
+        "title": "Adhinayakudu",
+        "year": 2012,
+        "our_rating": 3.9,
+        "tmdb_rating": 2.33,
+        "action": "REVIEW: Very low rating"
+      }
+    ]
+  },
+  "updates_applied": {
+    "date": "2026-01-07T13:16:03.779Z",
+    "source": "2026 Industry Standards Review",
+    "changes": [
+      {
+        "action": "INCREASED",
+        "title": "Tiger (2015)",
+        "from": 3.8,
+        "to": 5.2,
+        "reason": "IMDb 4.9, decent action-drama"
+      },
+      {
+        "action": "INCREASED",
+        "title": "Mr. Pregnant (2023)",
+        "from": 3.8,
+        "to": 5.8,
+        "reason": "IMDb 6.3, emotional second half"
+      },
+      {
+        "action": "INCREASED",
+        "title": "Iddaru Mitrulu (1999)",
+        "from": 3.8,
+        "to": 6,
+        "reason": "Chiranjeevi starrer, music classic"
+      },
+      {
+        "action": "INCREASED",
+        "title": "Boni (2009)",
+        "from": 3.8,
+        "to": 5,
+        "reason": "Stylish taking, good music"
+      },
+      {
+        "action": "UPGRADED",
+        "title": "Sankarabharanam (1980)",
+        "from": 7.5,
+        "to": 8.8,
+        "reason": "IMDb 8.8, National Award winner"
+      },
+      {
+        "action": "UPGRADED",
+        "title": "Devadasu (1953)",
+        "from": 7.5,
+        "to": 8.2,
+        "reason": "Legendary, IMDb 7.8"
+      },
+      {
+        "action": "UPGRADED",
+        "title": "Kshana Kshanam (1991)",
+        "from": 7.5,
+        "to": 8.1,
+        "reason": "RGV cult classic, IMDb 8.1"
+      },
+      {
+        "action": "REDUCED",
+        "title": "Gangotri (2003)",
+        "from": 7.5,
+        "to": 5.5,
+        "reason": "Commercial hit but mediocre"
+      },
+      {
+        "action": "REDUCED",
+        "title": "First Day First Show (2022)",
+        "from": 7.5,
+        "to": 4.5,
+        "reason": "Critically panned"
+      },
+      {
+        "action": "REDUCED",
+        "title": "Superman (1980)",
+        "from": 7.5,
+        "to": 5,
+        "reason": "Kitsch value only"
+      },
+      {
+        "action": "REDUCED",
+        "title": "Mangalya Bhagyam (1974)",
+        "from": 7.5,
+        "to": 6.5,
+        "reason": "Good but not masterpiece"
+      },
+      {
+        "action": "FIXED",
+        "title": "Bengal Tiger (2015)",
+        "from": 5.2,
+        "to": 7.2,
+        "reason": "Ram blockbuster (incorrect pattern match)"
+      },
+      {
+        "action": "MERGED",
+        "title": "Leela Mahal Center (2004)",
+        "note": "Merged duplicate entries"
+      }
+    ],
+    "kept_as_is": [
+      {
+        "title": "Rey (2015)",
+        "rating": 3.8,
+        "reason": "Correctly rated - critical failure"
+      },
+      {
+        "title": "Adhinayakudu (2012)",
+        "rating": 3.9,
+        "reason": "Correctly rated - dated execution"
+      },
+      {
+        "title": "Madhura Wines (2021)",
+        "rating": 3.8,
+        "reason": "Mixed-to-negative reviews"
+      },
+      {
+        "title": "Kathanam (2019)",
+        "rating": 3.8,
+        "reason": "Weak script, predictable"
+      },
+      {
+        "title": "Panduranga Mahatyam (1957)",
+        "rating": 7.5,
+        "reason": "TMDB 1.0 is error, classic devotional"
+      },
+      {
+        "title": "Political Rowdy",
+        "rating": 3.8,
+        "reason": "Cult failure"
+      },
+      {
+        "title": "Allari Pidugu",
+        "rating": 3.8,
+        "reason": "Cult failure"
+      }
+    ]
+  }
+}

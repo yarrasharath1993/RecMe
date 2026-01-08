@@ -49,6 +49,9 @@ const EXECUTE = hasFlag('execute');
 const PHASE = getArg('phase', '');
 const LIMIT = getArg('limit', '500');
 const CONCURRENCY = getArg('concurrency', '20');
+const DIRECTOR = getArg('director', '');
+const ACTOR = getArg('actor', '');
+const SLUG = getArg('slug', '');
 
 // Checkpoint file location
 const CHECKPOINT_FILE = path.join(process.cwd(), '.enrichment-checkpoint.json');
@@ -139,6 +142,17 @@ async function runPhase(phase: PhaseConfig, execute: boolean): Promise<{ success
         const phaseArgs = [...phase.args, `--limit=${LIMIT}`];
         if (execute) {
             phaseArgs.push('--execute');
+        }
+
+        // Add director/actor/slug filters if provided
+        if (DIRECTOR) {
+            phaseArgs.push(`--director=${DIRECTOR}`);
+        }
+        if (ACTOR) {
+            phaseArgs.push(`--actor=${ACTOR}`);
+        }
+        if (SLUG) {
+            phaseArgs.push(`--slug=${SLUG}`);
         }
 
         console.log(chalk.cyan(`\n  Running: npx tsx ${phase.script} ${phaseArgs.join(' ')}\n`));
@@ -275,12 +289,21 @@ async function main(): Promise<void> {
     } else {
         // Default: show help
         console.log(`  Usage:`);
-        console.log(`    --full         Run all enrichment phases`);
-        console.log(`    --phase=NAME   Run specific phase (images, cast-crew, editorial-scores, validation)`);
-        console.log(`    --resume       Resume from last checkpoint`);
-        console.log(`    --status       Show current enrichment status`);
-        console.log(`    --execute      Apply changes (default is dry run)`);
-        console.log(`    --limit=N      Limit records per phase (default: 500)`);
+        console.log(`    --full           Run all enrichment phases`);
+        console.log(`    --phase=NAME     Run specific phase (images, cast-crew, editorial-scores, validation)`);
+        console.log(`    --resume         Resume from last checkpoint`);
+        console.log(`    --status         Show current enrichment status`);
+        console.log(`    --execute        Apply changes (default is dry run)`);
+        console.log(`    --limit=N        Limit records per phase (default: 500)`);
+        console.log(`\n  Filters (optional):`);
+        console.log(`    --director=NAME  Filter movies by director (e.g., --director="Puri Jagannadh")`);
+        console.log(`    --actor=NAME     Filter movies by actor/hero (e.g., --actor="Mahesh Babu")`);
+        console.log(`    --slug=SLUG      Process a single movie by slug`);
+        console.log(`\n  Examples:`);
+        console.log(`    npx tsx scripts/enrich-master.ts --full --execute`);
+        console.log(`    npx tsx scripts/enrich-master.ts --full --director="Puri Jagannadh" --execute`);
+        console.log(`    npx tsx scripts/enrich-master.ts --phase=images --actor="Mahesh Babu" --execute`);
+        console.log(`    npx tsx scripts/enrich-master.ts --slug=pokiri-2006 --full --execute`);
         return;
     }
 
@@ -288,6 +311,14 @@ async function main(): Promise<void> {
     console.log(`  Phases: ${phasesToRun.map((p) => p.name).join(' → ')}`);
     console.log(`  Limit per phase: ${LIMIT}`);
     console.log(`  Concurrency: ${CONCURRENCY}`);
+
+    // Show active filters
+    if (DIRECTOR || ACTOR || SLUG) {
+        console.log(chalk.yellow(`\n  Active Filters:`));
+        if (DIRECTOR) console.log(`    Director: "${DIRECTOR}"`);
+        if (ACTOR) console.log(`    Actor: "${ACTOR}"`);
+        if (SLUG) console.log(`    Slug: "${SLUG}"`);
+    }
 
     // Initialize checkpoint
     let checkpoint = loadCheckpoint() || {
@@ -367,4 +398,3 @@ Phase ${phase.priority}: ${phase.name.toUpperCase()}
 }
 
 main().catch(console.error);
-

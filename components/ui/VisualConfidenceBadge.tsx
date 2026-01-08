@@ -14,6 +14,8 @@
  * - Compact badge display
  * - Tooltip with detailed information
  * - Accessible labeling
+ * 
+ * REFACTORED to use design system primitives (Text)
  */
 
 import { useState } from 'react';
@@ -21,11 +23,12 @@ import {
   CheckCircle,
   Film,
   Archive,
-  ImageOff,
-  Info,
   Verified,
 } from 'lucide-react';
 import type { VisualTier, VisualType } from '@/lib/visual-intelligence/types';
+
+// Import design system primitives
+import { Text } from '@/components/ui/primitives/Text';
 
 // ============================================================
 // TYPES
@@ -91,10 +94,10 @@ const tierConfigs: Record<VisualTier, TierConfig> = {
     label: 'Archive Card',
     shortLabel: 'Archive',
     description: 'Reference card - original poster unavailable',
-    bgColor: 'bg-gray-800/80',
-    textColor: 'text-gray-300',
-    borderColor: 'border-gray-600',
-    iconColor: 'text-gray-400',
+    bgColor: 'bg-[var(--bg-tertiary)]',
+    textColor: 'text-[var(--text-secondary)]',
+    borderColor: 'border-[var(--border-primary)]',
+    iconColor: 'text-[var(--text-tertiary)]',
   },
 };
 
@@ -159,41 +162,41 @@ function BadgeTooltip({ tier, visualType, confidence, source }: TooltipProps) {
 
   return (
     <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 z-50">
-      <div className="bg-gray-900 border border-gray-700 rounded-lg shadow-xl p-3 min-w-[200px]">
+      <div className="bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-lg shadow-xl p-3 min-w-[200px]">
         {/* Arrow */}
-        <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-gray-900 border-r border-b border-gray-700 rotate-45" />
+        <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-[var(--bg-secondary)] border-r border-b border-[var(--border-primary)] rotate-45" />
         
         {/* Header */}
         <div className="flex items-center gap-2 mb-2">
           <Icon className={`w-4 h-4 ${config.iconColor}`} />
-          <span className={`text-sm font-medium ${config.textColor}`}>
+          <Text as="span" variant="label" className={config.textColor}>
             {config.label}
-          </span>
+          </Text>
         </div>
 
         {/* Description */}
-        <p className="text-xs text-gray-400 mb-2">
+        <Text variant="caption" color="tertiary" className="mb-2">
           {config.description}
-        </p>
+        </Text>
 
         {/* Details */}
         <div className="space-y-1 text-[10px]">
           {visualType && (
             <div className="flex justify-between">
-              <span className="text-gray-500">Type:</span>
-              <span className="text-gray-300">{visualTypeLabels[visualType]}</span>
+              <Text as="span" variant="caption" color="tertiary">Type:</Text>
+              <Text as="span" variant="caption" color="secondary">{visualTypeLabels[visualType]}</Text>
             </div>
           )}
           {confidence !== undefined && (
             <div className="flex justify-between">
-              <span className="text-gray-500">Confidence:</span>
-              <span className="text-gray-300">{Math.round(confidence * 100)}%</span>
+              <Text as="span" variant="caption" color="tertiary">Confidence:</Text>
+              <Text as="span" variant="caption" color="secondary">{Math.round(confidence * 100)}%</Text>
             </div>
           )}
           {source && (
             <div className="flex justify-between">
-              <span className="text-gray-500">Source:</span>
-              <span className="text-gray-300 capitalize">{source}</span>
+              <Text as="span" variant="caption" color="tertiary">Source:</Text>
+              <Text as="span" variant="caption" color="secondary" className="capitalize">{source}</Text>
             </div>
           )}
         </div>
@@ -246,9 +249,9 @@ export function VisualConfidenceBadge({
         aria-label={`${config.label}: ${config.description}`}
       >
         <Icon className={`${classes.icon} ${config.iconColor}`} />
-        <span className={`font-medium ${config.textColor}`}>
+        <Text as="span" variant="label" weight="medium" className={config.textColor}>
           {config.shortLabel}
-        </span>
+        </Text>
       </div>
 
       {/* Tooltip */}
@@ -328,9 +331,9 @@ export function VisualConfidenceInline({
       `}
     >
       <Icon className={`w-3 h-3 ${config.iconColor}`} />
-      <span>
+      <Text as="span" variant="caption">
         {showType && visualType ? visualTypeLabels[visualType] : config.shortLabel}
-      </span>
+      </Text>
     </span>
   );
 }
@@ -349,4 +352,3 @@ export function getTierFromConfidence(confidence: number): VisualTier {
 }
 
 export default VisualConfidenceBadge;
-

@@ -43,6 +43,31 @@ Major platform upgrade implementing editorial review intelligence, multi-AI prov
 - **Story Graph**: Connected movie lifecycle events
 - **Learning Loop**: Feed top patterns back to templates
 
+### 6. Data Intelligence Dashboard v3 (NEW)
+
+**URL**: `/admin/data-intelligence`
+
+Unified command center for all data operations:
+
+- **7 Tabs**: Overview, Pending Reviews, Sources, Editor, Pipeline, Bulk, Verify
+- **15+ Data Sources**: TMDB, OMDB, Wikipedia, Wikidata, MovieBuff, JioSaavn, etc.
+- **Compliance Layer**: Rate limiting, ToS compliance, robots.txt parsing
+- **Pending Reviews Queue**: Filter by recent/classic/popular, bulk generate
+- **9-Section Editor**: Edit reviews with template/AI regeneration
+- **Pipeline Monitoring**: Start/stop enrichment pipelines
+- **Bulk Operations**: Batch enrich, verify, generate reviews
+
+**New APIs**:
+- `GET /api/movies/search` - Movie search
+- `GET /api/admin/pending-reviews` - Movies without reviews
+- `POST /api/admin/movies/[id]/enrich` - Force enrich
+- `POST /api/admin/reviews/[id]/regenerate` - Regenerate review
+- `POST /api/admin/verification/[movieId]` - Run verification
+- `POST /api/admin/bulk` - Bulk operations
+- `GET/POST /api/admin/pipeline` - Pipeline control
+
+**Admin Sidebar**: Added to System Core section
+
 ---
 
 ## 📁 New Files
@@ -103,6 +128,33 @@ docs/
 ├── MIGRATION-GUIDE.md      # Post-completion steps
 ├── MVP-IMPLEMENTATION-SUMMARY.md
 └── SYSTEM-REFINEMENT-REPORT.md
+```
+
+### Data Intelligence Dashboard (NEW)
+```
+app/admin/data-intelligence/
+└── page.tsx                # Unified data ops dashboard
+
+app/api/movies/search/
+└── route.ts                # Movie search API
+
+app/api/admin/pending-reviews/
+└── route.ts                # Pending reviews API
+
+components/admin/
+├── SourceSelector.tsx      # Data source management
+├── CompliancePanel.tsx     # Compliance status display
+├── SectionEditor.tsx       # 9-section review editor
+├── PipelineMonitor.tsx     # Pipeline monitoring
+└── index.ts                # Exports
+
+lib/compliance/
+├── safe-fetcher.ts         # Rate limiting, ToS compliance
+├── compliance-validator.ts # License, privacy validation
+├── data-reviewer.ts        # Unified data review
+├── attribution-generator.ts # Source attribution
+├── types.ts                # Type definitions
+└── index.ts                # Unified exports
 ```
 
 ### Migrations

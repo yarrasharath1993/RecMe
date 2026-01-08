@@ -78,7 +78,8 @@ export async function GET(request: NextRequest) {
   }
 
   if (minRating) {
-    query = query.gte('avg_rating', parseFloat(minRating));
+    // Use our_rating (editorial) for filtering, fallback to avg_rating
+    query = query.or(`our_rating.gte.${parseFloat(minRating)},and(our_rating.is.null,avg_rating.gte.${parseFloat(minRating)})`);
   }
 
   if (underrated === 'true') {
@@ -101,15 +102,22 @@ export async function GET(request: NextRequest) {
     query = query.or(`title_en.ilike.%${search}%,title_te.ilike.%${search}%,director.ilike.%${search}%`);
   }
 
-  // Sorting
-  const sortColumn = {
-    rating: 'avg_rating',
-    year: 'release_year',
-    reviews: 'total_reviews',
-    recent: 'created_at',
-  }[sortBy] || 'avg_rating';
-
-  query = query.order(sortColumn, { ascending: sortOrder === 'asc' });
+  // Sorting - use our_rating (editorial) for rating sort, with fallback
+  if (sortBy === 'rating') {
+    // Sort by our_rating first (editorial), then by avg_rating for movies without editorial rating
+    query = query
+      .order('our_rating', { ascending: sortOrder === 'asc', nullsFirst: sortOrder === 'asc' ? true : false })
+      .order('avg_rating', { ascending: sortOrder === 'asc', nullsFirst: true });
+  } else {
+    const sortColumn = {
+      year: 'release_year',
+      reviews: 'total_reviews',
+      recent: 'created_at',
+    }[sortBy] || 'release_year';
+    
+    query = query.order(sortColumn, { ascending: sortOrder === 'asc' });
+  }
+  
   query = query.range(offset, offset + limit - 1);
 
   const { data, count, error } = await query;
@@ -126,6 +134,8 @@ export async function GET(request: NextRequest) {
     offset,
   });
 }
+
+
 
 
 
