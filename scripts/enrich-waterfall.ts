@@ -31,8 +31,47 @@ import * as dotenv from 'dotenv';
 import Groq from 'groq-sdk';
 import { updatePerformanceNames } from '../lib/reviews/editorial-review-generator';
 import { logChange } from './cast-change-audit';
+import { getActorIdentifier } from './lib/actor-identifier';
+import { 
+  IMAGE_SOURCE_REGISTRY, 
+  getBaselineSource, 
+  getValidateOnlySources,
+  getIngestSources,
+  getEnrichSources,
+  canStoreFromSource,
+  requiresLicenseValidation 
+} from './lib/image-source-registry';
+import { validateImageLicense } from './lib/license-validator';
+import { 
+  compareAgainstValidateSources,
+  compareIngestSources,
+  calculateMultiSourceConfidence,
+  detectAIGenerated 
+} from './lib/image-comparator';
 
 dotenv.config({ path: '.env.local' });
+
+// Cross-validation helper - verifies hero attribution using TMDB Person ID
+async function validateHeroAttribution(
+  hero: string,
+  tmdbId: number | null
+): Promise<{ valid: boolean; suggestedHero?: string }> {
+  if (!tmdbId) return { valid: true }; // Can't validate without TMDB ID
+  
+  const identifier = getActorIdentifier();
+  const result = await identifier.verifyActorInMovie(hero, tmdbId);
+  
+  if (result.found) {
+    return { valid: true };
+  }
+  
+  // Actor not in cast - suggest the lead
+  const topCast = await identifier.getMovieCast(tmdbId, 1);
+  return { 
+    valid: false, 
+    suggestedHero: topCast[0]?.name 
+  };
+}
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -158,6 +197,69 @@ async function tryTMDB(title: string, year: number): Promise<EnrichmentData | nu
   } catch (e) {
     console.log('    TMDB error:', (e as Error).message);
     return null;
+  }
+}
+
+// ============================================================
+// VALIDATE-ONLY SOURCES (Confirmation, no storage)
+// ============================================================
+
+async function tryIMPAwards(title: string, year: number): Promise<{ poster_url: string | null }> {
+  try {
+    // IMPAwards URL pattern: https://impawards.com/YEAR/movie_title.html
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '_');
+    const url = `https://www.impawards.com/${year}/${slug}.html`;
+    
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; TeluguPortal/1.0)' }
+    });
+    
+    if (!res.ok) return { poster_url: null };
+    
+    const html = await res.text();
+    
+    // Extract poster from og:image or main poster div
+    const ogMatch = html.match(/<meta property="og:image" content="([^"]+)"/);
+    if (ogMatch) {
+      let posterUrl = ogMatch[1];
+      if (!posterUrl.startsWith('http')) {
+        posterUrl = `https://www.impawards.com${posterUrl}`;
+      }
+      console.log(`    IMPAwards: found poster (validate-only)`);
+      return { poster_url: posterUrl };
+    }
+    
+    return { poster_url: null };
+  } catch (e) {
+    console.log('    IMPAwards error:', (e as Error).message);
+    return { poster_url: null };
+  }
+}
+
+async function tryOpenverse(title: string, year: number): Promise<{ poster_url: string | null }> {
+  try {
+    // Openverse API search
+    const query = `${title} ${year} poster`;
+    const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&license=cc0,pdm,cc-by,cc-by-sa&mature=false`;
+    
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'TeluguPortal/1.0' }
+    });
+    
+    if (!res.ok) return { poster_url: null };
+    
+    const data = await res.json();
+    const results = data.results || [];
+    
+    if (results.length > 0 && results[0].url) {
+      console.log(`    Openverse: found CC-licensed image`);
+      return { poster_url: results[0].url };
+    }
+    
+    return { poster_url: null };
+  } catch (e) {
+    console.log('    Openverse error:', (e as Error).message);
+    return { poster_url: null };
   }
 }
 
@@ -674,7 +776,7 @@ Respond in JSON format ONLY:
 }
 
 // ============================================================
-// MAIN ENRICHMENT FUNCTION
+// MAIN ENRICHMENT FUNCTION (3-PHASE EXECUTION)
 // ============================================================
 
 async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResult> {
@@ -703,21 +805,11 @@ async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResul
     return result;
   }
 
+  // ============================================================
+  // PHASE 1: BASELINE (TMDB)
+  // ============================================================
+  console.log('  Phase 1: Baseline (TMDB)...');
   let data: EnrichmentData | null = null;
-
-  // WATERFALL ORDER:
-  // 1. TMDB (best for metadata + posters)
-  // 2. Wikimedia Commons (archival images, CC licensed)
-  // 3. Internet Archive (public domain materials)
-  // 4. OMDB (requires IMDB ID)
-  // 5. Wikidata (structured data)
-  // 6. Letterboxd (community posters)
-  // 7. Cinemaazi (Indian film archive)
-  // 8. Google KG (general info)
-  // 9. AI (last resort for metadata only)
-
-  // 1. Try TMDB (best source)
-  console.log('  1. Trying TMDB...');
   data = await tryTMDB(title, year);
   if (data && (data.hero || data.director || data.poster_url)) {
     result.source = 'tmdb';
@@ -725,117 +817,175 @@ async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResul
     console.log(`  ✓ TMDB: ${JSON.stringify(data)}`);
   }
 
-  // 2. Try Wikimedia Commons if still need poster
+  // ============================================================
+  // PHASE 2: VALIDATE-ONLY (Parallel confirmation, no storage)
+  // ============================================================
+  const validateOnlyImages: Array<{ url: string; source: string }> = [];
+  
+  if (needsPoster && data?.poster_url) {
+    console.log('  Phase 2: Validate-Only sources (parallel)...');
+    
+    const [impawardsResult, letterboxdResult] = await Promise.all([
+      tryIMPAwards(title, year),
+      tryLetterboxd(title, year),
+    ]);
+    
+    if (impawardsResult?.poster_url) {
+      validateOnlyImages.push({ url: impawardsResult.poster_url, source: 'impawards' });
+      console.log(`    ✓ IMPAwards: confirmed (not stored)`);
+    }
+    
+    if (letterboxdResult?.poster_url) {
+      validateOnlyImages.push({ url: letterboxdResult.poster_url, source: 'letterboxd' });
+      console.log(`    ✓ Letterboxd: confirmed (not stored)`);
+    }
+  }
+
+  // ============================================================
+  // PHASE 3: INGEST/ENRICH (With license validation)
+  // ============================================================
+  const ingestImages: Array<{ url: string; source: string; confidence: number }> = [];
+  
   if (!data || (needsPoster && !data.poster_url)) {
-    console.log('  2. Trying Wikimedia Commons...');
+    console.log('  Phase 3: Ingest/Enrich sources (with license validation)...');
+    
+    // Try Openverse (CC-licensed)
+    const openverseResult = await tryOpenverse(title, year);
+    if (openverseResult?.poster_url) {
+      const licenseResult = await validateImageLicense(openverseResult.poster_url, 'openverse');
+      if (licenseResult.is_valid && licenseResult.license_verified) {
+        if (!data) {
+          data = { poster_url: openverseResult.poster_url };
+          result.source = 'openverse';
+        } else if (!data.poster_url) {
+          data.poster_url = openverseResult.poster_url;
+          result.source = 'openverse';
+        }
+        ingestImages.push({ url: openverseResult.poster_url, source: 'openverse', confidence: 0.85 });
+        console.log(`  ✓ Openverse: CC-licensed image (${licenseResult.license_type})`);
+      } else if (licenseResult.warning) {
+        console.log(`  ⚠️  Openverse: ${licenseResult.warning}`);
+      }
+    }
+    
+    // Try Wikimedia Commons if still need poster
     const wikimediaData = await tryWikimediaCommons(title, year);
     if (wikimediaData?.poster_url) {
-      if (data) {
-        data.poster_url = wikimediaData.poster_url;
-      } else {
-        data = wikimediaData;
-        result.source = 'wikimedia';
+      const licenseResult = await validateImageLicense(wikimediaData.poster_url, 'wikimedia');
+      if (licenseResult.is_valid) {
+        if (!data) {
+          data = wikimediaData;
+          result.source = 'wikimedia';
+        } else if (!data.poster_url) {
+          data.poster_url = wikimediaData.poster_url;
+          result.source = 'wikimedia';
+        }
+        ingestImages.push({ url: wikimediaData.poster_url, source: 'wikimedia', confidence: 0.85 });
+        console.log(`  ✓ Wikimedia: ${licenseResult.license_verified ? 'verified' : 'permissive'} (${licenseResult.license_type})`);
+        if (licenseResult.warning) {
+          console.log(`  ⚠️  ${licenseResult.warning}`);
+        }
       }
-      console.log(`  ✓ Wikimedia: poster found`);
     }
-  }
 
-  // 3. Try Internet Archive if still need poster
-  if (!data || (needsPoster && !data?.poster_url)) {
-    console.log('  3. Trying Internet Archive...');
+    // Try Internet Archive (public domain)
     const iaData = await tryInternetArchive(title, year);
     if (iaData?.poster_url) {
-      if (data) {
-        data.poster_url = iaData.poster_url;
-      } else {
+      if (!data) {
         data = iaData;
         result.source = 'internet_archive';
+      } else if (!data.poster_url) {
+        data.poster_url = iaData.poster_url;
+        result.source = 'internet_archive';
       }
-      console.log(`  ✓ Internet Archive: image found`);
+      ingestImages.push({ url: iaData.poster_url, source: 'internet_archive', confidence: 0.75 });
+      console.log(`  ✓ Internet Archive: public domain`);
     }
-  }
 
-  // 4. Try OMDB if we have IMDB ID and still need data
-  if (!data && movie.imdb_id) {
-    console.log('  4. Trying OMDB...');
-    data = await tryOMDB(movie.imdb_id);
-    if (data) {
-      result.source = 'omdb';
-      result.data = data;
-      console.log(`  ✓ OMDB: ${JSON.stringify(data)}`);
-    }
-  }
-
-  // 5. Try Wikidata if still need data
-  if (!data) {
-    console.log('  5. Trying Wikidata...');
-    data = await tryWikidata(title, year);
-    if (data) {
-      result.source = 'wikidata';
-      result.data = data;
-      console.log(`  ✓ Wikidata: ${JSON.stringify(data)}`);
-    }
-  }
-
-  // 6. Try Letterboxd if still need poster
-  if (!data || (needsPoster && !data?.poster_url)) {
-    console.log('  6. Trying Letterboxd...');
-    const letterboxdData = await tryLetterboxd(title, year);
-    if (letterboxdData) {
-      if (data) {
-        if (letterboxdData.poster_url && !data.poster_url) {
-          data.poster_url = letterboxdData.poster_url;
-        }
-        if (letterboxdData.director && !data.director) {
-          data.director = letterboxdData.director;
-        }
-      } else {
-        data = letterboxdData;
-        result.source = 'letterboxd';
+    // Try other enrich sources if still needed
+    if (!data && movie.imdb_id) {
+      const omdbData = await tryOMDB(movie.imdb_id);
+      if (omdbData) {
+        data = omdbData;
+        result.source = 'omdb';
+        console.log(`  ✓ OMDB: ${JSON.stringify(omdbData)}`);
       }
-      console.log(`  ✓ Letterboxd: data found`);
     }
-  }
 
-  // 7. Try Cinemaazi if still need poster (Indian archive)
-  if (!data || (needsPoster && !data?.poster_url)) {
-    console.log('  7. Trying Cinemaazi...');
-    const cinemaaziData = await tryCinemaazi(title, year);
-    if (cinemaaziData) {
-      if (data) {
-        if (cinemaaziData.poster_url && !data.poster_url) {
-          data.poster_url = cinemaaziData.poster_url;
-        }
-        if (cinemaaziData.director && !data.director) {
-          data.director = cinemaaziData.director;
-        }
-      } else {
+    if (!data) {
+      const wikidataData = await tryWikidata(title, year);
+      if (wikidataData) {
+        data = wikidataData;
+        result.source = 'wikidata';
+        console.log(`  ✓ Wikidata: ${JSON.stringify(wikidataData)}`);
+      }
+    }
+
+    if (!data) {
+      const cinemaaziData = await tryCinemaazi(title, year);
+      if (cinemaaziData) {
         data = cinemaaziData;
         result.source = 'cinemaazi';
+        console.log(`  ✓ Cinemaazi: data found`);
       }
-      console.log(`  ✓ Cinemaazi: data found`);
+    }
+
+    // AI as last resort (metadata only, capped confidence)
+    if (!data) {
+      const aiData = await tryAIInference(title, year);
+      if (aiData) {
+        data = aiData;
+        result.source = 'ai';
+        console.log(`  ✓ AI: ${JSON.stringify(aiData)} (confidence capped at 0.50)`);
+      }
     }
   }
 
-  // 8. Try Google KG if still need data
-  if (!data && GOOGLE_KG_API_KEY) {
-    console.log('  8. Trying Google KG...');
-    data = await tryGoogleKG(title, year);
-    if (data) {
-      result.source = 'google';
-      result.data = data;
-      console.log(`  ✓ Google: ${JSON.stringify(data)}`);
-    }
-  }
+  // ============================================================
+  // CONFIDENCE CALCULATION (Multi-source validation)
+  // ============================================================
+  let finalConfidence = SOURCE_CONFIDENCE[result.source] || 0.50;
+  let validateOnlyBoost = 0;
+  let multiSourceBoost = 0;
+  let confirmedBy: string[] = [];
+  let agreementSources: string[] = [];
+  let licenseWarning: string | null = null;
 
-  // 9. Try AI as last resort (for metadata only, not images)
-  if (!data) {
-    console.log('  9. Trying AI inference...');
-    data = await tryAIInference(title, year);
-    if (data) {
-      result.source = 'ai';
-      result.data = data;
-      console.log(`  ✓ AI: ${JSON.stringify(data)}`);
+  if (data?.poster_url && needsPoster) {
+    // Calculate multi-source confidence
+    const confidenceResult = calculateMultiSourceConfidence(
+      data.poster_url,
+      result.source,
+      finalConfidence,
+      validateOnlyImages,
+      ingestImages
+    );
+
+    finalConfidence = confidenceResult.final_confidence;
+    validateOnlyBoost = confidenceResult.validate_only_boost;
+    multiSourceBoost = confidenceResult.multi_source_boost;
+    confirmedBy = confidenceResult.confirmed_by;
+    agreementSources = confidenceResult.agreement_sources;
+
+    // Check for AI-generated content (cap at 0.50)
+    const aiCheck = detectAIGenerated(data.poster_url, result.source);
+    if (aiCheck.is_ai_generated) {
+      finalConfidence = Math.min(finalConfidence, 0.50);
+      console.log(`  ⚠️  AI-generated content detected - confidence capped at 0.50`);
+    }
+
+    // License validation for the chosen source
+    const licenseResult = await validateImageLicense(data.poster_url, result.source);
+    if (!licenseResult.license_verified) {
+      licenseWarning = licenseResult.warning;
+    }
+
+    console.log(`  📊 Confidence: ${finalConfidence.toFixed(2)} (base: ${SOURCE_CONFIDENCE[result.source]}, validate: +${validateOnlyBoost.toFixed(2)}, multi-source: +${multiSourceBoost.toFixed(2)})`);
+    if (confirmedBy.length > 0) {
+      console.log(`  ✓ Confirmed by: ${confirmedBy.join(', ')}`);
+    }
+    if (agreementSources.length > 0) {
+      console.log(`  ✓ Agreement with: ${agreementSources.join(', ')}`);
     }
   }
 
@@ -843,7 +993,21 @@ async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResul
   if (data) {
     const updates: Record<string, any> = {};
 
-    if (needsHero && data.hero) {
+    // CROSS-VALIDATION: Verify hero attribution using TMDB cast data
+    if (needsHero && data.hero && data.tmdb_id) {
+      const validation = await validateHeroAttribution(data.hero, data.tmdb_id);
+      if (validation.valid) {
+        updates.hero = data.hero;
+        result.fieldsUpdated.push('hero');
+      } else {
+        console.log(`  ⚠️  Cross-validation failed: "${data.hero}" not in TMDB cast`);
+        if (validation.suggestedHero) {
+          console.log(`      Suggested hero: ${validation.suggestedHero}`);
+          updates.hero = validation.suggestedHero;
+          result.fieldsUpdated.push('hero (corrected)');
+        }
+      }
+    } else if (needsHero && data.hero) {
       updates.hero = data.hero;
       result.fieldsUpdated.push('hero');
     }
@@ -859,9 +1023,8 @@ async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResul
       updates.poster_url = data.poster_url;
       result.fieldsUpdated.push('poster_url');
       
-      // Visual Intelligence Integration: Add confidence and source tracking
-      const confidence = SOURCE_CONFIDENCE[result.source];
-      updates.poster_confidence = confidence;
+      // Multi-source validation metadata
+      updates.poster_confidence = finalConfidence;
       updates.poster_visual_type = 'original_poster';
       updates.visual_verified_at = new Date().toISOString();
       updates.archival_source = {
@@ -870,12 +1033,37 @@ async function enrichMovie(movie: any, dryRun: boolean): Promise<EnrichmentResul
         license_type: SOURCE_LICENSES[result.source],
         acquisition_date: new Date().toISOString(),
         image_url: data.poster_url,
+        validate_only_confirmed_by: confirmedBy,
+        multi_source_agreement: confirmedBy.length + agreementSources.length,
+        license_verified: licenseWarning === null,
       };
+      
+      // Add license warning if needed
+      if (licenseWarning) {
+        updates.license_warning = licenseWarning;
+      }
+      
       result.fieldsUpdated.push('visual_confidence');
     }
     if (data.tmdb_id && !movie.tmdb_id) {
-      updates.tmdb_id = data.tmdb_id;
-      result.fieldsUpdated.push('tmdb_id');
+      // CROSS-VALIDATION: Verify TMDB ID is for a Telugu movie
+      try {
+        const tmdbCheck = await fetch(
+          `https://api.themoviedb.org/3/movie/${data.tmdb_id}?api_key=${TMDB_API_KEY}`
+        );
+        const tmdbData = await tmdbCheck.json();
+        
+        if (tmdbData.original_language === 'te') {
+          updates.tmdb_id = data.tmdb_id;
+          result.fieldsUpdated.push('tmdb_id');
+        } else {
+          console.log(`  ⚠️  TMDB ID ${data.tmdb_id} is ${tmdbData.original_language}, not Telugu - skipping`);
+        }
+      } catch {
+        // If validation fails, still save the ID but log warning
+        updates.tmdb_id = data.tmdb_id;
+        result.fieldsUpdated.push('tmdb_id (unverified)');
+      }
     }
 
     if (Object.keys(updates).length > 0) {
