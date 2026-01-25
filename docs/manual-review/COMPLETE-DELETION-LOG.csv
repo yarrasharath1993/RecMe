@@ -1,0 +1,15 @@
+Title,Year,Slug,Reason,Batch,Status
+"Padma Vibhushan",2011,"padma-vibhushan-2011","Award show/TV show - not a movie","Incomplete Data Cleanup",DELETED
+"Best Supporting Actress - Tamil",2002,"best-supporting-actress-tamil-2002","Award category - not a movie","Incomplete Data Cleanup",DELETED
+"National Film Awards",2003,"national-film-awards-2003","Award ceremony - not a movie","Incomplete Data Cleanup",DELETED
+"Best Actress - Tamil",2001,"best-actress-tamil-2001","Award category - not a movie","Incomplete Data Cleanup",DELETED
+"Best Actress – Kannada",2004,"best-actress-kannada-2004","Award category - not a movie","Incomplete Data Cleanup",DELETED
+"Indian Idol",2021,"indian-idol-2021","TV show - not a movie","Incomplete Data Cleanup",DELETED
+"Overall Contribution to Telugu Film Industry",2007,"overall-contribution-to-telugu-film-industry-2007","Award/Recognition - not a movie","Incomplete Data Cleanup",DELETED
+"Drama Juniors 4 Telugu",2023,"drama-juniors-4-telugu-2023","TV show - not a movie","Incomplete Data Cleanup",DELETED
+"The Kapil Sharma Show season 2",2021,"the-kapil-sharma-show-season-2-2021","TV show - not a movie","Incomplete Data Cleanup",DELETED
+"Moondram Pirai",1981,"moondram-pirai-1981","Wrong year duplicate - correct movie is 1982/1983","Hero Attribution Fixes",DELETED
+"Meendum Kokila",1982,"meendum-kokila-1982","Wrong year duplicate - correct movie is 1981","Hero Attribution Fixes",DELETED
+"Lamhe",1992,"lamhe-1992","Wrong year duplicate - correct movie is 1991","Hero Attribution Fixes",DELETED
+"Aakasa Ramanna",2010,"aakasa-ramanna-2010","Initially thought duplicate, but RESTORED - different movie from 1965","Duplicate Cleanup",RESTORED
+"Akasha Ramanna",1965,"akasha-ramanna-1965","Spelling variation duplicate of Aakasa Ramanna (1965)","Duplicate Cleanup",DELETED

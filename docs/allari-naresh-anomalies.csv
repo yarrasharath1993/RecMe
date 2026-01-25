@@ -1,0 +1,60 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+missing_field,"Meda Meeda Abbayi",2017,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Intlo Deyyam Nakem Bhayam",2016,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Intlo Deyyam Nakem Bhayam",2016,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"James Bond",2015,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"James Bond",2015,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Laddu Babu",2014,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Laddu Babu",2014,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Jump Jilani",2014,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Jump Jilani",2014,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Brother of Bommali",2014,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Brother of Bommali",2014,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Yamudiki Mogudu",2012,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Sudigaadu",2012,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Sudigaadu",2012,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sudigaadu",2012,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Madatha Kaja",2011,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Seema Tapakai",2011,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Seema Tapakai",2011,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Aha Naa Pellanta",2011,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Betting Bangarraju",2010,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Betting Bangarraju",2010,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Shubhapradham",2010,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Shubhapradham",2010,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Shubhapradham",2010,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Kathi Kantha Rao",2010,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Kathi Kantha Rao",2010,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Saradaga Kasepu",2010,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Saradaga Kasepu",2010,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Aapada Mokkulavaadu",2008,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Aapada Mokkulavaadu",2008,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Aapada Mokkulavaadu",2008,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Aapada Mokkulavaadu",2008,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Aapada Mokkulavaadu",2008,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bommana Brothers Chandana Sisters",2008,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bommana Brothers Chandana Sisters",2008,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Dongala Bandi",2008,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Dongala Bandi",2008,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dongala Bandi",2008,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sundarakanda",2008,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Allare Allari",2007,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Allare Allari",2007,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Allare Allari",2007,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Athili Sathibabu LKG",2007,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Athili Sathibabu LKG",2007,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kittu",2006,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Kittu",2006,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kittu",2006,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Kithakithalu",2006,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Gopi Goda Meeda Pilli",2006,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Party",2006,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Party",2006,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Nenu",2004,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Juniors",2003,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Juniors",2003,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Dhanalakshmi, I Love You",2002,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Dhanalakshmi, I Love You",2002,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dhanalakshmi, I Love You",2002,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Dhanalakshmi, I Love You",2002,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Dhanalakshmi, I Love You",2002,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only

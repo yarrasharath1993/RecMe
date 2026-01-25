@@ -1,0 +1,251 @@
+[36m[1m
+╔═══════════════════════════════════════════════════════════════════════╗
+║           EXECUTE DUPLICATE CELEBRITY MERGES                          ║
+║           Deleting Verified Duplicates                                ║
+╚═══════════════════════════════════════════════════════════════════════╝
+[0m[0m
+[37m  Total duplicate groups: 56
+[0m
+[33m  Same TMDB ID: 584666[0m
+[32m    ✅ KEEP: Kodandarami Reddy (celeb-kodandarami-reddy)[0m
+[37m    🗑️  Deleted: Kodanda Rami Reddy (celeb-kodanda-rami-reddy)[0m
+[37m    🗑️  Deleted: A Kodandarami Reddy (celeb-a-kodandarami-reddy)[0m
+
+[33m  Same TMDB ID: 1180898[0m
+[32m    ✅ KEEP: Aadi (celeb-aadi)[0m
+[37m    🗑️  Deleted: Aadi Saikumar (celeb-aadi-saikumar)[0m
+
+[33m  Same TMDB ID: 149958[0m
+[32m    ✅ KEEP: Akkineni Nagarjuna (celeb-akkineni-nagarjuna)[0m
+[37m    🗑️  Deleted: Nagarjuna (celeb-05929a7d)[0m
+
+[33m  Same TMDB ID: 237254[0m
+[32m    ✅ KEEP: Akkineni Nageswara Rao (akkineni-nageswara-rao)[0m
+[37m    🗑️  Deleted: Nageshwara Rao Akkineni (celeb-nageshwara-rao-akkineni)[0m
+
+[33m  Same TMDB ID: 108215[0m
+[32m    ✅ KEEP: Allu (celeb-allu)[0m
+[37m    🗑️  Deleted: Allu Arjun (allu-arjun)[0m
+
+[33m  Same TMDB ID: 1208885[0m
+[32m    ✅ KEEP: Sobhan Babu (sobhan-babu)[0m
+[37m    🗑️  Deleted: Babu Rao (celeb-babu-rao)[0m
+
+[33m  Same TMDB ID: 1107010[0m
+[32m    ✅ KEEP: Bhanuchander (celeb-bhanuchander)[0m
+[37m    🗑️  Deleted: Bhanu Chander (null)[0m
+
+[33m  Same TMDB ID: 1003965[0m
+[32m    ✅ KEEP: Bhanumathi (celeb-bhanumathi)[0m
+[37m    🗑️  Deleted: Bhanumathi Ramakrishna (celeb-bhanumathi-ramakrishna)[0m
+[37m    🗑️  Deleted: P Bhanumathi (p-bhanumathi)[0m
+
+[33m  Same TMDB ID: 586627[0m
+[32m    ✅ KEEP: Chandra Mohan (celeb-chandra-mohan)[0m
+[37m    🗑️  Deleted: Chandramohan (celeb-chandramohan)[0m
+
+[33m  Same TMDB ID: 88166[0m
+[32m    ✅ KEEP: Daggubati Venkatesh (celeb-daggubati-venkatesh)[0m
+[37m    🗑️  Deleted: Venkatesh (celeb-52cf4ded)[0m
+
+[33m  Same TMDB ID: 590744[0m
+[32m    ✅ KEEP: Rajasekhar (celeb-rajasekhar)[0m
+[37m    🗑️  Deleted: Dr. Rajasekhar (celeb-dr-rajasekhar)[0m
+
+[33m  Same TMDB ID: 1060277[0m
+[32m    ✅ KEEP: E.V.V. Satyanarayana (celeb-e-v-v-satyanarayana)[0m
+[37m    🗑️  Deleted: E. V. V. Satyanarayana (null)[0m
+[37m    🗑️  Deleted: E V V Satyanarayana (celeb-e-v-v-satyanarayana)[0m
+
+[33m  Same TMDB ID: 465273[0m
+[32m    ✅ KEEP: Jagapathi Babu (celeb-jagapathi-babu)[0m
+[37m    🗑️  Deleted: Jagapati Babu (celeb-jagapati-babu)[0m
+
+[33m  Same TMDB ID: 1335686[0m
+[32m    ✅ KEEP: Jaggayya (jaggayya)[0m
+[37m    🗑️  Deleted: Kongara Jaggayya (celeb-kongara-jaggayya)[0m
+
+[33m  Same TMDB ID: 584415[0m
+[32m    ✅ KEEP: Janaki (celeb-janaki)[0m
+[37m    🗑️  Deleted: Showkar Janaki (null)[0m
+[37m    🗑️  Deleted: Sowcar Janaki (celeb-sowcar-janaki)[0m
+
+[33m  Same TMDB ID: 928860[0m
+[32m    ✅ KEEP: Jandhyala (celeb-jandhyala)[0m
+[37m    🗑️  Deleted: Jandhyala Subramanya Sastry (celeb-jandhyala-subramanya-sastry)[0m
+
+[33m  Same TMDB ID: 238016[0m
+[32m    ✅ KEEP: Jaya Prada (jaya-prada)[0m
+[37m    🗑️  Deleted: Jayaprada (null)[0m
+
+[33m  Same TMDB ID: 1123523[0m
+[32m    ✅ KEEP: Jayalalitha (celeb-jayalalitha)[0m
+[37m    🗑️  Deleted: Jayalalithaa (celeb-jayalalithaa)[0m
+
+[33m  Same TMDB ID: 148037[0m
+[32m    ✅ KEEP: N.T. Rama Rao Jr. (celeb-n-t-rama-rao-jr-)[0m
+[37m    🗑️  Deleted: Jr. NTR (jr-ntr)[0m
+
+[33m  Same TMDB ID: 237706[0m
+[32m    ✅ KEEP: K. Balachander (null)[0m
+[37m    🗑️  Deleted: K Balachander (celeb-k-balachander)[0m
+
+[33m  Same TMDB ID: 1335734[0m
+[32m    ✅ KEEP: K.S.R. Das (celeb-k-s-r-das)[0m
+[37m    🗑️  Deleted: K. S. R. Das (celeb-k-s-r-das)[0m
+
+[33m  Same TMDB ID: 552991[0m
+[32m    ✅ KEEP: Satyanarayana (celeb-satyanarayana)[0m
+[37m    🗑️  Deleted: Kaikala Satyanarayana (celeb-kaikala-satyanarayana)[0m
+
+[33m  Same TMDB ID: 82078[0m
+[32m    ✅ KEEP: Khushboo (celeb-khushboo)[0m
+[37m    🗑️  Deleted: Kushboo (celeb-kushboo)[0m
+
+[33m  Same TMDB ID: 1003933[0m
+[32m    ✅ KEEP: N.T. Rama Rao (celeb-n-t-rama-rao)[0m
+[37m    🗑️  Deleted: T. Rama Rao (celeb-t-rama-rao)[0m
+[37m    🗑️  Deleted: N T Rama Rao (n-t-rama-rao)[0m
+
+[33m  Same TMDB ID: 1400656[0m
+[32m    ✅ KEEP: Naga Shaurya (celeb-naga-shaurya)[0m
+[37m    🗑️  Deleted: Naga Shourya (celeb-naga-shourya)[0m
+
+[33m  Same TMDB ID: 938965[0m
+[32m    ✅ KEEP: Rohit (celeb-rohit)[0m
+[37m    🗑️  Deleted: Nara Rohit (celeb-nara-rohit)[0m
+[37m    🗑️  Deleted: Nara Rohith (celeb-nara-rohith)[0m
+
+[33m  Same TMDB ID: 562177[0m
+[32m    ✅ KEEP: Raadhika (celeb-raadhika)[0m
+[37m    🗑️  Deleted: Radikaa Sarathkumar (celeb-radikaa-sarathkumar)[0m
+
+[33m  Same TMDB ID: 141701[0m
+[32m    ✅ KEEP: Ramya Krishna (celeb-ramya-krishna)[0m
+[37m    🗑️  Deleted: Ramya Krishnan (celeb-ramya-krishnan)[0m
+
+[33m  Same TMDB ID: 584132[0m
+[32m    ✅ KEEP: Ravichandran (null)[0m
+[37m    🗑️  Deleted: S. S. Ravichandra (celeb-s-s-ravichandra)[0m
+
+[33m  Same TMDB ID: 1029010[0m
+[32m    ✅ KEEP: S.V. Krishna Reddy (celeb-s-v-krishna-reddy)[0m
+[37m    🗑️  Deleted: S. V. Krishna Reddy (celeb-s-v-krishna-reddy)[0m
+
+[33m  Same TMDB ID: 1386112[0m
+[32m    ✅ KEEP: Sai Dharam Tej (celeb-sai-dharam-tej)[0m
+[37m    🗑️  Deleted: Sai Durgha Tej (celeb-sai-durgha-tej)[0m
+
+[33m  Same TMDB ID: 225312[0m
+[32m    ✅ KEEP: Samantha (celeb-samantha)[0m
+[37m    🗑️  Deleted: Samantha Ruth Prabhu (samantha)[0m
+
+[33m  Same TMDB ID: 2984931[0m
+[32m    ✅ KEEP: Shantipriya (celeb-shantipriya)[0m
+[37m    🗑️  Deleted: Shanthi Priya (null)[0m
+
+[33m  Same TMDB ID: 582183[0m
+[32m    ✅ KEEP: Sivaji (celeb-sivaji)[0m
+[37m    🗑️  Deleted: Sivaji Ganesan (celeb-sivaji-ganesan)[0m
+
+[33m  Same TMDB ID: 1107021[0m
+[32m    ✅ KEEP: Sreenu Vaitla (celeb-sreenu-vaitla)[0m
+[37m    🗑️  Deleted: Srinu Vaitla (celeb-srinu-vaitla)[0m
+
+[33m  Same TMDB ID: 1201818[0m
+[32m    ✅ KEEP: Suman (celeb-suman)[0m
+[37m    🗑️  Deleted: Sumanth Ashwin (celeb-sumanth-ashwin)[0m
+
+[33m  Same TMDB ID: 583972[0m
+[32m    ✅ KEEP: Vanisri (celeb-vanisri)[0m
+[37m    🗑️  Deleted: Vanisree (vanisree)[0m
+
+[33m  Same IMDb ID: nm0004630[0m
+[32m    ✅ KEEP: Kodandarami Reddy (celeb-kodandarami-reddy)[0m
+[37m    🗑️  Deleted: Kodanda Rami Reddy (celeb-kodanda-rami-reddy)[0m
+[37m    🗑️  Deleted: A Kodandarami Reddy (celeb-a-kodandarami-reddy)[0m
+
+[33m  Same IMDb ID: nm4925980[0m
+[32m    ✅ KEEP: Aadi (celeb-aadi)[0m
+[37m    🗑️  Deleted: Aadi Saikumar (celeb-aadi-saikumar)[0m
+
+[33m  Same IMDb ID: nm0004463[0m
+[32m    ✅ KEEP: Akkineni Nageswara Rao (akkineni-nageswara-rao)[0m
+[37m    🗑️  Deleted: Nageshwara Rao Akkineni (celeb-nageshwara-rao-akkineni)[0m
+
+[33m  Same IMDb ID: nm1084853[0m
+[32m    ✅ KEEP: Allu (celeb-allu)[0m
+[37m    🗑️  Deleted: Allu Arjun (allu-arjun)[0m
+
+[33m  Same IMDb ID: nm0893142[0m
+[32m    ✅ KEEP: Daggubati Venkatesh (celeb-daggubati-venkatesh)[0m
+[37m    🗑️  Deleted: Venkatesh (celeb-52cf4ded)[0m
+
+[33m  Same IMDb ID: nm0707362[0m
+[32m    ✅ KEEP: Rajasekhar (celeb-rajasekhar)[0m
+[37m    🗑️  Deleted: Dr. Rajasekhar (celeb-dr-rajasekhar)[0m
+
+[33m  Same IMDb ID: nm0004466[0m
+[32m    ✅ KEEP: E.V.V. Satyanarayana (celeb-e-v-v-satyanarayana)[0m
+[37m    🗑️  Deleted: E. V. V. Satyanarayana (null)[0m
+
+[33m  Same IMDb ID: nm0045075[0m
+[32m    ✅ KEEP: Jagapathi Babu (celeb-jagapathi-babu)[0m
+[37m    🗑️  Deleted: Jagapati Babu (celeb-jagapati-babu)[0m
+
+[33m  Same IMDb ID: nm0417386[0m
+[32m    ✅ KEEP: Jandhyala (celeb-jandhyala)[0m
+[37m    🗑️  Deleted: Jandhyala Subramanya Sastry (celeb-jandhyala-subramanya-sastry)[0m
+
+[33m  Same IMDb ID: nm0412883[0m
+[32m    ✅ KEEP: Jayalalitha (celeb-jayalalitha)[0m
+[37m    🗑️  Deleted: Jayalalithaa (celeb-jayalalithaa)[0m
+
+[33m  Same IMDb ID: nm0004467[0m
+[32m    ✅ KEEP: Satyanarayana (celeb-satyanarayana)[0m
+[37m    🗑️  Deleted: Kaikala Satyanarayana (celeb-kaikala-satyanarayana)[0m
+
+[33m  Same IMDb ID: nm0004417[0m
+[32m    ✅ KEEP: N.T. Rama Rao (celeb-n-t-rama-rao)[0m
+[37m    🗑️  Deleted: T. Rama Rao (celeb-t-rama-rao)[0m
+
+[33m  Same IMDb ID: nm3611091[0m
+[32m    ✅ KEEP: Rohit (celeb-rohit)[0m
+[37m    🗑️  Deleted: Nara Rohit (celeb-nara-rohit)[0m
+
+[33m  Same IMDb ID: nm0471447[0m
+[32m    ✅ KEEP: Ramya Krishna (celeb-ramya-krishna)[0m
+[37m    🗑️  Deleted: Ramya Krishnan (celeb-ramya-krishnan)[0m
+
+[33m  Same IMDb ID: nm0007161[0m
+[32m    ✅ KEEP: S.V. Krishna Reddy (celeb-s-v-krishna-reddy)[0m
+[37m    🗑️  Deleted: S. V. Krishna Reddy (celeb-s-v-krishna-reddy)[0m
+
+[33m  Same IMDb ID: nm0304262[0m
+[32m    ✅ KEEP: Sivaji (celeb-sivaji)[0m
+[37m    🗑️  Deleted: Sivaji Ganesan (celeb-sivaji-ganesan)[0m
+
+[33m  Same IMDb ID: nm5896360[0m
+[32m    ✅ KEEP: Suman (celeb-suman)[0m
+[37m    🗑️  Deleted: Sumanth Ashwin (celeb-sumanth-ashwin)[0m
+
+[33m  Similar names (100% match)[0m
+[32m    ✅ KEEP: C. S. Rao (celeb-c-s-rao)[0m
+[37m    🗑️  Deleted: C.S. Rao (celeb-c-s-rao)[0m
+
+[33m  Similar names (96% match)[0m
+[32m    ✅ KEEP: Kamalakara Kameshwara Rao (celeb-kamalakara-kameshwara-rao)[0m
+[37m    🗑️  Deleted: Kamalakara Kameswara Rao (celeb-kamalakara-kameswara-rao)[0m
+
+[36m[1m╔═══════════════════════════════════════════════════════════════════════╗[0m[0m
+[36m[1m║                        CLEANUP COMPLETE                                ║[0m[0m
+[36m[1m╚═══════════════════════════════════════════════════════════════════════╝
+[0m[0m
+[32m  ✅ Profiles deleted: 63[0m
+
+[36m[1m  🚀 NEXT STEPS:
+[0m[0m
+[37m  1. Re-run duplicate audit: npx tsx scripts/audit-duplicate-celebrities.ts[0m
+[37m  2. Verify cleanup was successful[0m
+[37m  3. Proceed with enrichment: npx tsx scripts/enrich-minimal-profiles.ts
+[0m

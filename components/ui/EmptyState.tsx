@@ -259,7 +259,7 @@ export function NoMoviesFound({
   return (
     <EmptyState
       variant="movies"
-      action={showBrowse ? { label: 'Browse all movies', href: '/reviews' } : undefined}
+      action={showBrowse ? { label: 'Browse all movies', href: '/movies' } : undefined}
     />
   );
 }

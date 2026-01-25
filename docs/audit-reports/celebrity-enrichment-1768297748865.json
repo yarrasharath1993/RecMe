@@ -1,0 +1,2076 @@
+{
+  "timestamp": "2026-01-13T09:49:08.865Z",
+  "mode": "execute",
+  "summary": {
+    "successful": 295,
+    "failed": 0,
+    "totalFields": 3580
+  },
+  "results": [
+    {
+      "celebrityId": "bd03d4e0-7ac8-46d0-be57-956c3fc0f048",
+      "name": "Aadi",
+      "slug": "celeb-aadi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3c8c9b48-081b-4839-8866-3adad4d9b47a",
+      "name": "Aadi Saikumar",
+      "slug": "celeb-aadi-saikumar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "13c0381f-afc9-4947-bb98-b8706166a6ac",
+      "name": "Aamani",
+      "slug": "celeb-aamani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b1ea7116-8403-4044-a23c-84edcb963146",
+      "name": "Abbas",
+      "slug": "celeb-abbas",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "8d6e0f82-63bf-411d-841c-da28ef95a243",
+      "name": "Adivi Sesh",
+      "slug": "celeb-adivi-sesh",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "fe7d9533-23cc-49e0-aea4-c3c967c55626",
+      "name": "Adurthi Subba Rao",
+      "slug": "celeb-adurthi-subba-rao",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ed29fc31-a5fc-4072-b086-b9f4750599d8",
+      "name": "Aishwarya Rai Bachchan",
+      "slug": "aishwarya-rai-bachchan",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d6e855cd-0052-4bbb-8edb-9474ef269a7d",
+      "name": "Ajay",
+      "slug": "celeb-ajay",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "7ea66985-c6f8-4f52-a51b-1dc9fd3f184d",
+      "name": "Akkineni Nagarjuna",
+      "slug": "akkineni-nagarjuna",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "32a99a11-86be-4afa-a0e6-ce18c6ce3eea",
+      "name": "Akkineni Nageswara Rao",
+      "slug": "akkineni-nageswara-rao",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "4287391f-f22b-454d-9d04-f41951af6cfe",
+      "name": "Ali",
+      "slug": "celeb-ali",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "aa01e8d6-17e9-458d-9ca9-ea5519ba558c",
+      "name": "Allari Naresh",
+      "slug": "allari-naresh",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "fa67cbeb-adcc-49e1-9418-77e29ddc0aac",
+      "name": "Allu",
+      "slug": "celeb-allu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "e772a33c-504c-47f1-b723-ea9a47869638",
+      "name": "Allu Arjun",
+      "slug": "allu-arjun",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "02eb7a20-8f3c-4bfa-abc3-d29fd781ab68",
+      "name": "Allu Rama Lingaiah",
+      "slug": "celeb-allu-rama-lingaiah",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2cffc92c-3c92-4aca-9278-ecac6adc1d94",
+      "name": "Amala",
+      "slug": "celeb-amala",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5cc0bf8b-1e64-4dcd-9323-a431403c8102",
+      "name": "Amala Akkineni",
+      "slug": "celeb-amala-akkineni",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d6129eda-5c55-4f0c-b49f-27581d268589",
+      "name": "Anil Ravipudi",
+      "slug": "celeb-anil-ravipudi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "705b822f-216f-486e-964f-24109b906846",
+      "name": "Anjali",
+      "slug": "celeb-anjali",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "130a4f9c-be79-4127-b5f9-1893d86fd243",
+      "name": "Anjali Devi",
+      "slug": "anjali-devi",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "a8d89a9d-3473-4e4a-877a-3bd05d91c8fa",
+      "name": "Anupama Parameswaran",
+      "slug": "celeb-anupama-parameswaran",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f8fbb90c-42f5-482f-8f35-127c92701517",
+      "name": "Anushka Shetty",
+      "slug": "anushka-shetty",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "0584ecd1-d1b0-4171-9df2-d8123e00dd3e",
+      "name": "Archana",
+      "slug": "celeb-archana",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "2f114413-4da7-4620-8268-131f25ccc599",
+      "name": "Arjun",
+      "slug": "celeb-arjun",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "546d92b5-c541-4231-9758-d1933cc80619",
+      "name": "Arjun Sarja",
+      "slug": "celeb-arjun-sarja",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "09bb3e36-94a5-4372-9f44-0c6ac875bb0d",
+      "name": "Ashwini",
+      "slug": "celeb-ashwini",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "96de82fe-8131-4a92-89bf-62c4f7e4e25a",
+      "name": "Avika Gor",
+      "slug": "celeb-avika-gor",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "1c01255a-ae10-4035-8ec7-22f485487955",
+      "name": "B",
+      "slug": "celeb-b",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "529e301a-be7d-4c5e-b1a6-f21f83d65b2f",
+      "name": "B. Gopal",
+      "slug": "celeb-b-gopal",
+      "success": true,
+      "fieldsUpdated": 8
+    },
+    {
+      "celebrityId": "d4b45e2b-17cd-41f1-baf8-951e804c800a",
+      "name": "B. S. Ranga",
+      "slug": "celeb-b-s-ranga",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "52cc1c29-8098-4faa-bccc-a55f48e63f26",
+      "name": "B. V. Prasad",
+      "slug": "celeb-b-v-prasad",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "53654ac4-e4d1-4cf7-bdb4-fc7754b02c22",
+      "name": "B. Vittalacharya",
+      "slug": "celeb-b-vittalacharya",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "651bdc5e-6b8e-48b9-801a-4ae5a5064ade",
+      "name": "Bapu",
+      "slug": "celeb-bapu",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "31bdaa59-58db-4690-ad84-6dcaa7386044",
+      "name": "Bhagyaraj",
+      "slug": "celeb-bhagyaraj",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b89cc71e-0cea-4446-ada4-ba6852e48f50",
+      "name": "Bhanumathi",
+      "slug": "celeb-bhanumathi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "620b9295-b4a0-49a8-9472-44acf417063b",
+      "name": "Bhanupriya",
+      "slug": "celeb-bhanupriya",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "c0831f5d-31da-43e0-b63e-cf884b9dd196",
+      "name": "Bharathiraja",
+      "slug": "celeb-bharathiraja",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d6c9a466-cd85-4d15-8ba3-dd545259fb30",
+      "name": "Bhaskar",
+      "slug": "celeb-bhaskar",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "7b5f9f0b-1fbe-4fdf-887c-5ae37a8842e6",
+      "name": "Bhavana",
+      "slug": "celeb-bhavana",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "0556cd81-751e-4646-a6c5-9caa098c4d71",
+      "name": "Bhimaneni Srinivasa Rao",
+      "slug": "celeb-bhimaneni-srinivasa-rao",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "c0ec6ab9-7c0a-42ec-a470-e96790de3452",
+      "name": "Bhumika Chawla",
+      "slug": "celeb-bhumika-chawla",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "8adae272-e7c4-4e48-94fc-d5f047c023ba",
+      "name": "Boyapati Srinu",
+      "slug": "celeb-boyapati-srinu",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "27cb5d8e-40a1-4f5d-847e-da4c3f3c0fc2",
+      "name": "Brahmanandam",
+      "slug": "celeb-brahmanandam",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "10b081ba-0472-4394-95ab-ba10e5078e23",
+      "name": "C. Pullaiah",
+      "slug": "celeb-c-pullaiah",
+      "success": true,
+      "fieldsUpdated": 8
+    },
+    {
+      "celebrityId": "da6ce938-b660-4ad9-ad23-ebd8b91a9dda",
+      "name": "C. S. Rao",
+      "slug": "celeb-c-s-rao",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "0a022e7f-f8cb-4e3c-9ac5-c16bd85e16d3",
+      "name": "C.S. Rao",
+      "slug": "celeb-c-s-rao",
+      "success": true,
+      "fieldsUpdated": 8
+    },
+    {
+      "celebrityId": "7b4239ee-a744-4591-9b04-4e8609627e7b",
+      "name": "Chandra Mohan",
+      "slug": "celeb-chandra-mohan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "c88e5465-7d8d-4562-9dee-dccef0cd387d",
+      "name": "Charmy Kaur",
+      "slug": "celeb-charmy-kaur",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "fba63e11-4734-4978-9b91-dbc283e44e97",
+      "name": "Chiranjeevi",
+      "slug": "chiranjeevi",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "8cc00892-b70f-4e5c-a0bc-44b2a4ec36fa",
+      "name": "D. Yoganand",
+      "slug": "celeb-d-yoganand",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ceb2c247-5c54-4283-959b-dc3f394d9c09",
+      "name": "Daggubati Venkatesh",
+      "slug": "celeb-daggubati-venkatesh",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "68a66ece-2950-4b95-bf07-9927b8390198",
+      "name": "Dasari Narayana Rao",
+      "slug": "celeb-dasari-narayana-rao",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "6072bc40-d9fc-486a-8a8b-e011e64f1f2e",
+      "name": "Devika",
+      "slug": "celeb-devika",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "602a3f4c-b9b0-4375-a126-05d73bfa1f24",
+      "name": "Dr. Rajasekhar",
+      "slug": "celeb-dr-rajasekhar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "99d3418b-fd62-4780-bd11-a83335b93ed7",
+      "name": "Dulquer Salmaan",
+      "slug": "celeb-dulquer-salmaan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ec8d245c-7c81-41c5-93f9-d0a458d2b8a8",
+      "name": "E. V. V. Satyanarayana",
+      "slug": null,
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "25f2f198-b386-463a-87d4-61655dbe088d",
+      "name": "E.V.V. Satyanarayana",
+      "slug": "celeb-e-v-v-satyanarayana",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "5b935836-a358-4fc9-b13e-9cb9a69adbb3",
+      "name": "G. Nageswara Reddy",
+      "slug": "celeb-g-nageswara-reddy",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "332637ad-fd8a-42e1-8456-d376c524e633",
+      "name": "Gajala",
+      "slug": "celeb-gajala",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "3f4209dd-9f58-4154-997d-3f6482b29481",
+      "name": "Gautami",
+      "slug": "celeb-gautami",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "f03bcdf3-d955-4c46-8d7e-e4fd9ebac0ec",
+      "name": "Gautham Vasudev Menon",
+      "slug": "celeb-gautham-vasudev-menon",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "8080141d-96d1-4f39-8b78-602b5eb7c284",
+      "name": "Geetha",
+      "slug": "celeb-geetha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2b6e7c09-211a-4334-88da-306f87a3f3ba",
+      "name": "Genelia D'Souza",
+      "slug": "genelia-dsouza",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "8ac49582-689e-4a28-9171-2896ced9db07",
+      "name": "Ghantasala Balaramayya",
+      "slug": "celeb-ghantasala-balaramayya",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "58936790-e107-4b42-90f9-ce0b1adf6c59",
+      "name": "Gopichand",
+      "slug": "celeb-gopichand",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "714c98de-d98a-4bf5-81ca-5d3f685c26ff",
+      "name": "Gummadi",
+      "slug": "gummadi",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "0cb341e9-bd88-4a9c-8671-6a32637d8865",
+      "name": "Gunasekhar",
+      "slug": "celeb-gunasekhar",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "4f6d625d-66e2-4e8d-aaa0-cf59237f1cc6",
+      "name": "Hansika Motwani",
+      "slug": "celeb-hansika-motwani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "51b6f8e3-ed50-4a73-b925-04f90747603f",
+      "name": "Harish Shankar",
+      "slug": "celeb-harish-shankar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "11658b97-9078-43f6-9604-cdd3dfe8e2ad",
+      "name": "Hebah Patel",
+      "slug": "celeb-hebah-patel",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "475e98d7-6bbf-4ea0-a45d-58d4a880ebd8",
+      "name": "Ileana D'Cruz",
+      "slug": "celeb-ileana-d-cruz",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "a988384c-7d13-439f-a8c4-123c10458d3e",
+      "name": "J. D. Chakravarthi",
+      "slug": "celeb-j-d-chakravarthi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ed2aaa80-0f2b-4977-b1fb-bd3a8f0030f6",
+      "name": "Jagapathi Babu",
+      "slug": "celeb-jagapathi-babu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "a9caaf6b-8425-48bd-b32a-786cf908f018",
+      "name": "Jagapati Babu",
+      "slug": "celeb-jagapati-babu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "680ebff5-78e7-4aca-8815-374583bc9069",
+      "name": "Jaggayya",
+      "slug": "jaggayya",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "4b60e07d-29d9-43bc-ac6c-7ca009490bba",
+      "name": "Jamuna",
+      "slug": "jamuna",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "c293135b-e402-4667-ad0a-280f44a04910",
+      "name": "Janaki",
+      "slug": "celeb-janaki",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "265f1268-e5e4-4836-a9f7-436c86a237fe",
+      "name": "Jandhyala",
+      "slug": "celeb-jandhyala",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "43d45481-b2fc-4a9f-a07d-5b27e0ce91c4",
+      "name": "Jandhyala Subramanya Sastry",
+      "slug": "celeb-jandhyala-subramanya-sastry",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "9144620f-4abd-4ba6-a713-494ea336cf76",
+      "name": "Jaya Prada",
+      "slug": "jaya-prada",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "3e18a500-ed87-4122-9fc4-7a54dce3bb82",
+      "name": "Jayalalitha",
+      "slug": "celeb-jayalalitha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2839233f-e743-4949-99f6-0f7704899710",
+      "name": "Jayalalithaa",
+      "slug": "celeb-jayalalithaa",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "eb1d793d-149d-4bb9-ab9f-79a5da01d892",
+      "name": "Jayasudha",
+      "slug": "jayasudha",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "78800c0b-6a24-4b65-be8d-abb948158c34",
+      "name": "Jeeva",
+      "slug": "celeb-jeeva",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "daf7dc6e-c045-4f9b-b9e7-5233655e3393",
+      "name": "K",
+      "slug": "celeb-k",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "aefdd1b5-016c-43f8-ac19-c1cb18fbc061",
+      "name": "K. Balachander",
+      "slug": null,
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "89c96b26-0714-4066-a5cb-1b8cc916af5a",
+      "name": "K. Bapayya",
+      "slug": "celeb-k-bapayya",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "39c99f78-e266-4449-8f00-1dbc4190c455",
+      "name": "K. Raghavendra Rao",
+      "slug": "celeb-k-raghavendra-rao",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "6a903db0-b953-48e2-ace3-c370a3653386",
+      "name": "K. S. R. Das",
+      "slug": "celeb-k-s-r-das",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "4093b4eb-2453-4cca-a7e1-bb7f154344b1",
+      "name": "K. Vasu",
+      "slug": "celeb-k-vasu",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "4ddfd7a7-5746-4411-8e54-9eb527b8969b",
+      "name": "K. Vijaya Bhaskar",
+      "slug": "celeb-k-vijaya-bhaskar",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "79a2bf18-9024-4e08-85c3-843252eef4af",
+      "name": "K. Viswanath",
+      "slug": "celeb-k-viswanath",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "a6215fa5-680b-4b0b-afcd-0e43accadbea",
+      "name": "K.S.R. Das",
+      "slug": "celeb-k-s-r-das",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "291b42c7-3839-4ef0-afa4-6cfbf6afb070",
+      "name": "Kaikala Satyanarayana",
+      "slug": "celeb-kaikala-satyanarayana",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "fb3c6051-45a8-4857-adc9-77fdd5b7cc45",
+      "name": "Kajal Aggarwal",
+      "slug": "kajal-aggarwal",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "a4282e8a-e09f-48e9-a982-6f68c4f784c7",
+      "name": "Kalyani",
+      "slug": "celeb-kalyani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "7890f100-d9c8-40d5-b8bf-25c17bb63c08",
+      "name": "Kamal Haasan",
+      "slug": "celeb-kamal-haasan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bd844067-63a6-4ae3-947d-301fc42977fc",
+      "name": "Kanchana",
+      "slug": "kanchana",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "441f3f10-b379-44e1-9891-e739fe6c0752",
+      "name": "Kanta Rao",
+      "slug": "kanta-rao",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3eb313ba-73b2-47ae-997e-1617cebcd95d",
+      "name": "Karthik",
+      "slug": "celeb-karthik",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "6663a53b-0dfa-4b4b-932a-c43aafb6f9a4",
+      "name": "Kaveri",
+      "slug": "celeb-kaveri",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "2e87fcea-b3f1-4102-81d3-783754b1defb",
+      "name": "Keerthy Suresh",
+      "slug": "celeb-keerthy-suresh",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "31b4830f-c402-4554-9178-607b8df92579",
+      "name": "Kiran Abbavaram",
+      "slug": "celeb-kiran-abbavaram",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9f7a6c1d-c515-4062-9436-ae170cc37094",
+      "name": "Kodanda Rami Reddy",
+      "slug": "celeb-kodanda-rami-reddy",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b15157d0-e667-4be8-b470-eb6955a9b3c6",
+      "name": "Kodandarami Reddy",
+      "slug": "celeb-kodandarami-reddy",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "4ede5acc-b5c9-4d38-8521-70e825f179bc",
+      "name": "Kodi Ramakrishna",
+      "slug": "celeb-kodi-ramakrishna",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "a90577fc-e11a-4857-b948-4a011f1ea0c4",
+      "name": "Kota Srinivasa Rao",
+      "slug": "celeb-kota-srinivasa-rao",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "20f4a875-77a5-41b5-99de-655994552d25",
+      "name": "Kranthi Kumar",
+      "slug": "celeb-kranthi-kumar",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "9be067b1-ac2f-4377-9d54-8b2567135b77",
+      "name": "Krishna",
+      "slug": "celeb-krishna",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f7a572c4-8061-4dfe-9fdc-71d2c2a6fb17",
+      "name": "Krishna Kumari",
+      "slug": "krishna-kumari",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "66071834-3fa8-462b-a411-320bb59ff755",
+      "name": "Krishna Vamsi",
+      "slug": "celeb-krishna-vamsi",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "94ff24d8-d486-4f18-8f53-8c5e84ada8f1",
+      "name": "Krishnam Raju",
+      "slug": "krishnam-raju",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "59b0a93f-6023-413e-8bcf-7833968f5fc2",
+      "name": "L. V. Prasad",
+      "slug": "celeb-l-v-prasad",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "f476c584-c5f2-415c-bb6a-9267e823870e",
+      "name": "Lakshmi",
+      "slug": "celeb-lakshmi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "970fb15a-4255-4d0f-a757-a8948964e95a",
+      "name": "Lakshmi Manchu",
+      "slug": "celeb-lakshmi-manchu",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "232289ed-c353-451a-b977-72d85042e629",
+      "name": "Latha",
+      "slug": "celeb-latha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "970abeb7-6557-4809-8c24-d692543ad049",
+      "name": "Lavanya Tripathi",
+      "slug": "celeb-lavanya-tripathi",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "45effd62-5135-4007-afc4-97902483ee09",
+      "name": "Laya",
+      "slug": "celeb-laya",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "5ace7eda-ca6b-4f66-a7c8-69726b5f4850",
+      "name": "M. Mallikarjuna Rao",
+      "slug": "celeb-m-mallikarjuna-rao",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "dc4de1c4-cf30-446f-bd52-cf0ba5db73b0",
+      "name": "Madhavi",
+      "slug": "celeb-madhavi",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "90bc1f94-8acc-4b65-b418-7ce938b24613",
+      "name": "Mahesh Babu",
+      "slug": "mahesh-babu",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "610da989-c3e0-4e77-82c8-8e62d099cb36",
+      "name": "Maheswari",
+      "slug": "celeb-maheswari",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "4b7be7e4-ebb6-47e7-ab75-0fd4d3cace2a",
+      "name": "Mamta Mohandas",
+      "slug": "celeb-mamta-mohandas",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "50a14a99-3906-415e-b1b4-73b2401f3e03",
+      "name": "Manchu Manoj",
+      "slug": "celeb-manchu-manoj",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "1741f482-6164-4a21-8346-a936ade8130f",
+      "name": "Manjula",
+      "slug": "manjula",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "b7a7c9a1-5fb6-4a89-9812-6f29e1be7ca6",
+      "name": "Meena",
+      "slug": "celeb-meena",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "de0836d5-5de3-48a5-9f5c-f527a99faa54",
+      "name": "Meera Jasmine",
+      "slug": "celeb-meera-jasmine",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "664bb028-5ec4-4cf2-bf8f-6384e2163ad6",
+      "name": "Mehreen Pirzada",
+      "slug": "celeb-mehreen-pirzada",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "927cbc10-435f-44ba-bb85-83af82be4b9e",
+      "name": "Mohan Babu",
+      "slug": "mohan-babu",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "b12e4bb5-741b-43cf-bb50-978848a781a4",
+      "name": "Mouli",
+      "slug": "celeb-mouli",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "17722446-ba4a-4f87-b2f2-76ff0b188376",
+      "name": "Muppalaneni Shiva",
+      "slug": "celeb-muppalaneni-shiva",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "dc37413d-8468-402f-a6c9-5ceec8b7e53c",
+      "name": "Murali Mohan",
+      "slug": "celeb-murali-mohan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "df84cb5c-4468-4e1b-8d02-b3c79086765a",
+      "name": "Muthyala Subbaiah",
+      "slug": "celeb-muthyala-subbaiah",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "2066cd3d-60ec-46b2-86f0-eb4c50b2253a",
+      "name": "N.T. Rama Rao",
+      "slug": "celeb-n-t-rama-rao",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5e9bdc8d-63f8-4007-93dc-e03824a243cf",
+      "name": "N.T. Rama Rao Jr.",
+      "slug": "celeb-n-t-rama-rao-jr-",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "897235a0-45a8-4bb0-b2f8-7c869c685d5e",
+      "name": "Naga Chaitanya Akkineni",
+      "slug": "celeb-naga-chaitanya-akkineni",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9b3fba37-c96b-4407-89d3-0e329eaa0b9a",
+      "name": "Naga Shaurya",
+      "slug": "celeb-naga-shaurya",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b4262f0a-ab14-4797-abba-12ce1cf1b8d6",
+      "name": "Nageshwara Rao Akkineni",
+      "slug": "celeb-nageshwara-rao-akkineni",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9997815d-971d-4218-b8a4-e505b79f97c9",
+      "name": "Nagma",
+      "slug": "celeb-nagma",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3ad49413-6108-4a24-bd28-eda241ac7245",
+      "name": "Nandamuri Balakrishna",
+      "slug": "celeb-nandamuri-balakrishna",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bfe3c4b0-3a0f-4cf6-a2c6-cc5c712f00a9",
+      "name": "Nandamuri Kalyan Ram",
+      "slug": "celeb-nandamuri-kalyan-ram",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "c534f4da-8251-4131-ac24-3d876579ef9e",
+      "name": "Nandita Swetha",
+      "slug": "celeb-nandita-swetha",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "c4421d93-fc48-4478-87dd-7d92e52addcf",
+      "name": "Nandu",
+      "slug": "celeb-nandu",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "efb3d1b5-e094-426c-9a3c-fcad85f7e5c7",
+      "name": "Nani",
+      "slug": "celeb-nani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "0d3c270a-908b-4723-b3d7-ea92bfe6411b",
+      "name": "Nara Rohit",
+      "slug": "celeb-nara-rohit",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "fce9c855-cc88-46b9-a97f-1c792aa1c391",
+      "name": "Naresh",
+      "slug": "celeb-naresh",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "76d2574f-9111-4636-9450-ef6de17da9d5",
+      "name": "Navdeep",
+      "slug": "celeb-navdeep",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "adad5587-fe89-4715-8ad5-189ed807636d",
+      "name": "Naveen Chandra",
+      "slug": "celeb-naveen-chandra",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "12b87c86-28ed-46bb-bf16-d5e274000982",
+      "name": "Nayanthara",
+      "slug": "nayanthara",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "7231547e-f604-4b4f-9ff7-61afb68bea75",
+      "name": "Neelakanta",
+      "slug": "celeb-neelakanta",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "3ac9967b-6d28-452b-bb1d-d5e6baa46cf1",
+      "name": "Nikhil Siddhartha",
+      "slug": "celeb-nikhil-siddhartha",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "5947c4f5-1bd3-4227-af5a-cd136033df5b",
+      "name": "Nithiin",
+      "slug": "celeb-nithiin",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5e416b1b-33d2-4047-9d0f-efdc93cc536b",
+      "name": "Nithya Menen",
+      "slug": "celeb-nithya-menen",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "2d95e0a9-5623-442a-8d56-6d4cf96b5cb9",
+      "name": "Ntr",
+      "slug": "celeb-ntr",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "d541ff95-fc21-4840-a763-3075931dedcd",
+      "name": "P. Chandrasekhara Reddy",
+      "slug": "celeb-p-chandrasekhara-reddy",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "4ecaf338-5530-4de5-9b69-d55312d9dfd3",
+      "name": "P. Pullaiah",
+      "slug": "celeb-p-pullaiah",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "057e1833-cf9a-4be7-835a-1f5697236709",
+      "name": "P. Vasu",
+      "slug": "celeb-p-vasu",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "a905db82-7f87-4b86-a99f-2fdab9bdd33c",
+      "name": "Pasupuleti Krishna Vamsi",
+      "slug": "celeb-pasupuleti-krishna-vamsi",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "b6aa8d16-c405-4e81-a19f-d47ef882d5d9",
+      "name": "Pawan Kalyan",
+      "slug": "celeb-pawan-kalyan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b8981075-4475-4234-8283-f1ea3b78312e",
+      "name": "Payal Rajput",
+      "slug": "celeb-payal-rajput",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "da673699-d8ca-46b4-aadb-ae6564cfee16",
+      "name": "Pooja Hegde",
+      "slug": "celeb-pooja-hegde",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "61eee5cb-e4d7-4896-b0fa-984420b35f48",
+      "name": "Poorna",
+      "slug": "celeb-poorna",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bcab4d14-1bdd-478f-9e3d-c0ee7aa8d388",
+      "name": "Poornima",
+      "slug": "celeb-poornima",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "8acb2bba-8212-4e94-a9a2-2997b97e0ead",
+      "name": "Posani Krishna Murali",
+      "slug": "celeb-posani-krishna-murali",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "84fdd97a-8829-45dd-aba6-bbf2b507ece0",
+      "name": "Prabhas",
+      "slug": "prabhas",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "d0160109-2280-45cb-b612-75e8706e69ac",
+      "name": "Prabhu Deva",
+      "slug": "celeb-prabhu-deva",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5cb5507f-b371-4eea-ac04-fc07f7429e1e",
+      "name": "Prakash Raj",
+      "slug": "celeb-prakash-raj",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "38babe21-d89b-4ccc-be5b-4d2d39c48f2b",
+      "name": "Prema",
+      "slug": "celeb-prema",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "bf715203-0ea2-4e5b-b909-299f86c9110a",
+      "name": "Priyamani",
+      "slug": "celeb-priyamani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "577fd197-e131-4ed4-8460-90279c1d078e",
+      "name": "Puri Jagannadh",
+      "slug": "celeb-puri-jagannadh",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "dd4a8fa9-5fb3-44dc-be60-cef4c8a18656",
+      "name": "Pushpavalli",
+      "slug": "celeb-pushpavalli",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "f4aecef4-abaa-4e01-8e21-f8586a201a45",
+      "name": "Raashii Khanna",
+      "slug": "celeb-raashii-khanna",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d5a51be5-5070-48e1-9036-7086d875e496",
+      "name": "Raasi",
+      "slug": "celeb-raasi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2fa996ef-2ae1-408e-ba51-2d127b2cdd71",
+      "name": "Rachana",
+      "slug": "celeb-rachana",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "4b95ca0d-2e27-44a2-bac8-124caca0513c",
+      "name": "Radha",
+      "slug": "celeb-radha",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "97738695-f491-44cd-a54e-112a8d59eea7",
+      "name": "Radhika",
+      "slug": "celeb-radhika",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "f97e7e8c-eb3a-4e7b-8269-fddc50b3e4fe",
+      "name": "Raj Tarun",
+      "slug": "celeb-raj-tarun",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "98e1d48e-717c-44ff-beda-210a6ccfe700",
+      "name": "Raja",
+      "slug": "celeb-raja",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "c95c9f1e-f0dd-453c-b794-56f7d506b457",
+      "name": "Rajani",
+      "slug": "celeb-rajani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9124d7c0-72fd-4f21-ab80-8a35fe1d2d83",
+      "name": "Rajasekhar",
+      "slug": "celeb-rajasekhar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bdd4f448-1c3c-4ced-9641-c80c76de6009",
+      "name": "Rajendra Prasad",
+      "slug": "celeb-rajendra-prasad",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b007a33c-642f-4f0c-95b1-82e578f63205",
+      "name": "Rajinikanth",
+      "slug": "celeb-rajinikanth",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "db88c44a-07dc-4d13-a998-72bb17444293",
+      "name": "Rakul Preet Singh",
+      "slug": "celeb-rakul-preet-singh",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "08a4e8a4-8d99-4508-bfe0-e6d377bc4906",
+      "name": "Ram",
+      "slug": "celeb-ram",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9877433a-4cfb-42dc-ad11-3949246282c9",
+      "name": "Ram Charan",
+      "slug": "ram-charan",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "c3402cb7-d484-4146-b04e-7a36a8fe8cd4",
+      "name": "Ram Gopal Varma",
+      "slug": "celeb-ram-gopal-varma",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "454b072a-3efc-4bff-8e81-fa315758a700",
+      "name": "Ram Pothineni",
+      "slug": "celeb-ram-pothineni",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "e756e016-7d19-4e93-8be8-7a036babec14",
+      "name": "Ramakrishna",
+      "slug": "celeb-ramakrishna",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f70643d8-158d-4cf4-97ee-43ec49f3647a",
+      "name": "Rambha",
+      "slug": "celeb-rambha",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ed0400fb-23c3-4fc8-b945-afb6c51d8f03",
+      "name": "Ramya Krishna",
+      "slug": "celeb-ramya-krishna",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "7b5ad0b1-105a-4a9d-a5f9-1070ce756e28",
+      "name": "Ramya Krishnan",
+      "slug": "celeb-ramya-krishnan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2fdd0fa5-832c-4a34-875b-e3f7813bab45",
+      "name": "Rashmika Mandanna",
+      "slug": "rashmika",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "635f295d-6aa3-4851-a032-197fe52ccd92",
+      "name": "Ravali",
+      "slug": "celeb-ravali",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "8e525658-3bd3-4aee-aeb1-5f4663206242",
+      "name": "Ravi Babu",
+      "slug": "celeb-ravi-babu",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "9ed3ce4f-3ae6-43bd-8808-588421b33792",
+      "name": "Ravi Raja Pinisetty",
+      "slug": "celeb-ravi-raja-pinisetty",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "51ce4504-50d2-45bc-8eaa-1e67cea10812",
+      "name": "Ravi Teja",
+      "slug": "celeb-ravi-teja",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "6bde6742-b23a-4d6d-974b-793037fe6493",
+      "name": "Ravichandran",
+      "slug": null,
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "d36d41bc-b2ef-40f1-85fc-411a2caa101a",
+      "name": "Regina Cassandra",
+      "slug": "celeb-regina-cassandra",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "643e770e-6b92-4809-8309-1775ea11af6f",
+      "name": "Rekha",
+      "slug": "celeb-rekha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "805514eb-eed0-4f1a-99ed-db53392b383d",
+      "name": "Relangi Narasimha Rao",
+      "slug": "celeb-relangi-narasimha-rao",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "821e947e-cbdb-4c8c-81c6-3b87d2a33f26",
+      "name": "Revathi",
+      "slug": "celeb-revathi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "d7dfcf0b-d81e-4507-a827-51e4174a20b3",
+      "name": "Rohit",
+      "slug": "celeb-rohit",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2d16ec3e-c01f-4cb6-9da3-216db7bdfe1e",
+      "name": "Roja",
+      "slug": "celeb-roja",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "69a94c2c-aa3d-41f8-ac96-a674847aa4a5",
+      "name": "S. S. Rajamouli",
+      "slug": "ss-rajamouli",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "b37c432b-117a-4a66-8972-26b7b3042c09",
+      "name": "S. V. Krishna Reddy",
+      "slug": "celeb-s-v-krishna-reddy",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "d4edec92-7691-44a5-ab1b-cb70b68b7c08",
+      "name": "S.V. Krishna Reddy",
+      "slug": "celeb-s-v-krishna-reddy",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "c7332687-3057-4ebf-9c53-7fb84b245923",
+      "name": "Sada",
+      "slug": "celeb-sada",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "fb082c8c-af23-4c11-ae8e-ac622861ea49",
+      "name": "Sagar",
+      "slug": "celeb-sagar",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "10726a73-8d97-41f1-8dbf-f3b5df94aeac",
+      "name": "Sai Kumar",
+      "slug": "celeb-sai-kumar",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "5061b314-e2a5-41af-b399-080d52e8edf0",
+      "name": "Sai Pallavi",
+      "slug": "celeb-sai-pallavi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9261ecea-48fb-4807-8491-1f1b5dd8d164",
+      "name": "Sai Ronak",
+      "slug": "celeb-sai-ronak",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "96b036df-313a-4bd0-b472-1fb35b57b21c",
+      "name": "Samantha",
+      "slug": "celeb-samantha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "cf672a20-e06e-4a26-af72-f1b646f0f750",
+      "name": "Samudra",
+      "slug": null,
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "933077a5-c2f4-4e08-bf3f-b84d78ecf962",
+      "name": "Samuthirakani",
+      "slug": "celeb-samuthirakani",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "e56a739b-c305-4fb6-a24e-f234f2661f92",
+      "name": "Samyuktha",
+      "slug": "samyuktha",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d6da7c64-f7bb-40ab-9dfc-ca086fb7601e",
+      "name": "Santosh Shoban",
+      "slug": "celeb-santosh-shoban",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "a5cff200-ecc6-4355-b6d0-65d76117008c",
+      "name": "Sarath",
+      "slug": "celeb-sarath",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d9d8348b-6e2c-4545-a71d-1aa3db514b27",
+      "name": "Sarath Babu",
+      "slug": "celeb-sarath-babu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "68dfa96d-1d00-43f6-81bc-c871bc84e209",
+      "name": "Satyanarayana",
+      "slug": "celeb-satyanarayana",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "d13dbde6-b9fe-489d-ab56-e6138b022077",
+      "name": "Savitri",
+      "slug": "celeb-savitri",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "6466142a-6557-4489-bfd8-d354654fc3a2",
+      "name": "Sharada",
+      "slug": "sharada",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "5af1f65e-5e35-464a-b63f-f4e411623b5b",
+      "name": "Sharwanand",
+      "slug": "celeb-sharwanand",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "48422519-3ad5-4979-bef9-ffa354e84473",
+      "name": "Shobana",
+      "slug": "celeb-shobana",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "eb36d961-e972-48a0-9466-0fb11af62df9",
+      "name": "Shriya Saran",
+      "slug": "celeb-shriya-saran",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3798c3c6-cfcc-464f-823b-9bd756403112",
+      "name": "Shruti Haasan",
+      "slug": "celeb-shruti-haasan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ed8993d1-8fe9-4d55-9983-e604e9872e08",
+      "name": "Siddharth",
+      "slug": "celeb-siddharth",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "92bb4993-399d-4649-a695-fee27ec2ce55",
+      "name": "Simran",
+      "slug": "celeb-simran",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "1cc56403-bad7-4ea8-a2c6-25574184f00c",
+      "name": "Singeetam Srinivasa Rao",
+      "slug": "celeb-singeetam-srinivasa-rao",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "39032b87-5b87-46f2-80d4-e5d8e33ab798",
+      "name": "Siva",
+      "slug": "celeb-siva",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "72e1b4b8-2b29-4402-a2d6-6c06a68c7252",
+      "name": "Sivaji",
+      "slug": "celeb-sivaji",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ef16114f-6a26-4fab-abe4-6e5514be1f6e",
+      "name": "Sivaji Ganesan",
+      "slug": "celeb-sivaji-ganesan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bd9e9bd1-6eba-40ea-a7ab-1eedebb46ba6",
+      "name": "Sneha",
+      "slug": "celeb-sneha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f63204ee-5d9a-40ed-a706-6edfd0620f84",
+      "name": "Sobhan Babu",
+      "slug": "sobhan-babu",
+      "success": true,
+      "fieldsUpdated": 16
+    },
+    {
+      "celebrityId": "ccbd177b-7b5d-4ee7-b1b8-6c81e1bf0a34",
+      "name": "Soundarya",
+      "slug": "celeb-soundarya",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5217b58e-691e-43ad-8fa5-ab8192ad5f00",
+      "name": "Sree Vishnu",
+      "slug": "celeb-sree-vishnu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "e323f294-06a4-4c7d-99f1-fa49ca165e05",
+      "name": "Sreeleela",
+      "slug": "celeb-sreeleela",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "0d40f232-87e7-48b2-a831-53d9c54479f8",
+      "name": "Sreenu Vaitla",
+      "slug": "celeb-sreenu-vaitla",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ded26c27-8ac9-4b1c-8c4d-b47af81f285a",
+      "name": "Sridevi",
+      "slug": "sridevi",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "d5045b23-8427-4866-a2be-55743c370b54",
+      "name": "Srikanth",
+      "slug": "srikanth",
+      "success": true,
+      "fieldsUpdated": 15
+    },
+    {
+      "celebrityId": "e5c6bffb-45ca-4772-886f-c2cab95dcba9",
+      "name": "Srinivas Avasarala",
+      "slug": "celeb-srinivas-avasarala",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ff6b2c37-84ff-4907-b39b-11e3f029729a",
+      "name": "Srinivasa Reddy",
+      "slug": "celeb-srinivasa-reddy",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "4be7ac8f-4b7c-4dd4-af75-4af175618384",
+      "name": "Sripriya",
+      "slug": "celeb-sripriya",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "cec50341-4725-4076-9216-32b0a6333fd6",
+      "name": "Sudheer Babu",
+      "slug": "celeb-sudheer-babu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "d96548ea-1e32-48b7-87e8-a67f8ed0f67c",
+      "name": "Sudheer Varma",
+      "slug": "celeb-sudheer-varma",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "9931d08c-55c1-41b0-b646-ed45d3ad7572",
+      "name": "Suhas",
+      "slug": "celeb-suhas",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5c7b187a-ced1-43a8-9a3b-c1a8585c35af",
+      "name": "Suhasini",
+      "slug": "celeb-suhasini",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "39da7ce6-a6de-454e-b5ec-b6c0a7f34b23",
+      "name": "Suhasini Maniratnam",
+      "slug": "celeb-suhasini-maniratnam",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "9707a13f-93f0-41ed-bb01-d3f0bc044ea6",
+      "name": "Sujatha",
+      "slug": "celeb-sujatha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "5bf29d5a-9e10-4ffd-99e7-7b1a3f652c02",
+      "name": "Sukumar",
+      "slug": "celeb-sukumar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b29159ae-4ff0-4d7f-812b-19374847fb7b",
+      "name": "Sumalatha",
+      "slug": "celeb-sumalatha",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2498ba80-af97-4cfd-8e03-d031d6b87191",
+      "name": "Suman",
+      "slug": "celeb-suman",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "248254e4-ff6a-4b36-b0d1-fbfc5f6f1bbf",
+      "name": "Sumanth",
+      "slug": "celeb-sumanth",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "4a992d7e-6de8-4395-85be-717a73f31c4c",
+      "name": "Sumanth Ashwin",
+      "slug": "celeb-sumanth-ashwin",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "2218c54d-1652-4b90-810c-4794042930a5",
+      "name": "Sundeep Kishan",
+      "slug": "celeb-sundeep-kishan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ffa417ef-e0a9-4612-8616-8200ea040468",
+      "name": "Sunil",
+      "slug": "celeb-sunil",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "257313e7-84cf-4fda-a5e7-e50173d0331a",
+      "name": "Sunil Varma",
+      "slug": "celeb-sunil-varma",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3120f3e2-b7ec-4ebd-b889-916d6fcf811d",
+      "name": "Suresh",
+      "slug": "celeb-suresh",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "bd0bdd1b-f70f-4e4b-8749-b8ddc435dcab",
+      "name": "Suresh Krissna",
+      "slug": "celeb-suresh-krissna",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "a52ce466-f54d-4e17-8a54-81cd769ad62d",
+      "name": "T. Rama Rao",
+      "slug": "celeb-t-rama-rao",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f3cd6cc2-a6fe-4382-b95d-1a5d5ec45967",
+      "name": "Taapsee Pannu",
+      "slug": "celeb-taapsee-pannu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "f95cc889-6f99-491d-97df-744fd668197f",
+      "name": "Tabu",
+      "slug": "celeb-tabu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "e45e17cb-175e-472c-b70a-2bf7cd69df42",
+      "name": "Tamannaah Bhatia",
+      "slug": "celeb-tamannaah-bhatia",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "8143530b-5d9d-48cd-9333-155ab826cd57",
+      "name": "Tanikella Bharani",
+      "slug": "celeb-tanikella-bharani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "41dd871c-3847-4cad-a665-b28b96de58c9",
+      "name": "Tanish",
+      "slug": "celeb-tanish",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "1c934631-a35a-4a3f-9c38-a70a7964b130",
+      "name": "Tarun",
+      "slug": "celeb-tarun",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "fdb88957-8229-4b84-a711-5bd43e254b34",
+      "name": "Tatineni Prakash Rao",
+      "slug": "celeb-tatineni-prakash-rao",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "db380131-e880-4b5c-a0bd-33e9e3fdb392",
+      "name": "Teja",
+      "slug": "celeb-teja",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "add5a5e8-b134-40bc-ad2a-8b4bdae51ce8",
+      "name": "Trisha",
+      "slug": "celeb-trisha",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "a526cd38-7a84-44f6-b515-b9320484ad2e",
+      "name": "Trisha Krishnan",
+      "slug": "celeb-trisha-krishnan",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "00a817e8-49fb-4374-805e-4bd1ccfa53f6",
+      "name": "Trivikram Srinivas",
+      "slug": "celeb-trivikram-srinivas",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "8611fddc-2efc-4a6e-8de3-f6e223b27815",
+      "name": "Uday Kiran",
+      "slug": "celeb-uday-kiran",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "abe649f2-c137-40ec-97af-a0d454ffd658",
+      "name": "V Madhusudhana Rao",
+      "slug": "celeb-v-madhusudhana-rao",
+      "success": true,
+      "fieldsUpdated": 8
+    },
+    {
+      "celebrityId": "87203689-6c93-4af5-bab6-e8dce7fa105b",
+      "name": "V. Madhusudhan Rao",
+      "slug": "celeb-v-madhusudhan-rao",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "3290d460-ac14-4d6b-bd0b-bcdf611e68e5",
+      "name": "V. Nagayya",
+      "slug": "celeb-v-nagayya",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "befa95db-8c93-418e-aad7-7dab3dbf6a98",
+      "name": "V. V. Vinayak",
+      "slug": "celeb-v-v-vinayak",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "9f8dab33-de2a-4cc9-93a9-ba05548f44bc",
+      "name": "Vamsy",
+      "slug": "celeb-vamsy",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "57ce643a-891e-4cbc-99da-0ca26ba34078",
+      "name": "Vani Viswanath",
+      "slug": "celeb-vani-viswanath",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "343c8f42-04c0-4759-8b0e-16e303966af4",
+      "name": "Vanisri",
+      "slug": "celeb-vanisri",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "4212ef61-4791-4eba-a080-91c683c89bdd",
+      "name": "Varun Sandesh",
+      "slug": "celeb-varun-sandesh",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "f8f27812-1b5b-4975-aec4-26009b737dbf",
+      "name": "Varun Tej",
+      "slug": "celeb-varun-tej",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "8a13f932-e4a8-46aa-ae59-20122bba41b5",
+      "name": "Vedantam Raghavayya",
+      "slug": "celeb-vedantam-raghavayya",
+      "success": true,
+      "fieldsUpdated": 9
+    },
+    {
+      "celebrityId": "bfa022b9-e971-4cda-89bf-23fc3afecf23",
+      "name": "Veera",
+      "slug": null,
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "52cf4ded-32c8-4d0f-9883-5867f252aa78",
+      "name": "Venkatesh",
+      "slug": "celeb-52cf4ded",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "a5bb5527-92f3-4313-89e0-bb0175967c94",
+      "name": "Vennela Kishore",
+      "slug": "celeb-vennela-kishore",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "4964d38c-49f0-4555-b934-12def4a66bfd",
+      "name": "Venu",
+      "slug": "celeb-venu",
+      "success": true,
+      "fieldsUpdated": 11
+    },
+    {
+      "celebrityId": "9f230110-e228-4ce4-98a5-c52760be3ed6",
+      "name": "Vijay Deverakonda",
+      "slug": "vijay-deverakonda",
+      "success": true,
+      "fieldsUpdated": 14
+    },
+    {
+      "celebrityId": "70d69290-cf03-4a6d-b888-d03f3919d045",
+      "name": "Vijaya Bapineedu",
+      "slug": "celeb-vijaya-bapineedu",
+      "success": true,
+      "fieldsUpdated": 10
+    },
+    {
+      "celebrityId": "d5291f8f-e0c0-4263-99ad-5d7dc511cb28",
+      "name": "Vijaya Nirmala",
+      "slug": "vijaya-nirmala",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "a55f879f-ccb2-4fd4-8433-f8380dca2292",
+      "name": "Vijayashanti",
+      "slug": "celeb-vijayashanti",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "a19d62c4-0ba4-4793-a5ea-6fd666348882",
+      "name": "Vikram",
+      "slug": "celeb-vikram",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b0f8fb89-47b1-4311-a1fd-c863e4a268aa",
+      "name": "Vineeth",
+      "slug": "celeb-vineeth",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "ae01e5b2-7220-48c6-b2f9-66d4c21be4ba",
+      "name": "Vishnu",
+      "slug": "celeb-vishnu",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "e295076a-0eea-476e-bba8-de12c715d6bf",
+      "name": "Vishnu Manchu",
+      "slug": "celeb-vishnu-manchu",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "aaefee4d-eed3-4fa2-8fdd-d6a8bd91f326",
+      "name": "Vishwak Sen",
+      "slug": "celeb-vishwak-sen",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "a6100214-cb1f-499f-8265-f05590770f1d",
+      "name": "Yami Gautam Dhar",
+      "slug": "celeb-yami-gautam-dhar",
+      "success": true,
+      "fieldsUpdated": 12
+    }
+  ]
+}

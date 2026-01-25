@@ -27,11 +27,7 @@ export { default as Card, CardHeader, CardBody, CardFooter } from './Card';
 export type { CardProps, CardVariant, CardPadding, CardElevation, CardRadius } from './Card';
 
 export { default as Modal, ModalHeader, ModalBody, ModalFooter } from './Modal';
-export type { ModalProps, ModalSize } from './Modal';
-
-export { Alert } from './Alert';
-export type { AlertProps, AlertSeverity, AlertVariant } from './Alert';
-
-// Existing
+export type { ModalProps, ModalSize } from './Modal';export { Alert } from './Alert';
+export type { AlertProps, AlertSeverity, AlertVariant } from './Alert';// Existing
 export { Badge } from './Badge';
 export { Text } from './Text';

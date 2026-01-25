@@ -1,0 +1,2055 @@
+{
+  "actor": "Allari Naresh",
+  "timestamp": "2026-01-11T15:02:37.863Z",
+  "totalFilms": 49,
+  "filmography": [
+    {
+      "year": 2026,
+      "title": "Alcohol",
+      "slug": "alcohol-2026",
+      "hero": "Allari Naresh",
+      "heroine": "Ruhani Sharma",
+      "director": "Meher Tej",
+      "musicDirector": "Ghibran",
+      "cinematographer": "Jiju Sunny",
+      "editor": "Niranjan Devaramane",
+      "writer": "Meher Tej",
+      "producer": "Suryadevara Naga Vamsi",
+      "tmdbId": 1403166,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Niharika NM",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Satya",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ravindra Vijay",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Raghu Babu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Venkatesh Kakumanu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2025,
+      "title": "12A Railway Colony",
+      "slug": "12a-railway-colony-2025",
+      "hero": "Allari Naresh",
+      "heroine": "Sai Kumar",
+      "director": "Nani Kasaragadda",
+      "musicDirector": "Bheems Ceciroleo",
+      "cinematographer": "Kushedar Ramesh Reddy",
+      "editor": "Nani Kasaragadda",
+      "writer": "Anil Viswanath",
+      "producer": "Srinivasaa Chitturi",
+      "tmdbId": 1450340,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kamakshi Bhaskarla",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Harsha Chemudu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Getup Srinu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Saddam",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Gagaan Viharri",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2024,
+      "title": "Bachhala Malli",
+      "slug": "bachhala-malli-2024",
+      "hero": "Allari Naresh",
+      "heroine": "Amritha Aiyer",
+      "director": "Subbu Mangadevi",
+      "musicDirector": "Vishal Chandrasekhar",
+      "cinematographer": "Richard M. Nathan",
+      "editor": "Chota K. Prasad",
+      "writer": "Subbu Mangadevi",
+      "producer": "Razesh Danda",
+      "tmdbId": 1399790,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Hari Teja",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rohini",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rao Ramesh",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sai Kumar",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Achyuth Kumar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2024,
+      "title": "Aa Okkati Adakku",
+      "slug": "aa-okkati-adakku-2024",
+      "hero": "Allari Naresh",
+      "heroine": "Faria Abdullah",
+      "director": "Malli Ankam",
+      "musicDirector": "Gopi Sundar",
+      "cinematographer": "Suryaa Teja Musunuru",
+      "editor": "Chota K. Prasad",
+      "writer": "Malli Ankam",
+      "producer": "Rajiv Chilaka",
+      "tmdbId": 1282465,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jamie Lever",
+          "role": "Devi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ravi Krishna",
+          "role": "Subramanyam \"Subbu\"",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kalpalatha",
+          "role": "Gana and Subbu's Mother",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Vennela Kishore",
+          "role": "Kishore",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Hari Teja",
+          "role": "Divya",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2023,
+      "title": "Ugram",
+      "slug": "ugram-2023",
+      "hero": "Allari Naresh",
+      "heroine": "Mirnaa",
+      "director": "Vijay Kanakamedala",
+      "musicDirector": "Sricharan Pakala",
+      "cinematographer": "S. J. Siddharth",
+      "editor": "Chota K. Prasad",
+      "writer": "Vijay Kanakamedala",
+      "producer": "Sahu Garapati",
+      "tmdbId": 1069937,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sharath Lohitashwa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Shatru",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Indraja",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Srinivasa Sayee",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Naga Mahesh",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2022,
+      "title": "Itlu Maredumilli Prajaneekam",
+      "slug": "itlu-maredumilli-prajaneekam-2022",
+      "hero": "Allari Naresh",
+      "heroine": "Anandhi",
+      "director": "A. R. Mohan",
+      "musicDirector": "Sricharan Pakala",
+      "cinematographer": "Raam Reddy",
+      "editor": "Chota K. Prasad",
+      "writer": "A. R. Mohan",
+      "producer": "Razesh Danda",
+      "tmdbId": 1030078,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sampath Raj",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Shri Tej",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Vennela Kishore",
+          "role": "Bokka Paramesh [M.A/M.A]",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Praveen",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chammak Chandra",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2021,
+      "title": "Naandhi",
+      "slug": "naandhi-2021",
+      "hero": "Allari Naresh",
+      "heroine": "Varalaxmi Sarathkumar",
+      "director": "Vijay Kanakamedala",
+      "musicDirector": "Sricharan Pakala",
+      "cinematographer": "S. J. Siddharth",
+      "editor": "Chota K. Prasad",
+      "writer": "Toom Venkat",
+      "producer": "Satish Varma",
+      "tmdbId": 797967,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Harish Uthaman",
+          "role": "Kishore",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Priyadarshi Pullikonda",
+          "role": "Radha Prakash",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Praveen",
+          "role": "Santosh",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Devi Prasad",
+          "role": "Surya's Father",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Srikanth Iyengar",
+          "role": "Lawyer Satya Prakash",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2021,
+      "title": "Bangaru Bullodu",
+      "slug": "bangaru-bullodu-2021",
+      "hero": "Allari Naresh",
+      "heroine": "Pooja Jhaveri",
+      "director": "Veligonda Srinivas",
+      "musicDirector": "Sai Karthik",
+      "cinematographer": "Satish Mutyala",
+      "editor": "M. R. Varma",
+      "writer": "Veligonda Srinivas",
+      "producer": ".mw-parser-output .plainlist ol",
+      "tmdbId": 789229,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Tanikella Bharani",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Posani Krishna Murali",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Vennela Kishore",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Bhupal Raju",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2017,
+      "title": "Meda Meeda Abbayi",
+      "slug": "meda-meeda-abbayi-2017",
+      "hero": "Allari Naresh",
+      "heroine": "Nikhila Vimal",
+      "director": "G. Prajith",
+      "musicDirector": "Shaan Rahman",
+      "cinematographer": "Kunjunni S. Kumar",
+      "editor": "Nandamuri Hari",
+      "producer": "Boppana Chandrasekhar",
+      "tmdbId": 474958,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Srinivas Avasarala",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Hyper Adhi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Satyam Rajesh",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Siva Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Jeeva",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2016,
+      "title": "Intlo Deyyam Nakem Bhayam",
+      "slug": "intlo-deyyam-nakem-bhayam-2016",
+      "hero": "Allari Naresh",
+      "heroine": "Kruthika Jayakumar",
+      "director": "G. Nageswara Reddy",
+      "musicDirector": "Sai Karthik",
+      "writer": "G. Nageswara Reddy",
+      "producer": "B. V. S. N. Prasad",
+      "tmdbId": 433673,
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rajendra Prasad",
+          "role": "Gopala Krishna",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "C.I.Balaji",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Chalapathi Rao",
+          "role": "Chalapathi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Jayaprakash Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Prabhas Sreenu",
+          "role": "Seenu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2016,
+      "title": "Selfie Raja",
+      "slug": "selfie-raja-2016",
+      "hero": "Allari Naresh",
+      "heroine": "Sakshi Chaudhary",
+      "director": "G. Nageswara Reddy",
+      "musicDirector": "Sai Karthik",
+      "cinematographer": "Loganathan Srinivasan",
+      "editor": "M. R. Varmaa",
+      "writer": "G. Nageswara Reddy",
+      "producer": "Chalasani Rambrahmam Chowdary",
+      "tmdbId": 430121,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nagineedu Vellanki",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prudhviraj",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Saptagiri",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Thagubothu Ramesh",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "James Bond",
+      "slug": "james-bond-2015",
+      "hero": "Allari Naresh",
+      "heroine": "Rachel Kimsey",
+      "director": "Tyler Gibb",
+      "musicDirector": "Sai Karthik",
+      "editor": "Tyler Gibb",
+      "writer": "Tyler Gibb",
+      "producer": "Ramabrahmam Sunkara",
+      "tmdbId": null,
+      "genres": [
+        "Action",
+        "Animation"
+      ],
+      "supportingCast": [
+        {
+          "name": "Damien C. Haas",
+          "role": "Henry",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gregory Hardigan",
+          "role": "Killjoy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rachel Kimsey",
+          "role": "Charlotte Delille",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Fryda Wolff",
+          "role": "Jess Fitzright",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Mama Manchu Alludu Kanchu",
+      "slug": "mama-manchu-alludu-kanchu-2015",
+      "hero": "Allari Naresh",
+      "heroine": "Mohan Babu",
+      "director": "Srinivas Reddy",
+      "musicDirector": "Raghu Kunche",
+      "cinematographer": "Adusumilli Vijaykumar B. Balamurugan",
+      "editor": "Gautham Raju",
+      "writer": "Srinivasa Reddy",
+      "producer": "Vishnu Manchu",
+      "tmdbId": 401901,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Meena",
+          "role": "Suryakantham",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ramya Krishnan",
+          "role": "Priyamvada",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Poorna",
+          "role": "Shruthi Naidu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Varun Sandesh",
+          "role": "Goutham Naidu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sonia Deepti",
+          "role": "Divya",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Bandipotu",
+      "slug": "bandipotu-2015",
+      "hero": "Allari Naresh",
+      "heroine": "Eesha Rebba",
+      "director": "Mohan Krishna Indraganti",
+      "musicDirector": "Kalyani Malik",
+      "cinematographer": "P. G. Vinda",
+      "editor": "Dharmendra Kakarala",
+      "writer": "Mohana Krishna Indraganti",
+      "producer": "Aryan Rajesh",
+      "tmdbId": 465571,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Ramesh",
+          "role": "Seshagiri",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Posani Krishna Murali",
+          "role": "Bale Babu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Tanikella Bharani",
+          "role": "Makrandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sampoornesh Babu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Srinivas Avasarala",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2014,
+      "title": "Laddu Babu",
+      "slug": "laddu-babu-2014",
+      "hero": "Allari Naresh",
+      "heroine": "Bhumika Chawla",
+      "director": "Ravi Babu",
+      "musicDirector": "Ravi Babu",
+      "cinematographer": "Ravi Babu",
+      "editor": "Marthand K. Venkatesh",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2014,
+      "title": "Jump Jilani",
+      "slug": "jump-jilani-2014",
+      "hero": "Allari Naresh",
+      "heroine": "Isha Chawla",
+      "director": "E.Sattibabu",
+      "musicDirector": "Sundar C",
+      "cinematographer": "Dasaradhi Sivendra",
+      "writer": "Sundar C",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Swathi Deekshith",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2014,
+      "title": "Brother of Bommali",
+      "slug": "brother-of-bommali-2014",
+      "hero": "Allari Naresh",
+      "heroine": "Karthika Nair",
+      "director": "Chinni Krishna",
+      "musicDirector": "Shekar Chandra",
+      "editor": "Gautham Raju",
+      "producer": "Ammiraju Kanumilli",
+      "tmdbId": 307751,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Monal Gajjar",
+          "role": "Shruti",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Harshvardhan Rane",
+          "role": "Harsha",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Vennela Kishore",
+          "role": "Sandeep \"Sandy\"",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2013,
+      "title": "Kevvu Keka",
+      "slug": "kevvu-keka-2013",
+      "hero": "Allari Naresh",
+      "heroine": "Sharmiela Mandre",
+      "director": "Devi Prasad",
+      "musicDirector": "Bheems Ceciroleo",
+      "cinematographer": "Adusumilli Vijay Kumar",
+      "editor": "Hari Nandamuri",
+      "writer": "Devi Prasad",
+      "producer": "Boppana Chandrasekhar",
+      "tmdbId": 225547,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mumaith Khan",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Khayyum",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "M. S. Narayana",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2013,
+      "title": "Action 3D",
+      "slug": "action-3d-2013",
+      "hero": "Allari Naresh",
+      "heroine": "Shaam",
+      "director": "Anil Sunkara",
+      "musicDirector": "Bappi Lahiri",
+      "cinematographer": "Sarvesh Murari",
+      "editor": "M. R. Varmaa",
+      "writer": "Anil Sunkara",
+      "producer": "Rama Brahmam Sunkara",
+      "tmdbId": 224219,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vaibhav",
+          "role": "Shiva",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raju Sundaram",
+          "role": "Purushottam aka Purush",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Magnet Mama",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Neelam Upadhyaya",
+          "role": "Geetha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sneha Ullal",
+          "role": "Sameera",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2012,
+      "title": "Yamudiki Mogudu",
+      "slug": "yamudiki-mogudu-2012",
+      "hero": "Allari Naresh",
+      "heroine": "Richa Panai",
+      "director": "E Sattibabu",
+      "musicDirector": "Allari Naresh",
+      "cinematographer": "Ravindra Babu",
+      "editor": "Gautham Raju",
+      "writer": "Kranthi Reddy Sakinala",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sayaji Shinde",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ramya Krishnan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Naresh",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2012,
+      "title": "Sudigaadu",
+      "slug": "sudigaadu-2012",
+      "hero": "Allari Naresh",
+      "heroine": "Kovai Sarala",
+      "director": "Bhimaneni Srinivasa Rao",
+      "musicDirector": "Sri Vasanth",
+      "producer": "Chandrasekhar D Reddy",
+      "tmdbId": 155738,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Monal Gajjar",
+          "role": "Priya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jayaprakash Reddy",
+          "role": "Thikkal Reddy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Raghu Babu",
+          "role": "Thikkal Reddy's Henchman",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Fish Venkat",
+          "role": "Thikkal Reddy's Henchman",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Raghu Karumanchi",
+          "role": "Thikkal Reddy's Henchman",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2011,
+      "title": "Madatha Kaja",
+      "slug": "madatha-kaja-2011",
+      "hero": "Allari Naresh",
+      "heroine": "Sneha",
+      "director": "Sathyam Bellamkonda",
+      "musicDirector": "Allari Naresh",
+      "cinematographer": "Adusumilli Vijay Kumar",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "Seetaramaraju Dantuluri V Sathish",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Maryam Zakaria",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ashish Vidyarthi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jaya Prakash Reddy",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2011,
+      "title": "Seema Tapakai",
+      "slug": "seema-tapakai-2011",
+      "hero": "Allari Naresh",
+      "heroine": "Poorna",
+      "director": "G. Nageswara Reddy",
+      "musicDirector": "Vandemataram Srinivas",
+      "cinematographer": "Adusumilli Vijay Kumar",
+      "editor": "Kotagiri Venkateswara Rao",
+      "producer": null,
+      "tmdbId": 69925,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sayaji Shinde",
+          "role": "GK (Gurajada Krishnamurthy)",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Melimbangaram",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Vennela Kishore",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Jayaprakash Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "M. S. Narayana",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2011,
+      "title": "Aha Naa Pellanta",
+      "slug": "aha-naa-pellanta-2011",
+      "hero": "Allari Naresh",
+      "heroine": "Ritu Bharmecha",
+      "director": "Veerabhadram",
+      "musicDirector": "Raghu Kunche",
+      "cinematographer": "Loganathan Srinivasan",
+      "writer": "Veerabhadram Chowdary",
+      "producer": "Ramabrahmam Sunkara",
+      "tmdbId": 67902,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Anita Hassanandani Reddy",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Srihari",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Subbaraju",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ahuti Prasad",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Betting Bangarraju",
+      "slug": "betting-bangarraju-2010",
+      "hero": "Allari Naresh",
+      "heroine": "Surekha Vani",
+      "director": "E. Sathi Babu",
+      "musicDirector": "Shekar Chandra",
+      "writer": "Nagaraju Gandham",
+      "producer": "Ramoji Rao",
+      "tmdbId": 77799,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raghu Babu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Giri Babu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Shubhapradham",
+      "slug": "shubhapradham-2010",
+      "hero": "Allari Naresh",
+      "heroine": "Manjari Phadnis",
+      "director": "K. Viswanath",
+      "musicDirector": "K. Viswanath",
+      "cinematographer": "K. Viswanath",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Family",
+        "Comedy"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Kathi Kantha Rao",
+      "slug": "kathi-kantha-rao-2010",
+      "hero": "Allari Naresh",
+      "heroine": "Kamna Jethmalani",
+      "director": "E V V Satyanarayana",
+      "musicDirector": "E. V. V. Satyanarayana",
+      "cinematographer": "E. V. V. Satyanarayana",
+      "editor": "Mallikarjun",
+      "producer": "Allari Naresh",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Romance"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Saradaga Kasepu",
+      "slug": "saradaga-kasepu-2010",
+      "hero": "Allari Naresh",
+      "heroine": "Madhuri Itagi",
+      "director": "Vamsy",
+      "musicDirector": "Vamsy",
+      "writer": "Sankaramanchi",
+      "producer": "Allari Naresh",
+      "tmdbId": 200305,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nyra Banerjee",
+          "role": "Manimala",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ahuti Prasad",
+          "role": "Raja Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jeeva",
+          "role": "Srinivas's dad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Duvvasi Mohan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2009,
+      "title": "Bendu Apparao R.M.P",
+      "slug": "bendu-apparao-r-m-p-2009",
+      "hero": "Allari Naresh",
+      "heroine": "Kamna Jethmalani",
+      "director": "E. V. V. Satyanarayana",
+      "musicDirector": "Koti",
+      "cinematographer": "V. Jayaram",
+      "editor": "Gautham Raju",
+      "writer": "E. V. V. Satyanarayana Veligonda Srinivas  (dialogues)",
+      "producer": "D. Ramanaidu",
+      "tmdbId": 117008,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Meghana Raj",
+          "role": "Gayatri",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Suman Shetty",
+          "role": "Compounder",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Telangana Shakuntala",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Srinivasa Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ahuti Prasad",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Aapada Mokkulavaadu",
+      "slug": "aapada-mokkulavaadu-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Ankita",
+      "director": "Ram Gopal Varma",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Vishaka Express",
+      "slug": "vishaka-express-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Vijayalakshmi",
+      "director": "C. Ramakrishna",
+      "musicDirector": "Vijay Kurakula",
+      "cinematographer": "P.K.H. Das",
+      "editor": "Ravindra Babu",
+      "writer": "Chandra Sekhar Yeleti",
+      "producer": "P. Tulasi Gopal",
+      "tmdbId": 281937,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Preeti Jhangiani",
+          "role": "Suchitra",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sindhu Tolani",
+          "role": "Kokila",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Mohan Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "role": "S.P",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mumaith Khan",
+          "role": "Geetha",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Blade Babji",
+      "slug": "blade-babji-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Hema",
+      "director": "Devi Prasad",
+      "musicDirector": "Koti",
+      "cinematographer": "A. Raja",
+      "editor": "Nandamuri Hari",
+      "writer": "Satish Vegesna",
+      "producer": "Muthyala Satya Kumar",
+      "tmdbId": 80943,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ruthika",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Dharmavarupu Subramanyam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Bommana Brothers Chandana Sisters",
+      "slug": "bommana-brothers-chandana-sisters-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Krishna Bhagavan",
+      "director": "Srinivas Reddy",
+      "musicDirector": "M. M. Srilekha",
+      "editor": "Marthand K Venkatesh",
+      "producer": "Ammiraju Kanumilli",
+      "tmdbId": 117010,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Farzana Barucha",
+          "role": "Siri Chandana",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Charulatha",
+          "role": "Mani Chandana",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Tanikella Bharani",
+          "role": "Bommana brothers' father",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kovai Sarala",
+          "role": "Bommana brothers' mother",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Mohan Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Dongala Bandi",
+      "slug": "dongala-bandi-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Kovai Sarala",
+      "director": "Satish Vegesna",
+      "musicDirector": "Valluri Raja Sekhar",
+      "writer": "Satish Vegesna",
+      "producer": null,
+      "tmdbId": 307892,
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Malishka",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "M. S. Narayana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kovai Sarala",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Siddu from Srikakulam",
+      "slug": "siddu-from-srikakulam-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Manjari Fadnnis",
+      "director": "Eashwar",
+      "musicDirector": "K M Radha Krishnan",
+      "cinematographer": "Dasaradhi Sivendra",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Eashwar",
+      "producer": "Malla Vijaya Prasad",
+      "tmdbId": 82570,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Shraddha Das",
+          "role": "Nisha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "M. S. Narayana",
+          "role": "Rataiah",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Venu Madhav",
+          "role": "Apple",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Dharmavarupu Subramanyam",
+          "role": "Parasuram",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "role": "Akuvakkala Ananda Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Sundarakanda",
+      "slug": "sundarakanda-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Charmme Kaur",
+      "director": "Bapu",
+      "musicDirector": "Vidyasagar",
+      "cinematographer": "P. R. K. Raju",
+      "editor": "A. Sreekar Prasad",
+      "writer": "Mullapudi Venkata Ramana",
+      "producer": "K. Aparna",
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Mythological"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prema",
+          "role": "Supporting Heroine (Sita)"
+        },
+        {
+          "name": "Ranganath",
+          "role": "Supporting"
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2007,
+      "title": "Allare Allari",
+      "slug": "allare-allari-2007",
+      "hero": "Allari Naresh",
+      "heroine": "Parvati Melton",
+      "director": "Muppalaneni Siva",
+      "musicDirector": "Chakri",
+      "editor": "K. Ramesh",
+      "producer": "S. K. Basheed",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Parvati Melton",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mallika Kapoor",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2007,
+      "title": "Athili Sathibabu LKG",
+      "slug": "athili-sathibabu-lkg-2007",
+      "hero": "Allari Naresh",
+      "heroine": "Kausha Rach",
+      "director": "E.V.V. Satyanarayana",
+      "musicDirector": null,
+      "writer": "E.V.V. Satyanarayana",
+      "producer": "E.V.V. Satyanarayana",
+      "tmdbId": 200029,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vidisha Srivastava",
+          "role": "Ammulu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sunil Varma",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Dharmavarupu Subramanyam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Kittu",
+      "slug": "kittu-2006",
+      "hero": "Allari Naresh",
+      "heroine": "Gowri Pandit",
+      "director": "Evv Satyanarayana",
+      "musicDirector": null,
+      "writer": "Hota Agni Kumar &amp; B. Satya",
+      "producer": "Bhargava Kodavanti",
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Comedy"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Kithakithalu",
+      "slug": "kithakithalu-2006",
+      "hero": "Allari Naresh",
+      "heroine": "Madhavi Latha",
+      "director": "Evani Shivaji",
+      "musicDirector": "Sathyam",
+      "cinematographer": "V. Jayaram",
+      "editor": "Gautham Raju",
+      "writer": "E. V. V. Satyanarayana",
+      "producer": "E. V. V. Satyanarayana",
+      "tmdbId": null,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Madhu Shalini",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Gopi Goda Meeda Pilli",
+      "slug": "gopi-goda-meeda-pilli-2006",
+      "hero": "Allari Naresh",
+      "heroine": "Jagapati Babu",
+      "director": "Janardhan Maharshi",
+      "musicDirector": "Saluri Koteswara Rao",
+      "cinematographer": "V Srinivasa Reddy",
+      "editor": "Kotagiri Venkateswara Rao",
+      "producer": "Polisetti Rambabu",
+      "tmdbId": 531025,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gowri Munjal",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Aarti Chabria",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sunil Varma",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Party",
+      "slug": "party-2006",
+      "hero": "Allari Naresh",
+      "heroine": "Shashank",
+      "director": "Ravi Babu",
+      "musicDirector": "Chakri",
+      "writer": "Ravi Babu",
+      "producer": "Kumar Katineni",
+      "tmdbId": 410268,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Madhu Sharma",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ravi Babu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ravi Prakash",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Nenu",
+      "slug": "nenu-2004",
+      "hero": "Allari Naresh",
+      "heroine": "Veda Archana",
+      "director": "E",
+      "musicDirector": "Vidyasagar",
+      "cinematographer": "C. Ramprasad",
+      "writer": "Selva Raghavan",
+      "producer": "Maullapudi Brahmanandam",
+      "tmdbId": 869246,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chalapathi Rao",
+          "role": "Father",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Banerjee",
+          "role": "Sub inspector",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rajiv Kanakala",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Venkateswara Rao Paruchuri",
+          "role": "Church Father",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Maa Alludu Very Good",
+      "slug": "maa-alludu-very-good-2003",
+      "hero": "Allari Naresh",
+      "heroine": "Mounica",
+      "director": "Rajendra Prasad, Allari Naresh, Ramya Krishna, Mounika, Kovai Sarala",
+      "musicDirector": "M. M. Keeravani",
+      "cinematographer": "V. Srinivasa Reddy",
+      "editor": "Gautham Raju",
+      "writer": "Janardhana Maharshi",
+      "producer": "M.Ramalinga Raju",
+      "tmdbId": 117847,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rajendra Prasad",
+          "role": "AV Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ramya Krishnan",
+          "role": "Prabhavati",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kovai Sarala",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mallikarjuna Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Pelli Kani Prasad",
+      "slug": "pelli-kani-prasad-2008",
+      "hero": "Allari Naresh",
+      "heroine": "Sridevi Vijaykumar",
+      "director": "Satyam Dwarapudi",
+      "musicDirector": "Sekar Chandra",
+      "cinematographer": "Sujatha Siddharth",
+      "editor": "Madhu",
+      "writer": ".mw-parser-output .plainlist ol",
+      "producer": "K. Y. Babu",
+      "tmdbId": 1142514,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Allari Naresh",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raghuvaran",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Juniors",
+      "slug": "juniors-2003",
+      "hero": "Allari Naresh",
+      "heroine": "Shirya",
+      "director": "J. Pulla Rao",
+      "musicDirector": "Chakri",
+      "editor": "Gautham Raju",
+      "writer": "Marudhuri Raja",
+      "producer": "D. V. V. Danayya",
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Thotti Gang",
+      "slug": "thotti-gang-2002",
+      "hero": "Allari Naresh",
+      "heroine": "Gajala",
+      "director": "E.V.V. Satyanarayana",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Loganathan Srinivasan",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "E. V. V. Satyanarayana",
+      "producer": "E. V. V. Satyanarayana",
+      "tmdbId": 228341,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sunil Varma",
+          "role": "Sathi Babu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gajala",
+          "role": "Karate Malliswari",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "L. B. Sriram",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Dhanalakshmi, I Love You",
+      "slug": "dhanalakshmi-i-love-you-2002",
+      "hero": "Allari Naresh",
+      "heroine": "Aditya Om",
+      "director": "Siva Nageswara Rao",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Comedy"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Allari",
+      "slug": "allari-2002",
+      "hero": "Allari Naresh",
+      "heroine": "Shweta Agarwal",
+      "director": "Ravi Babu",
+      "musicDirector": "Paul J",
+      "cinematographer": "Loganathan Srinivasan",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "Nivas  (dialogues)",
+      "producer": "Ravi Babu",
+      "tmdbId": 115056,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Shweta Agarwal",
+          "role": "Aparna aka Appu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Tanikella Bharani",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chittajalu Lakshmipati",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    }
+  ],
+  "statistics": {
+    "byDecade": [
+      [
+        "2020s",
+        8
+      ],
+      [
+        "2010s",
+        20
+      ],
+      [
+        "2000s",
+        21
+      ]
+    ],
+    "missingFields": {
+      "cinematographer": 15,
+      "editor": 14,
+      "writer": 12,
+      "producer": 4,
+      "tmdbId": 14
+    },
+    "genreDistribution": {
+      "Drama": 26,
+      "Thriller": 6,
+      "Horror": 2,
+      "Action": 10,
+      "Comedy": 37,
+      "Crime": 2,
+      "Family": 17,
+      "Romance": 18,
+      "Animation": 1,
+      "Adventure": 1,
+      "Mythological": 1
+    }
+  }
+}

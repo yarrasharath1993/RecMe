@@ -18,6 +18,13 @@ export const ALLOWED_IMAGE_HOSTS = [
   'archive.org',
   's.ltrbxd.com',
   'a.ltrbxd.com',
+  'erosnow.com',
+  'images.filmibeat.com',
+  'images.moviebuff.com',
+  'blogger.googleusercontent.com',
+  'lookaside.fbsbx.com',
+  'meragana.com',
+  'is1-ssl.mzstatic.com',
 ];
 
 // Allowed host patterns (for wildcard domains like *.archive.org)
@@ -25,6 +32,10 @@ const ALLOWED_HOST_PATTERNS = [
   /\.archive\.org$/,
   /\.ltrbxd\.com$/,
   /\.letterboxd\.com$/,
+  /\.erosnow\.com$/,
+  /\.filmibeat\.com$/,
+  /\.moviebuff\.com$/,
+  /\.mzstatic\.com$/,
 ];
 
 // Common image extensions
@@ -89,5 +100,15 @@ export function getPostImageUrl(
   size: string = '800/600'
 ): string {
   return getSafeImageUrl(post.image_url, post.image_urls, post.id, size);
+}
+
+/**
+ * Get safe poster URL for movies
+ * Returns null if URL is invalid (to show placeholder)
+ */
+export function getSafePosterUrl(posterUrl: string | null | undefined): string | null {
+  if (!posterUrl) return null;
+  if (isValidImageUrl(posterUrl)) return posterUrl;
+  return null;
 }
 

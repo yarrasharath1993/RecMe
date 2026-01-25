@@ -1,0 +1,950 @@
+# TELUGU TITLES IMPORT LOG
+**Date:** 2026-01-15T01:40:22.585Z
+**Source:** movies-missing-telugu-titles-2026-01-14.csv
+
+## Summary
+
+- Successfully updated: 26
+- Errors: 0
+- Already had titles: 39
+- Not in database: 930
+
+## Final Database State
+
+- Total movies: 1000
+- With Telugu titles: 175
+- Completion: 18%
+
+## Movies Not in Database
+
+- AA22xA6 (`aa22xa6-tba`) - అల్లు అర్జున్ - అట్లీ ప్రాజెక్ట్
+- Mysaa (`mysaa-tba`) - మైసా
+- Janakiram (`janakiram-tba`) - జానకిరామ్
+- Anaganaga Oka Rowdy (`anaganaga-oka-rowdy-tba`) - అనగనగా ఒక రౌడీ
+- Sahaa (`sahaa-tba`) - సహా
+- Edhureetha (`edhureetha-tba`) - ఎదురీత
+- Reppa (`reppa-tba`) - రెప్ప
+- As Time Echoes (`as-time-echoes-tba`) - యాజ్ టైమ్ ఎకోస్
+- Umapathi (`umapathi-tba`) - ఉమాపతి
+- Oh..! Sukumari (`oh-sukumari-tba`) - ఓ..! సుకుమారి
+- Pushpa 3 - The Rampage (`pushpa-3-the-rampage-tba`) - పుష్ప 3 - ది రాంపేజ్
+- Takshakudu (`takshakudu-tba`) - తక్షకుడు
+- Comrade Kalyan (`comrade-kalyan-tba`) - కామ్రేడ్ కళ్యాణ్
+- Illicit Relationship (`illicit-relationship-tba`) - ఇల్లిసిట్ రిలేషన్ షిప్
+- Euphoria (`euphoria-tba`) - యుఫోరియా
+- Band Melam (`band-melam-tba`) - బ్యాండ్ మేళం
+- Nakshatra Poratam (`nakshatra-poratam-tba`) - నక్షత్ర పోరాటం
+- Asuragana Rudra (`asuragana-rudra-tba`) - అసురగణ రుద్ర
+- Garividi Lakshmi (`garividi-lakshmi-tba`) - గరివిడి లక్ష్మి
+- DQ 41 (`dq-41-tba`) - దుల్కర్ సల్మాన్ 41
+- HaiLesso (`hailesso-tba`) - హైలెస్సో
+- Arrtham (`arrtham-tba`) - అర్థం
+- Kirathaka (`kirathaka-tba`) - కిరాతక
+- Biker (`biker-tba`) - బైకర్
+- Abhiram (`abhiram-tba`) - అభిరామ్
+- Amaran in the City: Chapter 1 (`amaran-in-the-city-chapter-1-tba`) - అమరన్ ఇన్ ది సిటీ: చాప్టర్ 1
+- Legacy (`legacy-tba`) - లెగసీ
+- Maa Inti Bangaram (`maa-inti-bangaram-tba`) - మా ఇంటి బంగారం
+- Hey Bhagawan! (`hey-bhagawan-tba`) - హే భగవాన్!
+- Maate Mantramu (`maate-mantramu-tba`) - మాటే మంత్రము
+- Natudu (`natudu-tba`) - నటుడు
+- Bad Boy Karthik (`bad-boy-karthik-tba`) - బ్యాడ్ బాయ్ కార్తీక్
+- Patta Pagalu (`patta-pagalu-tba`) - పట్టపగలు
+- They Call Him OG 2 (`they-call-him-og-2-tba`) - దే కాల్ హిమ్ OG 2
+- What The Fish (`what-the-fish-tba`) - వాట్ ద ఫిష్
+- Paramanandham Shishyulu (`paramanandham-shishyulu-tba`) - పరమానందం శిష్యులు
+- Naa Katha (`naa-katha-tba`) - నా కథ
+- Honey (`honey-2026`) - హనీ
+- Psych Siddhartha (`psych-siddhartha-2026`) - సైక్ సిద్ధార్థ
+- Itllu Arjuna (`itllu-arjuna-2026`) - ఇట్లు అర్జున
+- Rowdy Janardhana (`rowdy-janardhana-2026`) - రౌడీ జనార్దన
+- The Paradise (`the-paradise-2026`) - ది పారడైజ్
+- Sahakutumbaanaam (`sahakutumbaanaam-2026`) - సహకుటుంబానాం
+- Rao Bahadur (`rao-bahadur-2026`) - రావు బహదూర్
+- Vanaveera (`vanaveera-2026`) - వనవీర
+- Madham (`madham-2026`) - మధం
+- Nilakanta (`nilakanta-2026`) - నీలకంఠ
+- The Bed (`the-bed-2026`) - ది బెడ్
+- Alcohol (`alcohol-2026`) - ఆల్కహాల్
+- Dark Chocolate (`dark-chocolate-2026`) - డార్క్ చాక్లెట్
+- Om Shanti Shanti Shantihi (`om-shanti-shanti-shantihi-2026`) - ఓం శాంతి శాంతి శాంతిః
+- Funky (`funky-2026`) - ఫంకీ
+- LYF - Love Your Father (`lyf-love-your-father-2025`) - లవ్ యువర్ ఫాదర్
+- The Great Pre-Wedding Show (`the-great-pre-wedding-show-2025`) - ది గ్రేట్ ప్రీ వెడ్డింగ్ షో
+- Shambhala (`shambhala-2025`) - శంబాల
+- Gandhi Tatha Chettu (`gandhi-tatha-chettu-2025`) - గాంధీ తాత చెట్టు
+- Shivangi (`shivangi-2025`) - శివంగి
+- Paanch Minar (`paanch-minar-2025`) - పాంచ్ మినార్
+- Oh Bhama Ayyo Rama (`oh-bhama-ayyo-rama-2025`) - ఓ భామ అయ్యో రామ
+- 14 Days (`14-days-girlfriend-intlo-2025`) - 14 డేస్
+- Mass Jathara (`mass-jathara-2025`) - మాస్ జాతర
+- Mokshapatam (`mokshapatam-2025`) - మోక్షపటం
+- 1000 Waala (`1000-waala-2025`) - 1000 వాలా
+- 28 Degree Celsius (`28-degree-celsius-2025`) - 28 డిగ్రీ సెల్సియస్
+- The 100 (`the-100-2025`) - ది 100
+- Arjun Chakravarthy (`arjun-chakravarthy-2025`) - అర్జున్ చక్రవర్తి
+- Dear Uma (`dear-uma-2025`) - డియర్ ఉమ
+- Neeli Megha Shyama (`neeli-megha-shyama-2025`) - నీలి మేఘ శ్యామ
+- Jack (`jack-2025`) - జాక్
+- Sundarakanda (`sundarakanda-2025`) - సుందరాకాండ
+- Ari (`ari-my-name-is-nobody-2025`) - అరి
+- Baapu (`baapu-2025`) - బాపు
+- Raju Weds Rambai (`raju-weds-rambai-2025`) - రాజు వెడ్స్ రాంబాయ్
+- Bhairavam (`bhairavam-2025`) - భైరవం
+- Oka Pathakam Prakaaram (`oka-pathakam-prakaaram-2025`) - ఒక పథకం ప్రకారం
+- Akkada Ammayi Ikkada Abbayi (`akkada-ammayi-ikkada-abbayi-2025`) - అక్కడ అమ్మాయి ఇక్కడ అబ్బాయి
+- Ghatikachalam (`enuguthondam-ghatikachalam-2025`) - ఘటికాచలం
+- Subham (`subham-2025`) - శుభం
+- Oka Brundavanam (`oka-brundavanam-2025`) - ఒక బృందావనం
+- (MAD)² (`mad-2025`) - మ్యాడ్ స్క్వేర్
+- Dhandoraa (`dhandoraa-2025`) - ధండోరా
+- Chaurya Paatham (`chaurya-paatham-2025`) - చౌర్య పాఠం
+- Baahubali: The Epic (`baahubali-the-epic-2025`) - బాహుబలి: ది ఎపిక్
+- Arjun Son of Vyjayanthi (`arjun-son-of-vyjayanthi-2025`) - అర్జున్ సన్ ఆఫ్ వైజయంతి
+- Police Vari Heccharika (`police-vari-heccharika-2025`) - పోలీస్ వారి హెచ్చరిక
+- Mowgli (`mowgli-2025`) - మోగ్లీ
+- Junior (`junior-2025`) - జూనియర్
+- Show Time (`show-time-2025`) - షో టైమ్
+- Meghalu Cheppina Prema Katha (`meghalu-cheppina-prema-katha-2025`) - మేఘాలు చెప్పిన ప్రేమకథ
+- Tuk Tuk (`tuk-tuk-2025`) - టుక్ టుక్
+- Santhana Prapthirasthu (`santhana-prapthirasthu-2025`) - సంతాన ప్రాప్తిరస్తు
+- Premistunnaa (`premistunnaa-2025`) - ప్రేమిస్తున్నా
+- Elumale (`elumale-2025`) - ఎళ్ళుమలే
+- Dinasari (`dinasari-2025`) - దినసారి
+- Blackmail (`blackmail-2025`) - బ్లాక్ మెయిల్
+- Konjam Kadhal Konjam Modhal (`konjam-kadhal-konjam-modhal-2025`) - కొంజం కధల్ కొంజం మొదల్
+- Ramam Raghavam (`ramam-raghavam-2025`) - రామం రాఘవం
+- Shashtipoorthi (`shashtipoorthi-2025`) - షష్టిపూర్తి
+- Premante (`premante-2025`) - ప్రేమంటే
+- Chiranjeeva (`chiranjeeva-2025`) - చిరంజీవ
+- Thala (`thala-2025`) - తాల
+- HIT: The Third Case (`hit-the-third-case-2025`) - హిట్: ది థర్డ్ కేస్
+- 11:11 (`1111-2025`) - 11:11
+- Sankranthiki Vasthunam (`sankranthiki-vasthunam-2025`) - సంక్రాంతికి వస్తున్నాం
+- Chaurya Paatam (`chaurya-paatam-2025`) - చౌర్య పాఠం
+- Hathya (`hathya-2025`) - హత్య
+- #Single (`single-2025`) - #సింగిల్
+- Jaat (`jaat-2025`) - జాట్
+- Brahma Anandam (`brahma-anandam-2025`) - బ్రహ్మ ఆనందం
+- Bhavani Ward 1997 (`bhavani-ward-1997-2025`) - భవానీ వార్డ్ 1997
+- The Girlfriend (`the-girlfriend-2025`) - ది గర్ల్‌ఫ్రెండ్
+- Rowdy Janardhana (`kingdom-2025`) - రౌడీ జనార్దన
+- Andhra King Taluka (`andhra-king-taluka-2025`) - ఆంధ్ర కింగ్ తలుకా
+- 23 (Iravai Moodu) (`23-iravai-moodu-2025`) - 23 (ఇరవై మూడు)
+- Thank You Dear (`thank-you-dear-2025`) - థాంక్యూ డియర్
+- Kuberaa (`kuberaa-2025`) - కుబేర
+- Court (`court-state-vs-a-nobody-2025`) - కోర్ట్
+- Eesha (`eesha-2025`) - ఈష
+- Patang (`patang-2025`) - పతంగ్
+- 8 Vasantalu (`8-vasantalu-2025`) - 8 వసంతాలు
+- Janata Bar (`janata-bar-2025`) - జనతా బార్
+- Laila (`laila-2025`) - లైలా
+- Salaar: Part 2 (`salaar-part-2-shouryaanga-parvam`) - సలార్: పార్ట్ 2
+- Solo Boy (`solo-boy-2025`) - సోలో బాయ్
+- Blind Spot (`blind-spot-2025`) - బ్లైండ్ స్పాట్
+- Dreamcatcher (`dreamcatcher-2025`) - డ్రీమ్ క్యాచర్
+- 12A Railway Colony (`12a-railway-colony-2025`) - 12A రైల్వే కాలనీ
+- Sikandar (`sikandar-2025`) - సికందర్
+- Kishkindhapuri (`kishkindhapuri-2025`) - కిష్కింధపురి
+- Akhanda 2: Thaandavam (`akhanda-2-thaandavam-2025`) - అఖండ 2: తాండవం
+- Paradha (`paradha-2025`) - పరద
+- Dilruba (`dilruba-2025`) - దిల్‌రుబా
+- Super Raja (`super-raja-2025`) - సూపర్ రాజా
+- Sasivadane (`sasivadane-2025`) - శశివదనే
+- Uppu Kappurambu (`uppu-kappurambu-2025`) - ఉప్పు కప్పురంబు
+- Pelli Kaani Prasad (`pelli-kaani-prasad-2025`) - పెళ్లి కాని ప్రసాద్
+- Suryapet Junction (`suryapet-junction-2025`) - సూర్యాపేట జంక్షన్
+- Mirai (`mirai-2025`) - మిరాయ్
+- Hari Hara Veera Mallu (`hari-hara-veera-mallu-part-1-sword-vs-spirit-2025`) - హరి హర వీర మల్లు
+- The Birthday Boy (`the-birthday-boy-2024`) - ది బర్త్ డే బాయ్
+- Matka (`matka-2024`) - మట్కా
+- Oka Manchi Prema Katha (`oka-manchi-prema-katha-2024`) - ఒక మంచి ప్రేమ కథ
+- Appudo Ippudo Eppudo (`appudo-ippudo-eppudo-2024`) - అప్పుడో ఇప్పుడో ఎప్పుడో
+- Veeranjaneyulu Vihara Yatra (`veeranjaneyulu-vihara-yatra-2024`) - వీరాంజనేయులు విహార యాత్ర
+- Om Bheem Bush (`om-bheem-bush-2024`) - ఓం భీమ్ బుష్
+- Maa Nanna Superhero (`maa-nanna-superhero-2024`) - మా నాన్న సూపర్ హీరో
+- Jilebi (`jilebi-2024`) - జిలేబి
+- Sarangadhariya (`sarangadhariya-2024`) - సరంగధరియ
+- Bhimaa (`bhimaa-2024`) - భీమా
+- Roti Kapda Romance (`roti-kapda-romance-2024`) - రోటీ కపడా రొమాన్స్
+- Kotha Rangula Prapancham (`kotha-rangula-prapancham-2024`) - కొత్త రంగుల ప్రపంచం
+- Valari (`valari-2024`) - వలరి
+- Tenant (`tenant-2024`) - టెనెంట్
+- Honeymoon Express (`honeymoon-express-2024`) - హనీమూన్ ఎక్స్‌ప్రెస్
+- Ambajipeta Marriage Band (`ambajipeta-marriage-band-2024`) - అంబాజీపేట మ్యారేజ్ బ్యాండ్
+- Agent Narasimha‐117 (`agent-narasimha117-2024`) - ఏజెంట్ నరసింహ 117
+- S.I.T Special Investigation Team (`sit-special-investigation-team-2024`) - ఎస్.ఐ.టి స్పెషల్ ఇన్వెస్టిగేషన్ టీం
+- (Tillu)² (`tillu-2024`) - టిల్లు స్క్వేర్
+- LifeStories (`lifestories-2024`) - లైఫ్‌స్టోరీస్
+- OMG: O Manchi Ghost (`omg-o-manchi-ghost-2024`) - ఓ మంచి ఘోస్ట్
+- Aham Reboot (`aham-reboot-2024`) - అహం రీబూట్
+- Srikakulam Sherlockholmes (`srikakulam-sherlockholmes-2024`) - శ్రీకాకుళం షెర్లాక్‌హోమ్స్
+- Parakramam (`parakramam-2024`) - పరాక్రమం
+- Pailam Pilaga (`pailam-pilaga-2024`) - పైలం పిలగ
+- Bhaje Vaayu Vegam (`bhaje-vaayu-vegam-2024`) - భజే వాయు వేగం
+- Sandeham (`sandeham-2024`) - సందేహం
+- Krishnamma (`krishnamma-2024`) - కృష్ణమ్మ
+- Mathu Vadalara 2 (`mathu-vadalara-2-2024`) - మత్తు వదలరా 2
+- Alanaati Ramchandrudu (`alanaati-ramchandrudu-2024`) - ఆలనాటి రామచంద్రుడు
+- Palik (`palik-2024`) - పాలిక్
+- Vidya Vasula Aham (`vidya-vasula-aham-2024`) - విద్య వసుల అహం
+- Double iSmart (`double-ismart-2024`) - డబుల్ ఇస్మార్ట్
+- Indrani - Epic1: Dharam vs Karam (`indrani-epic1-dharam-vs-karam-2024`) - ఇంద్రాణి - ఎపిక్ 1: ధరం వర్సెస్ కర్మ
+- Kalki 2898-AD (`kalki-2898-ad-2024`) - కల్కి 2898-AD
+- Sriranga Neethulu (`sriranga-neethulu-2024`) - శ్రీరంగ నీతులు
+- Dheera (`dheera-2024`) - ధీర
+- Aay (`aay-2024`) - ఆయ్
+- Alanaati Ramachandrudu (`alanaati-ramachandrudu-2024`) - ఆలనాటి రామచంద్రుడు
+- Music Shop Murthy (`music-shop-murthy-2024`) - మ్యూజిక్ షాప్ మూర్తి
+- Srikakulam Sherlock Holmes (`srikakulam-sherlock-holmes-2024`) - శ్రీకాకుళం షెర్లాక్ హోమ్స్
+- Dhoom Dhaam (`dhoom-dhaam-2024`) - ధూం ధాం
+- Yevam (`yevam-2024`) - ఏవం
+- Raju Gari Ammayi Naidu Gari Abbayi (`raju-gari-ammayi-naidu-gari-abbayi-2024`) - రాజు గారి అమ్మాయి నాయుడు గారి అబ్బాయి
+- Ramnagar Bunny (`ramnagar-bunny-2024`) - రామ్‌నగర్ బన్నీ
+- Razakar: The Silent Genocide of Hyderabad (`razakar-the-silent-genocide-of-hyderabad-2024`) - రజాకార్
+- Janaka Aithe Ganaka (`janaka-aithe-ganaka-2024`) - జనక ఐతే గానక
+- Viraaji (`viraaji-2024`) - విరాజి
+- Akkada Varu Ikkada Unnaru (`akkada-varu-ikkada-unnaru-2024`) - అక్కడ వారు ఇక్కడ ఉన్నారు
+- Ground (`ground-2024`) - గ్రౌండ్
+- Simbaa (`simbaa-2024`) - సింబా
+- Tiragabadara Saami (`tiragabadara-saami-2024`) - తిరగబడరా సామీ
+- Nindha (`nindha-2024`) - నింద
+- Eesaraina!? (`eesaraina-2024`) - ఈసారైనా!?
+- Purushothamudu (`purushothamudu-2024`) - పురుషోత్తముడు
+- Market Mahalakshmi (`market-mahalakshmi-2024`) - మార్కెట్ మహాలక్ష్మి
+- Yatra 2 (`yatra-2-2024`) - యాత్ర 2
+- Usha Parinayam (`usha-parinayam-2024`) - ఉషా పరిణయం
+- Raajadhani Files (`raajadhani-files-2024`) - రాజధాని ఫైల్స్
+- Mechanic Rocky (`mechanic-rocky-2024`) - మెకానిక్ రాకీ
+- Geethanjali Malli Vachindi (`geethanjali-malli-vachindi-2024`) - గీతాంజలి మళ్ళీ వచ్చింది
+- Sundaram Master (`sundaram-master-2024`) - సుందరం మాస్టర్
+- Mercy Killing (`mercy-killing-2024`) - మెర్సీ కిల్లింగ్
+- Pekamedalu (`pekamedalu-2024`) - పేకమేడలు
+- Chaari 111 (`chaari-111-2024`) - చారి 111
+- Pranaya Godari (`pranaya-godari-2024`) - ప్రణయ గోదారి
+- Love Me If You Dare (`love-me-if-you-dare-2024`) - లవ్ మీ
+- Crime Reel (`crime-reel-2024`) - క్రైమ్ రీల్
+- Happy Ending (`happy-ending-2024`) - హ్యాపీ ఎండింగ్
+- Tantra (`tantra-2024`) - తంత్ర
+- Gaami (`gaami-2024`) - గామి
+- Sikandar Ka Muqaddar (`sikandar-ka-muqaddar-2024`) - సికందర్ కా ముకద్దర్
+- Modern Masters: SS Rajamouli (`modern-masters-ss-rajamouli-2024`) - మోడ్రన్ మాస్టర్స్: ఎస్.ఎస్. రాజమౌళి
+- Siddharth Roy (`siddharth-roy-2024`) - సిద్ధార్థ్ రాయ్
+- Bhale Unnade (`bhale-unnade-2024`) - భలే ఉన్నాడే
+- Devaki Nandana Vasudeva (`devaki-nandana-vasudeva-2024`) - దేవకీ నందన వాసుదేవ
+- Sabari (`sabari-2024`) - శబరి
+- Maya Puthagam (`maya-puthagam-2024`) - మాయ పుస్తకం
+- Bootcut Balaraju (`bootcut-balaraju-2024`) - బూట్‌కట్ బాలరాజు
+- Aarambham (`aarambham-2024`) - ఆరంభం
+- Mukhya Gamanika (`mukhya-gamanika-2024`) - ముఖ్య గమనిక
+- Ooru Peru Bhairavakona (`ooru-peru-bhairavakona-2024`) - ఊరు పేరు భైరవకోన
+- Fear (`fear-2024`) - ఫియర్
+- Inti Number - 13 (`inti-number-13-2024`) - ఇంటి నంబర్ - 13
+- I Hate You (`i-hate-you-2024`) - ఐ హేట్ యూ
+- Pottel (`pottel-2024`) - పొట్టేల్
+- 35 - Chinna Katha Kaadu (`35-chinna-katha-kaadu-2024`) - 35 - చిన్న కథ కాదు
+- Nayanthara: Beyond the Fairy Tale (`nayanthara-beyond-the-fairy-tale-2024`) - నయనతార: బియాండ్ ది ఫెయిరీ టేల్
+- Sathamindri Mutham Tha (`sathamindri-mutham-tha-2024`) - సతమింద్రి ముత్తం తా
+- Raju Yadav (`raju-yadav-2024`) - రాజు యాదవ్
+- Gorre Puranam (`gorre-puranam-2024`) - గొర్రె పురాణం
+- Make a Wish (`make-a-wish-2024`) - మేక్ ఎ విష్
+- Operation Valentine (`operation-valentine-2024`) - ఆపరేషన్ వాలెంటైన్
+- Shivam Bhaje (`shivam-bhaje-2024`) - శివం భజే
+- Vey Dharuvey (`vey-dharuvey-2024`) - వేయ్ దారువేయ్
+- Thalakona (`thalakona-2024`) - తలకోన
+- Drill (`drill-2024`) - డ్రిల్
+- Bhamakalapam 2 (`bhamakalapam-2-2024`) - భామాకలాపం 2
+- Average Student Nani (`average-student-nani-2024`) - యావరేజ్ స్టూడెంట్ నాని
+- Rakshana (`rakshana-2024`) - రక్షణ
+- Uruku Patela (`uruku-patela-2024`) - ఉరుకు పటేల
+- Mix Up (`mix-up-2024`) - మిక్స్ అప్
+- Gangs of Godavari (`gangs-of-godavari-2024`) - గ్యాంగ్స్ ఆఫ్ గోదావరి
+- Gam Gam Ganesha (`gam-gam-ganesha-2024`) - గమ్ గమ్ గణేశ
+- Committee Kurrollu (`committee-kurrollu-2024`) - కమిటీ కుర్రోళ్లు
+- Prathinidhi 2 (`prathinidhi-2-2024`) - ప్రతినిధి 2
+- 105 Minuttess (`105-minuttess-2024`) - 105 మినిట్స్
+- Bharathanatyam (`bharathanatyam-2024`) - భరతనాట్యం
+- Pushpa 2 - The Rule (`pushpa-2-the-rule-2024`) - పుష్ప 2 - ది రూల్
+- Viswam (`viswam-2024`) - విశ్వం
+- Narudi Brathuku Natana (`narudi-brathuku-natana-2024`) - నరుడి బ్రతుకు నటన
+- Sarkaaru Noukari (`sarkaaru-noukari-2024`) - సర్కారు నౌకరి
+- The Family Star (`the-family-star-2024`) - ది ఫ్యామిలీ స్టార్
+- Naa Saami Ranga (`naa-saami-ranga-2024`) - నా సామి రంగ
+- Bachhala Malli (`bachhala-malli-2024`) - బచ్చల మల్లి
+- A Goa Tripp... (`a-goa-tripp-2024`) - ఎ గోవా ట్రిప్...
+- RRR: Behind & Beyond (`rrr-behind-and-beyond-2024`) - ఆర్.ఆర్.ఆర్: బిహైండ్ & బియాండ్
+- Zebra (`zebra-2024`) - జీబ్రా
+- Double Engine (`double-engine-2024`) - డబుల్ ఇంజిన్
+- Harom Hara (`harom-hara-2024`) - హరోం హర
+- Sam Anton (`sam-anton-2024`) - సామ్ ఆంటన్
+- Ruslaan (`ruslaan-2024`) - రుస్లాన్
+- Aa Okkati Adakku (`aa-okkati-adakku-2024`) - ఆ ఒక్కటీ అడక్కు
+- Anandapuram Diaries (`anandapuram-diaries-2024`) - ఆనందపురం డైరీస్
+- Vedaa (`vedaa-2024`) - వేదా
+- Kangaroo (`kangaroo-2024`) - కంగారూ
+- Leela Vinodam (`leela-vinodam-2024`) - లీలా వినోదం
+- Laggam (`laggam-2024`) - లగ్గం
+- Utsavam (`utsavam-2024`) - ఉత్సవం
+- Sheeshmahal (`sheeshmahal-2024`) - షీష్‌మహల్
+- Brahmavaram PS Paridilo (`brahmavaram-ps-paridilo-2024`) - బ్రహ్మవరం పి.ఎస్ పరిధిలో
+- Operation Laila (`operation-laila-2024`) - ఆపరేషన్ లైలా
+- Rush (`rush-2024`) - రష్
+- Parijatha Parvam (`parijatha-parvam-2024`) - పారిజాత పర్వం
+- Prasanna Vadanam (`prasanna-vadanam-2024`) - ప్రసన్న వదనం
+- Leela Vinodham (`leela-vinodham-2024`) - లీలా వినోదం
+- Kalinga (`kalinga-2024`) - కళింగ
+- Mr Bachchan (`mr-bachchan-2024`) - మిస్టర్ బచ్చన్
+- Kismat (`kismat-2024`) - కిస్మత్
+- Drinker Sai (`drinker-sai-2024`) - డ్రింకర్ సాయి
+- 100 Crores (`100-crores-2024`) - 100 కోట్లు
+- Akshara (`akshara-2024`) - అక్షర
+- My Dear Donga (`my-dear-donga-2024`) - మై డియర్ దొంగ
+- Tom And Jerry (`tom-and-jerry-2024`) - టామ్ అండ్ జెర్రీ
+- Masthu Shades Unnai Ra (`masthu-shades-unnai-ra-2024`) - మస్తు షేడ్స్ ఉన్నాయ్ రా
+- Maruthi Nagar Subramanyam (`maruthi-nagar-subramanyam-2024`) - మారుతి నగర్ సుబ్రహ్మణ్యం
+- Bench Life (`bench-life-2024`) - బెంచ్ లైఫ్
+- 1980 Lo Radhekrishna (`1980-lo-radhekrishna-2024`) - 1980 లో రాధాకృష్ణ
+- Love Mouli (`love-mouli-2024`) - లవ్ మౌళి
+- We Love Bad Boys (`we-love-bad-boys-2024`) - వీ లవ్ బ్యాడ్ బాయ్స్
+- Brahmmavaram P.S. Paridhilo (`brahmmavaram-p-s-paridhilo-2024`) - బ్రహ్మవరం పి.ఎస్ పరిధిలో
+- Buddy (`buddy-2024`) - బడ్డీ
+- Theppa Samudram (`theppa-samudram-2024`) - తెప్ప సముద్రం
+- Bhoothaddam Bhaskar Narayana (`bhoothaddam-bhaskar-narayana-2024`) - భూతద్దం భాస్కర్ నారాయణ
+- Satyabhama (`satyabhama-2024`) - సత్యభామ
+- Anthima Theerpu (`anthima-theerpu-2024`) - అంతిమ తీర్పు
+- Prasannavadanam (`prasannavadanam-2024`) - ప్రసన్న వదనం
+- Hanu-man (`hanu-man-2024`) - హను-మాన్
+- Bhavanam (`bhavanam-2024`) - భవనం
+- Manamey (`manamey-2024`) - మనమే
+- Operation Raavan (`operation-raavan-2024`) - ఆపరేషన్ రావణ్
+- Hunt (`hunt-2023`) - హంట్
+- Spark (`spark-2023`) - స్పార్క్
+- My Name Is Shruthi (`my-name-is-shruthi-2023`) - మై నేమ్ ఈజ్ శృతి
+- Ala Ninnu Cheri (`ala-ninnu-cheri-2023`) - అలా నిన్ను చేరి
+- Sagiletikatha (`sagiletikatha-2023`) - సగిలేటి కథ
+- Mangalavaaram (`mangalavaaram-2023`) - మంగళవారం
+- O Saathiya (`o-saathiya-2023`) - ఓ సాథియా
+- Mr. King (`mr-king-2023`) - మిస్టర్ కింగ్
+- Premadesam (`premadesam-2023`) - ప్రేమదేశం
+- Vidhi (`vidhi-2023`) - విధి
+- Salam Sainika (`subramanyam-chigurupati-2023`) - సలాం సైనికా
+- Madhurapudi Granam Ane Nenu (`madhurapudi-granam-ane-nenu-2023`) - మధురపూడి గ్రామం అనే నేను
+- Sindhooram (`sindhooram-2023`) - సింధూరం
+- Maama Mascheendra (`maama-mascheendra-2023`) - మామ మశ్చీంద్ర
+- Her: Chapter 1 (`her-chapter-1-2023`) - హర్: చాప్టర్ 1
+- Saachi (`saachi-2023`) - సాచి
+- #MenToo (`mentoo-2023`) - #మెన్ టూ
+- Geetasakshigaa (`geetasakshigaa-2023`) - గీత సాక్షిగా
+- Peddha Kapu - 1 (`peddha-kapu-1-2023`) - పెద్ద కాపు - 1
+- Ugram (`ugram-2023`) - ఉగ్రం
+- Case 30 (`case-30-2023`) - కేస్ 30
+- Ustaad (`ustaad-2023`) - ఉస్తాద్
+- Suvarna Sundari (`suvarna-sundari-2023`) - సువర్ణ సుందరి
+- Bhuvanavijayam (`bhuvanavijayam-2023`) - భువన విజయం
+- Circle (`circle-2023`) - సర్కిల్
+- Chakravyuham (`chakravyuham-2023`) - చక్రవ్యూహం
+- Antham Kadidi Aarambam (`antham-kadidi-aarambam-1981`) - అంతం కాదిది ఆరంభం
+- Spy (`spy-2023`) - స్పై
+- Aadikeshava (`aadikeshava-2023`) - ఆదికేశవ
+- Breathe (`breathe-2023`) - బ్రీత్
+- Baby (`baby-2023`) - బేబి
+- Narayana & Co (`barla-narayana-2023`) - నారాయణ & కో
+- Nagumome Chaalu Le (`nagumome-chaalu-le-2023`) - నగుమోము చాలులే
+- Plot (`plot-2023`) - ప్లాట్
+- Miss. Shetty Mr. Polishetty (`miss-shetty-mr-polishetty-2023`) - మిస్ శెట్టి మిస్టర్ పోలిశెట్టి
+- Music School (`music-school-2023`) - మ్యూజిక్ స్కూల్
+- 7:11 PM (`711-pm-2023`) - 7:11 పి.ఎమ్
+- Ahimsa (`ahimsa-2023`) - అహింస
+- Jilebi (`jilebi-2023`) - జిలేబి
+- Mao Oori Cinema (`mao-oori-cinema-2023`) - మా ఊరి సినిమా
+- Bhaag Saale (`bhaag-saale-2023`) - భాగ్ సాలే
+- Bubblegum (`bubblegum-2023`) - బబుల్‌గమ్
+- Kranthi (`kranthi-2023`) - క్రాంతి
+- Kousalya Supraja Rama (`kousalya-supraja-rama-2008`) - కౌసల్య సుప్రజ రామ
+- Vinaro Bhagyamu Vishnu Katha (`vinaro-bhagyamu-vishnu-katha-2023`) - వినరో భాగ్యము విష్ణుకథ
+- 10 Rupees (`10-rupees-2023`) - 10 రూపాయలు
+- Ramabanam (`ramabanam-2023`) - రామబాణం
+- Maataraani Mounamidhi (`maataraani-mounamidhi-2023`) - మాటరాని మౌనమిది
+- Martin Luther King (`martin-luther-king-2023`) - మార్టిన్ లూథర్ కింగ్
+- Pindam (`pindam-2023`) - పిండం
+- Raa Raa... Penimiti (`raa-raa-penimiti-2023`) - రా రా... పెనిమిటి
+- Amigos (`amigos-2023`) - అమిగోస్
+- Maya Petika (`maya-petika-2023`) - మాయా పేటిక
+- Asvins (`asvins-2023`) - అశ్విన్స్
+- Sathi Gani Rendu Ekaralu (`sathi-gani-rendu-ekaralu-2023`) - సత్తిగాని రెండు ఎకరాలు
+- Das Ka Dhamki (`das-ka-dhamki-2023`) - దాస్ కా ధమ్కీ
+- Balagam (`balagam-2023`) - బలగం
+- Vidyarthi (`vidyarthi-2023`) - విద్యార్థి
+- Atharva (`atharva-2023`) - అథర్వ
+- Pop Corn (`pop-corn-2023`) - పాప్ కార్న్
+- Katha Venuka Katha (`katha-venuka-katha-2023`) - కథ వెనుక కథ
+- Malli Pelli (`malli-pelli-2023`) - మళ్ళీ పెళ్ళి
+- Rules Ranjann (`rules-ranjann-2023`) - రూల్స్ రంజన్
+- Kalyanam Kamaneeyam (`kalyanam-kamaneeyam-2023`) - కళ్యాణం కమనీయం
+- Rebels of Thupakula Gudem (`rebels-of-thupakula-gudem-2023`) - రెబెల్స్ ఆఫ్ తుపాకుల గూడెం
+- Slum Dog Husband (`slum-dog-husband-2023`) - స్లమ్ డాగ్ హస్బెండ్
+- Mr. Pregnant (`mr-pregnant-2023`) - మిస్టర్ ప్రెగ్నెంట్
+- Nenu Student Sir! (`nenu-student-sir-2023`) - నేను స్టూడెంట్ సర్!
+- Changure Bangaru Raja (`changure-bangaru-raja-2023`) - చంగురే బంగారు రాజా
+- The Trial (`the-trial-2023`) - ది ట్రయల్
+- Asalu (`asalu-2023`) - అసలు
+- Okkade 1 (`okkade-1-venkanna-on-duty-2023`) - ఒక్కడే 1
+- Shaakuntalam (`shaakuntalam-2023`) - శాకుంతలం
+- Lust Stories 2 (`lust-stories-2-2023`) - లస్ట్ స్టోరీస్ 2
+- Raakshasa Kaavyam (`raakshasa-kaavyam-2023`) - రాక్షస కావ్యం
+- Vyooham (`vyooham-2023`) - వ్యూహం
+- Csi Sanatan (`csi-sanatan-2023`) - సి.ఎస్.ఐ సనాతన్
+- Vimanam (`vimanam-2023`) - విమానం
+- Month of Madhu (`month-of-madhu-2023`) - మంత్ ఆఫ్ మధు
+- Rangamarthanda (`rangamarthanda-2023`) - రంగమార్తాండ
+- Bedurulanka 2012 (`bedurulanka-2012-2023`) - బెదురులంక 2012
+- Rangabali (`rangabali-2023`) - రంగబలి
+- Butta Bomma (`butta-bomma-2023`) - బుట్టబొమ్మ
+- #mayalo (`mayalo-2023`) - #మాయలో
+- Skanda (`skanda-the-attacker-2023`) - స్కంద
+- Intinti Ramayanam (`intinti-ramayanam-2023`) - ఇంటింటి రామాయణం
+- Bagheera (`bagheera-2023`) - బఘీర
+- Amala (`amala-2023`) - అమల
+- Maa Oori Polimera 2 (`maa-oori-polimera-2-2023`) - మా ఊరి పోలిమేర 2
+- Prema Vimanam (`prema-vimanam-2023`) - ప్రేమ విమానం
+- Phalana Abbayi Phalana Ammayi (`phalana-abbayi-phalana-ammayi-2023`) - ఫలానా అబ్బాయి ఫలానా అమ్మాయి
+- Meter (`meter-2023`) - మీటర్
+- Two Souls (`two-souls-2023`) - టూ సోల్స్
+- Gammathu (`gammathu-2023`) - గమ్మత్తు
+- Rudramambapuram (`rudramambapuram-2023`) - రుద్రమాంబపురం
+- Upendra Gadi Adda (`upendra-gadi-adda-2023`) - ఉపేంద్ర గాడి అడ్డా
+- Virupaksha (`virupaksha-2023`) - విరూపాక్ష
+- Tantiram (`tantiram-2023`) - తంతిరం
+- Thathsama Thathbhava (`thathsama-thathbhava-2023`) - తత్సమ తద్భవ
+- Anni Manchi Sakunamule (`anni-manchi-sakunamule-2023`) - అన్నీ మంచి శకునములే
+- Rudrangi (`rudrangi-2023`) - రుద్రంగి
+- Sridevi Shoban Babu (`sridevi-shoban-babu-2023`) - శ్రీదేవి శోభన్ బాబు
+- Manu Charitra (`manu-charitra-2023`) - మను చరిత్ర
+- Writer Padmabhushan (`writer-padmabhushan-2023`) - రైటర్ పద్మభూషణ్
+- Kota Bommali Ps (`kota-bommali-ps-2023`) - కోటబొమ్మాళి పీ.ఎస్
+- The Great Indian Suicide (`the-great-indian-suicide-2023`) - ది గ్రేట్ ఇండియన్ సూసైడ్
+- Mem Famous (`mem-famous-2023`) - మేమ్ ఫేమస్
+- Ala Ila Ela (`ala-ila-ela-2023`) - అలా ఇలా ఎలా
+- Paruvu (`paruvu-2023`) - పరువు
+- Bhola Shankar (`bhola-shankar-2023`) - భోళా శంకర్
+- Matti Katha (`matti-katha-2023`) - మట్టి కథ
+- Voice of Sathyanathan (`voice-of-sathyanathan-2023`) - వాయిస్ ఆఫ్ సత్యనాథన్
+- Bandra (`bandra-2023`) - బంద్రా
+- Ranga Maarthaanda (`ranga-maarthaanda-2023`) - రంగమార్తాండ
+- Ghosty (`ghosty-2023`) - ఘోస్టీ
+- Anveshi (`anveshi-2023`) - అన్వేషి
+- Samajavaragamana (`samajavaragamana-2023`) - సామజవరగమన
+- Mr. Kalyan (`mr-kalyan-2023`) - మిస్టర్ కళ్యాణ్
+- Bhari Taraganam (`bhari-taraganam-2023`) - భారీ తారాగణం
+- Unstoppable (`unstoppable-2023`) - అన్‌స్టాపబుల్
+- Dochevaarevarura (`dochevaarevarura-2023`) - దోచేవారెవరురా
+- Karna (`karna-2023`) - కర్ణ
+- Richie Gadi Pelli (`richie-gadi-pelli-2023`) - రిచీ గాడి పెళ్లి
+- O Kala (`o-kala-2023`) - ఓ కళ
+- Gandeevadhari Arjuna (`gandeevadhari-arjuna-2023`) - గాండీవధారి అర్జున
+- Hidimbha (`hidimbha-2023`) - హిడింబ
+- Keedaa Cola (`keedaa-cola-2023`) - కీడా కోలా
+- Echo (`echo-2023`) - ఎకో
+- Kannai Nambathe (`kannai-nambathe-2023`) - కణ్ణై నంబాదే
+- Ashtadigbandhanam (`ashtadigbandhanam-2023`) - అష్టదిగ్బంధనం
+- Devil (`devil-2023`) - డెవిల్
+- Organic Mama Hybrid Alludu (`organic-mama-hybrid-alludu-2023`) - ఆర్గానిక్ మామ హైబ్రిడ్ అల్లుడు
+- Kisi Ka Bhai... Kisi Ki Jaan (`kisi-ka-bhai-kisi-ki-jaan-2023`) - కిసీ కా భాయ్... కిసీ కీ జాన్
+- The Eye (`the-eye-2023`) - ది ఐ
+- Krishna Vrinda Vihari (`krishna-vrinda-vihari-2022`) - కృష్ణ వ్రింద విహారి
+- Ranga Ranga Vaibhavanga (`ranga-ranga-vaibhavanga-2022`) - రంగ రంగ వైభవంగా
+- Bujji... Ila Raa (`bujji-ila-raa-2022`) - బుజ్జీ... ఇలా రా
+- Good Luck Sakhi (`good-luck-sakhi-2022`) - గుడ్ లక్ సఖి
+- Vishwak (`vishwak-2022`) - విశ్వక్
+- Panchatantra Kathalu (`panchatantra-kathalu-2022`) - పంచతంత్ర కథలు
+- Viraata Parvam (`viraata-parvam-2022`) - విరాట పర్వం
+- Swathimuthyam (`lakshman-k-krishna-2022`) - స్వాతిముత్యం
+- The Warriorr (`the-warriorr-2022`) - ది వారియర్
+- Kalapuram (`kalapuram-2022`) - కళాపురం
+- Bhamakalapam (`bhamakalapam-2022`) - భామాకలాపం
+- Alluri (`alluri-2022`) - అల్లూరి
+- Kerosene (`kerosene-2022`) - కిరోసిన్
+- Nathicharami (`nathicharami-2022`) - నతీచరామి
+- Commitment (`commitment-2022`) - కమిట్‌మెంట్
+- Shikaaru (`shikaaru-2022`) - శికారు
+- DJ Tillu (`dj-tillu-2022`) - డిజె టిల్లు
+- Jayamma Panchayathi (`jayamma-panchayathi-2022`) - జయమ్మ పంచాయితీ
+- Malli Modalaindi (`malli-modalaindi-2022`) - మళ్ళీ మొదలైంది
+- Highway (`highway-2022`) - హైవే
+- Gurtunda Seetakalam (`gurtunda-seetakalam-2022`) - గుర్తుందా శీతాకాలం
+- Muthayya (`muthayya-2022`) - ముత్తయ్య
+- Yashoda (`yashoda-2022`) - యశోద
+- Chittam Maharani (`chittam-maharani-2022`) - చిత్తం మహారాణి
+- Boyfriend for Hire (`boyfriend-for-hire-2022`) - బాయ్‌ఫ్రెండ్ ఫర్ హైర్
+- Like, Share & Subscribe (`like-share-subscribe-2022`) - లైక్ షేర్ సబ్‌స్క్రైబ్
+- F3 (`f3-fun-and-frustration-2022`) - ఎఫ్ 3
+- 18 Pages (`18-pages-2022`) - 18 పేజెస్
+- Bloody Mary (`bloody-mary-2022`) - బ్లడీ మేరీ
+- Urvasivo Rakshasivo (`urvasivo-rakshasivo-2022`) - ఊర్వశివో రాక్షసివో
+- Lucky Lakshman (`lucky-lakshman-2022`) - లక్కీ లక్ష్మణ్
+- Gaalodu (`gaalodu-2022`) - గాలోడు
+- Nenevaru (`nenevaru-2022`) - నేనెవరు
+- Panchathantram (`panchathantram-2022`) - పంచతంత్రం
+- Nachindi Girl Friendu (`nachindi-girl-friendu-2022`) - నచ్చింది గర్ల్ ఫ్రెండూ
+- Bhala Thandanana (`bhala-thandanana-2022`) - భళా తందనాన
+- Virgin Story (`virgin-story-2022`) - వర్జిన్ స్టోరీ
+- Plan A Plan B (`plan-a-plan-b-2022`) - ప్లాన్ ఏ ప్లాన్ బి
+- Stand Up Rahul (`stand-up-rahul-2022`) - స్టాండ్ అప్ రాహుల్
+- Andaru Bagundali... (`andaru-bagundali-andulo-nenundali-2022`) - అందరూ బాగుండాలి అందులో నేనుండాలి
+- Ashoka Vanamlo Arjuna Kalyanam (`ashoka-vanamlo-arjuna-kalyanam-2022`) - అశోక వనంలో అర్జున కళ్యాణం
+- Madhi (`madhi-2022`) - మధి
+- Jagamemaya (`jagamemaya-2022`) - జగమే మాయ
+- Dream Boy (`dream-boy-2022`) - డ్రీమ్ బాయ్
+- Katha Kanchiki Manam Intiki (`katha-kanchiki-manam-intiki-2022`) - కథ కంచికి మనం ఇంటికి
+- Darja (`darja-2022`) - దర్జా
+- Mangalyam (`mangalyam-2022`) - మాంగళ్యం
+- Uniki (`uniki-2022`) - ఉనికి
+- Ghani (`ghani-2022`) - గని
+- Veyi Subhamulu Kalugu Neeku (`veyi-subhamulu-kalugu-neeku-2022`) - వేయి శుభములు కలుగు నీకు
+- Atithi Devobhava (`atithi-devobhava-2022`) - అతిథి దేవోభవ
+- The American Dream (`the-american-dream-2022`) - ది అమెరికన్ డ్రీమ్
+- 10th Class Diaries (`10th-class-diaries-2022`) - 10త్ క్లాస్ డైరీస్
+- Kotha Kothaga (`kotha-kothaga-2022`) - కొత్త కొత్తగా
+- Like Share & Subscribe (`like-share-and-subscribe-2022`) - లైక్ షేర్ సబ్‌స్క్రైబ్
+- Sebastian P.C. 524 (`sebastian-pc-524-2022`) - సెబాస్టియన్ పి.సి. 524
+- Valliddari Madhya (`valliddari-madhya-2022`) - వళ్లిద్దరి మధ్య
+- Godse (`godse-2022`) - గాడ్సే
+- HIT: The 2nd Case (`hit-the-2nd-case-2022`) - హిట్: ది సెకండ్ కేస్
+- Mishan Impossible (`mishan-impossible-2022`) - మిషన్ ఇంపాజిబుల్
+- Induvadana (`induvadana-2022`) - ఇందువదన
+- Chor Bazaar (`chor-bazaar-2022`) - చోర్ బజార్
+- Son of India (`son-of-india-2022`) - సన్ ఆఫ్ ఇండియా
+- Saakini Daakini (`saakini-daakini-2022`) - శాకిని డాకిని
+- Sasanasabha (`sasanasabha-2022`) - శాసనసభ
+- Leharaayi (`leharaayi-2022`) - లెహరాయి
+- Masooda (`masooda-2022`) - మసూద
+- Korameenu (`korameenu-2022`) - కొరమీను
+- Mukhachitram (`mukhachitram-2022`) - ముఖచిత్రం
+- Balamevvadu (`balamevvadu-2022`) - బలమెవ్వడు
+- Rowdy Boys (`rowdy-boys-2022`) - రౌడీ బాయ్స్
+- Dongalunnaru Jagratha (`dongalunnaru-jagratha-2022`) - దొంగలున్నారు జాగ్రత్త
+- Raajahyogam (`raajahyogam-2022`) - రాజయోగం
+- Sammathame (`sammathame-2022`) - సమ్మతమే
+- #69 Samskar Colony (`69-samskar-colony-2022`) - #69 సంస్కార్ కాలనీ
+- Pellikuturu Party (`pellikuturu-party-2022`) - పెళ్ళికూతురు పార్టీ
+- One By Two (`one-by-two-2022`) - వన్ బై టూ
+- Gandharwa (`gandharwa-2022`) - గంధర్వ
+- Ranasthali (`ranasthali-2022`) - రణస్థలి
+- 7 Days 6 Nights (`7-days-6-nights-2022`) - 7 డేస్ 6 నైట్స్
+- Sehari (`sehari-2022`) - సెహరి
+- Ginna (`ginna-2022`) - జిన్నా
+- Konda (`konda-2022`) - కొండా
+- First Day First Show (`first-day-first-show-2022`) - ఫస్ట్ డే ఫస్ట్ షో
+- Butterfly (`butterfly-2022`) - బటర్ ఫ్లై
+- Nikamma (`abhimanyu-2022`) - నికమ్మ
+- Jetty (`jetty-2022`) - జెట్టి
+- Macherla Niyojakavargam (`macherla-niyojakavargam-2022`) - మాచర్ల నియోజకవర్గం
+- Ramarao on Duty (`ramarao-on-duty-2022`) - రామారావు ఆన్ డ్యూటీ
+- Ori Devuda..! (`ori-devuda-2022`) - ఓరి దేవుడా
+- Pratibimbalu (`pratibimbalu-2022`) - ప్రతిబింబాలు
+- Monster (`monster-2022`) - మాన్స్టర్
+- Aakasha Veedhullo (`aakasha-veedhullo-2022`) - ఆకాశ వీధుల్లో
+- Focus (`focus-2022`) - ఫోకస్
+- Anukoni Prayanam (`anukoni-prayanam-2022`) - అనుకోని ప్రయాణం
+- Bommala Koluvu (`bommala-koluvu-2022`) - బొమ్మల కొలువు
+- Ante... Sundaraniki! (`ante-sundaraniki-2022`) - అంటే... సుందరానికి!
+- Kothala Rayudu (`kothala-rayudu-2022`) - కోతల రాయుడు
+- Shekar (`shekar-2022`) - శేఖర్
+- Pakka Commercial (`pakka-commercial-2022`) - పక్కా కమర్షియల్
+- Sivudu (`sivudu-2022`) - శివుడు
+- Nenu C/o Nuvvu (`nenu-co-nuvvu-2022`) - నేను సి/ఓ నువ్వు
+- Tees Maar Khan (`tees-maar-khan-2022`) - తీస్ మార్ ఖాన్
+- Itlu Maredumilli Prajaneekam (`itlu-maredumilli-prajaneekam-2022`) - ఇట్లు మారేడుమిల్లి ప్రజానీకం
+- Cheppalani Undhi (`cheppalani-undhi-2022`) - చెప్పాలని ఉంది
+- Thaggedhe Le (`thaggedhe-le-2022`) - తగ్గేదే లే
+- Bomma Blockbuster (`bomma-blockbuster-2022`) - బొమ్మ బ్లాక్ బస్టర్
+- Neetho (`neetho-2022`) - నీతో
+- Gangster Gangaraju (`gangster-gangaraju-2022`) - గ్యాంగ్‌స్టర్ గంగరాజు
+- Iravatham (`iravatham-2022`) - ఐరావతం
+- Wanted PanduGod (`wanted-pandugod-2022`) - వాంటెడ్ పండుగాడ్
+- Odela Railway Station (`odela-railway-station-2022`) - ఓదెల రైల్వే స్టేషన్
+- Super Machi (`super-machi-2022`) - సూపర్ మచి
+- Niku Naku Pellanta (`niku-naku-pellanta-tom-tom-tom-2022`) - నీకు నాకు పెళ్ళంట
+- 3e (`3e-2022`) - 3ఈ
+- Aa Ammayi Gurinchi Meeku Cheppali (`aa-ammayi-gurinchi-meeku-cheppali-2022`) - ఆ అమ్మాయి గురించి మీకు చెప్పాలి
+- Aadavaallu Meeku Johaarlu (`aadavaallu-meeku-johaarlu-2022`) - ఆడవాళ్లు మీకు జోహార్లు
+- Crazy Fellow (`crazy-fellow-2022`) - క్రేజీ ఫెలో
+- Repeat (`repeat-2022`) - రిపీట్
+- Seetharamapuramlo (`seetharamapuramlo-2022`) - సీతారామపురంలో
+- Nenu Meeku Baaga Kavalsinavaadini (`nenu-meeku-baaga-kavalsinavaadini-2022`) - నేను మీకు బాగా కావాల్సినవాడిని
+- Geetha (`geetha-2022`) - గీత
+- Hero (`hero-2022`) - హీరో
+- Priyuraalu (`priyuraalu-2021`) - ప్రియురాలు
+- Cauliflower (`cauliflower-2021`) - కాలీఫ్లవర్
+- Nootokka Jillala Andagadu (`nootokka-jillala-andagadu-2021`) - నూటొక్క జిల్లాల అందగాడు
+- Uppena (`uppena-2021`) - ఉప్పెన
+- Raja Raja Chora (`raja-raja-chora-2021`) - రాజ రాజ చోర
+- 1997 (`1997-2021`) - 1997
+- Ee Kathalo Paathralu Kalpitam (`ee-kathalo-paathralu-kalpitam-2021`) - ఈ కథలో పాత్రలు కల్పితం
+- Super Over (`super-over-2021`) - సూపర్ ఓవర్
+- Ichata Vahanamulu Nilupa Radu (`ichata-vahanamulu-nilupa-radu-2021`) - ఇచ్చట వాహనములు నిలుపరాదు
+- Thimmarusu (`thimmarusu-2021`) - తిమ్మరుసు
+- Guduputani (`gudaputani-2021`) - గూడుపుఠాణి
+- Naandhi (`naandhi-2021`) - నాంది
+- Shaadi Mubarak (`shaadi-mubarak-2021`) - షాదీ ముబారక్
+- Ishq (`ishq-2021`) - ఇష్క్
+- Mad (`mad-2021`) - మ్యాడ్
+- G-zombie (`g-zombie-2021`) - జి-జాంబీ
+- Ippudu Kaaka Inkeppudu (`ippudu-kaaka-inkeppudu-2021`) - ఇప్పుడు కాక ఇంకెప్పుడు
+- Sr Kalyanamandapam (`sr-kalyanamandapam-2021`) - ఎస్ఆర్ కళ్యాణమండపం
+- Natyam (`natyam-2021`) - నాట్యం
+- Mail (`mail-2021`) - మెయిల్
+- Raja Vikramarka (`raja-vikramarka-2021`) - రాజ విక్రమార్క
+- #Bro (`bro-2021`) - #బ్రో
+- Power Play (`power-play-2021`) - పవర్ ప్లే
+- Gully Rowdy (`gully-rowdy-2021`) - గల్లీ రౌడీ
+- 30 Rojullo Preminchadam Ela? (`30-rojullo-preminchadam-ela-2021`) - 30 రోజుల్లో ప్రేమించడం ఎలా?
+- Paagal (`paagal-2021`) - పాగల్
+- Aaradugula Bullet (`aaradugula-bullet-2021`) - ఆరడుగుల బుల్లెట్
+- Lakshya (`lakshya-2021`) - లక్ష్య
+- Senapathi (`senapathi-2021`) - సేనాపతి
+- Ardha Shathabdham (`ardha-shathabdham-2021`) - అర్థ శతాబ్దం
+- Zombie Reddy (`zombie-reddy-2021`) - జాంబీ రెడ్డి
+- Vivaha Bhojanambu (`vivaha-bhojanambu-2021`) - వివాహ భోజనంబు
+- Check (`check-2021`) - చెక్
+- Ram Asur (`ram-asur-2021`) - రామ్ అసుర్
+- Cycle (`cycle-2021`) - సైకిల్
+- Asalem Jarigindi (`asalem-jarigindi-2021`) - అసలేం జరిగింది
+- Thank You Brother! (`thank-you-brother-2021`) - థాంక్యూ బ్రదర్
+- Savitri W/o Satyamurthy (`savitri-wo-satyamurthy-2021`) - సావిత్రి వైఫ్ ఆఫ్ సత్యమూర్తి
+- Merise Merise (`merise-merise-2021`) - మెరిసే మెరిసే
+- Madhura Wines (`madhura-wines-2021`) - మధుర వైన్స్
+- Kanabadutaledu (`kanabadutaledu-2021`) - కనబడుటలేదు
+- Crrush (`crrush-2021`) - క్రష్
+- Chalo Premiddam (`chalo-premiddam-2021`) - చలో ప్రేమిద్దాం
+- Guduputani (`guduputani-2021`) - గూడుపుఠాణి
+- Adbhutham (`adbhutham-2021`) - అద్భుతం
+- Lawyer Viswanath (`lawyer-viswanath-2021`) - లాయర్ విశ్వనాథ్
+- Ninnila Ninnila (`ninnila-ninnila-2021`) - నిన్నిలా నిన్నిలా
+- Manchi Rojulochaie (`manchi-rojulochaie-2021`) - మంచి రోజులొచ్చాయి
+- Missing (`missing-2021`) - మిస్సింగ్
+- Kshana Kshanam (`kshana-kshanam-2021`) - క్షణ క్షణం
+- Konda Polam (`konda-polam-2021`) - కొండ పొలం
+- Pelli SandaD (`pelli-sandad-2021`) - పెళ్ళి సందడి
+- Gamanam (`gamanam-2021`) - గమనం
+- Aakashavaani (`aakashavaani-2021`) - ఆకాశవాణి
+- Maa Oori Polimera (`maa-oori-polimera-2021`) - మా ఊరి పొలిమేర
+- Thimmarusu (`thimmarusu-assignment-vali-2021`) - తిమ్మరుసు
+- Chinna (`chinna-2021`) - చిన్న
+- A1 Express (`a1-express-2021`) - ఏ 1 ఎక్స్‌ప్రెస్
+- Anubhavinchu Raja (`anubhavinchu-raja-2021`) - అనుభవించు రాజా
+- Alludu Adhurs (`alludu-adhurs-2021`) - అల్లుడు అదుర్స్
+- WWW (`www-2021`) - డబ్ల్యూడబ్ల్యూడబ్ల్యూ
+- Family Drama (`family-drama-2021`) - ఫ్యామిలీ డ్రామా
+- Arjuna Phalguna (`arjuna-phalguna-2021`) - అర్జున ఫల్గుణ
+- Chaavu Kaburu Challaga (`chaavu-kaburu-challaga-2021`) - చావు కబురు చల్లగా
+- Cinema Bandi (`cinema-bandi-2021`) - సినిమా బండి
+- Fcuk (`fcuk-father-chitti-umaa-kaarthik-2021`) - ఎఫ్.సి.యు.కె
+- Seetimaarr (`seetimaarr-2021`) - సీటీమార్
+- Shukra (`shukra-2021`) - శుక్ర
+- Mosagallu (`mosagallu-2021`) - మోసగాళ్ళు
+- Nireekshana (`nireekshana-2021`) - నిరీక్షణ
+- Sreekaram (`sreekaram-2021`) - శ్రీకారం
+- Rang De (`rang-de-2021`) - రంగ్ దే
+- Y (`y-2021`) - వై
+- Pranavam (`pranavam-2021`) - ప్రణవం
+- Maha Samudram (`maha-samudram-2021`) - మహా సముద్రం
+- Chandamama Raave (`chandamama-raave-asap-2021`) - చందమామ రావే
+- Plan B (`plan-b-2021`) - ప్లాన్ బి
+- Romantic (`romantic-2021`) - రొమాంటిక్
+- Radha Krishna (`radha-krishna-2021`) - రాధాకృష్ణ
+- Poster (`poster-2021`) - పోస్టర్
+- Red (`red-2021`) - రెడ్
+- MMOF (`mmof-2021`) - ఎం.ఎం.ఓ.ఎఫ్
+- Deyyam (`deyyam-2021`) - దెయ్యం
+- Sashi (`sashi-2021`) - శశి
+- Ksheera Sagara Madhanam (`ksheera-sagara-madhanam-2021`) - క్షీర సాగర మథనం
+- Maestro (`maestro-2021`) - మాస్ట్రో
+- Kapatadhaari (`kapatadhaari-2021`) - కపటధారి
+- Ek Mini Katha (`one-small-story-2021`) - ఏక్ మినీ కథ
+- Idhe Maa Katha (`idhe-maa-katha-2021`) - ఇదే మా కథ
+- Love Life & Pakodi (`love-life-pakodi-2021`) - లవ్ లైఫ్ అండ్ పకోడీ
+- Amma Deevena (`amma-deevena-2021`) - అమ్మ దీవెన
+- Jai Sena (`jai-sena-2021`) - జై సేన
+- Check (`chandra-sekhar-yeleti-2021`) - చెక్
+- Bangaru Bullodu (`bangaru-bullodu-2021`) - బంగారు బుల్లోడు
+- Annapurnamma Gari Manavadu (`annapurnamma-gari-manavadu-2021`) - అన్నపూర్ణమ్మ గారి మనవడు
+- Tera Venuka (`tera-venuka-2021`) - తెర వెనుక
+- Nenu Leni Na Premakatha (`nenu-leni-na-premakatha-2021`) - నేను లేని నా ప్రేమకథ
+- April 28th Em Jarigindi (`april-28th-em-jarigindi-2021`) - ఏప్రిల్ 28 ఏం జరిగింది
+- Drushyam 2 (`drushyam-2-2021`) - దృశ్యం 2
+- Climax (`climax-2021`) - క్లైమాక్స్
+- Saranam Gacchami (`saranam-gacchami-2021`) - శరణం గచ్ఛామి
+- Kumar G (`kumar-g-2021`) - కుమార్ జి
+- Radha Krishna (`krish-2021`) - రాధాకృష్ణ
+- Pachchis (`pachchis-2021`) - పచ్చీస్
+- Narappa (`narappa-2021`) - నారప్ప
+- Salt (`salt-2021`) - సాల్ట్
+- Sita on the Road (`sita-on-the-road-2021`) - సీత ఆన్ ది రోడ్
+- A (Ad Infinitum) (`a-ad-infinitum-2021`) - ఏ
+- Surya (`surya-2021`) - సూర్య
+- Gaali Sampath (`gaali-sampath-2021`) - గాలి సంపత్
+- Sridevi Soda Center (`sridevi-soda-center-2021`) - శ్రీదేవి సోడా సెంటర్
+- Itlu Amma (`itlu-amma-2021`) - ఇట్లు అమ్మ
+- Ek Mini Katha (`ek-mini-katha-2021`) - ఏక్ మినీ కథ
+- Mumbai Saga (Dub) (`mumbai-saga-2021`) - ముంబై సాగా
+- Jhimma (Dub) (`hemanth-2021`) - జిమ్మ
+- Journalist (`journalist-2021`) - జర్నలిస్ట్
+- Bomma Adirindi Dimma Tirigindi (`bomma-adirindi-dimma-tirigindi-2021`) - బొమ్మ అదిరింది దిమ్మ తిరిగింది
+- Raani (`raani-2021`) - రాణి
+- Most Eligible Bachelor (`bhaskar-2021`) - మోస్ట్ ఎలిజిబుల్ బ్యాచ్‌లర్
+- Net (`net-2021`) - నెట్
+- Akshara (`akshara-2021`) - అక్షర
+- The Rose Villa (`the-rose-villa-2021`) - ది రోజ్ విల్లా
+- Laabam (Dubbed) (`laabam-2021`) - లాభం
+- Asalem Jarigandi (`asalem-jarigandi-2021`) - అసలేం జరిగింది
+- Play Back (`play-back-2021`) - ప్లే బ్యాక్
+- Republic (`republic-2021`) - రిపబ్లిక్
+- Ooriki Uttharana (`ooriki-uttharana-2021`) - ఊరికి ఉత్తరాన
+- Pitta Kathalu (`pitta-kathalu-2021`) - పిట్ట కథలు
+- Varudu Kaavalenu (`varudu-kaavalenu-2021`) - వరుడు కావలేను
+- Annabelle Sethupathi (`annabelle-sethupathi-2021`) - అనబెల్ సేతుపతి
+- Heads & Tales (`heads-and-tales-2021`) - హెడ్స్ అండ్ టేల్స్
+- Bombhaat (`bombhaat-2020`) - బొంభాట్
+- Anukunnadhi Okkati Aynadhi Okkati (`anukunnadhi-okkati-aynadhi-okkati-2020`) - అనుకున్నది ఒక్కటి అయినది ఒక్కటి
+- Amaram Akhilam Prema (`amaram-akhilam-prema-2020`) - అమరం అఖిలం ప్రేమ
+- 3 Monkeys (`3-monkeys-2020`) - 3 మంకీస్
+- Thagite Thandana (`thagite-thandana-2020`) - తాగితే తందన
+- Middle Class Melodies (`middle-class-melodies-2020`) - మిడిల్ క్లాస్ మెలోడీస్
+- Pressure Cooker (`pressure-cooker-2020`) - ప్రెజర్ కుక్కర్
+- Palasa 1978 (`palasa-1978-2020`) - పలాస 1978
+- Entha Manchivaadavuraa (`entha-manchivaadavuraa-2020`) - ఎంత మంచివాడవురా!
+- Prema Pipasi (`prema-pipasi-2020`) - ప్రేమ పిపాసి
+- Bhanumathi & Ramakrishna (`bhanumathi-and-ramakrishna-2020`) - భానుమతి & రామకృష్ణ
+- Run (`run-2020`) - రన్
+- Dhira (`dhira-2020`) - ధీర
+- O Pitta Katha (`o-pitta-katha-2020`) - ఓ పిట్ట కథ
+- Uma Maheswara Ugra Roopasya (`uma-maheswara-ugra-roopasya-2020`) - ఉమామహేశ్వర ఉగ్రరూపస్య
+- Choosi Choodangaane (`choosi-choodangaane-2020`) - చూసీ చూడంగానే
+- Shiva 143 (`shiva-143-2020`) - శివ 143
+- Valayam (`valayam-2020`) - వలయం
+- Savaari (`savaari-2020`) - సవారీ
+- Nishabdham (`nishabdham-2020`) - నిశ్శబ్దం
+- Aswathama (`aswathama-2020`) - అశ్వథామ
+- Guvva Gorinka (`guvva-gorinka-2020`) - గువ్వ గోరింక
+- Bheeshma (`bheeshma-2020`) - భీష్మ
+- Hit: The First Case (`hit-the-first-case-2020`) - హిట్
+- Jaanu (`jaanu-2020`) - జాను
+- Cheema Prema Madhyalo Bhama (`cheema-prema-madhyalo-bhama-2020`) - చీమ ప్రేమ మధ్యలో భామ
+- DubSmash (`dubsmash-2020`) - డబ్ స్మాష్
+- 302 (`302-2020`) - 302
+- Neevalle Nenunna (`neevalle-nenunna-2020`) - నీవల్లే నేనున్నా
+- Madha (`madha-2020`) - మధ
+- Nirbandham (`nirbandham-2020`) - నిర్బంధం
+- Dirty Hari (`dirty-hari-2020`) - డర్టీ హరి
+- Manasanamaha (Short) (`manasanamaha-2020`) - మనసానమః
+- Meka Suri 2 (`meka-suri-2-2020`) - మేక సూరి 2
+- Life Anubavinchu Raja (`life-anubavinchu-raja-2020`) - లైఫ్ అనుభవించు రాజా
+- Oka Chinna Viramam (`oka-chinna-viramam-2020`) - ఒక చిన్న విరామం
+- Anaganaga O Athidhi (`anaganaga-o-athidhi-2020`) - అనగనగా ఓ అతిథి
+- IIT Krishnamurthy (`iit-krishnamurthy-2020`) - ఐఐటీ కృష్ణమూర్తి
+- Krishna and His Leela (`krishna-and-his-leela-2020`) - కృష్ణ అండ్ హిజ్ లీలా
+- Murder (`murder-2020`) - మర్డర్
+- Degree College (`degree-college-2020`) - డిగ్రీ కాలేజీ
+- Miss India (`miss-india-2020`) - మిస్ ఇండియా
+- Metro Kathalu (`metro-kathalu-2020`) - మెట్రో కథలు
+- Orey Bujjiga (`orey-bujjiga-2020`) - ఒరేయ్ బుజ్జిగా
+- Meka Suri (`meka-suri-2020`) - మేక సూరి
+- Family (Short) (`family-a-made-at-home-short-film-2020`) - ఫ్యామిలీ
+- Eureka (`eureka-2020`) - యురేకా
+- Ala Vaikunthapurramloo (`ala-vaikunthapurramloo-2020`) - అల వైకుంఠపురములో
+- Solo Brathuke So Better (`solo-brathuke-so-better-2020`) - సోలో బ్రతుకే సో బెటర్
+- Raahu (`raahu-2020`) - రాహు
+- Johaar (`johaar-2020`) - జోహార్
+- Maa Vintha Gaadha Vinuma (`maa-vintha-gaadha-vinuma-2020`) - మా వింత గాధ వినుమా
+- Coronavirus (`coronavirus-2020`) - కరోనావైరస్
+- Anaganaga O Athidhi (`anaganaga-o-athdhi-2020`) - అనగనగా ఓ అతిథి
+- Sita (`sita-2019`) - సీత
+- Evadu Thakkuva Kaadu (`evadu-thakkuva-kaadu-2019`) - ఎవడూ తక్కువ కాదు
+- Prati Roju Pandaage (`prati-roju-pandaage-2019`) - ప్రతి రోజూ పండగే
+- 2 Hours Love (`2-hours-love-2019`) - 2 అవర్స్ లవ్
+- Rahasyam (`rahasyam-2019`) - రహస్యం
+- Nenu Aadhi Madyalo Maa Nanna (`nenu-aadhi-madyalo-maa-nanna-2019`) - నేను అది మధ్యలో మా నాన్న
+- Eureka (`eureka-2019`) - యురేకా
+- Prematho Cheppana (`prematho-cheppana-2019`) - ప్రేమతో చెప్పనా
+- Seven (`seven-2019`) - సెవెన్
+- Burra Katha (`burra-katha-2019`) - బుర్రకథ
+- ABCD (`abcd-american-born-confused-desi-2019`) - ఏబీసీడీ
+- 1st Rank Raju (`1st-rank-raju-2019`) - ఫస్ట్ ర్యాంక్ రాజు
+- Chanakya (`chanakya-2019`) - చాణక్య
+- Ranasthalam (`ranasthalam-2019`) - రణస్థలం
+- Ninu Veedani Needanu Nene (`ninu-veedani-needanu-nene-2019`) - నిను వీడని నీడను నేనే
+- Prema Katha Chitram 2 (`prema-katha-chitram-2-2019`) - ప్రేమకథా చిత్రమ్ 2
+- Nene Mukyamantri (`nene-mukyamantri-2019`) - నేనే ముఖ్యమంత్రి
+- Software Sudheer (`software-sudheer-2019`) - సాఫ్ట్‌వేర్ సుధీర్
+- Iddari Lokam Okate (`iddari-lokam-okate-2019`) - ఇద్దరి లోకం ఒకటే
+- Mr. Majnu (`mr-majnu-2019`) - మిస్టర్ మజ్ను
+- Special (`special-2019`) - స్పెషల్
+- Ek (`ek-2019`) - ఏక్
+- Aaviri (`aaviri-2019`) - ఆవిరి
+- Beach Road Chetan (`beach-road-chetan-2019`) - బీచ్ రోడ్ చేతన్
+- Jessie (`jessie-2019`) - జెస్సి
+- Lakshmi's NTR (`lakshmi-s-ntr-2019`) - లక్ష్మీస్ ఎన్టీఆర్
+- Operation Gold Fish (`operation-gold-fish-2019`) - ఆపరేషన్ గోల్డ్ ఫిష్
+- Rakshasudu (`rakshasudu-2019`) - రాక్షసుడు
+- Abhinetri 2 (`abhinetri-2-2019`) - అభినేత్రి 2
+- Raja Vaaru Rani Gaaru (`raja-vaaru-rani-gaaru-2019`) - రాజా వారు రాణి గారు
+- Mouname Ishtam (`mouname-ishtam-2019`) - మౌనమే ఇష్టం
+- Ragala 24 Gantallo (`ragala-24-gantallo-2019`) - రాగాల 24 గంటల్లో
+- Voter (`voter-2019`) - ఓటర్
+- Gaddalakonda Ganesh (`gaddalakonda-ganesh-2019`) - గద్దలకొండ గణేష్
+- Rama Chakkani Seetha (`rama-chakkani-seetha-2019`) - రామ చక్కని సీత
+- Crazy Crazy Feeling (`crazy-crazy-feeling-2019`) - క్రేజీ క్రేజీ ఫీలింగ్
+- Tholu Bommalata (`tholu-bommalata-2019`) - తోలుబొమ్మలాట
+- Danger Love Story (`danger-love-story-2019`) - డేంజర్ లవ్ స్టోరీ
+- Krishna Rao Supermarket (`krishna-rao-supermarket-2019`) - కృష్ణారావు సూపర్ మార్కెట్
+- Magnet (`magnet-2019`) - మాగ్నెట్
+- Mithai (`mithai-2019`) - మిఠాయి
+- Chitralahari (`kishore-kumar-2019`) - చిత్రలహరి
+- 118 (`118-2019`) - 118
+- Thupaki Ramudu (`thupaki-ramudu-2019`) - తుపాకి రాముడు
+- Bailampudi (`bailampudi-2019`) - బైలంపూడి
+- Dorasaani (`dorasaani-2019`) - దొరసాని
+- Suryakantham (`suryakantham-2019`) - సూర్యకాంతం
+- Raju Gari Gadhi 3 (`raju-gari-gadhi-3-2019`) - రాజు గారి గది 3
+- Amma Rajyam Lo Kadapa Biddalu (`amma-rajyam-lo-kadapa-biddalu-2019`) - అమ్మ రాజ్యంలో కడప బిడ్డలు
+- Dhrushti (`dhrushti-2019`) - దృష్టి
+- Guna 369 (`guna-369-2019`) - గుణ 369
+- Malli Malli Chusa (`malli-malli-chusa-2019`) - మళ్ళీ మళ్ళీ చూశా
+- Jodi (`jodi-2019`) - జోడి
+- Mallesham (`mallesham-2019`) - మల్లేశం
+- Arjun Suravaram (`arjun-suravaram-2019`) - అర్జున్ సురవరం
+- Kalki (`kalki-2019`) - కల్కి
+- Kousalya Krishnamurthy (`kousalya-krishnamurthy-2019`) - కౌసల్య కృష్ణమూర్తి
+- Brochevarevarura (`brochevarevarura-2019`) - బ్రోచేవారెవరురా
+- Bilalpur Police Station (`bilalpur-police-station-2019`) - బిలాల్‌పూర్ పోలీస్ స్టేషన్
+- Kathanam (`kathanam-2019`) - కథనం
+- Heza (`heza-2019`) - హెజా
+- Manmadhudu 2 (`manmadhudu-2-2019`) - మన్మథుడు 2
+- Yatra (`yatra-2019`) - యాత్ర
+- Kothaga Maa Prayanam (`kothaga-maa-prayanam-2019`) - కొత్తగా మా ప్రయాణం
+- Edaina Jaragocchu (`edaina-jaragocchu-2019`) - ఏదైనా జరగొచ్చు
+- Bhagya Nagara Veedhullo Gammathu (`bhagya-nagara-veedhullo-gammathu-2019`) - భాగ్యనగర వీధుల్లో గమ్మత్తు
+- Agent Sai Srinivasa Athreya (`agent-sai-srinivasa-athreya-2019`) - ఏజెంట్ సాయి శ్రీనివాస ఆత్రేయ
+- Nivaasi (`nivaasi-2019`) - నివాసి
+- Tenali Ramakrishna BA.BL (`tenali-ramakrishna-babl-2019`) - తెనాలి రామకృష్ణ BA.BL
+- Kobbari Matta (`kobbari-matta-2019`) - కొబ్బరి మట్ట
+- Vishwamitra (`vishwamitra-2019`) - విశ్వామిత్ర
+- N.T.R: Kathanayakudu (`ntr-kathanayakudu-2019`) - ఎన్టీఆర్: కథానాయకుడు
+- N.T.R: Mahanayakudu (`ntr-mahanayakudu-2019`) - ఎన్టీఆర్: మహానాయకుడు
+- Tenali Ramakrishna BA. BL (`tenali-ramakrishna-ba-bl-2019`) - తెనాలి రామకృష్ణ బిఏ.బిఎల్
+- Kanne Kalaimaane (Dub) (`kanne-kalaimaane-2019`) - కన్నె కలైమానే
+- Police officer (`police-officer-2019`) - పోలీస్ ఆఫీసర్
+- Khamoshi (Hindi) (`khamoshi-2019`) - ఖమోషి
+- Jack & Daniel (Dub) (`jack-daniel-2019`) - జాక్ అండ్ డేనియల్
+- Petromax (Tamil) (`petromax-2019`) - పెట్రోమ్యాక్స్
+- Praana (`praana-2019`) - ప్రాణ
+- Marshal (`marshal-2019`) - మార్షల్
+- Ismart Shankar (`ismart-shankar-2019`) - ఇస్మార్ట్ శంకర్
+- Ranarangam (`ranarangam-2019`) - రణరంగం
+- Yedu Chepala Kadha (`yedu-chepala-kadha-2019`) - ఏడు చేపల కథ
+- Sivaranjani (`sivaranjani-2019`) - శివరంజని
+- Chikati Gadilo Chithakotudu (`chikati-gadilo-chithakotudu-2019`) - చీకటి గదిలో చితక్కొట్టుడు
+- F2 (`f2-fun-and-frustration-2019`) - ఎఫ్ 2
+- Evaru (`evaru-2019`) - ఎవరు
+- Where Is the Venkatalakshmi (`where-is-the-venkatalakshmi-2019`) - వేర్ ఈజ్ ది వెంకటలక్ష్మి
+- N.T.R: Kathanayakudu (`n-t-r-kathanayakudu-2019`) - ఎన్.టి.ఆర్: కథానాయకుడు
+- Mis(s) Match (`miss-match-2019`) - మిస్ మ్యాచ్
+- Aa Nimisham (`aa-nimisham-2019`) - ఆ నిమిషం
+- Chitralahari (`chitralahari-2019`) - చిత్రలహరి
+- Hippi (`hippi-2019`) - హిప్పీ
+- Falaknuma Das (`falaknuma-das-2019`) - ఫలక్‌నుమా దాస్
+- Vajra Kavachadhara Govinda (`vajra-kavachadhara-govinda-2019`) - వజ్ర కవచధర గోవింద
+- George Reddy (`george-reddy-2019`) - జార్జ్ రెడ్డి
+- Darpanam (`darpanam-2019`) - దర్పణం
+- Rajdooth (`rajdooth-2019`) - రాజదూత్
+- Hulchul (`hulchul-2019`) - హల్ చల్
+- Madura Raja (Dub) (`madura-raja-2019`) - మధుర రాజా
+- Evvarikee Cheppoddu (`evvarikee-cheppoddu-2019`) - ఎవ్వరికీ చెప్పొద్దు
+- 4 Letters (`4-letters-2019`) - 4 లెటర్స్
+- RDX Love (`rdx-love-2019`) - ఆర్డీఎక్స్ లవ్
+- Mathu Vadalara (`srinivasa-reddy-2019`) - మత్తు వదలరా
+- Nani's Gang Leader (`nanis-gang-leader-2019`) - గ్యాంగ్ లీడర్
+- 90ML (`90ml-2019`) - 90ఎంఎల్
+- Kee (Dub) (`kee-2019`) - కీ
+- Action (Dub) (`action-2019`) - యాక్షన్
+- Thipparaa Meesam (`thipparaa-meesam-2019`) - తిప్పరా మీసం
+- Subramanyapuram (`subramanyapuram-2018`) - సుబ్రహ్మణ్యపురం
+- Paper Boy (`paper-boy-2018`) - పేపర్ బాయ్
+- Veera Bhoga Vasantha Rayalu (`veera-bhoga-vasantha-rayalu-2018`) - వీర భోగ వసంత రాయలు
+- Ee Nagariniki Emaindi (`ee-nagariniki-emaindi-2018`) - ఈ నగరానికి ఏమైంది
+- Chal Mohan Ranga (`chal-mohan-ranga-2018`) - చల్ మోహన్ రంగ
+- @Nartanasala (`nartanasala-2018`) - నర్తనశాల
+- Mercury (Silent) (`mercury-2018`) - మెర్క్యూరీ
+- Achari America Yatra (`achari-america-yatra-2018`) - ఆచారి అమెరికా యాత్ర
+- Masakkali (`masakkali-2018`) - మసక్కలి
+- Kartha Karma Kriya (`kartha-karma-kriya-2018`) - కర్త కర్మ క్రియ
+- Officer (`officer-2018`) - ఆఫీసర్
+- Aatagallu (`aatagallu-2018`) - ఆటగాళ్లు
+- Raa Raa (`raa-raa-2018`) - రా రా
+- Naa Peru Surya (`naa-peru-surya-2018`) - నా పేరు సూర్య
+- Anthaku Minchi (`anthaku-minchi-2018`) - అంతకు మించి
+- Kavacham (`kavacham-2018`) - కవచం
+- Super Sketch (`super-sketch-2018`) - సూపర్ స్కెచ్
+- Aithe 2.0 (`aithe-2-0-2018`) - ఐతే 2.0
+- 2 Friends (`2-friends-2018`) - 2 ఫ్రెండ్స్
+- Nannu Dochukunduvate (`nannu-dochukunduvate-2018`) - నన్ను దోచుకుందువటే
+- Juvva (`juvva-2018`) - జువ్వ
+- Chi La Sow (`chi-la-sow-2018`) - చి ల సౌ
+- Aravinda Sametha (`aravinda-sametha-veera-raghava-2018`) - అరవింద సమేత
+- Raju Gadu (`raju-gadu-2018`) - రాజు గాడు
+- Aatagadharaa Siva (`aatagadharaa-siva-2018`) - ఆటగధరా శివ
+- Kirrak Party (`kirrak-party-2018`) - కిర్రాక్ పార్టీ
+- Jamba Lakidi Pamba (`jamba-lakidi-pamba-2018`) - జంబలకిడి పంబ
+- Taxiwala (`taxiwala-2018`) - టాక్సీవాలా
+- Manu (`manu-2018`) - మను
+- Padi Padi Leche Manasu (`padi-padi-leche-manasu-2018`) - పడి పడి లేచె మనసు
+- Kanam (`kanam-2018`) - కణం
+- Saakshyam (`saakshyam-2018`) - సాక్ష్యం
+- RX 100 (`rx-100-2018`) - ఆర్‌ఎక్స్ 100
+- Shailaja Reddy Alludu (`shailaja-reddy-alludu-2018`) - శైలజారెడ్డి అల్లుడు
+- C/o Kancharapalem (`co-kancharapalem-2018`) - కేరాఫ్ కంచరపాలెం
+- Ammammagarillu (`ammammagarillu-2018`) - అమ్మమ్మగారిల్లు
+- Rangu (`rangu-2018`) - రంగు
+- Karma Kartha Kriya (`karma-kartha-kriya-2018`) - కర్మ కర్త క్రియ
+- Ego (`ego-2018`) - ఈగో
+- Ishtangaa (`ishtangaa-2018`) - ఇష్టంగా
+- Adhugo (`adhugo-2018`) - అదుగో
+- Moodu Puvulu Aaru Kayalu (`moodu-puvulu-aaru-kayalu-2018`) - మూడు పువ్వులు ఆరు కాయలు
+- Bluff Master (`bluff-master-2018`) - బ్లఫ్ మాస్టర్
+- Goodachari (`goodachari-2018`) - గూఢచారి
+- Pantham (`pantham-2018`) - పంతం
+- 24 Kisses (`24-kisses-2018`) - 24 కిసెస్
+- Idi Naa Love Story (`idi-naa-love-story-2018`) - ఇది నా లవ్ స్టోరీ
+- Ee Maaya Peremito (`ee-maaya-peremito-2018`) - ఈ మాయ పేరేమిటో
+- Howrah Bridge (`howrah-bridge-2018`) - హౌరా బ్రిడ్జ్
+- Lover (`lover-2018`) - లవర్
+- MLA (`mla-2018`) - ఎమ్మేల్యే
+- Ye Mantram Vesave (`ye-mantram-vesave-2018`) - యే మంత్రం వేసావే
+- Sameeram (`sameeram-2018`) - సమీరం
+- Enduko Emo (`enduko-emo-2018`) - ఎందుకో ఏమో
+- Chalo (`chalo-2018`) - చలో
+- Natakam (`natakam-2018`) - నాటకం
+- Aa Bb Kk (Marathi Dub) (`aa-bb-kk-2018`) - ఆ బ క
+- Mom (Telugu Dub) (`mom-2018`) - మామ్
+- Maaya (`maaya-2018`) - మాయ
+- W/o Ram (`wo-ram-2018`) - వైఫ్ ఆఫ్ రామ్
+- Manasuku Nachindi (`manasuku-nachindi-2018`) - మనసుకు నచ్చింది
+- Brand Babu (`brand-babu-2018`) - బ్రాండ్ బాబు
+- Keni (Tamil/Dub) (`keni-2018`) - కేణి
+- My Dear Marthandam (`my-dear-marthandam-2018`) - మై డియర్ మార్తాండం
+- Silly Fellows (`silly-fellows-2018`) - సిల్లీ ఫెలోస్
+- Tej... I Love You (`tej-i-love-you-2018`) - తేజ్... ఐ లవ్ యు
+- Krishnarjuna Yudham (`krishnarjuna-yudham-2018`) - కృష్ణార్జున యుద్ధం
+- Kinar (Malayalam/Dub) (`kinar-2018`) - కినార్
+- Next Enti? (`next-enti-2018`) - నెక్స్ట్ ఏంటి?
+- Sketch (Telugu Dub) (`sketch-2018`) - స్కెచ్
+- Rangula Ratnam (`rangula-ratnam-2018`) - రంగుల రాట్నం
+- Neevevaro (`neevevaro-2018`) - నీవెవరో
+- Sivakasipuram (`sivakasipuram-2018`) - శివకాశీపురం
+- Chalakkudykkaran Changathy (`chalakkudykkaran-changathy-2018`) - చాలకుడిక్కారన్ చంగాతి
+- Hushaaru (`hushaaru-2018`) - హుషారు
+- Hyderabad Love Story (`hyderabad-love-story-2018`) - హైదరాబాద్ లవ్ స్టోరీ
+- Parichayam (`parichayam-2018`) - పరిచయం
+- Amar Akbar Anthony (`amar-akbar-anthony-2018`) - అమర్ అక్బర్ ఆంటోనీ
+

@@ -1,0 +1,91 @@
+{
+  "actorName": "Krishnam Raju",
+  "debutYear": 1965,
+  "wikipediaFilmCount": 190,
+  "databaseFilmCount": 166,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "e62652e2-bee0-4533-b6bd-8aa92bf303e3",
+        "title": "Manavoori Pandavulu",
+        "year": 1978
+      },
+      "movie2": {
+        "id": "1d89b678-a3b6-4250-ad27-317c295131f4",
+        "title": "Mana Voori Pandavulu",
+        "year": 1978
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "1e7e493e-9c00-4132-b3c3-cbcb5ab272b8",
+        "title": "Ooruki Monagadu",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "1b79354e-f55f-4380-b066-7e321797f6ed",
+        "title": "Ooriki Monagadu",
+        "year": 1981
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "77f47227-e1a3-4859-8a9d-02a5abc06290",
+        "title": "Trisulam",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "1aad60ba-ea6d-46d5-b93f-88aab3863c8c",
+        "title": "Trisulam",
+        "year": 1983
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "8269a324-1d97-47ab-b05c-f578a999a39e",
+        "title": "Maa Nannaku Pelli",
+        "year": 1997
+      },
+      "movie2": {
+        "id": "a4656800-4063-4a40-9022-2cd049fc40c7",
+        "title": "Maa Nanna Ki Pelli",
+        "year": 1997
+      },
+      "similarity": 0.9333333333333333
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1972": 1,
+    "1973": 2,
+    "1974": 4,
+    "1975": 16,
+    "1976": 11,
+    "1977": 14,
+    "1978": 20,
+    "1979": 10,
+    "1980": 12,
+    "1981": 15,
+    "1982": 17,
+    "1983": 17,
+    "1984": 6,
+    "1985": 2,
+    "1986": 4,
+    "1987": 3,
+    "1988": 3,
+    "1989": 1,
+    "1990": 1,
+    "1993": 1,
+    "1994": 1,
+    "1996": 1,
+    "1997": 2,
+    "2000": 1,
+    "2009": 1
+  },
+  "summary": "4 potential duplicates, Count mismatch: DB=166, Wiki=~190"
+}

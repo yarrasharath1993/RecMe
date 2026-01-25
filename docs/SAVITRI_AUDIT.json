@@ -1,0 +1,16 @@
+{
+  "actorName": "Savitri",
+  "debutYear": 1950,
+  "wikipediaFilmCount": 252,
+  "databaseFilmCount": 3,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1960": 1,
+    "1965": 1,
+    "2007": 1
+  },
+  "summary": "Count mismatch: DB=3, Wiki=~252"
+}

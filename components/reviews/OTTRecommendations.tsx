@@ -88,7 +88,7 @@ function OTTMovieCard({ movie }: { movie: OTTMovie }) {
 
   return (
     <Link
-      href={`/reviews/${movie.slug}`}
+      href={`/movies/${movie.slug}`}
       className="group flex gap-3 p-2 rounded-lg hover:bg-[var(--bg-secondary)] transition-colors"
       aria-label={`${movie.title} - Available on ${movie.platforms.map(p => PLATFORM_CONFIG[p].name).join(', ')}`}
     >
@@ -263,7 +263,7 @@ export function OTTRecommendations({
       {/* View More */}
       {filteredMovies.length > maxVisible && (
         <Link
-          href={showAllLink || `/reviews?ott=${selectedPlatform}`}
+          href={showAllLink || `/movies?ott=${selectedPlatform}`}
           className="block text-center py-2 mt-2 text-xs font-medium text-[var(--brand-primary)] hover:underline"
         >
           View {filteredMovies.length - maxVisible} more →

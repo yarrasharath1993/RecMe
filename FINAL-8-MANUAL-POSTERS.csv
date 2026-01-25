@@ -1,0 +1,9 @@
+ID,Movie Title,Year,Hero,Current_Rating,New_Poster_URL,Source,Instructions
+6dcf4ef0-f5e9-4717-96dd-14513908ce02,Gopi – Goda Meedha Pilli,2006,Allari Naresh,5.4,,TMDB,"Search TMDB manually, copy poster image URL"
+86e58157-d33f-48d1-a562-7413efddffd9,Shubha Lagnam,1994,Jagapathi Babu,7.9,,TMDB,"HIGHEST RATED! Search TMDB manually, copy poster image URL"
+ff32a1f8-e0a8-41fd-9fe9-5f9ffb94b6fa,Angala Parameswari,2002,Roja,5.8,,IMDb,"https://www.imdb.com/find?q=Angala+Parameswari+2002 → Photos → Copy poster URL"
+6d038721-fec0-4ba3-a90b-acbb26ef088e,Raja Muthirai,1995,Arun Pandian,6.0,,IMDb,"https://www.imdb.com/find?q=Raja+Muthirai+1995 → Photos → Copy poster URL"
+9fcf70da-160e-4635-af49-538749378675,Shubha Muhurtam,1983,Murali Mohan,6.5,,IMDb,"https://www.imdb.com/find?q=Shubha+Muhurtam+1983 → Photos → Copy poster URL"
+90c2fb7e-6c92-45a4-81c4-a6c18b32e742,Rakta Sambandham,1980,Murali Mohan,7.1,,IMDb,"https://www.imdb.com/find?q=Rakta+Sambandham+1980 → Photos → Copy poster URL"
+06506eed-73d6-43dd-af5e-66030ac47b65,Parvathi Parameshwarulu,1981,Chandra Mohan,6.8,,IndianCine.ma,"https://indiancine.ma → Search → Copy poster URL"
+0a0d8345-02a7-4343-ada9-89ea66b5f912,Agni Sanskaram,1980,Gummadi,6.2,,IndianCine.ma,"https://indiancine.ma → Search → Copy poster URL"

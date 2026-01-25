@@ -1,0 +1,233 @@
+{
+  "actorName": "Chiranjeevi",
+  "debutYear": 1978,
+  "wikipediaFilmCount": 1987,
+  "databaseFilmCount": 167,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "0f3db5a0-0455-4f94-906a-6d7c9164a024",
+        "title": "Tirugu Leni Manishi",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "576fc3a4-cdb3-48a6-bcbe-a54dc968d613",
+        "title": "Tiruguleni Manishi",
+        "year": 1981
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "79aa2743-06d3-4209-902f-1359fa0cf6a8",
+        "title": "Manthri Gari Viyyankudu",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "bcc14ae8-f23b-4587-8a5e-6eb929464228",
+        "title": "Mantri Gari Viyyankudu",
+        "year": 1983
+      },
+      "similarity": 0.9523809523809523
+    },
+    {
+      "movie1": {
+        "id": "aca1d60c-9410-4e5b-86f8-39ccc8a55da8",
+        "title": "Sangharshana",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "abb38c8f-69f3-4bc1-ab7e-acbd15313a39",
+        "title": "Sangarshana",
+        "year": 1983
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "65197e36-b235-402d-be9b-548a8119473e",
+        "title": "Palleturi Monagadu",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "5303c9b2-7a00-493f-bcd8-ad6c3373f890",
+        "title": "Palletoori Monagadu",
+        "year": 1983
+      },
+      "similarity": 0.8888888888888888
+    },
+    {
+      "movie1": {
+        "id": "11f8c99e-01d7-47bb-b032-1f1c5dcfe0db",
+        "title": "Simhapuri Simham",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "1929a319-de57-4898-86ad-3adf10e552c2",
+        "title": "Simhapoori Simham",
+        "year": 1983
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "698b07b7-978a-4438-9340-8e2db2bc56ba",
+        "title": "Inti Guttu",
+        "year": 1984
+      },
+      "movie2": {
+        "id": "33b9f305-068b-439a-9611-dde128f4234f",
+        "title": "Intiguttu",
+        "year": 1984
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "230d792b-757a-44b6-a2a0-e84ab4278769",
+        "title": "Chattam Tho Poratam",
+        "year": 1985
+      },
+      "movie2": {
+        "id": "6e31b85e-6a40-4498-9918-6dee132d90e7",
+        "title": "Chattamtho Poratam",
+        "year": 1985
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "110e701c-8e4d-4c3e-9f3c-8e9405438881",
+        "title": "Adavi Donga",
+        "year": 1985
+      },
+      "movie2": {
+        "id": "0d7f6e1c-9556-48d1-bf73-846681f4a88d",
+        "title": "Donga",
+        "year": 1985
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "98d88f26-4bcb-40d2-8392-bc470adf55d1",
+        "title": "Dairyavanthudu",
+        "year": 1986
+      },
+      "movie2": {
+        "id": "8d108325-9894-4192-8335-e4e3ee25a503",
+        "title": "Dhairyavanthudu",
+        "year": 1986
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "45d03f96-2e14-4786-a76f-d5ee57e4abb3",
+        "title": "Yudda Bhoomi",
+        "year": 1988
+      },
+      "movie2": {
+        "id": "0f1623a6-3eab-4dea-a5ce-895abe430e43",
+        "title": "Yuddha Bhoomi",
+        "year": 1988
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "d432a77c-184e-4e9f-a72a-5e51cbeaa795",
+        "title": "Lankeshwarudu",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "deb456fb-0883-4a09-82c5-c66ed3287bf2",
+        "title": "Lankeswarudu",
+        "year": 1989
+      },
+      "similarity": 0.9230769230769231
+    },
+    {
+      "movie1": {
+        "id": "d2c6057f-15fc-43f1-8793-789b9faaa9f8",
+        "title": "Alluda Majaka",
+        "year": 1995
+      },
+      "movie2": {
+        "id": "dc7b3c48-702a-4a6a-a405-edfef22267a4",
+        "title": "Alludaa Majakaa",
+        "year": 1995
+      },
+      "similarity": 0.8571428571428572
+    },
+    {
+      "movie1": {
+        "id": "295a569d-1eb9-4f94-9ae1-1709dd927a18",
+        "title": "Andarivaadu",
+        "year": 2005
+      },
+      "movie2": {
+        "id": "6f34e076-a297-4cf8-a74b-c30c8e16e025",
+        "title": "Andarivadu",
+        "year": 2005
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "67d86eb0-d828-4676-b3e0-53756c90f769",
+        "title": "Best Actor – Telugu",
+        "year": 2023
+      },
+      "movie2": {
+        "id": "f9b0fb8a-292d-4f7c-9790-79af47ab7c29",
+        "title": "Best Actor – Telugu",
+        "year": 2024
+      },
+      "similarity": 1
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1978": 1,
+    "1979": 6,
+    "1980": 10,
+    "1981": 12,
+    "1982": 14,
+    "1983": 18,
+    "1984": 15,
+    "1985": 7,
+    "1986": 9,
+    "1987": 7,
+    "1988": 10,
+    "1989": 6,
+    "1990": 4,
+    "1991": 4,
+    "1992": 2,
+    "1993": 2,
+    "1994": 2,
+    "1995": 4,
+    "1997": 2,
+    "1998": 3,
+    "1999": 2,
+    "2000": 1,
+    "2001": 2,
+    "2002": 1,
+    "2003": 1,
+    "2004": 2,
+    "2005": 3,
+    "2006": 2,
+    "2007": 1,
+    "2010": 1,
+    "2016": 1,
+    "2017": 1,
+    "2019": 1,
+    "2022": 2,
+    "2023": 3,
+    "2024": 1,
+    "2026": 4
+  },
+  "summary": "14 potential duplicates, Count mismatch: DB=167, Wiki=~1987"
+}

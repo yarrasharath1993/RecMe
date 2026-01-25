@@ -1,0 +1,351 @@
+[
+  {
+    "timestamp": "2026-01-12T20:12:00.028Z",
+    "keepId": "8aaa133c-cd65-43d1-b11f-69963d255bf7",
+    "deleteId": "6e1c52a0-4564-4a82-ac77-bfd246fd8593",
+    "keepTitle": "Arjun S/O Vyjayanthi",
+    "deleteTitle": "Arjun S/o Vyjayanthi",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 4,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:00.716Z",
+    "keepId": "10ba590f-9b6c-44e6-ac5a-ba965d006cde",
+    "deleteId": "8da290f9-a106-4f20-a984-74ec34fa851a",
+    "keepTitle": "Bāhubali: The Epic",
+    "deleteTitle": "Bāhubali: The Epic",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:01.427Z",
+    "keepId": "436d75ab-f61d-481b-ac63-c8fec35ce658",
+    "deleteId": "13d107f1-cdc2-4da1-9ee8-c29687d7e427",
+    "keepTitle": "The Family Star",
+    "deleteTitle": "The Family Star",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 3,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:02.087Z",
+    "keepId": "c6aa0c78-3300-4b1b-a2bd-343ee93be13d",
+    "deleteId": "388b05da-5217-4eb5-ac82-7cc7401b3f48",
+    "keepTitle": "RRR: Behind & Beyond",
+    "deleteTitle": "RRR: Behind & Beyond",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:02.774Z",
+    "keepId": "9e61ecf7-8eef-476a-9633-55602de0788f",
+    "deleteId": "b677919a-b5b0-4eb6-a62c-e0c949fec9a4",
+    "keepTitle": "10th Class Diaries",
+    "deleteTitle": "10th Class Diaries",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 3,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:03.470Z",
+    "keepId": "1250a707-9ca0-4b53-91e8-dc7dba4644f3",
+    "deleteId": "5ac3e442-bd12-42a0-85e3-0c8fc5dcf899",
+    "keepTitle": "Fauzi",
+    "deleteTitle": "Fauzi",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 1,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:04.148Z",
+    "keepId": "16903466-e6f6-46ff-9d24-f7a2f136871c",
+    "deleteId": "dad25d47-0f34-440c-87b5-98da28bd9778",
+    "keepTitle": "NTR Neel",
+    "deleteTitle": "NTR Neel",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 2,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:04.769Z",
+    "keepId": "3500c2bf-3823-4b04-8aa3-0b9483d8d272",
+    "deleteId": "565a96a9-ebff-4cdf-ae39-bdb26c4acfb6",
+    "keepTitle": "The Raja Saab",
+    "deleteTitle": "The Rajasaab",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:05.101Z",
+    "keepId": "5ac3e442-bd12-42a0-85e3-0c8fc5dcf899",
+    "deleteId": "ec935cb7-6256-4e70-948a-1b0e99ddd368",
+    "keepTitle": "Fauzi",
+    "deleteTitle": "Fauzi",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to fetch one or both movies"
+  },
+  {
+    "timestamp": "2026-01-12T20:12:05.749Z",
+    "keepId": "2d747ddf-da74-4d00-a25d-671bde2ab788",
+    "deleteId": "d79b6116-9e21-4b3b-b041-2cecad34f864",
+    "keepTitle": "The King of Kings",
+    "deleteTitle": "The King of Kings",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to delete duplicate movie"
+  },
+  {
+    "timestamp": "2026-01-12T20:12:06.417Z",
+    "keepId": "0e7dd87c-3f7a-4979-8f41-bab736376a16",
+    "deleteId": "feb72380-b566-40e0-abf6-8dfb199bcde6",
+    "keepTitle": "Anaganaga",
+    "deleteTitle": "Anaganaga Australia Lo",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 2,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:07.059Z",
+    "keepId": "dd38c3da-0f8b-4883-a74a-c9bb53e3280a",
+    "deleteId": "10ba590f-9b6c-44e6-ac5a-ba965d006cde",
+    "keepTitle": "Bāhubali: The Epic",
+    "deleteTitle": "Bāhubali: The Epic",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 4,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:07.742Z",
+    "keepId": "a7aa9ae5-0409-421d-94d3-0ac211987208",
+    "deleteId": "4ac2b5ff-e664-4f48-bcad-a0923b4ad192",
+    "keepTitle": "Chaurya Paatham",
+    "deleteTitle": "Chaurya Paatham",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to delete duplicate movie"
+  },
+  {
+    "timestamp": "2026-01-12T20:12:08.427Z",
+    "keepId": "df62cba3-6cc3-4bc1-a123-1b5888565bb8",
+    "deleteId": "8aaa133c-cd65-43d1-b11f-69963d255bf7",
+    "keepTitle": "Arjun Son of Vyjayanthi",
+    "deleteTitle": "Arjun S/O Vyjayanthi",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 9,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:08.778Z",
+    "keepId": "df62cba3-6cc3-4bc1-a123-1b5888565bb8",
+    "deleteId": "6e1c52a0-4564-4a82-ac77-bfd246fd8593",
+    "keepTitle": "Arjun Son of Vyjayanthi",
+    "deleteTitle": "Unknown",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to fetch one or both movies"
+  },
+  {
+    "timestamp": "2026-01-12T20:12:09.614Z",
+    "keepId": "4ff6082f-4b3c-4f5c-bfda-6c18efeae670",
+    "deleteId": "f312670a-5a2c-4452-96ef-5708615dc9c0",
+    "keepTitle": "Arjun Chakravarthy",
+    "deleteTitle": "Champion",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 5,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:10.283Z",
+    "keepId": "3baf9e44-580c-48d9-b274-817ae19a0ee9",
+    "deleteId": "e3e8ec8d-4d10-40ec-9658-99019d914cb5",
+    "keepTitle": "Enuguthondam Ghatikachalam",
+    "deleteTitle": "Ghatikachalam",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 2,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:10.935Z",
+    "keepId": "061e48a7-85c5-4bd9-af6c-afc7da7a0f4e",
+    "deleteId": "2d957e9a-4ec8-4360-89bd-43183063698b",
+    "keepTitle": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
+    "deleteTitle": "Hari Hara Veera Mallu",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 4,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:11.557Z",
+    "keepId": "fae84446-8b02-4d04-8724-cf5740fd4edc",
+    "deleteId": "757ef834-7d39-4a4a-a178-5e51affd850d",
+    "keepTitle": "Shashtipoorthi",
+    "deleteTitle": "Shashtipoorti",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 2,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:12.269Z",
+    "keepId": "00fedf3f-94be-417e-a315-2c2e1197a176",
+    "deleteId": "23288b95-16f9-450f-a8fd-142dc3793f5e",
+    "keepTitle": "Ala Ninnu Cheri",
+    "deleteTitle": "Alaa Ninnu Cheri",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 7,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:12.899Z",
+    "keepId": "ba91beba-f2e0-4b87-9ed4-00310d90657e",
+    "deleteId": "3501ee67-4b7a-4d7f-80c9-c08fd3d767b0",
+    "keepTitle": "Bhuvanavijayam",
+    "deleteTitle": "Bhuvana Vijayam",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 1,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:13.503Z",
+    "keepId": "c9a3ae2f-1285-4df1-be68-4509d13d17bb",
+    "deleteId": "a99504c0-479c-4595-9369-fa29dabc80da",
+    "keepTitle": "Skanda: The Attacker",
+    "deleteTitle": "Skanda",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 1,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:14.109Z",
+    "keepId": "e954a4cc-7797-4c9a-9e35-ae3c6a608f89",
+    "deleteId": "8a35b4e7-af5e-46a6-9afe-0061263bbfa7",
+    "keepTitle": "Viraata Parvam",
+    "deleteTitle": "Virata Parvam",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 1,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:14.464Z",
+    "keepId": "b305a95f-44ac-4d42-b5ca-c58f48fc5029",
+    "deleteId": "like-share-subscribe-2022",
+    "keepTitle": "Like, Share & Subscribe",
+    "deleteTitle": "Unknown",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to fetch one or both movies"
+  },
+  {
+    "timestamp": "2026-01-12T20:12:15.101Z",
+    "keepId": "773341f9-045e-467b-a070-ccbb120009fd",
+    "deleteId": "f617df10-0268-4842-b7f0-3539865ba089",
+    "keepTitle": "Konda",
+    "deleteTitle": "Kondaa",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 1,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:15.677Z",
+    "keepId": "8d49f7c3-b928-4f5d-a5c2-ea18b09c670c",
+    "deleteId": "f6cd0d92-ac4f-4c21-a18a-ff1c263596e1",
+    "keepTitle": "Mirai",
+    "deleteTitle": "Mirai (2025 film)",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:16.246Z",
+    "keepId": "d9dfc57a-15d6-4644-8674-afa8423fec30",
+    "deleteId": "6e7286b1-bafd-40c1-8086-ca30ff7df239",
+    "keepTitle": "Bachhala Malli",
+    "deleteTitle": "Bachchala Malli",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T20:12:16.816Z",
+    "keepId": "c5fa9d9a-54eb-4a1a-9e6f-52d3dbcd675d",
+    "deleteId": "6b46118f-f4c1-4091-bd69-b73b521ac2dc",
+    "keepTitle": "Kuberaa",
+    "deleteTitle": "Kubera",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  }
+]

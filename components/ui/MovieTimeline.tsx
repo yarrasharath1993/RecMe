@@ -180,7 +180,7 @@ export function ContinueTheStory({ movies, className = '' }: ContinueTheStoryPro
         {movies.map((movie) => (
           <Link
             key={movie.id}
-            href={`/reviews/${movie.slug}`}
+            href={`/movies/${movie.slug}`}
             className="group relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow"
           >
             {/* Poster */}
@@ -285,7 +285,7 @@ export function StoryThreads({ threads, className = '' }: StoryThreadsProps) {
             {currentThread.movies.map((movie) => (
               <Link
                 key={movie.id}
-                href={`/reviews/${movie.slug}`}
+                href={`/movies/${movie.slug}`}
                 className="block group"
               >
                 {movie.posterUrl ? (

@@ -1,0 +1,37 @@
+Section,Title,Year,Slug,Current Value,Suggested Value,Action
+Ghost Entry,"Ustaad Bhagat Singh",2026,ustaad-bhagat-singh-2026,Pawan Kalyan,"",Re-attribute
+Ghost Entry,"Khushi",2001,khushi-2001,Pawan Kalyan,"Amitabh Bachchan",Re-attribute
+Missing Film,"Meter",2023,,1001261,"Kantham Baireddy",Add
+Missing Film,"Crazy Fellow",2022,,968602,"",Add
+Missing Film,"Yuddham Sharanam",2017,,474955,"",Add
+Missing cinematographer,"They Call Him OG 2",null,they-call-him-og-2-tba,,,"Fill"
+Missing editor,"They Call Him OG 2",null,they-call-him-og-2-tba,,,"Fill"
+Missing writer,"Double Engine",2024,double-engine-2024,,,"Fill"
+Missing cinematographer,"Pancharangi",2010,pancharangi-2010,,,"Fill"
+Missing editor,"Pancharangi",2010,pancharangi-2010,,,"Fill"
+Missing writer,"Pancharangi",2010,pancharangi-2010,,,"Fill"
+Missing producer,"Pancharangi",2010,pancharangi-2010,,,"Fill"
+Missing cinematographer,"Balu",2005,balu-2005,,,"Fill"
+Missing writer,"Balu",2005,balu-2005,,,"Fill"
+Missing cinematographer,"Thammudu",1999,thammudu-1999,,,"Fill"
+Missing editor,"Thammudu",1999,thammudu-1999,,,"Fill"
+Missing writer,"Thammudu",1999,thammudu-1999,,,"Fill"
+Missing producer,"Thammudu",1999,thammudu-1999,,,"Fill"
+Missing cinematographer,"Suswagatham",1998,suswagatham-1998,,,"Fill"
+Missing editor,"Suswagatham",1998,suswagatham-1998,,,"Fill"
+Missing cinematographer,"Tholi Prema",1998,tholi-prema-1998,,,"Fill"
+Missing editor,"Tholi Prema",1998,tholi-prema-1998,,,"Fill"
+Missing writer,"Tholi Prema",1998,tholi-prema-1998,,,"Fill"
+Missing cinematographer,"Gokulamlo Seeta",1997,gokulamlo-seeta-1997,,,"Fill"
+Missing editor,"Gokulamlo Seeta",1997,gokulamlo-seeta-1997,,,"Fill"
+Missing writer,"Gokulamlo Seeta",1997,gokulamlo-seeta-1997,,,"Fill"
+Missing producer,"Gokulamlo Seeta",1997,gokulamlo-seeta-1997,,,"Fill"
+Missing tmdb_id,"Gokulamlo Seeta",1997,gokulamlo-seeta-1997,,,"Fill"
+Missing cinematographer,"Gokulamlo Seetha",1997,gokulamlo-seetha-1997,,,"Fill"
+Missing editor,"Gokulamlo Seetha",1997,gokulamlo-seetha-1997,,,"Fill"
+Missing producer,"Gokulamlo Seetha",1997,gokulamlo-seetha-1997,,,"Fill"
+Missing cinematographer,"Akkada Ammayi Ikkada Abbayi",1996,akkada-ammayi-ikkada-abbayi-1996,,,"Fill"
+Missing editor,"Akkada Ammayi Ikkada Abbayi",1996,akkada-ammayi-ikkada-abbayi-1996,,,"Fill"
+TMDB Issue,"Ustaad Bhagat Singh",2026,ustaad-bhagat-singh-2026,1022788,"wrong_language",Fix
+TMDB Issue,"Pancharangi",2010,pancharangi-2010,229430,"wrong_language",Fix
+TMDB Issue,"Khushi",2001,khushi-2001,10757,"wrong_language",Fix

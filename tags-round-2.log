@@ -1,0 +1,35 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         EXPANDED TAGGING SYSTEM                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading all Telugu movies from database...
+    Loaded 1000 movies...
+    Loaded 2000 movies...
+    Loaded 3000 movies...
+    Loaded 4000 movies...
+    Loaded 5000 movies...
+    Loaded 5610 movies...
+  ✅ Loaded 5610 movies total
+
+  🏷️  5609 movies can be tagged
+
+
+  ✅ Tagging complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            TAGGING COMPLETE!                                         ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 5609
+  Movies tagged: 29
+  Duration: 0.0 minutes
+
+  ✅ Blockbuster tags added: 5
+  ✅ Classic tags added: 0
+  ✅ Underrated tags added: 24
+  Total tags applied: 29
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

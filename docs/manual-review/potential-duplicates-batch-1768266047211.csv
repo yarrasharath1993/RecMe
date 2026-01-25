@@ -1,0 +1,3 @@
+movie1_slug,movie1_title,movie2_slug,movie2_title,year,movie1_director,movie2_director,action,url1,url2
+"bahubali-2-the-conclusion-2017","Bāhubali 2: The Conclusion","b-hubali-2-the-conclusion-2017","Bāhubali 2: The Conclusion","2017","S. S. Rajamouli","S. S. Rajamouli","Compare and decide: keep, merge, or both valid","http://localhost:3000/movies/bahubali-2-the-conclusion-2017","http://localhost:3000/movies/b-hubali-2-the-conclusion-2017"
+"bahubali-the-beginning-2015","Bāhubali: The Beginning","b-hubali-the-beginning-2015","Bāhubali: The Beginning","2015","S. S. Rajamouli","S. S. Rajamouli","Compare and decide: keep, merge, or both valid","http://localhost:3000/movies/bahubali-the-beginning-2015","http://localhost:3000/movies/b-hubali-the-beginning-2015"

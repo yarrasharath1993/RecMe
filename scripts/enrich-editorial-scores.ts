@@ -76,23 +76,27 @@ async function main(): Promise<void> {
         .from('movies')
         .select(`
             id, title_en, release_year, genres, director, hero, heroine,
-            avg_rating, our_rating, is_classic, is_blockbuster, is_underrated
+            avg_rating, our_rating, is_classic, is_blockbuster, is_underrated,
+            release_date
         `)
-        .eq('language', 'Telugu');
+        .eq('language', 'Telugu')
+        // Skip unreleased movies: must have release_year and be <= current year
+        .not('release_year', 'is', null)
+        .lte('release_year', new Date().getFullYear());
 
     let filterDesc = '';
 
     if (UNRATED_ONLY) {
         // Movies with no ratings at all
         query = query.is('our_rating', null);
-        filterDesc = 'Movies with no our_rating';
+        filterDesc = 'Released movies with no our_rating';
     } else if (RECALCULATE) {
         // All movies (for recalculation)
-        filterDesc = 'All movies (recalculating)';
+        filterDesc = 'All released movies (recalculating)';
     } else {
         // Movies without our_rating
         query = query.is('our_rating', null);
-        filterDesc = 'Movies without our_rating';
+        filterDesc = 'Released movies without our_rating';
     }
 
     console.log(`  Filter: ${filterDesc}\n`);

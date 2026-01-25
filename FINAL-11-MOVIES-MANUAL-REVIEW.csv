@@ -1,0 +1,12 @@
+Title,Year,Current Language,Current Hero,Current Director,Rating,Has Poster,Status,Corrected Language,Corrected Hero,Corrected Director,Action (PUBLISH/FIX/SKIP),Notes
+N.T.R: Kathanayukudu,2019,Telugu,Missing,Krish Jagarlamudi,Missing,No,NEEDS_FIX,Telugu,Nandamuri Balakrishna,Krish Jagarlamudi,FIX+PUBLISH,Add Balakrishna as hero
+Annabelle Sethupathi,2019,Telugu,Vijay Sethupathi,Deepak Sundarrajan,Missing,Yes,NEEDS_LANGUAGE_FIX,Tamil,Vijay Sethupathi,Deepak Sundarrajan,FIX_LANG,Tamil horror-comedy
+Oh! Baby,2019,Telugu,Missing,B. V. Nandini Reddy,Missing,Yes,GOOD_QUALITY,Telugu,Samantha Ruth Prabhu,B. V. Nandini Reddy,PUBLISH,Add Samantha as hero
+Putham Pudhu Kaalai,2020,Telugu,Jayaram,Sudha Kongara Prasad,Missing,Yes,GOOD_QUALITY,Telugu,Jayaram,Sudha Kongara Prasad,PUBLISH,Missing rating ok
+College Kumar,2020,Telugu,Rahul Vijay,Hari Santosh,Missing,Yes,GOOD_QUALITY,Telugu,Rahul Vijay,Hari Santosh,PUBLISH,Missing rating ok
+Rocky: The Revenge,2019,Telugu,Srikanth,K. C. Bokadia,Missing,Yes,GOOD_QUALITY,Telugu,Srikanth,K. C. Bokadia,PUBLISH,Missing rating ok
+Madhagaja,2021,Telugu,Sriimurali,S. Mahesh Kumar,Missing,Yes,GOOD_QUALITY,Telugu,Sriimurali,S. Mahesh Kumar,PUBLISH,Missing rating ok
+Kalyanam Panni Paar,1952,Telugu,Gemini Ganesan,L. V. Prasad,Missing,No,VINTAGE,Telugu,Gemini Ganesan,L. V. Prasad,PUBLISH,Vintage film - preserve
+Shanti,1952,Telugu,Jorge Mistral,Arturo Ruiz Castillo,Missing,No,VINTAGE_SUSPICIOUS,Telugu,?,?,SKIP,Need to clarify which Shanti film
+Adarsham,1952,Telugu,Akkineni Nageswara Rao,H. V. Babu,Missing,No,VINTAGE,Telugu,ANR,H. V. Babu,PUBLISH,Vintage ANR classic
+Or Iravu,1951,Telugu,Akkineni Nageswara Rao,P. Neelakantan,Missing,No,VINTAGE,Telugu,ANR,P. Neelakantan,PUBLISH,Vintage ANR classic

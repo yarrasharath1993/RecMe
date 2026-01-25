@@ -40,7 +40,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1,
     },
     {
-      url: `${BASE_URL}/reviews`,
+      url: `${BASE_URL}/movies`,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
@@ -110,7 +110,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       
       if (movies) {
         moviePages = movies.map(movie => ({
-          url: `${BASE_URL}/reviews/${movie.slug}`,
+          url: `${BASE_URL}/movies/${movie.slug}`,
           lastModified: movie.updated_at ? new Date(movie.updated_at) : new Date(),
           changeFrequency: 'weekly' as const,
           priority: 0.8,

@@ -1,0 +1,115 @@
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║              LINK MISSING TMDB IDs - BATCH PROCESSOR                  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Loading movies from CSV...
+
+  ✓ Loaded 29 movies
+
+  1/29: Man Of The Match (2026)
+    Director: P. A. Arun Prasad | Hero: Sagar
+    ⚠ No TMDB results found
+  2/29: Sahakutumbaanaam (2026)
+    Director: Uday Sharma | Hero: Raam Kiran
+    ⚠ No TMDB results found
+  3/29: Vanaveera (2026)
+    Director: Avinash Thiruveedhula | Hero: Avinash Thiruveedhula
+    ⚠ No TMDB results found
+  4/29: Madham (2026)
+    Director: Vamsee Krishna Malla | Hero: Harsha Gangavarapu
+    ⚠ No TMDB results found
+  5/29: 1000 Waala (2025)
+    Director: Afzal Shaik | Hero: Amith Dream Star
+    ⚠ No TMDB results found
+  6/29: Break Out (2025)
+    Director: Jang Hang-jun | Hero: Kim Seung-woo
+    ⚠ No TMDB results found
+  7/29: Dhanraj (2025)
+    Director: Dhanraj Koranani | Hero: Samuthirakani
+    ⚠ No TMDB results found
+  8/29: Super Raja (2025)
+    Director: Thrinadh Katari | Hero: Prajwal Devaraj
+    ⚠ No TMDB results found
+  9/29: Kotha Rangula Prapancham (2024)
+    Director: Prudhvi Raj | Hero: Prudhvi Raj
+    ⚠ No TMDB results found
+  10/29: Srikakulam Sherlock Holmes (2024)
+    Director: Writer Mohan | Hero: Prabhakar
+    ⚠ No TMDB results found
+  11/29: Akkada Varu Ikkada Unnaru (2024)
+    Director: Trivikram Rao Kundurthi | Hero: Jagadesh Raj
+    ⚠ No TMDB results found
+  12/29: Alanaati Ramchandrudu (2024)
+    Director: Chilukuri Akash | Hero: Prawasthi
+    ⚠ No TMDB results found
+  13/29: Bench Life (2024)
+    Director: Vaibhav | Hero: Vaibhav
+    ⚠ No TMDB results found
+  14/29: Pranaya Godari (2024)
+    Director: PL K Reddy | Hero: Sadan
+    ⚠ No TMDB results found
+  15/29: Praveen Kumar VSS (2024)
+    Director: Praveen Kumar VSS | Hero: Suhas
+    ⚠ No TMDB results found
+  16/29: Leela Vinodham (2024)
+    Director: Pavan Sunkara | Hero: Shanmukh Jaswanth
+    ⚠ No TMDB results found
+  17/29: Bhavanam (2024)
+    Director: Balachary Kurella | Hero: Ajay
+    ⚠ No TMDB results found
+  18/29: Brahmmavaram P.S. Paridhilo (2024)
+    Director: Imran Sastry | Hero: Guru Charan
+    ⚠ No TMDB results found
+  19/29: Subramanyam Chigurupati (2023)
+    Director: Srikant G Reddy | Hero: Sushanth
+    ⚠ No TMDB results found
+  20/29: Neelakanta (2023)
+    Director: Neelakanta | Hero: Sai Ronak
+    ⚠ No TMDB results found
+  21/29: Jilebi (2023)
+    Director: Arun Shekar and produced by East Coast Vijayan | Hero: Jayasurya
+    ⚠ No TMDB results found
+  22/29: Barla Narayana (2023)
+    Director: Murali Kishor Abburu | Hero: Dileep
+    ⚠ No TMDB results found
+  23/29: Ashtadigbandhanam (2023)
+    Director: Baba PR | Hero: Surya Bharath Chandra
+    ⚠ No TMDB results found
+  24/29: Ala Ila Ela (2023)
+    Director: Dwarki Raghav | Hero: Shakthi Vasudevan
+    ⚠ No TMDB results found
+  25/29: Harsha Vardhan (2023)
+    Director: Neha Shetty and  MS Rajashekar reddy  are not correct,  director is  -  Unknown | Hero: Naveen Chandra
+    ⚠ No TMDB results found
+  26/29: Lakshman K Krishna (2022)
+    Director: Vijay Krishna Acharya | Hero: Sithara Entertainments
+    ⚠ No TMDB results found
+  27/29: Bommala Koluvu (2022)
+    Director: Subbu Vedula of Raahu fame and starring himself | Hero: himself
+    ⚠ No TMDB results found
+  28/29: Abhimanyu (2022)
+    Director: Sabbir Khan | Hero: Abhimanyu Dassani
+    ⚠ No TMDB results found
+  29/29: Gudaputani (2021)
+    Director: KM Kumar | Hero: Sapthagiri
+    ⚠ No TMDB results found
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║                   TMDB LINKING COMPLETE                               ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  ✓ Successfully Linked:    0
+  ⚠ Not Found:              29
+  ✗ Failed:                 0
+
+  Success Rate:             0.0%
+
+  Report saved: ./docs/manual-review/TMDB-LINKING-REPORT.json
+
+  Next Steps:
+  1. Review low-confidence matches in report
+  2. Manually research movies not found
+  3. Re-run genre enrichment to populate new IDs
+
+

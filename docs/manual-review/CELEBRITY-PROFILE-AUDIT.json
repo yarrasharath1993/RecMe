@@ -1,0 +1,285 @@
+{
+  "generated_at": "2026-01-13T22:49:41.715Z",
+  "total_profiles": 513,
+  "by_tier": {
+    "premium": 10,
+    "complete": 402,
+    "partial": 513,
+    "minimal": 0
+  },
+  "avg_completeness": 77,
+  "premium_profiles": [
+    {
+      "name": "Akkineni Nagarjuna",
+      "slug": "akkineni-nagarjuna",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=akkineni-nagarjuna"
+    },
+    {
+      "name": "Akkineni Nageswara Rao",
+      "slug": "akkineni-nageswara-rao",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=akkineni-nageswara-rao"
+    },
+    {
+      "name": "Chiranjeevi",
+      "slug": "chiranjeevi",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=chiranjeevi"
+    },
+    {
+      "name": "Daggubati Venkatesh",
+      "slug": "celeb-daggubati-venkatesh",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=celeb-daggubati-venkatesh"
+    },
+    {
+      "name": "Mahesh Babu",
+      "slug": "mahesh-babu",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=mahesh-babu"
+    },
+    {
+      "name": "Mohan Babu",
+      "slug": "mohan-babu",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=mohan-babu"
+    },
+    {
+      "name": "N.T. Rama Rao",
+      "slug": "celeb-n-t-rama-rao",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=celeb-n-t-rama-rao"
+    },
+    {
+      "name": "Nandamuri Balakrishna",
+      "slug": "celeb-nandamuri-balakrishna",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=celeb-nandamuri-balakrishna"
+    },
+    {
+      "name": "Savitri",
+      "slug": "celeb-savitri",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=celeb-savitri"
+    },
+    {
+      "name": "Vishnu",
+      "slug": "celeb-vishnu",
+      "score": 94,
+      "url": "http://localhost:3000/movies?profile=celeb-vishnu"
+    }
+  ],
+  "needs_work": [
+    {
+      "name": "G Varalakshmi",
+      "slug": "g-varalakshmi",
+      "score": 45,
+      "url": "http://localhost:3000/movies?profile=g-varalakshmi",
+      "missing_categories": [
+        "Basic Enrichment: usp",
+        "Advanced Enrichment: awards, fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "M. Radhakrishnan",
+      "slug": "m-radhakrishnan",
+      "score": 45,
+      "url": "http://localhost:3000/movies?profile=m-radhakrishnan",
+      "missing_categories": [
+        "Basic Enrichment: usp",
+        "Advanced Enrichment: awards, fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Sayali Bhagat",
+      "slug": "sayali-bhagat",
+      "score": 45,
+      "url": "http://localhost:3000/movies?profile=sayali-bhagat",
+      "missing_categories": [
+        "Basic Enrichment: usp",
+        "Advanced Enrichment: awards, fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Y. V. Rao",
+      "slug": "y-v-rao",
+      "score": 45,
+      "url": "http://localhost:3000/movies?profile=y-v-rao",
+      "missing_categories": [
+        "Basic Enrichment: usp",
+        "Advanced Enrichment: awards, fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Shiva Nirvana",
+      "slug": "celeb-shiva-nirvana",
+      "score": 51,
+      "url": "http://localhost:3000/movies?profile=celeb-shiva-nirvana",
+      "missing_categories": [
+        "Basic Enrichment: profile_image",
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Om Sai Prakash",
+      "slug": "om-sai-prakash",
+      "score": 56,
+      "url": "http://localhost:3000/movies?profile=om-sai-prakash",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "S.P. Muthuraman",
+      "slug": "sp-muthuraman",
+      "score": 56,
+      "url": "http://localhost:3000/movies?profile=sp-muthuraman",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Tarani",
+      "slug": "tarani",
+      "score": 56,
+      "url": "http://localhost:3000/movies?profile=tarani",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "V.K. Prakash",
+      "slug": "vk-prakash",
+      "score": 56,
+      "url": "http://localhost:3000/movies?profile=vk-prakash",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings, legacy_impact"
+      ]
+    },
+    {
+      "name": "Akkineni Nagarjuna",
+      "slug": "celeb-akkineni-nagarjuna",
+      "score": 57,
+      "url": "http://localhost:3000/movies?profile=celeb-akkineni-nagarjuna",
+      "missing_categories": [
+        "Basic Enrichment: industry_title",
+        "Advanced Enrichment: awards, fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships"
+      ]
+    },
+    {
+      "name": "BVS Rama Rao",
+      "slug": "celeb-bvs-rama-rao",
+      "score": 57,
+      "url": "http://localhost:3000/movies?profile=celeb-bvs-rama-rao",
+      "missing_categories": [
+        "Basic Enrichment: profile_image",
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings"
+      ]
+    },
+    {
+      "name": "Rashmika Mandanna",
+      "slug": "rashmika-mandanna",
+      "score": 57,
+      "url": "http://localhost:3000/movies?profile=rashmika-mandanna",
+      "missing_categories": [
+        "Basic Enrichment: profile_image",
+        "Advanced Enrichment: fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings"
+      ]
+    },
+    {
+      "name": "T. L. V. Prasad",
+      "slug": "celeb-t-l-v-prasad",
+      "score": 57,
+      "url": "http://localhost:3000/movies?profile=celeb-t-l-v-prasad",
+      "missing_categories": [
+        "Basic Enrichment: profile_image",
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings"
+      ]
+    },
+    {
+      "name": "Vasanthkumar Reddy",
+      "slug": "celeb-vasanthkumar-reddy",
+      "score": 57,
+      "url": "http://localhost:3000/movies?profile=celeb-vasanthkumar-reddy",
+      "missing_categories": [
+        "Basic Enrichment: profile_image",
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings"
+      ]
+    },
+    {
+      "name": "Allu Arjun",
+      "slug": "allu-arjun",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=allu-arjun",
+      "missing_categories": [
+        "Advanced Enrichment: fan_culture, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, romantic_pairings"
+      ]
+    },
+    {
+      "name": "Amritha Aiyer",
+      "slug": "celeb-amritha-aiyer",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=celeb-amritha-aiyer",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, legacy_impact"
+      ]
+    },
+    {
+      "name": "Amulya",
+      "slug": "amulya",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=amulya",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, legacy_impact"
+      ]
+    },
+    {
+      "name": "Annu Kapoor",
+      "slug": "annu-kapoor",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=annu-kapoor",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, legacy_impact"
+      ]
+    },
+    {
+      "name": "Anuradha Mehta",
+      "slug": "anuradha-mehta",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=anuradha-mehta",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, legacy_impact"
+      ]
+    },
+    {
+      "name": "Gowri Munjal",
+      "slug": "gowri-munjal",
+      "score": 63,
+      "url": "http://localhost:3000/movies?profile=gowri-munjal",
+      "missing_categories": [
+        "Advanced Enrichment: awards, social_links, brand_pillars",
+        "Premium Data: actor_eras, family_relationships, legacy_impact"
+      ]
+    }
+  ]
+}

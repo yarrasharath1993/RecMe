@@ -375,7 +375,7 @@ export default function ReviewsManagementPage() {
                           </button>
                         )}
                         <Link
-                          href={`/reviews/${movie.slug}`}
+                          href={`/movies/${movie.slug}`}
                           target="_blank"
                           className="p-1 text-gray-400 hover:text-white"
                           title="View on site"

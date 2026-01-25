@@ -1,0 +1,57 @@
+Section,Title,Year,Slug,Current Value,Suggested Value,Action
+Ghost Entry,"Happy",2006,happy-2006,Allu Arjun,"Saki Aibu",Re-attribute
+Ghost Entry,"Bangaru Chellelu",1979,bangaru-chellelu-1979,Allu Rama Lingaiah,"Sobhan Babu",Re-attribute
+Missing Film,"Bunny",2005,,83824,"Raja / Bunny",Add
+Missing Film,"Gangotri",2003,,117092,"Simhadri",Add
+Missing Film,"Yevadu",2014,,215248,"Sathya (Cameo Appearance)",Add
+Missing Film,"I Am That Change",2014,,287477,"Self",Add
+Missing Film,"Rudhramadevi",2015,,315009,"Gona Ganna Reddy",Add
+Missing Film,"Shankar Dada Zindabad",2007,,63811,"Special appearance in the song "Jagadeka Veerudiki"",Add
+Missing cinematographer,"Buddy",2024,buddy-2024,,,"Fill"
+Missing editor,"Buddy",2024,buddy-2024,,,"Fill"
+Missing editor,"Sarrainodu",2016,sarrainodu-2016,,,"Fill"
+Missing cinematographer,"Happy",2006,happy-2006,,,"Fill"
+Missing editor,"Happy",2006,happy-2006,,,"Fill"
+Missing cinematographer,"Bhale Bullodu",1995,bhale-bullodu-1995,,,"Fill"
+Missing editor,"Bhale Bullodu",1995,bhale-bullodu-1995,,,"Fill"
+Missing writer,"Bhale Bullodu",1995,bhale-bullodu-1995,,,"Fill"
+Missing producer,"Bhale Bullodu",1995,bhale-bullodu-1995,,,"Fill"
+Missing tmdb_id,"Bhale Bullodu",1995,bhale-bullodu-1995,,,"Fill"
+Missing cinematographer,"Mutha Mestri",1993,mutha-mestri-1993,,,"Fill"
+Missing editor,"Mutha Mestri",1993,mutha-mestri-1993,,,"Fill"
+Missing writer,"Mutha Mestri",1993,mutha-mestri-1993,,,"Fill"
+Missing producer,"Mutha Mestri",1993,mutha-mestri-1993,,,"Fill"
+Missing cinematographer,"Bobbili Brahmanna",1984,bobbili-brahmanna-1984,,,"Fill"
+Missing editor,"Bobbili Brahmanna",1984,bobbili-brahmanna-1984,,,"Fill"
+Missing writer,"Bobbili Brahmanna",1984,bobbili-brahmanna-1984,,,"Fill"
+Missing producer,"Bobbili Brahmanna",1984,bobbili-brahmanna-1984,,,"Fill"
+Missing cinematographer,"Nipputo Chelagaatam",1982,nipputo-chelagaatam-1982,,,"Fill"
+Missing editor,"Nipputo Chelagaatam",1982,nipputo-chelagaatam-1982,,,"Fill"
+Missing writer,"Nipputo Chelagaatam",1982,nipputo-chelagaatam-1982,,,"Fill"
+Missing producer,"Nipputo Chelagaatam",1982,nipputo-chelagaatam-1982,,,"Fill"
+Missing tmdb_id,"Nipputo Chelagaatam",1982,nipputo-chelagaatam-1982,,,"Fill"
+Missing cinematographer,"Ragile Jwala",1981,ragile-jwala-1981,,,"Fill"
+Missing editor,"Ragile Jwala",1981,ragile-jwala-1981,,,"Fill"
+Missing writer,"Ragile Jwala",1981,ragile-jwala-1981,,,"Fill"
+Missing producer,"Ragile Jwala",1981,ragile-jwala-1981,,,"Fill"
+Missing tmdb_id,"Ragile Jwala",1981,ragile-jwala-1981,,,"Fill"
+Missing cinematographer,"Agni Poolu",1981,agni-poolu-1981,,,"Fill"
+Missing editor,"Agni Poolu",1981,agni-poolu-1981,,,"Fill"
+Missing writer,"Agni Poolu",1981,agni-poolu-1981,,,"Fill"
+Missing producer,"Agni Poolu",1981,agni-poolu-1981,,,"Fill"
+Missing tmdb_id,"Agni Poolu",1981,agni-poolu-1981,,,"Fill"
+Missing cinematographer,"Superman",1980,superman-1980,,,"Fill"
+Missing editor,"Superman",1980,superman-1980,,,"Fill"
+Missing writer,"Superman",1980,superman-1980,,,"Fill"
+Missing producer,"Superman",1980,superman-1980,,,"Fill"
+Missing cinematographer,"Sirimalle Navvindi",1980,sirimalle-navvindi-1980,,,"Fill"
+Missing editor,"Sirimalle Navvindi",1980,sirimalle-navvindi-1980,,,"Fill"
+Missing writer,"Sirimalle Navvindi",1980,sirimalle-navvindi-1980,,,"Fill"
+Missing producer,"Sirimalle Navvindi",1980,sirimalle-navvindi-1980,,,"Fill"
+Missing tmdb_id,"Sirimalle Navvindi",1980,sirimalle-navvindi-1980,,,"Fill"
+Missing cinematographer,"Bangaru Chellelu",1979,bangaru-chellelu-1979,,,"Fill"
+Missing editor,"Bangaru Chellelu",1979,bangaru-chellelu-1979,,,"Fill"
+Missing writer,"Bangaru Chellelu",1979,bangaru-chellelu-1979,,,"Fill"
+Missing producer,"Bangaru Chellelu",1979,bangaru-chellelu-1979,,,"Fill"
+TMDB Issue,"Yuddha Bhoomi (1971 Beyond Borders)",2017,yuddha-bhoomi-1971-beyond-borders-1971,428741,"wrong_language",Fix
+TMDB Issue,"Happy",2006,happy-2006,563954,"wrong_language",Fix

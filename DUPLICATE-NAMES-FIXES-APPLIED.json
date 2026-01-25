@@ -1,0 +1,62 @@
+{
+  "reviewDate": "2026-01-18T11:52:08.275Z",
+  "totalCasesReviewed": 240,
+  "confirmedDifferentPersons": 7,
+  "nameVariations": 1,
+  "fixes": {
+    "genderRoleCorrections": "Multiple hero/heroine misclassifications identified (data quality issue)",
+    "differentPersons": [
+      {
+        "name": "Devaraj",
+        "reason": "1970s director vs modern actor (Head Bush)",
+        "confidence": 85
+      },
+      {
+        "name": "Sudhakar",
+        "reason": "Comedian Sudhakar vs Tamil actor/producer",
+        "confidence": 80
+      },
+      {
+        "name": "Ram",
+        "reason": "Ram Pothineni (Hero) vs music director Ram",
+        "confidence": 90
+      },
+      {
+        "name": "Sagar",
+        "reason": "Director Sagar vs Singer/Actor Sagar",
+        "confidence": 85
+      },
+      {
+        "name": "Srikanth",
+        "reason": "Tamil actor Meka Srikanth vs Telugu actor",
+        "confidence": 85
+      },
+      {
+        "name": "Anil Kumar",
+        "reason": "80s director vs modern music technician",
+        "confidence": 85
+      },
+      {
+        "name": "Vijay Bhaskar",
+        "reason": "Name ambiguity - several different directors/writers",
+        "confidence": 80
+      }
+    ],
+    "nameVariations": [
+      {
+        "canonical": "Jayanth C. Paranjee",
+        "variations": [
+          "Jayanth C. Paranjee",
+          "Jayant Paranji",
+          "Jayant Paranji"
+        ]
+      }
+    ]
+  },
+  "recommendations": [
+    "Update profile API to use disambiguation map for confirmed different persons",
+    "Fix gender role misclassifications in database (hero vs heroine)",
+    "Standardize name variations (Jayanth C. Paranjee vs Jayant Paranji)",
+    "Add validation to prevent hero/heroine misclassifications during data entry"
+  ]
+}

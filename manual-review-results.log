@@ -1,0 +1,90 @@
+
+⚠️  EXECUTE MODE - Changes will be applied!
+
+═══════════════════════════════════════════════════════════════
+  APPLY MANUAL REVIEW DECISIONS
+═══════════════════════════════════════════════════════════════
+
+📖 Reading manual review decisions...
+
+✓ Found 22 approved movies
+
+✗ Rejected 7 movies (different films)
+
+📊 Matched 22 movies with database IDs
+
+
+[ali] - 1 movies
+  ✓ Updated: Prema Khaidi (added ali)
+
+[amala] - 1 movies
+  ✓ Updated: Aagraham (added amala)
+
+[karthik] - 1 movies
+  ✓ Updated: Harischandraa (added karthik)
+
+[pushpavalli] - 3 movies
+  ✓ Updated: Bhakta Markandeya (added pushpavalli)
+  ✓ Updated: Pratignapalana (added pushpavalli)
+  ✓ Updated: Sri Gauri Mahatyam (added pushpavalli)
+
+[rambha] - 2 movies
+  ✓ Updated: Dharma Chakram (added rambha)
+  ✓ Updated: Anandam (added rambha)
+
+[satyanarayana] - 1 movies
+  ✓ Updated: Pelli Sandadi (added satyanarayana)
+
+[sridevi] - 1 movies
+  ✓ Updated: Priya (added sridevi)
+
+[venu] - 2 movies
+  ✓ Updated: Malli Malli Chudali (added venu)
+  ✓ Updated: Dhammu (added venu)
+
+[vishnu] - 1 movies
+  ✓ Updated: Shivashankar (added vishnu)
+
+[chandra mohan] - 1 movies
+  ✓ Updated: Baladur (added chandra mohan)
+
+[daggubati venkatesh] - 1 movies
+  ✓ Updated: Shatruvu (added daggubati venkatesh)
+
+[jaggayya] - 1 movies
+  ✓ Updated: Pooja Phalamu (added jaggayya)
+
+[kamal haasan] - 2 movies
+  ✓ Updated: Ponniyin Selvan: Part I (added kamal haasan)
+  ✓ Updated: Ponniyin Selvan: Part II (added kamal haasan)
+
+[n.t. rama rao] - 1 movies
+  ✓ Updated: Thalla? Pellama (added n.t. rama rao)
+
+[rajendra prasad] - 1 movies
+  ○ Already attributed: Nannaku Prematho...
+
+[rohit] - 1 movies
+  ✓ Updated: Shankar Dada M.B.B.S. (added rohit)
+
+[sarath babu] - 1 movies
+  ✓ Updated: Si 3 (added sarath babu)
+
+═══════════════════════════════════════════════════════════════
+  SUMMARY
+═══════════════════════════════════════════════════════════════
+
+✓ Approved:             22 movies
+✗ Rejected:             7 movies (correctly identified as different films)
+
+✓ Fixed:                22 attributions
+✗ Failed:               0 attributions
+
+═══════════════════════════════════════════════════════════════
+
+✅ Phase 2B Complete!
+
+New Total: 756 movies attributed
+
+Next: Focus on 474 truly missing movies
+

@@ -16,7 +16,15 @@ const nextConfig: NextConfig = {
         hostname: 'upload.wikimedia.org',
       },
       {
+        protocol: 'http',
+        hostname: 'upload.wikimedia.org',
+      },
+      {
         protocol: 'https',
+        hostname: 'commons.wikimedia.org',
+      },
+      {
+        protocol: 'http',
         hostname: 'commons.wikimedia.org',
       },
       {
@@ -66,6 +74,50 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: '*.letterboxd.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'erosnow.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.erosnow.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.filmibeat.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.filmibeat.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.moviebuff.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.moviebuff.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'blogger.googleusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lookaside.fbsbx.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'meragana.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'is1-ssl.mzstatic.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.mzstatic.com',
       },
     ],
   },

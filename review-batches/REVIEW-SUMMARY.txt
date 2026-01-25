@@ -1,0 +1,120 @@
+
+REVIEW BATCHES SUMMARY
+Generated: 2026-01-14T20:44:48.528Z
+
+Total Movies to Review: 210
+Number of Batches: 5
+Movies per Batch: 50
+
+Quality Breakdown:
+- Excellent (⭐⭐⭐): 89 movies
+- Good (⭐⭐): 121 movies
+
+Files Created:
+- batch-1-of-5.csv (50 movies)
+- batch-2-of-5.csv (50 movies)
+- batch-3-of-5.csv (50 movies)
+- batch-4-of-5.csv (50 movies)
+- batch-5-of-5.csv (10 movies)
+
+REVIEW CHECKLIST:
+================
+
+For each movie in the CSV files, verify:
+
+1. ✅ Title (English & Telugu)
+   - Correct spelling
+   - Matches IMDb/TMDB
+
+2. ✅ Year
+   - Correct release year
+   - Not a future date (unless upcoming)
+
+3. ✅ Hero/Heroine
+   - Correct lead actors
+   - Proper name format (not duplicate actors)
+   - Handle multi-cast (comma-separated if needed)
+
+4. ✅ Director
+   - Correct director name
+   - Proper spelling
+
+5. ✅ Music Director
+   - If missing, add if known
+
+6. ✅ Rating
+   - Our editorial rating (1-10)
+   - Should reflect movie quality
+   - Compare with IMDb/TMDB ratings
+
+7. ✅ Poster
+   - Check if poster URL works
+   - Good quality image
+   - Add if missing
+
+8. ✅ Other Crew
+   - Producer, writer, cinematographer, editor
+   - Add if easily available
+
+9. ✅ Genres
+   - Verify genres are correct
+   - Add if missing
+
+10. ✅ Synopsis
+    - Brief but informative
+    - No spoilers
+    - Add if missing
+
+REVIEW PROCESS:
+==============
+
+1. Open each CSV in Excel/Google Sheets
+2. Review movies row by row
+3. Mark issues in "Issues/Notes" column
+4. For movies with issues:
+   - Look up on IMDb/TMDB
+   - Add missing data
+   - Fix incorrect data
+5. Save changes
+6. Report back which movies are ready to publish
+
+QUALITY LEVELS:
+==============
+
+Excellent (⭐⭐⭐): Has hero, director, rating, poster
+- Safe to publish immediately
+- No issues expected
+
+Good (⭐⭐): Has cast/director + rating/poster
+- Generally safe to publish
+- Minor gaps acceptable
+- Review for critical errors only
+
+COMMON ISSUES TO CHECK:
+======================
+
+1. Duplicate Actors
+   - "Krishna" vs "Superstar Krishna"
+   - "Nagarjuna Akkineni" vs "Akkineni Nagarjuna"
+
+2. Wrong Hero
+   - Multi-cast movies might have wrong primary hero
+   - Special appearances listed as hero
+
+3. Wrong Year
+   - Release year vs production year
+   - Re-releases with wrong year
+
+4. Missing Telugu Title
+   - Add if possible
+
+5. Poor Quality Posters
+   - Replace if better available
+
+6. Incorrect Ratings
+   - Adjust if seems wrong (0 or 10 are suspicious)
+
+After review, report:
+- How many approved for publishing
+- How many need fixes
+- List of specific issues found

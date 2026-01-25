@@ -1,0 +1,1456 @@
+{
+  "actor": "Venkatesh",
+  "timestamp": "2026-01-12T18:43:09.060Z",
+  "dbCount": 75,
+  "tmdbCount": 0,
+  "wikiCount": 0,
+  "issues": [
+    {
+      "id": "name-var-7644c301-207d-47f9-8e8a-e0bd5a105113",
+      "movieId": "7644c301-207d-47f9-8e8a-e0bd5a105113",
+      "slug": "sankranthiki-vasthunam-2025",
+      "title": "Sankranthiki Vasthunam",
+      "year": 2025,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-c4fa320c-cd81-490d-b75c-a1b8da516f04",
+      "movieId": "c4fa320c-cd81-490d-b75c-a1b8da516f04",
+      "slug": "saindhav-2024",
+      "title": "Saindhav",
+      "year": 2024,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-b7626c9d-a6be-437c-b1e6-51df7cc69ba4",
+      "movieId": "b7626c9d-a6be-437c-b1e6-51df7cc69ba4",
+      "slug": "f3-fun-and-frustration-2022",
+      "title": "F3: Fun and Frustration",
+      "year": 2022,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-1c0c9eba-1f78-46dd-943b-a050d1b593af",
+      "movieId": "1c0c9eba-1f78-46dd-943b-a050d1b593af",
+      "slug": "narappa-2021",
+      "title": "Narappa",
+      "year": 2021,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-a2562724-7164-45b4-ad3d-bc2b68c81a47",
+      "movieId": "a2562724-7164-45b4-ad3d-bc2b68c81a47",
+      "slug": "drushyam-2-2021",
+      "title": "Drushyam 2",
+      "year": 2021,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-e93894e9-fe7b-4515-8aa0-5552715c5eea",
+      "movieId": "e93894e9-fe7b-4515-8aa0-5552715c5eea",
+      "slug": "f2-fun-and-frustration-2019",
+      "title": "F2: Fun and Frustration",
+      "year": 2019,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-db0b12f9-c8b2-4f4f-bcbf-3f7263d9bee8",
+      "movieId": "db0b12f9-c8b2-4f4f-bcbf-3f7263d9bee8",
+      "slug": "venky-mama-2019",
+      "title": "Venky Mama",
+      "year": 2019,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-500b5c63-712a-43aa-a73d-f7a601a18507",
+      "movieId": "500b5c63-712a-43aa-a73d-f7a601a18507",
+      "slug": "guru-2017",
+      "title": "Guru",
+      "year": 2017,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-d6108100-a92f-40a1-849c-6bb5dd225caf",
+      "movieId": "d6108100-a92f-40a1-849c-6bb5dd225caf",
+      "slug": "drushyam-2014",
+      "title": "Drushyam",
+      "year": 2014,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-4c2df4cd-489b-4f1d-afc8-d77e19c008a6",
+      "movieId": "4c2df4cd-489b-4f1d-afc8-d77e19c008a6",
+      "slug": "seethamma-vakitlo-sirimalle-chettu-2013",
+      "title": "Seethamma Vakitlo Sirimalle Chettu",
+      "year": 2013,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-46e74f84-2f6d-4641-8cae-53b299b8f4f0",
+      "movieId": "46e74f84-2f6d-4641-8cae-53b299b8f4f0",
+      "slug": "shadow-2013",
+      "title": "Shadow",
+      "year": 2013,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-c6c00246-af04-4290-b425-55d801878101",
+      "movieId": "c6c00246-af04-4290-b425-55d801878101",
+      "slug": "masala-2013",
+      "title": "Masala",
+      "year": 2013,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-27e5b953-19bd-4e10-bc5b-a9d39ef657d6",
+      "movieId": "27e5b953-19bd-4e10-bc5b-a9d39ef657d6",
+      "slug": "bodyguard-2012",
+      "title": "Bodyguard",
+      "year": 2012,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-aa76bb69-8c33-4efe-a960-b72f428a9f07",
+      "movieId": "aa76bb69-8c33-4efe-a960-b72f428a9f07",
+      "slug": "nagavalli-2010",
+      "title": "Nagavalli",
+      "year": 2010,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-4a599c36-472b-4270-9b19-2270133b1edd",
+      "movieId": "4a599c36-472b-4270-9b19-2270133b1edd",
+      "slug": "chintakayala-ravi-2008",
+      "title": "Chintakayala Ravi",
+      "year": 2008,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-7606ba4f-843b-4a3a-907c-79a024446477",
+      "movieId": "7606ba4f-843b-4a3a-907c-79a024446477",
+      "slug": "aadavari-matalaku-arthale-verule-2007",
+      "title": "Aadavari Matalaku Arthale Verule",
+      "year": 2007,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-bfa465b1-7db9-4066-af54-ce4235e5cac3",
+      "movieId": "bfa465b1-7db9-4066-af54-ce4235e5cac3",
+      "slug": "thulasi-2007",
+      "title": "Thulasi",
+      "year": 2007,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-e6c1a9a4-eb7a-4a2d-a2ce-1c47346e3fb2",
+      "movieId": "e6c1a9a4-eb7a-4a2d-a2ce-1c47346e3fb2",
+      "slug": "lakshmi-2006",
+      "title": "Lakshmi",
+      "year": 2006,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-a6d72b16-a6cb-4253-a6f1-6befcedd8849",
+      "movieId": "a6d72b16-a6cb-4253-a6f1-6befcedd8849",
+      "slug": "subash-chandra-bose-2005",
+      "title": "Subash Chandra Bose",
+      "year": 2005,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-1cdcfe40-5b7c-487c-a226-477bbf454393",
+      "movieId": "1cdcfe40-5b7c-487c-a226-477bbf454393",
+      "slug": "sankranti-2005",
+      "title": "Sankranti",
+      "year": 2005,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-d822cd68-3a01-49f8-8faa-af694c4be5aa",
+      "movieId": "d822cd68-3a01-49f8-8faa-af694c4be5aa",
+      "slug": "shivashankar-2004",
+      "title": "Shivashankar",
+      "year": 2004,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-3ae84afc-b99c-4e96-a2fc-6271cc154665",
+      "movieId": "3ae84afc-b99c-4e96-a2fc-6271cc154665",
+      "slug": "malliswari-2004",
+      "title": "Malliswari",
+      "year": 2004,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-aefe83e9-fac0-4565-9b32-7454b4a69411",
+      "movieId": "aefe83e9-fac0-4565-9b32-7454b4a69411",
+      "slug": "gharshana-2004",
+      "title": "Gharshana",
+      "year": 2004,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-338d1d9a-694e-45d6-87cf-417e9f763bda",
+      "movieId": "338d1d9a-694e-45d6-87cf-417e9f763bda",
+      "slug": "vasantam-2003",
+      "title": "Vasantam",
+      "year": 2003,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-294db5e8-afbb-4139-8212-2d58f8654931",
+      "movieId": "294db5e8-afbb-4139-8212-2d58f8654931",
+      "slug": "gemeni-2002",
+      "title": "Gemeni",
+      "year": 2002,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-dace84e7-123f-48f1-b413-691f50862c94",
+      "movieId": "dace84e7-123f-48f1-b413-691f50862c94",
+      "slug": "vasu-2002",
+      "title": "Vasu",
+      "year": 2002,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-5c521d7a-5675-4f47-9428-44103dc0d016",
+      "movieId": "5c521d7a-5675-4f47-9428-44103dc0d016",
+      "slug": "devi-putrudu-2001",
+      "title": "Devi Putrudu",
+      "year": 2001,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-58ac2647-ba61-42eb-b960-a9b0e765cafc",
+      "movieId": "58ac2647-ba61-42eb-b960-a9b0e765cafc",
+      "slug": "nuvvu-naaku-nachav-2001",
+      "title": "Nuvvu Naaku Nachav",
+      "year": 2001,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-948ed8f9-0fd8-4b82-b8a6-162c6a9c6240",
+      "movieId": "948ed8f9-0fd8-4b82-b8a6-162c6a9c6240",
+      "slug": "prematho-raa-2001",
+      "title": "Prematho Raa",
+      "year": 2001,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-0c425aaa-0b52-4af9-b194-5668b8a6e114",
+      "movieId": "0c425aaa-0b52-4af9-b194-5668b8a6e114",
+      "slug": "manasunna-maaraju-2000",
+      "title": "Manasunna Maaraju",
+      "year": 2000,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-c3bc14ba-192c-44c2-bc39-782d3de1ecba",
+      "movieId": "c3bc14ba-192c-44c2-bc39-782d3de1ecba",
+      "slug": "jayam-manadera-2000",
+      "title": "Jayam Manadera",
+      "year": 2000,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-b4517f73-4103-4854-ab74-41f1b345f280",
+      "movieId": "b4517f73-4103-4854-ab74-41f1b345f280",
+      "slug": "kalisundam-raa-2000",
+      "title": "Kalisundam Raa",
+      "year": 2000,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-b7d34be1-b720-4a9e-8cf0-40685f974925",
+      "movieId": "b7d34be1-b720-4a9e-8cf0-40685f974925",
+      "slug": "bobbili-vamsam-1999",
+      "title": "Bobbili Vamsam",
+      "year": 1999,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-6d81cf8b-e2cf-40d8-9d83-5b6d2173c55a",
+      "movieId": "6d81cf8b-e2cf-40d8-9d83-5b6d2173c55a",
+      "slug": "seenu-1999",
+      "title": "Seenu",
+      "year": 1999,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-228168a4-a6b4-4f9c-b357-0a4532f40ace",
+      "movieId": "228168a4-a6b4-4f9c-b357-0a4532f40ace",
+      "slug": "raja-1999",
+      "title": "Raja",
+      "year": 1999,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-e18a58cb-f615-4322-8c2d-d7b6396e8d45",
+      "movieId": "e18a58cb-f615-4322-8c2d-d7b6396e8d45",
+      "slug": "ganesh-1998",
+      "title": "Ganesh",
+      "year": 1998,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-4823d3d9-1d3a-49ea-89f0-0344b1b3903f",
+      "movieId": "4823d3d9-1d3a-49ea-89f0-0344b1b3903f",
+      "slug": "premante-ideraa-1998",
+      "title": "Premante Ideraa",
+      "year": 1998,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-92a32d4d-37ea-4a82-abc6-008ec5c4b0ba",
+      "movieId": "92a32d4d-37ea-4a82-abc6-008ec5c4b0ba",
+      "slug": "veedevadandi-babu-1997",
+      "title": "Veedevadandi Babu",
+      "year": 1997,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-19953e16-918a-4eaf-8e81-fecf1d6d3f2a",
+      "movieId": "19953e16-918a-4eaf-8e81-fecf1d6d3f2a",
+      "slug": "pelli-chesukundam-1997",
+      "title": "Pelli Chesukundam",
+      "year": 1997,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-bec5b819-1d34-42d2-aa85-031e6f7b12c8",
+      "movieId": "bec5b819-1d34-42d2-aa85-031e6f7b12c8",
+      "slug": "preminchukundam-raa-1997",
+      "title": "Preminchukundam Raa",
+      "year": 1997,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-7a5f9a34-a013-444c-b230-66106c4fc6c8",
+      "movieId": "7a5f9a34-a013-444c-b230-66106c4fc6c8",
+      "slug": "chinnabbayi-1997",
+      "title": "Chinnabbayi",
+      "year": 1997,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-08cc9f93-b163-44cf-ab3a-61a021431eda",
+      "movieId": "08cc9f93-b163-44cf-ab3a-61a021431eda",
+      "slug": "intlo-illalu-vantintlo-priyuralu-1996",
+      "title": "Intlo Illalu Vantintlo Priyuralu",
+      "year": 1996,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-1da5d735-0472-4fe0-aacc-7404fd0add7e",
+      "movieId": "1da5d735-0472-4fe0-aacc-7404fd0add7e",
+      "slug": "pavithra-bandham-1996",
+      "title": "Pavithra Bandham",
+      "year": 1996,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-9da67ecd-71a4-4e85-b532-b8f7bc5f0426",
+      "movieId": "9da67ecd-71a4-4e85-b532-b8f7bc5f0426",
+      "slug": "sarada-bullodu-1996",
+      "title": "Sarada Bullodu",
+      "year": 1996,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-7c7399d6-7d48-4ca5-8a7a-f8c959532e24",
+      "movieId": "7c7399d6-7d48-4ca5-8a7a-f8c959532e24",
+      "slug": "dharma-chakram-1996",
+      "title": "Dharma Chakram",
+      "year": 1996,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-14b19941-ba95-4a9e-8d73-2fcbae4e26fd",
+      "movieId": "14b19941-ba95-4a9e-8d73-2fcbae4e26fd",
+      "slug": "saahasa-veerudu-saagara-kanya-1996",
+      "title": "Saahasa Veerudu Saagara Kanya",
+      "year": 1996,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-94af1620-187a-4c49-a315-69304106f80b",
+      "movieId": "94af1620-187a-4c49-a315-69304106f80b",
+      "slug": "pokiri-raja-1995",
+      "title": "Pokiri Raja",
+      "year": 1995,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-de045757-eaf7-4412-b729-b2a8118bf931",
+      "movieId": "de045757-eaf7-4412-b729-b2a8118bf931",
+      "slug": "super-police-1994",
+      "title": "Super Police",
+      "year": 1994,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-a3aec437-8aa6-48dc-91a6-3cb80690c722",
+      "movieId": "a3aec437-8aa6-48dc-91a6-3cb80690c722",
+      "slug": "abbaigaru-1993",
+      "title": "Abbaigaru",
+      "year": 1993,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-4137151a-21f3-4bcd-a766-37ee6aec947f",
+      "movieId": "4137151a-21f3-4bcd-a766-37ee6aec947f",
+      "slug": "chinarayudu-1992",
+      "title": "Chinarayudu",
+      "year": 1992,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-89b4568b-f288-4e9e-9c16-1e5915b1df3c",
+      "movieId": "89b4568b-f288-4e9e-9c16-1e5915b1df3c",
+      "slug": "chakravyuham-1992",
+      "title": "Chakravyuham",
+      "year": 1992,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-0eee477e-3750-43ec-ad2a-c32881dd2e17",
+      "movieId": "0eee477e-3750-43ec-ad2a-c32881dd2e17",
+      "slug": "sundara-kanda-1992",
+      "title": "Sundara Kanda",
+      "year": 1992,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-b47ba8ef-f6cf-46af-8c6e-68c2d73cad46",
+      "movieId": "b47ba8ef-f6cf-46af-8c6e-68c2d73cad46",
+      "slug": "chanti-1992",
+      "title": "Chanti",
+      "year": 1992,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-294eb11b-6702-4a6c-8cc0-eec37d71cf44",
+      "movieId": "294eb11b-6702-4a6c-8cc0-eec37d71cf44",
+      "slug": "champion-1992",
+      "title": "Champion",
+      "year": 1992,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-f7509eb3-dfcd-40da-9f3c-523af8a29ee6",
+      "movieId": "f7509eb3-dfcd-40da-9f3c-523af8a29ee6",
+      "slug": "coolie-no-1-1991",
+      "title": "Coolie No. 1",
+      "year": 1991,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-69d9c5b0-d730-49ab-98e9-b49de57f251c",
+      "movieId": "69d9c5b0-d730-49ab-98e9-b49de57f251c",
+      "slug": "kshana-kshanam-1991",
+      "title": "Kshana Kshanam",
+      "year": 1991,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-a7fd33b1-949b-4eeb-bd46-f7d26e260bbf",
+      "movieId": "a7fd33b1-949b-4eeb-bd46-f7d26e260bbf",
+      "slug": "surya-ips-1991",
+      "title": "Surya IPS",
+      "year": 1991,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-e1c47b05-c119-482d-9e2e-53628f6e1720",
+      "movieId": "e1c47b05-c119-482d-9e2e-53628f6e1720",
+      "slug": "shatruvu-1991",
+      "title": "Shatruvu",
+      "year": 1991,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-f2cdac83-1d0a-4ffa-a374-0f4a98f5852e",
+      "movieId": "f2cdac83-1d0a-4ffa-a374-0f4a98f5852e",
+      "slug": "aggiramudu-1990",
+      "title": "Aggiramudu",
+      "year": 1990,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-f3dffe69-4a26-4818-a953-b432d325ab3b",
+      "movieId": "f3dffe69-4a26-4818-a953-b432d325ab3b",
+      "slug": "bobbili-raja-1990",
+      "title": "Bobbili Raja",
+      "year": 1990,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-d40dca0a-2505-4dcd-90d3-42be7cfdb8ab",
+      "movieId": "d40dca0a-2505-4dcd-90d3-42be7cfdb8ab",
+      "slug": "prema-1989",
+      "title": "Prema",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-d3aeeff0-7a4d-4976-9174-a6323b390a6d",
+      "movieId": "d3aeeff0-7a4d-4976-9174-a6323b390a6d",
+      "slug": "gaduggai-1989",
+      "title": "Gaduggai",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-8634b1e4-6d92-4233-aff4-66406e641d1a",
+      "movieId": "8634b1e4-6d92-4233-aff4-66406e641d1a",
+      "slug": "dhruva-nakshatram-1989",
+      "title": "Dhruva Nakshatram",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-ce4b2f2a-d61d-4cd0-b332-71a757c15307",
+      "movieId": "ce4b2f2a-d61d-4cd0-b332-71a757c15307",
+      "slug": "two-town-rowdy-1989",
+      "title": "Two Town Rowdy",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-672468e4-47a3-4fcf-aa75-3e7676c4902b",
+      "movieId": "672468e4-47a3-4fcf-aa75-3e7676c4902b",
+      "slug": "agni-1989",
+      "title": "Agni",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-cda2bc46-33dc-46d0-809c-c2aa15e958c2",
+      "movieId": "cda2bc46-33dc-46d0-809c-c2aa15e958c2",
+      "slug": "ontari-poratam-1989",
+      "title": "Ontari Poratam",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-dd582a50-5b5a-4dfb-9208-622da11d3956",
+      "movieId": "dd582a50-5b5a-4dfb-9208-622da11d3956",
+      "slug": "sutradharulu-1989",
+      "title": "Sutradharulu",
+      "year": 1989,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-d74dea7f-0ad9-4522-bf11-2c3641b53046",
+      "movieId": "d74dea7f-0ad9-4522-bf11-2c3641b53046",
+      "slug": "swarnakamalam-1988",
+      "title": "Swarnakamalam",
+      "year": 1988,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-6bb82435-ca2e-438b-a643-b6895a6f2140",
+      "movieId": "6bb82435-ca2e-438b-a643-b6895a6f2140",
+      "slug": "brahma-puthrudu-1988",
+      "title": "Brahma Puthrudu",
+      "year": 1988,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-aab75874-fd99-4336-bf7b-6be8e41247b1",
+      "movieId": "aab75874-fd99-4336-bf7b-6be8e41247b1",
+      "slug": "raktha-tilakam-1988",
+      "title": "Raktha Tilakam",
+      "year": 1988,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-85e5aa43-3932-460b-b355-563f23161ed2",
+      "movieId": "85e5aa43-3932-460b-b355-563f23161ed2",
+      "slug": "varasudochadu-1988",
+      "title": "Varasudochadu",
+      "year": 1988,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-7f9ac3a1-6ea9-4e14-9734-687cf2ccc224",
+      "movieId": "7f9ac3a1-6ea9-4e14-9734-687cf2ccc224",
+      "slug": "bharatamlo-arjunudu-1987",
+      "title": "Bharatamlo Arjunudu",
+      "year": 1987,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-5e61c317-da50-42d6-9fb1-b10cb9aa4a38",
+      "movieId": "5e61c317-da50-42d6-9fb1-b10cb9aa4a38",
+      "slug": "ajeyudu-1987",
+      "title": "Ajeyudu",
+      "year": 1987,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-6eebe2f5-1979-4074-9013-70e7b9e76b01",
+      "movieId": "6eebe2f5-1979-4074-9013-70e7b9e76b01",
+      "slug": "srinivasa-kalyanam-1987",
+      "title": "Srinivasa Kalyanam",
+      "year": 1987,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "name-var-66e1c407-a8f3-4397-998b-dec4e76bdf2c",
+      "movieId": "66e1c407-a8f3-4397-998b-dec4e76bdf2c",
+      "slug": "kaliyuga-pandavulu-1986",
+      "title": "Kaliyuga Pandavulu",
+      "year": 1986,
+      "issueType": "name_variation",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_hero",
+        "newValue": "Venkatesh",
+        "reason": "Name standardization: \"Daggubati Venkatesh\" → \"Venkatesh\""
+      }
+    },
+    {
+      "id": "tmdb-wrong-46e74f84-2f6d-4641-8cae-53b299b8f4f0",
+      "movieId": "46e74f84-2f6d-4641-8cae-53b299b8f4f0",
+      "slug": "shadow-2013",
+      "title": "Shadow",
+      "year": 2013,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 181928,
+        "reason": "Wrong TMDB: current is en (\"Deliver Us from Evil\"), found Telugu version (181928)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-27e5b953-19bd-4e10-bc5b-a9d39ef657d6",
+      "movieId": "27e5b953-19bd-4e10-bc5b-a9d39ef657d6",
+      "slug": "bodyguard-2012",
+      "title": "Bodyguard",
+      "year": 2012,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 86719,
+        "reason": "Wrong TMDB: current is de (\"The Papal Council\"), found Telugu version (86719)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-a6d72b16-a6cb-4253-a6f1-6befcedd8849",
+      "movieId": "a6d72b16-a6cb-4253-a6f1-6befcedd8849",
+      "slug": "subash-chandra-bose-2005",
+      "title": "Subash Chandra Bose",
+      "year": 2005,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 279461 is en (\"Subash Chandra Bose\"), not Telugu - cleared"
+      }
+    },
+    {
+      "id": "tmdb-notfound-1cdcfe40-5b7c-487c-a226-477bbf454393",
+      "movieId": "1cdcfe40-5b7c-487c-a226-477bbf454393",
+      "slug": "sankranti-2005",
+      "title": "Sankranti",
+      "year": 2005,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 256729 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-d822cd68-3a01-49f8-8faa-af694c4be5aa",
+      "movieId": "d822cd68-3a01-49f8-8faa-af694c4be5aa",
+      "slug": "shivashankar-2004",
+      "title": "Shivashankar",
+      "year": 2004,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 354674 is en (\"Runaway Virus\"), not Telugu - cleared"
+      }
+    },
+    {
+      "id": "tmdb-notfound-338d1d9a-694e-45d6-87cf-417e9f763bda",
+      "movieId": "338d1d9a-694e-45d6-87cf-417e9f763bda",
+      "slug": "vasantam-2003",
+      "title": "Vasantam",
+      "year": 2003,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 218846 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-wrong-0c425aaa-0b52-4af9-b194-5668b8a6e114",
+      "movieId": "0c425aaa-0b52-4af9-b194-5668b8a6e114",
+      "slug": "manasunna-maaraju-2000",
+      "title": "Manasunna Maaraju",
+      "year": 2000,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 1073095,
+        "reason": "Wrong TMDB: current is de (\"Liebe am Fjord - Der Gesang des Windes\"), found Telugu version (1073095)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-b7d34be1-b720-4a9e-8cf0-40685f974925",
+      "movieId": "b7d34be1-b720-4a9e-8cf0-40685f974925",
+      "slug": "bobbili-vamsam-1999",
+      "title": "Bobbili Vamsam",
+      "year": 1999,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 259461 is ja (\"LaForet Girl 10: Hikari, Sofia Takigawa, Kaede Niiyama, Ruka Ichinose\"), not Telugu - cleared"
+      }
+    },
+    {
+      "id": "tmdb-wrong-92a32d4d-37ea-4a82-abc6-008ec5c4b0ba",
+      "movieId": "92a32d4d-37ea-4a82-abc6-008ec5c4b0ba",
+      "slug": "veedevadandi-babu-1997",
+      "title": "Veedevadandi Babu",
+      "year": 1997,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 404052,
+        "reason": "Wrong TMDB: current is de (\"Whom the Gods Love\"), found Telugu version (404052)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-7a5f9a34-a013-444c-b230-66106c4fc6c8",
+      "movieId": "7a5f9a34-a013-444c-b230-66106c4fc6c8",
+      "slug": "chinnabbayi-1997",
+      "title": "Chinnabbayi",
+      "year": 1997,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 443657 is en (\"Charles C. Peterson: Billiard Champion of Fancy Shots\"), not Telugu - cleared"
+      }
+    },
+    {
+      "id": "tmdb-wrong-a3aec437-8aa6-48dc-91a6-3cb80690c722",
+      "movieId": "a3aec437-8aa6-48dc-91a6-3cb80690c722",
+      "slug": "abbaigaru-1993",
+      "title": "Abbaigaru",
+      "year": 1993,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 279488,
+        "reason": "Wrong TMDB: current is en (\"Lex, the Wonder Dog\"), found Telugu version (279488)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-89b4568b-f288-4e9e-9c16-1e5915b1df3c",
+      "movieId": "89b4568b-f288-4e9e-9c16-1e5915b1df3c",
+      "slug": "chakravyuham-1992",
+      "title": "Chakravyuham",
+      "year": 1992,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 714600,
+        "reason": "Wrong TMDB: current is en (\"National Geographic: Destination Space\"), found Telugu version (714600)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-0eee477e-3750-43ec-ad2a-c32881dd2e17",
+      "movieId": "0eee477e-3750-43ec-ad2a-c32881dd2e17",
+      "slug": "sundara-kanda-1992",
+      "title": "Sundara Kanda",
+      "year": 1992,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 279489,
+        "reason": "Wrong TMDB: current is en (\"Meditations on Revolution Part IV: Greenville, MS\"), found Telugu version (279489)"
+      }
+    },
+    {
+      "id": "tmdb-notfound-b47ba8ef-f6cf-46af-8c6e-68c2d73cad46",
+      "movieId": "b47ba8ef-f6cf-46af-8c6e-68c2d73cad46",
+      "slug": "chanti-1992",
+      "title": "Chanti",
+      "year": 1992,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 140742 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-294eb11b-6702-4a6c-8cc0-eec37d71cf44",
+      "movieId": "294eb11b-6702-4a6c-8cc0-eec37d71cf44",
+      "slug": "champion-1992",
+      "title": "Champion",
+      "year": 1992,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342674 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-wrong-e1c47b05-c119-482d-9e2e-53628f6e1720",
+      "movieId": "e1c47b05-c119-482d-9e2e-53628f6e1720",
+      "slug": "shatruvu-1991",
+      "title": "Shatruvu",
+      "year": 1991,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 279492,
+        "reason": "Wrong TMDB: current is ja (\"LaForet Girl 10: Hikari, Sofia Takigawa, Kaede Niiyama, Ruka Ichinose\"), found Telugu version (279492)"
+      }
+    },
+    {
+      "id": "tmdb-notfound-d3aeeff0-7a4d-4976-9174-a6323b390a6d",
+      "movieId": "d3aeeff0-7a4d-4976-9174-a6323b390a6d",
+      "slug": "gaduggai-1989",
+      "title": "Gaduggai",
+      "year": 1989,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342680 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-8634b1e4-6d92-4233-aff4-66406e641d1a",
+      "movieId": "8634b1e4-6d92-4233-aff4-66406e641d1a",
+      "slug": "dhruva-nakshatram-1989",
+      "title": "Dhruva Nakshatram",
+      "year": 1989,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342678 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-aab75874-fd99-4336-bf7b-6be8e41247b1",
+      "movieId": "aab75874-fd99-4336-bf7b-6be8e41247b1",
+      "slug": "raktha-tilakam-1988",
+      "title": "Raktha Tilakam",
+      "year": 1988,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342682 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-85e5aa43-3932-460b-b355-563f23161ed2",
+      "movieId": "85e5aa43-3932-460b-b355-563f23161ed2",
+      "slug": "varasudochadu-1988",
+      "title": "Varasudochadu",
+      "year": 1988,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342683 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-7f9ac3a1-6ea9-4e14-9734-687cf2ccc224",
+      "movieId": "7f9ac3a1-6ea9-4e14-9734-687cf2ccc224",
+      "slug": "bharatamlo-arjunudu-1987",
+      "title": "Bharatamlo Arjunudu",
+      "year": 1987,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342685 not found - cleared invalid ID"
+      }
+    },
+    {
+      "id": "tmdb-notfound-5e61c317-da50-42d6-9fb1-b10cb9aa4a38",
+      "movieId": "5e61c317-da50-42d6-9fb1-b10cb9aa4a38",
+      "slug": "ajeyudu-1987",
+      "title": "Ajeyudu",
+      "year": 1987,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 1342684 not found - cleared invalid ID"
+      }
+    }
+  ],
+  "summary": {
+    "autoFixed": 97,
+    "flaggedForReview": 0,
+    "reportOnly": 0,
+    "manualReviewRate": 0
+  }
+}

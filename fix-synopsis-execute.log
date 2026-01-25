@@ -1,0 +1,81 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           FIX LOW CONFIDENCE SYNOPSIS                                ║
+║           Target: 15 movies with generated_basic source              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+
+(node:36510) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  Found 14 movies to process
+
+
+  Processing: VVAN (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Ramayana: Part One (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Anantha (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Sabhaku Namaskaram (2026)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    ✅ Updated in database
+
+  Processing: Bāhubali: The Epic (2025)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Anandapuram Diaries (2024)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    ✅ Updated in database
+
+  Processing: RRR: Behind & Beyond (2024)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    ✅ Updated in database
+
+  Processing: Operation Laila (2024)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Nayanthara: Beyond the Fairy Tale (2024)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: 'Salaar: Part 2 – Shouryanga Parvam (2023)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    ✅ Updated in database
+
+  Processing: Ramachandra Boss &amp; Co (2023)
+    ❌ No high-quality synopsis found
+
+  Processing: Drama Juniors 4 Telugu (2023)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    ✅ Updated in database
+
+  Processing: Kisi Ka Bhai... Kisi Ki Jaan (2023)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    ✅ Updated in database
+
+  Processing: Kannai Nambathe (2023)
+    ✓ Found TMDB + Translation (80% confidence)
+    ✅ Updated in database
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           SUMMARY                                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total Movies:        14
+  Successfully Fixed:  13 (93%)
+  Failed:              1 (7%)
+
+  Sources Used:
+    telugu_wikipedia: 7
+    english_wikipedia_translated: 5
+    tmdb_overview_translated: 1
+

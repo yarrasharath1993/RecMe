@@ -1,0 +1,3174 @@
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║              ENRICH GENRES FROM TMDB                                  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Phase 1: Recent Movies (2020+)...
+
+  ✓ Found 76 recent movies to enrich
+
+  Processing 76 movies in batches of 5...
+
+  Batch 1/16
+    Anantha (2026)
+      Current: [Drama]
+    Aakasam Lo Oka Tara (2026)
+      Current: [Drama]
+    Lenin (2026)
+      Current: [Drama]
+    Vanaveera (2026)
+      Current: [Action]
+    Daaku Maharaaj (2025)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 2/16
+    Vaamana (2025)
+      Current: [Action]
+    Arjun Chakravarthy (2025)
+      Current: [Drama]
+    Goodbye June (2025)
+      Current: [Drama]
+    1000 Waala (2025)
+      Current: [Action]
+    Die My Love (2025)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 3/16
+    Paradha (2025)
+      Current: [Drama]
+    Guard: Revenge for Love (2025)
+      Current: [Drama]
+    Shambhala (2025)
+      Current: [Drama]
+    Akhanda 2: Thaandavam (2025)
+      Current: [Action]
+    Robinhood (2025)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 4/16
+    Raajadhani Files (2024)
+      Current: [Drama]
+    Ground (2024)
+      Current: [Drama]
+    Leela Vinodam (2024)
+      Current: [Drama]
+    Dheera (2024)
+      Current: [Action]
+    Sriranga Neethulu (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 5/16
+    Double Engine (2024)
+      Current: [Drama]
+    Drinker Sai (2024)
+      Current: [Drama]
+    Prathinidhi 2 (2024)
+      Current: [Drama]
+    Committee Kurrollu (2024)
+      Current: [Drama]
+    Sarkaaru Noukari (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 6/16
+    Narudi Brathuku Natana (2024)
+      Current: [Drama]
+    Akshara (2024)
+      Current: [Drama]
+    Sheeshmahal (2024)
+      Current: [Drama]
+    Utsavam (2024)
+      Current: [Drama]
+    Laggam (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 7/16
+    Sam Anton (2024)
+      Current: [Drama]
+    Krishnamma (2024)
+      Current: [Action]
+    Anthima Theerpu (2024)
+      Current: [Drama]
+    Ruslaan (2024)
+      Current: [Action]
+    Zebra (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 8/16
+    Maa Nanna Superhero (2024)
+      Current: [Drama]
+    Pekamedalu (2024)
+      Current: [Drama]
+    Aattam (2024)
+      Current: [Drama]
+    Simón (2023)
+      Current: [Drama]
+    Saachi (2023)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 9/16
+    Kill Shot (2023)
+      Current: [Action]
+    12th Fail (2023)
+      Current: [Drama]
+    Kaathal - The Core (2023)
+      Current: [Drama]
+    Karna (2023)
+      Current: [Drama]
+    Mukundan Unni Associates™ (2022)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 10/16
+    Happy Birthday (2022)
+      Current: [Drama]
+    Ranasthali (2022)
+      Current: [Action]
+    Darja (2022)
+      Current: [Action]
+    Panchatantra Kathalu (2022)
+      Current: [Drama]
+    Kadaisi Vivasayi (2022)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 11/16
+    Nenu C/o Nuvvu (2022)
+      Current: [Drama]
+    Palmer (2021)
+      Current: [Drama]
+    Pitta Kathalu (2021)
+      Current: [Drama]
+    Itlu Amma (2021)
+      Current: [Drama]
+    Sreekaram (2021)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 12/16
+    Pogaru (2021)
+      Current: [Action]
+    The Great Indian Kitchen (2021)
+      Current: [Drama]
+    Seetimaarr (2021)
+      Current: [Action]
+    Aakashavaani (2021)
+      Current: [Drama]
+    Gamanam (2021)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 13/16
+    Lawyer Viswanath (2021)
+      Current: [Drama]
+    The Father (2021)
+      Current: [Drama]
+    Maara (2021)
+      Current: [Drama]
+    Journalist (2021)
+      Current: [Drama]
+    Ardha Shathabdham (2021)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 14/16
+    Mad (2021)
+      Current: [Drama]
+    Sarileru Neekevvaru (2020)
+      Current: [Action]
+    Thappad (2020)
+      Current: [Drama]
+    Miss India (2020)
+      Current: [Drama]
+    Metro Kathalu (2020)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 15/16
+    Johaar (2020)
+      Current: [Drama]
+    Coronavirus (2020)
+      Current: [Drama]
+    Family - A Made at Home Short Film (2020)
+      Current: [Drama]
+    Thagite Thandana (2020)
+      Current: [Drama]
+    Devi (2020)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Adventure, Action]
+      ⊘ No change needed
+  Batch 16/16
+    Black Beauty (2020)
+      Current: [Drama]
+      ⊘ No change needed
+
+  Phase 2: All Movies with TMDB...
+
+  ✓ Found 901 additional movies to enrich
+
+  Processing 901 movies in batches of 5...
+
+  Batch 1/181
+    Illicit Relationship (null)
+      Current: [Drama]
+    Naa Katha (null)
+      Current: [Drama]
+    Inner City Blues (null)
+      Current: [Drama]
+    Ranasthalam (2019)
+      Current: [Action]
+    99 (2019)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 2/181
+    Kousalya Krishnamurthy (2019)
+      Current: [Drama]
+    NGK (2019)
+      Current: [Drama]
+    Hulchul (2019)
+      Current: [Action]
+    N.T.R: Kathanayukudu (2019)
+      Current: [Drama]
+    Action (2019)
+      Current: [Action]
+      ⊘ No change needed
+      ✓ Updated: [Documentary, History]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 3/181
+    Police officer (2019)
+      Current: [Action]
+    Jersey (2019)
+      Current: [Drama]
+    100 (2019)
+      Current: [Action]
+    Lakshmi's NTR (2019)
+      Current: [Drama]
+    N.T.R: Kathanayakudu (2019)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Animation, Comedy]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 4/181
+    N.t.r: Mahanayakudu (2019)
+      Current: [Drama]
+    Super 30 (2019)
+      Current: [Drama]
+    Natasaarvabhowma (2019)
+      Current: [Action]
+    Vajra Kavachadhara Govinda (2019)
+      Current: [Action]
+    Mallesham (2019)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 5/181
+    Petta (2019)
+      Current: [Action]
+    Uyare (2019)
+      Current: [Drama]
+    Nene Mukyamantri (2019)
+      Current: [Action]
+    N.T.R: Kathanayakudu (2019)
+      Current: [Drama]
+    Unda (2019)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Animation, Comedy]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 6/181
+    Yajamana (2019)
+      Current: [Action]
+    Aa Nimisham (2019)
+      Current: [Drama]
+    Sketch (2018)
+      Current: [Action]
+    Chalakkudykkaran Changathy (2018)
+      Current: [Drama]
+    Lover (2018)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 7/181
+    Sarkari. Hi. Pra. Shale Kasaragodu (2018)
+      Current: [Drama]
+    Kinar (2018)
+      Current: [Drama]
+    Aa Bb Kk (2018)
+      Current: [Drama]
+    2 Friends (2018)
+      Current: [Drama]
+    Moodu Puvulu Aaru Kayalu (2018)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 8/181
+    Aatwaja (2018)
+      Current: [Drama]
+    Touch Chesi Chudu (2018)
+      Current: [Action]
+    Ranam (2018)
+      Current: [Action]
+    Mahanati (2018)
+      Current: [Drama]
+    Nota (2018)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 9/181
+    Masakkali (2018)
+      Current: [Drama]
+    Desamlo Dongalu Paddaru (2018)
+      Current: [Drama]
+    Ammachi Yemba Nenapu (2018)
+      Current: [Drama]
+    Naa Peru Surya - Naa Illu India (2018)
+      Current: [Action]
+    Tagaru (2018)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+  Batch 10/181
+    Nathicharami (2018)
+      Current: [Drama]
+    Keni (2018)
+      Current: [Drama]
+    Kanam (2018)
+      Current: [Drama]
+    Bairavaa (2017)
+      Current: [Action]
+    Sometimes (2017)
+      Current: [Drama]
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 11/181
+    Aruvi (2017)
+      Current: [Drama]
+    Arjun Reddy (2017)
+      Current: [Drama]
+    Om Namo Venkatesaya (2017)
+      Current: [Drama]
+    The Greatest Showman (2017)
+      Current: [Drama]
+    Parava (2017)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 12/181
+    Saranam Gacchami (2017)
+      Current: [Drama]
+    Rishi (2017)
+      Current: [Drama]
+    Lakshmi Bomb (2017)
+      Current: [Drama]
+    Shekaram Gari Abbayi (2017)
+      Current: [Drama]
+    Guru (2017)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Adventure, Drama, Family]
+      ⊘ No change needed
+      ✓ Updated: [Drama, Action]
+      ✓ Updated: [Drama, Adventure, TV Movie]
+  Batch 13/181
+    Spyder (2017)
+      Current: [Action]
+    Joker (2016)
+      Current: [Drama]
+    Sri Sri (2016)
+      Current: [Drama]
+    Lion (2016)
+      Current: [Drama]
+    Aligarh (2016)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Action, Thriller, Crime]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 14/181
+    Dandakaranyam (2016)
+      Current: [Action]
+    Manalo Okkadu (2016)
+      Current: [Drama]
+    Nannaku Prematho... (2016)
+      Current: [Action]
+    Guppy (2016)
+      Current: [Drama]
+    Parched (2016)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 15/181
+    Irudhi Suttru (2016)
+      Current: [Drama]
+    M.S. Dhoni: The Untold Story (2016)
+      Current: [Drama]
+    Naanu Avanalla... Avalu (2015)
+      Current: [Drama]
+    Good Day, Ramon (2015)
+      Current: [Drama]
+    Gaddam Gang (2015)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Crime, Comedy]
+  Batch 16/181
+    Vedhalam (2015)
+      Current: [Action]
+    Mr. Airavata (2015)
+      Current: [Action]
+    Kaaka Muttai (2015)
+      Current: [Drama]
+    Maari (2015)
+      Current: [Action]
+    Masaan (2015)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 17/181
+    Manjhi: The Mountain Man (2015)
+      Current: [Drama]
+    Malini & Co. (2015)
+      Current: [Action]
+    Hitudu (2015)
+      Current: [Drama]
+    Vedalam (2015)
+      Current: [Action]
+    Margarita with a Straw (2015)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy]
+  Batch 18/181
+    Lava Kusa (2015)
+      Current: [Drama]
+    Pathemari (2015)
+      Current: [Drama]
+    Ranna (2015)
+      Current: [Drama]
+    Adithya (Creative Genius) (2015)
+      Current: [Drama]
+    Jilla (2014)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Romance]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 19/181
+    Mukunda (2014)
+      Current: [Action]
+    O Manishi Katha (2014)
+      Current: [Drama]
+    Paathasala (2014)
+      Current: [Drama]
+    I Am That Change (2014)
+      Current: [Drama]
+    Singham Returns (2014)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Drama, Romance, Thriller]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 20/181
+    Prathinidhi (2014)
+      Current: [Drama]
+    1983 (2014)
+      Current: [Drama]
+    Chandamama Kathalu (2014)
+      Current: [Drama]
+    Commando - A One Man Army (2013)
+      Current: [Action]
+    Kai Po Che! (2013)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 21/181
+    Galaate (2013)
+      Current: [Drama]
+    Man Of The Match (2013)
+      Current: [Drama]
+    Operation Duryodhana 2 (2013)
+      Current: [Drama]
+    Ship of Theseus (2013)
+      Current: [Drama]
+    Pavitra (2013)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 22/181
+    Kamalatho Naa Prayanam (2013)
+      Current: [Drama]
+    Chinni Chinni Aasa (2013)
+      Current: [Drama]
+    Stranger Things (2013)
+      Current: [Drama]
+    Sevakudu (2013)
+      Current: [Action]
+    Thadaka (2013)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 23/181
+    Jai Sriram (2013)
+      Current: [Action]
+    Satruvu (2013)
+      Current: [Action]
+    Mallela Theeram Lo Sirimalle Puvvu (2013)
+      Current: [Drama]
+    Ongole Gittha (2013)
+      Current: [Action]
+    Puthagam (2013)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Music]
+  Batch 24/181
+    Ayyare (2012)
+      Current: [Drama]
+    Mithunam (2012)
+      Current: [Drama]
+    Midhunam (2012)
+      Current: [Drama]
+    Shirdi Sai (2012)
+      Current: [Drama]
+    Godfather (2012)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 25/181
+    Thaandavam (2012)
+      Current: [Action]
+    Rushi (2012)
+      Current: [Drama]
+    Spirit (2012)
+      Current: [Drama]
+    Onamalu (2012)
+      Current: [Drama]
+    Dhoni (2012)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Family]
+  Batch 26/181
+    Ayalum Njanum Thammil (2012)
+      Current: [Drama]
+    Nandeeswarudu (2012)
+      Current: [Action]
+    Ethiri En 3 (2012)
+      Current: [Drama]
+    Friends Book (2012)
+      Current: [Drama]
+    Akash (2012)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 27/181
+    Chaduvukovali (2012)
+      Current: [Drama]
+    Hero (2012)
+      Current: [Action]
+    Saguni (2012)
+      Current: [Drama]
+    Patiala House (2011)
+      Current: [Drama]
+    Poru Telangana (2011)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Thriller, Mystery]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 28/181
+    Katha Screenplay Darsakatvam Appalaraju (2011)
+      Current: [Drama]
+    Mogudu (2011)
+      Current: [Drama]
+    Uppukandam Brothers Back In Action (2011)
+      Current: [Action]
+    Sadhurangam (2011)
+      Current: [Drama]
+    Aakasame Haddu (2011)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 29/181
+    Chattam (2011)
+      Current: [Action]
+    Kodipunju (2011)
+      Current: [Action]
+    Poraali (2011)
+      Current: [Drama]
+    Manchivadu (2011)
+      Current: [Drama]
+    Daggaraga Dooranga (2011)
+      Current: [Action]
+      ⊘ No change needed
+      ✓ Updated: [Drama, Romance]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Drama, Thriller]
+      ⚠ No genres from TMDB
+  Batch 30/181
+    Galli Kurrolu (2011)
+      Current: [Action]
+    Babloo (2011)
+      Current: [Action]
+    Velayudham (2011)
+      Current: [Action]
+    Sanchalanam (2011)
+      Current: [Drama]
+    Sri Rama Rajyam (2011)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy, Animation]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 31/181
+    Dushasana (2011)
+      Current: [Action]
+    Engeyum Eppodhum (2011)
+      Current: [Drama]
+    The Help (2011)
+      Current: [Drama]
+    Indian Rupee (2011)
+      Current: [Drama]
+    Dhobi Ghat (2010)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Crime, Horror, Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 32/181
+    The Desire (2010)
+      Current: [Drama]
+    Young India (2010)
+      Current: [Drama]
+    Veera Telangana (2010)
+      Current: [Drama]
+    1940 Lo Oka Gramam (2010)
+      Current: [Drama]
+    Udaan (2010)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 33/181
+    Bheemili Kabaddi Jattu (2010)
+      Current: [Drama]
+    Madhanudu (2010)
+      Current: [Drama]
+    Ramdev (2010)
+      Current: [Action]
+    My Name Is Amrutha (2010)
+      Current: [Drama]
+    Sye Aata (2010)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Comedy, Horror]
+      ✓ Updated: [Crime, Thriller, Mystery]
+      ⊘ No change needed
+      ✓ Updated: [Horror]
+  Batch 34/181
+    Srimathi Kalyanam (2010)
+      Current: [Drama]
+    Rama Rama Krishna Krishna (2010)
+      Current: [Drama]
+    Bhairava Ips (2010)
+      Current: [Action]
+    Inkosari (2010)
+      Current: [Drama]
+    Happy Happy Ga (2010)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 35/181
+    Leader (2010)
+      Current: [Action]
+    Dasanna (2010)
+      Current: [Drama]
+    Ragada (2010)
+      Current: [Action]
+    Collector Gari Bharya (2010)
+      Current: [Drama]
+    Darling (2010)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Comedy]
+  Batch 36/181
+    Shambo Shiva Shambo (2010)
+      Current: [Action]
+    Satyameva Jayathe (2009)
+      Current: [Action]
+    Manorama (2009)
+      Current: [Action]
+    Pistha (2009)
+      Current: [Action]
+    Kick (2009)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Music]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Drama, Thriller]
+      ✓ Updated: [Documentary, Music]
+  Batch 37/181
+    Sesh Sanghat (2009)
+      Current: [Drama]
+    Kerala Cafe (2009)
+      Current: [Drama]
+    Neramu Siksha (2009)
+      Current: [Drama]
+    Sesh Sangat (2009)
+      Current: [Drama]
+    Raaj (2009)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 38/181
+    Naa Girlfriend Baga Rich (2009)
+      Current: [Drama]
+    Mesthri (2009)
+      Current: [Drama]
+    Kasko (2009)
+      Current: [Action]
+    Mitrudu (2009)
+      Current: [Drama]
+    Call Center (2008)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 39/181
+    Adivishnu (2008)
+      Current: [Action]
+    Aapada Mokkulavaadu (2008)
+      Current: [Drama]
+    Halla Bol (2008)
+      Current: [Drama]
+    Aalayam (2008)
+      Current: [Drama]
+    Netru Indru Naalai (2008)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 40/181
+    Okka Magadu (2008)
+      Current: [Action]
+    Gran Torino (2008)
+      Current: [Drama]
+    Ankith Pallavi and Friends (2008)
+      Current: [Drama]
+    Rock On!! (2008)
+      Current: [Drama]
+    Abbo Aadavallu (2008)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Romance, Comedy, Drama]
+  Batch 41/181
+    Ankit, Pallavi & Friends (2008)
+      Current: [Drama]
+    Front of the Class (2008)
+      Current: [Drama]
+    Gamyam (2008)
+      Current: [Drama]
+    Idi Sangathi (2008)
+      Current: [Drama]
+    Like Stars on Earth (2007)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+  Batch 42/181
+    Arabikkatha (2007)
+      Current: [Drama]
+    Deha (2007)
+      Current: [Drama]
+    Brahma (2007)
+      Current: [Action]
+    Mee Sreyobhilashi (2007)
+      Current: [Drama]
+    Poramboku (2007)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 43/181
+    Classmates (2007)
+      Current: [Drama]
+    Amma Nanna Lekunte (2007)
+      Current: [Drama]
+    Kalloori (2007)
+      Current: [Drama]
+    Kaloori (2007)
+      Current: [Drama]
+    There Will Be Blood (2007)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Drama, Romance]
+      ✓ Updated: [Documentary]
+  Batch 44/181
+    Okkadunnadu (2007)
+      Current: [Action]
+    Notebook (2007)
+      Current: [Drama]
+    Happy Days (2007)
+      Current: [Drama]
+    Maathaad Maathaadu Mallige (2007)
+      Current: [Drama]
+    Vinodayathra (2007)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 45/181
+    Chak De! India (2007)
+      Current: [Drama]
+    Varakatnam (2007)
+      Current: [Drama]
+    Sunny (2007)
+      Current: [Drama]
+    Brahmastram (2006)
+      Current: [Action]
+    Tathastu (2006)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 46/181
+    Asadhyudu (2006)
+      Current: [Action]
+    Happy (2006)
+      Current: [Drama]
+    Bommalata (2006)
+      Current: [Drama]
+    Jai Santoshi Maa (2006)
+      Current: [Drama]
+    The Pursuit of Happyness (2006)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [TV Movie, Drama]
+  Batch 47/181
+    Madrasi (2006)
+      Current: [Action]
+    Gurukshetram (2006)
+      Current: [Drama]
+    Kizhakku Kadarkarai Salai (2006)
+      Current: [Drama]
+    Kizhakku Kadalkarai Salai (2006)
+      Current: [Drama]
+    Pasa Kiligal (2006)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 48/181
+    Uyir (2006)
+      Current: [Drama]
+    Black (2005)
+      Current: [Drama]
+    Iqbal (2005)
+      Current: [Drama]
+    Bhadra (2005)
+      Current: [Action]
+    Thanmathra (2005)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 49/181
+    Dhana 51 (2005)
+      Current: [Action]
+    Mahasadhvi Mallamma (2005)
+      Current: [Drama]
+    Athanokkade (2005)
+      Current: [Action]
+    Grahanam (2004)
+      Current: [Drama]
+    Bhadradri Ramudu (2004)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Drama]
+      ⊘ No change needed
+  Batch 50/181
+    Main Hoon Na (2004)
+      Current: [Drama]
+    Aa Naluguru (2004)
+      Current: [Drama]
+    Something the Lord Made (2004)
+      Current: [Drama]
+    Ee Snehatheerathu (2004)
+      Current: [Drama]
+    Swarabhishekam (2004)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [TV Movie, Drama]
+  Batch 51/181
+    Joot (2004)
+      Current: [Action]
+    Million Dollar Baby (2004)
+      Current: [Drama]
+    Khakee (2004)
+      Current: [Action]
+    Kaazhcha (2004)
+      Current: [Drama]
+    Baghban (2003)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 52/181
+    Missamma (2003)
+      Current: [Drama]
+    All over the heart (2003)
+      Current: [Drama]
+    Joot (2003)
+      Current: [Action]
+    Palanati Brahmanaidu (2003)
+      Current: [Action]
+    Vijaya Dashami (2003)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Music]
+  Batch 53/181
+    The Rite, a Passion (2002)
+      Current: [Drama]
+    Dweepa (2002)
+      Current: [Drama]
+    Agni Varsha (2002)
+      Current: [Drama]
+    Ivan (2002)
+      Current: [Drama]
+    Neethone Vuntanu (2002)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Drama, Fantasy]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 54/181
+    Sri Bannari Amman (2002)
+      Current: [Drama]
+    Kottai Mariamman (2002)
+      Current: [Drama]
+    The Island (2002)
+      Current: [Drama]
+    Thavasi (2001)
+      Current: [Drama]
+    Time Pass (2001)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 55/181
+    Chiranjeevulu (2001)
+      Current: [Action]
+    Tholi Valapu (2001)
+      Current: [Drama]
+    Dollar Dreams (2000)
+      Current: [Drama]
+    Sammakka Sarakka (2000)
+      Current: [Drama]
+    Devullu (2000)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 56/181
+    Manasichanu (2000)
+      Current: [Action]
+    Sandhitha Velai (2000)
+      Current: [Drama]
+    Eazhaiyin Sirippil (2000)
+      Current: [Drama]
+    Thirunelveli (2000)
+      Current: [Drama]
+    Sneham Kosam (1999)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Family]
+  Batch 57/181
+    Mannavaru Chinnavaru (1999)
+      Current: [Drama]
+    Raja (1999)
+      Current: [Drama]
+    Mugham (1999)
+      Current: [Drama]
+    Chinna Raja (1999)
+      Current: [Drama]
+    Maa Balaji (1999)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 58/181
+    Manasulo Maata (1999)
+      Current: [Drama]
+    Loh Purush (1999)
+      Current: [Action]
+    Mannavaru Sinnavaru (1999)
+      Current: [Drama]
+    American Beauty (1999)
+      Current: [Drama]
+    English Pellam East Godavari Mogudu (1999)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 59/181
+    Maavidakulu (1998)
+      Current: [Drama]
+    Swami Vivekananda (1998)
+      Current: [Drama]
+    En Aasai Rasave (1998)
+      Current: [Drama]
+    Unnidathil Ennai Koduthen (1998)
+      Current: [Drama]
+    American History X (1998)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 60/181
+    Aahaa..! (1998)
+      Current: [Drama]
+    Aami Sei Meye (1998)
+      Current: [Drama]
+    Zakhm (1998)
+      Current: [Drama]
+    Yuvaratna Raana (1998)
+      Current: [Action]
+    Ooyala (1998)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy]
+  Batch 61/181
+    Ganesh (1998)
+      Current: [Action]
+    Zulm-O-Sitam (1998)
+      Current: [Action]
+    Dongaata (1997)
+      Current: [Drama]
+    Good Will Hunting (1997)
+      Current: [Drama]
+    Koyla (1997)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 62/181
+    Maa Ayana Bangaram (1997)
+      Current: [Drama]
+    Sindhooram (1997)
+      Current: [Drama]
+    Thodu (1997)
+      Current: [Drama]
+    Hitler (1997)
+      Current: [Drama]
+    Peddannayya (1997)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 63/181
+    Naidugaari Kutumbam (1996)
+      Current: [Drama]
+    Yuvathurki (1996)
+      Current: [Action]
+    Tamizh Selvan (1996)
+      Current: [Drama]
+    Mummy Mee Aayanochadu (1996)
+      Current: [Drama]
+    Sipayi (1996)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Music]
+  Batch 64/181
+    Senathipathi (1996)
+      Current: [Drama]
+    Dharma Chakram (1996)
+      Current: [Drama]
+    Chilakapacha Kapuram (1995)
+      Current: [Drama]
+    Telugu Veera Levara (1995)
+      Current: [Drama]
+    Vajram (1995)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 65/181
+    Veer (1995)
+      Current: [Action]
+    Muthu Kaalai (1995)
+      Current: [Drama]
+    Baasha (1995)
+      Current: [Action]
+    Stri (1995)
+      Current: [Drama]
+    M Dharmaraju M.A. (1994)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 66/181
+    Top Hero (1994)
+      Current: [Drama]
+    Chauraha (1994)
+      Current: [Action]
+    Swami Vivekananda (1994)
+      Current: [Drama]
+    Rakshana (1993)
+      Current: [Action]
+    Anna Chellelu (1993)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Drama, Crime]
+  Batch 67/181
+    Ezhai Jaathi (1993)
+      Current: [Action]
+    Lakshyam (1993)
+      Current: [Action]
+    In the Name of the Father (1993)
+      Current: [Drama]
+    Ponnumani (1993)
+      Current: [Drama]
+    Nippu Ravva (1993)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 68/181
+    Aadarsham (1993)
+      Current: [Drama]
+    Mannan (1992)
+      Current: [Drama]
+    Tyagi (1992)
+      Current: [Drama]
+    Thevar Magan (1992)
+      Current: [Drama]
+    Pattudala (1992)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 69/181
+    President Gari Pellam (1992)
+      Current: [Drama]
+    Raktha Tharpanam (1992)
+      Current: [Action]
+    Akka Mogudu (1992)
+      Current: [Drama]
+    Jo Jeeta Wohi Sikandar (1992)
+      Current: [Drama]
+    Pellam Chebithe Vinali (1992)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 70/181
+    Yagnam (1992)
+      Current: [Action]
+    Gang War (1992)
+      Current: [Action]
+    Yugantam (1991)
+      Current: [Drama]
+    Amma Kadupu Challaga (1991)
+      Current: [Drama]
+    Nayakuralu (1991)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Comedy]
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 71/181
+    Aagraham (1991)
+      Current: [Action]
+    Pandirimancham (1991)
+      Current: [Drama]
+    Aada Pilla (1991)
+      Current: [Drama]
+    Indra Bhavanam (1991)
+      Current: [Drama]
+    Alludu Diddina Kapuram (1991)
+      Current: [Drama]
+      ✓ Updated: [Comedy]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 72/181
+    Chaithanya (1991)
+      Current: [Action]
+    Keechu Raallu (1991)
+      Current: [Drama]
+    Ashwini (1991)
+      Current: [Drama]
+    Athiradhudu (1991)
+      Current: [Action]
+    Seetharamayya Gari Manavaralu (1991)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Comedy, Horror, Thriller]
+      ✓ Updated: [Drama, Romance]
+  Batch 73/181
+    Farishtay (1991)
+      Current: [Action]
+    Sapnon Ka Mandir (1991)
+      Current: [Drama]
+    Parama Sivudu (1991)
+      Current: [Action]
+    Niyantha (1991)
+      Current: [Action]
+    Kalikalam (1991)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 74/181
+    Adavi Diviteelu (1990)
+      Current: [Action]
+    Guru Sishyulu (1990)
+      Current: [Action]
+    Lakshmi Durga (1990)
+      Current: [Drama]
+    Justice Rudramadevi (1990)
+      Current: [Drama]
+    Majboor (1990)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Documentary]
+  Batch 75/181
+    Kartavyam (1990)
+      Current: [Action]
+    Kanoon Ki Zanjeer (1990)
+      Current: [Action]
+    Prajala Manishi (1990)
+      Current: [Drama]
+    Nagastram (1990)
+      Current: [Action]
+    Nagastharam (1990)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 76/181
+    Neti Siddhartha (1990)
+      Current: [Action]
+    Abhisarika (1990)
+      Current: [Drama]
+    Kadapa Redamma (1990)
+      Current: [Action]
+    Navayugam (1990)
+      Current: [Drama]
+    Agni Sakshi (1990)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Crime, Drama]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [War, Drama]
+  Batch 77/181
+    Mrugathrushna (1990)
+      Current: [Drama]
+    Rajasekhar (1990)
+      Current: [Drama]
+    Prananiki Pranam (1990)
+      Current: [Action]
+    Ankusam (1990)
+      Current: [Action]
+    Matti Manushulu (1990)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy, Horror, Thriller]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ✓ Updated: [Western]
+  Batch 78/181
+    Ankitham (1990)
+      Current: [Drama]
+    Anna Thammudu (1990)
+      Current: [Action]
+    20va Shatabdam (1990)
+      Current: [Action]
+    Inspector Rudra (1990)
+      Current: [Action]
+    Rao Gari Intlo Rowdy (1990)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Music]
+      ✓ Updated: [Thriller]
+  Batch 79/181
+    Aayudham (1990)
+      Current: [Action]
+    Manasu Mamata (1990)
+      Current: [Drama]
+    Udhyamam (1990)
+      Current: [Action]
+    Agni Pravesam (1990)
+      Current: [Drama]
+    Pathar Ke Insan (1990)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 80/181
+    Sahasame Naa Oopiri (1989)
+      Current: [Action]
+    Koduku Diddina Kapuram (1989)
+      Current: [Drama]
+    State Rowdy (1989)
+      Current: [Action]
+    Kanoon Ki Awaaz (1989)
+      Current: [Action]
+    Manchu Kutumbam (1989)
+      Current: [Drama]
+      ✓ Updated: [Drama, Crime]
+      ⊘ No change needed
+      ✓ Updated: [Drama, Action, Crime]
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Romance, Comedy, TV Movie]
+  Batch 81/181
+    Shehzaade (1989)
+      Current: [Action]
+    Elaan-E-Jung (1989)
+      Current: [Action]
+    Srirama Chandrudu (1989)
+      Current: [Drama]
+    Parthudu (1989)
+      Current: [Action]
+    Sarvabhoumudu (1989)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+  Batch 82/181
+    Bharata Nari (1989)
+      Current: [Drama]
+    Sakshi (1989)
+      Current: [Drama]
+    Mamatala Kovela (1989)
+      Current: [Drama]
+    Swathi Chinukulu (1989)
+      Current: [Drama]
+    Goonda Rajyam (1989)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Family]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+  Batch 83/181
+    Vijay (1989)
+      Current: [Action]
+    Paraya Ghar (1989)
+      Current: [Drama]
+    Vichitra Sodarulu (1989)
+      Current: [Drama]
+    Ajatha Satruvu (1989)
+      Current: [Action]
+    Rajakeeya Chadarangam (1989)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy, Drama]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 84/181
+    Vicky Daada (1989)
+      Current: [Action]
+    Dead Poets Society (1989)
+      Current: [Drama]
+    Mouna Poratam (1989)
+      Current: [Drama]
+    Varavelpu (1989)
+      Current: [Drama]
+    Souten Ki Beti (1989)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy, Action]
+  Batch 85/181
+    Majboor (1989)
+      Current: [Action]
+    Adavilo Abhimanyudu (1989)
+      Current: [Action]
+    Rickshawala (1989)
+      Current: [Drama]
+    Muddula Mavayya (1989)
+      Current: [Action]
+    Ashoka Chakravarthy (1989)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary, Drama, Family]
+  Batch 86/181
+    Anna Chellalu (1989)
+      Current: [Drama]
+    Main Tera Dushman (1989)
+      Current: [Action]
+    Aahuthi (1988)
+      Current: [Action]
+    Maa Inti Maharaju (1988)
+      Current: [Drama]
+    Dharma Teja (1988)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Romance, Comedy]
+      ✓ Updated: [Crime, Thriller]
+      ⚠ No genres from TMDB
+  Batch 87/181
+    Rakthabishekam (1988)
+      Current: [Action]
+    Rajakiya Chadurangam (1988)
+      Current: [Drama]
+    Ganga Tere Desh Mein (1988)
+      Current: [Action]
+    Mardon Wali Baat (1988)
+      Current: [Action]
+    Jhansi Rani (1988)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 88/181
+    Aswaddhama (1988)
+      Current: [Action]
+    Agni Keratalu (1988)
+      Current: [Action]
+    Raktabhishekam (1988)
+      Current: [Action]
+    Kaliyuga Karnudu (1988)
+      Current: [Action]
+    Jeevana Jyothi (1988)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Music, Documentary]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Drama, History]
+  Batch 89/181
+    Jeevana Ganga (1988)
+      Current: [Drama]
+    Tiragabadda Telugubidda (1988)
+      Current: [Action]
+    Bava Marudula Saval (1988)
+      Current: [Drama]
+    Donga Ramudu (1988)
+      Current: [Action]
+    Prana Snehithulu (1988)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy, Fantasy, Music]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 90/181
+    Chikkadu Dorakadu (1988)
+      Current: [Action]
+    Jamadagni (1988)
+      Current: [Action]
+    Bazaar Rowdy (1988)
+      Current: [Action]
+    Praja Prathinidhi (1988)
+      Current: [Action]
+    Dorakani Donga (1988)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 91/181
+    Asthulu Anthasthulu (1988)
+      Current: [Drama]
+    Aanimuthyam (1988)
+      Current: [Drama]
+    Kaboye Alludu (1987)
+      Current: [Drama]
+    Dongodochhadu (1987)
+      Current: [Action]
+    Shankharavam (1987)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Adventure]
+  Batch 92/181
+    Makutamleni Maharaju (1987)
+      Current: [Action]
+    Maa Ooru (1987)
+      Current: [Drama]
+    Brahma Nayudu (1987)
+      Current: [Action]
+    Muddayi (1987)
+      Current: [Action]
+    Sardar Dharmanna (1987)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 93/181
+    Sahasa Samrat (1987)
+      Current: [Action]
+    Swayamkrushi (1987)
+      Current: [Drama]
+    Muddu Bidda (1987)
+      Current: [Drama]
+    Bhargava Ramudu (1987)
+      Current: [Action]
+    Thandri Kodukula Challenge (1987)
+      Current: [Action]
+      ⊘ No change needed
+      ✓ Updated: [Drama, Comedy, Romance]
+      ✓ Updated: [Drama]
+      ✓ Updated: [Drama, Animation, Comedy]
+      ✓ Updated: [Comedy]
+  Batch 94/181
+    Samsaram Oka Chadarangam (1987)
+      Current: [Drama]
+    Sardar Krishnama Naidu (1987)
+      Current: [Action]
+    Nazrana (1987)
+      Current: [Drama]
+    Kirai Dada (1987)
+      Current: [Action]
+    Donga Garu Swagatham (1987)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Music]
+  Batch 95/181
+    Maa Voori Magadu (1987)
+      Current: [Action]
+    Ramu (1987)
+      Current: [Drama]
+    Swayam Krushi (1987)
+      Current: [Drama]
+    President Gari Abbayi (1987)
+      Current: [Drama]
+    Lawyer Suhasini (1987)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Animation]
+      ⚠ No genres from TMDB
+  Batch 96/181
+    Bhagwaan Dada (1986)
+      Current: [Action]
+    Apoorva Sahodarulu (1986)
+      Current: [Action]
+    Dhairyavanthudu (1986)
+      Current: [Drama]
+    Pyaar Ke Do Pal (1986)
+      Current: [Drama]
+    Prathibhavanthudu (1986)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Family, Mystery, Comedy]
+      ✓ Updated: [Comedy, Action]
+      ✓ Updated: [Romance, Adventure, Drama]
+  Batch 97/181
+    Aisa Pyaar Kahan (1986)
+      Current: [Drama]
+    Suhaagan (1986)
+      Current: [Drama]
+    Jayam Manade (1986)
+      Current: [Action]
+    Krishna Garadi (1986)
+      Current: [Action]
+    Brahma Rudrulu (1986)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Romance]
+      ✓ Updated: [Action, Thriller]
+  Batch 98/181
+    Ravana Brahma (1986)
+      Current: [Action]
+    Parasuramudu (1986)
+      Current: [Action]
+    Swathi Muthyam (1986)
+      Current: [Drama]
+    Sri Shirdi Saibaba Mahathyam (1986)
+      Current: [Drama]
+    Khaidi Rudraiah (1986)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Drama]
+  Batch 99/181
+    Kondaveeti Raja (1986)
+      Current: [Action]
+    Sakkanodu (1986)
+      Current: [Drama]
+    Krishna Paramathma (1986)
+      Current: [Action]
+    Aadi Dampatulu (1986)
+      Current: [Drama]
+    Naan Adimai Illai (1986)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 100/181
+    Ugra Narasimham (1986)
+      Current: [Action]
+    Driver Babu (1986)
+      Current: [Action]
+    Sravana Sandhya (1986)
+      Current: [Drama]
+    Samsaram O Sangeetham (1986)
+      Current: [Drama]
+    Chanakya Sapatham (1986)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Drama, Action]
+      ⚠ No genres from TMDB
+  Batch 101/181
+    Srimathi Oka Bahumathi (1986)
+      Current: [Drama]
+    Vikram (1986)
+      Current: [Action]
+    Aranyakanda (1986)
+      Current: [Action]
+    Dharm Adhikari (1986)
+      Current: [Action]
+    Brahmasthram (1986)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Action, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+  Batch 102/181
+    Naa Pilupe Prabahanajam (1986)
+      Current: [Action]
+    Karu Diddina Kapuram (1986)
+      Current: [Drama]
+    Nippulanti Manishi (1986)
+      Current: [Action]
+    Kaliyuga Krishnudu (1986)
+      Current: [Action]
+    Desoddarakudu (1986)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Documentary, Music]
+      ✓ Updated: [Drama]
+  Batch 103/181
+    Punyasthree (1986)
+      Current: [Drama]
+    Jailu Pakshi (1986)
+      Current: [Action]
+    Repati Pourulu (1986)
+      Current: [Drama]
+    Santhi Nivasam (1986)
+      Current: [Drama]
+    Nireekshana (1986)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Animation]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 104/181
+    Maa Pallelo Gopaludu (1985)
+      Current: [Drama]
+    Chattamtho Poratam (1985)
+      Current: [Drama]
+    Mahaguru (1985)
+      Current: [Action]
+    Dampatyam (1985)
+      Current: [Drama]
+    Aatmabalam (1985)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Action, Drama]
+  Batch 105/181
+    Vajrayudham (1985)
+      Current: [Action]
+    Maha Manishi (1985)
+      Current: [Drama]
+    Vandemataram (1985)
+      Current: [Drama]
+    Andharikante Monagadu (1985)
+      Current: [Action]
+    Siksha (1985)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Adventure, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+  Batch 106/181
+    Bangaru Chilaka (1985)
+      Current: [Drama]
+    Maha Sangramam (1985)
+      Current: [Action]
+    Ragile Gundelu (1985)
+      Current: [Action]
+    Atmabhalam (1985)
+      Current: [Drama]
+    Yuvataram Pilicindi (1985)
+      Current: [Drama]
+      ✓ Updated: [Animation, Comedy]
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Drama, Romance]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Drama]
+  Batch 107/181
+    Kattula Kondayya (1985)
+      Current: [Action]
+    Agni Parvatam (1985)
+      Current: [Action]
+    Lanchavatharam (1985)
+      Current: [Drama]
+    Bharyabhartala Bandham (1985)
+      Current: [Drama]
+    Vande Mataram (1985)
+      Current: [Drama]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+  Batch 108/181
+    Donga (1985)
+      Current: [Action]
+    Sanjog (1985)
+      Current: [Drama]
+    Kongu Mudi (1985)
+      Current: [Drama]
+    Surya Chandra (1985)
+      Current: [Drama]
+    Mayuri (1985)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Drama, Horror]
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 109/181
+    Dongala Vetagadu (1985)
+      Current: [Action]
+    Jwaala (1985)
+      Current: [Action]
+    Bhale Thammudu (1985)
+      Current: [Action]
+    Devalayam (1985)
+      Current: [Drama]
+    Buddies (1985)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 110/181
+    Kattula Kondaiah (1985)
+      Current: [Action]
+    Maharaju (1985)
+      Current: [Drama]
+    Bullet (1985)
+      Current: [Action]
+    Hoshiyar (1985)
+      Current: [Action]
+    Palnati Simham (1985)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [TV Movie, Drama]
+  Batch 111/181
+    Kotha Pelli Koothuru (1985)
+      Current: [Drama]
+    Tirugubatu (1985)
+      Current: [Action]
+    Disco King (1984)
+      Current: [Action]
+    Pulijoodam (1984)
+      Current: [Action]
+    Railu Dopidi (1984)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Family]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+  Batch 112/181
+    Dandayatra (1984)
+      Current: [Action]
+    Kotha Dampathulu (1984)
+      Current: [Drama]
+    Kurukshetramlo Sita (1984)
+      Current: [Drama]
+    Devalayam (1984)
+      Current: [Drama]
+    Insaaf Kaun Karega (1984)
+      Current: [Action]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 113/181
+    Mera Faisla (1984)
+      Current: [Action]
+    Awaaz (1984)
+      Current: [Action]
+    Rachayitri (1984)
+      Current: [Drama]
+    Rana (1984)
+      Current: [Action]
+    Nayakulaku Saval (1984)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Drama]
+  Batch 114/181
+    Naagu (1984)
+      Current: [Action]
+    Bhagyalakshmi (1984)
+      Current: [Drama]
+    Raga Bandham (1984)
+      Current: [Drama]
+    Rajahmundry Rome (1984)
+      Current: [Drama]
+    Gift (1984)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Mystery, Drama]
+  Batch 115/181
+    Sher (1984)
+      Current: [Action]
+    Kutumba Gowaravam (1984)
+      Current: [Drama]
+    Adarshavanthudu (1984)
+      Current: [Drama]
+    Seethamma Pelli (1984)
+      Current: [Drama]
+    Vasantha Geetam (1984)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⊘ No change needed
+      ✓ Updated: [Comedy, Science Fiction, Adventure]
+      ⚠ No genres from TMDB
+  Batch 116/181
+    Paapi Pet Ka Sawaal Hai (1984)
+      Current: [Action]
+    Naya Kadam (1984)
+      Current: [Drama]
+    Maqsad (1984)
+      Current: [Action]
+    Mahanagaramlo Mayagadu (1984)
+      Current: [Action]
+    Inquilaab (1984)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 117/181
+    Yuddham (1984)
+      Current: [Action]
+    Allullostunnaru (1984)
+      Current: [Drama]
+    Janani Janmabhoomi (1984)
+      Current: [Drama]
+    Swati (1984)
+      Current: [Drama]
+    Rustum (1984)
+      Current: [Action]
+      ✓ Updated: [Music]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Drama]
+      ✓ Updated: [War, Documentary]
+  Batch 118/181
+    Bava Maradallu (1984)
+      Current: [Drama]
+    Dharm Aur Qanoon (1984)
+      Current: [Action]
+    Jagan (1984)
+      Current: [Action]
+    Paris, Texas (1984)
+      Current: [Drama]
+    Goonda (1984)
+      Current: [Action]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 119/181
+    Merupu Daadi (1984)
+      Current: [Action]
+    Hero (1984)
+      Current: [Action]
+    Manasa Veena (1984)
+      Current: [Drama]
+    Mukhyamanthri (1984)
+      Current: [Action]
+    Raktha Sambandham (1984)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⊘ No change needed
+      ✓ Updated: [War, Documentary]
+      ✓ Updated: [Documentary]
+  Batch 120/181
+    Veerabhadrudu (1984)
+      Current: [Action]
+    Swathi (1984)
+      Current: [Drama]
+    Abhimanyudu (1984)
+      Current: [Drama]
+    Aadadhi Visirina Savaal (1984)
+      Current: [Drama]
+    Justice Chakravarthy (1984)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [War, Documentary]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Action]
+      ✓ Updated: [Documentary, War]
+  Batch 121/181
+    Kathanayakudu (1984)
+      Current: [Drama]
+    S. P. Bhayankar (1984)
+      Current: [Action]
+    Bangaru Kapuram (1984)
+      Current: [Drama]
+    Palnati Puli (1984)
+      Current: [Action]
+    Kirai Alludu (1984)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Family]
+      ✓ Updated: [Animation]
+      ⚠ No genres from TMDB
+  Batch 122/181
+    Uddhandudu (1984)
+      Current: [Action]
+    Tandava Krishnudu (1984)
+      Current: [Action]
+    Janam Manam (1984)
+      Current: [Drama]
+    Rowdy (1984)
+      Current: [Action]
+    Sangharshana (1983)
+      Current: [Action]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Mystery, Drama]
+  Batch 123/181
+    Sandhippu (1983)
+      Current: [Drama]
+    Moogavadi Paga (1983)
+      Current: [Drama]
+    Palletoori Monagadu (1983)
+      Current: [Drama]
+    Doctor Gari Kodalu (1983)
+      Current: [Drama]
+    Konte Kodallu (1983)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Action, Mystery, Drama]
+      ⊘ No change needed
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+  Batch 124/181
+    Chattaniki Sawal (1983)
+      Current: [Drama]
+    Triveni Sangamam (1983)
+      Current: [Drama]
+    Subha Muhurtham (1983)
+      Current: [Drama]
+    Kanne Donga (1983)
+      Current: [Action]
+    Chandashasanudu (1983)
+      Current: [Action]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Thriller, Mystery]
+  Batch 125/181
+    Dharma Poratam (1983)
+      Current: [Action]
+    Shakthi (1983)
+      Current: [Action]
+    Siripuram Monagadu (1983)
+      Current: [Action]
+    Prema Vijayam (1983)
+      Current: [Drama]
+    Rajakumar (1983)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Horror]
+      ⚠ No genres from TMDB
+  Batch 126/181
+    Ramarajyamlo Bheemaraju (1983)
+      Current: [Action]
+    Kirayi Rangadu (1983)
+      Current: [Action]
+    Bharya Bharthala Sawal (1983)
+      Current: [Drama]
+    Ikanaina Marandi (1983)
+      Current: [Action]
+    Bandhipotu Rudramma (1983)
+      Current: [Action]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Science Fiction]
+      ✓ Updated: [Crime, Drama, Thriller]
+      ⚠ No genres from TMDB
+  Batch 127/181
+    Roshagadu (1983)
+      Current: [Action]
+    Oorantha Sankranthi (1983)
+      Current: [Drama]
+    Kala Yamudu (1983)
+      Current: [Action]
+    Patnam Vachhina Pasipapa (Tamil Dubbed Azhakia Kanne 1982) (1983)
+      Current: [Drama]
+    Simhapuri Simham (1983)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Thriller]
+      ⚠ No genres from TMDB
+      ✓ Updated: [TV Movie, Adventure, Science Fiction]
+  Batch 128/181
+    Thodu Needa (1983)
+      Current: [Drama]
+    Qayamat (1983)
+      Current: [Action]
+    Balidaanam (1983)
+      Current: [Drama]
+    Bahudoorapu Batasari (1983)
+      Current: [Drama]
+    Vetagadi Vijayam (1983)
+      Current: [Action]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, War]
+      ✓ Updated: [Comedy, Family, Music]
+  Batch 129/181
+    Prema Pichollu (1983)
+      Current: [Drama]
+    Muddula Mogudu (1983)
+      Current: [Drama]
+    Keerthi Kantha Kanakam (1983)
+      Current: [Drama]
+    Nijam Chebithe Nerama (1983)
+      Current: [Drama]
+    Amarajeevi (1983)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Romance]
+      ✓ Updated: [Comedy, Romance, Drama]
+      ✓ Updated: [Drama, Thriller]
+  Batch 130/181
+    Sivudu Sivudu Sivudu (1983)
+      Current: [Action]
+    Amayakudu Kadhu Asadhyudu (1983)
+      Current: [Action]
+    Aalaya Sikharam (1983)
+      Current: [Drama]
+    Apadhbandhavulu (1983)
+      Current: [Drama]
+    Trisulam (1983)
+      Current: [Drama]
+      ✓ Updated: [Action, Mystery, Drama]
+      ✓ Updated: [Drama]
+      ✓ Updated: [Family, Drama]
+      ✓ Updated: [Romance, Family]
+      ⚠ No genres from TMDB
+  Batch 131/181
+    Jaani Dost (1983)
+      Current: [Action]
+    Eeswarudu Seneswarudu (1983)
+      Current: [Drama]
+    Police Venkataswamy (1983)
+      Current: [Action]
+    Rangula Kala (1983)
+      Current: [Drama]
+    Debbaku Debba (1983)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Family, Drama]
+      ✓ Updated: [Documentary]
+  Batch 132/181
+    Rudrakali (1983)
+      Current: [Action]
+    Chattaniki Veyi Kallu (1983)
+      Current: [Action]
+    Bezawada Bebbuli (1983)
+      Current: [Action]
+    Desanikokkadu (1983)
+      Current: [Action]
+    Moodu Mullu (1983)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+  Batch 133/181
+    Krishnavataram (1982)
+      Current: [Drama]
+    Pokkiri Raja (1982)
+      Current: [Action]
+    Bandhalu Anubandhalu (1982)
+      Current: [Drama]
+    Golkonda Abbulu (1982)
+      Current: [Action]
+    Raaga Deepam (1982)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Romance]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Comedy]
+  Batch 134/181
+    Ilanjodigal (1982)
+      Current: [Drama]
+    Yuvraju (1982)
+      Current: [Drama]
+    Gruha Pravesam (1982)
+      Current: [Drama]
+    Mondi Ghatam (1982)
+      Current: [Drama]
+    Doctor Cine Actor (1982)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action]
+      ⊘ No change needed
+  Batch 135/181
+    Billa Ranga (1982)
+      Current: [Action]
+    Jagannatha Radhachakralu (1982)
+      Current: [Action]
+    Ee Charithra Ye Siratho (1982)
+      Current: [Drama]
+    Kaliyuga Ramudu (1982)
+      Current: [Action]
+    Swayamvaram (1982)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Thriller]
+      ✓ Updated: [Music]
+      ✓ Updated: [Comedy]
+      ✓ Updated: [Drama]
+  Batch 136/181
+    Jaggu (1982)
+      Current: [Action]
+    Radha My Darling (1982)
+      Current: [Drama]
+    Thanikattu Raja (1982)
+      Current: [Action]
+    Illali Korikalu (1982)
+      Current: [Drama]
+    Dil-E-Nadaan (1982)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 137/181
+    Ekalavya (1982)
+      Current: [Action]
+    Justice Chowdary (1982)
+      Current: [Action]
+    Nivuru Gappina Nippu (1982)
+      Current: [Action]
+    Krishnarajunulu (1982)
+      Current: [Action]
+    Yuvaraju (1982)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 138/181
+    Krishnarjunulu (1982)
+      Current: [Drama]
+    Anuraga Devatha (1982)
+      Current: [Drama]
+    Manchu Pallaki (1982)
+      Current: [Drama]
+    Nayudu gari Abbai (1981)
+      Current: [Drama]
+    Daari Tappina Manishi (1981)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Western]
+      ⚠ No genres from TMDB
+  Batch 139/181
+    Antham Kaadidi Aarambham (1981)
+      Current: [Action]
+    Ooriki Ichina Maata (1981)
+      Current: [Drama]
+    Ragile Jwala (1981)
+      Current: [Action]
+    Ooruki Monagadu (1981)
+      Current: [Action]
+    Jeevitha Ratham (1981)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Mystery, Comedy]
+      ✓ Updated: [Comedy, TV Movie]
+  Batch 140/181
+    Thodu Dongalu (1981)
+      Current: [Action]
+    Taxi Driver (1981)
+      Current: [Action]
+    Chinnaari Chittibaau (1981)
+      Current: [Drama]
+    Babulugaadi Debba (1981)
+      Current: [Action]
+    Oorukichina Maata (1981)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 141/181
+    Jagamondi (1981)
+      Current: [Action]
+    Devudu Mamayya (1981)
+      Current: [Drama]
+    Bhogimanthulu (1981)
+      Current: [Drama]
+    47 Rojulu (1981)
+      Current: [Drama]
+    Erra Mallelu (1981)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Thriller, Family, Drama]
+  Batch 142/181
+    Rani Kasula Rangamma (1981)
+      Current: [Drama]
+    Mayadari Alludu (1981)
+      Current: [Action]
+    Kirayi Rowdylu (1981)
+      Current: [Action]
+    Viswaroopam (1981)
+      Current: [Action]
+    Patalam Pandu (1981)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary, Drama]
+      ✓ Updated: [Drama, TV Movie]
+      ✓ Updated: [Drama]
+      ✓ Updated: [Documentary, Music]
+  Batch 143/181
+    O Amma Katha (1981)
+      Current: [Drama]
+    Aakali Rajyam (1981)
+      Current: [Drama]
+    Alludugaru Zindabad (1981)
+      Current: [Drama]
+    Prema Natakam (1981)
+      Current: [Drama]
+    Aadavaallu Meeku Joharlu (1981)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 144/181
+    Srirasthu Subhamasthu (1981)
+      Current: [Drama]
+    Agni Poolu (1981)
+      Current: [Drama]
+    Aggi Ravva (1981)
+      Current: [Action]
+    Swapna (1981)
+      Current: [Drama]
+    Deiva Thirumanangal (1981)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Family]
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+  Batch 145/181
+    Saptapadi (1981)
+      Current: [Drama]
+    Oorukichchina Maata (1981)
+      Current: [Drama]
+    Maha Purushudu (1981)
+      Current: [Drama]
+    Prema Kanuka (1981)
+      Current: [Drama]
+    Addala Meda (1981)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 146/181
+    Nyayam Kavali (1981)
+      Current: [Drama]
+    Bhoga Bagyalu (1981)
+      Current: [Drama]
+    Meendum Kokila (1981)
+      Current: [Drama]
+    Prema Mandiram (1981)
+      Current: [Drama]
+    Illalu (1981)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, Romance]
+      ✓ Updated: [Comedy, Family]
+  Batch 147/181
+    Gharana Gangulu (1981)
+      Current: [Action]
+    Puli Bidda (1981)
+      Current: [Action]
+    Asha Jyoti (1981)
+      Current: [Drama]
+    Prema Simhasanam (1981)
+      Current: [Drama]
+    Tyagayya (1981)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Action, Crime]
+      ✓ Updated: [Drama]
+      ✓ Updated: [Comedy, Romance]
+  Batch 148/181
+    Aadadi Gadapa Daatite (1980)
+      Current: [Drama]
+    Jathara (1980)
+      Current: [Drama]
+    Rowdy Ramudu Konte Krishnudu (1980)
+      Current: [Action]
+    Sarada Ramudu (1980)
+      Current: [Drama]
+    Nakili Manishi (1980)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+      ⚠ No genres from TMDB
+  Batch 149/181
+    Nayakudu Vinayakudu (1980)
+      Current: [Drama]
+    Raging Bull (1980)
+      Current: [Drama]
+    Mahalakshmi (1980)
+      Current: [Drama]
+    Kaksha (1980)
+      Current: [Action]
+    Adhrustavanthudu (1980)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama, TV Movie]
+      ⊘ No change needed
+      ✓ Updated: [Action, Crime, Thriller]
+      ✓ Updated: [Mystery, Horror, Thriller]
+  Batch 150/181
+    Chuttalunnaru Jagratha (1980)
+      Current: [Drama]
+    Maa Inti Devatha (1980)
+      Current: [Drama]
+    Hare Krishna Hallo Radha (1980)
+      Current: [Drama]
+    Varumayin Niram Sivappu (1980)
+      Current: [Drama]
+    Sannayi Appanna (1980)
+      Current: [Drama]
+      ⊘ No change needed
+      ✓ Updated: [Mystery, Drama, Crime]
+      ✓ Updated: [Drama, Family]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 151/181
+    Ramudu Parasuramudu (1980)
+      Current: [Drama]
+    Prema Tarangalu (1980)
+      Current: [Drama]
+    Alludu Pattina Bharatam (1980)
+      Current: [Drama]
+    Gandhara Golam (1980)
+      Current: [Drama]
+    Mosagadu (1980)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Thriller, Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 152/181
+    Kiladi Krishnudu (1980)
+      Current: [Action]
+    Kaali (1980)
+      Current: [Action]
+    Guru (1980)
+      Current: [Action]
+    Bandodu Gundamma (1980)
+      Current: [Drama]
+    Ragile Hrudayalu (1980)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Thriller, Mystery, TV Movie]
+      ✓ Updated: [Documentary]
+  Batch 153/181
+    Tholi Kodi Koosindi (1980)
+      Current: [Drama]
+    Yuvatharam Kadilindi (1980)
+      Current: [Drama]
+    Alayam (1980)
+      Current: [Drama]
+    Allari Bava (1980)
+      Current: [Drama]
+    Kotha Jeevithalu (1980)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Family]
+  Batch 154/181
+    Sirimalle Navvindi (1980)
+      Current: [Drama]
+    Ammayi Mogudu Mamaku Yamudu (1980)
+      Current: [Drama]
+    Buchi Babu (1980)
+      Current: [Drama]
+    Nijam (1980)
+      Current: [Drama]
+    Circus Ramudu (1980)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+      ✓ Updated: [Music]
+  Batch 155/181
+    Chesina Baasalu (1980)
+      Current: [Drama]
+    Love In Singapore (1980)
+      Current: [Action]
+    Agni Samskaram (1980)
+      Current: [Drama]
+    Gayyali Gangamma (1980)
+      Current: [Drama]
+    Chandipriya (1980)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Romance, Drama]
+      ✓ Updated: [Drama, Romance, Action]
+      ✓ Updated: [Documentary]
+  Batch 156/181
+    Manavude Mahaneeyudu (1980)
+      Current: [Drama]
+    Maa Bhoomi (1980)
+      Current: [Drama]
+    Vamsa Vruksham (1980)
+      Current: [Drama]
+    Bebbuli (1980)
+      Current: [Drama]
+    Aatagadu (1980)
+      Current: [Action]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 157/181
+    Bangaru Bava (1980)
+      Current: [Drama]
+    Kaliyuga Ravanasurudu (1980)
+      Current: [Action]
+    Prema Pichchi (1980)
+      Current: [Drama]
+    Takkar (1980)
+      Current: [Action]
+    Challenge Ramudu (1980)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ✓ Updated: [Comedy, Family, Music]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ✓ Updated: [Drama]
+  Batch 158/181
+    Aarani Mantalu (1980)
+      Current: [Action]
+    Rakta Bandham (1980)
+      Current: [Action]
+    Dharma Chakram (1980)
+      Current: [Drama]
+    Idi Katha Kaadu (1979)
+      Current: [Drama]
+    Neela Malargal (1979)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ✓ Updated: [Documentary]
+  Batch 159/181
+    Ashwadhamavu (1979)
+      Current: [Drama]
+    Tiger (1979)
+      Current: [Action]
+    Kukka Katuku Cheppu Debba (1979)
+      Current: [Drama]
+    Sri Rama Bantu (1979)
+      Current: [Action]
+    Amma Evarikaina Amma (1979)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 160/181
+    Sigappukkal Mookkuthi (1979)
+      Current: [Drama]
+    Punadhirallu (1979)
+      Current: [Drama]
+    Kotta Alludu (1979)
+      Current: [Drama]
+    Pagalil Oru Iravu (1979)
+      Current: [Drama]
+    Solva Sawan (1979)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 161/181
+    Jesus (1979)
+      Current: [Drama]
+    Pattaakathi Bairavan (1979)
+      Current: [Drama]
+    Amar Deep (1979)
+      Current: [Drama]
+    Toorpu Velle Railu (1979)
+      Current: [Drama]
+    Taxi Driver (1978)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Mystery, Crime, Drama]
+  Batch 162/181
+    Chal Mohana Ranga (1978)
+      Current: [Drama]
+    Mana Voori Pandavulu (1978)
+      Current: [Drama]
+    டாக்ஸி டிரைவர் (1978)
+      Current: [Drama]
+    Manitharil Ithanai Nirangalah! (1978)
+      Current: [Drama]
+    Chiranjeevi Rambabu (1978)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy]
+      ⚠ No genres from TMDB
+  Batch 163/181
+    Pranam Khareedu (1978)
+      Current: [Drama]
+    Pilot Premnath (1978)
+      Current: [Drama]
+    Sri Rama Raksha (1978)
+      Current: [Drama]
+    Vanakkathukuriya Kathaliye (1978)
+      Current: [Drama]
+    Kaliyuga Sthree (1978)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Romance, Comedy]
+      ⊘ No change needed
+  Batch 164/181
+    Bhadrakali (1977)
+      Current: [Drama]
+    Ghatashraddha (1977)
+      Current: [Drama]
+    A Hamlet's Tale (1977)
+      Current: [Drama]
+    Amaradeepam (1977)
+      Current: [Drama]
+    The Chess Players (1977)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 165/181
+    Kavikkuyil (1977)
+      Current: [Drama]
+    Aasheervaadam (1977)
+      Current: [Drama]
+    Angeekaaram (1977)
+      Current: [Drama]
+    Oonjaal (1977)
+      Current: [Drama]
+    Aadhya Paadam (1977)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 166/181
+    Unnai Suttrum Ulagam (1977)
+      Current: [Drama]
+    Nirakudam (1977)
+      Current: [Drama]
+    Sita Swayamvar (1976)
+      Current: [Drama]
+    Kuttavum Shikshayum (1976)
+      Current: [Drama]
+    Seetha Kalyanam (1976)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+  Batch 167/181
+    Seeta Kalyanam (1976)
+      Current: [Drama]
+    Sholay (1975)
+      Current: [Action]
+    One Flew Over the Cuckoo's Nest (1975)
+      Current: [Drama]
+    Alluri Seetarama Raju (1974)
+      Current: [Action]
+    Bharatha Vilas (1973)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 168/181
+    Bala Mitrula Katha (1973)
+      Current: [Drama]
+    Rajapart Rangadurai (1973)
+      Current: [Drama]
+    Sharada (1973)
+      Current: [Drama]
+    Chuzhi (1973)
+      Current: [Drama]
+    Vasantha Maligai (1972)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 169/181
+    Kanimuthu Paappa (1972)
+      Current: [Drama]
+    Bala Mitrula Katha (1972)
+      Current: [Drama]
+    Bangarada Manushya (1972)
+      Current: [Drama]
+    Agathiyar (1972)
+      Current: [Drama]
+    Sange Muzhangu (1972)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 170/181
+    Iddaru Ammayilu (1972)
+      Current: [Drama]
+    Poombatta (1971)
+      Current: [Drama]
+    Poompatta (1971)
+      Current: [Drama]
+    Babu (1971)
+      Current: [Drama]
+    Anand (1971)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 171/181
+    Kathiki Kankanam (1971)
+      Current: [Action]
+    Iddaru Ammayilu (1971)
+      Current: [Drama]
+    Maa Manchi Akkayya (1970)
+      Current: [Drama]
+    Penn Daivam (1970)
+      Current: [Drama]
+    Samskara (1970)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 172/181
+    En Annan (1970)
+      Current: [Drama]
+    Agni Pareeksha (1970)
+      Current: [Drama]
+    Swapnangal (1970)
+      Current: [Drama]
+    Aathmeeyulu (1969)
+      Current: [Drama]
+    Kulavilakku (1969)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 173/181
+    Nam Nadu (1969)
+      Current: [Drama]
+    Nam Naadu (1969)
+      Current: [Drama]
+    Ramu (1968)
+      Current: [Drama]
+    Varakatnam (1968)
+      Current: [Drama]
+    Lakshmi Nivasam (1968)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 174/181
+    Sri Krishna Tulabharam (1966)
+      Current: [Drama]
+    Naadi Aada Janme (1965)
+      Current: [Drama]
+    Bangaru Panjaram (1965)
+      Current: [Drama]
+    Mooga Manasulu (1964)
+      Current: [Drama]
+    Bangaru Thimmaraju (1964)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Drama]
+      ⚠ No genres from TMDB
+  Batch 175/181
+    Ganga Ki Lahren (1964)
+      Current: [Drama]
+    Doctor Chakravarthy (1964)
+      Current: [Drama]
+    Mooga Manasulu (1963)
+      Current: [Drama]
+    Karpagam (1963)
+      Current: [Drama]
+    The Miracle Worker (1962)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 176/181
+    Rakta Sambandham (1962)
+      Current: [Drama]
+    To Kill a Mockingbird (1962)
+      Current: [Drama]
+    Bharya Bharthalu (1961)
+      Current: [Drama]
+    Kalasi Unte Kaladu Sukham (1961)
+      Current: [Drama]
+    Pasamalar (1961)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 177/181
+    Manithan Maravillai (1961)
+      Current: [Drama]
+    Pava Mannippu (1961)
+      Current: [Drama]
+    Veerapandiya Kattabomman (1959)
+      Current: [Drama]
+    Kalyana Parisu (1959)
+      Current: [Drama]
+    Manjal Mahimai (1959)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+  Batch 178/181
+    Appu Chesi Pappu Koodu (1959)
+      Current: [Drama]
+    Aada Pettanam (1958)
+      Current: [Drama]
+    Annaiyin Aanai (1958)
+      Current: [Drama]
+    12 Angry Men (1957)
+      Current: [Drama]
+    Bhagyarekha (1957)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+  Batch 179/181
+    Mother India (1957)
+      Current: [Drama]
+    Pennin Perumai (1956)
+      Current: [Drama]
+    Matharkula Manikkam (1956)
+      Current: [Drama]
+    Sri Kaalahasthi Mahatyam (1954)
+      Current: [Drama]
+    Poongothai (1953)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 180/181
+    Bratuku Theruvu (1953)
+      Current: [Drama]
+    Aada bratuku (1952 film) (1952)
+      Current: [Drama]
+    Kalyanam Panni Paar (1952)
+      Current: [Drama]
+    Ace in the Hole (1951)
+      Current: [Drama]
+    Or Iravu (1951)
+      Current: [Drama]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Comedy, Romance]
+  Batch 181/181
+    All About Eve (1950)
+      Current: [Drama]
+      ⊘ No change needed
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║                   ENRICHMENT COMPLETE                                 ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Recent Movies (2020+):
+    ✓ Enriched:           1
+    ⊘ No change:          69
+    ✗ Failed:             6
+
+  Bulk Enrichment:
+    ✓ Enriched:           255
+    ⊘ No change:          362
+    ✗ Failed:             284
+
+  TOTAL:
+    ✓ Enriched:           256
+    ⊘ No change:          431
+    ✗ Failed:             290
+
+  Success Rate:         26.2%
+
+  ✅ TMDB enrichment complete!
+
+  Run audit again to verify:
+  npx tsx scripts/audit-genre-quality-complete.ts
+
+

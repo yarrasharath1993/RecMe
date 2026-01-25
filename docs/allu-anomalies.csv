@@ -1,0 +1,64 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Julai",2012,-,"-","-",83%,"Duplicate of ""Julayi"" (2012) - 83% similar",flag_review
+duplicate,"S/O Satyamurthy",2015,-,"-","-",81%,"Duplicate of ""Son of Satyamurthy"" (2015) - 81% similar",flag_review
+duplicate,"Duvvada Jagannadham",2017,-,"-","-",90%,"Duplicate of ""DJ: Duvvada Jagannadham"" (2017) - 90% similar",flag_review
+duplicate,"Naa Peru Surya",2018,-,"-","-",90%,"Duplicate of ""Naa Peru Surya - Naa Illu India"" (2018) - 90% similar",flag_review
+pre_debut,"Bangaru Chellelu",1979,-,"-","-",85%,"Released 24 years before Allu's debut (2003)",flag_review
+pre_debut,"Sirimalle Navvindi",1980,-,"-","-",85%,"Released 23 years before Allu's debut (2003)",flag_review
+pre_debut,"Superman",1980,-,"-","-",85%,"Released 23 years before Allu's debut (2003)",flag_review
+pre_debut,"Agni Poolu",1981,-,"-","-",85%,"Released 22 years before Allu's debut (2003)",flag_review
+pre_debut,"Ragile Jwala",1981,-,"-","-",85%,"Released 22 years before Allu's debut (2003)",flag_review
+pre_debut,"Nipputo Chelagaatam",1982,-,"-","-",85%,"Released 21 years before Allu's debut (2003)",flag_review
+pre_debut,"Bobbili Brahmanna",1984,-,"-","-",85%,"Released 19 years before Allu's debut (2003)",flag_review
+pre_debut,"Mutha Mestri",1993,-,"-","-",85%,"Released 10 years before Allu's debut (2003)",flag_review
+pre_debut,"Bhale Bullodu",1995,-,"-","-",85%,"Released 8 years before Allu's debut (2003)",flag_review
+pre_debut,"AA22xA6",,-,"-","-",85%,"Released 2003 years before Allu's debut (2003)",flag_review
+pre_debut,"Pushpa 3 - The Rampage",,-,"-","-",85%,"Released 2003 years before Allu's debut (2003)",flag_review
+conflicting_data,"Yuddha Bhoomi (1971 Beyond Borders)",2017,tmdb_id,"428741","-",80%,"TMDB movie is ml, not Telugu",flag_review
+conflicting_data,"Happy",2006,tmdb_id,"563954","-",80%,"TMDB movie is ja, not Telugu",flag_review
+missing_field,"Buddy",2024,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Buddy",2024,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sarrainodu",2016,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Happy",2006,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Happy",2006,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhale Bullodu",1995,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bhale Bullodu",1995,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhale Bullodu",1995,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bhale Bullodu",1995,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bhale Bullodu",1995,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Mutha Mestri",1993,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Mutha Mestri",1993,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Mutha Mestri",1993,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Mutha Mestri",1993,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bobbili Brahmanna",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bobbili Brahmanna",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bobbili Brahmanna",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bobbili Brahmanna",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Nipputo Chelagaatam",1982,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Nipputo Chelagaatam",1982,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Nipputo Chelagaatam",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Nipputo Chelagaatam",1982,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Nipputo Chelagaatam",1982,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Ragile Jwala",1981,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ragile Jwala",1981,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ragile Jwala",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ragile Jwala",1981,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ragile Jwala",1981,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Agni Poolu",1981,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Agni Poolu",1981,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Agni Poolu",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Agni Poolu",1981,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Agni Poolu",1981,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Superman",1980,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Superman",1980,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Superman",1980,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Superman",1980,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sirimalle Navvindi",1980,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Sirimalle Navvindi",1980,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sirimalle Navvindi",1980,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Sirimalle Navvindi",1980,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sirimalle Navvindi",1980,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bangaru Chellelu",1979,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bangaru Chellelu",1979,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bangaru Chellelu",1979,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bangaru Chellelu",1979,producer,"-","-",60%,"Missing producer",report_only

@@ -249,6 +249,3 @@ export function CarouselCard({
     </a>
   );
 }
-
-
-

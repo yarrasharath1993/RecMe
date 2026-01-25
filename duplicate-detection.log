@@ -1,0 +1,48 @@
+
+═══════════════════════════════════════════════════════════════
+  DUPLICATE CELEBRITY DETECTION
+═══════════════════════════════════════════════════════════════
+
+✓ Loaded 508 celebrities
+
+🔍 Detecting duplicates...
+
+Checking exact name matches...
+Checking external ID matches...
+Checking slug matches...
+Checking similar names (fuzzy matching)...
+Checking name variations...
+Checking birth date + occupation matches...
+
+═══════════════════════════════════════════════════════════════
+  RESULTS
+═══════════════════════════════════════════════════════════════
+
+Total Duplicate Groups Found: 888
+
+By Confidence:
+  ⚠️  High Confidence:   2
+  ⚠️  Medium Confidence: 886
+  ⚠️  Low Confidence:    0
+
+By Type:
+  Exact Name:         0
+  Similar Name:       7
+  Name Variation:     881
+  External ID Match:  0
+  Slug Match:         0
+
+✓ Created: DUPLICATE-CELEBRITIES-ALL-2026-01-18.csv
+✓ Created: DUPLICATE-CELEBRITIES-HIGH-PRIORITY-2026-01-18.csv (2 groups)
+✓ Created: DUPLICATE-DETECTION-REPORT-2026-01-18.md
+
+═══════════════════════════════════════════════════════════════
+  DETECTION COMPLETE
+═══════════════════════════════════════════════════════════════
+
+⚠️  2 HIGH PRIORITY duplicates found!
+   Review DUPLICATE-CELEBRITIES-HIGH-PRIORITY-2026-01-18.csv
+
+⚠️  886 MEDIUM priority duplicates found
+   Review when possible
+

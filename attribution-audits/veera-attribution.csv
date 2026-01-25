@@ -1,0 +1,6 @@
+"Status","Wikipedia Title","Wikipedia Year","Role","Cast Type","DB Movie ID","DB Title","DB Year","Current Attribution","Match %","Suggested Field","Action"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Pachaikili Muthucharam","2007","Actor","","5cdec616-5775-4b4a-9749-dcda84e4d878","Indian Beauty","2006","Not attributed","90","cast","Add Veera as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Vaaranam Aayiram","2008","Actor","","0cb93108-c7b4-4899-9b18-a5a5e518baa1","Vaaranam Aayiram","2008","Not attributed","100","cast","Add Veera as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Nadunisi Naaygal","2011","Nominated, Vijay Award for Best Debut Actor","","c218798b-a4ca-42dc-b7c6-a6a407ab9524","The Desire","2010","Not attributed","90","cast","Add Veera as Nominated, Vijay Award for Best Debut Actor"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Rajathanthiram","2015","Actor","","48cd41ce-bdab-4e2e-b69c-908da6dbc187","Entertainment","2014","Not attributed","90","cast","Add Veera as Cast Member"
+"✓ ATTRIBUTED","Thunivu","2023","Actor","","b8f2602f-c097-4808-805d-ac90e2a14255","Thunivu","2023","Not attributed","100","","None"

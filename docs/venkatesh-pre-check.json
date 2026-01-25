@@ -1,0 +1,30 @@
+{
+  "actor": "Venkatesh",
+  "standardName": "Venkatesh",
+  "dbCount": 76,
+  "tmdbCount": 0,
+  "wikiCount": null,
+  "expectedCount": 0,
+  "discrepancy": 76,
+  "nameVariationsFound": [
+    {
+      "original": "Daggubati Venkatesh",
+      "count": 41
+    },
+    {
+      "original": "Venkat",
+      "count": 1
+    }
+  ],
+  "spellingDuplicatesFound": 0,
+  "hasMultipleTmdbIds": false,
+  "tmdbIds": [
+    78742
+  ],
+  "issues": [
+    "Found 2 name variations that need standardization"
+  ],
+  "recommendations": [
+    "Run with --execute to standardize hero names"
+  ]
+}

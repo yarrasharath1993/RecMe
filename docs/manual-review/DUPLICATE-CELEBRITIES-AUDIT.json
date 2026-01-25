@@ -1,0 +1,478 @@
+{
+  "generated_at": "2026-01-13T19:08:58.889Z",
+  "total_profiles": 515,
+  "total_duplicate_groups": 15,
+  "total_profiles_affected": 29,
+  "by_severity": {
+    "high": 1,
+    "medium": 4,
+    "low": 10
+  },
+  "duplicate_groups": [
+    {
+      "reason": "Similar names (100% match)",
+      "severity": "high",
+      "recommendation": "LIKELY DUPLICATE - Review and merge if same person",
+      "celebrities": [
+        {
+          "id": "416db06b-7f62-4e09-af2d-32a85a4ff295",
+          "name": "Akkineni Nagarjuna",
+          "slug": "celeb-akkineni-nagarjuna",
+          "tmdb_id": 149958,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": false,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-akkineni-nagarjuna"
+        },
+        {
+          "id": "7ea66985-c6f8-4f52-a51b-1dc9fd3f184d",
+          "name": "Akkineni Nagarjuna",
+          "slug": "akkineni-nagarjuna",
+          "tmdb_id": 34981,
+          "imdb_id": "nm0006916",
+          "wikidata_id": "Q2628952",
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=akkineni-nagarjuna"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (88% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "52cc1c29-8098-4faa-bccc-a55f48e63f26",
+          "name": "B. V. Prasad",
+          "slug": "celeb-b-v-prasad",
+          "tmdb_id": 1611649,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 52,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-b-v-prasad"
+        },
+        {
+          "id": "59b0a93f-6023-413e-8bcf-7833968f5fc2",
+          "name": "L. V. Prasad",
+          "slug": "celeb-l-v-prasad",
+          "tmdb_id": 1435193,
+          "imdb_id": "nm3804736",
+          "wikidata_id": null,
+          "confidence_score": 52,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-l-v-prasad"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (89% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "10b081ba-0472-4394-95ab-ba10e5078e23",
+          "name": "C. Pullaiah",
+          "slug": "celeb-c-pullaiah",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 50,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-c-pullaiah"
+        },
+        {
+          "id": "4ecaf338-5530-4de5-9b69-d55312d9dfd3",
+          "name": "P. Pullaiah",
+          "slug": "celeb-p-pullaiah",
+          "tmdb_id": 1082128,
+          "imdb_id": "nm0700386",
+          "wikidata_id": null,
+          "confidence_score": 56,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-p-pullaiah"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (92% match)",
+      "severity": "medium",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "0cc96e22-e034-4e72-a870-7aabcf7ab2dc",
+          "name": "K. Murali Mohan",
+          "slug": "celeb-k-murali-mohan",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-k-murali-mohan"
+        },
+        {
+          "id": "dc37413d-8468-402f-a6c9-5ceec8b7e53c",
+          "name": "Murali Mohan",
+          "slug": "celeb-murali-mohan",
+          "tmdb_id": 584682,
+          "imdb_id": "nm0613514",
+          "wikidata_id": null,
+          "confidence_score": 76,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-murali-mohan"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (88% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "9be067b1-ac2f-4377-9d54-8b2567135b77",
+          "name": "Krishna",
+          "slug": "celeb-krishna",
+          "tmdb_id": 1470750,
+          "imdb_id": "nm0315553",
+          "wikidata_id": null,
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-krishna"
+        },
+        {
+          "id": "c0ce9092-ebcf-4411-ad37-9c5ff098ff0b",
+          "name": "T. Krishna",
+          "slug": "celeb-t-krishna",
+          "tmdb_id": 1337712,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-t-krishna"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (89% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "59b0a93f-6023-413e-8bcf-7833968f5fc2",
+          "name": "L. V. Prasad",
+          "slug": "celeb-l-v-prasad",
+          "tmdb_id": 1435193,
+          "imdb_id": "nm3804736",
+          "wikidata_id": null,
+          "confidence_score": 52,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-l-v-prasad"
+        },
+        {
+          "id": "0c369660-3998-445d-92e2-f991a3d4dab2",
+          "name": "T. L. V. Prasad",
+          "slug": "celeb-t-l-v-prasad",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-t-l-v-prasad"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (90% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "57d3b2ab-8d83-45cf-87e4-317d45e5e9aa",
+          "name": "Maheshwari",
+          "slug": null,
+          "tmdb_id": 1544632,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=null"
+        },
+        {
+          "id": "610da989-c3e0-4e77-82c8-8e62d099cb36",
+          "name": "Maheswari",
+          "slug": "celeb-maheswari",
+          "tmdb_id": 2135829,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 51,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-maheswari"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (94% match)",
+      "severity": "medium",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "17722446-ba4a-4f87-b2f2-76ff0b188376",
+          "name": "Muppalaneni Shiva",
+          "slug": "celeb-muppalaneni-shiva",
+          "tmdb_id": 1060283,
+          "imdb_id": "nm3760050",
+          "wikidata_id": null,
+          "confidence_score": 51,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-muppalaneni-shiva"
+        },
+        {
+          "id": "78daadab-4ec6-4893-b9bf-e5e656e4e7db",
+          "name": "Muppalaneni Siva",
+          "slug": "celeb-muppalaneni-siva",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-muppalaneni-siva"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (88% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "8e4bba66-f483-4ccd-8a09-0a5ea7bffc8a",
+          "name": "P. N. Ramachandra Rao",
+          "slug": "celeb-p-n-ramachandra-rao",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-p-n-ramachandra-rao"
+        },
+        {
+          "id": "cadde48f-2522-448d-9a76-14af321f247d",
+          "name": "V. Ramachandra Rao",
+          "slug": "celeb-v-ramachandra-rao",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-v-ramachandra-rao"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (88% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "da2f3282-9f32-45d5-a5d4-06cf7b990f44",
+          "name": "Raadhika",
+          "slug": "celeb-raadhika",
+          "tmdb_id": 562177,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-raadhika"
+        },
+        {
+          "id": "97738695-f491-44cd-a54e-112a8d59eea7",
+          "name": "Radhika",
+          "slug": "celeb-radhika",
+          "tmdb_id": 1200008,
+          "imdb_id": "nm2390400",
+          "wikidata_id": null,
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-radhika"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (92% match)",
+      "severity": "medium",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "e756e016-7d19-4e93-8be8-7a036babec14",
+          "name": "Ramakrishna",
+          "slug": "celeb-ramakrishna",
+          "tmdb_id": 579808,
+          "imdb_id": "nm5984985",
+          "wikidata_id": null,
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-ramakrishna"
+        },
+        {
+          "id": "ed0400fb-23c3-4fc8-b945-afb6c51d8f03",
+          "name": "Ramya Krishna",
+          "slug": "celeb-ramya-krishna",
+          "tmdb_id": 141701,
+          "imdb_id": "nm0471447",
+          "wikidata_id": null,
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-ramya-krishna"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (89% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "10726a73-8d97-41f1-8dbf-f3b5df94aeac",
+          "name": "Sai Kumar",
+          "slug": "celeb-sai-kumar",
+          "tmdb_id": 146148,
+          "imdb_id": "nm0474871",
+          "wikidata_id": null,
+          "confidence_score": 54,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-sai-kumar"
+        },
+        {
+          "id": "f58162ed-bf83-451c-bdea-9dde625e3dc0",
+          "name": "Sasikumar",
+          "slug": null,
+          "tmdb_id": 238003,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=null"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (88% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "cf672a20-e06e-4a26-af72-f1b646f0f750",
+          "name": "Samudra",
+          "slug": null,
+          "tmdb_id": 2458428,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 54,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=null"
+        },
+        {
+          "id": "adff6ef2-3ed7-498b-b2b9-ee54e28d0b0b",
+          "name": "V. Samudra",
+          "slug": "celeb-v-samudra",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-v-samudra"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (86% match)",
+      "severity": "low",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "a5cff200-ecc6-4355-b6d0-65d76117008c",
+          "name": "Sarath",
+          "slug": "celeb-sarath",
+          "tmdb_id": 3155074,
+          "imdb_id": "nm7977184",
+          "wikidata_id": null,
+          "confidence_score": 90,
+          "is_published": true,
+          "has_bio": true,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-sarath"
+        },
+        {
+          "id": "0784f93a-d6d8-46ee-9d7b-cee56b9223f2",
+          "name": "Sharath",
+          "slug": null,
+          "tmdb_id": 1477614,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 0.5,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=null"
+        }
+      ]
+    },
+    {
+      "reason": "Similar names (94% match)",
+      "severity": "medium",
+      "recommendation": "POSSIBLE DUPLICATE - Manual review recommended",
+      "celebrities": [
+        {
+          "id": "abe649f2-c137-40ec-97af-a0d454ffd658",
+          "name": "V Madhusudhana Rao",
+          "slug": "celeb-v-madhusudhana-rao",
+          "tmdb_id": null,
+          "imdb_id": null,
+          "wikidata_id": null,
+          "confidence_score": 50,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-v-madhusudhana-rao"
+        },
+        {
+          "id": "87203689-6c93-4af5-bab6-e8dce7fa105b",
+          "name": "V. Madhusudhan Rao",
+          "slug": "celeb-v-madhusudhan-rao",
+          "tmdb_id": 1109584,
+          "imdb_id": "nm0710615",
+          "wikidata_id": null,
+          "confidence_score": 56,
+          "is_published": true,
+          "has_bio": false,
+          "profile_url": "http://localhost:3000/movies?profile=celeb-v-madhusudhan-rao"
+        }
+      ]
+    }
+  ]
+}

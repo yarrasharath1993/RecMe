@@ -1,0 +1,109 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         CAST & CREW + TAGS ENRICHMENT                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading all movies from database...
+    Loaded 1000 movies...
+    Loaded 2000 movies...
+    Loaded 3000 movies...
+    Loaded 4000 movies...
+    Loaded 5000 movies...
+    Loaded 5610 movies...
+  ✅ Loaded 5610 movies total
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 1: CAST & CREW FROM TMDB                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🎬 2600 movies need cast/crew data
+     (4326 have TMDB IDs)
+
+  Progress: 5/2600 (0 fields enriched)
+  Progress: 55/2600 (0 fields enriched)
+  Progress: 105/2600 (0 fields enriched)
+  Progress: 155/2600 (3 fields enriched)
+  Progress: 205/2600 (3 fields enriched)
+  Progress: 255/2600 (3 fields enriched)
+  Progress: 305/2600 (3 fields enriched)
+  Progress: 355/2600 (3 fields enriched)
+  Progress: 405/2600 (3 fields enriched)
+  Progress: 455/2600 (3 fields enriched)
+  Progress: 505/2600 (5 fields enriched)
+  Progress: 555/2600 (51 fields enriched)
+  Progress: 605/2600 (54 fields enriched)
+  Progress: 655/2600 (54 fields enriched)
+  Progress: 705/2600 (54 fields enriched)
+  Progress: 755/2600 (54 fields enriched)
+  Progress: 805/2600 (54 fields enriched)
+  Progress: 855/2600 (54 fields enriched)
+  Progress: 905/2600 (54 fields enriched)
+  Progress: 955/2600 (54 fields enriched)
+  Progress: 1005/2600 (54 fields enriched)
+  Progress: 1055/2600 (54 fields enriched)
+  Progress: 1105/2600 (54 fields enriched)
+  Progress: 1155/2600 (54 fields enriched)
+  Progress: 1205/2600 (54 fields enriched)
+  Progress: 1255/2600 (54 fields enriched)
+  Progress: 1305/2600 (54 fields enriched)
+  Progress: 1355/2600 (54 fields enriched)
+  Progress: 1405/2600 (54 fields enriched)
+  Progress: 1455/2600 (54 fields enriched)
+  Progress: 1505/2600 (54 fields enriched)
+  Progress: 1555/2600 (54 fields enriched)
+  Progress: 1605/2600 (54 fields enriched)
+  Progress: 1655/2600 (54 fields enriched)
+  Progress: 1705/2600 (54 fields enriched)
+  Progress: 1755/2600 (54 fields enriched)
+  Progress: 1805/2600 (54 fields enriched)
+  Progress: 1855/2600 (54 fields enriched)
+  Progress: 1905/2600 (54 fields enriched)
+  Progress: 1955/2600 (54 fields enriched)
+  Progress: 2005/2600 (54 fields enriched)
+  Progress: 2055/2600 (54 fields enriched)
+  Progress: 2105/2600 (54 fields enriched)
+  Progress: 2155/2600 (54 fields enriched)
+  Progress: 2205/2600 (54 fields enriched)
+  Progress: 2255/2600 (54 fields enriched)
+  Progress: 2305/2600 (54 fields enriched)
+  Progress: 2355/2600 (54 fields enriched)
+  Progress: 2405/2600 (54 fields enriched)
+  Progress: 2455/2600 (54 fields enriched)
+  Progress: 2505/2600 (54 fields enriched)
+  Progress: 2555/2600 (54 fields enriched)
+  Progress: 2600/2600 (54 fields enriched)
+
+  ✅ Cast & Crew enriched: 54 fields
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 2: IMPROVED AUTO-TAGGING                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🏷️  5610 movies to check for tags
+
+  Progress: 100/5610 (0 tags applied)
+  Progress: 1100/5610 (8 tags applied)
+  Progress: 2100/5610 (8 tags applied)
+  Progress: 3100/5610 (8 tags applied)
+  Progress: 4100/5610 (8 tags applied)
+  Progress: 5100/5610 (8 tags applied)
+  Progress: 5610/5610 (8 tags applied)
+
+  ✅ Tags applied: 8
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 5610
+  Duration: 15.3 minutes
+
+  ✅ Cast & Crew fields enriched: 54
+  ✅ Tags applied: 8
+
+  Total enrichments: 62
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

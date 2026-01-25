@@ -1,0 +1,71 @@
+[
+  {
+    "timestamp": "2026-01-12T21:44:38.074Z",
+    "keepId": "1250a707-9ca0-4b53-91e8-dc7dba4644f3",
+    "deleteId": "ec935cb7-6256-4e70-948a-1b0e99ddd368",
+    "keepTitle": "Fauji",
+    "deleteTitle": "Fauzi",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T21:44:39.090Z",
+    "keepId": "121b701e-10b2-43ec-8563-f24a1b49a36c",
+    "deleteId": "1ccb2d27-a3bc-4c80-857d-8184e720042a",
+    "keepTitle": "Akhanda 2: Thaandavam",
+    "deleteTitle": "Akhanda 2",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  },
+  {
+    "timestamp": "2026-01-12T21:44:39.906Z",
+    "keepId": "a7aa9ae5-0409-421d-94d3-0ac211987208",
+    "deleteId": "4ac2b5ff-e664-4f48-bcad-a0923b4ad192",
+    "keepTitle": "Chaurya Paatham",
+    "deleteTitle": "Chaurya Paatham",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to delete duplicate movie"
+  },
+  {
+    "timestamp": "2026-01-12T21:44:40.578Z",
+    "keepId": "2d747ddf-da74-4d00-a25d-671bde2ab788",
+    "deleteId": "d79b6116-9e21-4b3b-b041-2cecad34f864",
+    "keepTitle": "The King of Kings",
+    "deleteTitle": "The King of Kings",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to delete duplicate movie"
+  },
+  {
+    "timestamp": "2026-01-12T21:44:40.923Z",
+    "keepId": "b305a95f-44ac-4d42-b5ca-c58f48fc5029",
+    "deleteId": "like-share-subscribe-2022",
+    "keepTitle": "Like, Share & Subscribe",
+    "deleteTitle": "Unknown",
+    "reason": "Data quality score",
+    "success": false,
+    "error": "Failed to fetch one or both movies"
+  },
+  {
+    "timestamp": "2026-01-12T21:44:41.615Z",
+    "keepId": "b7626c9d-a6be-437c-b1e6-51df7cc69ba4",
+    "deleteId": "c35a3d9b-0401-4ca1-b2da-c854bef0cf07",
+    "keepTitle": "F3: Fun and Frustration",
+    "deleteTitle": "F3",
+    "reason": "Data quality score",
+    "success": true,
+    "updatedReferences": {
+      "reviews": 0,
+      "ratings": 0
+    }
+  }
+]

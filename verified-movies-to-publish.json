@@ -1,0 +1,3593 @@
+[
+  {
+    "id": "bd03c874-559d-44f0-b5fd-bbab2502f093",
+    "title": "Amoli",
+    "year": 2018,
+    "hero": "Rajkummar Rao",
+    "director": "Jasmine Kaur Roy",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "3fb86635-792c-474c-9351-b633cb31dd3f",
+    "title": "VIP 2 (Lalkar)",
+    "year": 2017,
+    "hero": "Girish Kumar",
+    "director": "Soundarya Rajinikanth",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c786d237-ea01-4c5d-a763-e02ce7c26eb2",
+    "title": "Maya",
+    "year": 2017,
+    "hero": "Dhanraj",
+    "director": "Eeshwar",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "ea5c6dc6-5245-4731-8c83-be98c317589f",
+    "title": "Teja",
+    "year": 2017,
+    "hero": "Jai",
+    "director": "B. N. Reddy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "bb1f0ff5-0c22-45da-abb4-ccbc132e83e4",
+    "title": "Rishi",
+    "year": 2017,
+    "hero": "Rishi",
+    "director": "Bhagya Raj",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "27baa242-d2e1-44fb-b08e-30d39a95e688",
+    "title": "మెంటల్",
+    "year": 2016,
+    "hero": "Sree Vishnu",
+    "director": "Vivek Athreya",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5aad788e-44b5-4580-be21-d56161ccd1cc",
+    "title": "Best Supporting Actor",
+    "year": 2016,
+    "hero": "Jagapathi Babu",
+    "director": "Alongkod Euepaiboon",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b994c347-d1e4-4edd-96f5-79f8baca9bea",
+    "title": "Ranveer Ching Returns",
+    "year": 2016,
+    "hero": "Ranveer Singh",
+    "director": "Rohit Shetty",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "340635c8-f4a4-410e-aa3f-ed1ba3f314f3",
+    "title": "Jayammu Nischayammu Raa",
+    "year": 2016,
+    "hero": "Srinivasa Reddy",
+    "director": "Shiva Raj Kanumuri",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "2d497846-2fbd-42fd-806b-a736158e2492",
+    "title": "Rojulu Marayi",
+    "year": 2016,
+    "hero": "Tejus",
+    "director": "M Maruthi",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "d45166d6-8c93-455a-b425-6ee67a496ecb",
+    "title": "Sardar Gabbar Singh",
+    "year": 2016,
+    "hero": "Pawan Kalyan",
+    "director": "Bobby Kolli",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "decd57fe-3ad2-44c8-be73-a5c8c8e81e63",
+    "title": "1st IIFA Utsavam",
+    "year": 2015,
+    "hero": "Jeff Bowser",
+    "director": "James Huang",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "2db6f71f-6f45-4df2-bd58-1aff5d1df1f8",
+    "title": "Dagudumoota Dandakore",
+    "year": 2015,
+    "hero": "Rajendra Prasad",
+    "director": "R.K. Malineni",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "2c7b7199-e450-4391-9328-7a615f3e2552",
+    "title": "Best Actors",
+    "year": 2015,
+    "hero": "Nandu",
+    "director": "Jaya B",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "d20403fb-8432-4565-85c4-961d128206cb",
+    "title": "Well, If You Know Me",
+    "year": 2015,
+    "hero": "Venkatesh",
+    "director": "Meher Ramesh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4d45fe33-8711-4495-9ba1-2021d4030010",
+    "title": "Dongata",
+    "year": 2015,
+    "hero": "Lakshmi Manchu",
+    "director": "Vamsee Krishna",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "48cd41ce-bdab-4e2e-b69c-908da6dbc187",
+    "title": "Entertainment",
+    "year": 2014,
+    "hero": "Kinzō Sakura",
+    "director": "Kanta Tagawa",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f60863b0-3cb6-43bf-80c5-0abfdd9f9db8",
+    "title": "Nambiar",
+    "year": 2014,
+    "hero": "Srikanth",
+    "director": "Ganeshaa",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "a9329dd7-6bd8-45d6-8667-aedaa4c43de9",
+    "title": "Naa Rakumarudu",
+    "year": 2014,
+    "hero": "Naveen Chandra",
+    "director": "K. Bhagyaraj",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "eabaebd6-9714-48d9-9533-af0431bcab0d",
+    "title": "Exploring Shiva",
+    "year": 2014,
+    "hero": "Nagarjuna",
+    "director": "N/A (Documentary)",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "12e82a87-b0ea-45ed-b018-244e08e49000",
+    "title": "Karthikeya",
+    "year": 2014,
+    "hero": "Nikhil Siddharth",
+    "director": "Chandoo Mondeti",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "20c3e734-b856-4179-866b-e7bd1d5d4a7a",
+    "title": "Pelli Pustakam",
+    "year": 2013,
+    "hero": "Rahul",
+    "director": "Ramakrishna Machakanti",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "1bfe0855-c62f-4cf2-a748-359cd768e74b",
+    "title": "Buddy",
+    "year": 2013,
+    "hero": null,
+    "director": "Raaj Prabavathy Menon",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "08a8b571-0360-4766-9eea-b90d4380f812",
+    "title": "Rajjo",
+    "year": 2013,
+    "hero": "Prakash Raj",
+    "director": "Vishwas Patil",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "8ac900ab-636a-4b62-8ea9-449341cd3539",
+    "title": "Ramaiya Vasta Vaiya",
+    "year": 2013,
+    "hero": "Girish Kumar",
+    "director": "Prabhu Deva",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "00d99949-171a-46c1-b193-fdc37270d583",
+    "title": "Toofan",
+    "year": 2013,
+    "hero": "Ram Charan",
+    "director": "Apurva Lakhia",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "5b2aa871-97f2-4e32-8c93-d35f90f8b6ac",
+    "title": "Tadakha",
+    "year": 2013,
+    "hero": "Naga Chaitanya",
+    "director": "Kishore Kumar Pardasani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "41b60539-c6d7-4144-94a3-24a94d568a9e",
+    "title": "Mithunam",
+    "year": 2012,
+    "hero": "Friends funding films",
+    "director": "Tanikella Bharani",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "325ebc31-6daf-4346-a4d2-68759ab6b9c4",
+    "title": "Ethiri En 3",
+    "year": 2012,
+    "hero": "Srikanth",
+    "director": "Ramkumar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "be47ebd0-8255-42e3-9049-5391e2fdcbb7",
+    "title": "Prince of Peace",
+    "year": 2012,
+    "hero": "Yoji Matsuda",
+    "director": "P. Sunil Kumar Reddy",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1cfa647b-00b0-4798-98f9-a75e589e35d5",
+    "title": "Kraanthiveera Sangolli Raayanna",
+    "year": 2012,
+    "hero": "Darshan Thoogudeepa Srinivas",
+    "director": "B. Naganna",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1f339783-8a95-40dc-a318-fdb69edc331e",
+    "title": "Marana Porali",
+    "year": 2011,
+    "hero": "Sasikumar",
+    "director": "Samuthirakani",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b0f56d23-9340-40a9-8127-e36ee3814876",
+    "title": "Rakshana",
+    "year": 2011,
+    "hero": "Jagapathi Babu",
+    "director": "Ramesh Puppala",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c1533996-8bec-4ce4-a0aa-588d2638c41b",
+    "title": "Thimmaraju",
+    "year": 2011,
+    "hero": "Sai Kumar",
+    "director": "Vijay Krishna",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "5cd8b5da-c6cc-4acc-822a-361acc6e6803",
+    "title": "Kalabha Mazha",
+    "year": 2011,
+    "hero": "Sreejith Vijay",
+    "director": "P. Bhaskaran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "8182275f-e88d-4453-b855-4bb1695ef80c",
+    "title": "Badrinadh",
+    "year": 2011,
+    "hero": "Allu Arjun",
+    "director": "V. V. Vinayak",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "01a6f455-21ba-4559-be6d-0df444d63a12",
+    "title": "Bhale Mogudu Bhale Pellam",
+    "year": 2011,
+    "hero": null,
+    "director": "Dinesh Baboo",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5e4052c0-9936-4bc9-9284-5adf79dcf4f4",
+    "title": "Shubhapradam",
+    "year": 2010,
+    "hero": "Allari Naresh",
+    "director": "K. Viswanath",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "aa76bb69-8c33-4efe-a960-b72f428a9f07",
+    "title": "Nagavalli",
+    "year": 2010,
+    "hero": "Daggubati Venkatesh",
+    "director": "P. Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c998c096-37f6-4338-977c-ed85cabdf7b1",
+    "title": "Aalasyam Amrutam",
+    "year": 2010,
+    "hero": "Ananth",
+    "director": "Chandra Mahesh",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "bb35eb63-49c4-42aa-a405-7ca08b8a813d",
+    "title": "Betting Bangaraju",
+    "year": 2010,
+    "hero": "Allari Naresh",
+    "director": "E. Sattibabu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "65a55de8-df97-48e9-a59e-68be89624bf6",
+    "title": "Chalaki",
+    "year": 2010,
+    "hero": "Sai Ram Shankar",
+    "director": "M. Mahadev",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "941e3c98-6767-4e6f-803e-74dab7f3d124",
+    "title": "Meri Warrant",
+    "year": 2010,
+    "hero": null,
+    "director": "S. Nagabharana",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e51fc56d-e23b-44e7-8d46-30dc4308b582",
+    "title": "Luck",
+    "year": 2009,
+    "hero": "Sanjay Dutt",
+    "director": "Soham Shah",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "90065b76-6efe-48d1-b6e7-cee9e5197745",
+    "title": "Modhi Vilayadu",
+    "year": 2009,
+    "hero": "Vinay Rai",
+    "director": "Saran",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "7064c032-a15f-4d90-bfaa-68d67cc73a71",
+    "title": "Sesh Sangat",
+    "year": 2009,
+    "hero": "Ashish Vidhyarthi",
+    "director": "Ashoke Viswanathan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6f877ced-d318-4b72-a5fd-1c430072c774",
+    "title": "Raaj",
+    "year": 2009,
+    "hero": "Puneeth Rajkumar",
+    "director": "Prem",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e03abbf0-7a48-4b11-8445-9146de60c25f",
+    "title": "Premabandham",
+    "year": 2008,
+    "hero": "Varun Sandesh",
+    "director": "Siva Nagu",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "2fa121f6-5556-472d-a9e7-334a9bf05f10",
+    "title": "Kathanayakudu",
+    "year": 2008,
+    "hero": "Jagapati Babu",
+    "director": "P. Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "7443bdd7-a3e5-4dcb-8a72-4af4714aa142",
+    "title": "Ullasamga Utsahamga",
+    "year": 2008,
+    "hero": "|",
+    "director": "Yasho Sagar, Sneha Ullal, Sunil",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "73343832-e4d3-4129-a583-bb32c3d3a040",
+    "title": "Halla Bol",
+    "year": 2008,
+    "hero": "Ajay Devgn",
+    "director": "Rajkumar Santoshi",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "5187e158-66eb-4f2b-bc6d-e26f4295a450",
+    "title": "Bommalattam",
+    "year": 2008,
+    "hero": "Nana Patekar",
+    "director": "Bharathiraja",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "c4ea2405-f254-4cf2-a508-654d49be3ea3",
+    "title": "Krishnarjuna",
+    "year": 2008,
+    "hero": "Manchu Vishnu",
+    "director": "P. Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "aa2aaf0e-7042-490c-8f10-8cc351f3f9bc",
+    "title": "Kuttrapathirikai",
+    "year": 2007,
+    "hero": "Ramki",
+    "director": "R K Selvamani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "15f97b32-29cb-470d-8174-2a8ec4a2e33a",
+    "title": "Ghutan",
+    "year": 2007,
+    "hero": "Aryan Vaid",
+    "director": "Shyam Ramsay",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "d89741ae-d12d-4ca2-b3e3-3deab099b8e8",
+    "title": "Maharathi",
+    "year": 2007,
+    "hero": "Srikanth",
+    "director": "P. Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "aa1e8f31-fd2c-4056-8cfb-ce8924755446",
+    "title": "State Rowdy",
+    "year": 2007,
+    "hero": "Chiranjeevi",
+    "director": "B. Gopal",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ee3dd893-677b-481a-98d8-fbe774df928f",
+    "title": "Kalloori",
+    "year": 2007,
+    "hero": "Kalloori Vinoth",
+    "director": "Balaji Sakthivel",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "46448a54-20ea-4406-8ce9-27df29e3e3fd",
+    "title": "Uppalapati Narayana Rao",
+    "year": 2007,
+    "hero": "Venkateswara Rao Atluri",
+    "director": "Uppalapati Narayana Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "f8b57570-81e3-4568-8942-2b3cd03c63a5",
+    "title": "Maharadhi",
+    "year": 2007,
+    "hero": "Nandamuri Balakrishna",
+    "director": "P. Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "2d97f41a-b367-4705-b93b-eb769e06d86d",
+    "title": "Varakatnam",
+    "year": 2007,
+    "hero": "N. T. Rama Rao",
+    "director": "N.T. Rama Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "dd03f412-fd55-4672-8f54-53dcbd7f1b0a",
+    "title": "Best Supporting Actor",
+    "year": 2007,
+    "hero": "Jagapathi Babu",
+    "director": "Alongkod Euepaiboon",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ab5a6f6d-6648-4657-b0ae-a7f9ca5a5a56",
+    "title": "Kizhakku Kadarkarai Salai",
+    "year": 2006,
+    "hero": "Srikanth",
+    "director": "S. S. Stanley",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6dcf4ef0-f5e9-4717-96dd-14513908ce02",
+    "title": "Gopi – Goda Meedha Pilli",
+    "year": 2006,
+    "hero": "Allari Naresh",
+    "director": "Janardhana Maharshi",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4d2c73aa-2438-4708-9727-697346a8dc60",
+    "title": "Kizhakku Kadalkarai Salai",
+    "year": 2006,
+    "hero": "Srikanth",
+    "director": "S. S. Stanley",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6b1d24f6-c4c1-4bdb-8b59-7af0542e2ef0",
+    "title": "Sarhad Paar",
+    "year": 2006,
+    "hero": null,
+    "director": "Raman Kumar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "8c3ef912-ecd6-4719-ba68-f86a89b334db",
+    "title": "Mayajalam",
+    "year": 2006,
+    "hero": "Mukesh",
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "06fbeb2c-ab89-423c-9e63-6009e3e96688",
+    "title": "సుందరానికి తొందరెక్కువ",
+    "year": 2006,
+    "hero": "Allari Naresh",
+    "director": "Phani Prakash",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "db213db4-f0ba-4eca-ae5f-b291aef4be49",
+    "title": "Iddaru Attala Muddula Alludu",
+    "year": 2006,
+    "hero": null,
+    "director": "Dev Anand",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "70f98b85-f4f1-499a-a0bf-ad2c7ea9fbc2",
+    "title": "Pasa Kiligal",
+    "year": 2006,
+    "hero": "Prabhu",
+    "director": "P. Amirdhan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c1b12143-412a-4c03-869b-2864611b9c07",
+    "title": "Parijatham",
+    "year": 2006,
+    "hero": "Prithviraj Sukumaran",
+    "director": "K. Bhagyaraj",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "8ad97b51-a82e-4a75-bed0-6ee3bc60e5a2",
+    "title": "Balu ABCDEFG",
+    "year": 2005,
+    "hero": "Pawan Kalyan",
+    "director": "A. Karunakaran",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "5d32087c-cf2b-460d-9ee7-fa8b793758b6",
+    "title": "Vikram",
+    "year": 2005,
+    "hero": "Ravi Teja",
+    "director": "S. S. Rajamouli",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "fd5ae123-c3c8-4b41-9d92-a593a744437e",
+    "title": "Nireekshana",
+    "year": 2005,
+    "hero": "Tarun",
+    "director": "Vikraman",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c212cbf8-5145-44b7-8740-a2928fa13c6b",
+    "title": "Hanuman",
+    "year": 2005,
+    "hero": "Mukesh Khanna",
+    "director": "V.G. Samant",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1d6288b0-5004-4eb6-8417-a98a34dfb9c3",
+    "title": "Kana Kandaen",
+    "year": 2005,
+    "hero": "Srikanth",
+    "director": "K. V. Anand",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "b0f35238-467a-4053-a227-de1aaa774bc3",
+    "title": "Joot",
+    "year": 2004,
+    "hero": "Srikanth",
+    "director": "Azhagam Perumal",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4b53b1bb-3a13-45a0-95ce-4d26cc38337e",
+    "title": "Kyun! Ho Gaya Na...",
+    "year": 2004,
+    "hero": "Vivek Oberoi",
+    "director": "Samir Karnik",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "034a4d8c-803d-43cd-9d89-4579074dfbad",
+    "title": "Maurya",
+    "year": 2004,
+    "hero": "Puneeth Rajkumar",
+    "director": "S. Narayan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "251f2ccc-2427-4db3-b255-9f463044ba6e",
+    "title": "Andaru Dongale Dorikithe",
+    "year": 2004,
+    "hero": "Rajendra Prasad",
+    "director": "Nidhi Prasad",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "98980f9f-7650-43fc-8a2d-912fbd9e1e88",
+    "title": "Apparao Driving School",
+    "year": 2004,
+    "hero": null,
+    "director": "Anji Seenu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6b8d7604-32fa-4127-bae3-ae00ed8dfafe",
+    "title": "Meri Biwi Ka Jawab Nahin",
+    "year": 2004,
+    "hero": "Akshay Kumar",
+    "director": "Pankaj Parashar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "7bfdc8d2-dccf-4531-b941-8264cae913ac",
+    "title": "Ee Snehatheerathu",
+    "year": 2004,
+    "hero": null,
+    "director": "P. Sivaprasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "595fa291-b77c-44b6-9b0a-da70a15d4289",
+    "title": "Cheppave Chirugali",
+    "year": 2004,
+    "hero": "Venu Thottempudi",
+    "director": "Vikraman",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "e2291068-2a52-4c56-8581-c534925a6f78",
+    "title": "LOC: Kargil",
+    "year": 2003,
+    "hero": "Sanjay Dutt",
+    "director": "J. P. Dutta",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "a4b6ba72-185b-435c-a481-1807fcad5197",
+    "title": "Joot",
+    "year": 2003,
+    "hero": "Srikanth",
+    "director": "N. Azhagamperumal",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "338d1d9a-694e-45d6-87cf-417e9f763bda",
+    "title": "Vasantam",
+    "year": 2003,
+    "hero": "Daggubati Venkatesh",
+    "director": "Vikraman",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "f5980a13-269b-433b-ad20-3ea3ebbd3480",
+    "title": "Parthiban Kanavu",
+    "year": 2003,
+    "hero": "Srikanth",
+    "director": "Karu Pazhaniappan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "abf5c226-1f96-4d6e-b20c-d01b23f0421b",
+    "title": "Parthibhan Kanavu",
+    "year": 2003,
+    "hero": "Srikanth",
+    "director": "Karu Pazhaniappan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "bb9e4779-bf34-4187-8b6a-5eb92a833888",
+    "title": "All over the heart",
+    "year": 2003,
+    "hero": "Srikanth",
+    "director": "Santhosh",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "fcc781fe-7844-452c-9b9f-8b839838a538",
+    "title": "Chokka Thangam",
+    "year": 2003,
+    "hero": "Vijayakanth",
+    "director": "K. Bhagyaraj",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "fcfed3d3-fa17-48c0-82c8-4731684562cf",
+    "title": "Pranam",
+    "year": 2003,
+    "hero": "Vineeth",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "b0f1d7d9-d8db-4192-8aa8-b9fe933b5814",
+    "title": "Arasu",
+    "year": 2003,
+    "hero": "R. Sarathkumar",
+    "director": "AR. Suresh",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "3a00d145-9c46-46d1-a8fa-b88404f6b2a8",
+    "title": "Kottai Mariamman",
+    "year": 2002,
+    "hero": null,
+    "director": "Rama Narayanan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5e66579f-af62-4611-9b58-19d04504a046",
+    "title": "Roja Kootam",
+    "year": 2002,
+    "hero": "Srikanth",
+    "director": "Sasi",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "5262a824-36b8-4121-9599-614adf954fd1",
+    "title": "Malayali Mamanu Vanakkam",
+    "year": 2002,
+    "hero": "Jayaram",
+    "director": "Rajasenan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "092508fb-f084-443b-aa50-3c6d06b6ec12",
+    "title": "Chennakeshava Reddy",
+    "year": 2002,
+    "hero": "Nandamuri Balakrishna",
+    "director": "V. V. Vinayak",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ff32a1f8-e0a8-41fd-9fe9-5f9ffb94b6fa",
+    "title": "Angala Parameswari",
+    "year": 2002,
+    "hero": "Roja",
+    "director": "Phani Prakash",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bce426b2-bdf4-456c-af6b-0d28d653b1c9",
+    "title": "Premaku Swagatham",
+    "year": 2002,
+    "hero": "J. D. Chakravarthi",
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1254b1ca-f3a3-4842-aec4-639903095342",
+    "title": "Roja Koottam",
+    "year": 2002,
+    "hero": "Srikanth",
+    "director": "Sasi",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "294db5e8-afbb-4139-8212-2d58f8654931",
+    "title": "Gemeni",
+    "year": 2002,
+    "hero": "Daggubati Venkatesh",
+    "director": "Saran",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "80d9c7ef-ba6e-4555-8d5f-b30439f4415e",
+    "title": "April Maadhathil",
+    "year": 2002,
+    "hero": "Srikanth",
+    "director": "S. S. Stanley",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "53888702-5231-4c81-84b9-01234aa1eaf1",
+    "title": "Kottai Mariamman",
+    "year": 2001,
+    "hero": "Roja",
+    "director": "Rama Narayanan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "863ad6f1-6b43-4e86-bd23-84999161ef4b",
+    "title": "Time Pass",
+    "year": 2001,
+    "hero": "Ajay",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d89edc41-6671-4b87-930e-cc8084feb546",
+    "title": "Sonnal Thaan Kaadhala",
+    "year": 2001,
+    "hero": "T. Rajendar",
+    "director": "T. Rajendar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "087d01b2-e5dc-4cc7-84b2-8c93f3318bdb",
+    "title": "Mitta Miraasu",
+    "year": 2001,
+    "hero": "Prabhu",
+    "director": "Mu Kalanjiyam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "83465554-8e4d-448b-bde3-fd9641247b3f",
+    "title": "Jayam Manade Raa",
+    "year": 2000,
+    "hero": "Venkatesh",
+    "director": "N. Shankar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f98d67e2-8668-4dbc-bf9c-f3237daf9252",
+    "title": "Sakutumba Saparivaara Sametham",
+    "year": 2000,
+    "hero": null,
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "fccc90b7-97f4-461c-86ca-5a561169f763",
+    "title": "Thirunelveli",
+    "year": 2000,
+    "hero": "Prabhu",
+    "director": "Bharathi Kannan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f4967704-936e-44a6-937f-bf26028da430",
+    "title": "Sandhitha Velai",
+    "year": 2000,
+    "hero": "Karthik Muthuraman",
+    "director": "Ravichandran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3e774e9c-2d7f-46ff-a9a1-0ee087ec9be3",
+    "title": "Shabdavedhi",
+    "year": 2000,
+    "hero": "Dr. Rajkumar",
+    "director": "S. Narayan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f5d9c4f5-51ef-4fbe-a6a0-7e4be847959c",
+    "title": "Best Actor",
+    "year": 2000,
+    "hero": "Jagapathi Babu",
+    "director": "Martin Prakkat",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "472c726b-5972-45f2-9264-8b06ca5fecbc",
+    "title": "Vamsoddarakudu",
+    "year": 2000,
+    "hero": null,
+    "director": "Sarath",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "53d9286b-54c1-42b8-afc9-fc6f96c0bc3d",
+    "title": "Independence",
+    "year": 1999,
+    "hero": null,
+    "director": "Vinayan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1e6cd2e6-b981-474b-bab9-232911647234",
+    "title": "Anaganaga Oka Ammai",
+    "year": 1999,
+    "hero": "Srikanth",
+    "director": "Ramesh Sarangan",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "85ab9ba4-130c-423e-be7c-671d2243a5ea",
+    "title": "Rajasthan",
+    "year": 1999,
+    "hero": "Vijayashanti",
+    "director": "R K Selvamani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "529969fc-16aa-4cb6-9a6b-761780b06b40",
+    "title": "Kohram",
+    "year": 1999,
+    "hero": "Amitabh Bachchan",
+    "director": "Mehul Kumar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "c4f56063-850e-4ac7-bf41-a802cb3e0023",
+    "title": "Loh Purush",
+    "year": 1999,
+    "hero": "Dharmendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "ef996bc7-4245-47bf-8652-378f46188edc",
+    "title": "Chinna Raja",
+    "year": 1999,
+    "hero": "Karthik Muthuraman",
+    "director": "Chitra Lakshmanan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "75501982-c0f2-4194-8352-651e97519b62",
+    "title": "Chinna Durai",
+    "year": 1999,
+    "hero": "R. Sarathkumar",
+    "director": "Chandra R",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "92f3d7d0-2828-4bf2-bd87-6b8c77009d57",
+    "title": "Preyasi Rave",
+    "year": 1999,
+    "hero": null,
+    "director": "Chandra Mahesh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "eb8cfe6b-3d53-48d9-8842-db7d6ebcac0a",
+    "title": "Maanavudu Daanavudu",
+    "year": 1999,
+    "hero": "Krishna",
+    "director": "Krishna Reddy",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "06c75226-bb03-46f7-b287-d0dfba83a3e4",
+    "title": "Mugham",
+    "year": 1999,
+    "hero": "Nassar",
+    "director": "Gnana Rajasekaran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e7871bb4-22d3-492d-895b-797faeb9b1a8",
+    "title": "Kaathala Kaathala",
+    "year": 1998,
+    "hero": "Kamal Haasan",
+    "director": "Singeetam Srinivasa Rao",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "9ef3660f-05bb-4b65-8b5c-3568fb369f83",
+    "title": "Angaaray",
+    "year": 1998,
+    "hero": "Akshay Kumar",
+    "director": "Mahesh Bhatt",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "7f3150c7-ffd1-4a7a-806e-c645a91dce8c",
+    "title": "Zakhm",
+    "year": 1998,
+    "hero": "Ajay Devgn",
+    "director": "Mahesh Bhatt",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "6c6084dd-9ce3-4572-b4a2-320ec0de4731",
+    "title": "Aayanagaru",
+    "year": 1998,
+    "hero": null,
+    "director": "Nagendra Magapu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4d02a2a9-4ca1-4b18-a73c-6cc0ddb102e4",
+    "title": "Unnidathil Ennai Koduthen",
+    "year": 1998,
+    "hero": "Karthik Muthuraman",
+    "director": "Vikraman",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "daa4e88c-6e2d-4118-ac78-65177db37b98",
+    "title": "Best Supporting Actor",
+    "year": 1998,
+    "hero": "Jagapathi Babu",
+    "director": "Alongkod Euepaiboon",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "46b8c872-a40e-4fff-8993-9353dbf3701f",
+    "title": "Zulm-O-Sitam",
+    "year": 1998,
+    "hero": "Arjun Sarja",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "5b98f22d-d17a-4161-9174-07dd00104b53",
+    "title": "En Aasai Rasave",
+    "year": 1998,
+    "hero": "Sivaji Ganesan",
+    "director": "Kasthoori Raja",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e1b19c7d-afa2-4b4d-aaf2-d8216917c57c",
+    "title": "Doni Sagali",
+    "year": 1998,
+    "hero": null,
+    "director": "Rajendra Singh Babu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0a870842-3553-4713-b9ff-b371c3017729",
+    "title": "Maa Nannaki Pelli",
+    "year": 1997,
+    "hero": "Srikanth",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "3ab70ca1-8978-4682-9437-d5ad5fb43292",
+    "title": "Jai Bajarangbali",
+    "year": 1997,
+    "hero": null,
+    "director": "Rama Narayanan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f6cd100d-3bfc-4fbf-9e53-d49bfdc43ca1",
+    "title": "Adimai Changili",
+    "year": 1997,
+    "hero": "Arjun Sarja",
+    "director": "R K Selvamani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "d7141cb1-5b05-4edd-b84c-0c49afe34aba",
+    "title": "Judaai",
+    "year": 1997,
+    "hero": "Anil Kapoor",
+    "director": "Raj Kanwar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e3456f34-c803-4d4d-9336-bfe207b251c3",
+    "title": "Egire Pavuramaa",
+    "year": 1997,
+    "hero": null,
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "aea9293a-ee96-4bbe-aa57-f7e84eff23b4",
+    "title": "Kadavul",
+    "year": 1997,
+    "hero": "Velu Prabhakaran",
+    "director": "Velu Prabhakaran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5205c2dc-2f36-48c9-9807-3153e897adbd",
+    "title": "Gunda Gardi",
+    "year": 1997,
+    "hero": "Aditya Pancholi",
+    "director": "V. Sai Prasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4a8c511a-dee7-40d4-b8bc-ea0b1ece06b8",
+    "title": "Topi Raja Sweety Roja",
+    "year": 1996,
+    "hero": null,
+    "director": "Dr. N. Shiva Prasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b74ce5f0-439d-4886-9a21-10bf6992f407",
+    "title": "Manasulo Maata",
+    "year": 1996,
+    "hero": null,
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "df5c63e9-89fa-498f-93ec-9ea92cd305c2",
+    "title": "Family",
+    "year": 1996,
+    "hero": "Hiroshi Matsunaga",
+    "director": "Toshiki Sato",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f707f942-47d5-4a92-82e4-5acb85776ba0",
+    "title": "Mr. Bechara",
+    "year": 1996,
+    "hero": "Anil Kapoor",
+    "director": "K. Bhagyaraj",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "fd10c7b5-1e25-4bcc-b82d-b4c6d1b48485",
+    "title": "Shri Krishnarjuna Vijayam",
+    "year": 1996,
+    "hero": "Nandamuri Balakrishna",
+    "director": "Singeetam Srinivasa Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a4c01cca-6092-4dfa-8290-683e601e4795",
+    "title": "Tamizh Selvan",
+    "year": 1996,
+    "hero": "Vijayakanth",
+    "director": "Bharathiraja",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5ae519b1-b611-4c88-b5c8-e9045a29edc5",
+    "title": "Maidan-E-Jung",
+    "year": 1995,
+    "hero": "Akshay Kumar",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "6220b82e-a84f-443f-b0de-78c6c0d6db3d",
+    "title": "Makkal Aatchi",
+    "year": 1995,
+    "hero": "Mammootty",
+    "director": "R K Selvamani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "2aa6493a-6633-47b2-894f-8db3938f1ede",
+    "title": "Asuran",
+    "year": 1995,
+    "hero": "C. Arun Pandian",
+    "director": "Velu Prabhakaran",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e1124ed1-4aee-40ec-a97e-f5ecd5966a8d",
+    "title": "Maato Pettukoku",
+    "year": 1995,
+    "hero": "Nandamuri Balakrishna",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "6d038721-fec0-4ba3-a90b-acbb26ef088e",
+    "title": "Raja Muthirai",
+    "year": 1995,
+    "hero": "Arun Pandian",
+    "director": "R. K. Selvamani",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "86e58157-d33f-48d1-a562-7413efddffd9",
+    "title": "Shubha Lagnam",
+    "year": 1994,
+    "hero": "Jagapathi Babu",
+    "director": "S. V. Krishna Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "32d1c1ea-abd5-44ae-980e-369ba2f6ab96",
+    "title": "Athiradi Padai",
+    "year": 1994,
+    "hero": "Rahman",
+    "director": "R. K. Selvamani",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "4765aa1a-728f-4b28-a125-719e79bcb3f8",
+    "title": "Swami Vivekananda",
+    "year": 1994,
+    "hero": "Pradeep Kumar",
+    "director": "G. V. Iyer",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "48763e20-c59f-4c27-aacb-a6160a3e70ce",
+    "title": "Criminal",
+    "year": 1994,
+    "hero": "Akkineni Nagarjuna",
+    "director": "Mahesh Bhatt",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "a0445592-1dd6-42b3-bded-eca07e3bfd3c",
+    "title": "Govinda Govinda",
+    "year": 1994,
+    "hero": "Nagarjuna Akkineni",
+    "director": "Ram Gopal Varma",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "d2e2b391-a767-4b16-8d7f-9e5dadbf23e8",
+    "title": "Laadla",
+    "year": 1994,
+    "hero": "Anil Kapoor",
+    "director": "Raj Kanwar",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "5ac15346-c1f1-4804-8223-04f599383fbc",
+    "title": "Gumrah",
+    "year": 1994,
+    "hero": "Sridevi",
+    "director": "Mahesh Bhatt",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7c02513a-48b4-4fbc-90bf-a080eca4ace7",
+    "title": "Indhu",
+    "year": 1994,
+    "hero": "R. Sarathkumar",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "c5a9ffc1-61b3-4990-b091-156774847778",
+    "title": "Khuda Gawah",
+    "year": 1993,
+    "hero": "Amitabh Bachchan",
+    "director": "Mukul Anand",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3cd34587-704c-4944-82da-dd7e0f7dfd9e",
+    "title": "Best Actor",
+    "year": 1993,
+    "hero": "Jagapathi Babu",
+    "director": "Martin Prakkat",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "65be9b54-3bc4-4e67-a7b0-75fa3e0e8556",
+    "title": "Brundavanam",
+    "year": 1993,
+    "hero": "Rajendra Prasad",
+    "director": "Singeetam Srinivasa Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "eab52068-0193-4c81-8808-34ca070abbe4",
+    "title": "Lakshyam",
+    "year": 1993,
+    "hero": "Gopichand",
+    "director": "Sriwass",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ec4dc19f-6743-47c2-ab4c-1110ee1708c6",
+    "title": "Gumrah",
+    "year": 1993,
+    "hero": "Sanjay Dutt",
+    "director": "Mahesh Bhatt",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "dfd4a9aa-feb4-40ce-9661-377d1f648c9d",
+    "title": "Uzhaippali",
+    "year": 1993,
+    "hero": "Rajinikanth",
+    "director": "P. Vasu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b149e51c-20e1-42fa-92c9-dbaa9f117263",
+    "title": "Kundan",
+    "year": 1993,
+    "hero": "Jaya Prada",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "62722419-12a0-4638-9492-f4324d4b78f2",
+    "title": "Veerta",
+    "year": 1993,
+    "hero": "Jaya Prada",
+    "director": "Shibu Mitra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0c948cb3-cd84-420c-927b-db274e58fb1f",
+    "title": "Insaniyat Ke Devta",
+    "year": 1993,
+    "hero": "Raaj Kumar",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2806a32b-9ea1-4c87-a85b-73cc4172683c",
+    "title": "Tyagi",
+    "year": 1992,
+    "hero": "Jaya Prada",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "72fed997-ae8e-48ae-bed7-3831418483e3",
+    "title": "Chembaruthi",
+    "year": 1992,
+    "hero": "Prashanth",
+    "director": "R K Selvamani",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0f13fa23-e39d-48ad-8b01-2697adf3d465",
+    "title": "Mannan",
+    "year": 1992,
+    "hero": "Rajinikanth",
+    "director": "P. Vasu",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "7a42802b-65bd-4d37-b6a4-53ae078e408b",
+    "title": "Rakta Tarpanam",
+    "year": 1992,
+    "hero": "Rajendra Prasad",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "95639c8c-fad3-4ef9-b2a3-0e1b06040346",
+    "title": "Aaj Ka Goonda Raj",
+    "year": 1992,
+    "hero": "Chiranjeevi",
+    "director": "Ravi Raja Pinisetty",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "88b84fde-2752-4b45-b4b8-5395ed5b5649",
+    "title": "Adharsham",
+    "year": 1992,
+    "hero": "Jagapathi Babu",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "460a5f1a-7191-45f3-921d-82c3be9b2c11",
+    "title": "Aasmaan Se Gira",
+    "year": 1992,
+    "hero": "Raghubir Yadav",
+    "director": "Pankaj Parashar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "af26d3a3-fd41-451d-9499-c0613cb42335",
+    "title": "Raktha Tharpanam",
+    "year": 1992,
+    "hero": "Krishna",
+    "director": "Krishna",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d5edc733-e59b-42c0-ae51-6980c71906fd",
+    "title": "Sapnon Ka Mandir",
+    "year": 1991,
+    "hero": "Jaya Prada",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "74bbdc9c-6159-4b7d-b3a0-aad89701a7dc",
+    "title": "Jumma Chumma In London",
+    "year": 1991,
+    "hero": "Salman Khan",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "1d57f0ef-c4ed-4b34-b453-b608ce213ba3",
+    "title": "Chaithanya",
+    "year": 1991,
+    "hero": "Akkineni Nagarjuna",
+    "director": "Prathap Pothan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "90ae382d-4411-435f-a6b4-0a7756a0187d",
+    "title": "Aaj Ka Arjun",
+    "year": 1990,
+    "hero": "Jaya Prada",
+    "director": "K. C. Bokadia",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "881ddeb3-68c8-4968-8a40-ea3913edd60a",
+    "title": "Thanedaar",
+    "year": 1990,
+    "hero": "Sanjay Dutt",
+    "director": "Raj N. Sippy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "03b317cc-8b87-45b0-92e5-ad1de7eb7c92",
+    "title": "ChaalBaaz",
+    "year": 1990,
+    "hero": "Sridevi",
+    "director": "Pankaj Parashar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5f1d4d69-88ef-4e03-b3ce-58f19fd8966f",
+    "title": "Naaka Bandi",
+    "year": 1990,
+    "hero": "Dharmendra",
+    "director": "Shibu Mitra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7c7f8721-77ca-418a-b02d-9532c5e6cc3b",
+    "title": "Anjali",
+    "year": 1990,
+    "hero": "Raghuvaran",
+    "director": "Mani Ratnam",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c0d119f0-3840-4620-ac11-413e42cd8761",
+    "title": "Poola Rangadu",
+    "year": 1989,
+    "hero": "Sunil Varma",
+    "director": "Relangi Narasimha Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a49f3ca0-b8fe-49af-a0aa-00236a964aff",
+    "title": "Geethanjali",
+    "year": 1989,
+    "hero": "Akkineni Nagarjuna",
+    "director": "Mani Ratnam",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "265c9456-3b66-40c7-91e0-eb98dcefc518",
+    "title": "Majboor",
+    "year": 1989,
+    "hero": "Jaya Prada",
+    "director": "Rama Rao Tatineni",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "604a0f33-c901-469c-8e14-8be079baa68b",
+    "title": "Joshilaay",
+    "year": 1989,
+    "hero": "Sunny Deol",
+    "director": "Sibte Hassan Rizvi",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a2cb19a1-ad74-4938-9289-c8d9edc9ad5f",
+    "title": "Geetanjali",
+    "year": 1989,
+    "hero": "Nagarjuna Akkineni",
+    "director": "Mani Ratnam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6c4440ae-4984-4d50-a025-3d5c4a6e2be2",
+    "title": "Chalaki Mogudu Chavali Pellam",
+    "year": 1989,
+    "hero": "Rajendra Prasad",
+    "director": "Relangi Narasimha Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "5e35da7e-9081-4db9-8f2d-9f5ab3867498",
+    "title": "Gharana",
+    "year": 1989,
+    "hero": "Asrani",
+    "director": "K. Selvaramani",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "688efd66-5e24-4a35-8410-50f4519988eb",
+    "title": "Paraya Ghar",
+    "year": 1989,
+    "hero": "Rishi Kapoor",
+    "director": "Kalpataru",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0649e455-c3b8-4562-a1e4-c1e87653a230",
+    "title": "Hum Bhi Insaan Hain",
+    "year": 1989,
+    "hero": "Sanjay Dutt",
+    "director": "Manivannan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bac8ce89-b602-4226-a4f9-f1aa7acfc1e8",
+    "title": "Jaadugar",
+    "year": 1989,
+    "hero": "Vikas Anand",
+    "director": "Prakash Mehra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "dbb82d4e-a8f0-4ace-90a8-9e5a7f3f35de",
+    "title": "Preminchi Choodu",
+    "year": 1989,
+    "hero": "Shaam",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0fcf2bc6-f240-4935-b51a-d10669cd7862",
+    "title": "Kanoon Ki Awaaz",
+    "year": 1989,
+    "hero": "Amaury de Crayencour",
+    "director": "R. Kumar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ab03592a-8f48-4478-a2ff-b5ed09d237bc",
+    "title": "Gair Kanooni",
+    "year": 1989,
+    "hero": "Govinda",
+    "director": "Prayag Raj",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "8f5393a3-7edb-45e8-83d8-14f6146f20b6",
+    "title": "Shehzaade",
+    "year": 1989,
+    "hero": "Dharmendra",
+    "director": "Raj N. Sippy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a4ff9a89-5168-43b2-a11f-5c2fa658ab53",
+    "title": "Vicky Daada",
+    "year": 1989,
+    "hero": "Ravi Teja",
+    "director": "Puri Jagannadh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "23616eaa-6b34-4306-8af4-73a942ad86cc",
+    "title": "Chaalbaaz",
+    "year": 1989,
+    "hero": "Sridevi",
+    "director": "Pankaj Parashar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4b361b66-77f7-4b49-b375-a094f1ea42f5",
+    "title": "Antima Teerpu",
+    "year": 1988,
+    "hero": "Justin Hayles",
+    "director": "Jason Impey",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "7db057f7-a174-4f81-96ea-e0379190a674",
+    "title": "Akarshan",
+    "year": 1988,
+    "hero": null,
+    "director": "Tanvir Ahmed",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a866b7ff-4f05-403a-ac4f-3b68ed9df103",
+    "title": "Ghar Ghar Ki Kahani",
+    "year": 1988,
+    "hero": "Govinda",
+    "director": "Kalpataru",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "340c6c16-3c11-4c71-83c7-1214e94f177d",
+    "title": "Sattam Oru Sathurangam",
+    "year": 1988,
+    "hero": "Arjun Sarja",
+    "director": "Murali Mohan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "361f51fd-2800-4a35-9b35-9a9ba9f86875",
+    "title": "Mardon Wali Baat",
+    "year": 1988,
+    "hero": "Dharmendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "eaccda06-7da8-4056-b26d-9f3ad7ffabea",
+    "title": "Jamadagni",
+    "year": 1988,
+    "hero": "Krishna",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "9a4b1f30-b41e-4c96-ac7b-debebde74061",
+    "title": "Antima Theerpu",
+    "year": 1988,
+    "hero": "Suresh Gopi",
+    "director": "Joshiy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c871e4bb-cddf-4376-82a0-e8f808a36be1",
+    "title": "Sone Pe Suhaaga",
+    "year": 1988,
+    "hero": "Jeetendra",
+    "director": "K. Bapayya",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3add2312-7681-4325-ab02-762a78da7a70",
+    "title": "Swayam Krushi",
+    "year": 1987,
+    "hero": "Veerendra Babu",
+    "director": "Veerendra Babu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bcf99d1d-facb-4ee6-bdca-841789cd0b5a",
+    "title": "Gandhinagar Rendava Veedhi",
+    "year": 1987,
+    "hero": "Rajendra Prasad",
+    "director": "P. N. Ramachandra Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "07540f9d-50b5-4fdd-85aa-311dcd9295dc",
+    "title": "Kaboye Alludu",
+    "year": 1987,
+    "hero": "Rajendra Prasad",
+    "director": "Relangi Narasimha Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "abd4b663-0645-4904-9865-1aa767a8a813",
+    "title": "Dabbevariki Chedu",
+    "year": 1987,
+    "hero": "Rajendra Prasad",
+    "director": "Relangi Narasimha Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f19bec41-1999-46e3-8f2b-511abefe9056",
+    "title": "Watan Ke Rakhwale",
+    "year": 1987,
+    "hero": "Dharmendra",
+    "director": "Rama Rao Tatineni",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "42723858-b7bd-47cd-bc9b-146758488559",
+    "title": "Sindoor",
+    "year": 1987,
+    "hero": "Shashi Kapoor",
+    "director": "K. Ravi Shankar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a3f8dd6b-bd0e-4a2e-a097-734df7426a7c",
+    "title": "Best Actor",
+    "year": 1987,
+    "hero": "Rajendra Prasad",
+    "director": "Martin Prakkat",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e689b93b-df82-4e0f-b218-2cf0f9b77714",
+    "title": "Majaal",
+    "year": 1987,
+    "hero": "Jeetendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "aa3fb5d3-f964-4534-97db-df8481676f2a",
+    "title": "Sankeerthana",
+    "year": 1987,
+    "hero": null,
+    "director": "Jorge Manzano",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "445b265b-b7fa-4d0f-ad49-a0967b4c631a",
+    "title": "Kirai Dada",
+    "year": 1987,
+    "hero": "Nagarjuna Akkineni",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2611d53a-2af0-44d4-b74b-0abee0a5069f",
+    "title": "Aradhana",
+    "year": 1987,
+    "hero": "Chiranjeevi",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "985ec4ac-2ab2-4f42-9e07-5e4fd22f8079",
+    "title": "Samsaram Oka Chadarangam",
+    "year": 1987,
+    "hero": "Sarath Babu",
+    "director": "S. P. Muthuraman",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "45a1d1d7-b79a-4bcb-a814-0cbe4b36b191",
+    "title": "Aisa Pyaar Kahan",
+    "year": 1986,
+    "hero": "Glenn Ford",
+    "director": "Charles Vidor",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a784367c-e6c8-4eac-bdd0-19b54530c4a8",
+    "title": "Karma",
+    "year": 1986,
+    "hero": "Dilip Kumar",
+    "director": "Subhash Ghai",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bc766693-9002-4bad-9e34-1a89051ffc4b",
+    "title": "Padaharella Ammayi",
+    "year": 1986,
+    "hero": null,
+    "director": "P. S. Krishna Mohan Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "94e77969-a916-4237-8628-6883292cd740",
+    "title": "Janbaaz",
+    "year": 1986,
+    "hero": "Feroz Khan",
+    "director": "Feroz Khan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ec820d05-afa3-4498-8a96-b1d6c95b1d22",
+    "title": "Pyar Ke Do Pal",
+    "year": 1986,
+    "hero": "Mithun Chakraborty",
+    "director": "Rajiv Mehra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f9bba0dc-ab55-49ea-b75b-afaab5165f63",
+    "title": "Kodama Simham",
+    "year": 1986,
+    "hero": "Chiranjeevi",
+    "director": "K. Murali Mohana Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ae47e37d-0918-4b12-abaa-abbe390f6a11",
+    "title": "Muddat",
+    "year": 1986,
+    "hero": "Mithun Chakraborty",
+    "director": "K. Bapayya",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f63b0962-66a8-4a16-8ac6-dd073920dacb",
+    "title": "Aakhree Raasta",
+    "year": 1986,
+    "hero": "Sridevi",
+    "director": "K. Bhagyaraj",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3ecc24aa-4690-43ac-ad3e-788cb5d5e7dd",
+    "title": "Kashmora",
+    "year": 1986,
+    "hero": "Karthi",
+    "director": "N. B. Chakravarthy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d60b0106-384b-4f9e-99b8-d959bb22ca1b",
+    "title": "Sita Rama Kalyanam",
+    "year": 1986,
+    "hero": "Haranath",
+    "director": "N.T. Rama Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "216578da-2745-4fc7-9241-e8a432cf768c",
+    "title": "Pyaar Ke Do Pal",
+    "year": 1986,
+    "hero": "Ray Milland",
+    "director": "Rajiv Mehra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c53c4327-bdd7-44bc-ac9b-501ebcc9f312",
+    "title": "Pattabhishekam",
+    "year": 1985,
+    "hero": "Nandamuri Balakrishna",
+    "director": "K. Raghavendra Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "a1752355-6911-4be3-a806-10dead46b0a5",
+    "title": "Archana Aaradhana",
+    "year": 1985,
+    "hero": "Mammootty",
+    "director": "Sajan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e8e681d4-fcca-467e-aa1f-c52cf5b4cf9a",
+    "title": "Rakta Sindhuram",
+    "year": 1985,
+    "hero": "Chiranjeevi",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c03c3b7c-4ea6-49bf-acd8-cc7a5400f72e",
+    "title": "Zabardast",
+    "year": 1985,
+    "hero": "Sanjeev Kumar",
+    "director": "Nasir Hussain",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "42a803e4-e75b-4766-a645-9c0136b46b71",
+    "title": "Chiranjeevi",
+    "year": 1985,
+    "hero": "Chiranjeevi",
+    "director": "C. V. Rajendran",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "99b9ec18-86bc-40ed-9e5b-ebdadecefb5c",
+    "title": "Mera Saathi",
+    "year": 1985,
+    "hero": "Kongara Jaggayya",
+    "director": "K. Raghavendra Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "fbc06ae8-0c76-4f77-bd0b-843444a9a2d3",
+    "title": "Balidaan",
+    "year": 1985,
+    "hero": "Jeetendra",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ecae4f38-16a0-450e-9297-2f183c853666",
+    "title": "Devanthakudu",
+    "year": 1984,
+    "hero": "Chiranjeevi",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "874d23ee-a47a-4c6e-8e3b-573059e94e1e",
+    "title": "Inquilaab",
+    "year": 1984,
+    "hero": "Amitabh Bachchan",
+    "director": "Rama Rao Tatineni",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "cf891901-0304-4964-9ed7-dca5f576b55a",
+    "title": "Akalmand",
+    "year": 1984,
+    "hero": "Jeetendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "8453791a-ad01-471b-9ca6-d20d52e54c1c",
+    "title": "Sharaabi",
+    "year": 1984,
+    "hero": "Amitabh Bachchan",
+    "director": "Prakash Mehra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1e238a2f-0a89-4f4d-ad21-2e996c6de275",
+    "title": "Rojulu Marayi",
+    "year": 1984,
+    "hero": "Chiranjeevi",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "3e77ce67-0cce-4df2-bea0-70ee54eb9c7b",
+    "title": "Dharm Aur Qanoon",
+    "year": 1984,
+    "hero": "Rajesh Khanna",
+    "director": "Juan de Orduña",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "32d1e7f0-d06e-4892-aaa9-38e68cb3fd06",
+    "title": "Sardar&#91;41&#93;",
+    "year": 1984,
+    "hero": "Jaya Prada",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "09db026f-9e52-4ff3-9432-d48e611c3d79",
+    "title": "Jaani Dost",
+    "year": 1983,
+    "hero": "Dharmendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "f6532d02-3fed-4bc6-8b73-74655fac0921",
+    "title": "Adutha Varisu",
+    "year": 1983,
+    "hero": "Rajinikanth",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "839e0266-9357-4e1e-9f2e-fe7f50e7953b",
+    "title": "Sandhippu",
+    "year": 1983,
+    "hero": "Sivaji Ganesan",
+    "director": "C. V. Rajendran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b0ab5241-06e2-48ad-82dd-3c9a737a81b6",
+    "title": "Maharani (Tamil Dubbed Nayakkarin Magal 1982)",
+    "year": 1983,
+    "hero": "Sivaji Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "936013a9-6977-45ca-b71f-1393f026a6f2",
+    "title": "Prema Sagaram (Tamil Dubbed Nenjil Oru Ragam)",
+    "year": 1983,
+    "hero": "T. Rajendar",
+    "director": "T. Rajendar",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "9fcf70da-160e-4635-af49-538749378675",
+    "title": "Shubha Muhurtam",
+    "year": 1983,
+    "hero": "Murali Mohan",
+    "director": "C. P. Kolli",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "26a68cd4-8964-4476-a021-926903bcd6ab",
+    "title": "Simha Gharjane",
+    "year": 1983,
+    "hero": "Vijayashanti",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5303c9b2-7a00-493f-bcd8-ad6c3373f890",
+    "title": "Palletoori Monagadu",
+    "year": 1983,
+    "hero": "Chiranjeevi",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2f2684e9-4ef1-4173-9c5a-4ae3b918959b",
+    "title": "Qayamat",
+    "year": 1983,
+    "hero": "Dharmendra",
+    "director": "Raj N. Sippy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ec7b1c9a-3e0a-414a-9878-a083c6df4d47",
+    "title": "Dharmaatmudu",
+    "year": 1983,
+    "hero": "Krishnam Raju",
+    "director": "B. Bhaskara Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "da08244c-b75c-4473-9abe-088555ce819e",
+    "title": "Main Awara Hoon",
+    "year": 1983,
+    "hero": "Jaya Prada",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1963b432-f88b-4a2a-a6a5-b8da7e72f64c",
+    "title": "Prema Sagaram",
+    "year": 1983,
+    "hero": "T. Rajendar",
+    "director": "T. Rajendar",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "d40fc607-a589-409d-ad3c-5c8a655399a0",
+    "title": "Saagara Sangamam",
+    "year": 1983,
+    "hero": "Kamal Haasan",
+    "director": "K. Viswanath",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f2c5a205-9338-4947-8f9a-9d2027082099",
+    "title": "Meghasandesham",
+    "year": 1982,
+    "hero": null,
+    "director": "Dasari Narayana Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b29ee1b0-1588-47ae-a0b5-4155e772ffef",
+    "title": "Chalaki Chellamma",
+    "year": 1982,
+    "hero": "Chiranjeevi",
+    "director": "A. Kodandarami Reddy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "fca101b0-18be-4ce5-8e01-3a13444ebad6",
+    "title": "Pokkiri Raja",
+    "year": 1982,
+    "hero": "Rajinikanth",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7817056b-9772-4c19-902e-24723aea1d4d",
+    "title": "Talli Kodukula Anubandham",
+    "year": 1982,
+    "hero": null,
+    "director": "K. S. R. Das",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "dc4eaf11-0b2a-4438-a2cb-263e739e5cd3",
+    "title": "Devata",
+    "year": 1982,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "Thatineni Prasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ac2d3a7f-43c6-4eef-8d48-aef4be45465e",
+    "title": "Trishulam",
+    "year": 1982,
+    "hero": null,
+    "director": "K. Raghavendra Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "11485c64-4eb3-42be-90ed-457fd91ab343",
+    "title": "Madhura Swapnam",
+    "year": 1982,
+    "hero": null,
+    "director": "K. Raghavendra Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6212f700-84e3-4c84-bedc-570a48747a3d",
+    "title": "Nizhal Thedum Nenjangal",
+    "year": 1982,
+    "hero": "Rajinikanth",
+    "director": "P. S. Nivas",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bcfaeb98-ec07-4bb1-ab79-cfe19777d21a",
+    "title": "Daiviyin Thiruvilaiyadal",
+    "year": 1982,
+    "hero": "Sivaji Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e2d3f4ec-ce83-42ff-bcdf-baa5b5d74a18",
+    "title": "Ilanjodigal",
+    "year": 1982,
+    "hero": "Karthik Muthuraman",
+    "director": "Rama Narayanan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3f768d13-44d6-4f08-a893-2a57a5e1f570",
+    "title": "Aththaku Thagga Allullu",
+    "year": 1982,
+    "hero": "Krishna",
+    "director": "Rama Narayanan",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "9ea9b9ce-5838-45e7-84f0-c0adc1ffa834",
+    "title": "Deiva Thirumanangal",
+    "year": 1981,
+    "hero": "R. S. Manohar",
+    "director": "P. Neelakantan",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "4573fe79-3ff4-4817-aba1-6a0e4cc4df48",
+    "title": "Seethakoka Chilaka",
+    "year": 1981,
+    "hero": "Karthik",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "6bf02cce-97aa-4075-9756-adb08cf497e6",
+    "title": "Nenjile Thunivirunthal",
+    "year": 1981,
+    "hero": "Vijayakanth",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6121afa9-67d8-4f6e-bf9e-b5c34b0ac56e",
+    "title": "Netrikan",
+    "year": 1981,
+    "hero": "Rajinikanth",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "06506eed-73d6-43dd-af5e-66030ac47b65",
+    "title": "Paravathi Parameshwarulu",
+    "year": 1981,
+    "hero": "Chandra Mohan",
+    "director": "M. S. Kota Reddy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4e537c0b-661c-4106-b447-3832eb245c26",
+    "title": "Siddhalingeshwara Mahima",
+    "year": 1981,
+    "hero": null,
+    "director": "Hunsur Krishnamurthy",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "0b58ead7-2284-4bbf-be1c-18c9f775690d",
+    "title": "Chattaniki Kallu Levu",
+    "year": 1981,
+    "hero": "Chiranjeevi",
+    "director": "S. A. Chandrasekhar",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "734bcc42-6731-4c13-9c66-30a4e50e5fd7",
+    "title": "Adavaallu Meeku Joharulu",
+    "year": 1981,
+    "hero": null,
+    "director": "K. Balachander",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ab22a959-7c31-43a8-aa31-5f82dcf5dea6",
+    "title": "Inimai Idho Idho",
+    "year": 1980,
+    "hero": null,
+    "director": "R. Ramamurthy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "90c2fb7e-6c92-45a4-81c4-a6c18b32e742",
+    "title": "Rakta Sambandham",
+    "year": 1980,
+    "hero": "Murali Mohan",
+    "director": "M. Mallikarjuna Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4b47dda0-1b59-48e2-94a5-d910172668f4",
+    "title": "Vishwaroobam",
+    "year": 1980,
+    "hero": "Sivaji Ganesan",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7c919937-f5f5-41af-a86c-a43866e10068",
+    "title": "Kallukul Eeram",
+    "year": 1980,
+    "hero": "Bharathiraja",
+    "director": "P. S. Nivas",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "75229791-efef-476e-8c69-0bfbdbfb44dd",
+    "title": "Adadhee Gadapa Datithe",
+    "year": 1980,
+    "hero": "Rajendra Prasad",
+    "director": "B. S. Narayana",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "4b6a3760-2d49-4fff-b64a-0fd39822d52c",
+    "title": "Aadadi Gadapa Daatite",
+    "year": 1980,
+    "hero": "Murali Mohan",
+    "director": "B. S. Narayana",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "0a0d8345-02a7-4343-ada9-89ea66b5f912",
+    "title": "Agni Sanskaram",
+    "year": 1980,
+    "hero": "Gummadi",
+    "director": "G. V. Prabhakar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6831aff4-99da-4cdc-b581-92c403e28eec",
+    "title": "Kotha Jeevithalu",
+    "year": 1980,
+    "hero": "Suhasini",
+    "director": "Bharathiraja",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "fbb6add6-ecfe-4b29-ae46-f905df9b8a2e",
+    "title": "Maavari Manchitanam",
+    "year": 1979,
+    "hero": "Gummadi",
+    "director": "B. A. Subba Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "a627463f-07e8-46c2-a00b-1d5749a24b88",
+    "title": "Kavari Maan",
+    "year": 1979,
+    "hero": "Sivaji Ganesan",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "53183cdc-9aec-4d6a-9489-240077ed3532",
+    "title": "Ninaithaale Inikkum",
+    "year": 1979,
+    "hero": "Jaya Prada",
+    "director": "K. Balachander",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ac66122d-0ab5-4d66-a581-5f28d962659e",
+    "title": "Nimajjanam",
+    "year": 1979,
+    "hero": "Chakrapani",
+    "director": "B. S. Narayana",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "cfb97d2c-8ad7-4884-a866-c537a7f85f34",
+    "title": "Vetagaadu",
+    "year": 1979,
+    "hero": "N. T. Rama Rao",
+    "director": "K. Raghavendra Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "d230d639-8927-40d7-9889-79f95e18d21f",
+    "title": "Sri Rambantu",
+    "year": 1979,
+    "hero": "Chiranjeevi",
+    "director": "Arudra",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bbf3b8b2-ff2a-4ded-a6c3-86e9c9f17a7e",
+    "title": "Q12985478",
+    "year": 1979,
+    "hero": "Chiranjeevi",
+    "director": "K. Vasu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d5ce14fb-1757-4804-b047-12f4c1ce934d",
+    "title": "Ashwadhamavu",
+    "year": 1979,
+    "hero": "Madampu Kunjukuttan",
+    "director": "K. R. Mohanan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4d439a59-c6ed-4260-835e-cb64e036f65f",
+    "title": "Solva Sawan",
+    "year": 1979,
+    "hero": "Amol Palekar",
+    "director": "Bharathiraja",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "df549993-f861-45e5-a3e4-4e113e343276",
+    "title": "Shri Rama Bantu",
+    "year": 1979,
+    "hero": "Chandra Mohan",
+    "director": "S. D. Lal",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "1a30f843-d0ba-4f3a-8886-b6be6253129c",
+    "title": "Amar Deep",
+    "year": 1979,
+    "hero": "Rajesh Khanna",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2d2300e8-75f4-40fa-9d89-11b728749949",
+    "title": "Karunai Ullam",
+    "year": 1978,
+    "hero": "Gemini Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d5a0eedb-5789-4ac9-8b99-7e7291498562",
+    "title": "டாக்ஸி டிரைவர்",
+    "year": 1978,
+    "hero": "Jaishankar",
+    "director": "N. S. Manian",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1a2d75cb-f7af-44c0-b7ad-eaf4b4bcfc31",
+    "title": "Q16311395",
+    "year": 1978,
+    "hero": "Vijayachander",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7b15d303-ebc5-4428-a266-f6f11604cc9b",
+    "title": "Priya",
+    "year": 1978,
+    "hero": "Sridevi",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a6fef85e-9f2e-46b4-8fa8-7daf7748546d",
+    "title": "Vanakkathukuriya Kathaliye",
+    "year": 1978,
+    "hero": "Sridevi",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ebfb5790-0433-4a0c-9489-92e0828da6f3",
+    "title": "Sigappu Rojakkal",
+    "year": 1978,
+    "hero": "Kamal Haasan",
+    "director": "Bharathiraja",
+    "hasRating": false,
+    "hasPoster": true
+  },
+  {
+    "id": "e9f186ac-3523-4e66-bec4-74cf1251a441",
+    "title": "Pilot Premnath",
+    "year": 1978,
+    "hero": "Sivaji Ganesan",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f62805b3-f0e2-4b64-86fe-5ef524a701ba",
+    "title": "Karunamayudu",
+    "year": 1978,
+    "hero": "Vijayachander",
+    "director": "A. Bhimsingh",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "f1d111a3-e18d-40d7-8dcf-3ddea22606c5",
+    "title": "Mugguru Muggure",
+    "year": 1978,
+    "hero": "Krishna",
+    "director": "S. D. Lal",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "8be8694c-0165-4bf2-b13a-64efcc5171e9",
+    "title": "Unnai Suttrum Ulagam",
+    "year": 1977,
+    "hero": null,
+    "director": "G. Subramaniya Reddiar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d6f63ca4-4589-471d-9532-f0dbcd7a9cc8",
+    "title": "Amaradeepam",
+    "year": 1977,
+    "hero": "Sivaji Ganesan",
+    "director": "Tatineni Prakash Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f0b669a6-227e-46c8-bdca-8778aef704d8",
+    "title": "Q12982331",
+    "year": 1977,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "V. B. Rajendra Prasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "ed0ab163-a896-4242-b876-25151923d654",
+    "title": "16 Vayathinile",
+    "year": 1977,
+    "hero": "Kamal Haasan",
+    "director": "Bharathiraja",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b7aad561-d88c-44b1-bd47-7076d669d0b5",
+    "title": "Jeevana Theeralu",
+    "year": 1977,
+    "hero": "Krishnam Raju",
+    "director": "G. C. Sekhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e0d66df8-d137-4e1f-b548-b59fbc1119b1",
+    "title": "Dasavatharam",
+    "year": 1976,
+    "hero": "Gemini Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f9e77104-1b83-4e6c-abbd-5dc302267ec7",
+    "title": "Thulaavarsham",
+    "year": 1976,
+    "hero": "Prem Nazir",
+    "director": "N Sankaran Nair",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3aa5a84e-eab1-4777-b1b5-edc402a6b2f9",
+    "title": "Oorummadi Brathukulu",
+    "year": 1976,
+    "hero": "G.V. Narayana Rao",
+    "director": "B.S. Narayana",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "19587c16-9847-4d64-ad44-4101efe4727d",
+    "title": "Bangaru Manishi",
+    "year": 1976,
+    "hero": "N. T. Rama Rao",
+    "director": "A. Bhimsingh",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "d7ea2bdc-b127-4737-9553-d63ea6ab0415",
+    "title": "Sita Swayamvar",
+    "year": 1976,
+    "hero": "Ravikumar",
+    "director": "Bapu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d7bc94cc-2f66-4b0d-8b0a-e6390f7d9f5f",
+    "title": "Julie",
+    "year": 1975,
+    "hero": null,
+    "director": "K. S. Sethumadhavan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "43c49acb-bbad-4f91-8123-a9dfdc8f99a5",
+    "title": "Santhanam Soubhagyam",
+    "year": 1975,
+    "hero": "Krishnam Raju",
+    "director": "Dasari Narayana Rao",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "420f8186-9bd4-426e-9864-876c59751ff0",
+    "title": "Thathamma Kala",
+    "year": 1974,
+    "hero": "Krishna",
+    "director": "Dadasaheb",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "fbe0ee14-3cd4-4f31-9c60-b4494dd4a472",
+    "title": "Andaru Dongale",
+    "year": 1974,
+    "hero": "Rajendra Prasad",
+    "director": "Nidhi Prasad",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a5a91ed7-aec0-49b9-b885-e9d1d8daa2b7",
+    "title": "Bhaktha Kumbara",
+    "year": 1974,
+    "hero": "Dr. Rajkumar",
+    "director": "Hunsur Krishnamurthy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "bf98877b-af8a-4e0d-ac13-369a4cb3a183",
+    "title": "Chuzhi",
+    "year": 1973,
+    "hero": null,
+    "director": "Triprayar Sukumaran",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "37e0ce5f-6a3d-427a-a009-77bbdc75b789",
+    "title": "Sharada",
+    "year": 1973,
+    "hero": "M G Soman",
+    "director": "K G Rajasekharan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "03675861-2837-49a1-aedb-24cd1dfbe391",
+    "title": "Bharatha Vilas",
+    "year": 1973,
+    "hero": "Sivaji Ganesan",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "dc4ed346-3737-4cc7-b5fa-d5cde893ce7f",
+    "title": "Rajapart Rangadurai",
+    "year": 1973,
+    "hero": "Sivaji Ganesan",
+    "director": "P. Madhavan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b110e074-b59b-46fa-80f0-a346e44c04a1",
+    "title": "Srivaru Maavaru",
+    "year": 1973,
+    "hero": "Krishna",
+    "director": "B. S. Narayana",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "ccc870ad-37f9-4157-9f1b-b95e62cc1761",
+    "title": "Bhale Mosagadu",
+    "year": 1972,
+    "hero": "Chandra Mohan",
+    "director": "K Vasu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "034537e3-d2d8-48db-a0ac-8f1615357634",
+    "title": "Kanimuthu Paappa",
+    "year": 1972,
+    "hero": "Jaishankar",
+    "director": "S. P. Muthuraman",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "186f8797-47ae-42cd-a97c-c6788996fd6e",
+    "title": "Agathiyar",
+    "year": 1972,
+    "hero": "Gemini Ganesan",
+    "director": "A. P. Nagarajan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "e1565baa-3261-4aba-b684-240b5b36b302",
+    "title": "Vasantha Maligai",
+    "year": 1972,
+    "hero": "Sivaji Ganesan",
+    "director": "K. S. Prakash Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2ced2102-12ab-4391-9e5b-40ae526c7b11",
+    "title": "Amma Mata",
+    "year": 1972,
+    "hero": "Sobhan Babu",
+    "director": "V. Ramachandra Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1196ac9f-472a-446a-9f7b-41b8ad8bdb75",
+    "title": "Iddaru Ammayilu",
+    "year": 1972,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "Putanna Kanagal",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5cb44bbf-dd51-48d3-99d9-2834bb09fe16",
+    "title": "Bala Mitrula Katha",
+    "year": 1972,
+    "hero": "Gummadi",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1d604c78-6355-4d2d-8e84-8f928e1f3d6c",
+    "title": "Menakodalu",
+    "year": 1972,
+    "hero": "Krishna",
+    "director": "B.S. Narayana",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "25f82db4-34b8-48a8-ba9d-bfa0e841a394",
+    "title": "Sange Muzhangu",
+    "year": 1972,
+    "hero": "M. G. Ramachandran",
+    "director": "P. Neelakantan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "fe2267ad-f54b-44c5-a087-5ef740103f5c",
+    "title": "Monagadostunnadu Jagartta",
+    "year": 1972,
+    "hero": "Krishna",
+    "director": "K.S.R. Das",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "f9538b63-e013-4c43-b1e7-9e005d04895a",
+    "title": "Adi Parasakthi",
+    "year": 1971,
+    "hero": "Gemini Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "9e112fab-e469-494a-bd81-64c32e227647",
+    "title": "Kalyana Mandapam",
+    "year": 1971,
+    "hero": "Kiran Abbavaram",
+    "director": "Sridhar Gade",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5ab42f8c-f304-4fb5-a0bf-bb63f4f31ead",
+    "title": "Babu",
+    "year": 1971,
+    "hero": "Sivaji Ganesan",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5356abfd-e4dc-47e3-8ebc-756818317e70",
+    "title": "Sabadham",
+    "year": 1971,
+    "hero": null,
+    "director": "P. Madhavan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c8aac18d-6c0b-4d9c-90aa-6d1e2422bf87",
+    "title": "Kannan Karunai",
+    "year": 1971,
+    "hero": "N. T. Rama Rao",
+    "director": "N.T. Rama Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "74d202f4-69a0-4c6e-a062-e0cdd2238c02",
+    "title": "Pavitra Hrudayalu",
+    "year": 1971,
+    "hero": "N. T. Rama Rao",
+    "director": "A. Bhimsingh",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "213cb1fa-d010-4824-b51d-2fc1dcd0d1c0",
+    "title": "Poombatta",
+    "year": 1971,
+    "hero": "Sridevi",
+    "director": "B K Pottekkadu",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "82330833-3124-4248-89c4-0cee772d2865",
+    "title": "Chitti Chellelu",
+    "year": 1970,
+    "hero": "N. T. Rama Rao",
+    "director": "M. Krishnan Nair",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "4d65ff8e-ca9d-42d6-8a64-f7c6aef67b4e",
+    "title": "Sabarimala Shri Dharmasastha",
+    "year": 1970,
+    "hero": null,
+    "director": "M. Krishnan Nair",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d6e940a3-3f57-4e93-96bb-a560c769fdd1",
+    "title": "Swapnangal",
+    "year": 1970,
+    "hero": "Madhu",
+    "director": "P Subramaniam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2e4b14ee-be25-4201-9098-5d603f666e63",
+    "title": "Oke Kutumbham",
+    "year": 1970,
+    "hero": "N. T. Rama Rao",
+    "director": "A. Bhimsingh",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "e1a98c66-eead-4c82-bba9-d3227a7277f3",
+    "title": "Penn Daivam",
+    "year": 1970,
+    "hero": "Jaishankar",
+    "director": "M. A. Thirumugam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7242ab06-beda-4f70-a294-59f7726dfc9f",
+    "title": "En Annan",
+    "year": 1970,
+    "hero": "M. G. Ramachandran",
+    "director": "P. Neelakantan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2a590415-5b6c-4321-bfcc-271fc1466bfb",
+    "title": "Manishichina Maguva",
+    "year": 1969,
+    "hero": "Murali Mohan",
+    "director": "A. Bhimsingh",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "af098222-07d1-40dd-8890-d1846af31cd3",
+    "title": "Kumara Sambhavam",
+    "year": 1969,
+    "hero": "Gemini Ganesan",
+    "director": "P Subramaniam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "d7d83702-b1a1-493e-b3c6-fe0ebc6da979",
+    "title": "Nam Naadu",
+    "year": 1969,
+    "hero": "MGR",
+    "director": "Jambulingam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "7b05a559-77e9-451a-ab5d-d0ec36c509ce",
+    "title": "Bandipotu Bheemanna",
+    "year": 1969,
+    "hero": "Krishna",
+    "director": "K. Pratyagatma",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "7424573d-49a1-436d-820b-3091c7c48fc3",
+    "title": "Kulavilakku",
+    "year": 1969,
+    "hero": "Gemini Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1693aeaf-3fa6-463f-98cf-57d4f0a6953b",
+    "title": "Thunaivan",
+    "year": 1969,
+    "hero": null,
+    "director": "M. A. Thirumugam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b7d08456-0a91-4a92-acf8-60bb4b33a63c",
+    "title": "Varakatnam",
+    "year": 1968,
+    "hero": "N. T. Rama Rao",
+    "director": "N.T. Rama Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "a9382de5-3fa3-4c05-b2d1-f824e77b06c5",
+    "title": "Ramu",
+    "year": 1968,
+    "hero": "N. T. Rama Rao",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "5ffbe678-bf88-4b2d-8830-e74f90fc9f43",
+    "title": "Sudigundaalu",
+    "year": 1968,
+    "hero": "N. T. Rama Rao",
+    "director": "Adurthi Subba Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c0b08b22-73ed-4160-9064-4a5992f4df80",
+    "title": "Poola Rangadu",
+    "year": 1967,
+    "hero": "Sunil Varma",
+    "director": "Veerabhadram",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "6bb9ee24-bd83-43f9-a6f9-31348cc85ca5",
+    "title": "Kandhan Karunai",
+    "year": 1967,
+    "hero": "Sivaji Ganesan",
+    "director": "A. P. Nagarajan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b7621e78-1384-413c-a612-323268b61bbb",
+    "title": "Ave Kallu",
+    "year": 1967,
+    "hero": "Krishna",
+    "director": "A. C. Tirulokchandar",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "8a6d6855-5ae8-4722-874f-762fad1c67a0",
+    "title": "Devuni Gelichina Manavudu",
+    "year": 1967,
+    "hero": "Kanta Rao",
+    "director": "Hunsur Krishnamurthy",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "5d98fdb3-4b6e-4037-a7ea-02794d6a00a4",
+    "title": "Shri Krishnavataram",
+    "year": 1967,
+    "hero": "N. T. Rama Rao",
+    "director": "Kamalakara Kameswara Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "2142390d-8c14-4236-9aae-eb20edaa95cd",
+    "title": "Shri Krishna Pandaviyam",
+    "year": 1966,
+    "hero": "N. T. Rama Rao",
+    "director": "N. T. Rama Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b9765789-9acc-4122-b91c-34d6f9a29295",
+    "title": "Palnati Yudham",
+    "year": 1966,
+    "hero": "N. T. Rama Rao",
+    "director": "Gutha Ramineedu",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "cce499ce-0564-40b5-bf70-ec5e97ea2adb",
+    "title": "Who is she?",
+    "year": 1966,
+    "hero": "Kongara Jaggayya",
+    "director": "B. S. Narayana",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "076745f1-ed22-4c60-80b4-de2cd38e198c",
+    "title": "Vallavanukku Vallavan",
+    "year": 1965,
+    "hero": "Gemini Ganesan",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "79002c52-edcc-4d95-b4d2-1c15f0432806",
+    "title": "Thiruvilayadal",
+    "year": 1965,
+    "hero": "Sivaji Ganesan",
+    "director": "A. P. Nagarajan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b517ecd9-ed4c-4aa0-93db-b9273e4d08b7",
+    "title": "Bangaru Panjaram",
+    "year": 1965,
+    "hero": "Sobhan Babu",
+    "director": "B.N. Reddi",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "3bbeed9a-30c4-458c-827a-11f4df9582c4",
+    "title": "Poojaikku Vandha Malar",
+    "year": 1965,
+    "hero": "Gemini Ganesan",
+    "director": "Muktha Srinivasan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c14c944e-e9d6-4265-88e0-2e6510f1fe25",
+    "title": "Mooga Manasulu",
+    "year": 1964,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "Adurthi Subba Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "4bf8c217-ffe2-489d-809d-50a499ac3cd1",
+    "title": "Kai Koduttha Dheivam",
+    "year": 1964,
+    "hero": "Sivaji Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "0bac0fce-8286-4ad3-9c88-51a57f9b671a",
+    "title": "Sri Tirupatamma Katha",
+    "year": 1964,
+    "hero": "N. T. Rama Rao",
+    "director": "B.S. Narayana",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "c2ff5c7e-7bd0-4ec4-9967-7d69c261810a",
+    "title": "Ganga Ki Lahren",
+    "year": 1964,
+    "hero": "Dharmendra",
+    "director": null,
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "02e703b0-1edb-4af0-aedc-d1235bcc7f1b",
+    "title": "Apne Huye Paraye",
+    "year": 1964,
+    "hero": "Manoj Kumar",
+    "director": "Ajit Chakrabarty",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "1ad3ff13-0cda-4fde-a256-da2e905d3b05",
+    "title": "Edureeta",
+    "year": 1963,
+    "hero": "N.T. Rama Rao, Jaggayya",
+    "director": "B.S. Narayana",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "a70c1778-f836-47c4-aa43-e1d93a78de75",
+    "title": "Sri Tirupatamma Katha",
+    "year": 1963,
+    "hero": "N. T. Rama Rao",
+    "director": "B.S. Narayana",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "313aa829-c3c6-4901-92d1-23e24c003aaf",
+    "title": "Bangaru Thimmaraju",
+    "year": 1963,
+    "hero": "N.T. Rama Rao",
+    "director": "G. Viswanathan",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "76cf0363-bde6-475e-afb4-73c205ddeda8",
+    "title": "Paruvu-Prathishtta",
+    "year": 1963,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "Adeen",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "d767df06-9a7e-4a4b-88ec-d6f62bea1eb4",
+    "title": "Aaptha Mithrulu",
+    "year": 1963,
+    "hero": "N. T. Rama Rao",
+    "director": "V Nacharya",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "94f94f70-8c8c-4d26-bb30-29bdaed05c9c",
+    "title": "Paruvu-Prathishta",
+    "year": 1963,
+    "hero": "N. T. Rama Rao",
+    "director": "Manapuram Appa Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "6ab3ecad-bb95-4f5d-adef-b0e1c0cbb25f",
+    "title": "Karpagam",
+    "year": 1963,
+    "hero": "Gemini Ganesan",
+    "director": "K. S. Gopalakrishnan",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "9be5935c-c1aa-4d28-9381-a19ba46a241e",
+    "title": "Samrat Pruthviraj (Rani Samyukta)",
+    "year": 1962,
+    "hero": "N.T. Rama Rao",
+    "director": "Hunsur Krishnamurthy",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "6e9d0c29-3a2a-40e1-bca6-c30779c5a402",
+    "title": "Nartanasala",
+    "year": 1962,
+    "hero": "N. T. Rama Rao",
+    "director": "Kamalakara Kameshwara Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "666d9a1a-def4-4bbb-a7a7-5657738fbe10",
+    "title": "Padandi Munduku",
+    "year": 1962,
+    "hero": "Kongara Jaggayya",
+    "director": "V. Madhusudhan Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "7f0b003c-b15f-4087-9003-0efc1d959658",
+    "title": "Paarthaal Pasi Theerum",
+    "year": 1962,
+    "hero": "Sivaji Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "794250d0-96e1-4aee-8de3-ce805a0886c2",
+    "title": "Pava Mannippu",
+    "year": 1961,
+    "hero": "Sivaji Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "8a2686d8-95e2-4347-8613-96a509c045c4",
+    "title": "Shanta",
+    "year": 1961,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "V Madhusudhana Rao",
+    "hasRating": true,
+    "hasPoster": true
+  },
+  {
+    "id": "db3501ba-de8d-49cb-a6fc-0304f62512a9",
+    "title": "Pasamalar",
+    "year": 1961,
+    "hero": "Sivaji Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "c873ef3f-bdd5-43b1-a4c2-71714e371faf",
+    "title": "Manithan Maravillai",
+    "year": 1961,
+    "hero": "Gemini Ganesan",
+    "director": "M. G. Chakrapani",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "5d95bc5d-9490-4664-abc6-d2a9e29a05a8",
+    "title": "Kuravanji",
+    "year": 1960,
+    "hero": "Sivaji Ganesan",
+    "director": "A. Kasilingam",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "cc7599cd-730a-4e1f-9a03-40b884c50582",
+    "title": "Kalathur Kannamma",
+    "year": 1960,
+    "hero": "Gemini Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "964f1bbc-2141-442c-b6ac-b831ad0f63de",
+    "title": "Ramasundari",
+    "year": 1960,
+    "hero": "N.T. Rama Rao",
+    "director": "Hunsur Krishnamurthy",
+    "hasRating": true,
+    "hasPoster": false
+  },
+  {
+    "id": "c4b66da4-5845-4dfe-b4e9-293a69a0c1b1",
+    "title": "Kalyana Parisu",
+    "year": 1959,
+    "hero": "Gemini Ganesan",
+    "director": "C. V. Sridhar",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "426e74fb-e35c-49c7-b5dd-ec88d9bd53c3",
+    "title": "Padhi Bhakti",
+    "year": 1958,
+    "hero": "Gemini Ganesan",
+    "director": "A. Bhimsingh",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "aa6a8a7d-f47e-42a0-b938-3145ad479fb3",
+    "title": "Kaathavaraayan",
+    "year": 1958,
+    "hero": "Sivaji Ganesan",
+    "director": "T. R. Ramanna",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f86df043-4436-46ee-a4b6-6889d3b29f2e",
+    "title": "Pathini Deivam",
+    "year": 1957,
+    "hero": "Gemini Ganesan",
+    "director": "Ch. Narayana Murthy",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "98072c98-2f77-4087-8e9d-f05ca0497d80",
+    "title": "Vanangamudi",
+    "year": 1957,
+    "hero": "Arvind Swamy",
+    "director": "Selva",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "b846f0f7-bc40-4dd4-a744-d345d5b3b131",
+    "title": "Pennin Perumai",
+    "year": 1956,
+    "hero": "Sivaji Ganesan",
+    "director": "P. Pullaiah",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "8892bf0a-d4fb-45c9-8cd6-5ca00fbdd80a",
+    "title": "Bratuku Theruvu",
+    "year": 1953,
+    "hero": "Akkineni Nageswara Rao",
+    "director": "P. S. Ramakrishna Rao",
+    "hasRating": false,
+    "hasPoster": false
+  },
+  {
+    "id": "f7d50074-d831-4373-9fbc-4da8bf422684",
+    "title": "Chandirani",
+    "year": 1953,
+    "hero": "N.T. Rama Rao",
+    "director": "P. Bhanumathi",
+    "hasRating": true,
+    "hasPoster": false
+  }
+]

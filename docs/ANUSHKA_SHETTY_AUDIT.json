@@ -1,0 +1,20 @@
+{
+  "actorName": "Anushka Shetty",
+  "debutYear": 1950,
+  "wikipediaFilmCount": 50,
+  "databaseFilmCount": 9,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "2006": 1,
+    "2009": 1,
+    "2011": 1,
+    "2013": 2,
+    "2015": 2,
+    "2018": 1,
+    "2023": 1
+  },
+  "summary": "Count mismatch: DB=9, Wiki=~50"
+}

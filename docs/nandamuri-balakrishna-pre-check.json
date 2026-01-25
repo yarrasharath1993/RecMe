@@ -1,0 +1,22 @@
+{
+  "actor": "Nandamuri Balakrishna",
+  "standardName": "Nandamuri Balakrishna",
+  "dbCount": 111,
+  "tmdbCount": 91,
+  "wikiCount": null,
+  "expectedCount": 91,
+  "discrepancy": 20,
+  "nameVariationsFound": [],
+  "spellingDuplicatesFound": 4,
+  "hasMultipleTmdbIds": true,
+  "tmdbIds": [
+    82459,
+    150529
+  ],
+  "issues": [
+    "Found 4 spelling duplicates"
+  ],
+  "recommendations": [
+    "Review and merge spelling duplicates"
+  ]
+}

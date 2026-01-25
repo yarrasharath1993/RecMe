@@ -247,7 +247,7 @@ export default function ReviewEditorPage({
         
         <div className="flex gap-3">
           <Link
-            href={`/reviews/${movie.slug}`}
+            href={`/movies/${movie.slug}`}
             target="_blank"
             className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-600 flex items-center gap-2"
           >

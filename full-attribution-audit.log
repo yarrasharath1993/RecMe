@@ -1,0 +1,694 @@
+
+═══════════════════════════════════════════════════════════════
+  AUTOMATED ACTOR ATTRIBUTION AUDIT
+═══════════════════════════════════════════════════════════════
+
+Auditing top 100 priority actors
+
+✓ Loaded 100 actors
+
+
+Progress: 1/100
+
+[Satyanarayana] Fetching Wikipedia filmography...
+  Found 40 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 38
+  ❌ Missing: 0
+  Saved: satyanarayana-attribution.csv
+
+Progress: 2/100
+
+[K. Viswanath] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 3/100
+
+[K. Balachander] Fetching Wikipedia filmography...
+  Found 43 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 38
+  ❌ Missing: 0
+  Saved: k.-balachander-attribution.csv
+
+Progress: 4/100
+
+[Ramakrishna] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 5/100
+
+[Venu] Fetching Wikipedia filmography...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: venu-attribution.csv
+
+Progress: 6/100
+
+[Sunil] Fetching Wikipedia filmography...
+  Found 32 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 28
+  ❌ Missing: 0
+  Saved: sunil-attribution.csv
+
+Progress: 7/100
+
+[Rohit] Fetching Wikipedia filmography...
+  Found 9 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: rohit-attribution.csv
+
+Progress: 8/100
+
+[Gopichand] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 9/100
+
+[N.T. Rama Rao Jr.] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 10/100
+
+[Pawan Kalyan] Fetching Wikipedia filmography...
+  Found 45 movies on Wikipedia
+  ✓ Attributed: 25
+  ⚠️  Needs attribution: 20
+  ❌ Missing: 0
+  Saved: pawan-kalyan-attribution.csv
+
+Progress: 11/100
+
+[Raasi] Fetching Wikipedia filmography...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 14
+  ❌ Missing: 0
+  Saved: raasi-attribution.csv
+
+Progress: 12/100
+
+[Simran] Fetching Wikipedia filmography...
+  Found 25 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 23
+  ❌ Missing: 0
+  Saved: simran-attribution.csv
+
+Progress: 13/100
+
+[V. Nagayya] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 14/100
+
+[Rajasekhar] Fetching Wikipedia filmography...
+  Found 1 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: rajasekhar-attribution.csv
+
+Progress: 15/100
+
+[Vikram] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 16/100
+
+[Bhanumathi] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 17/100
+
+[Sneha] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 18/100
+
+[Prabhu Deva] Fetching Wikipedia filmography...
+  Found 5 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 5
+  ❌ Missing: 0
+  Saved: prabhu-deva-attribution.csv
+
+Progress: 19/100
+
+[Shobana] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 20/100
+
+[Sumanth] Fetching Wikipedia filmography...
+  Found 15 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: sumanth-attribution.csv
+
+Progress: 21/100
+
+[Rambha] Fetching Wikipedia filmography...
+  Found 51 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 44
+  ❌ Missing: 0
+  Saved: rambha-attribution.csv
+
+Progress: 22/100
+
+[Sharada] Fetching Wikipedia filmography...
+  Found 66 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 58
+  ❌ Missing: 0
+  Saved: sharada-attribution.csv
+
+Progress: 23/100
+
+[Trisha] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 24/100
+
+[Karthik] Fetching Wikipedia filmography...
+  Found 43 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 39
+  ❌ Missing: 0
+  Saved: karthik-attribution.csv
+
+Progress: 25/100
+
+[Anushka Shetty] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 26/100
+
+[Trisha Krishnan] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 27/100
+
+[Bhanupriya] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 28/100
+
+[Suresh] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 29/100
+
+[Nani] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 30/100
+
+[Nayanthara] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 31/100
+
+[Sarath Babu] Fetching Wikipedia filmography...
+  Found 41 movies on Wikipedia
+  ✓ Attributed: 9
+  ⚠️  Needs attribution: 32
+  ❌ Missing: 0
+  Saved: sarath-babu-attribution.csv
+
+Progress: 32/100
+
+[Prakash Raj] Fetching Wikipedia filmography...
+  Found 51 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 43
+  ❌ Missing: 0
+  Saved: prakash-raj-attribution.csv
+
+Progress: 33/100
+
+[Rajani] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 34/100
+
+[Madhavi] Fetching Wikipedia filmography...
+  Found 60 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 59
+  ❌ Missing: 0
+  Saved: madhavi-attribution.csv
+
+Progress: 35/100
+
+[Chandra Mohan] Fetching Wikipedia filmography...
+  Found 45 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 37
+  ❌ Missing: 0
+  Saved: chandra-mohan-attribution.csv
+
+Progress: 36/100
+
+[Siddharth] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 37/100
+
+[Jayalalitha] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 38/100
+
+[Varun Sandesh] Fetching Wikipedia filmography...
+  Found 9 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: varun-sandesh-attribution.csv
+
+Progress: 39/100
+
+[Geetha] Fetching Wikipedia filmography...
+  Found 76 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 73
+  ❌ Missing: 0
+  Saved: geetha-attribution.csv
+
+Progress: 40/100
+
+[Kanchana] Fetching Wikipedia filmography...
+  Found 49 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 41
+  ❌ Missing: 0
+  Saved: kanchana-attribution.csv
+
+Progress: 41/100
+
+[Ajay] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 42/100
+
+[Ramya Krishna] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 43/100
+
+[Priyamani] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 44/100
+
+[Amala] Fetching Wikipedia filmography...
+  Found 30 movies on Wikipedia
+  ✓ Attributed: 11
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: amala-attribution.csv
+
+Progress: 45/100
+
+[Latha] Fetching Wikipedia filmography...
+  Found 55 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 41
+  ❌ Missing: 0
+  Saved: latha-attribution.csv
+
+Progress: 46/100
+
+[Sukumar] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 47/100
+
+[Tarun] Fetching Wikipedia filmography...
+  Found 17 movies on Wikipedia
+  ✓ Attributed: 12
+  ⚠️  Needs attribution: 5
+  ❌ Missing: 0
+  Saved: tarun-attribution.csv
+
+Progress: 48/100
+
+[Devika] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 49/100
+
+[Vishnu] Fetching Wikipedia filmography...
+  Found 28 movies on Wikipedia
+  ✓ Attributed: 20
+  ⚠️  Needs attribution: 8
+  ❌ Missing: 0
+  Saved: vishnu-attribution.csv
+
+Progress: 50/100
+
+[Suhasini] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 51/100
+
+[Pushpavalli] Fetching Wikipedia filmography...
+  Found 41 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 39
+  ❌ Missing: 0
+  Saved: pushpavalli-attribution.csv
+
+Progress: 52/100
+
+[Nithiin] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 53/100
+
+[Dulquer Salmaan] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 54/100
+
+[Kanta Rao] Fetching Wikipedia filmography...
+  Found 5 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: kanta-rao-attribution.csv
+
+Progress: 55/100
+
+[Jaggayya] Fetching Wikipedia filmography...
+  Found 37 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 35
+  ❌ Missing: 0
+  Saved: jaggayya-attribution.csv
+
+Progress: 56/100
+
+[Mohan Babu] Fetching Wikipedia filmography...
+  Found 35 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 21
+  ❌ Missing: 0
+  Saved: mohan-babu-attribution.csv
+
+Progress: 57/100
+
+[Shriya Saran] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 58/100
+
+[Vineeth] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 59/100
+
+[Manjula] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 60/100
+
+[Brahmanandam] Fetching Wikipedia filmography...
+  Found 7 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: brahmanandam-attribution.csv
+
+Progress: 61/100
+
+[Suhas] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 62/100
+
+[Sundeep Kishan] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 63/100
+
+[Sumalatha] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 64/100
+
+[Sivaji] Fetching Wikipedia filmography...
+  Found 1 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: sivaji-attribution.csv
+
+Progress: 65/100
+
+[Sharwanand] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 66/100
+
+[Meena] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 67/100
+
+[Radha] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 68/100
+
+[Daggubati Venkatesh] Fetching Wikipedia filmography...
+  Found 41 movies on Wikipedia
+  ✓ Attributed: 27
+  ⚠️  Needs attribution: 14
+  ❌ Missing: 0
+  Saved: daggubati-venkatesh-attribution.csv
+
+Progress: 69/100
+
+[Krishna Kumari] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 70/100
+
+[Vijaya Nirmala] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 71/100
+
+[Kamal Haasan] Fetching Wikipedia filmography...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 12
+  ❌ Missing: 0
+  Saved: kamal-haasan-attribution.csv
+
+Progress: 72/100
+
+[Akkineni Nagarjuna] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 73/100
+
+[Ravi Teja] Fetching Wikipedia filmography...
+  Found 28 movies on Wikipedia
+  ✓ Attributed: 17
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: ravi-teja-attribution.csv
+
+Progress: 74/100
+
+[Jamuna] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 75/100
+
+[Roja] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 76/100
+
+[Rajinikanth] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 77/100
+
+[Anjali] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 78/100
+
+[Krishnam Raju] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 79/100
+
+[Sobhan Babu] Fetching Wikipedia filmography...
+  Found 3 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 3
+  ❌ Missing: 0
+  Saved: sobhan-babu-attribution.csv
+
+Progress: 80/100
+
+[Lakshmi] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 81/100
+
+[Nandamuri Balakrishna] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 82/100
+
+[Allari Naresh] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 83/100
+
+[Naresh] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 84/100
+
+[Suman] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 85/100
+
+[Jayasudha] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 86/100
+
+[Chiranjeevi] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 87/100
+
+[Arjun] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 88/100
+
+[Rajendra Prasad] Fetching Wikipedia filmography...
+  Found 43 movies on Wikipedia
+  ✓ Attributed: 17
+  ⚠️  Needs attribution: 26
+  ❌ Missing: 0
+  Saved: rajendra-prasad-attribution.csv
+
+Progress: 89/100
+
+[Srikanth] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 90/100
+
+[Jaya Prada] Fetching Wikipedia filmography...
+  Found 33 movies on Wikipedia
+  ✓ Attributed: 22
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: jaya-prada-attribution.csv
+
+Progress: 91/100
+
+[Sridevi] Fetching Wikipedia filmography...
+  Found 36 movies on Wikipedia
+  ✓ Attributed: 17
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: sridevi-attribution.csv
+
+Progress: 92/100
+
+[Shruti Haasan] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 93/100
+
+[Raja] Fetching Wikipedia filmography...
+  Found 9 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: raja-attribution.csv
+
+Progress: 94/100
+
+[Anjali Devi] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 95/100
+
+[Ali] Fetching Wikipedia filmography...
+  Found 44 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 41
+  ❌ Missing: 0
+  Saved: ali-attribution.csv
+
+Progress: 96/100
+
+[N.T. Rama Rao] Fetching Wikipedia filmography...
+  Found 20 movies on Wikipedia
+  ✓ Attributed: 19
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: n.t.-rama-rao-attribution.csv
+
+Progress: 97/100
+
+[Jagapathi Babu] Fetching Wikipedia filmography...
+  Found 10 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 9
+  ❌ Missing: 0
+  Saved: jagapathi-babu-attribution.csv
+
+Progress: 98/100
+
+[Akkineni Nageswara Rao] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 99/100
+
+[Ram] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 100/100
+
+[Krishna] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+═══════════════════════════════════════════════════════════════
+  AUDIT SUMMARY
+═══════════════════════════════════════════════════════════════
+
+Actors Processed:           100
+Movies Scraped:             1271
+✓ Properly Attributed:      322
+⚠️  Needs Attribution:       949 (75%)
+❌ Missing from DB:         0 (0%)
+
+⚠️  CRITICAL: 949 movies exist in DB but need re-attribution!
+
+Reports saved in: /Users/sharathchandra/Projects/telugu-portal/attribution-audits/
+
+═══════════════════════════════════════════════════════════════
+

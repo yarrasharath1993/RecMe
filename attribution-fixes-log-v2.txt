@@ -1,0 +1,2345 @@
+
+═══════════════════════════════════════════════════════════════
+  APPLY ATTRIBUTION FIXES FROM AUDIT
+═══════════════════════════════════════════════════════════════
+
+📁 Found 109 audit CSV files
+
+📋 Total attribution fixes to apply: 2944
+
+Processing 108 celebrities...
+
+[1/108] Aditi Rao Hydari (19 movies)
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Adhyakshaa → cast
+  ✓ Dhobi Ghat → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ Padmaavat → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Ponton's Heart → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+[2/108] Aishwarya Rai Bachchan (2 movies)
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+[3/108] Aksha Pardasany (11 movies)
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Welcome obama → cast
+  ✓ Bengal Tiger → cast
+  ✓ Dictator → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Coffee With Kadhal → cast
+[4/108] Amulya (15 movies)
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Friends → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+[5/108] Annu Kapoor (42 movies)
+  ✓ Ladies Special → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ ChaalBaaz → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Darr → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Railway Coolie → cast
+  ✓ Kurumbu → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ 7 Khoon Maaf → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Aatmabalam → cast
+  ✓ Ladies Special → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+[6/108] Anurag Basu (22 movies)
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ That is Pandu → cast
+  ✓ Life in a Metro → cast
+  ✓ Kites → cast
+  ✓ Barfi! → cast
+  ✓ Jagga Jasoos → cast
+  ✓ Ludo → cast
+  ✓ Leela Vinodam → cast
+  ✓ Ponton's Heart → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Barfi! → cast
+  ✓ Ludo → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Avunu → cast
+  ✓ Jagga Jasoos → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Avunu → cast
+  ✓ Avunu → cast
+[7/108] 254e75a3 (3 movies)
+  ✓ Super 30 → cast
+  ✓ Ponton's Heart → cast
+  ✓ Poster → cast
+[8/108] 76bfd159 (17 movies)
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Vedhalam → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Vedhalam → cast
+[9/108] Aadi (6 movies)
+  ✓ Vangaveeti → cast
+  ✓ Poster → cast
+  ✓ Leela Vinodam → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Welcome obama → cast
+  ✓ Nuvvila → cast
+[10/108] Ali (3 movies)
+  ✓ Aatagadu → cast
+  ✓ Amma Donga! → cast
+  ✓ Friends → cast
+
+📊 Progress: 10/108 celebrities (140 applied, 0 failed)
+
+[11/108] Ali Basha (3 movies)
+  ✓ Aatagadu → cast
+  ✓ Amma Donga! → cast
+  ✓ Friends → cast
+[12/108] Allu (37 movies)
+  ✓ Parivartana → cast
+  ✓ Donga Ramudu → cast
+  ✓ Mayabazar → cast
+  ✓ Pelli Naati Pramanalu → cast
+  ✓ Illarikam → cast
+  ✓ Illarikam → cast
+  ✓ Sri Venkateswara Mahatyam → cast
+  ✓ Gundamma Katha → cast
+  ✓ Dagudu Moothalu → cast
+  ✓ Naadi Aada Janme → cast
+  ✓ Pidugu Ramudu → cast
+  ✓ Gopaludu Bhoopaludu → cast
+  ✓ Tikka Sankaraiah → cast
+  ✓ Bhale Master → cast
+  ✓ Akka Chellelu → cast
+  ✓ Iddaru Ammayilu → cast
+  ✓ Andala Ramudu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Zamindarugari Ammayi → cast
+  ✓ Padi Pantalu → cast
+  ✓ Savasagallu → cast
+  ✓ Lawyer Viswanath → cast
+  ✓ Kothala Raayudu → cast
+  ✓ Nimajjanam → cast
+  ✓ Ragile Jwala → cast
+  ✓ Iddaru Kodukulu → cast
+  ✓ Bava Maradallu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ State Rowdy → cast
+  ✓ Dabbu Bhale Jabbu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Parugo Parugu → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Maavichiguru → cast
+  ✓ Choodalani Vundi → cast
+  ✓ Indra → cast
+  ✓ Kalyana Ramudu → cast
+[13/108] Amala (22 movies)
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Poster → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Agni Pravesam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Welcome obama → cast
+  ✓ Rangasthalam → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Agni Pravesam → cast
+  ✓ Avunu → cast
+  ✓ Avunu → cast
+  ✓ Upendra Gadi Adda → cast
+[14/108] Anjali (11 movies)
+  ✓ Indian Beauty → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ The Desire → cast
+  ✓ The Desire → cast
+  ✓ Daughters' Destiny → cast
+  ✓ The Desire → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+[15/108] Anusha (48 movies)
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Agreement → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Kuruthipunal → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Unnidathil Ennai Koduthen → cast
+  ✓ Auto Driver → cast
+  ✓ Rajasthan → cast
+  ✓ Premaku Velayara → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+[16/108] Archana (22 movies)
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Matti Manushulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Railway Coolie → cast
+  ✓ Indian Beauty → cast
+  ✓ Kinar → cast
+  ✓ Devadas → cast
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Indian Beauty → cast
+[17/108] Ashwini (13 movies)
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Gopala Rao Gari Abbayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Modhi Vilayadu → cast
+[18/108] B885ee4f (6 movies)
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Poster → cast
+[19/108] Bellamkonda Srinivas (3 movies)
+  ✓ Saakshyam → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Entertainment → cast
+[20/108] Bhaskar (7 movies)
+  ✓ Bommarillu → cast
+  ✓ Parugu → cast
+  ✓ Orange → cast
+  ✓ Ongole Githa → cast
+  ✓ Bangalore Naatkal → cast
+  ✓ Most Eligible Bachelor → cast
+  ✓ Leela Vinodam → cast
+
+📊 Progress: 20/108 celebrities (312 applied, 0 failed)
+
+[21/108] Bhavana (19 movies)
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Deepavali → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Leela Vinodam → cast
+  ✓ Life Anubavinchu Raja → cast
+[22/108] Cced3713 (12 movies)
+  ✓ Marco → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Leela Vinodam → cast
+  ✓ Leela Vinodam → cast
+  ✓ Leela Vinodam → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+[23/108] Chandra Mohan (24 movies)
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Bhale Master → cast
+  ✓ Annadammulu → cast
+  ✓ Devudu Chesina Pelli → cast
+  ✓ Padi Pantalu → cast
+  ✓ Priya → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Sakshi → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Sankalpam → cast
+  ✓ Ramudochadu → cast
+  ✓ Maa Annayya → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ The Desire → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Devadasu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Aatagadu → cast
+  ✓ Auto Driver → cast
+[24/108] Geetha (87 movies)
+  ✓ Aatagadu → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Nuvvila → cast
+  ✓ Welcome obama → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Addala Meda → cast
+  ✓ O Amma Katha → cast
+  ✓ Bangaru Bhoomi → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Amma Donga! → cast
+  ✓ Lion → cast
+  ✓ Aatagadu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Vangaveeti → cast
+  ✓ Devadas → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Indian Beauty → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Vedhalam → cast
+  ✓ Entertainment → cast
+  ✓ Nuvvila → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Railway Coolie → cast
+  ✓ Maa Annayya → cast
+  ✓ Auto Driver → cast
+  ✓ Amma Donga! → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Ladies Special → cast
+  ✓ Agni Pravesam → cast
+[25/108] Indraja (21 movies)
+  ✓ Uzhaippali → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Vangaveeti → cast
+  ✓ Agnyaathavaasi → cast
+  ✓ Devadas → cast
+  ✓ Alludu Adhurs → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Upendra Gadi Adda → cast
+[26/108] Janaki (52 movies)
+  ✓ Shavukaru → cast
+  ✓ Patala Bhairavi → cast
+  ✓ Pichi Pullayya → cast
+  ✓ Pratigna → cast
+  ✓ Amara Sandhesam → cast
+  ✓ Charana Daasi → cast
+  ✓ Amara Deepam → cast
+  ✓ Mayabazar → cast
+  ✓ Bhookailas → cast
+  ✓ Sri Venkateswara Mahatyam → cast
+  ✓ Sri Venkateswara Mahatyam → cast
+  ✓ Paarthaal Pasi Theerum → cast
+  ✓ Irugu Porugu → cast
+  ✓ Sri Satyanarayana Mahathyam → cast
+  ✓ Chandrahasa → cast
+  ✓ Chilaka Gorinka → cast
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Bhale Master → cast
+  ✓ Annadammulu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Devadasu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ Bezawada Bebbuli → cast
+  ✓ Chiranjeevi → cast
+  ✓ Pachani Kapuram → cast
+  ✓ Dosti Dushmani → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Ladies Special → cast
+  ✓ Nenu Premisthunnanu → cast
+  ✓ Bavagaru Bagunnara → cast
+  ✓ Devi → cast
+  ✓ Hey Ram → cast
+  ✓ Indian Beauty → cast
+  ✓ Welcome obama → cast
+  ✓ Babu Bangaram → cast
+  ✓ Thambi → cast
+  ✓ Rangasthalam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Maa Annayya → cast
+  ✓ Avunu → cast
+[27/108] Jeeva (60 movies)
+  ✓ Swargam Narakam → cast
+  ✓ Pranam Khareedu → cast
+  ✓ Gharana Donga → cast
+  ✓ Tholi Kodi Koosindi → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Brahma Nayudu → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Anna Thammudu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Bhale Khaideelu → cast
+  ✓ Abbaigaru → cast
+  ✓ Anna → cast
+  ✓ Gulabi → cast
+  ✓ Amma Durgamma → cast
+  ✓ Chilakkottudu → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Maa Annayya → cast
+  ✓ Avunu Valliddaru Ista Paddaru! → cast
+  ✓ Charminar → cast
+  ✓ Andhrawala → cast
+  ✓ 786 Khaidi Premakatha → cast
+  ✓ Indian Beauty → cast
+  ✓ Bhadradri → cast
+  ✓ Bank → cast
+  ✓ Brahmalokam to Yamalokam via Bhulokam → cast
+  ✓ Chattam → cast
+  ✓ Nuvvila → cast
+  ✓ Swamy Ra Ra → cast
+  ✓ Jump Jilani → cast
+  ✓ Entertainment → cast
+  ✓ Duvvada Jagannadham → cast
+  ✓ Mathu Vadalara → cast
+  ✓ Brahmmavaram P.S. Paridhilo → cast
+  ✓ Leela Vinodam → cast
+  ✓ Satya → cast
+  ✓ Kurumbu → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Aatagadu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Super → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Vangaveeti → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Leela Vinodam → cast
+[28/108] K (38 movies)
+  ✓ Jumma Chumma In London → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Welcome obama → cast
+  ✓ Vedhalam → cast
+  ✓ Aatmabalam → cast
+  ✓ Nimajjanam → cast
+  ✓ O Amma Katha → cast
+  ✓ Avunu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Swarabhishekam → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Premaku Velayara → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Poster → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Devadasu → cast
+  ✓ Subhalekha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Swathi Muthyam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Aapadbandhavudu → cast
+  ✓ Subha Sankalpam → cast
+  ✓ Ladies Special → cast
+  ✓ Nuvvila → cast
+  ✓ Nuvvila → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+[29/108] K S R Das (104 movies)
+  ✓ Loguttu Perumallukeruka → cast
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Raja Simha → cast
+  ✓ Gandaragandudu → cast
+  ✓ Bhale Master → cast
+  ✓ Takkari Donga Chakkani Chukka → cast
+  ✓ Ukkupidugu → cast
+  ✓ Annadammulu → cast
+  ✓ Bangaru Kutumbam → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ James Bond 777 → cast
+  ✓ Kathiki Kankanam → cast
+  ✓ Mosagallaku Mosagadu → cast
+  ✓ Prema Jeevulu → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Bhale Dongalu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Dongalaku Donga → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Agent Gopi → cast
+  ✓ Annadammula Savaal → cast
+  ✓ Dongala Veta → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Iddaru Asadhyule → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Captain Krishna → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Yugandhar → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Devudichina Koduku → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ Rahasya Gudachari → cast
+  ✓ Aatagadu → cast
+  ✓ Mayadari Alludu → cast
+  ✓ O Amma Katha → cast
+  ✓ Billa Ranga → cast
+  ✓ Bangaru Koduku → cast
+  ✓ Shamsher Shankar → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Roshagadu → cast
+  ✓ Puli Bebbuli → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Agni Samadhi → cast
+  ✓ Puli Debba → cast
+  ✓ Siripuram Monagadu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Dongalu Baboi Dongalu → cast
+  ✓ Nayakulaku Saval → cast
+  ✓ Khaidi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Aatmabalam → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Muddayi → cast
+  ✓ Dorakani Donga → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Inspector Rudra → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Premaku Velayara → cast
+  ✓ Premaku Velayara → cast
+[30/108] Kalyani (31 movies)
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Guru → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Seshu → cast
+  ✓ Friends → cast
+  ✓ Letha Manasulu → cast
+  ✓ Dhana 51 → cast
+  ✓ Operation Duryodhana → cast
+  ✓ Raksha → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Onamalu → cast
+  ✓ Legend → cast
+  ✓ Vedhalam → cast
+  ✓ Hebbuli → cast
+  ✓ Geetha Govindam → cast
+  ✓ Yatra → cast
+  ✓ Nuvvila → cast
+  ✓ Railway Coolie → cast
+
+📊 Progress: 30/108 celebrities (760 applied, 0 failed)
+
+[31/108] Karthik (33 movies)
+  ✓ Aatagadu → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ The Desire → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Aatagadu → cast
+  ✓ Veerabhadrudu → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Adhirindhi Guru → cast
+[32/108] Kaveri (27 movies)
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Friends → cast
+  ✓ Letha Manasulu → cast
+  ✓ Dhana 51 → cast
+  ✓ Hope → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Legend → cast
+  ✓ Vedhalam → cast
+  ✓ Hebbuli → cast
+  ✓ Geetha Govindam → cast
+  ✓ Yatra → cast
+  ✓ Nuvvila → cast
+  ✓ Railway Coolie → cast
+[33/108] Kavitha (10 movies)
+  ✓ Rangasthalam → cast
+  ✓ Auto Driver → cast
+  ✓ Welcome obama → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+[34/108] Khushboo (1 movies)
+  ✓ Life Anubavinchu Raja → cast
+[35/108] Kvas (20 movies)
+  ✓ Jumma Chumma In London → cast
+  ✓ Thenmavin Kombath → cast
+  ✓ Punya Bhoomi Naa Desam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Mudhalvan → cast
+  ✓ Premaku Velayara → cast
+  ✓ Nayak: The Real Hero → cast
+  ✓ Railway Coolie → cast
+  ✓ Boys → cast
+  ✓ Khakee → cast
+  ✓ Kana Kandaen → cast
+  ✓ Sivaji: The Boss → cast
+  ✓ Ayan → cast
+  ✓ Ko → cast
+  ✓ Maattrraan → cast
+  ✓ Anegan → cast
+  ✓ Kavan → cast
+  ✓ Kaappaan → cast
+[36/108] Lakshmi (113 movies)
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Bhale Master → cast
+  ✓ Annadammulu → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Devadasu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Athiradi Padai → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Railway Coolie → cast
+  ✓ Vasool Raja MBBS → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Entertainment → cast
+  ✓ Bandhavyalu → cast
+  ✓ Bhale Master → cast
+  ✓ Annadammulu → cast
+  ✓ Koduku Kodalu → cast
+  ✓ Aatagadu → cast
+  ✓ Raaga Deepam → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Ninne Pelladata → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Premante Idera → cast
+  ✓ Auto Driver → cast
+  ✓ Lahiri Lahiri Lahirilo → cast
+  ✓ Chintakayala Ravi → cast
+  ✓ Moodu Mukkallo Cheppalante → cast
+  ✓ Oh! Baby → cast
+  ✓ Devadasu → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sutradharulu → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Ladies Special → cast
+  ✓ Indian Beauty → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Welcome obama → cast
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Entertainment → cast
+  ✓ Vangaveeti → cast
+  ✓ Poster → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Aatagadu → cast
+  ✓ Hulchul → cast
+  ✓ Coffee With Kadhal → cast
+[37/108] Latha (92 movies)
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Ammayi Pelli → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ Padi Pantalu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ Deiva Thirumanangal → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ O Amma Katha → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Kurumbu → cast
+  ✓ That is Pandu → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Poster → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Vedhalam → cast
+  ✓ Devadas → cast
+  ✓ Devadas → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Rangasthalam → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+[38/108] Laya (10 movies)
+  ✓ Bhadram Koduko → cast
+  ✓ Kodanda Ramudu → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Brahmalokam to Yamalokam via Bhulokam → cast
+  ✓ Amar Akbar Anthony → cast
+[39/108] Madhavi (74 movies)
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Aatagadu → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Sutradharulu → cast
+  ✓ Sutradharulu → cast
+  ✓ Sutradharulu → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Ladies Special → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Topi Raja Sweety Roja → cast
+[40/108] Meena (65 movies)
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Kartavyam → cast
+  ✓ Rajeswari Kalyanam → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Dasanna → cast
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Vangaveeti → cast
+  ✓ Rangasthalam → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Ponton's Heart → cast
+  ✓ Devadas → cast
+  ✓ Lakshmi → cast
+  ✓ Adhyakshaa → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Friends → cast
+  ✓ That is Pandu → cast
+  ✓ Adhyakshaa → cast
+  ✓ Avunu → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Sutradharulu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Devadas → cast
+  ✓ Life Anubavinchu Raja → cast
+
+📊 Progress: 40/108 celebrities (1205 applied, 0 failed)
+
+[41/108] Nagma (19 movies)
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Ladies Special → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+[42/108] Nandamuri Balakrishna (1 movies)
+  ✓ Leela Vinodam → cast
+[43/108] Nandu (10 movies)
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Nuvvila → cast
+  ✓ Autonagar Surya → cast
+  ✓ Shourya → cast
+  ✓ Vangaveeti → cast
+  ✓ Size Zero → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+[44/108] Nandu Vijay Krishna (11 movies)
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Nuvvila → cast
+  ✓ Autonagar Surya → cast
+  ✓ Shourya → cast
+  ✓ Vangaveeti → cast
+  ✓ Psych Siddhartha → cast
+  ✓ Size Zero → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+[45/108] Naresh (49 movies)
+  ✓ Pandanti Kapuram → cast
+  ✓ Devadasu → cast
+  ✓ Devadasu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Yama Doothalu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Aame → cast
+  ✓ Shri Krishnarjuna Vijayam → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Premaku Velayara → cast
+  ✓ Villain → cast
+  ✓ Gowri → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Madhumasam → cast
+  ✓ Ankit, Pallavi & Friends → cast
+  ✓ Maska → cast
+  ✓ Maro Charitra → cast
+  ✓ 1000 Abaddalu → cast
+  ✓ Anaamika → cast
+  ✓ Beeruva → cast
+  ✓ Eedu Gold Ehe → cast
+  ✓ Vangaveeti → cast
+  ✓ Chalo → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Game Changer → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Friends → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Devadas → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+[46/108] Neelakanta (10 movies)
+  ✓ Ladies Special → cast
+  ✓ Railway Coolie → cast
+  ✓ Missamma → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Mr. Medhavi → cast
+  ✓ Virodhi → cast
+  ✓ Chammak Challo → cast
+  ✓ Maaya → cast
+  ✓ Circle → cast
+[47/108] Ntr (7 movies)
+  ✓ Vazhvey Maayam → cast
+  ✓ Merupu Daadi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Ladies Special → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Ladies Special → cast
+[48/108] Poorna (19 movies)
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Entertainment → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Devadas → cast
+  ✓ Life Anubavinchu Raja → cast
+[49/108] Poornima (44 movies)
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Avunu → cast
+  ✓ Jilla → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Leela Vinodam → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Entertainment → cast
+  ✓ Twenty 20 → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Adutha Varisu → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ O Amma Katha → cast
+  ✓ Aatagadu → cast
+  ✓ Nimajjanam → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Aatagadu → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Amma Donga! → cast
+  ✓ Family → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+  ✓ Entertainment → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Nimajjanam → cast
+  ✓ O Amma Katha → cast
+[50/108] Raasi (8 movies)
+  ✓ Amma Donga! → cast
+  ✓ Subhakankshalu → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Postman → cast
+  ✓ Railway Coolie → cast
+  ✓ That is Pandu → cast
+  ✓ Avunu → cast
+  ✓ Leela Vinodam → cast
+
+📊 Progress: 50/108 celebrities (1383 applied, 0 failed)
+
+[51/108] Radha (34 movies)
+  ✓ Agni Pravesam → cast
+  ✓ Sutradharulu → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Aatmabalam → cast
+  ✓ Merupu Daadi → cast
+  ✓ Adutha Varisu → cast
+  ✓ O Amma Katha → cast
+  ✓ Aatagadu → cast
+  ✓ Pandirimancham → cast
+  ✓ Merupu Daadi → cast
+  ✓ Rowdy → cast
+  ✓ Chanda Sasanudu → cast
+  ✓ Iddaru Kodukulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Aatmabalam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vangaveeti → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+[52/108] Raja (2 movies)
+  ✓ Daughters' Destiny → cast
+  ✓ Avunu → cast
+[53/108] Raja Babu (19 movies)
+  ✓ Samajam → cast
+  ✓ Bhishma → cast
+  ✓ Gulebakavali Katha → cast
+  ✓ Manchi Manishi → cast
+  ✓ Chandrahasa → cast
+  ✓ Chilaka Gorinka → cast
+  ✓ Tikka Sankaraiah → cast
+  ✓ Bhale Master → cast
+  ✓ Kodalu Diddina Kapuram → cast
+  ✓ Bomma Borusa → cast
+  ✓ Bharya Biddalu → cast
+  ✓ Andala Ramudu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Aalu Magalu → cast
+  ✓ Karunamayudu → cast
+  ✓ Sarada Ramudu → cast
+  ✓ Aatagadu → cast
+  ✓ Bangaru Bhoomi → cast
+  ✓ Andhra Kesari → cast
+[54/108] Rajasekhar (21 movies)
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Aagraham → cast
+  ✓ Raja Simham → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Suryudu → cast
+  ✓ Seshu → cast
+  ✓ Friends → cast
+  ✓ Aaptudu → cast
+  ✓ Nayakudu → cast
+  ✓ Gorintaku → cast
+  ✓ Adhyakshaa → cast
+  ✓ Kalki → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+[55/108] Rajashree (58 movies)
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Hyderabad Blues → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Manasellam → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ Iraivi → cast
+  ✓ Vangaveeti → cast
+  ✓ U Turn → cast
+  ✓ Majili → cast
+  ✓ Rangasthalam → cast
+  ✓ Shaadi Mubarak → cast
+  ✓ Poster → cast
+  ✓ Veera Simha Reddy → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Entertainment → cast
+  ✓ Vangaveeti → cast
+  ✓ Rendu Rellu Aaru → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+[56/108] Ram (9 movies)
+  ✓ Kandireega → cast
+  ✓ Rey → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Railway Coolie → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ The Desire → cast
+  ✓ Rangasthalam → cast
+  ✓ Life Anubavinchu Raja → cast
+[57/108] Ramakrishna (32 movies)
+  ✓ Illarikam → cast
+  ✓ Kanna Koduku → cast
+  ✓ Pelli Kaani Pillalu → cast
+  ✓ Varalakshmi Vratham → cast
+  ✓ Gulebakavali Katha → cast
+  ✓ Eedu Jodu → cast
+  ✓ Thodu Needa → cast
+  ✓ Chandrahasa → cast
+  ✓ Chadarangam → cast
+  ✓ Bhuvana Sundari Katha → cast
+  ✓ Bhale Master → cast
+  ✓ Annadammulu → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Kannavari Kalalu → cast
+  ✓ Devadasu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Bahudoorapu Batasari → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Lankeswarudu → cast
+  ✓ Samrat Ashoka → cast
+  ✓ Doragariki Donga Pellam → cast
+[58/108] Rambha (43 movies)
+  ✓ Mechanic Mavayya → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Adhyakshaa → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Railway Coolie → cast
+  ✓ Kurumbu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ The Desire → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Railway Coolie → cast
+  ✓ Adhyakshaa → cast
+  ✓ The Desire → cast
+  ✓ Welcome obama → cast
+  ✓ Welcome obama → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Leela Vinodam → cast
+[59/108] Ravi Teja (2 movies)
+  ✓ Daughters' Destiny → cast
+  ✓ Modhi Vilayadu → cast
+[60/108] Roja (56 movies)
+  ✓ Amma Donga! → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Angala Parameswari → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Kaavalan → cast
+  ✓ Saguni → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Ponton's Heart → cast
+  ✓ Seetharatnam Gari Abbayi → cast
+  ✓ Railway Coolie → cast
+  ✓ Railway Coolie → cast
+  ✓ Parama Veera Chakra → cast
+  ✓ Lucky → cast
+  ✓ Pavitra → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Auto Driver → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Entertainment → cast
+  ✓ Railway Coolie → cast
+  ✓ Kurumbu → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+  ✓ Jabardasth → cast
+  ✓ Welcome obama → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Entertainment → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Vedhalam → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+
+📊 Progress: 60/108 celebrities (1659 applied, 0 failed)
+
+[61/108] Sagar (9 movies)
+  ✓ Manasantha Nuvve → cast
+  ✓ Mr. Perfect → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ 100 Crores → cast
+  ✓ Friends → cast
+  ✓ That is Pandu → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Vangaveeti → cast
+[62/108] Sai Kumar (59 movies)
+  ✓ Devudu Chesina Pelli → cast
+  ✓ Gorintaku → cast
+  ✓ Aatagadu → cast
+  ✓ Challenge → cast
+  ✓ Merupu Daadi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sutradharulu → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Major Chandrakanth → cast
+  ✓ Ladies Special → cast
+  ✓ Amma Donga! → cast
+  ✓ Maa Annayya → cast
+  ✓ Seema Simham → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Samanyudu → cast
+  ✓ Vijayadasami → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Okkadine → cast
+  ✓ Yevadu → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Poster → cast
+  ✓ RAM: Rapid Action Mission → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Mahasadhvi Mallamma → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Nuvvila → cast
+  ✓ Brindavana → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Poster → cast
+  ✓ Leela Vinodam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Anthapuram → cast
+  ✓ Premaku Velayara → cast
+  ✓ That is Pandu → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Devadas → cast
+  ✓ Poster → cast
+  ✓ Leela Vinodam → cast
+[63/108] Sarath (4 movies)
+  ✓ Adhirindhi Guru → cast
+  ✓ Maa Annayya → cast
+  ✓ The Desire → cast
+  ✓ Vedhalam → cast
+[64/108] Sarath Babu (35 movies)
+  ✓ Nijam Nirupista → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Nimajjanam → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Amma Donga! → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ The Desire → cast
+  ✓ Welcome obama → cast
+  ✓ Vangaveeti → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Aatagadu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Premaku Velayara → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Welcome obama → cast
+[65/108] Saritha (104 movies)
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Friends → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Avunu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Chandamama → cast
+  ✓ Kokilamma → cast
+  ✓ Kanchana Ganga → cast
+  ✓ Merupu Daadi → cast
+  ✓ Kaliyuga Pandavulu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Premaku Velayara → cast
+  ✓ Friends → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Aatagadu → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Nuvvila → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Agni Pravesam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Tholi Prema → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Maa Annayya → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Railway Coolie → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Pelli Kanuka → cast
+  ✓ Devadas → cast
+  ✓ Premaku Velayara → cast
+[66/108] Satyanarayana (26 movies)
+  ✓ Bhookailas → cast
+  ✓ Madana Kamaraju Katha → cast
+  ✓ Gulebakavali Katha → cast
+  ✓ Aggi Pidugu → cast
+  ✓ Pandava Vanavasam → cast
+  ✓ Aggi Meeda Guggilam → cast
+  ✓ Bhale Master → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Devude Digivaste → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Muggure Mugguru → cast
+  ✓ Mahalakshmi → cast
+  ✓ Prema Simhasanam → cast
+  ✓ Bangaru Bhoomi → cast
+  ✓ Merupu Daadi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ That is Pandu → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Kaali → cast
+  ✓ Indian Beauty → cast
+  ✓ Karma → cast
+[67/108] Siddharth (28 movies)
+  ✓ Kannathil Muthamittal → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ Entertainment → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+  ✓ Devadas → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Poster → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Devadas → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Santosh Subramaniam → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Taramani → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Lover → cast
+  ✓ Leela Vinodam → cast
+  ✓ Kurumbu → cast
+  ✓ Entertainment → cast
+  ✓ Entertainment → cast
+[68/108] Sivaji Sontineni (25 movies)
+  ✓ Master → cast
+  ✓ Padutha Theeyaga → cast
+  ✓ Auto Driver → cast
+  ✓ Priya Nestama → cast
+  ✓ Friends → cast
+  ✓ Ammayi Bagundi → cast
+  ✓ Mr. Errababu → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Masth → cast
+  ✓ Aakasa Ramanna → cast
+  ✓ Lokame Kothaga → cast
+  ✓ Ayyare → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ Seesa → cast
+  ✓ Leela Vinodam → cast
+  ✓ Chitram → cast
+  ✓ Dil → cast
+  ✓ Kurumbu → cast
+  ✓ Ullasamga Utsahamga → cast
+  ✓ Pizza → cast
+  ✓ Gangstars → cast
+  ✓ Coffee With Kadhal → cast
+[69/108] Sneha (19 movies)
+  ✓ Premaku Velayara → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Goa → cast
+  ✓ The Desire → cast
+  ✓ Oru Kal Oru Kannadi → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Rangasthalam → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ The Greatest of All Time → cast
+  ✓ Dragon → cast
+  ✓ Ponton's Heart → cast
+  ✓ Vedhalam → cast
+[70/108] Soundarya (7 movies)
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+
+📊 Progress: 70/108 celebrities (1975 applied, 0 failed)
+
+[71/108] Suhasini (107 movies)
+  ✓ Kotha Jeevithalu → cast
+  ✓ Bahudoorapu Batasari → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Thene Manasulu → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Sutradharulu → cast
+  ✓ Akka Mogudu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ooyala → cast
+  ✓ Sakutumba Saparivaara Sametam → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Sangamam → cast
+  ✓ Leader → cast
+  ✓ Baadshah → cast
+  ✓ Legend → cast
+  ✓ Yatra → cast
+  ✓ Nimajjanam → cast
+  ✓ Deiva Thirumanangal → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Merupu Daadi → cast
+  ✓ Mr. Bharath → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Agni Pravesam → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Maa Annayya → cast
+  ✓ Friends → cast
+  ✓ Kurumbu → cast
+  ✓ Indian Beauty → cast
+  ✓ Daughters' Destiny → cast
+  ✓ Adhyakshaa → cast
+  ✓ Thillalangadi → cast
+  ✓ The Desire → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Putham Pudhu Kaalai → cast
+  ✓ Leela Vinodam → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Aatmabalam → cast
+  ✓ Aatmabalam → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sutradharulu → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Maa Annayya → cast
+  ✓ Friends → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Entertainment → cast
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Devadas → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Auto Driver → cast
+  ✓ Maa Annayya → cast
+  ✓ Railway Coolie → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Adhyakshaa → cast
+  ✓ Avunu → cast
+  ✓ Entertainment → cast
+  ✓ Solo → cast
+  ✓ Life Anubavinchu Raja → cast
+  ✓ Coffee With Kadhal → cast
+  ✓ Leela Vinodam → cast
+  ✓ Friends → cast
+  ✓ Entertainment → cast
+  ✓ Roja → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Bombay → cast
+  ✓ Iruvar → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+  ✓ Raavanan → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Thalapathi → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Adhirindhi Guru → cast
+[72/108] Sujatha (68 movies)
+  ✓ Sri Satyanarayana Mahathyam → cast
+  ✓ Chandrahasa → cast
+  ✓ Annadammulu → cast
+  ✓ Pachhani Samsaram → cast
+  ✓ Sisindri Chittibabu → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Devadasu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Nimajjanam → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Aatmabalam → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Maa Annayya → cast
+  ✓ Kurumbu → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ Jeevana Tarangalu → cast
+  ✓ Devadasu → cast
+  ✓ Soubhagyavathi → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Maa Iddari Katha → cast
+  ✓ Sigappu Rojakkal → cast
+  ✓ Nimajjanam → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Merupu Daadi → cast
+  ✓ Aatmabalam → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Auto Driver → cast
+  ✓ Sandhitha Velai → cast
+  ✓ Railway Coolie → cast
+  ✓ Arul → cast
+  ✓ That is Pandu → cast
+  ✓ Guppedu Manasu → cast
+  ✓ Yedanthasthula Meda → cast
+  ✓ O Amma Katha → cast
+  ✓ Justice Chakravarthy → cast
+  ✓ Merupu Daadi → cast
+  ✓ Srirama Chandrudu → cast
+  ✓ Pelli Neeku Sukham Naaku → cast
+  ✓ Maa Voori Maaraju → cast
+  ✓ Vajram → cast
+  ✓ Amma Donga! → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Maa Annayya → cast
+  ✓ Seema Simham → cast
+  ✓ Chandrahas → cast
+  ✓ Aatagadu → cast
+  ✓ O Amma Katha → cast
+  ✓ Vazhvey Maayam → cast
+  ✓ Adutha Varisu → cast
+  ✓ Adutha Varisu → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Jeevana Ganga → cast
+  ✓ Adhirindhi Guru → cast
+  ✓ Friends → cast
+  ✓ That is Pandu → cast
+[73/108] Tarun (5 movies)
+  ✓ Sutradharulu → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Pillalu Diddina Kapuram → cast
+  ✓ Premaku Velayara → cast
+  ✓ Rangasthalam → cast
+[74/108] Teja (24 movies)
+  ✓ Chitram → cast
+  ✓ Family Circus → cast
+  ✓ Railway Coolie → cast
+  ✓ Friends → cast
+  ✓ Jai → cast
+  ✓ Dhairyam → cast
+  ✓ Oka V Chitram → cast
+  ✓ Lakshmi Kalyanam → cast
+  ✓ Keka → cast
+  ✓ Neeku Naaku Dash Dash → cast
+  ✓ Avunu → cast
+  ✓ Hora Hori → cast
+  ✓ Nene Raju Nene Mantri → cast
+  ✓ Sita → cast
+  ✓ Ahimsa → cast
+  ✓ Jumma Chumma In London → cast
+  ✓ Money → cast
+  ✓ Ladies Special → cast
+  ✓ Doragariki Donga Pellam → cast
+  ✓ Amma Donga! → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Ghulam → cast
+  ✓ Auto Driver → cast
+  ✓ Premaku Velayara → cast
+[75/108] Thiruveer Reddy (7 movies)
+  ✓ Vedhalam → cast
+  ✓ Vangaveeti → cast
+  ✓ Ye Mantram Vesave → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Tuck Jagadish → cast
+  ✓ Rangasthalam → cast
+  ✓ Coffee With Kadhal → cast
+[76/108] Tulasi (36 movies)
+  ✓ Bharya → cast
+  ✓ Nijam Nirupista → cast
+  ✓ Moondru Mudichu → cast
+  ✓ Seetamalakshmi → cast
+  ✓ Iddaru Kodukulu → cast
+  ✓ Maga Maharaju → cast
+  ✓ Anubandham → cast
+  ✓ Preminchu Pelladu → cast
+  ✓ Driver Babu → cast
+  ✓ Padaharella Ammayi → cast
+  ✓ Sahasa Samrat → cast
+  ✓ Sutradharulu → cast
+  ✓ Agni Pravesam → cast
+  ✓ Killer → cast
+  ✓ Kannayya Kittayya → cast
+  ✓ Ladies Special → cast
+  ✓ Ladies Special → cast
+  ✓ Friends → cast
+  ✓ Andaru Dongale Dorikithe → cast
+  ✓ That is Pandu → cast
+  ✓ Indian Beauty → cast
+  ✓ Moggina Manasu → cast
+  ✓ Sasirekha Parinayam → cast
+  ✓ Modhi Vilayadu → cast
+  ✓ The Desire → cast
+  ✓ Nuvvila → cast
+  ✓ Avunu → cast
+  ✓ Welcome obama → cast
+  ✓ Aambala → cast
+  ✓ Vedhalam → cast
+  ✓ My Little Baby, Jaya → cast
+  ✓ Rangasthalam → cast
+  ✓ Poster → cast
+  ✓ Upendra Gadi Adda → cast
+  ✓ Leela Vinodam → cast
+  ✓ Bench Life → cast
+[77/108] Vamsy (34 movies)
+  ✓ O Amma Katha → cast
+  ✓ Sitaara → cast
+  ✓ Anveshana → cast
+  ✓ Aatmabalam → cast
+  ✓ Lawyer Suhasini → cast
+  ✓ Chettu Kinda Pleader → cast
+  ✓ April 1st Vidudhala → cast
+  ✓ Detective Narada → cast
+  ✓ Joker → cast
+  ✓ Prema & Co. → cast
+  ✓ Lingababu Love Story → cast
+  ✓ Topi Raja Sweety Roja → cast
+  ✓ Avunu Valliddaru Ista Paddaru! → cast
+  ✓ Friends → cast

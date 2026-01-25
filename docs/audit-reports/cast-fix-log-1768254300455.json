@@ -1,0 +1,173 @@
+[
+  {
+    "movieId": "98bb4726-2efb-47fb-ba2b-8d754dc000d7",
+    "title": "Ranger",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": "Tamannaah Bhatia",
+    "newHero": null,
+    "newHeroine": "Tamannaah Bhatia",
+    "success": true
+  },
+  {
+    "movieId": "9767447a-4084-4e79-9633-0717a00e3e38",
+    "title": "VVAN",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": null,
+    "newHero": null,
+    "newHeroine": null,
+    "success": false,
+    "error": "Failed to fetch movie: Cannot coerce the result to a single JSON object"
+  },
+  {
+    "movieId": "a6e90e17-87ba-452b-8e42-f0f5629f6959",
+    "title": "The Girlfriend",
+    "actor": "Rashmika Mandanna",
+    "oldHero": "Dheekshith Shetty",
+    "oldHeroine": "Rashmika Mandanna",
+    "newHero": "Dheekshith Shetty",
+    "newHeroine": "Rashmika Mandanna",
+    "success": true
+  },
+  {
+    "movieId": "ce2290ce-e813-4c31-ae80-e1d7ec5aead3",
+    "title": "Fear",
+    "actor": "Vedhika",
+    "oldHero": "Joseph Sikora",
+    "oldHeroine": "Vedhika",
+    "newHero": "Joseph Sikora",
+    "newHeroine": "Vedhika",
+    "success": true
+  },
+  {
+    "movieId": "2bf9a911-89ad-4f8f-be79-ad90f0d1a5ee",
+    "title": "Rush",
+    "actor": "Daisy Bopanna",
+    "oldHero": "Abdullah Imran",
+    "oldHeroine": "Daisy Bopanna",
+    "newHero": "Abdullah Imran",
+    "newHeroine": "Daisy Bopanna",
+    "success": true
+  },
+  {
+    "movieId": "fbd020cb-bc9b-4680-b0c8-b555760a7a3a",
+    "title": "Anthima Theerpu",
+    "actor": "Sai Dhanshika",
+    "oldHero": "Amit Kumar Tiwari",
+    "oldHeroine": "Sai Dhanshika",
+    "newHero": "Amit Kumar Tiwari",
+    "newHeroine": "Sai Dhanshika",
+    "success": true
+  },
+  {
+    "movieId": "35514c0c-110a-40dc-b06f-21a5972f7133",
+    "title": "105 Minuttess",
+    "actor": "Hansika Motwani",
+    "oldHero": "Hansika Motwani",
+    "oldHeroine": "Hansika Motwani",
+    "newHero": null,
+    "newHeroine": "Hansika Motwani",
+    "success": true
+  },
+  {
+    "movieId": "d1d9e511-7304-458e-a817-b39c2088ed26",
+    "title": "Satyabhama",
+    "actor": "Kajal Aggarwal",
+    "oldHero": "Naveen Chandra",
+    "oldHeroine": "Kajal Aggarwal",
+    "newHero": "Naveen Chandra",
+    "newHeroine": "Kajal Aggarwal",
+    "success": true
+  },
+  {
+    "movieId": "eddff649-b360-4fe3-8592-e7291c0beeff",
+    "title": "Tom And Jerry",
+    "actor": "Chaitra Rao",
+    "oldHero": null,
+    "oldHeroine": "Chaitra Rao",
+    "newHero": null,
+    "newHeroine": "Chaitra Rao",
+    "success": true
+  },
+  {
+    "movieId": "24166679-2203-4ffb-97f7-48e25b85db71",
+    "title": "Aranmanai 4",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": "Tamannaah Bhatia",
+    "newHero": null,
+    "newHeroine": "Tamannaah Bhatia",
+    "success": true
+  },
+  {
+    "movieId": "0c45340d-f37b-4533-a1e2-aa6606fb9ecf",
+    "title": "Sikandar Ka Muqaddar",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": "Tamannaah Bhatia",
+    "newHero": null,
+    "newHeroine": "Tamannaah Bhatia",
+    "success": true
+  },
+  {
+    "movieId": "1f8fa34e-41ed-4a79-8581-421273cd1d21",
+    "title": "The Trial",
+    "actor": "Spandana Palli",
+    "oldHero": "Spandana Palli",
+    "oldHeroine": "Spandana Palli",
+    "newHero": null,
+    "newHeroine": "Spandana Palli",
+    "success": true
+  },
+  {
+    "movieId": "7e667857-1914-4376-aff9-235e6c44de5a",
+    "title": "The Eye",
+    "actor": "Shruti Haasan",
+    "oldHero": null,
+    "oldHeroine": "Shruti Haasan",
+    "newHero": null,
+    "newHeroine": "Shruti Haasan",
+    "success": true
+  },
+  {
+    "movieId": "cdb7d075-9dc2-4ddf-8fcf-43f14d1c8380",
+    "title": "Ghosty",
+    "actor": "Kajal Aggarwal",
+    "oldHero": null,
+    "oldHeroine": "Kajal Aggarwal",
+    "newHero": null,
+    "newHeroine": "Kajal Aggarwal",
+    "success": true
+  },
+  {
+    "movieId": "f120b7da-6bd9-40da-90d4-f65d523e7b8a",
+    "title": "Karungaapiyam",
+    "actor": "Kajal Aggarwal",
+    "oldHero": null,
+    "oldHeroine": "Kajal Aggarwal",
+    "newHero": null,
+    "newHeroine": "Kajal Aggarwal",
+    "success": true
+  },
+  {
+    "movieId": "5e42bbda-be4e-482d-b9c6-c01c75d13458",
+    "title": "Bandra",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": "Tamannaah Bhatia",
+    "newHero": null,
+    "newHeroine": "Tamannaah Bhatia",
+    "success": true
+  },
+  {
+    "movieId": "fa63be3d-3928-4d74-908b-d88dba6ef241",
+    "title": "Plan A Plan B",
+    "actor": "Tamannaah Bhatia",
+    "oldHero": null,
+    "oldHeroine": "Tamannaah Bhatia",
+    "newHero": null,
+    "newHeroine": "Tamannaah Bhatia",
+    "success": true
+  }
+]

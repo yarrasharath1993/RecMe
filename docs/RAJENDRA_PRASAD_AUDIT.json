@@ -1,0 +1,206 @@
+{
+  "actorName": "Rajendra Prasad",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 165,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "392b54ed-7c23-493d-a0c4-4627975ae7b2",
+        "title": "Rendu Rella Aaru",
+        "year": 1986
+      },
+      "movie2": {
+        "id": "fd138a37-3167-4f6c-a056-2b3921429804",
+        "title": "Rendu Rellu Aaru",
+        "year": 1986
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "ab17479a-5c41-46ae-b07e-c5485139caa7",
+        "title": "Naku Pellam Kavali",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "b8a5fa84-b5aa-4a5e-9f5a-125aa60a5303",
+        "title": "Nakoo Pellam Kavali",
+        "year": 1987
+      },
+      "similarity": 0.8823529411764706
+    },
+    {
+      "movie1": {
+        "id": "82b7f745-57ab-418d-bdb0-52bff5d63553",
+        "title": "Dammit Katha Addam Thirigindi",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "ea7a259f-93dc-4ffe-bc40-c44982b178a0",
+        "title": "Damit Katha Adam Thirigindi",
+        "year": 1987
+      },
+      "similarity": 0.9230769230769231
+    },
+    {
+      "movie1": {
+        "id": "75a2c20f-536f-4015-9b08-8c604d3d1ad5",
+        "title": "Zoo Laka Taka",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "a34fe89a-3ee4-49c5-8392-919686989c56",
+        "title": "Joo Laka Taka",
+        "year": 1989
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "7cc9a091-0c53-44ce-af2b-ef07cff9e577",
+        "title": "Jayamu Nischayamu Raa",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "98f7a5c6-9bd9-4b2d-91d3-e41f5f7dc942",
+        "title": "Jayammu Nischayammu Raa",
+        "year": 1990
+      },
+      "similarity": 0.9047619047619048
+    },
+    {
+      "movie1": {
+        "id": "5ba85799-2bc9-4f0d-bd0b-8bb4bca47880",
+        "title": "Rambha Rambabu",
+        "year": 1990
+      },
+      "movie2": {
+        "id": "189f1c9d-f3d2-4be8-8799-08b49f6acb56",
+        "title": "Ramba Rambabu",
+        "year": 1990
+      },
+      "similarity": 0.9230769230769231
+    },
+    {
+      "movie1": {
+        "id": "ce7d501d-8677-4d52-a803-3aa54c7e5c49",
+        "title": "April 1st Vidudala",
+        "year": 1991
+      },
+      "movie2": {
+        "id": "aaf79aaa-8582-4b7f-bc4a-bb1746eb3d43",
+        "title": "April 1 Vidudala",
+        "year": 1991
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "42bdd362-fed5-4045-a27d-a7e49d804587",
+        "title": "Pekata Paparao",
+        "year": 1993
+      },
+      "movie2": {
+        "id": "e8241d44-58f5-46e5-a518-14fd34ce27b3",
+        "title": "Pekata Papa Rao",
+        "year": 1993
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "8df1a616-6b5c-43dd-ae54-e51cd078b172",
+        "title": "Brahmachari Mogudu",
+        "year": 1994
+      },
+      "movie2": {
+        "id": "8060afed-40ca-485d-b697-ae9d234e17aa",
+        "title": "Bramhachari Mogudu",
+        "year": 1994
+      },
+      "similarity": 0.8823529411764706
+    },
+    {
+      "movie1": {
+        "id": "748a016d-9387-43f5-a7bb-ec7425103fa5",
+        "title": "Vaddu Bava Tappu",
+        "year": 1995
+      },
+      "movie2": {
+        "id": "4a37b927-f338-4eca-b40c-4d4309ba5366",
+        "title": "Vaddu Bava Thappu",
+        "year": 1995
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "1da56a37-112f-45ab-9ea6-905c9657a7e8",
+        "title": "Quick Gun Murugan",
+        "year": 2009
+      },
+      "movie2": {
+        "id": "7a5dc5f8-681d-49a7-9ff4-3a4962dcb9b0",
+        "title": "Quick Gun Murugun",
+        "year": 2009
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "757ef834-7d39-4a4a-a178-5e51affd850d",
+        "title": "Shashtipoorti",
+        "year": 2025
+      },
+      "movie2": {
+        "id": "fae84446-8b02-4d04-8724-cf5740fd4edc",
+        "title": "Shashtipoorthi",
+        "year": 2025
+      },
+      "similarity": 0.9285714285714286
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1980": 1,
+    "1982": 1,
+    "1983": 8,
+    "1984": 3,
+    "1985": 5,
+    "1986": 8,
+    "1987": 15,
+    "1988": 17,
+    "1989": 12,
+    "1990": 10,
+    "1991": 13,
+    "1992": 12,
+    "1993": 12,
+    "1994": 4,
+    "1995": 5,
+    "1996": 2,
+    "1997": 2,
+    "1998": 3,
+    "2000": 2,
+    "2001": 3,
+    "2003": 1,
+    "2004": 3,
+    "2005": 3,
+    "2006": 3,
+    "2007": 1,
+    "2008": 1,
+    "2009": 2,
+    "2010": 2,
+    "2012": 1,
+    "2013": 1,
+    "2015": 2,
+    "2019": 1,
+    "2021": 2,
+    "2022": 1,
+    "2023": 1,
+    "2025": 2
+  },
+  "summary": "12 potential duplicates"
+}

@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-01-13T22:12:26.459Z",
+  "total_profiles": 513,
+  "field_stats": [
+    {
+      "field": "social_links",
+      "category": "Advanced Enrichment",
+      "missing": 513,
+      "present": 0,
+      "percentage": 0,
+      "canAutomate": false,
+      "automationSource": "Manual research",
+      "priority": "low"
+    },
+    {
+      "field": "family_relationships",
+      "category": "Premium Data",
+      "missing": 499,
+      "present": 14,
+      "percentage": 3,
+      "canAutomate": false,
+      "automationSource": "Wikipedia/Manual",
+      "priority": "medium"
+    },
+    {
+      "field": "awards",
+      "category": "Advanced Enrichment",
+      "missing": 421,
+      "present": 92,
+      "percentage": 18,
+      "canAutomate": false,
+      "automationSource": "Wikipedia (manual verify)",
+      "priority": "high"
+    },
+    {
+      "field": "usp",
+      "category": "Basic Enrichment",
+      "missing": 247,
+      "present": 266,
+      "percentage": 52,
+      "canAutomate": true,
+      "automationSource": "AI from filmography",
+      "priority": "medium"
+    },
+    {
+      "field": "brand_pillars",
+      "category": "Advanced Enrichment",
+      "missing": 193,
+      "present": 320,
+      "percentage": 62,
+      "canAutomate": true,
+      "automationSource": "AI from career analysis",
+      "priority": "medium"
+    },
+    {
+      "field": "romantic_pairings",
+      "category": "Premium Data",
+      "missing": 132,
+      "present": 381,
+      "percentage": 74,
+      "canAutomate": true,
+      "automationSource": "Auto from filmography",
+      "priority": "medium"
+    },
+    {
+      "field": "profile_image",
+      "category": "Basic Enrichment",
+      "missing": 60,
+      "present": 453,
+      "percentage": 88,
+      "canAutomate": true,
+      "automationSource": "TMDB",
+      "priority": "high"
+    },
+    {
+      "field": "actor_eras",
+      "category": "Premium Data",
+      "missing": 59,
+      "present": 454,
+      "percentage": 88,
+      "canAutomate": true,
+      "automationSource": "Auto from filmography",
+      "priority": "high"
+    },
+    {
+      "field": "legacy_impact",
+      "category": "Premium Data",
+      "missing": 28,
+      "present": 485,
+      "percentage": 95,
+      "canAutomate": true,
+      "automationSource": "AI from career + awards",
+      "priority": "medium"
+    },
+    {
+      "field": "fan_culture",
+      "category": "Advanced Enrichment",
+      "missing": 7,
+      "present": 506,
+      "percentage": 99,
+      "canAutomate": true,
+      "automationSource": "AI from filmography",
+      "priority": "low"
+    },
+    {
+      "field": "industry_title",
+      "category": "Basic Enrichment",
+      "missing": 1,
+      "present": 512,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Known titles + AI",
+      "priority": "high"
+    },
+    {
+      "field": "name_en",
+      "category": "Core Identity",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": false,
+      "automationSource": "Manual",
+      "priority": "critical"
+    },
+    {
+      "field": "slug",
+      "category": "Core Identity",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Auto-generate from name",
+      "priority": "critical"
+    },
+    {
+      "field": "name_te",
+      "category": "Core Identity",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": false,
+      "automationSource": "Manual/Wikipedia",
+      "priority": "critical"
+    },
+    {
+      "field": "short_bio",
+      "category": "Basic Enrichment",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "TMDB/Wikipedia",
+      "priority": "high"
+    },
+    {
+      "field": "trust_score",
+      "category": "Governance",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Auto-calculate",
+      "priority": "medium"
+    },
+    {
+      "field": "confidence_tier",
+      "category": "Governance",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Auto-calculate",
+      "priority": "medium"
+    },
+    {
+      "field": "entity_confidence_score",
+      "category": "Governance",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Auto-calculate",
+      "priority": "high"
+    },
+    {
+      "field": "freshness_score",
+      "category": "Governance",
+      "missing": 0,
+      "present": 513,
+      "percentage": 100,
+      "canAutomate": true,
+      "automationSource": "Auto-calculate",
+      "priority": "low"
+    }
+  ],
+  "automation_summary": {
+    "automatable_fields": 727,
+    "manual_fields": 1433,
+    "total_missing": 2160
+  },
+  "by_category": [
+    {
+      "category": "Core Identity",
+      "total_missing": 0,
+      "completeness": 100,
+      "fields": [
+        {
+          "field": "name_en",
+          "missing": 0,
+          "percentage": 100
+        },
+        {
+          "field": "slug",
+          "missing": 0,
+          "percentage": 100
+        },
+        {
+          "field": "name_te",
+          "missing": 0,
+          "percentage": 100
+        }
+      ]
+    },
+    {
+      "category": "Basic Enrichment",
+      "total_missing": 308,
+      "completeness": 85,
+      "fields": [
+        {
+          "field": "usp",
+          "missing": 247,
+          "percentage": 52
+        },
+        {
+          "field": "profile_image",
+          "missing": 60,
+          "percentage": 88
+        },
+        {
+          "field": "industry_title",
+          "missing": 1,
+          "percentage": 100
+        },
+        {
+          "field": "short_bio",
+          "missing": 0,
+          "percentage": 100
+        }
+      ]
+    },
+    {
+      "category": "Advanced Enrichment",
+      "total_missing": 1134,
+      "completeness": 45,
+      "fields": [
+        {
+          "field": "social_links",
+          "missing": 513,
+          "percentage": 0
+        },
+        {
+          "field": "awards",
+          "missing": 421,
+          "percentage": 18
+        },
+        {
+          "field": "brand_pillars",
+          "missing": 193,
+          "percentage": 62
+        },
+        {
+          "field": "fan_culture",
+          "missing": 7,
+          "percentage": 99
+        }
+      ]
+    },
+    {
+      "category": "Premium Data",
+      "total_missing": 718,
+      "completeness": 65,
+      "fields": [
+        {
+          "field": "family_relationships",
+          "missing": 499,
+          "percentage": 3
+        },
+        {
+          "field": "romantic_pairings",
+          "missing": 132,
+          "percentage": 74
+        },
+        {
+          "field": "actor_eras",
+          "missing": 59,
+          "percentage": 88
+        },
+        {
+          "field": "legacy_impact",
+          "missing": 28,
+          "percentage": 95
+        }
+      ]
+    },
+    {
+      "category": "Governance",
+      "total_missing": 0,
+      "completeness": 100,
+      "fields": [
+        {
+          "field": "trust_score",
+          "missing": 0,
+          "percentage": 100
+        },
+        {
+          "field": "confidence_tier",
+          "missing": 0,
+          "percentage": 100
+        },
+        {
+          "field": "entity_confidence_score",
+          "missing": 0,
+          "percentage": 100
+        },
+        {
+          "field": "freshness_score",
+          "missing": 0,
+          "percentage": 100
+        }
+      ]
+    }
+  ]
+}

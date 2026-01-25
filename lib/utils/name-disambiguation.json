@@ -1,0 +1,118 @@
+{
+  "devaraj": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "director",
+        "years": [
+          1977
+        ],
+        "description": "1970s director"
+      },
+      {
+        "condition": "hero",
+        "years": [
+          2022
+        ],
+        "description": "Modern actor (Head Bush)"
+      }
+    ]
+  },
+  "sudhakar": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "producer",
+        "years": [
+          1982
+        ],
+        "description": "Producer"
+      },
+      {
+        "condition": "hero",
+        "years": [
+          1982,
+          1990
+        ],
+        "description": "Actor/Comedian"
+      }
+    ]
+  },
+  "ram": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "music_director",
+        "years": [
+          2010
+        ],
+        "description": "Music director"
+      },
+      {
+        "condition": "hero",
+        "years": [
+          2020
+        ],
+        "description": "Actor (Ram Pothineni)"
+      }
+    ]
+  },
+  "sagar": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "director",
+        "years": [
+          1995,
+          2016
+        ],
+        "description": "Director"
+      },
+      {
+        "condition": "hero",
+        "years": [
+          2016
+        ],
+        "description": "Singer/Actor"
+      }
+    ]
+  },
+  "srikanth": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "hero",
+        "languages": [
+          "Tamil"
+        ],
+        "description": "Tamil actor (Meka Srikanth)"
+      },
+      {
+        "condition": "hero",
+        "languages": [
+          "Telugu"
+        ],
+        "description": "Telugu actor"
+      }
+    ]
+  },
+  "anil kumar": {
+    "isDifferentPerson": true,
+    "rules": [
+      {
+        "condition": "director",
+        "years": [
+          1985
+        ],
+        "description": "1980s director"
+      },
+      {
+        "condition": "music_director",
+        "years": [
+          2014
+        ],
+        "description": "Modern music technician"
+      }
+    ]
+  }
+}

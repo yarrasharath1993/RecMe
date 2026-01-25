@@ -1,0 +1,199 @@
+
+══════════════════════════════════════════════════════════════════════
+MULTI-SOURCE ENRICHMENT WATERFALL (LIVE)
+══════════════════════════════════════════════════════════════════════
+Sources: TMDB → Wikimedia → IA → OMDB → Wikidata → Letterboxd → Cinemaazi → Google → AI
+Mode: PLACEHOLDERS ONLY (focusing on missing images)
+Auto-approve above: 0.7, Queue below: 0.5
+Audit: ENABLED (changes will be logged)
+
+(node:73419) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Found 20 movies to process
+
+
+[Ilanjodigal] (1982)
+  Current: hero=Karthik Muthuraman, director=Rama Narayanan, heroine=Radha
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":78774,"director":"Rama Narayanan","hero":"Karthik Muthuraman","heroine":"Radha"}
+  Phase 3: Ingest/Enrich sources (with license validation)...
+
+[Gandhinagar Rendava Veedhi] (1987)
+  Current: hero=Rajendra Prasad, director=P. N. Ramachandra Rao, heroine=Jayasudha
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"P. Ramachandran","hero":"Sarath Babu","poster_url":"https://m.media-amazon.com/images/M/MV5BZDcwOWJiMjEtMTlkMy00NTI5LThlZWUtMmFkODE1NWM0Y2E0XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg"}
+  📊 Confidence: 0.80 (base: 0.8, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.8 (omdb)
+
+[Padaharella Ammayi] (1986)
+  Current: hero=Rajendra Prasad, director=P. S. Krishna Mohan Reddy, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"P.S. Krishna Mohan Reddy","hero":"Rajendra Prasad"}
+
+[Jai Bajarangbali] (1997)
+  Current: hero=Brahmanandam, director=Rama Narayanan, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"hero":"Brahmanandam"}
+
+[Apparao Driving School] (2004)
+  Current: hero=null, director=Anji Seenu, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"Anji Srinu","hero":"Malavika Nair","poster_url":"https://m.media-amazon.com/images/M/MV5BY2RmM2M1YmMtZDYwMy00YjUzLTkyNDUtZTlmOTE2MGU1NTE1XkEyXkFqcGdeQXVyMjA4OTI5NDQ@._V1_SX300.jpg"}
+  📊 Confidence: 0.80 (base: 0.8, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: hero, poster_url, visual_confidence
+    Visual confidence: 0.8 (omdb)
+
+[Kaboye Alludu] (1987)
+  Current: hero=Rajendra Prasad, director=Relangi Narasimha Rao, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"Narasimha Rao Relangi","hero":"Chandramohan"}
+
+[Iddaru Attala Muddula Alludu] (2006)
+  Current: hero=null, director=Dev Anand, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"hero":"Rajendra Prasad","poster_url":"https://m.media-amazon.com/images/M/MV5BZmVkYjM3MDAtMDYzYS00Njc5LTkwYTQtYjU5NDczNGZlMDFiXkEyXkFqcGdeQXVyMjA4OTI5NDQ@._V1_SX300.jpg"}
+  📊 Confidence: 0.80 (base: 0.8, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: hero, poster_url, visual_confidence
+    Visual confidence: 0.8 (omdb)
+
+[Preminchi Choodu] (1989)
+  Current: hero=Shaam, director=A. Kodandarami Reddy, heroine=Laila
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ Wikidata: {"hero":"Chandra Mohan"}
+
+[Dabbevariki Chedu] (1987)
+  Current: hero=Rajendra Prasad, director=Relangi Narasimha Rao, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"Narasimha Rao Relangi","hero":"Suthi Veerabhadra Rao","poster_url":"https://m.media-amazon.com/images/M/MV5BNmFjMDgyNWMtYTI1OS00MDhmLTgyNjMtZjhhOTI0ZGI2MjBjXkEyXkFqcGdeQXVyMTUxODIyNzk@._V1_SX300.jpg"}
+  📊 Confidence: 0.80 (base: 0.8, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.8 (omdb)
+
+[Brundavanam] (1993)
+  Current: hero=Rajendra Prasad, director=Singeetam Srinivasa Rao, heroine=Ramya Krishnan
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"Singeetam Srinivasa Rao","hero":"Rajendra Prasad","poster_url":"https://m.media-amazon.com/images/M/MV5BNzlkNmM2NzMtZTBlYi00NzcwLTk2YzktM2U0ODU4NTM3MzQ1XkEyXkFqcGdeQXVyNDc2NzU1MTA@._V1_SX300.jpg"}
+  📊 Confidence: 0.80 (base: 0.8, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.8 (omdb)
+
+[Inimai Idho Idho] (1980)
+  Current: hero=null, director=R. Ramamurthy, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✗ No data found from any source
+
+[Poola Rangadu] (1989)
+  Current: hero=Sunil Varma, director=Relangi Narasimha Rao, heroine=Isha Chawla
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"director":"Narasimha Rao Relangi","hero":"Ashwani"}
+
+[Topi Raja Sweety Roja] (1996)
+  Current: hero=null, director=Dr. N. Shiva Prasad, heroine=null
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ Wikidata: {"hero":"Kota Srinivasa Rao"}
+  ✓ Updated: hero
+
+[Vishwaroobam] (1980)
+  Current: hero=Sivaji Ganesan, director=A. C. Tirulokchandar, heroine=Sujatha
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":261213,"poster_url":"https://image.tmdb.org/t/p/w500/la7IRGwN81hriNbId4HG1ow3kzI.jpg","director":"A. C. Tirulokchandar","hero":"Sivaji Ganesan","heroine":"Sujatha"}
+  Phase 2: Validate-Only sources (parallel)...
+    Found Letterboxd poster for Vishwaroobam
+    ✓ Letterboxd: confirmed (not stored)
+  📊 Confidence: 0.95 (base: 0.95, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.95 (tmdb)
+
+[Kumara Sambhavam] (1969)
+  Current: hero=Gemini Ganesan, director=P Subramaniam, heroine=Padmini
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":949560,"poster_url":"https://image.tmdb.org/t/p/w500/lVg0wX4nkrCSNjlMCpnVEiyaqe5.jpg","backdrop_url":"https://image.tmdb.org/t/p/w1280/dWxT43zUsG3pN0RrbTLfbIvLTJI.jpg","director":"P Subramaniam","hero":"Gemini Ganesan","heroine":"Sridevi"}
+  Phase 2: Validate-Only sources (parallel)...
+    Found Letterboxd poster for Kumara Sambhavam
+    ✓ Letterboxd: confirmed (not stored)
+  📊 Confidence: 0.95 (base: 0.95, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.95 (tmdb)
+
+[Agathiyar] (1972)
+  Current: hero=Gemini Ganesan, director=A. P. Nagarajan, heroine=null
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":262414,"director":"A. P. Nagarajan","hero":"Gemini Ganesan","heroine":"Lakshmi"}
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ Updated: heroine
+
+[Thunaivan] (1969)
+  Current: hero=null, director=M. A. Thirumugam, heroine=Sowcar Janaki
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":270123,"poster_url":"https://image.tmdb.org/t/p/w500/A7ionshVz8a0iyuSSBia2DkvKBR.jpg","backdrop_url":"https://image.tmdb.org/t/p/w1280/ci4CmZkc4HEtf71HQ0jOGrw4k8G.jpg","director":"M. A. Thirumugam","hero":"V. Gopalakrishnan","heroine":"Sowcar Janaki"}
+  Phase 2: Validate-Only sources (parallel)...
+    Found Letterboxd poster for Thunaivan
+    ✓ Letterboxd: confirmed (not stored)
+  📊 Confidence: 0.95 (base: 0.95, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: hero, poster_url, visual_confidence
+    Visual confidence: 0.95 (tmdb)
+
+[Penn Daivam] (1970)
+  Current: hero=Jaishankar, director=M. A. Thirumugam, heroine=Lakshmi
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":949810,"poster_url":"https://image.tmdb.org/t/p/w500/kGUHk4qAlYr5WYOzHlXrwIXRPxF.jpg","director":"M. A. Thirumugam","hero":"Jaishankar","heroine":"Lakshmi"}
+  Phase 2: Validate-Only sources (parallel)...
+    Found Letterboxd poster for Penn Daivam
+    ✓ Letterboxd: confirmed (not stored)
+  📊 Confidence: 0.95 (base: 0.95, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.95 (tmdb)
+
+[Kashmora] (1986)
+  Current: hero=Karthi, director=N. B. Chakravarthy, heroine=Nayanthara
+  Phase 1: Baseline (TMDB)...
+  Phase 3: Ingest/Enrich sources (with license validation)...
+  ✓ OMDB: {"hero":"Sarath Babu"}
+
+[Kulavilakku] (1969)
+  Current: hero=Gemini Ganesan, director=K. S. Gopalakrishnan, heroine=B. Saroja Devi
+  Phase 1: Baseline (TMDB)...
+  ✓ TMDB: {"tmdb_id":262388,"poster_url":"https://image.tmdb.org/t/p/w500/lK3UnyJ25RgyzfrrzAibeEOfw0G.jpg","director":"K. S. Gopalakrishnan","hero":"Gemini Ganesan","heroine":"B. Saroja Devi"}
+  Phase 2: Validate-Only sources (parallel)...
+    Found Letterboxd poster for Kulavilakku
+    ✓ Letterboxd: confirmed (not stored)
+  📊 Confidence: 0.95 (base: 0.95, validate: +0.00, multi-source: +0.00)
+  ✓ Updated: poster_url, visual_confidence
+    Visual confidence: 0.95 (tmdb)
+
+══════════════════════════════════════════════════════════════════════
+SUMMARY 
+══════════════════════════════════════════════════════════════════════
+  Processed:    20
+  Enriched:     19
+
+  By Source:
+    TMDB:             7
+    Wikimedia:        0
+    Internet Archive: 0
+    OMDB:             10
+    Wikidata:         2
+    Letterboxd:       0
+    Cinemaazi:        0
+    Google KG:        0
+    AI:               0
+    None:             1
+
+  Fields Updated:
+    Hero:       4
+    Heroine:    1
+    Director:   0
+    Poster:     10

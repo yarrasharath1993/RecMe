@@ -38,6 +38,46 @@ export interface WikipediaInfobox {
   language: 'te' | 'en';
 }
 
+// Extended movie metadata
+export interface WikipediaMovieMetadata extends WikipediaInfobox {
+  genres?: string[];
+  releaseDate?: string;
+  runtimeMinutes?: number;
+  certification?: string;
+  tagline?: string;
+  synopsis?: string;
+  boxOffice?: {
+    budget?: string;
+    opening?: string;
+    lifetimeGross?: string;
+    worldwideGross?: string;
+  };
+  wikidataId?: string;
+}
+
+// Celebrity metadata
+export interface WikipediaCelebrityMetadata {
+  fullBio?: string;
+  dateOfBirth?: string;
+  placeOfBirth?: string;
+  occupation?: string[];
+  yearsActive?: string;
+  height?: string;
+  education?: string;
+  spouse?: string;
+  children?: string[];
+  nicknames?: string[];
+  socialLinks?: {
+    twitter?: string;
+    instagram?: string;
+    facebook?: string;
+    website?: string;
+  };
+  confidence: number;
+  source: 'wikipedia';
+  language: 'te' | 'en';
+}
+
 // ============================================================
 // RATE LIMITING
 // ============================================================
@@ -578,4 +618,310 @@ function parseFilmographyFromHTML(html: string): WikipediaFilmographyEntry[] {
   }
   
   return films;
+}
+
+// ============================================================
+// ENHANCED MOVIE METADATA PARSING
+// ============================================================
+
+/**
+ * Parse extended movie metadata from Wikipedia infobox
+ */
+export function parseMovieMetadata(content: string, language: 'te' | 'en'): Partial<WikipediaMovieMetadata> {
+  const result: Partial<WikipediaMovieMetadata> = {};
+
+  // Get basic crew info first
+  const basicInfo = language === 'te' ? parseTeluguInfobox(content) : parseEnglishInfobox(content);
+  Object.assign(result, basicInfo);
+
+  // Extract genres
+  const genresStr = extractInfoboxField(content, ['వర్గం', 'genre', 'genres']);
+  if (genresStr) {
+    result.genres = genresStr.split(/[,\n•·]/).map(g => g.trim()).filter(g => g.length > 0);
+  }
+
+  // Extract release date
+  result.releaseDate = extractInfoboxField(content, ['విడుదల తేదీ', 'released', 'release date', 'release_date']);
+
+  // Extract runtime
+  const runtimeStr = extractInfoboxField(content, ['నడక', 'runtime', 'running time', 'running_time']);
+  if (runtimeStr) {
+    const minutesMatch = runtimeStr.match(/(\d+)\s*(?:minutes|mins?|నిమిషాలు)/i);
+    if (minutesMatch) {
+      result.runtimeMinutes = parseInt(minutesMatch[1]);
+    } else {
+      // Try hours format: "2h 30m"
+      const hoursMatch = runtimeStr.match(/(\d+)\s*(?:hours?|hrs?|h)\s*(\d+)?\s*(?:minutes?|mins?|m)?/i);
+      if (hoursMatch) {
+        const hours = parseInt(hoursMatch[1]);
+        const minutes = hoursMatch[2] ? parseInt(hoursMatch[2]) : 0;
+        result.runtimeMinutes = hours * 60 + minutes;
+      }
+    }
+  }
+
+  // Extract certification
+  result.certification = extractInfoboxField(content, ['certification', 'rated', 'rating']);
+
+  // Extract tagline
+  result.tagline = extractInfoboxField(content, ['tagline', 'caption']);
+
+  // Extract box office
+  const budget = extractInfoboxField(content, ['బడ్జెట్', 'budget']);
+  const boxOffice = extractInfoboxField(content, ['కలెక్షన్', 'box office', 'gross']);
+
+  if (budget || boxOffice) {
+    result.boxOffice = {
+      budget: budget || undefined,
+      lifetimeGross: boxOffice || undefined,
+    };
+  }
+
+  // Extract synopsis from article (first few paragraphs)
+  const plotMatch = content.match(/==\s*(?:Plot|Synopsis|Story)\s*==\s*\n([^=]+)/i);
+  if (plotMatch) {
+    let synopsis = plotMatch[1]
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+      .replace(/\[\[([^\]]+)\]\]/g, '$1')
+      .replace(/<ref[^>]*>.*?<\/ref>/g, '')
+      .replace(/{{[^}]+}}/g, '')
+      .replace(/'''?([^']+)'''?/g, '$1')
+      .trim();
+
+    result.synopsis = synopsis.slice(0, 1000); // Limit length
+  }
+
+  return result;
+}
+
+/**
+ * Parse extended movie metadata with full confidence scoring
+ */
+export async function parseWikipediaMovieMetadata(
+  title: string,
+  year: number
+): Promise<WikipediaMovieMetadata | null> {
+  try {
+    // Try Telugu first
+    let content = await fetchWikipediaPage(title, 'te');
+    let language: 'te' | 'en' = 'te';
+
+    if (!content) {
+      const searchTitle = await searchWikipedia(`${title} ${year}`, 'te');
+      if (searchTitle) {
+        content = await fetchWikipediaPage(searchTitle, 'te');
+      }
+    }
+
+    // Fallback to English
+    if (!content) {
+      content = await fetchWikipediaPage(title, 'en');
+      language = 'en';
+
+      if (!content) {
+        const searchTitle = await searchWikipedia(`${title} ${year} film`, 'en');
+        if (searchTitle) {
+          content = await fetchWikipediaPage(searchTitle, 'en');
+        }
+      }
+    }
+
+    if (!content) return null;
+
+    const parsed = parseMovieMetadata(content, language);
+
+    // Calculate confidence based on field coverage
+    const allFields = ['director', 'cinematographer', 'editor', 'writer', 'producer', 'musicDirector',
+      'genres', 'releaseDate', 'runtimeMinutes', 'synopsis'];
+    const filledFields = allFields.filter(field => parsed[field as keyof typeof parsed]);
+    const confidence = CONFIDENCE_THRESHOLDS.SOURCES.wikipedia * (filledFields.length / allFields.length);
+
+    return {
+      ...parsed,
+      confidence,
+      source: 'wikipedia',
+      language,
+    } as WikipediaMovieMetadata;
+
+  } catch (error) {
+    console.error(`Movie metadata parsing error:`, error);
+    return null;
+  }
+}
+
+// ============================================================
+// CELEBRITY METADATA PARSING
+// ============================================================
+
+/**
+ * Parse celebrity metadata from Wikipedia infobox
+ */
+export function parseCelebrityMetadata(content: string, language: 'te' | 'en'): Partial<WikipediaCelebrityMetadata> {
+  const result: Partial<WikipediaCelebrityMetadata> = {};
+
+  // Extract date of birth
+  result.dateOfBirth = extractInfoboxField(content, ['పుట్టిన తేదీ', 'born', 'birth_date', 'birthdate']);
+
+  // Extract place of birth
+  result.placeOfBirth = extractInfoboxField(content, ['పుట్టిన స్థలం', 'birthplace', 'birth_place', 'residence']);
+
+  // Extract occupation
+  const occupationStr = extractInfoboxField(content, ['వృత్తి', 'occupation', 'profession']);
+  if (occupationStr) {
+    result.occupation = occupationStr.split(/[,\n•·]/).map(o => o.trim()).filter(o => o.length > 0);
+  }
+
+  // Extract years active
+  result.yearsActive = extractInfoboxField(content, ['years_active', 'yearsactive', 'active']);
+
+  // Extract height
+  result.height = extractInfoboxField(content, ['ఎత్తు', 'height']);
+
+  // Extract education
+  result.education = extractInfoboxField(content, ['విద్య', 'education', 'alma_mater', 'almamater']);
+
+  // Extract spouse
+  result.spouse = extractInfoboxField(content, ['జీవిత భాగస్వామి', 'spouse', 'partner']);
+
+  // Extract children
+  const childrenStr = extractInfoboxField(content, ['children', 'child']);
+  if (childrenStr) {
+    result.children = childrenStr.split(/[,\n•·]/).map(c => c.trim()).filter(c => c.length > 0);
+  }
+
+  // Extract nicknames
+  const nicknamesStr = extractInfoboxField(content, ['nicknames', 'nickname', 'other_names']);
+  if (nicknamesStr) {
+    result.nicknames = nicknamesStr.split(/[,\n•·]/).map(n => n.trim()).filter(n => n.length > 0);
+  }
+
+  // Extract biography (first 2-3 paragraphs)
+  const paragraphs: string[] = [];
+  const lines = content.split('\n');
+  let infoboxEnded = false;
+  let currentParagraph = '';
+
+  for (const line of lines) {
+    if (line.includes('}}') && !infoboxEnded) {
+      infoboxEnded = true;
+      continue;
+    }
+
+    if (!infoboxEnded) continue;
+    if (line.startsWith('==')) break;
+    if (!line.trim() || line.startsWith('|') || line.startsWith('{')) {
+      if (currentParagraph.trim().length > 100) {
+        paragraphs.push(currentParagraph.trim());
+        currentParagraph = '';
+        if (paragraphs.length >= 2) break;
+      }
+      continue;
+    }
+
+    currentParagraph += ' ' + line;
+  }
+
+  if (currentParagraph.trim().length > 100 && paragraphs.length < 2) {
+    paragraphs.push(currentParagraph.trim());
+  }
+
+  if (paragraphs.length > 0) {
+    let bio = paragraphs.join('\n\n');
+    bio = bio
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
+      .replace(/\[\[([^\]]+)\]\]/g, '$1')
+      .replace(/<ref[^>]*>.*?<\/ref>/g, '')
+      .replace(/{{[^}]+}}/g, '')
+      .replace(/'''?([^']+)'''?/g, '$1')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    result.fullBio = bio;
+  }
+
+  // Extract social links
+  const socialLinks: WikipediaCelebrityMetadata['socialLinks'] = {};
+
+  const twitterMatch = content.match(/(?:twitter\.com|x\.com)\/([a-zA-Z0-9_]+)/i);
+  if (twitterMatch) {
+    socialLinks.twitter = `https://twitter.com/${twitterMatch[1]}`;
+  }
+
+  const instaMatch = content.match(/instagram\.com\/([a-zA-Z0-9_.]+)/i);
+  if (instaMatch) {
+    socialLinks.instagram = `https://instagram.com/${instaMatch[1]}`;
+  }
+
+  const fbMatch = content.match(/facebook\.com\/([a-zA-Z0-9.]+)/i);
+  if (fbMatch) {
+    socialLinks.facebook = `https://facebook.com/${fbMatch[1]}`;
+  }
+
+  const websiteMatch = content.match(/\|\s*website\s*=\s*([^\|\}\n]+)/i);
+  if (websiteMatch) {
+    let website = websiteMatch[1].trim().replace(/\[([^\]]+)\]/g, '$1').trim();
+    if (website.startsWith('http')) {
+      socialLinks.website = website;
+    }
+  }
+
+  if (Object.keys(socialLinks).length > 0) {
+    result.socialLinks = socialLinks;
+  }
+
+  return result;
+}
+
+/**
+ * Parse celebrity metadata with full confidence scoring
+ */
+export async function parseWikipediaCelebrityMetadata(
+  name: string
+): Promise<WikipediaCelebrityMetadata | null> {
+  try {
+    // Try English Wikipedia (more complete for celebrities)
+    let content = await fetchWikipediaPage(name, 'en');
+    let language: 'te' | 'en' = 'en';
+
+    if (!content) {
+      const searchTitle = await searchWikipedia(name, 'en');
+      if (searchTitle) {
+        content = await fetchWikipediaPage(searchTitle, 'en');
+      }
+    }
+
+    // Fallback to Telugu
+    if (!content) {
+      content = await fetchWikipediaPage(name, 'te');
+      language = 'te';
+
+      if (!content) {
+        const searchTitle = await searchWikipedia(name, 'te');
+        if (searchTitle) {
+          content = await fetchWikipediaPage(searchTitle, 'te');
+        }
+      }
+    }
+
+    if (!content) return null;
+
+    const parsed = parseCelebrityMetadata(content, language);
+
+    // Calculate confidence based on field coverage
+    const allFields = ['fullBio', 'dateOfBirth', 'placeOfBirth', 'occupation', 'yearsActive',
+      'height', 'education', 'spouse', 'children'];
+    const filledFields = allFields.filter(field => parsed[field as keyof typeof parsed]);
+    const confidence = CONFIDENCE_THRESHOLDS.SOURCES.wikipedia * (filledFields.length / allFields.length);
+
+    return {
+      ...parsed,
+      confidence,
+      source: 'wikipedia',
+      language,
+    } as WikipediaCelebrityMetadata;
+
+  } catch (error) {
+    console.error(`Celebrity metadata parsing error:`, error);
+    return null;
+  }
 }

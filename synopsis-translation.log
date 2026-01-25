@@ -1,0 +1,80 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         BULK SYNOPSIS TRANSLATION                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading movies needing Telugu synopsis...
+  ✅ Loaded 269 movies to translate
+
+  🔄 Starting translation...
+
+  ✓ 10 synopses translated (Saguni)
+  ✓ 20 synopses translated (Shivamani)
+  ✓ 30 synopses translated (Anasuyamma Gari Alludu)
+  ✓ 40 synopses translated (Do Lafzon Ki Kahani)
+  ✓ 50 synopses translated (Sree)
+
+  Progress: 50/269
+    Translated: 50, Failed: 0
+    Elapsed: 0.5 min, ETA: 2.2 min
+
+  ✓ 60 synopses translated (Chuttalunnaru Jagrattha)
+  ✓ 70 synopses translated (Rasaleela)
+  ✓ 80 synopses translated (Patala Bhairavi)
+  ✓ 90 synopses translated (Chuzhi)
+  ✓ 100 synopses translated (Charana Daasi)
+
+  Progress: 100/269
+    Translated: 100, Failed: 0
+    Elapsed: 1.0 min, ETA: 1.7 min
+
+  ✓ 110 synopses translated (Sri Bannari Amman)
+  ✓ 120 synopses translated (Payanam)
+  ✓ 130 synopses translated (Venghai)
+  ✓ 140 synopses translated (Kottai Mariamman)
+  ✓ 150 synopses translated (Himmat Aur Mehanat)
+
+  Progress: 150/269
+    Translated: 150, Failed: 0
+    Elapsed: 1.4 min, ETA: 1.1 min
+
+  ✓ 160 synopses translated (Kaviratna Kalidasa)
+  ✓ 170 synopses translated (Hero)
+  ✓ 180 synopses translated (Arasu)
+  ✓ 190 synopses translated (Chand Sa Roshan Chehra)
+  ✓ 200 synopses translated (Karpagam)
+
+  Progress: 200/269
+    Translated: 200, Failed: 0
+    Elapsed: 2.0 min, ETA: 0.7 min
+
+  ✓ 210 synopses translated (Khuda Gawah)
+  ✓ 220 synopses translated (Sooryavansham)
+  ✓ 230 synopses translated (Akkada Ammayi Ikkada Abbayi)
+  ✓ 240 synopses translated (Varam)
+  ✓ 250 synopses translated (Rudranetra)
+
+  Progress: 250/269
+    Translated: 250, Failed: 0
+    Elapsed: 2.8 min, ETA: 0.2 min
+
+  ✓ 260 synopses translated (Dil)
+
+  ✅ Translation complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 269
+  Duration: 3.1 minutes
+
+  ✅ Synopses translated: 269
+  ❌ Failed: 0
+  Success rate: 100.0%
+
+  Average: 86.8 translations/minute
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

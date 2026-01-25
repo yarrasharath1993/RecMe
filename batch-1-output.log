@@ -1,0 +1,906 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║       BATCH ACTOR DISCOVERY & ENRICHMENT                             ║
+║       Process all actors with full pipeline                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Batch: 1 (actors 1-5 of 30)
+  Actors in this batch: 5
+
+  1. Krishna
+  2. Allari Naresh
+  3. N.T. Rama Rao
+  4. Vijayashanti
+  5. Akkineni Nagarjuna
+
+================================================================================
+  Processing: Krishna
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Krishna
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Krishna" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Krishna" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 891 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1470750 for "Krishna"
+TMDB: Found 111 films for "Krishna"
+TMDB: 111 Telugu/Unknown language films
+  ✓ TMDB: 111 films
+Wikipedia: Fetching filmography for "Krishna"...
+Wikipedia: Found 0 films in filmography for "Krishna"
+Wikidata: Searching for "Krishna"...
+Wikidata: Found actor ID Q16239080
+Wikidata: Found 8 films for "Krishna"
+  ✓ Wikidata: 8 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 119
+  • Already in database: 891
+  • Missing films: 35
+
+🎭 Classifying roles...
+  • Child actor roles: 29
+  • Lead roles: 73
+  • Supporting roles: 13
+  • Cameo appearances: 4
+  • Voice roles: 0
+
+✅ Auto-adding 35 missing films...
+  ❌ Failed to add "Rajamahal": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Chuttalunnaru Jagrattha (1980)
+  ✓ Added: Maa Voori Magaadu (1987)
+  ❌ Failed to add "Kuzhanthaikkaga": Could not find the 'notes' column of 'movies' in the schema cache
+  ❌ Failed to add "Teri Talaash Mein": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Rajakiya Chadurangam (1988)
+  ✓ Added: Khaidi Rudrayya (1986)
+  ✓ Added: Krishnarajunulu (1982)
+  ✓ Added: Nagastharam (1990)
+  ✓ Added: Raktha Tharpanam (1992)
+  ✓ Added: Independence (1999)
+  ✓ Added: Kalabha Mazha (2011)
+  ✓ Added: Rasaleela (2012)
+  ✓ Added: Chalakkudykkaran Changathy (2018)
+
+✅ Successfully added 11/35 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/krishna-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Krishna
+  Total films found: 119
+  Already in database: 891
+  Missing films: 35
+  Added to database: 11
+
+  Role breakdown:
+    Child actor: 29
+    Lead: 73
+    Supporting: 13
+    Cameo: 4
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Krishna
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1965
+  Database films: 500
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 4 pre-debut films, 28 potential duplicates
+
+  PRE-DEBUT FILMS (4):
+    • Tarumaru (1941) - Before 1965
+    • Shanta Bala Nagamma (1942) - Before 1965
+    • Nithya Kalyanam Paccha Thoranam (1960) - Before 1965
+    • Murali Krishna (1964) - Before 1965
+
+  POTENTIAL DUPLICATES (28):
+    • "Santanam Soubhagyam" (1975) ↔ "Santhanam Soubhagyam" (1975) [95%]
+    • "Manasaakshi" (1977) ↔ "Manassakshi" (1977) [91%]
+    • "Indradhanasu" (1978) ↔ "Indradhanussu" (1978) [85%]
+    • "Muggure Mugguru" (1978) ↔ "Mugguru Muggure" (1978) [86%]
+    • "Manavoori Pandavulu" (1978) ↔ "Mana Voori Pandavulu" (1978) [100%]
+    • "Samajaniki Savaal" (1979) ↔ "Samajaniki Sawal" (1979) [88%]
+    • "Chuttalunnaru Jagratha" (1980) ↔ "Chuttalunnaru Jagrattha" (1980) [95%]
+    • "Adhrustavanthudu" (1980) ↔ "Adrushtavanthudu" (1980) [88%]
+    • "Bhoga Bagyalu" (1981) ↔ "Bhoga Bhagyalu" (1981) [92%]
+    • "Ooruki Monagadu" (1981) ↔ "Ooriki Monagadu" (1981) [93%]
+    • "Thodu Dongalu" (1981) ↔ "Todu Dongalu" (1981) [92%]
+    • "Oorukichchina Maata" (1981) ↔ "Ooriki Ichina Maata" (1981) [83%]
+    • "Shamsher Shankar" (1982) ↔ "Shamshare Shankar" (1982) [88%]
+    • "Krishnarajunulu" (1982) ↔ "Krishnarjunulu" (1982) [93%]
+    • "Krishnarajunulu" (1982) ↔ "Krishnaarjunulu" (1982) [87%]
+    • "Ee Charithra Ye Siratho" (1982) ↔ "Ee Charitra Ae Sirato" (1982) [85%]
+    • "Trisulam" (1982) ↔ "Trisulam" (1983) [100%]
+    • "Krishnarjunulu" (1982) ↔ "Krishnaarjunulu" (1982) [93%]
+    • "Kalavari Samsaram" (1982) ↔ "Kalavaari Samsaram" (1982) [94%]
+    • "Jagannatha Radhachakralu" (1982) ↔ "Jagannadha Rathachakralu" (1982) [91%]
+    • "Shakthi" (1983) ↔ "Praja Shakthi" (1983) [90%]
+    • "Poratam" (1983) ↔ "Dharma Poratam" (1983) [90%]
+    • "Babayi-Abbayi" (1985) ↔ "Babai Abbai" (1985) [83%]
+    • "Brahmasthram" (1986) ↔ "Brahmastram" (1986) [92%]
+    • "Parasuramudu" (1986) ↔ "Ramu" (1987) [90%]
+    • "Maa Voori Magaadu" (1987) ↔ "Maa Voori Magadu" (1987) [93%]
+    • "Sankharavam" (1987) ↔ "Shankharavam" (1987) [92%]
+    • "Ramu" (1987) ↔ "Bhargava Ramudu" (1987) [90%]
+
+  YEAR DISTRIBUTION:
+    1940s: 2 films
+    1960s: 46 films
+    1970s: 235 films
+    1980s: 217 films
+  📝 Full audit saved: docs/KRISHNA_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Krishna"
+  Filter: Actor: Krishna
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 20  [████████████████░░░░] 80% (40/50) | Enriched: 40  [████████████████████] 100% (50/50) | Enriched: 49
+
+
+
+
+  Applying updates to database...
+
+  Updated 49 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      49 movies
+  Not found:     1
+  Updated in DB: 49
+  Success rate:  98%
+
+  By Source:
+    TMDB:      43
+    Wikipedia: 3
+    Wikidata:  0
+    Combined:  2
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Allari Naresh
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Allari Naresh
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Allari Naresh" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Allari" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 62 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 237993 for "Allari Naresh"
+TMDB: Found 65 films for "Allari Naresh"
+TMDB: 65 Telugu/Unknown language films
+  ✓ TMDB: 65 films
+Wikipedia: Fetching filmography for "Allari Naresh"...
+Wikipedia: Found 29 films in filmography for "Allari Naresh"
+  ✓ Wikipedia: 29 films
+Wikidata: Searching for "Allari Naresh"...
+Wikidata: Found actor ID Q4731165
+Wikidata: Found 42 films for "Allari Naresh"
+  ✓ Wikidata: 42 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 81
+  • Already in database: 62
+  • Missing films: 24
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 69
+  • Supporting roles: 12
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 24 missing films...
+  ✓ Added: Kurumbu (2003)
+  ✓ Added: Subhapradam (2010)
+  ✓ Added: Madatha Kaaja (2011)
+  ✓ Added: Kathi Kanta Rao (2010)
+  ✓ Added: Pelli Kani Prasad (2003)
+  ✓ Added: Poraali (2011)
+  ✓ Added: Sundara Kanda (2008)
+  ✓ Added: Nandi Awards (2008)
+  ✓ Added: Santosham Film Awards (2021)
+  ✓ Added: Gopi – Goda Meedha Pilli (2006)
+  ✓ Added: Siddu from Sikakulam (2008)
+  ✓ Added: Betting Bangaraju (2010)
+  ✓ Added: Shubhapradam (2010)
+  ✓ Added: Marana Porali (2011)
+  ✓ Added: Sudigadu (2012)
+  ✓ Added: Bachchala Malli (2024)
+
+✅ Successfully added 16/24 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/allari-naresh-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Allari Naresh
+  Total films found: 81
+  Already in database: 62
+  Missing films: 24
+  Added to database: 16
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 69
+    Supporting: 12
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Allari Naresh
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 2001
+  Database films: 70
+  Wikipedia films: ~55
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 4 potential duplicates
+
+  POTENTIAL DUPLICATES (4):
+    • "Sundarakanda" (2008) ↔ "Sundara Kanda" (2008) [100%]
+    • "Kathi Kanta Rao" (2010) ↔ "Kathi Kantha Rao" (2010) [93%]
+    • "Subhapradam" (2010) ↔ "Shubhapradham" (2010) [85%]
+    • "Madatha Kaaja" (2011) ↔ "Madatha Kaja" (2011) [92%]
+
+  YEAR DISTRIBUTION:
+    2000s: 31 films
+    2010s: 28 films
+    2020s: 11 films
+  📝 Full audit saved: docs/ALLARI_NARESH_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Allari Naresh"
+  Filter: Actor: Allari Naresh
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 19  [████████████████░░░░] 80% (40/50) | Enriched: 38  [████████████████████] 100% (50/50) | Enriched: 47
+
+
+
+
+  Applying updates to database...
+
+  Updated 47 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      47 movies
+  Not found:     3
+  Updated in DB: 47
+  Success rate:  94%
+
+  By Source:
+    TMDB:      38
+    Wikipedia: 5
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: N.T. Rama Rao
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: N.T. Rama Rao
+Mode: EXECUTE
+
+📥 Fetching existing movies for "N.T. Rama Rao" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "N" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 428 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1003933 for "N.T. Rama Rao"
+TMDB: Found 135 films for "N.T. Rama Rao"
+TMDB: 135 Telugu/Unknown language films
+  ✓ TMDB: 135 films
+Wikipedia: Fetching filmography for "N.T. Rama Rao"...
+Wikipedia: Found 0 films in filmography for "N.T. Rama Rao"
+Wikidata: Searching for "N.T. Rama Rao"...
+Wikidata: Actor "N.T. Rama Rao" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 135
+  • Already in database: 428
+  • Missing films: 38
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 133
+  • Supporting roles: 2
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 38 missing films...
+  ✓ Added: Samrat Ashoka (1992)
+  ✓ Added: Karnan (1964)
+  ✓ Added: Kalyanam Panni Paar (1952)
+  ✓ Added: Charana Daasi (1956)
+  ✓ Added: Tiger (1979)
+  ✓ Added: Seetha Rama Kalyanam (1961)
+  ✓ Added: Kannan Karunai (1971)
+  ✓ Added: Lawyer Vishwanath (1978)
+  ✓ Added: Bhagyarekha (1957)
+  ✓ Added: Sampoorna Ramayanam (1958)
+  ✓ Added: Aaradhana (1976)
+  ✓ Added: Yugapurushudu (1978)
+
+✅ Successfully added 12/38 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/n.t.-rama-rao-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: N.T. Rama Rao
+  Total films found: 135
+  Already in database: 428
+  Missing films: 38
+  Added to database: 12
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 133
+    Supporting: 2
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: N.T. Rama Rao
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1949
+  Database films: 439
+  Wikipedia films: ~300
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 3 pre-debut films, 16 potential duplicates, Count mismatch: DB=439, Wiki=~300
+
+  PRE-DEBUT FILMS (3):
+    • Palnati Yuddham (1947) - Before 1949
+    • NTR Neel (null) - Before 1949
+    • Devara 2 (null) - Before 1949
+
+  POTENTIAL DUPLICATES (16):
+    • "Stree Sahasam" (1951) ↔ "Sahasam" (1952) [90%]
+    • "Kanyashulkam" (1955) ↔ "Kanyasulkam" (1955) [92%]
+    • "Bhagyarekha" (1957) ↔ "Bhagya Rekha" (1957) [100%]
+    • "Vinayaka Chaviti" (1957) ↔ "Vinayaka Chavithi" (1957) [94%]
+    • "Inti Guttu" (1958) ↔ "Intiguttu" (1958) [100%]
+    • "Kalasi Vunte Kaladu Sukham" (1961) ↔ "Kalasi Unte Kaladu Sukham" (1961) [96%]
+    • "Bangaru Thimmaraju" (1963) ↔ "Bangaru Thimmaraju" (1964) [100%]
+    • "Sri Tirupatamma Katha" (1963) ↔ "Sri Tirupatamma Katha" (1964) [100%]
+    • "Sri Krishnarjuna Yuddhamu" (1963) ↔ "Sri Krishnarjuna Yudham" (1963) [91%]
+    • "Zamindar" (1965) ↔ "Zamindar" (1966) [100%]
+    • "Palnati Yudham" (1966) ↔ "Palnati Yuddham" (1966) [93%]
+    • "Sudigundalu" (1967) ↔ "Sudigundaalu" (1968) [92%]
+    • "Bhagya Chakramu" (1968) ↔ "Ramu" (1968) [90%]
+    • "Sri Ramaanjaneya Yuddham" (1975) ↔ "Sri Ramanjaneya Yuddham" (1975) [95%]
+    • "Srimadhvirata Parvamu" (1979) ↔ "Sri Madvirata Parvam" (1979) [90%]
+    • "Srinatha Kavi Saarvabhoumudu" (1993) ↔ "Srinatha Kavi Sarvabhowmudu" (1993) [92%]
+
+  YEAR DISTRIBUTION:
+    0s: 2 films
+    1940s: 4 films
+    1950s: 130 films
+    1960s: 176 films
+    1970s: 72 films
+    1980s: 19 films
+    1990s: 7 films
+    2000s: 13 films
+    2010s: 13 films
+    2020s: 3 films
+  📝 Full audit saved: docs/N.T._RAMA_RAO_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "N.T. Rama Rao"
+  Filter: Actor: N.T. Rama Rao
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 20  [████████████████░░░░] 80% (40/50) | Enriched: 39  [████████████████████] 100% (50/50) | Enriched: 47
+
+
+
+
+  Applying updates to database...
+
+  Updated 47 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      47 movies
+  Not found:     3
+  Updated in DB: 47
+  Success rate:  94%
+
+  By Source:
+    TMDB:      39
+    Wikipedia: 8
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Vijayashanti
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Vijayashanti
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Vijayashanti" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Vijayashanti" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 94 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 584259 for "Vijayashanti"
+TMDB: Found 77 films for "Vijayashanti"
+TMDB: 77 Telugu/Unknown language films
+  ✓ TMDB: 77 films
+Wikipedia: Fetching filmography for "Vijayashanti"...
+Wikipedia: Found 0 films in filmography for "Vijayashanti"
+Wikidata: Searching for "Vijayashanti"...
+Wikidata: Found actor ID Q3595529
+Wikidata: Found 45 films for "Vijayashanti"
+  ✓ Wikidata: 45 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 92
+  • Already in database: 94
+  • Missing films: 43
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 70
+  • Supporting roles: 22
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 43 missing films...
+  ✓ Added: Nenjile Thunivirunthal (1981)
+  ✓ Added: Pattabhishekham (1985)
+  ✓ Added: Kallukul Eeram (1980)
+  ✓ Added: Apradhi (1992)
+  ✓ Added: Sri Bannari Amman (2002)
+  ✓ Added: Mannan (1992)
+  ✓ Added: Netrikan (1981)
+  ✓ Added: Sravana Sandhya (1986)
+  ✓ Added: Rajasthan (1999)
+  ✓ Added: Ilanjodigal (1982)
+  ✓ Added: Mondi Mogudu Penki Pellam (1991)
+  ✓ Added: Samsaram O Sangeetham (1986)
+  ✓ Added: IPS Jhansi (2004)
+  ✓ Added: Yuvathurki (1996)
+  ✓ Added: Thadayam (1997)
+  ✓ Added: Eeshwar (1989)
+  ✓ Added: Kallukondoru Pennu (1998)
+  ✓ Added: Deshoddharakudu (1986)
+  ✓ Added: Simha Gharjane (1983)
+  ✓ Added: Kallukkul Eeram (1980)
+  ✓ Added: Nizhal Thedum Nenjangal (1982)
+  ✓ Added: Gunda Gardi (1997)
+  ✓ Added: Kallu Kondoru Pennu (1998)
+
+✅ Successfully added 23/43 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/vijayashanti-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Vijayashanti
+  Total films found: 92
+  Already in database: 94
+  Missing films: 43
+  Added to database: 23
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 70
+    Supporting: 22
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Vijayashanti, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Vijayashanti
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 21
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 potential duplicates
+
+  POTENTIAL DUPLICATES (1):
+    • "Kartavyam" (1990) ↔ "Karthavyam" (1991) [90%]
+
+  YEAR DISTRIBUTION:
+    1980s: 10 films
+    1990s: 9 films
+    2000s: 2 films
+  📝 Full audit saved: docs/VIJAYASHANTI_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Vijayashanti"
+  Filter: Actor: Vijayashanti
+
+  Found 21 movies to process
+
+  Processing...
+
+  [███████████████████░] 95% (20/21) | Enriched: 18  [████████████████████] 100% (21/21) | Enriched: 19
+
+
+
+
+  Applying updates to database...
+
+  Updated 19 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     21 movies
+  Enriched:      19 movies
+  Not found:     2
+  Updated in DB: 19
+  Success rate:  90%
+
+  By Source:
+    TMDB:      17
+    Wikipedia: 2
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Akkineni Nagarjuna
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Akkineni Nagarjuna
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Akkineni Nagarjuna" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Akkineni" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 73 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 149958 for "Akkineni Nagarjuna"
+TMDB: Found 105 films for "Akkineni Nagarjuna"
+TMDB: 105 Telugu/Unknown language films
+  ✓ TMDB: 105 films
+Wikipedia: Fetching filmography for "Akkineni Nagarjuna"...
+Wikipedia: Found 0 films in filmography for "Akkineni Nagarjuna"
+Wikidata: Searching for "Akkineni Nagarjuna"...
+Wikidata: Found actor ID Q3345031
+Wikidata: Found 86 films for "Akkineni Nagarjuna"
+  ✓ Wikidata: 86 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 125
+  • Already in database: 73
+  • Missing films: 51
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 87
+  • Supporting roles: 32
+  • Cameo appearances: 5
+  • Voice roles: 1
+
+✅ Auto-adding 51 missing films...
+  ✓ Added: Angaaray (1998)
+  ✓ Added: Khuda Gawah (1992)
+  ✓ Added: Mr. Bechara (1996)
+  ✓ Added: Gunda Mawali (1998)
+  ✓ Added: LOC: Kargil (2003)
+  ✓ Added: Zakhm (1998)
+  ✓ Added: Ratchagan (1997)
+  ❌ Failed to add "Inji Iduppazhagi": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Exploring ''Shiva'' Movie After 25 Years (2014)
+  ✓ Added: Antam (1992)
+  ✓ Added: Captain Nagarjuna (1986)
+  ✓ Added: Nayanthara: Beyond the Fairy Tale (2024)
+  ✓ Added: Kirai Dada (1987)
+  ✓ Added: Sankeerthana (1987)
+  ✓ Added: Geetanjali (1989)
+  ✓ Added: Vicky Daada (1989)
+  ✓ Added: Chaithanya (1991)
+  ✓ Added: Govinda Govinda (1993)
+  ✓ Added: Govinda Govinda (1994)
+  ✓ Added: Ninne Pelladata (1996)
+  ✓ Added: Shivamani (2003)
+  ✓ Added: Vikram (2005)
+  ✓ Added: Payanam (2011)
+  ✓ Added: Dhamarukam (2012)
+  ✓ Added: Kubera (2024)
+
+✅ Successfully added 24/51 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/akkineni-nagarjuna-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Akkineni Nagarjuna
+  Total films found: 125
+  Already in database: 73
+  Missing films: 51
+  Added to database: 24
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 87
+    Supporting: 32
+    Cameo: 5
+    Voice: 1
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Akkineni Nagarjuna
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1986
+  Database films: 78
+  Wikipedia films: ~90
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 2 potential duplicates
+
+  POTENTIAL DUPLICATES (2):
+    • "Captain Nagarjun" (1986) ↔ "Captain Nagarjuna" (1986) [90%]
+    • "Antam" (1992) ↔ "Antham" (1992) [83%]
+
+  YEAR DISTRIBUTION:
+    1980s: 15 films
+    1990s: 27 films
+    2000s: 16 films
+    2010s: 16 films
+    2020s: 4 films
+  📝 Full audit saved: docs/AKKINENI_NAGARJUNA_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Akkineni Nagarjuna"
+  Filter: Actor: Akkineni Nagarjuna
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 20  [████████████████░░░░] 80% (40/50) | Enriched: 40  [████████████████████] 100% (50/50) | Enriched: 49
+
+
+
+
+  Applying updates to database...
+
+  Updated 49 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      49 movies
+  Not found:     1
+  Updated in DB: 49
+  Success rate:  98%
+
+  By Source:
+    TMDB:      43
+    Wikipedia: 4
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       BATCH SUMMARY                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Batch: 1
+  Duration: 21.0 minutes
+  Actors processed: 5
+
+  Results:
+
+    ✅ Krishna                        - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Allari Naresh                  - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ N.T. Rama Rao                  - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Vijayashanti                   - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Akkineni Nagarjuna             - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+
+  Success rate: 100%
+
+  💡 To process next batch (6-10):
+     npx tsx scripts/batch-discover-all-actors.ts --batch=2 --execute

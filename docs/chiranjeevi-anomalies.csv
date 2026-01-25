@@ -1,0 +1,157 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Palleturi Monagadu",1983,-,"-","-",89%,"Duplicate of ""Palletoori Monagadu"" (1983) - 89% similar",flag_review
+duplicate,"Simhapuri Simham",1983,-,"-","-",88%,"Duplicate of ""Simhapoori Simham"" (1983) - 88% similar",flag_review
+duplicate,"Adavi Donga",1985,-,"-","-",90%,"Duplicate of ""Donga"" (1985) - 90% similar",flag_review
+duplicate,"Alluda Majaka",1995,-,"-","-",86%,"Duplicate of ""Alludaa Majakaa"" (1995) - 86% similar",flag_review
+ghost_entry,"Anji",2004,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Tagore",2003,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Annayya",2000,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Iddaru Mitrulu",1999,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Sneham Kosam",1999,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Bavagaru Bagunnara",1998,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Master",1997,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Big Boss",1995,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Rikshavodu",1995,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Stuartpuram Police Station",1991,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Stuvartpuram Dongalu",1991,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Kondaveeti Donga",1990,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Pratibandh",1990,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Rudranetra",1989,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Khaidi No.786",1988,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Trinetrudu",1988,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Donga Mogudu",1987,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Pasivadi Pranam",1987,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Kirathakudu",1986,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Vijetha",1985,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Chattamtho Poratam",1985,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Naagu",1984,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Devanthakudu",1984,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+ghost_entry,"Rustum",1984,-,"-","-",0%,"Chiranjeevi not in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Abhilasha",1983,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Khaidi",1983,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Prema Pichollu",1983,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Sangharshana",1983,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Gudachari No.1",1983,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Yamakinkarudu",1982,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Radha My Darling",1982,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Subhalekha",1982,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Illanta Sandadi",1982,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Patnam Vachina Pativrathalu",1981,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Chattaniki Kallu Levu",1981,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Nyayam Kavali",1981,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Mogudu Kaavali",1980,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Thathayya Premaleelalu",1980,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+wrong_attribution,"Kukka Katuku Cheppu Debba",1979,-,"-","-",0%,"Chiranjeevi not found in TMDB cast. Top cast: ",report_only
+conflicting_data,"Mana Shankara Vara Prasad Garu",2026,tmdb_id,"1146313","-",80%,"TMDB movie is es, not Telugu",flag_review
+conflicting_data,"Auto Jaani",2026,tmdb_id,"341935","-",80%,"TMDB movie is fr, not Telugu",flag_review
+conflicting_data,"Vishwambhara",2026,tmdb_id,"1211111","-",80%,"TMDB movie is xx, not Telugu",flag_review
+conflicting_data,"Mega 159",2026,tmdb_id,"1382410","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Rudra Tandava",2015,tmdb_id,"540012","-",80%,"TMDB movie is kn, not Telugu",flag_review
+conflicting_data,"Aatagara",2015,tmdb_id,"400859","-",80%,"TMDB movie is kn, not Telugu",flag_review
+conflicting_data,"Anji",2004,tmdb_id,"115063","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Shankar Dada M.B.B.S.",2004,tmdb_id,"42171","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Tagore",2003,tmdb_id,"54170","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Indra",2002,tmdb_id,"37910","-",80%,"TMDB movie is ja, not Telugu",flag_review
+conflicting_data,"Mrugaraju",2001,tmdb_id,"56399","-",80%,"TMDB movie is it, not Telugu",flag_review
+conflicting_data,"Annayya",2000,tmdb_id,"115059","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Iddaru Mitrulu",1999,tmdb_id,"115057","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Sneham Kosam",1999,tmdb_id,"109630","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Meri Zindagi Ek Agneepath",1998,tmdb_id,"662698","-",80%,"TMDB movie is hi, not Telugu",flag_review
+conflicting_data,"Choodalani Vundi",1998,tmdb_id,"37911","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Bavagaru Bagunnara",1998,tmdb_id,"108502","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Master",1997,tmdb_id,"101370","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Hitler",1997,tmdb_id,"115053","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Big Boss",1995,tmdb_id,"410217","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Alluda Majaka",1995,tmdb_id,"56391","-",80%,"TMDB movie is ru, not Telugu",flag_review
+conflicting_data,"Rikshavodu",1995,tmdb_id,"115051","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Mugguru Monagallu",1994,tmdb_id,"115049","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"S.P. Parasuram",1994,tmdb_id,"318859","-",80%,"TMDB movie is sv, not Telugu",flag_review
+conflicting_data,"The Gentleman",1994,tmdb_id,"410224","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Mechanic Alludu",1993,tmdb_id,"115046","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Aapadbandhavudu",1992,tmdb_id,"115042","-",80%,"TMDB movie is it, not Telugu",flag_review
+conflicting_data,"Gharana Mogudu",1992,tmdb_id,"43232","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Aaj Ka Goonda Raaj",1992,tmdb_id,"242907","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Rowdy Alludu",1991,tmdb_id,"108503","-",80%,"TMDB movie is de, not Telugu",flag_review
+conflicting_data,"Gang Leader",1991,tmdb_id,"410214","-",80%,"TMDB movie is hi, not Telugu",flag_review
+conflicting_data,"Stuartpuram Police Station",1991,tmdb_id,"115038","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Stuvartpuram Dongalu",1991,tmdb_id,"410228","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Kodama Simham",1990,tmdb_id,"115037","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Kondaveeti Donga",1990,tmdb_id,"115035","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Pratibandh",1990,tmdb_id,"109631","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Jagadeka Veerudu Athiloka Sundari",1990,tmdb_id,"108501","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Rudranetra",1989,tmdb_id,"115040","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Zulm Ki Zanjeer",1989,tmdb_id,"819866","-",80%,"TMDB movie is ta, not Telugu",flag_review
+conflicting_data,"State Rowdy",1989,tmdb_id,"115034","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Khaidi No.786",1988,tmdb_id,"115031","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Manchi Donga",1988,tmdb_id,"115028","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Rudraveena",1988,tmdb_id,"40149","-",80%,"TMDB movie is ja, not Telugu",flag_review
+conflicting_data,"Antima Teerpu",1988,tmdb_id,"320392","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Yamudiki Mogudu",1988,tmdb_id,"115029","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Marana Mrudangam",1988,tmdb_id,"115033","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Trinetrudu",1988,tmdb_id,"115032","-",80%,"TMDB ID not found",flag_review
+conflicting_data,"Jebu Donga",1987,tmdb_id,"115026","-",80%,"TMDB movie is it, not Telugu",flag_review
+conflicting_data,"Swayamkrushi",1987,tmdb_id,"43231","-",80%,"TMDB movie is it, not Telugu",flag_review
+missing_field,"Auto Jaani",2026,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Vishwambhara",2026,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Mega 159",2026,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Rudra Tandava",2015,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Aatagara",2015,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Andarivadu",2005,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Meri Zindagi Ek Agneepath",1998,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Meri Zindagi Ek Agneepath",1998,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Meri Zindagi Ek Agneepath",1998,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Meri Zindagi Ek Agneepath",1998,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Alludaa Majakaa",1995,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Alludaa Majakaa",1995,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Alludaa Majakaa",1995,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Alludaa Majakaa",1995,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Alluda Majaka",1995,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Mugguru Monagallu",1994,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"S.P. Parasuram",1994,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Mechanic Alludu",1993,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Raja Vikramarka",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Zulm Ki Zanjeer",1989,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Zulm Ki Zanjeer",1989,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Zulm Ki Zanjeer",1989,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Zulm Ki Zanjeer",1989,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Attaku Yamudu Ammayiki Mogudu",1989,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Manchi Donga",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Best Actor",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Best Actor",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Best Actor",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Best Actor",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Best Actor",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Veta",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Rakshasudu",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Allullostunnaru",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Challenge",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Hero",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Agni Gundam",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Allulu Vasthunnaru",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Allulu Vasthunnaru",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Allulu Vasthunnaru",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Allulu Vasthunnaru",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Simhapoori Simham",1983,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Simhapoori Simham",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Simhapoori Simham",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Simhapoori Simham",1983,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Palletoori Monagadu",1983,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Palletoori Monagadu",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Palletoori Monagadu",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Palletoori Monagadu",1983,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Mantri Gari Viyyankudu",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Aalaya Sikharam",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Maro Maya Bazaar",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Yamakinkarudu",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Mondi Ghatam",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Sitadevi",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Idi Pellantara",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Todu Dongalu",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"47 Natkal",1981,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"47 Natkal",1981,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"47 Natkal",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"47 Natkal",1981,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kirayi Rowdylu",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Tirugu Leni Manishi",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Parvathi Parameswarulu",1981,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Kotta Alludu",1979,writer,"-","-",60%,"Missing writer",report_only

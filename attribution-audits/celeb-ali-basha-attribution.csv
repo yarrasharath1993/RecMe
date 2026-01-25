@@ -1,0 +1,5 @@
+"Status","Wikipedia Title","Wikipedia Year","Role","Cast Type","DB Movie ID","DB Title","DB Year","Current Attribution","Match %","Suggested Field","Action"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Nandi Awards","1981","Best Child Actor","","f8b96466-024c-4d02-8a09-fffb160f34cb","Aatagadu","1980","Not attributed","90","cast","Add Ali Basha as Best Child Actor"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Special Jury Award","1996","Actor","","1d7675e5-3006-4fcd-a1c9-545303813bf1","Amma Donga!","1995","Not attributed","90","cast","Add Ali Basha as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Filmfare Awards","2003","Actor","","81445621-1081-48b7-a013-bf0a78872346","Friends","2002","Not attributed","90","cast","Add Ali Basha as Cast Member"
+"✓ ATTRIBUTED","Super","2005","Actor","","11ba522b-1669-48f7-9f94-941e35841fca","Super","2005","Not attributed","100","","None"

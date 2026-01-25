@@ -1,0 +1,34 @@
+
+═══════════════════════════════════════════════════════════════
+  COMPREHENSIVE FILMOGRAPHY AUDIT
+═══════════════════════════════════════════════════════════════
+
+Fetching celebrities with Wikipedia URLs...
+
+✓ Loaded 184 celebrities with Wikipedia URLs
+
+
+Progress: 1/184
+
+[A. Chandra] Fetching Wikipedia filmography...
+  Failed to fetch filmography
+
+Progress: 2/184
+
+[Aadi] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 3/184
+
+[Abbas] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 4/184
+
+[Abhirami] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia
+
+Progress: 5/184
+
+[Aditi Rao Hydari] Fetching Wikipedia filmography...
+  Found 0 movies on Wikipedia

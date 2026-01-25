@@ -1,0 +1,1623 @@
+{
+  "actor": "Mahesh",
+  "timestamp": "2026-01-11T20:08:12.868Z",
+  "totalFilms": 34,
+  "filmography": [
+    {
+      "year": null,
+      "title": "Vāranāsi",
+      "slug": "varanasi-tba",
+      "hero": "Mahesh Babu",
+      "heroine": "Priyanka Chopra Jonas",
+      "director": "S. S. Rajamouli",
+      "musicDirector": "M.M. Keeravaani",
+      "cinematographer": "P. S. Vinod",
+      "editor": "Bikkina Thammiraju",
+      "writer": "Vijayendra Prasad",
+      "producer": "K. L. Narayana",
+      "tmdbId": 920708,
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction",
+        "Fantasy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prithviraj Sukumaran",
+          "role": "Kumbha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2024,
+      "title": "Guntur Kaaram",
+      "slug": "guntur-kaaram-2024",
+      "hero": "Mahesh Babu",
+      "heroine": "Sreeleela",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "Manoj Paramahamsa",
+      "editor": "Naveen Nooli",
+      "writer": "Trivikram Srinivas",
+      "producer": "S. Radha Krishna",
+      "tmdbId": 868660,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ramya Krishnan",
+          "role": "Vasundhara",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Venkata Swamy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jayaram",
+          "role": "Satyam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Ramesh",
+          "role": "Narayana",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Murali Sharma",
+          "role": "Pani",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2024,
+      "title": "Drinker Sai",
+      "slug": "drinker-sai-2024",
+      "hero": "Mahesh Dharma",
+      "heroine": "Aishwarya Sharma",
+      "director": "Kiran Tirumalasetti",
+      "musicDirector": "Sri Vasanth",
+      "cinematographer": "Prasanth Ankireddy",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Kiran Tirumalasetti",
+      "producer": null,
+      "tmdbId": 1407473,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Srikanth Iyengar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kirrak Seetha",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sameer Hasan",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Posani Krishna Murali",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ritu Chowdhury",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2023,
+      "title": "Mao Oori Cinema",
+      "slug": "mao-oori-cinema-2023",
+      "hero": "Pulivendula Mahesh",
+      "heroine": "Priya Paul",
+      "director": "G Sivaram Teja",
+      "musicDirector": "SK. Baji",
+      "cinematographer": "Dharma Prabha",
+      "editor": "G Sivaram Teja",
+      "producer": "G. Manjunath Reddy",
+      "tmdbId": 1189224,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Aparna Shetty",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mahesh Vitta",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Manjunatha Reddy",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2022,
+      "title": "Sarkaru Vaari Paata",
+      "slug": "sarkaru-vaari-paata-2022",
+      "hero": "Mahesh Babu",
+      "heroine": "Keerthy Suresh",
+      "director": "Parasuram Petla",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "R. Madhi",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Parasuram Petla",
+      "producer": "Gopichand Achanta",
+      "tmdbId": 784696,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Samuthirakani",
+          "role": "Rajendranath",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Vennela Kishore",
+          "role": "Kishore",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Subbaraju",
+          "role": "Subbaraju",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nadhiya",
+          "role": "Bank Officer",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Posani Krishna Murali",
+          "role": "Colony President",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2020,
+      "title": "Sarileru Neekevvaru",
+      "slug": "sarileru-neekevvaru-2020",
+      "hero": "Mahesh Babu",
+      "heroine": "Vijayashanti",
+      "director": "Anil Ravipudi",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "R. Ratnavelu",
+      "editor": "Bikkina Thammiraju",
+      "writer": "Anil Ravipudi",
+      "producer": "Ramabrahmam Sunkara",
+      "tmdbId": 607313,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rashmika Mandanna",
+          "role": "Samskruthi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Nagendra Reddy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sangeetha Krish",
+          "role": "Swarajyam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "Prasad",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Vennela Kishore",
+          "role": "Kishore",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2019,
+      "title": "Maharshi",
+      "slug": "maharshi-2019",
+      "hero": "Mahesh Babu",
+      "heroine": "Pooja Hegde",
+      "director": "Vamsi Paidipally",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "K.U. Mohanan",
+      "editor": "Praveen K. L.",
+      "writer": "Hari",
+      "producer": "Kavin Anne",
+      "tmdbId": 541487,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Allari Naresh",
+          "role": "Ravi Shankar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jagapati Babu",
+          "role": "Vivek Mittal",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Rishi's Father",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Jayasudha",
+          "role": "Rishi's Mother",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Meenakshi Dixit",
+          "role": "Nidhi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2018,
+      "title": "Bharat Ane Nenu",
+      "slug": "bharat-ane-nenu-2018",
+      "hero": "Mahesh Babu",
+      "heroine": "Kiara Advani",
+      "director": "Koratala Siva",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Ravi K. Chandran",
+      "editor": "Sreekar Prasad",
+      "writer": "Koratala Siva",
+      "producer": "DVV Danayya",
+      "tmdbId": 501987,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Varadarajulu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "R. Sarathkumar",
+          "role": "Bharath's Father",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Aamani",
+          "role": "Bharath's Mother",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Devaraj",
+          "role": "Double DK",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sithara",
+          "role": "Bharath's Step-Mother",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2017,
+      "title": "Spyder",
+      "slug": "spyder-2017",
+      "hero": "Mahesh Babu",
+      "heroine": "Bharath",
+      "director": "A. R. Murugadoss",
+      "musicDirector": "A. R. Murugadoss",
+      "cinematographer": "Santosh Sivan",
+      "editor": "A. Sreekar Prasad",
+      "writer": "A.   R.   Murugadoss",
+      "producer": "Mahesh Babu",
+      "tmdbId": null,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rakul Preet Singh",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2016,
+      "title": "Brahmotsavam",
+      "slug": "brahmotsavam-2016",
+      "hero": "Mahesh Babu",
+      "heroine": "Kajal Aggarwal",
+      "director": "Srikanth Addala",
+      "musicDirector": "Mickey J Meyer",
+      "cinematographer": "R. Ratnavelu",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Srikanth Addala",
+      "producer": "Prasad Vara Potluri",
+      "tmdbId": 371363,
+      "genres": [
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Samantha Ruth Prabhu",
+          "role": "NRI from London",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Revathi",
+          "role": "Ajay's Mother",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Pranitha Subhash",
+          "role": "Ajay's Cousin",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sathyaraj",
+          "role": "Ajay's Father",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rao Ramesh",
+          "role": "Pranitha's Father",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2016,
+      "title": "Saptagiri Express",
+      "slug": "saptagiri-express-2016",
+      "hero": "Mahesh Achanta",
+      "heroine": "Roshini Prakash",
+      "director": "Arun Pawar",
+      "musicDirector": "Vijai Bulganin",
+      "cinematographer": "C. Ramprasad",
+      "editor": "Gautham Raju",
+      "writer": "Saptagiri",
+      "producer": "Dr. K. Ravi Kirane",
+      "tmdbId": 432341,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Siva Prasad",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Saptagiri",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Shakalaka Shankar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sayaji Shinde",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Roshini Prakash",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Srimanthudu",
+      "slug": "srimanthudu-2015",
+      "hero": "Mahesh Babu",
+      "heroine": "Shruti Haasan",
+      "director": "Koratala Siva",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "R. Madhi",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Koratala Siva",
+      "producer": "CV Mohan",
+      "tmdbId": 353533,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jagapati Babu",
+          "role": "Ravikanth",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mukesh Rishi",
+          "role": "Venkata Ratnam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sampath Raj",
+          "role": "Sashi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "Narayana Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Rajaratnam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2014,
+      "title": "1: Nenokkadine",
+      "slug": "1-nenokkadine-2014",
+      "hero": "Mahesh Babu",
+      "heroine": "Kriti Sanon",
+      "director": "Sukumar",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "R. Ratnavelu",
+      "editor": "Shiva Saravanan",
+      "writer": "Sukumar",
+      "producer": "Anil Sunkara",
+      "tmdbId": 249772,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Mystery"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nassar",
+          "role": "Chandrashekhar's Co-Scientist",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kelly Dorji",
+          "role": "Antonio Rosarius",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Pradeep Ram Singh Rawat",
+          "role": "Taxi Driver",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Anand",
+          "role": "Chandrashekhar",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Anu Hasan",
+          "role": "Kalyani",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2014,
+      "title": "Aagadu",
+      "slug": "aagadu-2014",
+      "hero": "Mahesh Babu",
+      "heroine": "Tamannaah Bhatia",
+      "director": "Srinu Vaitla",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "K. V. Guhan",
+      "editor": "M. R. Varmaa",
+      "writer": "Upendra Madhav",
+      "producer": "Anil Sunkara",
+      "tmdbId": 294413,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sonu Sood",
+          "role": "Damodar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Delhi Suri",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "Raja Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ashish Vidhyarthi",
+          "role": "S.P.Mallikharjun",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Nassar",
+          "role": "S.I.Dakshina Murthy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2012,
+      "title": "Businessman",
+      "slug": "businessman-2012",
+      "hero": "Mahesh Babu",
+      "heroine": "Kajal Aggarwal",
+      "director": "Puri Jagannadh",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "Shyam K. Naidu",
+      "editor": "S. R. Sekhar",
+      "writer": "Puri Jagannadh",
+      "producer": "R. R. Venkat",
+      "tmdbId": 83889,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Jaidev Ghanapuleti",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sayaji Shinde",
+          "role": "Laalu (Politician)",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nassar",
+          "role": "Ajay Bharadwaj",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ayesha Shiva",
+          "role": "Ayesha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Dharmavarupu Subramanyam",
+          "role": "Laalu's Secretary",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2011,
+      "title": "Dookudu",
+      "slug": "dookudu-2011",
+      "hero": "Mahesh Babu",
+      "heroine": "Samantha",
+      "director": "Sreenu Vaitla",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "K. V. Guhan",
+      "editor": "M. R. Varmaa",
+      "writer": "Gopi Mohan",
+      "producer": "Gopichand Achanta",
+      "tmdbId": 80276,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Shankar Narayana",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sonu Sood",
+          "role": "Nayak",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Padmasri",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "M. S. Narayana",
+          "role": "Bokka Venkata Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Adithya Menon",
+          "role": "Sivayya",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Sivaji",
+      "slug": "sivaji-2010",
+      "hero": "Mahesh Babu",
+      "heroine": "Anushka Shetty",
+      "director": "S Shankar",
+      "musicDirector": "Shankar",
+      "cinematographer": "K. V. Anand",
+      "editor": "Anthony",
+      "writer": "Shankar",
+      "producer": "M. S. Guhan",
+      "tmdbId": null,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vivek",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Suman",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Khaleja",
+      "slug": "khaleja-2010",
+      "hero": "Mahesh Babu",
+      "heroine": "Anushka Shetty",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Yash Bhatt",
+      "editor": "Sreekar Prasad",
+      "writer": "Trivikram Srinivas",
+      "producer": ".mw-parser-output .plainlist ol",
+      "tmdbId": 56986,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Gopala \"G.K.\" Krishnan",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Ramesh",
+          "role": "Tantrik",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Anushka Shetty",
+          "role": "Subhashini",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Tom Cruise",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sunil Varma",
+          "role": "Babji",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2007,
+      "title": "Athidhi",
+      "slug": "athidhi-2007",
+      "hero": "Mahesh Babu",
+      "heroine": "Amrita Rao",
+      "director": "Surender Reddy",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Sameer Reddy",
+      "editor": "Gautham Raju",
+      "writer": "Surender Reddy",
+      "producer": "Ronnie Screwvala",
+      "tmdbId": 56996,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Brahmanandam",
+          "role": "Shivram",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Home Minister",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ravi Prakash",
+          "role": "Friend",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ashish Vidhyarthi",
+          "role": "Danny Bhai",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Maccha Srinu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2007,
+      "title": "Athidi",
+      "slug": "athidi-2007",
+      "hero": "Mahesh Babu",
+      "heroine": "Amrita Rao",
+      "director": "Surender Reddy",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Sameer Reddy",
+      "editor": "Gautham Raju",
+      "writer": "Vakkantham Vamsi",
+      "producer": "Ramesh Babu",
+      "tmdbId": null,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Sainikudu",
+      "slug": "sainikudu-2006",
+      "hero": "Mahesh Babu",
+      "heroine": "Trisha Krishnan",
+      "director": "Gunasekhar",
+      "musicDirector": "Harris Jayaraj",
+      "cinematographer": "Balasubramaniem",
+      "editor": "Sreekar Prasad",
+      "writer": "Gunasekhar",
+      "producer": "Swapna Dutt",
+      "tmdbId": 85824,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Irrfan Khan",
+          "role": "Pappu Yadav",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Mondi Nani",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Chief Minister",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nassar",
+          "role": "Chakrapani",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Telangana Shakuntala",
+          "role": "ACP Pochamma",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Pokiri",
+      "slug": "pokiri-2006",
+      "hero": "Mahesh Babu",
+      "heroine": "Ileana D'Cruz",
+      "director": "Puri Jagannadh",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Shyam K. Naidu",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Puri Jagannadh",
+      "producer": "Manjula Ghattamaneni",
+      "tmdbId": 23381,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Ali Bhai",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Suryanarayana",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Brahmi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ashish Vidhyarthi",
+          "role": "Pasupathy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sayaji Shinde",
+          "role": "Sayed Mohammad Pasha Qadri",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2005,
+      "title": "Okkade",
+      "slug": "okkade-2005",
+      "hero": "Mahesh Babu",
+      "heroine": "Bhoomika Chawla",
+      "director": "Gunasekhar",
+      "musicDirector": "Vandemataram Srinivas",
+      "cinematographer": "Adusumalli Vijay Kumar",
+      "editor": "Murali Ramayya",
+      "writer": "Chandra Mahesh",
+      "producer": "K. Mahendra",
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mukesh Rishi",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2005,
+      "title": "Athadu",
+      "slug": "athadu-2005",
+      "hero": "Mahesh Babu",
+      "heroine": "Trisha Krishnan",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "K. V. Guhan",
+      "editor": "Sreekar Prasad",
+      "writer": "Trivikram Srinivas",
+      "producer": "Murali Mohan",
+      "tmdbId": 37172,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sonu Sood",
+          "role": "Malli",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "CBI investigator Anjaneya Prasad",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nassar",
+          "role": "Satyanarayana Murthy",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Baji Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sayaji Shinde",
+          "role": "Siva Reddy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Arjun",
+      "slug": "arjun-2004",
+      "hero": "Mahesh Babu",
+      "heroine": "Mahesh Babu",
+      "director": "Gunasekhar",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Sekhar V. Joseph",
+      "editor": "Sreekar Prasad",
+      "writer": "Gunasekhar",
+      "producer": "Ramesh Babu Ghattamaneni",
+      "tmdbId": 80856,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Shriya Saran",
+          "role": "Roopa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raja",
+          "role": "Uday",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Bala Nayakar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nassar",
+          "role": "Police Commissioner Ratnavelu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Saritha",
+          "role": "Andal",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Naani",
+      "slug": "naani-2004",
+      "hero": "Mahesh Babu",
+      "heroine": "Ameesha Patel",
+      "director": "S. J. Surya",
+      "musicDirector": "A.R. Rahman",
+      "cinematographer": "K. V. Guhan",
+      "editor": "Sreekar Prasad",
+      "writer": "S. J. Suryah",
+      "producer": "Manjula Ghattamaneni",
+      "tmdbId": 281948,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Devayani",
+          "role": "Indira Devi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raghuvaran",
+          "role": "Scientist",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Aishwarya Bhaskar",
+          "role": "Priya's Friend",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nassar",
+          "role": "Priya's Father",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Satyam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Okkadu",
+      "slug": "okkadu-2003",
+      "hero": "Mahesh Babu",
+      "heroine": "Bhumika Chawla",
+      "director": "Gunasekhar",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Sekhar V. Joseph",
+      "editor": "Sreekar Prasad",
+      "writer": "Gunasekhar",
+      "producer": "M. S. Raju",
+      "tmdbId": 94965,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Obul Reddy",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mukesh Rishi",
+          "role": "DCP Vijay Varma",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Geetha",
+          "role": "Vasundhara",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Chandramohan",
+          "role": "Dasaratharama Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ajay",
+          "role": "Kumar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Nijam",
+      "slug": "nijam-2003",
+      "hero": "Mahesh Babu",
+      "heroine": "Rakshita",
+      "director": "Teja",
+      "musicDirector": "R. P. Patnaik",
+      "cinematographer": "Sameer Reddy",
+      "writer": "Teja",
+      "producer": "Teja",
+      "tmdbId": 224947,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rakshita",
+          "role": "Janaki",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raasi",
+          "role": "Malli",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Talluri Rameshwari",
+          "role": "G. Santhi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ranganath",
+          "role": "G. Venkateswarlu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "ACP Raja Narendra",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Bobby",
+      "slug": "bobby-2002",
+      "hero": "Mahesh Babu",
+      "heroine": "Aarti Agarwal",
+      "director": "Sobhan",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Venkat R. Prasad",
+      "editor": "S. Sudhakar Reddy",
+      "writer": "Sobhan",
+      "producer": "K. Krishna Mohan Rao",
+      "tmdbId": 299127,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Markus Knüfken",
+          "role": "Jojo",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Steffen Groth",
+          "role": "Marc",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Hansa Czypionka",
+          "role": "Klaus Wilde",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Margret Völker",
+          "role": "Nanni Wilde",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "August Schmölzer",
+          "role": "Rechtspfleger Ettschläger",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Takkari Donga",
+      "slug": "takkari-donga-2002",
+      "hero": "Mahesh Babu",
+      "heroine": "Lisa Ray",
+      "director": "Jayant Paranji",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Jayanan Vincent",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Jayant Paranji",
+      "producer": "Jayant Paranji",
+      "tmdbId": 82727,
+      "genres": [
+        "Western",
+        "Adventure",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Bipasha Basu",
+          "role": "Panasa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "K Ashok Kumar",
+          "role": "Veeru Dada",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rahul Dev",
+          "role": "Shaka",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Tanikella Bharani",
+          "role": "Doobey",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Surya Bhagawan Das",
+          "role": "An Outlaw",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2001,
+      "title": "Murari",
+      "slug": "murari-2001",
+      "hero": "Mahesh Babu",
+      "heroine": "Sonali Bendre",
+      "director": "Pasupuleti Krishna Vamsi",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "C. Ramprasad",
+      "editor": "Pasupuleti Krishna Vamsi",
+      "writer": "Pasupuleti Krishna Vamsi",
+      "producer": "N. Ramalingeswara Rao",
+      "tmdbId": 85813,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Thriller",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Lakshmi",
+          "role": "Gopakka",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sukumari",
+          "role": "Sabari",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "role": "Satthipandu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ravi Babu",
+          "role": "Bullabbayi",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Shivaji Raja",
+          "role": "Soori",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2000,
+      "title": "Yuvaraju",
+      "slug": "yuvaraju-2000",
+      "hero": "Mahesh Babu",
+      "heroine": "Simran",
+      "director": "Y. V. S. Chowdary",
+      "musicDirector": "Ramana Gogula",
+      "cinematographer": "Ajayan Vincent",
+      "writer": "Chintapalli Ramana",
+      "producer": "Burugupalli Shiva Rama Krishna",
+      "tmdbId": 232304,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sakshi Shivananda",
+          "role": "Srivalli",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Teja Sajja",
+          "role": "Teja",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Venu Madhav",
+          "role": "Sehgal Baba",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Baba Sehgal",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sivaji Sontineni",
+          "role": "Sivaji",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1999,
+      "title": "Rajakumarudu",
+      "slug": "rajakumarudu-1999",
+      "hero": "Mahesh Babu",
+      "heroine": "Preity Zinta",
+      "director": "K Raghavendra Rao",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Ajayan Vincent",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand Pydipalli",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 281423,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Brahmanandam",
+          "role": "Sub Inspector Wagle",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Dhanunjay",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Krishna",
+          "role": "Krishnamurthy",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sumalatha",
+          "role": "Rajyalakshmi",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Srihari",
+          "role": "Narsimharayudu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1999,
+      "title": "Raja Kumarudu",
+      "slug": "raja-kumarudu-1999",
+      "hero": "Mahesh Babu",
+      "heroine": "Preity Zinta",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    }
+  ],
+  "statistics": {
+    "byDecade": [
+      [
+        "2020s",
+        5
+      ],
+      [
+        "2010s",
+        12
+      ],
+      [
+        "2000s",
+        15
+      ],
+      [
+        "1990s",
+        2
+      ]
+    ],
+    "missingFields": {
+      "cinematographer": 1,
+      "editor": 3,
+      "writer": 2,
+      "producer": 2,
+      "tmdbId": 5
+    },
+    "genreDistribution": {
+      "Adventure": 2,
+      "Action": 23,
+      "Science Fiction": 1,
+      "Fantasy": 2,
+      "Drama": 22,
+      "Comedy": 7,
+      "Romance": 12,
+      "Thriller": 8,
+      "Family": 7,
+      "Mystery": 1,
+      "Crime": 5,
+      "Western": 1
+    }
+  }
+}

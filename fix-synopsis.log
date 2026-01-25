@@ -1,0 +1,83 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           FIX LOW CONFIDENCE SYNOPSIS                                ║
+║           Target: 15 movies with generated_basic source              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: DRY RUN
+
+(node:36402) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  Found 14 movies to process
+
+
+  Processing: VVAN (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Ramayana: Part One (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Anantha (2026)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Sabhaku Namaskaram (2026)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    (Dry run) Would update with english_wikipedia_translated
+
+  Processing: Bāhubali: The Epic (2025)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Anandapuram Diaries (2024)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    (Dry run) Would update with english_wikipedia_translated
+
+  Processing: RRR: Behind & Beyond (2024)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    (Dry run) Would update with english_wikipedia_translated
+
+  Processing: Operation Laila (2024)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Nayanthara: Beyond the Fairy Tale (2024)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: 'Salaar: Part 2 – Shouryanga Parvam (2023)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    (Dry run) Would update with english_wikipedia_translated
+
+  Processing: Ramachandra Boss &amp; Co (2023)
+    ❌ No high-quality synopsis found
+
+  Processing: Drama Juniors 4 Telugu (2023)
+    ✓ Found English Wikipedia + Translation (85% confidence)
+    (Dry run) Would update with english_wikipedia_translated
+
+  Processing: Kisi Ka Bhai... Kisi Ki Jaan (2023)
+    ✓ Found Telugu Wikipedia synopsis (95% confidence)
+    (Dry run) Would update with telugu_wikipedia
+
+  Processing: Kannai Nambathe (2023)
+    ✓ Found TMDB + Translation (80% confidence)
+    (Dry run) Would update with tmdb_overview_translated
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           SUMMARY                                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total Movies:        14
+  Successfully Fixed:  13 (93%)
+  Failed:              1 (7%)
+
+  Sources Used:
+    telugu_wikipedia: 7
+    english_wikipedia_translated: 5
+    tmdb_overview_translated: 1
+
+  💡 Run with --execute to apply changes
+

@@ -74,16 +74,19 @@ const TURBO = hasFlag('turbo'); // New: Maximum speed (100 concurrent, 25ms rate
 // Pass 1: Build signals (genres, mood_tags, audience_fit)
 // Pass 2: Classify (safe-classification, taxonomy)
 // Pass 3: Extended metadata & trust scoring
-// Pass 4: Validation (including comparison sources)
+// Pass 4: Governance & Validation (including comparison sources)
 const MULTI_PASS_CONFIG = {
     pass1: ['images', 'cast-crew', 'genres-direct', 'auto-tags'],
     pass2: ['safe-classification', 'taxonomy', 'age-rating-legacy', 'content-flags', 'audience-fit-derived', 'trigger-warnings'],
     pass3: ['tagline', 'telugu-synopsis', 'trivia', 'trust-confidence', 'collaborations'],
-    pass4: ['cross-verify', 'comparison-validation', 'validation'],
+    pass4: ['governance', 'cross-verify', 'comparison-validation', 'validation'],
 };
 
 // FAST MODE: Parallel execution groups (phases that can run simultaneously)
 const PARALLEL_GROUPS = {
+    // Layer 0: Pre-enrichment validation + Film discovery (runs ONLY if --actor specified)
+    // NEW: actor-filmography-validate runs first to standardize names and check counts
+    layer0: [['actor-filmography-validate'], ['film-discovery']],
     // Layer 1: Images and Cast/Crew are independent - run together
     layer1: [['images', 'cast-crew']],
     // Layer 2: Genres first, then parallel classification
@@ -92,9 +95,9 @@ const PARALLEL_GROUPS = {
     layer3: [['audience-fit-derived', 'trigger-warnings']],
     // Layer 4: Tagline, synopsis, trivia can run together
     layer4: [['tagline', 'telugu-synopsis', 'trivia']],
-    // Layer 5: Trust depends on all, collaborations independent
-    layer5: [['trust-confidence', 'collaborations']],
-    // Layer 6: Sequential validation
+    // Layer 5: Trust depends on all, then governance
+    layer5: [['trust-confidence', 'collaborations'], ['governance']],
+    // Layer 6: Sequential validation (governance must complete first)
     layer6: [['cross-verify'], ['comparison-validation'], ['validation']],
 };
 
@@ -151,6 +154,28 @@ interface PhaseConfig {
 // ============================================================
 
 const PHASES: PhaseConfig[] = [
+    // Layer 0: Pre-enrichment Validation (NEW in v3.0 - runs ONLY if --actor filter is provided)
+    // Based on Balakrishna filmography fix session learnings
+    {
+        name: 'actor-filmography-validate',
+        script: 'scripts/validate-actor-filmography.ts',
+        args: ['--pre-check'],  // Only run Phase 0 pre-enrichment validation
+        description: 'Pre-enrichment: standardize names, check counts, detect duplicates',
+        layer: 0,
+        priority: 0,
+        estimatedTime: '1-2 min',
+    },
+    {
+        name: 'film-discovery',
+        script: 'scripts/discover-add-actor-films.ts',
+        args: [],
+        description: 'Discover missing films from 9 sources and auto-add (actor-specific)',
+        layer: 0,
+        priority: 1,
+        dependencies: ['actor-filmography-validate'],
+        estimatedTime: '2-5 min',
+    },
+
     // Layer 1: Core Data
     {
         name: 'images',
@@ -307,6 +332,18 @@ const PHASES: PhaseConfig[] = [
         estimatedTime: '3-5 min',
     },
 
+    // Layer 5.5: Governance (NEW)
+    {
+        name: 'governance',
+        script: 'scripts/enrich-governance.ts',
+        args: ['--entity=movies', '--concurrency=' + CONCURRENCY],
+        description: 'Governance validation, trust scoring with breakdown, freshness decay',
+        layer: 5,
+        priority: 16,
+        dependencies: ['trust-confidence', 'collaborations'],
+        estimatedTime: '3-5 min',
+    },
+
     // Layer 6: Validation & Audit
     {
         name: 'cross-verify',
@@ -314,8 +351,8 @@ const PHASES: PhaseConfig[] = [
         args: ['--auto-fix'],
         description: 'Multi-source validation, anomaly detection, data consistency',
         layer: 6,
-        priority: 16,
-        dependencies: ['trust-confidence'],
+        priority: 17,
+        dependencies: ['trust-confidence', 'governance'],
         estimatedTime: '5-10 min',
     },
     {
@@ -324,7 +361,7 @@ const PHASES: PhaseConfig[] = [
         args: ['--enable-sources'],
         description: 'Secondary source validation (RT, YouTube, Google KG) for confidence',
         layer: 6,
-        priority: 17,
+        priority: 18,
         dependencies: ['cross-verify'],
         estimatedTime: '10-20 min',
     },
@@ -334,7 +371,7 @@ const PHASES: PhaseConfig[] = [
         args: ['--auto-fix', `--report=${REPORT_DIR}/validation-${Date.now()}.md`],
         description: 'Final validation pass with report generation',
         layer: 6,
-        priority: 18,
+        priority: 19,
         estimatedTime: '5-10 min',
     },
 ];
@@ -525,6 +562,16 @@ async function checkEnrichmentStatus(): Promise<void> {
         { label: 'High confidence (≥60%)', query: () => supabase.from('movies').select('*', { count: 'exact', head: true }).eq('language', 'Telugu').eq('is_published', true).gte('data_confidence', 0.6) },
     ];
     await printChecks(trustChecks, totalMovies);
+
+    // Layer 5.5: Governance
+    console.log(chalk.yellow('\n  Layer 5.5: Governance'));
+    const governanceChecks = [
+        { label: 'Has trust_score', query: () => supabase.from('movies').select('*', { count: 'exact', head: true }).eq('language', 'Telugu').eq('is_published', true).not('trust_score', 'is', null) },
+        { label: 'Has content_type', query: () => supabase.from('movies').select('*', { count: 'exact', head: true }).eq('language', 'Telugu').eq('is_published', true).not('content_type', 'is', null) },
+        { label: 'Has confidence_tier', query: () => supabase.from('movies').select('*', { count: 'exact', head: true }).eq('language', 'Telugu').eq('is_published', true).not('confidence_tier', 'is', null) },
+        { label: 'Recently verified (30d)', query: () => supabase.from('movies').select('*', { count: 'exact', head: true }).eq('language', 'Telugu').eq('is_published', true).gte('last_verified_at', new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString()) },
+    ];
+    await printChecks(governanceChecks, totalMovies);
 
     // Check checkpoint
     const checkpoint = loadCheckpoint();
@@ -723,6 +770,13 @@ async function main(): Promise<void> {
     // Run each phase
     let currentPass = 0;
     for (const phase of phasesToRun) {
+        // Skip Layer 0 phases if no actor filter is provided
+        // Layer 0 = actor-filmography-validate, film-discovery
+        if (phase.layer === 0 && !ACTOR) {
+            console.log(chalk.yellow(`\n  ⏭️  Skipping ${phase.name} (requires --actor filter)`));
+            continue;
+        }
+
         // Print pass separator for multi-pass mode
         if (MULTI_PASS) {
             const passNum =
@@ -863,6 +917,7 @@ function printHelp(): void {
     console.log(`    Note: Multi-pass ensures signals are populated before classification`);
 
     console.log(`\n  Available Layers:`);
+    console.log(`    0: Pre-Enrichment  - Validate counts, standardize names, find duplicates (requires --actor)`);
     console.log(`    1: Core Data       - Images, Cast/Crew, Genres`);
     console.log(`    2: Classifications - Taxonomy, Age Rating, Content Flags`);
     console.log(`    3: Derived Intel   - Auto Tags, Audience Fit, Trigger Warnings`);

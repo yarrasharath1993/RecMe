@@ -1,0 +1,983 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║       BATCH ACTOR DISCOVERY & ENRICHMENT                             ║
+║       Process all actors with full pipeline                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Batch: 2 (actors 6-10 of 30)
+  Actors in this batch: 5
+
+  1. Nani
+  2. Pawan Kalyan
+  3. Rajendra Prasad
+  4. Sridevi
+  5. Mahesh Babu
+
+================================================================================
+  Processing: Nani
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Nani
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Nani" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Nani" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 32 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 225387 for "Nani"
+TMDB: Found 42 films for "Nani"
+TMDB: 42 Telugu/Unknown language films
+  ✓ TMDB: 42 films
+Wikipedia: Fetching filmography for "Nani"...
+Wikipedia: Found 0 films in filmography for "Nani"
+Wikidata: Searching for "Nani"...
+Wikidata: Actor "Nani" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 42
+  • Already in database: 32
+  • Missing films: 13
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 34
+  • Supporting roles: 4
+  • Cameo appearances: 2
+  • Voice roles: 2
+
+✅ Auto-adding 13 missing films...
+  ✓ Added: Nimirndhu Nil (2014)
+  ✓ Added: Veppam (2011)
+  ✓ Added: M.C.A (2017)
+  ✓ Added: Krishnarjuna Yudham (2018)
+  ✓ Added: Praana (2019)
+  ✓ Added: Amoli (2018)
+
+✅ Successfully added 6/13 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/nani-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Nani
+  Total films found: 42
+  Already in database: 32
+  Missing films: 13
+  Added to database: 6
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 34
+    Supporting: 4
+    Cameo: 2
+    Voice: 2
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Nani
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 2008
+  Database films: 35
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 potential duplicates
+
+  POTENTIAL DUPLICATES (1):
+    • "Krishnarjuna Yuddham" (2018) ↔ "Krishnarjuna Yudham" (2018) [95%]
+
+  YEAR DISTRIBUTION:
+    2000s: 2 films
+    2010s: 24 films
+    2020s: 9 films
+  📝 Full audit saved: docs/NANI_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Nani"
+  Filter: Actor: Nani
+
+  Found 35 movies to process
+
+  Processing...
+
+  [███████████░░░░░░░░░] 57% (20/35) | Enriched: 20  [████████████████████] 100% (35/35) | Enriched: 35
+
+
+
+
+  Applying updates to database...
+
+  Updated 35 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     35 movies
+  Enriched:      35 movies
+  Not found:     0
+  Updated in DB: 35
+  Success rate:  100%
+
+  By Source:
+    TMDB:      34
+    Wikipedia: 0
+    Wikidata:  0
+    Combined:  1
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Pawan Kalyan
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Pawan Kalyan
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Pawan Kalyan" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Pawan" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 31 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 237048 for "Pawan Kalyan"
+TMDB: Found 32 films for "Pawan Kalyan"
+TMDB: 32 Telugu/Unknown language films
+  ✓ TMDB: 32 films
+Wikipedia: Fetching filmography for "Pawan Kalyan"...
+Wikipedia: Found 6 films in filmography for "Pawan Kalyan"
+  ✓ Wikipedia: 6 films
+Wikidata: Searching for "Pawan Kalyan"...
+Wikidata: Found actor ID Q6067643
+Wikidata: Found 27 films for "Pawan Kalyan"
+  ✓ Wikidata: 27 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 48
+  • Already in database: 31
+  • Missing films: 17
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 35
+  • Supporting roles: 10
+  • Cameo appearances: 3
+  • Voice roles: 0
+
+✅ Auto-adding 17 missing films...
+  ❌ Failed to add "Shart: The Challenge": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: 47th Filmfare Awards South (1999)
+  ✓ Added: 49th Filmfare Awards South (2001)
+  ✓ Added: 56th Filmfare Awards South (2008)
+  ✓ Added: 60th Filmfare Awards South (2012)
+  ✓ Added: 61st Filmfare Awards South (2013)
+  ✓ Added: 1st IIFA Utsavam (2015)
+  ✓ Added: Balu ABCDEFG (2005)
+  ✓ Added: Cameraman Gangatho Rambabu (2012)
+  ✓ Added: Prince of Peace (2012)
+  ✓ Added: Sardar Gabbar Singh (2016)
+
+✅ Successfully added 10/17 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/pawan-kalyan-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Pawan Kalyan
+  Total films found: 48
+  Already in database: 31
+  Missing films: 17
+  Added to database: 10
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 35
+    Supporting: 10
+    Cameo: 3
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Pawan Kalyan
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1996
+  Database films: 37
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 pre-debut films, 6 potential duplicates
+
+  PRE-DEBUT FILMS (1):
+    • They Call Him OG 2 (null) - Before 1996
+
+  POTENTIAL DUPLICATES (6):
+    • "Gokulamlo Seeta" (1997) ↔ "Gokulamlo Seetha" (1997) [93%]
+    • "Khushi" (2001) ↔ "Kushi" (2001) [83%]
+    • "Puli" (2010) ↔ "Komaram Puli" (2010) [90%]
+    • "60th Filmfare Awards South" (2012) ↔ "61st Filmfare Awards South" (2013) [87%]
+    • "Attarintiki Daredi" (2013) ↔ "Atharintiki Daaredi" (2013) [89%]
+    • "Hari Hara Veera Mallu" (2025) ↔ "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit" (2025) [90%]
+
+  YEAR DISTRIBUTION:
+    0s: 1 films
+    1990s: 7 films
+    2000s: 10 films
+    2010s: 13 films
+    2020s: 6 films
+  📝 Full audit saved: docs/PAWAN_KALYAN_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Pawan Kalyan"
+  Filter: Actor: Pawan Kalyan
+
+  Found 37 movies to process
+
+  Processing...
+
+  [██████████░░░░░░░░░░] 54% (20/37) | Enriched: 19  [████████████████████] 100% (37/37) | Enriched: 34
+
+
+
+
+  Applying updates to database...
+
+  Updated 34 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     37 movies
+  Enriched:      34 movies
+  Not found:     3
+  Updated in DB: 34
+  Success rate:  92%
+
+  By Source:
+    TMDB:      28
+    Wikipedia: 4
+    Wikidata:  0
+    Combined:  2
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Rajendra Prasad
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Rajendra Prasad
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Rajendra Prasad" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Rajendra" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 161 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 545595 for "Rajendra Prasad"
+TMDB: Found 153 films for "Rajendra Prasad"
+TMDB: 153 Telugu/Unknown language films
+  ✓ TMDB: 153 films
+Wikipedia: Fetching filmography for "Rajendra Prasad"...
+Wikipedia: Found 0 films in filmography for "Rajendra Prasad"
+Wikidata: Searching for "Rajendra Prasad"...
+Wikidata: Found actor ID Q5516315
+Wikidata: Found 155 films for "Rajendra Prasad"
+  ✓ Wikidata: 155 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 240
+  • Already in database: 161
+  • Missing films: 128
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 100
+  • Supporting roles: 140
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 128 missing films...
+  ✓ Added: College Kumar (2020)
+  ✓ Added: Quick Gun Murugan (2009)
+  ✓ Added: Mahasadhvi Mallamma (2005)
+  ✓ Added: Brahmalokam to Yamalokam via Bhulokam (2010)
+  ✓ Added: Gurukshetram (2006)
+  ✓ Added: Naku Pellam Kavali (1987)
+  ✓ Added: Kee (2019)
+  ✓ Added: Pekata Paparao (1993)
+  ✓ Added: Rangula Ratnam (2018)
+  ✓ Added: Appu Chesi Pappu Koodu (2008)
+  ✓ Added: Vaddu Bava Tappu (1995)
+  ✓ Added: Annabelle Sethupathi (2021)
+  ✓ Added: Inimai Idho Idho (1980)
+  ✓ Added: Captain Nagarjun (1986)
+  ✓ Added: Kashmora (1986)
+  ✓ Added: Padaharella Ammayi (1986)
+  ✓ Added: Kaboye Alludu (1987)
+  ✓ Added: Dabbevariki Chedu (1987)
+  ✓ Added: Gandhinagar Rendava Veedhi (1987)
+  ✓ Added: Poola Rangadu (1989)
+  ✓ Added: Preminchi Choodu (1989)
+  ✓ Added: April 1st Vidudhala (1991)
+  ✓ Added: Brundavanam (1993)
+  ✓ Added: Topi Raja Sweety Roja (1996)
+  ✓ Added: Family (1996)
+  ✓ Added: Jai Bajarangbali (1997)
+  ✓ Added: Andaru Dongale Dorikithe (2004)
+  ✓ Added: Apparao Driving School (2004)
+  ✓ Added: Iddaru Attala Muddula Alludu (2006)
+  ✓ Added: Bhale Mogudu Bhale Pellam (2011)
+  ✓ Added: Dagudumoota Dandakore (2015)
+  ✓ Added: O Baby! Yentha Sakkagunnave (2019)
+  ✓ Added: Ala Vaikunthapurramloo (2020)
+  ✓ Added: F3 (2022)
+
+✅ Successfully added 34/128 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/rajendra-prasad-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Rajendra Prasad
+  Total films found: 240
+  Already in database: 161
+  Missing films: 128
+  Added to database: 34
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 100
+    Supporting: 140
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Rajendra Prasad, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Rajendra Prasad
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 165
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 12 potential duplicates
+
+  POTENTIAL DUPLICATES (12):
+    • "Rendu Rellu Aaru" (1986) ↔ "Rendu Rella Aaru" (1986) [93%]
+    • "Naku Pellam Kavali" (1987) ↔ "Nakoo Pellam Kavali" (1987) [88%]
+    • "Damit Katha Adam Thirigindi" (1987) ↔ "Dammit Katha Addam Thirigindi" (1987) [92%]
+    • "Jayamu Nischayamu Raa" (1989) ↔ "Jayammu Nischayammu Raa" (1990) [90%]
+    • "Zoo Laka Taka" (1989) ↔ "Joo Laka Taka" (1989) [91%]
+    • "Ramba Rambabu" (1990) ↔ "Rambha Rambabu" (1990) [92%]
+    • "April 1st Vidudala" (1991) ↔ "April 1 Vidudala" (1991) [88%]
+    • "Pekata Papa Rao" (1993) ↔ "Pekata Paparao" (1993) [100%]
+    • "Brahmachari Mogudu" (1994) ↔ "Bramhachari Mogudu" (1994) [88%]
+    • "Vaddu Bava Thappu" (1995) ↔ "Vaddu Bava Tappu" (1995) [93%]
+    • "Quick Gun Murugun" (2009) ↔ "Quick Gun Murugan" (2009) [93%]
+    • "Shashtipoorthi" (2025) ↔ "Shashtipoorti" (2025) [93%]
+
+  YEAR DISTRIBUTION:
+    1980s: 70 films
+    1990s: 63 films
+    2000s: 19 films
+    2010s: 7 films
+    2020s: 6 films
+  📝 Full audit saved: docs/RAJENDRA_PRASAD_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Rajendra Prasad"
+  Filter: Actor: Rajendra Prasad
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 20  [████████████████░░░░] 80% (40/50) | Enriched: 35  [████████████████████] 100% (50/50) | Enriched: 45
+
+
+
+
+  Applying updates to database...
+
+  Updated 45 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      45 movies
+  Not found:     5
+  Updated in DB: 45
+  Success rate:  90%
+
+  By Source:
+    TMDB:      28
+    Wikipedia: 15
+    Wikidata:  0
+    Combined:  2
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Sridevi
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Sridevi
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Sridevi" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Sridevi" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 80 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 109549 for "Sridevi"
+TMDB: Found 216 films for "Sridevi"
+TMDB: 216 Telugu/Unknown language films
+  ✓ TMDB: 216 films
+Wikipedia: Fetching filmography for "Sridevi"...
+Wikipedia: Found 23 films in filmography for "Sridevi"
+  ✓ Wikipedia: 23 films
+Wikidata: Searching for "Sridevi"...
+Wikidata: Found actor ID Q124832869
+Wikidata: Found 0 films for "Sridevi"
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 231
+  • Already in database: 80
+  • Missing films: 194
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 175
+  • Supporting roles: 55
+  • Cameo appearances: 1
+  • Voice roles: 0
+
+✅ Auto-adding 194 missing films...
+  ✓ Added: Main Tera Dushman (1989)
+  ✓ Added: Agathiyar (1972)
+  ✓ Added: Pagalil Oru Iravu (1979)
+  ✓ Added: Chandni (1989)
+  ✓ Added: Fire and Flames (1986)
+  ✓ Added: Lamhe (1991)
+  ❌ Failed to add "Bharatha Vilas": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Rajapart Rangadurai (1973)
+  ✓ Added: Naan Adimai Illai (1986)
+  ✓ Added: Adutha Varisu (1983)
+  ✓ Added: Jawab Hum Denge (1987)
+  ✓ Added: Dharma Yuddam (1979)
+  ✓ Added: Thaayillamal Naanillai (1979)
+  ✓ Added: Aayiram Jenmangal (1978)
+  ✓ Added: Vanakkathukuriya Kathaliye (1978)
+  ✓ Added: Priya (1978)
+  ✓ Added: Gaayathri (1977)
+  ✓ Added: Kavikkuyil (1977)
+  ✓ Added: 16 Vayathinile (1977)
+  ✓ Added: Moondru Mudichu (1976)
+  ✓ Added: Vazhvey Maayam (1982)
+  ✓ Added: Meendum Kokila (1981)
+  ✓ Added: Moondram Pirai (1982)
+  ✓ Added: Sankarlal (1981)
+  ✓ Added: Sigappukkal Mookkuthi (1979)
+  ✓ Added: Varumayin Niram Sivappu (1980)
+  ✓ Added: Manitharil Ithanai Nirangalah! (1978)
+  ✓ Added: Sigappu Rojakkal (1978)
+  ✓ Added: Suhaagan (1986)
+  ✓ Added: Waqt Ki Awaz (1988)
+  ✓ Added: Ram-Avtar (1988)
+  ✓ Added: Daiviyin Thiruvilaiyadal (1982)
+  ✓ Added: Thunaivan (1969)
+  ✓ Added: Judaai (1997)
+  ✓ Added: Kumara Sambhavam (1969)
+  ✓ Added: Kulavilakku (1969)
+  ✓ Added: Penn Daivam (1970)
+  ✓ Added: En Annan (1970)
+  ✓ Added: Swapnangal (1970)
+  ✓ Added: Sabarimala Shri Dharmasastha (1970)
+  ✓ Added: Agni Pareeksha (1970)
+  ✓ Added: Nigahen: Nagina Part II (1989)
+  ✓ Added: Nagina (1986)
+  ✓ Added: Sabadham (1971)
+  ✓ Added: Aana Valarthiya Vanampadiyude Makan (1971)
+  ✓ Added: Kathiki Kankanam (1971)
+  ✓ Added: Sange Muzhangu (1972)
+  ✓ Added: Kanimuthu Paappa (1972)
+  ✓ Added: Army (1996)
+  ✓ Added: Chandra Mukhi (1993)
+  ✓ Added: Chaand Kaa Tukdaa (1994)
+  ✓ Added: Adi Parasakthi (1971)
+  ✓ Added: Chaalbaaz (1989)
+  ✓ Added: Deiva Thirumanangal (1981)
+  ✓ Added: Inquilaab (1984)
+  ✓ Added: Laadla (1994)
+  ✓ Added: Himmatwala (1983)
+  ✓ Added: Kavari Maan (1979)
+  ✓ Added: Pattaakathi Bairavan (1979)
+  ✓ Added: Pilot Premnath (1978)
+  ✓ Added: Vasantha Maligai (1972)
+  ✓ Added: Vishwaroobam (1980)
+  ✓ Added: Sandhippu (1983)
+  ✓ Added: Nam Nadu (1969)
+  ✓ Added: Aakhree Raasta (1986)
+  ✓ Added: Ghar Sansar (1986)
+  ✓ Added: Kandhan Karunai (1967)
+  ✓ Added: Himmat Aur Mehanat (1987)
+  ✓ Added: Sarfarosh (1985)
+  ✓ Added: Farishtay (1991)
+  ✓ Added: Gair Kanooni (1989)
+  ✓ Added: Bhagwaan Dada (1986)
+  ✓ Added: Johnny (1980)
+  ✓ Added: Pokkiri Raja (1982)
+  ✓ Added: Dasavatharam (1976)
+  ✓ Added: Thulaavarsham (1976)
+  ✓ Added: Karma (1986)
+  ✓ Added: Watan Ke Rakhwale (1987)
+  ✓ Added: Majaal (1987)
+  ✓ Added: Halla Bol (2008)
+  ✓ Added: Kalakaar (1983)
+  ✓ Added: Kalyanaraman (1979)
+  ✓ Added: Sadma (1983)
+  ✓ Added: Aulad (1987)
+  ✓ Added: Banjaran (1991)
+  ✓ Added: Balidaan (1985)
+  ✓ Added: Roop Ki Rani Choron Ka Raja (1993)
+  ✓ Added: Gurudev (1993)
+  ✓ Added: Sone Pe Suhaaga (1988)
+  ✓ Added: Gumrah (1993)
+  ✓ Added: Janbaaz (1986)
+  ✓ Added: Poompatta (1971)
+  ✓ Added: Kaun Sachcha Kaun Jhootha (1997)
+  ✓ Added: Nazrana (1987)
+  ✓ Added: Devaraagam (1996)
+  ✓ Added: Jaani Dost (1983)
+  ✓ Added: Sultanat (1986)
+  ✓ Added: Meri Biwi Ka Jawab Nahin (2004)
+  ✓ Added: Justice Chaudhury (1983)
+  ✓ Added: Neela Malargal (1979)
+  ✓ Added: Pathar Ke Insan (1990)
+  ✓ Added: Jaag Utha Insan (1984)
+  ✓ Added: Gift (1984)
+  ✓ Added: Joshilaay (1989)
+  ✓ Added: Naaka Bandi (1990)
+  ✓ Added: Tohfa (1984)
+  ✓ Added: Maqsad (1984)
+  ✓ Added: Akarshan (1988)
+  ✓ Added: Golmaal Again (2017)
+  ✓ Added: Mahaguru (1985)
+  ✓ Added: Heer Ranjha (1992)
+  ✓ Added: Julie (1975)
+  ✓ Added: Naya Kadam (1984)
+  ✓ Added: Sherni (1988)
+  ✓ Added: Akalmand (1984)
+  ✓ Added: Guru (1989)
+  ✓ Added: Kuttavum Shikshayum (1976)
+  ✓ Added: Dharm Adhikari (1986)
+  ✓ Added: Aasheervaadam (1977)
+  ✓ Added: Nirakudam (1977)
+  ✓ Added: Unnai Suttrum Ulagam (1977)
+  ✓ Added: Satyavan Savithri (1977)
+  ✓ Added: Aadhya Paadam (1977)
+  ✓ Added: Masterji (1985)
+  ✓ Added: Babu (1971)
+  ✓ Added: Solva Sawan (1979)
+  ✓ Added: Sainthadamma Sainthadu (1977)
+  ✓ Added: Angeekaaram (1977)
+  ✓ Added: Oonjaal (1977)
+  ✓ Added: Mawaali (1983)
+  ✓ Added: டாக்ஸி டிரைவர் (1978)
+  ✓ Added: Aasmaan Se Gira (1992)
+  ✓ Added: Bhaktha Kumbara (1974)
+  ✓ Added: Zero (2018)
+  ✓ Added: Nam Naadu (1969)
+  ✓ Added: Jumma Chumma In London (1991)
+  ✓ Added: Poombatta (1971)
+  ✓ Added: Moondram Pirai (1981)
+  ✓ Added: Meendum Kokila (1982)
+  ✓ Added: Moondram Pirai (1983)
+  ✓ Added: Sadma (1984)
+  ✓ Added: ChaalBaaz (1990)
+  ✓ Added: Lamhe (1992)
+  ✓ Added: Khuda Gawah (1993)
+  ✓ Added: Gumrah (1994)
+  ✓ Added: Laadla (1995)
+  ✓ Added: Judaai (1998)
+  ✓ Added: English Vinglish (2013)
+  ✓ Added: Mom (2018)
+  ✓ Added: —N/a (2019)
+
+✅ Successfully added 149/194 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/sridevi-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Sridevi
+  Total films found: 231
+  Already in database: 80
+  Missing films: 194
+  Added to database: 149
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 175
+    Supporting: 55
+    Cameo: 1
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Sridevi, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Sridevi
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 105
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 10 potential duplicates
+
+  POTENTIAL DUPLICATES (10):
+    • "Poompatta" (1971) ↔ "Poombatta" (1971) [89%]
+    • "Moondram Pirai" (1981) ↔ "Moondram Pirai" (1982) [100%]
+    • "Meendum Kokila" (1981) ↔ "Meendum Kokila" (1982) [100%]
+    • "Moondram Pirai" (1982) ↔ "Moondram Pirai" (1983) [100%]
+    • "Sadma" (1983) ↔ "Sadma" (1984) [100%]
+    • "Chaalbaaz" (1989) ↔ "ChaalBaaz" (1990) [100%]
+    • "Lamhe" (1991) ↔ "Lamhe" (1992) [100%]
+    • "Gumrah" (1993) ↔ "Gumrah" (1994) [100%]
+    • "Laadla" (1994) ↔ "Laadla" (1995) [100%]
+    • "Judaai" (1997) ↔ "Judaai" (1998) [100%]
+
+  YEAR DISTRIBUTION:
+    1960s: 2 films
+    1970s: 29 films
+    1980s: 48 films
+    1990s: 22 films
+    2000s: 1 films
+    2010s: 3 films
+  📝 Full audit saved: docs/SRIDEVI_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Sridevi"
+  Filter: Actor: Sridevi
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 19  [████████████████░░░░] 80% (40/50) | Enriched: 39  [████████████████████] 100% (50/50) | Enriched: 49
+
+
+
+
+  Applying updates to database...
+
+  Updated 49 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      49 movies
+  Not found:     1
+  Updated in DB: 49
+  Success rate:  98%
+
+  By Source:
+    TMDB:      33
+    Wikipedia: 0
+    Wikidata:  0
+    Combined:  11
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Mahesh Babu
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Mahesh Babu
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Mahesh Babu" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Mahesh" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 31 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1343197 for "Mahesh Babu"
+TMDB: Found 0 films for "Mahesh Babu"
+TMDB: 0 Telugu/Unknown language films
+Wikipedia: Fetching filmography for "Mahesh Babu"...
+Wikipedia: Found 0 films in filmography for "Mahesh Babu"
+Wikidata: Searching for "Mahesh Babu"...
+Wikidata: Actor "Mahesh Babu" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 0
+  • Already in database: 31
+  • Missing films: 0
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 0
+  • Supporting roles: 0
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/mahesh-babu-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Mahesh Babu
+  Total films found: 0
+  Already in database: 31
+  Missing films: 0
+  Added to database: 0
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 0
+    Supporting: 0
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Mahesh Babu
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1999
+  Database films: 31
+  Wikipedia films: ~1979
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 pre-debut films, 2 potential duplicates, Count mismatch: DB=31, Wiki=~1979
+
+  PRE-DEBUT FILMS (1):
+    • Vāranāsi (null) - Before 1999
+
+  POTENTIAL DUPLICATES (2):
+    • "Rajakumarudu" (1999) ↔ "Raja Kumarudu" (1999) [100%]
+    • "Athidhi" (2007) ↔ "Athidi" (2007) [86%]
+
+  YEAR DISTRIBUTION:
+    0s: 1 films
+    1990s: 2 films
+    2000s: 14 films
+    2010s: 11 films
+    2020s: 3 films
+  📝 Full audit saved: docs/MAHESH_BABU_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Mahesh Babu"
+  Filter: Actor: Mahesh Babu
+
+  Found 31 movies to process
+
+  Processing...
+
+  [█████████████░░░░░░░] 65% (20/31) | Enriched: 20  [████████████████████] 100% (31/31) | Enriched: 31
+
+
+
+
+  Applying updates to database...
+
+  Updated 31 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     31 movies
+  Enriched:      31 movies
+  Not found:     0
+  Updated in DB: 31
+  Success rate:  100%
+
+  By Source:
+    TMDB:      26
+    Wikipedia: 4
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       BATCH SUMMARY                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Batch: 2
+  Duration: 17.7 minutes
+  Actors processed: 5
+
+  Results:
+
+    ✅ Nani                           - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Pawan Kalyan                   - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Rajendra Prasad                - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Sridevi                        - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Mahesh Babu                    - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+
+  Success rate: 100%
+
+  💡 To process next batch (11-15):
+     npx tsx scripts/batch-discover-all-actors.ts --batch=3 --execute

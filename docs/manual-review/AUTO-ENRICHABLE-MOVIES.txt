@@ -1,0 +1,682 @@
+  Loading movies with TMDB IDs...
+
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║        159 MOVIES WITH TMDB IDs - AUTO-ENRICHABLE                    ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  These movies can be automatically enriched from TMDB
+
+
+  ═══ 2020s (2 movies) ═══
+
+  2021 | Bomma Adirindi Dimma Tirigindi
+         TMDB: 823441 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bomma-adirindi-dimma-tirigindi-2021
+
+  2020 | Family - A Made at Home Short Film
+         TMDB: 1129970 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/family-a-made-at-home-short-film-2020
+
+
+  ═══ 2010s (30 movies) ═══
+
+  2019 | 2 Hours Love
+         TMDB: 631934 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/2-hours-love-2019
+
+  2019 | Nanne Preethse: I Love You
+         TMDB: 628368 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/nanne-preethse-i-love-you-2019
+
+  2019 | Kavacha
+         TMDB: 590906 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/kavacha-2019
+
+  2019 | Police officer
+         TMDB: 749574 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/police-officer-2019
+
+  2019 | Premier Padmini
+         TMDB: 658152 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/premier-padmini-2019
+
+  2018 | Ammachi Yemba Nenapu
+         TMDB: 586119 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ammachi-yemba-nenapu-2018
+
+  2018 | Operation 2019
+         TMDB: 791058 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/operation-2019-2018
+
+  2018 | Aatwaja
+         TMDB: 1017859 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/aatwaja-2018
+
+  2017 | Anaganaga Oka Durga
+         TMDB: 485855 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/anaganaga-oka-durga-2017
+
+  2017 | Shuddhi
+         TMDB: 453419 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/shuddhi-2017
+
+  2016 | Vennello Hai Hai
+         TMDB: 401902 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/vennello-hai-hai-2016
+
+  2016 | Ethiri En 3
+         TMDB: 280880 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ethiri-en-3-2016
+
+  2016 | Shivalinga
+         TMDB: 414206 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/shivalinga-2016
+
+  2015 | Ranna
+         TMDB: 417878 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ranna-2015
+
+  2015 | Yavvanam Oka Fantasy
+         TMDB: 526288 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/yavvanam-oka-fantasy-2015
+
+  2014 | Exploring ''Shiva'' Movie After 25 Years
+         TMDB: 1328515 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/exploring-shiva-movie-after-25-years-2014
+
+  2014 | Ambareesha
+         TMDB: 465027 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ambareesha-2014
+
+  2013 | Sri Vasavi Vaibhavam
+         TMDB: 313294 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/sri-vasavi-vaibhavam-2012
+
+  2013 | Prema Oka Maikam
+         TMDB: 226076 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/prema-oka-maikam-2013
+
+  2013 | Galaate
+         TMDB: 536239 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/galaate-2013
+
+  2013 | Thadaka
+         TMDB: 705897 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/thadaka-2013
+
+  2012 | Godfather
+         TMDB: 755450 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/godfather-2012
+
+  2012 | Paagan
+         TMDB: 146847 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/paagan-2012
+
+  2012 | Ethiri En 3
+         TMDB: 280880 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/ethiri-en-3-2012
+
+  2012 | 6
+         TMDB: 1199881 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/6-2012
+
+  2012 | Rasaleela
+         TMDB: 143510 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/rasaleela-2012
+
+  2011 | Saarathi
+         TMDB: 463207 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/saarathi-2011
+
+  2011 | Payanam
+         TMDB: 1285853 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/payanam-2011
+
+  2010 | Alasyam Amrutham
+         TMDB: 307736 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/alasyam-amrutham-2010
+
+  2010 | Super
+         TMDB: 123196 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/super-2010
+
+
+  ═══ 2000s (31 movies) ═══
+
+  2009 | Sesh Sangat
+         TMDB: 173998 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/sesh-sangat-2009
+
+  2009 | Sesh Sanghat
+         TMDB: 173998 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/sesh-sanghat-2009
+
+  2009 | Indira Vizha
+         TMDB: 336830 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/indira-vizha-2009
+
+  2009 | Adhinetha
+         TMDB: 258912 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/adhinetha-2009
+
+  2008 | Moggina Manasu
+         TMDB: 587437 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/moggina-manasu-2008
+
+  2008 | Netru Indru Naalai
+         TMDB: 1324933 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/netru-indru-naalai-2008
+
+  2007 | Deha
+         TMDB: 462352 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/deha-2007
+
+  2006 | Gurukshetram
+         TMDB: 304052 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/gurukshetram-2006
+
+  2006 | Kizhakku Kadalkarai Salai
+         TMDB: 79416 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/kizhakku-kadalkarai-salai-2006
+
+  2006 | Kizhakku Kadarkarai Salai
+         TMDB: 79416 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/kizhakku-kadarkarai-salai-2006
+
+  2006 | Mercury Pookkal
+         TMDB: 79417 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/mercury-pookkal-2006
+
+  2006 | Madrasi
+         TMDB: 66510 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/madrasi-2006
+
+  2006 | Bhagyalakshmi Bumper Draw
+         TMDB: 80945 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bhagyalakshmi-bumper-draw-2006
+
+  2005 | That is Pandu
+         TMDB: 890443 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/that-is-pandu-2005
+
+  2005 | Auto Shankar
+         TMDB: 378669 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/auto-shankar-2005
+
+  2004 | Puttintiki Raa Chelli
+         TMDB: 243564 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/puttintiki-raa-chelli-2004
+
+  2004 | Intlo Srimathi Veedhilo Kumari
+         TMDB: 310033 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/intlo-srimathi-veedhilo-kumari-2004
+
+  2004 | Ee Snehatheerathu
+         TMDB: 837107 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/ee-snehatheerathu-2004
+
+  2004 | Varnajalam
+         TMDB: 269720 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/varnajalam-2004
+
+  2003 | Manasellam
+         TMDB: 275922 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/manasellam-2003
+
+  2003 | All over the heart
+         TMDB: 275922 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/all-over-the-heart-2003
+
+  2003 | Pelli Kani Prasad
+         TMDB: 1142514 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/pelli-kani-prasad-2003
+
+  2002 | Hollywood
+         TMDB: 339861 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/hollywood-2002
+
+  2002 | Ivan
+         TMDB: 281820 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ivan-2002
+
+  2002 | Kottai Mariamman
+         TMDB: 476941 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/kottai-mariamman-2002
+
+  2001 | Time Pass
+         TMDB: 330753 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/time-pass-2001
+
+  2001 | Kalasi Naduddam
+         TMDB: 822871 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/kalasi-naduddam-2001
+
+  2001 | Kottai Mariamman
+         TMDB: 476941 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/kottai-mariamman-2001
+
+  2000 | Nagadevathe
+         TMDB: 1338442 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/nagadevathe-2000
+
+  2000 | Sakutumba Saparivaara Sametham
+         TMDB: 306450 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/sakutumba-saparivaara-sametham-2000
+
+  2000 | Eazhaiyin Sirippil
+         TMDB: 280963 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/eazhaiyin-sirippil-2000
+
+
+  ═══ 1990s (26 movies) ═══
+
+  1999 | Z
+         TMDB: 755434 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/z-1999
+
+  1998 | Zulm-O-Sitam
+         TMDB: 588993 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/zulm-o-sitam-1998
+
+  1998 | Maavidakulu
+         TMDB: 308065 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/maavidakulu-1998
+
+  1998 | Aami Sei Meye
+         TMDB: 989463 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/aami-sei-meye-1998
+
+  1997 | Maa Nanna Ki Pelli
+         TMDB: 308064 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/maa-nanna-ki-pelli-1997
+
+  1997 | Maa Nannaki Pelli
+         TMDB: 308064 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/maa-nannaki-pelli-1997
+
+  1996 | Mr. Bechara
+         TMDB: 142136 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/mr-bechara-1996
+
+  1996 | Ninne Pelladata
+         TMDB: 137455 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/ninne-pelladata-1996
+
+  1995 | Vaddu Bava Tappu
+         TMDB: 676787 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/vaddu-bava-tappu-1995
+
+  1995 | Chilakapacha Kapuram
+         TMDB: 676782 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/chilakapacha-kapuram-1995
+
+  1994 | Chauraha
+         TMDB: 342187 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/chauraha-1994
+
+  1994 | Indhu
+         TMDB: 249447 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/indhu-1994
+
+  1993 | Chandra Mukhi
+         TMDB: 161406 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/chandra-mukhi-1993
+
+  1993 | Kundan
+         TMDB: 591926 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/kundan-1993
+
+  1993 | Ezhai Jaathi
+         TMDB: 247137 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ezhai-jaathi-1993
+
+  1992 | Valu Jada Tolu Beltu
+         TMDB: 676785 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/valu-jada-tolu-beltu-1992
+
+  1992 | Pellaniki Premalekha Priyuraliki Subhalekha
+         TMDB: 894490 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/pellaniki-premalekha-priyuraliki-subhalekha-1992
+
+  1992 | Raktha Tharpanam
+         TMDB: 1612079 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/raktha-tharpanam-1992
+
+  1991 | Jumma Chumma In London
+         TMDB: 888839 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/jumma-chumma-in-london-1991
+
+  1991 | Farishtay
+         TMDB: 331311 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/farishtay-1991
+
+  1991 | Mondi Mogudu Penki Pellam
+         TMDB: 137360 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/mondi-mogudu-penki-pellam-1991
+
+  1990 | Pathar Ke Insan
+         TMDB: 532158 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/pathar-ke-insan-1990
+
+  1990 | Kanoon Ki Zanjeer
+         TMDB: 528207 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/kanoon-ki-zanjeer-1990
+
+  1990 | Girija Kalyanam
+         TMDB: 1229858 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/girija-kalyanam-1990
+
+  1990 | Majboor
+         TMDB: 499666 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/majboor-1990
+
+  1990 | Nagastharam
+         TMDB: 1612068 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/nagastharam-1990
+
+
+  ═══ 1980s (39 movies) ═══
+
+  1989 | Souten Ki Beti
+         TMDB: 244736 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/souten-ki-beti-1989
+
+  1989 | Paraya Ghar
+         TMDB: 819826 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/paraya-ghar-1989
+
+  1989 | Elaan-E-Jung
+         TMDB: 426177 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/elaan-e-jung-1989
+
+  1989 | Majboor
+         TMDB: 499666 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/majboor-1989
+
+  1989 | Shehzaade
+         TMDB: 505426 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/shehzaade-1989
+
+  1989 | Main Tera Dushman
+         TMDB: 819813 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/main-tera-dushman-1989
+
+  1988 | Rajakiya Chadurangam
+         TMDB: 685650 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/rajakiya-chadurangam-1988
+
+  1988 | Rakthabishekam
+         TMDB: 782495 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/rakthabishekam-1988
+
+  1988 | Mardon Wali Baat
+         TMDB: 528019 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/mardon-wali-baat-1988
+
+  1987 | Premaloka
+         TMDB: 609348 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/premaloka-1987
+
+  1987 | President Gari Abbayi
+         TMDB: 787056 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/president-gari-abbayi-1987
+
+  1987 | Nazrana
+         TMDB: 321963 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/nazrana-1987
+
+  1987 | Dabbevariki Chedu
+         TMDB: 1596719 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/dabbevariki-chedu-1987
+
+  1987 | Gandhinagar Rendava Veedhi
+         TMDB: 1607120 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/gandhinagar-rendava-veedhi-1987
+
+  1986 | Captain Nagarjuna
+         TMDB: 307953 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/captain-nagarjuna-1986
+
+  1986 | Aisa Pyaar Kahan
+         TMDB: 302427 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/aisa-pyaar-kahan-1986
+
+  1986 | Suhaagan
+         TMDB: 400409 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/suhaagan-1986
+
+  1986 | Dharm Adhikari
+         TMDB: 333978 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/dharm-adhikari-1986
+
+  1985 | Sur Sangam
+         TMDB: 322397 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/sur-sangam-1985
+
+  1985 | Hoshiyar
+         TMDB: 1095229 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/hoshiyar-1985
+
+  1985 | Mahaguru
+         TMDB: 331388 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/mahaguru-1985
+
+  1984 | Paapi Pet Ka Sawaal Hai
+         TMDB: 1484258 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/paapi-pet-ka-sawaal-hai-1984
+
+  1984 | Naya Kadam
+         TMDB: 619094 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/naya-kadam-1984
+
+  1984 | Mera Faisla
+         TMDB: 304324 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/mera-faisla-1984
+
+  1984 | Awaaz
+         TMDB: 447165 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/awaaz-1984
+
+  1984 | Insaaf Kaun Karega
+         TMDB: 331566 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/insaaf-kaun-karega-1984
+
+  1984 | Dharm Aur Qanoon
+         TMDB: 533722 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/dharm-aur-qanoon-1984
+
+  1984 | Gift
+         TMDB: 559919 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/gift-1984
+
+  1984 | Maqsad
+         TMDB: 304175 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/maqsad-1984
+
+  1983 | Jaani Dost
+         TMDB: 304713 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/jaani-dost-1983
+
+  1983 | Qayamat
+         TMDB: 215334 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/qayamat-1983
+
+  1982 | Daiviyin Thiruvilaiyadal
+         TMDB: 949471 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/daiviyin-thiruvilaiyadal-1982
+
+  1982 | Yuvaraju
+         TMDB: 626994 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/yuvaraju-1982
+
+  1982 | Swayamvaram
+         TMDB: 1229862 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/swayamvaram-1982
+
+  1982 | Krishnarajunulu
+         TMDB: 1605246 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/krishnarajunulu-1982
+
+  1982 | Pokkiri Raja
+         TMDB: 331553 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/pokkiri-raja-1982
+
+  1982 | Dil-E-Nadaan
+         TMDB: 514727 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/dil-e-nadaan-1982
+
+  1981 | Gharana Gangulu
+         TMDB: 304239 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/gharana-gangulu-1981
+
+  1980 | Takkar
+         TMDB: 1325080 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/takkar-1980
+
+
+  ═══ 1970s (18 movies) ═══
+
+  1979 | Pagalil Oru Iravu
+         TMDB: 1085259 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/pagalil-oru-iravu-1979
+
+  1979 | Sargam
+         TMDB: 83832 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/sargam-1979
+
+  1979 | Lok Parlok
+         TMDB: 304302 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/lok-parlok-1979
+
+  1979 | Amar Deep
+         TMDB: 377063 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/amar-deep-1979
+
+  1979 | Ashwadhamavu
+         TMDB: 765117 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/ashwadhamavu-1979
+
+  1978 | டாக்ஸி டிரைவர்
+         TMDB: 846919 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/-1978
+
+  1977 | Bhadrakali
+         TMDB: 824751 | ✗ Dir | ✓ Hero
+         http://localhost:3000/movies/bhadrakali-1977
+
+  1977 | Nirakudam
+         TMDB: 747472 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/nirakudam-1977
+
+  1973 | Bala Mitrula Katha
+         TMDB: 1471128 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bala-mitrula-katha-1973
+
+  1973 | Bangaru Babu
+         TMDB: 304942 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bangaru-babu-1973
+
+  1972 | Bangarada Manushya
+         TMDB: 310767 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bangarada-manushya-1972
+
+  1972 | Iddaru Ammayilu
+         TMDB: 307469 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/iddaru-ammayilu-1972
+
+  1972 | Bala Mitrula Katha
+         TMDB: 1471128 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/bala-mitrula-katha-1972
+
+  1972 | Kanimuthu Paappa
+         TMDB: 964309 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/kanimuthu-paappa-1972
+
+  1971 | Kathiki Kankanam
+         TMDB: 964105 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/kathiki-kankanam-1971
+
+  1971 | Aana Valarthiya Vanampadiyude Makan
+         TMDB: 963869 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/aana-valarthiya-vanampadiyude-makan-1971
+
+  1970 | Ali Baba 40 Dongalu
+         TMDB: 489433 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/ali-baba-40-dongalu-1970
+
+  1970 | Agni Pareeksha
+         TMDB: 950158 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/agni-pareeksha-1970
+
+
+  ═══ 1960s (6 movies) ═══
+
+  1969 | Aathmeeyulu
+         TMDB: 685559 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/aathmeeyulu-1969
+
+  1969 | Nam Naadu
+         TMDB: 285384 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/nam-naadu-1969
+
+  1965 | Naadi Aada Janme
+         TMDB: 307555 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/naadi-aada-janme-1965
+
+  1965 | Bangaru Panjaram
+         TMDB: 301075 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/bangaru-panjaram-1965
+
+  1964 | Ganga Ki Lahren
+         TMDB: 306154 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/ganga-ki-lahren-1964
+
+  1961 | Bharya Bharthalu
+         TMDB: 307390 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bharya-bharthalu-1961
+
+
+  ═══ 1950s (7 movies) ═══
+
+  1959 | Appu Chesi Pappu Koodu
+         TMDB: 307129 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/appu-chesi-pappu-koodu-1959
+
+  1959 | Manjal Mahimai
+         TMDB: 515095 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/manjal-mahimai-1959
+
+  1959 | Pelli Naati Pramanalu
+         TMDB: 395741 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/pelli-naati-pramanalu-1959
+
+  1958 | Annaiyin Aanai
+         TMDB: 757971 | ✓ Dir | ✗ Hero
+         http://localhost:3000/movies/annaiyin-aanai-1958
+
+  1958 | Women's Authority
+         TMDB: 697952 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/women-s-authority-1958
+
+  1957 | Bhagyarekha
+         TMDB: 307748 | ✓ Dir | ✓ Hero
+         http://localhost:3000/movies/bhagyarekha-1957
+
+  1953 | Bratuku Theruvu
+         TMDB: 307324 | ✗ Dir | ✗ Hero
+         http://localhost:3000/movies/bratuku-theruvu-1953
+
+═══════════════════════════════════════════════════════════════════════
+
+  ENRICHMENT SUMMARY:
+
+  ✓ Total movies:       159
+  ✓ Have director:      123 (77%)
+  ✓ Have hero:          126 (79%)
+  ✓ Have heroine:       109 (69%)
+
+  🚀 Ready to auto-enrich genres from TMDB!
+
+  To enrich: npx tsx scripts/enrich-genres-from-tmdb.ts --execute
+

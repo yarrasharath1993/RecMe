@@ -1,0 +1,330 @@
+{
+  "actorName": "N.T. Rama Rao",
+  "debutYear": 1949,
+  "wikipediaFilmCount": 300,
+  "databaseFilmCount": 439,
+  "preDebutFilms": [
+    {
+      "id": "80b31f5b-2911-4dc0-8fb3-62647ffa385c",
+      "title_en": "Palnati Yuddham",
+      "release_year": 1947,
+      "hero": "N.T. Rama Rao",
+      "heroine": "Pushpavalli",
+      "director": "L.V. Prasad",
+      "our_rating": 7.5,
+      "cast_members": []
+    },
+    {
+      "id": "dad25d47-0f34-440c-87b5-98da28bd9778",
+      "title_en": "NTR Neel",
+      "release_year": null,
+      "hero": "N.T. Rama Rao Jr.",
+      "heroine": "Tovino Thomas",
+      "director": "Prashanth Neel",
+      "our_rating": 5.5,
+      "cast_members": [
+        "{\"name\":\"N.T. Rama Rao Jr.\",\"order\":0}",
+        "{\"name\":\"Tovino Thomas\",\"order\":1}",
+        "{\"name\":\"Rukmini Vasanth\",\"order\":2}",
+        "{\"name\":\"Anil Kapoor\",\"order\":3}",
+        "{\"name\":\"Biju Menon\",\"order\":4}",
+        "{\"name\":\"Nassar\",\"order\":5}"
+      ]
+    },
+    {
+      "id": "9b7b604c-6907-4c79-bd7f-dd22d1a3f974",
+      "title_en": "Devara 2",
+      "release_year": null,
+      "hero": "N.T. Rama Rao Jr.",
+      "heroine": "Prakash Raj",
+      "director": "Koratala Siva",
+      "our_rating": 7,
+      "cast_members": [
+        "{\"name\":\"N.T. Rama Rao Jr.\",\"character\":\"Devara / Vara\",\"order\":0,\"role\":\"lead\"}",
+        "{\"name\":\"Prakash Raj\",\"character\":\"Singappa\",\"order\":1,\"role\":\"lead\"}",
+        "{\"name\":\"Srikanth\",\"character\":\"Rayappa\",\"order\":2,\"role\":\"supporting\"}",
+        "{\"name\":\"Ajay\",\"character\":\"Officer Shiva\",\"order\":3,\"role\":\"supporting\"}",
+        "{\"name\":\"Shine Tom Chacko\",\"character\":\"Kora\",\"order\":4,\"role\":\"supporting\"}",
+        "{\"name\":\"Kalaiyarasan\",\"character\":\"Kunjara\",\"order\":5,\"role\":\"supporting\"}",
+        "{\"name\":\"Murali Sharma\",\"character\":\"Muruga\",\"order\":6,\"role\":\"supporting\"}",
+        "{\"name\":\"P. Ravi Shankar\",\"character\":\"Bhaira (Voice)\",\"order\":7,\"role\":\"supporting\"}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "fbee9365-b999-40bf-bbab-4dbe5e0e2764",
+        "title": "Stree Sahasam",
+        "year": 1951
+      },
+      "movie2": {
+        "id": "42878213-eb7d-4d9a-bd55-c5c654d185d5",
+        "title": "Sahasam",
+        "year": 1952
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "30963017-ee68-419c-8015-c8dc2ac38b54",
+        "title": "Kanyashulkam",
+        "year": 1955
+      },
+      "movie2": {
+        "id": "b20ba0df-c69f-4578-adc8-482adc507665",
+        "title": "Kanyasulkam",
+        "year": 1955
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "d7fa2b02-d7ca-4401-a602-7e10366ece13",
+        "title": "Bhagyarekha",
+        "year": 1957
+      },
+      "movie2": {
+        "id": "ab3d7203-84a5-4877-bd57-41103a7f8012",
+        "title": "Bhagya Rekha",
+        "year": 1957
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "342f5382-2c8f-4926-9533-11e1a484b3d3",
+        "title": "Vinayaka Chaviti",
+        "year": 1957
+      },
+      "movie2": {
+        "id": "13deb818-89c4-4a02-8bcd-2714f4e19a53",
+        "title": "Vinayaka Chavithi",
+        "year": 1957
+      },
+      "similarity": 0.9375
+    },
+    {
+      "movie1": {
+        "id": "4607dec1-aba0-427f-9492-2abc1f4cb065",
+        "title": "Inti Guttu",
+        "year": 1958
+      },
+      "movie2": {
+        "id": "6ff95a9c-f6f2-4b8b-a2a4-b7e6da708c03",
+        "title": "Intiguttu",
+        "year": 1958
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "ec61c4d1-6ffb-42be-9ab5-7a47da3b778c",
+        "title": "Kalasi Vunte Kaladu Sukham",
+        "year": 1961
+      },
+      "movie2": {
+        "id": "f9d38500-36cb-41c9-95c2-487fbbc049aa",
+        "title": "Kalasi Unte Kaladu Sukham",
+        "year": 1961
+      },
+      "similarity": 0.9565217391304348
+    },
+    {
+      "movie1": {
+        "id": "313aa829-c3c6-4901-92d1-23e24c003aaf",
+        "title": "Bangaru Thimmaraju",
+        "year": 1963
+      },
+      "movie2": {
+        "id": "64d4d80f-cfda-452f-99d9-f80d418c9c0e",
+        "title": "Bangaru Thimmaraju",
+        "year": 1964
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "a70c1778-f836-47c4-aa43-e1d93a78de75",
+        "title": "Sri Tirupatamma Katha",
+        "year": 1963
+      },
+      "movie2": {
+        "id": "0bac0fce-8286-4ad3-9c88-51a57f9b671a",
+        "title": "Sri Tirupatamma Katha",
+        "year": 1964
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "203dab5b-f815-4cbd-a0fd-2f069fa029b3",
+        "title": "Sri Krishnarjuna Yuddhamu",
+        "year": 1963
+      },
+      "movie2": {
+        "id": "d184bfff-a604-4a40-87fa-c5e99e6604f1",
+        "title": "Sri Krishnarjuna Yudham",
+        "year": 1963
+      },
+      "similarity": 0.9130434782608696
+    },
+    {
+      "movie1": {
+        "id": "d879434a-ed3c-44eb-b137-e2c033690620",
+        "title": "Zamindar",
+        "year": 1965
+      },
+      "movie2": {
+        "id": "408262af-4776-4949-b1b1-2c6f0ac414ff",
+        "title": "Zamindar",
+        "year": 1966
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "b9765789-9acc-4122-b91c-34d6f9a29295",
+        "title": "Palnati Yudham",
+        "year": 1966
+      },
+      "movie2": {
+        "id": "81627b8c-9770-4774-9c8c-52ec65e62bdf",
+        "title": "Palnati Yuddham",
+        "year": 1966
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "8d8463f2-4846-4e0b-81e2-1fdc43ec1de6",
+        "title": "Sudigundalu",
+        "year": 1967
+      },
+      "movie2": {
+        "id": "5ffbe678-bf88-4b2d-8830-e74f90fc9f43",
+        "title": "Sudigundaalu",
+        "year": 1968
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "fdbf061d-fa8f-4153-b196-ed44aad08ea2",
+        "title": "Bhagya Chakramu",
+        "year": 1968
+      },
+      "movie2": {
+        "id": "a9382de5-3fa3-4c05-b2d1-f824e77b06c5",
+        "title": "Ramu",
+        "year": 1968
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "6297cffe-f544-40b3-a2bb-99fd20b06d5b",
+        "title": "Sri Ramaanjaneya Yuddham",
+        "year": 1975
+      },
+      "movie2": {
+        "id": "4296474b-0215-41e6-bcbe-1f486a981086",
+        "title": "Sri Ramanjaneya Yuddham",
+        "year": 1975
+      },
+      "similarity": 0.9545454545454546
+    },
+    {
+      "movie1": {
+        "id": "5eff684d-456c-4a51-9813-e15dfedbb4f7",
+        "title": "Srimadhvirata Parvamu",
+        "year": 1979
+      },
+      "movie2": {
+        "id": "c313175a-918f-4739-81b2-333ee4aa3859",
+        "title": "Sri Madvirata Parvam",
+        "year": 1979
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "2cbd7aa1-a9f7-48bf-83c0-62d7dc9bb31b",
+        "title": "Srinatha Kavi Saarvabhoumudu",
+        "year": 1993
+      },
+      "movie2": {
+        "id": "317c83ef-9f95-4ee7-9d9e-b53074e1e5af",
+        "title": "Srinatha Kavi Sarvabhowmudu",
+        "year": 1993
+      },
+      "similarity": 0.9230769230769231
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "0": 2,
+    "1947": 1,
+    "1949": 3,
+    "1950": 7,
+    "1951": 12,
+    "1952": 7,
+    "1953": 11,
+    "1954": 20,
+    "1955": 12,
+    "1956": 16,
+    "1957": 15,
+    "1958": 13,
+    "1959": 17,
+    "1960": 18,
+    "1961": 19,
+    "1962": 14,
+    "1963": 19,
+    "1964": 15,
+    "1965": 17,
+    "1966": 14,
+    "1967": 21,
+    "1968": 19,
+    "1969": 20,
+    "1970": 9,
+    "1971": 14,
+    "1972": 4,
+    "1973": 5,
+    "1974": 6,
+    "1975": 7,
+    "1976": 3,
+    "1977": 6,
+    "1978": 9,
+    "1979": 9,
+    "1980": 7,
+    "1981": 4,
+    "1982": 4,
+    "1983": 3,
+    "1984": 1,
+    "1991": 1,
+    "1992": 1,
+    "1993": 3,
+    "1994": 1,
+    "1996": 1,
+    "2001": 2,
+    "2002": 2,
+    "2003": 2,
+    "2004": 2,
+    "2005": 1,
+    "2006": 2,
+    "2007": 2,
+    "2010": 2,
+    "2011": 1,
+    "2012": 2,
+    "2013": 2,
+    "2014": 1,
+    "2015": 1,
+    "2016": 2,
+    "2017": 1,
+    "2018": 1,
+    "2022": 1,
+    "2024": 2
+  },
+  "summary": "3 pre-debut films, 16 potential duplicates, Count mismatch: DB=439, Wiki=~300"
+}

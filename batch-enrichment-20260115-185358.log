@@ -1,0 +1,57 @@
+
+🚀 BATCH ENRICHMENT - ALL MOVIES
+======================================================================
+Batch size: 50 movies
+Delay between batches: 5s
+Max batches: 999
+======================================================================
+
+======================================================================
+🔄 BATCH 1 - Processing 50 movies
+======================================================================
+
+(node:76535) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+✅ Batch 1 Complete:
+   Processed: 50
+   Enriched: 48
+   Failed: 2
+   Duration: 159.9s
+
+⏳ Waiting 5s before next batch...
+
+======================================================================
+🔄 BATCH 2 - Processing 50 movies
+======================================================================
+
+(node:78194) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+✅ Batch 2 Complete:
+   Processed: 50
+   Enriched: 48
+   Failed: 2
+   Duration: 155.6s
+
+⏳ Waiting 5s before next batch...
+
+======================================================================
+🔄 BATCH 3 - Processing 50 movies
+======================================================================
+
+(node:79662) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+✅ Batch 3 Complete:
+   Processed: 50
+   Enriched: 48
+   Failed: 2
+   Duration: 155.9s
+
+⏳ Waiting 5s before next batch...
+
+======================================================================
+🔄 BATCH 4 - Processing 50 movies
+======================================================================
+

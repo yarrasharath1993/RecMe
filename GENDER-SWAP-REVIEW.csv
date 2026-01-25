@@ -1,0 +1,101 @@
+id,slug,title,year,pattern,field,current_value,suggested_fix,severity,auto_fixable
+16c85fc9-80de-4f8c-bd0d-069b48a57168,"mawaali-1983","Mawaali",1983,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+a3954a89-0f81-4fd0-a527-0497705c4a27,"angeekaaram-1977","Angeekaaram",1977,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+03b317cc-8b87-45b0-92e5-ad1de7eb7c92,"chaalbaaz-1990","ChaalBaaz",1989,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+ff4ef5a0-eff3-40a6-b117-a8462a6a0265,"jeevitha-ratham-1981","Jeevitha Ratham",1981,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+a4afdffb-c673-485e-85d9-fceb44932a25,"vaanam-2011","Vaanam",2011,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+53888702-5231-4c81-84b9-01234aa1eaf1,"kottai-mariamman-2001","Kottai Mariamman",2001,GENDER_SWAP,hero,"Roja","Move to heroine",high,false
+1c56d0c1-5b55-4a00-9a1a-6186aa6a956f,"mundadugu-1983","Mundadugu",1983,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+84f6df71-8fcd-44da-bbe2-501430656d83,"best-actress-1996","Best Actress",1996,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+5c021218-ec73-4926-932e-4c152ce1e580,"english-vinglish-2013","English Vinglish",2013,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+aa04e255-0138-4e23-8086-370cf90ce4ba,"ammoru-1995","Ammoru",1995,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+bb055ff1-9e3c-4758-929b-78af641a99db,"anna-chellelu-1993","Anna Chellelu",1993,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+5c9d770c-865b-4db6-b2c5-fdce4b0fa46c,"dasavathaaram-2008","Dasavathaaram",2008,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+8f69beca-b63a-42fe-a4b9-1fa805084f0d,"awe-2018","Awe!",2018,GENDER_SWAP,hero,"Kajal Aggarwal","Move to heroine",high,false
+b4387f43-8aa1-47ec-bdbb-72e5c891afa8,"khaidi-kalidasu-1977","Khaidi Kalidasu",1977,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+2ced2102-12ab-4391-9e5b-40ae526c7b11,"amma-mata-1972","Amma Mata",1972,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+4b6bc505-eaaa-494c-9a16-b6b383f10a3f,"munna-2007","Munna",2007,GENDER_SWAP,heroine,"Prabhas","Move to hero",high,false
+1e0ce6fe-0058-4097-9069-6879f475350e,"rendu-2006","Rendu",2006,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+959d5cc0-df04-41d8-bc22-4a3a3f1cdafe,"the-power-2021","The Power",2021,GENDER_SWAP,hero,"Shruti Haasan","Move to heroine",high,false
+d230d639-8927-40d7-9889-79f95e18d21f,"sri-rambantu-1979","Sri Rambantu",1979,GENDER_SWAP,heroine,"Chiranjeevi","Move to hero",high,false
+2a590415-5b6c-4321-bfcc-271fc1466bfb,"manishichina-maguva-1969","Manishichina Maguva",1969,GENDER_SWAP,hero,"Savitri","Move to heroine",high,false
+1f509925-a7af-45e4-a1df-3b79fc66c43c,"devi-2020","Devi",2020,GENDER_SWAP,hero,"Shruti Haasan","Move to heroine",high,false
+7b463cf0-057b-4154-b696-37c6daa1f0a9,"oke-maata-2000","Oke Maata",2000,GENDER_SWAP,hero,"Ramya Krishnan","Move to heroine",high,false
+c984fdf8-5122-48f7-97b5-00d9a2c65f25,"haisiyat-1984","Haisiyat",1984,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+5d32087c-cf2b-460d-9ee7-fa8b793758b6,"vikram-2005","Vikramarkudu",2005,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+ff32a1f8-e0a8-41fd-9fe9-5f9ffb94b6fa,"angala-parameswari-2002","Angala Parameswari",2002,GENDER_SWAP,hero,"Meena","Move to heroine",high,false
+489d6c4b-2358-4b79-a375-380894053836,"arjun-2004","Arjun",2004,GENDER_SWAP,heroine,"Mahesh Babu","Move to hero",high,false
+2c61e1ee-623b-40b8-885f-a90bbccbc84f,"devadoothan-2000","Devadoothan",2000,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+c3f4b681-7d6f-4de3-847e-28511a2f9e70,"sooryavansham-1999","Sooryavansham",1999,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+b4a8c52b-f778-41f9-a161-b8ad53ffca09,"anthahpuram-1998","Anthahpuram",1998,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+bde64f74-a7f6-4aee-97bb-b7e20634f220,"bahubali-2-the-conclusion-2017","Bāhubali 2: The Conclusion",2017,GENDER_SWAP,heroine,"Rana Daggubati","Move to hero",high,false
+7b15d303-ebc5-4428-a266-f6f11604cc9b,"priya-1978","Priya",1978,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+472c726b-5972-45f2-9264-8b06ca5fecbc,"vamsoddarakudu-2000","Vamsoddarakudu",2000,GENDER_SWAP,hero,"Ramya Krishnan","Move to heroine",high,false
+bf98877b-af8a-4e0d-ac13-369a4cb3a183,"chuzhi-1973","Chuzhi",1973,GENDER_SWAP,hero,"Savitri","Move to heroine",high,false
+a6fef85e-9f2e-46b4-8fa8-7daf7748546d,"vanakkathukuriya-kathaliye-1978","Vanakkathukuriya Kathaliye",1978,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+34d9230d-7747-4309-a697-b49fa8eccb65,"the-desire-a-journey-of-a-woman-2011","The Desire: A Journey of a Woman",2011,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+7da9de1e-b388-4468-b116-7ef9ccd40341,"insaniyat-1994","Insaniyat",1994,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+5020bf64-babb-4c56-b8ab-30aa962d3b60,"swetha-naagu-2004","Swetha Naagu",2004,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+38a75021-b146-4c61-8ded-2a393423c86c,"jeevan-yudh-1997","Jeevan Yudh",1997,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+d12f2a32-75a3-48f3-9a05-6ef8a08a2755,"jawab-hum-denge-1987","Jawab Hum Denge",1987,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+216e0c71-19e5-46a3-8845-13b53a49d57b,"veer-1995","Veer",1995,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+eb80b9c0-3cd7-4280-ba2f-f58c1222907c,"behen-hogi-teri-2017","Behen Hogi Teri",2017,GENDER_SWAP,hero,"Shruti Haasan","Move to heroine",high,false
+002b93f5-f5af-4273-83b3-05faeb090322,"devaraagam-1996","Devaraagam",1996,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+b5ad8e82-037e-4fc0-8804-13d0e0b7fb9a,"gift-1984","Gift",1984,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+8d8dbc6e-8e4a-4940-9db9-1e086d5f4db6,"do-lafzon-ki-kahani-2016","Do Lafzon Ki Kahani",2016,GENDER_SWAP,hero,"Kajal Aggarwal","Move to heroine",high,false
+8b7664a5-c6dc-4a48-9240-70c1e53de017,"swayamvaram-1982","Swayamvaram",1982,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+26e8f6de-3a09-4bae-97aa-c5499142fd76,"mama-manchu-alludu-kanchu-2015","Mama Manchu Alludu Kanchu",2015,GENDER_SWAP,heroine,"Mohan Babu","Move to hero",high,false
+0514af1f-14fe-45a6-a765-b7452536d659,"rudhramadevi-2015","Rudhramadevi",2015,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+97205711-d99c-4507-8dd1-bccf914a517b,"chinnari-muddula-papa-1990","Chinnari Muddula Papa",1990,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+ea870716-1028-47e0-9848-e1e887486bf2,"keni-2018","Keni",2018,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+28cdaf3a-d4be-4e89-a7a7-63e97d55e6c6,"manavude-mahaneeyudu-1980","Manavude Mahaneeyudu",1980,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+5b941ca4-6b01-4304-9b69-751170233650,"paayum-puli-2015","Paayum Puli",2015,GENDER_SWAP,hero,"Kajal Aggarwal","Move to heroine",high,false
+66dd2690-e978-4b37-b1b6-6a46e4950c5f,"pagalil-oru-iravu-1979","Pagalil Oru Iravu",1979,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+93055d51-4f13-4364-9717-f494055af13e,"oonjaal-1977","Oonjaal",1977,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+c6aa0c78-3300-4b1b-a2bd-343ee93be13d,"rrr-behind-and-beyond-2024","RRR: Behind & Beyond",2024,GENDER_SWAP,heroine,"Ram Charan","Move to hero",high,false
+a75e8ded-39e4-4aba-85fe-1931c2b18aab,"anaamika-2014","Anaamika",2014,GENDER_SWAP,hero,"Nayanthara","Move to heroine",high,false
+17f6c2cb-f7a2-4781-a402-8429d5170d0a,"seeta-kalyanam-1976","Seeta Kalyanam",1976,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+8aa23f75-a4eb-4632-8f82-24327499ea7a,"poojai-2014","Poojai",2014,GENDER_SWAP,hero,"Shruti Haasan","Move to heroine",high,false
+ce52a896-7006-4230-9efc-b932c7304787,"jhummandi-naadam-2010","Jhummandi Naadam",2010,GENDER_SWAP,heroine,"Suman","Move to hero",high,false
+ba676bd5-9990-4329-afb1-352928f849a7,"inji-iduppazhagi-2015","Inji Iduppazhagi",2015,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+c4ab0633-5d0b-441f-9f69-19636285f7d9,"chandi-the-power-of-woman-2013","Chandi: The Power of Woman",2013,GENDER_SWAP,heroine,"Krishnam Raju","Move to hero",high,false
+5b809714-e54b-4fe5-a9b9-9f3aa6878ea5,"all-in-all-azhagu-raja-2013","All in All Azhagu Raja",2013,GENDER_SWAP,hero,"Kajal Aggarwal","Move to heroine",high,false
+3f43d925-b849-4651-ab42-4205cc9d0209,"poompatta-1971","Poompatta",1971,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+06291f44-dcb0-4c95-8722-edf3d5f837ad,"andala-rakshasi-2012","Andala Rakshasi",2012,GENDER_SWAP,hero,"Lavanya Tripathi","Move to heroine",high,false
+53f37cd5-1107-4396-93f0-5aa6ba836667,"sesh-sanghat-2009","Sesh Sanghat",2009,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+8aa3455d-d9a9-48d7-ab30-d95e551f42b8,"nagina-1986","Nagina",1986,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+c150588c-1ee3-49e9-849a-a08ca59a96fe,"moondram-pirai-1983","Moondram Pirai",1983,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+b1043ceb-4841-4e6b-8575-1ff7271dd6f3,"devude-digivaste-1975","Devude Digivaste",1975,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+d53f3678-0fe2-4d7d-95a0-847e80359765,"anthapuram-1999","Anthapuram",1999,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+02111a72-de46-4a7c-90de-53ec9264ef42,"manavarali-pelli-1993","Manavarali Pelli",1993,GENDER_SWAP,hero,"Soundarya","Move to heroine",high,false
+e8f1fa7d-2da0-4df4-a177-a22befb71bb2,"jaag-utha-insan-1984","Jaag Utha Insan",1984,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+5295522c-545c-4ef4-ade4-2c125ac62d22,"sadma-1984","Sadma",1984,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+bf27e9bc-b4a7-40f6-b6c5-fde21f2378d1,"pandirimancham-1991","Pandirimancham",1991,GENDER_SWAP,heroine,"Jagapathi Babu","Move to hero",high,false
+a963e49b-0157-46a2-9380-ecc78433eb26,"justice-rudramadevi-1990","Justice Rudramadevi",1990,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+11485c64-4eb3-42be-90ed-457fd91ab343,"madhura-swapnam-1982","Madhura Swapnam",1982,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+7517dddc-368c-4869-9883-ea4cba404c19,"muddula-priyudu-1994","Muddula Priyudu",1994,GENDER_SWAP,hero,"Ramya Krishnan","Move to heroine",high,false
+052658b3-f5bc-4867-8a2b-c0ef4d6e1210,"jagamondi-1981","Jagamondi",1981,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+6273af4d-f577-4bb8-9fd5-0b92cc9ec033,"mom-2018","Mom",2018,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+6664df27-bf9e-4166-9c82-7297e05e21d4,"suryavamsam-1998","Suryavamsam",1998,GENDER_SWAP,hero,"Meena","Move to heroine",high,false
+c2be9108-69d6-4f9d-a1c1-c45e48e3cec1,"chandamama-2007","Chandamama",2007,GENDER_SWAP,hero,"Kajal Aggarwal","Move to heroine",high,false
+24db7c59-187b-47d4-8437-c5a098c85e11,"chandra-mukhi-1993","Chandra Mukhi",1993,GENDER_SWAP,hero,"Sridevi","Move to heroine",high,false
+4ad9424a-f90b-42db-8fcb-4d3e64ddf228,"o-panaipothundi-babu-1998","O Panaipothundi Babu",1998,GENDER_SWAP,heroine,"Ravi Teja","Move to hero",high,false
+73591e57-5fbb-41a9-a8d4-80875b608a2c,"chandralekha-1998","Chandralekha",1998,GENDER_SWAP,hero,"Ramya Krishnan","Move to heroine",high,false
+241cd6d8-d112-40d6-ba30-62f60ced616d,"prema-kavali-2011","Prema Kavali",2011,GENDER_SWAP,heroine,"Aadi","Move to hero",high,false
+40637c18-d7e5-4fd8-901a-b531ddb30c4d,"d-for-dopidi-2013","D for Dopidi",2013,GENDER_SWAP,heroine,"Sundeep Kishan","Move to hero",high,false
+1352bac0-cd25-4d01-9c7b-54669a02021b,"deergha-sumangali-bhava-1998","Deergha Sumangali Bhava",1998,GENDER_SWAP,hero,"Ramya Krishnan","Move to heroine",high,false
+c314b523-1ee8-458f-9b0a-8957e2d7fef9,"antha-mana-manchike-1972","Antha Mana Manchike",1972,GENDER_SWAP,heroine,"Krishna","Move to hero",high,false
+9b92b0a3-0f2a-45f0-84f3-8c8229f9d689,"rowdy-gari-pellam-1991","Rowdy Gari Pellam",1991,GENDER_SWAP,heroine,"Mohan Babu","Move to hero",high,false
+23aff150-7056-411c-9f84-c673afe8d8da,"lacchimdeviki-o-lekkundi-2016","Lacchimdeviki O Lekkundi",2016,GENDER_SWAP,hero,"Lavanya Tripathi","Move to heroine",high,false
+546251ea-b489-4c8f-9721-04c5e3751c9b,"savyasachi-2018","Savyasachi",2018,GENDER_SWAP,heroine,"Naga Chaitanya","Move to hero",high,false
+edf03aba-fb65-4895-b39c-8de570b77b02,"ragile-hrudayalu-1980","Ragile Hrudayalu",1980,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+2d90a8b6-4839-4505-aa49-d2a6f48c4ecd,"arundhati-2009","Arundhati",2009,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+1fb06eaf-7d74-41c9-b965-97cf3cae228f,"kalki-2898-ad-2024","Kalki 2898-AD",2024,GENDER_SWAP,heroine,"Prabhas","Move to hero",high,false
+3c8e2bde-5529-484d-a75e-4a6146047b4c,"rama-banam-1979","Rama Banam",1979,GENDER_SWAP,heroine,"Krishnam Raju","Move to hero",high,false
+587e7815-9c1c-4352-8627-21d0ca0b5b9a,"miss-shetty-mr-polishetty-2023","Miss. Shetty Mr. Polishetty",2023,GENDER_SWAP,hero,"Anushka Shetty","Move to heroine",high,false
+59c5dbca-c6c9-4d7b-bac7-1734b5782888,"bunny-2005","Bunny",2005,GENDER_SWAP,heroine,"Allu Arjun","Move to hero",high,false
+db9a5c4b-1645-4f27-b9ce-b40e864736b8,"sneha-bandham-1973","Sneha Bandham",1973,GENDER_SWAP,heroine,"Krishna","Move to hero",high,false
+e4fca088-8438-40c5-a506-1b60064b3465,"bangaru-talli-1971","Bangaru Talli",1971,GENDER_SWAP,heroine,"Sobhan Babu","Move to hero",high,false
+b3e5ff75-192c-4137-9f44-eb6885a8b227,"golkonda-abbulu-1982","Golkonda Abbulu",1982,GENDER_SWAP,hero,"Jaya Prada","Move to heroine",high,false
+2dae0a9c-7979-4c58-a70b-b7162126cd8c,"s-p-bhayankar-1984","S. P. Bhayankar",1984,GENDER_SWAP,heroine,"Krishnam Raju","Move to hero",high,false
+b24f6fda-39b4-4390-8a87-238444dc54c6,"bahubali-the-beginning-2015","Bāhubali: The Beginning",2015,GENDER_SWAP,heroine,"Rana Daggubati","Move to hero",high,false

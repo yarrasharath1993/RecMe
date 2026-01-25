@@ -1,0 +1,8 @@
+"Status","Wikipedia Title","Wikipedia Year","Role","Cast Type","DB Movie ID","DB Title","DB Year","Current Attribution","Match %","Suggested Field","Action"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Super 30","2019","Actor","","39bbfbaa-933b-4fcd-bb39-a3915bfe671a","Super 30","2019","Not attributed","100","cast","Add Krithi Shetty as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Vaa Vaathiyaar","2026","Actor","","ddd938c2-458a-4f51-8389-74a5d7e12c0d","Ponton's Heart","2025","Not attributed","90","cast","Add Krithi Shetty as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Filmfare Awards South","2022","Actor","","3b1c9dba-77b2-4239-aa33-c6c0d267d4f6","Poster","2021","Not attributed","90","cast","Add Krithi Shetty as Cast Member"
+"✓ ATTRIBUTED","Uppena","2021","Actor","","c1a96661-d3d2-4d64-9155-d1283e06638b","Uppena","2021","Heroine: Krithi Shetty","100","","None"
+"✓ ATTRIBUTED","Bangarraju","2022","Actor","","e4f90c4f-16a4-40d7-b6f1-c214d577d176","Bangarraju","2022","Not attributed","100","","None"
+"✓ ATTRIBUTED","Custody","2023","Actor","","79eec80a-7c17-45bb-a61c-0ffb9914eb41","Custody","2023","Heroine: Krithi Shetty","100","","None"
+"✓ ATTRIBUTED","Manamey","2024","Actor","","1dbbedea-14d0-4d36-9bbb-33bfdf2f848b","Manamey","2024","Heroine: Krithi Shetty","100","","None"

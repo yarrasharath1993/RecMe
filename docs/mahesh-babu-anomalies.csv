@@ -1,0 +1,22 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Athidi",2007,-,"-","-",86%,"Duplicate of ""Athidhi"" (2007) - 86% similar",flag_review
+pre_debut,"Vāranāsi",,-,"-","-",85%,"Released 1999 years before Mahesh Babu's debut (1999)",flag_review
+ghost_entry,"Raja Kumarudu",1999,-,"-","-",75%,"Title appears to be invalid (person name, production house, etc.)",flag_review
+ghost_entry,"Takkari Donga",2002,-,"-","-",75%,"Title appears to be invalid (person name, production house, etc.)",flag_review
+ghost_entry,"Sarileru Neekevvaru",2020,-,"-","-",75%,"Title appears to be invalid (person name, production house, etc.)",flag_review
+ghost_entry,"Guntur Kaaram",2024,-,"-","-",75%,"Title appears to be invalid (person name, production house, etc.)",flag_review
+wrong_attribution,"Bobby",2002,-,"-","Bobby Brederlow",90%,"Mahesh Babu not found in TMDB cast. Top cast: Bobby Brederlow, Veronica Ferres, Markus Knüfken, Steffen Groth, Hansa Czypionka, Margret Völker, August Schmölzer, Karlheinz Hackl, Raidar Müller-Elmau",flag_review
+missing_field,"Nijam",2003,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Murari",2001,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Murari",2001,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Murari",2001,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Yuvaraju",2000,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Yuvaraju",2000,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Yuvaraju",2000,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Rajakumarudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Rajakumarudu",1999,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Rajakumarudu",1999,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Raja Kumarudu",1999,music_director,"-","-",60%,"Missing music_director",report_only
+missing_field,"Raja Kumarudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Raja Kumarudu",1999,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Raja Kumarudu",1999,writer,"-","-",60%,"Missing writer",report_only

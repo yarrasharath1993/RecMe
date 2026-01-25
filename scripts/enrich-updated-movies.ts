@@ -287,11 +287,19 @@ async function enrichMovie(slug: string, title: string, year: number): Promise<b
         console.log('   ✓ Found Telugu synopsis');
     }
     
-    // Derive editorial scores
-    const editorialScore = deriveEditorialScore(movie);
-    if (editorialScore && !movie.editorial_score_breakdown) {
-        update.editorial_score_breakdown = editorialScore;
-        console.log('   ✓ Derived editorial scores');
+    // Derive editorial scores (only for released movies)
+    const isUpcoming = !movie.release_year || 
+                      movie.release_year > new Date().getFullYear() ||
+                      (movie.release_date && new Date(movie.release_date) > new Date());
+    
+    if (!isUpcoming) {
+        const editorialScore = deriveEditorialScore(movie);
+        if (editorialScore && !movie.editorial_score_breakdown) {
+            update.editorial_score_breakdown = editorialScore;
+            console.log('   ✓ Derived editorial scores');
+        }
+    } else {
+        console.log('   ⏭️  Skipped editorial scores (unreleased movie)');
     }
     
     // Derive audience fit

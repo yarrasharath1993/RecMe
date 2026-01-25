@@ -1,0 +1,29 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Athidhi",2007,-,"-","-",86%,"Duplicate of ""Athidi"" (2007) - 86% similar",flag_review
+duplicate,"Raja Kumarudu",1999,-,"-","-",85%,"Similar title to ""Rajakumarudu"" (1999)",flag_review
+pre_debut,"Vāranāsi",,-,"-","-",85%,"Released 1999 years before Mahesh's debut (1999)",flag_review
+conflicting_data,"Bobby",2002,tmdb_id,"299127","-",80%,"TMDB movie is de, not Telugu",flag_review
+missing_field,"Drinker Sai",2024,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Mao Oori Cinema",2023,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Spyder",2017,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Sivaji",2010,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Athidi",2007,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Okkade",2005,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Nijam",2003,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Murari",2001,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Murari",2001,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Murari",2001,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Murari",2001,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Yuvaraju",2000,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Yuvaraju",2000,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Yuvaraju",2000,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Yuvaraju",2000,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Rajakumarudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Rajakumarudu",1999,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Rajakumarudu",1999,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Rajakumarudu",1999,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Raja Kumarudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Raja Kumarudu",1999,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Raja Kumarudu",1999,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Raja Kumarudu",1999,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Raja Kumarudu",1999,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only

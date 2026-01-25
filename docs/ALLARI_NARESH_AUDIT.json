@@ -1,0 +1,89 @@
+{
+  "actorName": "Allari Naresh",
+  "debutYear": 2001,
+  "wikipediaFilmCount": 55,
+  "databaseFilmCount": 70,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "70ba8737-8be7-4ec3-98f6-660abfc418c9",
+        "title": "Sundarakanda",
+        "year": 2008
+      },
+      "movie2": {
+        "id": "0179b3cd-2c7e-4c05-964d-3b189e168285",
+        "title": "Sundara Kanda",
+        "year": 2008
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "8bbab52e-f59d-4ae0-a4a3-d8882d27723f",
+        "title": "Shubhapradham",
+        "year": 2010
+      },
+      "movie2": {
+        "id": "b2b763d0-8c74-4dca-90fc-8f7f19b1556e",
+        "title": "Subhapradam",
+        "year": 2010
+      },
+      "similarity": 0.8461538461538461
+    },
+    {
+      "movie1": {
+        "id": "af4e9bbd-d8b3-40dc-a1c9-4bf4f7287c4e",
+        "title": "Kathi Kanta Rao",
+        "year": 2010
+      },
+      "movie2": {
+        "id": "c983a723-13ff-4688-b48a-555562d9962d",
+        "title": "Kathi Kantha Rao",
+        "year": 2010
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "39700a53-b466-4e20-8987-d348b0b678f7",
+        "title": "Madatha Kaja",
+        "year": 2011
+      },
+      "movie2": {
+        "id": "e108b77b-eaf0-4f70-ae70-eec5c5e256e9",
+        "title": "Madatha Kaaja",
+        "year": 2011
+      },
+      "similarity": 0.9166666666666666
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "2002": 3,
+    "2003": 5,
+    "2004": 1,
+    "2005": 2,
+    "2006": 5,
+    "2007": 4,
+    "2008": 9,
+    "2009": 2,
+    "2010": 8,
+    "2011": 5,
+    "2012": 3,
+    "2013": 2,
+    "2014": 3,
+    "2015": 3,
+    "2016": 2,
+    "2017": 1,
+    "2018": 1,
+    "2021": 3,
+    "2022": 1,
+    "2023": 1,
+    "2024": 3,
+    "2025": 1,
+    "2026": 2
+  },
+  "summary": "4 potential duplicates"
+}

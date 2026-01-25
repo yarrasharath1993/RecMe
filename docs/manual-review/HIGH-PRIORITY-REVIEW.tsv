@@ -1,0 +1,80 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         MOVIES NEEDING MANUAL REVIEW                                 ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+Title	Year	Category	Issue	URL
+Bāhubali 2: The Conclusion vs Bāhubali 2: The Conclusion	b-hubali-2-the-conclusion-2017	potential duplicates	Potential duplicate - compare and decide	http://localhost:3000/movies/bahubali-2-the-conclusion-2017
+Bāhubali: The Beginning vs Bāhubali: The Beginning	b-hubali-the-beginning-2015	potential duplicates	Potential duplicate - compare and decide	http://localhost:3000/movies/bahubali-the-beginning-2015
+Kumara Sambhavam	1969	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/kumara-sambhavam-1969
+Himmatwala	1983	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/himmatwala-1983
+16 Vayathinile	1977	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/16-vayathinile-1977
+Pagalil Oru Iravu	1979	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/pagalil-oru-iravu-1979
+Tohfa	1984	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/tohfa-1984
+Angeekaaram	1977	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/angeekaaram-1977
+Moondram Pirai	1983	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/moondram-pirai-1983
+Nam Nadu	1969	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/nam-nadu-1969
+Kalyanaraman	1979	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/kalyanaraman-1979
+Poombatta	1971	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/poombatta-1971
+Laadla	1995	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/laadla-1995
+Mahaguru	1985	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/mahaguru-1985
+Agni Pareeksha	1970	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/agni-pareeksha-1970
+Lamhe	1992	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/lamhe-1992
+—N/a	2019	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/n-a-2019
+Oonjaal	1977	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/oonjaal-1977
+Sadma	1984	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/sadma-1984
+Justice Chaudhury	1983	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/justice-chaudhury-1983
+Johnny	1980	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/johnny-1980
+Gift	1984	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/gift-1984
+Gumrah	1994	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/gumrah-1994
+Moondram Pirai	1981	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/moondram-pirai-1981
+Poompatta	1971	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/poompatta-1971
+Solva Sawan	1979	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/solva-sawan-1979
+Khuda Gawah	1993	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/khuda-gawah-1993
+Meendum Kokila	1982	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/meendum-kokila-1982
+ChaalBaaz	1990	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/chaalbaaz-1990
+Judaai	1998	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/judaai-1998
+English Vinglish	2013	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/english-vinglish-2013
+Army	1996	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/army-1996
+Main Tera Dushman	1989	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/main-tera-dushman-1989
+Majaal	1987	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/majaal-1987
+Guru	1989	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/guru-1989
+Chaand Kaa Tukdaa	1994	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/chaand-kaa-tukdaa-1994
+Fire and Flames	1986	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/fire-and-flames-1986
+Lamhe	1991	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/lamhe-1991
+Ram-Avtar	1988	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/ram-avtar-1988
+Pathar Ke Insan	1990	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/pathar-ke-insan-1990
+Jawab Hum Denge	1987	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/jawab-hum-denge-1987
+Chandni	1989	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/chandni-1989
+Aulad	1987	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/aulad-1987
+Masterji	1985	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/masterji-1985
+Ghar Sansar	1986	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/ghar-sansar-1986
+Balidaan	1985	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/balidaan-1985
+Suhaagan	1986	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/suhaagan-1986
+Kavalai Vendam	2016	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/kavalai-vendam-2016
+Ananda Thandavam	2009	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/ananda-thandavam-2009
+Chandra Mukhi	1993	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/chandra-mukhi-1993
+Pazhani	2008	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/pazhani-2008
+Alex Pandian	2013	wrong hero gender	Wrong hero attribution - needs TMDB research	http://localhost:3000/movies/alex-pandian-2013
+
+════════════════════════════════════════════════════════════════════════════════
+SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+  potential duplicates: 2 movies
+  wrong hero gender: 50 movies
+
+  Total: 52 movies needing review
+
+NEXT STEPS:
+  1. Start with HIGH priority items (duplicates, wrong heroes)
+  2. Research on Wikipedia/IMDb for missing data
+  3. Use helper scripts for bulk updates
+
+Formats:
+  --format=simple     Clean list
+  --format=tsv        Tab-separated (paste in Excel)
+  --format=detailed   Full details (default)
+  --category=<name>   Show specific category only
+  --priority=<level>  Filter by priority (high/medium/low)
+

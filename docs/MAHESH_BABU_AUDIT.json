@@ -1,0 +1,78 @@
+{
+  "actorName": "Mahesh Babu",
+  "debutYear": 1999,
+  "wikipediaFilmCount": 1979,
+  "databaseFilmCount": 31,
+  "preDebutFilms": [
+    {
+      "id": "a98974a0-cbb4-44c0-b9e8-7d0e8647890e",
+      "title_en": "Vāranāsi",
+      "release_year": null,
+      "hero": "Mahesh Babu",
+      "heroine": "Priyanka Chopra Jonas",
+      "director": "S. S. Rajamouli",
+      "our_rating": 5.8,
+      "cast_members": [
+        "{\"name\":\"Mahesh Babu\",\"character\":\"Rudhra\",\"order\":0}",
+        "{\"name\":\"Priyanka Chopra Jonas\",\"character\":\"Mandakini\",\"order\":1}",
+        "{\"name\":\"Prithviraj Sukumaran\",\"character\":\"Kumbha\",\"order\":2}",
+        "{\"name\":\"Prakash Raj\",\"order\":3}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "d849b1c6-8a57-44d6-9e9a-65aba23e1ca6",
+        "title": "Raja Kumarudu",
+        "year": 1999
+      },
+      "movie2": {
+        "id": "4e13bb82-51b9-44bb-989c-2d0f472b7823",
+        "title": "Rajakumarudu",
+        "year": 1999
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "61f556d4-c6ce-4b65-a8fb-7fd29c1d9284",
+        "title": "Athidhi",
+        "year": 2007
+      },
+      "movie2": {
+        "id": "4dc1b366-46cb-4b67-a78b-21d232c2207f",
+        "title": "Athidi",
+        "year": 2007
+      },
+      "similarity": 0.8571428571428572
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "0": 1,
+    "1999": 2,
+    "2000": 1,
+    "2001": 1,
+    "2002": 2,
+    "2003": 2,
+    "2004": 2,
+    "2005": 2,
+    "2006": 2,
+    "2007": 2,
+    "2010": 2,
+    "2011": 1,
+    "2012": 1,
+    "2014": 2,
+    "2015": 1,
+    "2016": 1,
+    "2017": 1,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2022": 1,
+    "2024": 1
+  },
+  "summary": "1 pre-debut films, 2 potential duplicates, Count mismatch: DB=31, Wiki=~1979"
+}

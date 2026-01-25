@@ -1,0 +1,680 @@
+{
+  "actor": "Allu",
+  "timestamp": "2026-01-11T20:09:38.906Z",
+  "totalAnomalies": 63,
+  "byType": {
+    "flagged": 17,
+    "reportOnly": 46
+  },
+  "byCategory": {
+    "duplicates": 4,
+    "wrongAttribution": 0,
+    "missingFields": 46,
+    "conflicts": 2
+  },
+  "anomalies": [
+    {
+      "type": "duplicate",
+      "movie": "Julai",
+      "year": 2012,
+      "slug": "julai",
+      "confidence": 0.8333333333333334,
+      "details": "Duplicate of \"Julayi\" (2012) - 83% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "S/O Satyamurthy",
+      "year": 2015,
+      "slug": "s/o-satyamurthy",
+      "confidence": 0.8125,
+      "details": "Duplicate of \"Son of Satyamurthy\" (2015) - 81% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Duvvada Jagannadham",
+      "year": 2017,
+      "slug": "duvvada-jagannadham",
+      "confidence": 0.9,
+      "details": "Duplicate of \"DJ: Duvvada Jagannadham\" (2017) - 90% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Naa Peru Surya",
+      "year": 2018,
+      "slug": "naa-peru-surya",
+      "confidence": 0.9,
+      "details": "Duplicate of \"Naa Peru Surya - Naa Illu India\" (2018) - 90% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Bangaru Chellelu",
+      "year": 1979,
+      "slug": "bangaru-chellelu",
+      "confidence": 0.85,
+      "details": "Released 24 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi",
+      "confidence": 0.85,
+      "details": "Released 23 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Superman",
+      "year": 1980,
+      "slug": "superman",
+      "confidence": 0.85,
+      "details": "Released 23 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu",
+      "confidence": 0.85,
+      "details": "Released 22 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala",
+      "confidence": 0.85,
+      "details": "Released 22 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam",
+      "confidence": 0.85,
+      "details": "Released 21 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Bobbili Brahmanna",
+      "year": 1984,
+      "slug": "bobbili-brahmanna",
+      "confidence": 0.85,
+      "details": "Released 19 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Mutha Mestri",
+      "year": 1993,
+      "slug": "mutha-mestri",
+      "confidence": 0.85,
+      "details": "Released 10 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu",
+      "confidence": 0.85,
+      "details": "Released 8 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "AA22xA6",
+      "year": null,
+      "slug": "aa22xa6",
+      "confidence": 0.85,
+      "details": "Released 2003 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Pushpa 3 - The Rampage",
+      "year": null,
+      "slug": "pushpa-3---the-rampage",
+      "confidence": 0.85,
+      "details": "Released 2003 years before Allu's debut (2003)",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Yuddha Bhoomi (1971 Beyond Borders)",
+      "year": 2017,
+      "slug": "yuddha-bhoomi-1971-beyond-borders-1971",
+      "field": "tmdb_id",
+      "currentValue": "428741",
+      "confidence": 0.8,
+      "details": "TMDB movie is ml, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Happy",
+      "year": 2006,
+      "slug": "happy-2006",
+      "field": "tmdb_id",
+      "currentValue": "563954",
+      "confidence": 0.8,
+      "details": "TMDB movie is ja, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Buddy",
+      "year": 2024,
+      "slug": "buddy-2024",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Buddy",
+      "year": 2024,
+      "slug": "buddy-2024",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sarrainodu",
+      "year": 2016,
+      "slug": "sarrainodu-2016",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Happy",
+      "year": 2006,
+      "slug": "happy-2006",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Happy",
+      "year": 2006,
+      "slug": "happy-2006",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu-1995",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu-1995",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu-1995",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu-1995",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bhale Bullodu",
+      "year": 1995,
+      "slug": "bhale-bullodu-1995",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Mutha Mestri",
+      "year": 1993,
+      "slug": "mutha-mestri-1993",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Mutha Mestri",
+      "year": 1993,
+      "slug": "mutha-mestri-1993",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Mutha Mestri",
+      "year": 1993,
+      "slug": "mutha-mestri-1993",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Mutha Mestri",
+      "year": 1993,
+      "slug": "mutha-mestri-1993",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bobbili Brahmanna",
+      "year": 1984,
+      "slug": "bobbili-brahmanna-1984",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bobbili Brahmanna",
+      "year": 1984,
+      "slug": "bobbili-brahmanna-1984",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bobbili Brahmanna",
+      "year": 1984,
+      "slug": "bobbili-brahmanna-1984",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bobbili Brahmanna",
+      "year": 1984,
+      "slug": "bobbili-brahmanna-1984",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam-1982",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam-1982",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam-1982",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam-1982",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nipputo Chelagaatam",
+      "year": 1982,
+      "slug": "nipputo-chelagaatam-1982",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala-1981",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala-1981",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala-1981",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala-1981",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Ragile Jwala",
+      "year": 1981,
+      "slug": "ragile-jwala-1981",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu-1981",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu-1981",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu-1981",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu-1981",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Agni Poolu",
+      "year": 1981,
+      "slug": "agni-poolu-1981",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Superman",
+      "year": 1980,
+      "slug": "superman-1980",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Superman",
+      "year": 1980,
+      "slug": "superman-1980",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Superman",
+      "year": 1980,
+      "slug": "superman-1980",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Superman",
+      "year": 1980,
+      "slug": "superman-1980",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi-1980",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi-1980",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi-1980",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi-1980",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sirimalle Navvindi",
+      "year": 1980,
+      "slug": "sirimalle-navvindi-1980",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bangaru Chellelu",
+      "year": 1979,
+      "slug": "bangaru-chellelu-1979",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bangaru Chellelu",
+      "year": 1979,
+      "slug": "bangaru-chellelu-1979",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bangaru Chellelu",
+      "year": 1979,
+      "slug": "bangaru-chellelu-1979",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Bangaru Chellelu",
+      "year": 1979,
+      "slug": "bangaru-chellelu-1979",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    }
+  ]
+}

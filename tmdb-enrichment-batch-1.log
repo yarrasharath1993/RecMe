@@ -1,0 +1,293 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            TURBO MODE: TMDB ENRICHMENT (5x FASTER!)                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🚀 TURBO MODE ENABLED
+  Parallel batches: 5 movies at once
+  Batch delay: 1500ms
+  Language: Telugu
+  Limit: 1000
+
+  📋 Found 1000 movies to enrich
+
+  Progress: 5/1000 (0 enriched)
+  ✓ Dharm Aur Qanoon → director
+  Progress: 10/1000 (1 enriched)
+  Progress: 15/1000 (1 enriched)
+  Progress: 20/1000 (1 enriched)
+  ✓ Teja → tmdb_id
+  Progress: 25/1000 (2 enriched)
+  Progress: 30/1000 (2 enriched)
+  ✓ Amaradeepam → director
+  Progress: 35/1000 (3 enriched)
+  Progress: 40/1000 (3 enriched)
+  ✓ Aisa Pyaar Kahan → director
+  Progress: 45/1000 (4 enriched)
+  Progress: 50/1000 (4 enriched)
+  Progress: 55/1000 (4 enriched)
+  Progress: 60/1000 (4 enriched)
+  Progress: 65/1000 (4 enriched)
+  Progress: 70/1000 (4 enriched)
+  ✓ మెంటల్ → director
+  ✓ Ethiri En 3 → director
+  ✓ Sowkarpettai → director
+  Progress: 75/1000 (7 enriched)
+  ✓ Best Supporting Actor → director
+  ✓ Best Supporting Actor → director
+  ✓ Best Actor → director
+  ✓ Best Supporting Actor → director
+  Progress: 80/1000 (11 enriched)
+  ✓ Best Actor → director
+  ✓ Rojulu Marayi → tmdb_id
+  Progress: 85/1000 (13 enriched)
+  ✓ Sita Rama Kalyanam → director
+  ✓ Poola Rangadu → director
+  Progress: 90/1000 (15 enriched)
+  ✓ Kalyana Mandapam → director
+  ✓ Andaru Dongale → director
+  Progress: 95/1000 (17 enriched)
+  ✓ Bangaru Panjaram → director
+  ✓ Devata → director
+  ✓ Sharada → director
+  Progress: 100/1000 (20 enriched)
+  ✓ Thadaka → director
+  Progress: 105/1000 (21 enriched)
+  ✓ Paruvu-Prathishtta → tmdb_id
+  ✓ Swayam Krushi → director
+  Progress: 110/1000 (23 enriched)
+  ✓ State Rowdy → director
+  ✓ Kodama Simham → director
+  Progress: 115/1000 (25 enriched)
+  ✓ Best Actor → director
+  ✓ Lakshyam → director
+  Progress: 120/1000 (27 enriched)
+  Progress: 125/1000 (27 enriched)
+  ✓ Vanangamudi → director
+  ✓ Mooga Manasulu → director
+  ✓ Varakatnam → director
+  Progress: 130/1000 (30 enriched)
+  ✓ Nartanasala → director
+  ✓ Shanti → director
+  Progress: 135/1000 (32 enriched)
+  Progress: 140/1000 (32 enriched)
+  ✓ Varakatnam → director
+  ✓ Ashwadhamavu → director
+  Progress: 145/1000 (34 enriched)
+  ✓ Govinda Govinda → director
+  ✓ Sankeerthana → director
+  Progress: 150/1000 (36 enriched)
+  ✓ Kirai Dada → director
+  ✓ Vikram → director
+  ✓ Vicky Daada → director
+  Progress: 155/1000 (39 enriched)
+  ✓ Kottai Mariamman → director
+  Progress: 160/1000 (40 enriched)
+  Progress: 165/1000 (40 enriched)
+  ✓ Aaptha Mithrulu → tmdb_id
+  Progress: 170/1000 (41 enriched)
+  Progress: 175/1000 (41 enriched)
+  ✓ Best Actors → tmdb_id
+  Progress: 180/1000 (42 enriched)
+  ✓ Vetagaadu → tmdb_id
+  Progress: 185/1000 (43 enriched)
+  ✓ Padandi Munduku → tmdb_id
+  ✓ Palnati Yudham → tmdb_id
+  Progress: 190/1000 (45 enriched)
+  Progress: 195/1000 (45 enriched)
+  ✓ Thathamma Kala → tmdb_id
+  Progress: 200/1000 (46 enriched)
+  Progress: 205/1000 (46 enriched)
+  Progress: 210/1000 (46 enriched)
+  Progress: 215/1000 (46 enriched)
+  Progress: 220/1000 (46 enriched)
+  Progress: 225/1000 (46 enriched)
+  Progress: 230/1000 (46 enriched)
+  Progress: 235/1000 (46 enriched)
+  Progress: 240/1000 (46 enriched)
+  Progress: 245/1000 (46 enriched)
+  Progress: 250/1000 (46 enriched)
+  Progress: 255/1000 (46 enriched)
+  Progress: 260/1000 (46 enriched)
+  Progress: 265/1000 (46 enriched)
+  Progress: 270/1000 (46 enriched)
+  Progress: 275/1000 (46 enriched)
+  Progress: 280/1000 (46 enriched)
+  Progress: 285/1000 (46 enriched)
+  Progress: 290/1000 (46 enriched)
+  Progress: 295/1000 (46 enriched)
+  Progress: 300/1000 (46 enriched)
+  Progress: 305/1000 (46 enriched)
+  Progress: 310/1000 (46 enriched)
+  Progress: 315/1000 (46 enriched)
+  Progress: 320/1000 (46 enriched)
+  Progress: 325/1000 (46 enriched)
+  Progress: 330/1000 (46 enriched)
+  Progress: 335/1000 (46 enriched)
+  Progress: 340/1000 (46 enriched)
+  Progress: 345/1000 (46 enriched)
+  Progress: 350/1000 (46 enriched)
+  Progress: 355/1000 (46 enriched)
+  Progress: 360/1000 (46 enriched)
+  Progress: 365/1000 (46 enriched)
+  Progress: 370/1000 (46 enriched)
+  Progress: 375/1000 (46 enriched)
+  ✓ Jwaala → director
+  Progress: 380/1000 (47 enriched)
+  Progress: 385/1000 (47 enriched)
+  Progress: 390/1000 (47 enriched)
+  Progress: 395/1000 (47 enriched)
+  Progress: 400/1000 (47 enriched)
+  Progress: 405/1000 (47 enriched)
+  Progress: 410/1000 (47 enriched)
+  Progress: 415/1000 (47 enriched)
+  ✓ Moondram Pirai → director
+  Progress: 420/1000 (48 enriched)
+  Progress: 425/1000 (48 enriched)
+  Progress: 430/1000 (48 enriched)
+  Progress: 435/1000 (48 enriched)
+  ✓ Laadla → director
+  Progress: 440/1000 (49 enriched)
+  Progress: 445/1000 (49 enriched)
+  Progress: 450/1000 (49 enriched)
+  ✓ Sadma → director
+  Progress: 455/1000 (50 enriched)
+  Progress: 460/1000 (50 enriched)
+  Progress: 465/1000 (50 enriched)
+  ✓ Gumrah → director
+  Progress: 470/1000 (51 enriched)
+  Progress: 475/1000 (51 enriched)
+  Progress: 480/1000 (51 enriched)
+  ✓ Khuda Gawah → director
+  Progress: 485/1000 (52 enriched)
+  Progress: 490/1000 (52 enriched)
+  ✓ ChaalBaaz → director
+  Progress: 495/1000 (53 enriched)
+  Progress: 500/1000 (53 enriched)
+  Progress: 505/1000 (53 enriched)
+  Progress: 510/1000 (53 enriched)
+  Progress: 515/1000 (53 enriched)
+  Progress: 520/1000 (53 enriched)
+  Progress: 525/1000 (53 enriched)
+  Progress: 530/1000 (53 enriched)
+  Progress: 535/1000 (53 enriched)
+  Progress: 540/1000 (53 enriched)
+  Progress: 545/1000 (53 enriched)
+  Progress: 550/1000 (53 enriched)
+  Progress: 555/1000 (53 enriched)
+  Progress: 560/1000 (53 enriched)
+  Progress: 565/1000 (53 enriched)
+  Progress: 570/1000 (53 enriched)
+  Progress: 575/1000 (53 enriched)
+  Progress: 580/1000 (53 enriched)
+  Progress: 585/1000 (53 enriched)
+  Progress: 590/1000 (53 enriched)
+  Progress: 595/1000 (53 enriched)
+  Progress: 600/1000 (53 enriched)
+  Progress: 605/1000 (53 enriched)
+  Progress: 610/1000 (53 enriched)
+  Progress: 615/1000 (53 enriched)
+  Progress: 620/1000 (53 enriched)
+  ✓ Padma Shri → director
+  Progress: 625/1000 (54 enriched)
+  Progress: 630/1000 (54 enriched)
+  Progress: 635/1000 (54 enriched)
+  Progress: 640/1000 (54 enriched)
+  Progress: 645/1000 (54 enriched)
+  Progress: 650/1000 (54 enriched)
+  Progress: 655/1000 (54 enriched)
+  ✓ Hello Premistara → tmdb_id
+  Progress: 660/1000 (55 enriched)
+  ✓ Best Actress → director
+  Progress: 665/1000 (56 enriched)
+  Progress: 670/1000 (56 enriched)
+  Progress: 675/1000 (56 enriched)
+  Progress: 680/1000 (56 enriched)
+  Progress: 685/1000 (56 enriched)
+  Progress: 690/1000 (56 enriched)
+  Progress: 695/1000 (56 enriched)
+  Progress: 700/1000 (56 enriched)
+  Progress: 705/1000 (56 enriched)
+  Progress: 710/1000 (56 enriched)
+  Progress: 715/1000 (56 enriched)
+  Progress: 720/1000 (56 enriched)
+  Progress: 725/1000 (56 enriched)
+  Progress: 730/1000 (56 enriched)
+  Progress: 735/1000 (56 enriched)
+  Progress: 740/1000 (56 enriched)
+  Progress: 745/1000 (56 enriched)
+  ✓ Pelli Sambandham → tmdb_id
+  Progress: 750/1000 (57 enriched)
+  Progress: 755/1000 (57 enriched)
+  Progress: 760/1000 (57 enriched)
+  Progress: 765/1000 (57 enriched)
+  Progress: 770/1000 (57 enriched)
+  Progress: 775/1000 (57 enriched)
+  ✓ Rendilla Poojari → tmdb_id
+  Progress: 780/1000 (58 enriched)
+  Progress: 785/1000 (58 enriched)
+  Progress: 790/1000 (58 enriched)
+  ✓ Rakshana → director
+  Progress: 795/1000 (59 enriched)
+  Progress: 800/1000 (59 enriched)
+  Progress: 805/1000 (59 enriched)
+  Progress: 810/1000 (59 enriched)
+  Progress: 815/1000 (59 enriched)
+  Progress: 820/1000 (59 enriched)
+  Progress: 825/1000 (59 enriched)
+  Progress: 830/1000 (59 enriched)
+  Progress: 835/1000 (59 enriched)
+  Progress: 840/1000 (59 enriched)
+  Progress: 845/1000 (59 enriched)
+  Progress: 850/1000 (59 enriched)
+  ✓ Rakshakudu → tmdb_id
+  ✓ Rukmini → tmdb_id
+  Progress: 855/1000 (61 enriched)
+  Progress: 860/1000 (61 enriched)
+  ✓ Gunshot → tmdb_id
+  Progress: 865/1000 (62 enriched)
+  ✓ Sankalpam → tmdb_id
+  Progress: 870/1000 (63 enriched)
+  ✓ Captain → tmdb_id
+  ✓ Allari Premikudu → tmdb_id
+  Progress: 875/1000 (65 enriched)
+  ✓ Bangaru Kutumbam → tmdb_id
+  Progress: 880/1000 (66 enriched)
+  ✓ Rakta Tarpanam → tmdb_id
+  ✓ Kondapalli Raja → tmdb_id
+  Progress: 885/1000 (68 enriched)
+  Progress: 890/1000 (68 enriched)
+  ✓ Raktha Tarpanam → tmdb_id
+  Progress: 895/1000 (69 enriched)
+  Progress: 900/1000 (69 enriched)
+  Progress: 905/1000 (69 enriched)
+  Progress: 910/1000 (69 enriched)
+  Progress: 915/1000 (69 enriched)
+  Progress: 920/1000 (69 enriched)
+  Progress: 925/1000 (69 enriched)
+  Progress: 930/1000 (69 enriched)
+  Progress: 935/1000 (69 enriched)
+  Progress: 940/1000 (69 enriched)
+  Progress: 945/1000 (69 enriched)
+  Progress: 950/1000 (69 enriched)
+  Progress: 955/1000 (69 enriched)
+  Progress: 960/1000 (69 enriched)
+  Progress: 965/1000 (69 enriched)
+  Progress: 970/1000 (69 enriched)
+  Progress: 975/1000 (69 enriched)
+  Progress: 980/1000 (69 enriched)
+  Progress: 985/1000 (69 enriched)
+  Progress: 990/1000 (69 enriched)
+  Progress: 995/1000 (69 enriched)
+  Progress: 1000/1000 (69 enriched)
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            TURBO ENRICHMENT COMPLETE!                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total processed: 1000
+  Successfully enriched: 69
+  Failed: 931
+  Duration: 6.4 minutes
+  Speed: 156.3 movies/minute 🚀
+

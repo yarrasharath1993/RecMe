@@ -1,0 +1,241 @@
+# GOVERNED PROMPT: Editorial Content Outline Generator
+
+## PURPOSE
+Generate structured outlines for editorial content that:
+- Separates fact from opinion
+- Labels all speculative content
+- Never presents opinion as fact
+- Provides clear attribution
+
+## CONSTRAINTS (MANDATORY)
+
+### Content Classification
+All generated content must be classified as:
+- **FACT**: Verified from 2+ sources, can be stated directly
+- **EDITORIAL**: Opinion/interpretation, must be labeled "Editorial view:"
+- **SPECULATIVE**: Unverified claims, must be labeled "[Speculative]"
+
+### Allowed Sources for FACT
+- verified_fact content_type only
+- trust_score >= 70
+- confidence_tier: high
+
+### Allowed Sources for EDITORIAL
+- editorial content_type
+- trust_score >= 50
+- Must be clearly labeled
+
+### NEVER Include
+- speculative content_type without [Speculative] label
+- disputed data (is_disputed=true)
+- content with trust_score < 50
+- unverified family claims
+- fan theories as facts
+
+## INPUT SCHEMA
+
+```json
+{
+  "topic": "string (e.g., 'Career Analysis of [Person]')",
+  "entity_data": { ... entity profile data ... },
+  "editorial_views": {
+    "turning_points": [...],
+    "phase_analysis": [...],
+    "cult_mass_balance": {...},
+    "critical_audience_gap": {...}
+  },
+  "target_audience": "general | film_buffs | industry | academic",
+  "tone": "informative | analytical | narrative | celebratory"
+}
+```
+
+## OUTPUT FORMAT
+
+```markdown
+# [Topic Title]
+
+## Executive Summary
+**Classification: [FACT/EDITORIAL/MIXED]**
+
+[2-3 sentence summary]
+
+---
+
+## Section 1: [Section Title]
+**Classification: FACT**
+
+### Key Points (Verified)
+- [Fact 1] - Source: [source]
+- [Fact 2] - Source: [source]
+
+---
+
+## Section 2: [Section Title]
+**Classification: EDITORIAL**
+
+### Analysis
+*Editorial view:* [Interpretation of facts]
+
+### Supporting Data
+- [Supporting fact 1]
+- [Supporting fact 2]
+
+---
+
+## Section 3: [Section Title] [If applicable]
+**Classification: SPECULATIVE**
+⚠️ *This section contains speculative content and should not be treated as verified fact.*
+
+[Speculative content clearly labeled]
+
+---
+
+## Sources & Attribution
+- Data trust score: [score]%
+- Primary sources: [list]
+- Editorial interpretations labeled: Yes
+- Speculative content: [Yes/No]
+
+## Governance Compliance
+- Content type: editorial
+- Trust threshold met: [Yes/No]
+- Disputed data excluded: [Yes/No]
+- Generated: [timestamp]
+```
+
+## SECTION TEMPLATES
+
+### Career Analysis Outline
+```
+1. Introduction (FACT)
+   - Career span
+   - Total filmography count
+   - Primary roles
+
+2. Career Phases (FACT + EDITORIAL)
+   - Phase 1: [Name] ([Years])
+   - Phase 2: [Name] ([Years])
+   - *Editorial view:* [Analysis of evolution]
+
+3. Notable Achievements (FACT)
+   - Awards
+   - Records
+   - Milestones
+
+4. Industry Impact (EDITORIAL)
+   - *Editorial view:* [Impact analysis]
+   - Supporting evidence
+
+5. Legacy (EDITORIAL)
+   - *Editorial view:* [Legacy assessment]
+```
+
+### Film Analysis Outline
+```
+1. Film Overview (FACT)
+   - Release details
+   - Cast & crew
+   - Genre classification
+
+2. Critical Reception (FACT)
+   - Ratings
+   - Awards
+
+3. Cultural Impact (EDITORIAL)
+   - *Editorial view:* [Impact analysis]
+
+4. Comparative Analysis (EDITORIAL)
+   - Similar films
+   - Genre context
+```
+
+## PROHIBITED ACTIONS
+
+1. DO NOT mix FACT and EDITORIAL without clear labels
+2. DO NOT include SPECULATIVE content without warning banner
+3. DO NOT use is_disputed data in FACT sections
+4. DO NOT generate content for entities with trust_score < 50
+5. DO NOT attribute opinions to the subject
+6. DO NOT claim awards/achievements without verification
+
+## QUALITY CHECKS
+
+Before generating, verify:
+- [ ] All FACT statements are from verified sources
+- [ ] All EDITORIAL sections are labeled
+- [ ] All SPECULATIVE content has warning banner
+- [ ] No disputed data included
+- [ ] Trust score meets threshold
+- [ ] Sources are attributed
+
+## EXAMPLE OUTPUT
+
+```markdown
+# Career Analysis: Akkineni Nagarjuna
+
+## Executive Summary
+**Classification: MIXED (Fact + Editorial)**
+
+Akkineni Nagarjuna's four-decade career spans 100+ films across multiple genres. 
+This analysis examines verified career milestones and offers editorial 
+interpretation of his industry impact.
+
+---
+
+## Section 1: Career Overview
+**Classification: FACT**
+
+### Key Points (Verified)
+- Career span: 1986-2026 (40 years)
+- Total films: 105
+- Primary genres: Action, Romance, Devotional
+- Source: Filmography database (trust: 87%)
+
+---
+
+## Section 2: Career Phases Analysis
+**Classification: EDITORIAL**
+
+### The Golden Era (1986-2000)
+**Verified facts:**
+- Debut: Vikram (1986)
+- Breakthrough: Shiva (1989)
+- Key films: Geethanjali, Ninne Pelladata, Annamayya
+
+*Editorial view:* This period established Nagarjuna as a versatile actor 
+capable of handling both commercial and artistic cinema. The transition 
+from action to devotional films demonstrated creative range rarely seen 
+in Telugu cinema of that era.
+
+---
+
+## Section 3: Legacy Assessment
+**Classification: EDITORIAL**
+
+*Editorial view:* Nagarjuna's lasting impact on Telugu cinema includes:
+1. Modernizing action cinematography (Shiva influence)
+2. Legitimizing urban romantic comedy as a mainstream genre
+3. Establishing multi-generational family legacy in film
+
+**Note:** Legacy assessments are editorial interpretations based on 
+verified career data.
+
+---
+
+## Sources & Attribution
+- Data trust score: 87%
+- Primary sources: Filmography database, Award records
+- Editorial interpretations labeled: Yes
+- Speculative content: No
+
+## Governance Compliance
+- Content type: editorial
+- Trust threshold met: Yes
+- Disputed data excluded: Yes
+- Generated: 2026-01-11T10:30:00Z
+```
+
+## VERSION
+Prompt version: 1.0
+Last updated: 2026-01-11
+Governance rules: RULE_002, RULE_005, RULE_012

@@ -1,0 +1,83 @@
+
+⚠️  EXECUTE MODE - Changes will be applied!
+
+═══════════════════════════════════════════════════════════════
+  APPLY AUTO-APPROVED YEAR/TITLE MISMATCHES
+═══════════════════════════════════════════════════════════════
+
+📖 Reading auto-approved cases...
+
+✓ Found 26 auto-approved movies
+
+
+[ali] - 1 movies
+  ○ Already attributed: Super
+
+[amala] - 3 movies
+  ✓ Updated: Shiva (added amala)
+  ○ Already attributed: Life Is Beautiful
+  ○ Already attributed: Oke Oka Jeevitham
+
+[chandra mohan] - 2 movies
+  ✓ Updated: Sankarabharanam (added chandra mohan)
+  ✓ Updated: Sarocharu (added chandra mohan)
+
+[geetha] - 1 movies
+  ✓ Updated: Lion (added geetha)
+
+[jaggayya] - 1 movies
+  ✓ Updated: Meghasandesam (added jaggayya)
+
+[jaya prada] - 1 movies
+  ✓ Updated: Srivari Muchatlu (added jaya prada)
+
+[kanta rao] - 1 movies
+  ✓ Updated: Nagarjuna (added kanta rao)
+
+[prakash raj] - 2 movies
+  ○ Already attributed: Suswagatham
+  ✓ Updated: Anthapuram (added prakash raj)
+
+[pushpavalli] - 2 movies
+  ✓ Updated: Samsaram (added pushpavalli)
+  ✓ Updated: Manchi Chedu (added pushpavalli)
+
+[raasi] - 1 movies
+  ✓ Updated: Ankuram (added raasi)
+
+[rajendra prasad] - 1 movies
+  ✓ Updated: Manushulatho Jagratha (added rajendra prasad)
+
+[sarath babu] - 2 movies
+  ✓ Updated: Tholi Kodi Koosindi (added sarath babu)
+  ○ Already attributed: Kokila
+
+[satyanarayana] - 2 movies
+  ○ Already attributed: Paramanandayya Sishyula Katha
+  ✓ Updated: Tata Manavadu (added satyanarayana)
+
+[sharada] - 2 movies
+  ✓ Updated: Shakuntala (added sharada)
+  ✓ Updated: Indradhanussu (added sharada)
+
+[sridevi] - 2 movies
+  ✓ Updated: Govinda Govinda (added sridevi)
+  ✓ Updated: Dasavatharam (added sridevi)
+
+[sumanth] - 2 movies
+  ✓ Updated: Madhumasam (added sumanth)
+  ✓ Updated: Pourudu (added sumanth)
+
+═══════════════════════════════════════════════════════════════
+  SUMMARY
+═══════════════════════════════════════════════════════════════
+
+✓ Fixed:                26 attributions
+✗ Failed:               0 attributions
+
+═══════════════════════════════════════════════════════════════
+
+✅ Phase 2A Complete!
+
+Next: Review the 30 manual cases in MISMATCH-DECISIONS.csv
+

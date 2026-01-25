@@ -1,0 +1,325 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Babai Abbai",1985,-,"-","-",83%,"Duplicate of ""Babayi-Abbayi"" (1985) - 83% similar",flag_review
+duplicate,"Ramu",1987,-,"-","-",90%,"Duplicate of ""Bhargava Ramudu"" (1987) - 90% similar",flag_review
+duplicate,"President Gari Abbayi",1987,-,"-","-",95%,"Duplicate of ""President Gari Abbai"" (1987) - 95% similar",flag_review
+duplicate,"Ramudu Bheemudu",1988,-,"-","-",90%,"Duplicate of ""Ramu"" (1987) - 90% similar",flag_review
+duplicate,"Rakthabishekam",1988,-,"-","-",86%,"Duplicate of ""Raktabhishekam"" (1988) - 86% similar",flag_review
+duplicate,"Okka Magaadu",2008,-,"-","-",91%,"Duplicate of ""Okka Magadu"" (2008) - 91% similar",flag_review
+duplicate,"N.T.R: Kathanayakudu",2019,-,"-","-",88%,"Duplicate of ""N.t.r: Mahanayakudu"" (2019) - 88% similar",flag_review
+duplicate,"Okka Magadu",2008,-,"-","-",85%,"Similar title to ""Okka Magaadu"" (2008)",flag_review
+conflicting_data,"Lion",2015,tmdb_id,"616261","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Legend",2014,tmdb_id,"4476","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Rana",1998,tmdb_id,"9404","-",80%,"TMDB movie is cn, not Telugu",flag_review
+conflicting_data,"Vamsanikokkadu",1996,tmdb_id,"281876","-",80%,"TMDB movie is en, not Telugu",flag_review
+conflicting_data,"Drohi",1996,tmdb_id,"78848","-",80%,"TMDB movie is ta, not Telugu",flag_review
+missing_field,"Padma Bhushan",2025,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Padma Bhushan",2025,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Padma Bhushan",2025,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Padma Bhushan",2025,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Narthanasala",2020,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dictator",2016,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Lion",2015,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Parama Veera Chakra",2011,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Pandurangadu",2008,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Pandurangadu",2008,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Okka Magadu",2008,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Okka Magaadu",2008,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Okka Magaadu",2008,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Okka Magaadu",2008,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Okka Magaadu",2008,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Maharadhi",2007,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Maharadhi",2007,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Veerabhadra",2006,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Vijayendra Varma",2004,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kondaveeti Simhasanam",2002,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Manavudu Danavudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Manavudu Danavudu",1999,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Padutha Theeyaga",1998,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Padutha Theeyaga",1998,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Devudu",1997,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Omkaram",1997,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Omkaram",1997,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Adirindi Alludu",1996,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Sri Krishnarjuna Vijayam",1996,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bobbili Simham",1994,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bobbili Simham",1994,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bobbili Simham",1994,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bobbili Simham",1994,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Gandeevam",1994,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Gandeevam",1994,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Gandeevam",1994,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Gandeevam",1994,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Top Hero",1994,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Top Hero",1994,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Top Hero",1994,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Top Hero",1994,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bangaru Bullodu",1993,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bangaru Bullodu",1993,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bangaru Bullodu",1993,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bangaru Bullodu",1993,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Detective Narada",1993,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Detective Narada",1993,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Detective Narada",1993,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Detective Narada",1993,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Detective Narada",1993,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Nippu Ravva",1993,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Nippu Ravva",1993,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Nippu Ravva",1993,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Nippu Ravva",1993,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ashwamedham",1992,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ashwamedham",1992,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ashwamedham",1992,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ashwamedham",1992,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Rowdy Inspector",1992,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Rowdy Inspector",1992,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Rowdy Inspector",1992,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Rowdy Inspector",1992,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Dharma Kshetram",1992,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Dharma Kshetram",1992,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dharma Kshetram",1992,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Dharma Kshetram",1992,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Aditya 369",1991,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Aditya 369",1991,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Aditya 369",1991,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Aditya 369",1991,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Talli Tandrulu",1991,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Talli Tandrulu",1991,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Talli Tandrulu",1991,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Talli Tandrulu",1991,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Matti Manushulu",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Matti Manushulu",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Matti Manushulu",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Matti Manushulu",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Matti Manushulu",1990,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Muddula Menalludu",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Muddula Menalludu",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Muddula Menalludu",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Muddula Menalludu",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Nari Nari Naduma Murari",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Nari Nari Naduma Murari",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Nari Nari Naduma Murari",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Nari Nari Naduma Murari",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Yamadharma Raju",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Yamadharma Raju",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Yamadharma Raju",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Yamadharma Raju",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Yamadharma Raju",1990,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Prananiki Pranam",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Prananiki Pranam",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Prananiki Pranam",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Prananiki Pranam",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Prananiki Pranam",1990,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Lorry Driver",1990,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Lorry Driver",1990,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Lorry Driver",1990,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Lorry Driver",1990,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ashoka Chakravarthy",1989,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ashoka Chakravarthy",1989,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ashoka Chakravarthy",1989,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ashoka Chakravarthy",1989,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ashoka Chakravarthy",1989,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bala Gopaludu",1989,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bala Gopaludu",1989,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bala Gopaludu",1989,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bala Gopaludu",1989,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Muddula Mavayya",1989,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Muddula Mavayya",1989,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Muddula Mavayya",1989,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Muddula Mavayya",1989,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Muddula Mavayya",1989,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Murali Krishnudu",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Murali Krishnudu",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Murali Krishnudu",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Murali Krishnudu",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Murali Krishnudu",1988,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Dharma Teja",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Dharma Teja",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dharma Teja",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Dharma Teja",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Dharma Teja",1988,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bharatamlo Bala Chandrudu",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bharatamlo Bala Chandrudu",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bharatamlo Bala Chandrudu",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bharatamlo Bala Chandrudu",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ramudu Bheemudu",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ramudu Bheemudu",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ramudu Bheemudu",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ramudu Bheemudu",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Raktabhishekam",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Raktabhishekam",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Raktabhishekam",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Raktabhishekam",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Raktabhishekam",1988,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Rakthabishekam",1988,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Rakthabishekam",1988,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Rakthabishekam",1988,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Rakthabishekam",1988,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sahasa Samrat",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Sahasa Samrat",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sahasa Samrat",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Sahasa Samrat",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sahasa Samrat",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Muvva Gopaludu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Muvva Gopaludu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Muvva Gopaludu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Muvva Gopaludu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Muvva Gopaludu",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bhale Mogudu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bhale Mogudu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhale Mogudu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bhale Mogudu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bhanumati Gari Mogudu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bhanumati Gari Mogudu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhanumati Gari Mogudu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bhanumati Gari Mogudu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bhargava Ramudu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bhargava Ramudu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhargava Ramudu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bhargava Ramudu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bhargava Ramudu",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"President Gari Abbai",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"President Gari Abbai",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"President Gari Abbai",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"President Gari Abbai",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"President Gari Abbai",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Ramu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ramu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ramu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ramu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ramu",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Agni Putrudu",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Agni Putrudu",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Agni Putrudu",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Agni Putrudu",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Agni Putrudu",1987,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"President Gari Abbayi",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"President Gari Abbayi",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"President Gari Abbayi",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"President Gari Abbayi",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Allari Krishnaiah",1987,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Allari Krishnaiah",1987,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Allari Krishnaiah",1987,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Allari Krishnaiah",1987,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Apoorva Sahodarulu",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Apoorva Sahodarulu",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Apoorva Sahodarulu",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Apoorva Sahodarulu",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Apoorva Sahodarulu",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Nippulanti Manishi",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Nippulanti Manishi",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Nippulanti Manishi",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Nippulanti Manishi",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Nippulanti Manishi",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Muddula Krishnaiah",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Muddula Krishnaiah",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Muddula Krishnaiah",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Muddula Krishnaiah",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Muddula Krishnaiah",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Seetharama Kalyanam",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Seetharama Kalyanam",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Seetharama Kalyanam",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Seetharama Kalyanam",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ashtalakshmi Vaibhavam",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ashtalakshmi Vaibhavam",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ashtalakshmi Vaibhavam",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ashtalakshmi Vaibhavam",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ashtalakshmi Vaibhavam",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Ugra Narasimham",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ugra Narasimham",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ugra Narasimham",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ugra Narasimham",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Ugra Narasimham",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Anasuyamma Gari Alludu",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Anasuyamma Gari Alludu",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Anasuyamma Gari Alludu",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Anasuyamma Gari Alludu",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kaliyuga Krishnudu",1986,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Kaliyuga Krishnudu",1986,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kaliyuga Krishnudu",1986,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Kaliyuga Krishnudu",1986,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kaliyuga Krishnudu",1986,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Babayi-Abbayi",1985,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Babayi-Abbayi",1985,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Babayi-Abbayi",1985,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Babayi-Abbayi",1985,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Babayi-Abbayi",1985,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Bhale Thammudu",1985,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Bhale Thammudu",1985,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Bhale Thammudu",1985,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Bhale Thammudu",1985,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Bhale Thammudu",1985,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Babai Abbai",1985,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Babai Abbai",1985,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Babai Abbai",1985,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Babai Abbai",1985,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Babai Abbai",1985,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Pattabhishekam",1985,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Pattabhishekam",1985,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Pattabhishekam",1985,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Pattabhishekam",1985,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Pattabhishekam",1985,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Justice Chakravarthy",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Justice Chakravarthy",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Justice Chakravarthy",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Justice Chakravarthy",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Justice Chakravarthy",1984,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Janani Janmabhoomi",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Janani Janmabhoomi",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Janani Janmabhoomi",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Janani Janmabhoomi",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Janani Janmabhoomi",1984,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Mangamma Gari Manavadu",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Mangamma Gari Manavadu",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Mangamma Gari Manavadu",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Mangamma Gari Manavadu",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sangeeta Samrat",1984,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Sangeeta Samrat",1984,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sangeeta Samrat",1984,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Sangeeta Samrat",1984,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Sangeeta Samrat",1984,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Chandashasanudu",1983,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Chandashasanudu",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Chandashasanudu",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Chandashasanudu",1983,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Chandashasanudu",1983,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Dharma Poratam",1983,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Dharma Poratam",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Dharma Poratam",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Dharma Poratam",1983,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Dharma Poratam",1983,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Ananda Bhairavi",1983,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Ananda Bhairavi",1983,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Ananda Bhairavi",1983,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Ananda Bhairavi",1983,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kalavaari Samsaram",1982,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Kalavaari Samsaram",1982,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kalavaari Samsaram",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Kalavaari Samsaram",1982,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kalavaari Samsaram",1982,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Kaliyuga Ramudu",1982,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Kaliyuga Ramudu",1982,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Kaliyuga Ramudu",1982,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Kaliyuga Ramudu",1982,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Kaliyuga Ramudu",1982,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Akbar Salim Anarkali",1979,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Akbar Salim Anarkali",1979,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Akbar Salim Anarkali",1979,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Akbar Salim Anarkali",1979,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Akbar Salim Anarkali",1979,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Sri Vinayaka Vijayamu",1979,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Sri Vinayaka Vijayamu",1979,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Sri Vinayaka Vijayamu",1979,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Sri Vinayaka Vijayamu",1979,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Daana Veera Soora Karna",1977,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Daana Veera Soora Karna",1977,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Daana Veera Soora Karna",1977,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Daana Veera Soora Karna",1977,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Vemulawada Bheemakavi",1976,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Vemulawada Bheemakavi",1976,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Vemulawada Bheemakavi",1976,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Vemulawada Bheemakavi",1976,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Annadammula Anubandham",1975,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Annadammula Anubandham",1975,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Annadammula Anubandham",1975,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Annadammula Anubandham",1975,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Annadammula Anubandham",1975,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only

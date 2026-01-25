@@ -1,0 +1,84 @@
+{
+  "actorName": "Srikanth",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 173,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "9aec368e-e4d1-495e-8b88-b8f07f8e9a8c",
+        "title": "Vinodam",
+        "year": 1996
+      },
+      "movie2": {
+        "id": "99cf944d-9843-462e-9ce3-27325d6097ac",
+        "title": "Vinodham",
+        "year": 1996
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "dba46ac3-4cfb-4047-8241-67cd4a3075a9",
+        "title": "Evandoi Sreevaru",
+        "year": 2006
+      },
+      "movie2": {
+        "id": "2f66b8c7-1567-454f-abef-afa08731410b",
+        "title": "Evandoi Srivaru",
+        "year": 2006
+      },
+      "similarity": 0.8666666666666667
+    }
+  ],
+  "invalidEntries": [
+    {
+      "id": "4371c5af-d7f9-4c71-8eaa-0ccbc3401fb6",
+      "title_en": "B. Gopal",
+      "release_year": 2001,
+      "hero": "Srikanth",
+      "heroine": "Raasi",
+      "director": "B Gopal",
+      "our_rating": 5,
+      "cast_members": []
+    }
+  ],
+  "yearDistribution": {
+    "1993": 3,
+    "1994": 2,
+    "1995": 1,
+    "1996": 5,
+    "1997": 5,
+    "1998": 6,
+    "1999": 12,
+    "2000": 5,
+    "2001": 12,
+    "2002": 10,
+    "2003": 12,
+    "2004": 11,
+    "2005": 8,
+    "2006": 13,
+    "2007": 3,
+    "2008": 3,
+    "2009": 7,
+    "2010": 6,
+    "2011": 4,
+    "2012": 4,
+    "2013": 1,
+    "2014": 3,
+    "2015": 1,
+    "2016": 6,
+    "2018": 1,
+    "2019": 3,
+    "2020": 2,
+    "2021": 4,
+    "2022": 5,
+    "2023": 7,
+    "2024": 4,
+    "2025": 3,
+    "2026": 1
+  },
+  "summary": "2 potential duplicates, 1 invalid entries"
+}

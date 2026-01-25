@@ -1,0 +1,1001 @@
+Priority,Completeness,Year,Title,Issues,TMDB_ID,URL
+High,40%,2023,"'Salaar: Part 2 – Shouryanga Parvam","No director, No hero, No heroine, No English synopsis, No poster, No backdrop, No genres, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/salaar-part-2-shouryanga-parvam-2023
+Medium,60%,2022,"Monster","No hero, No heroine, No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",896166,http://localhost:3000/movies/monster-2022
+Medium,65%,2024,"Avatara Purusha 2","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",1268164,http://localhost:3000/movies/avatara-purusha-2-2024
+Medium,65%,2022,"Lucky Man","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",921748,http://localhost:3000/movies/lucky-man-2022
+Medium,65%,2022,"Maha","No hero, No heroine, No English synopsis, No Telugu synopsis, No backdrop, No runtime",567460,http://localhost:3000/movies/maha-2022
+Medium,70%,,"Sahaa","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",1516092,http://localhost:3000/movies/sahaa-tba
+Medium,70%,,"The Conversation","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",1603184,http://localhost:3000/movies/the-conversation-tba
+Medium,70%,2026,"Man Of The Match","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/man-of-the-match-2026
+Medium,70%,2026,"Sahakutumbaanaam","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/sahakutumbaanaam-2026
+Medium,70%,2026,"Ranger","No English synopsis, No poster, No backdrop, No runtime, No Telugu title",1389146,http://localhost:3000/movies/ranger-2026
+Medium,70%,2025,"Jurassic World Rebirth","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1234821,http://localhost:3000/movies/jurassic-world-rebirth-2025
+Medium,70%,2025,"Mission: Impossible - The Final Reckoning","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",575265,http://localhost:3000/movies/mission-impossible-the-final-reckoning-2025
+Medium,70%,2025,"The Running Man","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",798645,http://localhost:3000/movies/the-running-man-2025
+Medium,70%,2025,"Rekhachithram","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1290954,http://localhost:3000/movies/rekhachithram-2025
+Medium,70%,2025,"Kantara - A Legend: Chapter 1","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1083637,http://localhost:3000/movies/kantara-a-legend-chapter-1-2025
+Medium,70%,2025,"Lilo & Stitch","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",552524,http://localhost:3000/movies/lilo-stitch-2025
+Medium,70%,2025,"Alappuzha Gymkhana","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1245571,http://localhost:3000/movies/alappuzha-gymkhana-2025
+Medium,70%,2025,"Thudarum","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1261125,http://localhost:3000/movies/thudarum-2025
+Medium,70%,2025,"Sitaare Zameen Par","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1190511,http://localhost:3000/movies/sitaare-zameen-par-2025
+Medium,70%,2025,"Thamma","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1196364,http://localhost:3000/movies/thamma-2025
+Medium,70%,2025,"London Calling","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1217602,http://localhost:3000/movies/london-calling-2025
+Medium,70%,2025,"Painkili","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1290218,http://localhost:3000/movies/painkili-2025
+Medium,70%,2025,"Bugonia","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",701387,http://localhost:3000/movies/bugonia-2025
+Medium,70%,2025,"Pink Floyd: Live at Pompeii","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",25771,http://localhost:3000/movies/pink-floyd-live-at-pompeii-2025
+Medium,70%,2025,"The King of Kings","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1407437,http://localhost:3000/movies/the-king-of-kings-2025
+Medium,70%,2025,"KPop Demon Hunters","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",803796,http://localhost:3000/movies/kpop-demon-hunters-2025
+Medium,70%,2025,"A Minecraft Movie","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",950387,http://localhost:3000/movies/a-minecraft-movie-2025
+Medium,70%,2025,"Madharaasi","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1297181,http://localhost:3000/movies/madharaasi-2025
+Medium,70%,2025,"Identity","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1012180,http://localhost:3000/movies/identity-2025
+Medium,70%,2025,"Veera Dheera Sooran: Part 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1198208,http://localhost:3000/movies/veera-dheera-sooran-part-2-2025
+Medium,70%,2025,"Kaantha","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1250508,http://localhost:3000/movies/kaantha-2025
+Medium,70%,2025,"Altered","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1309012,http://localhost:3000/movies/altered-2025
+Medium,70%,2025,"Thunderbolts*","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",986056,http://localhost:3000/movies/thunderbolts--2025
+Medium,70%,2025,"Hridayapoorvam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1314784,http://localhost:3000/movies/hridayapoorvam-2025
+Medium,70%,2025,"The Unholy Trinity","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1195518,http://localhost:3000/movies/the-unholy-trinity-2025
+Medium,70%,2025,"Dhurandhar","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1291608,http://localhost:3000/movies/dhurandhar-2025
+Medium,70%,2025,"Sinners","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1233413,http://localhost:3000/movies/sinners-2025
+Medium,70%,2025,"Black Phone 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1197137,http://localhost:3000/movies/black-phone-2-2025
+Medium,70%,2025,"Ice Road: Vengeance","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1119878,http://localhost:3000/movies/ice-road-vengeance-2025
+Medium,70%,2025,"Fackham Hall","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1175174,http://localhost:3000/movies/fackham-hall-2025
+Medium,70%,2025,"Frankenstein","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1062722,http://localhost:3000/movies/frankenstein-2025
+Medium,70%,2025,"Die My Love","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1033148,http://localhost:3000/movies/die-my-love-2025
+Medium,70%,2025,"The Conjuring: Last Rites","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1038392,http://localhost:3000/movies/the-conjuring-last-rites-2025
+Medium,70%,2025,"Baramulla","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1561969,http://localhost:3000/movies/baramulla-2025
+Medium,70%,2025,"Regretting You","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1327862,http://localhost:3000/movies/regretting-you-2025
+Medium,70%,2025,"Predator: Badlands","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1242898,http://localhost:3000/movies/predator-badlands-2025
+Medium,70%,2025,"Now You See Me: Now You Don't","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",425274,http://localhost:3000/movies/now-you-see-me-now-you-don-t-2025
+Medium,70%,2025,"The Family Plan 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1363123,http://localhost:3000/movies/the-family-plan-2-2025
+Medium,70%,2025,"Muzzle: City of Wolves","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1439112,http://localhost:3000/movies/muzzle-city-of-wolves-2025
+Medium,70%,2025,"Elio","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1022787,http://localhost:3000/movies/elio-2025
+Medium,70%,2025,"Final Destination Bloodlines","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",574475,http://localhost:3000/movies/final-destination-bloodlines-2025
+Medium,70%,2025,"War 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1109086,http://localhost:3000/movies/war-2-2025
+Medium,70%,2025,"Wake Up Dead Man: A Knives Out Mystery","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",812583,http://localhost:3000/movies/wake-up-dead-man-a-knives-out-mystery-2025
+Medium,70%,2025,"Dude","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1321108,http://localhost:3000/movies/dude-2025
+Medium,70%,2025,"Padakkalam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1251970,http://localhost:3000/movies/padakkalam-2025
+Medium,70%,2025,"Maa","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1389158,http://localhost:3000/movies/maa-2025
+Medium,70%,2025,"One Battle After Another","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1054867,http://localhost:3000/movies/one-battle-after-another-2025
+Medium,70%,2025,"The Housemaid","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1368166,http://localhost:3000/movies/the-housemaid-2025
+Medium,70%,2025,"Hunting Season","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1387382,http://localhost:3000/movies/hunting-season-2025
+Medium,70%,2025,"Dhoom Dhaam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1201012,http://localhost:3000/movies/dhoom-dhaam-2025
+Medium,70%,2025,"The Gorge","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",950396,http://localhost:3000/movies/the-gorge-2025
+Medium,70%,2025,"Goodbye June","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1435092,http://localhost:3000/movies/goodbye-june-2025
+Medium,70%,2025,"Nuremberg","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1214931,http://localhost:3000/movies/nuremberg-2025
+Medium,70%,2025,"The Bad Guys 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1175942,http://localhost:3000/movies/the-bad-guys-2-2025
+Medium,70%,2025,"Playdate","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1248226,http://localhost:3000/movies/playdate-2025
+Medium,70%,2025,"Wildcat","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1448560,http://localhost:3000/movies/wildcat-2025
+Medium,70%,2025,"Please Don't Feed the Children","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1103437,http://localhost:3000/movies/please-don-t-feed-the-children-2025
+Medium,70%,2025,"Five Nights at Freddy's 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1228246,http://localhost:3000/movies/five-nights-at-freddy-s-2-2025
+Medium,70%,2025,"Ocean With David Attenborough","No heroine, No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1448497,http://localhost:3000/movies/ocean-with-david-attenborough-2025
+Medium,70%,2025,"TRON: Ares","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",533533,http://localhost:3000/movies/tron-ares-2025
+Medium,70%,2025,"Retro","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1265827,http://localhost:3000/movies/retro-2025
+Medium,70%,2025,"Eden","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1042834,http://localhost:3000/movies/eden-2025
+Medium,70%,2025,"Santosh","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1233208,http://localhost:3000/movies/santosh-2025
+Medium,70%,2025,"Trap House","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",628847,http://localhost:3000/movies/trap-house-2025
+Medium,70%,2025,"Anaconda","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1234731,http://localhost:3000/movies/anaconda-2025
+Medium,70%,2025,"Good Bad Ugly","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1259024,http://localhost:3000/movies/good-bad-ugly-2025
+Medium,70%,2025,"Zootopia 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1084242,http://localhost:3000/movies/zootopia-2-2025
+Medium,70%,2025,"Break Out","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/break-out-2025
+Medium,70%,2025,"Dragon","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1273049,http://localhost:3000/movies/dragon-2025
+Medium,70%,2025,"Tourist Family","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1398359,http://localhost:3000/movies/tourist-family-2025
+Medium,70%,2025,"L2: Empuraan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",627336,http://localhost:3000/movies/l2-empuraan-2025
+Medium,70%,2025,"The SpongeBob Movie: Search for SquarePants","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",991494,http://localhost:3000/movies/the-spongebob-movie-search-for-squarepants-2025
+Medium,70%,2025,"Roofman","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1242419,http://localhost:3000/movies/roofman-2025
+Medium,70%,2025,"Jewel Thief - The Heist Begins","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1225915,http://localhost:3000/movies/jewel-thief-the-heist-begins-2025
+Medium,70%,2025,"Saiyaara","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1241634,http://localhost:3000/movies/saiyaara-2025
+Medium,70%,2025,"High Rollers","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1149167,http://localhost:3000/movies/high-rollers-2025
+Medium,70%,2025,"Nobody 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1007734,http://localhost:3000/movies/nobody-2-2025
+Medium,70%,2025,"Predator: Killer of Killers","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1376434,http://localhost:3000/movies/predator-killer-of-killers-2025
+Medium,70%,2025,"Marty Supreme","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1317288,http://localhost:3000/movies/marty-supreme-2025
+Medium,70%,2025,"Diés Iraé","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1396869,http://localhost:3000/movies/di-s-ira--2025
+Medium,70%,2025,"Avatar: Fire and Ash","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",83533,http://localhost:3000/movies/avatar-fire-and-ash-2025
+Medium,70%,2025,"Vaamana","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",927224,http://localhost:3000/movies/vaamana-2025
+Medium,70%,2025,"Eleven","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1309643,http://localhost:3000/movies/eleven-2025
+Medium,70%,2025,"Lokah Chapter 1: Chandra","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1290190,http://localhost:3000/movies/lokah-chapter-1-chandra-2025
+Medium,70%,2025,"F1","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",911430,http://localhost:3000/movies/f1-2025
+Medium,70%,2025,"How to Train Your Dragon","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1087192,http://localhost:3000/movies/how-to-train-your-dragon-2025
+Medium,70%,2025,"Ballerina","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",541671,http://localhost:3000/movies/ballerina-2025
+Medium,70%,2025,"Officer on Duty","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1281091,http://localhost:3000/movies/officer-on-duty-2025
+Medium,70%,2025,"Superman","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1061474,http://localhost:3000/movies/superman-2025
+Medium,70%,2025,"The Fantastic 4: First Steps","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",617126,http://localhost:3000/movies/the-fantastic-4-first-steps-2025
+Medium,70%,2025,"Wicked: For Good","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",967941,http://localhost:3000/movies/wicked-for-good-2025
+Medium,70%,2025,"A Working Man","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1197306,http://localhost:3000/movies/a-working-man-2025
+Medium,70%,2025,"She Rides Shotgun","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1196573,http://localhost:3000/movies/she-rides-shotgun-2025
+Medium,70%,2025,"The Long Walk","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",604079,http://localhost:3000/movies/the-long-walk-2025
+Medium,70%,2025,"The Naked Gun","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1035259,http://localhost:3000/movies/the-naked-gun-2025
+Medium,70%,2025,"Eternity","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1259102,http://localhost:3000/movies/eternity-2025
+Medium,70%,2025,"Weapons","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1078605,http://localhost:3000/movies/weapons-2025
+Medium,70%,2025,"Dhanraj","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/dhanraj-2025
+Medium,70%,2025,"Good Boy","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1422096,http://localhost:3000/movies/good-boy-2025
+Medium,70%,2025,"Ponman","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1244068,http://localhost:3000/movies/ponman-2025
+Medium,70%,2025,"Super Raja","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/super-raja-2025
+Medium,70%,2024,"Rite Here Rite Now","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1203397,http://localhost:3000/movies/rite-here-rite-now-2024
+Medium,70%,2024,"Young Woman and the Sea","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",774531,http://localhost:3000/movies/young-woman-and-the-sea-2024
+Medium,70%,2024,"Lover","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1219158,http://localhost:3000/movies/lover-2024
+Medium,70%,2024,"Akkada Varu Ikkada Unnaru","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/akkada-varu-ikkada-unnaru-2024
+Medium,70%,2024,"Demonte Colony 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",979250,http://localhost:3000/movies/demonte-colony-2-2024
+Medium,70%,2024,"Anweshippin Kandethum","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",834664,http://localhost:3000/movies/anweshippin-kandethum-2024
+Medium,70%,2024,"Golam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1222140,http://localhost:3000/movies/golam-2024
+Medium,70%,2024,"Maharaj","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1171099,http://localhost:3000/movies/maharaj-2024
+Medium,70%,2024,"Transformers One","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",698687,http://localhost:3000/movies/transformers-one-2024
+Medium,70%,2024,"Memoir of a Snail","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1064486,http://localhost:3000/movies/memoir-of-a-snail-2024
+Medium,70%,2024,"The Wild Robot","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1184918,http://localhost:3000/movies/the-wild-robot-2024
+Medium,70%,2024,"Succubus","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1130276,http://localhost:3000/movies/succubus-2024
+Medium,70%,2024,"Super/Man: The Christopher Reeve Story","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1128559,http://localhost:3000/movies/super-man-the-christopher-reeve-story-2024
+Medium,70%,2024,"Soul","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",508442,http://localhost:3000/movies/soul-2024
+Medium,70%,2024,"The Way to the Heart","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",987032,http://localhost:3000/movies/the-way-to-the-heart-2024
+Medium,70%,2024,"Music by John Williams","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1076708,http://localhost:3000/movies/music-by-john-williams-2024
+Medium,70%,2024,"Captain Miller","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",962074,http://localhost:3000/movies/captain-miller-2024
+Medium,70%,2024,"Fighter","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",784651,http://localhost:3000/movies/fighter-2024
+Medium,70%,2024,"Dear Santa","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1097870,http://localhost:3000/movies/dear-santa-2024
+Medium,70%,2024,"I Am Kathalan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1046183,http://localhost:3000/movies/i-am-kathalan-2024
+Medium,70%,2024,"Wicked","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",402431,http://localhost:3000/movies/wicked-2024
+Medium,70%,2024,"Jigra","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1184889,http://localhost:3000/movies/jigra-2024
+Medium,70%,2024,"Aattam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",957926,http://localhost:3000/movies/aattam-2024
+Medium,70%,2024,"Dune: Part Two","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",693134,http://localhost:3000/movies/dune-part-two-2024
+Medium,70%,2024,"All We Imagine as Light","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",927547,http://localhost:3000/movies/all-we-imagine-as-light-2024
+Medium,70%,2024,"Kill","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1160018,http://localhost:3000/movies/kill-2024
+Medium,70%,2024,"Guruvayoor Ambalanadayil","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1068394,http://localhost:3000/movies/guruvayoor-ambalanadayil-2024
+Medium,70%,2024,"The Forge","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1186532,http://localhost:3000/movies/the-forge-2024
+Medium,70%,2024,"Sector 36","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1245700,http://localhost:3000/movies/sector-36-2024
+Medium,70%,2024,"Cabrini","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",975056,http://localhost:3000/movies/cabrini-2024
+Medium,70%,2024,"Ultraman: Rising","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",829402,http://localhost:3000/movies/ultraman-rising-2024
+Medium,70%,2024,"Ui","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",984500,http://localhost:3000/movies/ui-2024
+Medium,70%,2024,"The Greatest Night in Pop","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1226841,http://localhost:3000/movies/the-greatest-night-in-pop-2024
+Medium,70%,2024,"Aavesham","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1084812,http://localhost:3000/movies/aavesham-2024
+Medium,70%,2024,"Shaitaan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1187619,http://localhost:3000/movies/shaitaan-2024
+Medium,70%,2024,"Kanguva","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",622792,http://localhost:3000/movies/kanguva-2024
+Medium,70%,2024,"The Greatest of All Time","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1129608,http://localhost:3000/movies/the-greatest-of-all-time-2024
+Medium,70%,2024,"Maharaja","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1118224,http://localhost:3000/movies/maharaja-2024
+Medium,70%,2024,"Sookshmadarshini","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",950075,http://localhost:3000/movies/sookshmadarshini-2024
+Medium,70%,2024,"Do Patti","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1148172,http://localhost:3000/movies/do-patti-2024
+Medium,70%,2024,"Marco","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1186350,http://localhost:3000/movies/marco-2024
+Medium,70%,2024,"Amaran","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",927342,http://localhost:3000/movies/amaran-2024
+Medium,70%,2024,"The Goat Life","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",472221,http://localhost:3000/movies/the-goat-life-2024
+Medium,70%,2024,"Deadpool & Wolverine","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",533535,http://localhost:3000/movies/deadpool-wolverine-2024
+Medium,70%,2024,"Murder Mubarak","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1051023,http://localhost:3000/movies/murder-mubarak-2024
+Medium,70%,2024,"Vaazha","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1189518,http://localhost:3000/movies/vaazha-2024
+Medium,70%,2024,"Premalu","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1149791,http://localhost:3000/movies/premalu-2024
+Medium,70%,2024,"Vettaiyan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1093966,http://localhost:3000/movies/vettaiyan-2024
+Medium,70%,2024,"Abraham Ozler","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1184247,http://localhost:3000/movies/abraham-ozler-2024
+Medium,70%,2024,"Thalavan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1112108,http://localhost:3000/movies/thalavan-2024
+Medium,70%,2024,"Raayan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1136418,http://localhost:3000/movies/raayan-2024
+Medium,70%,2024,"Manjummel Boys","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1069945,http://localhost:3000/movies/manjummel-boys-2024
+Medium,70%,2024,"Kishkindha Kaandam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1025125,http://localhost:3000/movies/kishkindha-kaandam-2024
+Medium,70%,2024,"Crew","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1045931,http://localhost:3000/movies/crew-2024
+Medium,70%,2024,"Leela Vinodham","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/leela-vinodham-2024
+Medium,70%,2024,"Bhavanam","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/bhavanam-2024
+Medium,70%,2024,"MaXXXine","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1023922,http://localhost:3000/movies/maxxxine-2024
+Medium,70%,2024,"Brahmmavaram P.S. Paridhilo","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/brahmmavaram-p-s-paridhilo-2024
+Medium,70%,2024,"Bagheera","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",777292,http://localhost:3000/movies/bagheera-2024
+Medium,70%,2024,"Meiyazhagan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1136423,http://localhost:3000/movies/meiyazhagan-2024
+Medium,70%,2024,"Stree 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1112426,http://localhost:3000/movies/stree-2-2024
+Medium,70%,2024,"Lost Ladies","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1163194,http://localhost:3000/movies/lost-ladies-2024
+Medium,70%,2023,"Spider-Man: Across the Spider-Verse","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",569094,http://localhost:3000/movies/spider-man-across-the-spider-verse-2023
+Medium,70%,2023,"Subramanyam Chigurupati","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/subramanyam-chigurupati-2023
+Medium,70%,2023,"Five Nights at Freddy's","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",507089,http://localhost:3000/movies/five-nights-at-freddy-s-2023
+Medium,70%,2023,"Pachuvum Athbhuthavilakkum","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",816590,http://localhost:3000/movies/pachuvum-athbhuthavilakkum-2023
+Medium,70%,2023,"Aachar & Co","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1147765,http://localhost:3000/movies/aachar-co-2023
+Medium,70%,2023,"Kaatera","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1212788,http://localhost:3000/movies/kaatera-2023
+Medium,70%,2023,"¿Quieres ser mi hijo?","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1181678,http://localhost:3000/movies/-quieres-ser-mi-hijo--2023
+Medium,70%,2023,"Kill Shot","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1134055,http://localhost:3000/movies/kill-shot-2023
+Medium,70%,2023,"Toby","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1139698,http://localhost:3000/movies/toby-2023
+Medium,70%,2023,"Barla Narayana","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/barla-narayana-2023
+Medium,70%,2023,"Daredevil Musthafa","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1095567,http://localhost:3000/movies/daredevil-musthafa-2023
+Medium,70%,2023,"Raghavendra Stores","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1119099,http://localhost:3000/movies/raghavendra-stores-2023
+Medium,70%,2023,"Once Upon a Studio","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1139087,http://localhost:3000/movies/once-upon-a-studio-2023
+Medium,70%,2023,"Thriller 40","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1031774,http://localhost:3000/movies/thriller-40-2023
+Medium,70%,2023,"Oppenheimer","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",872585,http://localhost:3000/movies/oppenheimer-2023
+Medium,70%,2023,"TAYLOR SWIFT | THE ERAS TOUR","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1160164,http://localhost:3000/movies/taylor-swift-the-eras-tour-2023
+Medium,70%,2023,"Making Squid Game: The Challenge","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1214667,http://localhost:3000/movies/making-squid-game-the-challenge-2023
+Medium,70%,2023,"Sound of Freedom","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",678512,http://localhost:3000/movies/sound-of-freedom-2023
+Medium,70%,2023,"Dada","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",965979,http://localhost:3000/movies/dada-2023
+Medium,70%,2023,"2018","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",866440,http://localhost:3000/movies/2018-2023
+Medium,70%,2023,"Neru","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1164370,http://localhost:3000/movies/neru-2023
+Medium,70%,2023,"12th Fail","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1163258,http://localhost:3000/movies/12th-fail-2023
+Medium,70%,2023,"Jawan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",872906,http://localhost:3000/movies/jawan-2023
+Medium,70%,2023,"Curry & Cyanide: The Jolly Joseph Case","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1217392,http://localhost:3000/movies/curry-cyanide-the-jolly-joseph-case-2023
+Medium,70%,2023,"Chor Nikal Ke Bhaga","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1018228,http://localhost:3000/movies/chor-nikal-ke-bhaga-2023
+Medium,70%,2023,"Good Night","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1090969,http://localhost:3000/movies/good-night-2023
+Medium,70%,2023,"Tu Jhoothi Main Makkaar","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",611359,http://localhost:3000/movies/tu-jhoothi-main-makkaar-2023
+Medium,70%,2023,"Barbie","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",346698,http://localhost:3000/movies/barbie-2023
+Medium,70%,2023,"Fast X","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",385687,http://localhost:3000/movies/fast-x-2023
+Medium,70%,2023,"Romancham","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",976121,http://localhost:3000/movies/romancham-2023
+Medium,70%,2023,"OMG 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",888710,http://localhost:3000/movies/omg-2-2023
+Medium,70%,2023,"Nanpakal Nerathu Mayakkam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",876845,http://localhost:3000/movies/nanpakal-nerathu-mayakkam-2023
+Medium,70%,2023,"Dunki","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",960876,http://localhost:3000/movies/dunki-2023
+Medium,70%,2023,"19.20.21","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1094599,http://localhost:3000/movies/19-20-21-2023
+Medium,70%,2023,"Kho Gaye Hum Kahan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",875188,http://localhost:3000/movies/kho-gaye-hum-kahan-2023
+Medium,70%,2023,"Leo","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",949229,http://localhost:3000/movies/leo-2023
+Medium,70%,2023,"Ghost","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1040194,http://localhost:3000/movies/ghost-2023
+Medium,70%,2023,"Jigarthanda DoubleX","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1007074,http://localhost:3000/movies/jigarthanda-doublex-2023
+Medium,70%,2023,"20 Days in Mariupol","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1058616,http://localhost:3000/movies/20-days-in-mariupol-2023
+Medium,70%,2023,"Red, White & Royal Blue","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",930094,http://localhost:3000/movies/red-white-royal-blue-2023
+Medium,70%,2023,"Guardians of the Galaxy Vol. 3","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",447365,http://localhost:3000/movies/guardians-of-the-galaxy-vol-3-2023
+Medium,70%,2023,"Sapta Sagaradaache Ello – Side A","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1168104,http://localhost:3000/movies/sapta-sagaradaache-ello-side-a-2023
+Medium,70%,2023,"Sapta Sagaradaache Ello - Side B","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1168102,http://localhost:3000/movies/sapta-sagaradaache-ello-side-b-2023
+Medium,70%,2023,"Iratta","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",945167,http://localhost:3000/movies/iratta-2023
+Medium,70%,2023,"Por Thozhil","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1115239,http://localhost:3000/movies/por-thozhil-2023
+Medium,70%,2023,"White Bird","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",779816,http://localhost:3000/movies/white-bird-2023
+Medium,70%,2023,"Maamannan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",906223,http://localhost:3000/movies/maamannan-2023
+Medium,70%,2023,"Nimona","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",961323,http://localhost:3000/movies/nimona-2023
+Medium,70%,2023,"Simón","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1105832,http://localhost:3000/movies/sim-n-2023
+Medium,70%,2023,"King of Kotha","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",855117,http://localhost:3000/movies/king-of-kotha-2023
+Medium,70%,2023,"Kannur Squad","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1065918,http://localhost:3000/movies/kannur-squad-2023
+Medium,70%,2023,"Bloody Daddy","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1014390,http://localhost:3000/movies/bloody-daddy-2023
+Medium,70%,2023,"Flamin' Hot","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",626332,http://localhost:3000/movies/flamin-hot-2023
+Medium,70%,2023,"Ala Ila Ela","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/ala-ila-ela-2023
+Medium,70%,2023,"Harsha Vardhan","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/harsha-vardhan-2023
+Medium,70%,2023,"Jaane Jaan","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",950071,http://localhost:3000/movies/jaane-jaan-2023
+Medium,70%,2023,"RDX: Robert Dony Xavier","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",997391,http://localhost:3000/movies/rdx-robert-dony-xavier-2023
+Medium,70%,2023,"Kaathal - The Core","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1029947,http://localhost:3000/movies/kaathal-the-core-2023
+Medium,70%,2023,"Animal","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",781732,http://localhost:3000/movies/animal-2023
+Medium,70%,2023,"Hostel Hudugaru Bekagiddare","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1147777,http://localhost:3000/movies/hostel-hudugaru-bekagiddare-2023
+Medium,70%,2023,"Voice of Sathyanathan","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",877250,http://localhost:3000/movies/voice-of-sathyanathan-2023
+Medium,70%,2023,"Bandra","No hero, No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",1013057,http://localhost:3000/movies/bandra-2023
+Medium,70%,2022,"Lakshman K Krishna","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/lakshman-k-krishna-2022
+Medium,70%,2022,"An Action Hero","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",882826,http://localhost:3000/movies/an-action-hero-2022
+Medium,70%,2022,"Love Mocktail 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",723567,http://localhost:3000/movies/love-mocktail-2-2022
+Medium,70%,2022,"Avatara Purusha: Part 1","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",677528,http://localhost:3000/movies/avatara-purusha-part-1-2022
+Medium,70%,2022,"The Boy, the Mole, the Fox and the Horse","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",995133,http://localhost:3000/movies/the-boy-the-mole-the-fox-and-the-horse-2022
+Medium,70%,2022,"The Elephant Whisperers","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1041580,http://localhost:3000/movies/the-elephant-whisperers-2022
+Medium,70%,2022,"The Kashmir Files","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",900783,http://localhost:3000/movies/the-kashmir-files-2022
+Medium,70%,2022,"Looop Lapeta","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",783461,http://localhost:3000/movies/looop-lapeta-2022
+Medium,70%,2022,"Naai Sekar Returns","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",882397,http://localhost:3000/movies/naai-sekar-returns-2022
+Medium,70%,2022,"Mukundan Unni Associates™","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",591926,http://localhost:3000/movies/mukundan-unni-associates--2022
+Medium,70%,2022,"Nna Thaan Case Kodu","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",864761,http://localhost:3000/movies/nna-thaan-case-kodu-2022
+Medium,70%,2022,"Bheeshma Parvam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",804309,http://localhost:3000/movies/bheeshma-parvam-2022
+Medium,70%,2022,"Gandhada Gudi","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1041319,http://localhost:3000/movies/gandhada-gudi-2022
+Medium,70%,2022,"Puss in Boots: The Last Wish","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",315162,http://localhost:3000/movies/puss-in-boots-the-last-wish-2022
+Medium,70%,2022,"Guillermo del Toro's Pinocchio","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",555604,http://localhost:3000/movies/guillermo-del-toro-s-pinocchio-2022
+Medium,70%,2022,"Cobra","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",793032,http://localhost:3000/movies/cobra-2022
+Medium,70%,2022,"Gabriel's Rapture: Part II","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",953553,http://localhost:3000/movies/gabriel-s-rapture-part-ii-2022
+Medium,70%,2022,"DSP","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",806920,http://localhost:3000/movies/dsp-2022
+Medium,70%,2022,"South Park: The 25th Anniversary Concert","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1012290,http://localhost:3000/movies/south-park-the-25th-anniversary-concert-2022
+Medium,70%,2022,"Selena Gomez: My Mind & Me","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1022256,http://localhost:3000/movies/selena-gomez-my-mind-me-2022
+Medium,70%,2022,"Bhoothakaalam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",881099,http://localhost:3000/movies/bhoothakaalam-2022
+Medium,70%,2022,"Drishyam 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1029827,http://localhost:3000/movies/drishyam-2-2022
+Medium,70%,2022,"Monica, O My Darling","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",915831,http://localhost:3000/movies/monica-o-my-darling-2022
+Medium,70%,2022,"Hridayam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",653221,http://localhost:3000/movies/hridayam-2022
+Medium,70%,2022,"Badhaai Do","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",754716,http://localhost:3000/movies/badhaai-do-2022
+Medium,70%,2022,"Rorschach","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",950284,http://localhost:3000/movies/rorschach-2022
+Medium,70%,2022,"Malayankunju","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",816586,http://localhost:3000/movies/malayankunju-2022
+Medium,70%,2022,"Hey! Sinamika","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",803736,http://localhost:3000/movies/hey-sinamika-2022
+Medium,70%,2022,"12th Man","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",847726,http://localhost:3000/movies/12th-man-2022
+Medium,70%,2022,"Rocketry: The Nambi Effect","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",607145,http://localhost:3000/movies/rocketry-the-nambi-effect-2022
+Medium,70%,2022,"Salute","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",803666,http://localhost:3000/movies/salute-2022
+Medium,70%,2022,"Thirteen Lives","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",698948,http://localhost:3000/movies/thirteen-lives-2022
+Medium,70%,2022,"Darlings","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",801526,http://localhost:3000/movies/darlings-2022
+Medium,70%,2022,"Thallumaala","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",863530,http://localhost:3000/movies/thallumaala-2022
+Medium,70%,2022,"Dr. 56","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1036788,http://localhost:3000/movies/dr-56-2022
+Medium,70%,2022,"Bro Daddy","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",842275,http://localhost:3000/movies/bro-daddy-2022
+Medium,70%,2022,"Gangubai Kathiawadi","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",664332,http://localhost:3000/movies/gangubai-kathiawadi-2022
+Medium,70%,2022,"Jana Gana Mana","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",792358,http://localhost:3000/movies/jana-gana-mana-2022
+Medium,70%,2022,"Brahmāstra Part One: Shiva","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",496331,http://localhost:3000/movies/brahm-stra-part-one-shiva-2022
+Medium,70%,2022,"A Thursday","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",897525,http://localhost:3000/movies/a-thursday-2022
+Medium,70%,2022,"Super Sharanya","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",869227,http://localhost:3000/movies/super-sharanya-2022
+Medium,70%,2022,"Top Gun: Maverick","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",361743,http://localhost:3000/movies/top-gun-maverick-2022
+Medium,70%,2022,"Ravi Bopanna","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1012080,http://localhost:3000/movies/ravi-bopanna-2022
+Medium,70%,2022,"Attack","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",799155,http://localhost:3000/movies/attack-2022
+Medium,70%,2022,"Ek Villain Returns","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",682401,http://localhost:3000/movies/ek-villain-returns-2022
+Medium,70%,2022,"Redeeming Love","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",698508,http://localhost:3000/movies/redeeming-love-2022
+Medium,70%,2022,"Freddy","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1041054,http://localhost:3000/movies/freddy-2022
+Medium,70%,2022,"Avatar: The Way of Water","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",76600,http://localhost:3000/movies/avatar-the-way-of-water-2022
+Medium,70%,2022,"Jaya Jaya Jaya Jaya Hey","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",931132,http://localhost:3000/movies/jaya-jaya-jaya-jaya-hey-2022
+Medium,70%,2022,"Vedha","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",813829,http://localhost:3000/movies/vedha-2022
+Medium,70%,2022,"Bommala Koluvu","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/bommala-koluvu-2022
+Medium,70%,2022,"Bhool Bhulaiyaa 2","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",695962,http://localhost:3000/movies/bhool-bhulaiyaa-2-2022
+Medium,70%,2022,"Laal Singh Chaddha","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",601635,http://localhost:3000/movies/laal-singh-chaddha-2022
+Medium,70%,2022,"Purple Hearts","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",762975,http://localhost:3000/movies/purple-hearts-2022
+Medium,70%,2022,"Head Bush: Vol 1","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",735855,http://localhost:3000/movies/head-bush-vol-1-2022
+Medium,70%,2022,"Runway 34","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",766116,http://localhost:3000/movies/runway-34-2022
+Medium,70%,2022,"Abhimanyu","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/abhimanyu-2022
+Medium,70%,2022,"Kadaisi Vivasayi","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",613703,http://localhost:3000/movies/kadaisi-vivasayi-2022
+Medium,70%,2022,"Vikram","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",743563,http://localhost:3000/movies/vikram-2022
+Medium,70%,2022,"Gabriel's Rapture: Part III","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",971961,http://localhost:3000/movies/gabriel-s-rapture-part-iii-2022
+Medium,70%,2022,"Coffee With Kadhal","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",984631,http://localhost:3000/movies/coffee-with-kadhal-2022
+Medium,70%,2022,"Hero","No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",852357,http://localhost:3000/movies/hero-2022
+Medium,70%,2021,"Malik","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",665133,http://localhost:3000/movies/malik-2021
+Medium,70%,2021,"83","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",601337,http://localhost:3000/movies/83-2021
+Medium,70%,2021,"Yuvarathnaa","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",654553,http://localhost:3000/movies/yuvarathnaa-2021
+Medium,70%,2021,"Friends: The Reunion","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",691179,http://localhost:3000/movies/friends-the-reunion-2021
+Medium,70%,2021,"Gudaputani","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/gudaputani-2021
+Medium,75%,,"AA22xA6","No English synopsis, No backdrop, No runtime, No Telugu title",1411614,http://localhost:3000/movies/aa22xa6-tba
+Medium,75%,,"Devara 2","No English synopsis, No backdrop, No runtime, No Telugu title",1187293,http://localhost:3000/movies/devara-2-tba
+Medium,75%,,"Reppa","No English synopsis, No backdrop, No runtime, No Telugu title",1128516,http://localhost:3000/movies/reppa-tba
+Medium,75%,,"As Time Echoes","No English synopsis, No backdrop, No runtime, No Telugu title",1375913,http://localhost:3000/movies/as-time-echoes-tba
+Medium,75%,,"Oh..! Sukumari","No English synopsis, No backdrop, No runtime, No Telugu title",1592679,http://localhost:3000/movies/oh-sukumari-tba
+Medium,75%,,"Pushpa 3 - The Rampage","No English synopsis, No backdrop, No runtime, No Telugu title",1300535,http://localhost:3000/movies/pushpa-3-the-rampage-tba
+Medium,75%,,"Takshakudu","No English synopsis, No backdrop, No runtime, No Telugu title",1442399,http://localhost:3000/movies/takshakudu-tba
+Medium,75%,,"Comrade Kalyan","No English synopsis, No backdrop, No runtime, No Telugu title",1428295,http://localhost:3000/movies/comrade-kalyan-tba
+Medium,75%,,"Illicit Relationship","No English synopsis, No backdrop, No runtime, No Telugu title",857695,http://localhost:3000/movies/illicit-relationship-tba
+Medium,75%,,"Asuragana Rudra","No English synopsis, No backdrop, No runtime, No Telugu title",960402,http://localhost:3000/movies/asuragana-rudra-tba
+Medium,75%,,"HaiLesso","No English synopsis, No backdrop, No runtime, No Telugu title",1554016,http://localhost:3000/movies/hailesso-tba
+Medium,75%,,"ENE Repeat","No English synopsis, No backdrop, No runtime, No Telugu title",1505644,http://localhost:3000/movies/ene-repeat-tba
+Medium,75%,,"Vrushakarma","No English synopsis, No backdrop, No runtime, No Telugu title",1395627,http://localhost:3000/movies/vrushakarma-tba
+Medium,75%,,"Kalki 2898-AD: Part 2","No English synopsis, No backdrop, No runtime, No Telugu title",1310969,http://localhost:3000/movies/kalki-2898-ad-part-2-tba
+Medium,75%,,"Hey Bhagawan!","No English synopsis, No backdrop, No runtime, No Telugu title",1531852,http://localhost:3000/movies/hey-bhagawan-tba
+Medium,75%,,"Maa Inti Bangaram","No English synopsis, No backdrop, No runtime, No Telugu title",1227241,http://localhost:3000/movies/maa-inti-bangaram-tba
+Medium,75%,,"Anumana Pakshi","No English synopsis, No backdrop, No runtime, No Telugu title",1542674,http://localhost:3000/movies/anumana-pakshi-tba
+Medium,75%,,"Sambarala Yetti Gattu","No English synopsis, No backdrop, No runtime, No Telugu title",1424955,http://localhost:3000/movies/sambarala-yetti-gattu-tba
+Medium,75%,,"Bad Boy Karthik","No English synopsis, No backdrop, No runtime, No Telugu title",1555860,http://localhost:3000/movies/bad-boy-karthik-tba
+Medium,75%,,"Paramanandham Shishyulu","No English synopsis, No backdrop, No runtime, No Telugu title",747001,http://localhost:3000/movies/paramanandham-shishyulu-tba
+Medium,75%,,"Natudu","No English synopsis, No backdrop, No runtime, No Telugu title",594219,http://localhost:3000/movies/natudu-tba
+Medium,75%,,"Mirai Jaithraya","No English synopsis, No backdrop, No runtime, No Telugu title",1562708,http://localhost:3000/movies/mirai-jaithraya-tba
+Medium,75%,,"Patta Pagalu","No English synopsis, No backdrop, No runtime, No Telugu title",498456,http://localhost:3000/movies/patta-pagalu-tba
+Medium,75%,2026,"Parasakthi","No English synopsis, No Telugu synopsis, No runtime",965483,http://localhost:3000/movies/parasakthi-2026
+Medium,75%,2026,"Vanaveera","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/vanaveera-2026
+Medium,75%,2026,"Madham","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/madham-2026
+Medium,75%,2026,"Toxic: A Fairy Tale for Grown-Ups","No heroine, No English synopsis, No Telugu synopsis, No runtime",1213243,http://localhost:3000/movies/toxic-yash-2026
+Medium,75%,2026,"Sabhaku Namaskaram","No heroine, No English synopsis, No backdrop, No runtime, No Telugu title",14999790,http://localhost:3000/movies/sabhaku-namaskaram-2026
+Medium,75%,2025,"Su from So","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1513656,http://localhost:3000/movies/su-from-so-2025
+Medium,75%,2025,"Thug Life","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1045021,http://localhost:3000/movies/thug-life-2025
+Medium,75%,2025,"Vidaamuyarchi","No English synopsis, No Telugu synopsis, No runtime",949716,http://localhost:3000/movies/vidaamuyarchi-2025
+Medium,75%,2024,"Kotha Rangula Prapancham","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/kotha-rangula-prapancham-2024
+Medium,75%,2024,"Srikakulam Sherlock Holmes","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/srikakulam-sherlock-holmes-2024
+Medium,75%,2024,"Alanaati Ramchandrudu","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/alanaati-ramchandrudu-2024
+Medium,75%,2024,"Bench Life","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/bench-life-2024
+Medium,75%,2024,"Case of Kondana","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1230162,http://localhost:3000/movies/case-of-kondana-2024
+Medium,75%,2024,"Praveen Kumar VSS","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/praveen-kumar-vss-2024
+Medium,75%,2024,"Martin","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",861451,http://localhost:3000/movies/martin-2024
+Medium,75%,2024,"Indian 2: Zero Tolerance","No English synopsis, No Telugu synopsis, No runtime",552398,http://localhost:3000/movies/indian-2-zero-tolerance-2024
+Medium,75%,2024,"Bramayugam","No English synopsis, No Telugu synopsis, No runtime",1166133,http://localhost:3000/movies/bramayugam-2024
+Medium,75%,2024,"Tom And Jerry","No hero, No English synopsis, No backdrop, No runtime, No Telugu title",1401224,http://localhost:3000/movies/tom-and-jerry-2024
+Medium,75%,2024,"Prasanna Vadanam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1283166,http://localhost:3000/movies/prasanna-vadanam-2024
+Medium,75%,2023,"Sindhooram","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1077101,http://localhost:3000/movies/sindhooram-2023
+Medium,75%,2023,"Saachi","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1228860,http://localhost:3000/movies/saachi-2023
+Medium,75%,2023,"Geetasakshigaa","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1097586,http://localhost:3000/movies/geetasakshigaa-2023
+Medium,75%,2023,"Ugram","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1089201,http://localhost:3000/movies/ugram-2023
+Medium,75%,2023,"Neelakanta","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/neelakanta-2023
+Medium,75%,2023,"Jilebi","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/jilebi-2023
+Medium,75%,2023,"Breathe","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1255626,http://localhost:3000/movies/breathe-2023
+Medium,75%,2023,"Kranti","No English synopsis, No Telugu synopsis, No runtime",1030157,http://localhost:3000/movies/kranti-2023
+Medium,75%,2023,"Pathaan","No English synopsis, No Telugu synopsis, No runtime",864692,http://localhost:3000/movies/pathaan-2023
+Medium,75%,2023,"Ashtadigbandhanam","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/ashtadigbandhanam-2023
+Medium,75%,2023,"Ponniyin Selvan: Part II","No English synopsis, No Telugu synopsis, No runtime",858082,http://localhost:3000/movies/ponniyin-selvan-part-ii-2023
+Medium,75%,2023,"Kabzaa","No English synopsis, No Telugu synopsis, No runtime",683876,http://localhost:3000/movies/kabzaa-2023
+Medium,75%,2023,"Viduthalai: Part I","No English synopsis, No Telugu synopsis, No runtime",786345,http://localhost:3000/movies/viduthalai-part-i-2023
+Medium,75%,2023,"Mark Antony","No English synopsis, No Telugu synopsis, No runtime",922087,http://localhost:3000/movies/mark-antony-2023
+Medium,75%,2023,"Jailer","No English synopsis, No Telugu synopsis, No runtime",937020,http://localhost:3000/movies/jailer-2023
+Medium,75%,2023,"Maaveeran","No English synopsis, No Telugu synopsis, No runtime",987895,http://localhost:3000/movies/maaveeran-2023
+Medium,75%,2023,"Thunivu","No English synopsis, No Telugu synopsis, No runtime",904557,http://localhost:3000/movies/thunivu-2023
+Medium,75%,2023,"Varisu","No English synopsis, No Telugu synopsis, No runtime",835017,http://localhost:3000/movies/varisu-2023
+Medium,75%,2023,"Vaathi","No English synopsis, No Telugu synopsis, No runtime",918864,http://localhost:3000/movies/vaathi-2023
+Medium,75%,2023,"Chithha","No English synopsis, No Telugu synopsis, No runtime",1115253,http://localhost:3000/movies/chithha-2023
+Medium,75%,2022,"Etharkkum Thunindhavan","No English synopsis, No Telugu synopsis, No runtime",855397,http://localhost:3000/movies/etharkkum-thunindhavan-2022
+Medium,75%,2022,"Gargi","No English synopsis, No Telugu synopsis, No runtime",973579,http://localhost:3000/movies/gargi-2022
+Medium,75%,2022,"Valimai","No English synopsis, No Telugu synopsis, No runtime",640484,http://localhost:3000/movies/valimai-2022
+Medium,75%,2022,"Kantara","No English synopsis, No Telugu synopsis, No runtime",858485,http://localhost:3000/movies/kantara-2022
+Medium,75%,2022,"777 Charlie","No English synopsis, No Telugu synopsis, No runtime",634120,http://localhost:3000/movies/777-charlie-2022
+Medium,75%,2022,"Plan A Plan B","No hero, No English synopsis, No Telugu synopsis, No backdrop, No runtime, No Telugu title",1018220,http://localhost:3000/movies/plan-a-plan-b-2022
+Medium,75%,2022,"James","No English synopsis, No Telugu synopsis, No runtime",683056,http://localhost:3000/movies/james-2022
+Medium,75%,2022,"Naane Varuvean","No English synopsis, No Telugu synopsis, No runtime",785664,http://localhost:3000/movies/naane-varuvean-2022
+Medium,75%,2022,"Saani Kaayidham","No English synopsis, No Telugu synopsis, No runtime",755393,http://localhost:3000/movies/saani-kaayidham-2022
+Medium,75%,2022,"Vikrant Rona","No English synopsis, No Telugu synopsis, No runtime",680334,http://localhost:3000/movies/vikrant-rona-2022
+Medium,75%,2022,"Sardar","No English synopsis, No Telugu synopsis, No runtime",858080,http://localhost:3000/movies/sardar-2022
+Medium,75%,2022,"Gatta Kusthi","No English synopsis, No Telugu synopsis, No runtime",959163,http://localhost:3000/movies/gatta-kusthi-2022
+Medium,75%,2022,"Thiruchitrambalam","No English synopsis, No Telugu synopsis, No runtime",858067,http://localhost:3000/movies/thiruchitrambalam-2022
+Medium,75%,2022,"Bhediya","No English synopsis, No Telugu synopsis, No runtime",799177,http://localhost:3000/movies/bhediya-2022
+Medium,75%,2022,"Beast","No English synopsis, No Telugu synopsis, No runtime",800383,http://localhost:3000/movies/beast-2022
+Medium,75%,2022,"Love Today","No English synopsis, No Telugu synopsis, No runtime",1032627,http://localhost:3000/movies/love-today-2022
+Medium,75%,2022,"Godfather","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",863931,http://localhost:3000/movies/godfather-2022
+Medium,75%,2022,"K.G.F: Chapter 2","No English synopsis, No Telugu synopsis, No runtime",587412,http://localhost:3000/movies/k-g-f-chapter-2-2022
+Medium,75%,2022,"Ponniyin Selvan: Part I","No English synopsis, No Telugu synopsis, No runtime",660046,http://localhost:3000/movies/ponniyin-selvan-part-i-2022
+Medium,75%,2022,"Mahaan","No English synopsis, No Telugu synopsis, No runtime",804337,http://localhost:3000/movies/mahaan-2022
+Medium,75%,2022,"Don","No English synopsis, No Telugu synopsis, No runtime",895033,http://localhost:3000/movies/don-2022
+Medium,75%,2022,"Babli Bouncer","No English synopsis, No Telugu synopsis, No backdrop, No runtime",1002082,http://localhost:3000/movies/babli-bouncer-2022
+Medium,75%,2021,"Love Story","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",9062,http://localhost:3000/movies/love-story-2021
+Medium,75%,2021,"Jai Bhim","No English synopsis, No Telugu synopsis, No runtime",855400,http://localhost:3000/movies/jai-bhim-2021
+Medium,75%,2021,"Minnal Murali","No English synopsis, No Telugu synopsis, No runtime",657644,http://localhost:3000/movies/minnal-murali-2021
+Low,80%,,"Janakiram","No English synopsis, No runtime, No Telugu title",1029671,http://localhost:3000/movies/janakiram-tba
+Low,80%,,"Anaganaga Oka Rowdy","No English synopsis, No runtime, No Telugu title",803571,http://localhost:3000/movies/anaganaga-oka-rowdy-tba
+Low,80%,,"Edhureetha","No English synopsis, No runtime, No Telugu title",898872,http://localhost:3000/movies/edhureetha-tba
+Low,80%,,"Umapathi","No English synopsis, No backdrop, No runtime, No Telugu title",1040624,http://localhost:3000/movies/umapathi-tba
+Low,80%,,"Band Melam","No English synopsis, No runtime, No Telugu title",1547712,http://localhost:3000/movies/band-melam-tba
+Low,80%,,"Nakshatra Poratam","No English synopsis, No backdrop, No runtime, No Telugu title",1231827,http://localhost:3000/movies/nakshatra-poratam-tba
+Low,80%,,"Garividi Lakshmi","No English synopsis, No runtime, No Telugu title",1555847,http://localhost:3000/movies/garividi-lakshmi-tba
+Low,80%,,"DQ 41","No English synopsis, No runtime, No Telugu title",1516102,http://localhost:3000/movies/dq-41-tba
+Low,80%,,"Arrtham","No English synopsis, No runtime, No Telugu title",890461,http://localhost:3000/movies/arrtham-tba
+Low,80%,,"Kirathaka","No English synopsis, No runtime, No Telugu title",890172,http://localhost:3000/movies/kirathaka-tba
+Low,80%,,"Haindava","No English synopsis, No runtime, No Telugu title",1417808,http://localhost:3000/movies/haindava-tba
+Low,80%,,"Amaran in the City: Chapter 1","No English synopsis, No runtime, No Telugu title",890909,http://localhost:3000/movies/amaran-in-the-city-chapter-1-tba
+Low,80%,,"Peddarikam","No English synopsis, No backdrop, No runtime, No Telugu title",1243148,http://localhost:3000/movies/peddarikam-tba
+Low,80%,,"What The Fish","No English synopsis, No backdrop, No runtime, No Telugu title",1141452,http://localhost:3000/movies/what-the-fish-tba
+Low,80%,,"Nagabandham","No English synopsis, No backdrop, No runtime, No Telugu title",1442396,http://localhost:3000/movies/nagabandham-tba
+Low,80%,,"They Call Him OG 2","No English synopsis, No runtime, No Telugu title",1553748,http://localhost:3000/movies/they-call-him-og-2-tba
+Low,80%,,"Naa Katha","No English synopsis, No backdrop, No runtime, No Telugu title",1338987,http://localhost:3000/movies/naa-katha-tba
+Low,80%,,"Magic","No English synopsis, No backdrop, No runtime",1237616,http://localhost:3000/movies/magic-tba
+Low,80%,,"Inner City Blues","No English synopsis, No backdrop, No runtime",871062,http://localhost:3000/movies/inner-city-blues-tba
+Low,80%,2027,"Baahubali: the Eternal War - Part 1","No English synopsis, No runtime, No Telugu title",1570976,http://localhost:3000/movies/baahubali-the-eternal-war-part-1-2027
+Low,80%,2026,"Seetha Payanam","No English synopsis, No backdrop, No runtime, No Telugu title",1566740,http://localhost:3000/movies/seetha-payanam-2026
+Low,80%,2026,"Aakasam Lo Oka Tara","No English synopsis, No backdrop, No runtime, No Telugu title",1322273,http://localhost:3000/movies/aakasam-lo-oka-tara-2026
+Low,80%,2026,"Mana Shankara Vara Prasad Garu","No English synopsis, No backdrop, No runtime, No Telugu title",1439713,http://localhost:3000/movies/msvp-2026
+Low,80%,2026,"Ramayana: Part One","No English synopsis, No backdrop, No runtime, No Telugu title",656908,http://localhost:3000/movies/ramayana-part-one-2026
+Low,80%,2026,"Anantha","No English synopsis, No backdrop, No runtime, No Telugu title",1608579,http://localhost:3000/movies/anantha-2026
+Low,80%,2026,"O'Romeo","No English synopsis, No backdrop, No runtime, No Telugu title",1275574,http://localhost:3000/movies/o-romeo-2026
+Low,80%,2026,"The Bed","No English synopsis, No backdrop, No runtime, No Telugu title",1604186,http://localhost:3000/movies/the-bed-2026
+Low,80%,2026,"Vishwambhara","No English synopsis, No backdrop, No runtime, No Telugu title",1211111,http://localhost:3000/movies/vishwambhara-2026
+Low,80%,2025,"LYF - Love Your Father","No English synopsis, No backdrop, No runtime, No Telugu title",1439096,http://localhost:3000/movies/lyf-love-your-father-2025
+Low,80%,2025,"1000 Waala","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/1000-waala-2025
+Low,80%,2025,"Bhairavam","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1388451,http://localhost:3000/movies/bhairavam-2025
+Low,80%,2025,"Coolie","No English synopsis, No Telugu synopsis, No runtime",1153399,http://localhost:3000/movies/coolie-2025
+Low,80%,2025,"Salaar: Part 2 - Shouryaanga Parvam","No English synopsis, No backdrop, No runtime, No Telugu title",1212402,http://localhost:3000/movies/salaar-part-2-shouryaanga-parvam
+Low,80%,2025,"Ponton's Heart","No English synopsis, No backdrop, No runtime, No Telugu title",1426512,http://localhost:3000/movies/pontons-heart-2025
+Low,80%,2025,"Thank You Dear","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1506578,http://localhost:3000/movies/thank-you-dear-2025
+Low,80%,2025,"Sikandar","No English synopsis, No backdrop, No runtime, No Telugu title",1257960,http://localhost:3000/movies/sikandar-2025
+Low,80%,2025,"Elumale","No English synopsis, No backdrop, No runtime, No Telugu title",1531329,http://localhost:3000/movies/elumale-2025
+Low,80%,2025,"Jaat","No English synopsis, No backdrop, No runtime, No Telugu title",1306845,http://localhost:3000/movies/jaat-2025
+Low,80%,2025,"Dinasari","No English synopsis, No backdrop, No runtime, No Telugu title",1432145,http://localhost:3000/movies/dinasari-2025
+Low,80%,2025,"Blackmail","No English synopsis, No backdrop, No runtime, No Telugu title",1505291,http://localhost:3000/movies/blackmail-2025
+Low,80%,2025,"Konjam Kadhal Konjam Modhal","No English synopsis, No backdrop, No runtime, No Telugu title",1444744,http://localhost:3000/movies/konjam-kadhal-konjam-modhal-2025
+Low,80%,2025,"Dilruba","No English synopsis, No Telugu synopsis, No runtime, No Telugu title",1099485,http://localhost:3000/movies/dilruba-2025
+Low,80%,2024,"Bhairathi Ranagal","No English synopsis, No Telugu synopsis, No runtime",1088410,http://localhost:3000/movies/bhairathi-ranagal-2024
+Low,80%,2024,"Aham Reboot","No English synopsis, No runtime, No Telugu title",968571,http://localhost:3000/movies/aham-reboot-2024
+Low,80%,2024,"We Love Bad Boys","No English synopsis, No backdrop, No runtime, No Telugu title",1471367,http://localhost:3000/movies/we-love-bad-boys-2024
+Low,80%,2024,"Pranaya Godari","No English synopsis, No backdrop, No runtime, No TMDB ID, No Telugu title",,http://localhost:3000/movies/pranaya-godari-2024
+Low,80%,2024,"Mukhya Gamanika","No English synopsis, No backdrop, No runtime, No Telugu title",1246981,http://localhost:3000/movies/mukhya-gamanika-2024
+Low,80%,2024,"Kangaroo","No English synopsis, No backdrop, No runtime, No Telugu title",1285843,http://localhost:3000/movies/kangaroo-2024
+Low,80%,2024,"Rush","No English synopsis, No runtime, No Telugu title",1292641,http://localhost:3000/movies/rush-2024
+Low,80%,2024,"105 Minuttess","No hero, No English synopsis, No runtime, No Telugu title",922636,http://localhost:3000/movies/105-minuttess-2024
+Low,80%,2024,"Modern Masters: SS Rajamouli","No English synopsis, No backdrop, No runtime, No Telugu title",1313130,http://localhost:3000/movies/modern-masters-ss-rajamouli-2024
+Low,80%,2024,"Vedaa","No English synopsis, No backdrop, No runtime, No Telugu title",1148486,http://localhost:3000/movies/vedaa-2024
+Low,80%,2024,"Ruslaan","No English synopsis, No backdrop, No runtime, No Telugu title",1196940,http://localhost:3000/movies/ruslaan-2024
+Low,80%,2024,"Operation Laila","No English synopsis, No backdrop, No runtime, No Telugu title",1245864,http://localhost:3000/movies/operation-laila-2024
+Low,80%,2024,"Sathamindri Mutham Tha","No English synopsis, No backdrop, No runtime, No Telugu title",1248209,http://localhost:3000/movies/sathamindri-mutham-tha-2024
+Low,80%,2024,"Maya Puthagam","No English synopsis, No backdrop, No runtime, No Telugu title",956103,http://localhost:3000/movies/maya-puthagam-2024
+Low,80%,2024,"Anandapuram Diaries","No English synopsis, No backdrop, No runtime, No Telugu title",1177652,http://localhost:3000/movies/anandapuram-diaries-2024
+Low,80%,2024,"Nayanthara: Beyond the Fairy Tale","No English synopsis, No backdrop, No runtime, No Telugu title",1382447,http://localhost:3000/movies/nayanthara-beyond-the-fairy-tale-2024
+Low,80%,2023,"Sagiletikatha","No English synopsis, No backdrop, No runtime, No Telugu title",1192420,http://localhost:3000/movies/sagiletikatha-2023
+Low,80%,2023,"Madhurapudi Granam Ane Nenu","No English synopsis, No backdrop, No runtime, No Telugu title",1210464,http://localhost:3000/movies/madhurapudi-granam-ane-nenu-2023
+Low,80%,2023,"Antham Kadidi Aarambam","No English synopsis, No backdrop, No runtime, No Telugu title",1197850,http://localhost:3000/movies/antham-kadidi-aarambam-1981
+Low,80%,2023,"Mao Oori Cinema","No English synopsis, No backdrop, No runtime, No Telugu title",1189224,http://localhost:3000/movies/mao-oori-cinema-2023
+Low,80%,2023,"10 Rupees","No English synopsis, No backdrop, No runtime, No Telugu title",1155115,http://localhost:3000/movies/10-rupees-2023
+Low,80%,2023,"Plot","No English synopsis, No runtime, No Telugu title",1315525,http://localhost:3000/movies/plot-2023
+Low,80%,2023,"Raa Raa... Penimiti","No English synopsis, No backdrop, No runtime, No Telugu title",1111206,http://localhost:3000/movies/raa-raa-penimiti-2023
+Low,80%,2023,"Vidyarthi","No English synopsis, No backdrop, No runtime, No Telugu title",1181780,http://localhost:3000/movies/vidyarthi-2023
+Low,80%,2023,"Changure Bangaru Raja","No English synopsis, No backdrop, No runtime, No Telugu title",1180939,http://localhost:3000/movies/changure-bangaru-raja-2023
+Low,80%,2023,"Okkade 1 (Venkanna on Duty)","No English synopsis, No backdrop, No runtime, No Telugu title",1194958,http://localhost:3000/movies/okkade-1-venkanna-on-duty-2023
+Low,80%,2023,"Pareshan","No English synopsis, No backdrop, No runtime, No Telugu title",1129654,http://localhost:3000/movies/pareshan-2023
+Low,80%,2023,"Anveshi","No English synopsis, No runtime, No Telugu title",1199148,http://localhost:3000/movies/anveshi-2023
+Low,80%,2023,"Unstoppable","No English synopsis, No backdrop, No runtime, No Telugu title",1154196,http://localhost:3000/movies/unstoppable-2023
+Low,80%,2023,"The Eye","No English synopsis, No backdrop, No runtime, No Telugu title",1192906,http://localhost:3000/movies/the-eye-2023
+Low,80%,2023,"Echo","No English synopsis, No backdrop, No runtime, No Telugu title",883719,http://localhost:3000/movies/echo-2023
+Low,80%,2023,"Bagheera","No English synopsis, No backdrop, No runtime, No Telugu title",882401,http://localhost:3000/movies/bagheera-2023
+Low,80%,2023,"Amala","No English synopsis, No backdrop, No runtime, No Telugu title",457031,http://localhost:3000/movies/amala-2023
+Low,80%,2023,"Ghosty","No English synopsis, No backdrop, No runtime, No Telugu title",1043199,http://localhost:3000/movies/ghosty-2023
+Low,80%,2023,"Kannai Nambathe","No English synopsis, No backdrop, No runtime, No Telugu title",904717,http://localhost:3000/movies/kannai-nambathe-2023
+Low,80%,2023,"Kisi Ka Bhai... Kisi Ki Jaan","No English synopsis, No backdrop, No runtime, No Telugu title",966719,http://localhost:3000/movies/kisi-ka-bhai-kisi-ki-jaan-2023
+Low,80%,2023,"Ranga Maarthaanda","No English synopsis, No backdrop, No runtime, No Telugu title",1064247,http://localhost:3000/movies/ranga-maarthaanda-2023
+Low,80%,2022,"Vishwak","No English synopsis, No backdrop, No runtime, No Telugu title",1132691,http://localhost:3000/movies/vishwak-2022
+Low,80%,2022,"Kerosene","No English synopsis, No backdrop, No runtime, No Telugu title",982182,http://localhost:3000/movies/kerosene-2022
+Low,80%,2022,"Commitment","No English synopsis, No backdrop, No runtime, No Telugu title",864058,http://localhost:3000/movies/commitment-2022
+Low,80%,2022,"Dream Boy","No English synopsis, No backdrop, No runtime, No Telugu title",1228121,http://localhost:3000/movies/dream-boy-2022
+Low,80%,2022,"7 Days 6 Nights","No English synopsis, No backdrop, No runtime, No Telugu title",993483,http://localhost:3000/movies/7-days-6-nights-2022
+Low,80%,2022,"Konda","No English synopsis, No backdrop, No runtime, No Telugu title",988461,http://localhost:3000/movies/konda-2022
+Low,80%,2022,"Pratibimbalu","No English synopsis, No backdrop, No runtime, No Telugu title",1045069,http://localhost:3000/movies/pratibimbalu-2022
+Low,80%,2022,"3e","No English synopsis, No backdrop, No runtime, No Telugu title",932289,http://localhost:3000/movies/3e-2022
+Low,80%,2022,"Aakasha Veedhullo","No English synopsis, No backdrop, No runtime, No Telugu title",1019949,http://localhost:3000/movies/aakasha-veedhullo-2022
+Low,80%,2022,"Nenu C/o Nuvvu","No English synopsis, No backdrop, No runtime, No Telugu title",1031948,http://localhost:3000/movies/nenu-co-nuvvu-2022
+Low,85%,,"Mysaa","No English synopsis, No runtime, No Telugu title",1504630,http://localhost:3000/movies/mysaa-tba
+Low,85%,,"Euphoria","No English synopsis, No runtime, No Telugu title",1438392,http://localhost:3000/movies/euphoria-tba
+Low,85%,,"Biker","No English synopsis, No runtime, No Telugu title",1423251,http://localhost:3000/movies/biker-tba
+Low,85%,,"Abhiram","No English synopsis, No runtime, No Telugu title",1042382,http://localhost:3000/movies/abhiram-tba
+Low,85%,,"Maate Mantramu","No English synopsis, No runtime, No Telugu title",1040658,http://localhost:3000/movies/maate-mantramu-tba
+Low,85%,,"Legacy","No English synopsis, No runtime, No Telugu title",1436202,http://localhost:3000/movies/legacy-tba
+Low,85%,,"Vāranāsi","No English synopsis, No runtime, No Telugu title",920708,http://localhost:3000/movies/varanasi-tba
+Low,85%,2026,"Nari Nari Naduma Murari","No English synopsis, No runtime, No Telugu title",1417849,http://localhost:3000/movies/nari-nari-naduma-murari-2026
+Low,85%,2026,"Honey","No English synopsis, No runtime, No Telugu title",1607762,http://localhost:3000/movies/honey-2026
+Low,85%,2026,"Psych Siddhartha","No English synopsis, No runtime, No Telugu title",1594670,http://localhost:3000/movies/psych-siddhartha-2026
+Low,85%,2026,"Goodachari 2","No English synopsis, No runtime, No Telugu title",1196470,http://localhost:3000/movies/goodachari-2-2026
+Low,85%,2026,"Itllu Arjuna","No English synopsis, No runtime, No Telugu title",1440539,http://localhost:3000/movies/itllu-arjuna-2026
+Low,85%,2026,"Rowdy Janardhana","No English synopsis, No runtime, No Telugu title",1389373,http://localhost:3000/movies/rowdy-janardhana-2026
+Low,85%,2026,"Bhartha Mahasayulaku Wignyapthi","No English synopsis, No runtime, No Telugu title",1442975,http://localhost:3000/movies/bhartha-mahasayulaku-wignyapthi-2026
+Low,85%,2026,"Ustaad Bhagat Singh","No English synopsis, No runtime, No Telugu title",1022788,http://localhost:3000/movies/ustaad-bhagat-singh-2026
+Low,85%,2026,"Funky","No English synopsis, No runtime, No Telugu title",1403737,http://localhost:3000/movies/funky-2026
+Low,85%,2026,"Nilakanta","No English synopsis, No runtime, No Telugu title",1107009,http://localhost:3000/movies/nilakanta-2026
+Low,85%,2026,"Dark Chocolate","No English synopsis, No runtime, No Telugu title",1445172,http://localhost:3000/movies/dark-chocolate-2026
+Low,85%,2026,"Anaganaga Oka Raju","No English synopsis, No runtime, No Telugu title",1407432,http://localhost:3000/movies/anaganaga-oka-raju-2026
+Low,85%,2026,"Lenin","No English synopsis, No backdrop, No runtime, No Telugu title",1408170,http://localhost:3000/movies/lenin-tba
+Low,85%,2026,"Om Shanti Shanti Shantihi","No English synopsis, No runtime, No Telugu title",1508577,http://localhost:3000/movies/om-shanti-shanti-shantihi-2026
+Low,85%,2025,"Gurram Paapi Reddy","No English synopsis, No runtime, No Telugu title",1518070,http://localhost:3000/movies/gurram-paapi-reddy-2025
+Low,85%,2025,"They Call Him OG","No English synopsis, No runtime, No Telugu title",1080365,http://localhost:3000/movies/they-call-him-og-2025
+Low,85%,2025,"14 Days (girlfriend Intlo)","No English synopsis, No runtime, No Telugu title",1444255,http://localhost:3000/movies/14-days-girlfriend-intlo-2025
+Low,85%,2025,"Mass Jathara","No English synopsis, No runtime, No Telugu title",1381405,http://localhost:3000/movies/mass-jathara-2025
+Low,85%,2025,"Raju Weds Rambai","No English synopsis, No runtime, No Telugu title",1580640,http://localhost:3000/movies/raju-weds-rambai-2025
+Low,85%,2025,"Akkada Ammayi Ikkada Abbayi","No English synopsis, No runtime, No Telugu title",1462729,http://localhost:3000/movies/akkada-ammayi-ikkada-abbayi-2025
+Low,85%,2025,"Enuguthondam Ghatikachalam","No English synopsis, No runtime, No Telugu title",1579744,http://localhost:3000/movies/enuguthondam-ghatikachalam-2025
+Low,85%,2025,"Sundarakanda","No English synopsis, No runtime, No Telugu title",1277726,http://localhost:3000/movies/sundarakanda-2025
+Low,85%,2025,"8 Vasantalu","No English synopsis, No runtime, No Telugu title",1370032,http://localhost:3000/movies/8-vasantalu-2025
+Low,85%,2025,"Chaurya Paatham","No English synopsis, No runtime, No Telugu title",1472031,http://localhost:3000/movies/chaurya-paatham-2025
+Low,85%,2025,"Arjun Son of Vyjayanthi","No English synopsis, No runtime, No Telugu title",1447219,http://localhost:3000/movies/arjun-son-of-vyjayanthi-2025
+Low,85%,2025,"Shashtipoorthi","No English synopsis, No runtime, No Telugu title",1108193,http://localhost:3000/movies/shashtipoorthi-2025
+Low,85%,2025,"Sarangapani Jathakam","No English synopsis, No runtime, No Telugu title",1354069,http://localhost:3000/movies/sarangapani-jathakam-2025
+Low,85%,2025,"Chiranjeeva","No English synopsis, No runtime, No Telugu title",1576463,http://localhost:3000/movies/chiranjeeva-2025
+Low,85%,2025,"Brahma Anandam","No English synopsis, No runtime, No Telugu title",1418578,http://localhost:3000/movies/brahma-anandam-2025
+Low,85%,2025,"Thandel","No English synopsis, No runtime, No Telugu title",1208735,http://localhost:3000/movies/thandel-2025
+Low,85%,2025,"Thammudu","No English synopsis, No runtime, No Telugu title",1263029,http://localhost:3000/movies/thammudu-2025
+Low,85%,2025,"23 (Iravai Moodu)","No English synopsis, No runtime, No Telugu title",1481554,http://localhost:3000/movies/23-iravai-moodu-2025
+Low,85%,2025,"Eesha","No English synopsis, No runtime, No Telugu title",1601310,http://localhost:3000/movies/eesha-2025
+Low,85%,2025,"Patang","No English synopsis, No runtime, No Telugu title",1603844,http://localhost:3000/movies/patang-2025
+Low,85%,2025,"Suryapet Junction","No English synopsis, No runtime, No Telugu title",1074619,http://localhost:3000/movies/suryapet-junction-2025
+Low,85%,2025,"Janata Bar","No English synopsis, No runtime, No Telugu title",1085752,http://localhost:3000/movies/janata-bar-2025
+Low,85%,2025,"Dreamcatcher","No English synopsis, No backdrop, No runtime, No Telugu title",1415465,http://localhost:3000/movies/dreamcatcher-2025
+Low,85%,2025,"Sankranthiki Vasthunam","No English synopsis, No runtime, No Telugu title",1380920,http://localhost:3000/movies/sankranthiki-vasthunam-2025
+Low,85%,2025,"HIT: The Third Case","No English synopsis, No runtime, No Telugu title",1060046,http://localhost:3000/movies/hit-the-third-case-2025
+Low,85%,2025,"Sasivadane","No English synopsis, No runtime, No Telugu title",1413637,http://localhost:3000/movies/sasivadane-2025
+Low,85%,2025,"Court: State vs. A Nobody","No English synopsis, No runtime, No Telugu title",1424217,http://localhost:3000/movies/court-state-vs-a-nobody-2025
+Low,85%,2025,"Hathya","No English synopsis, No runtime, No Telugu title",1422602,http://localhost:3000/movies/hathya-2025
+Low,85%,2025,"Hari Hara Veera Mallu: Part 1 – Sword vs Spirit","No English synopsis, No runtime, No Telugu title",727121,http://localhost:3000/movies/hari-hara-veera-mallu-part-1-sword-vs-spirit-2025
+Low,85%,2024,"Matka","No English synopsis, No runtime, No Telugu title",1233327,http://localhost:3000/movies/matka-2024
+Low,85%,2024,"Oka Manchi Prema Katha","No English synopsis, No runtime, No Telugu title",1399236,http://localhost:3000/movies/oka-manchi-prema-katha-2024
+Low,85%,2024,"Appudo Ippudo Eppudo","No English synopsis, No runtime, No Telugu title",1380109,http://localhost:3000/movies/appudo-ippudo-eppudo-2024
+Low,85%,2024,"Veeranjaneyulu Vihara Yatra","No English synopsis, No runtime, No Telugu title",1319864,http://localhost:3000/movies/veeranjaneyulu-vihara-yatra-2024
+Low,85%,2024,"Om Bheem Bush","No English synopsis, No runtime, No Telugu title",1248487,http://localhost:3000/movies/om-bheem-bush-2024
+Low,85%,2024,"Jilebi","No English synopsis, No runtime, No Telugu title",1032240,http://localhost:3000/movies/jilebi-2024
+Low,85%,2024,"Maa Nanna Superhero","No English synopsis, No runtime, No Telugu title",1357414,http://localhost:3000/movies/maa-nanna-superhero-2024
+Low,85%,2024,"Double iSmart","No English synopsis, No runtime, No Telugu title",1127824,http://localhost:3000/movies/double-ismart-2024
+Low,85%,2024,"Indrani - Epic1: Dharam vs Karam","No English synopsis, No runtime, No Telugu title",966900,http://localhost:3000/movies/indrani-epic1-dharam-vs-karam-2024
+Low,85%,2024,"Kalki 2898-AD","No English synopsis, No runtime, No Telugu title",801688,http://localhost:3000/movies/kalki-2898-ad-2024
+Low,85%,2024,"Dheera","No English synopsis, No runtime, No Telugu title",1034187,http://localhost:3000/movies/dheera-2024
+Low,85%,2024,"Aay","No English synopsis, No runtime, No Telugu title",1373129,http://localhost:3000/movies/aay-2024
+Low,85%,2024,"Dhoom Dhaam","No English synopsis, No runtime, No Telugu title",1383695,http://localhost:3000/movies/dhoom-dhaam-2024
+Low,85%,2024,"Raju Gari Ammayi Naidu Gari Abbayi","No English synopsis, No runtime, No Telugu title",1454579,http://localhost:3000/movies/raju-gari-ammayi-naidu-gari-abbayi-2024
+Low,85%,2024,"Ramnagar Bunny","No English synopsis, No runtime, No Telugu title",1365585,http://localhost:3000/movies/ramnagar-bunny-2024
+Low,85%,2024,"Razakar: The Silent Genocide of Hyderabad","No English synopsis, No runtime, No Telugu title",1210466,http://localhost:3000/movies/razakar-the-silent-genocide-of-hyderabad-2024
+Low,85%,2024,"Janaka Aithe Ganaka","No English synopsis, No runtime, No Telugu title",1357662,http://localhost:3000/movies/janaka-aithe-ganaka-2024
+Low,85%,2024,"Ground","No English synopsis, No backdrop, No runtime, No Telugu title",1302681,http://localhost:3000/movies/ground-2024
+Low,85%,2024,"Simbaa","No English synopsis, No runtime, No Telugu title",984387,http://localhost:3000/movies/simbaa-2024
+Low,85%,2024,"Tiragabadara Saami","No English synopsis, No runtime, No Telugu title",1171732,http://localhost:3000/movies/tiragabadara-saami-2024
+Low,85%,2024,"Nindha","No English synopsis, No runtime, No Telugu title",1307065,http://localhost:3000/movies/nindha-2024
+Low,85%,2024,"Vidya Vasula Aham","No English synopsis, No runtime, No Telugu title",1029449,http://localhost:3000/movies/vidya-vasula-aham-2024
+Low,85%,2024,"Palik","No English synopsis, No runtime, No Telugu title",1297860,http://localhost:3000/movies/palik-2024
+Low,85%,2024,"Mathu Vadalara 2","No English synopsis, No runtime, No Telugu title",1249902,http://localhost:3000/movies/mathu-vadalara-2-2024
+Low,85%,2024,"Krishnamma","No English synopsis, No runtime, No Telugu title",1001632,http://localhost:3000/movies/krishnamma-2024
+Low,85%,2024,"Bhaje Vaayu Vegam","No English synopsis, No runtime, No Telugu title",962108,http://localhost:3000/movies/bhaje-vaayu-vegam-2024
+Low,85%,2024,"Pailam Pilaga","No English synopsis, No runtime, No Telugu title",1357437,http://localhost:3000/movies/pailam-pilaga-2024
+Low,85%,2024,"Srikakulam Sherlockholmes","No English synopsis, No runtime, No Telugu title",1406816,http://localhost:3000/movies/srikakulam-sherlockholmes-2024
+Low,85%,2024,"OMG: O Manchi Ghost","No English synopsis, No runtime, No Telugu title",1329937,http://localhost:3000/movies/omg-o-manchi-ghost-2024
+Low,85%,2024,"(Tillu)²","No English synopsis, No runtime, No Telugu title",1039482,http://localhost:3000/movies/tillu-2024
+Low,85%,2024,"S.I.T Special Investigation Team","No English synopsis, No runtime, No Telugu title",1287603,http://localhost:3000/movies/sit-special-investigation-team-2024
+Low,85%,2024,"Agent Narasimha‐117","No English synopsis, No backdrop, No runtime, No Telugu title",1224562,http://localhost:3000/movies/agent-narasimha117-2024
+Low,85%,2024,"Honeymoon Express","No English synopsis, No runtime, No Telugu title",1339339,http://localhost:3000/movies/honeymoon-express-2024
+Low,85%,2024,"Usha Parinayam","No English synopsis, No runtime, No Telugu title",1329323,http://localhost:3000/movies/usha-parinayam-2024
+Low,85%,2024,"Yatra 2","No English synopsis, No runtime, No Telugu title",1238535,http://localhost:3000/movies/yatra-2-2024
+Low,85%,2024,"Raajadhani Files","No English synopsis, No runtime, No Telugu title",1243124,http://localhost:3000/movies/raajadhani-files-2024
+Low,85%,2024,"Parijatha Parvam","No English synopsis, No runtime, No Telugu title",1276808,http://localhost:3000/movies/parijatha-parvam-2024
+Low,85%,2024,"Mechanic Rocky","No English synopsis, No runtime, No Telugu title",1102353,http://localhost:3000/movies/mechanic-rocky-2024
+Low,85%,2024,"Geethanjali Malli Vachindi","No English synopsis, No runtime, No Telugu title",1250852,http://localhost:3000/movies/geethanjali-malli-vachindi-2024
+Low,85%,2024,"Mercy Killing","No English synopsis, No runtime, No Telugu title",1363064,http://localhost:3000/movies/mercy-killing-2024
+Low,85%,2024,"Chaari 111","No English synopsis, No runtime, No Telugu title",1242191,http://localhost:3000/movies/chaari-111-2024
+Low,85%,2024,"Tantra","No English synopsis, No runtime, No Telugu title",1260435,http://localhost:3000/movies/tantra-2024
+Low,85%,2024,"Siddharth Roy","No English synopsis, No runtime, No Telugu title",1191542,http://localhost:3000/movies/siddharth-roy-2024
+Low,85%,2024,"Bhale Unnade","No English synopsis, No runtime, No Telugu title",1321944,http://localhost:3000/movies/bhale-unnade-2024
+Low,85%,2024,"Ooru Peru Bhairavakona","No English synopsis, No runtime, No Telugu title",1030109,http://localhost:3000/movies/ooru-peru-bhairavakona-2024
+Low,85%,2024,"Manamey","No English synopsis, No runtime, No Telugu title",1095889,http://localhost:3000/movies/manamey-2024
+Low,85%,2024,"Inti Number - 13","No English synopsis, No runtime, No Telugu title",1251918,http://localhost:3000/movies/inti-number-13-2024
+Low,85%,2024,"Shivam Bhaje","No English synopsis, No runtime, No Telugu title",1324173,http://localhost:3000/movies/shivam-bhaje-2024
+Low,85%,2024,"Thalakona","No English synopsis, No runtime, No Telugu title",1196307,http://localhost:3000/movies/thalakona-2024
+Low,85%,2024,"Bhamakalapam 2","No English synopsis, No runtime, No Telugu title",1238603,http://localhost:3000/movies/bhamakalapam-2-2024
+Low,85%,2024,"Devaki Nandana Vasudeva","No English synopsis, No runtime, No Telugu title",1390695,http://localhost:3000/movies/devaki-nandana-vasudeva-2024
+Low,85%,2024,"Uruku Patela","No English synopsis, No runtime, No Telugu title",1339992,http://localhost:3000/movies/uruku-patela-2024
+Low,85%,2024,"Darling","No English synopsis, No runtime, No Telugu title",1315143,http://localhost:3000/movies/darling-2024
+Low,85%,2024,"Viswam","No English synopsis, No runtime, No Telugu title",1273448,http://localhost:3000/movies/viswam-2024
+Low,85%,2024,"Fear","No English synopsis, No runtime, No Telugu title",880100,http://localhost:3000/movies/fear-2024
+Low,85%,2024,"A Goa Tripp...","No English synopsis, No runtime, No Telugu title",1295209,http://localhost:3000/movies/a-goa-tripp-2024
+Low,85%,2024,"I Hate You","No English synopsis, No runtime, No Telugu title",1568593,http://localhost:3000/movies/i-hate-you-2024
+Low,85%,2024,"35 - Chinna Katha Kaadu","No English synopsis, No runtime, No Telugu title",1329287,http://localhost:3000/movies/35-chinna-katha-kaadu-2024
+Low,85%,2024,"Bhoothaddam Bhaskar Narayana","No English synopsis, No runtime, No Telugu title",1243485,http://localhost:3000/movies/bhoothaddam-bhaskar-narayana-2024
+Low,85%,2024,"Gorre Puranam","No English synopsis, No runtime, No Telugu title",1357429,http://localhost:3000/movies/gorre-puranam-2024
+Low,85%,2024,"Operation Valentine","No English synopsis, No runtime, No Telugu title",1034158,http://localhost:3000/movies/operation-valentine-2024
+Low,85%,2024,"Drill","No English synopsis, No backdrop, No runtime, No Telugu title",1329802,http://localhost:3000/movies/drill-2024
+Low,85%,2024,"Make a Wish","No English synopsis, No runtime, No Telugu title",1393891,http://localhost:3000/movies/make-a-wish-2024
+Low,85%,2024,"Sam Anton","No English synopsis, No runtime, No Telugu title",608317,http://localhost:3000/movies/sam-anton-2024
+Low,85%,2024,"Brahmavaram PS Paridilo","No English synopsis, No backdrop, No runtime, No Telugu title",1542730,http://localhost:3000/movies/brahmavaram-ps-paridilo-2024
+Low,85%,2024,"Laggam","No English synopsis, No runtime, No Telugu title",1375193,http://localhost:3000/movies/laggam-2024
+Low,85%,2024,"Utsavam","No English synopsis, No runtime, No Telugu title",1237537,http://localhost:3000/movies/utsavam-2024
+Low,85%,2024,"100 Crores","No English synopsis, No runtime, No Telugu title",1364617,http://localhost:3000/movies/100-crores-2024
+Low,85%,2024,"Akshara","No English synopsis, No runtime, No Telugu title",408097,http://localhost:3000/movies/akshara-2024
+Low,85%,2024,"Narudi Brathuku Natana","No English synopsis, No runtime, No Telugu title",1376117,http://localhost:3000/movies/narudi-brathuku-natana-2024
+Low,85%,2024,"Maruthi Nagar Subramanyam","No English synopsis, No runtime, No Telugu title",1336352,http://localhost:3000/movies/maruthi-nagar-subramanyam-2024
+Low,85%,2024,"Prathinidhi 2","No English synopsis, No runtime, No Telugu title",1277697,http://localhost:3000/movies/prathinidhi-2-2024
+Low,85%,2024,"Naa Saami Ranga","No English synopsis, No runtime, No Telugu title",1171804,http://localhost:3000/movies/naa-saami-ranga-2024
+Low,85%,2024,"Pushpa 2 - The Rule","No English synopsis, No runtime, No Telugu title",857598,http://localhost:3000/movies/pushpa-2-the-rule-2024
+Low,85%,2024,"Mr Bachchan","No English synopsis, No runtime, No Telugu title",1232219,http://localhost:3000/movies/mr-bachchan-2024
+Low,85%,2024,"1980 Lo Radhekrishna","No English synopsis, No runtime, No Telugu title",1548765,http://localhost:3000/movies/1980-lo-radhekrishna-2024
+Low,85%,2024,"Love Mouli","No English synopsis, No runtime, No Telugu title",1302585,http://localhost:3000/movies/love-mouli-2024
+Low,85%,2024,"Kalinga","No English synopsis, No runtime, No Telugu title",1352962,http://localhost:3000/movies/kalinga-2024
+Low,85%,2024,"Sikandar Ka Muqaddar","No English synopsis, No backdrop, No runtime, No Telugu title",1252470,http://localhost:3000/movies/sikandar-ka-muqaddar-2024
+Low,85%,2024,"Anthima Theerpu","No English synopsis, No runtime, No Telugu title",1093029,http://localhost:3000/movies/anthima-theerpu-2024
+Low,85%,2024,"Aranmanai 4","No English synopsis, No backdrop, No runtime",1140905,http://localhost:3000/movies/aranmanai-4-2024
+Low,85%,2024,"My Dear Donga","No English synopsis, No runtime, No Telugu title",1254518,http://localhost:3000/movies/my-dear-donga-2024
+Low,85%,2023,"Hunt","No English synopsis, No runtime, No Telugu title",938890,http://localhost:3000/movies/hunt-2023
+Low,85%,2023,"Spark","No English synopsis, No runtime, No Telugu title",1191547,http://localhost:3000/movies/spark-2023
+Low,85%,2023,"My Name Is Shruthi","No English synopsis, No runtime, No Telugu title",948990,http://localhost:3000/movies/my-name-is-shruthi-2023
+Low,85%,2023,"Ala Ninnu Cheri","No English synopsis, No runtime, No Telugu title",1069928,http://localhost:3000/movies/ala-ninnu-cheri-2023
+Low,85%,2023,"Vidhi","No English synopsis, No runtime, No Telugu title",1199878,http://localhost:3000/movies/vidhi-2023
+Low,85%,2023,"Premadesam","No English synopsis, No runtime, No Telugu title",1026769,http://localhost:3000/movies/premadesam-2023
+Low,85%,2023,"Mr. King","No English synopsis, No runtime, No Telugu title",1105261,http://localhost:3000/movies/mr-king-2023
+Low,85%,2023,"O Saathiya","No English synopsis, No runtime, No Telugu title",1150097,http://localhost:3000/movies/o-saathiya-2023
+Low,85%,2023,"Mangalavaaram","No English synopsis, No runtime, No Telugu title",1093012,http://localhost:3000/movies/mangalavaaram-2023
+Low,85%,2023,"Maama Mascheendra","No English synopsis, No runtime, No Telugu title",974433,http://localhost:3000/movies/maama-mascheendra-2023
+Low,85%,2023,"Her: Chapter 1","No English synopsis, No runtime, No Telugu title",1178689,http://localhost:3000/movies/her-chapter-1-2023
+Low,85%,2023,"Ravanasura","No English synopsis, No runtime, No Telugu title",892269,http://localhost:3000/movies/ravanasura-2023
+Low,85%,2023,"#MenToo","No English synopsis, No runtime, No Telugu title",1093983,http://localhost:3000/movies/mentoo-2023
+Low,85%,2023,"Extra Ordinary Man","No English synopsis, No runtime, No Telugu title",1150622,http://localhost:3000/movies/extra-ordinary-man-2023
+Low,85%,2023,"Peddha Kapu - 1","No English synopsis, No runtime, No Telugu title",1174110,http://localhost:3000/movies/peddha-kapu-1-2023
+Low,85%,2023,"Case 30","No English synopsis, No runtime, No Telugu title",1194954,http://localhost:3000/movies/case-30-2023
+Low,85%,2023,"Ustaad","No English synopsis, No runtime, No Telugu title",1031983,http://localhost:3000/movies/ustaad-2023
+Low,85%,2023,"Suvarna Sundari","No English synopsis, No runtime, No Telugu title",1090546,http://localhost:3000/movies/suvarna-sundari-2023
+Low,85%,2023,"Bhuvanavijayam","No English synopsis, No runtime, No Telugu title",1092386,http://localhost:3000/movies/bhuvanavijayam-2023
+Low,85%,2023,"Chakravyuham","No English synopsis, No runtime, No Telugu title",1134790,http://localhost:3000/movies/chakravyuham-2023
+Low,85%,2023,"7:11 PM","No English synopsis, No runtime, No Telugu title",1150089,http://localhost:3000/movies/711-pm-2023
+Low,85%,2023,"Ahimsa","No English synopsis, No runtime, No Telugu title",1034181,http://localhost:3000/movies/ahimsa-2023
+Low,85%,2023,"Bhaag Saale","No English synopsis, No runtime, No Telugu title",1032268,http://localhost:3000/movies/bhaag-saale-2023
+Low,85%,2023,"Bubblegum","No English synopsis, No runtime, No Telugu title",1191554,http://localhost:3000/movies/bubblegum-2023
+Low,85%,2023,"Waltair Veerayya","No English synopsis, No runtime, No Telugu title",989017,http://localhost:3000/movies/waltair-veerayya-2023
+Low,85%,2023,"Kranthi","No English synopsis, No runtime, No Telugu title",1094483,http://localhost:3000/movies/kranthi-2023
+Low,85%,2023,"Kousalya Supraja Rama","No English synopsis, No runtime, No Telugu title",1126677,http://localhost:3000/movies/kousalya-supraja-rama-2008
+Low,85%,2023,"Vinaro Bhagyamu Vishnu Katha","No English synopsis, No runtime, No Telugu title",1001256,http://localhost:3000/movies/vinaro-bhagyamu-vishnu-katha-2023
+Low,85%,2023,"Ramabanam","No English synopsis, No runtime, No Telugu title",1074641,http://localhost:3000/movies/ramabanam-2023
+Low,85%,2023,"Maataraani Mounamidhi","No English synopsis, No runtime, No Telugu title",1095565,http://localhost:3000/movies/maataraani-mounamidhi-2023
+Low,85%,2023,"Tiger Nageswara Rao","No English synopsis, No runtime, No Telugu title",893653,http://localhost:3000/movies/tiger-nageswara-rao-2023
+Low,85%,2023,"Bhagavanth Kesari","No English synopsis, No runtime, No Telugu title",979669,http://localhost:3000/movies/bhagavanth-kesari-2023
+Low,85%,2023,"Music School","No English synopsis, No runtime, No Telugu title",984975,http://localhost:3000/movies/music-school-2023
+Low,85%,2023,"Miss. Shetty Mr. Polishetty","No English synopsis, No runtime, No Telugu title",1045385,http://localhost:3000/movies/miss-shetty-mr-polishetty-2023
+Low,85%,2023,"Salaar: Part 1 - Ceasefire","No English synopsis, No runtime, No Telugu title",770906,http://localhost:3000/movies/salaar-part-1-ceasefire-2023
+Low,85%,2023,"Nagumome Chaalu Le","No English synopsis, No runtime, No Telugu title",1160225,http://localhost:3000/movies/nagumome-chaalu-le-2023
+Low,85%,2023,"Baby","No English synopsis, No runtime, No Telugu title",615777,http://localhost:3000/movies/baby-2023
+Low,85%,2023,"Veera Simha Reddy","No English synopsis, No runtime, No Telugu title",896669,http://localhost:3000/movies/veera-simha-reddy-2023
+Low,85%,2023,"Aadikeshava","No English synopsis, No runtime, No Telugu title",1069884,http://localhost:3000/movies/aadikeshava-2023
+Low,85%,2023,"Spy","No English synopsis, No runtime, No Telugu title",1187840,http://localhost:3000/movies/spy-2023
+Low,85%,2023,"Martin Luther King","No English synopsis, No runtime, No Telugu title",1186285,http://localhost:3000/movies/martin-luther-king-2023
+Low,85%,2023,"Pindam","No English synopsis, No runtime, No Telugu title",1193626,http://localhost:3000/movies/pindam-2023
+Low,85%,2023,"Amigos","No English synopsis, No runtime, No Telugu title",1034587,http://localhost:3000/movies/amigos-2023
+Low,85%,2023,"Maya Petika","No English synopsis, No runtime, No Telugu title",1048309,http://localhost:3000/movies/maya-petika-2023
+Low,85%,2023,"Asvins","No English synopsis, No runtime, No Telugu title",1103708,http://localhost:3000/movies/asvins-2023
+Low,85%,2023,"Sathi Gani Rendu Ekaralu","No English synopsis, No runtime, No Telugu title",1096417,http://localhost:3000/movies/sathi-gani-rendu-ekaralu-2023
+Low,85%,2023,"Das Ka Dhamki","No English synopsis, No runtime, No Telugu title",1043665,http://localhost:3000/movies/das-ka-dhamki-2023
+Low,85%,2023,"Richie Gadi Pelli","No English synopsis, No runtime, No Telugu title",1095850,http://localhost:3000/movies/richie-gadi-pelli-2023
+Low,85%,2023,"Hidimbha","No English synopsis, No runtime, No Telugu title",1154286,http://localhost:3000/movies/hidimbha-2023
+Low,85%,2023,"Samajavaragamana","No English synopsis, No runtime, No Telugu title",1031218,http://localhost:3000/movies/samajavaragamana-2023
+Low,85%,2023,"Balagam","No English synopsis, No runtime, No Telugu title",1092632,http://localhost:3000/movies/balagam-2023
+Low,85%,2023,"Dochevaarevarura","No English synopsis, No runtime, No Telugu title",1184930,http://localhost:3000/movies/dochevaarevarura-2023
+Low,85%,2023,"Atharva","No English synopsis, No runtime, No Telugu title",1034882,http://localhost:3000/movies/atharva-2023
+Low,85%,2023,"Pop Corn","No English synopsis, No runtime, No Telugu title",1093015,http://localhost:3000/movies/pop-corn-2023
+Low,85%,2023,"Katha Venuka Katha","No English synopsis, No runtime, No Telugu title",1101147,http://localhost:3000/movies/katha-venuka-katha-2023
+Low,85%,2023,"Malli Pelli","No English synopsis, No runtime, No Telugu title",1104031,http://localhost:3000/movies/malli-pelli-2023
+Low,85%,2023,"Rules Ranjann","No English synopsis, No runtime, No Telugu title",1001279,http://localhost:3000/movies/rules-ranjann-2023
+Low,85%,2023,"Kalyanam Kamaneeyam","No English synopsis, No runtime, No Telugu title",1061197,http://localhost:3000/movies/kalyanam-kamaneeyam-2023
+Low,85%,2023,"Rebels of Thupakula Gudem","No English synopsis, No runtime, No Telugu title",1080975,http://localhost:3000/movies/rebels-of-thupakula-gudem-2023
+Low,85%,2023,"Slum Dog Husband","No English synopsis, No runtime, No Telugu title",1168772,http://localhost:3000/movies/slum-dog-husband-2023
+Low,85%,2023,"Mr. Pregnant","No English synopsis, No runtime, No Telugu title",1166642,http://localhost:3000/movies/mr-pregnant-2023
+Low,85%,2023,"Nenu Student Sir!","No English synopsis, No runtime, No Telugu title",1034164,http://localhost:3000/movies/nenu-student-sir-2023
+Low,85%,2023,"The Trial","No hero, No English synopsis, No runtime, No Telugu title",1228548,http://localhost:3000/movies/the-trial-2023
+Low,85%,2023,"Asalu","No English synopsis, No runtime, No Telugu title",1112373,http://localhost:3000/movies/asalu-2023
+Low,85%,2023,"Shaakuntalam","No English synopsis, No runtime, No Telugu title",913046,http://localhost:3000/movies/shaakuntalam-2023
+Low,85%,2023,"O Kala","No English synopsis, No runtime, No Telugu title",1112309,http://localhost:3000/movies/o-kala-2023
+Low,85%,2023,"Raakshasa Kaavyam","No English synopsis, No runtime, No Telugu title",1182362,http://localhost:3000/movies/raakshasa-kaavyam-2023
+Low,85%,2023,"Gandeevadhari Arjuna","No English synopsis, No runtime, No Telugu title",1034155,http://localhost:3000/movies/gandeevadhari-arjuna-2023
+Low,85%,2023,"Kushi","No English synopsis, No runtime, No Telugu title",965489,http://localhost:3000/movies/kushi-2023
+Low,85%,2023,"Keedaa Cola","No English synopsis, No runtime, No Telugu title",994333,http://localhost:3000/movies/keedaa-cola-2023
+Low,85%,2023,"Sridevi Shoban Babu","No English synopsis, No runtime, No Telugu title",1088935,http://localhost:3000/movies/sridevi-shoban-babu-2023
+Low,85%,2023,"Butta Bomma","No English synopsis, No runtime, No Telugu title",1045394,http://localhost:3000/movies/butta-bomma-2023
+Low,85%,2023,"Agent","No English synopsis, No runtime, No Telugu title",1115760,http://localhost:3000/movies/agent-2023
+Low,85%,2023,"Maa Oori Polimera 2","No English synopsis, No runtime, No Telugu title",1180236,http://localhost:3000/movies/maa-oori-polimera-2-2023
+Low,85%,2023,"Vyooham","No English synopsis, No runtime, No Telugu title",1196322,http://localhost:3000/movies/vyooham-2023
+Low,85%,2023,"Csi Sanatan","No English synopsis, No runtime, No Telugu title",901277,http://localhost:3000/movies/csi-sanatan-2023
+Low,85%,2023,"Vimanam","No English synopsis, No runtime, No Telugu title",1114702,http://localhost:3000/movies/vimanam-2023
+Low,85%,2023,"Rudramambapuram","No English synopsis, No runtime, No Telugu title",1148908,http://localhost:3000/movies/rudramambapuram-2023
+Low,85%,2023,"Month of Madhu","No English synopsis, No runtime, No Telugu title",1188003,http://localhost:3000/movies/month-of-madhu-2023
+Low,85%,2023,"Virupaksha","No English synopsis, No runtime, No Telugu title",1034590,http://localhost:3000/movies/virupaksha-2023
+Low,85%,2023,"Rangamarthanda","No English synopsis, No runtime, No Telugu title",1064247,http://localhost:3000/movies/rangamarthanda-2023
+Low,85%,2023,"Bedurulanka 2012","No English synopsis, No runtime, No Telugu title",1055200,http://localhost:3000/movies/bedurulanka-2012-2023
+Low,85%,2023,"Rangabali","No English synopsis, No runtime, No Telugu title",1137914,http://localhost:3000/movies/rangabali-2023
+Low,85%,2023,"The Great Indian Suicide","No English synopsis, No runtime, No Telugu title",1187637,http://localhost:3000/movies/the-great-indian-suicide-2023
+Low,85%,2023,"Manu Charitra","No English synopsis, No runtime, No Telugu title",882020,http://localhost:3000/movies/manu-charitra-2023
+Low,85%,2023,"#mayalo","No English synopsis, No runtime, No Telugu title",1215764,http://localhost:3000/movies/mayalo-2023
+Low,85%,2023,"Writer Padmabhushan","No English synopsis, No runtime, No Telugu title",1072090,http://localhost:3000/movies/writer-padmabhushan-2023
+Low,85%,2023,"Prema Vimanam","No English synopsis, No runtime, No Telugu title",1119091,http://localhost:3000/movies/prema-vimanam-2023
+Low,85%,2023,"Custody","No English synopsis, No runtime, No Telugu title",965203,http://localhost:3000/movies/custody-2023
+Low,85%,2023,"Skanda: The Attacker","No English synopsis, No runtime, No Telugu title",1031973,http://localhost:3000/movies/skanda-the-attacker-2023
+Low,85%,2023,"Intinti Ramayanam","No English synopsis, No runtime, No Telugu title",1099450,http://localhost:3000/movies/intinti-ramayanam-2023
+Low,85%,2023,"Mem Famous","No English synopsis, No runtime, No Telugu title",1130143,http://localhost:3000/movies/mem-famous-2023
+Low,85%,2023,"Meter","No English synopsis, No runtime, No Telugu title",1001261,http://localhost:3000/movies/meter-2023
+Low,85%,2023,"Phalana Abbayi Phalana Ammayi","No English synopsis, No runtime, No Telugu title",1069895,http://localhost:3000/movies/phalana-abbayi-phalana-ammayi-2023
+Low,85%,2023,"Matti Katha","No English synopsis, No runtime, No Telugu title",1190487,http://localhost:3000/movies/matti-katha-2023
+Low,85%,2023,"Upendra Gadi Adda","No English synopsis, No runtime, No Telugu title",1263017,http://localhost:3000/movies/upendra-gadi-adda-2023
+Low,85%,2023,"Gammathu","No English synopsis, No runtime, No Telugu title",1177954,http://localhost:3000/movies/gammathu-2023
+Low,85%,2023,"Two Souls","No English synopsis, No runtime, No Telugu title",1140530,http://localhost:3000/movies/two-souls-2023
+Low,85%,2023,"Tantiram","No English synopsis, No runtime, No Telugu title",1181893,http://localhost:3000/movies/tantiram-2023
+Low,85%,2023,"Thathsama Thathbhava","No English synopsis, No runtime, No Telugu title",1198607,http://localhost:3000/movies/thathsama-thathbhava-2023
+Low,85%,2023,"Anni Manchi Sakunamule","No English synopsis, No runtime, No Telugu title",1032293,http://localhost:3000/movies/anni-manchi-sakunamule-2023
+Low,85%,2023,"Devil","No English synopsis, No runtime, No Telugu title",938614,http://localhost:3000/movies/devil-2023
+Low,85%,2023,"Kota Bommali Ps","No English synopsis, No runtime, No Telugu title",1205282,http://localhost:3000/movies/kota-bommali-ps-2023
+Low,85%,2023,"Rudrangi","No English synopsis, No runtime, No Telugu title",1032302,http://localhost:3000/movies/rudrangi-2023
+Low,85%,2023,"Mr. Kalyan","No English synopsis, No runtime, No Telugu title",1098249,http://localhost:3000/movies/mr-kalyan-2023
+Low,85%,2023,"Bhola Shankar","No English synopsis, No runtime, No Telugu title",864221,http://localhost:3000/movies/bhola-shankar-2023
+Low,85%,2023,"Hi Nanna","No English synopsis, No runtime, No Telugu title",1068452,http://localhost:3000/movies/hi-nanna-2023
+Low,85%,2023,"Dasara","No English synopsis, No runtime, No Telugu title",885184,http://localhost:3000/movies/dasara-2023
+Low,85%,2023,"Bhari Taraganam","No English synopsis, No runtime, No Telugu title",956204,http://localhost:3000/movies/bhari-taraganam-2023
+Low,85%,2023,"Organic Mama Hybrid Alludu","No English synopsis, No runtime, No Telugu title",982875,http://localhost:3000/movies/organic-mama-hybrid-alludu-2023
+Low,85%,2023,"Lust Stories 2","No English synopsis, No backdrop, No runtime, No Telugu title",1136736,http://localhost:3000/movies/lust-stories-2-2023
+Low,85%,2023,"Karungaapiyam","No English synopsis, No backdrop, No runtime",1090518,http://localhost:3000/movies/karungaapiyam-2023
+Low,85%,2023,"Karna","No English synopsis, No runtime, No Telugu title",680017,http://localhost:3000/movies/karna-2023
+Low,85%,2022,"Karthikeya 2","No English synopsis, No runtime, No Telugu title",894762,http://localhost:3000/movies/karthikeya-2-2022
+Low,85%,2022,"Krishna Vrinda Vihari","No English synopsis, No runtime, No Telugu title",930136,http://localhost:3000/movies/krishna-vrinda-vihari-2022
+Low,85%,2022,"Ranga Ranga Vaibhavanga","No English synopsis, No runtime, No Telugu title",934772,http://localhost:3000/movies/ranga-ranga-vaibhavanga-2022
+Low,85%,2022,"Nenu Meeku Baaga Kavalsinavaadini","No English synopsis, No runtime, No Telugu title",943301,http://localhost:3000/movies/nenu-meeku-baaga-kavalsinavaadini-2022
+Low,85%,2022,"Bujji... Ila Raa","No English synopsis, No runtime, No Telugu title",1022396,http://localhost:3000/movies/bujji-ila-raa-2022
+Low,85%,2022,"Good Luck Sakhi","No English synopsis, No runtime, No Telugu title",802166,http://localhost:3000/movies/good-luck-sakhi-2022
+Low,85%,2022,"Panchatantra Kathalu","No English synopsis, No runtime, No Telugu title",1006335,http://localhost:3000/movies/panchatantra-kathalu-2022
+Low,85%,2022,"Kalapuram","No English synopsis, No runtime, No Telugu title",1013726,http://localhost:3000/movies/kalapuram-2022
+Low,85%,2022,"The Warriorr","No English synopsis, No runtime, No Telugu title",927909,http://localhost:3000/movies/the-warriorr-2022
+Low,85%,2022,"Viraata Parvam","No English synopsis, No runtime, No Telugu title",609096,http://localhost:3000/movies/viraata-parvam-2022
+Low,85%,2022,"Bhamakalapam","No English synopsis, No runtime, No Telugu title",933476,http://localhost:3000/movies/bhamakalapam-2022
+Low,85%,2022,"Alluri","No English synopsis, No runtime, No Telugu title",995666,http://localhost:3000/movies/alluri-2022
+Low,85%,2022,"Nathicharami","No English synopsis, No runtime, No Telugu title",953481,http://localhost:3000/movies/nathicharami-2022
+Low,85%,2022,"Shikaaru","No English synopsis, No runtime, No Telugu title",943286,http://localhost:3000/movies/shikaaru-2022
+Low,85%,2022,"DJ Tillu","No English synopsis, No runtime, No Telugu title",937036,http://localhost:3000/movies/dj-tillu-2022
+Low,85%,2022,"Jayamma Panchayathi","No English synopsis, No runtime, No Telugu title",894749,http://localhost:3000/movies/jayamma-panchayathi-2022
+Low,85%,2022,"Malli Modalaindi","No English synopsis, No runtime, No Telugu title",890960,http://localhost:3000/movies/malli-modalaindi-2022
+Low,85%,2022,"Highway","No English synopsis, No runtime, No Telugu title",939979,http://localhost:3000/movies/highway-2022
+Low,85%,2022,"Dhamaka","No English synopsis, No runtime, No Telugu title",888234,http://localhost:3000/movies/dhamaka-2022
+Low,85%,2022,"Gurtunda Seetakalam","No English synopsis, No runtime, No Telugu title",804916,http://localhost:3000/movies/gurtunda-seetakalam-2022
+Low,85%,2022,"Muthayya","No English synopsis, No runtime, No Telugu title",1013652,http://localhost:3000/movies/muthayya-2022
+Low,85%,2022,"Yashoda","No English synopsis, No runtime, No Telugu title",900222,http://localhost:3000/movies/yashoda-2022
+Low,85%,2022,"Chittam Maharani","No English synopsis, No runtime, No Telugu title",1076655,http://localhost:3000/movies/chittam-maharani-2022
+Low,85%,2022,"Boyfriend for Hire","No English synopsis, No runtime, No Telugu title",1031577,http://localhost:3000/movies/boyfriend-for-hire-2022
+Low,85%,2022,"Khiladi","No English synopsis, No runtime, No Telugu title",794417,http://localhost:3000/movies/khiladi-2022
+Low,85%,2022,"Like, Share & Subscribe","No English synopsis, No runtime, No Telugu title",1032287,http://localhost:3000/movies/like-share-subscribe-2022
+Low,85%,2022,"Acharya","No English synopsis, No runtime, No Telugu title",679919,http://localhost:3000/movies/acharya-2022
+Low,85%,2022,"Cheppalani Undhi","No English synopsis, No runtime, No Telugu title",1048687,http://localhost:3000/movies/cheppalani-undhi-2022
+Low,85%,2022,"Sita Ramam","No English synopsis, No runtime, No Telugu title",894803,http://localhost:3000/movies/sita-ramam-2022
+Low,85%,2022,"Panchathantram","No English synopsis, No runtime, No Telugu title",891354,http://localhost:3000/movies/panchathantram-2022
+Low,85%,2022,"Nachindi Girl Friendu","No English synopsis, No runtime, No Telugu title",1032698,http://localhost:3000/movies/nachindi-girl-friendu-2022
+Low,85%,2022,"Bhala Thandanana","No English synopsis, No runtime, No Telugu title",889114,http://localhost:3000/movies/bhala-thandanana-2022
+Low,85%,2022,"Virgin Story","No English synopsis, No runtime, No Telugu title",895973,http://localhost:3000/movies/virgin-story-2022
+Low,85%,2022,"Nenevaru","No English synopsis, No runtime, No Telugu title",1046100,http://localhost:3000/movies/nenevaru-2022
+Low,85%,2022,"Gaalodu","No English synopsis, No runtime, No Telugu title",1046083,http://localhost:3000/movies/gaalodu-2022
+Low,85%,2022,"Lucky Lakshman","No English synopsis, No runtime, No Telugu title",1066738,http://localhost:3000/movies/lucky-lakshman-2022
+Low,85%,2022,"Urvasivo Rakshasivo","No English synopsis, No runtime, No Telugu title",1033866,http://localhost:3000/movies/urvasivo-rakshasivo-2022
+Low,85%,2022,"Bloody Mary","No English synopsis, No runtime, No Telugu title",938826,http://localhost:3000/movies/bloody-mary-2022
+Low,85%,2022,"18 Pages","No English synopsis, No runtime, No Telugu title",894758,http://localhost:3000/movies/18-pages-2022
+Low,85%,2022,"Major","No English synopsis, No runtime, No Telugu title",29715,http://localhost:3000/movies/major-2022
+Low,85%,2022,"Odela Railway Station","No English synopsis, No runtime, No Telugu title",893597,http://localhost:3000/movies/odela-railway-station-2022
+Low,85%,2022,"Gangster Gangaraju","No English synopsis, No runtime, No Telugu title",1012977,http://localhost:3000/movies/gangster-gangaraju-2022
+Low,85%,2022,"Aa Ammayi Gurinchi Meeku Cheppali","No English synopsis, No runtime, No Telugu title",921106,http://localhost:3000/movies/aa-ammayi-gurinchi-meeku-cheppali-2022
+Low,85%,2022,"Stand Up Rahul","No English synopsis, No runtime, No Telugu title",928618,http://localhost:3000/movies/stand-up-rahul-2022
+Low,85%,2022,"Andaru Bagundali Andulo Nenundali","No English synopsis, No runtime, No Telugu title",1040258,http://localhost:3000/movies/andaru-bagundali-andulo-nenundali-2022
+Low,85%,2022,"Ashoka Vanamlo Arjuna Kalyanam","No English synopsis, No runtime, No Telugu title",967796,http://localhost:3000/movies/ashoka-vanamlo-arjuna-kalyanam-2022
+Low,85%,2022,"Madhi","No English synopsis, No runtime, No Telugu title",1074677,http://localhost:3000/movies/madhi-2022
+Low,85%,2022,"Jagamemaya","No English synopsis, No runtime, No Telugu title",1061919,http://localhost:3000/movies/jagamemaya-2022
+Low,85%,2022,"Bimbisara","No English synopsis, No runtime, No Telugu title",891445,http://localhost:3000/movies/bimbisara-2022
+Low,85%,2022,"Katha Kanchiki Manam Intiki","No English synopsis, No runtime, No Telugu title",968122,http://localhost:3000/movies/katha-kanchiki-manam-intiki-2022
+Low,85%,2022,"Darja","No English synopsis, No runtime, No Telugu title",954512,http://localhost:3000/movies/darja-2022
+Low,85%,2022,"Mangalyam","No English synopsis, No runtime, No Telugu title",1042155,http://localhost:3000/movies/mangalyam-2022
+Low,85%,2022,"Uniki","No English synopsis, No runtime, No Telugu title",925426,http://localhost:3000/movies/uniki-2022
+Low,85%,2022,"Ghani","No English synopsis, No runtime, No Telugu title",790993,http://localhost:3000/movies/ghani-2022
+Low,85%,2022,"Veyi Subhamulu Kalugu Neeku","No English synopsis, No runtime, No Telugu title",1098250,http://localhost:3000/movies/veyi-subhamulu-kalugu-neeku-2022
+Low,85%,2022,"Atithi Devobhava","No English synopsis, No runtime, No Telugu title",890107,http://localhost:3000/movies/atithi-devobhava-2022
+Low,85%,2022,"The American Dream","No English synopsis, No runtime, No Telugu title",926841,http://localhost:3000/movies/the-american-dream-2022
+Low,85%,2022,"10th Class Diaries","No English synopsis, No runtime, No Telugu title",994386,http://localhost:3000/movies/10th-class-diaries-2022
+Low,85%,2022,"Kotha Kothaga","No English synopsis, No runtime, No Telugu title",1024989,http://localhost:3000/movies/kotha-kothaga-2022
+Low,85%,2022,"Macherla Niyojakavargam","No English synopsis, No runtime, No Telugu title",891010,http://localhost:3000/movies/macherla-niyojakavargam-2022
+Low,85%,2022,"Masooda","No English synopsis, No runtime, No Telugu title",1047902,http://localhost:3000/movies/masooda-2022
+Low,85%,2022,"Like Share & Subscribe","No English synopsis, No runtime, No Telugu title",1032287,http://localhost:3000/movies/like-share-and-subscribe-2022
+Low,85%,2022,"Tees Maar Khan","No English synopsis, No runtime, No Telugu title",890195,http://localhost:3000/movies/tees-maar-khan-2022
+Low,85%,2022,"Pakka Commercial","No English synopsis, No runtime, No Telugu title",891473,http://localhost:3000/movies/pakka-commercial-2022
+Low,85%,2022,"Neetho","No English synopsis, No runtime, No Telugu title",1034852,http://localhost:3000/movies/neetho-2022
+Low,85%,2022,"Godse","No English synopsis, No runtime, No Telugu title",804277,http://localhost:3000/movies/godse-2022
+Low,85%,2022,"Mishan Impossible","No English synopsis, No runtime, No Telugu title",889630,http://localhost:3000/movies/mishan-impossible-2022
+Low,85%,2022,"Shekar","No English synopsis, No runtime, No Telugu title",899000,http://localhost:3000/movies/shekar-2022
+Low,85%,2022,"Aadavaallu Meeku Johaarlu","No English synopsis, No runtime, No Telugu title",888299,http://localhost:3000/movies/aadavaallu-meeku-johaarlu-2022
+Low,85%,2022,"Induvadana","No English synopsis, No runtime, No Telugu title",945423,http://localhost:3000/movies/induvadana-2022
+Low,85%,2022,"Kinnerasani","No English synopsis, No runtime, No Telugu title",921382,http://localhost:3000/movies/kinnerasani-2022
+Low,85%,2022,"Crazy Fellow","No English synopsis, No runtime, No Telugu title",968602,http://localhost:3000/movies/crazy-fellow-2022
+Low,85%,2022,"Repeat","No English synopsis, No runtime, No Telugu title",1055536,http://localhost:3000/movies/repeat-2022
+Low,85%,2022,"Sasanasabha","No English synopsis, No runtime, No Telugu title",1001948,http://localhost:3000/movies/sasanasabha-2022
+Low,85%,2022,"Seetharamapuramlo","No English synopsis, No runtime, No Telugu title",1182298,http://localhost:3000/movies/seetharamapuramlo-2022
+Low,85%,2022,"Thaggedhe Le","No English synopsis, No runtime, No Telugu title",903142,http://localhost:3000/movies/thaggedhe-le-2022
+Low,85%,2022,"Oke Oka Jeevitham","No English synopsis, No runtime, No Telugu title",888319,http://localhost:3000/movies/oke-oka-jeevitham-2022
+Low,85%,2022,"Geetha","No English synopsis, No runtime, No Telugu title",953662,http://localhost:3000/movies/geetha-2022
+Low,85%,2022,"Sebastian P.c. 524","No English synopsis, No runtime, No Telugu title",903283,http://localhost:3000/movies/sebastian-pc-524-2022
+Low,85%,2022,"Raajahyogam","No English synopsis, No runtime, No Telugu title",1084175,http://localhost:3000/movies/raajahyogam-2022
+Low,85%,2022,"#69 Samskar Colony","No English synopsis, No runtime, No Telugu title",1144991,http://localhost:3000/movies/69-samskar-colony-2022
+Low,85%,2022,"Pellikuturu Party","No English synopsis, No runtime, No Telugu title",961624,http://localhost:3000/movies/pellikuturu-party-2022
+Low,85%,2022,"Valliddari Madhya","No English synopsis, No runtime, No Telugu title",1061647,http://localhost:3000/movies/valliddari-madhya-2022
+Low,85%,2022,"Wanted PanduGod","No English synopsis, No runtime, No Telugu title",1015581,http://localhost:3000/movies/wanted-pandugod-2022
+Low,85%,2022,"One By Two","No English synopsis, No runtime, No Telugu title",965019,http://localhost:3000/movies/one-by-two-2022
+Low,85%,2022,"HIT: The 2nd Case","No English synopsis, No runtime, No Telugu title",811945,http://localhost:3000/movies/hit-the-2nd-case-2022
+Low,85%,2022,"Ranasthali","No English synopsis, No runtime, No Telugu title",1140883,http://localhost:3000/movies/ranasthali-2022
+Low,85%,2022,"Chor Bazaar","No English synopsis, No runtime, No Telugu title",895245,http://localhost:3000/movies/chor-bazaar-2022
+Low,85%,2022,"Mukhachitram","No English synopsis, No runtime, No Telugu title",1055772,http://localhost:3000/movies/mukhachitram-2022
+Low,85%,2022,"Thank You","No English synopsis, No runtime, No Telugu title",902552,http://localhost:3000/movies/thank-you-2022
+Low,85%,2022,"Sehari","No English synopsis, No runtime, No Telugu title",918004,http://localhost:3000/movies/sehari-2022
+Low,85%,2022,"Sivudu","No English synopsis, No runtime, No Telugu title",901220,http://localhost:3000/movies/sivudu-2022
+Low,85%,2022,"Son of India","No English synopsis, No runtime, No Telugu title",799397,http://localhost:3000/movies/son-of-india-2022
+Low,85%,2022,"Saakini Daakini","No English synopsis, No runtime, No Telugu title",862946,http://localhost:3000/movies/saakini-daakini-2022
+Low,85%,2022,"Iravatham","No English synopsis, No runtime, No Telugu title",899661,http://localhost:3000/movies/iravatham-2022
+Low,85%,2022,"Swathi Muthyam","No English synopsis, No runtime, No Telugu title",900471,http://localhost:3000/movies/swathi-muthyam-2022
+Low,85%,2022,"Leharaayi","No English synopsis, No runtime, No Telugu title",1034246,http://localhost:3000/movies/leharaayi-2022
+Low,85%,2022,"Liger","No English synopsis, No runtime, No Telugu title",787163,http://localhost:3000/movies/liger-2022
+Low,85%,2022,"Butterfly","No English synopsis, No runtime, No Telugu title",1081772,http://localhost:3000/movies/butterfly-2022
+Low,85%,2022,"Ori Devuda..!","No English synopsis, No runtime, No Telugu title",896449,http://localhost:3000/movies/ori-devuda-2022
+Low,85%,2022,"Balamevvadu","No English synopsis, No runtime, No Telugu title",1031224,http://localhost:3000/movies/balamevvadu-2022
+Low,85%,2022,"Korameenu","No English synopsis, No runtime, No Telugu title",1069123,http://localhost:3000/movies/korameenu-2022
+Low,85%,2022,"Rowdy Boys","No English synopsis, No runtime, No Telugu title",894755,http://localhost:3000/movies/rowdy-boys-2022
+Low,85%,2022,"Dongalunnaru Jagratha","No English synopsis, No runtime, No Telugu title",982447,http://localhost:3000/movies/dongalunnaru-jagratha-2022
+Low,85%,2022,"Sammathame","No English synopsis, No runtime, No Telugu title",905606,http://localhost:3000/movies/sammathame-2022
+Low,85%,2022,"Gandharwa","No English synopsis, No runtime, No Telugu title",984518,http://localhost:3000/movies/gandharwa-2022
+Low,85%,2022,"Ginna","No English synopsis, No runtime, No Telugu title",999696,http://localhost:3000/movies/ginna-2022
+Low,85%,2022,"Focus","No English synopsis, No runtime, No Telugu title",1040591,http://localhost:3000/movies/focus-2022
+Low,85%,2022,"Bheemla Nayak","No English synopsis, No runtime, No Telugu title",811942,http://localhost:3000/movies/bheemla-nayak-2022
+Low,85%,2022,"First Day First Show","No English synopsis, No runtime, No Telugu title",1018195,http://localhost:3000/movies/first-day-first-show-2022
+Low,85%,2022,"The Ghost","No English synopsis, No runtime, No Telugu title",868666,http://localhost:3000/movies/the-ghost-2022
+Low,85%,2022,"Niku Naku Pellanta Tom Tom Tom","No English synopsis, No runtime, No Telugu title",1223818,http://localhost:3000/movies/niku-naku-pellanta-tom-tom-tom-2022
+Low,85%,2022,"Radhe Shyam","No English synopsis, No runtime, No Telugu title",673392,http://localhost:3000/movies/radhe-shyam-2022
+Low,85%,2022,"Happy Birthday","No English synopsis, No runtime, No Telugu title",1010403,http://localhost:3000/movies/happy-birthday-2022
+Low,85%,2022,"Jetty","No English synopsis, No runtime, No Telugu title",1031916,http://localhost:3000/movies/jetty-2022
+Low,85%,2022,"Ramarao on Duty","No English synopsis, No runtime, No Telugu title",850161,http://localhost:3000/movies/ramarao-on-duty-2022
+Low,85%,2022,"Bomma Blockbuster","No English synopsis, No runtime, No Telugu title",1036785,http://localhost:3000/movies/bomma-blockbuster-2022
+Low,85%,2022,"Kothala Rayudu","No English synopsis, No runtime, No Telugu title",944777,http://localhost:3000/movies/kothala-rayudu-2022
+Low,85%,2022,"Itlu Maredumilli Prajaneekam","No English synopsis, No runtime, No Telugu title",1030078,http://localhost:3000/movies/itlu-maredumilli-prajaneekam-2022
+Low,85%,2022,"Ante... Sundaraniki!","No English synopsis, No runtime, No Telugu title",834654,http://localhost:3000/movies/ante-sundaraniki-2022
+Low,85%,2022,"Sarkaru Vaari Paata","No English synopsis, No runtime, No Telugu title",784696,http://localhost:3000/movies/sarkaru-vaari-paata-2022
+Low,85%,2022,"Anukoni Prayanam","No English synopsis, No runtime, No Telugu title",1034215,http://localhost:3000/movies/anukoni-prayanam-2022
+Low,85%,2022,"Bangarraju","No English synopsis, No runtime, No Telugu title",865497,http://localhost:3000/movies/bangarraju-2022
+Low,85%,2022,"Super Machi","No English synopsis, No runtime, No Telugu title",889595,http://localhost:3000/movies/super-machi-2022
+Low,85%,2021,"Priyuraalu","No English synopsis, No runtime, No Telugu title",874789,http://localhost:3000/movies/priyuraalu-2021
+Low,85%,2021,"Cauliflower","No English synopsis, No runtime, No Telugu title",903116,http://localhost:3000/movies/cauliflower-2021
+Low,85%,2021,"Nootokka Jillala Andagadu","No English synopsis, No runtime, No Telugu title",870261,http://localhost:3000/movies/nootokka-jillala-andagadu-2021
+Low,85%,2021,"Uppena","No English synopsis, No runtime, No Telugu title",606718,http://localhost:3000/movies/uppena-2021
+Low,85%,2021,"Raja Raja Chora","No English synopsis, No runtime, No Telugu title",802735,http://localhost:3000/movies/raja-raja-chora-2021
+Low,85%,2021,"1997","No English synopsis, No runtime, No Telugu title",899699,http://localhost:3000/movies/1997-2021
+Low,85%,2021,"Ee Kathalo Paathralu Kalpitam","No English synopsis, No runtime, No Telugu title",811949,http://localhost:3000/movies/ee-kathalo-paathralu-kalpitam-2021
+Low,85%,2021,"Super Over","No English synopsis, No runtime, No Telugu title",788902,http://localhost:3000/movies/super-over-2021
+Low,85%,2021,"Thimmarusu","No English synopsis, No runtime, No Telugu title",805014,http://localhost:3000/movies/thimmarusu-2021
+Low,85%,2021,"Ichata Vahanamulu Nilupa Radu","No English synopsis, No runtime, No Telugu title",795141,http://localhost:3000/movies/ichata-vahanamulu-nilupa-radu-2021
+Low,85%,2021,"Naandhi","No English synopsis, No runtime, No Telugu title",782976,http://localhost:3000/movies/naandhi-2021
+Low,85%,2021,"Shaadi Mubarak","No English synopsis, No runtime, No Telugu title",802592,http://localhost:3000/movies/shaadi-mubarak-2021
+Low,85%,2021,"Ishq","No English synopsis, No runtime, No Telugu title",833422,http://localhost:3000/movies/ishq-2021
+Low,90%,2026,"Fauji","No English synopsis, No runtime",1257973,http://localhost:3000/movies/fauji-2026
+Low,90%,2026,"The Paradise","No English synopsis, No runtime, No Telugu title",1376856,http://localhost:3000/movies/the-paradise-2026
+Low,90%,2026,"Rao Bahadur","No English synopsis, No runtime, No Telugu title",1443961,http://localhost:3000/movies/rao-bahadur-2026
+Low,90%,2026,"Dacoit","No English synopsis, No runtime",1220522,http://localhost:3000/movies/dacoit-2026
+Low,90%,2026,"Alcohol","No English synopsis, No runtime, No Telugu title",1403166,http://localhost:3000/movies/alcohol-2026
+Low,90%,2026,"Spirit","No English synopsis, No runtime, No Telugu title",1022789,http://localhost:3000/movies/spirit
+Low,90%,2026,"Peddi","No English synopsis, No runtime",1057265,http://localhost:3000/movies/peddi-2026
+Low,90%,2026,"Swayambhu","No English synopsis, No runtime, No Telugu title",1177134,http://localhost:3000/movies/swayambhu-2026
+Low,90%,2026,"The Raja Saab","No English synopsis, No runtime",1022453,http://localhost:3000/movies/the-raja-saab-2026
+Low,90%,2026,"Dragon","No English synopsis, No runtime",645708,http://localhost:3000/movies/dragon-ntr-2026
+Low,90%,2025,"Anaganaga","No English synopsis, No runtime, No Telugu title",1457310,http://localhost:3000/movies/anaganaga-2025
+Low,90%,2025,"The Great Pre-Wedding Show","No English synopsis, No runtime, No Telugu title",1574296,http://localhost:3000/movies/the-great-pre-wedding-show-2025
+Low,90%,2025,"Shambhala","No English synopsis, No runtime, No Telugu title",1531435,http://localhost:3000/movies/shambhala-2025
+Low,90%,2025,"Gandhi Tatha Chettu","No English synopsis, No runtime, No Telugu title",1417308,http://localhost:3000/movies/gandhi-tatha-chettu-2025
+Low,90%,2025,"Daksha: The Deadly Conspiracy","No English synopsis, No runtime, No Telugu title",1006780,http://localhost:3000/movies/daksha-the-deadly-conspiracy-2025
+Low,90%,2025,"Shivangi","No English synopsis, No runtime, No Telugu title",1443590,http://localhost:3000/movies/shivangi-2025
+Low,90%,2025,"Paanch Minar","No English synopsis, No runtime, No Telugu title",1585219,http://localhost:3000/movies/paanch-minar-2025
+Low,90%,2025,"Oh Bhama Ayyo Rama","No English synopsis, No runtime, No Telugu title",1439068,http://localhost:3000/movies/oh-bhama-ayyo-rama-2025
+Low,90%,2025,"Mokshapatam","No English synopsis, No runtime, No Telugu title",1417846,http://localhost:3000/movies/mokshapatam-2025
+Low,90%,2025,"Ari: My Name is Nobody","No English synopsis, No runtime, No Telugu title",1037209,http://localhost:3000/movies/ari-my-name-is-nobody-2025
+Low,90%,2025,"Baapu","No English synopsis, No runtime, No Telugu title",1436664,http://localhost:3000/movies/baapu-2025
+Low,90%,2025,"Oka Pathakam Prakaaram","No English synopsis, No runtime, No Telugu title",1463175,http://localhost:3000/movies/oka-pathakam-prakaaram-2025
+Low,90%,2025,"Mazaka","No English synopsis, No runtime, No Telugu title",1418436,http://localhost:3000/movies/mazaka-2025
+Low,90%,2025,"Jack","No English synopsis, No runtime, No Telugu title",184,http://localhost:3000/movies/jack-2025
+Low,90%,2025,"Ghaati","No English synopsis, No runtime, No Telugu title",1249926,http://localhost:3000/movies/ghaati-2025
+Low,90%,2025,"Guard: Revenge for Love","No English synopsis, No backdrop, No runtime",1234172,http://localhost:3000/movies/guard-2025
+Low,90%,2025,"Neeli Megha Shyama","No English synopsis, No runtime, No Telugu title",1414404,http://localhost:3000/movies/neeli-megha-shyama-2025
+Low,90%,2025,"Dear Uma","No English synopsis, No runtime, No Telugu title",1497222,http://localhost:3000/movies/dear-uma-2025
+Low,90%,2025,"Arjun Chakravarthy","No English synopsis, No runtime, No Telugu title",1541316,http://localhost:3000/movies/arjun-chakravarthy-2025
+Low,90%,2025,"The 100","No English synopsis, No runtime, No Telugu title",1503551,http://localhost:3000/movies/the-100-2025
+Low,90%,2025,"28 Degree Celsius","No English synopsis, No runtime, No Telugu title",586369,http://localhost:3000/movies/28-degree-celsius-2025
+Low,90%,2025,"Kannappa","No English synopsis, No runtime, No Telugu title",1232232,http://localhost:3000/movies/kannappa-2025
+Low,90%,2025,"Subham","No English synopsis, No runtime, No Telugu title",1449364,http://localhost:3000/movies/subham-2025
+Low,90%,2025,"Uppu Kappurambu","No English synopsis, No runtime, No Telugu title",1262548,http://localhost:3000/movies/uppu-kappurambu-2025
+Low,90%,2025,"Oka Brundavanam","No English synopsis, No runtime, No Telugu title",1501237,http://localhost:3000/movies/oka-brundavanam-2025
+Low,90%,2025,"K-Ramp","No English synopsis, No runtime, No Telugu title",1428278,http://localhost:3000/movies/k-ramp-2025
+Low,90%,2025,"Dhandoraa","No English synopsis, No runtime, No Telugu title",1600883,http://localhost:3000/movies/dhandoraa-2025
+Low,90%,2025,"(MAD)²","No English synopsis, No runtime, No Telugu title",1359490,http://localhost:3000/movies/mad-2025
+Low,90%,2025,"Pelli Kaani Prasad","No English synopsis, No runtime, No Telugu title",1449928,http://localhost:3000/movies/pelli-kaani-prasad-2025
+Low,90%,2025,"Kingdom","No English synopsis, No runtime, No Telugu title",1541051,http://localhost:3000/movies/kingdom-2025
+Low,90%,2025,"Baahubali: The Epic","No English synopsis, No runtime, No Telugu title",1511417,http://localhost:3000/movies/baahubali-the-epic-2025
+Low,90%,2025,"Police Vari Heccharika","No English synopsis, No runtime, No Telugu title",884003,http://localhost:3000/movies/police-vari-heccharika-2025
+Low,90%,2025,"Mowgli","No English synopsis, No runtime, No Telugu title",1417743,http://localhost:3000/movies/mowgli-2025
+Low,90%,2025,"Junior","No English synopsis, No runtime, No Telugu title",1571241,http://localhost:3000/movies/junior-2025
+Low,90%,2025,"Show Time","No English synopsis, No runtime, No Telugu title",1508889,http://localhost:3000/movies/show-time-2025
+Low,90%,2025,"Ilanti Cinema Meereppudu Chusundaru","No English synopsis, No runtime, No Telugu title",1543431,http://localhost:3000/movies/ilanti-cinema-meereppudu-chusundaru-2025
+Low,90%,2025,"Meghalu Cheppina Prema Katha","No English synopsis, No runtime, No Telugu title",1552492,http://localhost:3000/movies/meghalu-cheppina-prema-katha-2025
+Low,90%,2025,"Kishkindhapuri","No English synopsis, No runtime, No Telugu title",1439747,http://localhost:3000/movies/kishkindhapuri-2025
+Low,90%,2025,"Tuk Tuk","No English synopsis, No runtime, No Telugu title",1442486,http://localhost:3000/movies/tuk-tuk-2025
+Low,90%,2025,"Santhana Prapthirasthu","No English synopsis, No runtime, No Telugu title",1417854,http://localhost:3000/movies/santhana-prapthirasthu-2025
+Low,90%,2025,"Premistunnaa","No English synopsis, No runtime, No Telugu title",1579304,http://localhost:3000/movies/premistunnaa-2025
+Low,90%,2025,"Daaku Maharaaj","No English synopsis, No runtime, No Telugu title",1202235,http://localhost:3000/movies/daaku-maharaaj-2025
+Low,90%,2025,"Paradha","No English synopsis, No runtime, No Telugu title",1280611,http://localhost:3000/movies/paradha-2025
+Low,90%,2025,"Telusu Kada","No English synopsis, No runtime, No Telugu title",1229947,http://localhost:3000/movies/telusu-kada-2025
+Low,90%,2025,"Little Hearts","No English synopsis, No runtime, No Telugu title",1440700,http://localhost:3000/movies/little-hearts-2025
+Low,90%,2025,"Jatadhara","No English synopsis, No runtime, No Telugu title",1444973,http://localhost:3000/movies/jatadhara-2025
+Low,90%,2025,"Ramam Raghavam","No English synopsis, No runtime, No Telugu title",1436660,http://localhost:3000/movies/ramam-raghavam-2025
+Low,90%,2025,"Blind Spot","No English synopsis, No runtime, No Telugu title",1479860,http://localhost:3000/movies/blind-spot-2025
+Low,90%,2025,"Laila","No English synopsis, No runtime, No Telugu title",1403735,http://localhost:3000/movies/laila-2025
+Low,90%,2025,"Game Changer","No English synopsis, No runtime, No Telugu title",811944,http://localhost:3000/movies/game-changer-2025
+Low,90%,2025,"Premante","No English synopsis, No runtime, No Telugu title",1425233,http://localhost:3000/movies/premante-2025
+Low,90%,2025,"Kuberaa","No English synopsis, No runtime, No Telugu title",1171101,http://localhost:3000/movies/kuberaa-2025
+Low,90%,2025,"Robinhood","No English synopsis, No runtime, No Telugu title",1120762,http://localhost:3000/movies/robinhood-2025
+Low,90%,2025,"Thala","No English synopsis, No runtime, No Telugu title",1446069,http://localhost:3000/movies/thala-2025
+Low,90%,2025,"#Single","No English synopsis, No runtime, No Telugu title",1428301,http://localhost:3000/movies/single-2025
+Low,90%,2025,"Solo Boy","No English synopsis, No runtime, No Telugu title",1507617,http://localhost:3000/movies/solo-boy-2025
+Low,90%,2025,"Odela 2","No English synopsis, No runtime, No Telugu title",1257693,http://localhost:3000/movies/odela-2-2025
+Low,90%,2025,"11:11","No English synopsis, No runtime, No Telugu title",1605210,http://localhost:3000/movies/1111-2025
+Low,90%,2025,"Bhavani Ward 1997","No English synopsis, No runtime, No Telugu title",1484827,http://localhost:3000/movies/bhavani-ward-1997-2025
+Low,90%,2025,"12A Railway Colony","No English synopsis, No runtime, No Telugu title",1450340,http://localhost:3000/movies/12a-railway-colony-2025
+Low,90%,2025,"Akhanda 2: Thaandavam","No English synopsis, No runtime, No Telugu title",1372588,http://localhost:3000/movies/akhanda-2-thaandavam-2025
+Low,90%,2025,"The Girlfriend","No English synopsis, No runtime, No Telugu title",1196348,http://localhost:3000/movies/the-girlfriend-2025
+Low,90%,2025,"Mirai","No English synopsis, No runtime, No Telugu title",1222479,http://localhost:3000/movies/mirai-2025
+Low,90%,2025,"Chaurya Paatam","No English synopsis, No runtime, No Telugu title",1472031,http://localhost:3000/movies/chaurya-paatam-2025
+Low,90%,2025,"Andhra King Taluka","No English synopsis, No runtime, No Telugu title",1407437,http://localhost:3000/movies/andhra-king-taluka-2025
+Low,90%,2024,"The Birthday Boy","No English synopsis, No runtime, No Telugu title",1319112,http://localhost:3000/movies/the-birthday-boy-2024
+Low,90%,2024,"Sarangadhariya","No English synopsis, No runtime, No Telugu title",1340378,http://localhost:3000/movies/sarangadhariya-2024
+Low,90%,2024,"Bhimaa","No English synopsis, No runtime, No Telugu title",1226886,http://localhost:3000/movies/bhimaa-2024
+Low,90%,2024,"Roti Kapda Romance","No English synopsis, No runtime, No Telugu title",1391033,http://localhost:3000/movies/roti-kapda-romance-2024
+Low,90%,2024,"Purushothamudu","No English synopsis, No runtime, No Telugu title",1321718,http://localhost:3000/movies/purushothamudu-2024
+Low,90%,2024,"Sriranga Neethulu","No English synopsis, No runtime, No Telugu title",1274480,http://localhost:3000/movies/sriranga-neethulu-2024
+Low,90%,2024,"Alanaati Ramachandrudu","No English synopsis, No runtime, No Telugu title",1325057,http://localhost:3000/movies/alanaati-ramachandrudu-2024
+Low,90%,2024,"Music Shop Murthy","No English synopsis, No runtime, No Telugu title",1304474,http://localhost:3000/movies/music-shop-murthy-2024
+Low,90%,2024,"Yevam","No English synopsis, No runtime, No Telugu title",1052300,http://localhost:3000/movies/yevam-2024
+Low,90%,2024,"Viraaji","No English synopsis, No runtime, No Telugu title",1324663,http://localhost:3000/movies/viraaji-2024
+Low,90%,2024,"Eesaraina!?","No English synopsis, No runtime, No Telugu title",1495040,http://localhost:3000/movies/eesaraina-2024
+Low,90%,2024,"Guntur Kaaram","No English synopsis, No runtime, No Telugu title",868660,http://localhost:3000/movies/guntur-kaaram-2024
+Low,90%,2024,"Lucky Baskhar","No English synopsis, No runtime, No Telugu title",1239511,http://localhost:3000/movies/lucky-baskhar-2024
+Low,90%,2024,"Sandeham","No English synopsis, No runtime, No Telugu title",1394454,http://localhost:3000/movies/sandeham-2024
+Low,90%,2024,"Parakramam","No English synopsis, No runtime, No Telugu title",1337831,http://localhost:3000/movies/parakramam-2024
+Low,90%,2024,"LifeStories","No English synopsis, No runtime, No Telugu title",1341441,http://localhost:3000/movies/lifestories-2024
+Low,90%,2024,"Ambajipeta Marriage Band","No English synopsis, No runtime, No Telugu title",1190968,http://localhost:3000/movies/ambajipeta-marriage-band-2024
+Low,90%,2024,"Tenant","No English synopsis, No runtime, No Telugu title",1392010,http://localhost:3000/movies/tenant-2024
+Low,90%,2024,"Valari","No English synopsis, No runtime, No Telugu title",1254651,http://localhost:3000/movies/valari-2024
+Low,90%,2024,"Market Mahalakshmi","No English synopsis, No runtime, No Telugu title",1259884,http://localhost:3000/movies/market-mahalakshmi-2024
+Low,90%,2024,"Operation Raavan","No English synopsis, No runtime, No Telugu title",1381727,http://localhost:3000/movies/operation-raavan-2024
+Low,90%,2024,"Sundaram Master","No English synopsis, No runtime, No Telugu title",1247498,http://localhost:3000/movies/sundaram-master-2024
+Low,90%,2024,"Pekamedalu","No English synopsis, No runtime, No Telugu title",1317583,http://localhost:3000/movies/pekamedalu-2024
+Low,90%,2024,"Love Me If You Dare","No English synopsis, No runtime, No Telugu title",1293900,http://localhost:3000/movies/love-me-if-you-dare-2024
+Low,90%,2024,"Crime Reel","No English synopsis, No runtime, No Telugu title",1319148,http://localhost:3000/movies/crime-reel-2024
+Low,90%,2024,"Happy Ending","No English synopsis, No runtime, No Telugu title",1283764,http://localhost:3000/movies/happy-ending-2024
+Low,90%,2024,"Gaami","No English synopsis, No runtime, No Telugu title",886385,http://localhost:3000/movies/gaami-2024
+Low,90%,2024,"Sabari","No English synopsis, No runtime, No Telugu title",1030060,http://localhost:3000/movies/sabari-2024
+Low,90%,2024,"Vey Dharuvey","No English synopsis, No runtime, No Telugu title",1262003,http://localhost:3000/movies/vey-dharuvey-2024
+Low,90%,2024,"Average Student Nani","No English synopsis, No runtime, No Telugu title",1324235,http://localhost:3000/movies/average-student-nani-2024
+Low,90%,2024,"Rakshana","No English synopsis, No runtime, No Telugu title",1302212,http://localhost:3000/movies/rakshana-2024
+Low,90%,2024,"Masthu Shades Unnai Ra","No English synopsis, No runtime, No Telugu title",1249815,http://localhost:3000/movies/masthu-shades-unnai-ra-2024
+Low,90%,2024,"Mix Up","No English synopsis, No runtime, No Telugu title",1259399,http://localhost:3000/movies/mix-up-2024
+Low,90%,2024,"Gangs of Godavari","No English synopsis, No runtime, No Telugu title",1171693,http://localhost:3000/movies/gangs-of-godavari-2024
+Low,90%,2024,"Bootcut Balaraju","No English synopsis, No runtime, No Telugu title",1238031,http://localhost:3000/movies/bootcut-balaraju-2024
+Low,90%,2024,"Bharathanatyam","No English synopsis, No runtime, No Telugu title",1192006,http://localhost:3000/movies/bharathanatyam-2024
+Low,90%,2024,"Harom Hara","No English synopsis, No runtime, No Telugu title",1040718,http://localhost:3000/movies/harom-hara-2024
+Low,90%,2024,"Aarambham","No English synopsis, No runtime, No Telugu title",1288304,http://localhost:3000/movies/aarambham-2024
+Low,90%,2024,"The Family Star","No English synopsis, No runtime, No Telugu title",1141320,http://localhost:3000/movies/the-family-star-2024
+Low,90%,2024,"Hanu-man","No English synopsis, No runtime, No Telugu title",869760,http://localhost:3000/movies/hanu-man-2024
+Low,90%,2024,"Pottel","No English synopsis, No runtime, No Telugu title",1375013,http://localhost:3000/movies/pottel-2024
+Low,90%,2024,"Raju Yadav","No English synopsis, No runtime, No Telugu title",1318310,http://localhost:3000/movies/raju-yadav-2024
+Low,90%,2024,"Sheeshmahal","No English synopsis, No runtime, No Telugu title",563152,http://localhost:3000/movies/sheeshmahal-2024
+Low,90%,2024,"Gam Gam Ganesha","No English synopsis, No runtime, No Telugu title",956704,http://localhost:3000/movies/gam-gam-ganesha-2024
+Low,90%,2024,"Eagle","No English synopsis, No runtime, No Telugu title",1047988,http://localhost:3000/movies/eagle-2024
+Low,90%,2024,"Sarkaaru Noukari","No English synopsis, No runtime, No Telugu title",1229853,http://localhost:3000/movies/sarkaaru-noukari-2024
+Low,90%,2024,"Kismat","No English synopsis, No runtime, No Telugu title",1192004,http://localhost:3000/movies/kismat-2024
+Low,90%,2024,"Committee Kurrollu","No English synopsis, No runtime, No Telugu title",1327213,http://localhost:3000/movies/committee-kurrollu-2024
+Low,90%,2024,"Bachhala Malli","No English synopsis, No runtime, No Telugu title",1399790,http://localhost:3000/movies/bachhala-malli-2024
+Low,90%,2024,"Drinker Sai","No English synopsis, No runtime, No Telugu title",1407473,http://localhost:3000/movies/drinker-sai-2024
+Low,90%,2024,"RRR: Behind & Beyond","No English synopsis, No runtime, No Telugu title",1400515,http://localhost:3000/movies/rrr-behind-and-beyond-2024
+Low,90%,2024,"Devara: Part 1","No English synopsis, No runtime, No Telugu title",811941,http://localhost:3000/movies/devara-part-1-2024
+Low,90%,2024,"Buddy","No English synopsis, No runtime, No Telugu title",1230407,http://localhost:3000/movies/buddy-2024
+Low,90%,2024,"Double Engine","No English synopsis, No runtime, No Telugu title",1026439,http://localhost:3000/movies/double-engine-2024
+Low,90%,2024,"Aa Okkati Adakku","No English synopsis, No runtime, No Telugu title",1240173,http://localhost:3000/movies/aa-okkati-adakku-2024
+Low,90%,2024,"Saripodhaa Sanivaaram","No English synopsis, No runtime, No Telugu title",1194915,http://localhost:3000/movies/saripodhaa-sanivaaram-2024
+Low,90%,2024,"Saindhav","No English synopsis, No runtime, No Telugu title",1089737,http://localhost:3000/movies/saindhav-2024
+Low,90%,2024,"Theppa Samudram","No English synopsis, No runtime, No Telugu title",1281743,http://localhost:3000/movies/theppa-samudram-2024
+Low,90%,2024,"Leela Vinodam","No English synopsis, No runtime, No Telugu title",1396917,http://localhost:3000/movies/leela-vinodam-2024
+Low,90%,2024,"Zebra","No English synopsis, No runtime, No Telugu title",1407977,http://localhost:3000/movies/zebra-2024
+Low,90%,2024,"Satyabhama","No English synopsis, No runtime, No Telugu title",1177157,http://localhost:3000/movies/satyabhama-2024
+Low,90%,2023,"Adipurush","No English synopsis, No backdrop, No runtime",734253,http://localhost:3000/movies/adipurush-2023
+Low,90%,2022,"F3: Fun and Frustration","No English synopsis, No runtime, No Telugu title",802065,http://localhost:3000/movies/f3-fun-and-frustration-2022
+Low,90%,2022,"Ammu","No English synopsis, No runtime",968732,http://localhost:3000/movies/ammu-2022
+Low,90%,2022,"RRR","No English synopsis, No runtime",579974,http://localhost:3000/movies/rrr

@@ -1,0 +1,140 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         CAST & CREW + TAGS ENRICHMENT                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading all movies from database...
+    Loaded 1000 movies...
+    Loaded 2000 movies...
+    Loaded 3000 movies...
+    Loaded 4000 movies...
+    Loaded 5000 movies...
+    Loaded 5610 movies...
+  ✅ Loaded 5610 movies total
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 1: CAST & CREW FROM TMDB                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🎬 4120 movies need cast/crew data
+     (4344 have TMDB IDs)
+
+  Progress: 5/4120 (18 fields enriched)
+  Progress: 55/4120 (104 fields enriched)
+  Progress: 105/4120 (198 fields enriched)
+  Progress: 155/4120 (289 fields enriched)
+  Progress: 205/4120 (393 fields enriched)
+  Progress: 255/4120 (486 fields enriched)
+  Progress: 305/4120 (523 fields enriched)
+  Progress: 355/4120 (585 fields enriched)
+  Progress: 405/4120 (643 fields enriched)
+  Progress: 455/4120 (689 fields enriched)
+  Progress: 505/4120 (727 fields enriched)
+  Progress: 555/4120 (789 fields enriched)
+  Progress: 605/4120 (845 fields enriched)
+  Progress: 655/4120 (912 fields enriched)
+  Progress: 705/4120 (947 fields enriched)
+  Progress: 755/4120 (977 fields enriched)
+  Progress: 805/4120 (1040 fields enriched)
+  Progress: 855/4120 (1102 fields enriched)
+  Progress: 905/4120 (1172 fields enriched)
+  Progress: 955/4120 (1245 fields enriched)
+  Progress: 1005/4120 (1333 fields enriched)
+  Progress: 1055/4120 (1417 fields enriched)
+  Progress: 1105/4120 (1460 fields enriched)
+  Progress: 1155/4120 (1499 fields enriched)
+  Progress: 1205/4120 (1535 fields enriched)
+  Progress: 1255/4120 (1595 fields enriched)
+  Progress: 1305/4120 (1652 fields enriched)
+  Progress: 1355/4120 (1705 fields enriched)
+  Progress: 1405/4120 (1750 fields enriched)
+  Progress: 1455/4120 (1805 fields enriched)
+  Progress: 1505/4120 (1865 fields enriched)
+  Progress: 1555/4120 (1923 fields enriched)
+  Progress: 1605/4120 (1963 fields enriched)
+  Progress: 1655/4120 (2020 fields enriched)
+  Progress: 1705/4120 (2074 fields enriched)
+  Progress: 1755/4120 (2134 fields enriched)
+  Progress: 1805/4120 (2180 fields enriched)
+  Progress: 1855/4120 (2245 fields enriched)
+  Progress: 1905/4120 (2300 fields enriched)
+  Progress: 1955/4120 (2346 fields enriched)
+  Progress: 2005/4120 (2403 fields enriched)
+  Progress: 2055/4120 (2456 fields enriched)
+  Progress: 2105/4120 (2512 fields enriched)
+  Progress: 2155/4120 (2569 fields enriched)
+  Progress: 2205/4120 (2609 fields enriched)
+  Progress: 2255/4120 (2652 fields enriched)
+  Progress: 2305/4120 (2686 fields enriched)
+  Progress: 2355/4120 (2740 fields enriched)
+  Progress: 2405/4120 (2781 fields enriched)
+  Progress: 2455/4120 (2822 fields enriched)
+  Progress: 2505/4120 (2875 fields enriched)
+  Progress: 2555/4120 (2922 fields enriched)
+  Progress: 2605/4120 (2970 fields enriched)
+  Progress: 2655/4120 (3018 fields enriched)
+  Progress: 2705/4120 (3071 fields enriched)
+  Progress: 2755/4120 (3123 fields enriched)
+  Progress: 2805/4120 (3167 fields enriched)
+  Progress: 2855/4120 (3208 fields enriched)
+  Progress: 2905/4120 (3254 fields enriched)
+  Progress: 2955/4120 (3306 fields enriched)
+  Progress: 3005/4120 (3354 fields enriched)
+  Progress: 3055/4120 (3409 fields enriched)
+  Progress: 3105/4120 (3468 fields enriched)
+  Progress: 3155/4120 (3540 fields enriched)
+  Progress: 3205/4120 (3581 fields enriched)
+  Progress: 3255/4120 (3626 fields enriched)
+  Progress: 3305/4120 (3668 fields enriched)
+  Progress: 3355/4120 (3741 fields enriched)
+  Progress: 3405/4120 (3788 fields enriched)
+  Progress: 3455/4120 (3833 fields enriched)
+  Progress: 3505/4120 (3884 fields enriched)
+  Progress: 3555/4120 (3925 fields enriched)
+  Progress: 3605/4120 (3969 fields enriched)
+  Progress: 3655/4120 (4037 fields enriched)
+  Progress: 3705/4120 (4100 fields enriched)
+  Progress: 3755/4120 (4161 fields enriched)
+  Progress: 3805/4120 (4219 fields enriched)
+  Progress: 3855/4120 (4272 fields enriched)
+  Progress: 3905/4120 (4319 fields enriched)
+  Progress: 3955/4120 (4353 fields enriched)
+  Progress: 4005/4120 (4410 fields enriched)
+  Progress: 4055/4120 (4450 fields enriched)
+  Progress: 4105/4120 (4505 fields enriched)
+  Progress: 4120/4120 (4520 fields enriched)
+
+  ✅ Cast & Crew enriched: 4520 fields
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 2: IMPROVED AUTO-TAGGING                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🏷️  5609 movies to check for tags
+
+  Progress: 100/5609 (1 tags applied)
+  Progress: 1100/5609 (20 tags applied)
+  Progress: 2100/5609 (119 tags applied)
+  Progress: 3100/5609 (215 tags applied)
+  Progress: 4100/5609 (303 tags applied)
+  Progress: 5100/5609 (425 tags applied)
+  Progress: 5609/5609 (465 tags applied)
+
+  ✅ Tags applied: 465
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 5610
+  Duration: 27.0 minutes
+
+  ✅ Cast & Crew fields enriched: 4520
+  ✅ Tags applied: 465
+
+  Total enrichments: 4985
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

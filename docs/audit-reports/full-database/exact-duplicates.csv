@@ -1,0 +1,7 @@
+ID1,Title1,Year1,Slug1,ID2,Title2,Year2,Slug2,MatchType,Confidence,Action
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,fauji-2026,ec935cb7-6256-4e70-948a-1b0e99ddd368,Fauzi,2026,fauzi-2026,same_tmdb_id,98.0%,merge_recommended
+121b701e-10b2-43ec-8563-f24a1b49a36c,Akhanda 2: Thaandavam,2025,akhanda-2-thaandavam-2025,1ccb2d27-a3bc-4c80-857d-8184e720042a,Akhanda 2,2025,akhanda-2-2025,same_tmdb_id,98.0%,merge_recommended
+4ac2b5ff-e664-4f48-bcad-a0923b4ad192,Chaurya Paatham,2025,chaurya-paatham-2025,a7aa9ae5-0409-421d-94d3-0ac211987208,Chaurya Paatam,2025,chaurya-paatam-2025,same_tmdb_id,98.0%,merge_recommended
+d79b6116-9e21-4b3b-b041-2cecad34f864,The King of Kings,2025,the-king-of-kings-2025,2d747ddf-da74-4d00-a25d-671bde2ab788,Andhra King Taluka,2025,andhra-king-taluka-2025,same_tmdb_id,98.0%,merge_recommended
+b305a95f-44ac-4d42-b5ca-c58f48fc5029,"Like, Share & Subscribe",2022,like-share-subscribe-2022,761ab4cd-46d8-48d9-92bb-dd3542dfe4d5,Like Share & Subscribe,2022,like-share-and-subscribe-2022,same_tmdb_id,98.0%,merge_recommended
+b7626c9d-a6be-437c-b1e6-51df7cc69ba4,F3: Fun and Frustration,2022,f3-fun-and-frustration-2022,c35a3d9b-0401-4ca1-b2da-c854bef0cf07,F3,2022,f3-2022,same_tmdb_id,98.0%,merge_recommended

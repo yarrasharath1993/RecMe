@@ -34,6 +34,8 @@ export interface ReviewFilters {
   era?: string;
   actor?: string;
   director?: string;
+  profile?: string;  // Profile slug for entity page (e.g., "akkineni-nagarjuna")
+  specialCategory?: string;  // Special watch category: stress-buster, popcorn, group-watch, watch-with-special-one
   minRating?: number;
   maxRating?: number;
   decade?: string;

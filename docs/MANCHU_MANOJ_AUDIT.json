@@ -1,0 +1,45 @@
+{
+  "actorName": "Manchu Manoj",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 15,
+  "preDebutFilms": [
+    {
+      "id": "710aeabe-bb55-44a4-a8b3-279f1defca5b",
+      "title_en": "What The Fish",
+      "release_year": null,
+      "hero": "Manchu Manoj",
+      "heroine": "Niharika Konidela",
+      "director": "Varun Korukonda",
+      "our_rating": 5,
+      "cast_members": [
+        "{\"name\":\"Manchu Manoj\",\"character\":\"\",\"order\":0,\"gender\":2,\"tmdb_id\":1013090,\"profile_path\":\"/eNIxi8fVrv97VAhwPFiw6iSU2Y1.jpg\"}",
+        "{\"name\":\"Niharika Konidela\",\"character\":\"\",\"order\":1,\"gender\":1,\"tmdb_id\":1625642,\"profile_path\":\"/nWvUKPPjIA258PHmyvSFwLa5TEE.jpg\"}",
+        "{\"name\":\"Vennela Kishore\",\"character\":\"\",\"order\":2,\"gender\":2,\"tmdb_id\":146147,\"profile_path\":\"/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg\"}",
+        "{\"name\":\"Aditi Karnawat\",\"character\":\"Zara\",\"order\":3,\"gender\":0,\"tmdb_id\":4535373,\"profile_path\":null}",
+        "{\"name\":\"Johnson D M\",\"character\":\"\",\"order\":4,\"gender\":2,\"tmdb_id\":31313,\"profile_path\":null}",
+        "{\"name\":\"Haranath Policherla\",\"character\":\"\",\"order\":5,\"gender\":0,\"tmdb_id\":562682,\"profile_path\":null}",
+        "{\"name\":\"Susmita Chatterjee\",\"character\":\"\",\"order\":6,\"gender\":1,\"tmdb_id\":2976097,\"profile_path\":\"/spcft4zJINO1k8trDTOR4fSntoa.jpg\"}",
+        "{\"name\":\"Satya\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":1638503,\"profile_path\":\"/fWHqfjiqnORU6R2fqwiJnowujdP.jpg\"}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "0": 1,
+    "2007": 1,
+    "2008": 1,
+    "2009": 1,
+    "2010": 2,
+    "2012": 1,
+    "2013": 1,
+    "2014": 2,
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1
+  },
+  "summary": "1 pre-debut films"
+}

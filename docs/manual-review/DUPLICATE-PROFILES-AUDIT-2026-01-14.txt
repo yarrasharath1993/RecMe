@@ -1,0 +1,744 @@
+
+================================================================================
+🔍 DUPLICATE PROFILES AUDIT
+================================================================================
+
+🔍 Auditing Heros...
+
+🔍 Auditing Heroines...
+
+🔍 Auditing Directors...
+
+🔍 Auditing Music Directors...
+
+🔍 Auditing Producers...
+
+🔍 Auditing Writers...
+
+🔍 Auditing Cinematographers...
+
+🔍 Auditing Editors...
+
+================================================================================
+📊 AUDIT RESULTS
+================================================================================
+
+
+================================================================================
+📌 HERO - 4 potential duplicate groups
+================================================================================
+
+1. Potential duplicate for "N. T. Rama Rao":
+   Total movies: 62
+   Variations found:
+      - "N. T. Rama Rao" (60 movies)
+      - "N.T. Rama Rao" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+
+2. Potential duplicate for "N. T. Rama Rao Jr.":
+   Total movies: 5
+   Variations found:
+      - "N. T. Rama Rao Jr." (4 movies)
+      - "N.T. Rama Rao Jr." (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=n-t-rama-rao-jr-
+      - http://localhost:3000/movies?profile=n-t-rama-rao-jr-
+
+3. Potential duplicate for "Sai Ram Shankar":
+   Total movies: 2
+   Variations found:
+      - "Sai Ram Shankar" (1 movies)
+      - "Sairam Shankar" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=sai-ram-shankar
+      - http://localhost:3000/movies?profile=sairam-shankar
+
+4. Potential duplicate for "Rama Krishna":
+   Total movies: 2
+   Variations found:
+      - "Rama Krishna" (1 movies)
+      - "Ramakrishna" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=rama-krishna
+      - http://localhost:3000/movies?profile=ramakrishna
+
+
+================================================================================
+📌 HEROINE - 3 potential duplicate groups
+================================================================================
+
+5. Potential duplicate for "Jaya Prada":
+   Total movies: 59
+   Variations found:
+      - "Jaya Prada" (57 movies)
+      - "Jayaprada" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=jaya-prada
+      - http://localhost:3000/movies?profile=jayaprada
+
+6. Potential duplicate for "Divyavani":
+   Total movies: 2
+   Variations found:
+      - "Divyavani" (1 movies)
+      - "Divya Vani" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=divyavani
+      - http://localhost:3000/movies?profile=divya-vani
+
+7. Potential duplicate for "K R Vijaya":
+   Total movies: 2
+   Variations found:
+      - "K R Vijaya" (1 movies)
+      - "K.R. Vijaya" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-r-vijaya
+      - http://localhost:3000/movies?profile=k-r-vijaya
+
+
+================================================================================
+📌 DIRECTOR - 26 potential duplicate groups
+================================================================================
+
+8. Potential duplicate for "A. Kodandarami Reddy":
+   Total movies: 33
+   Variations found:
+      - "A. Kodandarami Reddy" (32 movies)
+      - "A Kodandarami Reddy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=a-kodandarami-reddy
+      - http://localhost:3000/movies?profile=a-kodandarami-reddy
+
+9. Potential duplicate for "K Raghavendra Rao":
+   Total movies: 25
+   Variations found:
+      - "K Raghavendra Rao" (7 movies)
+      - "K. Raghavendra Rao" (18 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-raghavendra-rao
+      - http://localhost:3000/movies?profile=k-raghavendra-rao
+
+10. Potential duplicate for "K. Vasu":
+   Total movies: 19
+   Variations found:
+      - "K. Vasu" (18 movies)
+      - "K Vasu" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-vasu
+      - http://localhost:3000/movies?profile=k-vasu
+
+11. Potential duplicate for "Kodandarami Reddy":
+   Total movies: 17
+   Variations found:
+      - "Kodandarami Reddy" (12 movies)
+      - "Kodanda Rami Reddy" (5 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=kodandarami-reddy
+      - http://localhost:3000/movies?profile=kodanda-rami-reddy
+
+12. Potential duplicate for "K.S.R. Das":
+   Total movies: 16
+   Variations found:
+      - "K.S.R. Das" (4 movies)
+      - "K. S. R. Das" (12 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-s-r-das
+      - http://localhost:3000/movies?profile=k-s-r-das
+
+13. Potential duplicate for "S.V. Krishna Reddy":
+   Total movies: 11
+   Variations found:
+      - "S.V. Krishna Reddy" (8 movies)
+      - "S. V. Krishna Reddy" (3 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-v-krishna-reddy
+      - http://localhost:3000/movies?profile=s-v-krishna-reddy
+
+14. Potential duplicate for "C.S. Rao":
+   Total movies: 9
+   Variations found:
+      - "C.S. Rao" (7 movies)
+      - "C. S. Rao" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=c-s-rao
+      - http://localhost:3000/movies?profile=c-s-rao
+
+15. Potential duplicate for "E.V.V. Satyanarayana":
+   Total movies: 9
+   Variations found:
+      - "E.V.V. Satyanarayana" (5 movies)
+      - "E. V. V. Satyanarayana" (4 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=e-v-v-satyanarayana
+      - http://localhost:3000/movies?profile=e-v-v-satyanarayana
+
+16. Potential duplicate for "N. T. Rama Rao":
+   Total movies: 6
+   Variations found:
+      - "N. T. Rama Rao" (5 movies)
+      - "N.T. Rama Rao" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+
+17. Potential duplicate for "S. D. Lal":
+   Total movies: 5
+   Variations found:
+      - "S. D. Lal" (2 movies)
+      - "S.D. Lal" (2 movies)
+      - "S D Lal" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-d-lal
+      - http://localhost:3000/movies?profile=s-d-lal
+      - http://localhost:3000/movies?profile=s-d-lal
+
+18. Potential duplicate for "K.S. Prakash Rao":
+   Total movies: 5
+   Variations found:
+      - "K.S. Prakash Rao" (3 movies)
+      - "K. S. Prakash Rao" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-s-prakash-rao
+      - http://localhost:3000/movies?profile=k-s-prakash-rao
+
+19. Potential duplicate for "B. A. Subba Rao":
+   Total movies: 4
+   Variations found:
+      - "B. A. Subba Rao" (2 movies)
+      - "B.A. Subba Rao" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=b-a-subba-rao
+      - http://localhost:3000/movies?profile=b-a-subba-rao
+
+20. Potential duplicate for "S.P. Chitti Babu":
+   Total movies: 3
+   Variations found:
+      - "S.P. Chitti Babu" (1 movies)
+      - "S. P. Chitti Babu" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-p-chitti-babu
+      - http://localhost:3000/movies?profile=s-p-chitti-babu
+
+21. Potential duplicate for "I V Sasi":
+   Total movies: 3
+   Variations found:
+      - "I V Sasi" (2 movies)
+      - "I. V. Sasi" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=i-v-sasi
+      - http://localhost:3000/movies?profile=i-v-sasi
+
+22. Potential duplicate for "S. S. Ravichandra":
+   Total movies: 3
+   Variations found:
+      - "S. S. Ravichandra" (2 movies)
+      - "S.S Ravi Chandra" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-s-ravichandra
+      - http://localhost:3000/movies?profile=s-s-ravi-chandra
+
+23. Potential duplicate for "K. Vijaya Bhaskar":
+   Total movies: 3
+   Variations found:
+      - "K. Vijaya Bhaskar" (2 movies)
+      - "K Vijaya Bhaskar" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-vijaya-bhaskar
+      - http://localhost:3000/movies?profile=k-vijaya-bhaskar
+
+24. Potential duplicate for "R. P. Patnaik":
+   Total movies: 3
+   Variations found:
+      - "R. P. Patnaik" (1 movies)
+      - "R.P. Patnaik" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=r-p-patnaik
+      - http://localhost:3000/movies?profile=r-p-patnaik
+
+25. Potential duplicate for "K. V. Reddy":
+   Total movies: 3
+   Variations found:
+      - "K. V. Reddy" (1 movies)
+      - "K.V. Reddy" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-v-reddy
+      - http://localhost:3000/movies?profile=k-v-reddy
+
+26. Potential duplicate for "L. V. Prasad":
+   Total movies: 3
+   Variations found:
+      - "L. V. Prasad" (2 movies)
+      - "L.V. Prasad" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=l-v-prasad
+      - http://localhost:3000/movies?profile=l-v-prasad
+
+27. Potential duplicate for "B.V. Prasad":
+   Total movies: 3
+   Variations found:
+      - "B.V. Prasad" (1 movies)
+      - "B. V. Prasad" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=b-v-prasad
+      - http://localhost:3000/movies?profile=b-v-prasad
+
+28. Potential duplicate for "Rajachandra":
+   Total movies: 2
+   Variations found:
+      - "Rajachandra" (1 movies)
+      - "Raja Chandra" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=rajachandra
+      - http://localhost:3000/movies?profile=raja-chandra
+
+29. Potential duplicate for "V. R. Pratap":
+   Total movies: 2
+   Variations found:
+      - "V. R. Pratap" (1 movies)
+      - "VR Pratap" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=v-r-pratap
+      - http://localhost:3000/movies?profile=vr-pratap
+
+30. Potential duplicate for "V Eshwar Reddy":
+   Total movies: 2
+   Variations found:
+      - "V Eshwar Reddy" (1 movies)
+      - "V. Eshwar Reddy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=v-eshwar-reddy
+      - http://localhost:3000/movies?profile=v-eshwar-reddy
+
+31. Potential duplicate for "S V Rajendra Singh Babu":
+   Total movies: 2
+   Variations found:
+      - "S V Rajendra Singh Babu" (1 movies)
+      - "S. V. Rajendra Singh Babu" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-v-rajendra-singh-babu
+      - http://localhost:3000/movies?profile=s-v-rajendra-singh-babu
+
+32. Potential duplicate for "N Shankar":
+   Total movies: 2
+   Variations found:
+      - "N Shankar" (1 movies)
+      - "N.Shankar" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=n-shankar
+      - http://localhost:3000/movies?profile=n-shankar
+
+33. Potential duplicate for "Y. V. S. Chowdary":
+   Total movies: 2
+   Variations found:
+      - "Y. V. S. Chowdary" (1 movies)
+      - "YVS Chowdary" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=y-v-s-chowdary
+      - http://localhost:3000/movies?profile=yvs-chowdary
+
+
+================================================================================
+📌 MUSIC DIRECTOR - 11 potential duplicate groups
+================================================================================
+
+34. Potential duplicate for "K. V. Mahadevan":
+   Total movies: 23
+   Variations found:
+      - "K. V. Mahadevan" (20 movies)
+      - "K.V. Mahadevan" (3 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-v-mahadevan
+      - http://localhost:3000/movies?profile=k-v-mahadevan
+
+35. Potential duplicate for "M. S. Viswanathan":
+   Total movies: 20
+   Variations found:
+      - "M. S. Viswanathan" (17 movies)
+      - "M.S. Viswanathan" (3 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=m-s-viswanathan
+      - http://localhost:3000/movies?profile=m-s-viswanathan
+
+36. Potential duplicate for "M.M. Keeravani":
+   Total movies: 20
+   Variations found:
+      - "M.M. Keeravani" (15 movies)
+      - "M. M. Keeravani" (4 movies)
+      - "M.M.Keeravani" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=m-m-keeravani
+      - http://localhost:3000/movies?profile=m-m-keeravani
+      - http://localhost:3000/movies?profile=m-m-keeravani
+
+37. Potential duplicate for "S.V. Krishna Reddy":
+   Total movies: 11
+   Variations found:
+      - "S.V. Krishna Reddy" (10 movies)
+      - "S. V. Krishna Reddy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-v-krishna-reddy
+      - http://localhost:3000/movies?profile=s-v-krishna-reddy
+
+38. Potential duplicate for "S A Rajkumar":
+   Total movies: 10
+   Variations found:
+      - "S A Rajkumar" (3 movies)
+      - "S.A. Rajkumar" (6 movies)
+      - "S. A. Rajkumar" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-a-rajkumar
+      - http://localhost:3000/movies?profile=s-a-rajkumar
+      - http://localhost:3000/movies?profile=s-a-rajkumar
+
+39. Potential duplicate for "J. V. Raghavulu":
+   Total movies: 8
+   Variations found:
+      - "J. V. Raghavulu" (4 movies)
+      - "J.V. Raghavulu" (1 movies)
+      - "J V Raghavulu" (2 movies)
+      - "JV Raghavulu" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=j-v-raghavulu
+      - http://localhost:3000/movies?profile=j-v-raghavulu
+      - http://localhost:3000/movies?profile=j-v-raghavulu
+      - http://localhost:3000/movies?profile=jv-raghavulu
+
+40. Potential duplicate for "Sricharan Pakala":
+   Total movies: 7
+   Variations found:
+      - "Sricharan Pakala" (6 movies)
+      - "Sri Charan Pakala" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=sricharan-pakala
+      - http://localhost:3000/movies?profile=sri-charan-pakala
+
+41. Potential duplicate for "A.R. Rahman":
+   Total movies: 5
+   Variations found:
+      - "A.R. Rahman" (4 movies)
+      - "A. R. Rahman" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=a-r-rahman
+      - http://localhost:3000/movies?profile=a-r-rahman
+
+42. Potential duplicate for "Pendyala Nageswara Rao":
+   Total movies: 4
+   Variations found:
+      - "Pendyala Nageswara Rao" (3 movies)
+      - "Pendyala Nageswararao" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=pendyala-nageswara-rao
+      - http://localhost:3000/movies?profile=pendyala-nageswararao
+
+43. Potential duplicate for "G. K. Venkatesh":
+   Total movies: 4
+   Variations found:
+      - "G. K. Venkatesh" (2 movies)
+      - "G.K. Venkatesh" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=g-k-venkatesh
+      - http://localhost:3000/movies?profile=g-k-venkatesh
+
+44. Potential duplicate for "కె. చక్రవర్తి":
+   Total movies: 3
+   Variations found:
+      - "కె. చక్రవర్తి" (2 movies)
+      - "కె.చక్రవర్తి" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=కె-చక్రవర్తి
+      - http://localhost:3000/movies?profile=కె-చక్రవర్తి
+
+
+================================================================================
+📌 PRODUCER - 14 potential duplicate groups
+================================================================================
+
+45. Potential duplicate for "D. Rama Naidu":
+   Total movies: 17
+   Variations found:
+      - "D. Rama Naidu" (9 movies)
+      - "D. Ramanaidu" (8 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=d-rama-naidu
+      - http://localhost:3000/movies?profile=d-ramanaidu
+
+46. Potential duplicate for "K. S. Rama Rao":
+   Total movies: 12
+   Variations found:
+      - "K. S. Rama Rao" (10 movies)
+      - "K.S. Rama Rao" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-s-rama-rao
+      - http://localhost:3000/movies?profile=k-s-rama-rao
+
+47. Potential duplicate for "DVV Danayya":
+   Total movies: 7
+   Variations found:
+      - "DVV Danayya" (5 movies)
+      - "D. V. V. Danayya" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=dvv-danayya
+      - http://localhost:3000/movies?profile=d-v-v-danayya
+
+48. Potential duplicate for "R. B. Choudary":
+   Total movies: 7
+   Variations found:
+      - "R. B. Choudary" (5 movies)
+      - "R.B. Choudary" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=r-b-choudary
+      - http://localhost:3000/movies?profile=r-b-choudary
+
+49. Potential duplicate for "N.T. Rama Rao":
+   Total movies: 5
+   Variations found:
+      - "N.T. Rama Rao" (4 movies)
+      - "N. T. Rama Rao" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+      - http://localhost:3000/movies?profile=n-t-rama-rao
+
+50. Potential duplicate for "D. Sivaprasad Reddy":
+   Total movies: 5
+   Variations found:
+      - "D. Sivaprasad Reddy" (2 movies)
+      - "D. Siva Prasad Reddy" (3 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=d-sivaprasad-reddy
+      - http://localhost:3000/movies?profile=d-siva-prasad-reddy
+
+51. Potential duplicate for "T G Vishwa Prasad":
+   Total movies: 5
+   Variations found:
+      - "T G Vishwa Prasad" (4 movies)
+      - "T.G. Vishwa Prasad" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=t-g-vishwa-prasad
+      - http://localhost:3000/movies?profile=t-g-vishwa-prasad
+
+52. Potential duplicate for "K V V Satyanarayana":
+   Total movies: 3
+   Variations found:
+      - "K V V Satyanarayana" (2 movies)
+      - "K.V.V. Satyanarayana" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-v-v-satyanarayana
+      - http://localhost:3000/movies?profile=k-v-v-satyanarayana
+
+53. Potential duplicate for "M.S. Reddy":
+   Total movies: 3
+   Variations found:
+      - "M.S. Reddy" (1 movies)
+      - "M. S. Reddy" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=m-s-reddy
+      - http://localhost:3000/movies?profile=m-s-reddy
+
+54. Potential duplicate for "Siva Rama Krishna B.":
+   Total movies: 3
+   Variations found:
+      - "Siva Rama Krishna B." (1 movies)
+      - "Sivarama Krishna B" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=siva-rama-krishna-b-
+      - http://localhost:3000/movies?profile=sivarama-krishna-b
+
+55. Potential duplicate for "K.C. Reddy":
+   Total movies: 2
+   Variations found:
+      - "K.C. Reddy" (1 movies)
+      - "K. C. Reddy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-c-reddy
+      - http://localhost:3000/movies?profile=k-c-reddy
+
+56. Potential duplicate for "Nandamuri Ramakrishna":
+   Total movies: 2
+   Variations found:
+      - "Nandamuri Ramakrishna" (1 movies)
+      - "Nandamuri Rama Krishna" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=nandamuri-ramakrishna
+      - http://localhost:3000/movies?profile=nandamuri-rama-krishna
+
+57. Potential duplicate for "E.V.V. Satyanarayana":
+   Total movies: 2
+   Variations found:
+      - "E.V.V. Satyanarayana" (1 movies)
+      - "E. V. V. Satyanarayana" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=e-v-v-satyanarayana
+      - http://localhost:3000/movies?profile=e-v-v-satyanarayana
+
+58. Potential duplicate for "K.T. Kunjumon":
+   Total movies: 2
+   Variations found:
+      - "K.T. Kunjumon" (1 movies)
+      - "K. T. Kunjumon" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-t-kunjumon
+      - http://localhost:3000/movies?profile=k-t-kunjumon
+
+
+================================================================================
+📌 WRITER - 3 potential duplicate groups
+================================================================================
+
+59. Potential duplicate for "Malladi Venkata Krishna Murthy":
+   Total movies: 2
+   Variations found:
+      - "Malladi Venkata Krishna Murthy" (1 movies)
+      - "Malladi Venkata Krishnamurthy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=malladi-venkata-krishna-murthy
+      - http://localhost:3000/movies?profile=malladi-venkata-krishnamurthy
+
+60. Potential duplicate for "V. V. Vinayak":
+   Total movies: 2
+   Variations found:
+      - "V. V. Vinayak" (1 movies)
+      - "V.V. Vinayak" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=v-v-vinayak
+      - http://localhost:3000/movies?profile=v-v-vinayak
+
+61. Potential duplicate for "A. R. Murugadoss":
+   Total movies: 2
+   Variations found:
+      - "A. R. Murugadoss" (1 movies)
+      - "A.R. Murugadoss" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=a-r-murugadoss
+      - http://localhost:3000/movies?profile=a-r-murugadoss
+
+
+================================================================================
+📌 CINEMATOGRAPHER - 11 potential duplicate groups
+================================================================================
+
+62. Potential duplicate for "V.S.R. Swamy":
+   Total movies: 22
+   Variations found:
+      - "V.S.R. Swamy" (17 movies)
+      - "V. S. R. Swamy" (5 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=v-s-r-swamy
+      - http://localhost:3000/movies?profile=v-s-r-swamy
+
+63. Potential duplicate for "P. S. Prakash":
+   Total movies: 15
+   Variations found:
+      - "P. S. Prakash" (12 movies)
+      - "P.S. Prakash" (3 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=p-s-prakash
+      - http://localhost:3000/movies?profile=p-s-prakash
+
+64. Potential duplicate for "C. Ramprasad":
+   Total movies: 11
+   Variations found:
+      - "C. Ramprasad" (9 movies)
+      - "C. Ram Prasad" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=c-ramprasad
+      - http://localhost:3000/movies?profile=c-ram-prasad
+
+65. Potential duplicate for "Gnana Shekar V.S.":
+   Total movies: 8
+   Variations found:
+      - "Gnana Shekar V.S." (1 movies)
+      - "Gnana Shekar V. S." (7 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=gnana-shekar-v-s-
+      - http://localhost:3000/movies?profile=gnana-shekar-v-s-
+
+66. Potential duplicate for "M. V. Raghu":
+   Total movies: 7
+   Variations found:
+      - "M. V. Raghu" (5 movies)
+      - "M.V. Raghu" (2 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=m-v-raghu
+      - http://localhost:3000/movies?profile=m-v-raghu
+
+67. Potential duplicate for "P.S. Vinod":
+   Total movies: 7
+   Variations found:
+      - "P.S. Vinod" (3 movies)
+      - "P. S. Vinod" (4 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=p-s-vinod
+      - http://localhost:3000/movies?profile=p-s-vinod
+
+68. Potential duplicate for "K.K. Senthil Kumar":
+   Total movies: 7
+   Variations found:
+      - "K.K. Senthil Kumar" (6 movies)
+      - "K. K. Senthil Kumar" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-k-senthil-kumar
+      - http://localhost:3000/movies?profile=k-k-senthil-kumar
+
+69. Potential duplicate for "K.S. Prakash":
+   Total movies: 6
+   Variations found:
+      - "K.S. Prakash" (2 movies)
+      - "K. S. Prakash" (4 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=k-s-prakash
+      - http://localhost:3000/movies?profile=k-s-prakash
+
+70. Potential duplicate for "V. Srinivasa Reddy":
+   Total movies: 6
+   Variations found:
+      - "V. Srinivasa Reddy" (5 movies)
+      - "V Srinivasa Reddy" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=v-srinivasa-reddy
+      - http://localhost:3000/movies?profile=v-srinivasa-reddy
+
+71. Potential duplicate for "P. G. Vinda":
+   Total movies: 5
+   Variations found:
+      - "P. G. Vinda" (4 movies)
+      - "P.G. Vinda" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=p-g-vinda
+      - http://localhost:3000/movies?profile=p-g-vinda
+
+72. Potential duplicate for "S. R. Kathir":
+   Total movies: 4
+   Variations found:
+      - "S. R. Kathir" (3 movies)
+      - "S.R. Kathir" (1 movies)
+   Profile URLs:
+      - http://localhost:3000/movies?profile=s-r-kathir
+      - http://localhost:3000/movies?profile=s-r-kathir
+
+
+================================================================================
+📈 SUMMARY
+================================================================================
+
+Total potential duplicate groups found: 72
+
+Breakdown by role:
+  - Hero: 4 groups
+  - Heroine: 3 groups
+  - Director: 26 groups
+  - Music Director: 11 groups
+  - Producer: 14 groups
+  - Writer: 3 groups
+  - Cinematographer: 11 groups
+
+💡 RECOMMENDATIONS:
+   1. Review each group manually
+   2. Check if variations are same person (spelling differences)
+   3. If same person, standardize to one spelling
+   4. Update all movies to use consistent spelling
+   5. Consider adding celebrity records for common names
+
+================================================================================
+✅ Audit complete!
+

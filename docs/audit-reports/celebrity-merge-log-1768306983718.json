@@ -1,0 +1,338 @@
+{
+  "timestamp": "2026-01-13T12:23:03.718Z",
+  "mode": "dry_run",
+  "processed": 47,
+  "successful": 47,
+  "failed": 0,
+  "results": [
+    {
+      "duplicateId": "71476596-7275-4532-be84-631e99c81e15",
+      "keepId": "77b6b8f3-559d-4563-81a5-b9a65edf600f",
+      "keepName": "Bhanuchander",
+      "removeName": "Bhanu Chander",
+      "success": true
+    },
+    {
+      "duplicateId": "0a022e7f-f8cb-4e3c-9ac5-c16bd85e16d3",
+      "keepId": "da6ce938-b660-4ad9-ad23-ebd8b91a9dda",
+      "keepName": "C. S. Rao",
+      "removeName": "C.S. Rao",
+      "success": true
+    },
+    {
+      "duplicateId": "39963462-2470-488d-8e0b-0d75a0acd7e5",
+      "keepId": "7b4239ee-a744-4591-9b04-4e8609627e7b",
+      "keepName": "Chandra Mohan",
+      "removeName": "Chandramohan",
+      "success": true
+    },
+    {
+      "duplicateId": "da60dad4-f36d-4e36-8467-a231c42f9524",
+      "keepId": "ec8d245c-7c81-41c5-93f9-d0a458d2b8a8",
+      "keepName": "E. V. V. Satyanarayana",
+      "removeName": "E V V Satyanarayana",
+      "success": true
+    },
+    {
+      "duplicateId": "da60dad4-f36d-4e36-8467-a231c42f9524",
+      "keepId": "25f2f198-b386-463a-87d4-61655dbe088d",
+      "keepName": "E.V.V. Satyanarayana",
+      "removeName": "E V V Satyanarayana",
+      "success": true
+    },
+    {
+      "duplicateId": "fcb5d352-c9e7-4fd3-9aac-7fbe8c18a818",
+      "keepId": "9144620f-4abd-4ba6-a713-494ea336cf76",
+      "keepName": "Jaya Prada",
+      "removeName": "Jayaprada",
+      "success": true
+    },
+    {
+      "duplicateId": "e47f51c1-c14a-4a73-b461-eae5e17ab72b",
+      "keepId": "aefdd1b5-016c-43f8-ac19-c1cb18fbc061",
+      "keepName": "K. Balachander",
+      "removeName": "K Balachander",
+      "success": true
+    },
+    {
+      "duplicateId": "6a903db0-b953-48e2-ace3-c370a3653386",
+      "keepId": "a6215fa5-680b-4b0b-afcd-0e43accadbea",
+      "keepName": "K.S.R. Das",
+      "removeName": "K. S. R. Das",
+      "success": true
+    },
+    {
+      "duplicateId": "9f7a6c1d-c515-4062-9436-ae170cc37094",
+      "keepId": "b15157d0-e667-4be8-b470-eb6955a9b3c6",
+      "keepName": "Kodandarami Reddy",
+      "removeName": "Kodanda Rami Reddy",
+      "success": true
+    },
+    {
+      "duplicateId": "56e96776-389c-498c-9e4d-e099031e7f04",
+      "keepId": "2066cd3d-60ec-46b2-86f0-eb4c50b2253a",
+      "keepName": "N.T. Rama Rao",
+      "removeName": "N T Rama Rao",
+      "success": true
+    },
+    {
+      "duplicateId": "b37c432b-117a-4a66-8972-26b7b3042c09",
+      "keepId": "d4edec92-7691-44a5-ab1b-cb70b68b7c08",
+      "keepName": "S.V. Krishna Reddy",
+      "removeName": "S. V. Krishna Reddy",
+      "success": true
+    },
+    {
+      "duplicateId": "3c8c9b48-081b-4839-8866-3adad4d9b47a",
+      "keepId": "bd03d4e0-7ac8-46d0-be57-956c3fc0f048",
+      "keepName": "Aadi",
+      "removeName": "Aadi Saikumar",
+      "success": true
+    },
+    {
+      "duplicateId": "e772a33c-504c-47f1-b723-ea9a47869638",
+      "keepId": "fa67cbeb-adcc-49e1-9418-77e29ddc0aac",
+      "keepName": "Allu",
+      "removeName": "Allu Arjun",
+      "success": true
+    },
+    {
+      "duplicateId": "0f44232a-79a0-4a5f-939f-0e1038cf8fac",
+      "keepId": "b89cc71e-0cea-4446-ada4-ba6852e48f50",
+      "keepName": "Bhanumathi",
+      "removeName": "Bhanumathi Ramakrishna",
+      "success": true
+    },
+    {
+      "duplicateId": "a9caaf6b-8425-48bd-b32a-786cf908f018",
+      "keepId": "ed2aaa80-0f2b-4977-b1fb-bd3a8f0030f6",
+      "keepName": "Jagapathi Babu",
+      "removeName": "Jagapati Babu",
+      "success": true
+    },
+    {
+      "duplicateId": "43d45481-b2fc-4a9f-a07d-5b27e0ce91c4",
+      "keepId": "265f1268-e5e4-4836-a9f7-436c86a237fe",
+      "keepName": "Jandhyala",
+      "removeName": "Jandhyala Subramanya Sastry",
+      "success": true
+    },
+    {
+      "duplicateId": "2839233f-e743-4949-99f6-0f7704899710",
+      "keepId": "3e18a500-ed87-4122-9fc4-7a54dce3bb82",
+      "keepName": "Jayalalitha",
+      "removeName": "Jayalalithaa",
+      "success": true
+    },
+    {
+      "duplicateId": "059efba5-7e6f-4c1a-9682-e6ca66dac5c6",
+      "keepId": "9f7a6c1d-c515-4062-9436-ae170cc37094",
+      "keepName": "Kodanda Rami Reddy",
+      "removeName": "A Kodandarami Reddy",
+      "success": true
+    },
+    {
+      "duplicateId": "059efba5-7e6f-4c1a-9682-e6ca66dac5c6",
+      "keepId": "b15157d0-e667-4be8-b470-eb6955a9b3c6",
+      "keepName": "Kodandarami Reddy",
+      "removeName": "A Kodandarami Reddy",
+      "success": true
+    },
+    {
+      "duplicateId": "12246ccf-e690-41f3-b33e-5b9951bfd054",
+      "keepId": "680ebff5-78e7-4aca-8815-374583bc9069",
+      "keepName": "Jaggayya",
+      "removeName": "Kongara Jaggayya",
+      "success": true
+    },
+    {
+      "duplicateId": "bf5297a6-0ae8-49bc-b782-728d15f1a3ce",
+      "keepId": "52292e26-0955-4978-8929-c09687e16ffb",
+      "keepName": "Khushboo",
+      "removeName": "Kushboo",
+      "success": true
+    },
+    {
+      "duplicateId": "cca50aad-69af-4c86-be34-2fef9c4f7e8f",
+      "keepId": "5e9bdc8d-63f8-4007-93dc-e03824a243cf",
+      "keepName": "N.T. Rama Rao Jr.",
+      "removeName": "Jr. NTR",
+      "success": true
+    },
+    {
+      "duplicateId": "303c9687-1d0e-42c4-acc1-e7a042e3e14e",
+      "keepId": "9b3fba37-c96b-4407-89d3-0e329eaa0b9a",
+      "keepName": "Naga Shaurya",
+      "removeName": "Naga Shourya",
+      "success": true
+    },
+    {
+      "duplicateId": "b4262f0a-ab14-4797-abba-12ce1cf1b8d6",
+      "keepId": "32a99a11-86be-4afa-a0e6-ce18c6ce3eea",
+      "keepName": "Akkineni Nageswara Rao",
+      "removeName": "Nageshwara Rao Akkineni",
+      "success": true
+    },
+    {
+      "duplicateId": "413563f4-9760-4157-8608-d98593ff4aff",
+      "keepId": "0d3c270a-908b-4723-b3d7-ea92bfe6411b",
+      "keepName": "Nara Rohit",
+      "removeName": "Nara Rohith",
+      "success": true
+    },
+    {
+      "duplicateId": "4f6558d3-45cf-428e-a717-bfb5f6f976f2",
+      "keepId": "b89cc71e-0cea-4446-ada4-ba6852e48f50",
+      "keepName": "Bhanumathi",
+      "removeName": "P Bhanumathi",
+      "success": true
+    },
+    {
+      "duplicateId": "4c03c0df-c977-4de9-9bad-c7a7782e4b5a",
+      "keepId": "da2f3282-9f32-45d5-a5d4-06cf7b990f44",
+      "keepName": "Raadhika",
+      "removeName": "Radikaa Sarathkumar",
+      "success": true
+    },
+    {
+      "duplicateId": "602a3f4c-b9b0-4375-a126-05d73bfa1f24",
+      "keepId": "9124d7c0-72fd-4f21-ab80-8a35fe1d2d83",
+      "keepName": "Rajasekhar",
+      "removeName": "Dr. Rajasekhar",
+      "success": true
+    },
+    {
+      "duplicateId": "7b5ad0b1-105a-4a9d-a5f9-1070ce756e28",
+      "keepId": "ed0400fb-23c3-4fc8-b945-afb6c51d8f03",
+      "keepName": "Ramya Krishna",
+      "removeName": "Ramya Krishnan",
+      "success": true
+    },
+    {
+      "duplicateId": "0d3c270a-908b-4723-b3d7-ea92bfe6411b",
+      "keepId": "d7dfcf0b-d81e-4507-a827-51e4174a20b3",
+      "keepName": "Rohit",
+      "removeName": "Nara Rohit",
+      "success": true
+    },
+    {
+      "duplicateId": "f6daf0c0-2852-4776-87ac-7b9cc3346305",
+      "keepId": "6bde6742-b23a-4d6d-974b-793037fe6493",
+      "keepName": "Ravichandran",
+      "removeName": "S. S. Ravichandra",
+      "success": true
+    },
+    {
+      "duplicateId": "86cc389f-9d7a-4245-ae9f-5d1918883b99",
+      "keepId": "de66941a-103f-4692-9928-14c6b9674917",
+      "keepName": "Sai Dharam Tej",
+      "removeName": "Sai Durgha Tej",
+      "success": true
+    },
+    {
+      "duplicateId": "5cd427fc-92bb-477c-b38c-f5777373c577",
+      "keepId": "96b036df-313a-4bd0-b472-1fb35b57b21c",
+      "keepName": "Samantha",
+      "removeName": "Samantha Ruth Prabhu",
+      "success": true
+    },
+    {
+      "duplicateId": "291b42c7-3839-4ef0-afa4-6cfbf6afb070",
+      "keepId": "68dfa96d-1d00-43f6-81bc-c871bc84e209",
+      "keepName": "Satyanarayana",
+      "removeName": "Kaikala Satyanarayana",
+      "success": true
+    },
+    {
+      "duplicateId": "ab69ec8c-2d7e-40f5-9154-c1635b4534db",
+      "keepId": "764bf9e3-654c-4c03-a431-f3eae47673c0",
+      "keepName": "Shantipriya",
+      "removeName": "Shanthi Priya",
+      "success": true
+    },
+    {
+      "duplicateId": "5c495fb9-803c-4842-9859-64f2a93fe7fb",
+      "keepId": "c293135b-e402-4667-ad0a-280f44a04910",
+      "keepName": "Janaki",
+      "removeName": "Showkar Janaki",
+      "success": true
+    },
+    {
+      "duplicateId": "ef16114f-6a26-4fab-abe4-6e5514be1f6e",
+      "keepId": "72e1b4b8-2b29-4402-a2d6-6c06a68c7252",
+      "keepName": "Sivaji",
+      "removeName": "Sivaji Ganesan",
+      "success": true
+    },
+    {
+      "duplicateId": "a76b95b6-67e6-4dfc-91f3-f125b45f0675",
+      "keepId": "f63204ee-5d9a-40ed-a706-6edfd0620f84",
+      "keepName": "Sobhan Babu",
+      "removeName": "Babu Rao",
+      "success": true
+    },
+    {
+      "duplicateId": "612b0831-bb6d-4e3c-ab90-97f6057ae5cc",
+      "keepId": "c293135b-e402-4667-ad0a-280f44a04910",
+      "keepName": "Janaki",
+      "removeName": "Sowcar Janaki",
+      "success": true
+    },
+    {
+      "duplicateId": "1f3c2739-bfa9-40a3-a5a3-10d8ffe01fa7",
+      "keepId": "0d40f232-87e7-48b2-a831-53d9c54479f8",
+      "keepName": "Sreenu Vaitla",
+      "removeName": "Srinu Vaitla",
+      "success": true
+    },
+    {
+      "duplicateId": "4a992d7e-6de8-4395-85be-717a73f31c4c",
+      "keepId": "2498ba80-af97-4cfd-8e03-d031d6b87191",
+      "keepName": "Suman",
+      "removeName": "Sumanth Ashwin",
+      "success": true
+    },
+    {
+      "duplicateId": "56e96776-389c-498c-9e4d-e099031e7f04",
+      "keepId": "a52ce466-f54d-4e17-8a54-81cd769ad62d",
+      "keepName": "T. Rama Rao",
+      "removeName": "N T Rama Rao",
+      "success": true
+    },
+    {
+      "duplicateId": "aa7fdedc-96c6-49fa-9f6d-516cf727421a",
+      "keepId": "343c8f42-04c0-4759-8b0e-16e303966af4",
+      "keepName": "Vanisri",
+      "removeName": "Vanisree",
+      "success": true
+    },
+    {
+      "duplicateId": "52cf4ded-32c8-4d0f-9883-5867f252aa78",
+      "keepId": "ceb2c247-5c54-4283-959b-dc3f394d9c09",
+      "keepName": "Daggubati Venkatesh",
+      "removeName": "Venkatesh",
+      "success": true
+    },
+    {
+      "duplicateId": "ec8d245c-7c81-41c5-93f9-d0a458d2b8a8",
+      "keepId": "25f2f198-b386-463a-87d4-61655dbe088d",
+      "keepName": "E.V.V. Satyanarayana",
+      "removeName": "E. V. V. Satyanarayana",
+      "success": true
+    },
+    {
+      "duplicateId": "a52ce466-f54d-4e17-8a54-81cd769ad62d",
+      "keepId": "2066cd3d-60ec-46b2-86f0-eb4c50b2253a",
+      "keepName": "N.T. Rama Rao",
+      "removeName": "T. Rama Rao",
+      "success": true
+    },
+    {
+      "duplicateId": "7c169da1-299b-49e0-8cdf-94542b159c8c",
+      "keepId": "ff96c57f-b0d5-4580-ba8f-1091d1affefe",
+      "keepName": "Kamalakara Kameshwara Rao",
+      "removeName": "Kamalakara Kameswara Rao",
+      "success": true
+    }
+  ]
+}

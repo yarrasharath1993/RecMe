@@ -1,0 +1,65 @@
+
+🎬 Batch Celebrity Profile Enrichment
+
+Mode: EXECUTE
+Limit: 50
+Min movies: 5
+
+Found 50 celebrities to process
+
+44 celebrities have 5+ movies
+
+[1/44] A. Chandra                    ✓ 7 fields
+[2/44] A. Karunakaran                ✓ 8 fields
+[3/44] Aadhi Pinisetty               ✓ 8 fields
+[4/44] Aadi                          ✓ 9 fields
+[5/44] Aamani                        ✓ 9 fields
+[6/44] Aarthi Agarwal                ✓ 8 fields
+[7/44] Abbas                         ✓ 9 fields
+[8/44] Abhirami                      ✓ 9 fields
+[9/44] Aditi Rao Hydari              ✓ 8 fields
+[10/44] Adivi Sesh                    ✓ 8 fields
+[11/44] Adurthi Subba Rao             ✓ 8 fields
+[12/44] Aishwarya Rai Bachchan        ✓ 9 fields
+[13/44] Aishwarya Rajesh              ✓ 9 fields
+[14/44] Ajay                          ✓ 9 fields
+[15/44] Ajay Ghosh                    ✓ 8 fields
+[16/44] Akhil Akkineni                ✓ 9 fields
+[17/44] Akkineni Nagarjuna            ✓ 9 fields
+[18/44] Akkineni Nageswara Rao        ✓ 9 fields
+[19/44] Ali                           ✓ 9 fields
+[20/44] Ali Basha                     ✓ 9 fields
+[21/44] Allari Naresh                 ✓ 9 fields
+[22/44] Allu                          ✓ 9 fields
+[23/44] Allu Rama Lingaiah            ✓ 8 fields
+[24/44] Allu Sirish                   ✓ 8 fields
+[25/44] Amala                         ✓ 9 fields
+[26/44] Amala Akkineni                ✓ 9 fields
+[27/44] Anand Deverakonda             ✓ 9 fields
+[28/44] Anandhi                       ✓ 9 fields
+[29/44] Ananya Nagalla                ✓ 8 fields
+[30/44] Anasuya Bharadwaj             ✓ 8 fields
+[31/44] Anil Ravipudi                 ✓ 7 fields
+[32/44] Anisha Ambrose                ✓ 8 fields
+[33/44] Anjali                        ✓ 9 fields
+[34/44] Anjali Devi                   ✓ 9 fields
+[35/44] Anu Emmanuel                  ✓ 12 fields
+[36/44] Anupama Parameswaran          ✓ 8 fields
+[37/44] Anurag Basu                   ✓ 10 fields
+[38/44] Anusha                        ✓ 9 fields
+[39/44] Anushka Shetty                ✓ 11 fields
+[40/44] Archana                       ✓ 8 fields
+[41/44] Arjun                         ✓ 9 fields
+[42/44] Arjun Sarja                   ✓ 9 fields
+[43/44] Aryan Rajesh                  ✓ 9 fields
+[44/44] Ashwini                       ✓ 9 fields
+
+════════════════════════════════════════════════════════════
+SUMMARY
+════════════════════════════════════════════════════════════
+✓ Successful: 44
+✗ Failed: 0
+Fields updated: 384
+
+Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/audit-reports/celebrity-enrichment-1768331429892.json
+

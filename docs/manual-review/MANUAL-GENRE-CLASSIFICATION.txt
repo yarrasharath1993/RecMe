@@ -1,0 +1,4010 @@
+═══════════════════════════════════════════════════════════════════════
+           1000 MOVIES NEEDING MANUAL GENRE CLASSIFICATION
+═══════════════════════════════════════════════════════════════════════
+
+These movies need manual research to add genres:
+
+  1. Ilanti Cinema Meereppudu Chusundaru (2025) [✗ No TMDB]
+     Dir: Super Raja
+     http://localhost:3000/movies/super-raja-2025
+
+  2. Boss (2025) [✗ No TMDB]
+     Dir: Ra Hee-chan
+     http://localhost:3000/movies/break-out-2025
+
+  3. Kotha Rangula Prapancham (2024) [✗ No TMDB]
+     Dir: Prudhvi Raj
+     http://localhost:3000/movies/kotha-rangula-prapancham-2024
+
+  4. Akkada Varu Ikkada Unnaru (2024) [✗ No TMDB]
+     Dir: Trivikram Rao Kundurthi
+     http://localhost:3000/movies/akkada-varu-ikkada-unnaru-2024
+
+  5. Pranaya Godari (2024) [✗ No TMDB]
+     Dir: PL K Reddy
+     http://localhost:3000/movies/pranaya-godari-2024
+
+  6. Leela Vinodham (2024) [✗ No TMDB]
+     Dir: Pavan Sunkara
+     http://localhost:3000/movies/leela-vinodham-2024
+
+  7. Bhavanam (2024) [✗ No TMDB]
+     Dir: Balachary Kurella
+     http://localhost:3000/movies/bhavanam-2024
+
+  8. Brahmmavaram P.S. Paridhilo (2024) [✗ No TMDB]
+     Dir: Imran Sastry
+     http://localhost:3000/movies/brahmmavaram-p-s-paridhilo-2024
+
+  9. Subramanyam Chigurupati (2023) [✗ No TMDB]
+     Dir: Srikant G Reddy
+     http://localhost:3000/movies/subramanyam-chigurupati-2023
+
+ 10. Barla Narayana (2023) [✗ No TMDB]
+     Dir: Murali Kishor Abburu
+     http://localhost:3000/movies/barla-narayana-2023
+
+ 11. Ashtadigbandhanam (2023) [✗ No TMDB]
+     Dir: Baba PR
+     http://localhost:3000/movies/ashtadigbandhanam-2023
+
+ 12. Ala Ila Ela (2023) [✗ No TMDB]
+     Dir: Dwarki Raghav
+     http://localhost:3000/movies/ala-ila-ela-2023
+
+ 13. 'Salaar: Part 2 – Shouryanga Parvam (2023) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/salaar-part-2-shouryanga-parvam-2023
+
+ 14. Lakshman K Krishna (2022) [✗ No TMDB]
+     Dir: Vijay Krishna Acharya
+     http://localhost:3000/movies/lakshman-k-krishna-2022
+
+ 15. Bommala Koluvu (2022) [✗ No TMDB]
+     Dir: Subbu Vedula
+     http://localhost:3000/movies/bommala-koluvu-2022
+
+ 16. Gudaputani (2021) [✗ No TMDB]
+     Dir: KM Kumar
+     http://localhost:3000/movies/gudaputani-2021
+
+ 17. Hemanth (2021) [✗ No TMDB]
+     Dir: Hemant Dhome
+     http://localhost:3000/movies/hemanth-2021
+
+ 18. Family Drama (2021) [✗ No TMDB]
+     Dir: Meher Tej
+     http://localhost:3000/movies/family-drama-2021
+
+ 19. Check (2021) [✗ No TMDB]
+     Dir: Chandra Sekhar Yeleti
+     http://localhost:3000/movies/chandra-sekhar-yeleti-2021
+
+ 20. Asalem Jarigandi (2021) [✗ No TMDB]
+     Dir: Prem Raj
+     http://localhost:3000/movies/asalem-jarigandi-2021
+
+ 21. Love Story (2021) [✗ No TMDB]
+     Dir: Sekhar Kammula
+     http://localhost:3000/movies/sekhar-kammula-2021
+
+ 22. Seetimaarr (2021) [✗ No TMDB]
+     Dir: Sampath Nandi
+     http://localhost:3000/movies/sampath-nandi-2021
+
+ 23. Most Eligible Bachelor (2021) [✗ No TMDB]
+     Dir: Bhaskar
+     http://localhost:3000/movies/bhaskar-2021
+
+ 24. Thagite Thandana (2020) [✗ No TMDB]
+     Dir: Shravan Kumar K.
+     http://localhost:3000/movies/thagite-thandana-2020
+
+ 25. Utthara (2020) [✗ No TMDB]
+     Dir: Thirupathi Rao Indraganti
+     http://localhost:3000/movies/utthara-2020
+
+ 26. Prematho Cheppana (2019) [✗ No TMDB]
+     Dir: Ravi Varma
+     http://localhost:3000/movies/prematho-cheppana-2019
+
+ 27. Ranasthalam (2019) [✗ No TMDB]
+     Dir: Sudheer Varma
+     http://localhost:3000/movies/ranasthalam-2019
+
+ 28. Aa Nimisham (2019) [✗ No TMDB]
+     Dir: Kala Rajesh
+     http://localhost:3000/movies/aa-nimisham-2019
+
+ 29. Sher (2019) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/sher-2019
+
+ 30. Danger Love Story (2019) [✗ No TMDB]
+     Dir: Shekar Chandra
+     http://localhost:3000/movies/danger-love-story-2019
+
+ 31. Kishore Kumar (2019) [✗ No TMDB]
+     Dir: Kiran Abbavaram
+     http://localhost:3000/movies/kishore-kumar-2019
+
+ 32. Hulchul (2019) [✗ No TMDB]
+     Dir: Glory
+     http://localhost:3000/movies/hulchul-2019
+
+ 33. Srinivasa Reddy (2019) [✗ No TMDB]
+     Dir: Anil Kumar
+     http://localhost:3000/movies/srinivasa-reddy-2019
+
+ 34. 4 Letters (2019) [✗ No TMDB]
+     Dir: R Raghuraj
+     http://localhost:3000/movies/4-letters-2019
+
+ 35. N.T.R: Kathanayukudu (2019) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/n-t-r-kathanayukudu-2019
+
+ 36. ch ravi kishore babu (2018) [✗ No TMDB]
+     Dir: Tanikella Bharani, Amar, Santo
+     http://localhost:3000/movies/ch-ravi-kishore-babu-2018
+
+ 37. Masakkali (2018) [✗ No TMDB]
+     Dir: Nabi Enugubala
+     http://localhost:3000/movies/masakkali-2018
+
+ 38. Juvva (2018) [✗ No TMDB]
+     Dir: Trikoti Peta
+     http://localhost:3000/movies/juvva-2018
+
+ 39. 2 Friends (2018) [✗ No TMDB]
+     Dir: Srinivas GLB
+     http://localhost:3000/movies/2-friends-2018
+
+ 40. Super Sketch (2018) [✗ No TMDB]
+     Dir: Ravi Chakravathy
+     http://localhost:3000/movies/super-sketch-2018
+
+ 41. Moodu Puvulu Aaru Kayalu (2018) [✗ No TMDB]
+     Dir: Ramaswamy
+     http://localhost:3000/movies/moodu-puvulu-aaru-kayalu-2018
+
+ 42. Karthikeya (2018) [✗ No TMDB]
+     Dir: Chandoo Mondeti
+     http://localhost:3000/movies/karthikeya-2018
+
+ 43. Howrah Bridge (2018) [✗ No TMDB]
+     Dir: Revathi
+     http://localhost:3000/movies/howrah-bridge-2018
+
+ 44. My Dear Marthandam (2018) [✗ No TMDB]
+     Dir: Harish K V
+     http://localhost:3000/movies/my-dear-marthandam-2018
+
+ 45. Kiss Kiss Bang Bang (2017) [✗ No TMDB]
+     Dir: Karthik Medikonda
+     http://localhost:3000/movies/kiss-kiss-bang-bang-2017
+
+ 46. Vikram Kumar (2017) [✗ No TMDB]
+     Dir: Vikram Kumar
+     http://localhost:3000/movies/vikram-kumar-2017
+
+ 47. Idhi Maa Prema Katha (2017) [✗ No TMDB]
+     Dir: Ayodhya Karthik
+     http://localhost:3000/movies/idhi-maa-prema-katha-2017
+
+ 48. Soundarya Rajinikanth (2017) [✗ No TMDB]
+     Dir: Rajesh Selva
+     http://localhost:3000/movies/soundarya-rajinikanth-2017
+
+ 49. Eeshwar (2017) [✗ No TMDB]
+     Dir: Eeshwar
+     http://localhost:3000/movies/eeshwar-2017
+
+ 50. C/o Surya (2017) [✗ No TMDB]
+     Dir: Suseenthiran
+     http://localhost:3000/movies/c-o-surya-2017
+
+ 51. Nee Preme Naa Pranam (2017) [✗ No TMDB]
+     Dir: Rajasekhar
+     http://localhost:3000/movies/nee-preme-naa-pranam-2017
+
+ 52. Rishi (2017) [✗ No TMDB]
+     Dir: Bhagya Raj
+     http://localhost:3000/movies/rishi-2017
+
+ 53. Dr. Chakravarthy (2017) [✗ No TMDB]
+     Dir: Sekhar Suri
+     http://localhost:3000/movies/dr-chakravarthy-2017
+
+ 54. Saranam Gacchami (2017) [✗ No TMDB]
+     Dir: Anil Ravipudi
+     http://localhost:3000/movies/saranam-gacchami-2017
+
+ 55. Spyder (2017) [✗ No TMDB]
+     Dir: A. R. Murugadoss
+     http://localhost:3000/movies/spyder-2017
+
+ 56. Teja (2017) [✗ No TMDB]
+     Dir: B. N. Reddy
+     http://localhost:3000/movies/teja-2017
+
+ 57. Dandakaranyam (2016) [✗ No TMDB]
+     Dir: R. S. Durai Senthilkumar
+     http://localhost:3000/movies/dandakaranyam-2016
+
+ 58. Premikudu (2016) [✗ No TMDB]
+     Dir: Karthik
+     http://localhost:3000/movies/premikudu-2016
+
+ 59. Karam Dosa (2016) [✗ No TMDB]
+     Dir: Trivikram Gajulapalli
+     http://localhost:3000/movies/karam-dosa-2016
+
+ 60. Hora Hori (2016) [✗ No TMDB]
+     Dir: Teja
+     http://localhost:3000/movies/hora-hori-2016
+
+ 61. Banthi Poola Janaki (2016) [✗ No TMDB]
+     Dir: Nellutla Praveen Chander
+     http://localhost:3000/movies/banthi-poola-janaki-2016
+
+ 62. Sri Sri (2016) [✗ No TMDB]
+     Dir: Sudheer Varma
+     http://localhost:3000/movies/sri-sri-2016
+
+ 63. Abhinetri (2016) [✗ No TMDB]
+     Dir: A. L. Vijay
+     http://localhost:3000/movies/abhinetri-2016
+
+ 64. Manalo Okkadu (2016) [✗ No TMDB]
+     Dir: R. P. Patnaik, Anita Hassanand
+     http://localhost:3000/movies/manalo-okkadu-2016
+
+ 65. Rojulu Marayi (2016) [✗ No TMDB]
+     Dir: M Maruthi
+     http://localhost:3000/movies/rojulu-marayi-2016
+
+ 66. Mana Oori Ramayanam (2016) [✗ No TMDB]
+     Dir: Prakash Raj
+     http://localhost:3000/movies/mana-oori-ramayanam-2016
+
+ 67. Ranveer Ching Returns (2016) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/ranveer-ching-returns-2016
+
+ 68. Seesa (2016) [✗ No TMDB]
+     Dir: Dileep
+     http://localhost:3000/movies/seesa-2016
+
+ 69. Oka Manasu (2016) [✗ No TMDB]
+     Dir: Rama Raju
+     http://localhost:3000/movies/oka-manasu-2016
+
+ 70. Guppedantha Prema (2016) [✗ No TMDB]
+     Dir: Vinod Lingala
+     http://localhost:3000/movies/guppedantha-prema-2016
+
+ 71. Meeku Meere Maaku Meme (2016) [✗ No TMDB]
+     Dir: Hussain Sha Kiran
+     http://localhost:3000/movies/meeku-meere-maaku-meme-2016
+
+ 72. Tulasi Dalam (2016) [✗ No TMDB]
+     Dir: Hari
+     http://localhost:3000/movies/tulasi-dalam-2016
+
+ 73. Malupu (2016) [✗ No TMDB]
+     Dir: Sathya Prabhas Pinisetty
+     http://localhost:3000/movies/malupu-2016
+
+ 74. Ranna (2015) [✓ TMDB]
+     Dir: Nanda Kishore
+     http://localhost:3000/movies/ranna-2015
+
+ 75. Lava Kusa (2015) [✗ No TMDB]
+     Dir: Jaya
+     http://localhost:3000/movies/lava-kusa-2015
+
+ 76. Kaki: Sound of Warning (2015) [✗ No TMDB]
+     Dir: Manon M
+     http://localhost:3000/movies/kaki-sound-of-warning-2015
+
+ 77. Dagudumootha Dandakor (2015) [✗ No TMDB]
+     Dir: R. K. Malineni
+     http://localhost:3000/movies/dagudumootha-dandakor-2015
+
+ 78. Best Actors (2015) [✗ No TMDB]
+     Dir: Jaya B
+     http://localhost:3000/movies/best-actors-2015
+
+ 79. Andhra Pori (2015) [✗ No TMDB]
+     Dir: Raj Mudhiraj
+     http://localhost:3000/movies/andhra-pori-2015
+
+ 80. Hitudu (2015) [✗ No TMDB]
+     Dir: Vikram K Kumar
+     http://localhost:3000/movies/hitudu-2015
+
+ 81. Noothi Lo Kappalu (2015) [✗ No TMDB]
+     Dir: P. A. Arun Prasad
+     http://localhost:3000/movies/noothi-lo-kappalu-2015
+
+ 82. Mirchi Lanti Kurradu (2015) [✗ No TMDB]
+     Dir: Jayanag
+     http://localhost:3000/movies/mirchi-lanti-kurradu-2015
+
+ 83. O Manasa (2015) [✗ No TMDB]
+     Dir: Sahaja Rao
+     http://localhost:3000/movies/o-manasa-2015
+
+ 84. Ladies & Gentleman (2015) [✗ No TMDB]
+     Dir: P.B. Manjunath
+     http://localhost:3000/movies/ladies-gentleman-2015
+
+ 85. Red Alert (2015) [✗ No TMDB]
+     Dir: Chandra Mahesh
+     http://localhost:3000/movies/red-alert-2015
+
+ 86. Dagudumoota Dandakore (2015) [✗ No TMDB]
+     Dir: R. K. Malineni
+     http://localhost:3000/movies/dagudumoota-dandakore-2015
+
+ 87. Anandam Malli Modalaindi (2015) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/anandam-malli-modalaindi-2015
+
+ 88. Well, If You Know Me (2015) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/well-if-you-know-me-2015
+
+ 89. Superstar Kidnap (2015) [✗ No TMDB]
+     Dir: Sushanth Reddy
+     http://localhost:3000/movies/superstar-kidnap-2015
+
+ 90. Thanu Nenu (2015) [✗ No TMDB]
+     Dir: Ram Mohan P
+     http://localhost:3000/movies/thanu-nenu-2015
+
+ 91. Bham Bolenath (2015) [✗ No TMDB]
+     Dir: Karthik
+     http://localhost:3000/movies/bham-bolenath-2015
+
+ 92. Gaddam Gang (2015) [✗ No TMDB]
+     Dir: Santosh Peter Jayakumar
+     http://localhost:3000/movies/gaddam-gang-2015
+
+ 93. Size Zero (2015) [✗ No TMDB]
+     Dir: Prakash Kovelamudi
+     http://localhost:3000/movies/size-zero-2015
+
+ 94. Moodu Mukkallo Cheppalante (2015) [✗ No TMDB]
+     Dir: Madhumita
+     http://localhost:3000/movies/moodu-mukkallo-cheppalante-2015
+
+ 95. Kshatriya (2014) [✗ No TMDB]
+     Dir: K. Uday Chandu
+     http://localhost:3000/movies/kshatriya-2014
+
+ 96. Bangaru Kodipetta (2014) [✗ No TMDB]
+     Dir: Raj Pippalla
+     http://localhost:3000/movies/bangaru-kodipetta-2014
+
+ 97. Saheba Subramanyam (2014) [✗ No TMDB]
+     Dir: Sasikiran
+     http://localhost:3000/movies/saheba-subramanyam-2014
+
+ 98. O Manishi Katha (2014) [✗ No TMDB]
+     Dir: Radha Krishna
+     http://localhost:3000/movies/o-manishi-katha-2014
+
+ 99. Nuvvala Nenila (2014) [✗ No TMDB]
+     Dir: Narayana
+     http://localhost:3000/movies/nuvvala-nenila-2014
+
+100. Galata (2014) [✗ No TMDB]
+     Dir: Narayan
+     http://localhost:3000/movies/galata-2014
+
+101. Ala Ela (2014) [✗ No TMDB]
+     Dir: Anish Krishna
+     http://localhost:3000/movies/ala-ela-2014
+
+102. Eduru Leni Alexander (2014) [✗ No TMDB]
+     Dir: Raja Reddy
+     http://localhost:3000/movies/eduru-leni-alexander-2014
+
+103. Vichakshana (2014) [✗ No TMDB]
+     Dir: B.S. Rao
+     http://localhost:3000/movies/vichakshana-2014
+
+104. Manushulatho Jagratha (2014) [✗ No TMDB]
+     Dir: Govind Varaha
+     http://localhost:3000/movies/manushulatho-jagratha-2013
+
+105. God Father (2014) [✗ No TMDB]
+     Dir: Bheemaneni Srinivasa Rao
+     http://localhost:3000/movies/god-father-1995
+
+106. Paathasala (2014) [✗ No TMDB]
+     Dir: Mahi V Raghav
+     http://localhost:3000/movies/paathasala-2014
+
+107. Amrutham Chandamamalo (2014) [✗ No TMDB]
+     Dir: Gunnam Gangaraju
+     http://localhost:3000/movies/amrutham-chandamamalo-2014
+
+108. Naa Rakumarudu (2014) [✗ No TMDB]
+     Dir: K. Bhagyaraj
+     http://localhost:3000/movies/naa-rakumarudu-2014
+
+109. Hrudayam Ekkadunnadi (2014) [✗ No TMDB]
+     Dir: Vi Anand
+     http://localhost:3000/movies/hrudayam-ekkadunnadi-2014
+
+110. Choosinodiki Choosinanta (2014) [✗ No TMDB]
+     Dir: Anil Kumar
+     http://localhost:3000/movies/choosinodiki-choosinanta-2014
+
+111. Kiraak (2014) [✗ No TMDB]
+     Dir: Anil Vedula
+     http://localhost:3000/movies/kiraak-2014
+
+112. Yuddham (2014) [✗ No TMDB]
+     Dir: Bharath
+     http://localhost:3000/movies/yuddham-2014
+
+113. Ulavacharu Biryani (2014) [✗ No TMDB]
+     Dir: Prakash Raj
+     http://localhost:3000/movies/ulavacharu-biryani-2014
+
+114. Backbench Student (2013) [✗ No TMDB]
+     Dir: Madhura Sreedhar
+     http://localhost:3000/movies/backbench-student-2013
+
+115. Kiss (2013) [✗ No TMDB]
+     Dir: Adivi Sesh
+     http://localhost:3000/movies/kiss-2013
+
+116. Pusthakamlo Konni Pageelu Missing (2013) [✗ No TMDB]
+     Dir: Sajid Qureshi
+     http://localhost:3000/movies/pusthakamlo-konni-pageelu-missing-2013
+
+117. Biskett (2013) [✗ No TMDB]
+     Dir: Anil Ravipudi
+     http://localhost:3000/movies/biskett-2013
+
+118. Kaalicharan (2013) [✗ No TMDB]
+     Dir: Sudheer Varma
+     http://localhost:3000/movies/kaalicharan-2013
+
+119. Chammak Challo (2013) [✗ No TMDB]
+     Dir: Neelakanta
+     http://localhost:3000/movies/chammak-challo-2013
+
+120. Saradaga Ammayitho (2013) [✗ No TMDB]
+     Dir: Bhanushankar
+     http://localhost:3000/movies/saradaga-ammayitho-2013
+
+121. Galaate (2013) [✓ TMDB]
+     Dir: Md Shridhar
+     http://localhost:3000/movies/galaate-2013
+
+122. Madhumati (2013) [✗ No TMDB]
+     Dir: Raaj Shreedhar
+     http://localhost:3000/movies/madhumati-2013
+
+123. Jai Sriram (2013) [✗ No TMDB]
+     Dir: Balaji Napiya
+     http://localhost:3000/movies/jai-sriram-2013
+
+124. Sevakudu (2013) [✗ No TMDB]
+     Dir: Gopichand Malineni
+     http://localhost:3000/movies/sevakudu-2013
+
+125. Pavitra (2013) [✗ No TMDB]
+     Dir: Janardhana Maharshi
+     http://localhost:3000/movies/pavitra-2013
+
+126. Romance (2013) [✗ No TMDB]
+     Dir: Swaroop
+     http://localhost:3000/movies/romance-2013
+
+127. Pelli Pustakam (2013) [✗ No TMDB]
+     Dir: Ramakrishna Machakanti
+     http://localhost:3000/movies/pelli-pustakam-2013
+
+128. Mallela Theeram Lo Sirimalle Puvvu (2013) [✗ No TMDB]
+     Dir: Rama Raju
+     http://localhost:3000/movies/mallela-theeram-lo-sirimalle-puvvu-2013
+
+129. Antaku Mundu Aa Taruvaata (2013) [✗ No TMDB]
+     Dir: Mohan Krishna Indraganti
+     http://localhost:3000/movies/antaku-mundu-aa-taruvaata-2013
+
+130. Moksha (2013) [✗ No TMDB]
+     Dir: Srikanth Vemula
+     http://localhost:3000/movies/moksha-2013
+
+131. Thadaka (2013) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/thadaka-2013
+
+132. Ramaiya Vasta Vaiya (2013) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/ramaiya-vasta-vaiya-2013
+
+133. Satruvu (2013) [✗ No TMDB]
+     Dir: NSR Prasad
+     http://localhost:3000/movies/satruvu-2013
+
+134. Toofan (2013) [✗ No TMDB]
+     Dir: Apurva Lakhia
+     http://localhost:3000/movies/toofan-2013
+
+135. Jabardasth (2013) [✗ No TMDB]
+     Dir: B. V. Nandini Reddy
+     http://localhost:3000/movies/jabardasth-2013
+
+136. Ongole Gittha (2013) [✗ No TMDB]
+     Dir: Bhaskar
+     http://localhost:3000/movies/ongole-gittha-2013
+
+137. Dharmavarapu Subramanyam (2013) [✗ No TMDB]
+     Dir: Jonnalagadda Srinivasa Rao
+     http://localhost:3000/movies/dharmavarapu-subramanyam-2013
+
+138. Friends Book (2012) [✗ No TMDB]
+     Dir: R.P. Patnaik
+     http://localhost:3000/movies/friends-book-2012
+
+139. Nuvvekkadunte Nenakkadunta (2012) [✗ No TMDB]
+     Dir: Subha Selvam
+     http://localhost:3000/movies/nuvvekkadunte-nenakkadunta-2012
+
+140. Siva Manasulo Sruthi (2012) [✗ No TMDB]
+     Dir: Sudheer Babu, Regina Cassandra
+     http://localhost:3000/movies/siva-manasulo-sruthi-2012
+
+141. Akash (2012) [✗ No TMDB]
+     Dir: Raj Kandukuri
+     http://localhost:3000/movies/akash-2012
+
+142. Godfather (2012) [✓ TMDB]
+     Dir: Sethu Sriram
+     http://localhost:3000/movies/godfather-2012
+
+143. Midhunam (2012) [✗ No TMDB]
+     Dir: Tanikella Bharani
+     http://localhost:3000/movies/midhunam-2012
+
+144. Rushi (2012) [✗ No TMDB]
+     Dir: Raj Madiraju
+     http://localhost:3000/movies/rushi-2012
+
+145. Disco (2012) [✗ No TMDB]
+     Dir: Harish Shankar
+     http://localhost:3000/movies/disco-2012
+
+146. Tuneega Tuneega (2012) [✗ No TMDB]
+     Dir: M.S. Raju
+     http://localhost:3000/movies/tuneega-tuneega-2012
+
+147. Chaduvukovali (2012) [✗ No TMDB]
+     Dir: Venu
+     http://localhost:3000/movies/chaduvukovali-2012
+
+148. Ethiri En 3 (2012) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/ethiri-en-3-2012
+
+149. Nandeeswarudu (2012) [✗ No TMDB]
+     Dir: Ram Shetty
+     http://localhost:3000/movies/nandeeswarudu-2012
+
+150. Mem Vayasuku Vacham (2012) [✗ No TMDB]
+     Dir: Trinadha Rao Nakkina
+     http://localhost:3000/movies/mem-vayasuku-vacham-2012
+
+151. Nitya Pellikoduku (2011) [✗ No TMDB]
+     Dir: Devi Prasad
+     http://localhost:3000/movies/nitya-pellikoduku-2011
+
+152. Galli Kurrolu (2011) [✗ No TMDB]
+     Dir: Lokesh
+     http://localhost:3000/movies/galli-kurrolu-2011
+
+153. Aakasame Haddu (2011) [✗ No TMDB]
+     Dir: Ravi Charan
+     http://localhost:3000/movies/aakasame-haddu-2011
+
+154. Yellow Flowers (2011) [✗ No TMDB]
+     Dir: Mallikharjun
+     http://localhost:3000/movies/yellow-flowers-2011
+
+155. Thimmaraju (2011) [✗ No TMDB]
+     Dir: Vijay Krishna
+     http://localhost:3000/movies/thimmaraju-2011
+
+156. Mugguru (2011) [✗ No TMDB]
+     Dir: V.N. Aditya
+     http://localhost:3000/movies/mugguru-2011
+
+157. Sanchalanam (2011) [✗ No TMDB]
+     Dir: Kranthi Kumar
+     http://localhost:3000/movies/sanchalanam-2011
+
+158. Lokame Kothaga (2011) [✗ No TMDB]
+     Dir: Bharath
+     http://localhost:3000/movies/lokame-kothaga-2011
+
+159. Bhale Mogudu Bhale Pellam (2011) [✗ No TMDB]
+     Dir: Dinesh Baboo
+     http://localhost:3000/movies/bhale-mogudu-bhale-pellam-2011
+
+160. Poru Telangana (2011) [✗ No TMDB]
+     Dir: R. Narayana Murthy
+     http://localhost:3000/movies/poru-telangana-2011
+
+161. Badrinadh (2011) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/badrinadh-2011
+
+162. Kalabha Mazha (2011) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/kalabha-mazha-2011
+
+163. Marana Porali (2011) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/marana-porali-2011
+
+164. Dushasana (2011) [✗ No TMDB]
+     Dir: Posani Krishna Murali
+     http://localhost:3000/movies/dushasana-2011
+
+165. Chattam (2011) [✗ No TMDB]
+     Dir: P. Vasu
+     http://localhost:3000/movies/chattam-2011
+
+166. Rakshana (2011) [✗ No TMDB]
+     Dir: Ramesh Puppala
+     http://localhost:3000/movies/rakshana-2011
+
+167. Priyudu (2011) [✗ No TMDB]
+     Dir: Shankar
+     http://localhost:3000/movies/priyudu-2011
+
+168. Cricket Girls & Beer (2011) [✗ No TMDB]
+     Dir: Adarsh Balakrishna, Surya Tej,
+     http://localhost:3000/movies/cricket-girls-beer-2011
+
+169. Mangala (2011) [✗ No TMDB]
+     Dir: Osho Tulasi Ram
+     http://localhost:3000/movies/mangala-2011
+
+170. Keratam (2011) [✗ No TMDB]
+     Dir: Gautham Vasudev Menon
+     http://localhost:3000/movies/keratam-2011
+
+171. Vankaya Fry (2011) [✗ No TMDB]
+     Dir: Chandu
+     http://localhost:3000/movies/vankaya-fry-2011
+
+172. Kodipunju (2011) [✗ No TMDB]
+     Dir: B. V. V. Choudary
+     http://localhost:3000/movies/kodipunju-2011
+
+173. Manchivadu (2011) [✗ No TMDB]
+     Dir: Lakshmi Narayana
+     http://localhost:3000/movies/manchivadu-2011
+
+174. Koffi Bar (2011) [✗ No TMDB]
+     Dir: Geetha Krishna
+     http://localhost:3000/movies/koffi-bar-2011
+
+175. Daggaraga Dooranga (2011) [✗ No TMDB]
+     Dir: Ravi C Kumar
+     http://localhost:3000/movies/daggaraga-dooranga-2011
+
+176. Babloo (2011) [✗ No TMDB]
+     Dir: G. Nageswara Reddy
+     http://localhost:3000/movies/babloo-2011
+
+177. Dasanna (2010) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/dasanna-2010
+
+178. Aalasyam Amrutam (2010) [✗ No TMDB]
+     Dir: Chandra Mahesh
+     http://localhost:3000/movies/aalasyam-amrutam-2010
+
+179. Sivaji (2010) [✗ No TMDB]
+     Dir: S Shankar
+     http://localhost:3000/movies/sivaji-2010
+
+180. Mouna Ragam (2010) [✗ No TMDB]
+     Dir: Vijay Balaji
+     http://localhost:3000/movies/mouna-ragam-2010
+
+181. Gudu Gudu Gunjam (2010) [✗ No TMDB]
+     Dir: Veeru Potla
+     http://localhost:3000/movies/gudu-gudu-gunjam-2010
+
+182. Bhairava Ips (2010) [✗ No TMDB]
+     Dir: Rao Bharath
+     http://localhost:3000/movies/bhairava-ips-2010
+
+183. Collector Gari Bharya (2010) [✗ No TMDB]
+     Dir: Collector Gari Bharya
+     http://localhost:3000/movies/collector-gari-bharya-2010
+
+184. Srimathi Kalyanam (2010) [✗ No TMDB]
+     Dir: Ravikumar Chakravarthy
+     http://localhost:3000/movies/srimathi-kalyanam-2010
+
+185. Sye Aata (2010) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/sye-aata-2010
+
+186. Chalaki (2010) [✗ No TMDB]
+     Dir: M. Mahadev
+     http://localhost:3000/movies/chalaki-2010
+
+187. Madhanudu (2010) [✗ No TMDB]
+     Dir: Vijay Bhapineedu
+     http://localhost:3000/movies/madhanudu-2010
+
+188. Comedy Express (2010) [✗ No TMDB]
+     Dir: Ravi Varma
+     http://localhost:3000/movies/comedy-express-2010
+
+189. Maro Charitra (2010) [✗ No TMDB]
+     Dir: Ravi Yadav
+     http://localhost:3000/movies/maro-charitra-2010
+
+190. Rakta Charitra (2010) [✗ No TMDB]
+     Dir: Ram Gopal Varma
+     http://localhost:3000/movies/rakta-charitra-2010
+
+191. Ramdev (2010) [✗ No TMDB]
+     Dir: Murali
+     http://localhost:3000/movies/ramdev-2010
+
+192. Betting Bangaraju (2010) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/betting-bangaraju-2010
+
+193. Shubhapradam (2010) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/shubhapradam-2010
+
+194. Anaganaga Oka Aranyam (2010) [✗ No TMDB]
+     Dir: V.K. Prakash
+     http://localhost:3000/movies/anaganaga-oka-aranyam-2010
+
+195. Raghavendra (2010) [✗ No TMDB]
+     Dir: Tamil Selvan
+     http://localhost:3000/movies/raghavendra-2010
+
+196. Komaram Bheem (2010) [✗ No TMDB]
+     Dir: Allani Sridhar
+     http://localhost:3000/movies/komaram-bheem-2010
+
+197. Kaluva (2010) [✗ No TMDB]
+     Dir: Balaji Sakthivel
+     http://localhost:3000/movies/kaluva-2010
+
+198. Sandadi (2010) [✗ No TMDB]
+     Dir: Jagadish
+     http://localhost:3000/movies/sandadi-2010
+
+199. Inkosaari (2010) [✗ No TMDB]
+     Dir: Siva Ganesh
+     http://localhost:3000/movies/inkosaari-2010
+
+200. Aunty Uncle Nandagopal (2010) [✗ No TMDB]
+     Dir: Satyam
+     http://localhost:3000/movies/aunty-uncle-nandagopal-2010
+
+201. Veera Telangana (2010) [✗ No TMDB]
+     Dir: R. Narayana Murthy
+     http://localhost:3000/movies/veera-telangana-2010
+
+202. Young India (2010) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/young-india-2010
+
+203. My Name Is Amrutha (2010) [✗ No TMDB]
+     Dir: Baby Gayathri, Bhanupriya, Bha
+     http://localhost:3000/movies/my-name-is-amrutha-2010
+
+204. Prema Rajyam (2010) [✗ No TMDB]
+     Dir: Lakshman
+     http://localhost:3000/movies/prema-rajyam-2010
+
+205. Udatha Udatha Ooch (2010) [✗ No TMDB]
+     Dir: Mallikharjun
+     http://localhost:3000/movies/udatha-udatha-ooch-2010
+
+206. Punnami Naagu (2009) [✗ No TMDB]
+     Dir: A Kodandarami Reddy
+     http://localhost:3000/movies/punnami-naagu-2009
+
+207. Bank (2009) [✗ No TMDB]
+     Dir: Amruta Arunkumar
+     http://localhost:3000/movies/bank-2009
+
+208. Kasko (2009) [✗ No TMDB]
+     Dir: G. Nageswara Reddy
+     http://localhost:3000/movies/kasko-2009
+
+209. Satyameva Jayathe (2009) [✗ No TMDB]
+     Dir: Siva
+     http://localhost:3000/movies/satyameva-jayathe-2009
+
+210. Manorama (2009) [✗ No TMDB]
+     Dir: V. Eshwar Reddy
+     http://localhost:3000/movies/manorama-2009
+
+211. Current (2009) [✗ No TMDB]
+     Dir: Surya Pratap
+     http://localhost:3000/movies/current-2009
+
+212. Malli Malli (2009) [✗ No TMDB]
+     Dir: Pascal
+     http://localhost:3000/movies/malli-malli-2009
+
+213. Pistha (2009) [✗ No TMDB]
+     Dir: Paruchuri Murali
+     http://localhost:3000/movies/pistha-2009
+
+214. Sesh Sangat (2009) [✓ TMDB]
+     Dir: Ashoke Viswanathan
+     http://localhost:3000/movies/sesh-sangat-2009
+
+215. Indumathi (2009) [✗ No TMDB]
+     Dir: Arjun
+     http://localhost:3000/movies/indumathi-2009
+
+216. Mesthri (2009) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/mesthri-2009
+
+217. Neramu Siksha (2009) [✗ No TMDB]
+     Dir: Vijaya Nirmala
+     http://localhost:3000/movies/neramu-siksha-2009
+
+218. Bumper Offer (2009) [✗ No TMDB]
+     Dir: Jaya Ravindra
+     http://localhost:3000/movies/bumper-offer-2009
+
+219. Evaraina Epudaina (2009) [✗ No TMDB]
+     Dir: Marthand K Shankar
+     http://localhost:3000/movies/evaraina-epudaina-2009
+
+220. Call Center (2008) [✗ No TMDB]
+     Dir: G. Nageswara Reddy
+     http://localhost:3000/movies/call-center-2008
+
+221. Idi Sangathi (2008) [✗ No TMDB]
+     Dir: Chandra Siddhartha
+     http://localhost:3000/movies/idi-sangathi-2008
+
+222. Bhadradri (2008) [✗ No TMDB]
+     Dir: Mallikarjun
+     http://localhost:3000/movies/bhadradri-2008
+
+223. Premabhishekam (2008) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/premabhishekam-2008
+
+224. Ankit, Pallavi & Friends (2008) [✗ No TMDB]
+     Dir: Hari Yelleti
+     http://localhost:3000/movies/ankit-pallavi-friends-2008
+
+225. Abbo Aadavallu (2008) [✗ No TMDB]
+     Dir: T.N. Raju
+     http://localhost:3000/movies/abbo-aadavallu-2008
+
+226. Highway (2008) [✗ No TMDB]
+     Dir: Kovvi Kalya Krishna
+     http://localhost:3000/movies/highway-2008
+
+227. Mallepuvvu (2008) [✗ No TMDB]
+     Dir: Vasanth
+     http://localhost:3000/movies/mallepuvvu-2008
+
+228. Premabandham (2008) [✗ No TMDB]
+     Dir: Siva Nagu
+     http://localhost:3000/movies/premabandham-2008
+
+229. Keka (2008) [✗ No TMDB]
+     Dir: Teja
+     http://localhost:3000/movies/keka-2008
+
+230. Mangathaayaru Tiffin Centre (2008) [✗ No TMDB]
+     Dir: Mumaith Khan, Ali, Shafi
+     http://localhost:3000/movies/mangathaayaru-tiffin-centre-2008
+
+231. Kshudra (2008) [✗ No TMDB]
+     Dir: Nagul
+     http://localhost:3000/movies/kshudra-2008
+
+232. Adivishnu (2008) [✗ No TMDB]
+     Dir: Srinivasa Rao
+     http://localhost:3000/movies/adivishnu-2008
+
+233. Gunde Jhallumandi (2008) [✗ No TMDB]
+     Dir: Madhura Sreedhar
+     http://localhost:3000/movies/gunde-jhallumandi-2008
+
+234. Adhyakshaa (2008) [✗ No TMDB]
+     Dir: Chandrashekhar Yeleti
+     http://localhost:3000/movies/adhyakshaa-2008
+
+235. Gajibiji (2008) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/gajibiji-2008
+
+236. Veedu Mamoolodu Kadu (2008) [✗ No TMDB]
+     Dir: Ravi Sarma
+     http://localhost:3000/movies/veedu-mamoolodu-kadu-2008
+
+237. Konchem Kothaga (2008) [✗ No TMDB]
+     Dir: Deva Katta
+     http://localhost:3000/movies/konchem-kothaga-2008
+
+238. Aapada Mokkulavaadu (2008) [✗ No TMDB]
+     Dir: Ram Gopal Varma
+     http://localhost:3000/movies/aapada-mokkulavaadu-2008
+
+239. Okka Magadu (2008) [✗ No TMDB]
+     Dir: Yaragudipati Varada
+     http://localhost:3000/movies/okka-magadu-2008
+
+240. Ekaloveyudu (2008) [✗ No TMDB]
+     Dir: K. Ramakrishna
+     http://localhost:3000/movies/ekaloveyudu-2008
+
+241. Aalayam (2008) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/aalayam-2008
+
+242. Donga Sachinollu (2008) [✗ No TMDB]
+     Dir: Raghu Ram
+     http://localhost:3000/movies/donga-sachinollu-2008
+
+243. Pagale Vennela (2007) [✗ No TMDB]
+     Dir: Vijaya Bhaskar
+     http://localhost:3000/movies/pagale-vennela-2007
+
+244. Amma Nanna Lekunte (2007) [✗ No TMDB]
+     Dir: Y. Ramakrishna
+     http://localhost:3000/movies/amma-nanna-lekunte-2007
+
+245. Bhookailas (2007) [✗ No TMDB]
+     Dir: Srinivasa Reddy
+     http://localhost:3000/movies/bhookailas-2007
+
+246. Classmates (2007) [✗ No TMDB]
+     Dir: Vijay Yesudas
+     http://localhost:3000/movies/classmates-2007
+
+247. Veduka (2007) [✗ No TMDB]
+     Dir: Jitender
+     http://localhost:3000/movies/veduka-2007
+
+248. Yamagola (2007) [✗ No TMDB]
+     Dir: Srinivasa Reddy
+     http://localhost:3000/movies/yamagola-2007
+
+249. Uppalapati Narayana Rao (2007) [✗ No TMDB]
+     Dir: Uppalapati Narayana Rao
+     http://localhost:3000/movies/uppalapati-narayana-rao-2007
+
+250. Brahma - the Creator (2007) [✗ No TMDB]
+     Dir: Brahma – The Creator
+     http://localhost:3000/movies/brahma-the-creator-2007
+
+251. Hello Premistara (2007) [✗ No TMDB]
+     Dir: Sharwanand
+     http://localhost:3000/movies/hello-premistara-2007
+
+252. Bhajantrilu (2007) [✗ No TMDB]
+     Dir: Jayaraj
+     http://localhost:3000/movies/bhajantrilu-2007
+
+253. Sunny (2007) [✗ No TMDB]
+     Dir: Karan
+     http://localhost:3000/movies/sunny-2007
+
+254. Poramboku (2007) [✗ No TMDB]
+     Dir: Krishna Vamsi
+     http://localhost:3000/movies/poramboku-2007
+
+255. Chandrahas (2007) [✗ No TMDB]
+     Dir: Roja
+     http://localhost:3000/movies/chandrahas-2007
+
+256. Athidi (2007) [✗ No TMDB]
+     Dir: Surender Reddy
+     http://localhost:3000/movies/athidi-2007
+
+257. Maharathi (2007) [✗ No TMDB]
+     Dir: P. Vasu
+     http://localhost:3000/movies/maharathi-2007
+
+258. Notebook (2007) [✗ No TMDB]
+     Dir: Rajesh Sharma
+     http://localhost:3000/movies/notebook-2007
+
+259. Sardar Papanna (2006) [✗ No TMDB]
+     Dir: Pratani Ramakrishna Goud
+     http://localhost:3000/movies/sardar-papanna-2006
+
+260. Hope (2006) [✗ No TMDB]
+     Dir: K. Satyanarayana
+     http://localhost:3000/movies/hope-2006
+
+261. Naayudamma (2006) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/naayudamma-2006
+
+262. Thrill (2006) [✗ No TMDB]
+     Dir: K. Veeru
+     http://localhost:3000/movies/thrill-2006
+
+263. Neeku Naaku (2006) [✗ No TMDB]
+     Dir: Krishna Vijay
+     http://localhost:3000/movies/neeku-naaku-2006
+
+264. Manodu (2006) [✗ No TMDB]
+     Dir: Priyadarshini Ram
+     http://localhost:3000/movies/manodu-2006
+
+265. Shyam Prasad (2006) [✗ No TMDB]
+     Dir: Ravi Vaarla
+     http://localhost:3000/movies/shyam-prasad-2006
+
+266. Premante Inte (2006) [✗ No TMDB]
+     Dir: Devakatta
+     http://localhost:3000/movies/premante-inte-2006
+
+267. Iddaru Attala Muddula Alludu (2006) [✗ No TMDB]
+     Dir: Dev Anand
+     http://localhost:3000/movies/iddaru-attala-muddula-alludu-2006
+
+268. Nuvve (2006) [✗ No TMDB]
+     Dir: Veera Shankar
+     http://localhost:3000/movies/nuvve-2006
+
+269. Veedhi (2006) [✗ No TMDB]
+     Dir: Vijaya Bhaskar
+     http://localhost:3000/movies/veedhi-2006
+
+270. Kizhakku Kadarkarai Salai (2006) [✓ TMDB]
+     Dir: S. S. Stanley
+     http://localhost:3000/movies/kizhakku-kadarkarai-salai-2006
+
+271. Kizhakku Kadalkarai Salai (2006) [✓ TMDB]
+     Dir: S. S. Stanley
+     http://localhost:3000/movies/kizhakku-kadalkarai-salai-2006
+
+272. Gopi – Goda Meedha Pilli (2006) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/gopi-goda-meedha-pilli-2006
+
+273. సుందరానికి తొందరెక్కువ (2006) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/-2006
+
+274. Rajababu (2006) [✗ No TMDB]
+     Dir: Muppalaneni Siva
+     http://localhost:3000/movies/rajababu-2006
+
+275. Samanyudu (2006) [✗ No TMDB]
+     Dir: Ravi C Kumar
+     http://localhost:3000/movies/samanyudu-2006
+
+276. Indian Beauty (2006) [✗ No TMDB]
+     Dir: K. Shanti Kumar
+     http://localhost:3000/movies/indian-beauty-2006
+
+277. Abhaddam (2006) [✗ No TMDB]
+     Dir: Raviraja
+     http://localhost:3000/movies/abhaddam-2006
+
+278. Evandoi Srivaru (2006) [✗ No TMDB]
+     Dir: Sathyam
+     http://localhost:3000/movies/evandoi-srivaru-2006
+
+279. Kokila (2006) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/kokila-2006
+
+280. Raraju (2006) [✗ No TMDB]
+     Dir: Udayasankar
+     http://localhost:3000/movies/raraju-2006
+
+281. Valliddari Vayasu Padahare (2006) [✗ No TMDB]
+     Dir: Bhanu Shankar
+     http://localhost:3000/movies/valliddari-vayasu-padahare-2006
+
+282. Aadi Lakshmi (2006) [✗ No TMDB]
+     Dir: Y.V.S. Chowdary
+     http://localhost:3000/movies/aadi-lakshmi-2006
+
+283. Evaru Nenu (2005) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/evaru-nenu-2005
+
+284. Rendella Tharuvatha (2005) [✗ No TMDB]
+     Dir: K.V.S.S. Sivaprasad
+     http://localhost:3000/movies/rendella-tharuvatha-2005
+
+285. Moguds Pellams (2005) [✗ No TMDB]
+     Dir: Venky
+     http://localhost:3000/movies/moguds-pellams-2005
+
+286. Evadi Gola Vaadidi (2005) [✗ No TMDB]
+     Dir: E V V Satyanarayana
+     http://localhost:3000/movies/evadi-gola-vaadidi-2005
+
+287. Mr. Errababu (2005) [✗ No TMDB]
+     Dir: Sivaji, Roma, Nagendra Babu, S
+     http://localhost:3000/movies/mr-errababu-2005
+
+288. Premikulu (2005) [✗ No TMDB]
+     Dir: B. Jaya
+     http://localhost:3000/movies/premikulu-2005
+
+289. Nayakudu (2005) [✗ No TMDB]
+     Dir: Karthik
+     http://localhost:3000/movies/nayakudu-2005
+
+290. Good Boy (2005) [✗ No TMDB]
+     Dir: Mohan Krishna
+     http://localhost:3000/movies/good-boy-2005
+
+291. Evadi Gola Vaadidhi (2005) [✗ No TMDB]
+     Dir: Srikanth Nahatha
+     http://localhost:3000/movies/evadi-gola-vaadidhi-2005
+
+292. Orey Pandu (2005) [✗ No TMDB]
+     Dir: Tejas Dhanraj
+     http://localhost:3000/movies/orey-pandu-2005
+
+293. Sravanamasam (2005) [✗ No TMDB]
+     Dir: Posani Krishna Murali
+     http://localhost:3000/movies/sravanamasam-2005
+
+294. Nireekshana (2005) [✗ No TMDB]
+     Dir: Vikraman
+     http://localhost:3000/movies/nireekshana-2005
+
+295. Oka Oorilo (2005) [✗ No TMDB]
+     Dir: Rama Rao
+     http://localhost:3000/movies/oka-oorilo-2005
+
+296. Youth (2005) [✗ No TMDB]
+     Dir: Vinayak
+     http://localhost:3000/movies/youth-2005
+
+297. Okkade (2005) [✗ No TMDB]
+     Dir: Gunasekhar
+     http://localhost:3000/movies/okkade-2005
+
+298. Chhatrapati (2005) [✗ No TMDB]
+     Dir: Srihari Nanu
+     http://localhost:3000/movies/chhatrapati-2005
+
+299. Keelu Gurram (2005) [✗ No TMDB]
+     Dir: Rohit, Baladitya, Nakul, Rajes
+     http://localhost:3000/movies/keelu-gurram-2005
+
+300. 786 Khaidi Premakatha (2005) [✗ No TMDB]
+     Dir: K.S. Nageswara Rao
+     http://localhost:3000/movies/786-khaidi-premakatha-2005
+
+301. Avunanna Kaadanna (2005) [✗ No TMDB]
+     Dir: Teja
+     http://localhost:3000/movies/avunanna-kaadanna-2005
+
+302. Ayodhya (2005) [✗ No TMDB]
+     Dir: Y. V. S. Chowdary
+     http://localhost:3000/movies/ayodhya-2005
+
+303. Pellam Pichodu (2005) [✗ No TMDB]
+     Dir: Jonnavithhula
+     http://localhost:3000/movies/pellam-pichodu-2005
+
+304. Kumkuma (2005) [✗ No TMDB]
+     Dir: Jyoti Kumar
+     http://localhost:3000/movies/kumkuma-2005
+
+305. Aaptudu (2004) [✗ No TMDB]
+     Dir: Rajendra Prasad
+     http://localhost:3000/movies/aaptudu-2004
+
+306. Guri (2004) [✗ No TMDB]
+     Dir: B. Satya
+     http://localhost:3000/movies/guri-2004
+
+307. Love Today (2004) [✗ No TMDB]
+     Dir: Satin Devi
+     http://localhost:3000/movies/love-today-2004
+
+308. Kaasi (2004) [✗ No TMDB]
+     Dir: Lawrence
+     http://localhost:3000/movies/kaasi-2004
+
+309. Tapana (2004) [✗ No TMDB]
+     Dir: Tejaswi
+     http://localhost:3000/movies/tapana-2004
+
+310. Satruvu (2004) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/satruvu-2004
+
+311. Vidyardhi (2004) [✗ No TMDB]
+     Dir: Balachari
+     http://localhost:3000/movies/vidyardhi-2004
+
+312. 24 Gantalu (2004) [✗ No TMDB]
+     Dir: D. S. Rao
+     http://localhost:3000/movies/24-gantalu-2004
+
+313. Pallakilo Pellikoothuru (2004) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pallakilo-pellikoothuru-2004
+
+314. Preminchukunnam Pelliki Randi (2004) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/preminchukunnam-pelliki-randi-2004
+
+315. Satta (2004) [✗ No TMDB]
+     Dir: Pavan
+     http://localhost:3000/movies/satta-2004
+
+316. Apparao Driving School (2004) [✗ No TMDB]
+     Dir: Anji Seenu
+     http://localhost:3000/movies/apparao-driving-school-2004
+
+317. Ee Snehatheerathu (2004) [✓ TMDB]
+     Dir: P. Sivaprasad
+     http://localhost:3000/movies/ee-snehatheerathu-2004
+
+318. Sankharavam (2004) [✗ No TMDB]
+     Dir: Evv Satyanarayana
+     http://localhost:3000/movies/sankharavam-2004
+
+319. Dhavala Satyam (2004) [✗ No TMDB]
+     Dir: Dhavala Satyam
+     http://localhost:3000/movies/dhavala-satyam-2004
+
+320. Puttintiki Ra Chelli (2004) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/puttintiki-ra-chelli-2004
+
+321. Letha Manasulu (2004) [✗ No TMDB]
+     Dir: Srikanth Addala
+     http://localhost:3000/movies/letha-manasulu-2004
+
+322. Madhyanam Hathya (2004) [✗ No TMDB]
+     Dir: Ram Gopal Varma
+     http://localhost:3000/movies/madhyanam-hathya-2004
+
+323. Swamy (2004) [✗ No TMDB]
+     Dir: Dharani
+     http://localhost:3000/movies/swamy-2004
+
+324. Bhadradri Ramudu (2004) [✗ No TMDB]
+     Dir: Suresh
+     http://localhost:3000/movies/bhadradri-ramudu-2004
+
+325. Santhi Sandesam (2004) [✗ No TMDB]
+     Dir: P. Chandrasekhar Reddy
+     http://localhost:3000/movies/santhi-sandesam-2004
+
+326. CBI Officer (2004) [✗ No TMDB]
+     Dir: Shiva
+     http://localhost:3000/movies/cbi-officer-2004
+
+327. Kaani (2004) [✗ No TMDB]
+     Dir: A.M. Burhanuddin
+     http://localhost:3000/movies/kaani-2004
+
+328. Seshadri Naidu (2004) [✗ No TMDB]
+     Dir: D. Prabhakar
+     http://localhost:3000/movies/seshadri-naidu-2004
+
+329. Aithe Enti (2004) [✗ No TMDB]
+     Dir: Shyam Prasad
+     http://localhost:3000/movies/aithe-enti-2004
+
+330. Okato Number Kurraadu (2003) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/okato-number-kurraadu-2003
+
+331. Hari Villu (2003) [✗ No TMDB]
+     Dir: B. Narsing Rao
+     http://localhost:3000/movies/hari-villu-2003
+
+332. City (2003) [✗ No TMDB]
+     Dir: Nagendra
+     http://localhost:3000/movies/city-2003
+
+333. Taarak (2003) [✗ No TMDB]
+     Dir: Balasekaran
+     http://localhost:3000/movies/taarak-2003
+
+334. Nenu Seetamahalakshmi (2003) [✗ No TMDB]
+     Dir: Koti
+     http://localhost:3000/movies/nenu-seetamahalakshmi-2003
+
+335. Ori Nee Prema Bangaram Kaanu (2003) [✗ No TMDB]
+     Dir: AVS
+     http://localhost:3000/movies/ori-nee-prema-bangaram-kaanu-2003
+
+336. Idi Maa Ashokgadi Love Story (2003) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/idi-maa-ashokgadi-love-story-2003
+
+337. Chantigadu (2003) [✗ No TMDB]
+     Dir: B. Gopal
+     http://localhost:3000/movies/chantigadu-2003
+
+338. Aadanthe Ado Type (2003) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/aadanthe-ado-type-2003
+
+339. Abhimanyu (2003) [✗ No TMDB]
+     Dir: Ravi Yadav
+     http://localhost:3000/movies/abhimanyu-2003
+
+340. Anaganaga O Kurraadu (2003) [✗ No TMDB]
+     Dir: Karuna Kumar
+     http://localhost:3000/movies/anaganaga-o-kurraadu-2003
+
+341. Toli Choopulone (2003) [✗ No TMDB]
+     Dir: K. Viswanath
+     http://localhost:3000/movies/toli-choopulone-2003
+
+342. Charminar (2003) [✗ No TMDB]
+     Dir: G. Nageswara Reddy
+     http://localhost:3000/movies/charminar-2003
+
+343. All over the heart (2003) [✓ TMDB]
+     Dir: Santhosh
+     http://localhost:3000/movies/all-over-the-heart-2003
+
+344. Sriramachandrulu (2003) [✗ No TMDB]
+     Dir: I. Sreekanth
+     http://localhost:3000/movies/sriramachandrulu-2003
+
+345. Vijayam (2003) [✗ No TMDB]
+     Dir: Singeetam Srinivasa Rao
+     http://localhost:3000/movies/vijayam-2003
+
+346. Fools (2003) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/fools-2003
+
+347. Neeke Manasichaanu (2003) [✗ No TMDB]
+     Dir: Sreenu Vaitla
+     http://localhost:3000/movies/neeke-manasichaanu-2003
+
+348. Maa Bapu Bommaku Pellanta (2003) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/maa-bapu-bommaku-pellanta-2003
+
+349. Evare Athagadu (2003) [✗ No TMDB]
+     Dir: Chandra Mahesh
+     http://localhost:3000/movies/evare-athagadu-2003
+
+350. Simhachalam (2003) [✗ No TMDB]
+     Dir: Eashwar
+     http://localhost:3000/movies/simhachalam-2003
+
+351. Okato Number Kurraadu (2002) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/okato-number-kurraadu-2002
+
+352. Vachina Vaadu Suryudu (2002) [✗ No TMDB]
+     Dir: Krisha, Lakshmana Swamy, Vijay
+     http://localhost:3000/movies/vachina-vaadu-suryudu-2002
+
+353. Bharata Simha Reddy (2002) [✗ No TMDB]
+     Dir: Surya
+     http://localhost:3000/movies/bharata-simha-reddy-2002
+
+354. Tappu Chesi Pappu Koodu (2002) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/tappu-chesi-pappu-koodu-2002
+
+355. Chandravamsam (2002) [✗ No TMDB]
+     Dir: Sivaji
+     http://localhost:3000/movies/chandravamsam-2002
+
+356. Malli Malli Chudali (2002) [✗ No TMDB]
+     Dir: Venu, Janani
+     http://localhost:3000/movies/malli-malli-chudali-2002
+
+357. Nee Premakai (2002) [✗ No TMDB]
+     Dir: Balu Mahendra
+     http://localhost:3000/movies/nee-premakai-2002
+
+358. Neetho Cheppalani (2002) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/neetho-cheppalani-2002
+
+359. Parasuram (2002) [✗ No TMDB]
+     Dir: Bhimaneni Srinivasa Rao
+     http://localhost:3000/movies/parasuram-2002
+
+360. Pilisthe Palukutha (2002) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pilisthe-palukutha-2002
+
+361. Chennakeshava Reddy (2002) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/chennakeshava-reddy-2002
+
+362. Angala Parameswari (2002) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/angala-parameswari-2002
+
+363. Kottai Mariamman (2002) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/kottai-mariamman-2002
+
+364. Raghava (2002) [✗ No TMDB]
+     Dir: Veera
+     http://localhost:3000/movies/raghava-2002
+
+365. Yuva Rathna (2002) [✗ No TMDB]
+     Dir: Jayaraj
+     http://localhost:3000/movies/yuva-rathna-2002
+
+366. Dream (2002) [✗ No TMDB]
+     Dir: Bhavani Shankar
+     http://localhost:3000/movies/dream-2012
+
+367. Vooru Manadiraa (2002) [✗ No TMDB]
+     Dir: R
+     http://localhost:3000/movies/vooru-manadiraa-2002
+
+368. Mounamelanoyi (2002) [✗ No TMDB]
+     Dir: Subbu
+     http://localhost:3000/movies/mounamelanoyi-2002
+
+369. Girl Friend (2002) [✗ No TMDB]
+     Dir: Sarath Mandava
+     http://localhost:3000/movies/girl-friend-2002
+
+370. Adrustam (2002) [✗ No TMDB]
+     Dir: Lawrence
+     http://localhost:3000/movies/adrustam-2002
+
+371. Holi (2002) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/holi-2002
+
+372. Priya Nestama (2002) [✗ No TMDB]
+     Dir: Raj Kumar
+     http://localhost:3000/movies/priya-nestama-2002
+
+373. O Chinnadana (2002) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/o-chinnadana-2002
+
+374. Veedekkadi Mogudandi? (2001) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/veedekkadi-mogudandi-2001
+
+375. Navvuthu Bathakalira (2001) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/navvuthu-bathakalira-2001
+
+376. Repallelo Radha (2001) [✗ No TMDB]
+     Dir: Gary BH
+     http://localhost:3000/movies/repallelo-radha-2001
+
+377. Pandanti Samsaram (2001) [✗ No TMDB]
+     Dir: Krishna Vamsi
+     http://localhost:3000/movies/pandanti-samsaram-2001
+
+378. Thank You Subba Rao (2001) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/thank-you-subba-rao-2001
+
+379. Chirujallu (2001) [✗ No TMDB]
+     Dir: Ashok Rao
+     http://localhost:3000/movies/chirujallu-2001
+
+380. Jabili (2001) [✗ No TMDB]
+     Dir: N. Sankaranarayanan
+     http://localhost:3000/movies/jabili-2001
+
+381. Atu America Itu India (2001) [✗ No TMDB]
+     Dir: Gummaluri Shastry
+     http://localhost:3000/movies/atu-america-itu-india-2001
+
+382. Prema Sandadi (2001) [✗ No TMDB]
+     Dir: K. Balachander
+     http://localhost:3000/movies/prema-sandadi-2001
+
+383. Soori (2001) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/soori-2001
+
+384. Time Pass (2001) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/time-pass-2001
+
+385. Ammaye Navvithe (2001) [✗ No TMDB]
+     Dir: V. Samudra
+     http://localhost:3000/movies/ammaye-navvithe-2001
+
+386. Bhadrachalam (2001) [✗ No TMDB]
+     Dir: N. Shankar
+     http://localhost:3000/movies/bhadrachalam-2001
+
+387. Chinna (2001) [✗ No TMDB]
+     Dir: Wangaleedharan
+     http://localhost:3000/movies/chinna-2001
+
+388. Ramma Chilakamma (2001) [✗ No TMDB]
+     Dir: Muppalaneni Shiva
+     http://localhost:3000/movies/ramma-chilakamma-2001
+
+389. Kalisi Naduddam (2001) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/kalisi-naduddam-2001
+
+390. Athanu (2001) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/athanu-2001
+
+391. Darling Darling (2001) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/darling-darling-2001
+
+392. Dadagiri (2001) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/dadagiri-2001
+
+393. B. Gopal (2001) [✗ No TMDB]
+     Dir: B Gopal
+     http://localhost:3000/movies/b-gopal-2001
+
+394. Railway Coolie (2001) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/railway-coolie-2001
+
+395. Chandra Mahesh (2001) [✗ No TMDB]
+     Dir: Jayaraj
+     http://localhost:3000/movies/chandra-mahesh-2001
+
+396. Muthyam (2001) [✗ No TMDB]
+     Dir: Jeevitha
+     http://localhost:3000/movies/muthyam-2001
+
+397. Apparao ki Oka Nela Thappindi (2001) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/apparao-ki-oka-nela-thappindi-2001
+
+398. Adhipathi (2001) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/adhipathi-2001
+
+399. Srikanth (2001) [✗ No TMDB]
+     Dir: Sagar
+     http://localhost:3000/movies/srikanth-2001
+
+400. Moodu Mukkalaata (2000) [✗ No TMDB]
+     Dir: Koda Ramakrishna
+     http://localhost:3000/movies/moodu-mukkalaata-2000
+
+401. Kauravudu (2000) [✗ No TMDB]
+     Dir: T. S. Suresh Babu
+     http://localhost:3000/movies/kauravudu-2000
+
+402. Yee Taram Nehru (2000) [✗ No TMDB]
+     Dir: Shiva
+     http://localhost:3000/movies/yee-taram-nehru-2000
+
+403. Okkadu Chalu (2000) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/okkadu-chalu-2000
+
+404. Manasu Paddanu Kaani (2000) [✗ No TMDB]
+     Dir: Veeru K.
+     http://localhost:3000/movies/manasu-paddanu-kaani-2000
+
+405. Choosoddaam Randi (2000) [✗ No TMDB]
+     Dir: Muppalaneni Siva
+     http://localhost:3000/movies/choosoddaam-randi-2000
+
+406. Durga (2000) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/durga-2000
+
+407. Maa Annayya (2000) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/maa-annayya-2000
+
+408. Chiru Navvutho (2000) [✗ No TMDB]
+     Dir: G. Ram Prasad
+     http://localhost:3000/movies/chiru-navvutho-2000
+
+409. Vamsoddarakudu (2000) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/vamsoddarakudu-2000
+
+410. Sakutumba Saparivaara Sametham (2000) [✓ TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/sakutumba-saparivaara-sametham-2000
+
+411. Pelli Sambandham (2000) [✗ No TMDB]
+     Dir: Kondapalli Dasaradh
+     http://localhost:3000/movies/pelli-sambandham-2000
+
+412. Sakutumba Saparivaara Sametam (2000) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/sakutumba-saparivaara-sametam-2000
+
+413. Dollar Dreams (1999) [✗ No TMDB]
+     Dir: Sekhar Kammula
+     http://localhost:3000/movies/dollar-dreams-1999
+
+414. Panchadara Chilaka (1999) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/panchadara-chilaka-1999
+
+415. Speed Dancer (1999) [✗ No TMDB]
+     Dir: Muppalaneni Shiva
+     http://localhost:3000/movies/speed-dancer-1999
+
+416. Naa Hrudayamlo Nidurinche Cheli (1999) [✗ No TMDB]
+     Dir: AVS Adi Narayana
+     http://localhost:3000/movies/naa-hrudayamlo-nidurinche-cheli-1999
+
+417. Ammo Polisollu (1999) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/ammo-polisollu-1999
+
+418. Asala Sandadi (1999) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/asala-sandadi-1999
+
+419. Anaganaga Oka Ammai (1999) [✗ No TMDB]
+     Dir: Ramesh Sarangan
+     http://localhost:3000/movies/anaganaga-oka-ammai-1999
+
+420. Velugu Needalu (1999) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/velugu-needalu-1999
+
+421. Veedu Samanyudu Kadhu (1999) [✗ No TMDB]
+     Dir: Uppalapati Narayana
+     http://localhost:3000/movies/veedu-samanyudu-kadhu-1999
+
+422. Harischandraa (1999) [✗ No TMDB]
+     Dir: Suresh Krishna
+     http://localhost:3000/movies/harischandraa-1999
+
+423. Kaama (1999) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/kaama-1999
+
+424. Yamajathakudu (1999) [✗ No TMDB]
+     Dir: N Shankar
+     http://localhost:3000/movies/yamajathakudu-1999
+
+425. Ramasakkanodu (1999) [✗ No TMDB]
+     Dir: Kamal Haasan
+     http://localhost:3000/movies/ramasakkanodu-1999
+
+426. A. K. 47 (1999) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/a-k-47-1999
+
+427. Sambayya (1999) [✗ No TMDB]
+     Dir: S V Krishna Reddy
+     http://localhost:3000/movies/sambayya-1999
+
+428. Aavide Syamala (1999) [✗ No TMDB]
+     Dir: K Vasu
+     http://localhost:3000/movies/aavide-syamala-1999
+
+429. Swapnalokam (1999) [✗ No TMDB]
+     Dir: Bhimaneni Srinivasa Rao
+     http://localhost:3000/movies/swapnalokam-1999
+
+430. Manavudu Danavudu (1999) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/manavudu-danavudu-1999
+
+431. Preyasi Rave (1999) [✗ No TMDB]
+     Dir: Chandra Mahesh
+     http://localhost:3000/movies/preyasi-rave-1999
+
+432. Raja Kumarudu (1999) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/raja-kumarudu-1999
+
+433. Mechanic Mavayya (1999) [✗ No TMDB]
+     Dir: Mutyala Subbaiah
+     http://localhost:3000/movies/mechanic-mavayya-1999
+
+434. Gurupoornima (1999) [✗ No TMDB]
+     Dir: P. N. Ramachandra Rao
+     http://localhost:3000/movies/gurupoornima-1999
+
+435. Vichitram (1999) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/vichitram-1999
+
+436. Maanavudu Daanavudu (1999) [✗ No TMDB]
+     Dir: Krishna Reddy
+     http://localhost:3000/movies/maanavudu-daanavudu-1999
+
+437. Priyuralu (1998) [✗ No TMDB]
+     Dir: Muppalaneni Siva
+     http://localhost:3000/movies/priyuralu-1998
+
+438. Sivayya (1998) [✗ No TMDB]
+     Dir: Suresh Varma
+     http://localhost:3000/movies/sivayya-1998
+
+439. Hello...yama! (1998) [✗ No TMDB]
+     Dir: Pavithran
+     http://localhost:3000/movies/hello-yama-1999
+
+440. Deergha Sumangali Bhava (1998) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/deergha-sumangali-bhava-1998
+
+441. Ulta Palta (1998) [✗ No TMDB]
+     Dir: Venky
+     http://localhost:3000/movies/ulta-palta-1998
+
+442. Daddy Daddy (1998) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/daddy-daddy-1998
+
+443. Ayanagaru (1998) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/ayanagaru-1998
+
+444. Eshwar Alla (1998) [✗ No TMDB]
+     Dir: Suresh Varma
+     http://localhost:3000/movies/eshwar-alla-1998
+
+445. Gillikajjalu (1998) [✗ No TMDB]
+     Dir: Evani Sathya Prabhakar
+     http://localhost:3000/movies/gillikajjalu-1998
+
+446. Nenu Premisthunnanu (1998) [✗ No TMDB]
+     Dir: E V V Satyanarayana
+     http://localhost:3000/movies/nenu-premisthunnanu-1998
+
+447. Subhavartha (1998) [✗ No TMDB]
+     Dir: Krishna Vijay
+     http://localhost:3000/movies/subhavartha-1998
+
+448. Andaru Herole (1998) [✗ No TMDB]
+     Dir: Umamaheswara Rao
+     http://localhost:3000/movies/andaru-herole-1998
+
+449. Prathista (1998) [✗ No TMDB]
+     Dir: R. Maharshi
+     http://localhost:3000/movies/prathista-1998
+
+450. Kante Koothurne Kanu (1998) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/kante-koothurne-kanu-1998
+
+451. Khaidi Garu (1998) [✗ No TMDB]
+     Dir: Evani Shankar
+     http://localhost:3000/movies/khaidi-garu-1998
+
+452. O Panaipothundi Babu (1998) [✗ No TMDB]
+     Dir: Siva Nageswara Rao
+     http://localhost:3000/movies/o-panaipothundi-babu-1998
+
+453. Subhalekhalu (1998) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/subhalekhalu-1998
+
+454. Pape Naa Pranam (1998) [✗ No TMDB]
+     Dir: B. V. Ramana
+     http://localhost:3000/movies/pape-naa-pranam-1998
+
+455. Suryudu (1998) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/suryudu-1998
+
+456. Maavidaakulu (1998) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/maavidaakulu-1998
+
+457. Sambhavam (1998) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/sambhavam-1998
+
+458. Vaibhavam (1998) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/vaibhavam-1998
+
+459. Amma Rajinama (1998) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/amma-rajinama-1998
+
+460. Pelli Peetalu (1998) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pelli-peetalu-1998
+
+461. Srimathi Vellostha (1998) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/srimathi-vellostha-1998
+
+462. Pelli Kanuka (1998) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pelli-kanuka-1998
+
+463. Sri Sita Ramula Kalyanam Chootamu Raarandi (1998) [✗ No TMDB]
+     Dir: Y. V. S. Chowdary
+     http://localhost:3000/movies/sri-sita-ramula-kalyanam-chootamu-raarandi-1998
+
+464. Vareva Moguda (1998) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/vareva-moguda-1998
+
+465. Navvulata (1998) [✗ No TMDB]
+     Dir: Gopichand Nadella
+     http://localhost:3000/movies/navvulata-1998
+
+466. Padutha Theeyaga (1998) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/padutha-theeyaga-1998
+
+467. Suprabhatam (1998) [✗ No TMDB]
+     Dir: Bhimaneni Srinivasa Rao
+     http://localhost:3000/movies/suprabhatam-1998
+
+468. Rajahamsa (1998) [✗ No TMDB]
+     Dir: Singeetam Srinivasa Rao
+     http://localhost:3000/movies/rajahamsa-1998
+
+469. Prema Pallaki (1998) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/prema-pallaki-1998
+
+470. Doni Sagali (1998) [✗ No TMDB]
+     Dir: Rajendra Singh Babu
+     http://localhost:3000/movies/doni-sagali-1998
+
+471. Aayanagaru (1998) [✗ No TMDB]
+     Dir: Nagendra Magapu
+     http://localhost:3000/movies/aayanagaru-1998
+
+472. All Rounder (1998) [✗ No TMDB]
+     Dir: E V V Satyanarayana
+     http://localhost:3000/movies/all-rounder-1998
+
+473. Mee Aayana Jagratha (1998) [✗ No TMDB]
+     Dir: Muthyala Ramadas
+     http://localhost:3000/movies/mee-aayana-jagratha-1998
+
+474. Jai Bajarangabhali (1997) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/jai-bajarangabhali-1997
+
+475. Aaro Pranam (1997) [✗ No TMDB]
+     Dir: Veeru K.
+     http://localhost:3000/movies/aaro-pranam-1997
+
+476. Bobbili Dora (1997) [✗ No TMDB]
+     Dir: Sagar
+     http://localhost:3000/movies/bobbili-dora-1997
+
+477. Korukunna Priyudu (1997) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/korukunna-priyudu-1997
+
+478. Gokulamlo Seeta (1997) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/gokulamlo-seeta-1997
+
+479. Egire Paavurama (1997) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/egire-paavurama-1997
+
+480. | Pattukondi Chuddam (1997) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/pattukondi-chuddam-1997
+
+481. Abbayi Gari Pelli (1997) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/abbayi-gari-pelli-1997
+
+482. Kurralla Rajyam (1997) [✗ No TMDB]
+     Dir: Kadambari Kirankumar
+     http://localhost:3000/movies/kurralla-rajyam-1997
+
+483. Jai Bajarangbali (1997) [✗ No TMDB]
+     Dir: Rama Narayanan
+     http://localhost:3000/movies/jai-bajarangbali-1997
+
+484. Adhirindhi Guru (1997) [✗ No TMDB]
+     Dir: Sagar
+     http://localhost:3000/movies/adhirindhi-guru-1997
+
+485. Maa Nannaki Pelli (1997) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/maa-nannaki-pelli-1997
+
+486. Egire Pavuramaa (1997) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/egire-pavuramaa-1997
+
+487. Gunda Gardi (1997) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/gunda-gardi-1997
+
+488. Chilakkottudu (1997) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/chilakkottudu-1997
+
+489. Rakshakudu (1997) [✗ No TMDB]
+     Dir: Praveen Gandhi
+     http://localhost:3000/movies/rakshakudu-1997
+
+490. Priyaragalu (1997) [✗ No TMDB]
+     Dir: Muppalaneni Shiva
+     http://localhost:3000/movies/priyaragalu-1997
+
+491. Bala Ramayanam (1997) [✗ No TMDB]
+     Dir: Gunasekhar
+     http://localhost:3000/movies/bala-ramayanam-1997
+
+492. Maa Nannaku Pelli (1997) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/maa-nannaku-pelli-1997
+
+493. Rukmini (1997) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty and starri
+     http://localhost:3000/movies/rukmini-1997
+
+494. Mama Bagunnava (1997) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/mama-bagunnava-1997
+
+495. Pittala Dora (1996) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pittala-dora-1996
+
+496. Akka! Bagunnava? (1996) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/akka-bagunnava-1996
+
+497. Adirindi Alludu (1996) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/adirindi-alludu-1996
+
+498. Gulabi (1996) [✗ No TMDB]
+     Dir: Krishna Vamsi
+     http://localhost:3000/movies/gulabi-1996
+
+499. Maa Aavida Collector (1996) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/maa-aavida-collector-1996
+
+500. Jabilamma Pelli (1996) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/jabilamma-pelli-1996
+
+501. Amma Ammani Choodalanivundi (1996) [✗ No TMDB]
+     Dir: Sagar
+     http://localhost:3000/movies/amma-ammani-choodalanivundi-1996
+
+502. Ooha (1996) [✗ No TMDB]
+     Dir: S.V. Krishna Reddy
+     http://localhost:3000/movies/ooha-1996
+
+503. Topi Raja Sweety Roja (1996) [✗ No TMDB]
+     Dir: Dr. N. Shiva Prasad
+     http://localhost:3000/movies/topi-raja-sweety-roja-1996
+
+504. Amma Durgamma (1996) [✗ No TMDB]
+     Dir: Om Sai Prakash
+     http://localhost:3000/movies/amma-durgamma-1996
+
+505. Akkum Bakkum (1996) [✗ No TMDB]
+     Dir: Ram Gopal Varma
+     http://localhost:3000/movies/akkum-bakkum-1996
+
+506. Manasulo Maata (1996) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/manasulo-maata-1996
+
+507. Shri Krishnarjuna Vijayam (1996) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/shri-krishnarjuna-vijayam-1996
+
+508. Rayudugaru Nayudugaru (1996) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/rayudugaru-nayudugaru-1996
+
+509. Srikaram (1996) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/srikaram-1996
+
+510. Puttinti Gowravam (1996) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/puttinti-gowravam-1996
+
+511. Sampradayam (1996) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/sampradayam-1996
+
+512. Gunshot (1996) [✗ No TMDB]
+     Dir: S.V. Krishna Reddy
+     http://localhost:3000/movies/gunshot-1996
+
+513. Ayanaku Iddaru (1995) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/ayanaku-iddaru-1995
+
+514. Subhamastu (1995) [✗ No TMDB]
+     Dir: Krishna Vamsi
+     http://localhost:3000/movies/subhamastu-1995
+
+515. Mounam (1995) [✗ No TMDB]
+     Dir: C. Umamaheswara Rao
+     http://localhost:3000/movies/mounam-1995
+
+516. Vaddu Bava Thappu (1995) [✗ No TMDB]
+     Dir: K. Ajay Kumar
+     http://localhost:3000/movies/vaddu-bava-thappu-1995
+
+517. Real Hero (1995) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/real-hero-1995
+
+518. Maato Pettukoku (1995) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/maato-pettukoku-1995
+
+519. Raja Muthirai (1995) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/raja-muthirai-1995
+
+520. Ketu Duplicatu (1995) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/ketu-duplicatu-1995
+
+521. Rambantu (1995) [✗ No TMDB]
+     Dir: Bavu
+     http://localhost:3000/movies/rambantu-1995
+
+522. Adavi Dora (1995) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/adavi-dora-1995
+
+523. Sankalpam (1995) [✗ No TMDB]
+     Dir: A. M. Rathnam
+     http://localhost:3000/movies/sankalpam-1995
+
+524. Orey Rikshaw (1995) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/orey-rikshaw-1995
+
+525. Super Mogudu (1995) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/super-mogudu-1995
+
+526. Bharata Simham (1995) [✗ No TMDB]
+     Dir: Sagar
+     http://localhost:3000/movies/bharata-simham-1995
+
+527. Dear Brother (1995) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/dear-brother-1995
+
+528. Ketu Duplicate (1995) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/ketu-duplicate-1995
+
+529. Chilakapachcha Kaapuram (1995) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/chilakapachcha-kaapuram-1995
+
+530. Bhale Bullodu (1995) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/bhale-bullodu-1995
+
+531. Raja Simham (1995) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/raja-simham-1995
+
+532. Raitu Bharatam (1994) [✗ No TMDB]
+     Dir: Tripuraneni Chittibabu
+     http://localhost:3000/movies/raitu-bharatam-1994
+
+533. Jailor Gaari Abbayi (1994) [✗ No TMDB]
+     Dir: Sarath Babu
+     http://localhost:3000/movies/jailor-gaari-abbayi-1994
+
+534. Maga Rayudu (1994) [✗ No TMDB]
+     Dir: E. V. V. Satyanarayana
+     http://localhost:3000/movies/maga-rayudu-1994
+
+535. Maa Voori Maaraju (1994) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/maa-voori-maaraju-1994
+
+536. Police Alludu (1994) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/police-alludu-1994
+
+537. Angarakshakudu (1994) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/angarakshakudu-1994
+
+538. Gharana Alludu (1994) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/gharana-alludu-1994
+
+539. Pelli Koduku (1994) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pelli-koduku-1994
+
+540. Number One (1994) [✗ No TMDB]
+     Dir: KSF Vissu
+     http://localhost:3000/movies/number-one-1994
+
+541. Indhu (1994) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/indhu-1994
+
+542. Athiradi Padai (1994) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/athiradi-padai-1994
+
+543. Shubha Lagnam (1994) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/shubha-lagnam-1994
+
+544. Bramhachari Mogudu (1994) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/bramhachari-mogudu-1994
+
+545. Teerpu (1994) [✗ No TMDB]
+     Dir: Uppalapati Narayana Rao
+     http://localhost:3000/movies/teerpu-1994
+
+546. Aavesam (1994) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/aavesam-1994
+
+547. Yes Nenante Nene (1994) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/yes-nenante-nene-1994
+
+548. Doragariki Donga Pellam (1994) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/doragariki-donga-pellam-1994
+
+549. Allarodu (1994) [✗ No TMDB]
+     Dir: K. Ajay Kumar
+     http://localhost:3000/movies/allarodu-1994
+
+550. Captain (1994) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/captain-1994
+
+551. Allari Premikudu (1994) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/allari-premikudu-1994
+
+552. Ammayi Kapuram (1994) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/ammayi-kapuram-1994
+
+553. Bangaru Kutumbam (1994) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/bangaru-kutumbam-1994
+
+554. Palnati Pourusham (1994) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/palnati-pourusham-1994
+
+555. Paruvu Pratishta (1993) [✗ No TMDB]
+     Dir: Vasanth
+     http://localhost:3000/movies/paruvu-pratishta-1993
+
+556. Amma Koduku (1993) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/amma-koduku-1993
+
+557. Prema Pusthakam (1993) [✗ No TMDB]
+     Dir: G. Nageswara Reddy
+     http://localhost:3000/movies/prema-pusthakam-1993
+
+558. Kunti Putrudu (1993) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/kunti-putrudu-1993
+
+559. Rendilla Poojari (1993) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/rendilla-poojari-1993
+
+560. Kondapalli Raja (1993) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/kondapalli-raja-1993
+
+561. Chittemma Mogudu (1993) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/chittemma-mogudu-1993
+
+562. Akka Pethanam (1993) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/akka-pethanam-1993
+
+563. Rowdy Annayya (1993) [✗ No TMDB]
+     Dir: B. Gopal
+     http://localhost:3000/movies/rowdy-annayya-1993
+
+564. Detective Narada (1993) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/detective-narada-1993
+
+565. Kundan (1993) [✓ TMDB]
+     Dir: K. C. Bokadia
+     http://localhost:3000/movies/kundan-1993
+
+566. Srinatha Kavi Sarvabhowmudu (1993) [✗ No TMDB]
+     Dir: Bapu
+     http://localhost:3000/movies/srinatha-kavi-sarvabhowmudu-1993
+
+567. Parugo Parugu (1993) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/parugo-parugu-1993
+
+568. Aasayam (1993) [✗ No TMDB]
+     Dir: Mohana Gandhi
+     http://localhost:3000/movies/aasayam-1993
+
+569. Chirunavvula Varamistava (1993) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/chirunavvula-varamistava-1993
+
+570. Pillalu Diddina Kapuram (1993) [✗ No TMDB]
+     Dir: Perala
+     http://localhost:3000/movies/pillalu-diddina-kapuram-1993
+
+571. Kirayi Gunda (1993) [✗ No TMDB]
+     Dir: S. S. Ravichandra
+     http://localhost:3000/movies/kirayi-gunda-1993
+
+572. Major Chandrakanth (1993) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/major-chandrakanth-1993
+
+573. Kongu Chatu Krishnudu (1993) [✗ No TMDB]
+     Dir: K. Ajay Kumar
+     http://localhost:3000/movies/kongu-chatu-krishnudu-1993
+
+574. Prema Vijeta (1992) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/prema-vijeta-1992
+
+575. Madhavayya Gari Manavadu (1992) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/madhavayya-gari-manavadu-1992
+
+576. Aswamedham (1992) [✗ No TMDB]
+     Dir: B. Gopal
+     http://localhost:3000/movies/aswamedham-1992
+
+577. Atta Sommu Alludu Danam (1992) [✗ No TMDB]
+     Dir: Y. Nageswara Rao
+     http://localhost:3000/movies/atta-sommu-alludu-danam-1992
+
+578. Appula Appa Rao (1992) [✗ No TMDB]
+     Dir: E.V.V. Satyanarayana
+     http://localhost:3000/movies/appula-appa-rao-1992
+
+579. Pranadaata (1992) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/pranadaata-1992
+
+580. Pellante Noorella Panta (1992) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/pellante-noorella-panta-1992
+
+581. Moratodu Naa Mogudu (1992) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/moratodu-naa-mogudu-1992
+
+582. Pellam Chatu Mogudu (1992) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/pellam-chatu-mogudu-1992
+
+583. Sahasam (1992) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/sahasam-1992
+
+584. Prema Shikharam (1992) [✗ No TMDB]
+     Dir: S. V. Krishna Reddy
+     http://localhost:3000/movies/prema-shikharam-1992
+
+585. Jaganaddam and Sons (1992) [✗ No TMDB]
+     Dir: Anil Kumar
+     http://localhost:3000/movies/jaganaddam-and-sons-1992
+
+586. Dabbu Bhale Jabbu (1992) [✗ No TMDB]
+     Dir: K. Rajendra
+     http://localhost:3000/movies/dabbu-bhale-jabbu-1992
+
+587. Adharsham (1992) [✗ No TMDB]
+     Dir: Bharathiraja
+     http://localhost:3000/movies/adharsham-1992
+
+588. Chillara Mogudu Allari Koduku (1992) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/chillara-mogudu-allari-koduku-1992
+
+589. Doshi (1992) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/doshi-1992
+
+590. Agreement (1992) [✗ No TMDB]
+     Dir: Manivannan
+     http://localhost:3000/movies/agreement-1992
+
+591. Donga Police (1992) [✗ No TMDB]
+     Dir: K.S. Prakash Rao
+     http://localhost:3000/movies/donga-police-1992
+
+592. Allari Pilla (1992) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/allari-pilla-1992
+
+593. Bangaru Mama (1992) [✗ No TMDB]
+     Dir: K. Ajitha
+     http://localhost:3000/movies/bangaru-mama-1992
+
+594. Aaj Ka Goonda Raj (1992) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/aaj-ka-goonda-raj-1992
+
+595. College Bullodu (1992) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/college-bullodu-1992
+
+596. Raktha Tarpanam (1992) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/raktha-tarpanam-1992
+
+597. Kala Rathrilo Kanne Pilla (1992) [✗ No TMDB]
+     Dir: Raj Kamal
+     http://localhost:3000/movies/kala-rathrilo-kanne-pilla-1992
+
+598. Ayyayyo Brahamayya (1992) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/ayyayyo-brahamayya-1992
+
+599. Rakta Tarpanam (1992) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/rakta-tarpanam-1992
+
+600. Subba Rayudi Pelli (1992) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/subba-rayudi-pelli-1992
+
+601. Joker Mama Super Alludu (1992) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/joker-mama-super-alludu-1992
+
+602. Swati Kiranam (1992) [✗ No TMDB]
+     Dir: K. Viswanath
+     http://localhost:3000/movies/swati-kiranam-1992
+
+603. Seetapathi Chalo Tirupathi (1992) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/seetapathi-chalo-tirupathi-1992
+
+604. Pellam Chebithe Vinali (1992) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pellam-chebithe-vinali-1992
+
+605. Akka Mogudu (1992) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/akka-mogudu-1992
+
+606. Gang War (1992) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/gang-war-1992
+
+607. Yagnam (1992) [✗ No TMDB]
+     Dir: Gopal B
+     http://localhost:3000/movies/yagnam-1992
+
+608. Mogudu Pellala Dongata (1992) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/mogudu-pellala-dongata-1992
+
+609. Pattudala (1992) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/pattudala-1992
+
+610. Parvatalu Panakalu (1992) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/parvatalu-panakalu-1992
+
+611. Pelli Neeku Sukham Naaku (1992) [✗ No TMDB]
+     Dir: P. N. Ramchandra Rao
+     http://localhost:3000/movies/pelli-neeku-sukham-naaku-1992
+
+612. Gowramma (1992) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/gowramma-1992
+
+613. Sri Edukondala Swaami (1991) [✗ No TMDB]
+     Dir: Kamalakara Kameswara Rao
+     http://localhost:3000/movies/sri-edukondala-swaami-1991
+
+614. Indra Bhavanam (1991) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/indra-bhavanam-1991
+
+615. Keechu Raallu (1991) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/keechu-raallu-1991
+
+616. Aada Pilla (1991) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/aada-pilla-1991
+
+617. Prema Thapassu (1991) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/prema-thapassu-1991
+
+618. Ashwini (1991) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/ashwini-1991
+
+619. Peddintalludu (1991) [✗ No TMDB]
+     Dir: Sarath
+     http://localhost:3000/movies/peddintalludu-1991
+
+620. Pandirimancham (1991) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/pandirimancham-1991
+
+621. Parama Sivudu (1991) [✗ No TMDB]
+     Dir: Yogesh Seetha Ramaiah
+     http://localhost:3000/movies/parama-sivudu-1991
+
+622. Chaithanya (1991) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/chaithanya-1991
+
+623. Athiradhudu (1991) [✗ No TMDB]
+     Dir: A. Chandra
+     http://localhost:3000/movies/athiradhudu-1991
+
+624. Seetharamayya Gari Manavaralu (1991) [✗ No TMDB]
+     Dir: Kranthi Kumar
+     http://localhost:3000/movies/seetharamayya-gari-manavaralu-1991
+
+625. Nayakuralu (1991) [✗ No TMDB]
+     Dir: Sharath
+     http://localhost:3000/movies/nayakuralu-1991
+
+626. Parishkaram (1991) [✗ No TMDB]
+     Dir: Tarani
+     http://localhost:3000/movies/parishkaram-1991
+
+627. Teneteega (1991) [✗ No TMDB]
+     Dir: M. Nanda Kumar
+     http://localhost:3000/movies/teneteega-1991
+
+628. Aagraham (1991) [✗ No TMDB]
+     Dir: K. S. Ravi
+     http://localhost:3000/movies/aagraham-1991
+
+629. Yugantam (1991) [✗ No TMDB]
+     Dir: S. B. Chakravarthy
+     http://localhost:3000/movies/yugantam-1991
+
+630. Vichitra Prema (1991) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/vichitra-prema-1991
+
+631. Naa Pellam Naa Ishtam (1991) [✗ No TMDB]
+     Dir: Gedhada Anand Babu
+     http://localhost:3000/movies/naa-pellam-naa-ishtam-1991
+
+632. Niyantha (1991) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/niyantha-1991
+
+633. Udhyamam (1990) [✗ No TMDB]
+     Dir: K. Ranga Rao
+     http://localhost:3000/movies/udhyamam-1990
+
+634. Guru Sishyulu (1990) [✗ No TMDB]
+     Dir: S.P. Muthuraman
+     http://localhost:3000/movies/guru-sishyulu-1990
+
+635. 20va Shatabdam (1990) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/20va-shatabdam-1990
+
+636. Matti Manushulu (1990) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/matti-manushulu-1990
+
+637. Mrugathrushna (1990) [✗ No TMDB]
+     Dir: P. Sambasiva Rao
+     http://localhost:3000/movies/mrugathrushna-1990
+
+638. Kartavyam (1990) [✗ No TMDB]
+     Dir: Mohan Gandhi
+     http://localhost:3000/movies/kartavyam-1990
+
+639. Adavi Diviteelu (1990) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/adavi-diviteelu-1990
+
+640. Inspector Rudra (1990) [✗ No TMDB]
+     Dir: Mohana Gandhi
+     http://localhost:3000/movies/inspector-rudra-1990
+
+641. Master Kapuram (1990) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/master-kapuram-1990
+
+642. Yamadharma Raju (1990) [✗ No TMDB]
+     Dir: Sharath
+     http://localhost:3000/movies/yamadharma-raju-1990
+
+643. Abhisarika (1990) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/abhisarika-1990
+
+644. Agni Pravesam (1990) [✗ No TMDB]
+     Dir: Yandamoori
+     http://localhost:3000/movies/agni-pravesam-1990
+
+645. Anna Thammudu (1990) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/anna-thammudu-1990
+
+646. Manasu Mamata (1990) [✗ No TMDB]
+     Dir: Mouli
+     http://localhost:3000/movies/manasu-mamata-1990
+
+647. Prema Zindabad (1990) [✗ No TMDB]
+     Dir: P. N. Ramachandra Rao
+     http://localhost:3000/movies/prema-zindabad-1990
+
+648. Lakshmi Durga (1990) [✗ No TMDB]
+     Dir: Raghuram
+     http://localhost:3000/movies/lakshmi-durga-1990
+
+649. Yauvana Poratham (1990) [✗ No TMDB]
+     Dir: Fazil
+     http://localhost:3000/movies/yauvana-poratham-1990
+
+650. Rambha Rambabu (1990) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/rambha-rambabu-1990
+
+651. Mahajananiki Maradalu Pilla (1990) [✗ No TMDB]
+     Dir: Vallabhaneni Jhanardan
+     http://localhost:3000/movies/mahajananiki-maradalu-pilla-1990
+
+652. Kadapa Redamma (1990) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/kadapa-redamma-1990
+
+653. Q12427728 (1990) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/q12427728-1990
+
+654. Agni Sakshi (1990) [✗ No TMDB]
+     Dir: Ramesh Sippy
+     http://localhost:3000/movies/agni-sakshi-1990
+
+655. Ramba Rambabu (1990) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/ramba-rambabu-1990
+
+656. Prajala Manishi (1990) [✗ No TMDB]
+     Dir: M. Rosi Raju
+     http://localhost:3000/movies/prajala-manishi-1990
+
+657. Nagastram (1990) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/nagastram-1990
+
+658. Rajasekhar (1990) [✗ No TMDB]
+     Dir: K. S. Prakash Rao
+     http://localhost:3000/movies/rajasekhar-1990
+
+659. Idem Pellam Baboi (1990) [✗ No TMDB]
+     Dir: Ravi Teja
+     http://localhost:3000/movies/idem-pellam-baboi-1990
+
+660. Ankusam (1990) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/ankusam-1990
+
+661. Prananiki Pranam (1990) [✗ No TMDB]
+     Dir: Chalamme
+     http://localhost:3000/movies/prananiki-pranam-1990
+
+662. Ankitham (1990) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/ankitham-1990
+
+663. Navayugam (1990) [✗ No TMDB]
+     Dir: K. S. Sethumadhavan
+     http://localhost:3000/movies/navayugam-1990
+
+664. Aayudham (1990) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/aayudham-1990
+
+665. Dagudumuthala Dampathyam (1990) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/dagudumuthala-dampathyam-1990
+
+666. Sahasame Naa Oopiri (1989) [✗ No TMDB]
+     Dir: Vijaya Nirmala
+     http://localhost:3000/movies/sahasame-naa-oopiri-1989
+
+667. Chalaki Mogudu Chavali Pellam (1989) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/chalaki-mogudu-chavali-pellam-1989
+
+668. Ashoka Chakravarthy (1989) [✗ No TMDB]
+     Dir: Suresh Krissna
+     http://localhost:3000/movies/ashoka-chakravarthy-1989
+
+669. Adavilo Abhimanyudu (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/adavilo-abhimanyudu-1989
+
+670. Mouna Poratam (1989) [✗ No TMDB]
+     Dir: Mohan Gandhi
+     http://localhost:3000/movies/mouna-poratam-1989
+
+671. Ajatha Satruvu (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/ajatha-satruvu-1989
+
+672. Vichitra Sodarulu (1989) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/vichitra-sodarulu-1989
+
+673. Swathi Chinukulu (1989) [✗ No TMDB]
+     Dir: Sri Chakravarthy for producer 
+     http://localhost:3000/movies/swathi-chinukulu-1989
+
+674. Bharyalu Jagratha (1989) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/bharyalu-jagratha-1989
+
+675. Mamatala Kovela (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/mamatala-kovela-1989
+
+676. Yamapaasam (1989) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/yamapaasam-1989
+
+677. Srirama Chandrudu (1989) [✗ No TMDB]
+     Dir: Deva Das Kanakala
+     http://localhost:3000/movies/srirama-chandrudu-1989
+
+678. Manchu Kutumbam (1989) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/manchu-kutumbam-1989
+
+679. Vijay (1989) [✗ No TMDB]
+     Dir: B. Gopal
+     http://localhost:3000/movies/vijay-1989
+
+680. Paila Pacheesu (1989) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/paila-pacheesu-1989
+
+681. Sakshi (1989) [✗ No TMDB]
+     Dir: K. S. R. Das
+     http://localhost:3000/movies/sakshi-1989
+
+682. Rajakeeya Chadarangam (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/rajakeeya-chadarangam-1989
+
+683. Sarvabhoumudu (1989) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/sarvabhoumudu-1989
+
+684. Goonda Rajyam (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/goonda-rajyam-1989
+
+685. Kokila (1989) [✗ No TMDB]
+     Dir: Geetha Krishna
+     http://localhost:3000/movies/kokila-1989
+
+686. Jayamu Nischayamu Raa (1989) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/jayamu-nischayamu-raa-1989
+
+687. Zoo Laka Taka (1989) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/zoo-laka-taka-1989
+
+688. Muddula Mavayya (1989) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/muddula-mavayya-1989
+
+689. Parthudu (1989) [✗ No TMDB]
+     Dir: K.S.R. Das
+     http://localhost:3000/movies/parthudu-1989
+
+690. Rickshawala (1989) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/rickshawala-1989
+
+691. Bhale Dampathulu (1989) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/bhale-dampathulu-1989
+
+692. Anna Chellalu (1989) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/anna-chellalu-1989
+
+693. Joo Laka Taka (1989) [✗ No TMDB]
+     Dir: G. Madhusudhan Rao
+     http://localhost:3000/movies/joo-laka-taka-1989
+
+694. Muthyamantha Muddu (1989) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty
+     http://localhost:3000/movies/muthyamantha-muddu-1989
+
+695. Majboor (1989) [✓ TMDB]
+     Dir: Rama Rao Tatineni
+     http://localhost:3000/movies/majboor-1989
+
+696. Kanoon Ki Awaaz (1989) [✗ No TMDB]
+     Dir: R. Kumar
+     http://localhost:3000/movies/kanoon-ki-awaaz-1989
+
+697. Vicky Daada (1989) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/vicky-daada-1989
+
+698. Bharata Nari (1989) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/bharata-nari-1989
+
+699. Choopulu Kalasina Subhavela (1988) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/choopulu-kalasina-subhavela-1988
+
+700. Praja Prathinidhi (1988) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/praja-prathinidhi-1988
+
+701. Dorakani Donga (1988) [✗ No TMDB]
+     Dir: K.S.R. Das
+     http://localhost:3000/movies/dorakani-donga-1988
+
+702. Sri Kanaka Mahalakshmi Recording Dance Troupe (1988) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/sri-kanaka-mahalakshmi-recording-dance-troupe-1988
+
+703. Bazaar Rowdy (1988) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/bazaar-rowdy-1988
+
+704. Jamadagni (1988) [✗ No TMDB]
+     Dir: Bharathiraja
+     http://localhost:3000/movies/jamadagni-1988
+
+705. Donga Kollu (1988) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/donga-kollu-1988
+
+706. Abhinandana (1988) [✗ No TMDB]
+     Dir: Ashok Kumar
+     http://localhost:3000/movies/abhinandana-1988
+
+707. Chikkadu Dorakadu (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/chikkadu-dorakadu-1988
+
+708. Prana Snehithulu (1988) [✗ No TMDB]
+     Dir: V. Madhusudhana Rao
+     http://localhost:3000/movies/prana-snehithulu-1988
+
+709. Chuttalabbayi (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/chuttalabbayi-1988
+
+710. Donga Ramudu (1988) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/donga-ramudu-1988
+
+711. Maharshi (1988) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/maharshi-1988
+
+712. Sahasam Cheyara Dimbhaka (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/sahasam-cheyara-dimbhaka-1988
+
+713. Bava Marudula Saval (1988) [✗ No TMDB]
+     Dir: C. V. Ganesh
+     http://localhost:3000/movies/bava-marudula-saval-1988
+
+714. Bhama Kalapam (1988) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/bhama-kalapam-1988
+
+715. Asthulu Anthasthulu (1988) [✗ No TMDB]
+     Dir: Ashok Kumar
+     http://localhost:3000/movies/asthulu-anthasthulu-1988
+
+716. Bharya Bhartala Bhagotham (1988) [✗ No TMDB]
+     Dir: Mahesh Kumar
+     http://localhost:3000/movies/bharya-bhartala-bhagotham-1988
+
+717. Maharajashri Mayagaadu (1988) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/maharajashri-mayagaadu-1988
+
+718. Intinti Bhagavatham (1988) [✗ No TMDB]
+     Dir: V. E. Sharma
+     http://localhost:3000/movies/intinti-bhagavatham-1988
+
+719. Tiragabadda Telugubidda (1988) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/tiragabadda-telugubidda-1988
+
+720. Jeevana Ganga (1988) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/jeevana-ganga-1988
+
+721. Jeevana Jyothi (1988) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/jeevana-jyothi-1988
+
+722. Kaliyuga Karnudu (1988) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/kaliyuga-karnudu-1988
+
+723. Aanimuthyam (1988) [✗ No TMDB]
+     Dir: Bandela Eshwar Rao
+     http://localhost:3000/movies/aanimuthyam-1988
+
+724. Maharajasri Mayagadu (1988) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/maharajasri-mayagadu-1988
+
+725. Raktabhishekam (1988) [✗ No TMDB]
+     Dir: A Kodandarami Reddy
+     http://localhost:3000/movies/raktabhishekam-1988
+
+726. Agni Keratalu (1988) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/agni-keratalu-1988
+
+727. Aswaddhama (1988) [✗ No TMDB]
+     Dir: B. Gopal
+     http://localhost:3000/movies/aswaddhama-1988
+
+728. Station Master (1988) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/station-master-1988
+
+729. Aahuthi (1988) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/aahuthi-1988
+
+730. Thodallullu (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/thodallullu-1988
+
+731. Chinnodu Peddodu (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/chinnodu-peddodu-1988
+
+732. Maa Inti Maharaju (1988) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/maa-inti-maharaju-1988
+
+733. Premayanam (1988) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/premayanam-1988
+
+734. Donga Pelli (1988) [✗ No TMDB]
+     Dir: Ravi Raja Pinisetty starring S
+     http://localhost:3000/movies/donga-pelli-1988
+
+735. Jhansi Rani (1988) [✗ No TMDB]
+     Dir: K. S. R. Das
+     http://localhost:3000/movies/jhansi-rani-1988
+
+736. Mardon Wali Baat (1988) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/mardon-wali-baat-1988
+
+737. Padma Bhushan (1988) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/padma-bhushan-1988
+
+738. Dharma Teja (1988) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/dharma-teja-1988
+
+739. Relangi Narasimha Rao (1987) [✗ No TMDB]
+     Dir: Rajendra Prasad, Seetha, Suthi
+     http://localhost:3000/movies/relangi-narasimha-rao-1987
+
+740. Damit Katha Adam Thirigindi (1987) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/damit-katha-adam-thirigindi-1987
+
+741. Gundamma Gari Krishnulu (1987) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/gundamma-gari-krishnulu-1987
+
+742. Shankharavam (1987) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/shankharavam-1987
+
+743. Muddayi (1987) [✗ No TMDB]
+     Dir: K.S.R. Das
+     http://localhost:3000/movies/muddayi-1987
+
+744. Thandri Kodukula Challenge (1987) [✗ No TMDB]
+     Dir: M. Mallikarjuna Rao
+     http://localhost:3000/movies/thandri-kodukula-challenge-1987
+
+745. Sahasa Samrat (1987) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/sahasa-samrat-1987
+
+746. Bhargava Ramudu (1987) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/bhargava-ramudu-1987
+
+747. Makutamleni Maharaju (1987) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/makutamleni-maharaju-1987
+
+748. Vishwanatha Nayakudu (1987) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/vishwanatha-nayakudu-1987
+
+749. Vamsy (1987) [✗ No TMDB]
+     Dir: Krishnam Raju
+     http://localhost:3000/movies/vamsy-1987
+
+750. Thene Manasulu (1987) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/thene-manasulu-1987
+
+751. Nakoo Pellam Kavali (1987) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/nakoo-pellam-kavali-1987
+
+752. Maa Voori Magadu (1987) [✗ No TMDB]
+     Dir: K. Bapaiah
+     http://localhost:3000/movies/maa-voori-magadu-1987
+
+753. Sardar Krishnama Naidu (1987) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/sardar-krishnama-naidu-1987
+
+754. Muvva Gopaludu (1987) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/muvva-gopaludu-1987
+
+755. Pushpaka Vimanam (1987) [✗ No TMDB]
+     Dir: Singitham Srinivasa Rao
+     http://localhost:3000/movies/pushpaka-vimanam-1987
+
+756. Maharshi (1987) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/maharshi-1987
+
+757. Lawyer Suhasini (1987) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/lawyer-suhasini-1987
+
+758. Prema Samrat (1987) [✗ No TMDB]
+     Dir: K. Murali Mohan
+     http://localhost:3000/movies/prema-samrat-1987
+
+759. Dammit Katha Addam Thirigindi (1987) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/dammit-katha-addam-thirigindi-1987
+
+760. Ramu (1987) [✗ No TMDB]
+     Dir: Y. Nageswara Rao
+     http://localhost:3000/movies/ramu-1987
+
+761. Sankharavam (1987) [✗ No TMDB]
+     Dir: Krishnam Raju
+     http://localhost:3000/movies/sankharavam-1987
+
+762. Tene Manasulu (1987) [✗ No TMDB]
+     Dir: Rajendra Prasad
+     http://localhost:3000/movies/tene-manasulu-1987
+
+763. Brahma Nayudu (1987) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/brahma-nayudu-1987
+
+764. Maa Ooru (1987) [✗ No TMDB]
+     Dir: Kodanda Rami Reddy
+     http://localhost:3000/movies/maa-ooru-1987
+
+765. Muddu Bidda (1987) [✗ No TMDB]
+     Dir: K.S.R. Das
+     http://localhost:3000/movies/muddu-bidda-1987
+
+766. Dongodochhadu (1987) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/dongodochhadu-1987
+
+767. Sardar Dharmanna (1987) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/sardar-dharmanna-1987
+
+768. Kirai Dada (1987) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/kirai-dada-1987
+
+769. Sankeerthana (1987) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/sankeerthana-1987
+
+770. Dabbevariki Chedu (1987) [✓ TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/dabbevariki-chedu-1987
+
+771. Gandhinagar Rendava Veedhi (1987) [✓ TMDB]
+     Dir: P. N. Ramachandra Rao
+     http://localhost:3000/movies/gandhinagar-rendava-veedhi-1987
+
+772. Srimathi Oka Bahumathi (1986) [✗ No TMDB]
+     Dir: Visu
+     http://localhost:3000/movies/srimathi-oka-bahumathi-1986
+
+773. Ravana Brahma (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/ravana-brahma-1986
+
+774. Parasuramudu (1986) [✗ No TMDB]
+     Dir: G. Ram Mohana Rao
+     http://localhost:3000/movies/parasuramudu-1986
+
+775. Sakkanodu (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/sakkanodu-1986
+
+776. Aadi Dampatulu (1986) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/aadi-dampatulu-1986
+
+777. Driver Babu (1986) [✗ No TMDB]
+     Dir: Bobby
+     http://localhost:3000/movies/driver-babu-1986
+
+778. Apoorva Sahodarulu (1986) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/apoorva-sahodarulu-1986
+
+779. Nippulanti Manishi (1986) [✗ No TMDB]
+     Dir: S. B. Chandrashekar
+     http://localhost:3000/movies/nippulanti-manishi-1986
+
+780. Punyasthree (1986) [✗ No TMDB]
+     Dir: Muthyala Subbaiah
+     http://localhost:3000/movies/punyasthree-1986
+
+781. Jailu Pakshi (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/jailu-pakshi-1986
+
+782. Muddula Krishnaiah (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/muddula-krishnaiah-1986
+
+783. Repati Pourulu (1986) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/repati-pourulu-1986
+
+784. Santhi Nivasam (1986) [✗ No TMDB]
+     Dir: G. Ram Mohana Rao
+     http://localhost:3000/movies/santhi-nivasam-1986
+
+785. Nireekshana (1986) [✗ No TMDB]
+     Dir: Balachandra
+     http://localhost:3000/movies/nireekshana-1986
+
+786. Prathibhavanthudu (1986) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/prathibhavanthudu-1986
+
+787. Brahma Rudrulu (1986) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/brahma-rudrulu-1986
+
+788. Jayam Manade (1986) [✗ No TMDB]
+     Dir: Kovelamudi Bapayya
+     http://localhost:3000/movies/jayam-manade-1986
+
+789. Naa Pilupe Prabahanajam (1986) [✗ No TMDB]
+     Dir: P. Chandrasekhara Reddy
+     http://localhost:3000/movies/naa-pilupe-prabahanajam-1986
+
+790. Brahmasthram (1986) [✗ No TMDB]
+     Dir: G. Ram Mohana Rao
+     http://localhost:3000/movies/brahmasthram-1986
+
+791. Ugra Narasimham (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/ugra-narasimham-1986
+
+792. Krishna Paramathma (1986) [✗ No TMDB]
+     Dir: Krishna
+     http://localhost:3000/movies/krishna-paramathma-1986
+
+793. Khaidi Rudraiah (1986) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/khaidi-rudraiah-1986
+
+794. Dasari Narayana Rao (1986) [✗ No TMDB]
+     Dir: Krishnam Raju, Jaya Prada, Jay
+     http://localhost:3000/movies/dasari-narayana-rao-1986
+
+795. Swathi Muthyam (1986) [✗ No TMDB]
+     Dir: Krasna
+     http://localhost:3000/movies/swathi-muthyam-1986
+
+796. Aranyakanda (1986) [✗ No TMDB]
+     Dir: Kranthi Kumar
+     http://localhost:3000/movies/aranyakanda-1986
+
+797. Brahmastram (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/brahmastram-1986
+
+798. Krishna Garadi (1986) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/krishna-garadi-1986
+
+799. Kaliyuga Krishnudu (1986) [✗ No TMDB]
+     Dir: K. Murali Mohana Rao
+     http://localhost:3000/movies/kaliyuga-krishnudu-1986
+
+800. Pyaar Ke Do Pal (1986) [✗ No TMDB]
+     Dir: Rajiv Mehra
+     http://localhost:3000/movies/pyaar-ke-do-pal-1986
+
+801. Aisa Pyaar Kahan (1986) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/aisa-pyaar-kahan-1986
+
+802. Padaharella Ammayi (1986) [✗ No TMDB]
+     Dir: P. S. Krishna Mohan Reddy
+     http://localhost:3000/movies/padaharella-ammayi-1986
+
+803. Babayi-Abbayi (1985) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/babayi-abbayi-1985
+
+804. Sravanthi (1985) [✗ No TMDB]
+     Dir: M. Krishnudu
+     http://localhost:3000/movies/sravanthi-1985
+
+805. Bhale Thammudu (1985) [✗ No TMDB]
+     Dir: Paruchuri Gopala Krishna
+     http://localhost:3000/movies/bhale-thammudu-1985
+
+806. Surya Chandra (1985) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/surya-chandra-1985
+
+807. Kongu Mudi (1985) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/kongu-mudi-1985
+
+808. Vajrayudham (1985) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/vajrayudham-1985
+
+809. Maha Manishi (1985) [✗ No TMDB]
+     Dir: K. Bapayya
+     http://localhost:3000/movies/maha-manishi-1985
+
+810. Agni Parvatam (1985) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/agni-parvatam-1985
+
+811. Muchataga Mugguru (1985) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/muchataga-mugguru-1985
+
+812. Dampatyam (1985) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/dampatyam-1985
+
+813. Babai Abbai (1985) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/babai-abbai-1985
+
+814. Siksha (1985) [✗ No TMDB]
+     Dir: K. Balachander
+     http://localhost:3000/movies/siksha-1985
+
+815. Maha Sangramam (1985) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/maha-sangramam-1985
+
+816. Yuvataram Pilicindi (1985) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/yuvataram-pilicindi-1985
+
+817. Vandemataram (1985) [✗ No TMDB]
+     Dir: T. Krishna
+     http://localhost:3000/movies/vandemataram-1985
+
+818. Aalapana (1985) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/aalapana-1985
+
+819. Srivari Shobanam (1985) [✗ No TMDB]
+     Dir: Kashinath
+     http://localhost:3000/movies/srivari-shobanam-1985
+
+820. Bullet (1985) [✗ No TMDB]
+     Dir: Bhargava
+     http://localhost:3000/movies/bullet-1985
+
+821. Andharikante Monagadu (1985) [✗ No TMDB]
+     Dir: T.L.V. Prasad
+     http://localhost:3000/movies/andharikante-monagadu-1985
+
+822. Pattabhishekam (1985) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/pattabhishekam-1985
+
+823. Ragile Gundelu (1985) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/ragile-gundelu-1985
+
+824. Tirugubatu (1985) [✗ No TMDB]
+     Dir: A Kodandarami Reddy
+     http://localhost:3000/movies/tirugubatu-1985
+
+825. Lanchavatharam (1985) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/lanchavatharam-1985
+
+826. Palnati Simham (1985) [✗ No TMDB]
+     Dir: Krishnam Raju
+     http://localhost:3000/movies/palnati-simham-1985
+
+827. Maa Pallelo Gopaludu (1985) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/maa-pallelo-gopaludu-1985
+
+828. Manthra Dandam (1985) [✗ No TMDB]
+     Dir: K. Murali Mohan
+     http://localhost:3000/movies/manthra-dandam-1985
+
+829. Aatmabalam (1985) [✗ No TMDB]
+     Dir: Tatineni Prasad
+     http://localhost:3000/movies/aatmabalam-1985
+
+830. Kotha Pelli Koothuru (1985) [✗ No TMDB]
+     Dir: K. S. Rami Reddy
+     http://localhost:3000/movies/kotha-pelli-koothuru-1985
+
+831. Bangaru Chilaka (1985) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/bangaru-chilaka-1985
+
+832. Vande Mataram (1985) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/vande-mataram-1985
+
+833. Mogudu Pellalu (1985) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/mogudu-pellalu-1985
+
+834. Maharaju (1985) [✗ No TMDB]
+     Dir: Vasantkumar Reddy
+     http://localhost:3000/movies/maharaju-1985
+
+835. Dongala Vetagadu (1985) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/dongala-vetagadu-1985
+
+836. Kattula Kondayya (1985) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kattula-kondayya-1985
+
+837. Bharyabhartala Bandham (1985) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/bharyabhartala-bandham-1985
+
+838. Devalayam (1985) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/devalayam-1985
+
+839. Seethamma Pelli (1984) [✗ No TMDB]
+     Dir: Bapu
+     http://localhost:3000/movies/seethamma-pelli-1984
+
+840. Kirai Alludu (1984) [✗ No TMDB]
+     Dir: K.S.R. Das
+     http://localhost:3000/movies/kirai-alludu-1984
+
+841. Bava Maradallu (1984) [✗ No TMDB]
+     Dir: Bhargava
+     http://localhost:3000/movies/bava-maradallu-1984
+
+842. Mukhyamanthri (1984) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/mukhyamanthri-1984
+
+843. Aadadhi Visirina Savaal (1984) [✗ No TMDB]
+     Dir: K. S. R. Das (Screenplay/Direc
+     http://localhost:3000/movies/aadadhi-visirina-savaal-1984
+
+844. Justice Chakravarthy (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/justice-chakravarthy-1984
+
+845. Kathanayakudu (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kathanayakudu-1984
+
+846. Bangaru Kapuram (1984) [✗ No TMDB]
+     Dir: K. Bapaiah
+     http://localhost:3000/movies/bangaru-kapuram-1984
+
+847. Palnati Puli (1984) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/palnati-puli-1984
+
+848. Nava Mohini (1984) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/nava-mohini-1984
+
+849. Swati (1984) [✗ No TMDB]
+     Dir: Kranthi Kumar
+     http://localhost:3000/movies/swati-1984
+
+850. Janani Janmabhoomi (1984) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/janani-janmabhoomi-1984
+
+851. Vasantha Geetam (1984) [✗ No TMDB]
+     Dir: Singh
+     http://localhost:3000/movies/vasantha-geetam-1984
+
+852. Adarshavanthudu (1984) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/adarshavanthudu-1984
+
+853. Kutumba Gowaravam (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kutumba-gowaravam-1984
+
+854. Rajahmundry Rome (1984) [✗ No TMDB]
+     Dir: V. Madhusudhan Rao
+     http://localhost:3000/movies/rajahmundry-rome-1984
+
+855. Raga Bandham (1984) [✗ No TMDB]
+     Dir: Bapu
+     http://localhost:3000/movies/raga-bandham-1984
+
+856. Bhagyalakshmi (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/bhagyalakshmi-1984
+
+857. Rowdy (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/rowdy-1984
+
+858. Nayakulaku Saval (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/nayakulaku-saval-1984
+
+859. Sitaara (1984) [✗ No TMDB]
+     Dir: Vamsy
+     http://localhost:3000/movies/sitaara-1984
+
+860. Rachayitri (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/rachayitri-1984
+
+861. Janam Manam (1984) [✗ No TMDB]
+     Dir: Mohan Gandhi
+     http://localhost:3000/movies/janam-manam-1984
+
+862. Tandava Krishnudu (1984) [✗ No TMDB]
+     Dir: P
+     http://localhost:3000/movies/tandava-krishnudu-1984
+
+863. Devalayam (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/devalayam-1984
+
+864. Kurukshetramlo Sita (1984) [✗ No TMDB]
+     Dir: B. V. Prasad
+     http://localhost:3000/movies/kurukshetramlo-sita-1984
+
+865. Disco King (1984) [✗ No TMDB]
+     Dir: Bhagyaraj
+     http://localhost:3000/movies/disco-king-1984
+
+866. Kurra Cheshtalu (1984) [✗ No TMDB]
+     Dir: B. V. Prasad
+     http://localhost:3000/movies/kurra-cheshtalu-1984
+
+867. Yuddham (1984) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/yuddham-1984
+
+868. Uddhandudu (1984) [✗ No TMDB]
+     Dir: P. Sambasiva Rao
+     http://localhost:3000/movies/uddhandudu-1984
+
+869. Dandayatra (1984) [✗ No TMDB]
+     Dir: K. Raghavendra Rao
+     http://localhost:3000/movies/dandayatra-1984
+
+870. Railu Dopidi (1984) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/railu-dopidi-1984
+
+871. Pulijoodam (1984) [✗ No TMDB]
+     Dir: P. Chandrasekhara Reddy
+     http://localhost:3000/movies/pulijoodam-1984
+
+872. Sangeeta Samrat (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/sangeeta-samrat-1984
+
+873. Abhimanyudu (1984) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/abhimanyudu-1984
+
+874. Swathi (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/swathi-1984
+
+875. K. Balachander (1984) [✗ No TMDB]
+     Dir: K. Balachander
+     http://localhost:3000/movies/k-balachander-1984
+
+876. Veerabhadrudu (1984) [✗ No TMDB]
+     Dir: A Kodandarami Reddy
+     http://localhost:3000/movies/veerabhadrudu-1984
+
+877. Raktha Sambandham (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/raktha-sambandham-1984
+
+878. Sahasame Jeevitham (1984) [✗ No TMDB]
+     Dir: K. Balachander
+     http://localhost:3000/movies/sahasame-jeevitham-1984
+
+879. Manasa Veena (1984) [✗ No TMDB]
+     Dir: Peethambaram
+     http://localhost:3000/movies/manasa-veena-1984
+
+880. Merupu Daadi (1984) [✗ No TMDB]
+     Dir: Raviraja Pinisetty
+     http://localhost:3000/movies/merupu-daadi-1984
+
+881. Yama Doothalu (1984) [✗ No TMDB]
+     Dir: P. Chandrasekhara Reddy
+     http://localhost:3000/movies/yama-doothalu-1984
+
+882. Kotha Dampathulu (1984) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kotha-dampathulu-1984
+
+883. Jagan (1984) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/jagan-1984
+
+884. Sardar&#91;41&#93; (1984) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/sardar-91-41-93-1984
+
+885. Dharm Aur Qanoon (1984) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/dharm-aur-qanoon-1984
+
+886. Doctor Gari Kodalu (1983) [✗ No TMDB]
+     Dir: Muktha Srinivasan
+     http://localhost:3000/movies/doctor-gari-kodalu-1983
+
+887. Shakthi (1983) [✗ No TMDB]
+     Dir: K.Bapayya
+     http://localhost:3000/movies/shakthi-1983
+
+888. Bandhipotu Rudramma (1983) [✗ No TMDB]
+     Dir: B. Bhaskara Rao
+     http://localhost:3000/movies/bandhipotu-rudramma-1983
+
+889. Bahudoorapu Batasari (1983) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/bahudoorapu-batasari-1983
+
+890. Vetagadi Vijayam (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/vetagadi-vijayam-1983
+
+891. Kirayi Rangadu (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/kirayi-rangadu-1983
+
+892. Moogavadi Paga (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/moogavadi-paga-1983
+
+893. Keerthi Kantha Kanakam (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/keerthi-kantha-kanakam-1983
+
+894. M.L.A. Yedukondalu (1983) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/m-l-a-yedukondalu-1983
+
+895. Moodu Mullu (1983) [✗ No TMDB]
+     Dir: Jandhyala Subramanya Sastry
+     http://localhost:3000/movies/moodu-mullu-1983
+
+896. Konte Kodallu (1983) [✗ No TMDB]
+     Dir: K Vasu
+     http://localhost:3000/movies/konte-kodallu-1983
+
+897. Chattaniki Sawal (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/chattaniki-sawal-1983
+
+898. Prema Sagaram (Tamil Dubbed Nenjil Oru Ragam) (1983) [✗ No TMDB]
+     Dir: T. Rajendar
+     http://localhost:3000/movies/prema-sagaram-tamil-dubbed-nenjil-oru-ragam-1983
+
+899. Rajakumar (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/rajakumar-1983
+
+900. Apadhbandhavulu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/apadhbandhavulu-1983
+
+901. Chandashasanudu (1983) [✗ No TMDB]
+     Dir: Krasna
+     http://localhost:3000/movies/chandashasanudu-1983
+
+902. Oorantha Sankranthi (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/oorantha-sankranthi-1983
+
+903. Penki Ghatam (Tamil Dubbed Iniayavaley Vaa) (1983) [✗ No TMDB]
+     Dir: N. C. Chakravarthi
+     http://localhost:3000/movies/penki-ghatam-tamil-dubbed-iniayavaley-vaa-1983
+
+904. Grahanam Vidichindi (1983) [✗ No TMDB]
+     Dir: Murali Mohan
+     http://localhost:3000/movies/grahanam-vidichindi-1983
+
+905. Akka Mogudu Chelleli Kapuram (1983) [✗ No TMDB]
+     Dir: Katta Subba Rao
+     http://localhost:3000/movies/akka-mogudu-chelleli-kapuram-1983
+
+906. Agni Samadhi (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/agni-samadhi-1983
+
+907. Navodayam (1983) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/navodayam-1983
+
+908. Devi Moogambika (1983) [✗ No TMDB]
+     Dir: Renuka Sharma
+     http://localhost:3000/movies/devi-moogambika-1983
+
+909. Pandanti Kapuraniki 12 Suthralu (1983) [✗ No TMDB]
+     Dir: Raja Chandra
+     http://localhost:3000/movies/pandanti-kapuraniki-12-suthralu-1983
+
+910. Kirayi Bommalu (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/kirayi-bommalu-1983
+
+911. Maa Intiki Randi (1983) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/maa-intiki-randi-1983
+
+912. Rangula Puli (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/rangula-puli-1983
+
+913. Adadhi Aata Bommaa! (1983) [✗ No TMDB]
+     Dir: R K Battula (story/direction)
+     http://localhost:3000/movies/adadhi-aata-bommaa-1983
+
+914. Manavulara Manninchandi (1983) [✗ No TMDB]
+     Dir: K. Balachander
+     http://localhost:3000/movies/manavulara-manninchandi-1983
+
+915. Maa Intaina Katha (1983) [✗ No TMDB]
+     Dir: K. Phanindra
+     http://localhost:3000/movies/maa-intaina-katha-1983
+
+916. Pralaya Gharjana (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/pralaya-gharjana-1983
+
+917. Koti Kokkadu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/koti-kokkadu-1983
+
+918. Kodalu Kaavaali (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kodalu-kaavaali-1983
+
+919. Kanthaiyya Kanakaiyya (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kanthaiyya-kanakaiyya-1983
+
+920. Simhamtho Chelagatam (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/simhamtho-chelagatam-1983
+
+921. Kaksha Sadistha (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/kaksha-sadistha-1983
+
+922. Chandi Rani (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/chandi-rani-1983
+
+923. Chattam (1983) [✗ No TMDB]
+     Dir: K. Bapayya
+     http://localhost:3000/movies/chattam-1983
+
+924. Lankebindelu (1983) [✗ No TMDB]
+     Dir: Vijaya Nirmala
+     http://localhost:3000/movies/lankebindelu-1983
+
+925. Puli Debba (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/puli-debba-1983
+
+926. C I D Simham (Kannada Dub Sahasa Simha 1982) (1983) [✗ No TMDB]
+     Dir: Joe Simon
+     http://localhost:3000/movies/c-i-d-simham-kannada-dub-sahasa-simha-1982-1983
+
+927. Andhra Kesari (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/andhra-kesari-1983
+
+928. Challenge Vetagallu (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/challenge-vetagallu-1983
+
+929. Raakasi Loya (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/raakasi-loya-1983
+
+930. Ee Desamlo Oka Roju (1983) [✗ No TMDB]
+     Dir: Satyanarayana Vejella
+     http://localhost:3000/movies/ee-desamlo-oka-roju-1983
+
+931. Dharmaatmudu (1983) [✗ No TMDB]
+     Dir: Bharathiraja
+     http://localhost:3000/movies/dharmaatmudu-1983
+
+932. Antham Chusina Adadhi (1983) [✗ No TMDB]
+     Dir: Bhargava
+     http://localhost:3000/movies/antham-chusina-adadhi-1983
+
+933. Kala Yamudu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kala-yamudu-1983
+
+934. Police Venkataswamy (1983) [✗ No TMDB]
+     Dir: Konasima
+     http://localhost:3000/movies/police-venkataswamy-1983
+
+935. Manishiko Chartira (1983) [✗ No TMDB]
+     Dir: Vijaya Bapineedu
+     http://localhost:3000/movies/manishiko-chartira-1983
+
+936. Eeswarudu Seneswarudu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/eeswarudu-seneswarudu-1983
+
+937. Prema Sagaram (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/prema-sagaram-1983
+
+938. Rangula Kala (1983) [✗ No TMDB]
+     Dir: B. Narsing Rao
+     http://localhost:3000/movies/rangula-kala-1983
+
+939. Ikanaina Marandi (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/ikanaina-marandi-1983
+
+940. Idhi Kadhu Mugimpu (1983) [✗ No TMDB]
+     Dir: Satyanarayana Vejella
+     http://localhost:3000/movies/idhi-kadhu-mugimpu-1983
+
+941. Desanikokkadu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/desanikokkadu-1983
+
+942. Manishiki Maro Peru (1983) [✗ No TMDB]
+     Dir: Tatineni Prasad
+     http://localhost:3000/movies/manishiki-maro-peru-1983
+
+943. Kanne Donga (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/kanne-donga-1983
+
+944. Kasi Yatra (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/kasi-yatra-1983
+
+945. Siripuram Monagadu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/siripuram-monagadu-1983
+
+946. Debbaku Debba (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/debbaku-debba-1983
+
+947. Prema Vijayam (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/prema-vijayam-1983
+
+948. Kaliyuga Dhaivam (1983) [✗ No TMDB]
+     Dir: M. Rosi Raju
+     http://localhost:3000/movies/kaliyuga-dhaivam-1983
+
+949. Devi Sridevi (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/devi-sridevi-1983
+
+950. Thodu Needa (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/thodu-needa-1983
+
+951. Raju Rani Jocky (1983) [✗ No TMDB]
+     Dir: Singeetham Srinivasa Rao
+     http://localhost:3000/movies/raju-rani-jocky-1983
+
+952. Triveni Sangamam (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/triveni-sangamam-1983
+
+953. Kunkuma Tilakam (1983) [✗ No TMDB]
+     Dir: Bhargava
+     http://localhost:3000/movies/kunkuma-tilakam-1983
+
+954. Jaani Dost (1983) [✓ TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/jaani-dost-1983
+
+955. Shubha Muhurtam (1983) [✗ No TMDB]
+     ✗ No Director
+     http://localhost:3000/movies/shubha-muhurtam-1983
+
+956. Bezawada Bebbuli (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/bezawada-bebbuli-1983
+
+957. Muddula Mogudu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/muddula-mogudu-1983
+
+958. Gaju Bommalu (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/gaju-bommalu-1983
+
+959. Trisulam (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/trisulam-1983
+
+960. Ramarajyamlo Bheemaraju (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/ramarajyamlo-bheemaraju-1983
+
+961. Lanke Bindelu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/lanke-bindelu-1983
+
+962. Subha Muhurtham (1983) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/subha-muhurtham-1983
+
+963. Digivachina Devudu (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/digivachina-devudu-1983
+
+964. Bharathamma Muddu Biddalu (1983) [✗ No TMDB]
+     Dir: Veera
+     http://localhost:3000/movies/bharathamma-muddu-biddalu-1983
+
+965. Nijam Chebithe Nerama (1983) [✗ No TMDB]
+     Dir: M. Balaiah
+     http://localhost:3000/movies/nijam-chebithe-nerama-1983
+
+966. Amarajeevi (1983) [✗ No TMDB]
+     Dir: Jandhyala Subramanya Sastry
+     http://localhost:3000/movies/amarajeevi-1983
+
+967. Intalludu (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/intalludu-1983
+
+968. Padmavathi Kalyanam (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/padmavathi-kalyanam-1983
+
+969. Raghu Ramudu (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/raghu-ramudu-1983
+
+970. Kalyana Veena (1983) [✗ No TMDB]
+     Dir: K. Shankar
+     http://localhost:3000/movies/kalyana-veena-1983
+
+971. Dharma Poratam (1983) [✗ No TMDB]
+     Dir: T. Krishna
+     http://localhost:3000/movies/dharma-poratam-1983
+
+972. Chanda Sasanudu (1983) [✗ No TMDB]
+     Dir: Krasna
+     http://localhost:3000/movies/chanda-sasanudu-1983
+
+973. Muggurammayila Mogudu (1983) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/muggurammayila-mogudu-1983
+
+974. Iddaru Kiladeelu (1983) [✗ No TMDB]
+     Dir: Relangi Narasimha Rao
+     http://localhost:3000/movies/iddaru-kiladeelu-1983
+
+975. Praja Rajyam (1983) [✗ No TMDB]
+     Dir: M. Mallikarjuna Rao
+     http://localhost:3000/movies/praja-rajyam-1983
+
+976. Palleturi Pidugu (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/palleturi-pidugu-1983
+
+977. Monagadu Vastunnadu Jagratha (1983) [✗ No TMDB]
+     Dir: A. Kodandarami Reddy
+     http://localhost:3000/movies/monagadu-vastunnadu-jagratha-1983
+
+978. Rudrakali (1983) [✗ No TMDB]
+     Dir: K.Raghavendra Rao
+     http://localhost:3000/movies/rudrakali-1983
+
+979. Maharani (Tamil Dubbed Nayakkarin Magal 1982) (1983) [✗ No TMDB]
+     Dir: K. S. Gopalakrishnan
+     http://localhost:3000/movies/maharani-tamil-dubbed-nayakkarin-magal-1982-1983
+
+980. Balidaanam (1983) [✗ No TMDB]
+     Dir: Dhavala Satyam
+     http://localhost:3000/movies/balidaanam-1983
+
+981. Ee Pillaku Pellavuthunda (1983) [✗ No TMDB]
+     Dir: Vejella Satyanarayana
+     http://localhost:3000/movies/ee-pillaku-pellavuthunda-1983
+
+982. Pichi Pantuulu (1983) [✗ No TMDB]
+     Dir: Jandhyala
+     http://localhost:3000/movies/pichi-pantuulu-1983
+
+983. Vimukthi Kosam (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/vimukthi-kosam-1983
+
+984. Devi Kanaykumari (1983) [✗ No TMDB]
+     Dir: K. Shankar
+     http://localhost:3000/movies/devi-kanaykumari-1983
+
+985. Magallako Namaskaram (1983) [✗ No TMDB]
+     Dir: Bhavaniprasad
+     http://localhost:3000/movies/magallako-namaskaram-1983
+
+986. Bhairava Kona (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/bhairava-kona-1983
+
+987. Amayaka Chakravarthy (1983) [✗ No TMDB]
+     Dir: Kodandarami Reddy
+     http://localhost:3000/movies/amayaka-chakravarthy-1983
+
+988. Adavalle Aligithe (1983) [✗ No TMDB]
+     Dir: Vejella Satyanarayana
+     http://localhost:3000/movies/adavalle-aligithe-1983
+
+989. Chandi Chamundi (1983) [✗ No TMDB]
+     Dir: Kodi Ramakrishna
+     http://localhost:3000/movies/chandi-chamundi-1983
+
+990. Praja Shakthi (1983) [✗ No TMDB]
+     Dir: Krasna
+     http://localhost:3000/movies/praja-shakthi-1983
+
+991. Chilaka Josyam (1983) [✗ No TMDB]
+     Dir: A Kodandarami Reddy
+     http://localhost:3000/movies/chilaka-josyam-1983
+
+992. Pidugu lanti Manishi (1983) [✗ No TMDB]
+     Dir: M. A. Thirumugham
+     http://localhost:3000/movies/pidugu-lanti-manishi-1983
+
+993. Prema Jwala (1983) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/prema-jwala-1983
+
+994. Bharya Bharthala Sawal (1983) [✗ No TMDB]
+     Dir: Chandrashekar Reddy
+     http://localhost:3000/movies/bharya-bharthala-sawal-1983
+
+995. Golkonda Abbulu (1982) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/golkonda-abbulu-1982
+
+996. Prema Nakshatram (1982) [✗ No TMDB]
+     Dir: Indra Kumar
+     http://localhost:3000/movies/prema-nakshatram-1982
+
+997. Gruha Pravesam (1982) [✗ No TMDB]
+     Dir: Bhagyaraj
+     http://localhost:3000/movies/gruha-pravesam-1982
+
+998. Bapu (1982) [✗ No TMDB]
+     Dir: K. Bapayya
+     http://localhost:3000/movies/bapu-1982
+
+999. Prathikaram (1982) [✗ No TMDB]
+     Dir: K. Vasu
+     http://localhost:3000/movies/prathikaram-1982
+
+1000. Krishnarjunulu (1982) [✗ No TMDB]
+     Dir: Dasari Narayana Rao
+     http://localhost:3000/movies/krishnarjunulu-1982
+
+═══════════════════════════════════════════════════════════════════════
+
+Common genres: Action, Drama, Romance, Comedy, Thriller, Horror,
+               Family, Fantasy, Historical, Mythology, Devotional

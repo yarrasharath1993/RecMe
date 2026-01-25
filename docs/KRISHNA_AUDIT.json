@@ -1,0 +1,446 @@
+{
+  "actorName": "Krishna",
+  "debutYear": 1965,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 500,
+  "preDebutFilms": [
+    {
+      "id": "63772952-2f81-424b-8ac1-9e468ab5bc66",
+      "title_en": "Tarumaru",
+      "release_year": 1941,
+      "hero": "Ramakrishna Sastry",
+      "heroine": "Hemavathi",
+      "director": "N.D. Vijayababu",
+      "our_rating": 7.5,
+      "cast_members": []
+    },
+    {
+      "id": "7b4b9dd2-1d44-4456-93ef-d4d4e8cf7a6a",
+      "title_en": "Shanta Bala Nagamma",
+      "release_year": 1942,
+      "hero": "M Krishna Rao",
+      "heroine": "Kumari",
+      "director": "S V S Rama Rao",
+      "our_rating": 6.3,
+      "cast_members": []
+    },
+    {
+      "id": "7215e2cb-adaa-4b1b-8d1c-e195c3ad9b4c",
+      "title_en": "Nithya Kalyanam Paccha Thoranam",
+      "release_year": 1960,
+      "hero": "Ramakrishna",
+      "heroine": "Chalam",
+      "director": "Pinisetti Srirama Murthy",
+      "our_rating": 6,
+      "cast_members": []
+    },
+    {
+      "id": "8af49d3a-83c4-4aaf-8e70-6789a666cbb5",
+      "title_en": "Murali Krishna",
+      "release_year": 1964,
+      "hero": "Krishna",
+      "heroine": "Jamuna",
+      "director": "Adurthi Subba Rao",
+      "our_rating": 7.5,
+      "cast_members": []
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "fb3a5548-9e5f-4959-b2c1-b11f1825401a",
+        "title": "Santanam Soubhagyam",
+        "year": 1975
+      },
+      "movie2": {
+        "id": "43c49acb-bbad-4f91-8123-a9dfdc8f99a5",
+        "title": "Santhanam Soubhagyam",
+        "year": 1975
+      },
+      "similarity": 0.9473684210526316
+    },
+    {
+      "movie1": {
+        "id": "6c7c7694-cd75-4675-bb25-ae48736fd496",
+        "title": "Manasaakshi",
+        "year": 1977
+      },
+      "movie2": {
+        "id": "5e1ee9ba-7f83-4d83-bf12-53fc7cd73643",
+        "title": "Manassakshi",
+        "year": 1977
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "279f8440-e8ff-4e17-9e0c-aa0239188784",
+        "title": "Indradhanasu",
+        "year": 1978
+      },
+      "movie2": {
+        "id": "8a7cc5ac-3e1b-4759-a3f1-5fd996087fab",
+        "title": "Indradhanussu",
+        "year": 1978
+      },
+      "similarity": 0.8461538461538461
+    },
+    {
+      "movie1": {
+        "id": "05d1dd59-e1f2-47e3-b23d-30914c8dd118",
+        "title": "Muggure Mugguru",
+        "year": 1978
+      },
+      "movie2": {
+        "id": "f1d111a3-e18d-40d7-8dcf-3ddea22606c5",
+        "title": "Mugguru Muggure",
+        "year": 1978
+      },
+      "similarity": 0.8571428571428572
+    },
+    {
+      "movie1": {
+        "id": "e62652e2-bee0-4533-b6bd-8aa92bf303e3",
+        "title": "Manavoori Pandavulu",
+        "year": 1978
+      },
+      "movie2": {
+        "id": "1d89b678-a3b6-4250-ad27-317c295131f4",
+        "title": "Mana Voori Pandavulu",
+        "year": 1978
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "4d6cc573-1d72-41e6-9991-ca8322ca4be7",
+        "title": "Samajaniki Savaal",
+        "year": 1979
+      },
+      "movie2": {
+        "id": "4fb6d7b3-0f22-4bfd-b56a-ac5eb4aadc48",
+        "title": "Samajaniki Sawal",
+        "year": 1979
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "fed09355-3d94-4653-bffa-d26e52727cc9",
+        "title": "Chuttalunnaru Jagratha",
+        "year": 1980
+      },
+      "movie2": {
+        "id": "9d588c70-0f44-4ffe-9d12-68ae8bc4b6b3",
+        "title": "Chuttalunnaru Jagrattha",
+        "year": 1980
+      },
+      "similarity": 0.9545454545454546
+    },
+    {
+      "movie1": {
+        "id": "60eb07bb-2a6b-43e7-b2e0-f3cd2586e79c",
+        "title": "Adhrustavanthudu",
+        "year": 1980
+      },
+      "movie2": {
+        "id": "3f912b20-bbe2-4524-9da8-fe8cb3d820f8",
+        "title": "Adrushtavanthudu",
+        "year": 1980
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "6e97dc8d-58b6-4f0d-812a-8b469bf083bf",
+        "title": "Bhoga Bagyalu",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "53c67288-097c-465c-9bd8-e621ad14b4f7",
+        "title": "Bhoga Bhagyalu",
+        "year": 1981
+      },
+      "similarity": 0.9230769230769231
+    },
+    {
+      "movie1": {
+        "id": "1e7e493e-9c00-4132-b3c3-cbcb5ab272b8",
+        "title": "Ooruki Monagadu",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "1b79354e-f55f-4380-b066-7e321797f6ed",
+        "title": "Ooriki Monagadu",
+        "year": 1981
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "f35ab8c9-de5d-4a2c-bde8-626eeb5799af",
+        "title": "Thodu Dongalu",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "6b4c4ddb-8a69-4a0c-9ed6-96156638df75",
+        "title": "Todu Dongalu",
+        "year": 1981
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "a26197b6-a811-4fb5-83d6-63cb57561d07",
+        "title": "Oorukichchina Maata",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "8ce2f51a-b044-4348-9d2e-23afe50903ea",
+        "title": "Ooriki Ichina Maata",
+        "year": 1981
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "4a487760-5bae-4516-9e42-2030f5fe6e8d",
+        "title": "Shamsher Shankar",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "44f16014-ce4c-44c5-a6a1-75145dedd217",
+        "title": "Shamshare Shankar",
+        "year": 1982
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "cce46ef8-a003-4287-93dc-30365970df35",
+        "title": "Krishnarajunulu",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "58546946-8648-4c82-af1e-10f1147e3d00",
+        "title": "Krishnarjunulu",
+        "year": 1982
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "cce46ef8-a003-4287-93dc-30365970df35",
+        "title": "Krishnarajunulu",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "6712c7c7-734b-4f85-b2e1-e2a7ebadcf84",
+        "title": "Krishnaarjunulu",
+        "year": 1982
+      },
+      "similarity": 0.8666666666666667
+    },
+    {
+      "movie1": {
+        "id": "4741b560-53b0-4361-bf96-9d45a1de543c",
+        "title": "Ee Charithra Ye Siratho",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "44618a6d-f256-42e8-a5ce-69491d6d38d0",
+        "title": "Ee Charitra Ae Sirato",
+        "year": 1982
+      },
+      "similarity": 0.85
+    },
+    {
+      "movie1": {
+        "id": "77f47227-e1a3-4859-8a9d-02a5abc06290",
+        "title": "Trisulam",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "1aad60ba-ea6d-46d5-b93f-88aab3863c8c",
+        "title": "Trisulam",
+        "year": 1983
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "58546946-8648-4c82-af1e-10f1147e3d00",
+        "title": "Krishnarjunulu",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "6712c7c7-734b-4f85-b2e1-e2a7ebadcf84",
+        "title": "Krishnaarjunulu",
+        "year": 1982
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "22e305a7-41e2-4015-809d-c3b8e14672fd",
+        "title": "Kalavari Samsaram",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "9ba48cc4-e407-4353-b89c-a964a70832ec",
+        "title": "Kalavaari Samsaram",
+        "year": 1982
+      },
+      "similarity": 0.9411764705882353
+    },
+    {
+      "movie1": {
+        "id": "a808a99a-b312-4a2d-a936-ddf6420c11aa",
+        "title": "Jagannatha Radhachakralu",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "36e180dc-f801-4f13-9305-907dd1a2fa0e",
+        "title": "Jagannadha Rathachakralu",
+        "year": 1982
+      },
+      "similarity": 0.9130434782608696
+    },
+    {
+      "movie1": {
+        "id": "e673902e-9d0c-4a48-a172-349b08648ad3",
+        "title": "Shakthi",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "a86711cd-a75b-476f-9c78-1e81335c69a4",
+        "title": "Praja Shakthi",
+        "year": 1983
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "b3a84d00-fe39-43bc-8036-0d87d18cd183",
+        "title": "Poratam",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "4b49d4b0-d54a-41fc-b7ca-974d81904a27",
+        "title": "Dharma Poratam",
+        "year": 1983
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "91e5fe29-5156-4caa-9817-c3dff311a487",
+        "title": "Babayi-Abbayi",
+        "year": 1985
+      },
+      "movie2": {
+        "id": "8868395b-8036-4af6-8619-e638c8204a38",
+        "title": "Babai Abbai",
+        "year": 1985
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "619b4273-6a96-487c-b0db-30795fc5449f",
+        "title": "Brahmasthram",
+        "year": 1986
+      },
+      "movie2": {
+        "id": "2a314534-7b3a-406c-94f3-b645cc630f1f",
+        "title": "Brahmastram",
+        "year": 1986
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "1a396f01-d1be-4cab-86b3-a6670bafe007",
+        "title": "Parasuramudu",
+        "year": 1986
+      },
+      "movie2": {
+        "id": "b681af63-0529-49c0-bf1f-8c4dabb254ca",
+        "title": "Ramu",
+        "year": 1987
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "970d7ea0-26f0-49f2-91e2-9915db95176c",
+        "title": "Maa Voori Magaadu",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "84f4802e-92df-4b1a-bbfb-05048c435a2e",
+        "title": "Maa Voori Magadu",
+        "year": 1987
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "c153d4e6-bb58-46ab-af4d-c6f998d83fb9",
+        "title": "Sankharavam",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "d8ba2880-d3be-4364-9b4d-ebd027ee0663",
+        "title": "Shankharavam",
+        "year": 1987
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "b681af63-0529-49c0-bf1f-8c4dabb254ca",
+        "title": "Ramu",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "6aaac076-8828-4d7e-8708-60a28f478133",
+        "title": "Bhargava Ramudu",
+        "year": 1987
+      },
+      "similarity": 0.9
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1941": 1,
+    "1942": 1,
+    "1960": 1,
+    "1964": 1,
+    "1965": 1,
+    "1966": 4,
+    "1967": 7,
+    "1968": 15,
+    "1969": 17,
+    "1970": 18,
+    "1971": 15,
+    "1972": 20,
+    "1973": 27,
+    "1974": 22,
+    "1975": 30,
+    "1976": 20,
+    "1977": 24,
+    "1978": 34,
+    "1979": 25,
+    "1980": 29,
+    "1981": 28,
+    "1982": 38,
+    "1983": 38,
+    "1984": 21,
+    "1985": 16,
+    "1986": 23,
+    "1987": 24
+  },
+  "summary": "4 pre-debut films, 28 potential duplicates"
+}

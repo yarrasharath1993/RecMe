@@ -169,7 +169,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                   { label: '🎬 వినోదం', href: '/category/entertainment' },
                   { label: '🏛️ రాజకీయాలు', href: '/category/politics' },
                   { label: '🔥 హాట్', href: '/hot' },
-                  { label: '⭐ రివ్యూలు', href: '/reviews' },
+                  { label: '⭐ సినిమాలు', href: '/movies' },
                 ].map((cat) => (
                   <Link
                     key={cat.href}

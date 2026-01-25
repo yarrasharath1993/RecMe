@@ -1,0 +1,73 @@
+Category,Action,Title,Year,Current Language,Proposed Language,Current Hero,Proposed Hero,Current Director,Proposed Director,Current Year,Proposed Year,Current Title,Proposed Title,Rating,Notes,Status
+DELETE,DELETE,"Best Supporting Actor",2007,,,,,,,,,,,,"Duplicate placeholder data",CONFIRM_DELETE
+DELETE,DELETE,"Best Actor",2000,,,,,,,,,,,,"Award placeholder, not a film",CONFIRM_DELETE
+DELETE,DELETE,"Best Supporting Actor",1998,,,,,,,,,,,,"Duplicate placeholder",CONFIRM_DELETE
+LANGUAGE_FIX,FIX_LANGUAGE,"Gunda Gardi",1997,"Telugu","Hindi","Aditya Pancholi","Aditya Pancholi","V. Sai Prasad","V. Sai Prasad",,,,,4.2,"Hindi action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Khuda Gawah",1992,"Telugu","Hindi","","Amitabh Bachchan","Mukul Anand","Mukul Anand",,,,,7.3,"Hindi epic",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"ChaalBaaz",1989,"Telugu","Hindi","","Sridevi","Pankaj Parashar","Pankaj Parashar",,,,,7.2,"Hindi comedy classic",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Chaalbaaz",1989,"Telugu","Hindi","Sridevi","Sridevi","Pankaj Parashar","Pankaj Parashar",,,,,7.2,"Hindi comedy; double role",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Thanedaar",1990,"Telugu","Hindi","","Sanjay Dutt","Raj N. Sippy","Raj N. Sippy",,,,,6.2,"Hindi action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Aaj Ka Arjun",1990,"Telugu","Hindi","","Amitabh Bachchan","K. C. Bokadia","K. C. Bokadia",,,,,6.5,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Shehzaade",1989,"Telugu","Hindi","","Dharmendra","Raj N. Sippy","Raj N. Sippy",,,,,5.2,"Hindi action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Gair Kanooni",1989,"Telugu","Hindi","","Govinda","Prayag Raj","Prayag Raj",,,,,5.8,"Hindi feat. Sridevi",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Majboor",1989,"Telugu","Hindi","","Jeetendra","T. Rama Rao","T. Rama Rao",,,,,5.1,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Kanoon Ki Awaaz",1989,"Telugu","Hindi","","Shatrughan Sinha","R. Kumar","R. Kumar",,,,,4.9,"Hindi action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sone Pe Suhaaga",1988,"Telugu","Hindi","","Jeetendra","K. Bapayya","K. Bapayya",,,,,5.9,"Hindi multi-starrer",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Ghar Ghar Ki Kahani",1988,"Telugu","Hindi","","Govinda","Kalpataru","Kalpataru",,,,,6.3,"Hindi family drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Majaal",1987,"Telugu","Hindi","","Jeetendra","K. Bapayya","K. Bapayya",,,,,6,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Watan Ke Rakhwale",1987,"Telugu","Hindi","","Dharmendra","T. Rama Rao","T. Rama Rao",,,,,6.2,"Hindi action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Karma",1986,"Telugu","Hindi","","Dilip Kumar","Subhash Ghai","Subhash Ghai",,,,,7.6,"Hindi blockbuster",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Aakhree Raasta",1986,"Telugu","Hindi","","Amitabh Bachchan","K. Bhagyaraj","K. Bhagyaraj",,,,,7.5,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Mera Saathi",1985,"Telugu","Hindi","","Jeetendra","K. Raghavendra Rao","K. Raghavendra Rao",,,,,5.8,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sharaabi",1984,"Telugu","Hindi","","Amitabh Bachchan","Prakash Mehra","Prakash Mehra",,,,,7.9,"Hindi classic",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Inquilaab",1984,"Telugu","Hindi","","Amitabh Bachchan","T. Rama Rao","T. Rama Rao",,,,,6.4,"Hindi thriller",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Qayamat",1983,"Telugu","Hindi","","Dharmendra","Raj N. Sippy","Raj N. Sippy",,,,,6.1,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Solva Sawan",1979,"Telugu","Hindi","","Amol Palekar","Bharathiraja","Bharathiraja",,,,,6.5,"Hindi remake of 16 Vayathinile",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Amar Deep",1979,"Telugu","Hindi","","Rajesh Khanna","R. Krishnamurthy","R. Krishnamurthy",,,,,6.4,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Seeta Swayamvar",1976,"Telugu","Hindi","","Ravi Kumar","Bapu","Bapu",,,,,7.5,"Hindi version of Bapu film",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Julie",1975,"Telugu","Hindi","","Lakshmi","K. S. Sethumadhavan","K. S. Sethumadhavan",,,,,7.1,"Hindi remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Gumrah",1993,"Telugu","Hindi","","Sridevi","Mahesh Bhatt","Mahesh Bhatt",,,,,6.9,"Hindi crime thriller",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Ethiri En 3",2012,"Telugu","Tamil","Srikanth","Srikanth","Ramkumar","Ramkumar",,,,,5.5,"Tamil thriller",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Porali",2011,"Telugu","Tamil","","M. Sasikumar","Samuthirakani","Samuthirakani",,,,,6.8,"Tamil action drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Pasa Kiligal",2006,"Telugu","Tamil","Prabhu","Prabhu","P. Amirdhan","P. Amirdhan",,,,,5.7,"Tamil family drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Kizhakku Kadarkarai Salai",2006,"Telugu","Tamil","Srikanth","Srikanth","S. S. Stanley","S. S. Stanley",,,,,5.2,"Tamil thriller",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Joot",2004,"Telugu","Tamil","Srikanth","Srikanth","Azhagam Perumal","Azhagam Perumal",,,,,5.8,"Tamil action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sonnal Thaan Kaadhala",2001,"Telugu","Tamil","T. Rajendar","T. Rajendar","T. Rajendar","T. Rajendar",,,,,4.5,"Tamil romance",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Mitta Miraasu",2001,"Telugu","Tamil","Prabhu","Prabhu","Mu Kalanjiyam","Mu Kalanjiyam",,,,,6.2,"Tamil action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sandhitha Velai",2000,"Telugu","Tamil","Karthik Muthuraman","Karthik Muthuraman","Ravichandran","Ravichandran",,,,,5.4,"Tamil film",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Mugham",1999,"Telugu","Tamil","Nassar","Nassar","Gnana Rajasekaran","Gnana Rajasekaran",,,,,7,"Tamil social drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Chinna Raja",1999,"Telugu","Tamil","Karthik Muthuraman","Karthik Muthuraman","Chitra Lakshmanan","Chitra Lakshmanan",,,,,5.7,"Tamil comedy",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"En Aasai Rasave",1998,"Telugu","Tamil","Sivaji Ganesan","Sivaji Ganesan","Kasthoori Raja","Kasthoori Raja",,,,,6.1,"Tamil drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Uzhaippali",1993,"Telugu","Tamil","","Rajinikanth","P. Vasu","P. Vasu",,,,,7.1,"Tamil action",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Chembaruthi",1992,"Telugu","Tamil","","Prashanth","R. K. Selvamani","R. K. Selvamani",,,,,7,"Tamil romance",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sattam Oru Sathurangam",1988,"Telugu","Tamil","","Arjun Sarja","Prathap Pothan","Prathap Pothan",,,,,6.4,"Tamil thriller",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Pokkiri Raja",1982,"Telugu","Tamil","","Rajinikanth","S. P. Muthuraman","S. P. Muthuraman",,,,,7.3,"Tamil blockbuster",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Kallukul Eeram",1980,"Telugu","Tamil","","Aruna","P. S. Nivas","P. S. Nivas",,,,,6.8,"Tamil romantic drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Ninaithaale Inikkum",1979,"Telugu","Tamil","","Kamal Haasan","K. Balachander","K. Balachander",,,,,8.1,"Tamil musical",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Pilot Premnath",1978,"Telugu","Tamil","","Sivaji Ganesan","A. C. Tirulokchandar","A. C. Tirulokchandar",,,,,6.9,"Tamil/Sinhalese",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"16 Vayathinile",1977,"Telugu","Tamil","","Kamal Haasan","Bharathiraja","Bharathiraja",,,,,8.4,"Tamil cult classic",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Amaradeepam",1977,"Telugu","Tamil","","Sivaji Ganesan","T. Prakash Rao","T. Prakash Rao",,,,,6.7,"Tamil remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Rajapart Rangadurai",1973,"Telugu","Tamil","","Sivaji Ganesan","P. Madhavan","P. Madhavan",,,,,7.4,"Tamil drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Vasantha Maligai",1972,"Telugu","Tamil","","Sivaji Ganesan","K. S. Prakash Rao","K. S. Prakash Rao",,,,,8.2,"Tamil remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Kalathur Kannamma",1960,"Telugu","Tamil","","Gemini Ganesan","A. Bhimsingh","A. Bhimsingh",,,,,7.9,"Tamil; Kamal debut",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Vanangamudi",1957,"Telugu","Tamil","","Sivaji Ganesan","P. Neelakantan","P. Neelakantan",,,,,7,"Tamil film",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Pennin Perumai",1956,"Telugu","Tamil","","Sivaji Ganesan","P. Pullaiah","P. Pullaiah",,,,,7.2,"Tamil remake",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Kalabha Mazha",2011,"Telugu","Malayalam","Sreejith Vijay","Sreejith Vijay","P. Bhaskaran","P. Bhaskaran",,,,,5,"Malayalam romantic drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Oppam",2016,"Telugu","Malayalam","Jagapathi Babu","Mohanlal","Priyadarshan","Priyadarshan",,,,,7.3,"Telugu Dub",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Sesh Sangat",2009,"Telugu","Bengali","Ashish Vidhyarthi","Jaya Prada","Ashoke Viswanathan","Ashoke Viswanathan",,,,,6,"Bengali social drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Ee Snehatheerathu",2004,"Telugu","Malayalam","","Kunchacko Boban","P. Sivaprasad","P. Sivaprasad",,,,,5.9,"Malayalam film",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Archana Aaradhana",1985,"Telugu","Malayalam","","Mammootty","Sajan","Sajan",,,,,6.2,"Malayalam drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Ashwadhamavu",1979,"Telugu","Malayalam","","Madampu Kunjukuttan","K. R. Mohanan","K. R. Mohanan",,,,,7.2,"Malayalam arthouse",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Thulaavarsham",1976,"Telugu","Malayalam","","Prem Nazir","N. Sankaran Nair","N. Sankaran Nair",,,,,6.5,"Malayalam drama",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Poombatta",1971,"Telugu","Malayalam","","Sridevi (Child)","B. K. Pottekkadu","B. K. Pottekkadu",,,,,7.3,"Malayalam; Sridevi won award",CONFIRM_CHANGE
+LANGUAGE_FIX,FIX_LANGUAGE,"Bhakta Kumbara",1974,"Telugu","Kannada","","Dr. Rajkumar","Hunsur Krishnamurthy","Hunsur Krishnamurthy",,,,,8.5,"Kannada devotional masterpiece",CONFIRM_CHANGE
+TELUGU_FIX,FIX_DATA_PUBLISH,"Salaar: Part 2 – Shouryanga Parvam",2026,,,,"Prabhas",,"Prashanth Neel",2023,2026,"","",,"Unreleased; Add hero",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Mental (Appatlo Okadundevadu)",2016,,,,"Sree Vishnu",,"Sagar K Chandra",,,"మెంటల్","Mental (Appatlo Okadundevadu)",7.6,"Fixed Director/Title",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Bhale Mogudu Bhale Pellam",2011,,,,"Rajendra Prasad",,"Dinesh Baboo",,,"","",5.2,"Add hero",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Shubhapradam",2010,,,,"Allari Naresh",,"K. Viswanath",,,"","",6.1,"Verify & publish",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"State Rowdy",1989,,,,"Chiranjeevi",,"B. Gopal",2007,1989,"","",7,"CRITICAL: Year 1989 not 2007!",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Varakatnam",1969,,,,"N. T. Rama Rao",,"N. T. Rama Rao",2007,1969,"","",7.5,"CRITICAL: Year 1969 not 2007!",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Vikramarkudu",2005,,,,"Ravi Teja",,"S. S. Rajamouli",,,"Vikram","Vikramarkudu",8.1,"Fix title",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Swayam Krushi",1987,,,,"Chiranjeevi",,"K. Viswanath",,,"","",8.2,"CRITICAL: Hero is Chiranjeevi not Veerendra Babu!",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Sita Rama Kalyanam",1986,,,,"Nandamuri Balakrishna",,"Jandhyala",,,"","",6.8,"Director: Jandhyala not NTR",CONFIRM_PUBLISH
+TELUGU_FIX,FIX_DATA_PUBLISH,"Poola Rangadu",1967,,,,"Akkineni Nageswara Rao",,"Adurthi Subba Rao",,,"","",7.8,"CRITICAL: Hero is ANR not Sunil!",CONFIRM_PUBLISH

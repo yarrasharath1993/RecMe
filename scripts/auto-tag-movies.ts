@@ -71,14 +71,43 @@ interface Movie {
   content_flags?: Record<string, unknown>;
 }
 
+// Parse CLI arguments
+const getCliArg = (name: string, defaultValue: string = ''): string => {
+  const arg = process.argv.find((a) => a.startsWith(`--${name}=`));
+  return arg ? arg.split('=')[1] : defaultValue;
+};
+
+const CLI_ACTOR = getCliArg('actor', '');
+const CLI_DIRECTOR = getCliArg('director', '');
+const CLI_SLUG = getCliArg('slug', '');
+const CLI_LIMIT = parseInt(getCliArg('limit', '500'));
+
 async function autoTagMovies() {
   console.log('🎬 AUTO-TAGGING MOVIES\n');
   
-  // Fetch all movies
-  const { data: movies, error } = await supabase
+  if (CLI_ACTOR) console.log(`  Actor filter: "${CLI_ACTOR}"`);
+  if (CLI_DIRECTOR) console.log(`  Director filter: "${CLI_DIRECTOR}"`);
+  if (CLI_SLUG) console.log(`  Slug filter: "${CLI_SLUG}"`);
+  console.log(`  Limit: ${CLI_LIMIT}\n`);
+  
+  // Build query with filters
+  let query = supabase
     .from('movies')
     .select('id, title_en, release_year, avg_rating, total_reviews, hero, director, genres, is_underrated, is_blockbuster, is_classic')
     .eq('is_published', true);
+  
+  // Apply filters
+  if (CLI_ACTOR) {
+    query = query.ilike('hero', `%${CLI_ACTOR}%`);
+  }
+  if (CLI_DIRECTOR) {
+    query = query.ilike('director', `%${CLI_DIRECTOR}%`);
+  }
+  if (CLI_SLUG) {
+    query = query.eq('slug', CLI_SLUG);
+  }
+  
+  const { data: movies, error } = await query.limit(CLI_LIMIT);
 
   if (error || !movies) {
     console.error('Error fetching movies:', error);
@@ -236,11 +265,15 @@ async function applyEnhancedV2Tags() {
   
   // Parse arguments
   const limitArg = process.argv.find(arg => arg.startsWith('--limit'));
-  const limit = limitArg ? parseInt(process.argv[process.argv.indexOf(limitArg) + 1]) || 100 : 100;
+  const limit = limitArg ? parseInt(process.argv[process.argv.indexOf(limitArg) + 1]) || 100 : CLI_LIMIT;
   const forceAll = process.argv.includes('--force');
   
   console.log(`  Mode: ${forceAll ? 'FORCE (all movies)' : 'INCREMENTAL (missing only)'}`);
-  console.log(`  Limit: ${limit} movies\n`);
+  console.log(`  Limit: ${limit} movies`);
+  if (CLI_ACTOR) console.log(`  Actor filter: "${CLI_ACTOR}"`);
+  if (CLI_DIRECTOR) console.log(`  Director filter: "${CLI_DIRECTOR}"`);
+  if (CLI_SLUG) console.log(`  Slug filter: "${CLI_SLUG}"`);
+  console.log('');
 
   // Build query
   let query = supabase
@@ -250,8 +283,19 @@ async function applyEnhancedV2Tags() {
     .order('updated_at', { ascending: true })
     .limit(limit);
   
-  // Only filter for null/empty mood_tags if not forcing
-  if (!forceAll) {
+  // Apply actor/director/slug filters
+  if (CLI_ACTOR) {
+    query = query.ilike('hero', `%${CLI_ACTOR}%`);
+  }
+  if (CLI_DIRECTOR) {
+    query = query.ilike('director', `%${CLI_DIRECTOR}%`);
+  }
+  if (CLI_SLUG) {
+    query = query.eq('slug', CLI_SLUG);
+  }
+  
+  // Only filter for null/empty mood_tags if not forcing (and no specific filters)
+  if (!forceAll && !CLI_ACTOR && !CLI_DIRECTOR && !CLI_SLUG) {
     query = query.or('mood_tags.is.null,mood_tags.eq.{}');
   }
 

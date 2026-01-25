@@ -1,0 +1,72 @@
+status,slug,title,year,tmdb_id,hero,heroine,director,music_director,producer,genres,issue
+WRONG_TMDB,shadow-2013,Shadow,2013,37813,Daggubati Venkatesh,Nyra Banerjee,Meher Ramesh,Andrea Moscianese,Massimo Ferrero,Action; Drama; Thriller,TMDB points to different film
+WRONG_TMDB,bodyguard-2012,Bodyguard,2012,898801,Daggubati Venkatesh,Saloni Aswani,Gopichand Malineni,S. Thaman,Bellamkonda Suresh,Action; Romance; Drama,TMDB points to different film
+WRONG_TMDB,alasyam-amrutham-2010,Alasyam Amrutham,2010,307736,Daggubati Venkatesh,Anushka Shetty,Trivikram Srinivas,D. Ramanaidu,D. Ramanaidu,Drama; Romance; Family; Comedy,TMDB points to different film
+NO_TMDB,nagamani-2010,Nagamani,2010,,Daggubati Venkatesh,Anushka Shetty,P. Vasu,,,Drama; Romance; Action,Cannot verify - needs TMDB ID
+NO_TMDB,evadaithe-nakenti-2007,Evadaithe Nakenti,2007,,Daggubati Venkatesh,Anushka Shetty,Samudra,Chinna,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,sankranti-2005,Sankranti,2005,,Daggubati Venkatesh,Shriya Saran,Muppalaneni Shiva,S.A. Rajkumar,R. B. Choudary,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,shivashankar-2004,Shivashankar,2004,,Daggubati Venkatesh,Meena,K. Raghavendra Rao,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,charminar-2003,Charminar,2003,510446,Daggubati Venkatesh,Abhirami,G. Nageswara Reddy,Ghantadi Krishna,Sirajudheen K. P.,Drama; Romance; Family,TMDB points to different film
+WRONG_TMDB,dhanush-2003,Dhanush,2003,1515149,Daggubati Venkatesh,Meena,K. Raghavendra Rao,Bappi Lahiri,D Peddababu,Drama; Romance; Family,TMDB points to different film
+NO_TMDB,vasantam-2003,Vasantam,2003,,Daggubati Venkatesh,Kalyani,Victor,S. A. Rajkumar,N. V. Prasad Sanam Naga Ashok Kumar,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,friends-2002,Friends,2002,1515332,Daggubati Venkatesh,Shilpa Shetty,Suresh Krissna,,,Drama; Romance; Family,TMDB points to different film
+WRONG_TMDB,manasunna-maaraju-2000,Manasunna Maaraju,2000,1073095,Daggubati Venkatesh,Prema,Muppalaneni Siva,Vandemataram Srinivas,DVV Danayya,Drama; Romance; Family,TMDB points to different film
+WRONG_TMDB,telangana-1999,Telangana,1999,308202,Daggubati Venkatesh,Prema,K. Raghavendra Rao,Chakri,Nimmala Shankar,Action; Drama; Social,TMDB points to different film
+WRONG_TMDB,maa-balaji-1999,Maa Balaji,1999,413587,Daggubati Venkatesh,Rambha,Krishna Vamsi,,,Drama; Romance; Family; Mythological,TMDB points to different film
+NO_TMDB,bobbili-vamsam-1999,Bobbili Vamsam,1999,,Daggubati Venkatesh,Rambha,Kodandarami Reddy,,,Drama; Family; Romance; Period,Cannot verify - needs TMDB ID
+WRONG_TMDB,rajahamsa-1998,Rajahamsa,1998,596201,Daggubati Venkatesh,Meena,Singeetam Srinivasa Rao,Joshua Sreedhar,,Drama; Romance; Family,TMDB points to different film
+NO_TMDB,suprabhatam-1998,Suprabhatam,1998,,Daggubati Venkatesh,Anusha,Relangi Narasimha Rao,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,all-rounder-1998,All Rounder,1998,,Daggubati Venkatesh,Soundarya,E V V Satyanarayana,,,Drama; Romance; Family; Sports,Cannot verify - needs TMDB ID
+NO_TMDB,jai-bajarangabhali-1997,Jai Bajarangabhali,1997,,Daggubati Venkatesh,Sridevi Vijaykumar,Kodi Ramakrishna,,,Action; Drama; Mythological,Cannot verify - needs TMDB ID
+NO_TMDB,chinnabbayi-1997,Chinnabbayi,1997,,Daggubati Venkatesh,Ramya Krishnan,Kasinathuni Viswanath,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,veedevadandi-babu-1997,Veedevadandi Babu,1997,,Daggubati Venkatesh,Rambha,E.V.V. Satyanarayana,,,Drama; Romance; Family; Comedy,Cannot verify - needs TMDB ID
+NO_TMDB,amma-durgamma-1996,Amma Durgamma,1996,,Daggubati Venkatesh,Meena,K. Raghavendra Rao,,,Drama; Romance; Family; Mythological,Cannot verify - needs TMDB ID
+NO_TMDB,chinnabbayi-1996,Chinnabbayi,1996,,Daggubati Venkatesh,Rambha,A. Kodandarami Reddy,,,Drama; Romance; Family; Comedy,Cannot verify - needs TMDB ID
+NO_TMDB,family-1996,Family,1996,,Daggubati Venkatesh,Jaya Sudha,Pedarayudu,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,ayanaku-iddaru-1995,Ayanaku Iddaru,1995,,Daggubati Venkatesh,Ramya Krishnan,E.V.V. Satyanarayana,,,Comedy; Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,kunti-putrudu-1993,Kunti Putrudu,1993,,Daggubati Venkatesh,Meena,Muthyala Subbaiah,,,Drama; Romance; Family; Mythological,Cannot verify - needs TMDB ID
+NO_TMDB,ratha-sarathi-1993,Ratha Sarathi,1993,,Daggubati Venkatesh,Nagma,Cocaine Narayana,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,abbaigaru-1993,Abbaigaru,1993,,Daggubati Venkatesh,Meena,Evv Satyanarayana,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,naga-kanya-1992,Naga Kanya,1992,992296,Daggubati Venkatesh,Meena,Charan,Ganesh,Bathini Madhu Bala,Fantasy; Mythological; Romance; Adventure,TMDB points to different film
+NO_TMDB,prema-drohi-1992,Prema Drohi,1992,,Daggubati Venkatesh,Ilavarasi,Kodi Ramakrishna,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,police-brothers-1992,Police Brothers,1992,,Daggubati Venkatesh,Shobana,Relangi Narasimha Rao,,,Action; Drama; Family; Comedy,Cannot verify - needs TMDB ID
+NO_TMDB,raguluthunna-bharatham-1992,Raguluthunna Bharatham,1992,,Daggubati Venkatesh,Meena,Kodi Ramakrishna,,,Drama; Romance; Social,Cannot verify - needs TMDB ID
+NO_TMDB,naga-bala-1992,Naga Bala,1992,,Daggubati Venkatesh,Nagma,Muthyala Subbaiah,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,sundara-kanda-1992,Sundara Kanda,1992,408395,Daggubati Venkatesh,Bhanupriya,K. Bhagyaraj,,,Drama; Romance; Family,TMDB points to different film
+NO_TMDB,chakravyuham-1992,Chakravyuham,1992,,Daggubati Venkatesh,Gautami,Ravi Raja Pinisetty,,,Action; Drama; Thriller,Cannot verify - needs TMDB ID
+NO_TMDB,ahankari-1992,Ahankari,1992,,Daggubati Venkatesh,Meena,Kodandarami Reddy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,champion-1992,Champion,1992,,Daggubati Venkatesh,Debora,B. Gopal,,,Drama; Romance; Sports,Cannot verify - needs TMDB ID
+NO_TMDB,donga-police-1992,Donga Police,1992,,Daggubati Venkatesh,Soumya,Ram Gopal Varma,,,Action; Drama; Crime; Romance,Cannot verify - needs TMDB ID
+NO_TMDB,prardhana-1991,Prardhana,1991,,Daggubati Venkatesh,Khushboo,Sharath,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,shanti-kranti-1991,Shanti Kranti,1991,66253,Daggubati Venkatesh,Meena,V. Ramachandra Rao,Hamsalekha,N. Veeraswamy,Drama; Romance; Action,TMDB points to different film
+WRONG_TMDB,bharat-bandh-1991,Bharat Bandh,1991,920267,Daggubati Venkatesh,Archana,K. Murali Mohan,,,Drama; Social; Action,TMDB points to different film
+NO_TMDB,athiradhudu-1991,Athiradhudu,1991,,Daggubati Venkatesh,Nagma,Ravi Raja Pinisetty,,,Action; Drama; Romance; Comedy,Cannot verify - needs TMDB ID
+NO_TMDB,siva-shakthi-1991,Siva Shakthi,1991,,Daggubati Venkatesh,Meena,Suresh Krissna,,,Action; Drama; Mythological; Romance,Cannot verify - needs TMDB ID
+NO_TMDB,chanti-1991,Chanti,1991,,Daggubati Venkatesh,Meena,Ravi Raja Pinisetty,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,bhargava-1991,Bhargava,1991,,Daggubati Venkatesh,Khushboo,A Kodandarami Reddy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,sarpayagam-1991,Sarpayagam,1991,278181,Daggubati Venkatesh,Shobana,Paruchuri Brothers,Saluri Koteswara Rao,D. Rama Naidu,Drama; Romance; Family; Mythological,TMDB points to different film
+NO_TMDB,alajadi-1990,Alajadi,1990,,Daggubati Venkatesh,Khushboo,Mohana Gandhi,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+WRONG_TMDB,police-bharya-1990,Police Bharya,1990,1063004,Daggubati Venkatesh,Malashri,Relangi Narasimha Rao,Thotakura Somaraju,,Drama; Romance; Family; Action; Comedy,TMDB points to different film
+WRONG_TMDB,iddaru-iddare-1990,Iddaru Iddare,1990,577357,Daggubati Venkatesh,Divya Bharti,A Kodandarami Reddy,,,Drama; Romance; Family,TMDB points to different film
+NO_TMDB,sathruvu-1990,Sathruvu,1990,,Daggubati Venkatesh,Kushboo,Kodandarami Reddy,,,Action; Drama; Romance,Cannot verify - needs TMDB ID
+NO_TMDB,agni-sakshi-1990,Agni Sakshi,1990,,Daggubati Venkatesh,Vanisri,K. Balachander,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,adadhi-1990,Adadhi,1990,,Daggubati Venkatesh,Archana,Girish,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,ankusam-1990,Ankusam,1990,,Daggubati Venkatesh,Sarada,Kodandarami Reddy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,qaidi-dada-1990,Qaidi Dada,1990,,Daggubati Venkatesh,Shobana,Sarath,,,Drama; Romance; Family; Crime,Cannot verify - needs TMDB ID
+WRONG_TMDB,agni-1989,Agni,1989,1079595,Daggubati Venkatesh,Kushboo,Harish Shankar,Hamsalekha,K. S. Prakash Rao,Action; Drama; Romance,TMDB points to different film
+WRONG_TMDB,sutradharulu-1989,Sutradharulu,1989,105356,Daggubati Venkatesh,Meena,Kodandarami Reddy,K. V. Mahadevan,Sudhakar,Drama; Romance; Family,TMDB points to different film
+NO_TMDB,bharata-nari-1989,Bharata Nari,1989,,Daggubati Venkatesh,Vijayashanti,Muthyala Subbaiah,,,Drama; Romance; Social; Family,Cannot verify - needs TMDB ID
+NO_TMDB,naga-pournami-1989,Naga Pournami,1989,,Daggubati Venkatesh,Shobana,Kodandarami Reddy,,,Drama; Romance; Mythological; Fantasy,Cannot verify - needs TMDB ID
+NO_TMDB,preminchi-choodu-1989,Preminchi Choodu,1989,,Daggubati Venkatesh,Suhasini,Vamsy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,poola-rangadu-1989,Poola Rangadu,1989,,Daggubati Venkatesh,Bhanupriya,Kodi Ramakrishna,,,Comedy; Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,dhruva-nakshatram-1989,Dhruva Nakshatram,1989,,Daggubati Venkatesh,Rajani,Y. Nageswara Rao,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,gaduggai-1989,Gaduggai,1989,,Daggubati Venkatesh,Kushboo,Kodandarami Reddy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,bazaar-rowdy-1988,Bazaar Rowdy,1988,,Daggubati Venkatesh,Shobana,A. Kodandarami Reddy,,,Action; Drama; Romance; Comedy,Cannot verify - needs TMDB ID
+NO_TMDB,raktha-tilakam-1988,Raktha Tilakam,1988,,Daggubati Venkatesh,Amala,B,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,varasudochadu-1988,Varasudochadu,1988,,Daggubati Venkatesh,Srikanth's sister; but I am not confident about her name; so: Unknown,A Kodandarami Reddy,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,ajeyudu-1987,Ajeyudu,1987,,Daggubati Venkatesh,Shobana,Kodandarami Reddy,,,Drama; Action; Romance,Cannot verify - needs TMDB ID
+NO_TMDB,bharatamlo-arjunudu-1987,Bharatamlo Arjunudu,1987,,Daggubati Venkatesh,Kushboo,K. Raghavendra Rao,,,Action; Drama; Romance; Social,Cannot verify - needs TMDB ID
+NO_TMDB,bharathamlo-arjunudu-1987,Bharathamlo Arjunudu,1987,,Daggubati Venkatesh,Khushbu,K. Raghavendra Rao,,,Drama; Romance; Mythological; Family,Cannot verify - needs TMDB ID
+NO_TMDB,chinnari-devatha-1987,Chinnari Devatha,1987,,Daggubati Venkatesh,Meena,Kodi Ramakrishna,,,Drama; Romance; Family,Cannot verify - needs TMDB ID
+NO_TMDB,kaliyuga-krishnudu-1986,Kaliyuga Krishnudu,1986,,Daggubati Venkatesh,Kushboo,Kodi Ramakrishna,,,Drama; Romance; Mythological,Cannot verify - needs TMDB ID
+NO_TMDB,devalayam-1985,Devalayam,1985,,Daggubati Venkatesh,No Female Lead,K. Vasu,,,Drama; Mythological; Social,Cannot verify - needs TMDB ID

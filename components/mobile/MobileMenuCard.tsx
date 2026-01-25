@@ -209,7 +209,7 @@ export function MobileMenuCard({
       {/* View all link */}
       {items.length > 0 && (
         <Link
-          href={activeTab === 'popular' ? '/hot' : '/reviews'}
+          href={activeTab === 'popular' ? '/hot' : '/movies'}
           className="block text-center py-2.5 text-sm font-medium text-[var(--brand-primary)] hover:bg-[var(--bg-tertiary)] transition-colors border-t border-[var(--border-secondary)]"
           style={{ minHeight: '44px' }} // Touch target
         >

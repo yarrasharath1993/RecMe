@@ -33,6 +33,7 @@ export interface RecommendMePreferences {
   genres?: string[];
   moods?: MoodPreference[];
   era?: EraPreference | EraPreference[]; // Can be single or multiple
+  specialCategories?: string[]; // Special watch categories: stress-buster, popcorn, group-watch, watch-with-special-one
   familyFriendly?: boolean;
   blockbustersOnly?: boolean;
   hiddenGems?: boolean;

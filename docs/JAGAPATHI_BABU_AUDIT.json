@@ -1,0 +1,114 @@
+{
+  "actorName": "Jagapathi Babu",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 120,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "8abc714b-8c75-4e07-8aaa-caa1c16b8121",
+        "title": "Best Actor – Telugu",
+        "year": 1993
+      },
+      "movie2": {
+        "id": "3cd34587-704c-4944-82da-dd7e0f7dfd9e",
+        "title": "Best Actor",
+        "year": 1993
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "d988929a-81ca-4a61-bfe3-8d7c13ea1291",
+        "title": "Ayanaku Iddaru",
+        "year": 1995
+      },
+      "movie2": {
+        "id": "a11f8bfe-78fc-45f4-ac5a-d31151fd5e7c",
+        "title": "Aayanaki Iddaru",
+        "year": 1995
+      },
+      "similarity": 0.8571428571428572
+    },
+    {
+      "movie1": {
+        "id": "e5112155-3bd8-42ad-8c40-016cb2ebd771",
+        "title": "Priyaragalu",
+        "year": 1997
+      },
+      "movie2": {
+        "id": "98825cfd-d5ad-41cf-a832-bf548e8e5020",
+        "title": "Priyaraagalu",
+        "year": 1997
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "5a995abe-41b4-494d-8275-a888496cd3cf",
+        "title": "Maavidakulu",
+        "year": 1998
+      },
+      "movie2": {
+        "id": "6ab5178d-f94d-4b6e-b24f-5df11eb2f434",
+        "title": "Maavidaakulu",
+        "year": 1998
+      },
+      "similarity": 0.9166666666666666
+    },
+    {
+      "movie1": {
+        "id": "129afc74-178a-4af6-a861-7d595f7d1865",
+        "title": "Best Actor in a Negative Role (Malayalam)",
+        "year": 2016
+      },
+      "movie2": {
+        "id": "c3f31503-f06b-4352-85c1-82a6cd545913",
+        "title": "Best Actor in a Negative Role",
+        "year": 2017
+      },
+      "similarity": 0.9
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1989": 2,
+    "1991": 1,
+    "1992": 4,
+    "1993": 6,
+    "1994": 1,
+    "1995": 5,
+    "1996": 4,
+    "1997": 6,
+    "1998": 14,
+    "1999": 9,
+    "2000": 4,
+    "2001": 5,
+    "2002": 5,
+    "2003": 1,
+    "2004": 3,
+    "2005": 4,
+    "2006": 4,
+    "2007": 1,
+    "2008": 4,
+    "2009": 4,
+    "2010": 3,
+    "2011": 5,
+    "2012": 1,
+    "2013": 1,
+    "2014": 3,
+    "2016": 4,
+    "2017": 2,
+    "2019": 1,
+    "2020": 1,
+    "2021": 6,
+    "2022": 1,
+    "2023": 1,
+    "2024": 2,
+    "2025": 1,
+    "2026": 1
+  },
+  "summary": "5 potential duplicates"
+}

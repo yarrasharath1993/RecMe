@@ -1,0 +1,338 @@
+
+═══════════════════════════════════════════════════════════════
+  DEDUPLICATE CAST MEMBERS
+═══════════════════════════════════════════════════════════════
+
+🔍 Fetching movies with cast_members...
+✓ Found 1000 movies with cast_members
+
+🧹 Processing deduplication...
+
+  ✓ Brahma Nayudu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Auto Driver
+    72 → 27 (removed 45 duplicates)
+    Duplicates: Lakshmi, Latha, Rajashree...
+  ✓ Bhale Khaideelu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Chilakkottudu
+    4 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Ponton's Heart
+    29 → 23 (removed 6 duplicates)
+    Duplicates: Aditi Rao Hydari, Anurag Basu, 254e75a3...
+  ✓ Vangaveeti
+    86 → 37 (removed 49 duplicates)
+    Duplicates: K, Meena, Rajashree...
+  ✓ Duvvada Jagannadham
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Entertainment
+    85 → 31 (removed 54 duplicates)
+    Duplicates: Geetha, Lakshmi, Meena...
+  ✓ Mathu Vadalara
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Sri Venkateswara Mahatyam
+    10 → 5 (removed 5 duplicates)
+    Duplicates: Janaki, Allu, G Varalakshmi
+  ✓ Doragariki Donga Pellam
+    61 → 32 (removed 29 duplicates)
+    Duplicates: Anusha, Geetha, Lakshmi...
+  ✓ Eedu Gold Ehe
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Naresh
+  ✓ The Desire
+    66 → 31 (removed 35 duplicates)
+    Duplicates: 76bfd159, Anjali, Meena...
+  ✓ Nijam Nirupista
+    39 → 17 (removed 22 duplicates)
+    Duplicates: K S R Das, Latha, Janaki...
+  ✓ Upendra Gadi Adda
+    74 → 34 (removed 40 duplicates)
+    Duplicates: Aditi Rao Hydari, Cced3713, Geetha...
+  ✓ Pachhani Samsaram
+    28 → 18 (removed 10 duplicates)
+    Duplicates: K S R Das, Chandra Mohan, Lakshmi...
+  ✓ Devadas
+    73 → 25 (removed 48 duplicates)
+    Duplicates: Geetha, Latha, Meena...
+  ✓ My Little Baby, Jaya
+    54 → 20 (removed 34 duplicates)
+    Duplicates: Annu Kapoor, Geetha, Poornima...
+  ✓ Seetharatnam Gari Abbayi
+    4 → 3 (removed 1 duplicates)
+    Duplicates: Roja
+  ✓ Puli Bebbuli
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Game Changer
+    13 → 12 (removed 1 duplicates)
+    Duplicates: Naresh
+  ✓ Rangasthalam
+    78 → 32 (removed 46 duplicates)
+    Duplicates: Cced3713, Kavitha, Latha...
+  ✓ Premaku Velayara
+    80 → 32 (removed 48 duplicates)
+    Duplicates: Anusha, K S R Das, Latha...
+  ✓ Eedu Jodu
+    6 → 4 (removed 2 duplicates)
+    Duplicates: Ramakrishna, Kanchana
+  ✓ Nimajjanam
+    65 → 20 (removed 45 duplicates)
+    Duplicates: K, K S R Das, Lakshmi...
+  ✓ Modhi Vilayadu
+    59 → 29 (removed 30 duplicates)
+    Duplicates: Geetha, Lakshmi, Latha...
+  ✓ Vedhalam
+    60 → 27 (removed 33 duplicates)
+    Duplicates: 76bfd159, Roja, Sneha...
+  ✓ Maa Annayya
+    87 → 29 (removed 58 duplicates)
+    Duplicates: Anusha, Latha, Rajashree...
+  ✓ Amara Sandhesam
+    7 → 2 (removed 5 duplicates)
+    Duplicates: Janaki, G Varalakshmi
+  ✓ Kurumbu
+    63 → 28 (removed 35 duplicates)
+    Duplicates: Annu Kapoor, Geetha, Rambha...
+  ✓ Aapadbandhavudu
+    8 → 7 (removed 1 duplicates)
+    Duplicates: K
+  ✓ Gandaragandudu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Sisindri Chittibabu
+    32 → 9 (removed 23 duplicates)
+    Duplicates: K S R Das, Lakshmi, Janaki...
+  ✓ Annadammulu
+    21 → 10 (removed 11 duplicates)
+    Duplicates: Lakshmi, Chandra Mohan, Janaki...
+
+📊 Progress: 100/1000 (10%)
+   Movies cleaned: 34, Duplicates removed: 724
+
+  ✓ Putham Pudhu Kaalai
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Suhasini
+  ✓ Chandamama
+    3 → 2 (removed 1 duplicates)
+    Duplicates: Saritha
+  ✓ Chilaka Gorinka
+    7 → 4 (removed 3 duplicates)
+    Duplicates: Janaki, Raja Babu, Kanchana
+  ✓ Agent Gopi
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Moondru Mudichu
+    39 → 13 (removed 26 duplicates)
+    Duplicates: K S R Das, Lakshmi, Latha...
+  ✓ Maa Iddari Katha
+    59 → 14 (removed 45 duplicates)
+    Duplicates: K S R Das, Lakshmi, Latha...
+  ✓ Billa Ranga
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+
+📊 Progress: 200/1000 (20%)
+   Movies cleaned: 41, Duplicates removed: 802
+
+  ✓ April 1st Vidudhala
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Vamsy
+  ✓ ChaalBaaz
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Annu Kapoor
+  ✓ Pratigna
+    7 → 4 (removed 3 duplicates)
+    Duplicates: Janaki, G Varalakshmi
+  ✓ Bangaru Koduku
+    5 → 4 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Pandava Vanavasam
+    3 → 2 (removed 1 duplicates)
+    Duplicates: Satyanarayana
+  ✓ Super
+    3 → 2 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Amma Donga!
+    98 → 30 (removed 68 duplicates)
+    Duplicates: Anusha, Geetha, Lakshmi...
+  ✓ Bavagaru Bagunnara
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Janaki
+  ✓ Pelli Naati Pramanalu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Allu
+
+📊 Progress: 300/1000 (30%)
+   Movies cleaned: 50, Duplicates removed: 880
+
+  ✓ Ninne Pelladata
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Lakshmi
+  ✓ Lakshmi
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Meena
+  ✓ Thenmavin Kombath
+    7 → 6 (removed 1 duplicates)
+    Duplicates: Kvas
+
+📊 Progress: 400/1000 (40%)
+   Movies cleaned: 53, Duplicates removed: 883
+
+  ✓ Anegan
+    7 → 6 (removed 1 duplicates)
+    Duplicates: Kvas
+  ✓ Cherapakura Chedevu
+    5 → 2 (removed 3 duplicates)
+    Duplicates: G Varalakshmi
+  ✓ Annadammula Savaal
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Vasool Raja MBBS
+    7 → 6 (removed 1 duplicates)
+    Duplicates: Lakshmi
+  ✓ Kothala Raayudu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Allu
+  ✓ Kana Kandaen
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Kvas
+  ✓ Moodu Mukkallo Cheppalante
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Lakshmi
+
+📊 Progress: 500/1000 (50%)
+   Movies cleaned: 60, Duplicates removed: 892
+
+  ✓ Savasagallu
+    5 → 4 (removed 1 duplicates)
+    Duplicates: Allu
+  ✓ Bhale Dongalu
+    5 → 4 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Charminar
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+
+📊 Progress: 600/1000 (60%)
+   Movies cleaned: 63, Duplicates removed: 895
+
+  ✓ Thillalangadi
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Suhasini
+  ✓ Jeevana Tarangalu
+    37 → 12 (removed 25 duplicates)
+    Duplicates: Latha, Sujatha, Allu...
+  ✓ Swargam Narakam
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Sigappu Rojakkal
+    64 → 15 (removed 49 duplicates)
+    Duplicates: K S R Das, Lakshmi, Latha...
+  ✓ Deiva Thirumanangal
+    4 → 2 (removed 2 duplicates)
+    Duplicates: Latha, Suhasini
+  ✓ Srimadvirat Veerabrahmendra Swami Charitra
+    9 → 8 (removed 1 duplicates)
+    Duplicates: Kanchana
+  ✓ Parugu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Bhaskar
+  ✓ Shri Krishnarjuna Vijayam
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Naresh
+  ✓ Chandrahas
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Sujatha
+
+📊 Progress: 700/1000 (70%)
+   Movies cleaned: 72, Duplicates removed: 977
+
+  ✓ Siripuram Monagadu
+    2 → 1 (removed 1 duplicates)
+    Duplicates: K S R Das
+  ✓ Indra
+    17 → 16 (removed 1 duplicates)
+    Duplicates: Allu
+  ✓ Mayabazar
+    21 → 18 (removed 3 duplicates)
+    Duplicates: Allu, Janaki, G Varalakshmi
+  ✓ James Bond 777
+    7 → 6 (removed 1 duplicates)
+    Duplicates: K S R Das
+
+📊 Progress: 800/1000 (80%)
+   Movies cleaned: 76, Duplicates removed: 983
+
+  ✓ Oka V Chitram
+    17 → 16 (removed 1 duplicates)
+    Duplicates: Teja
+  ✓ Adutha Varisu
+    83 → 23 (removed 60 duplicates)
+    Duplicates: Geetha, Jeeva, K S R Das...
+  ✓ Ooyala
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Suhasini
+  ✓ 786 Khaidi Premakatha
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Jeeva
+  ✓ Pareshan
+    7 → 6 (removed 1 duplicates)
+    Duplicates: Pavani Karanam
+
+📊 Progress: 900/1000 (90%)
+   Movies cleaned: 81, Duplicates removed: 1047
+
+  ✓ Patala Bhairavi
+    3 → 2 (removed 1 duplicates)
+    Duplicates: Janaki
+  ✓ Bengal Tiger
+    2 → 1 (removed 1 duplicates)
+    Duplicates: Aksha Pardasany
+
+📊 Progress: 1000/1000 (100%)
+   Movies cleaned: 83, Duplicates removed: 1049
+
+
+═══════════════════════════════════════════════════════════════
+  ✓ DEDUPLICATION COMPLETE
+═══════════════════════════════════════════════════════════════
+
+Summary:
+  • Total movies processed: 1000
+  • Movies with duplicates: 83
+  • Movies already clean: 917
+  • Total duplicates removed: 1049
+  • Avg duplicates per affected movie: 12.6
+
+📄 Detailed report saved: /Users/sharathchandra/Projects/telugu-portal/DEDUPLICATION-REPORT.csv
+
+
+🔝 Top 10 movies with most duplicates removed:
+  1. Amma Donga! - 68 duplicates removed
+     (98 → 30 cast members)
+  2. Adutha Varisu - 60 duplicates removed
+     (83 → 23 cast members)
+  3. Maa Annayya - 58 duplicates removed
+     (87 → 29 cast members)
+  4. Entertainment - 54 duplicates removed
+     (85 → 31 cast members)
+  5. Vangaveeti - 49 duplicates removed
+     (86 → 37 cast members)
+  6. Sigappu Rojakkal - 49 duplicates removed
+     (64 → 15 cast members)
+  7. Devadas - 48 duplicates removed
+     (73 → 25 cast members)
+  8. Premaku Velayara - 48 duplicates removed
+     (80 → 32 cast members)
+  9. Rangasthalam - 46 duplicates removed
+     (78 → 32 cast members)
+  10. Auto Driver - 45 duplicates removed
+     (72 → 27 cast members)
+
+✨ All cast members deduplicated successfully!
+

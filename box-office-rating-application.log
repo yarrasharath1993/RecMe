@@ -1,0 +1,1302 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           APPLY BOX OFFICE RATINGS                                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Processing 500 movies...
+
+● AA22xA6 (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Mysaa (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Janakiram (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Anaganaga Oka Rowdy (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Sahaa (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Reppa (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● As Time Echoes (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Umapathi (null)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5.3 → 6.3
+  ✓ Updated successfully
+
+● Oh..! Sukumari (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Takshakudu (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Comrade Kalyan (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Illicit Relationship (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Euphoria (null)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5 → 6.3
+  ✓ Updated successfully
+
+● Band Melam (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 6.6 → 6
+  ✓ Updated successfully
+
+● Nakshatra Poratam (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Asuragana Rudra (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Garividi Lakshmi (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● DQ 41 (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● HaiLesso (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Arrtham (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● ENE Repeat (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Kirathaka (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Biker (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Vrushakarma (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Kalki 2898-AD: Part 2 (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Abhiram (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Haindava (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Amaran in the City: Chapter 1 (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Peddarikam (null)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5 → 6.3
+  ✓ Updated successfully
+
+● Maa Inti Bangaram (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Anumana Pakshi (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Legacy (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Hey Bhagawan! (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Maate Mantramu (null)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5 → 6.3
+  ✓ Updated successfully
+
+● What The Fish (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Nagabandham (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● They Call Him OG 2 (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Sambarala Yetti Gattu (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bad Boy Karthik (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Mirai Jaithraya (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Paramanandham Shishyulu (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Naa Katha (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Natudu (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Patta Pagalu (null)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Honey (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Goodachari 2 (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Itllu Arjuna (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bhartha Mahasayulaku Wignyapthi (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Nilakanta (2026)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5 → 6.3
+  ✓ Updated successfully
+
+● Dark Chocolate (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Alcohol (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Anaganaga Oka Raju (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Lenin (2026)
+  Category: Hit | Base: 6.0 + Box Office (hit): +0.3 = 6.3
+  Update: 5 → 6.3
+  ✓ Updated successfully
+
+● Seetha Payanam (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Om Shanti Shanti Shantihi (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Aakasam Lo Oka Tara (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dragon (2026)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Rekhachithram (2025)
+  Category: Average | Base: 6.8 + Box Office (average): +0.0 = 6.9
+  Update: 5.5 → 6.9
+  ✓ Updated successfully
+
+● Kantara - A Legend: Chapter 1 (2025)
+  Category: Hit | Base: 7.0 + Box Office (hit): +0.3 = 7.3
+  Update: 5.5 → 7.3
+  ✓ Updated successfully
+
+● LYF - Love Your Father (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Alappuzha Gymkhana (2025)
+  Category: Average | Base: 6.4 + Box Office (average): +0.0 = 6.4
+  Update: 6 → 6.4
+  ✓ Updated successfully
+
+● Sitaare Zameen Par (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 6 → 7.4
+  ✓ Updated successfully
+
+● Gandhi Tatha Chettu (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Daksha: The Deadly Conspiracy (2025)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Shivangi (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● They Call Him OG (2025)
+  Category: Average | Base: 5.8 + Box Office (average): +0.0 = 5.8
+  Update: 5 → 5.8
+  ✓ Updated successfully
+
+● Oh Bhama Ayyo Rama (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● 1000 Waala (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● The 100 (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Arjun Chakravarthy (2025)
+  Category: Average | Base: 8.0 + Box Office (average): +0.0 = 8.0
+  Update: 6.2 → 8
+  ✓ Updated successfully
+
+● Ari: My Name is Nobody (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Raju Weds Rambai (2025)
+  Category: Average | Base: 4.4 + Box Office (average): +0.0 = 4.4
+  Update: 5 → 4.4
+  ✓ Updated successfully
+
+● Bhairavam (2025)
+  Category: Hit | Base: 3.0 + Box Office (hit): +0.3 = 3.3
+  Update: 4.2 → 3.3
+  ✓ Updated successfully
+
+● Oka Pathakam Prakaaram (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Enuguthondam Ghatikachalam (2025)
+  Category: Average | Base: 5.8 + Box Office (average): +0.0 = 5.8
+  Update: 5 → 5.8
+  ✓ Updated successfully
+
+● Ghaati (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Guard: Revenge for Love (2025)
+  Category: Average | Base: 7.9 + Box Office (average): +0.0 = 7.9
+  Update: 6.2 → 7.9
+  ✓ Updated successfully
+
+● Neeli Megha Shyama (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dear Uma (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Pink Floyd: Live at Pompeii (2025)
+  Category: Super Hit | Base: 8.0 + Box Office (super-hit): +0.5 = 8.5
+  Update: 5.5 → 8.5
+  ✓ Updated successfully
+
+● The King of Kings (2025)
+  Category: Super Hit | Base: 8.5 + Box Office (super-hit): +0.5 = 9.0
+  Update: 7 → 9
+  ✓ Updated successfully
+
+● Oka Brundavanam (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Pelli Kaani Prasad (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Hridayapoorvam (2025)
+  Category: Hit | Base: 7.5 + Box Office (hit): +0.3 = 7.8
+  Update: 6 → 7.8
+  ✓ Updated successfully
+
+● The Conjuring: Last Rites (2025)
+  Category: Average | Base: 6.9 + Box Office (average): +0.0 = 6.9
+  Update: 6 → 6.9
+  ✓ Updated successfully
+
+● Chaurya Paatham (2025)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Baahubali: The Epic (2025)
+  Category: Average | Base: 8.5 + Box Office (average): +0.0 = 8.5
+  Update: 9 → 8.5
+  ✓ Updated successfully
+
+● Final Destination Bloodlines (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 5.5 → 7.4
+  ✓ Updated successfully
+
+● Padakkalam (2025)
+  Category: Hit | Base: 7.3 + Box Office (hit): +0.3 = 7.6
+  Update: 6 → 7.6
+  ✓ Updated successfully
+
+● One Battle After Another (2025)
+  Category: Blockbuster | Base: 7.5 + Box Office (blockbuster): +0.7 = 8.2
+  Update: 7.5 → 8.2
+  ✓ Updated successfully
+
+● The Housemaid (2025)
+  Category: Hit | Base: 7.6 + Box Office (hit): +0.3 = 7.9
+  Update: 7.6 → 7.9
+  ✓ Updated successfully
+
+● Police Vari Heccharika (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Junior (2025)
+  Category: Average | Base: 4.2 + Box Office (average): +0.0 = 4.2
+  Update: 5 → 4.2
+  ✓ Updated successfully
+
+● Hunting Season (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 7.1 → 7.4
+  ✓ Updated successfully
+
+● Show Time (2025)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Meghalu Cheppina Prema Katha (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Goodbye June (2025)
+  Category: Average | Base: 6.7 + Box Office (average): +0.0 = 6.7
+  Update: 6.1 → 6.7
+  ✓ Updated successfully
+
+● Nuremberg (2025)
+  Category: Hit | Base: 7.3 + Box Office (hit): +0.3 = 7.6
+  Update: 6 → 7.6
+  ✓ Updated successfully
+
+● Please Don't Feed the Children (2025)
+  Category: Average | Base: 6.5 + Box Office (average): +0.0 = 6.5
+  Update: 6 → 6.5
+  ✓ Updated successfully
+
+● Tuk Tuk (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Ocean With David Attenborough (2025)
+  Category: Super Hit | Base: 8.2 + Box Office (super-hit): +0.5 = 8.7
+  Update: 6.9 → 8.7
+  ✓ Updated successfully
+
+● TRON: Ares (2025)
+  Category: Average | Base: 6.6 + Box Office (average): +0.0 = 6.6
+  Update: 6 → 6.6
+  ✓ Updated successfully
+
+● Santosh (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 7.1 → 7.4
+  ✓ Updated successfully
+
+● Tourist Family (2025)
+  Category: Blockbuster | Base: 8.0 + Box Office (blockbuster): +0.7 = 8.7
+  Update: 8 → 8.7
+  ✓ Updated successfully
+
+● Nobody 2 (2025)
+  Category: Hit | Base: 7.0 + Box Office (hit): +0.3 = 7.3
+  Update: 6 → 7.3
+  ✓ Updated successfully
+
+● Marty Supreme (2025)
+  Category: Blockbuster | Base: 7.9 + Box Office (blockbuster): +0.7 = 8.6
+  Update: 7 → 8.6
+  ✓ Updated successfully
+
+● Diés Iraé (2025)
+  Category: Average | Base: 6.6 + Box Office (average): +0.0 = 6.6
+  Update: 6 → 6.6
+  ✓ Updated successfully
+
+● Premistunnaa (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● How to Train Your Dragon (2025)
+  Category: Hit | Base: 8.0 + Box Office (hit): +0.3 = 8.3
+  Update: 8 → 8.3
+  ✓ Updated successfully
+
+● The Fantastic 4: First Steps (2025)
+  Category: Hit | Base: 7.0 + Box Office (hit): +0.3 = 7.3
+  Update: 6 → 7.3
+  ✓ Updated successfully
+
+● Eternity (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 7.1 → 7.4
+  ✓ Updated successfully
+
+● Ramam Raghavam (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● 23 (Iravai Moodu) (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Shashtipoorthi (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Eesha (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Patang (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Chiranjeeva (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Good Boy (2025)
+  Category: Average | Base: 6.7 + Box Office (average): +0.0 = 6.7
+  Update: 6 → 6.7
+  ✓ Updated successfully
+
+● Janata Bar (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dreamcatcher (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Solo Boy (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Blind Spot (2025)
+  Category: Average | Base: 4.5 + Box Office (average): +0.0 = 4.5
+  Update: 5 → 4.5
+  ✓ Updated successfully
+
+● Salaar: Part 2 - Shouryaanga Parvam (2025)
+  Category: Blockbuster | Base: 6.0 + Box Office (blockbuster): +0.7 = 6.7
+  Update: null → 6.7
+  ✓ Updated successfully
+
+● Suryapet Junction (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Ponman (2025)
+  Category: Blockbuster | Base: 7.7 + Box Office (blockbuster): +0.7 = 8.4
+  Update: 7.7 → 8.4
+  ✓ Updated successfully
+
+● Madharaasi (2025)
+  Category: Average | Base: 6.7 + Box Office (average): +0.0 = 6.7
+  Update: 6 → 6.7
+  ✓ Updated successfully
+
+● Kaantha (2025)
+  Category: Average | Base: 6.8 + Box Office (average): +0.0 = 6.8
+  Update: 6 → 6.8
+  ✓ Updated successfully
+
+● Dragon (2025)
+  Category: Blockbuster | Base: 7.7 + Box Office (blockbuster): +0.7 = 8.4
+  Update: 7 → 8.4
+  ✓ Updated successfully
+
+● Sasivadane (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● K-Ramp (2025)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Chaurya Paatam (2025)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Jatadhara (2025)
+  Category: Average | Base: 4.5 + Box Office (average): +0.0 = 4.5
+  Update: 5 → 4.5
+  ✓ Updated successfully
+
+● Super Raja (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bhavani Ward 1997 (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Thank You Dear (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Saiyaara (2025)
+  Category: Average | Base: 6.4 + Box Office (average): +0.0 = 6.4
+  Update: 5.5 → 6.4
+  ✓ Updated successfully
+
+● KPop Demon Hunters (2025)
+  Category: Super Hit | Base: 8.2 + Box Office (super-hit): +0.5 = 8.7
+  Update: 8.2 → 8.7
+  ✓ Updated successfully
+
+● Thunderbolts* (2025)
+  Category: Hit | Base: 7.3 + Box Office (hit): +0.3 = 7.6
+  Update: 6 → 7.6
+  ✓ Updated successfully
+
+● Frankenstein (2025)
+  Category: Blockbuster | Base: 7.7 + Box Office (blockbuster): +0.7 = 8.4
+  Update: 7.7 → 8.4
+  ✓ Updated successfully
+
+● High Rollers (2025)
+  Category: Average | Base: 6.5 + Box Office (average): +0.0 = 6.6
+  Update: 6 → 6.6
+  ✓ Updated successfully
+
+● Wicked: For Good (2025)
+  Category: Average | Base: 6.7 + Box Office (average): +0.0 = 6.7
+  Update: 6 → 6.7
+  ✓ Updated successfully
+
+● She Rides Shotgun (2025)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 7.1 → 7.4
+  ✓ Updated successfully
+
+● The Long Walk (2025)
+  Category: Average | Base: 6.9 + Box Office (average): +0.0 = 6.9
+  Update: 6 → 6.9
+  ✓ Updated successfully
+
+● The Naked Gun (2025)
+  Category: Average | Base: 6.4 + Box Office (average): +0.0 = 6.4
+  Update: 6 → 6.4
+  ✓ Updated successfully
+
+● Sinners (2025)
+  Category: Blockbuster | Base: 7.5 + Box Office (blockbuster): +0.7 = 8.2
+  Update: 7 → 8.2
+  ✓ Updated successfully
+
+● Ilanti Cinema Meereppudu Chusundaru (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Boss (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Ramam Raghavam (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dilruba (2025)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Oka Manchi Prema Katha (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Rite Here Rite Now (2024)
+  Category: Industry Hit | Base: 8.5 + Box Office (industry-hit): +1.0 = 9.5
+  Update: 8.5 → 9.5
+  ✓ Updated successfully
+
+● Sarangadhariya (2024)
+  Category: Average | Base: 5.9 + Box Office (average): +0.0 = 5.9
+  Update: 6.5 → 5.9
+  ✓ Updated successfully
+
+● Jilebi (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bhimaa (2024)
+  Category: Average | Base: 2.7 + Box Office (average): +0.0 = 2.7
+  Update: 4.1 → 2.7
+  ✓ Updated successfully
+
+● Kotha Rangula Prapancham (2024)
+  Category: Average | Base: 5.7 + Box Office (average): +0.0 = 5.7
+  Update: 5 → 5.7
+  ✓ Updated successfully
+
+● Honeymoon Express (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Agent Narasimha‐117 (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● S.I.T Special Investigation Team (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.3 → 6
+  ✓ Updated successfully
+
+● Anweshippin Kandethum (2024)
+  Category: Average | Base: 6.7 + Box Office (average): +0.0 = 6.7
+  Update: 6 → 6.7
+  ✓ Updated successfully
+
+● Purushothamudu (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Double iSmart (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Indrani - Epic1: Dharam vs Karam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dheera (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Music Shop Murthy (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Dhoom Dhaam (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Ramnagar Bunny (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Razakar: The Silent Genocide of Hyderabad (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Viraaji (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Akkada Varu Ikkada Unnaru (2024)
+  Category: Average | Base: 5.9 + Box Office (average): +0.0 = 5.9
+  Update: 5.5 → 5.9
+  ✓ Updated successfully
+
+● Simbaa (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Tiragabadara Saami (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Nindha (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Eesaraina!? (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Vidya Vasula Aham (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Alanaati Ramchandrudu (2024)
+  Category: Average | Base: 5.9 + Box Office (average): +0.0 = 5.9
+  Update: 5.5 → 5.9
+  ✓ Updated successfully
+
+● Krishnamma (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Lucky Baskhar (2024)
+  Category: Hit | Base: 7.6 + Box Office (hit): +0.3 = 7.9
+  Update: 7.6 → 7.9
+  ✓ Updated successfully
+
+● Sandeham (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Pailam Pilaga (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bhairathi Ranagal (2024)
+  Category: Super Hit | Base: 8.3 + Box Office (super-hit): +0.5 = 8.8
+  Update: 8.3 → 8.8
+  ✓ Updated successfully
+
+● OMG: O Manchi Ghost (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Transformers One (2024)
+  Category: Super Hit | Base: 8.0 + Box Office (super-hit): +0.5 = 8.5
+  Update: 8 → 8.5
+  ✓ Updated successfully
+
+● Memoir of a Snail (2024)
+  Category: Super Hit | Base: 8.1 + Box Office (super-hit): +0.5 = 8.6
+  Update: 8.1 → 8.6
+  ✓ Updated successfully
+
+● The Wild Robot (2024)
+  Category: Super Hit | Base: 8.3 + Box Office (super-hit): +0.5 = 8.8
+  Update: 8.3 → 8.8
+  ✓ Updated successfully
+
+● Succubus (2024)
+  Category: Super Hit | Base: 8.5 + Box Office (super-hit): +0.5 = 9.0
+  Update: 8.5 → 9
+  ✓ Updated successfully
+
+● Soul (2024)
+  Category: Super Hit | Base: 8.1 + Box Office (super-hit): +0.5 = 8.6
+  Update: 8.1 → 8.6
+  ✓ Updated successfully
+
+● The Way to the Heart (2024)
+  Category: Super Hit | Base: 8.5 + Box Office (super-hit): +0.5 = 9.0
+  Update: 8.5 → 9
+  ✓ Updated successfully
+
+● Music by John Williams (2024)
+  Category: Super Hit | Base: 8.1 + Box Office (super-hit): +0.5 = 8.6
+  Update: 8.1 → 8.6
+  ✓ Updated successfully
+
+● Captain Miller (2024)
+  Category: Average | Base: 6.8 + Box Office (average): +0.0 = 6.8
+  Update: 6 → 6.8
+  ✓ Updated successfully
+
+● Market Mahalakshmi (2024)
+  Category: Average | Base: 5.6 + Box Office (average): +0.0 = 5.6
+  Update: 6.2 → 5.6
+  ✓ Updated successfully
+
+● Usha Parinayam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Aattam (2024)
+  Category: Super Hit | Base: 8.0 + Box Office (super-hit): +0.5 = 8.5
+  Update: 8 → 8.5
+  ✓ Updated successfully
+
+● Dune: Part Two (2024)
+  Category: Super Hit | Base: 8.1 + Box Office (super-hit): +0.5 = 8.6
+  Update: 8.1 → 8.6
+  ✓ Updated successfully
+
+● Kill (2024)
+  Category: Hit | Base: 7.1 + Box Office (hit): +0.3 = 7.4
+  Update: 7.1 → 7.4
+  ✓ Updated successfully
+
+● The Forge (2024)
+  Category: Super Hit | Base: 8.3 + Box Office (super-hit): +0.5 = 8.8
+  Update: 8.3 → 8.8
+  ✓ Updated successfully
+
+● Geethanjali Malli Vachindi (2024)
+  Category: Super Hit | Base: 6.5 + Box Office (super-hit): +0.5 = 7.0
+  Update: 6.5 → 7
+  ✓ Updated successfully
+
+● Sundaram Master (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Sector 36 (2024)
+  Category: Hit | Base: 7.0 + Box Office (hit): +0.3 = 7.4
+  Update: 6 → 7.4
+  ✓ Updated successfully
+
+● Avatara Purusha 2 (2024)
+  Category: Below Average | Base: 3.6 + Box Office (below-average): -0.2 = 3.4
+  Update: 5.1 → 3.4
+  ✓ Updated successfully
+
+● Ultraman: Rising (2024)
+  Category: Super Hit | Base: 8.2 + Box Office (super-hit): +0.5 = 8.7
+  Update: 8.2 → 8.7
+  ✓ Updated successfully
+
+● Ui (2024)
+  Category: Average | Base: 5.1 + Box Office (average): +0.0 = 5.1
+  Update: 6 → 5.1
+  ✓ Updated successfully
+
+● Love Me If You Dare (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Crime Reel (2024)
+  Category: Average | Base: 6.1 + Box Office (average): +0.0 = 6.1
+  Update: 5 → 6.1
+  ✓ Updated successfully
+
+● Happy Ending (2024)
+  Category: Industry Hit | Base: 7.5 + Box Office (industry-hit): +1.0 = 8.5
+  Update: 7.5 → 8.5
+  ✓ Updated successfully
+
+● Tantra (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Siddharth Roy (2024)
+  Category: Average | Base: 3.5 + Box Office (average): +0.0 = 3.5
+  Update: 5 → 3.5
+  ✓ Updated successfully
+
+● Sookshmadarshini (2024)
+  Category: Hit | Base: 7.3 + Box Office (hit): +0.3 = 7.7
+  Update: 6 → 7.7
+  ✓ Updated successfully
+
+● Marco (2024)
+  Category: Average | Base: 6.6 + Box Office (average): +0.0 = 6.6
+  Update: 6 → 6.6
+  ✓ Updated successfully
+
+● Amaran (2024)
+  Category: Hit | Base: 7.4 + Box Office (hit): +0.3 = 7.7
+  Update: 6 → 7.7
+  ✓ Updated successfully
+
+● Sabari (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Deadpool & Wolverine (2024)
+  Category: Hit | Base: 7.6 + Box Office (hit): +0.3 = 7.9
+  Update: 6 → 7.9
+  ✓ Updated successfully
+
+● Manamey (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Thalakona (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Average Student Nani (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Rakshana (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Mix Up (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bootcut Balaraju (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bharathanatyam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Viswam (2024)
+  Category: Average | Base: 3.0 + Box Office (average): +0.0 = 3.0
+  Update: 4.2 → 3
+  ✓ Updated successfully
+
+● Mukhya Gamanika (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● A Goa Tripp... (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Inti Number - 13 (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● I Hate You (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Pottel (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● 35 - Chinna Katha Kaadu (2024)
+  Category: Super Hit | Base: 8.4 + Box Office (super-hit): +0.5 = 8.9
+  Update: 8.4 → 8.9
+  ✓ Updated successfully
+
+● Martin (2024)
+  Category: Below Average | Base: 4.0 + Box Office (below-average): -0.2 = 3.8
+  Update: 5.2 → 3.8
+  ✓ Updated successfully
+
+● Bagheera (2024)
+  Category: Average | Base: 5.3 + Box Office (average): +0.0 = 5.3
+  Update: 6.3 → 5.3
+  ✓ Updated successfully
+
+● Gorre Puranam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 6.4 → 6
+  ✓ Updated successfully
+
+● Make a Wish (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Kangaroo (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Drill (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Utsavam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Brahmavaram PS Paridilo (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Indian 2: Zero Tolerance (2024)
+  Category: Below Average | Base: 3.3 + Box Office (below-average): -0.2 = 3.1
+  Update: 4.9 → 3.1
+  ✓ Updated successfully
+
+● Prathinidhi 2 (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Narudi Brathuku Natana (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Kismat (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bachhala Malli (2024)
+  Category: Average | Base: 4.5 + Box Office (average): +0.0 = 4.5
+  Update: 5 → 4.5
+  ✓ Updated successfully
+
+● Mr Bachchan (2024)
+  Category: Average | Base: 2.8 + Box Office (average): +0.0 = 2.8
+  Update: 4.1 → 2.8
+  ✓ Updated successfully
+
+● Kalinga (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Theppa Samudram (2024)
+  Category: Average | Base: 4.0 + Box Office (average): +0.0 = 4.0
+  Update: 5 → 4
+  ✓ Updated successfully
+
+● Leela Vinodam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Bramayugam (2024)
+  Category: Blockbuster | Base: 7.5 + Box Office (blockbuster): +0.7 = 8.2
+  Update: 7.5 → 8.2
+  ✓ Updated successfully
+
+● Super/Man: The Christopher Reeve Story (2024)
+  Category: Super Hit | Base: 8.1 + Box Office (super-hit): +0.5 = 8.6
+  Update: 8.1 → 8.6
+  ✓ Updated successfully
+
+● Buddy (2024)
+  Category: Average | Base: 3.5 + Box Office (average): +0.0 = 3.5
+  Update: 5 → 3.5
+  ✓ Updated successfully
+
+● Brahmmavaram P.S. Paridhilo (2024)
+  Category: Average | Base: 5.9 + Box Office (average): +0.0 = 5.9
+  Update: 5.5 → 5.9
+  ✓ Updated successfully
+
+● Leela Vinodham (2024)
+  Category: Average | Base: 5.8 + Box Office (average): +0.0 = 5.8
+  Update: 5 → 5.8
+  ✓ Updated successfully
+
+● Prasanna Vadanam (2024)
+  Category: Industry Hit | Base: 8.2 + Box Office (industry-hit): +1.0 = 9.2
+  Update: 8.4 → 9.2
+  ✓ Updated successfully
+
+● Parijatha Parvam (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● We Love Bad Boys (2024)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Hunt (2023)
+  Category: Average | Base: 3.8 + Box Office (average): +0.0 = 3.8
+  Update: 5 → 3.8
+  ✓ Updated successfully
+
+● Spark (2023)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Spider-Man: Across the Spider-Verse (2023)
+  Category: Super Hit | Base: 8.3 + Box Office (super-hit): +0.5 = 8.8
+  Update: 8.3 → 8.8
+  ✓ Updated successfully
+
+● Sagiletikatha (2023)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 6.5 → 6
+  ✓ Updated successfully
+
+● O Saathiya (2023)
+  Category: Super Hit | Base: 8.0 + Box Office (super-hit): +0.5 = 8.5
+  Update: 8 → 8.5
+  ✓ Updated successfully
+
+● Madhurapudi Granam Ane Nenu (2023)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5.5 → 6
+  ✓ Updated successfully
+
+● Salam Sainika (2023)
+  Category: Average | Base: 6.0 + Box Office (average): +0.0 = 6.0
+  Update: 5 → 6
+  ✓ Updated successfully
+
+● Maama Mascheendra (2023)
+  Category: Average | Base: 2.5 + Box Office (average): +0.0 = 2.5
+  Update: 4 → 2.5
+  ✓ Updated successfully
+
+
+═══ SUMMARY ═══
+Updated: 258
+Skipped: 242
+Total: 500

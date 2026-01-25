@@ -1,0 +1,174 @@
+{
+  "actorName": "Sridevi",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 105,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "3f43d925-b849-4651-ab42-4205cc9d0209",
+        "title": "Poompatta",
+        "year": 1971
+      },
+      "movie2": {
+        "id": "213cb1fa-d010-4824-b51d-2fc1dcd0d1c0",
+        "title": "Poombatta",
+        "year": 1971
+      },
+      "similarity": 0.8888888888888888
+    },
+    {
+      "movie1": {
+        "id": "8f5c74df-7b59-4f31-907a-52ef6c82e2e6",
+        "title": "Meendum Kokila",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "da08cf29-1b36-4a57-9201-fe83c778b193",
+        "title": "Meendum Kokila",
+        "year": 1982
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "addab8f9-27a0-4dba-9519-71d0ff00bfa7",
+        "title": "Moondram Pirai",
+        "year": 1981
+      },
+      "movie2": {
+        "id": "4d17874d-a23e-41b3-85bd-7f265f0a5344",
+        "title": "Moondram Pirai",
+        "year": 1982
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "4d17874d-a23e-41b3-85bd-7f265f0a5344",
+        "title": "Moondram Pirai",
+        "year": 1982
+      },
+      "movie2": {
+        "id": "c150588c-1ee3-49e9-849a-a08ca59a96fe",
+        "title": "Moondram Pirai",
+        "year": 1983
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "80bd2e7f-10b5-4f95-8cd6-0679790883f1",
+        "title": "Sadma",
+        "year": 1983
+      },
+      "movie2": {
+        "id": "5295522c-545c-4ef4-ade4-2c125ac62d22",
+        "title": "Sadma",
+        "year": 1984
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "23616eaa-6b34-4306-8af4-73a942ad86cc",
+        "title": "Chaalbaaz",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "03b317cc-8b87-45b0-92e5-ad1de7eb7c92",
+        "title": "ChaalBaaz",
+        "year": 1990
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "5a41344e-aa25-43aa-b84d-73bd8ebf817e",
+        "title": "Lamhe",
+        "year": 1991
+      },
+      "movie2": {
+        "id": "20b7437f-a5c0-4cc8-90f9-163c0628d6fa",
+        "title": "Lamhe",
+        "year": 1992
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "ec4dc19f-6743-47c2-ab4c-1110ee1708c6",
+        "title": "Gumrah",
+        "year": 1993
+      },
+      "movie2": {
+        "id": "5ac15346-c1f1-4804-8223-04f599383fbc",
+        "title": "Gumrah",
+        "year": 1994
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "d2e2b391-a767-4b16-8d7f-9e5dadbf23e8",
+        "title": "Laadla",
+        "year": 1994
+      },
+      "movie2": {
+        "id": "cac5fec7-32c9-4acd-aeec-e7983b3e61a4",
+        "title": "Laadla",
+        "year": 1995
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "8fd771c5-dcd1-4392-a863-adeaa1d92880",
+        "title": "Judaai",
+        "year": 1997
+      },
+      "movie2": {
+        "id": "d7141cb1-5b05-4edd-b84c-0c49afe34aba",
+        "title": "Judaai",
+        "year": 1998
+      },
+      "similarity": 1
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1969": 2,
+    "1970": 1,
+    "1971": 2,
+    "1976": 2,
+    "1977": 10,
+    "1978": 5,
+    "1979": 9,
+    "1980": 2,
+    "1981": 4,
+    "1982": 5,
+    "1983": 7,
+    "1984": 6,
+    "1985": 3,
+    "1986": 8,
+    "1987": 5,
+    "1988": 3,
+    "1989": 5,
+    "1990": 2,
+    "1991": 4,
+    "1992": 2,
+    "1993": 5,
+    "1994": 3,
+    "1995": 1,
+    "1996": 2,
+    "1997": 2,
+    "1998": 1,
+    "2004": 1,
+    "2013": 1,
+    "2018": 1,
+    "2019": 1
+  },
+  "summary": "10 potential duplicates"
+}

@@ -1,0 +1,14 @@
+{
+  "total_duplicate_cases": 240,
+  "high_confidence_different_person": 2,
+  "prefix_variations_found": 43,
+  "known_cases_fixed": [
+    "S. Rajinikanth vs Rajinikanth"
+  ],
+  "recommendations": [
+    "Review Prabhu: producer (1992) vs hero (1988) - likely different people",
+    "Review Nagendra Babu: producer (1983-1998) vs hero (2008) - likely different people",
+    "Standardize prefix formatting (R. vs R) for consistency",
+    "Consider adding name disambiguation in profile API for high-confidence cases"
+  ]
+}

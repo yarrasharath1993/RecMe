@@ -1,0 +1,40 @@
+Type	Severity	Confidence	Title1	Year1	Director1	Title2	Year2	Director2	TMDB_ID	Action
+SAME_TMDB_ID	HIGH	100%	Rowdy	1984	K. Vasu	Jagan	1984	Dasari Narayana Rao	505885	VERIFY
+SAME_TMDB_ID	HIGH	100%	4 Letters	2020	Raguraj R	4 Letters	2019	R Raghuraj	581290	VERIFY
+SAME_TMDB_ID	HIGH	100%	Ullasamga Utsahamga	2008	Yasho Sagar, Sneha Ullal, Sunil	Ullasanga Utsahanga	2008	A. Karunakaran	82725	VERIFY
+SAME_TMDB_ID	HIGH	100%	Kraanthiveera Sangolli Raayanna	2012	B. Naganna	Krantiveera Sangolli Rayanna	2012	Naganna	726319	VERIFY
+SAME_TMDB_ID	HIGH	100%	Seeta Kalyanam	1976	Bapu	Sita Swayamvar	1976	Bapu	643162	VERIFY
+SAME_TMDB_ID	HIGH	100%	Ninaithaale Inikkum	1979	K. Balachander	Ninaithale Inikkum	1979	K. Balachander	66305	VERIFY
+SAME_TMDB_ID	HIGH	100%	Raktha Tarpanam	1992	Krishna	Rakta Tarpanam	1992	Kodandarami Reddy	1612079	VERIFY
+SAME_TMDB_ID	HIGH	100%	Vankaya Fry	2011	Chandu	Parthiban Kanavu	2003	Karu Pazhaniappan	79412	VERIFY
+SAME_TMDB_ID	HIGH	100%	Sardar Gabbar Singh	2016	Bobby Kolli	Sardaar Gabbar Singh	2016	Bobby Kolli	371811	VERIFY
+SAME_TMDB_ID	HIGH	100%	Saagara Sangamam	1983	K. Viswanath	Sagara Sangamam	1983	K. Viswanath	30153	VERIFY
+SAME_TMDB_ID	HIGH	100%	Rowdy	1984	K. Vasu	Rachayitri	1984	K. Vasu	505885	VERIFY
+SAME_TMDB_ID	HIGH	100%	Ooriki Uttharana	2021	Thirupathi Rao	Utthara	2020	Thirupathi Rao	691653	VERIFY
+SAME_TMDB_ID	HIGH	100%	Vamsanikokkadu	1996	Sarath	Simha Baludu	1978	K. Raghavendra Rao	281876	VERIFY
+SAME_TMDB_ID	HIGH	100%	Circus Ramudu	1980	Dasari Narayana Rao	Young India	2010	Dasari Narayana Rao	442654	VERIFY
+SAME_TMDB_ID	HIGH	100%	Kalloori	2007	Balaji Sakthivel	Kaloori	2007	Balaji Sakthivel	137888	VERIFY
+SAME_TMDB_ID	HIGH	100%	Dongata	2015	Vamsee Krishna	Dongaata	2015	Vamsi Krishna	381677	VERIFY
+SAME_TMDB_ID	HIGH	100%	Raktha Tarpanam	1992	Krishna	Raktha Tharpanam	1992	Krishna	1612079	VERIFY
+SAME_TMDB_ID	HIGH	100%	Rajakeeya Chadarangam	1989	Kodandarami Reddy	Rajakiya Chadurangam	1988	P. Chandrasekhara Reddy	685650	VERIFY
+SAME_TMDB_ID	HIGH	100%	Laadla	1995	Raj Kanwar	Laadla	1994	Raj Kanwar	197483	VERIFY
+SAME_TMDB_ID	HIGH	100%	Judaai	1997	Raj Kanwar	Judaai	1998	Raj Kanwar	108368	VERIFY
+EXACT_TITLE_YEAR	HIGH	100%	Krantiveera Sangolli Rayanna	2012	Naganna	Krantiveera Sangolli Rayanna	2012	Naganna	726319	VERIFY
+SAME_TMDB_ID	HIGH	100%	Aggi Ravva	1981	K. Bapaiah	Sri Venkateswara Mahatyam	1960	P. Pullaiah	281862	VERIFY
+FUZZY_MATCH	MEDIUM	89%	Manavudu Danavudu	1999	K. Raghavendra Rao	Maanavudu Daanavudu	1999	Krishna Reddy		VERIFY
+FUZZY_MATCH	MEDIUM	93%	Raktha Tarpanam	1992	Krishna	Rakta Tarpanam	1992	Kodandarami Reddy	1612079	VERIFY
+FUZZY_MATCH	MEDIUM	93%	Raktha Tarpanam	1992	Krishna	Raktha Tharpanam	1992	Krishna	1612079	VERIFY
+FUZZY_MATCH	MEDIUM	87%	Rakta Tarpanam	1992	Kodandarami Reddy	Raktha Tharpanam	1992	Krishna	1612079	VERIFY
+FUZZY_MATCH	MEDIUM	93%	Rakta Sindhuram	1985	Pavithran	Raktha Sindhuram	1985	A. Kodandarami Reddy	249447	VERIFY
+FUZZY_MATCH	MEDIUM	93%	Pattabhishekam	1985	K. Raghavendra Rao	Pattabhishekham	1985	K Raghavendra Rao	281855	VERIFY
+FUZZY_MATCH	MEDIUM	94%	Ninaithaale Inikkum	1979	K. Balachander	Ninaithale Inikkum	1979	K. Balachander	66305	VERIFY
+FUZZY_MATCH	MEDIUM	92%	Sri Rama Bantu	1979	I.S. Murthy	Shri Rama Bantu	1979	S. D. Lal	1301213	VERIFY
+FUZZY_MATCH	MEDIUM	93%	Saagara Sangamam	1983	K. Viswanath	Sagara Sangamam	1983	K. Viswanath	30153	VERIFY
+FUZZY_MATCH	MEDIUM	94%	Sardar Gabbar Singh	2016	Bobby Kolli	Sardaar Gabbar Singh	2016	Bobby Kolli	371811	VERIFY
+FUZZY_MATCH	MEDIUM	90%	Kraanthiveera Sangolli Raayanna	2012	B. Naganna	Krantiveera Sangolli Rayanna	2012	Naganna	726319	VERIFY
+FUZZY_MATCH	MEDIUM	90%	Kraanthiveera Sangolli Raayanna	2012	B. Naganna	Krantiveera Sangolli Rayanna	2012	Naganna	726319	VERIFY
+FUZZY_MATCH	MEDIUM	89%	Ullasamga Utsahamga	2008	Yasho Sagar, Sneha Ullal, Sunil	Ullasanga Utsahanga	2008	A. Karunakaran	82725	VERIFY
+FUZZY_MATCH	MEDIUM	88%	Kalloori	2007	Balaji Sakthivel	Kaloori	2007	Balaji Sakthivel	137888	VERIFY
+FUZZY_MATCH	MEDIUM	86%	Anthima Theerpu	1988	Joshiy	Antima Teerpu	1988	Jason Impey	278155	VERIFY
+FUZZY_MATCH	MEDIUM	88%	Dongata	2015	Vamsee Krishna	Dongaata	2015	Vamsi Krishna	381677	VERIFY
+FUZZY_MATCH	MEDIUM	88%	Nam Naadu	1969	Jambulingam	Nam Nadu	1969	C. P. Jambulingam	285384	VERIFY

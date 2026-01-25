@@ -1,0 +1,6735 @@
+[
+  {
+    "movie_id": "00766019-fa54-4ba1-b7c3-f6bf8f5098f0",
+    "title": "Thank You Brother!",
+    "year": 2021,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "00fedf3f-94be-417e-a315-2c2e1197a176",
+    "title": "Ala Ninnu Cheri",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "02a6f2e4-2841-48be-bb4c-c06a461a3d84",
+    "title": "Devaki Nandana Vasudeva",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "061e48a7-85c5-4bd9-af6c-afc7da7a0f4e",
+    "title": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "0a60db76-1b52-48ce-aaba-efd69bdd2615",
+    "title": "Malli Pelli",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "0c50cf62-12ea-44e1-b8d9-be749df3f803",
+    "title": "Bhala Thandanana",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0d584cfe-dec0-437e-9d77-8b8a8c92b703",
+    "title": "(MAD)²",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "0e7dd87c-3f7a-4979-8f41-bab736376a16",
+    "title": "Anaganaga",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "0f7953dd-4d65-4642-9071-03309d8df2a0",
+    "title": "Dhandoraa",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "11afa2cc-2c10-4dae-9d0d-30d2361a3171",
+    "title": "Sundari",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "1719bf9c-acd7-4503-8ca1-3501d61d6408",
+    "title": "Intinti Ramayanam",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "1aa004b9-b356-4e50-a29e-1a16c5e6d978",
+    "title": "Katha Kanchiki Manam Intiki",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "1de07232-ec13-411c-8832-3681df6d2a68",
+    "title": "Naandhi",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "1f744b04-35a7-443b-8f65-8dd616e073c7",
+    "title": "Thaggedhe Le",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "1fb06eaf-7d74-41c9-b965-97cf3cae228f",
+    "title": "Kalki 2898-AD",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "231a0c93-3b1b-4dee-9bd4-26e9cdd3a40c",
+    "title": "Sashi",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2531fa69-1eb1-4984-be49-6449d440408a",
+    "title": "Pushpa: The Rise",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "2645d8a8-f97b-422f-8d9c-eae1b59bbe80",
+    "title": "RRR",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "26d3dcc5-1025-49a3-b69b-02269b74fb0c",
+    "title": "Anaganaga O Athidhi",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2853a847-2793-42dc-8e78-c6ce730a6e1e",
+    "title": "Oke Oka Jeevitham",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2896527a-b306-493a-ad88-a386f45c6edc",
+    "title": "O Kala",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "28b89c40-f75a-44d5-ab42-5ed0f3eec052",
+    "title": "Highway",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2a62815e-d620-4f3b-9027-96ed49e9510f",
+    "title": "Virupaksha",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2cfd0c94-2619-433c-91f8-1c61f0cae874",
+    "title": "Crazy Fellow",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2d747ddf-da74-4d00-a25d-671bde2ab788",
+    "title": "Andhra King Taluka",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "2e67a8ec-d67c-4d31-981d-6e93d130e289",
+    "title": "Baahubali: the Eternal War - Part 1",
+    "year": 2027,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "301bdc40-ef6c-47f3-b2a7-65c57b4c128f",
+    "title": "3e",
+    "year": 2022,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "306fc2fc-5728-44f6-b4e5-10a9949b3ae6",
+    "title": "Bhamakalapam 2",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "30cbfd6d-7bf4-4444-889f-54778e05bd52",
+    "title": "Sammathame",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "31340ac1-d389-43da-8cc3-46cf41bd2358",
+    "title": "Mokshapatam",
+    "year": 2025,
+    "missing_fields": [
+      "producer",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 84
+  },
+  {
+    "movie_id": "35091fb5-b678-4c1d-b64a-c7ab5608ec5e",
+    "title": "Thimmarusu",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "375f2122-d286-4af1-816d-3b114d46d52e",
+    "title": "Virgin Story",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "3c9eb759-6620-4b85-88fb-61b16beb99b8",
+    "title": "Court: State vs. A Nobody",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "3ee64f92-2cba-41e0-b961-5acd09d50878",
+    "title": "Jathi Ratnalu",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "3eedfb2a-71b9-404c-aafd-f4c281e5db41",
+    "title": "Darja",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "41480ef1-5389-4f20-ae43-f70b7c293f53",
+    "title": "Play Back",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "419d5cb4-6a48-4528-9480-cb6f241f8c84",
+    "title": "Raja Vikramarka",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "41df08bd-6845-485c-88cf-531b27c356e9",
+    "title": "Hidimbha",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "4264b54b-f58d-409c-bb40-66fd77bb96f9",
+    "title": "Kota Bommali Ps",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "42fb455f-0652-4b60-9f35-5cbc0fdc2f74",
+    "title": "Guard: Revenge for Love",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "445a1d2c-8f59-43e6-a149-e6f59a01f666",
+    "title": "Prasanna Vadanam",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "474a0922-4fab-4aae-b6e2-7f1a3b504afc",
+    "title": "Shivam Bhaje",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "478e3c21-a0b9-41ed-a3d4-579f8250effd",
+    "title": "Paradha",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "4ecc99b3-d9dc-4b58-9e4f-3385a121c313",
+    "title": "Neetho",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "4f1f98f7-64ae-4fdf-ac15-4de4d6ffb61b",
+    "title": "35 - Chinna Katha Kaadu",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "4ff6082f-4b3c-4f5c-bfda-6c18efeae670",
+    "title": "Arjun Chakravarthy",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "524e5c06-c8ed-4286-8aee-a97198c3d173",
+    "title": "Prema Vimanam",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "54fb6d24-32c4-4742-bac9-ce0c44c1ef4e",
+    "title": "Niku Naku Pellanta Tom Tom Tom",
+    "year": 2022,
+    "missing_fields": [
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "553a90cd-6c7c-40a7-9c52-410c8d42d0fb",
+    "title": "Premadesam",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "55b97a3d-64bf-4581-8b1f-1d3ff522ab39",
+    "title": "Pekamedalu",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "5a04ada8-d0e1-4f8d-a52c-ddfc24df191c",
+    "title": "Major",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "6004ddc1-2535-4aad-9a26-224012fd8f7a",
+    "title": "Shiva 143",
+    "year": 2020,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "602ce821-162b-4331-88ed-c1a766a971c1",
+    "title": "Adbhutham",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "6140ace9-c274-4143-ab28-49024486e040",
+    "title": "Hi Nanna",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "64f03dda-d864-401d-9a35-eebc02ea0452",
+    "title": "Sridevi Shoban Babu",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "66977381-ce52-4eb8-afb1-cae2f65aaead",
+    "title": "Masthu Shades Unnai Ra",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "6a68e309-fca2-420a-91af-362f2800f201",
+    "title": "Uniki",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "6c8e5ae9-6591-4848-a527-8d8f701c7875",
+    "title": "WWW",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "6e623753-c3e0-4fe5-b304-63466a807054",
+    "title": "Anukoni Prayanam",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "6ed962c9-1509-443c-8271-31594e12e448",
+    "title": "Cauliflower",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "6fc81942-2445-485b-a6b2-6dc097ce3187",
+    "title": "Jayamma Panchayathi",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "71e1121c-76c1-49a9-9f29-ffa9a444e477",
+    "title": "Ashoka Vanamlo Arjuna Kalyanam",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "721fab01-c6bd-463f-ba25-65a761aa3488",
+    "title": "Pelli SandaD",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "791d2da5-d9af-4faa-851c-8d30ac7c3b7e",
+    "title": "Lucky Baskhar",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "7a5f43c1-852a-45dd-9921-deeacd178cf8",
+    "title": "The Rose Villa",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "802bde6e-a69c-4e04-a090-040577fe0b1f",
+    "title": "Varudu Kaavalenu",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "80846f34-f6ee-469b-bf37-37fd09870de5",
+    "title": "Organic Mama Hybrid Alludu",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "847fc49d-c8ea-47ae-84b3-d232195b4db7",
+    "title": "Stand Up Rahul",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "872df985-b65a-4004-8dff-f91a50b52f70",
+    "title": "Mukhachitram",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "8a9c2ef7-8102-4dfc-8881-7a9f31c2272e",
+    "title": "Sathi Gani Rendu Ekaralu",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "8f824c73-8255-418f-8201-a9d0b6c18bf3",
+    "title": "Shikaaru",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "90f8534d-d71a-49bd-ac3c-8fc926a0ca15",
+    "title": "Kinnerasani",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "91ecf255-a36d-40d3-a24f-6e17cfc8cbc5",
+    "title": "Mazaka",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "9217b1a4-fae1-4c4d-a53c-ccff890ea890",
+    "title": "Sarkaaru Noukari",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "9a788ea5-670b-4391-bd86-d42245d8e683",
+    "title": "Salaar: Part 2 - Shouryaanga Parvam",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 81
+  },
+  {
+    "movie_id": "9c832a31-cf8e-4dc3-bf5d-7d5d1e2d8a3e",
+    "title": "Sita Ramam",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "9ce4e6cd-9184-429e-a077-faf3478f7e3f",
+    "title": "Induvadana",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "9e61ecf7-8eef-476a-9633-55602de0788f",
+    "title": "10th Class Diaries",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "a1a2791b-f681-4e78-a11f-80750e5383c0",
+    "title": "Colour Photo",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "a1aeaecb-3356-4a56-90fa-48b41c01c2d3",
+    "title": "Alanaati Ramachandrudu",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "a1e39129-2959-4842-b566-07ea94860806",
+    "title": "Mr. King",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "a2c9430e-f77b-4b39-a6b7-fe4fa3e4fa46",
+    "title": "Peddha Kapu - 1",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "a487b951-ffc4-438e-9ebe-602463e88b37",
+    "title": "Sriranga Neethulu",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "a506eb39-aacb-4c0a-8c5e-026975001405",
+    "title": "Mowgli",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "a508be60-813a-40b3-b36a-bee6e237a672",
+    "title": "#MenToo",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "addd7c3f-b148-4476-9652-97f46f98729c",
+    "title": "Cheppalani Undhi",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "af9b8314-700a-4f8d-ab79-00c411e0fe2c",
+    "title": "Ante... Sundaraniki!",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "b04c5b34-982a-4995-b393-53231cd7b3ab",
+    "title": "Ahimsa",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "b0b83eb9-70c1-4c65-afd5-03b248e17f61",
+    "title": "Yevam",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "b12c42ea-27cf-4795-bcad-1417512c9a2c",
+    "title": "Ammu",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "b25d82f5-6c75-487d-8663-1e42b31b0506",
+    "title": "Sehari",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "b67cf0ed-f3c1-44bb-a637-e5476b643fb1",
+    "title": "Uma Maheswara Ugra Roopasya",
+    "year": 2020,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "b6958f7d-5e4c-40b2-8bfc-ed9b0d3b2411",
+    "title": "Thimmarusu: Assignment Vali",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "b97ef5ca-3966-4c69-845a-66355477d205",
+    "title": "Crrush",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "c03f28b4-8b3b-4bda-a8f5-e47acbbe6773",
+    "title": "Aakashavaani",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "c5fa9d9a-54eb-4a1a-9e6f-52d3dbcd675d",
+    "title": "Kuberaa",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "c6546e99-4a72-4d8a-91a8-23617149cb42",
+    "title": "Iravatham",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "c6aa0c78-3300-4b1b-a2bd-343ee93be13d",
+    "title": "RRR: Behind & Beyond",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 82
+  },
+  {
+    "movie_id": "c7da91ea-453a-49fe-96ef-dab4ba115da9",
+    "title": "Gamanam",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "cd3dd204-11bb-4ca4-abd2-2b874341ad1d",
+    "title": "8 Vasantalu",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "d1aeeea6-fb0f-4e2e-abb2-6ee733401004",
+    "title": "Zebra",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "d3481d20-3977-458b-b577-bf586d8ce8b9",
+    "title": "HIT: The Third Case",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "d62c5b08-240d-433c-840a-917124250a99",
+    "title": "Ram Asur",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "d7458170-d08d-4369-8477-9ebf203ae403",
+    "title": "Vimanam",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "d759cc8f-e364-4170-9b25-4cb779b94953",
+    "title": "Senapathi",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "dbf6c946-59ba-4254-8907-9d5fab779608",
+    "title": "Wanted PanduGod",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "dcb78d88-bfc0-489c-81f6-a172f06458d8",
+    "title": "Natyam",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "dd38c3da-0f8b-4883-a74a-c9bb53e3280a",
+    "title": "Baahubali: The Epic",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "dd67704e-b3e1-4e80-a067-c2c6255a33ba",
+    "title": "Martin Luther King",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "ddd938c2-458a-4f51-8389-74a5d7e12c0d",
+    "title": "Ponton's Heart",
+    "year": 2025,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 82
+  },
+  {
+    "movie_id": "e1214f0a-b918-4375-8e3f-45d4d862e242",
+    "title": "Mem Famous",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "e2b26931-e262-463a-b1a8-532977e60b07",
+    "title": "The Great Indian Suicide",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "e3efb488-dfd7-4ab8-931b-77dad1190da0",
+    "title": "Subham",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "e6180039-66aa-44bf-9364-45126033b5a9",
+    "title": "Rudrangi",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "e621270a-a517-467f-83b3-590fb72017b9",
+    "title": "Double Engine",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "ea668bda-5e98-4555-899d-4a82fee3f29b",
+    "title": "Rowdy Boys",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "ea7641bb-ae11-437e-bd79-8e202acb9b19",
+    "title": "Little Hearts",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "eb1cb31f-66ec-4f97-b947-4174fe43b4eb",
+    "title": "Kerosene",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "ed7095f3-0d4a-4c20-b4bf-cb15d7cfa6ae",
+    "title": "Nenu Leni Na Premakatha",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "f00db2c5-e022-4406-8073-6dd6f0f55b6f",
+    "title": "Super Machi",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "f18452f0-5d37-4609-bdb2-107c2a877c57",
+    "title": "Bujji... Ila Raa",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "f1a19d02-0202-4b56-90a8-720cc101ca94",
+    "title": "Valliddari Madhya",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "f27e07db-bfd0-45b9-8703-504441c51907",
+    "title": "O Saathiya",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "f4c6f8e5-a011-4562-8656-b7bd6515ae79",
+    "title": "Unstoppable",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "f6f4a323-3153-4604-9ef5-4a81e6c0cb7c",
+    "title": "Love Story",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "fe661937-8d06-4ae9-bc82-98680e53def7",
+    "title": "Dhira",
+    "year": 2020,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 80,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "0f5c1642-6bae-4dc5-b616-4ac020a53d8d",
+    "title": "Masterpiece",
+    "year": 2015,
+    "missing_fields": [
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 37
+  },
+  {
+    "movie_id": "32d358f0-7df8-4b15-b9f9-04cecff43ac9",
+    "title": "Bangara s/o Bangarada Manushya",
+    "year": 2017,
+    "missing_fields": [
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 37
+  },
+  {
+    "movie_id": "b277fa13-d54e-4e20-a8b7-0fb4c250e833",
+    "title": "Raambo 2",
+    "year": 2018,
+    "missing_fields": [
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 37
+  },
+  {
+    "movie_id": "b994c347-d1e4-4edd-96f5-79f8baca9bea",
+    "title": "Ranveer Ching Returns",
+    "year": 2016,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 22
+  },
+  {
+    "movie_id": "d20403fb-8432-4565-85c4-961d128206cb",
+    "title": "Well, If You Know Me",
+    "year": 2015,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "e0bd39f8-ac8d-4d8e-abb7-3191d6b0461e",
+    "title": "Premier Padmini",
+    "year": 2019,
+    "missing_fields": [
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 30,
+    "quality_score": 37
+  },
+  {
+    "movie_id": "1f339783-8a95-40dc-a318-fdb69edc331e",
+    "title": "Marana Porali",
+    "year": 2011,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "5cd8b5da-c6cc-4acc-822a-361acc6e6803",
+    "title": "Kalabha Mazha",
+    "year": 2011,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "5e4052c0-9936-4bc9-9284-5adf79dcf4f4",
+    "title": "Shubhapradam",
+    "year": 2010,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "8182275f-e88d-4453-b855-4bb1695ef80c",
+    "title": "Badrinadh",
+    "year": 2011,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "8ac900ab-636a-4b62-8ea9-449341cd3539",
+    "title": "Ramaiya Vasta Vaiya",
+    "year": 2013,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 22
+  },
+  {
+    "movie_id": "9b7b604c-6907-4c79-bd7f-dd22d1a3f974",
+    "title": "Devara 2",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 80
+  },
+  {
+    "movie_id": "a558037b-5257-4649-a202-0eb7ca60e417",
+    "title": "Aptharakshaka",
+    "year": 2010,
+    "missing_fields": [
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 37
+  },
+  {
+    "movie_id": "bb35eb63-49c4-42aa-a405-7ca08b8a813d",
+    "title": "Betting Bangaraju",
+    "year": 2010,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "eabaebd6-9714-48d9-9533-af0431bcab0d",
+    "title": "Exploring ''Shiva'' Movie After 25 Years",
+    "year": 2014,
+    "missing_fields": [
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 20,
+    "quality_score": 36
+  },
+  {
+    "movie_id": "06fbeb2c-ab89-423c-9e63-6009e3e96688",
+    "title": "సుందరానికి తొందరెక్కువ",
+    "year": 2006,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "092508fb-f084-443b-aa50-3c6d06b6ec12",
+    "title": "Chennakeshava Reddy",
+    "year": 2002,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "0dc041e2-92cc-4311-8c8e-170204298d94",
+    "title": "Euphoria",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "27c2e806-ab67-4458-a9be-a1efab1c8082",
+    "title": "Mirai Jaithraya",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 53
+  },
+  {
+    "movie_id": "2ac29b5b-1f24-42ed-af0c-399e037111e2",
+    "title": "Takshakudu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "3e471652-0904-4a9a-9886-f9308acfef8e",
+    "title": "Amaran in the City: Chapter 1",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "3eb55434-d09a-4eac-a09b-3055c4288ae3",
+    "title": "Arrtham",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "3ff67cd3-d93a-4537-a19a-f59251a1601e",
+    "title": "Vrushakarma",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "436f66ec-1b0c-455c-a0a3-20dd786fb3cd",
+    "title": "Illicit Relationship",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "producer",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 66
+  },
+  {
+    "movie_id": "43e130d6-060e-4219-b50c-dc85bd1b810f",
+    "title": "Hey Bhagawan!",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "473fbd46-477a-477b-80fc-2ecfa5e239cf",
+    "title": "They Call Him OG 2",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "478902c9-5e7d-4d66-8b1b-1a660afc616f",
+    "title": "Sambarala Yetti Gattu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "49842167-e1c4-4ad1-a9c1-ee7a7646b3ea",
+    "title": "Nakshatra Poratam",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 53
+  },
+  {
+    "movie_id": "4edf9132-9816-4c57-a569-1c152f688f2d",
+    "title": "Legacy",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "50d562f6-70b0-4a8f-8795-564a24b2da9a",
+    "title": "Oh..! Sukumari",
+    "year": null,
+    "missing_fields": [
+      "release_year"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 80
+  },
+  {
+    "movie_id": "5798b7f3-85a4-460a-bb56-6aa857f4e46e",
+    "title": "Biker",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "5f4d9c51-1e09-4009-9619-aa368c3620e1",
+    "title": "Paramanandham Shishyulu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 53
+  },
+  {
+    "movie_id": "62ff2985-5995-4c9d-84ef-0393342a97db",
+    "title": "Pushpa 3 - The Rampage",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "6dcf4ef0-f5e9-4717-96dd-14513908ce02",
+    "title": "Gopi – Goda Meedha Pilli",
+    "year": 2006,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "6e2f5c00-1ac9-4f3f-ae56-0e979bb76eca",
+    "title": "Kirathaka",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "710aeabe-bb55-44a4-a8b3-279f1defca5b",
+    "title": "What The Fish",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "72f9afc4-80ad-492d-a4ab-ccfe556ac936",
+    "title": "Kalki 2898-AD: Part 2",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 55
+  },
+  {
+    "movie_id": "83ad612c-edba-4341-8fe4-edd696416774",
+    "title": "Maa Inti Bangaram",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "863ad6f1-6b43-4e86-bd23-84999161ef4b",
+    "title": "Time Pass",
+    "year": 2001,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 21
+  },
+  {
+    "movie_id": "896c1568-8d27-4a3f-a1c4-687724bd0ed4",
+    "title": "Patta Pagalu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "8e786a19-ecf6-44ef-974e-e884b386f9ad",
+    "title": "Haindava",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "90b5d473-918b-4b28-890d-60ac4ed76174",
+    "title": "Band Melam",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "9349ed3e-531e-4ea2-9b1d-e374a03958cd",
+    "title": "Asuragana Rudra",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "9bec9780-8787-4fa4-9e6f-9fb2c81a9576",
+    "title": "DQ 41",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "9c2982d1-29e1-43f1-b6dc-00d7e9b7c889",
+    "title": "Nagabandham",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 66
+  },
+  {
+    "movie_id": "9f9c3808-a7cc-4f7d-ab7c-39f5848907de",
+    "title": "ENE Repeat",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "a2d270c7-61e6-4a39-ae6a-0e30f31321d2",
+    "title": "Natudu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 53
+  },
+  {
+    "movie_id": "a34582fd-a861-45ab-8b5f-4190d6296bba",
+    "title": "Umapathi",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "a98974a0-cbb4-44c0-b9e8-7d0e8647890e",
+    "title": "Vāranāsi",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "ae3cab6e-41b0-4e78-a727-23c2ad3370ca",
+    "title": "HaiLesso",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "b4a1cdb1-e53a-40e9-9c0f-00de7e170a96",
+    "title": "Comrade Kalyan",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "bb4d0170-7d8a-4e31-9294-bef20df5563c",
+    "title": "As Time Echoes",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 66
+  },
+  {
+    "movie_id": "c3b46098-a11b-483a-8bb8-c51df5765eb6",
+    "title": "Peddarikam",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "d5389cd2-eec6-415e-bf8b-e45b1bf082ff",
+    "title": "Bad Boy Karthik",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "d91f34c8-3676-4c36-9e45-b027b9b665d1",
+    "title": "Maate Mantramu",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "dcade0cb-1150-4282-833c-6a29bfd04d5a",
+    "title": "Naa Katha",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 66
+  },
+  {
+    "movie_id": "e0973669-9b4b-4044-8c09-6beb72785090",
+    "title": "Abhiram",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "ea8c7a5b-c303-4233-8c92-2ff664b7303f",
+    "title": "Anumana Pakshi",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "f04c0dcd-bbf6-4fd7-ba75-32b5b9f5d1a3",
+    "title": "AA22xA6",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "f2fada23-de4c-4eee-9897-215d64ca016e",
+    "title": "Garividi Lakshmi",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "ff32a1f8-e0a8-41fd-9fe9-5f9ffb94b6fa",
+    "title": "Angala Parameswari",
+    "year": 2002,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 10,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "06506eed-73d6-43dd-af5e-66030ac47b65",
+    "title": "Paravathi Parameshwarulu",
+    "year": 1981,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "072c7874-a382-4808-8eb7-c8db98c77de2",
+    "title": "Edhureetha",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "076745f1-ed22-4c60-80b4-de2cd38e198c",
+    "title": "Vallavanukku Vallavan",
+    "year": 1965,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 21
+  },
+  {
+    "movie_id": "09db026f-9e52-4ff3-9432-d48e611c3d79",
+    "title": "Jaani Dost",
+    "year": 1983,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 27
+  },
+  {
+    "movie_id": "0a0d8345-02a7-4343-ada9-89ea66b5f912",
+    "title": "Agni Sanskaram",
+    "year": 1980,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "0a870842-3553-4713-b9ff-b371c3017729",
+    "title": "Maa Nannaki Pelli",
+    "year": 1997,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 27
+  },
+  {
+    "movie_id": "1196ac9f-472a-446a-9f7b-41b8ad8bdb75",
+    "title": "Iddaru Ammayilu",
+    "year": 1972,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "1a2d75cb-f7af-44c0-b7ad-eaf4b4bcfc31",
+    "title": "Q16311395",
+    "year": 1978,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "1a30f843-d0ba-4f3a-8886-b6be6253129c",
+    "title": "Amar Deep",
+    "year": 1979,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 23
+  },
+  {
+    "movie_id": "1d57f0ef-c4ed-4b34-b453-b608ce213ba3",
+    "title": "Chaithanya",
+    "year": 1991,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "2142390d-8c14-4236-9aae-eb20edaa95cd",
+    "title": "Shri Krishna Pandaviyam",
+    "year": 1966,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "234da35c-e92e-44a6-99a2-916b40c02752",
+    "title": "Magic",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "2526bbf3-a8c0-4df8-9c26-67e54e88ee82",
+    "title": "Sahaa",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "synopsis",
+      "synopsis_te",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 60
+  },
+  {
+    "movie_id": "2ced2102-12ab-4391-9e5b-40ae526c7b11",
+    "title": "Amma Mata",
+    "year": 1972,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "2d2300e8-75f4-40fa-9d89-11b728749949",
+    "title": "Karunai Ullam",
+    "year": 1978,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "32d1c1ea-abd5-44ae-980e-369ba2f6ab96",
+    "title": "Athiradi Padai",
+    "year": 1994,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 22
+  },
+  {
+    "movie_id": "32d1e7f0-d06e-4892-aaa9-38e68cb3fd06",
+    "title": "Sardar&#91;41&#93;",
+    "year": 1984,
+    "missing_fields": [
+      "poster_url",
+      "director",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 30
+  },
+  {
+    "movie_id": "361f51fd-2800-4a35-9b35-9a9ba9f86875",
+    "title": "Mardon Wali Baat",
+    "year": 1988,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 27
+  },
+  {
+    "movie_id": "3bbeed9a-30c4-458c-827a-11f4df9582c4",
+    "title": "Poojaikku Vandha Malar",
+    "year": 1965,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "426e74fb-e35c-49c7-b5dd-ec88d9bd53c3",
+    "title": "Padhi Bhakti",
+    "year": 1958,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "4bf8c217-ffe2-489d-809d-50a499ac3cd1",
+    "title": "Kai Koduttha Dheivam",
+    "year": 1964,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "4ecb9fda-2af1-4d4b-a558-a86735425de6",
+    "title": "Reppa",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "5205c2dc-2f36-48c9-9807-3153e897adbd",
+    "title": "Gunda Gardi",
+    "year": 1997,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "5cb44bbf-dd51-48d3-99d9-2834bb09fe16",
+    "title": "Bala Mitrula Katha",
+    "year": 1972,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 21
+  },
+  {
+    "movie_id": "5d95bc5d-9490-4664-abc6-d2a9e29a05a8",
+    "title": "Kuravanji",
+    "year": 1960,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "5d98fdb3-4b6e-4037-a7ea-02794d6a00a4",
+    "title": "Shri Krishnavataram",
+    "year": 1967,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "6212f700-84e3-4c84-bedc-570a48747a3d",
+    "title": "Nizhal Thedum Nenjangal",
+    "year": 1982,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "6d038721-fec0-4ba3-a90b-acbb26ef088e",
+    "title": "Raja Muthirai",
+    "year": 1995,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "74bbdc9c-6159-4b7d-b3a0-aad89701a7dc",
+    "title": "Jumma Chumma In London",
+    "year": 1991,
+    "missing_fields": [
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 36
+  },
+  {
+    "movie_id": "74bf13e0-bbe3-48de-8eae-3d9b9ba00c5c",
+    "title": "Inner City Blues",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "music_director",
+      "producer",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "7c02513a-48b4-4fbc-90bf-a080eca4ace7",
+    "title": "Indhu",
+    "year": 1994,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 27
+  },
+  {
+    "movie_id": "7f0b003c-b15f-4087-9003-0efc1d959658",
+    "title": "Paarthaal Pasi Theerum",
+    "year": 1962,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "86e58157-d33f-48d1-a562-7413efddffd9",
+    "title": "Shubha Lagnam",
+    "year": 1994,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "8892bf0a-d4fb-45c9-8cd6-5ca00fbdd80a",
+    "title": "Bratuku Theruvu",
+    "year": 1953,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "90c2fb7e-6c92-45a4-81c4-a6c18b32e742",
+    "title": "Rakta Sambandham",
+    "year": 1980,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "95639c8c-fad3-4ef9-b2a3-0e1b06040346",
+    "title": "Aaj Ka Goonda Raj",
+    "year": 1992,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "9fcf70da-160e-4635-af49-538749378675",
+    "title": "Shubha Muhurtam",
+    "year": 1983,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "aa6a8a7d-f47e-42a0-b938-3145ad479fb3",
+    "title": "Kaathavaraayan",
+    "year": 1958,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "b7aad561-d88c-44b1-bd47-7076d669d0b5",
+    "title": "Jeevana Theeralu",
+    "year": 1977,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "bbf3b8b2-ff2a-4ded-a6c3-86e9c9f17a7e",
+    "title": "Q12985478",
+    "year": 1979,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "bc217391-6aa5-411d-abc4-76e86c134894",
+    "title": "Janakiram",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "c2ff5c7e-7bd0-4ec4-9967-7d69c261810a",
+    "title": "Ganga Ki Lahren",
+    "year": 1964,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 23
+  },
+  {
+    "movie_id": "c4f56063-850e-4ac7-bf41-a802cb3e0023",
+    "title": "Loh Purush",
+    "year": 1999,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 27
+  },
+  {
+    "movie_id": "cf891901-0304-4964-9ed7-dca5f576b55a",
+    "title": "Akalmand",
+    "year": 1984,
+    "missing_fields": [
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 36
+  },
+  {
+    "movie_id": "d230d639-8927-40d7-9889-79f95e18d21f",
+    "title": "Sri Rambantu",
+    "year": 1979,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "d5edc733-e59b-42c0-ae51-6980c71906fd",
+    "title": "Sapnon Ka Mandir",
+    "year": 1991,
+    "missing_fields": [
+      "poster_url",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 32
+  },
+  {
+    "movie_id": "da08244c-b75c-4473-9abe-088555ce819e",
+    "title": "Main Awara Hoon",
+    "year": 1983,
+    "missing_fields": [
+      "poster_url",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 32
+  },
+  {
+    "movie_id": "e1124ed1-4aee-40ec-a97e-f5ecd5966a8d",
+    "title": "Maato Pettukoku",
+    "year": 1995,
+    "missing_fields": [
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 22
+  },
+  {
+    "movie_id": "e689b93b-df82-4e0f-b218-2cf0f9b77714",
+    "title": "Majaal",
+    "year": 1987,
+    "missing_fields": [
+      "poster_url",
+      "director",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 32
+  },
+  {
+    "movie_id": "ede2f145-a46a-439a-8c6f-1c755c69f76f",
+    "title": "Mysaa",
+    "year": null,
+    "missing_fields": [
+      "release_year"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 80
+  },
+  {
+    "movie_id": "f08bd1ee-a329-4ea7-a792-d28f876a4d4c",
+    "title": "Anaganaga Oka Rowdy",
+    "year": null,
+    "missing_fields": [
+      "release_year",
+      "editorial_review"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 69
+  },
+  {
+    "movie_id": "f0b669a6-227e-46c8-bdca-8778aef704d8",
+    "title": "Q12982331",
+    "year": 1977,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "f6069bac-c8e0-43a6-9742-22cd0cb22ac1",
+    "title": "Adarsham",
+    "year": 1952,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "f86df043-4436-46ee-a4b6-6889d3b29f2e",
+    "title": "Pathini Deivam",
+    "year": 1957,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "fd10c7b5-1e25-4bcc-b82d-b4c6d1b48485",
+    "title": "Shri Krishnarjuna Vijayam",
+    "year": 1996,
+    "missing_fields": [
+      "poster_url",
+      "synopsis",
+      "synopsis_te",
+      "director",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "high",
+    "visibility_score": 0,
+    "quality_score": 19
+  },
+  {
+    "movie_id": "0121a07d-b112-447f-b720-a75b25727bbc",
+    "title": "Music by John Williams",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0711791c-41d8-456c-bc24-09aed143f3bb",
+    "title": "Justice League Dark: Apokolips War",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "09880704-78f5-49e7-a891-f919dc1861c3",
+    "title": "Bramayugam",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0b0303e1-141e-457a-833c-790432244384",
+    "title": "Selena Gomez: My Mind & Me",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0df69328-fa9a-474b-ae1a-0d224c8b0af9",
+    "title": "Ultraman: Rising",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "157d7f31-8706-4919-88b9-03d6d5a3155a",
+    "title": "Kill Shot",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "173ac918-eda4-4371-ba5a-8991a3d7706c",
+    "title": "Rocketry: The Nambi Effect",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1b33fc0d-b975-40ed-a756-04f8daaa1af6",
+    "title": "The Way to the Heart",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1cd145be-7a91-4c9d-ab20-1104ea86ac8a",
+    "title": "Mortal Kombat Legends: Scorpion's Revenge",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "24ad0344-f907-4ebc-b633-a3913d1ae525",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "26e1907c-3d92-483a-adb1-6b629b32ad03",
+    "title": "Making Squid Game: The Challenge",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2a647298-e99b-492e-998a-e8958186ebe1",
+    "title": "Soul",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2b3fcc13-6319-4aef-938d-0c2cc790a198",
+    "title": "South Park: The 25th Anniversary Concert",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2c1020b3-58d8-4c0c-9938-d7d6fbf7fa3c",
+    "title": "Super/Man: The Christopher Reeve Story",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2e6205fa-1315-486d-b284-89ce4d298645",
+    "title": "Purple Hearts",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2ff765c5-bcf4-4f67-b7f2-5b5cf5a8edfd",
+    "title": "Frankenstein",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "308ae24f-ce60-4c51-ad36-38b61bac0490",
+    "title": "The Father",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "3339bc29-7fdf-4385-b1f5-6f29198842de",
+    "title": "TAYLOR SWIFT | THE ERAS TOUR",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "3477e01b-b975-4c73-83e4-2b07a0b551a5",
+    "title": "Zack Snyder's Justice League",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "35a58d79-5360-4a1a-9909-4b0a1206a0a4",
+    "title": "20 Days in Mariupol",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "55fc1695-ee57-45e4-b673-1a2f268762a0",
+    "title": "Succubus",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "575f85e1-37cd-4aa1-9e68-c8473450d914",
+    "title": "Gabriel's Rapture: Part II",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "58443bc8-2b53-489d-9a15-6d0672a7ec9e",
+    "title": "Shawn Mendes: Live in Concert",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "595bc003-d60d-4ae6-b5d8-d51e6a46af2b",
+    "title": "Shawn Mendes: In Wonder",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "5bfc95a5-053c-4a85-a27c-adb7d073bf94",
+    "title": "Simón",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "5e54ab3d-5a39-4fc2-9676-0e15e03e7542",
+    "title": "Lucy Shimmers and the Prince of Peace",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "60ce68fe-654f-4f4a-bf2f-6a3d1ac5cc1b",
+    "title": "The Boy, the Mole, the Fox and the Horse",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "634a1010-7072-4836-9ce3-9c56bf9413fa",
+    "title": "Avatar: The Way of Water",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "638cc713-1821-4e36-a827-b23e0cd94947",
+    "title": "Red, White & Royal Blue",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "651eb874-46f6-478d-a324-9b7630a5fb67",
+    "title": "OPAL",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "heroine",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "6beec2ee-b8ba-45b1-a6a4-d50df952b4e4",
+    "title": "The Fresh Prince of Bel-Air Reunion",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "6cf3915e-413c-4afd-9070-4d94b0940833",
+    "title": "Sinners",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "70754cdb-06c1-4057-b6e9-2cd006d97894",
+    "title": "Guillermo del Toro's Pinocchio",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "725651a0-9ce5-47b1-81c4-0d2ce4af38c4",
+    "title": "Far from the Tree",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "hero",
+      "heroine",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 46
+  },
+  {
+    "movie_id": "7819bc36-81a4-42cf-905c-4e603daa8916",
+    "title": "Sapta Sagaradaache Ello - Side B",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "7cd695eb-8699-484b-94e0-88c6b43a4155",
+    "title": "Gabriel's Inferno: Part II",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "7cdc48bc-335d-4299-9a32-b8baa03322d9",
+    "title": "Rite Here Rite Now",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "82ee344b-c5f6-432e-b488-9260f5e321b8",
+    "title": "The Wild Robot",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "841cd6eb-17f6-4578-a515-ff87884292b3",
+    "title": "Marty Supreme",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "847595de-1dfd-4c2e-863b-86ce800ea35f",
+    "title": "RBD: Ser o Parecer (En Vivo)",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "85055044-7475-4cde-bb1d-f82c6bed61b0",
+    "title": "Taylor Swift City of Lover Concert",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "87037082-89f9-49ab-b07c-a64c7febb736",
+    "title": "KPop Demon Hunters",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "88204f3f-335d-4338-a9f2-504ddd10546a",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "8830f0c9-1f22-4d2b-8088-d6e5adc188f7",
+    "title": "Wolfwalkers",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "891b1345-896c-48ed-9104-8c15fc4d7068",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "9d400eff-d27c-4ee7-bc5a-1cdc34abd8a0",
+    "title": "All Too Well: The Short Film",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "9da4ef64-67a9-4342-82c5-ef3d4e377740",
+    "title": "Clouds",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "a0b1a3f1-3dad-467b-aeb1-0883cae14a26",
+    "title": "Memoir of a Snail",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "a1229efe-49e4-44a0-8938-456545f63027",
+    "title": "Pink Floyd: Live at Pompeii",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "ab1d8eae-b3c1-4895-93b6-887eabbc3aac",
+    "title": "Garuda Gamana Vrishabha Vahana",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "acf194fe-4408-4b2b-9644-3ea74d579879",
+    "title": "Bo Burnham: Inside",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "heroine",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "b483f1d3-f4c0-45ea-9fec-df2806ee79fb",
+    "title": "The Forge",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "b5c08365-d3c6-4966-a295-2b7d3413d592",
+    "title": "Ocean With David Attenborough",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "heroine",
+      "producer",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "ba4037b8-6b3c-400e-8eb5-5fe934a42b7d",
+    "title": "Black Beauty",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "bbff8872-e6e3-4594-a885-ea6558c45f8b",
+    "title": "David Attenborough: A Life on Our Planet",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "c1abe45b-2961-44ee-8877-7d3602a2a554",
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "c824c7d9-c331-408c-90d7-20694799df1f",
+    "title": "Tourist Family",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "c8603227-bb5e-4cb2-9b0b-ee8432535521",
+    "title": "Gabriel's Inferno",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "cfdc02e4-0cc6-4cc3-97a0-ee26a7152765",
+    "title": "Life in a Year",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "d0d6205c-b48d-40ee-ae42-ae371e872e4e",
+    "title": "Crossword Mysteries: Abracadaver",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "d12e8fe1-bbc9-436a-9d26-c2c472ea77ef",
+    "title": "Palmer",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "d79b6116-9e21-4b3b-b041-2cecad34f864",
+    "title": "The King of Kings",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "d8eb89af-43b0-4b58-ad6b-9e32294cbe20",
+    "title": "The Year Earth Changed",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "d9875672-c661-4be8-bd3d-9b99ea208087",
+    "title": "Transformers One",
+    "year": 2024,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "e7628c5e-1592-46d2-bd96-b904f09de205",
+    "title": "Redeeming Love",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "e8611772-7b65-462a-b820-75bcf2287589",
+    "title": "Folklore: The Long Pond Studio Sessions",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "eb16e91d-225f-4134-9b48-f52033093718",
+    "title": "Gabriel's Inferno: Part III",
+    "year": 2020,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "ec2e0a6f-e4fb-4072-9d51-dfaead760d82",
+    "title": "Thriller 40",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "ef6a1926-f70f-4747-a825-8f0cffc96149",
+    "title": "Dragon",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "f030f9c3-4680-49db-b95e-70baa83e82b2",
+    "title": "Billie Eilish: The World's a Little Blurry",
+    "year": 2021,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "f181d300-bdf9-42c5-84c1-e8f254b4c177",
+    "title": "Ponman",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "f3c2c8ce-6907-4ac1-a5ce-3a058c7270df",
+    "title": "Once Upon a Studio",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "f5672885-e6eb-40a2-98b0-18feedbfd2af",
+    "title": "19.20.21",
+    "year": 2023,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "fb647558-7705-49bd-9feb-9db50bb065a5",
+    "title": "One Battle After Another",
+    "year": 2025,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "fe850895-6db0-49a4-8d73-f74dc18f93d2",
+    "title": "Puss in Boots: The Last Wish",
+    "year": 2022,
+    "missing_fields": [
+      "synopsis_te",
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 70,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "00022272-a920-4195-95c9-5538a8e9732b",
+    "title": "A Goa Tripp...",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "00209ec1-6249-4698-b482-e0c95201d060",
+    "title": "Hathya",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "003f3973-3b96-4590-9a66-5d6e74eef181",
+    "title": "Mana Shankara Vara Prasad Garu",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 58
+  },
+  {
+    "movie_id": "013511a1-e008-49d6-96a8-585884586002",
+    "title": "Lenin",
+    "year": 2026,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "014f5dfb-4076-48af-890c-b21f5f475a76",
+    "title": "Nishabdham",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "017a991a-e435-439b-bbb3-c5b7d243a144",
+    "title": "Dirty Hari",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "01f58ea1-299a-4cd1-ac2c-b30dee342e20",
+    "title": "Idhe Maa Katha",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "01f92cc3-78d8-4eca-aa30-53b94ce2e963",
+    "title": "Alcohol",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "023e8662-be0b-45a4-8744-8e97195f0798",
+    "title": "Bhavanam",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "03788f74-ac6d-4d6b-a095-7d1cabf54913",
+    "title": "Circle",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "03ea9246-aacf-4d5a-b9c7-30ebc6a5310d",
+    "title": "Gudaputani",
+    "year": 2021,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "040cc0e9-67da-4749-a591-148536152d4e",
+    "title": "Valayam",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "047ffa11-3632-4c54-aa9b-c4237a9a7213",
+    "title": "Commitment",
+    "year": 2022,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "04ec16b9-d604-4ca2-b9af-a63aee1c6030",
+    "title": "Hanu-man",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "04ffeea4-226d-4788-b528-91a3bf4ebf22",
+    "title": "Gaalodu",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "051530d9-c140-4547-9596-36f84aaea8a9",
+    "title": "The Great Pre-Wedding Show",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "05172a1b-9407-4bef-a836-3e1a2ad9e794",
+    "title": "Maestro",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "0601e933-39ee-43fa-9ae2-b84b672183cc",
+    "title": "Hunt",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "07222a71-9e09-42aa-acd0-79903a4a18cf",
+    "title": "Siddharth Roy",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "07976920-4f85-4ae2-b14f-d9bad2e15efa",
+    "title": "Malini & Co.",
+    "year": 2015,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "07dee193-717d-4a37-93ce-801207169c01",
+    "title": "Sher",
+    "year": 2015,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "07e32452-2eee-459a-b78d-f040b0c0ed41",
+    "title": "Mail",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "082e9778-6a4a-44ab-a206-7ea5386eeb43",
+    "title": "Choosi Choodangaane",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "08dddea1-9617-4274-b0b1-02172de0b782",
+    "title": "Butta Bomma",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "08f206c0-8a25-4e95-8887-5de7fbc91cd9",
+    "title": "Ranasthali",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "097f2c9a-abd1-4e44-920d-66d7a3223dfa",
+    "title": "Sahakutumbaanaam",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 58
+  },
+  {
+    "movie_id": "09a5cb86-78c6-4325-98a0-d5686887aa39",
+    "title": "Ee Kathalo Paathralu Kalpitam",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "09a9450e-bdec-4c95-adaf-a36e1b1c0278",
+    "title": "Laggam",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "09ab6d8f-e23f-4854-8aa3-7371973b6d36",
+    "title": "Net",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0a2325af-0fbc-440f-85db-e89b539034af",
+    "title": "Muthayya",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0b1690fa-b617-47c7-8c25-31a92cb87811",
+    "title": "Sammohanam",
+    "year": 2018,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "0b47413f-165d-4dff-b262-f518bde41d9e",
+    "title": "1000 Waala",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0b5772ca-dd81-4a3f-9376-ca9810ab019e",
+    "title": "Santhana Prapthirasthu",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0ba0eaf7-0be5-47e4-8260-7abf9c567b1c",
+    "title": "Dark Chocolate",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0bbe41e7-a333-4eac-ad19-fdbe832a0fce",
+    "title": "Krishna Gaadi Veera Prema Gaadha",
+    "year": 2016,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0bc45bc9-b16f-45d3-a40d-fe9fda524109",
+    "title": "Bommala Koluvu",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "0bf919a7-a802-4877-9b25-8c30e487622c",
+    "title": "Dhamaka",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "0c25a83a-c0a9-469b-99ca-568d55a36023",
+    "title": "Masooda",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0c45340d-f37b-4533-a1e2-aa6606fb9ecf",
+    "title": "Sikandar Ka Muqaddar",
+    "year": 2024,
+    "missing_fields": [
+      "ratings",
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 67
+  },
+  {
+    "movie_id": "0c49a2f1-017f-46e3-936d-819cd2317ead",
+    "title": "Nayanthara: Beyond the Fairy Tale",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "ratings",
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 60
+  },
+  {
+    "movie_id": "0c8cebd2-365c-4d59-8710-9ed2662f15a5",
+    "title": "Janda Pai Kapiraju",
+    "year": 2015,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "0d4e22ea-38ae-4a0c-91ab-31ce013873a8",
+    "title": "Akshara",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "0e7b59ae-4cb6-4e04-8830-ef8de653e695",
+    "title": "Sivudu",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0eda22f5-4451-4614-bc4d-8e997ca33e56",
+    "title": "Dochevaarevarura",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "0ee2c153-fec8-4352-b30f-741eab42e56f",
+    "title": "Konjam Kadhal Konjam Modhal",
+    "year": 2025,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "0ef00a7b-cc1a-4e82-9e89-a60c271a4c0a",
+    "title": "Bhimaa",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0ef7d9e6-d637-4258-85b5-71b80939ba4a",
+    "title": "Maataraani Mounamidhi",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "0f1b7d6c-d909-4ea1-b9c1-33fcec1fe241",
+    "title": "First Day First Show",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "0f234118-13bc-4164-9d75-aeabc7037150",
+    "title": "Aay",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "0f31dbc3-9281-4594-aaae-f0f148f68f3f",
+    "title": "Alanaati Ramchandrudu",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "0f82ef00-bb2e-4938-9c1e-1c200ad01444",
+    "title": "Rules Ranjann",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "0fad4e96-7fa9-40f7-82dc-3aa0c4c34efd",
+    "title": "Raju Gari Ammayi Naidu Gari Abbayi",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 71
+  },
+  {
+    "movie_id": "10519e29-3944-40af-a478-f4bcc625975e",
+    "title": "Phalana Abbayi Phalana Ammayi",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1056aae6-3eb4-4482-bcf4-3b6aa8e3525f",
+    "title": "3 Monkeys",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "10a30dff-2d34-46bc-9271-bf0b84815df0",
+    "title": "Sikandar",
+    "year": 2025,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "10e3ce19-4d77-4cbc-8146-1a1c6c7ddefc",
+    "title": "Rangamarthanda",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "11094f6d-281d-47e9-aa62-790e00e5adfe",
+    "title": "Premistunnaa",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "11c89740-ac09-4680-a526-c76c529de658",
+    "title": "Geethanjali Malli Vachindi",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "11fae4f4-9c76-4b8b-858b-e3c8bcaacd1c",
+    "title": "C/o Kancharapalem",
+    "year": 2018,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "12286731-ec09-4792-9a82-b5bf9ae3d7b8",
+    "title": "Super Over",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "122cb544-1f3b-41e6-97b9-2726c09591a2",
+    "title": "Roberrt",
+    "year": 2021,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "1250a707-9ca0-4b53-91e8-dc7dba4644f3",
+    "title": "Fauji",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "125c58ef-1115-4ea1-9184-31263860ad0f",
+    "title": "Radhe Shyam",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "126fc4bd-25ef-49d6-b1c5-0444af3e12da",
+    "title": "7 Days 6 Nights",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "12d29504-6a82-4127-8b09-699431a72a8c",
+    "title": "Neeli Megha Shyama",
+    "year": 2025,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "12f44ed9-d14a-41c2-a3ca-a6f00d979e6b",
+    "title": "Manchi Rojulochaie",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "137b8999-3f39-4d53-8eb1-b1536f5d1c11",
+    "title": "Janaka Aithe Ganaka",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "13c7b6e4-09ea-4e77-8cb3-7272a29ea7a6",
+    "title": "Sagiletikatha",
+    "year": 2023,
+    "missing_fields": [
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "149c0023-bf8a-42b1-ada0-552c37b5b88f",
+    "title": "Meter",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "14bee483-6dde-4a53-afd5-f478d2e2fc58",
+    "title": "11:11",
+    "year": 2025,
+    "missing_fields": [
+      "producer",
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "14fa9664-5d61-4873-b3f6-b5da113115ec",
+    "title": "A (ad Infinitum)",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "155e3f01-01cc-4647-9419-40f000e646d7",
+    "title": "Tej... I Love You",
+    "year": 2018,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "15a30869-79a8-45f3-8b35-585660039f99",
+    "title": "Cinema Chupista Maava",
+    "year": 2015,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 68
+  },
+  {
+    "movie_id": "16903466-e6f6-46ff-9d24-f7a2f136871c",
+    "title": "Dragon",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "16c19053-9b1b-4f87-8188-b18cd24a784e",
+    "title": "Hero",
+    "year": 2022,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "16e7c5b3-6c24-47b0-9782-163d6bec7d7f",
+    "title": "Sarangadhariya",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "171bde9d-f4b2-4ab6-bb05-6b37bf1b944f",
+    "title": "Selfie Raja",
+    "year": 2016,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "172f3b50-0230-4758-b946-1faa6dce9d84",
+    "title": "O'Romeo",
+    "year": 2026,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "1770f974-d4d3-4c5f-b9ef-0e174db8ae02",
+    "title": "Two Souls",
+    "year": 2023,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 68
+  },
+  {
+    "movie_id": "17cfd6e7-5351-47ef-82f0-da0ee3338f84",
+    "title": "Janata Bar",
+    "year": 2025,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "17f09402-c572-4ec5-8890-949b4d3c7651",
+    "title": "Balamevvadu",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "17f5d45a-3664-48f0-8cc5-f78910bf5037",
+    "title": "Konda Polam",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "18efa533-62ff-46df-ba8a-e9e9a53222bc",
+    "title": "Ashtadigbandhanam",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "18f02dfc-f7fb-4029-b691-e3e27eb6f876",
+    "title": "Amma Deevena",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1943abfe-a92b-4eb7-9003-1e4dae66e166",
+    "title": "Veera Simha Reddy",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "197d0e1e-5f72-4bf2-9c74-b28f4595d910",
+    "title": "Ari: My Name is Nobody",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "19b0b6c1-8d9a-4b52-bd5b-1311969b76d0",
+    "title": "Peddi",
+    "year": 2026,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "1ab8dc4d-3539-46e3-a847-5f11561774f8",
+    "title": "Prema Pipasi",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1b031717-d31b-4bef-935d-f27d14eb04bc",
+    "title": "Next Nuvve",
+    "year": 2017,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "1b9ea456-12cf-43ec-967a-9f0bd1395bd0",
+    "title": "Gaali Sampath",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1bb83197-6681-4d32-ae6a-73282c4ce0dc",
+    "title": "Seetimaarr",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1bdb0a1e-af7f-4821-ae90-3967af9dc49a",
+    "title": "Market Mahalakshmi",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1bf8bc01-75a6-46de-991b-75bf4a5725e4",
+    "title": "Raahu",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1c0c9eba-1f78-46dd-943b-a050d1b593af",
+    "title": "Narappa",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "1c1b93b1-aa55-4b84-9d97-ce848e72e785",
+    "title": "Deyyam",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1c31eb51-3b2d-4b53-88b8-6b41def6600f",
+    "title": "Vishwak",
+    "year": 2022,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "1c5a3fa0-9635-4591-939f-9b98dce3584b",
+    "title": "Chi La Sow",
+    "year": 2018,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "1c965343-7cf9-4f71-aeec-e7f51add4086",
+    "title": "Lakshya",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "1c977a41-d3b7-48d7-a7e4-7623d13d81be",
+    "title": "7:11 PM",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "1cf5d5ee-3d38-411a-8996-0d264a6ebae4",
+    "title": "Sandeham",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 71
+  },
+  {
+    "movie_id": "1dbbedea-14d0-4d36-9bbb-33bfdf2f848b",
+    "title": "Manamey",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1dd98b74-7b63-4420-8cc4-744490d965ea",
+    "title": "Kothala Rayudu",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "1df48bb6-060c-4cf0-b704-e350f1c9c48f",
+    "title": "1997",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1ebf9c6b-681b-4649-8093-f58cbf6a5125",
+    "title": "Katha Venuka Katha",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "1f00e2b0-52cf-43dc-9dc3-8955f86d96eb",
+    "title": "Ilanti Cinema Meereppudu Chusundaru",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "1f509925-a7af-45e4-a1df-3b79fc66c43c",
+    "title": "Devi",
+    "year": 2020,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "1f876ebb-b748-46bb-80d5-9467d5cbf862",
+    "title": "Chandamama Raave Asap",
+    "year": 2021,
+    "missing_fields": [
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "1f8a6a75-e534-4367-8351-fea5406915c6",
+    "title": "Aatagadharaa Siva",
+    "year": 2018,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "1f8fa34e-41ed-4a79-8581-421273cd1d21",
+    "title": "The Trial",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "200053e3-5960-414a-ba16-43091d97e845",
+    "title": "Dheera",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2048c149-44a0-4af6-9e46-efd0eb14bba5",
+    "title": "Plot",
+    "year": 2023,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "20d26ca6-d754-4298-a3c1-baa20f05165b",
+    "title": "Salaar: Part 1 - Ceasefire",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2111caa0-9735-4117-babb-100976548d20",
+    "title": "Coffee With Kadhal",
+    "year": 2022,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 53
+  },
+  {
+    "movie_id": "2188466b-e25d-4b87-8078-052f3bf0aa9d",
+    "title": "Pranavam",
+    "year": 2021,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "21c96275-e376-4f33-9c22-231700a6cc9b",
+    "title": "A: Ad Infinitum",
+    "year": 2021,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "21cf5f47-6a82-4da7-ba58-a7b5101807b7",
+    "title": "Kalapuram",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "21efa351-4f7b-4c01-bd03-cc1b84687f78",
+    "title": "Ustaad",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "22e366f3-2562-44d5-8bdb-777a68f7ee7c",
+    "title": "Ramarao on Duty",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "233e8ad5-15fe-44f2-a717-2ce96b757aa4",
+    "title": "Gandharwa",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "236b3ae4-375e-43e4-81c2-f6ace19b5acf",
+    "title": "Srikakulam Sherlockholmes",
+    "year": 2024,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "23e394bf-3cdd-403b-88d7-fc9b2014394f",
+    "title": "Son of India",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "24166679-2203-4ffb-97f7-48e25b85db71",
+    "title": "Aranmanai 4",
+    "year": 2024,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "242ebf11-fae3-4bce-8cc6-9e0b60898a44",
+    "title": "Elumale",
+    "year": 2025,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "24b65a6e-c857-42cf-996b-d38f6177d290",
+    "title": "Mix Up",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2540035e-9d68-4594-b6ba-b48c972305c9",
+    "title": "Asvins",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "25769ba3-e53e-402f-8d1c-fd15c10c28bc",
+    "title": "Meka Suri",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "25b9fa59-1897-48c0-9a94-35e2b2e7e84c",
+    "title": "Life Anubavinchu Raja",
+    "year": 2020,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 57
+  },
+  {
+    "movie_id": "25ea0415-01a2-4191-8ed5-f55ba5a31d69",
+    "title": "Sundaram Master",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "27f5de40-854d-49ed-9a71-4eb235d63104",
+    "title": "The American Dream",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "28b396a0-1f32-400a-b67d-8d9e9d9f5048",
+    "title": "Achari America Yatra",
+    "year": 2018,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 83
+  },
+  {
+    "movie_id": "296ec7d3-562c-4ac2-a447-06b29e70ac32",
+    "title": "Shukra",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "297d90d9-b7f1-4c32-a6af-f8109e319979",
+    "title": "Vyooham",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "29998589-90de-46ee-8b54-307e2cc38c9f",
+    "title": "Double iSmart",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "29b0e653-baa2-4014-82bb-2f52ac258f87",
+    "title": "Tholi Prema",
+    "year": 2018,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2a43b52d-3cc1-495f-8b72-3aa75c67b44e",
+    "title": "Prasannavadanam",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "2afdafa7-3a53-4552-a9e8-ef6a3f785f6d",
+    "title": "Bhartha Mahasayulaku Wignyapthi",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2b6136f3-0281-4d87-b51c-2345a4b0d604",
+    "title": "Guvva Gorinka",
+    "year": 2020,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2bbfeb13-0c5d-44a6-a4d2-e24d3f3b7106",
+    "title": "Dongalunnaru Jagratha",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2bf98562-c545-4a87-9fb8-cc8370b53941",
+    "title": "Napoleon",
+    "year": 2017,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2bf9a911-89ad-4f8f-be79-ad90f0d1a5ee",
+    "title": "Rush",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2c1b0019-4f50-4681-86cb-f5d0a4700139",
+    "title": "Maya Petika",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "2c253417-1af2-479b-918b-a0a800aee19c",
+    "title": "I Hate You",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2c705228-bf3c-4083-ac28-dfacbd14ff01",
+    "title": "Game Changer",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2c8c9285-69c9-4a8f-80da-42286d4eb79f",
+    "title": "Sabhaku Namaskaram",
+    "year": 2026,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "2d171b21-37dc-480c-b2f8-c1d886f090fb",
+    "title": "Lover",
+    "year": 2018,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2d424bf8-c795-45e7-9036-492b8ede94a0",
+    "title": "Ek",
+    "year": 2019,
+    "missing_fields": [
+      "music_director",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 84
+  },
+  {
+    "movie_id": "2d5ade04-181a-4c49-98d9-b8bc3114cacb",
+    "title": "Aaradugula Bullet",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "2d826f30-9c07-43ab-9c38-ea68c43afe80",
+    "title": "A1 Express",
+    "year": 2021,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2e3494a8-5894-42db-97ab-349c15792cf1",
+    "title": "Bhola Shankar",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2e52dd37-be49-4e93-8799-b297ba6f12bc",
+    "title": "Thathsama Thathbhava",
+    "year": 2023,
+    "missing_fields": [
+      "music_director",
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "2ea78dec-dd19-4c6f-b93d-28c8d6dfa92b",
+    "title": "Shyam Singha Roy",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "2eda5147-c5d4-43ff-9aaf-9854130829a5",
+    "title": "Pellikuturu Party",
+    "year": 2022,
+    "missing_fields": [
+      "producer",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 73
+  },
+  {
+    "movie_id": "2eddc6b0-cc99-45c2-9e55-4b57b9088fda",
+    "title": "We Love Bad Boys",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "2f56bb52-9f18-4e0b-a321-ea7a0efac669",
+    "title": "Mosagallaku Mosagadu",
+    "year": 2015,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "2fef0ca5-b6a5-42e8-992d-0df04894afe0",
+    "title": "Echo",
+    "year": 2023,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "3041af35-cd84-4479-b587-8fbb5931c8ea",
+    "title": "Cinema Bandi",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "306581c5-37f3-430b-9598-98407d25175c",
+    "title": "Lakshmi Bomb",
+    "year": 2017,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "30796ff5-408f-4f7a-b9a2-42ae6959e571",
+    "title": "Desamlo Dongalu Paddaru",
+    "year": 2018,
+    "missing_fields": [
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 70
+  },
+  {
+    "movie_id": "30caae8c-c9b0-4a62-bb77-f8521a58db95",
+    "title": "Pareshan",
+    "year": 2023,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "30caf3c0-6999-4aa4-a4d3-bfb3230a0165",
+    "title": "Merise Merise",
+    "year": 2021,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "3187e60d-0fc4-4bc8-9227-c13b3ee9728d",
+    "title": "Jaanu",
+    "year": 2020,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "319df94e-69e6-417f-9b9b-05f6cee68411",
+    "title": "Madhi",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "31ea2616-d203-4244-9df4-af7f589d74e6",
+    "title": "Geetasakshigaa",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "32f15694-0b9d-4282-8f23-9b210e484af6",
+    "title": "Seetha Payanam",
+    "year": 2026,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "332e9e75-e504-42ea-9504-b362735f6d7c",
+    "title": "Alluri",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "341937e5-04fc-4158-a266-19bb1df402cf",
+    "title": "Bheemla Nayak",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "3423315f-5a53-4352-8d4d-7f4df2209f76",
+    "title": "Bench Life",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "3450f8d5-3512-4edd-9327-04a3d1f2c86d",
+    "title": "Mishan Impossible",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "345e8989-bdc7-45b5-b1ae-3c83ddb7bf9d",
+    "title": "Jaat",
+    "year": 2025,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "34825973-65dd-4b2b-b0d9-c28ba5f4a870",
+    "title": "Akkada Ammayi Ikkada Abbayi",
+    "year": 2025,
+    "missing_fields": [
+      "editorial_review"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "3500c2bf-3823-4b04-8aa3-0b9483d8d272",
+    "title": "The Raja Saab",
+    "year": 2026,
+    "missing_fields": [
+      "ratings",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 56
+  },
+  {
+    "movie_id": "3511afbb-3254-4755-a5f9-0a451545e353",
+    "title": "Panchatantra Kathalu",
+    "year": 2022,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "351c5961-f250-4e10-9f01-d29f934ed24b",
+    "title": "Nari Nari Naduma Murari",
+    "year": 2026,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 61
+  },
+  {
+    "movie_id": "35514c0c-110a-40dc-b06f-21a5972f7133",
+    "title": "105 Minuttess",
+    "year": 2024,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "35f3e02d-0774-4cf7-b130-89fa716288bc",
+    "title": "Anni Manchi Sakunamule",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  },
+  {
+    "movie_id": "360b1a05-6f74-4f9b-820e-0d899cfc648f",
+    "title": "Parakramam",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 86
+  },
+  {
+    "movie_id": "37c7043c-2c7f-41f5-8a54-cf7090187e07",
+    "title": "Music School",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "37eefd7c-0b4b-455a-8353-14f3f7146995",
+    "title": "Ghani",
+    "year": 2022,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "38820866-3e57-449a-b385-64ba142479a5",
+    "title": "Thalakona",
+    "year": 2024,
+    "missing_fields": [
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "3882480a-60b0-47cf-8a07-1b7eab168605",
+    "title": "Kshanam",
+    "year": 2016,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 72
+  },
+  {
+    "movie_id": "398873f9-2956-4f71-913c-c300413bb246",
+    "title": "Drill",
+    "year": 2024,
+    "missing_fields": [
+      "music_director",
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 59
+  },
+  {
+    "movie_id": "39b0a78b-3f23-4d3e-8849-a101828d3c7c",
+    "title": "Where Is the Venkatalakshmi",
+    "year": 2019,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 75
+  },
+  {
+    "movie_id": "39d235e0-b787-4379-9f88-c4b75d0bd73a",
+    "title": "Mr. Pregnant",
+    "year": 2023,
+    "missing_fields": [
+      "editorial_review",
+      "trailer_url"
+    ],
+    "priority": "medium",
+    "visibility_score": 60,
+    "quality_score": 64
+  }
+]

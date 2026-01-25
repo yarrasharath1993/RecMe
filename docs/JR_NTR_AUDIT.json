@@ -1,0 +1,15 @@
+{
+  "actorName": "Jr NTR",
+  "debutYear": 2001,
+  "wikipediaFilmCount": 31,
+  "databaseFilmCount": 2,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "2002": 1,
+    "2011": 1
+  },
+  "summary": "Count mismatch: DB=2, Wiki=~31"
+}

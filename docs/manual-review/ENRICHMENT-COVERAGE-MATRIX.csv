@@ -1,0 +1,50 @@
+Field Category,Field Name,Can Auto-Enrich,Primary Source,Notes
+Basic Metadata,title_en,Yes,TMDB,Fully automated
+Basic Metadata,title_te,No,Manual,Requires human input
+Basic Metadata,release_year,Yes,TMDB,Fully automated
+Basic Metadata,release_date,No,Manual,Requires human input
+Basic Metadata,runtime_minutes,Yes,TMDB,Fully automated
+Basic Metadata,language,No,Manual,Requires human input
+Basic Metadata,certification,Yes,TMDB,Fully automated
+Basic Metadata,status,No,Manual,Requires human input
+Visual Assets,poster_url,Yes,TMDB,Fully automated
+Visual Assets,backdrop_url,Yes,TMDB,Fully automated
+Visual Assets,cast_images,No,Manual,Requires human input
+Visual Assets,scene_images,No,Manual,Requires human input
+Synopsis & Content,synopsis,Partial,TMDB/AI,AI can generate, needs review
+Synopsis & Content,synopsis_te,Partial,AI Translation,AI translation, needs review
+Synopsis & Content,tagline,No,Manual,Requires human input
+Synopsis & Content,plot_keywords,No,Manual,Requires human input
+Cast & Crew,director,Yes,TMDB/IMDb,Partial automation
+Cast & Crew,hero,Yes,TMDB/IMDb,Partial automation
+Cast & Crew,heroine,Yes,TMDB/IMDb,Partial automation
+Cast & Crew,music_director,Yes,TMDB/IMDb,Partial automation
+Cast & Crew,producer,No,Manual,Requires human input
+Cast & Crew,cinematographer,No,Manual,Requires human input
+Cast & Crew,editor,No,Manual,Requires human input
+Cast & Crew,writer,No,Manual,Requires human input
+Cast & Crew,lyricist,No,Manual,Requires human input
+Cast & Crew,supporting_cast,No,Manual,Requires human input
+Genres & Tags,genres,Yes,TMDB,Fully automated
+Genres & Tags,is_blockbuster,No,Manual,Requires human input
+Genres & Tags,is_classic,No,Manual,Requires human input
+Genres & Tags,is_underrated,No,Manual,Requires human input
+Genres & Tags,is_featured,No,Manual,Requires human input
+Ratings & Reviews,our_rating,No,Manual,Requires human input
+Ratings & Reviews,avg_rating,No,Manual,Requires human input
+Ratings & Reviews,editorial_score,No,Manual,Requires human input
+Ratings & Reviews,imdb_rating,No,Manual,Requires human input
+Ratings & Reviews,tmdb_rating,No,Manual,Requires human input
+Ratings & Reviews,editorial_review,No,Manual,Requires human input
+Production Details,budget,No,Manual,Requires human input
+Production Details,box_office,No,Manual,Requires human input
+Production Details,production_house,No,Manual,Requires human input
+Production Details,distributor,No,Manual,Requires human input
+Media & Links,trailer_url,Partial,YouTube,Can search YouTube, needs verification
+Media & Links,video_urls,No,Manual,Requires human input
+Media & Links,tmdb_id,Yes,Search,Automated search
+Media & Links,imdb_id,Yes,Search,Automated search
+Media & Links,wikipedia_url,No,Manual,Requires human input
+Awards & Recognition,awards,No,Manual,Requires human input
+Awards & Recognition,nominations,No,Manual,Requires human input
+Awards & Recognition,film_festival_entries,No,Manual,Requires human input

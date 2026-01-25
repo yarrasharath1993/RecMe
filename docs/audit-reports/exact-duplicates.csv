@@ -1,0 +1,29 @@
+ID1,Title1,Year1,Slug1,ID2,Title2,Year2,Slug2,MatchType,Confidence,Action
+8aaa133c-cd65-43d1-b11f-69963d255bf7,Arjun S/O Vyjayanthi,2025,arjun-so-vyjayanthi-2025,6e1c52a0-4564-4a82-ac77-bfd246fd8593,Arjun S/o Vyjayanthi,2025,arjun-s-o-vyjayanthi-2025,exact_title_year,100.0%,merge_recommended
+10ba590f-9b6c-44e6-ac5a-ba965d006cde,Bāhubali: The Epic,2025,bahubali-the-epic-2025,8da290f9-a106-4f20-a984-74ec34fa851a,Bāhubali: The Epic,2025,b-hubali-the-epic-2025,exact_title_year,100.0%,merge_recommended
+13d107f1-cdc2-4da1-9ee8-c29687d7e427,The Family Star,2024,star-2024,436d75ab-f61d-481b-ac63-c8fec35ce658,The Family Star,2024,the-family-star-2024,exact_title_year,100.0%,merge_recommended
+c6aa0c78-3300-4b1b-a2bd-343ee93be13d,RRR: Behind & Beyond,2024,rrr-behind-and-beyond-2024,388b05da-5217-4eb5-ac82-7cc7401b3f48,RRR: Behind & Beyond,2024,rrr-behind-beyond-2024,exact_title_year,100.0%,merge_recommended
+b677919a-b5b0-4eb6-a62c-e0c949fec9a4,10th Class Diaries,2022,10-2022,9e61ecf7-8eef-476a-9633-55602de0788f,10th Class Diaries,2022,10th-class-diaries-2022,exact_title_year,100.0%,merge_recommended
+5ac3e442-bd12-42a0-85e3-0c8fc5dcf899,Fauzi,,fauzi-tba,1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,fauji-2026,same_tmdb_id,98.0%,merge_recommended
+dad25d47-0f34-440c-87b5-98da28bd9778,NTR Neel,,ntr-neel-tba,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,dragon-ntr-2026,same_tmdb_id,98.0%,merge_recommended
+3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,the-raja-saab-2026,565a96a9-ebff-4cdf-ae39-bdb26c4acfb6,The Rajasaab,2026,the-rajasaab-2026,same_tmdb_id,98.0%,merge_recommended
+5ac3e442-bd12-42a0-85e3-0c8fc5dcf899,Fauzi,,fauzi-tba,ec935cb7-6256-4e70-948a-1b0e99ddd368,Fauzi,2026,fauzi-2026,same_tmdb_id,98.0%,merge_recommended
+d79b6116-9e21-4b3b-b041-2cecad34f864,The King of Kings,2025,the-king-of-kings-2025,2d747ddf-da74-4d00-a25d-671bde2ab788,Andhra King Taluka,2025,andhra-king-taluka-2025,same_tmdb_id,98.0%,merge_recommended
+0e7dd87c-3f7a-4979-8f41-bab736376a16,Anaganaga,2025,anaganaga-2025,feb72380-b566-40e0-abf6-8dfb199bcde6,Anaganaga Australia Lo,2025,anaganaga-australia-lo-2025,same_tmdb_id,98.0%,merge_recommended
+10ba590f-9b6c-44e6-ac5a-ba965d006cde,Bāhubali: The Epic,2025,bahubali-the-epic-2025,dd38c3da-0f8b-4883-a74a-c9bb53e3280a,Baahubali: The Epic,2025,baahubali-the-epic-2025,same_tmdb_id,98.0%,merge_recommended
+4ac2b5ff-e664-4f48-bcad-a0923b4ad192,Chaurya Paatham,2025,chaurya-paatham-2025,a7aa9ae5-0409-421d-94d3-0ac211987208,Chaurya Paatam,2025,chaurya-paatam-2025,same_tmdb_id,98.0%,merge_recommended
+df62cba3-6cc3-4bc1-a123-1b5888565bb8,Arjun Son of Vyjayanthi,2025,arjun-son-of-vyjayanthi-2025,8aaa133c-cd65-43d1-b11f-69963d255bf7,Arjun S/O Vyjayanthi,2025,arjun-so-vyjayanthi-2025,same_tmdb_id,98.0%,merge_recommended
+df62cba3-6cc3-4bc1-a123-1b5888565bb8,Arjun Son of Vyjayanthi,2025,arjun-son-of-vyjayanthi-2025,6e1c52a0-4564-4a82-ac77-bfd246fd8593,Arjun S/o Vyjayanthi,2025,arjun-s-o-vyjayanthi-2025,same_tmdb_id,98.0%,merge_recommended
+4ff6082f-4b3c-4f5c-bfda-6c18efeae670,Arjun Chakravarthy,2025,arjun-chakravarthy-2025,f312670a-5a2c-4452-96ef-5708615dc9c0,Champion,2025,champion-2025,same_tmdb_id,98.0%,merge_recommended
+3baf9e44-580c-48d9-b274-817ae19a0ee9,Enuguthondam Ghatikachalam,2025,enuguthondam-ghatikachalam-2025,e3e8ec8d-4d10-40ec-9658-99019d914cb5,Ghatikachalam,2025,ghatikachalam-2025,same_tmdb_id,98.0%,merge_recommended
+061e48a7-85c5-4bd9-af6c-afc7da7a0f4e,Hari Hara Veera Mallu: Part 1 – Sword vs Spirit,2025,hari-hara-veera-mallu-part-1-sword-vs-spirit-2025,2d957e9a-4ec8-4360-89bd-43183063698b,Hari Hara Veera Mallu,2025,hari-hara-veera-mallu-2025,same_tmdb_id,98.0%,merge_recommended
+fae84446-8b02-4d04-8724-cf5740fd4edc,Shashtipoorthi,2025,shashtipoorthi-2025,757ef834-7d39-4a4a-a178-5e51affd850d,Shashtipoorti,2025,shashtipoorti-2025,same_tmdb_id,98.0%,merge_recommended
+00fedf3f-94be-417e-a315-2c2e1197a176,Ala Ninnu Cheri,2023,ala-ninnu-cheri-2023,23288b95-16f9-450f-a8fd-142dc3793f5e,Alaa Ninnu Cheri,2023,alaa-ninnu-cheri-2023,same_tmdb_id,98.0%,merge_recommended
+ba91beba-f2e0-4b87-9ed4-00310d90657e,Bhuvanavijayam,2023,bhuvanavijayam-2023,3501ee67-4b7a-4d7f-80c9-c08fd3d767b0,Bhuvana Vijayam,2023,bhuvana-vijayam-2023,same_tmdb_id,98.0%,merge_recommended
+c9a3ae2f-1285-4df1-be68-4509d13d17bb,Skanda: The Attacker,2023,skanda-the-attacker-2023,a99504c0-479c-4595-9369-fa29dabc80da,Skanda,2023,skanda-2023,same_tmdb_id,98.0%,merge_recommended
+e954a4cc-7797-4c9a-9e35-ae3c6a608f89,Viraata Parvam,2022,viraata-parvam-2022,8a35b4e7-af5e-46a6-9afe-0061263bbfa7,Virata Parvam,2022,virata-parvam-2022,same_tmdb_id,98.0%,merge_recommended
+b305a95f-44ac-4d42-b5ca-c58f48fc5029,"Like, Share & Subscribe",2022,like-share-subscribe-2022,761ab4cd-46d8-48d9-92bb-dd3542dfe4d5,Like Share & Subscribe,2022,like-share-and-subscribe-2022,same_tmdb_id,98.0%,merge_recommended
+773341f9-045e-467b-a070-ccbb120009fd,Konda,2022,konda-2022,f617df10-0268-4842-b7f0-3539865ba089,Kondaa,2022,kondaa-2022,same_tmdb_id,98.0%,merge_recommended
+8d49f7c3-b928-4f5d-a5c2-ea18b09c670c,Mirai,2025,mirai-2025,f6cd0d92-ac4f-4c21-a18a-ff1c263596e1,Mirai (2025 film),2025,mirai-2025-film-2025,same_imdb_id,98.0%,merge_recommended
+d9dfc57a-15d6-4644-8674-afa8423fec30,Bachhala Malli,2024,bachhala-malli-2024,6e7286b1-bafd-40c1-8086-ca30ff7df239,Bachchala Malli,2024,bachchala-malli-2024,same_imdb_id,98.0%,merge_recommended
+c5fa9d9a-54eb-4a1a-9e6f-52d3dbcd675d,Kuberaa,2025,kuberaa-2025,6b46118f-f4c1-4091-bd69-b73b521ac2dc,Kubera,2024,kubera-2024,same_imdb_id,98.0%,merge_recommended

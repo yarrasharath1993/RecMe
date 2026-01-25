@@ -1,0 +1,542 @@
+id,slug,title,year,category,issue_type,field,current_value,suggested_fix,severity,auto_fixable
+"2111caa0-9735-4117-babb-100976548d20","coffee-with-kadhal-2022","Coffee With Kadhal",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Malavika Sharma","Remove from supporting cast","medium",true
+"3255c334-fd81-4e1f-b453-20b0570844a0","aadi-lakshmi-2006","Aadi Lakshmi",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"1a875f10-3238-4b42-a00f-8830efd3ca37","uppukandam-brothers-back-in-action-2011","Uppukandam Brothers Back In Action",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vani Viswanath","Remove from supporting cast","medium",true
+"3b1c9dba-77b2-4239-aa33-c6c0d267d4f6","poster-2021","Poster",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shivaji Raja","Remove from supporting cast","medium",true
+"25b9fa59-1897-48c0-9a94-35e2b2e7e84c","life-anubavinchu-raja-2020","Life Anubavinchu Raja",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shruti Sharan Shetty","Remove from supporting cast","medium",true
+"df2f6e50-338d-4aca-875b-64d97bbd5cb7","salt-2021","Salt",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rishika Singh","Remove from supporting cast","medium",true
+"74bbdc9c-6159-4b7d-b3a0-aad89701a7dc","jumma-chumma-in-london-1991","Jumma Chumma In London",1991,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"cdf20f6d-4ff4-412a-8104-1d6d886afe66","ooriki-uttharana-2021","Ooriki Uttharana",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Dipali Sharma","Remove from supporting cast","medium",true
+"1ac78db4-557d-4112-8582-3f1fcfe0f65f","kushi-kushiga-2004","Kushi Kushiga",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ramya Krishnan","Remove from supporting cast","medium",true
+"27c2e806-ab67-4458-a9be-a1efab1c8082","mirai-2025","Mirai",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ritika Nayak","Remove from supporting cast","medium",true
+"a2d270c7-61e6-4a39-ae6a-0e30f31321d2","natudu-tba","Natudu",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Navdeep","Remove from supporting cast","medium",true
+"38b39aa5-8be6-4e49-b527-79966a1fec8a","parvathi-parameswarulu-1981","Parvathi Parameswarulu",1981,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"34298994-18a9-4c13-bb77-525cba15595a","devi-sri-prasad-2017","Devi Sri Prasad",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pooja Ramachandran","Remove from supporting cast","medium",true
+"b54d0fb2-e726-40e3-85e0-f9c1e10b948e","nuvvila-2011","Nuvvila",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vijay Deverakonda","Remove from supporting cast","medium",true
+"d75c4f63-8542-4216-8028-b19a8fd48b48","auto-driver-1998","Auto Driver",1998,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Simran","Remove from supporting cast","medium",true
+"a3de9c9a-df64-4101-85f8-2df9fafb8a95","anjaneyulu-2009","Anjaneyulu",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kim Sharma","Remove from supporting cast","medium",true
+"cc11f68c-8b2f-4d7c-82b9-e19c5edb3f3c","azad-2000","Azad",2000,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soundarya","Remove from supporting cast","medium",true
+"36818d72-8eae-417f-b775-66076bf33f1e","ram-avtar-1988","Ram-Avtar",1988,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"22bb7578-87b8-46b2-bcd3-2c8d64603a7f","baanam-2009","Baanam",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sayaji Shinde","Remove from supporting cast","medium",true
+"75a0c489-7cb7-48ab-a94e-4c999eab6fc5","ganesh-2009","Ganesh",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"0d030ff9-f660-4262-878b-34541d411b0a","idi-katha-kaadu-1979","Idi Katha Kaadu",1979,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamal Haasan","Remove from supporting cast","medium",true
+"ce8c1863-6f9e-4bb1-903a-359a7f97d768","santosham-2002","Santosham",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gracy Singh","Remove from supporting cast","medium",true
+"72f9afc4-80ad-492d-a4ab-ccfe556ac936","kalki-2898-ad-part-2-tba","Kalki 2898-AD: Part 2",2027,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prabhas","Remove from supporting cast","medium",true
+"d9c427f3-cf95-4e2c-9dd5-b7288ff17d24","100-crores-2024","100 Crores",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chetan Kumar","Remove from supporting cast","medium",true
+"08b54c86-914d-4804-be40-939e37bd1cf8","parichayam-2018","Parichayam",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Virat Konduru","Remove from supporting cast","medium",true
+"6db4edff-700c-4af1-a900-96d006a8d749","snehamante-idera-2001","Snehamante Idera",2001,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhumika Chawla","Remove from supporting cast","medium",true
+"448e40ba-d800-47fe-9ffb-68014fa30aaf","muduvandala-muppai-nalugo-katha-2017","Muduvandala Muppai Nalugo Katha",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vinay","Remove from supporting cast","medium",true
+"dae3530a-2e88-472b-a281-9650fb9d6010","vikramarkudu-2006","Vikramarkudu",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"e57ba6a1-4e4e-4ad2-bcaf-576b85532499","dohchay-2015","Dohchay",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"a4afdffb-c673-485e-85d9-fceb44932a25","vaanam-2011","Vaanam",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"417797f9-f988-40b6-a388-b5179e5ab865","moondru-mudichu-1976","Moondru Mudichu",1976,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"1c56d0c1-5b55-4a00-9a1a-6186aa6a956f","mundadugu-1983","Mundadugu",1983,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"07281748-889b-4ef8-a554-d9d4d6810016","4-letters-2020","4 Letters",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Dhanraj Sukhram","Remove from supporting cast","medium",true
+"90f8534d-d71a-49bd-ac3c-8fc926a0ca15","kinnerasani-2022","Kinnerasani",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ann Sheetal","Remove from supporting cast","medium",true
+"50b7d712-1cdb-4bc0-a299-ca3cc6c9ba33","kuberulu-2008","Kuberulu",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Farzana Barucha","Remove from supporting cast","medium",true
+"30796ff5-408f-4f7a-b9a2-42ae6959e571","desamlo-dongalu-paddaru-2018","Desamlo Dongalu Paddaru",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tanishq Rajan","Remove from supporting cast","medium",true
+"c488e3c3-9a44-4393-8d1b-7190254a506b","kalidasu-2008","Kalidasu",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayasudha","Remove from supporting cast","medium",true
+"c9c8c357-d66f-493a-88ca-a80e4bce4c81","needi-naadi-oke-katha-2018","Needi Naadi Oke Katha",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Satna Titus","Remove from supporting cast","medium",true
+"7da9de1e-b388-4468-b116-7ef9ccd40341","insaniyat-1994","Insaniyat",1994,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"38a75021-b146-4c61-8ded-2a393423c86c","jeevan-yudh-1997","Jeevan Yudh",1997,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"d39489d8-13ff-4172-bafd-22c8e0403f0b","gayatri-2018","Gayatri",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shriya Saran","Remove from supporting cast","medium",true
+"5b809714-e54b-4fe5-a9b9-9f3aa6878ea5","all-in-all-azhagu-raja-2013","All in All Azhagu Raja",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kajal Aggarwal","Remove from supporting cast","medium",true
+"3ae338b8-cf34-4e4a-96d6-8d97a67de732","ee-nagaraniki-emaindi-2018","Ee Nagaraniki Emaindi?",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anisha Ambrose","Remove from supporting cast","medium",true
+"ece482e4-b7e6-46b9-bf85-07347f5fb933","naayak-2013","Naayak",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amala Paul","Remove from supporting cast","medium",true
+"54870391-fc5e-443e-a978-8d49e2923842","anthervedam-2018","Anthervedam",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amar","Remove from supporting cast","medium",true
+"48789529-f7cc-481b-8bfb-e7982ff9f4e6","lakshyam-2007","Lakshyam",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"28fc56e8-bd4a-4517-9d3d-429b016b8af3","autonagar-surya-2014","Autonagar Surya",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"fb999fd1-1cb7-479b-9881-3176071bfb57","madhumasam-2007","Madhumasam",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Parvati Melton","Remove from supporting cast","medium",true
+"8f8f196a-52cd-4d63-93f8-94c484a7fe73","naa-peru-surya-naa-illu-india-2018","Naa Peru Surya - Naa Illu India",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anu Emmanuel","Remove from supporting cast","medium",true
+"18ac1886-dcfa-4888-92ea-d0f1b60adf66","bhale-manchi-chowka-beram-2018","Bhale Manchi Chowka Beram",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Raja Ravindra","Remove from supporting cast","medium",true
+"19e67d12-291b-4ba3-82ab-8d592a5a220b","shankar-dada-zindabad-2007","Shankar Dada Zindabad",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Karishma Kotak","Remove from supporting cast","medium",true
+"19735842-db3d-4def-adcb-99b12904cb48","classmates-2007","Classmates",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamalinee Mukherjee","Remove from supporting cast","medium",true
+"cc4b0f77-540d-4b36-bea9-82c00468bcea","mehbooba-2018","Mehbooba",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Akash Puri","Remove from supporting cast","medium",true
+"e71b20ba-0488-41ed-bfe0-5f18f4efad84","happy-birthday-2022","Happy Birthday",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soorya Dayaruwan","Remove from supporting cast","medium",true
+"d8c382fe-a059-4e6b-b417-18c56b065fce","adhrushyam-2019","Adhrushyam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jabardasth Apparao","Remove from supporting cast","medium",true
+"1e0ce6fe-0058-4097-9069-6879f475350e","rendu-2006","Rendu",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"1b896e38-4d93-4dfb-ab6a-5b80d76b2282","devadas-2018","Devadas",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rashmika Mandanna","Remove from supporting cast","medium",true
+"1f00e2b0-52cf-43dc-9dc3-8955f86d96eb","ilanti-cinema-meereppudu-chusundaru-2025","Ilanti Cinema Meereppudu Chusundaru",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Deepti Sanjeev Sivan","Remove from supporting cast","medium",true
+"b5c120b6-a177-4775-8ff0-60eecc178ae6","ranam-2006","Ranam",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jeeva","Remove from supporting cast","medium",true
+"3500c2bf-3823-4b04-8aa3-0b9483d8d272","the-raja-saab-2026","The Raja Saab",2026,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nidhhi Agerwal","Remove from supporting cast","medium",true
+"4648b2bd-4872-4470-958f-e646296f5b1b","yamadonga-2007","Yamadonga",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mamta Mohandas","Remove from supporting cast","medium",true
+"30caae8c-c9b0-4a62-bb77-f8521a58db95","pareshan-2023","Pareshan",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pavani Karanam","Remove from supporting cast","medium",true
+"5a9b6d99-400a-46d6-912a-90be32e0bc9b","bhageeratha-2005","Bhageeratha",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prakash Raj","Remove from supporting cast","medium",true
+"1b5ccc55-6472-4b96-a70f-794cda1a5fd5","hyderabad-love-story-2018","Hyderabad Love Story",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sija Rose","Remove from supporting cast","medium",true
+"90e5c2b2-3e7b-47ed-9d79-25b39eacc26f","jai-chiranjeeva-2005","Jai Chiranjeeva",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sameera Reddy","Remove from supporting cast","medium",true
+"e45f7aa0-407f-41ce-8e40-7150011f1a6b","sravanamasam-2005","Sravanamasam",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Krishna","Remove from supporting cast","medium",true
+"85091a46-eb10-4680-8dd4-7cdb33e11150","appatlo-okadundevadu-2016","Appatlo Okadundevadu",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tanya Hope","Remove from supporting cast","medium",true
+"f1009a2e-0399-44aa-ba30-d3acf9667d10","veerabhadra-2006","Veerabhadra",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tanushree Dutta","Remove from supporting cast","medium",true
+"7626b944-a4b8-4573-b0d9-04fb51654e04","utsavam-2024","Utsavam",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prakash Raj","Remove from supporting cast","medium",true
+"ae5aca88-a58f-4627-8b11-02fdc109eeab","vinara-sodara-veera-kumara-2019","Vinara Sodara Veera Kumara",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Srinivasa Sayee","Remove from supporting cast","medium",true
+"2c705228-bf3c-4083-ac28-dfacbd14ff01","game-changer-2025","Game Changer",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kiara Advani","Remove from supporting cast","medium",true
+"23c499a6-9b51-4727-a4b4-4c1930fdcb09","adavi-ramudu-2004","Adavi Ramudu",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"3f912b41-14cb-4902-9e56-b86e2b7f0f34","naaga-2003","Naaga",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sadha","Remove from supporting cast","medium",true
+"09728d1d-6eaf-4416-b78e-8021877cec40","jyothi-lakshmi-2015","Jyothi Lakshmi",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"b2c20516-d0de-4d9a-a75b-f4d88844c77b","brahma-anandam-2025","Brahma Anandam",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priya Vadlamani","Remove from supporting cast","medium",true
+"9dfbcde9-f7f4-4035-bebf-78d9d4e3345c","namo-venkatesa-2010","Namo Venkatesa",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"72f0f675-f36c-4853-a917-2804198dadc4","sri-anjaneyam-2004","Sri Anjaneyam",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Arjun Sarja","Remove from supporting cast","medium",true
+"2896527a-b306-493a-ad88-a386f45c6edc","o-kala-2023","O Kala",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ali Basha","Remove from supporting cast","medium",true
+"7c8390e7-9fb9-4b30-a7d9-d216af1f7b01","golmaal-2003","Golmaal",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Meera Vasudevan","Remove from supporting cast","medium",true
+"80846f34-f6ee-469b-bf37-37fd09870de5","organic-mama-hybrid-alludu-2023","Organic Mama Hybrid Alludu",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rajendra Prasad","Remove from supporting cast","medium",true
+"220065fa-a5cd-4f61-a401-a470759ae76d","gangotri-2003","Gangotri",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"422b6457-0e66-4546-868c-cc93b6a7c6b5","sri-bannari-amman-2002","Sri Bannari Amman",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vijayashanti","Remove from supporting cast","medium",true
+"3738789b-a535-4513-aca8-e80288d3dc86","seenu-vasanthi-lakshmi-2004","Seenu Vasanthi Lakshmi",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Navaneet Kaur","Remove from supporting cast","medium",true
+"4601f33d-fcff-4551-ac3b-829483c2efea","ivan-2002","Ivan",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soundarya","Remove from supporting cast","medium",true
+"ae0a33c7-ca39-4f0a-a681-02404accecef","bomma-adirindi-dimma-tirigindi-2021","Bomma Adirindi Dimma Tirigindi",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Avanthika Harinalwa","Remove from supporting cast","medium",true
+"11afa2cc-2c10-4dae-9d0d-30d2361a3171","sundari-2021","Sundari",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rakendu Mouli","Remove from supporting cast","medium",true
+"2188466b-e25d-4b87-8078-052f3bf0aa9d","pranavam-2021","Pranavam",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gemini Suresh","Remove from supporting cast","medium",true
+"e06dd63f-a8e5-4a0b-b1eb-2ef8b0a9eb38","johaar-2020","Johaar",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chaitanya Krishna","Remove from supporting cast","medium",true
+"3556810b-dd9f-4f4c-b888-d65fe5b0b229","thipparaa-meesam-2019","Thipparaa Meesam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nikki Tamboli","Remove from supporting cast","medium",true
+"46687840-0aed-4785-84b0-364fcf466913","vamsodharakudu-2000","Vamsodharakudu",2000,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ramya Krishnan","Remove from supporting cast","medium",true
+"e4f90c4f-16a4-40d7-b6f1-c214d577d176","bangarraju-2022","Bangarraju",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ramya Krishnan","Remove from supporting cast","medium",true
+"99f5fa69-39e4-458e-9a13-53eee5514f61","operation-gold-fish-2019","Operation Gold Fish",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nithya Naresh","Remove from supporting cast","medium",true
+"0d107ada-0173-4182-8e74-b91cc64ce6c8","rangasthalam-2019","Rangasthalam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jagapathi Babu","Remove from supporting cast","medium",true
+"0d107ada-0173-4182-8e74-b91cc64ce6c8","rangasthalam-2019","Rangasthalam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aadhi Pinisetty","Remove from supporting cast","medium",true
+"478e3c21-a0b9-41ed-a3d4-579f8250effd","paradha-2025","Paradha",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rag Mayur","Remove from supporting cast","medium",true
+"c49771db-3bed-4a30-9965-331eb10ad33b","my-dear-donga-2024","My Dear Donga",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Divya Sripada","Remove from supporting cast","medium",true
+"08943c98-51aa-456f-910f-ecc7e12a005f","thammudu-1999","Thammudu",1999,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Preeti Jhangiani","Remove from supporting cast","medium",true
+"a8b1c9dc-0173-443f-9ce5-47d7b465b5f2","sivakasipuram-2018","Sivakasipuram",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chammak Chandra","Remove from supporting cast","medium",true
+"fbd020cb-bc9b-4680-b0c8-b555760a7a3a","anthima-theerpu-2024","Anthima Theerpu",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amit Kumar Tiwari","Remove from supporting cast","medium",true
+"11408625-82fc-4569-a4d1-8e0c93be1c0c","pelli-kani-prasad-2008","Pelli Kani Prasad",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Allari Naresh","Remove from supporting cast","medium",true
+"3400810f-f66d-430f-88c3-fd9e759a23d2","mugguru-2011","Mugguru",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shraddha Das","Remove from supporting cast","medium",true
+"04ec16b9-d604-4ca2-b9af-a63aee1c6030","hanu-man-2024","Hanu-man",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amritha Aiyer","Remove from supporting cast","medium",true
+"c682ce81-4774-4bd3-b556-debb5f954070","journalist-2021","Journalist",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ramki","Remove from supporting cast","medium",true
+"1719bf9c-acd7-4503-8ca1-3501d61d6408","intinti-ramayanam-2023","Intinti Ramayanam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Navya Swamy","Remove from supporting cast","medium",true
+"1fa766ed-f064-4514-987b-fba4cde3c289","bavagaru-bagunnara-1998","Bavagaru Bagunnara",1998,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rambha","Remove from supporting cast","medium",true
+"f4c6f8e5-a011-4562-8656-b7bd6515ae79","unstoppable-2023","Unstoppable",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nakshatra","Remove from supporting cast","medium",true
+"54fb6d24-32c4-4742-bac9-ce0c44c1ef4e","niku-naku-pellanta-tom-tom-tom-2022","Niku Naku Pellanta Tom Tom Tom",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Inturi Vasu","Remove from supporting cast","medium",true
+"addd7c3f-b148-4476-9652-97f46f98729c","cheppalani-undhi-2022","Cheppalani Undhi",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Satya","Remove from supporting cast","medium",true
+"bde64f74-a7f6-4aee-97bb-b7e20634f220","bahubali-2-the-conclusion-2017","Bāhubali 2: The Conclusion",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"7a5f43c1-852a-45dd-9921-deeacd178cf8","the-rose-villa-2021","The Rose Villa",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Swetaa Varma","Remove from supporting cast","medium",true
+"576408ef-3abb-44ef-bd5c-6db3634e62e0","l7-2016","L7",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pooja Jhaveri","Remove from supporting cast","medium",true
+"8cd6caf6-efa8-46b9-b6c7-a84e114381d4","surya-vs-surya-2015","Surya Vs Surya",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tridha Choudhury","Remove from supporting cast","medium",true
+"0a90c9ef-dae5-4f8f-833a-341d257f1f73","kothi-mooka-2010","Kothi Mooka",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Krishnudu","Remove from supporting cast","medium",true
+"3041af35-cd84-4479-b587-8fbb5931c8ea","cinema-bandi-2021","Cinema Bandi",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rag Mayur","Remove from supporting cast","medium",true
+"3041af35-cd84-4479-b587-8fbb5931c8ea","cinema-bandi-2021","Cinema Bandi",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Uma YG","Remove from supporting cast","medium",true
+"435fc3c9-975b-472f-bbbe-949ae4e76488","12a-railway-colony-2025","12A Railway Colony",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamakshi Bhaskarla","Remove from supporting cast","medium",true
+"b531f243-3b2c-46be-bbd0-59773e3ea129","farishtay-1991","Farishtay",1991,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"cc59a075-5b1a-48de-944c-aa695909fc27","current-theega-2014","Current Theega",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Raghu Babu","Remove from supporting cast","medium",true
+"37a50120-71ef-4ca2-ab78-2e92548c5aaf","om-shanthi-om-2015","Om Shanthi Om",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vinodhini Vaidyanathan","Remove from supporting cast","medium",true
+"c2db5838-4946-4ad8-8b4f-ca1e5bffb524","spyder-2017","Spyder",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rakul Preet Singh","Remove from supporting cast","medium",true
+"17643853-79cf-496a-925c-ade2f7effce6","kshetram-2011","Kshetram",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shaam","Remove from supporting cast","medium",true
+"7d6c3d05-1596-4fa3-8c82-810fa83459ee","boochamma-boochodu-2014","Boochamma Boochodu",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"3fc6ab50-0792-4dcd-bb19-8ba0baa0e8ce","mca-2017","Middle Class Abbayi",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sai Pallavi","Remove from supporting cast","medium",true
+"fcbd9417-91c4-48af-b78f-29306091eea1","operation-duryodhana-2-2013","Operation Duryodhana 2",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Flora Saini","Remove from supporting cast","medium",true
+"eabaebd6-9714-48d9-9533-af0431bcab0d","exploring-shiva-movie-after-25-years-2014","Exploring Shiva",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amala Akkineni","Remove from supporting cast","medium",true
+"2433d777-f8af-42dc-b60d-5bc6b17671ec","chauraha-1994","Chauraha",1994,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"453771e6-75f9-49d2-941a-1f51d4ecce9b","solo-boy-2025","Solo Boy",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Posani Krishna Murali","Remove from supporting cast","medium",true
+"16903466-e6f6-46ff-9d24-f7a2f136871c","dragon-ntr-2026","Dragon",2026,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rukmini Vasanth","Remove from supporting cast","medium",true
+"7fabe339-b63b-4c0e-a572-6ce43bed725f","homam-2008","Homam",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mamta Mohandas","Remove from supporting cast","medium",true
+"dcade0cb-1150-4282-833c-6a29bfd04d5a","naa-katha-tba","Naa Katha",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suman Shetty","Remove from supporting cast","medium",true
+"9a788ea5-670b-4391-bd86-d42245d8e683","salaar-part-2-shouryaanga-parvam","Salaar: Part 2 - Shouryaanga Parvam",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shruti Haasan","Remove from supporting cast","medium",true
+"db649fc6-deae-4693-9b12-5192fdc74dbc","theppa-samudram-2024","Theppa Samudram",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","P. Ravi Shankar","Remove from supporting cast","medium",true
+"2eddc6b0-cc99-45c2-9e55-4b57b9088fda","we-love-bad-boys-2024","We Love Bad Boys",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Roshni Sahota","Remove from supporting cast","medium",true
+"40814531-cf8f-4bcc-abc0-ef5dc771d912","samba-2004","Samba",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Genelia D'Souza","Remove from supporting cast","medium",true
+"cca2a0c6-6713-4b18-add8-795023f282ca","kalinga-2024","Kalinga",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pragya Nayan Sinha","Remove from supporting cast","medium",true
+"c9a3ae2f-1285-4df1-be68-4509d13d17bb","skanda-the-attacker-2023","Skanda: The Attacker",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sreeleela","Remove from supporting cast","medium",true
+"a9e77455-724f-4779-aabc-031aed17ce62","bhari-taraganam-2023","Bhari Taraganam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ali Basha","Remove from supporting cast","medium",true
+"a9e77455-724f-4779-aabc-031aed17ce62","bhari-taraganam-2023","Bhari Taraganam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rekha Nirosha","Remove from supporting cast","medium",true
+"b959e27e-9276-4c3f-abdc-c9e0a0a62999","narthanasala-2020","Narthanasala",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soundarya","Remove from supporting cast","medium",true
+"56bd31f7-a74a-4bae-854f-99a3eb738dd6","karna-2023","Karna",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mónica Lairana","Remove from supporting cast","medium",true
+"dde19db1-9c58-4bb1-8026-d225de079f2f","disco-raja-2020","Disco Raja",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Payal Rajput","Remove from supporting cast","medium",true
+"e02fe72a-67d6-4cb8-91d1-21fec086077f","gangster-gangaraju-2022","Gangster Gangaraju",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Charandeep","Remove from supporting cast","medium",true
+"d76f6f04-821f-4a0e-9192-8cc79b91e961","chennakesava-reddy-2002","Chennakesava Reddy",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shriya Saran","Remove from supporting cast","medium",true
+"b296f8d1-ea6c-4657-a8e7-ae8779c35f2f","ranarangam-2019","Ranarangam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kalyani Priyadarshan","Remove from supporting cast","medium",true
+"fee17853-cb63-4078-8d3e-26434a4a17be","parijatha-parvam-2024","Parijatha Parvam",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shraddha Das","Remove from supporting cast","medium",true
+"2bd8e038-daa4-4eed-8c47-46310f8ae479","ram-gopal-varma-2024","Ram Gopal Varma",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyanka Kothari","Remove from supporting cast","medium",true
+"23095f06-482f-43ed-9cb2-b8aac27b48fc","evvarikee-cheppoddu-2019","Evvarikee Cheppoddu",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gargeyi Yellapragada","Remove from supporting cast","medium",true
+"e87b9f5a-11ed-447e-908c-42f879c5b568","naa-ishtam-2012","Naa Ishtam",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"f8832d13-78ec-4b61-aee4-3f93078b97f1","george-reddy-2019","George Reddy",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Muskaan Khubchandani","Remove from supporting cast","medium",true
+"a589821a-c786-4630-bc0f-29cb4fcd999f","patang-2025","Patang",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Preethi Pagadala","Remove from supporting cast","medium",true
+"e90075ee-12e4-4e5a-b155-eb472d41b532","falaknuma-das-2019","Falaknuma Das",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Saloni Mishra","Remove from supporting cast","medium",true
+"55646d76-7292-4fda-a420-5b9d859bc570","anthima-theerpu-1988","Anthima Theerpu",1988,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sumalatha","Remove from supporting cast","medium",true
+"a4a5a327-1989-4a0e-97f8-1f50edf6a3b5","c-o-surya-2017","C/o Surya",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mehreen Pirzada","Remove from supporting cast","medium",true
+"be363d50-2d30-4761-a90b-154aa028e9c8","brahmavaram-ps-paridilo-2024","Brahmavaram PS Paridilo",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sammeta Gandhi","Remove from supporting cast","medium",true
+"be363d50-2d30-4761-a90b-154aa028e9c8","brahmavaram-ps-paridilo-2024","Brahmavaram PS Paridilo",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","V. S. Roopa Lakshmi","Remove from supporting cast","medium",true
+"8a9566ce-d39f-4f3d-b695-719fa2b46f4e","23-iravai-moodu-2025","23 (Iravai Moodu)",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jhansi","Remove from supporting cast","medium",true
+"2d747ddf-da74-4d00-a25d-671bde2ab788","andhra-king-taluka-2025","Andhra King Taluka",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhagyashri Borse","Remove from supporting cast","medium",true
+"700ada61-00b7-454d-8d77-769a0bfb39b7","himmat-aur-mehanat-1987","Himmat Aur Mehanat",1987,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"6c92417e-17b5-4c59-9259-ef0b22c240f6","kadhala-kadhala-1998","Kadhala Kadhala",1998,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soundarya","Remove from supporting cast","medium",true
+"b3c45ff8-b3aa-4e78-b093-764abae51db9","kingdom-2025","Kingdom",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhagyashri Borse","Remove from supporting cast","medium",true
+"351c5961-f250-4e10-9f01-d29f934ed24b","nari-nari-naduma-murari-2026","Nari Nari Naduma Murari",2026,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Samyuktha","Remove from supporting cast","medium",true
+"493bd6c9-f290-46fe-932e-bf0af4d41eaf","aakasam-lo-oka-tara-2026","Aakasam Lo Oka Tara",2026,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ruhani Sharma","Remove from supporting cast","medium",true
+"d1c5f90b-3853-47a8-ac1c-2bec0e33f5ea","seetharama-raju-1999","Seetharama Raju",1999,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sakshi Shivananda","Remove from supporting cast","medium",true
+"2bf98562-c545-4a87-9fb8-cc8370b53941","napoleon-2017","Napoleon",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Komalee Prasad","Remove from supporting cast","medium",true
+"7686e9fe-1aba-4ec1-af7e-eaed0d72c19b","vakeel-saab-2021","Vakeel Saab",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shruti Haasan","Remove from supporting cast","medium",true
+"47e7b810-f8c3-4bc1-9adb-0e2bd208043f","bhavani-ward-1997-2025","Bhavani Ward 1997",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jabardasth Apparao","Remove from supporting cast","medium",true
+"2cb5a2e1-d770-470c-a887-e07ac1c360ee","kshemamga-velli-labhamga-randi-2000","Kshemamga Velli Labhamga Randi",2000,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rajendra Prasad","Remove from supporting cast","medium",true
+"befd2890-b6e0-4a1c-9d43-0bee6cc738ce","majboor-1990","Majboor",1990,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"659e225f-8cd4-4dde-9821-fd78b2932b86","sriramachandrulu-2003","Sriramachandrulu",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rambha","Remove from supporting cast","medium",true
+"10e60e44-d328-481d-ac59-476ae5bf0d29","doshi-nirdoshi-1990","Doshi Nirdoshi",1990,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Lissy","Remove from supporting cast","medium",true
+"ea904a06-7785-4118-bd05-0273a1ae9dc5","brahmarshi-vishwamitra-1991","Brahmarshi Vishwamitra",1991,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Meenakshi Sheshadri","Remove from supporting cast","medium",true
+"345e8989-bdc7-45b5-b1ae-3c83ddb7bf9d","jaat-2025","Jaat",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Saiyami Kher","Remove from supporting cast","medium",true
+"1b9ea456-12cf-43ec-967a-9f0bd1395bd0","gaali-sampath-2021","Gaali Sampath",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ashya","Remove from supporting cast","medium",true
+"ae9cabcc-9f3a-4557-9743-f67589ba7376","srimadvirat-veerabrahmendra-swami-charitra-1984","Srimadvirat Veerabrahmendra Swami Charitra",1984,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rati Agnihotri","Remove from supporting cast","medium",true
+"d346b527-def0-451d-994d-f13ce11ef455","mama-alludu-1990","Mama Alludu",1990,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vani Viswanath","Remove from supporting cast","medium",true
+"c1e96ff9-cc32-4255-a948-991f953e65a5","focus-2022","Focus",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhanuchander","Remove from supporting cast","medium",true
+"c1e96ff9-cc32-4255-a948-991f953e65a5","focus-2022","Focus",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suhasini Maniratnam","Remove from supporting cast","medium",true
+"6ce623d9-3abd-4997-96e3-77670a4e2f58","surya-2021","Surya",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mounika Reddy","Remove from supporting cast","medium",true
+"d34daf38-3473-4850-997c-39d544a78524","bava-bavamaridi-1993","Bava Bavamaridi",1993,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Malashri","Remove from supporting cast","medium",true
+"3bba67a9-3508-41e8-ad49-10e35ae7b18c","daaku-maharaaj-2025","Daaku Maharaaj",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pragya Jaiswal","Remove from supporting cast","medium",true
+"559c82d7-9be7-4bdf-8090-25de10686f27","shourya-2016","Shourya",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"ed24ad1c-53b8-4375-a81c-ebbff2cc73df","sam-anton-2024","Sam Anton",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Orietta Notari","Remove from supporting cast","medium",true
+"9d88601e-ef5d-4420-9d25-475e420a0bf7","silly-fellows-2018","Silly Fellows",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chitra Shukla","Remove from supporting cast","medium",true
+"00209ec1-6249-4698-b482-e0c95201d060","hathya-2025","Hathya",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ravi Varma","Remove from supporting cast","medium",true
+"29a91a63-ef51-4fdf-8c84-53c5e6e85134","rowdy-2014","Rowdy",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayasudha","Remove from supporting cast","medium",true
+"edf95dbf-53fc-45f3-9d4b-c77a393e0629","voice-of-sathyanathan-2023","Voice of Sathyanathan",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Veena Nandakumar","Remove from supporting cast","medium",true
+"2158b105-35fb-4171-93b3-cfe5207765f4","siddhartha-2016","Siddhartha",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sagar","Remove from supporting cast","medium",true
+"37325977-f3b3-4d31-bd69-924abc2902a0","marshal-2019","Marshal",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Megha Chowdhury","Remove from supporting cast","medium",true
+"92d305db-ffba-4616-800a-d2605d54ea16","matti-katha-2023","Matti Katha",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Maya","Remove from supporting cast","medium",true
+"c581873c-ca28-4029-8f2f-14d98a160564","nambiyaar-2016","Nambiyaar",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sunaina","Remove from supporting cast","medium",true
+"a7aa9ae5-0409-421d-94d3-0ac211987208","chaurya-paatam-2025","Chaurya Paatam",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mast Ali","Remove from supporting cast","medium",true
+"a9118237-6615-4574-b6f0-01ba1a2cda24","harom-hara-2024","Harom Hara",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Malavika Sharma","Remove from supporting cast","medium",true
+"e621270a-a517-467f-83b3-590fb72017b9","double-engine-2024","Double Engine",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gayatri Gupta","Remove from supporting cast","medium",true
+"209d4ca4-d96d-419f-889d-1d2bf309dbab","sitadevi-1982","Sitadevi",1982,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"8a5729fe-8af3-4611-a04b-5ca78a813326","idi-pellantara-1982","Idi Pellantara",1982,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"475da35b-f859-4677-b024-74b2b70a1749","saptagiri-express-2016","Saptagiri Express",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Roshini Prakash","Remove from supporting cast","medium",true
+"22c321c9-962f-4956-9d21-dfdc8d1a15a6","rey-2015","Rey",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shraddha Das","Remove from supporting cast","medium",true
+"3ee64f92-2cba-41e0-b961-5acd09d50878","jathi-ratnalu-2021","Jathi Ratnalu",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Faria Abdullah","Remove from supporting cast","medium",true
+"e1214f0a-b918-4375-8e3f-45d4d862e242","mem-famous-2023","Mem Famous",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Muralidhar Goud","Remove from supporting cast","medium",true
+"c6aa0c78-3300-4b1b-a2bd-343ee93be13d","rrr-behind-and-beyond-2024","RRR: Behind & Beyond",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ram Charan","Remove from supporting cast","medium",true
+"14bee483-6dde-4a53-afd5-f478d2e2fc58","1111-2025","11:11",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Varsha Vishwanath","Remove from supporting cast","medium",true
+"3f30cce4-2530-4e43-a6a4-16136970fbd8","red-bus-2014","Red Bus",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Catherine Tresa","Remove from supporting cast","medium",true
+"ae8af12e-03a5-4efc-a3f7-a1ac8494d4a7","krish-2021","Krish",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Musskan Sethi","Remove from supporting cast","medium",true
+"db3e2487-ea4a-400c-824f-b7fab2bf8c19","mukunda-2014","Mukunda",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pooja Hegde","Remove from supporting cast","medium",true
+"a8560dc2-450a-4669-a7f9-a25aaa3384ae","pandurangadu-2008","Pandurangadu",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tabu","Remove from supporting cast","medium",true
+"4da65333-8c6b-42e9-a467-df2912709e4b","eureka-2020","Eureka",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmaji","Remove from supporting cast","medium",true
+"cda2bc46-33dc-46d0-809c-c2aa15e958c2","ontari-poratam-1989","Ontari Poratam",1989,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rupini","Remove from supporting cast","medium",true
+"e3d67bcd-760f-4962-ae18-2fc5f453d71e","kumar-g-2021","Kumar G",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Danneel Ackles","Remove from supporting cast","medium",true
+"8841bdb2-9e5c-4744-bcd3-46e78fee7b1d","govindudu-andarivaadele-2014","Govindudu Andarivaadele",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kajal Aggarwal","Remove from supporting cast","medium",true
+"fe428cbd-037b-4b14-a599-62f6202a7466","nijam-2003","Nijam",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rakshita","Remove from supporting cast","medium",true
+"826bb379-2ce6-4f64-841b-adda6d206e69","3g-love-2013","3G Love",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Neelima","Remove from supporting cast","medium",true
+"8bfd34f9-dac9-4598-a4be-fa9168e0f03b","eega-2012","Eega",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nani","Remove from supporting cast","medium",true
+"a6cc1f02-8fd6-4bea-973e-710889c951e0","zanjeer-2013","Zanjeer",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyanka Chopra Jonas","Remove from supporting cast","medium",true
+"a4128ec3-6a8a-4689-9200-bdd1c29a9902","thala-2025","Thala",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rajiv Kanakala","Remove from supporting cast","medium",true
+"a4128ec3-6a8a-4689-9200-bdd1c29a9902","thala-2025","Thala",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Indraja","Remove from supporting cast","medium",true
+"34dc1f1f-6fd4-4dcd-a522-a2db63b98ed3","vajram-1995","Vajram",1995,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Roja Selvamani","Remove from supporting cast","medium",true
+"7ed9df73-5ef1-41b1-8365-008df344523f","prema-ishq-kaadhal-2013","Prema ishq kaadhal",2013,"MUSIC_DUO","INCOMPLETE_DUO","music_director","Shravan","Nadeem-Shravan","low",true
+"7e80865d-d98f-4443-8252-5577ca83d961","narudi-brathuku-natana-2024","Narudi Brathuku Natana",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sruthi Jayan","Remove from supporting cast","medium",true
+"c6b03603-0209-4c43-b658-5ce7fa051a82","bruce-lee-the-fighter-2015","Bruce Lee: The Fighter",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rakul Preet Singh","Remove from supporting cast","medium",true
+"581de389-c344-4d0e-9d84-983dc53bc30b","dhenikaina-ready-2012","Dhenikaina Ready",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"924c923b-4812-4896-9ca8-eecbd244eda4","hero-2012","Hero",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Yami Gautam Dhar","Remove from supporting cast","medium",true
+"2492db22-6a14-43db-afc7-a91bf26cbdac","mannavaru-sinnavaru-1999","Mannavaru Sinnavaru",1999,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Soundarya","Remove from supporting cast","medium",true
+"8ebec8fd-093d-4baf-82ae-5e92096430af","chatrapathi-2005","Chatrapathi",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhanupriya","Remove from supporting cast","medium",true
+"69357ff4-92c3-466f-b8ab-8a08ab6cd600","annapurnamma-gari-manavadu-2021","Annapurnamma Gari Manavadu",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jeeva","Remove from supporting cast","medium",true
+"c77e40bc-2095-47a2-b904-f43646b01567","tera-venuka-2021","Tera Venuka",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Thummala Narasimha Reddy","Remove from supporting cast","medium",true
+"d7c7d18a-2051-4acd-bc57-24fc518cc725","political-rowdy-2005","Political Rowdy",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Abbas","Remove from supporting cast","medium",true
+"d2b85ce5-8c7c-4915-bf4c-f656c09583fd","lbw-life-before-wedding-2011","Lbw: Life Before Wedding",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chinmayi Ghatrazu","Remove from supporting cast","medium",true
+"4767bc7f-9ccc-4e37-8548-57965855ef92","manasunu-maaya-seyake-2014","Manasunu Maaya Seyake",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Disha Pandey","Remove from supporting cast","medium",true
+"592c5195-9b92-4241-ae70-85a5b935367f","drohi-2010","Drohi",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Poonam Bajwa","Remove from supporting cast","medium",true
+"b9e7a12e-cf10-4fec-afe5-584fe19b7077","sye-raa-narasimha-reddy-2019","Sye Raa Narasimha Reddy",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nayanthara","Remove from supporting cast","medium",true
+"7a761923-4384-47b0-86c9-10096b8faa6e","butterfly-2022","Butterfly",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Charles ""Skeeta"" Jenkins","Remove from supporting cast","medium",true
+"9e90616c-7495-4e96-b7f4-8f1974f840e1","jai-sena-2021","Jai Sena",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Srikanth","Remove from supporting cast","medium",true
+"8113fa1d-4558-4e53-b7d6-c831ff6cd263","anando-brahma-2017","Anando Brahma",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Taapsee Pannu","Remove from supporting cast","medium",true
+"18f02dfc-f7fb-4029-b691-e3e27eb6f876","amma-deevena-2021","Amma Deevena",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Posani Krishna Murali","Remove from supporting cast","medium",true
+"a1a68884-1a14-481f-bf01-facfdc5864aa","edaina-jaragocchu-2019","Edaina Jaragocchu",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sasha Singh","Remove from supporting cast","medium",true
+"773341f9-045e-467b-a070-ccbb120009fd","konda-2022","Konda",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tulasi","Remove from supporting cast","medium",true
+"0466e45e-a8b2-41fd-b149-ca0ca1b3b3e7","kothaga-maa-prayanam-2019","Kothaga Maa Prayanam",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jeeva","Remove from supporting cast","medium",true
+"b5252cae-e42d-4203-a5f4-a318c90a047a","sultanat-1986","Sultanat",1986,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"bb3f82ed-ca24-4293-a00b-07b90882ea9f","bhagwaan-dada-1986","Bhagwaan Dada",1986,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"2e52dd37-be49-4e93-8799-b297ba6f12bc","thathsama-thathbhava-2023","Thathsama Thathbhava",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prajwal Devaraj","Remove from supporting cast","medium",true
+"fae84446-8b02-4d04-8724-cf5740fd4edc","shashtipoorthi-2025","Shashtipoorthi",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Archana","Remove from supporting cast","medium",true
+"adc2597b-8246-4603-8b64-b618354252e7","pataal-bhairavi-1985","Pataal Bhairavi",1985,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"24b65a6e-c857-42cf-996b-d38f6177d290","mix-up-2024","Mix Up",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamal Kamaraju","Remove from supporting cast","medium",true
+"da7994ff-32f4-4423-983f-aca13d65b1ff","murder-2020","Murder",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Srikanth Iyengar","Remove from supporting cast","medium",true
+"19713602-7407-49e7-bda4-475097c32b80","sardar-dharmanna-1987","Sardar Dharmanna",1987,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mohan Babu","Remove from supporting cast","medium",true
+"19713602-7407-49e7-bda4-475097c32b80","sardar-dharmanna-1987","Sardar Dharmanna",1987,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayasudha","Remove from supporting cast","medium",true
+"3d80adf4-7746-492d-8647-1261b9345434","pattabhishekham-1985","Pattabhishekham",1985,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vijayashanti","Remove from supporting cast","medium",true
+"341937e5-04fc-4158-a266-19bb1df402cf","bheemla-nayak-2022","Bheemla Nayak",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nithya Menen","Remove from supporting cast","medium",true
+"88623961-ed1e-42c6-b483-c857eb2c4c54","ksheera-sagara-madhanam-2021","Ksheera Sagara Madhanam",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Charishma Sreekar","Remove from supporting cast","medium",true
+"7602d4b9-dd37-4ad4-84e9-87d9becb20f5","rakshana-2024","Rakshana",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sivannarayana Naripeddi","Remove from supporting cast","medium",true
+"f65f868d-109f-42af-8ce8-a48f0df09ec6","oka-chinna-viramam-2020","Oka Chinna Viramam",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Punarnavi Bhupalam","Remove from supporting cast","medium",true
+"6cc0651d-39d0-4f43-9b6e-a69771c28688","average-student-nani-2024","Average Student Nani",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sahiba Bhasin","Remove from supporting cast","medium",true
+"11c5e0ac-f108-4ef5-bd6a-28868c08b758","dhoni-2012","Dhoni",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Radhika Apte","Remove from supporting cast","medium",true
+"97b2fe34-29fc-4568-804c-2679a43dc8b4","vey-dharuvey-2024","Vey Dharuvey",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hebah Patel","Remove from supporting cast","medium",true
+"b25d82f5-6c75-487d-8663-1e42b31b0506","sehari-2022","Sehari",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Abhinav Gomatam","Remove from supporting cast","medium",true
+"86e9ffbf-1aa4-495e-8557-983db9b615f7","brochevarevarura-2019","Brochevarevarura",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nivetha Thomas","Remove from supporting cast","medium",true
+"126fc4bd-25ef-49d6-b1c5-0444af3e12da","7-days-6-nights-2022","7 Days 6 Nights",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Meher Chahal","Remove from supporting cast","medium",true
+"af174b51-4a97-4138-9756-2777c159e8a1","47-rojulu-1981","47 Rojulu",1981,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"1770f974-d4d3-4c5f-b9ef-0e174db8ae02","two-souls-2023","Two Souls",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mounika Reddy","Remove from supporting cast","medium",true
+"e9421480-a36c-4013-b1fb-0b06dc44ee77","make-a-wish-2024","Make a Wish",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Abhishek Sabbe","Remove from supporting cast","medium",true
+"b0b65696-509d-4c14-a31c-52e4fbc3ed64","joy-2010","Joy",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Dragan Bakema","Remove from supporting cast","medium",true
+"a0c91f5a-a105-4df0-9bfc-cff6b05c4480","one-by-two-2022","One By Two",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sri Pallavi","Remove from supporting cast","medium",true
+"27111d5e-d08c-4ec3-a73a-1a321befab3e","kantri-2008","Kantri",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prakash Raj","Remove from supporting cast","medium",true
+"ab93d589-50a3-4f38-8f1f-268752a641df","degree-college-2020","Degree College",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gummadi Jaya Vani","Remove from supporting cast","medium",true
+"76a4e65c-43f3-4b8f-a5e6-4f2f8337647f","bilalpur-police-station-2019","Bilalpur Police Station",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Maganti Srinath","Remove from supporting cast","medium",true
+"cc73f6e4-a1d2-49f8-8ad6-2e9f30341985","vasham-2017","Vasham",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Swetaa Varma","Remove from supporting cast","medium",true
+"d5c40878-156a-42df-bbbc-4fc5f4789bd6","heza-2019","Heza",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nutan Naidu","Remove from supporting cast","medium",true
+"d5c40878-156a-42df-bbbc-4fc5f4789bd6","heza-2019","Heza",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mumaith Khan","Remove from supporting cast","medium",true
+"2eda5147-c5d4-43ff-9aaf-9854130829a5","pellikuturu-party-2022","Pellikuturu Party",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aneesha Dama","Remove from supporting cast","medium",true
+"7165489f-dd1a-4c40-b0dd-e8e577ec4679","radha-krishna-2021","Radha Krishna",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Musskan Sethi","Remove from supporting cast","medium",true
+"a17d9410-7d43-4b98-9014-08dcbc5c247e","meka-suri-2-2020","Meka Suri 2",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Lirisha Kunapareddy","Remove from supporting cast","medium",true
+"e3265b78-0030-4941-b728-e9933b2f5543","raajahyogam-2022","Raajahyogam",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ankita Saha","Remove from supporting cast","medium",true
+"ec2d15d3-fafd-4b1f-8c7b-7e46cfb32e84","agnyaathavaasi-2018","Agnyaathavaasi",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Boman Irani","Remove from supporting cast","medium",true
+"4610b8ef-9a2d-49f0-a741-ece0ef9a2721","mera-faisla-1984","Mera Faisla",1984,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"e4978db0-0d2e-4e2c-babd-21cf655678cf","kaviratna-kalidasa-1983","Kaviratna Kalidasa",1983,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"ff6942e4-9ca1-4c5d-95f7-1881f825385e","blackmail-2025","Blackmail",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Srikanth","Remove from supporting cast","medium",true
+"b528afbf-0484-4358-b891-59c2ff80fb3a","plan-b-2021","Plan B",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Naveena Reddy","Remove from supporting cast","medium",true
+"7fa3bf5a-b2c6-44b1-83a5-a5ac3bb14fa0","dinasari-2025","Dinasari",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Meera Krishnan","Remove from supporting cast","medium",true
+"56edc47b-281a-4dea-896f-14582cd14094","paappi-devataa-1995","Paappi Devataa",1995,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jaya Prada","Remove from supporting cast","medium",true
+"b7f57a00-0270-47ec-a6e0-1d725236cd04","maha-samudram-2021","Maha Samudram",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aditi Rao Hydari","Remove from supporting cast","medium",true
+"bb24df98-e259-49a1-ac18-0652b48a76d8","dongala-bandi-2008","Dongala Bandi",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kovai Sarala","Remove from supporting cast","medium",true
+"17f09402-c572-4ec5-8890-949b4d3c7651","balamevvadu-2022","Balamevvadu",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Babloo Prithiveeraj","Remove from supporting cast","medium",true
+"17f09402-c572-4ec5-8890-949b4d3c7651","balamevvadu-2022","Balamevvadu",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suhasini Maniratnam","Remove from supporting cast","medium",true
+"f120b7da-6bd9-40da-90d4-f65d523e7b8a","karungaapiyam-2023","Karungaapiyam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kalaiyarasan","Remove from supporting cast","medium",true
+"4f1f98f7-64ae-4fdf-ac15-4de4d6ffb61b","35-chinna-katha-kaadu-2024","35 - Chinna Katha Kaadu",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vishwadev Rachakonda","Remove from supporting cast","medium",true
+"51da7ddf-3386-4043-83a8-089c40b96cce","pottel-2024","Pottel",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Noel Sean","Remove from supporting cast","medium",true
+"0881d02d-10ad-4e3b-8442-c1532082e147","vamsanikokkadu-1996","Vamsanikokkadu",1996,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aamani","Remove from supporting cast","medium",true
+"6f2dcc1f-1e29-45bc-9b0b-00f45c9c510b","brahmalokam-to-yamalokam-via-bhulokam-2010","Brahmalokam to Yamalokam via Bhulokam",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sonia Bose Venkat","Remove from supporting cast","medium",true
+"a12d8c62-ebc8-4381-9bc5-ad3508c5e4e9","rogue-2017","Rogue",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mannara Chopra","Remove from supporting cast","medium",true
+"5933d9e3-b8a8-4b1b-96ff-3219cfeec469","inti-number-13-2024","Inti Number - 13",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Srilakshmi","Remove from supporting cast","medium",true
+"59f04365-857c-4407-9fad-28d4f4837aac","uu-kodathara-ulikki-padathara-2012","Uu Kodathara Ulikki Padathara",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Deeksha Seth","Remove from supporting cast","medium",true
+"2ebc822d-b801-46d1-a209-f73762fa4584","style-2006","Style",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Linda Sini","Remove from supporting cast","medium",true
+"8139c4ab-5001-457e-9cfc-04756dfe9e8e","nee-sukhame-ne-koruthunna-2008","Nee Sukhame Ne Koruthunna",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kota Srinivasa Rao","Remove from supporting cast","medium",true
+"79eec80a-7c17-45bb-a61c-0ffb9914eb41","custody-2023","Custody",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Krithi Shetty","Remove from supporting cast","medium",true
+"8e71fd11-c3a9-4813-aeee-33207a53f0bf","korameenu-2022","Korameenu",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kishori Dhatrak","Remove from supporting cast","medium",true
+"85dd8a5d-5a15-4429-b6d8-863d7742913c","mukhya-gamanika-2024","Mukhya Gamanika",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chitram Basha","Remove from supporting cast","medium",true
+"99c8f119-3ce6-4ee5-a6b9-255843beb7a0","nandeeswarudu-2012","Nandeeswarudu",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sheena Shahabadi","Remove from supporting cast","medium",true
+"668b1d14-5e5b-4834-a36b-6e5ee87094e4","khaleja-2010","Khaleja",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"cec9e506-2780-4177-b2cc-969bd1bc7847","jodi-2019","Jodi",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rana Jung Bahadur","Remove from supporting cast","medium",true
+"cec9e506-2780-4177-b2cc-969bd1bc7847","jodi-2019","Jodi",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Parminder Gill","Remove from supporting cast","medium",true
+"a63d1b50-7e35-45c4-85fe-2ec05556593d","nela-ticket-2018","Nela Ticket",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Malavika Sharma","Remove from supporting cast","medium",true
+"5ae7783b-2ac6-434b-a50e-67634be08dd8","khushi-2001","Khushi",2001,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kajol","Remove from supporting cast","medium",true
+"415c2482-54d6-4f42-b490-3d888d7386c8","ghazi-2017","Ghazi",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Taapsee Pannu","Remove from supporting cast","medium",true
+"194c7618-2043-44d2-b174-7b89d03a52a1","s-o-satyamurthy-2015","S/O Satyamurthy",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Upendra","Remove from supporting cast","medium",true
+"900ea4f8-9542-417d-aacf-86c6731c01c4","akkada-ammayi-ikkada-abbayi-1996","Akkada Ammayi Ikkada Abbayi",1996,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chandramohan","Remove from supporting cast","medium",true
+"af618826-736b-4d3d-b092-f6589610d8d1","rabhasa-2014","Rabhasa",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"296ec7d3-562c-4ac2-a447-06b29e70ac32","shukra-2021","Shukra",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Arvind Krishna","Remove from supporting cast","medium",true
+"7d711b23-abd9-4375-839e-153b9d18927a","neevalle-nenunna-2020","Neevalle Nenunna",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jabardasth Ramprasad","Remove from supporting cast","medium",true
+"0c25a83a-c0a9-469b-99ca-568d55a36023","masooda-2022","Masooda",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Thiruveer Reddy","Remove from supporting cast","medium",true
+"744dff31-2230-4111-86f1-8ce8f45cf6e3","sisindri-1995","Sisindri",1995,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tabu","Remove from supporting cast","medium",true
+"b58bfa35-057a-4cb3-b477-43dc87a28fc8","bootcut-balaraju-2024","Bootcut Balaraju",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sunil Varma","Remove from supporting cast","medium",true
+"09b41687-6bbe-41b0-8517-0ca359c82514","priya-1981","Priya",1981,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"c6c00246-af04-4290-b425-55d801878101","masala-2013","Masala",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anjali","Remove from supporting cast","medium",true
+"cc992188-0871-48f9-af32-b7dd2a8a86f7","maya-puthagam-2024","Maya Puthagam",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Abarnathi","Remove from supporting cast","medium",true
+"32d08c52-5f3b-46aa-a698-43db0fa37d35","dhammu-2012","Dhammu",2012,"NAME_FORMAT","HERO_NAME_VARIANT","hero","NTR Jr","Jr. NTR","low",true
+"c4bf552d-1dc1-4ad9-a320-8aca024dff3a","fcuk-father-chitti-umaa-kaarthik-2021","Fcuk: Father Chitti Umaa Kaarthik",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ammu Abhirami","Remove from supporting cast","medium",true
+"f890a0cd-c0b7-487c-8210-c870ff9a3063","naidugaari-kutumbam-1996","Naidugaari Kutumbam",1996,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sanghavi","Remove from supporting cast","medium",true
+"11094f6d-281d-47e9-aa62-790e00e5adfe","premistunnaa-2025","Premistunnaa",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Subbu Panchu","Remove from supporting cast","medium",true
+"11094f6d-281d-47e9-aa62-790e00e5adfe","premistunnaa-2025","Premistunnaa",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Viji Chandrasekhar","Remove from supporting cast","medium",true
+"b562f3b9-aced-4c51-8707-6c7609d88874","nagaram-2008","Nagaram",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kaveri Jha","Remove from supporting cast","medium",true
+"0b5772ca-dd81-4a3f-9376-ca9810ab019e","santhana-prapthirasthu-2025","Santhana Prapthirasthu",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tharun Bhascker","Remove from supporting cast","medium",true
+"b7785ece-b746-407c-a694-181dcfc3c7a0","enduko-emo-2018","Enduko Emo",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Punarnavi Bhupalam","Remove from supporting cast","medium",true
+"b1f6e396-ca26-4ec7-9b98-b34d1df84e99","tuk-tuk-2025","Tuk Tuk",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Saanve Meghana","Remove from supporting cast","medium",true
+"5665c912-418c-41a1-8b5a-392351ce9039","bedurulanka-2012-2023","Bedurulanka 2012",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Neha Shetty","Remove from supporting cast","medium",true
+"763f7fa1-eb2a-4829-b3a1-a2279273d6dd","saakini-daakini-2022","Saakini Daakini",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","RJ Hemant","Remove from supporting cast","medium",true
+"0d65c977-2e89-4449-8073-c34cdd778453","aa-naluguru-2004","Aa Naluguru",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aamani","Remove from supporting cast","medium",true
+"1bd65978-c221-4a00-a15a-051f60bc89e4","sontham-2002","Sontham",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Namitha","Remove from supporting cast","medium",true
+"9c3033f3-3e70-446f-bc44-039f4892d43e","kandireega-2011","Kandireega",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hansika Motwani","Remove from supporting cast","medium",true
+"d7458170-d08d-4369-8477-9ebf203ae403","vimanam-2023","Vimanam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anasuya Bharadwaj","Remove from supporting cast","medium",true
+"861f5500-4fca-4af6-954e-8a088aac1bc2","raakshasa-kaavyam-2023","Raakshasa Kaavyam",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kushalini Pulapa","Remove from supporting cast","medium",true
+"3450f8d5-3512-4edd-9327-04a3d1f2c86d","mishan-impossible-2022","Mishan Impossible",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Taapsee Pannu","Remove from supporting cast","medium",true
+"18a6a1d3-358d-40d1-8f4a-9505c4e1a778","khatarnak-2006","Khatarnak",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Biju Menon","Remove from supporting cast","medium",true
+"c9e834ca-df86-4fb1-8bcc-fa0d6e48baeb","alludu-adhurs-2021","Alludu Adhurs",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nabha Natesh","Remove from supporting cast","medium",true
+"51cc8c05-d759-4d11-97e2-ab1d92c76c87","amrutham-chandamama-lo-2014","Amrutham Chandamama Lo",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Inturi Vasu","Remove from supporting cast","medium",true
+"07222a71-9e09-42aa-acd0-79903a4a18cf","siddharth-roy-2024","Siddharth Roy",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mathew Varghese","Remove from supporting cast","medium",true
+"0988aa14-fe83-4104-b9d7-1bd64821ada5","rajanna-2011","Rajanna",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sneha","Remove from supporting cast","medium",true
+"e995ac83-10de-425f-bbb6-28aa86c7909d","reservation-2017","Reservation",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Manpreet Sekhon","Remove from supporting cast","medium",true
+"96a6dd84-069c-4695-ae4c-70e30ed8a54a","chinna-2021","Chinna",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","R. S. G. Chelladurai","Remove from supporting cast","medium",true
+"96a6dd84-069c-4695-ae4c-70e30ed8a54a","chinna-2021","Chinna",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kulappulli Leela","Remove from supporting cast","medium",true
+"90324245-7f05-498d-ad97-05bb2554a497","nava-vasantham-2007","Nava Vasantham",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyamani","Remove from supporting cast","medium",true
+"b5abe30f-d984-4d1d-a6e6-3be034dbb5ff","okkadu-migiladu-2017","Okkadu Migiladu",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anisha Ambrose","Remove from supporting cast","medium",true
+"1c91ffe9-862a-4e2e-a8b8-5d52bc2e1ffe","devadasu-malli-puttadu-1978","Devadasu Malli Puttadu",1978,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vanisri","Remove from supporting cast","medium",true
+"e0973669-9b4b-4044-8c09-6beb72785090","abhiram-tba","Abhiram",null,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prabhakar","Remove from supporting cast","medium",true
+"5a38d145-f8b9-4f98-9350-7deb34597930","okkade-1-venkanna-on-duty-2023","Okkade 1 (Venkanna on Duty)",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tummalapalli Rama Satyanarayana","Remove from supporting cast","medium",true
+"4449330f-6c22-4358-8c7e-2b1bcb316d55","maayajaalam-2006","Maayajaalam",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Poonam Kaur","Remove from supporting cast","medium",true
+"b3f2b0fa-988d-4a55-93a4-9ac93656db07","gaami-2024","Gaami",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Harika Pedada","Remove from supporting cast","medium",true
+"6dd488ad-8661-4cf8-a35a-1a05334b1992","mantra-2007","Mantra",2007,"MUSIC_DUO","INCOMPLETE_DUO","music_director","Anand","Anand-Milind","low",true
+"e730f933-564a-4755-88a8-252f73be6e87","happy-ending-2024","Happy Ending",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Apoorva Rao","Remove from supporting cast","medium",true
+"8f754e34-f5b8-497e-a5a8-675b8d06a56e","maa-oori-polimera-2021","Maa Oori Polimera",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamakshi Bhaskarla","Remove from supporting cast","medium",true
+"80bd9e09-19e0-4af7-874d-7e8e28e42b4d","kotha-kothaga-2022","Kotha Kothaga",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pavan Tej Konidela","Remove from supporting cast","medium",true
+"f3123422-b4ad-41f5-985e-3c4a6554c511","samarasimha-reddy-1999","Samarasimha Reddy",1999,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Simran","Remove from supporting cast","medium",true
+"a506eb39-aacb-4c0a-8c5e-026975001405","mowgli-2025","Mowgli",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mounika Reddy","Remove from supporting cast","medium",true
+"904951ad-fb3e-4349-bcf9-aa1a566047c6","rakta-charitra-2010","Rakta Charitra",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Radhika Apte","Remove from supporting cast","medium",true
+"c7da91ea-453a-49fe-96ef-dab4ba115da9","gamanam-2021","Gamanam",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shiva Kandukuri","Remove from supporting cast","medium",true
+"1f8fa34e-41ed-4a79-8581-421273cd1d21","the-trial-2023","The Trial",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Yug Ram","Remove from supporting cast","medium",true
+"d2533ca4-f5e5-4088-9bec-48af1e4f0ee8","the-ghazi-attack-2017","The Ghazi Attack",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Taapsee Pannu","Remove from supporting cast","medium",true
+"e4ff32a4-84d1-472b-a628-cf9e95489214","police-vari-heccharika-2025","Police Vari Heccharika",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Himaja","Remove from supporting cast","medium",true
+"239519df-683b-4e1e-8bd6-1903fb3fc41f","goodachari-2018","Goodachari",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Supriya Yarlagadda","Remove from supporting cast","medium",true
+"f963b860-269d-4aab-b050-a6a90633ae53","andala-ramudu-2006","Andala Ramudu",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"edec1013-8295-45e4-86b7-bdab809f6c7d","pranaya-godari-2024","Pranaya Godari",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sadan Hasan","Remove from supporting cast","medium",true
+"edec1013-8295-45e4-86b7-bdab809f6c7d","pranaya-godari-2024","Pranaya Godari",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyanka Prasad","Remove from supporting cast","medium",true
+"e2f5ba02-740e-4b3c-9ef3-f678bc8ddcb1","teen-maar-2011","Teen Maar",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sonu Sood","Remove from supporting cast","medium",true
+"d0893300-ddd0-4f4b-b0d6-1f28ac08e1ac","chaari-111-2024","Chaari 111",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Samyuktha Viola Viswanathan","Remove from supporting cast","medium",true
+"39d235e0-b787-4379-9f88-c4b75d0bd73a","mr-pregnant-2023","Mr. Pregnant",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Raja Ravindra","Remove from supporting cast","medium",true
+"48284cb5-6a32-485a-867e-c404003ee6ed","slum-dog-husband-2023","Slum Dog Husband",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Muralidhar Goud","Remove from supporting cast","medium",true
+"fd352e14-bea2-45a8-bc08-076e3ab45920","veyi-subhamulu-kalugu-neeku-2022","Veyi Subhamulu Kalugu Neeku",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Satyam Rajesh","Remove from supporting cast","medium",true
+"1e2295e0-8dcc-4e5e-9964-aec92ac18ecf","mithai-2019","Mithai",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Swetaa Varma","Remove from supporting cast","medium",true
+"e8ac40cd-c8be-48dc-bb0a-f0472f2de3a2","nayaki-2016","Nayaki",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ganesh Venkatraman","Remove from supporting cast","medium",true
+"1af296a1-cfa2-4a9f-9935-25f421dea5e0","hrudaya-kaleyam-2014","Hrudaya Kaleyam",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ishika Singh","Remove from supporting cast","medium",true
+"8222a604-2e47-4506-b783-c1c98d03483e","aithe-2003","Aithe",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pavan Malhotra","Remove from supporting cast","medium",true
+"6b0b02d6-b7f3-42fd-8c1f-6f52e3adae76","devadasu-2006","Devadasu",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ram Pothineni","Remove from supporting cast","medium",true
+"d4a8894e-1d09-4a84-860b-651ac51f198b","speedunnodu-2016","Speedunnodu",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prakash Raj","Remove from supporting cast","medium",true
+"384c1786-86b4-4a78-9771-80e91a77a9f5","karma-kartha-kriya-2018","Karma Kartha Kriya",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sahar Afsha","Remove from supporting cast","medium",true
+"8c8972d9-51c8-4cea-a25c-906fd9b9e67f","tiger-2015","Tiger",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Seerat Kapoor","Remove from supporting cast","medium",true
+"11fae4f4-9c76-4b8b-858b-e3c8bcaacd1c","co-kancharapalem-2018","C/o Kancharapalem",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nitya Sri","Remove from supporting cast","medium",true
+"2fdb05b2-d685-4345-837f-0d840c153d2e","meeku-meere-maaku-meeme-2016","Meeku Meere Maaku Meeme",2016,"MUSIC_DUO","INCOMPLETE_DUO","music_director","Shravan","Nadeem-Shravan","low",true
+"df0a0ffb-36c3-4d4f-b32a-d7d7a4e4fe07","yuddam-2014","Yuddam",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tarun","Remove from supporting cast","medium",true
+"5910acf0-6784-433e-b7b9-d0a18edc5ba6","paandavulu-paandavulu-thummeda-2014","Paandavulu Paandavulu Thummeda",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hansika Motwani","Remove from supporting cast","medium",true
+"20915fb1-fef3-4a31-a9de-1d9eb3051ad6","raju-maharaju-2009","Raju Maharaju",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Surveen Chawla","Remove from supporting cast","medium",true
+"55b97a3d-64bf-4581-8b1f-1d3ff522ab39","pekamedalu-2024","Pekamedalu",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anusha Nuthula","Remove from supporting cast","medium",true
+"df9a5611-7b66-43f4-b6e3-6b49e56cb432","sri-satyanarayana-swamy-2007","Sri Satyanarayana Swamy",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ravali","Remove from supporting cast","medium",true
+"60ea3452-9d44-4414-a2d2-160ac4692ac2","saakshyam-2018","Saakshyam",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ravi Kishan","Remove from supporting cast","medium",true
+"26eb9b65-94a5-4a7c-ab2d-e2b01eaeb119","radha-2017","Radha",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Lavanya Tripathi","Remove from supporting cast","medium",true
+"471ec11a-34c5-43e2-8db2-f7a15388bea8","bimbisara-2022","Bimbisara",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Catherine Tresa","Remove from supporting cast","medium",true
+"237de891-3ffa-4f9a-a08b-c7e529ce5fdf","raaj-2011","Raaj",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyamani","Remove from supporting cast","medium",true
+"f7f5d244-047d-45bf-a6db-1b41a3723c53","dream-boy-2022","Dream Boy",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rocking Rakesh","Remove from supporting cast","medium",true
+"f7f5d244-047d-45bf-a6db-1b41a3723c53","dream-boy-2022","Dream Boy",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hema","Remove from supporting cast","medium",true
+"8178bc7e-7a5c-4da7-92a5-e97bf2b71372","jagamemaya-2022","Jagamemaya",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Babloo Prithiveeraj","Remove from supporting cast","medium",true
+"e47d483d-cf4a-4e8a-b284-01a6e1b668a0","noothi-lo-kappalu-2015","Noothi Lo Kappalu",2015,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Manoj Nandam","Remove from supporting cast","medium",true
+"dd38c3da-0f8b-4883-a74a-c9bb53e3280a","baahubali-the-epic-2025","Baahubali: The Epic",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anushka Shetty","Remove from supporting cast","medium",true
+"652d14dc-8af4-422e-9113-36cfb543c001","jaguar-2016","Jaguar",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"dc3bb785-4768-4eaa-9c63-74be7387fd60","graduate-2011","Graduate",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aslag Guttormsgaard","Remove from supporting cast","medium",true
+"dc3bb785-4768-4eaa-9c63-74be7387fd60","graduate-2011","Graduate",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kristi-Helene Engeberg","Remove from supporting cast","medium",true
+"4ac2b5ff-e664-4f48-bcad-a0923b4ad192","chaurya-paatham-2025","Chaurya Paatham",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mast Ali","Remove from supporting cast","medium",true
+"ab1ba789-ffbd-4afd-a172-544ef3cf2635","nuvvante-nakishtam-2005","Nuvvante Nakishtam",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anuradha Mehta","Remove from supporting cast","medium",true
+"78ac1458-e63a-4c14-a5e4-6d2ef7910595","dhee-2007","Dhee",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Genelia D'Souza","Remove from supporting cast","medium",true
+"5d9a8812-2c55-47ac-8009-17be9563ff8f","narasimhudu-2005","Narasimhudu",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ameesha Patel","Remove from supporting cast","medium",true
+"3cda269f-3323-425a-8518-3e04fa2dd536","taarak-2003","Taarak",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Krishna","Remove from supporting cast","medium",true
+"7fba8c0e-4c51-449b-bd12-fd6d5d493c72","galipatam-2014","Galipatam",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Erica Fernandes","Remove from supporting cast","medium",true
+"f1ee4594-965c-4906-ae30-dbc939f8447f","kanabadutaledu-2021","Kanabadutaledu",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vaishali Raj","Remove from supporting cast","medium",true
+"040cc0e9-67da-4749-a591-148536152d4e","valayam-2020","Valayam",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kireeti Damaraju","Remove from supporting cast","medium",true
+"d90eda12-c7e9-45f9-b7b8-7158d82df7c6","rachcha-2012","Rachcha",2012,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Dev Gill","Remove from supporting cast","medium",true
+"093016fc-0806-4fb7-a8c0-8684198a63b1","baava-2010","Baava",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"787f417f-f086-4a57-ad20-ac53870387b7","gaddalakonda-ganesh-2019","Gaddalakonda Ganesh",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mirnalini Ravi","Remove from supporting cast","medium",true
+"6004ddc1-2535-4aad-9a26-224012fd8f7a","shiva-143-2020","Shiva 143",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sagar Sailesh","Remove from supporting cast","medium",true
+"395139cf-76df-42fd-91ba-71c4d5b789cc","prasthanam-2010","Prasthanam",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pavitra Lokesh","Remove from supporting cast","medium",true
+"54ea1e43-d502-42a0-b277-9290b7cab6e7","maska-2009","Maska",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hansika Motwani","Remove from supporting cast","medium",true
+"700abe56-4511-4360-9ba5-69e016602874","aatadista-2008","Aatadista",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayasudha","Remove from supporting cast","medium",true
+"7754d28a-e496-466a-ad66-84a46a07d84f","anaganaga-o-dheerudu-2011","Anaganaga O Dheerudu",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shruti Haasan","Remove from supporting cast","medium",true
+"d2669ea5-7ff4-4f11-8ee6-e50e71d80ce2","bommalata-2006","Bommalata",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shriya Saran","Remove from supporting cast","medium",true
+"cb6a86b6-3bcd-4080-acd0-97ea131ea03a","boss-2006","Boss",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shriya Saran","Remove from supporting cast","medium",true
+"e2ca346e-2985-4314-9b5a-48e8fd127c59","vidyarthi-2023","Vidyarthi",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Raghu Babu","Remove from supporting cast","medium",true
+"3e91b9f9-de12-46ea-a921-3b086d9282a7","eedo-rakam-aado-rakam-2016","Eedo Rakam Aado Rakam",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Hebah Patel","Remove from supporting cast","medium",true
+"52b58bac-a284-4bf6-bb62-af1bc6f6bbd4","right-right-2016","Right Right",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pooja Jhaveri","Remove from supporting cast","medium",true
+"8a9c2ef7-8102-4dfc-8881-7a9f31c2272e","sathi-gani-rendu-ekaralu-2023","Sathi Gani Rendu Ekaralu",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aneesha Dama","Remove from supporting cast","medium",true
+"b67cf0ed-f3c1-44bb-a637-e5476b643fb1","uma-maheswara-ugra-roopasya-2020","Uma Maheswara Ugra Roopasya",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Roopa Koduvayur","Remove from supporting cast","medium",true
+"a86be9e6-1516-4ea2-af24-49418c3b6cee","raajadhani-files-2024","Raajadhani Files",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vani Viswanath","Remove from supporting cast","medium",true
+"c18de86d-91a0-49b3-92e8-91a8c1ccd0c2","alias-janaki-2013","Alias Janaki",2013,"MUSIC_DUO","INCOMPLETE_DUO","music_director","Shravan","Nadeem-Shravan","low",true
+"48966a6d-2ef8-4b1d-a223-cab52522e220","tuntari-2016","Tuntari",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Latha Hegde","Remove from supporting cast","medium",true
+"c460e906-5715-4db7-ae85-2f3b1854fb0c","v-2020","V",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nivetha Thomas","Remove from supporting cast","medium",true
+"d62c5b08-240d-433c-840a-917124250a99","ram-asur-2021","Ram Asur",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chandhini Tamilarasan","Remove from supporting cast","medium",true
+"783e5320-f947-46ac-96f3-94244bc0a956","kalyana-ramudu-2003","Kalyana Ramudu",2003,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Prabhu Deva","Remove from supporting cast","medium",true
+"e0c84b57-23b7-498d-9f2c-49a376a91e48","race-2013","Race",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Disha Pandey","Remove from supporting cast","medium",true
+"086852cb-57eb-44c2-b512-a34143589486","jyo-achyutananda-2016","Jyo Achyutananda",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Regina Cassandra","Remove from supporting cast","medium",true
+"0f7953dd-4d65-4642-9071-03309d8df2a0","dhandoraa-2025","Dhandoraa",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bindu Madhavi","Remove from supporting cast","medium",true
+"b9d8a3b5-a8a3-4d40-a81f-11b6f27c2cee","oka-brundavanam-2025","Oka Brundavanam",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ananth Babu","Remove from supporting cast","medium",true
+"b9d8a3b5-a8a3-4d40-a81f-11b6f27c2cee","oka-brundavanam-2025","Oka Brundavanam",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kalyani Raju","Remove from supporting cast","medium",true
+"f91a6283-df61-4328-8908-1a29fa06a682","run-2020","Run",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pat Healy","Remove from supporting cast","medium",true
+"5a04ada8-d0e1-4f8d-a52c-ddfc24df191c","major-2022","Major",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Senta Berger","Remove from supporting cast","medium",true
+"dd67704e-b3e1-4e80-a067-c2c6255a33ba","martin-luther-king-2023","Martin Luther King",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Saranya Pradeep","Remove from supporting cast","medium",true
+"8042d1e0-d7e3-49c0-9fc7-0da889149268","rao-bahadur-2026","Rao Bahadur",2026,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Deepa Thomas","Remove from supporting cast","medium",true
+"d0259737-835f-499f-8efa-efc96066b93f","raju-weds-rambai-2025","Raju Weds Rambai",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anitha Chowdary","Remove from supporting cast","medium",true
+"49842167-e1c4-4ad1-a9c1-ee7a7646b3ea","nakshatra-poratam-tba","Nakshatra Poratam",1993,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aamani","Remove from supporting cast","medium",true
+"4be85d09-80ea-42ef-bcb9-8ad2cf872147","oka-pathakam-prakaaram-2025","Oka Pathakam Prakaaram",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ashima Narwal","Remove from supporting cast","medium",true
+"0dc041e2-92cc-4311-8c8e-170204298d94","euphoria-tba","Euphoria",null,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gautham Vasudev Menon","Remove from supporting cast","medium",true
+"436f66ec-1b0c-455c-a0a3-20dd786fb3cd","illicit-relationship-tba","Illicit Relationship",null,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Thanmai Bolt","Remove from supporting cast","medium",true
+"91ecf255-a36d-40d3-a24f-6e17cfc8cbc5","mazaka-2025","Mazaka",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ritu Varma","Remove from supporting cast","medium",true
+"a34582fd-a861-45ab-8b5f-4190d6296bba","umapathi-tba","Umapathi",null,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Posani Krishna Murali","Remove from supporting cast","medium",true
+"88f6251e-2aae-4f0c-8e9d-d3460577d5fc","the-100-2025","The 100",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anand","Remove from supporting cast","medium",true
+"0b47413f-165d-4dff-b262-f518bde41d9e","1000-waala-2025","1000 Waala",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Navitha Gangat","Remove from supporting cast","medium",true
+"1c977a41-d3b7-48d7-a7e4-7623d13d81be","711-pm-2023","7:11 PM",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tess Walsh","Remove from supporting cast","medium",true
+"434676d4-f124-4876-a2c9-93740b2d59ad","ashta-chamma-2008","Ashta Chamma",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Bhargavi","Remove from supporting cast","medium",true
+"093a1adf-bfc1-4203-b8f8-fe32ead83f06","jagapathi-2005","Jagapathi",2005,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rakshita","Remove from supporting cast","medium",true
+"6f45995c-e9e7-43ed-99d7-adfeb77e9e7d","nakshatram-2017","Nakshatram",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Regina Cassandra","Remove from supporting cast","medium",true
+"1c965343-7cf9-4f71-aeec-e7f51add4086","lakshya-2021","Lakshya",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ketika Sharma","Remove from supporting cast","medium",true
+"afde1330-0229-41ea-9757-79db37b07307","kathalo-rajakumari-2017","Kathalo Rajakumari",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Namitha Pramod","Remove from supporting cast","medium",true
+"76d431b8-5960-474a-85e4-8cfef8d4c720","special-2019","Special",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sai Akshitha","Remove from supporting cast","medium",true
+"b7fd3ae3-83c3-465d-a76e-9ab51698453a","sapthagiri-llb-2017","Sapthagiri Llb",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jhansi","Remove from supporting cast","medium",true
+"af562edd-d1ce-43e1-85c1-e87e1e03673b","nenu-seetha-devi-2016","Nenu Seetha Devi",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suman Shetty","Remove from supporting cast","medium",true
+"d759cc8f-e364-4170-9b25-4cb779b94953","senapathi-2021","Senapathi",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gnaneswari Kandregula","Remove from supporting cast","medium",true
+"0462c3ff-e3de-45f8-8b23-47924df21585","prathinidhi-2014","Prathinidhi",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shubra Aaiyappa","Remove from supporting cast","medium",true
+"fd4ada1d-313c-4348-9a67-05bcabd816af","sri-rama-rajyam-2011","Sri Rama Rajyam",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nayanthara","Remove from supporting cast","medium",true
+"661ceca9-f346-47fb-a704-a761a634c521","gamyam-2008","Gamyam",2008,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamalinee Mukherjee","Remove from supporting cast","medium",true
+"f8befd96-f6ee-4c14-9e47-b4054eb0de29","brahmi-gadi-katha-2011","Brahmi Gadi Katha",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Asmita Sood","Remove from supporting cast","medium",true
+"b04c5b34-982a-4995-b393-53231cd7b3ab","ahimsa-2023","Ahimsa",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamal Kamaraju","Remove from supporting cast","medium",true
+"d321790f-c281-414e-ac13-1a17a757e7bb","ardha-shathabdham-2021","Ardha Shathabdham",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pavitra Lokesh","Remove from supporting cast","medium",true
+"33eb7c50-5a4b-47e8-9c9d-0bc91703d35e","mogudu-2011","Mogudu",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shraddha Das","Remove from supporting cast","medium",true
+"cd65005b-da5f-45d6-9233-5d1ea5fe0eef","nandanavanam-120-km-2006","Nandanavanam 120 Km",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rameshwari Talluri","Remove from supporting cast","medium",true
+"bc217391-6aa5-411d-abc4-76e86c134894","janakiram-tba","Janakiram",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Nagendra Babu","Remove from supporting cast","medium",true
+"29998589-90de-46ee-8b54-307e2cc38c9f","double-ismart-2024","Double iSmart",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kavya Thapar","Remove from supporting cast","medium",true
+"a3e04bd9-ec6b-4ca1-953e-14fc7bcaaf62","indrani-epic1-dharam-vs-karam-2024","Indrani - Epic1: Dharam vs Karam",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Franaita Jijina","Remove from supporting cast","medium",true
+"ede2f145-a46a-439a-8c6f-1c755c69f76f","mysaa-tba","Mysaa",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Guru Somasundaram","Remove from supporting cast","medium",true
+"a7a2a2bd-47ab-4780-935a-c17155b2aaf4","yerra-mandaram-1991","Yerra Mandaram",1991,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayalalita","Remove from supporting cast","medium",true
+"83cfbf24-956b-4562-9f7e-20d331390fa6","they-call-him-og-2025","They Call Him OG",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyanka Arul Mohan","Remove from supporting cast","medium",true
+"200053e3-5960-414a-ba16-43091d97e845","dheera-2024","Dheera",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mirchi Kiran","Remove from supporting cast","medium",true
+"200053e3-5960-414a-ba16-43091d97e845","dheera-2024","Dheera",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Neha Pathan","Remove from supporting cast","medium",true
+"a1aeaecb-3356-4a56-90fa-48b41c01c2d3","alanaati-ramachandrudu-2024","Alanaati Ramachandrudu",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmaji","Remove from supporting cast","medium",true
+"60d16d8b-596f-4a90-96db-4f3cc026a096","shivangi-2025","Shivangi",2025,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","John Vijay","Remove from supporting cast","medium",true
+"fd961c6f-1cb3-4de5-b55c-d8cd23a71b60","allare-allari-2007","Allare Allari",2007,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Parvati Melton","Remove from supporting cast","medium",true
+"db18422c-cdec-4f74-89df-9c9f0ab6cdf7","ramnagar-bunny-2024","Ramnagar Bunny",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Muralidhar Goud","Remove from supporting cast","medium",true
+"db18422c-cdec-4f74-89df-9c9f0ab6cdf7","ramnagar-bunny-2024","Ramnagar Bunny",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Richa Joshi","Remove from supporting cast","medium",true
+"7416195f-917d-4136-bef9-01b4f2f1fe62","razakar-the-silent-genocide-of-hyderabad-2024","Razakar: The Silent Genocide of Hyderabad",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Arav Chowdhary","Remove from supporting cast","medium",true
+"af88f104-cd72-46f2-b810-06c02a670f67","lucky-chance-1994","Lucky Chance",1994,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kanchan","Remove from supporting cast","medium",true
+"6e750a81-a67e-43b9-a538-debc5a172a52","bubblegum-2023","Bubblegum",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Harsha Chemudu","Remove from supporting cast","medium",true
+"063c1624-41d8-4453-ab1f-289844349c0d","avatharam-2014","Avatharam",2014,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Richard Rishi","Remove from supporting cast","medium",true
+"f2d49db6-b193-4680-b7bb-2b7dd830ba90","waltair-veerayya-2023","Waltair Veerayya",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shruti Haasan","Remove from supporting cast","medium",true
+"89ae6843-16f4-46f2-b4ca-d8b56d4b7e64","naa-peru-surya-2018","Naa Peru Surya",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anu Emmanuel","Remove from supporting cast","medium",true
+"0ef7d9e6-d637-4258-85b5-71b80939ba4a","maataraani-mounamidhi-2023","Maataraani Mounamidhi",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suman Shetty","Remove from supporting cast","medium",true
+"62335e85-3be9-41ba-ac06-223aeeb97e9f","tiger-nageswara-rao-2023","Tiger Nageswara Rao",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gayatri Bhardwaj","Remove from supporting cast","medium",true
+"4307a5a4-4959-4cd6-a86e-15e9cede6d37","bhagavanth-kesari-2023","Bhagavanth Kesari",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sreeleela","Remove from supporting cast","medium",true
+"acf544a7-595d-4beb-9a52-3d0e0e8c94c2","nagumome-chaalu-le-2023","Nagumome Chaalu Le",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","K. L. Damodar Prasad","Remove from supporting cast","medium",true
+"3d37206d-d18b-4a21-8773-ce71bbdc5790","breathe-2023","Breathe",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vennela Kishore","Remove from supporting cast","medium",true
+"3d37206d-d18b-4a21-8773-ce71bbdc5790","breathe-2023","Breathe",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Aishani Shetty","Remove from supporting cast","medium",true
+"07e32452-2eee-459a-b78d-f040b0c0ed41","mail-2021","Mail",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sri Gouri Priya Reddy","Remove from supporting cast","medium",true
+"375f2122-d286-4af1-816d-3b114d46d52e","virgin-story-2022","Virgin Story",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Jayasri Rachakonda","Remove from supporting cast","medium",true
+"cd305c3a-dc95-43d6-9278-57ebdd82a7d1","dongala-mutha-2011","Dongala Mutha",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Lakshmi Manchu","Remove from supporting cast","medium",true
+"e17705aa-6fe2-4b9e-93c6-a6f32e416728","aatagallu-2018","Aatagallu",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Darshana Banik","Remove from supporting cast","medium",true
+"3f73f743-4700-4a04-a127-b26d75459320","nindha-2024","Nindha",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Q. Madhu","Remove from supporting cast","medium",true
+"e580b1e4-8639-4989-b2e0-b74d54124b09","mathu-vadalara-2-2024","Mathu Vadalara 2",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Faria Abdullah","Remove from supporting cast","medium",true
+"846bb1aa-fcee-46e7-9867-c0e3461bfe8b","krishnamma-2024","Krishnamma",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Athira Raj","Remove from supporting cast","medium",true
+"df57fb85-3fe9-4d20-8a06-46c3aeae9f9d","abcd-american-born-confused-desi-2019","Abcd: American-born Confused Desi",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rukshar Dhillon","Remove from supporting cast","medium",true
+"1cf5d5ee-3d38-411a-8996-0d264a6ebae4","sandeham-2024","Sandeham",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Suman Tej","Remove from supporting cast","medium",true
+"360b1a05-6f74-4f9b-820e-0d899cfc648f","parakramam-2024","Parakramam",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sruthi Samanvi","Remove from supporting cast","medium",true
+"68fd5546-e8f2-41b2-bf76-508c9ed9fcd9","padaharella-vayasu-1978","Padaharella Vayasu",1978,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sridevi","Remove from supporting cast","medium",true
+"c5fe3d90-2afa-4eee-b0b8-0811662730fd","gaganam-2011","Gaganam",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Poonam Kaur","Remove from supporting cast","medium",true
+"d30b1651-9a4b-474d-9169-fe23ce0c1b29","kartha-karma-kriya-2018","Kartha Karma Kriya",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sahar Afsha","Remove from supporting cast","medium",true
+"c11c9d04-9ea9-489e-8a12-34bca449bfa8","thotti-gang-2002","Thotti Gang",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Gajala","Remove from supporting cast","medium",true
+"7c052369-0b35-417a-b2f1-c71b10d05303","agent-narasimha117-2024","Agent Narasimha‐117",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sayaji Shinde","Remove from supporting cast","medium",true
+"7c052369-0b35-417a-b2f1-c71b10d05303","agent-narasimha117-2024","Agent Narasimha‐117",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kirthi Krishna","Remove from supporting cast","medium",true
+"33efc96c-c672-43b7-9ca6-6f87e8cbde26","dhruva-2016","Dhruva",2016,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anjana Jayaprakash","Remove from supporting cast","medium",true
+"e7027461-4104-476c-be30-270eed521760","acharya-2022","Acharya",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pooja Hegde","Remove from supporting cast","medium",true
+"e2c68aa5-f9a0-4643-9ee8-4ae7a1cb615b","suvarna-sundari-2023","Suvarna Sundari",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sai Kumar","Remove from supporting cast","medium",true
+"9bd47fba-ea00-4061-a3c2-f5daae367cca","honeymoon-express-2024","Honeymoon Express",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tanikella Bharani","Remove from supporting cast","medium",true
+"a508be60-813a-40b3-b36a-bee6e237a672","mentoo-2023","#MenToo",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Riya Suman","Remove from supporting cast","medium",true
+"70a5c8d7-8c96-4e85-814f-d16c6e2d6516","saachi-2023","Saachi",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Ashok Mulavirat","Remove from supporting cast","medium",true
+"6afec7c0-032f-4d4a-82c5-568086525e19","ravanasura-2023","Ravanasura",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anu Emmanuel","Remove from supporting cast","medium",true
+"f34e132b-e92c-411b-8385-b93052bc3369","maama-mascheendra-2023","Maama Mascheendra",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Eesha Rebba","Remove from supporting cast","medium",true
+"6e28a32d-30eb-4044-b9a1-9427503e1720","mad-2021","Mad",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Rajath Raghav","Remove from supporting cast","medium",true
+"0bf919a7-a802-4877-9b25-8c30e487622c","dhamaka-2022","Dhamaka",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sreeleela","Remove from supporting cast","medium",true
+"8f3caef5-bb21-4ba3-ae75-8abe7f7d0ba7","sindhooram-2023","Sindhooram",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Siva Balaji","Remove from supporting cast","medium",true
+"9a83ebd8-6735-4d76-8069-7b884123edd5","eenadu-2009","Eenadu",2009,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Lakshmi","Remove from supporting cast","medium",true
+"047ffa11-3632-4c54-aa9b-c4237a9a7213","commitment-2022","Commitment",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Amit Kumar Tiwari","Remove from supporting cast","medium",true
+"acba530b-137e-4870-a9ae-a218de00750a","shaadi-mubarak-2021","Shaadi Mubarak",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","RJ Hemant","Remove from supporting cast","medium",true
+"3587d14d-832b-4f54-b048-9d2206687f30","glamour-2010","Ellis in Glamourland",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chris Tates","Remove from supporting cast","medium",true
+"4dc569f9-1647-4584-a107-4ff952f9372b","grahanam-2004","Grahanam",2004,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Thallavajhula Mohnish","Remove from supporting cast","medium",true
+"6f583e4e-8480-4035-a85e-686cee56e19d","pranam-khareedu-1978","Pranam Khareedu",1978,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chiranjeevi","Remove from supporting cast","medium",true
+"cf7d808b-4dc3-4408-aed1-ee43abc02697","the-warriorr-2022","The Warriorr",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Krithi Shetty","Remove from supporting cast","medium",true
+"28b396a0-1f32-400a-b67d-8d9e9d9f5048","achari-america-yatra-2018","Achari America Yatra",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Pragya Jaiswal","Remove from supporting cast","medium",true
+"0da88977-80d9-4c29-8d4c-2d8ef0f6ffb3","shakti-2011","Shakti",2011,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Sonu Sood","Remove from supporting cast","medium",true
+"b594d44a-c450-4760-89d6-384c56d38f81","nenu-aadhi-madyalo-maa-nanna-2019","Nenu Aadhi Madyalo Maa Nanna",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Manoj Nandam","Remove from supporting cast","medium",true
+"87429b2b-af7c-4b52-8cfc-c466dae5b09e","eeshwar-2002","Eeshwar",2002,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Revathi","Remove from supporting cast","medium",true
+"13c7b6e4-09ea-4e77-8cb3-7272a29ea7a6","sagiletikatha-2023","Sagiletikatha",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vishika Kota","Remove from supporting cast","medium",true
+"4fa2b519-3290-4fc7-be86-9ad47fb131e4","yuddha-bhoomi-1971-beyond-borders-1971","Yuddha Bhoomi (1971 Beyond Borders)",2017,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Allu Sirish","Remove from supporting cast","medium",true
+"93ea903a-d6c1-4a58-87af-003474e8ec3a","maa-nanna-superhero-2024","Maa Nanna Superhero",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Annie","Remove from supporting cast","medium",true
+"c72f01df-4676-4f3f-bb8c-126e950735ea","om-bheem-bush-2024","Om Bheem Bush",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Preity Mukhundhan","Remove from supporting cast","medium",true
+"cad7e40d-8a3d-4b0e-ad38-0674a455b3c9","rakta-charitra-2-2010","Rakta Charitra 2",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Priyamani","Remove from supporting cast","medium",true
+"09a5cb86-78c6-4325-98a0-d5686887aa39","ee-kathalo-paathralu-kalpitam-2021","Ee Kathalo Paathralu Kalpitam",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","I Dream Anjali","Remove from supporting cast","medium",true
+"1056aae6-3eb4-4482-bcf4-3b6aa8e3525f","3-monkeys-2020","3 Monkeys",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Karunya Chowdary","Remove from supporting cast","medium",true
+"ef924376-383e-483f-bb60-525581b44d3f","veera-bhoga-vasantha-rayalu-2018","Veera Bhoga Vasantha Rayalu",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Shriya Saran","Remove from supporting cast","medium",true
+"e488b521-7c45-4aa0-bcbf-07a60d14065b","paper-boy-2018","Paper Boy",2018,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Tanya Hope","Remove from supporting cast","medium",true
+"7e84e30f-6ea2-4fcd-a839-bff6d8a55f58","amaram-akhilam-prema-2020","Amaram Akhilam Prema",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Vijay Ram","Remove from supporting cast","medium",true
+"cd577897-2101-4a35-b111-666c1eff2c3f","balupu-2013","Balupu",2013,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Anjali","Remove from supporting cast","medium",true
+"351c7c15-ad7b-426c-b1f5-25718f3237f1","saaho-2019","Saaho",2019,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mandira Bedi","Remove from supporting cast","medium",true
+"f18452f0-5d37-4609-bdb2-107c2a877c57","bujji-ila-raa-2022","Bujji... Ila Raa",2022,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Chandhini Tamilarasan","Remove from supporting cast","medium",true
+"a128d54b-8b39-4c2d-a092-5f9f241825ce","anukunnadhi-okkati-aynadhi-okkati-2020","Anukunnadhi Okkati Aynadhi Okkati",2020,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Madhunandan","Remove from supporting cast","medium",true
+"4e797448-81a6-4dda-99fa-22f91e6c2cc5","tata-birla-madhyalo-laila-2006","Tata Birla Madhyalo Laila",2006,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Laya","Remove from supporting cast","medium",true
+"9a99b94f-fdd7-49c4-90dd-ea18a06e98f4","panchakshari-2010","Panchakshari",2010,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Brahmanandam","Remove from supporting cast","medium",true
+"4a613ed7-9166-4bc8-a2a3-0029484526f6","priyuraalu-2021","Priyuraalu",2021,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Kamakshi Bhaskarla","Remove from supporting cast","medium",true
+"b0f28bfb-b14d-4c57-9e22-34d3deb4286d","oka-manchi-prema-katha-2024","Oka Manchi Prema Katha",2024,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Samuthirakani","Remove from supporting cast","medium",true
+"79ed6922-c007-49c3-a7e6-587199826065","spark-2023","Spark",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Guru Somasundaram","Remove from supporting cast","medium",true
+"0601e933-39ee-43fa-9ae2-b84b672183cc","hunt-2023","Hunt",2023,"DATA_ERROR","CAST_IN_SUPPORT","supporting_cast","Mounika Reddy","Remove from supporting cast","medium",true

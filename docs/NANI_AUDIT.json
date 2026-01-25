@@ -1,0 +1,46 @@
+{
+  "actorName": "Nani",
+  "debutYear": 2008,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 35,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "bbcfe743-3db9-420e-8350-b16117008be1",
+        "title": "Krishnarjuna Yuddham",
+        "year": 2018
+      },
+      "movie2": {
+        "id": "e1f0d7be-00ea-4b93-a70d-71eaac7c490b",
+        "title": "Krishnarjuna Yudham",
+        "year": 2018
+      },
+      "similarity": 0.9473684210526316
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "2008": 1,
+    "2009": 1,
+    "2010": 1,
+    "2011": 3,
+    "2012": 2,
+    "2013": 1,
+    "2014": 1,
+    "2015": 3,
+    "2016": 3,
+    "2017": 4,
+    "2018": 3,
+    "2019": 3,
+    "2020": 1,
+    "2021": 2,
+    "2022": 1,
+    "2023": 2,
+    "2024": 1,
+    "2025": 1,
+    "2026": 1
+  },
+  "summary": "1 potential duplicates"
+}

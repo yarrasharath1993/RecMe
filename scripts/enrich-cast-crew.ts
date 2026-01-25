@@ -1,35 +1,52 @@
 #!/usr/bin/env npx tsx
 /**
- * CAST & CREW ENRICHMENT SCRIPT (Enhanced v3.0)
+ * CAST & CREW ENRICHMENT SCRIPT (Enhanced v4.0)
  *
  * Enriches movies with complete cast and crew data from multiple sources
  * using parallel execution and the waterfall pattern.
  *
- * EXTENDED DATA (v3.0):
+ * EXTENDED DATA (v4.0):
  * - Hero, Heroine, Director (existing)
  * - Music Director
  * - Producer
  * - Supporting Cast (5 actors with roles)
  * - Crew (cinematographer, editor, writer, choreographer)
  *
+ * NEW in v4.0:
+ * - IMDb full credits scraper (cinematographer, editor, writer)
+ * - Enhanced Telugu Wikipedia infobox parser
+ * - Multi-source confidence scoring
+ *
  * Usage:
  *   npx tsx scripts/enrich-cast-crew.ts --limit=100 --execute
  *   npx tsx scripts/enrich-cast-crew.ts --extended --limit=500 --execute
  *   npx tsx scripts/enrich-cast-crew.ts --missing-music --limit=50 --execute
  *   npx tsx scripts/enrich-cast-crew.ts --missing-producer --limit=50 --execute
+ *   npx tsx scripts/enrich-cast-crew.ts --actor="Chiranjeevi" --execute
  *   npx tsx scripts/enrich-cast-crew.ts --concurrency=25 --execute
  *
  * Sources (in priority order):
- *   1. TMDB Credits API (if tmdb_id exists) - Best for all fields
- *   2. Wikipedia Infobox parsing
- *   3. Wikidata SPARQL queries
- *   4. MovieBuff (Telugu-specific) - Cast, crew, reviews
- *   5. JioSaavn - Music director specifically
+ *   1. TMDB Credits API (if tmdb_id exists) - Best for all fields (95%)
+ *   2. IMDb Full Credits (if imdb_id exists) - Excellent for crew (90%)
+ *   3. Telugu Wikipedia Infobox - Telugu-specific technical credits (85%)
+ *   4. Wikidata SPARQL queries - Structured data (80%)
+ *   5. MovieBuff (Telugu-specific) - Cast, crew, reviews (70%)
+ *   6. JioSaavn - Music director specifically (65%)
  */
 
 import { createClient } from '@supabase/supabase-js';
 import * as dotenv from 'dotenv';
 import chalk from 'chalk';
+
+// Import new automation modules
+import { scrapeIMDbCredits } from './lib/imdb-scraper';
+import { parseTeluguWikipediaInfobox } from './lib/wikipedia-infobox-parser';
+import { scrapeLetterboxdCredits } from './lib/letterboxd-scraper';
+import { scrapeRottenTomatoesCredits } from './lib/rottentomatoes-scraper';
+import { scrapeIdlebrainCredits } from './lib/idlebrain-scraper';
+import { scrapeGreatAndhraCredits } from './lib/greatandhra-scraper';
+import { scrapeCineJoshCredits } from './lib/cinejosh-scraper';
+import { scrapeBookMyShowCredits } from './lib/bookmyshow-scraper';
 
 dotenv.config({ path: '.env.local' });
 
@@ -57,6 +74,10 @@ const MISSING_HEROINE = hasFlag('missing-heroine');
 const MISSING_MUSIC = hasFlag('missing-music');
 const MISSING_PRODUCER = hasFlag('missing-producer');
 const CONCURRENCY = parseInt(getArg('concurrency', '20'));
+const ACTOR = getArg('actor', '');
+const DIRECTOR_FILTER = getArg('director', '');
+const SLUG = getArg('slug', '');
+const DISCOVER = hasFlag('discover'); // NEW: Discover missing films before enriching
 
 // ============================================================================
 // TYPES
@@ -116,6 +137,7 @@ interface Movie {
     music_director?: string;
     producer?: string;
     tmdb_id?: number;
+    imdb_id?: string;
 }
 
 // ============================================================================
@@ -226,7 +248,81 @@ async function tryTMDB(movie: Movie): Promise<CastCrewResult | null> {
 }
 
 // ============================================================================
-// WIKIPEDIA INFOBOX PARSING (Enhanced v2.0)
+// IMDB SCRAPER (New v4.0)
+// ============================================================================
+
+async function tryIMDb(movie: Movie, imdbId?: string): Promise<CastCrewResult | null> {
+    if (!imdbId || !imdbId.startsWith('tt')) return null;
+
+    try {
+        const credits = await scrapeIMDbCredits(imdbId);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'IMDb',
+            confidence: 0.90,
+        };
+
+        // Cast data
+        if (credits.cast && credits.cast.length > 0) {
+            // Get top 2 actors for hero/heroine if not already set
+            if (!movie.hero && credits.cast[0]) {
+                result.hero = credits.cast[0].name;
+            }
+            if (!movie.heroine && credits.cast[1]) {
+                result.heroine = credits.cast[1].name;
+            }
+
+            // Supporting cast (positions 2-7)
+            if (credits.cast.length > 2) {
+                result.supporting_cast = credits.cast.slice(2, 7).map((actor, i) => ({
+                    name: actor.name,
+                    role: actor.character,
+                    order: i + 1,
+                    type: 'supporting' as const,
+                }));
+            }
+        }
+
+        // Crew data
+        if (credits.crew) {
+            const crewData: CrewData = {};
+
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0]) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0]) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        // Only return if we found something useful
+        const hasData = result.hero || result.heroine || result.music_director ||
+            result.producer || (result.supporting_cast && result.supporting_cast.length > 0) ||
+            (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`IMDb scraping failed for ${imdbId}:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// WIKIPEDIA INFOBOX PARSING (Enhanced v4.0)
 // ============================================================================
 
 function extractInfoboxValue(html: string, field: string): string[] {
@@ -267,6 +363,40 @@ function extractInfoboxValue(html: string, field: string): string[] {
 
 async function tryWikipedia(movie: Movie): Promise<CastCrewResult | null> {
     try {
+        // FIRST: Try enhanced Telugu Wikipedia infobox parser (v4.0)
+        const teluguInfobox = await parseTeluguWikipediaInfobox(movie.title_en, movie.release_year);
+
+        if (teluguInfobox) {
+            const result: CastCrewResult = {
+                source: 'Wikipedia',
+                confidence: teluguInfobox.confidence,
+            };
+
+            // Crew data from Telugu Wikipedia
+            if (teluguInfobox.cinematographer || teluguInfobox.editor ||
+                teluguInfobox.writer || teluguInfobox.producer ||
+                teluguInfobox.musicDirector) {
+                result.crew = {};
+                if (teluguInfobox.cinematographer) result.crew.cinematographer = teluguInfobox.cinematographer;
+                if (teluguInfobox.editor) result.crew.editor = teluguInfobox.editor;
+                if (teluguInfobox.writer) result.crew.writer = teluguInfobox.writer;
+            }
+
+            if (teluguInfobox.producer && !movie.producer) {
+                result.producer = teluguInfobox.producer;
+            }
+
+            if (teluguInfobox.musicDirector && !movie.music_director) {
+                result.music_director = teluguInfobox.musicDirector;
+            }
+
+            const hasData = result.music_director || result.producer ||
+                (result.crew && Object.keys(result.crew).length > 0);
+
+            if (hasData) return result;
+        }
+
+        // FALLBACK: Try English Wikipedia HTML scraping (legacy v2.0 method)
         const wikiTitle = movie.title_en.replace(/ /g, '_');
         const patterns = [
             `${wikiTitle}_(${movie.release_year}_Telugu_film)`,
@@ -356,13 +486,15 @@ async function tryWikipedia(movie: Movie): Promise<CastCrewResult | null> {
 
             const hasData = result.hero || result.heroine || result.director ||
                 result.music_director || result.producer ||
-                (result.supporting_cast && result.supporting_cast.length > 0);
+                (result.supporting_cast && result.supporting_cast.length > 0) ||
+                (result.crew && Object.keys(result.crew).length > 0);
 
             if (hasData) return result;
         }
 
         return null;
-    } catch {
+    } catch (error) {
+        console.error('Wikipedia parsing failed:', error);
         return null;
     }
 }
@@ -508,13 +640,389 @@ async function tryJioSaavn(_movie: Movie): Promise<CastCrewResult | null> {
 }
 
 // ============================================================================
+// LETTERBOXD (Verified community data)
+// ============================================================================
+
+async function tryLetterboxd(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeLetterboxdCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'Letterboxd',
+            confidence: 0.92,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            if (!movie.hero && credits.cast[0]) {
+                result.hero = credits.cast[0].name;
+            }
+            if (!movie.heroine && credits.cast[1]) {
+                result.heroine = credits.cast[1].name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`Letterboxd scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// ROTTEN TOMATOES (Verified editorial data)
+// ============================================================================
+
+async function tryRottenTomatoes(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeRottenTomatoesCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'RottenTomatoes',
+            confidence: 0.90,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            if (!movie.hero && credits.cast[0]) {
+                result.hero = credits.cast[0].name;
+            }
+            if (!movie.heroine && credits.cast[1]) {
+                result.heroine = credits.cast[1].name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`RottenTomatoes scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// IDLEBRAIN (Telugu-specific source)
+// ============================================================================
+
+async function tryIdlebrain(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeIdlebrainCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'IdleBrain',
+            confidence: 0.88,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            const hero = credits.cast.find(c => c.role === 'Hero') || credits.cast[0];
+            if (!movie.hero && hero) {
+                result.hero = hero.name;
+            }
+
+            const heroine = credits.cast.find(c => c.role === 'Heroine') || credits.cast[1];
+            if (!movie.heroine && heroine) {
+                result.heroine = heroine.name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`IdleBrain scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// GREATANDHRA (Telugu review source)
+// ============================================================================
+
+async function tryGreatAndhra(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeGreatAndhraCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'GreatAndhra',
+            confidence: 0.85,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            const hero = credits.cast.find(c => c.role === 'Hero') || credits.cast[0];
+            if (!movie.hero && hero) {
+                result.hero = hero.name;
+            }
+
+            const heroine = credits.cast.find(c => c.role === 'Heroine') || credits.cast[1];
+            if (!movie.heroine && heroine) {
+                result.heroine = heroine.name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`GreatAndhra scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// CINEJOSH (Telugu review source)
+// ============================================================================
+
+async function tryCineJosh(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeCineJoshCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'CineJosh',
+            confidence: 0.82,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            const hero = credits.cast.find(c => c.role === 'Hero') || credits.cast[0];
+            if (!movie.hero && hero) {
+                result.hero = hero.name;
+            }
+
+            const heroine = credits.cast.find(c => c.role === 'Heroine') || credits.cast[1];
+            if (!movie.heroine && heroine) {
+                result.heroine = heroine.name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`CineJosh scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
+// BOOKMYSHOW (Official booking data)
+// ============================================================================
+
+async function tryBookMyShow(movie: Movie): Promise<CastCrewResult | null> {
+    try {
+        const credits = await scrapeBookMyShowCredits(movie.title_en, movie.release_year);
+        if (!credits) return null;
+
+        const result: CastCrewResult = {
+            source: 'BookMyShow',
+            confidence: 0.88,
+        };
+
+        if (credits.director && credits.director.length > 0 && !movie.director) {
+            result.director = credits.director[0];
+        }
+
+        if (credits.cast && credits.cast.length > 0) {
+            if (!movie.hero && credits.cast[0]) {
+                result.hero = credits.cast[0].name;
+            }
+            if (!movie.heroine && credits.cast[1]) {
+                result.heroine = credits.cast[1].name;
+            }
+        }
+
+        if (credits.crew) {
+            const crewData: CrewData = {};
+            if (credits.crew.cinematographer?.length && credits.crew.cinematographer[0]) {
+                crewData.cinematographer = credits.crew.cinematographer[0];
+            }
+            if (credits.crew.editor?.length && credits.crew.editor[0]) {
+                crewData.editor = credits.crew.editor[0];
+            }
+            if (credits.crew.writer?.length && credits.crew.writer[0]) {
+                crewData.writer = credits.crew.writer[0];
+            }
+            if (credits.crew.producer?.length && credits.crew.producer[0] && !movie.producer) {
+                result.producer = credits.crew.producer[0];
+            }
+            if (credits.crew.musicDirector?.length && credits.crew.musicDirector[0] && !movie.music_director) {
+                result.music_director = credits.crew.musicDirector[0];
+            }
+
+            if (Object.keys(crewData).length > 0) {
+                result.crew = crewData;
+            }
+        }
+
+        const hasData = result.hero || result.heroine || result.director || result.music_director ||
+            result.producer || (result.crew && Object.keys(result.crew).length > 0);
+
+        return hasData ? result : null;
+    } catch (error) {
+        console.error(`BookMyShow scraping failed:`, error);
+        return null;
+    }
+}
+
+// ============================================================================
 // ENRICHMENT LOGIC
 // ============================================================================
 
 async function enrichMovie(movie: Movie): Promise<CastCrewResult | null> {
     const sources = [
         { name: 'TMDB', fn: tryTMDB, confidence: 0.95 },
+        { name: 'Letterboxd', fn: tryLetterboxd, confidence: 0.92 },
+        { name: 'RottenTomatoes', fn: tryRottenTomatoes, confidence: 0.90 },
+        { name: 'IMDb', fn: (m: Movie) => tryIMDb(m, m.imdb_id), confidence: 0.90 },
+        { name: 'IdleBrain', fn: tryIdlebrain, confidence: 0.88 },
+        { name: 'BookMyShow', fn: tryBookMyShow, confidence: 0.88 },
         { name: 'Wikipedia', fn: tryWikipedia, confidence: 0.85 },
+        { name: 'GreatAndhra', fn: tryGreatAndhra, confidence: 0.85 },
+        { name: 'CineJosh', fn: tryCineJosh, confidence: 0.82 },
         { name: 'Wikidata', fn: tryWikidata, confidence: 0.80 },
         { name: 'MovieBuff', fn: tryMovieBuff, confidence: 0.70 },
         { name: 'JioSaavn', fn: tryJioSaavn, confidence: 0.65 },
@@ -610,9 +1118,10 @@ async function enrichMovie(movie: Movie): Promise<CastCrewResult | null> {
 async function main(): Promise<void> {
     console.log(chalk.cyan.bold(`
 ╔══════════════════════════════════════════════════════════════════════╗
-║           CAST & CREW ENRICHMENT SCRIPT (v3.0)                       ║
-║   Sources: TMDB, Wikipedia, Wikidata, MovieBuff, JioSaavn            ║
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
 ║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
 ╚══════════════════════════════════════════════════════════════════════╝
 `));
 
@@ -620,16 +1129,63 @@ async function main(): Promise<void> {
     console.log(`  Limit: ${LIMIT} movies`);
     console.log(`  Concurrency: ${CONCURRENCY}`);
     console.log(`  Extended mode: ${EXTENDED ? 'Yes' : 'No'}`);
+    console.log(`  Discover mode: ${DISCOVER ? chalk.magenta('ENABLED - Will find missing films first') : 'No'}`);
+    if (ACTOR) console.log(`  Actor filter: "${ACTOR}"`);
+    if (DIRECTOR_FILTER) console.log(`  Director filter: "${DIRECTOR_FILTER}"`);
+    if (SLUG) console.log(`  Slug filter: "${SLUG}"`);
+
+    // Step 0: Discovery Phase (if enabled)
+    if (DISCOVER && ACTOR) {
+        console.log(chalk.magenta.bold(`
+╔══════════════════════════════════════════════════════════════════════╗
+║              DISCOVERY PHASE: Finding Missing Films                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+`));
+
+        const { spawn } = await import('child_process');
+
+        await new Promise<void>((resolve) => {
+            const discoveryArgs = [`--actor="${ACTOR}"`];
+            if (EXECUTE) discoveryArgs.push('--execute');
+
+            console.log(chalk.cyan(`Running: npx tsx scripts/discover-add-actor-films.ts ${discoveryArgs.join(' ')}\n`));
+
+            const child = spawn('npx', ['tsx', 'scripts/discover-add-actor-films.ts', ...discoveryArgs], {
+                stdio: 'inherit',
+                shell: true,
+            });
+
+            child.on('close', () => {
+                console.log(chalk.green('\n✅ Discovery phase completed'));
+                resolve();
+            });
+
+            child.on('error', (error) => {
+                console.error(chalk.red('Discovery phase failed:'), error);
+                resolve();
+            });
+        });
+    }
 
     // Build query based on flags
     let query = supabase
         .from('movies')
-        .select('id, title_en, release_year, hero, heroine, director, music_director, producer, supporting_cast, crew, tmdb_id')
+        .select('id, title_en, release_year, hero, heroine, director, music_director, producer, supporting_cast, crew, tmdb_id, imdb_id')
         .eq('language', 'Telugu');
 
     let filterDesc = 'Missing any cast/crew';
 
-    if (MISSING_HERO) {
+    // Apply actor/director/slug filters first (overrides other filters if specified)
+    if (ACTOR) {
+        query = query.ilike('hero', `%${ACTOR}%`);
+        filterDesc = `Actor: ${ACTOR}`;
+    } else if (DIRECTOR_FILTER) {
+        query = query.ilike('director', `%${DIRECTOR_FILTER}%`);
+        filterDesc = `Director: ${DIRECTOR_FILTER}`;
+    } else if (SLUG) {
+        query = query.eq('slug', SLUG);
+        filterDesc = `Slug: ${SLUG}`;
+    } else if (MISSING_HERO) {
         query = query.or('hero.is.null,hero.eq.Unknown');
         filterDesc = 'Missing hero';
     } else if (MISSING_DIRECTOR) {

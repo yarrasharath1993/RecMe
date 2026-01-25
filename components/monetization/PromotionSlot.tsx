@@ -218,7 +218,7 @@ function FeaturedPromotionSlot({
       </p>
 
       <Link
-        href="/reviews/hidden-gems"
+        href="/movies/hidden-gems"
         className="inline-flex items-center gap-2 px-4 py-2 bg-[#eab308] text-black text-sm font-medium rounded-lg hover:bg-[#eab308]/90 transition-colors"
       >
         Explore Now

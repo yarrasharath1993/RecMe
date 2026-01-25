@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxx"
+      }
+    },
+    "atlassian": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-atlassian", "--confluence-url", "https://yoursite.atlassian.net/wiki", "--jira-url", "https://yoursite.atlassian.net"],
+      "env": {
+        "ATLASSIAN_USER_EMAIL": "your.email@company.com",
+        "ATLASSIAN_API_TOKEN": "ATATTxxxxx"
+      }
+    },
+    "slack": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-slack"],
+      "env": {
+        "SLACK_TEAM_ID": "T0XXXXXXX",
+        "SLACK_TOKEN": "xoxc-xxxxx",
+        "SLACK_COOKIE": "xoxd-xxxxx"
+      }
+    }
+  }
+}

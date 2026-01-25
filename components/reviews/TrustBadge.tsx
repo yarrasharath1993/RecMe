@@ -1,259 +1,301 @@
 'use client';
 
+/**
+ * TrustBadge Component
+ * 
+ * Visual indicator of content trustworthiness based on
+ * data verification and source reliability.
+ */
+
 import { useState } from 'react';
-import { Shield, ShieldCheck, ShieldAlert, ShieldQuestion, Info, X } from 'lucide-react';
+import { Shield, ShieldCheck, ShieldAlert, ShieldX, CheckCircle, Info } from 'lucide-react';
+import type { ConfidenceTier, TrustExplanation } from '@/lib/governance/types';
 
-type TrustLevel = 'verified' | 'high' | 'medium' | 'low' | 'unverified';
-
-interface ConfidenceBreakdown {
-  source_count?: number;
-  source_tiers?: { tier1: number; tier2: number; tier3: number };
-  editorial_alignment?: number;
-  validation_pass_rate?: number;
-  last_validation_date?: string;
-  field_completeness?: number;
-  data_age_days?: number;
-  explanation?: string;
-}
-
-interface TrustBadgeProps {
-  level?: TrustLevel | string | null;
-  score?: number | null;
-  breakdown?: ConfidenceBreakdown | null;
-  showTooltip?: boolean;
+export interface TrustBadgeProps {
+  /** Trust score (0-100) */
+  score?: number;
+  /** Confidence tier */
+  tier?: ConfidenceTier;
+  /** Whether content is verified */
+  isVerified?: boolean;
+  /** Size variant */
   size?: 'sm' | 'md' | 'lg';
+  /** Whether to show the score number */
+  showScore?: boolean;
+  /** Whether to show the label */
+  showLabel?: boolean;
+  /** Custom label text */
+  label?: string;
+  /** Additional class names */
+  className?: string;
 }
 
-const trustConfig: Record<TrustLevel, {
-  label: string;
-  icon: React.ReactNode;
-  iconLg: React.ReactNode;
+// Determine tier from score if not provided
+function getTierFromScore(score: number): ConfidenceTier {
+  if (score >= 80) return 'high';
+  if (score >= 50) return 'medium';
+  return 'low';
+}
+
+const tierConfig: Record<ConfidenceTier, {
+  icon: typeof ShieldCheck;
+  color: string;
   bgColor: string;
   borderColor: string;
-  textColor: string;
-  description: string;
+  ringColor: string;
+  label: string;
 }> = {
-  'verified': {
+  high: {
+    icon: ShieldCheck,
+    color: 'text-green-600',
+    bgColor: 'bg-green-50',
+    borderColor: 'border-green-200',
+    ringColor: 'ring-green-500/30',
     label: 'Verified',
-    icon: <ShieldCheck className="w-3.5 h-3.5" />,
-    iconLg: <ShieldCheck className="w-5 h-5" />,
-    bgColor: 'bg-green-500',
-    borderColor: 'border-green-600',
-    textColor: 'text-white',
-    description: 'Data verified from multiple authoritative sources',
   },
-  'high': {
-    label: 'High Confidence',
-    icon: <Shield className="w-3.5 h-3.5" />,
-    iconLg: <Shield className="w-5 h-5" />,
-    bgColor: 'bg-blue-500',
-    borderColor: 'border-blue-600',
-    textColor: 'text-white',
-    description: 'Data from reliable sources with good coverage',
+  medium: {
+    icon: ShieldAlert,
+    color: 'text-yellow-600',
+    bgColor: 'bg-yellow-50',
+    borderColor: 'border-yellow-200',
+    ringColor: 'ring-yellow-500/30',
+    label: 'Partially Verified',
   },
-  'medium': {
-    label: 'Medium',
-    icon: <Shield className="w-3.5 h-3.5" />,
-    iconLg: <Shield className="w-5 h-5" />,
-    bgColor: 'bg-yellow-500',
-    borderColor: 'border-yellow-600',
-    textColor: 'text-black',
-    description: 'Some data points may need verification',
+  low: {
+    icon: ShieldX,
+    color: 'text-red-600',
+    bgColor: 'bg-red-50',
+    borderColor: 'border-red-200',
+    ringColor: 'ring-red-500/30',
+    label: 'Low Confidence',
   },
-  'low': {
-    label: 'Low',
-    icon: <ShieldAlert className="w-3.5 h-3.5" />,
-    iconLg: <ShieldAlert className="w-5 h-5" />,
-    bgColor: 'bg-orange-500',
-    borderColor: 'border-orange-600',
-    textColor: 'text-white',
-    description: 'Limited sources available',
-  },
-  'unverified': {
+  unverified: {
+    icon: Shield,
+    color: 'text-gray-600',
+    bgColor: 'bg-gray-50',
+    borderColor: 'border-gray-200',
+    ringColor: 'ring-gray-500/30',
     label: 'Unverified',
-    icon: <ShieldQuestion className="w-3.5 h-3.5" />,
-    iconLg: <ShieldQuestion className="w-5 h-5" />,
-    bgColor: 'bg-gray-500',
-    borderColor: 'border-gray-600',
-    textColor: 'text-white',
-    description: 'Data has not been verified',
   },
 };
 
-function getTrustLevel(score?: number | null): TrustLevel {
-  if (!score && score !== 0) return 'unverified';
-  if (score >= 0.9) return 'verified';
-  if (score >= 0.7) return 'high';
-  if (score >= 0.5) return 'medium';
-  if (score >= 0.3) return 'low';
-  return 'unverified';
-}
+const sizeConfig = {
+  sm: {
+    badge: 'px-1.5 py-0.5 text-[10px] gap-1',
+    icon: 'w-3 h-3',
+    score: 'text-[10px]',
+  },
+  md: {
+    badge: 'px-2 py-1 text-xs gap-1.5',
+    icon: 'w-4 h-4',
+    score: 'text-xs',
+  },
+  lg: {
+    badge: 'px-3 py-1.5 text-sm gap-2',
+    icon: 'w-5 h-5',
+    score: 'text-sm',
+  },
+};
 
-function generateExplanation(breakdown: ConfidenceBreakdown): string {
-  const parts: string[] = [];
-  
-  if (breakdown.source_count) {
-    parts.push(`Aggregated from ${breakdown.source_count} sources`);
-  }
-  
-  if (breakdown.source_tiers?.tier1 && breakdown.source_tiers.tier1 >= 2) {
-    parts.push(`Verified by ${breakdown.source_tiers.tier1} authoritative sources`);
-  }
-  
-  if (breakdown.field_completeness) {
-    const pct = Math.round(breakdown.field_completeness * 100);
-    parts.push(`${pct}% data completeness`);
-  }
-  
-  if (breakdown.data_age_days && breakdown.data_age_days > 90) {
-    parts.push(`Data may be outdated (${breakdown.data_age_days} days old)`);
-  }
-  
-  if (breakdown.validation_pass_rate) {
-    const pct = Math.round(breakdown.validation_pass_rate * 100);
-    parts.push(`${pct}% validation pass rate`);
-  }
-  
-  return parts.length > 0 ? parts.join('. ') + '.' : '';
-}
-
-export function TrustBadge({ 
-  level, 
-  score, 
-  breakdown, 
-  showTooltip = true, 
-  size = 'md' 
+export function TrustBadge({
+  score,
+  tier: propTier,
+  isVerified,
+  size = 'md',
+  showScore = false,
+  showLabel = true,
+  label: customLabel,
+  className = '',
 }: TrustBadgeProps) {
-  const [tooltipOpen, setTooltipOpen] = useState(false);
+  // Determine tier
+  const tier = propTier || (score !== undefined ? getTierFromScore(score) : 'medium');
+  const config = tierConfig[tier];
+  const sizes = sizeConfig[size];
+  const TierIcon = config.icon;
 
-  const trustLevel = level as TrustLevel || getTrustLevel(score);
-  const config = trustConfig[trustLevel];
-  
-  if (!config) return null;
-
-  const sizeClasses = {
-    sm: 'px-1.5 py-0.5 text-[10px] gap-1',
-    md: 'px-2 py-1 text-xs gap-1.5',
-    lg: 'px-3 py-1.5 text-sm gap-2',
-  };
-
-  const explanation = breakdown 
-    ? breakdown.explanation || generateExplanation(breakdown)
-    : config.description;
+  // Use verified checkmark if explicitly verified
+  const Icon = isVerified ? CheckCircle : TierIcon;
+  const displayLabel = customLabel || config.label;
 
   return (
-    <div className="relative inline-flex">
+    <span
+      className={`
+        inline-flex items-center font-medium rounded-full
+        ${sizes.badge}
+        ${config.bgColor}
+        ${config.color}
+        ${className}
+      `}
+      title={`Trust Score: ${score !== undefined ? score + '%' : tier}`}
+    >
+      <Icon className={sizes.icon} />
+      {showLabel && <span>{displayLabel}</span>}
+      {showScore && score !== undefined && (
+        <span className={`font-mono font-bold ${sizes.score}`}>
+          {score}%
+        </span>
+      )}
+    </span>
+  );
+}
+
+// Extended TrustBadge with tooltip
+interface TrustBadgeWithTooltipProps extends TrustBadgeProps {
+  /** Trust explanation for tooltip */
+  explanation?: TrustExplanation;
+  /** Last verified date */
+  lastVerified?: string;
+  /** Sources list */
+  sources?: string[];
+}
+
+export function TrustBadgeWithTooltip({
+  score,
+  tier: propTier,
+  isVerified,
+  size = 'md',
+  showScore = true,
+  showLabel = true,
+  label: customLabel,
+  explanation,
+  lastVerified,
+  sources,
+  className = '',
+}: TrustBadgeWithTooltipProps) {
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  // Determine tier
+  const tier = propTier || (score !== undefined ? getTierFromScore(score) : 'medium');
+  const config = tierConfig[tier];
+  const sizes = sizeConfig[size];
+  const TierIcon = config.icon;
+
+  const Icon = isVerified ? CheckCircle : TierIcon;
+  const displayLabel = customLabel || config.label;
+
+  return (
+    <div className={`relative inline-flex ${className}`}>
       <button
-        onClick={() => showTooltip && setTooltipOpen(!tooltipOpen)}
-        className={`inline-flex items-center rounded-md font-semibold border ${config.bgColor} ${config.borderColor} ${config.textColor} ${sizeClasses[size]} shadow-md transition-transform hover:scale-105`}
-        title={!showTooltip ? explanation : undefined}
+        type="button"
+        className={`
+          inline-flex items-center font-medium rounded-full cursor-pointer
+          transition-all duration-200
+          ${sizes.badge}
+          ${config.bgColor}
+          ${config.color}
+          hover:ring-2 ${config.ringColor}
+        `}
+        onMouseEnter={() => setShowTooltip(true)}
+        onMouseLeave={() => setShowTooltip(false)}
+        onFocus={() => setShowTooltip(true)}
+        onBlur={() => setShowTooltip(false)}
+        aria-label={`Trust Score: ${score !== undefined ? score + '%' : tier}`}
       >
-        {size === 'lg' ? config.iconLg : config.icon}
-        {config.label}
-        {showTooltip && (
-          <Info className="w-3 h-3 opacity-70" />
+        <Icon className={sizes.icon} />
+        {showLabel && <span>{displayLabel}</span>}
+        {showScore && score !== undefined && (
+          <span className={`font-mono font-bold ${sizes.score}`}>
+            {score}%
+          </span>
         )}
       </button>
 
-      {/* Tooltip Modal */}
-      {tooltipOpen && showTooltip && (
-        <>
-          {/* Backdrop */}
-          <div 
-            className="fixed inset-0 z-40" 
-            onClick={() => setTooltipOpen(false)}
-          />
-          
-          {/* Tooltip */}
-          <div className="absolute z-50 top-full left-0 mt-2 w-72 bg-[var(--bg-primary)] border border-[var(--border-primary)] rounded-lg shadow-xl p-4">
-            <div className="flex items-start justify-between mb-3">
-              <div className="flex items-center gap-2">
-                {config.iconLg}
-                <span className="font-semibold text-[var(--text-primary)]">
-                  {config.label}
-                </span>
-              </div>
-              <button 
-                onClick={() => setTooltipOpen(false)}
-                className="text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
-              >
-                <X className="w-4 h-4" />
-              </button>
+      {/* Tooltip */}
+      {showTooltip && (
+        <div
+          className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 p-3 rounded-lg shadow-xl border bg-white"
+          style={{
+            borderColor: 'var(--border-primary, #e5e7eb)',
+          }}
+        >
+          {/* Header */}
+          <div className="flex items-center justify-between mb-2 pb-2 border-b border-[var(--border-primary)]">
+            <div className="flex items-center gap-2">
+              <TierIcon className={`w-5 h-5 ${config.color}`} />
+              <span className={`text-sm font-semibold ${config.color}`}>
+                {displayLabel}
+              </span>
             </div>
-
-            <p className="text-sm text-[var(--text-secondary)] mb-3">
-              {explanation}
-            </p>
-
-            {breakdown && (
-              <div className="space-y-2 text-xs">
-                {breakdown.source_count !== undefined && (
-                  <div className="flex justify-between">
-                    <span className="text-[var(--text-secondary)]">Sources</span>
-                    <span className="text-[var(--text-primary)]">{breakdown.source_count}</span>
-                  </div>
-                )}
-                {breakdown.field_completeness !== undefined && (
-                  <div className="flex justify-between">
-                    <span className="text-[var(--text-secondary)]">Completeness</span>
-                    <span className="text-[var(--text-primary)]">
-                      {Math.round(breakdown.field_completeness * 100)}%
-                    </span>
-                  </div>
-                )}
-                {breakdown.validation_pass_rate !== undefined && (
-                  <div className="flex justify-between">
-                    <span className="text-[var(--text-secondary)]">Validation</span>
-                    <span className="text-[var(--text-primary)]">
-                      {Math.round(breakdown.validation_pass_rate * 100)}%
-                    </span>
-                  </div>
-                )}
-                {breakdown.last_validation_date && (
-                  <div className="flex justify-between">
-                    <span className="text-[var(--text-secondary)]">Last Verified</span>
-                    <span className="text-[var(--text-primary)]">
-                      {new Date(breakdown.last_validation_date).toLocaleDateString()}
-                    </span>
-                  </div>
-                )}
-                {score !== undefined && score !== null && (
-                  <div className="mt-3 pt-3 border-t border-[var(--border-primary)]">
-                    <div className="flex justify-between items-center">
-                      <span className="text-[var(--text-secondary)]">Confidence Score</span>
-                      <span className="font-semibold text-[var(--text-primary)]">
-                        {Math.round(score * 100)}%
-                      </span>
-                    </div>
-                    <div className="mt-1 h-1.5 bg-[var(--bg-secondary)] rounded-full overflow-hidden">
-                      <div 
-                        className={`h-full ${config.bgColor} rounded-full`}
-                        style={{ width: `${score * 100}%` }}
-                      />
-                    </div>
-                  </div>
-                )}
-              </div>
+            {score !== undefined && (
+              <span className={`text-lg font-mono font-bold ${config.color}`}>
+                {score}%
+              </span>
             )}
           </div>
-        </>
+
+          {/* Explanation */}
+          {explanation?.summary && (
+            <p className="text-xs text-[var(--text-secondary)] mb-2">
+              {explanation.summary}
+            </p>
+          )}
+
+          {/* Key factors */}
+          {explanation?.key_factors && explanation.key_factors.length > 0 && (
+            <div className="space-y-1.5 mb-3">
+              {explanation.key_factors.slice(0, 3).map((factor, idx) => (
+                <div key={idx} className="flex items-start gap-2 text-xs">
+                  <span className={factor.impact === 'positive' ? 'text-green-500' : factor.impact === 'negative' ? 'text-red-500' : 'text-gray-400'}>
+                    {factor.impact === 'positive' ? '✓' : factor.impact === 'negative' ? '✗' : '•'}
+                  </span>
+                  <span className="text-[var(--text-tertiary)]">
+                    {factor.description}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Sources */}
+          {sources && sources.length > 0 && (
+            <div className="text-[10px] text-[var(--text-tertiary)]">
+              <span className="font-medium">Sources: </span>
+              {sources.join(', ')}
+            </div>
+          )}
+
+          {/* Last verified */}
+          {lastVerified && (
+            <div className="text-[10px] text-[var(--text-tertiary)] mt-1">
+              <span className="font-medium">Last verified: </span>
+              {new Date(lastVerified).toLocaleDateString()}
+            </div>
+          )}
+
+          {/* Arrow */}
+          <div
+            className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0"
+            style={{
+              borderLeft: '6px solid transparent',
+              borderRight: '6px solid transparent',
+              borderTop: '6px solid white',
+            }}
+          />
+        </div>
       )}
     </div>
   );
 }
 
-// Simple score indicator without tooltip
-export function ConfidenceScore({ score }: { score: number }) {
-  const level = getTrustLevel(score);
-  const config = trustConfig[level];
-  
+// Simple verified checkmark
+export function VerifiedBadge({
+  size = 'sm',
+  className = '',
+}: {
+  size?: 'sm' | 'md';
+  className?: string;
+}) {
+  const sizeConfig = {
+    sm: 'w-4 h-4',
+    md: 'w-5 h-5',
+  };
+
   return (
-    <div className="flex items-center gap-2">
-      <div className={`w-2 h-2 rounded-full ${config.bgColor}`} />
-      <span className="text-xs text-[var(--text-secondary)]">
-        {Math.round(score * 100)}% confidence
-      </span>
-    </div>
+    <CheckCircle
+      className={`${sizeConfig[size]} text-blue-500 ${className}`}
+      aria-label="Verified"
+    />
   );
 }
 
+export default TrustBadge;

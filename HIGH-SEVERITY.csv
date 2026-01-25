@@ -1,0 +1,79 @@
+id,slug,title,year,category,issue_type,field,current_value,suggested_fix,severity,auto_fixable
+"07540f9d-50b5-4fdd-85aa-311dcd9295dc","kaboye-alludu-1987","Kaboye Alludu",1987,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rajendra Prasad=Rajendra Prasad","Fix duplicate","high",false
+"5356abfd-e4dc-47e3-8ebc-756818317e70","sabadham-1971","Sabadham",1971,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","K R Vijaya=K R Vijaya","Fix duplicate","high",false
+"4ba0b6d2-e416-4cd3-bd7c-d6763e994558","ladies-special-1993","Ladies Special",1993,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vani Viswanath=Vani Viswanath","Fix duplicate","high",false
+"c218798b-a4ca-42dc-b7c6-a6a407ab9524","the-desire-2010","The Desire",2010,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Xia Yu=Xia Yu","Fix duplicate","high",false
+"6b65d95e-1e3f-46bf-b70b-91282ec6661b","punnami-nagu-2009","Punnami Nagu",2009,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Mumaith Khan=Mumaith Khan","Fix duplicate","high",false
+"0aed94d7-f9cc-4e7c-a605-1f7a4fb4881d","mud-people-1991","Mud People",1991,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Archana=Archana","Fix duplicate","high",false
+"68b76cbe-5dd4-411a-8373-69ba909cecb0","o-amma-katha-1981","O Amma Katha",1981,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Sharada=Sharada","Fix duplicate","high",false
+"ac66122d-0ab5-4d66-a581-5f28d962659e","nimajjanam-1979","Nimajjanam",1979,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Sharada=Sharada","Fix duplicate","high",false
+"67b522d8-c3d5-4468-879a-ca56fc735ae6","merupu-daadi-1984","Merupu Daadi",1984,"GENDER_SWAP","FEMALE_IN_HERO","hero","Silk Smitha","Move to heroine","high",false
+"b5c120b6-a177-4775-8ff0-60eecc178ae6","ranam-2006","Ranam",2006,"GENDER_SWAP","MALE_IN_HEROINE","heroine","Gopichand","Move to hero","high",false
+"e6d54127-0157-44d3-b38f-a9003aa5d321","agni-pareeksha-1970","Agni Pareeksha",1970,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Anjali Devi=Anjali Devi","Fix duplicate","high",false
+"84b67c5a-3b87-4280-9995-589d24765a98","devullu-2000","Devullu",2000,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Nitya Shetty=Nitya Shetty","Fix duplicate","high",false
+"422b6457-0e66-4546-868c-cc93b6a7c6b5","sri-bannari-amman-2002","Sri Bannari Amman",2002,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"e38a8969-9ecf-4ff1-b973-58c14b85fef1","nagadevathe-2000","Nagadevathe",2000,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Prema=Prema","Fix duplicate","high",false
+"85ab9ba4-130c-423e-be7c-671d2243a5ea","rajasthan-1999","Rajasthan",1999,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"85ab9ba4-130c-423e-be7c-671d2243a5ea","rajasthan-1999","Rajasthan",1999,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"e0d70eb7-542b-481b-b6b5-2932dff75b4f","kallukondoru-pennu-1998","Kallukondoru Pennu",1998,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"e0d70eb7-542b-481b-b6b5-2932dff75b4f","kallukondoru-pennu-1998","Kallukondoru Pennu",1998,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"95f01599-0aba-47fc-9ab3-e02cb1de6e45","osey-ramulamma-1997","Osey Ramulamma",1997,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"95f01599-0aba-47fc-9ab3-e02cb1de6e45","osey-ramulamma-1997","Osey Ramulamma",1997,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"4e616d4f-1346-40e2-a335-4ed941ae19cf","anarkali-1955","Anarkali",1955,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Anjali Devi=Anjali Devi","Fix duplicate","high",false
+"4d45fe33-8711-4495-9ba1-2021d4030010","dongata-2015","Dongata",2015,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Lakshmi Manchu=Lakshmi Manchu","Fix duplicate","high",false
+"2ca9e9a2-31e7-469d-a684-495f0f183da8","ips-jhansi-2004","IPS Jhansi",2004,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"2ca9e9a2-31e7-469d-a684-495f0f183da8","ips-jhansi-2004","IPS Jhansi",2004,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"46561ff1-e3cf-4ae3-8030-1203e4a2536e","amma-durgamma-1996","Amma Durgamma",1996,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Ooha=Ooha","Fix duplicate","high",false
+"2153b25d-a999-4c1f-95c0-b9c9ba8bca5f","kartavyam-1990","Kartavyam",1990,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"ead4e6de-4804-4463-9dfa-364c4730f8f7","buridi-2010","Buridi",2010,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Aishwarya Bhaskar=Aishwarya Bhaskar","Fix duplicate","high",false
+"dcf3c7bf-f24a-4636-9727-f490db43a132","souten-ki-beti-1989","Souten Ki Beti",1989,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rekha=Rekha","Fix duplicate","high",false
+"ef78f26f-d13e-49e3-8d0d-6dc43f302cc7","sita-on-the-road-2021","Sita on the Road",2021,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Kalpika Ganesh=Kalpika Ganesh","Fix duplicate","high",false
+"3404170b-85ff-49b9-8025-1de801295e93","jatha-kalise-2015","Jatha Kalise",2015,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Tejaswi Madivada=Tejaswi Madivada","Fix duplicate","high",false
+"17eb4434-c986-48ef-b9dc-ef665caf621d","prema-yuddham-1990","Prema Yuddham",1990,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Amala Akkineni=Amala Akkineni","Fix duplicate","high",false
+"5d76dd8d-9df6-444a-aceb-23797b93cf1e","welcome-obama-2013","Welcome obama",2013,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Urmilla Kothare=Urmilla Kothare","Fix duplicate","high",false
+"08df7994-b37b-4571-a261-aa1c68888949","vishwamitra-2019","Vishwamitra",2019,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Nandita Raj=Nandita Raj","Fix duplicate","high",false
+"f59600c8-228c-49ce-8ab3-e3117cc82763","avunu-2012","Avunu",2012,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Poorna=Poorna","Fix duplicate","high",false
+"ad8e815a-5ef9-4266-bd19-0e61ee53a339","mr-medhavi-2008","Mr. Medhavi",2008,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Genelia D'Souza=Genelia D'Souza","Fix duplicate","high",false
+"5cdec616-5775-4b4a-9749-dcda84e4d878","indian-beauty-2006","Indian Beauty",2006,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Brahmanandam=Brahmanandam","Fix duplicate","high",false
+"40ba5b4b-9570-43e5-8b74-7fd8d53c5d13","maga-rayudu-1994","Maga Rayudu",1994,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"19f651ee-c72c-4133-b834-402ac0dfc000","rendilla-poojari-1993","Rendilla Poojari",1993,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Shobana=Shobana","Fix duplicate","high",false
+"b1bd8f44-f6f5-4d18-b523-baa1c5973a29","jeevana-ganga-1988","Jeevana Ganga",1988,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rajendra Prasad=Rajendra Prasad","Fix duplicate","high",false
+"b6e053d0-52fb-49e9-b9d1-51b1ec62ef42","lanka-2017","Lanka",2017,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Raai Laxmi=Raai Laxmi","Fix duplicate","high",false
+"017a991a-e435-439b-bbb3-c5b7d243a144","dirty-hari-2020","Dirty Hari",2020,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Ruhani Sharma=Ruhani Sharma","Fix duplicate","high",false
+"811886cc-d498-4e01-9e42-67116b7bf5a8","subhalagnam-1994","Subhalagnam",1994,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Aamani=Aamani","Fix duplicate","high",false
+"ee46c641-0e20-46f7-8114-5ee86a5431e1","jhansi-rani-1988","Jhansi Rani",1988,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"ee46c641-0e20-46f7-8114-5ee86a5431e1","jhansi-rani-1988","Jhansi Rani",1988,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"32f901bd-ba34-411e-a110-fbaa8d35ad72","pratighatana-1985","Pratighatana",1985,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"32f901bd-ba34-411e-a110-fbaa8d35ad72","pratighatana-1985","Pratighatana",1985,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"d4e7f828-38dc-41d0-9830-c7fb95453df0","maisamma-ips-2007","Maisamma IPS",2007,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Mumaith Khan=Mumaith Khan","Fix duplicate","high",false
+"8f26804c-51c3-4508-9bf1-1248769c7c4e","sakshi-1989","Sakshi",1989,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"8f26804c-51c3-4508-9bf1-1248769c7c4e","sakshi-1989","Sakshi",1989,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"4021e5b1-f36b-4657-b910-1b588141e09d","aahuthi-1988","Aahuthi",1988,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"4021e5b1-f36b-4657-b910-1b588141e09d","aahuthi-1988","Aahuthi",1988,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"1aab7604-0f69-445f-9119-744ce76a43c4","abhishekam-1998","Abhishekam",1998,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rachana Banerjee=Rachana Banerjee","Fix duplicate","high",false
+"c1c23ba0-f451-4393-bf5d-c7d804b656e5","pournami-2006","Pournami",2006,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Trisha Krishnan=Trisha Krishnan","Fix duplicate","high",false
+"6dd488ad-8661-4cf8-a35a-1a05334b1992","mantra-2007","Mantra",2007,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Charmy Kaur=Charmy Kaur","Fix duplicate","high",false
+"96abd3df-fa44-4fe8-b8b5-b2b7e266b304","sri-renukadevi-mahatyam-1978","Sri Renukadevi Mahatyam",1978,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","B. Saroja Devi=B. Saroja Devi","Fix duplicate","high",false
+"064e67d9-acb6-48e4-9474-8559ed588b1a","missamma-2003","Missamma",2003,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Bhumika Chawla=Bhumika Chawla","Fix duplicate","high",false
+"cafa7d86-0a7c-4d17-a5db-ed73b25c50e8","katha-2009","Katha",2009,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Genelia D'Souza=Genelia D'Souza","Fix duplicate","high",false
+"d4b041d2-69f5-4d75-94be-a9a7b3532477","devi-1999","Devi",1999,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Prema=Prema","Fix duplicate","high",false
+"469ef0c5-baaa-4142-9f93-28c1893b6d66","amaravathi-2009","Amaravathi",2009,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Bhumika Chawla=Bhumika Chawla","Fix duplicate","high",false
+"63691833-d0c5-413a-87aa-0efc29a68b99","naayudamma-2006","Naayudamma",2006,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"a247e5d1-da65-4b4e-8d9e-071de22e2358","daasi-1988","Daasi",1988,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Archana=Archana","Fix duplicate","high",false
+"d42f7ec4-1d2c-4029-9f6c-05fde3c6278a","kerintha-2015","Kerintha",2015,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Tejaswi Madivada=Tejaswi Madivada","Fix duplicate","high",false
+"caead698-4a96-402f-8761-795807f07c76","returning-soldier-1946","Returning Soldier",1946,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Unknown=Unknown","Fix duplicate","high",false
+"f7d50074-d831-4373-9fbc-4da8bf422684","chandirani-1953","Chandirani",1953,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Bhanumathi=Bhanumathi","Fix duplicate","high",false
+"707c6bc3-a0d9-44fd-b1f4-10ebbcaf724e","preminchu-2001","Preminchu",2001,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Laya=Laya","Fix duplicate","high",false
+"fefa56b3-ca02-4e97-b6a2-5cd4ad12f69b","vijayadasami-2007","Vijayadasami",2007,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Nandamuri Kalyan Ram=Nandamuri Kalyan Ram","Fix duplicate","high",false
+"7eb04022-2186-4ebe-b506-ffecb6580fad","mithunam-2012","Mithunam",2012,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Lakshmi=Lakshmi","Fix duplicate","high",false
+"d647d89a-0d32-4014-991d-b0302ab17bcf","kokilam-1990","Kokilam",1990,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Shobana=Shobana","Fix duplicate","high",false
+"dcb78d88-bfc0-489c-81f6-a172f06458d8","natyam-2021","Natyam",2021,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Sandhya Raju=Sandhya Raju","Fix duplicate","high",false
+"06b323af-6b80-4036-9411-db99149127e6","neethone-vuntanu-2002","Neethone Vuntanu",2002,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rachana Banerjee=Rachana Banerjee","Fix duplicate","high",false
+"1217ac54-93a9-4bc8-964e-180885b0a1db","stri-1995","Stri",1995,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Rohini=Rohini","Fix duplicate","high",false
+"81b4aade-03fd-4d29-b055-51d8bd0e7d62","aunty-1995","Aunty",1995,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Jayasudha=Jayasudha","Fix duplicate","high",false
+"4ee61b19-ee5a-4bac-99a1-b1c52db92ed5","chandamama-kathalu-2014","Chandamama Kathalu",2014,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Lakshmi Manchu=Lakshmi Manchu","Fix duplicate","high",false
+"53e148bc-afb8-4f2b-a8d0-ec5d84624991","rowdy-rangamma-1978","Rowdy Rangamma",1978,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijaya Lalitha=Vijaya Lalitha","Fix duplicate","high",false
+"5f71cd6e-69f2-49f5-8c71-056a2c474ef0","anasuya-2007","Anasuya",2007,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Bhumika Chawla=Bhumika Chawla","Fix duplicate","high",false
+"9f116506-21dd-4f04-9d9c-b7c7029359ea","karthavyam-1991","Karthavyam",1991,"GENDER_SWAP","FEMALE_IN_HERO","hero","Vijayashanti","Move to heroine","high",false
+"9f116506-21dd-4f04-9d9c-b7c7029359ea","karthavyam-1991","Karthavyam",1991,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Vijayashanti=Vijayashanti","Fix duplicate","high",false
+"0dfaa03b-c0e4-4f25-a648-6281772d7746","vanaja-2006","Vanaja",2006,"DATA_ERROR","DUPLICATE_CAST","hero/heroine","Mamatha Bhukya=Mamatha Bhukya","Fix duplicate","high",false

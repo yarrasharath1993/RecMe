@@ -1,0 +1,453 @@
+═══════════════════════════════════════════════════════════════════════
+  BATCH 4 (REMAINING): 93 MOVIES FOR MANUAL REVIEW (Entries 904-1000)
+═══════════════════════════════════════════════════════════════════════
+
+IMPORTANT NOTES:
+- Entries 954, 959, 966, 1000 were already processed in partial batch
+- This file contains the remaining 93 entries
+- Most are from 1983 (prolific year)
+- Several Tamil/Kannada dubs identified
+- Potential duplicates to resolve
+- Most have NO TMDB ID
+
+FORMAT:
+Entry# | Title | Year | URL | TMDB Status
+
+INSTRUCTIONS:
+For each movie, research and provide:
+1. Correct title (if different)
+2. Director
+3. Hero
+4. Heroine (or "-" if none)
+5. TMDB ID (or 0 if not found)
+6. Genres (1-2 genres max)
+7. Action: KEEP / DELETE / DUPLICATE OF [entry#]
+
+═══════════════════════════════════════════════════════════════════════
+
+904. Grahanam Vidichindi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/grahanam-vidichindi-1983
+     Genres: __________________ [ ]
+
+905. Akka Mogudu Chelleli Kapuram (1983) [✗ No TMDB]
+     http://localhost:3000/movies/akka-mogudu-chelleli-kapuram-1983
+     Genres: __________________ [ ]
+
+906. Agni Samadhi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/agni-samadhi-1983
+     Genres: __________________ [ ]
+
+907. Navodayam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/navodayam-1983
+     Genres: __________________ [ ]
+
+908. Devi Moogambika (1983) [✗ No TMDB]
+     http://localhost:3000/movies/devi-moogambika-1983
+     Genres: __________________ [ ]
+
+909. Pandanti Kapuraniki 12 Suthralu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/pandanti-kapuraniki-12-suthralu-1983
+     Genres: __________________ [ ]
+
+910. Kirayi Bommalu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kirayi-bommalu-1983
+     Genres: __________________ [ ]
+
+911. Maa Intiki Randi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/maa-intiki-randi-1983
+     Genres: __________________ [ ]
+
+912. Rangula Puli (1983) [✗ No TMDB]
+     http://localhost:3000/movies/rangula-puli-1983
+     Genres: __________________ [ ]
+
+913. Adadhi Aata Bommaa! (1983) [✗ No TMDB]
+     http://localhost:3000/movies/adadhi-aata-bommaa-1983
+     Genres: __________________ [ ]
+
+914. Manavulara Manninchandi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/manavulara-manninchandi-1983
+     Genres: __________________ [ ]
+
+915. Maa Intaina Katha (1983) [✗ No TMDB]
+     http://localhost:3000/movies/maa-intaina-katha-1983
+     Genres: __________________ [ ]
+
+916. Pralaya Gharjana (1983) [✗ No TMDB]
+     http://localhost:3000/movies/pralaya-gharjana-1983
+     Genres: __________________ [ ]
+
+917. Koti Kokkadu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/koti-kokkadu-1983
+     Genres: __________________ [ ]
+
+918. Kodalu Kaavaali (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kodalu-kaavaali-1983
+     Genres: __________________ [ ]
+
+919. Kanthaiyya Kanakaiyya (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kanthaiyya-kanakaiyya-1983
+     Genres: __________________ [ ]
+
+920. Simhamtho Chelagatam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/simhamtho-chelagatam-1983
+     Genres: __________________ [ ]
+
+921. Kaksha Sadistha (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kaksha-sadistha-1983
+     Genres: __________________ [ ]
+
+922. Chandi Rani (1983) [✗ No TMDB]
+     http://localhost:3000/movies/chandi-rani-1983
+     Genres: __________________ [ ]
+
+923. Chattam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/chattam-1983
+     Genres: __________________ [ ]
+
+924. Lankebindelu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/lankebindelu-1983
+     Genres: __________________ [ ]
+     ⚠️  Potential duplicate of 961
+
+925. Puli Debba (1983) [✗ No TMDB]
+     http://localhost:3000/movies/puli-debba-1983
+     Genres: __________________ [ ]
+
+926. C I D Simham (1983) [✗ No TMDB]
+     http://localhost:3000/movies/c-i-d-simham-1983
+     Genres: __________________ [ ]
+     ⚠️  Marked as "Kannada Dub Sahasa Simha 1982" - Verify if this is dub
+
+927. Andhra Kesari (1983) [✗ No TMDB]
+     http://localhost:3000/movies/andhra-kesari-1983
+     Genres: __________________ [ ]
+
+928. Challenge Vetagallu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/challenge-vetagallu-1983
+     Genres: __________________ [ ]
+
+929. Raakasi Loya (1983) [✗ No TMDB]
+     http://localhost:3000/movies/raakasi-loya-1983
+     Genres: __________________ [ ]
+
+930. Ee Desamlo Oka Roju (1983) [✗ No TMDB]
+     http://localhost:3000/movies/ee-desamlo-oka-roju-1983
+     Genres: __________________ [ ]
+
+931. Dharmaatmudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/dharmaatmudu-1983
+     Genres: __________________ [ ]
+
+932. Antham Chusina Adadhi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/antham-chusina-adadhi-1983
+     Genres: __________________ [ ]
+
+933. Kala Yamudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kala-yamudu-1983
+     Genres: __________________ [ ]
+
+934. Police Venkataswamy (1983) [✗ No TMDB]
+     http://localhost:3000/movies/police-venkataswamy-1983
+     Genres: __________________ [ ]
+
+935. Manishiko Chartira (1983) [✗ No TMDB]
+     http://localhost:3000/movies/manishiko-chartira-1983
+     Genres: __________________ [ ]
+
+936. Eeswarudu Seneswarudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/eeswarudu-seneswarudu-1983
+     Genres: __________________ [ ]
+
+937. Prema Sagaram (1983) [✗ No TMDB]
+     http://localhost:3000/movies/prema-sagaram-1983
+     Genres: __________________ [ ]
+     ⚠️  Potential duplicate - check if same as 898
+
+938. Rangula Kala (1983) [✗ No TMDB]
+     http://localhost:3000/movies/rangula-kala-1983
+     Genres: __________________ [ ]
+
+939. Ikanaina Marandi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/ikanaina-marandi-1983
+     Genres: __________________ [ ]
+
+940. Idhi Kadhu Mugimpu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/idhi-kadhu-mugimpu-1983
+     Genres: __________________ [ ]
+
+941. Desanikokkadu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/desanikokkadu-1983
+     Genres: __________________ [ ]
+
+942. Manishiki Maro Peru (1983) [✗ No TMDB]
+     http://localhost:3000/movies/manishiki-maro-peru-1983
+     Genres: __________________ [ ]
+
+943. Kanne Donga (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kanne-donga-1983
+     Genres: __________________ [ ]
+
+944. Kasi Yatra (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kasi-yatra-1983
+     Genres: __________________ [ ]
+
+945. Siripuram Monagadu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/siripuram-monagadu-1983
+     Genres: __________________ [ ]
+
+946. Debbaku Debba (1983) [✗ No TMDB]
+     http://localhost:3000/movies/debbaku-debba-1983
+     Genres: __________________ [ ]
+
+947. Prema Vijayam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/prema-vijayam-1983
+     Genres: __________________ [ ]
+
+948. Kaliyuga Dhaivam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kaliyuga-dhaivam-1983
+     Genres: __________________ [ ]
+
+949. Devi Sridevi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/devi-sridevi-1983
+     Genres: __________________ [ ]
+
+950. Thodu Needa (1983) [✗ No TMDB]
+     http://localhost:3000/movies/thodu-needa-1983
+     Genres: __________________ [ ]
+
+951. Raju Rani Jocky (1983) [✗ No TMDB]
+     http://localhost:3000/movies/raju-rani-jocky-1983
+     Genres: __________________ [ ]
+
+952. Triveni Sangamam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/triveni-sangamam-1983
+     Genres: __________________ [ ]
+
+953. Kunkuma Tilakam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kunkuma-tilakam-1983
+     Genres: __________________ [ ]
+
+═══════════════════════════════════════════════════════════════════════
+NOTE: Entry 954 (Jaani Dost) was already processed - SKIP
+═══════════════════════════════════════════════════════════════════════
+
+955. Shubha Muhurtam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/shubha-muhurtam-1983
+     Genres: __________________ [ ]
+     ⚠️  Potential duplicate of 962 (Subha Muhurtham)
+
+956. Bezawada Bebbuli (1983) [✗ No TMDB]
+     http://localhost:3000/movies/bezawada-bebbuli-1983
+     Genres: __________________ [ ]
+
+957. Muddula Mogudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/muddula-mogudu-1983
+     Genres: __________________ [ ]
+
+958. Gaju Bommalu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/gaju-bommalu-1983
+     Genres: __________________ [ ]
+
+═══════════════════════════════════════════════════════════════════════
+NOTE: Entry 959 (Trisulam) was already processed - SKIP
+═══════════════════════════════════════════════════════════════════════
+
+960. Ramarajyamlo Bheemaraju (1983) [✗ No TMDB]
+     http://localhost:3000/movies/ramarajyamlo-bheemaraju-1983
+     Genres: __________________ [ ]
+
+961. Lanke Bindelu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/lanke-bindelu-1983
+     Genres: __________________ [ ]
+     ⚠️  Potential duplicate of 924 (Lankebindelu)
+
+962. Subha Muhurtham (1983) [✗ No TMDB]
+     http://localhost:3000/movies/subha-muhurtham-1983
+     Genres: __________________ [ ]
+     ⚠️  Potential duplicate of 955 (Shubha Muhurtam)
+
+963. Digivachina Devudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/digivachina-devudu-1983
+     Genres: __________________ [ ]
+
+964. Bharathamma Muddu Biddalu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/bharathamma-muddu-biddalu-1983
+     Genres: __________________ [ ]
+
+965. Nijam Chebithe Nerama (1983) [✗ No TMDB]
+     http://localhost:3000/movies/nijam-chebithe-nerama-1983
+     Genres: __________________ [ ]
+
+═══════════════════════════════════════════════════════════════════════
+NOTE: Entry 966 (Amarajeevi) was already processed - SKIP
+═══════════════════════════════════════════════════════════════════════
+
+967. Intalludu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/intalludu-1983
+     Genres: __________________ [ ]
+
+968. Padmavathi Kalyanam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/padmavathi-kalyanam-1983
+     Genres: __________________ [ ]
+
+969. Raghu Ramudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/raghu-ramudu-1983
+     Genres: __________________ [ ]
+
+970. Kalyana Veena (1983) [✗ No TMDB]
+     http://localhost:3000/movies/kalyana-veena-1983
+     Genres: __________________ [ ]
+
+971. Dharma Poratam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/dharma-poratam-1983
+     Genres: __________________ [ ]
+
+972. Chanda Sasanudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/chanda-sasanudu-1983
+     Genres: __________________ [ ]
+
+973. Muggurammayila Mogudu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/muggurammayila-mogudu-1983
+     Genres: __________________ [ ]
+
+974. Iddaru Kiladeelu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/iddaru-kiladeelu-1983
+     Genres: __________________ [ ]
+
+975. Praja Rajyam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/praja-rajyam-1983
+     Genres: __________________ [ ]
+
+976. Palleturi Pidugu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/palleturi-pidugu-1983
+     Genres: __________________ [ ]
+
+977. Monagadu Vastunnadu Jagratha (1983) [✗ No TMDB]
+     http://localhost:3000/movies/monagadu-vastunnadu-jagratha-1983
+     Genres: __________________ [ ]
+
+978. Rudrakali (1983) [✗ No TMDB]
+     http://localhost:3000/movies/rudrakali-1983
+     Genres: __________________ [ ]
+
+979. Maharani (1983) [✗ No TMDB]
+     http://localhost:3000/movies/maharani-1983
+     Genres: __________________ [ ]
+     ⚠️  Marked as "Tamil Dubbed Nayakkarin Magal 1982" - Verify if this is dub
+
+980. Balidaanam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/balidaanam-1983
+     Genres: __________________ [ ]
+
+981. Ee Pillaku Pellavuthunda (1983) [✗ No TMDB]
+     http://localhost:3000/movies/ee-pillaku-pellavuthunda-1983
+     Genres: __________________ [ ]
+
+982. Pichi Pantuulu (1983) [✗ No TMDB]
+     http://localhost:3000/movies/pichi-pantuulu-1983
+     Genres: __________________ [ ]
+
+983. Vimukthi Kosam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/vimukthi-kosam-1983
+     Genres: __________________ [ ]
+
+984. Devi Kanaykumari (1983) [✗ No TMDB]
+     http://localhost:3000/movies/devi-kanaykumari-1983
+     Genres: __________________ [ ]
+
+985. Magallako Namaskaram (1983) [✗ No TMDB]
+     http://localhost:3000/movies/magallako-namaskaram-1983
+     Genres: __________________ [ ]
+
+986. Bhairava Kona (1983) [✗ No TMDB]
+     http://localhost:3000/movies/bhairava-kona-1983
+     Genres: __________________ [ ]
+
+987. Amayaka Chakravarthy (1983) [✗ No TMDB]
+     http://localhost:3000/movies/amayaka-chakravarthy-1983
+     Genres: __________________ [ ]
+
+988. Adavalle Aligithe (1983) [✗ No TMDB]
+     http://localhost:3000/movies/adavalle-aligithe-1983
+     Genres: __________________ [ ]
+
+989. Chandi Chamundi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/chandi-chamundi-1983
+     Genres: __________________ [ ]
+
+990. Praja Shakthi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/praja-shakthi-1983
+     Genres: __________________ [ ]
+
+991. Chilaka Josyam (1983) [✗ No TMDB]
+     http://localhost:3000/movies/chilaka-josyam-1983
+     Genres: __________________ [ ]
+
+992. Pidugu lanti Manishi (1983) [✗ No TMDB]
+     http://localhost:3000/movies/pidugu-lanti-manishi-1983
+     Genres: __________________ [ ]
+
+993. Prema Jwala (1983) [✗ No TMDB]
+     http://localhost:3000/movies/prema-jwala-1983
+     Genres: __________________ [ ]
+
+994. Bharya Bharthala Sawal (1983) [✗ No TMDB]
+     http://localhost:3000/movies/bharya-bharthala-sawal-1983
+     Genres: __________________ [ ]
+
+═══════════════════════════════════════════════════════════════════════
+1982 MOVIES (6 entries)
+═══════════════════════════════════════════════════════════════════════
+
+995. Golkonda Abbulu (1982) [✗ No TMDB]
+     http://localhost:3000/movies/golkonda-abbulu-1982
+     Genres: __________________ [ ]
+
+996. Prema Nakshatram (1982) [✗ No TMDB]
+     http://localhost:3000/movies/prema-nakshatram-1982
+     Genres: __________________ [ ]
+
+997. Gruha Pravesam (1982) [✗ No TMDB]
+     http://localhost:3000/movies/gruha-pravesam-1982
+     Genres: __________________ [ ]
+
+998. Bapu (1982) [✗ No TMDB]
+     http://localhost:3000/movies/bapu-1982
+     Genres: __________________ [ ]
+     ⚠️  SUSPICIOUS - "Bapu" is a famous director name, verify if this is a real movie
+
+999. Prathikaram (1982) [✗ No TMDB]
+     http://localhost:3000/movies/prathikaram-1982
+     Genres: __________________ [ ]
+
+═══════════════════════════════════════════════════════════════════════
+NOTE: Entry 1000 (Krishnarjunulu) was already processed - SKIP
+═══════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════
+                        SUMMARY & GUIDELINES
+═══════════════════════════════════════════════════════════════════════
+
+Total Entries to Review:  93
+Already Processed:        4 (entries 954, 959, 966, 1000)
+Era:                      1982-1983 (overwhelmingly 1983)
+
+⚠️  IDENTIFIED ISSUES:
+- 2 Potential Duplicates: 924/961 (Lanke Bindelu), 955/962 (Shubha Muhurtam)
+- 2 Dubs: 926 (Kannada), 979 (Tamil)
+- 1 Suspicious: 998 (Bapu - director name?)
+
+COMMON GENRES FOR 1982-1983:
+- Action, Drama, Romance, Comedy
+- Family, Social (for message-oriented films)
+- Devotional, Mythological (for religious themes)
+- Fantasy (for goddess/supernatural films)
+
+RESEARCH TIPS:
+1. Many 1983 films are obscure - TMDB might not have them
+2. Check if it's a dubbed film or original Telugu
+3. Look for duplicates with spelling variations
+4. Verify if person names are mistakenly added as movies
+
+═══════════════════════════════════════════════════════════════════════

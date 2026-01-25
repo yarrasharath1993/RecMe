@@ -1,0 +1,6242 @@
+{
+  "actor": "Chiranjeevi",
+  "timestamp": "2026-01-11T22:05:00.743Z",
+  "totalFilms": 149,
+  "filmography": [
+    {
+      "year": 2026,
+      "title": "Mana Shankara Vara Prasad Garu",
+      "slug": "msvp-2026",
+      "hero": "Chiranjeevi",
+      "heroine": "Nayanthara",
+      "director": "Anil Ravipudi",
+      "musicDirector": "Bheems Ceciroleo",
+      "cinematographer": "Sameer Reddy",
+      "editor": "Rafael Cano López",
+      "writer": "Luis (Soto) Muñoz",
+      "producer": "Sahu Garapati",
+      "tmdbId": 1146313,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Antonio Reyes",
+          "role": "Voz Antonio Adulto",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Paco Ariza",
+          "role": "Paco",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jesús J. Corredor Caballero",
+          "role": "Padre Don Jesús",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Adrián García Sánchez",
+          "role": "Niño Flauta",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Elsa García Picazo",
+          "role": "Niña Triste",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2026,
+      "title": "Vishwambhara",
+      "slug": "vishwambhara-2026",
+      "hero": "Chiranjeevi",
+      "heroine": "Trisha Krishnan",
+      "director": "Vassishta",
+      "musicDirector": "M.M. Keeravani",
+      "cinematographer": "Chota K. Naidu",
+      "writer": "Jared Lee",
+      "producer": "Vamsi-Pramod",
+      "tmdbId": 1211111,
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Steven Bones",
+          "role": "(voice)",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2026,
+      "title": "Auto Jaani",
+      "slug": "auto-jaani-2026",
+      "hero": "Chiranjeevi",
+      "heroine": null,
+      "director": "Puri Jagannadh",
+      "musicDirector": "Anirudh",
+      "cinematographer": "Shyam K. Naidu",
+      "editor": "S. R. Shekhar",
+      "producer": "Puri Jagannadh",
+      "tmdbId": 341935,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Élie Semoun",
+          "type": "supporting",
+          "character": "Various Characters"
+        },
+        {
+          "name": "Franck Dubosc",
+          "type": "supporting",
+          "character": "Various Characters"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2026,
+      "title": "Mega 159",
+      "slug": "mega-159-2026",
+      "hero": "Chiranjeevi",
+      "heroine": null,
+      "director": "Srikanth Odela",
+      "musicDirector": "Santhosh Narayanan",
+      "cinematographer": "Sathyan Sooryan",
+      "editor": "Naveen Nooli",
+      "producer": "Sudhakar Cherukuri",
+      "tmdbId": 1382410,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2023,
+      "title": "Waltair Veerayya",
+      "slug": "waltair-veerayya-2023",
+      "hero": "Chiranjeevi",
+      "heroine": "Shruti Haasan",
+      "director": "Bobby Kolli",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Arthur A. Wilson",
+      "editor": "Niranjan Devaramane",
+      "writer": "Bobby Kolli",
+      "producer": "Naveen Yerneni",
+      "tmdbId": 989017,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ravi Teja",
+          "role": "ACP Vikram Sagar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Catherine Tresa",
+          "role": "Dr.Shalini",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Bobby Simha",
+          "role": "Solomon Caesar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Michael 'Kaala' Ceaser",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "CI Seethapathi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2023,
+      "title": "Bhola Shankar",
+      "slug": "bhola-shankar-2023",
+      "hero": "Chiranjeevi",
+      "heroine": "Tamannaah",
+      "director": "Meher Ramesh",
+      "musicDirector": "Mahati Swara Sagar",
+      "cinematographer": "Dudley",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Meher Ramesh",
+      "producer": "Anil Sunkara",
+      "tmdbId": 864221,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Tamannaah Bhatia",
+          "role": "Lasya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sushanth",
+          "role": "Srikhar",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Murali Sharma",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Ramesh",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Vennela Kishore",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2022,
+      "title": "Acharya",
+      "slug": "acharya-2022",
+      "hero": "Chiranjeevi",
+      "heroine": "Pooja Hegde",
+      "director": "Koratala Siva",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Tirru",
+      "editor": "Naveen Nooli",
+      "writer": "Koratala Siva",
+      "producer": "Niranjan Reddy",
+      "tmdbId": 679919,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sonu Sood",
+          "role": "Basava",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jisshu Sengupta",
+          "role": "Rathod",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ajay",
+          "role": "Vedanna",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nassar",
+          "role": "Adanna",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Pooja Hegde",
+          "role": "Neelambari",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2022,
+      "title": "Godfather",
+      "slug": "godfather-2022",
+      "hero": "Chiranjeevi",
+      "heroine": "Nayanthara",
+      "director": "Mohan Raja",
+      "musicDirector": "Thaman S",
+      "cinematographer": "Nirav Shah",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Mohan Raja",
+      "producer": "Konidela Production Company",
+      "tmdbId": 863931,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Satyadev Kancharana",
+          "role": "Jaidev",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Salman Khan",
+          "role": "Masoom Bhai",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Tanya Ravichandran",
+          "role": "Jhanvi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Samuthirakani",
+          "role": "Raghuram IPS",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmaji",
+          "role": "Narasimha Reddy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2019,
+      "title": "Sye Raa Narasimha Reddy",
+      "slug": "sye-raa-narasimha-reddy-2019",
+      "hero": "Chiranjeevi",
+      "heroine": "Nayanthara",
+      "director": "Surender Reddy",
+      "musicDirector": "Amit Trivedi",
+      "cinematographer": "R. Rathnavelu",
+      "editor": "Sreekar Prasad",
+      "writer": "Surender Reddy",
+      "producer": "Konidela Production Company",
+      "tmdbId": 496495,
+      "genres": [
+        "Action",
+        "History"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vijay Sethupathi",
+          "role": "Rajapaandi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ravi Kishan",
+          "role": "Basireddy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jagapati Babu",
+          "role": "Veerareddy",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nayanthara",
+          "role": "Siddhamma",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tamannaah Bhatia",
+          "role": "Lakshmi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2017,
+      "title": "Khaidi No. 150",
+      "slug": "khaidi-no-150-2017",
+      "hero": "Chiranjeevi",
+      "heroine": "Kajal Aggarwal",
+      "director": "V.V. Vinayak",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "R. Rathnavelu",
+      "editor": "Gautham Raju",
+      "writer": "V. V. Vinayak",
+      "producer": "Konidela Production Company",
+      "tmdbId": 412326,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Tarun Arora",
+          "role": "Aggarwal",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Malli",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ram Charan",
+          "role": "Special Appearance",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Raai Laxmi",
+          "role": "Special Appearance (Item Song)",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Doberman",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Rudra Tandava",
+      "slug": "rudra-tandava-2015",
+      "hero": "Chiranjeevi Sarja",
+      "heroine": "Radhika Kumaraswamy",
+      "director": "Guru Deshpande",
+      "musicDirector": "V. Harikrishna",
+      "cinematographer": "Jagadish Vali",
+      "editor": "K. M. Prakash",
+      "producer": "S. Vinod Kumar",
+      "tmdbId": 540012,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Aatagara",
+      "slug": "aatagara-2015",
+      "hero": "Chiranjeevi Sarja",
+      "heroine": "Parul Yadav",
+      "director": "K. M. Chaitanya",
+      "musicDirector": "Anoop Seelin",
+      "cinematographer": "Satya Hegde",
+      "editor": "P. Haridoss",
+      "producer": "Dwarakish",
+      "tmdbId": 400859,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Meghana Raj",
+          "type": "supporting",
+          "character": "Sakshi"
+        },
+        {
+          "name": "Anu Prabhakar",
+          "type": "supporting",
+          "character": "Sandhya Ramagopal, Principal of Rainbow School"
+        },
+        {
+          "name": "Sadhu Kokila",
+          "type": "supporting",
+          "character": "Sadhu Maharaj, a chef"
+        },
+        {
+          "name": "Achyuth Kumar",
+          "type": "supporting",
+          "character": "Yashwanth, a journalist"
+        },
+        {
+          "name": "Prakash Belawadi",
+          "type": "supporting",
+          "character": "Dr. Chetan Bhagawat"
+        },
+        {
+          "name": "P. Ravi Shankar",
+          "type": "supporting",
+          "character": "Inspector Ravi Gowda"
+        },
+        {
+          "name": "Anant Nag",
+          "type": "supporting",
+          "character": "Former Judge"
+        },
+        {
+          "name": "Rishi",
+          "type": "supporting",
+          "character": "Siddharth Mayya"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2007,
+      "title": "Shankar Dada Zindabad",
+      "slug": "shankar-dada-zindabad-2007",
+      "hero": "Chiranjeevi",
+      "heroine": "Karishma Kotak",
+      "director": "Prabhu Deva",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Rajkumar Hirani",
+      "producer": "Gemini Kiran",
+      "tmdbId": 63811,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Karishma Kotak",
+          "role": "Jahnavi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sayaji Shinde",
+          "role": "Rajalingam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Astrologer",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Dilip Prabhavalkar",
+          "role": "Mahatma Gandhi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Stalin",
+      "slug": "stalin-2006",
+      "hero": "Chiranjeevi",
+      "heroine": "Trisha",
+      "director": "A.R. Murugadoss",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Anthony",
+      "writer": "A. R. Murugadoss",
+      "producer": "Nagendra Babu",
+      "tmdbId": 242911,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prakash Raj",
+          "role": "Muddu Krishnayya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sharada",
+          "role": "mother",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Khushboo",
+          "role": "Sister",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Anushka Shetty",
+          "role": "Item song appr",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2005,
+      "title": "Andarivadu",
+      "slug": "andarivadu-2005",
+      "hero": "Chiranjeevi",
+      "heroine": "Tabu, Rimi Sen",
+      "director": "Srinu Vaitla",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Sameer Reddy",
+      "editor": "మార్తాండ్ కె. వెంకటేష్",
+      "producer": "Allu Aravind",
+      "tmdbId": 115066,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Tabu",
+          "role": "Shanthi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Veerendra \"Eeru Babu\"",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Hema",
+          "role": "Jhansi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "M. S. Narayana",
+          "role": "Tatharao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "role": "Govinda's Friend",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2005,
+      "title": "Jai Chiranjeeva",
+      "slug": "jai-chiranjeeva-2005",
+      "hero": "Chiranjeevi",
+      "heroine": "Sameera Reddy",
+      "director": "K. Vijaya Bhaskar",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Venu",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Trivikram Srinivas",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 117415,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Arbaaz Khan",
+          "role": "Raj Malhotra",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sameera Reddy",
+          "role": "Shailaja",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Shanti Swaroop",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "M. S. Narayana",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Anji",
+      "slug": "anji-2004",
+      "hero": "Chiranjeevi",
+      "heroine": "Namrata Shirodkar",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "కె. వి. కృష్ణారెడ్డి",
+      "writer": "{{ublist",
+      "producer": "Shyam Prasad Reddy",
+      "tmdbId": 115063,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Tinnu Anand",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nagendra Babu",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Shankar Dada M.B.B.S.",
+      "slug": "shankar-dada-m-b-b-s-2004",
+      "hero": "Chiranjeevi",
+      "heroine": "Sonali Bendre",
+      "director": "Jayanth C. Paranjee",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Kim Gaster",
+      "writer": "David Baddiel",
+      "producer": "Gemini Film Circuit",
+      "tmdbId": 42171,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Archie Panjabi",
+          "role": "Saamiya Nasir",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Igal Naor",
+          "role": "Arshad El-Masri",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Stewart Scudamore",
+          "role": "Tariq",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Mina Anwar",
+          "role": "Muna",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "James Floyd",
+          "role": "Gary Page",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Tagore",
+      "slug": "tagore-2003",
+      "hero": "Chiranjeevi",
+      "heroine": "Jyothika, Shriya",
+      "director": "V.V. Vinayak",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Gautham Raju",
+      "writer": "V. V. Vinayak",
+      "producer": "B. Madhu",
+      "tmdbId": 54170,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jyothika",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2002,
+      "title": "Indra",
+      "slug": "indra-2002",
+      "hero": "Chiranjeevi",
+      "heroine": "Sonali Bendre",
+      "director": "B. Gopal",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "V.S.R. Swamy",
+      "editor": "Makoto Shinkai",
+      "writer": "Makoto Shinkai",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 37910,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Donna Burke",
+          "role": "Operator of the Lysithea (voice)",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Chihiro Suzuki",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sumi Mutoh",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2001,
+      "title": "Mrugaraju",
+      "slug": "mrugaraju-2001",
+      "hero": "Chiranjeevi",
+      "heroine": "Simran",
+      "director": "Gunasekhar",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Sekhar V. Joseph",
+      "editor": "Cecilia Zanuso",
+      "writer": "Paolo Virzì",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 56399,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ennio Fantastichini",
+          "role": "Ruggero Mazzalupi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Laura Morante",
+          "role": "Cecilia Sarcoli",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Antonella Ponziani",
+          "role": "Francesca",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Piero Natoli",
+          "role": "Marcello",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Paola Tiziana Cruciani",
+          "role": "Luciana Mazzalupi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2001,
+      "title": "Daddy",
+      "slug": "daddy-2001",
+      "hero": "Chiranjeevi",
+      "heroine": "Simran, Ashima Bhalla",
+      "director": "Suresh Krissna",
+      "musicDirector": "S.A. Rajkumar",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Bhupati Raja",
+      "producer": "Allu Aravind",
+      "tmdbId": 278422,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ashima Bhalla",
+          "role": "Priya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rajendra Prasad",
+          "role": "Prasad",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Shanti's paternal uncle",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sarath Babu",
+          "role": "doctor",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Uttej",
+          "role": "Priya's friend",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2000,
+      "title": "Annayya",
+      "slug": "annayya-2000",
+      "hero": "Chiranjeevi",
+      "heroine": "Soundarya",
+      "director": "Muthyala Subbaiah",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Gowtham Raju",
+      "writer": "Bhupati Raja",
+      "producer": "M. Venkataratnam",
+      "tmdbId": 115059,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ravi Teja",
+          "role": "Ravi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Venkat",
+          "role": "Gopi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Chandni",
+          "role": "Lata",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sishwa",
+          "role": "Geeta",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Babai",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1999,
+      "title": "Iddaru Mitrulu",
+      "slug": "iddaru-mitrulu-1999",
+      "hero": "Chiranjeevi",
+      "heroine": "Sakshi Sivanand",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Ajay Vincent",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "Satyanand",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 115057,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sakshi Shivananda",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Suresh",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sudhakar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Chandramohan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mallikarjuna Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1999,
+      "title": "Sneham Kosam",
+      "slug": "sneham-kosam-1999",
+      "hero": "Chiranjeevi",
+      "heroine": "Meena",
+      "director": "K.S. Ravikumar",
+      "musicDirector": "S.A. Rajkumar",
+      "cinematographer": "Arthur A. Wilson",
+      "editor": "Thanikachalam",
+      "writer": "K.S. Ravikumar",
+      "producer": "A.M. Rathnam",
+      "tmdbId": 109630,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vijayakumar",
+          "role": "Prabhavati's dad",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Peddabbayi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sujatha",
+          "role": "Lakshmi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sithara",
+          "role": "Gowri",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1998,
+      "title": "Choodalani Vundi",
+      "slug": "choodalani-vundi-1998",
+      "hero": "Chiranjeevi",
+      "heroine": "Soundarya",
+      "director": "Gunasekhar",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Jerome Thoms",
+      "writer": "Stirling Silliphant",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 37911,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Brian Keith",
+          "role": "Brick",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Alvy Moore",
+          "role": "Roy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kerwin Mathews",
+          "role": "Ronnie",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "William Conrad",
+          "role": "Eric Berg",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Jack Dimond",
+          "role": "Francis Spiegelbauer",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1998,
+      "title": "Bavagaru Bagunnara",
+      "slug": "bavagaru-bagunnara-1998",
+      "hero": "Chiranjeevi",
+      "heroine": "Rambha",
+      "director": "Jayanth C. Paranjee",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "M.V. Raghu",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "Paruchuri Brothers",
+      "producer": "Nagendra Babu",
+      "tmdbId": 108502,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rambha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Paresh Rawal",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rachana Banerjee",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1997,
+      "title": "Master",
+      "slug": "master-1997",
+      "hero": "Chiranjeevi",
+      "heroine": "Sakshi Sivanand",
+      "director": "Suresh Krissna",
+      "musicDirector": "Deva",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Marthand K. Venkatesh",
+      "writer": "Suresh Krissna",
+      "producer": "Allu Aravind",
+      "tmdbId": 101370,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chin Siu-Ho",
+          "role": "Dong Tian Bao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Fennie Yuen Kit-Ying",
+          "role": "Little Melon",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Yu Hai",
+          "role": "Head Master",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Yuen Cheung-Yan",
+          "role": "Taoist Priest Ling",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Lau Shun",
+          "role": "Bao's Sifu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1997,
+      "title": "Hitler",
+      "slug": "hitler-1997",
+      "hero": "Chiranjeevi",
+      "heroine": "Rambha",
+      "director": "Muthyala Subbaiah",
+      "musicDirector": "Koti",
+      "cinematographer": "V.S.R. Swamy",
+      "editor": "Gowtham Raju",
+      "writer": "Siddique",
+      "producer": "M. Venkataratnam",
+      "tmdbId": 115053,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Parvati Melton",
+          "role": "Actress",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mallika Kapoor",
+          "role": "Actress",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1995,
+      "title": "Rikshavodu",
+      "slug": "rikshavodu-1995",
+      "hero": "Chiranjeevi",
+      "heroine": "Nagma, Soundarya",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "Koti",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "K. Nageswara Rao",
+      "writer": "Kodi Ramakrishna",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 115051,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Paresh Rawal",
+          "type": "supporting",
+          "character": "G.K. Rao"
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting"
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1995,
+      "title": "Alluda Majaka",
+      "slug": "alluda-majaka-1995",
+      "hero": "Chiranjeevi",
+      "heroine": "Ramya Krishna",
+      "director": "E.V.V. Satyanarayana",
+      "musicDirector": "Koti",
+      "cinematographer": "Chota K. Naidu",
+      "writer": "Eiichi Taji",
+      "producer": "Devi Vara Prasad",
+      "tmdbId": 56391,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Lyudmila Gnilova",
+          "role": "Pepe / Nini (voice)",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Vyacheslav Nevinnyy",
+          "role": "Grandfather Pigo (voice)",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rolan Bykov",
+          "role": "Toto (voice)",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Yelena Sanayeva",
+          "role": "Lala (voice)",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Evgeni Leonov",
+          "role": "Jack (voice)",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1995,
+      "title": "Big Boss",
+      "slug": "big-boss-1995",
+      "hero": "Chiranjeevi",
+      "heroine": "Roja",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "G.G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranth",
+      "tmdbId": 410217,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Tanikella Bharani",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Babu Mohan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Madhavi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1994,
+      "title": "The Gentleman",
+      "slug": "the-gentleman-1994",
+      "hero": "Chiranjeevi",
+      "heroine": "Juhi Chawla",
+      "director": "Mahesh Bhatt",
+      "musicDirector": "Anu Malik",
+      "cinematographer": "Jeeva",
+      "editor": "Zafar Sultan",
+      "writer": "S. Shankar (Original Story), Bhagyaraj (Dialogues)",
+      "producer": "Allu Aravind",
+      "tmdbId": 410224,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Paresh Rawal",
+          "type": "supporting"
+        },
+        {
+          "name": "Laxmikant Berde",
+          "type": "supporting"
+        },
+        {
+          "name": "Shakti Kapoor",
+          "type": "supporting"
+        },
+        {
+          "name": "Heera Rajagopal",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1994,
+      "title": "Mugguru Monagallu",
+      "slug": "mugguru-monagallu-1994",
+      "hero": "Chiranjeevi",
+      "heroine": "Nagma, Roja",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "Vidyasagar",
+      "cinematographer": "Ajay Vincent",
+      "editor": "Humitomo Sato",
+      "producer": "Nagendra Babu",
+      "tmdbId": 115049,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kaichiro Morikawa",
+          "role": "Self",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ikki Motohara",
+          "role": "Self",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Katsumi Ohashi",
+          "role": "Self",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Yoshiaki Sato",
+          "role": "Self",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1994,
+      "title": "S.P. Parasuram",
+      "slug": "sp-parasuram-1994",
+      "hero": "Chiranjeevi",
+      "heroine": "Sridevi",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "M.M. Keeravani",
+      "cinematographer": "Lok Singh",
+      "writer": "Adolf Jahr",
+      "producer": "G.K. Reddy",
+      "tmdbId": 318859,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Lisskulla Jobs",
+          "role": "Karolina",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ulla Norgren",
+          "role": "Ann-Sofi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Harry Persson",
+          "role": "John Ågren",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Eric Malmberg",
+          "role": "Handelsman Karlsson",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Lillie Wästfeldt",
+          "role": "Amalia Lundgren",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1993,
+      "title": "Mechanic Alludu",
+      "slug": "mechanic-alludu-1993",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "B. Gopal",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "V.S.R. Swamy",
+      "writer": "John Winter",
+      "producer": "Allu Aravind",
+      "tmdbId": 115046,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Valerie Bader",
+          "role": "Angie 3",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Roxane Wilson",
+          "role": "Angie 4",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Michelle Vergara Moore",
+          "role": "Angie 5",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Dina Panozzo",
+          "role": "Angie 6",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Saskia Burmeister",
+          "role": "Angie 7",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1993,
+      "title": "Muta Mestri",
+      "slug": "muta-mestri-1993",
+      "hero": "Chiranjeevi",
+      "heroine": "Meena, Roja",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "Gowtham Raju",
+      "writer": "Paruchuri Brothers",
+      "producer": "K.C. Reddy",
+      "tmdbId": 115045,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ali Basha",
+          "role": "Comedian",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Saranya Nag",
+          "role": "Anjali",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1992,
+      "title": "Aaj Ka Goonda Raaj",
+      "slug": "aaj-ka-goonda-raaj-1992",
+      "hero": "Chiranjeevi",
+      "heroine": "Meenakshi Seshadri",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "Anand-Milind",
+      "cinematographer": "Lok Singh",
+      "editor": "Vellai Swamy",
+      "writer": "Vijaya Bapineedu (Original Story)",
+      "producer": "Suresh Krissna",
+      "tmdbId": 242907,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Raj Babbar",
+          "type": "supporting"
+        },
+        {
+          "name": "Sharat Saxena",
+          "type": "supporting"
+        },
+        {
+          "name": "Dalip Tahil",
+          "type": "supporting"
+        },
+        {
+          "name": "Parmeet Sethi",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1992,
+      "title": "Gharana Mogudu",
+      "slug": "gharana-mogudu-1992",
+      "hero": "Chiranjeevi",
+      "heroine": "Nagma",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "M.M. Keeravani",
+      "cinematographer": "Ajay Vincent",
+      "editor": "Ferris Webster",
+      "writer": "Vera Caspary",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 43232,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kay Kendall",
+          "role": "Lady Sybil Wren",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Taina Elg",
+          "role": "Angèle Ducros",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jacques Bergerac",
+          "role": "Pierre Ducros",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Leslie Phillips",
+          "role": "Sir Gerald Wren",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Henry Daniell",
+          "role": "Judge",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1992,
+      "title": "Aapadbandhavudu",
+      "slug": "aapadbandhavudu-1992",
+      "hero": "Chiranjeevi",
+      "heroine": "Meenakshi Seshadri",
+      "director": "K. Viswanath",
+      "musicDirector": "M.M. Keeravani",
+      "cinematographer": "Kasturi",
+      "editor": "Gianfranco Amicucci",
+      "writer": "Elisa Briganti",
+      "producer": "Edida Nageswara Rao",
+      "tmdbId": 115042,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Luciano Pigozzi",
+          "role": "Papillon",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Eduardo Fajardo",
+          "role": "Senator",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Fernando Bilbao",
+          "role": "Crazy Bull",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Beryl Cunningham",
+          "role": "Shadow",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Luca Venantini",
+          "role": "Tommy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1991,
+      "title": "Rowdy Alludu",
+      "slug": "rowdy-alludu-1991",
+      "hero": "Chiranjeevi",
+      "heroine": "Shobana, Divya Bharti",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "Bappi Lahiri",
+      "cinematographer": "Ajay Vincent",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "Allu Aravind",
+      "tmdbId": 108503,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Divya Bharti",
+          "role": "Rekha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Venkat Ramudu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1991,
+      "title": "Stuartpuram Police Station",
+      "slug": "stuartpuram-police-station-1991",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Yandamoori Veerendranath",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Gautham Raju",
+      "writer": "Yandamoori Veerendranath",
+      "producer": "K.S. Rama Rao",
+      "tmdbId": 115038,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nirosha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "R. Sarathkumar",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Babu Mohan",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1991,
+      "title": "Gang Leader",
+      "slug": "gang-leader-1991",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "Bappi Lahiri",
+      "cinematographer": "Lok Singh",
+      "editor": "Hemanti Sarkar",
+      "writer": "Agneya Singh",
+      "producer": "Maganti Ravindranth",
+      "tmdbId": 410214,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ira Dubey",
+          "role": "Jayashree Bose (Jay)",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Beatrice Ordeix",
+          "role": "Marie Sartre",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Barry John",
+          "role": "Vishnu Das",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1991,
+      "title": "Stuvartpuram Dongalu",
+      "slug": "stuvartpuram-dongalu-1991",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Malineni Lakshman",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Lok Singh",
+      "editor": "V. Nageswara Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "Nagendra Babu",
+      "tmdbId": 410228,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mohan Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Sharat Saxena",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1990,
+      "title": "Raja Vikramarka",
+      "slug": "raja-vikramarka-1990",
+      "hero": "Chiranjeevi",
+      "heroine": "Amala, Radhika",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "writer": "Ravi Raja Pinisetty",
+      "producer": "P. Amaranatha Reddy",
+      "tmdbId": 279123,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radikaa Sarathkumar",
+          "role": "Maya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Janaki",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jayanthi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "role": "Vishwanatham",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "role": "Joginatham",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1990,
+      "title": "Jagadeka Veerudu Athiloka Sundari",
+      "slug": "jagadeka-veerudu-athiloka-sundari-1990",
+      "hero": "Chiranjeevi",
+      "heroine": "Sridevi",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Ajay Vincent",
+      "editor": "Patrick G. Donahue",
+      "writer": "Patrick G. Donahue",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 108501,
+      "genres": [
+        "Fantasy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Michael Kiel",
+          "role": "Toos",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rey Garcia",
+          "role": "Chino",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Lindsey Rhodeos",
+          "role": "Susan",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Leeds Landain",
+          "role": "Inspector Davis",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mike Donahue",
+          "role": "Jo Jo",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1990,
+      "title": "Pratibandh",
+      "slug": "pratibandh-1990",
+      "hero": "Chiranjeevi",
+      "heroine": "Juhi Chawla",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "Laxmikant-Pyarelal",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "Vellai Swamy",
+      "writer": "A. Kodandarami Reddy (Original Story), Ravi Raja Pinisetty",
+      "producer": "Allu Aravind",
+      "tmdbId": 109631,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rami Reddy",
+          "type": "supporting",
+          "character": "Anna"
+        },
+        {
+          "name": "J.V. Somayajulu",
+          "type": "supporting"
+        },
+        {
+          "name": "Kulbhushan Kharbanda",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1990,
+      "title": "Kodama Simham",
+      "slug": "kodama-simham-1990",
+      "hero": "Chiranjeevi",
+      "heroine": "Sonam, Radha",
+      "director": "K. Murali Mohana Rao",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "Jerry Young",
+      "writer": "Pat Fiedler",
+      "producer": "Kaikala Satyanarayana",
+      "tmdbId": 115037,
+      "genres": [
+        "Western",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Robert Brown",
+          "role": "Matt Hollister",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rodd Redwing",
+          "role": "Waumi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kaz Oran",
+          "role": "Tispe",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Larry Duran",
+          "role": "Bearer",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Bernie Gozier",
+          "role": "Wounded Indian",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1990,
+      "title": "Kondaveeti Donga",
+      "slug": "kondaveeti-donga-1990",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti, Radha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "V. Nageswara Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "T. Trivikrama Rao",
+      "tmdbId": 115035,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radha",
+          "role": "Srikanya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Amrish Puri",
+          "role": "Gadra",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sharada",
+          "role": "Sambhavi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mohan Babu",
+          "role": "Narasimham",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1989,
+      "title": "Lankeswarudu",
+      "slug": "lankeswarudu-1989",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha, Revathi",
+      "director": "Dasari Narayana Rao",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "K. S. Hari",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Dasari Narayana Rao",
+      "producer": "Vadde Ramesh",
+      "tmdbId": 279128,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Revathi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mohan Babu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Raghuvaran",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1989,
+      "title": "Attaku Yamudu Ammayiki Mogudu",
+      "slug": "attaku-yamudu-ammayiki-mogudu-1989",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "writer": "A. Kodandarami Reddy",
+      "producer": "Allu Aravind",
+      "tmdbId": 279124,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vanisri",
+          "role": "Chamundeshwari Devi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sudhakar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1989,
+      "title": "State Rowdy",
+      "slug": "state-rowdy-1989",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya, Radha",
+      "director": "B. Gopal",
+      "musicDirector": "Bappi Lahiri",
+      "cinematographer": "Lok Singh",
+      "editor": "James Sweeney",
+      "writer": "Felix Adler",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115034,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Curly Howard",
+          "role": "Curly",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Dorothea Kent",
+          "role": "Nell Higginbottom",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Fred Kohler",
+          "role": "Double Deal Decker",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Slim Whitaker",
+          "role": "Cowboy (uncredited)",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Bob Callahan",
+          "role": "Drunk (uncredited)",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1989,
+      "title": "Rudranetra",
+      "slug": "rudranetra-1989",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti, Radha",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Yandamoori Veerendranath (Story), Paruchuri Brothers (Dialogues)",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115040,
+      "genres": [
+        "Spy Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Raghuvaran",
+          "type": "supporting"
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Inspector Pratap",
+      "slug": "inspector-pratap-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Muthyala Subbaiah",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "Adriana Novelli",
+      "writer": "Riccardo Pazzaglia",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115030,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Domenico Modugno",
+          "role": "Salvatore, il marito",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rosanna Schiaffino",
+          "role": "Rosaria, la moglie",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Vittorio De Sica",
+          "role": "Salvatore il 'Capintesta'",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Didi Perego",
+          "role": "padrone della \"Piccola Sicilia\"",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tiberio Murgia",
+          "role": "Salvatore Trezza",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Khaidi No.786",
+      "slug": "khaidi-no786-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranath",
+      "tmdbId": 115031,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Mohan Babu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Manchi Donga",
+      "slug": "manchi-donga-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti, Suhasini",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "K. S. Prakash",
+      "editor": "Michael Lloyd",
+      "producer": "H. Ramesh Babu",
+      "tmdbId": 115028,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Garry Peterson",
+          "role": "Himself (Drummer)",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Bill Wallace",
+          "role": "Himself (Bassist)",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Donnie MacDougall",
+          "role": "Himself (Guitarist)",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Lorne Saifer",
+          "role": "Himself (Manager)",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Yuddha Bhoomi",
+      "slug": "yuddha-bhoomi-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "K. S. Prakash",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 279127,
+      "genres": [
+        "Action",
+        "War"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radha",
+          "role": "Radha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jyothi Lakshmi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jayamalini",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Rudraveena",
+      "slug": "rudraveena-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Shobana",
+      "director": "K. Balachander",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "R. Raghunatha Reddy",
+      "editor": "Hisao Enoki",
+      "writer": "Kaneto Shindō",
+      "producer": "Nagendra Babu",
+      "tmdbId": 40149,
+      "genres": [
+        "Musical",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kiwako Taichi",
+          "role": "Shige",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kei Satō",
+          "role": "Raiko",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Taiji Tonoyama",
+          "role": "Farmer",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rokkō Toura",
+          "role": "Samurai",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Hideo Kanze",
+          "role": "Mikado",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Antima Teerpu",
+      "slug": "antima-teerpu-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha",
+      "director": "Joshiy",
+      "musicDirector": "Shyam",
+      "cinematographer": "K. Ramachandra Babu",
+      "editor": "K. Sankunni",
+      "writer": "Joshiy",
+      "producer": "Ramoji Rao",
+      "tmdbId": 320392,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Justin Hayles",
+          "role": "Pub patron",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rami Hilmi",
+          "role": "Kurk",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Alan Impey",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Jason Impey",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Darryl Lane",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Yamudiki Mogudu",
+      "slug": "yamudiki-mogudu-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti, Radha",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "James Sweeney",
+      "writer": "Felix Adler",
+      "producer": "S. Venkataratnam",
+      "tmdbId": 115029,
+      "genres": [
+        "Fantasy",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Curly Howard",
+          "role": "Dr. Howard",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Dell Henderson",
+          "role": "Dr. Graves (uncredited)",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Phyllis Crane",
+          "role": "Anna Conda (uncredited)",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "'Little Billy' Rhodes",
+          "role": "Tiny Patient (uncredited)",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kay Hughes",
+          "role": "Nurse (uncredited)",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Marana Mrudangam",
+      "slug": "marana-mrudangam-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha, Suhasini",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Garry M.B. Smith",
+      "writer": "Tippi Dobrofsky",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115033,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Teach Grant",
+          "role": "Deke Spradling",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Stefanie von Pfetten",
+          "role": "Callie Donohue",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Eric Keenleyside",
+          "role": "Lucius Breed",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Stephen E. Miller",
+          "role": "Sheriff",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sean Mathieson",
+          "role": "Henry",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1988,
+      "title": "Trinetrudu",
+      "slug": "trinetrudu-1988",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Raj-Koti",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "A. Kodandarami Reddy",
+      "producer": "Nagendra Babu",
+      "tmdbId": 115032,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nagendra Babu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kulbhushan Kharbanda",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Murali Mohan",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Jebu Donga",
+      "slug": "jebu-donga-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya, Radha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Franco Fraticelli",
+      "writer": "Dino Verde",
+      "producer": "M. Arjun Raju",
+      "tmdbId": 115026,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gloria Paul",
+          "role": "Marlene",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Fernando Rey",
+          "role": "Goldginger",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Andrea Bosic",
+          "role": "Col. Herrman",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Luis Peña",
+          "role": "Biscia d'Oro",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Alfredo Mayo",
+          "role": "Automobilista Affeminato",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Donga Mogudu",
+      "slug": "donga-mogudu-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya, Radhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Yandamoori Veerendranath",
+      "producer": "S. P. Venkataratnam",
+      "tmdbId": 115025,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radikaa Sarathkumar",
+          "role": "Seeta",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Madhavi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jayanthi",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "role": "Chenchuramaiah",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Chakravarthy",
+      "slug": "chakravarthy-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Treg Brown",
+      "writer": "Warren Foster",
+      "producer": "Vyjayanthi Movies",
+      "tmdbId": 115024,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Bhanupriya",
+          "role": "Rani",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ramya Krishnan",
+          "role": "Lakshmi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Somayajulu J V",
+          "role": "Swamiji",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "role": "President",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Aradhana",
+      "slug": "aradhana-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "Bharathiraja",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "B. Kannan",
+      "editor": "Sanjeevi",
+      "writer": "Bharathiraja",
+      "producer": "Allu Aravind",
+      "tmdbId": 115027,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Dr. Rajasekhar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kongara Jaggayya",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Radikaa Sarathkumar",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Pasivadi Pranam",
+      "slug": "pasivadi-pranam-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "Allu Aravind",
+      "tmdbId": 108500,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Raghuvaran",
+          "role": "Chakravarthy",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prabhakar",
+          "role": "Inspector",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sumalatha",
+          "role": "Madhu's wife",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Sujatha",
+          "role": "Raja",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1987,
+      "title": "Swayamkrushi",
+      "slug": "swayamkrushi-1987",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "K. Viswanath",
+      "musicDirector": "Ramesh Naidu",
+      "cinematographer": "Kasturi",
+      "editor": "Mario Serandrei",
+      "writer": "Luchino Visconti",
+      "producer": "Poornodaya Movie Creations",
+      "tmdbId": 43231,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jean Marais",
+          "role": "L'Inquilino",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Marcella Rovena",
+          "role": "La Padrona della Pensione",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Maria Zanoli",
+          "role": "La Domestica",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Elena Fancera",
+          "role": "La Cassiera",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Lanfranco Ceccarelli",
+          "role": "Un Coinvolto nella Rissa",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Chantabbai",
+      "slug": "chantabbai-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "Jandhyala",
+      "musicDirector": "Ramesh Naidu",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "William Reynolds",
+      "writer": "Barry Sandler",
+      "producer": "K. Satya Narayana",
+      "tmdbId": 41913,
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "supportingCast": [
+        {
+          "name": "Harry Hamlin",
+          "role": "Bart",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Wendy Hiller",
+          "role": "Winnie Bates",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Arthur Hill",
+          "role": "Henry",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nancy Olson",
+          "role": "Christine",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "John Dukakis",
+          "role": "Tim",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Kondaveeti Raja",
+      "slug": "kondaveeti-raja-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti, Radha",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "K. S. Prakash",
+      "editor": "Dirk Grau",
+      "writer": "Detlev Buck",
+      "producer": "T. Trivikrama Rao",
+      "tmdbId": 115023,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vicky Krieps",
+          "role": "Johanna Gauss",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jérémy Kapone",
+          "role": "Aimé Bonpland",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Katharina Thalbach",
+          "role": "Mrs. Gauß",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "David Kross",
+          "role": "Eugen Gauß",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Max Giermann",
+          "role": "Military Man",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Dhairyavanthudu",
+      "slug": "dhairyavanthudu-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Laxmi Deepak",
+      "musicDirector": "Ramesh Naidu",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Laxmi Deepak",
+      "producer": "Lakshmi Deepak",
+      "tmdbId": 369150,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jaggayya",
+          "type": "supporting"
+        },
+        {
+          "name": "S. Varalakshmi",
+          "type": "supporting"
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        },
+        {
+          "name": "Sudhakar",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Chanakya Sapatham",
+      "slug": "chanakya-sapatham-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "K. S. Prakash",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Venkateswara Rao Paruchuri",
+      "producer": "D. V. S. Raju",
+      "tmdbId": 279121,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Roja Selvamani",
+          "role": "Kalpana",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sharat Saxena",
+          "role": "Atma Ram",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Magadheerudu",
+      "slug": "magadheerudu-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "S. P. Balasubrahmanyam",
+      "cinematographer": "Lok Singh",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranath",
+      "tmdbId": 115022,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chandra Mohan",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Rakshasudu",
+      "slug": "rakshasudu-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha, Suhasini",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "writer": "Daniel Allentuck",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115021,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sumalatha",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rajendra Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nagendra Babu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Veta",
+      "slug": "veta-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Jaya Prada",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Aylin Zoi Tinel",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115020,
+      "genres": [
+        "Action",
+        "Period"
+      ],
+      "supportingCast": [
+        {
+          "name": "Fikret Portakal",
+          "role": "Fikret",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Belma Topçakar",
+          "role": "MP's Daughter",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1986,
+      "title": "Kirathakudu",
+      "slug": "kirathakudu-1986",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Yandamoori Veerendranath",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115019,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kongara Jaggayya",
+          "role": "Chakravarthy",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gummadi",
+          "role": "Dharmateja",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Rakta Sindhuram",
+      "slug": "rakta-sindhuram-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Yandamoori Veerendranath",
+      "producer": "A. S. R. Anjaneyulu",
+      "tmdbId": 115017,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Pierre Forest",
+          "role": "Papa Ours",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Donga",
+      "slug": "donga-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "T. Trivikrama Rao",
+      "tmdbId": 115014,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "character": "Ravi"
+        },
+        {
+          "name": "Gollapudi Maruti Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Silk Smitha",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Jwala",
+      "slug": "jwala-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya, Radhika",
+      "director": "Ravi Raja Pinisetty",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Kôichi Iwashita",
+      "writer": "Hiroshi Nagano",
+      "producer": "Vyjayanthi Movies",
+      "tmdbId": 115018,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Atsuo Nakamura",
+          "role": "Kazuhiko Sagawa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Yukiko Kobayashi",
+          "role": "Yûko Nonomura",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Yoko Minakaze",
+          "role": "Shidu Nonomura",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Jun Usami",
+          "role": "Dr. Yamaguchi",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kaku Takashina",
+          "role": "Genzô",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Chattamtho Poratam",
+      "slug": "chattamtho-poratam-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha, Madhavi",
+      "director": "K. Bapayya",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115015,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sumalatha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Annapoorna",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Adavi Donga",
+      "slug": "adavi-donga-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "K. S. Prakash",
+      "editor": "Fauzi Mansur",
+      "writer": "Fernando Ferro",
+      "producer": "Chalasani Gopi",
+      "tmdbId": 441006,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "supportingCast": [
+        {
+          "name": "Eliane Gabarron",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Walter Gabarron",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Renata Gomes",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Mauro Pinto",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1985,
+      "title": "Vijetha",
+      "slug": "vijetha-1985",
+      "hero": "Chiranjeevi",
+      "heroine": "Bhanupriya",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "Allu Aravind",
+      "tmdbId": 109629,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Somayajulu J V",
+          "role": "Narasimham",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sharada",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Giri Babu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Allullostunnaru",
+      "slug": "allullostunnaru-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Sulakshana",
+      "director": "K. Viswanath",
+      "musicDirector": "K.V. Mahadevan",
+      "cinematographer": "Lok Singh",
+      "writer": "Bitto Albertini",
+      "producer": "K. Raghava",
+      "tmdbId": 369147,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Toni Ucci",
+          "role": "Brambilla",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mario Donati",
+          "role": "Lenticchia",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Guido De Benedetto",
+          "role": "Barabba",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Antonio Federici",
+          "role": "Rubinetto",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Piera Federici",
+          "role": "Gioiamia",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Rana",
+      "slug": "rana-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "Adriano Tagliavia",
+      "writer": "Luciano Emmer",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 369151,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Miriam Rossi",
+          "role": "Cencia",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Andrea Castelli",
+          "role": "il giudice",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Rojulu Marayi",
+      "slug": "rojulu-marayi-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha",
+      "director": "G. Ramamohana Rao",
+      "musicDirector": "J. V. Raghavulu",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "Gowtham Raju",
+      "writer": "Paruchuri Brothers",
+      "producer": "K. V. V. Satyanarayana",
+      "tmdbId": 279126,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vijayashanti",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raghuvaran",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ranganath",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Rustum",
+      "slug": "rustum-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Urvashi",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "S. P. Venkataratnam",
+      "tmdbId": 115010,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting",
+          "character": "Gangu"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Koteeswarudu",
+      "slug": "koteeswarudu-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "Kommineni",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "Balu Mahendra",
+      "writer": "Mahesh Bhatt",
+      "producer": "T. R. Srinivas",
+      "tmdbId": 318858,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rohini",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Arvind Swamy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Vinodini",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Pasi Sathya",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Hero",
+      "slug": "hero-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "Krishna-Chakra",
+      "cinematographer": "Lok Singh",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranath",
+      "tmdbId": 115007,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Allu Aravind",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Naagu",
+      "slug": "naagu-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "Tatineni Prasad",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "A. Prasad Rao",
+      "tmdbId": 115013,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Inti Guttu",
+      "slug": "inti-guttu-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Nalini",
+      "director": "K. Bapayya",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115009,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Giribabu",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Mahanagaramlo Mayagadu",
+      "slug": "mahanagaramlo-mayagadu-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranath",
+      "tmdbId": 318857,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        },
+        {
+          "name": "Giribabu",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Goonda",
+      "slug": "goonda-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Radha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Marthe Poncin",
+      "writer": "Yves Mirande",
+      "producer": "T. Trivikrama Rao",
+      "tmdbId": 115006,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jules Berry",
+          "role": "Alfredo d'Avila, dancer of these ladies",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gaby Morlay",
+          "role": "Gaby Valrose, minister's lover",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Elvira Popescu",
+          "role": "Mrs. Rameau, wife of an industrialist and mistress of Alfredo",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Michel Simon",
+          "role": "Picking, knife-throwing artist",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "André Lefaur",
+          "role": "Mr. Corbeau, kleptomaniac",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Agni Gundam",
+      "slug": "agni-gundam-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha",
+      "director": "Kranthi Kumar",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "writer": "Juan Manuel Cabrera",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115012,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Manuel de los Ríos",
+          "role": "Ángel García Chao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "María Tereza Montoya",
+          "role": "Risco's wife",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Carlos E. González",
+          "role": "Santiago Risco",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Dora Vila",
+          "role": "Ernestina",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Challenge",
+      "slug": "challenge-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "writer": "Miguel Zacarías",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115011,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Andrés Soler",
+          "role": "Coronel Arturo Gonzalon",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Emma Roldán",
+          "role": "Nana Lupe",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Mimí Derba",
+          "role": "Doña Rosa",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Antonio R. Frausto",
+          "role": "Aguirre",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rafael Icardo",
+          "role": "Capitán Bermúdez",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1984,
+      "title": "Devanthakudu",
+      "slug": "devanthakudu-1984",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "S. A. Chandrasekhar",
+      "musicDirector": "J. V. Raghavulu",
+      "cinematographer": "V. Lakshman",
+      "editor": "N. R. Kittu",
+      "writer": "S. A. Chandrasekhar",
+      "producer": "G. Tirupathi Rao",
+      "tmdbId": 115008,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Narayan Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gollapudi Maruti Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Annapoorna",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Shivudu Shivudu Shivudu",
+      "slug": "shivudu-shivudu-shivudu-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 279338,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Annapoorna",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Udaykumar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Mantri Gari Viyyankudu",
+      "slug": "mantri-gari-viyyankudu-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Poornima",
+      "director": "Bapu",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Baba Azmi",
+      "writer": "Helena van der Meulen",
+      "producer": "Jaya Krishna",
+      "tmdbId": 115002,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rifka Lodeizen",
+          "role": "Sophie",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mark Rietman",
+          "role": "Douwe",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Barbara Sarafian",
+          "role": "Brechtje",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Eva Duijvestein",
+          "role": "Emma",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ward Weemhoff",
+          "role": "Joris",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Sangharshana",
+      "slug": "sangharshana-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Vijayashanti",
+      "director": "K. Murali Mohana Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 115000,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nalini",
+          "type": "supporting"
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        },
+        {
+          "name": "Prabhakar Reddy",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Prema Pichollu",
+      "slug": "prema-pichollu-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "K. C. Sekhar Babu",
+      "tmdbId": 114999,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gummadi",
+          "type": "supporting"
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        },
+        {
+          "name": "Kavitha",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Roshagadu",
+      "slug": "roshagadu-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi",
+      "director": "K. S. R. Das",
+      "musicDirector": "Satyam",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "K. Rammohan Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "Pinjala Nageswara Rao",
+      "tmdbId": 279339,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Silk Smitha",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Thyagarajan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Prabhakar",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Simhapuri Simham",
+      "slug": "simhapuri-simham-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "William Oswald",
+      "writer": "Steven Moffat",
+      "producer": "Mahesh Gopinath",
+      "tmdbId": 369145,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Richard E. Grant",
+          "role": "Dr. Walter Simeon",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Dan Starkey",
+          "role": "Strax",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Catrin Stewart",
+          "role": "Jenny Flint",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Neve McIntosh",
+          "role": "Madame Vastra",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tom Ward",
+          "role": "Captain Latimer",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Aalaya Sikharam",
+      "slug": "aalaya-sikharam-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "writer": "Pia Cook",
+      "producer": "M. Venkataratnam",
+      "tmdbId": 115005,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Robert Covington",
+          "role": "Alfred Lewis",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Chelsea Reeves",
+          "role": "Sophie Haag",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Matt Cinquanta",
+          "role": "Detective Slater",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Gudachari No.1",
+      "slug": "gudachari-no1-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. Lakshman",
+      "editor": "K. Nageswara Rao",
+      "writer": "Kodi Ramakrishna",
+      "producer": "T. Trivikrama Rao",
+      "tmdbId": 115004,
+      "genres": [
+        "Spy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Bhanuchander",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Gollapudi Maruti Rao",
+          "type": "supporting",
+          "order": 3
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Puli Bebbuli",
+      "slug": "puli-bebbuli-1983",
+      "hero": "Krishnam Raju, Chiranjeevi",
+      "heroine": "Jaya Prada, Radhika",
+      "director": "K. S. R. Das",
+      "musicDirector": "Rajan-Nagendra",
+      "cinematographer": "P. Deva Raj",
+      "editor": "P. Venkateswara Rao",
+      "writer": "Satyanand",
+      "producer": "R. V. Gurupadam",
+      "tmdbId": 279340,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Jaya Prada",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Radikaa Sarathkumar",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Prabhakar",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Maro Maya Bazaar",
+      "slug": "maro-maya-bazaar-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Nutan Prasad",
+      "director": "C. S. Rao",
+      "musicDirector": "S. Rajeswara Rao",
+      "cinematographer": "M. V. Raghu",
+      "editor": "Andres Landau",
+      "producer": "Chintala Mallesha Goud",
+      "tmdbId": 410211,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Greg Bell",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Maga Maharaju",
+      "slug": "maga-maharaju-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "Vijaya Bapineedu",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Vijaya Bapineedu",
+      "producer": "Maganti Ravindranath",
+      "tmdbId": 115000,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Annapoorna",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Udaykumar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Palleturi Monagadu",
+      "slug": "palleturi-monagadu-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "S. A. Chandrasekhar",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "S. A. Chandrasekhar",
+      "producer": "Midde Rama Rao",
+      "tmdbId": 114999,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gollapudi Maruti Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Jaggayya",
+          "type": "supporting"
+        },
+        {
+          "name": "Ranganath",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Khaidi",
+      "slug": "khaidi-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi, Sumalatha",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "Tirupathiraya",
+      "tmdbId": 115001,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Madhavi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ranganath",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Chalapathi Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1983,
+      "title": "Abhilasha",
+      "slug": "abhilasha-1983",
+      "hero": "Chiranjeevi",
+      "heroine": "Raadhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "Ilaiyaraaja",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "Yandamoori Veerendranath",
+      "producer": "K. S. Rama Rao",
+      "tmdbId": 115003,
+      "genres": [
+        "Thriller",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gollapudi Maruti Rao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Allu Aravind",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rajyalakshmi",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Jaggu",
+      "slug": "jaggu-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "P. Sambasiva Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "Satyanand",
+      "producer": "K. C. Sekhar Babu",
+      "tmdbId": 114998,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gummadi",
+          "type": "supporting"
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Silk Smitha",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Idi Pellantara",
+      "slug": "idi-pellantara-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Vijay Bhaskar",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "V.S.R. Swamy",
+      "editor": "G.G. Krishna Rao",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 1536091,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chiranjeevi",
+          "type": "lead"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Intlo Ramayya Veedhilo Krishnayya",
+      "slug": "intlo-ramayya-veedhilo-krishnayya-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi",
+      "director": "Kodi Ramakrishna",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "G.G. Krishna Rao",
+      "writer": "To Chi-Kit",
+      "producer": "K. Raghava",
+      "tmdbId": 114983,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Michael Tse Tin-Wah",
+          "role": "Liang Chun Hwa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Eddy Ko Hung",
+          "role": "Captain Feng Tung-Wai",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nina Paw Hei-Ching",
+          "role": "Judge",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Diana Pang Dan",
+          "role": "Hwa's Mistress",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ruco Chan",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Sitadevi",
+      "slug": "sitadevi-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Sujatha",
+      "director": "Eranki Sharma",
+      "musicDirector": "M.S. Viswanathan",
+      "cinematographer": "G. Sivaram",
+      "editor": "K. Balu",
+      "producer": "Chakravarthy",
+      "tmdbId": 114631,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chiranjeevi",
+          "type": "lead"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Radha My Darling",
+      "slug": "radha-my-darling-1982",
+      "hero": "Chiranjeevi",
+      "heroine": null,
+      "director": "B. Bhaskara Rao",
+      "musicDirector": "B. Shankar",
+      "cinematographer": "V.S.R. Krishna Rao",
+      "editor": "K. Satyam",
+      "writer": "Maddhipatla Suri",
+      "producer": "Trinath Rao",
+      "tmdbId": 279347,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gummadi",
+          "type": "supporting"
+        },
+        {
+          "name": "S. Varalakshmi",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Bandhalu Anubandhalu",
+      "slug": "bandhalu-anubandhalu-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Lakshmi",
+      "director": "Bhargava",
+      "musicDirector": "K. V. Mahadevan",
+      "cinematographer": "P. S. Prakash",
+      "editor": "K. Ravindra Babu",
+      "writer": "Satyanand",
+      "producer": "S. P. Bhargava",
+      "tmdbId": 318855,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Gudrun Brost",
+          "role": "Magda",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Åke Grönberg",
+          "role": "Axel",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Lisskulla Jobs",
+          "role": "Birgit Lans",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nils Lundell",
+          "role": "Grönkvist",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rune Carlsten",
+          "role": "Bertil Agne",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Yamakinkarudu",
+      "slug": "yamakinkarudu-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Raj Bharat",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "Gautham Raju",
+      "producer": "Allu Aravind",
+      "tmdbId": 279345,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Sarath Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Jayasudha",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Mondi Ghatam",
+      "slug": "mondi-ghatam-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "Raja Chandra",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. Chengaiah",
+      "editor": "Gautham Raju",
+      "producer": "Daggubati Bhaskara Rao",
+      "tmdbId": 279346,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Manchu Pallaki",
+      "slug": "manchu-pallaki-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "Vamsy",
+      "musicDirector": "Rajan-Nagendra",
+      "cinematographer": "Hari Anumolu",
+      "editor": "Tim Murrell",
+      "writer": "Gwyneth Hughes",
+      "producer": "M. R. Prasad Rao",
+      "tmdbId": 114996,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rebecca Palmer",
+          "role": "Nadia Blake",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Phyllis Logan",
+          "role": "DCI Grace Shilling",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "David Westhead",
+          "role": "Dominic Hintlesham",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Daniel Mays",
+          "role": "Moz Burnside",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Colin McFarlane",
+          "role": "Jeremy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Billa Ranga",
+      "slug": "billa-ranga-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Sridevi",
+      "director": "K.S.R. Das",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "P. S. Prakash",
+      "editor": "K. Rammohan Rao",
+      "writer": "Paruchuri Brothers",
+      "producer": "K. C. Sekhar Babu",
+      "tmdbId": 114997,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        },
+        {
+          "name": "Geetha",
+          "type": "supporting"
+        },
+        {
+          "name": "Sayaji Shinde",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Illanta Sandadi",
+      "slug": "illanta-sandadi-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Suhasini",
+      "director": "Relangi Narasimha Rao",
+      "musicDirector": "Krishna-Chakra",
+      "cinematographer": "B. Koteswara Rao",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Relangi Narasimha Rao",
+      "producer": "U. S. R. Mohan Rao",
+      "tmdbId": 279344,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        },
+        {
+          "name": "P.L. Narayana",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Subhalekha",
+      "slug": "subhalekha-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Sumalatha",
+      "director": "K. Viswanath",
+      "musicDirector": "K. V. Mahadevan",
+      "cinematographer": "Kasturi",
+      "editor": "G. G. Krishna Rao",
+      "writer": "K. Viswanath",
+      "producer": "V. V. Sastry",
+      "tmdbId": 114997,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Subhalekha Sudhakar",
+          "role": "Murali",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "role": "Ankela Adiseshayya",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Rallapalli Narasimha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1982,
+      "title": "Tingu Rangadu",
+      "slug": "tingu-rangadu-1982",
+      "hero": "Chiranjeevi",
+      "heroine": "Geetha",
+      "director": "Tatineni Rama Rao",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "Tatineni Rama Rao",
+      "producer": "G. Jagadish Prasad",
+      "tmdbId": 114996,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rebecca Palmer",
+          "role": "Nadia Blake",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Phyllis Logan",
+          "role": "DCI Grace Shilling",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "David Westhead",
+          "role": "Dominic Hintlesham",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Daniel Mays",
+          "role": "Moz Burnside",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Colin McFarlane",
+          "role": "Jeremy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Todu Dongalu",
+      "slug": "todu-dongalu-1981",
+      "hero": "Krishna, Chiranjeevi",
+      "heroine": "Jaya Prada",
+      "director": "K. Vasu",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "V.S.R. Swamy",
+      "editor": "Kotagiri Venkateswara Rao",
+      "producer": "Y.V. Rao",
+      "tmdbId": 279353,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Krishna",
+          "type": "hero2",
+          "character": "Dual Lead"
+        },
+        {
+          "name": "Gummadi",
+          "type": "supporting"
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Patnam Vachina Pativrathalu",
+      "slug": "patnam-vachina-pativrathalu-1981",
+      "hero": "Chiranjeevi, Mohan Babu",
+      "heroine": "Radhika, Geetha",
+      "director": "Mouli",
+      "musicDirector": "J. V. Raghavulu",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "Mouli",
+      "producer": "Atluri Radha Krishna Murthy",
+      "tmdbId": 114992,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Radikaa Sarathkumar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Geetha",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Nirmalamma",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Srirasthu Subhamasthu",
+      "slug": "srirasthu-subhamasthu-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Saritha",
+      "director": "Parvataneni Sambasiva Rao",
+      "musicDirector": "J. V. Raghavulu",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "P. Sambasiva Rao",
+      "producer": "N. R. Anuradha",
+      "tmdbId": 320389,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        },
+        {
+          "name": "Rohini",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Parvathi Parameswarulu",
+      "slug": "parvathi-parameswarulu-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Swapna",
+      "director": "M. S. Kota Reddy",
+      "musicDirector": "Satyam",
+      "cinematographer": "C. Nageswara Rao",
+      "editor": "K. Satyam",
+      "producer": "S. Venkat Ratnam",
+      "tmdbId": 417242,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Social"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chiranjeevi",
+          "type": "lead"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Tirugu Leni Manishi",
+      "slug": "tirugu-leni-manishi-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Rati Agnihotri",
+      "director": "K. Raghavendra Rao",
+      "musicDirector": "K. V. Mahadevan",
+      "cinematographer": "K.S. Prakash",
+      "editor": "Kotagiri Venkateswara Rao",
+      "producer": "K. Devi Vara Prasad",
+      "tmdbId": 313177,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "N.T. Rama Rao",
+          "type": "hero2",
+          "character": "Lead"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Bob Christo",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Kirayi Rowdylu",
+      "slug": "kirayi-rowdylu-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Gautham Raju",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 114994,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mohan Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Rao Gopal Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Prabhakar Reddy",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Oorukichina Maata",
+      "slug": "oorukichina-maata-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi",
+      "director": "M. Balaiah",
+      "musicDirector": "M.S. Viswanathan",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "M. Balaiah",
+      "producer": "M. Balaiah",
+      "tmdbId": 320390,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sudhakar",
+          "type": "supporting"
+        },
+        {
+          "name": "Kavitha",
+          "type": "supporting"
+        },
+        {
+          "name": "Jaggayya",
+          "type": "supporting"
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Chattaniki Kallu Levu",
+      "slug": "chattaniki-kallu-levu-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi, Lakshmi",
+      "director": "S. A. Chandrasekhar",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "S. A. Chandrasekhar",
+      "producer": "A. L. Abhinandhan",
+      "tmdbId": 114993,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Lakshmi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prabhakar",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "A. E. Manoharan/Ceylon Manohar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Pandari Bai",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Narayana Rao Uppalapati",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Nyayam Kavali",
+      "slug": "nyayam-kavali-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Radhika",
+      "director": "A. Kodandarami Reddy",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "Lok Singh",
+      "editor": "Kotagiri Venkateswara Rao",
+      "writer": "D. Kameswari",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 114995,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sharada",
+          "role": "Lawyer Sakunthala",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kongara Jaggayya",
+          "role": "Lawyer Dayanidhi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Dasari Narayana Rao",
+          "role": "Self",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tulasi",
+          "role": "Padma",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1981,
+      "title": "Rani Kasula Rangamma",
+      "slug": "rani-kasula-rangamma-1981",
+      "hero": "Chiranjeevi",
+      "heroine": "Sridevi",
+      "director": "T. L. V. Prasad",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "M. V. Raghu",
+      "editor": "G.G. Krishna Rao",
+      "writer": "James Cahill",
+      "producer": "T. R. Srinivas",
+      "tmdbId": 303501,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Roberto 'Sanz' Sanchez",
+          "role": "Grave Digger",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jana Williams",
+          "role": "Bonnie",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ryan Xavier",
+          "role": "Boss",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Alejandro Patiño",
+          "role": "Doctor",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Victor Herminio Lopez",
+          "role": "Sex Cult Leader",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Love In Singapore",
+      "slug": "love-in-singapore-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Latha",
+      "director": "O. S. R. Das",
+      "musicDirector": "Shankar-Ganesh",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "K. S. R. Das",
+      "producer": "Pinjala Nageswara Rao",
+      "tmdbId": 1537233,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "MC Rage",
+          "role": "MC Rage",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "MC Rage",
+          "role": "Andy Gangadeen",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Thathayya Premaleelalu",
+      "slug": "thathayya-premaleelalu-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Geetha",
+      "director": "B. V. Prasad",
+      "musicDirector": "Rajan-Nagendra",
+      "cinematographer": "B. Koteswara Rao",
+      "editor": "G. G. Krishna Rao",
+      "writer": "B. V. Prasad",
+      "producer": "B. V. Prasad",
+      "tmdbId": 1298416,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Buddu Krishna Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Nutan Prasad",
+          "type": "supporting"
+        },
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Rakta Bandham",
+      "slug": "rakta-bandham-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Suvarna",
+      "director": "Aluri Ravi",
+      "musicDirector": "G.K. Venkatesh",
+      "cinematographer": "P. Bhaskar Rao",
+      "editor": "N. Maheshwara Rao",
+      "writer": "Aluri Ravi",
+      "producer": "S. Vijayalakshmi",
+      "tmdbId": 320385,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kaikala Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Giribabu",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Agni Samskaram",
+      "slug": "agni-samskaram-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Maadhavi",
+      "director": "G. V. Prabhakar",
+      "musicDirector": "Giovanna Marini",
+      "cinematographer": "M. V. Raghu",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "G. V. Prabhakar",
+      "producer": "G. V. Prabhakar",
+      "tmdbId": 1540960,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Michele Placido",
+          "role": "Giacinto",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Francisco Rabal",
+          "role": "Padre di Orio",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Anton Diffring",
+          "role": "Padre di Suna",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Anna Henkel-Grönemeyer",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rafael Machado",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Jathara",
+      "slug": "jathara-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Sripriya",
+      "director": "Dhavala Satyam",
+      "musicDirector": "G.K. Venkatesh",
+      "cinematographer": "P. S. Prakash",
+      "editor": "K. Rammohan Rao",
+      "writer": "Dhavala Satyam",
+      "producer": "D. V. S. Raju",
+      "tmdbId": 417180,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Solon Ribeiro",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Themis Memória",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Uirá dos Reis",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Silvia Moura",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Punnami Naagu",
+      "slug": "punnami-naagu-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Rati Agnihotri",
+      "director": "M. Rajendra Prasad",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "S. Gopal Reddy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "M. Rajendra Prasad",
+      "producer": "Alaparthi Suryanarayana",
+      "tmdbId": 303496,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Narasimha Raju",
+          "type": "supporting"
+        },
+        {
+          "name": "Padmanabham",
+          "type": "supporting"
+        },
+        {
+          "name": "Dhulipala",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Nakili Manishi",
+      "slug": "nakili-manishi-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Sangeeta",
+      "director": "S. D. Lal",
+      "musicDirector": "Satyam",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "S. D. Lal",
+      "producer": "Vijaya Madhavi Combines",
+      "tmdbId": 303498,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Satyanarayana",
+          "type": "supporting",
+          "character": "Rama Rao"
+        },
+        {
+          "name": "Mohan Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Kavitha",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Mogudu Kaavali",
+      "slug": "mogudu-kaavali-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Jaya Prada",
+      "director": "K. Kattama Raju",
+      "musicDirector": "J.V. Raghavulu",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "K. Kattama Raju",
+      "producer": "K. Kattama Raju",
+      "tmdbId": 114633,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Joaquín Cordero",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Pina Pellicer",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kitty de Hoyos",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Marco Antonio Muñiz",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Julissa",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Aarani Mantalu",
+      "slug": "aarani-mantalu-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Kavita",
+      "director": "K. Vasu",
+      "musicDirector": "Satyam",
+      "cinematographer": "P. S. Prakash",
+      "editor": "K. Nageswara Rao",
+      "writer": "K. Vasu",
+      "producer": "K. Vasu",
+      "tmdbId": 1152060,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Prasad Babu",
+          "type": "supporting",
+          "order": 1
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1980,
+      "title": "Chandipriya",
+      "slug": "chandipriya-1980",
+      "hero": "Chiranjeevi",
+      "heroine": "Jayaprada",
+      "director": "V. Madhusudhan Rao",
+      "musicDirector": "P. Adinarayana Rao",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "G. G. Krishna Rao",
+      "writer": "V. Madhusudhan Rao",
+      "producer": "P. Adinarayana Rao",
+      "tmdbId": 441221,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Anjali Devi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gummadi",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "Kotta Alludu",
+      "slug": "kotta-alludu-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Jaya Prada",
+      "director": "P. Sambasiva Rao",
+      "musicDirector": "K.V. Mahadevan",
+      "cinematographer": "S. Navakanth",
+      "editor": "G.G. Krishna Rao",
+      "producer": "M. Satyanarayana",
+      "tmdbId": 246011,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chiranjeevi (Support)",
+          "type": "supporting"
+        },
+        {
+          "name": "Mohan Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Prabhakar Reddy",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "Kukka Katuku Cheppu Debba",
+      "slug": "kukka-katuku-cheppu-debba-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi",
+      "director": "Eeranki Sharma",
+      "musicDirector": "M. S. Viswanathan",
+      "cinematographer": "M. V. Raghu",
+      "editor": "G. G. Krishna Rao",
+      "writer": "Eeranki Sharma",
+      "producer": "S. R. Santhanam",
+      "tmdbId": 417277,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Narayana Rao",
+          "type": "supporting"
+        },
+        {
+          "name": "Pallavi",
+          "type": "supporting"
+        },
+        {
+          "name": "Hemasundar",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "Punadhirallu",
+      "slug": "punadhirallu-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Roja Ramani",
+      "director": "Rajkumar",
+      "musicDirector": "Afzal Ali",
+      "cinematographer": "P. S. Nivas",
+      "editor": "K. Balu",
+      "writer": "J. Christian Ingvordsen",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 303494,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Stuart Garrison Day",
+          "role": "Rodger Blunt",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Amanda Zinsser",
+          "role": "Whitney Todd",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Johnny Stumper",
+          "role": "Senator Stumper",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Joe Ambrose",
+          "role": "Director Cunningham",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Charles Kay-Hune",
+          "role": "Barry Feld",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "I Love You",
+      "slug": "i-love-you-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Suvarna",
+      "director": "Vayu Nandana Rao",
+      "musicDirector": "Satyam",
+      "cinematographer": "S. Navakanth",
+      "editor": "N. R. Kittu",
+      "writer": "Vayu Nandana Rao",
+      "producer": "Vayu Nandana Rao",
+      "tmdbId": 311029,
+      "genres": [
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Saakshi Ranga Rao",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "P. L. Narayana",
+          "type": "supporting",
+          "order": 2
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "Sri Rama Bantu",
+      "slug": "sri-rama-bantu-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Geetha",
+      "director": "I.S. Murthy",
+      "musicDirector": "Satyam",
+      "cinematographer": "V. S. R. Swamy",
+      "editor": "V. Rajeshwara Rao",
+      "writer": "I. S. Murthy",
+      "producer": "Y. V. Rao",
+      "tmdbId": 1301213,
+      "genres": [
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mohan Babu",
+          "type": "supporting"
+        },
+        {
+          "name": "Satyanarayana",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1979,
+      "title": "Kothala Raayudu",
+      "slug": "kothala-raayudu-1979",
+      "hero": "Chiranjeevi",
+      "heroine": "Madhavi",
+      "director": "K. Vasu",
+      "musicDirector": "J. V. Raghavulu",
+      "cinematographer": "P. S. Prakash",
+      "editor": "K. Nageswara Rao",
+      "writer": "K. Vasu",
+      "producer": "K. Vasu",
+      "tmdbId": 358316,
+      "genres": [
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Madhavi",
+          "type": "supporting"
+        },
+        {
+          "name": "Gummadi",
+          "type": "supporting"
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1978,
+      "title": "Pranam Khareedu",
+      "slug": "pranam-khareedu-1978",
+      "hero": "Chiranjeevi",
+      "heroine": "Jayasudha",
+      "director": "K. Vasu",
+      "musicDirector": "K. Chakravarthy",
+      "cinematographer": "B.S. Lokanath",
+      "editor": "K. Nageswara Rao",
+      "writer": "C. S. Rao",
+      "producer": "Kranthi Kumar",
+      "tmdbId": 279365,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Andoy Ranay",
+          "role": "Genesis",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Rey Pumaloy",
+          "role": "Argel",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "John Lapus",
+          "role": "Lloyd",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Chiranjeevi",
+          "type": "support"
+        }
+      ],
+      "boxOffice": {}
+    }
+  ],
+  "statistics": {
+    "byDecade": [
+      [
+        "2020s",
+        8
+      ],
+      [
+        "2010s",
+        4
+      ],
+      [
+        "2000s",
+        11
+      ],
+      [
+        "1990s",
+        26
+      ],
+      [
+        "1980s",
+        93
+      ],
+      [
+        "1970s",
+        7
+      ]
+    ],
+    "missingFields": {
+      "cinematographer": 0,
+      "editor": 12,
+      "writer": 18,
+      "producer": 0,
+      "tmdbId": 0
+    },
+    "genreDistribution": {
+      "Comedy": 29,
+      "Action": 98,
+      "Fantasy": 4,
+      "Drama": 66,
+      "Thriller": 13,
+      "History": 1,
+      "Romance": 10,
+      "Crime": 10,
+      "Adventure": 3,
+      "Family": 7,
+      "Western": 1,
+      "Spy Thriller": 1,
+      "War": 1,
+      "Musical": 1,
+      "Mystery": 1,
+      "Period": 1,
+      "Spy": 1,
+      "Social": 1,
+      "Horror": 1
+    }
+  }
+}

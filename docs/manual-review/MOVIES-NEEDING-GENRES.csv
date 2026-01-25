@@ -1,0 +1,287 @@
+Year,Title,Director,Hero,Heroine,TMDB_ID,Status,URL
+2023,"'Salaar: Part 2 – Shouryanga Parvam","","","",,No TMDB ID,http://localhost:3000/movies/salaar-part-2-shouryanga-parvam-2023
+2021,"Best Actor in a Negative Role (Tamil)","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-actor-in-a-negative-role-tamil-2021
+2021,"Bomma Adirindi Dimma Tirigindi","Kumar Kota","Shakalaka Shankar","Avanthika Harinalwa",823441,Has TMDB (no genres),http://localhost:3000/movies/bomma-adirindi-dimma-tirigindi-2021
+2020,"Family - A Made at Home Short Film","Prasoon Pandey","Amitabh Bachchan","Priyanka Chopra Jonas",1129970,Has TMDB (no genres),http://localhost:3000/movies/family-a-made-at-home-short-film-2020
+2019,"2 Hours Love","Srikanth Pawar","Srikanth Pawar","Kriti Garg",631934,Has TMDB (no genres),http://localhost:3000/movies/2-hours-love-2019
+2019,"Nanne Preethse: I Love You","R Chandru","Upendra","Rachita Ram",628368,Has TMDB (no genres),http://localhost:3000/movies/nanne-preethse-i-love-you-2019
+2019,"Kavacha","G V R Vasu","Shiva Rajkumar","Kruthika Jayakumar",590906,Has TMDB (no genres),http://localhost:3000/movies/kavacha-2019
+2019,"Police officer","","Manchu Manoj","Isamu Kosugi",749574,Has TMDB (no genres),http://localhost:3000/movies/police-officer-2019
+2019,"N.T.R: Kathanayukudu","","","",,No TMDB ID,http://localhost:3000/movies/n-t-r-kathanayukudu-2019
+2019,"Premier Padmini","","Jaggesh","Madhoo",658152,Has TMDB (no genres),http://localhost:3000/movies/premier-padmini-2019
+2018,"Ee Nagariniki Emaindi","Tharun Bhascker Dhaassyam","Vishwak Sen","Sai Sushanth",,No TMDB ID,http://localhost:3000/movies/ee-nagariniki-emaindi-2018
+2018,"ch ravi kishore babu","Tanikella Bharani, Amar, Santoshi, Posani Krishna Murali","Friends funding films","Mehreen Pirzada",,No TMDB ID,http://localhost:3000/movies/ch-ravi-kishore-babu-2018
+2018,"Ammachi Yemba Nenapu","Champa P. Shetty","Vyjayanthi Adiga","Diya Palakkal",586119,Has TMDB (no genres),http://localhost:3000/movies/ammachi-yemba-nenapu-2018
+2018,"Operation 2019","Karanam P. Babji","Manchu Manoj","Manchu Manoj",791058,Has TMDB (no genres),http://localhost:3000/movies/operation-2019-2018
+2018,"Aatwaja","Atanu Bose","Shaheb Bhattacherjee","Jaya Prada",1017859,Has TMDB (no genres),http://localhost:3000/movies/aatwaja-2018
+2017,"Anaganaga Oka Durga","Prakash Pulijala","Priyanka Naidu","Kranthi Kumar",485855,Has TMDB (no genres),http://localhost:3000/movies/anaganaga-oka-durga-2017
+2017,"Jayanth C. Paranjee","Jayanth C. Paranjee","Ganta Ravi","Malvika Raaj",,No TMDB ID,http://localhost:3000/movies/jayanth-c-paranjee-2017
+2017,"Best Actor in a Negative Role","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-actor-in-a-negative-role-2017
+2017,"Shuddhi","Adarsh Eshwarappa","Lauren Spartano","Niveditha",453419,Has TMDB (no genres),http://localhost:3000/movies/shuddhi-2017
+2016,"Vennello Hai Hai","Ajmal, Nikitha Narayan","D V Cine Creations","Nikitha Narayan",401902,Has TMDB (no genres),http://localhost:3000/movies/vennello-hai-hai-2016
+2016,"Ethiri En 3","Ramkumar","Srikanth","Poonam Bajwa",280880,Has TMDB (no genres),http://localhost:3000/movies/ethiri-en-3-2016
+2016,"Best Actor in a Negative Role (Malayalam)","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-actor-in-a-negative-role-malayalam-2016
+2016,"Special Jury Award","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/special-jury-award-2016
+2016,"Ranveer Ching Returns","","","",,No TMDB ID,http://localhost:3000/movies/ranveer-ching-returns-2016
+2016,"Shivalinga","P. Vasu","Shiva Rajkumar","Vedhika",414206,Has TMDB (no genres),http://localhost:3000/movies/shivalinga-2016
+2015,"Ranna","Nanda Kishore","Sudeepa","Rachita Ram",417878,Has TMDB (no genres),http://localhost:3000/movies/ranna-2015
+2015,"Singam 123","Akshat Sharma","Sampoornesh Babu","No Female Lead",,No TMDB ID,http://localhost:3000/movies/singam-123-2015
+2015,"Dagudumoota Dandakore","","","",,No TMDB ID,http://localhost:3000/movies/dagudumoota-dandakore-2015
+2015,"Anandam Malli Modalaindi","Vamsy","Sumanth","Sanchita Padukone",,No TMDB ID,http://localhost:3000/movies/anandam-malli-modalaindi-2015
+2015,"Yavvanam Oka Fantasy","Veeraprasad Neelam","Arvind Krishna","Shubra Aiyappa",526288,Has TMDB (no genres),http://localhost:3000/movies/yavvanam-oka-fantasy-2015
+2015,"Well, If You Know Me","","","",,No TMDB ID,http://localhost:3000/movies/well-if-you-know-me-2015
+2015,"IIFA Utsavam","","Prabhas","",,No TMDB ID,http://localhost:3000/movies/iifa-utsavam-2015
+2014,"Best Actor in a Negative Role (Telugu)","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-actor-in-a-negative-role-telugu-2014
+2014,"Best Villain","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-villain-2014
+2014,"Exploring ''Shiva'' Movie After 25 Years","","Ram Gopal Varma","Amala Akkineni",1328515,Has TMDB (no genres),http://localhost:3000/movies/exploring-shiva-movie-after-25-years-2014
+2014,"Ambareesha","Mahesh Sukadhare","Darshan Thoogudeepa Srinivas","Rachita Ram",465027,Has TMDB (no genres),http://localhost:3000/movies/ambareesha-2014
+2013,"Sri Vasavi Vaibhavam","Meena, Suhasini, Suman, Sai Kiran","Produced by V. M. C. Combines","Meena",313294,Has TMDB (no genres),http://localhost:3000/movies/sri-vasavi-vaibhavam-2012
+2013,"Bunny N Cherry","Rajesh Puli","Prince","Mahat Raghavendra",,No TMDB ID,http://localhost:3000/movies/bunny-n-cherry-2013
+2013,"Prema Oka Maikam","Chandu","Rahul","Charmee Kaur",226076,Has TMDB (no genres),http://localhost:3000/movies/prema-oka-maikam-2013
+2013,"Galaate","Md Shridhar","Prajwal Devaraj","Kriti Kharbanda",536239,Has TMDB (no genres),http://localhost:3000/movies/galaate-2013
+2013,"Thadaka","","","",705897,Has TMDB (no genres),http://localhost:3000/movies/thadaka-2013
+2013,"Ramaiya Vasta Vaiya","","","",,No TMDB ID,http://localhost:3000/movies/ramaiya-vasta-vaiya-2013
+2012,"Godfather","Sethu Sriram","Upendra","Soundarya Jayamala",755450,Has TMDB (no genres),http://localhost:3000/movies/godfather-2012
+2012,"Yamaho Yama: in America","Sairam Shankar, Parvati Melton, Srihari, Sanjjanaa","Produced By Gvk Arts","Srihari",,No TMDB ID,http://localhost:3000/movies/yamaho-yama-in-america-2012
+2012,"Krantiveera Sangolli Rayanna","Naganna","Jaya Prada","Jaya Prada",,No TMDB ID,http://localhost:3000/movies/krantiveera-sangolli-rayanna-2012
+2012,"Paagan","Mohammed Aslam","Srikanth","Janani Iyer",146847,Has TMDB (no genres),http://localhost:3000/movies/paagan-2012
+2012,"Ethiri En 3","","","",280880,Has TMDB (no genres),http://localhost:3000/movies/ethiri-en-3-2012
+2012,"6","V. Z. Durai","Jagapathi Babu","Gayathri Iyer",1199881,Has TMDB (no genres),http://localhost:3000/movies/6-2012
+2012,"Rasaleela","Majeed Maranchery","","",143510,Has TMDB (no genres),http://localhost:3000/movies/rasaleela-2012
+2011,"Saarathi","","Darshan Thoogudeepa Srinivas","Deepa Sannidhi",463207,Has TMDB (no genres),http://localhost:3000/movies/saarathi-2011
+2011,"Bhale Mogudu Bhale Pellam","","","",,No TMDB ID,http://localhost:3000/movies/bhale-mogudu-bhale-pellam-2011
+2011,"Badrinadh","","","",,No TMDB ID,http://localhost:3000/movies/badrinadh-2011
+2011,"Kalabha Mazha","","","",,No TMDB ID,http://localhost:3000/movies/kalabha-mazha-2011
+2011,"Marana Porali","","","",,No TMDB ID,http://localhost:3000/movies/marana-porali-2011
+2011,"Payanam","Radha Mohan","","",1285853,Has TMDB (no genres),http://localhost:3000/movies/payanam-2011
+2010,"Alasyam Amrutham","Chandra Mahesh","Nikhil Siddharth","Madalsa Sharma",307736,Has TMDB (no genres),http://localhost:3000/movies/alasyam-amrutham-2010
+2010,"Betting Bangaraju","","","",,No TMDB ID,http://localhost:3000/movies/betting-bangaraju-2010
+2010,"Shubhapradam","","","",,No TMDB ID,http://localhost:3000/movies/shubhapradam-2010
+2010,"Super","Upendra","Upendra","Nayanthara",123196,Has TMDB (no genres),http://localhost:3000/movies/super-2010
+2009,"Sesh Sangat","Ashoke Viswanathan","Ashish Vidhyarthi","Jaya Prada",173998,Has TMDB (no genres),http://localhost:3000/movies/sesh-sangat-2009
+2009,"Sesh Sanghat","Ashoke Viswanathan","Jaya Prada","Jaya Prada",173998,Has TMDB (no genres),http://localhost:3000/movies/sesh-sanghat-2009
+2009,"Indira Vizha","Vardhan Interview","Srikanth","Namitha",336830,Has TMDB (no genres),http://localhost:3000/movies/indira-vizha-2009
+2009,"Adhinetha","revelation about AA","Jagapathi Babu","Hamsha Nandini",258912,Has TMDB (no genres),http://localhost:3000/movies/adhinetha-2009
+2008,"Moggina Manasu","Shashank","Radhika Pandit","Shuba Poonja",587437,Has TMDB (no genres),http://localhost:3000/movies/moggina-manasu-2008
+2008,"Netru Indru Naalai","Lakshmikanth Chenna","Tamannaah Bhatia","Rekha Vedavyas",1324933,Has TMDB (no genres),http://localhost:3000/movies/netru-indru-naalai-2008
+2007,"Deha","Mahesh Manjrekar","Mahesh Manjrekar","Amrita Arora",462352,Has TMDB (no genres),http://localhost:3000/movies/deha-2007
+2006,"Iddaru Attala Muddula Alludu","","","",,No TMDB ID,http://localhost:3000/movies/iddaru-attala-muddula-alludu-2006
+2006,"Gurukshetram","Jayabharathi","Rajendra Prasad","Roja Selvamani",304052,Has TMDB (no genres),http://localhost:3000/movies/gurukshetram-2006
+2006,"Kizhakku Kadalkarai Salai","S. S. Stanley","Srikanth","Bhavana",79416,Has TMDB (no genres),http://localhost:3000/movies/kizhakku-kadalkarai-salai-2006
+2006,"Kizhakku Kadarkarai Salai","S. S. Stanley","Srikanth","Bhavana",79416,Has TMDB (no genres),http://localhost:3000/movies/kizhakku-kadarkarai-salai-2006
+2006,"Mercury Pookkal","S. S. Stanley","Srikanth","Meera Jasmine",79417,Has TMDB (no genres),http://localhost:3000/movies/mercury-pookkal-2006
+2006,"Madrasi","Arjun Sarja","Jagapathi Babu","Vedhika",66510,Has TMDB (no genres),http://localhost:3000/movies/madrasi-2006
+2006,"Gopi – Goda Meedha Pilli","","","",,No TMDB ID,http://localhost:3000/movies/gopi-goda-meedha-pilli-2006
+2006,"సుందరానికి తొందరెక్కువ","","","",,No TMDB ID,http://localhost:3000/movies/-2006
+2006,"Bhagyalakshmi Bumper Draw","Nidhi Prasad","Rajendra Prasad","Richard Rishi",80945,Has TMDB (no genres),http://localhost:3000/movies/bhagyalakshmi-bumper-draw-2006
+2005,"Best Supporting Actor – Telugu","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/best-supporting-actor-telugu-2005
+2005,"That is Pandu","Devi Prasad","Jagapathi Babu","Sneha",890443,Has TMDB (no genres),http://localhost:3000/movies/that-is-pandu-2005
+2005,"Auto Shankar","D. Rajendra Babu","Upendra","Shilpa Shetty Kundra",378669,Has TMDB (no genres),http://localhost:3000/movies/auto-shankar-2005
+2004,"Puttintiki Raa Chelli","Kodi Ramakrishna","Arjun Sarja","Meena",243564,Has TMDB (no genres),http://localhost:3000/movies/puttintiki-raa-chelli-2004
+2004,"Apparao Driving School","","","",,No TMDB ID,http://localhost:3000/movies/apparao-driving-school-2004
+2004,"Intlo Srimathi Veedhilo Kumari","K. Vasu","Prabhu Deva","Srikanth",310033,Has TMDB (no genres),http://localhost:3000/movies/intlo-srimathi-veedhilo-kumari-2004
+2004,"Ee Snehatheerathu","Son Kwang-Ju","","Kim Ji-in",837107,Has TMDB (no genres),http://localhost:3000/movies/ee-snehatheerathu-2004
+2004,"Varnajalam","","Srikanth","Sadha",269720,Has TMDB (no genres),http://localhost:3000/movies/varnajalam-2004
+2003,"Palanati Brahmanaidu","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/palanati-brahmanaidu-2003
+2003,"Manasellam","Santhosh","Srikanth","Trisha Krishnan",275922,Has TMDB (no genres),http://localhost:3000/movies/manasellam-2003
+2003,"All over the heart","Santhosh","Srikanth","",275922,Has TMDB (no genres),http://localhost:3000/movies/all-over-the-heart-2003
+2003,"Pelli Kani Prasad","","Sivaji Sontineni","Sridevi Vijayakumar",1142514,Has TMDB (no genres),http://localhost:3000/movies/pelli-kani-prasad-2003
+2002,"Ninu Choodaka Nenundalenu","R. Srinivas","Sachiin J. Joshi","Bhavna Pani",,No TMDB ID,http://localhost:3000/movies/ninu-choodaka-nenundalenu-2002
+2002,"Hollywood","Dinesh Baboo","Upendra","Felicity Mason",339861,Has TMDB (no genres),http://localhost:3000/movies/hollywood-2002
+2002,"Ivan","R. Parthiban","Soundarya","Meena",281820,Has TMDB (no genres),http://localhost:3000/movies/ivan-2002
+2002,"Chennakeshava Reddy","","","",,No TMDB ID,http://localhost:3000/movies/chennakeshava-reddy-2002
+2002,"Angala Parameswari","","","",,No TMDB ID,http://localhost:3000/movies/angala-parameswari-2002
+2002,"Kottai Mariamman","","","",476941,Has TMDB (no genres),http://localhost:3000/movies/kottai-mariamman-2002
+2001,"Naa Manasistha Raa","R.R.Shinde","Srikanth","Richa",,No TMDB ID,http://localhost:3000/movies/naa-manasistha-raa-2001
+2001,"Time Pass","","Ajay","",330753,Has TMDB (no genres),http://localhost:3000/movies/time-pass-2001
+2001,"Kalasi Naduddam","Kodi Ramakrishna","Srikanth","Soundarya",822871,Has TMDB (no genres),http://localhost:3000/movies/kalasi-naduddam-2001
+2001,"Kottai Mariamman","Rama Narayanan","","",476941,Has TMDB (no genres),http://localhost:3000/movies/kottai-mariamman-2001
+2000,"Vamsoddarakudu","","","",,No TMDB ID,http://localhost:3000/movies/vamsoddarakudu-2000
+2000,"Nagadevathe","Om Saiprakash","Soundarya","Prema",1338442,Has TMDB (no genres),http://localhost:3000/movies/nagadevathe-2000
+2000,"Sakutumba Saparivaara Sametham","","","",306450,Has TMDB (no genres),http://localhost:3000/movies/sakutumba-saparivaara-sametham-2000
+2000,"Eazhaiyin Sirippil","K. Subash","","",280963,Has TMDB (no genres),http://localhost:3000/movies/eazhaiyin-sirippil-2000
+1999,"Z","K. Praveen Nayak","Prakash Raj","Prema",755434,Has TMDB (no genres),http://localhost:3000/movies/z-1999
+1999,"Preyasi Rave","","","",,No TMDB ID,http://localhost:3000/movies/preyasi-rave-1999
+1998,"W/o V. Vara Prasad","Vamsy","Vineeth","J. D. Chakravarthy",,No TMDB ID,http://localhost:3000/movies/w-o-v-vara-prasad-1998
+1998,"Yuvaratna Raana","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/yuvaratna-raana-1998
+1998,"Doni Sagali","","","",,No TMDB ID,http://localhost:3000/movies/doni-sagali-1998
+1998,"Karnataka State Film Awards","","Soundarya","",,No TMDB ID,http://localhost:3000/movies/karnataka-state-film-awards-1998
+1998,"Aayanagaru","","","",,No TMDB ID,http://localhost:3000/movies/aayanagaru-1998
+1998,"Zulm-O-Sitam","K. C. Bokadia","Jaya Prada","Jaya Prada",588993,Has TMDB (no genres),http://localhost:3000/movies/zulm-o-sitam-1998
+1998,"Maavidakulu","","Jagapathi Babu","",308065,Has TMDB (no genres),http://localhost:3000/movies/maavidakulu-1998
+1998,"Aami Sei Meye","Prosenjit Chatterjee","Jaya Prada","Jaya Prada",989463,Has TMDB (no genres),http://localhost:3000/movies/aami-sei-meye-1998
+1997,"Jai Bajarangbali","","","",,No TMDB ID,http://localhost:3000/movies/jai-bajarangbali-1997
+1997,"Maa Nanna Ki Pelli","","Krishnam Raju","Simran",308064,Has TMDB (no genres),http://localhost:3000/movies/maa-nanna-ki-pelli-1997
+1997,"Maa Nannaki Pelli","","","",308064,Has TMDB (no genres),http://localhost:3000/movies/maa-nannaki-pelli-1997
+1997,"Egire Pavuramaa","","","",,No TMDB ID,http://localhost:3000/movies/egire-pavuramaa-1997
+1997,"Gunda Gardi","","","",,No TMDB ID,http://localhost:3000/movies/gunda-gardi-1997
+1996,"Topi Raja Sweety Roja","","","",,No TMDB ID,http://localhost:3000/movies/topi-raja-sweety-roja-1996
+1996,"Manasulo Maata","","","",,No TMDB ID,http://localhost:3000/movies/manasulo-maata-1996
+1996,"Shri Krishnarjuna Vijayam","","","",,No TMDB ID,http://localhost:3000/movies/shri-krishnarjuna-vijayam-1996
+1996,"Mr. Bechara","K. Bhagyaraj","","",142136,Has TMDB (no genres),http://localhost:3000/movies/mr-bechara-1996
+1996,"Ninne Pelladata","Pasupuleti Krishna Vamsi","","",137455,Has TMDB (no genres),http://localhost:3000/movies/ninne-pelladata-1996
+1995,"Vaddu Bava Tappu","","Rajendra Prasad","Ravali",676787,Has TMDB (no genres),http://localhost:3000/movies/vaddu-bava-tappu-1995
+1995,"Chilakapacha Kapuram","","Soundarya","Meena",676782,Has TMDB (no genres),http://localhost:3000/movies/chilakapacha-kapuram-1995
+1995,"Maato Pettukoku","","","",,No TMDB ID,http://localhost:3000/movies/maato-pettukoku-1995
+1995,"Raja Muthirai","","","",,No TMDB ID,http://localhost:3000/movies/raja-muthirai-1995
+1994,"Chauraha","Sadaqat Hussein","Jaya Prada","Jaya Prada",342187,Has TMDB (no genres),http://localhost:3000/movies/chauraha-1994
+1994,"Indhu","","","",249447,Has TMDB (no genres),http://localhost:3000/movies/indhu-1994
+1994,"Athiradi Padai","","","",,No TMDB ID,http://localhost:3000/movies/athiradi-padai-1994
+1994,"Shubha Lagnam","","","",,No TMDB ID,http://localhost:3000/movies/shubha-lagnam-1994
+1993,"Chandra Mukhi","Debaloy Dey","Salman Khan","Sridevi",161406,Has TMDB (no genres),http://localhost:3000/movies/chandra-mukhi-1993
+1993,"Kundan","K. C. Bokadia","Jaya Prada","Jaya Prada",591926,Has TMDB (no genres),http://localhost:3000/movies/kundan-1993
+1993,"Ezhai Jaathi","Liaquat Ali Khan","Jaya Prada","Jaya Prada",247137,Has TMDB (no genres),http://localhost:3000/movies/ezhai-jaathi-1993
+1992,"Valu Jada Tolu Beltu","Vijaya Bapineedu","Rajendra Prasad","Kanaka",676785,Has TMDB (no genres),http://localhost:3000/movies/valu-jada-tolu-beltu-1992
+1992,"Pellaniki Premalekha Priyuraliki Subhalekha","Narasimha Rao Relangi","Rajendra Prasad","Shruti",894490,Has TMDB (no genres),http://localhost:3000/movies/pellaniki-premalekha-priyuraliki-subhalekha-1992
+1992,"Aaj Ka Goonda Raj","","","",,No TMDB ID,http://localhost:3000/movies/aaj-ka-goonda-raj-1992
+1992,"Raktha Tharpanam","Krishna","Krishna","",1612079,Has TMDB (no genres),http://localhost:3000/movies/raktha-tharpanam-1992
+1991,"Amma Kadupu Challaga","Boyina Subbarao","Sanjay Mitra","Yamuna",,No TMDB ID,http://localhost:3000/movies/amma-kadupu-challaga-1991
+1991,"Jumma Chumma In London","","Salman Khan","Sridevi",888839,Has TMDB (no genres),http://localhost:3000/movies/jumma-chumma-in-london-1991
+1991,"Farishtay","Anil Sharma","Dharmendra","Sridevi",331311,Has TMDB (no genres),http://localhost:3000/movies/farishtay-1991
+1991,"Mondi Mogudu Penki Pellam","Siva Nageshwara Rao","Vijayashanti","Vijayashanti",137360,Has TMDB (no genres),http://localhost:3000/movies/mondi-mogudu-penki-pellam-1991
+1991,"Chaithanya","","","",,No TMDB ID,http://localhost:3000/movies/chaithanya-1991
+1990,"Rao Gari Intlo Rowdy","Kodi Ramakrishna","Akkineni Nageswara Rao","Vanisri",,No TMDB ID,http://localhost:3000/movies/rao-gari-intlo-rowdy-1990
+1990,"Pathar Ke Insan","Shomu Mukherjee","Vinod Khanna","Sridevi",532158,Has TMDB (no genres),http://localhost:3000/movies/pathar-ke-insan-1990
+1990,"Kanoon Ki Zanjeer","","Jaya Prada","Jaya Prada",528207,Has TMDB (no genres),http://localhost:3000/movies/kanoon-ki-zanjeer-1990
+1990,"Girija Kalyanam","K. S. R. Das","Jaya Prada","Jaya Prada",1229858,Has TMDB (no genres),http://localhost:3000/movies/girija-kalyanam-1990
+1990,"Q12427728","","","",,No TMDB ID,http://localhost:3000/movies/q12427728-1990
+1990,"Majboor","T. Rama Rao","Jaya Prada","Parveen Babi",499666,Has TMDB (no genres),http://localhost:3000/movies/majboor-1990
+1990,"Nagastharam","Krishna","Krishna","",1612068,Has TMDB (no genres),http://localhost:3000/movies/nagastharam-1990
+1989,"Souten Ki Beti","Saawan Kumar Tak","Jaya Prada","Rekha",244736,Has TMDB (no genres),http://localhost:3000/movies/souten-ki-beti-1989
+1989,"Paraya Ghar","Kalpataru","Rishi Kapoor","Jaya Prada",819826,Has TMDB (no genres),http://localhost:3000/movies/paraya-ghar-1989
+1989,"Elaan-E-Jung","Anil Sharma","Jaya Prada","Jaya Prada",426177,Has TMDB (no genres),http://localhost:3000/movies/elaan-e-jung-1989
+1989,"Majboor","Rama Rao Tatineni","Jaya Prada","Jaya Prada",499666,Has TMDB (no genres),http://localhost:3000/movies/majboor-1989
+1989,"Kanoon Ki Awaaz","","","",,No TMDB ID,http://localhost:3000/movies/kanoon-ki-awaaz-1989
+1989,"Shehzaade","Raj N. Sippy","Jaya Prada","Jaya Prada",505426,Has TMDB (no genres),http://localhost:3000/movies/shehzaade-1989
+1989,"Special Jury Award","","Jagapathi Babu","",,No TMDB ID,http://localhost:3000/movies/special-jury-award-1989
+1989,"Vicky Daada","","","",,No TMDB ID,http://localhost:3000/movies/vicky-daada-1989
+1989,"Main Tera Dushman","Vijay Reddy","Jackie Shroff","Sridevi",819813,Has TMDB (no genres),http://localhost:3000/movies/main-tera-dushman-1989
+1988,"Choopulu Kalasina Subhavela","Jandhyala","Mohan","Naresh",,No TMDB ID,http://localhost:3000/movies/choopulu-kalasina-subhavela-1988
+1988,"Rajakiya Chadurangam","","Krishna","",685650,Has TMDB (no genres),http://localhost:3000/movies/rajakiya-chadurangam-1988
+1988,"Rakthabishekam","A. Kodandarami Reddy","Nandamuri Balakrishna","",782495,Has TMDB (no genres),http://localhost:3000/movies/rakthabishekam-1988
+1988,"Mardon Wali Baat","","Dharmendra","Shabana Azmi",528019,Has TMDB (no genres),http://localhost:3000/movies/mardon-wali-baat-1988
+1988,"Padma Bhushan","","Akkineni Nageswara Rao","",,No TMDB ID,http://localhost:3000/movies/padma-bhushan-1988
+1987,"Donga Garu Swagatham","G. Ram Mohana Rao","Krishna","Vijayashanti",,No TMDB ID,http://localhost:3000/movies/donga-garu-swagatham-1987
+1987,"Manmadha Leela Kamaraju Gola","Relangi Narasimha Rao","Rajendra Prasad","Chandra Mohan",,No TMDB ID,http://localhost:3000/movies/manmadha-leela-kamaraju-gola-1987
+1987,"Relangi Narasimha Rao","Rajendra Prasad, Seetha, Suthi Veerabhadra Rao","Rajendra Prasad","Subha",,No TMDB ID,http://localhost:3000/movies/relangi-narasimha-rao-1987
+1987,"Premaloka","V Ravichandran","V Ravichandran","Juhi Chawla Mehta",609348,Has TMDB (no genres),http://localhost:3000/movies/premaloka-1987
+1987,"President Gari Abbayi","","Nandamuri Balakrishna","",787056,Has TMDB (no genres),http://localhost:3000/movies/president-gari-abbayi-1987
+1987,"Kirai Dada","","","",,No TMDB ID,http://localhost:3000/movies/kirai-dada-1987
+1987,"Sankeerthana","","","",,No TMDB ID,http://localhost:3000/movies/sankeerthana-1987
+1987,"Nazrana","Ravi Tandon","Rajesh Khanna","Sridevi",321963,Has TMDB (no genres),http://localhost:3000/movies/nazrana-1987
+1987,"Dabbevariki Chedu","","","",1596719,Has TMDB (no genres),http://localhost:3000/movies/dabbevariki-chedu-1987
+1987,"Gandhinagar Rendava Veedhi","","","",1607120,Has TMDB (no genres),http://localhost:3000/movies/gandhinagar-rendava-veedhi-1987
+1986,"Karu Diddina Kapuram","D. V. Narasa Raju","Nutan Prasad","Rajendra Prasad",,No TMDB ID,http://localhost:3000/movies/karu-diddina-kapuram-1986
+1986,"Desoddarakudu","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/desoddarakudu-1986
+1986,"Captain Nagarjuna","V. B. Rajendra Prasad","Akkineni Nagarjuna","",307953,Has TMDB (no genres),http://localhost:3000/movies/captain-nagarjuna-1986
+1986,"Pyaar Ke Do Pal","","","",,No TMDB ID,http://localhost:3000/movies/pyaar-ke-do-pal-1986
+1986,"Aisa Pyaar Kahan","","","",302427,Has TMDB (no genres),http://localhost:3000/movies/aisa-pyaar-kahan-1986
+1986,"Suhaagan","K Raghavendra Rao","Jeetendra","Sridevi",400409,Has TMDB (no genres),http://localhost:3000/movies/suhaagan-1986
+1986,"Seetarama Kalyanam","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/seetarama-kalyanam-1986
+1986,"Dharm Adhikari","K Raghavendra Rao","","",333978,Has TMDB (no genres),http://localhost:3000/movies/dharm-adhikari-1986
+1986,"Padaharella Ammayi","","","",,No TMDB ID,http://localhost:3000/movies/padaharella-ammayi-1986
+1985,"Kattula Kondaiah","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/kattula-kondaiah-1985
+1985,"Sur Sangam","K. Viswanath","Jaya Prada","Jaya Prada",322397,Has TMDB (no genres),http://localhost:3000/movies/sur-sangam-1985
+1985,"Hoshiyar","K Raghavendra Rao","","",1095229,Has TMDB (no genres),http://localhost:3000/movies/hoshiyar-1985
+1985,"Atmabhalam","","Nandamuri Balakrishna","",,No TMDB ID,http://localhost:3000/movies/atmabhalam-1985
+1985,"Mahaguru","","Rajinikanth","Meenakshi Sheshadri",331388,Has TMDB (no genres),http://localhost:3000/movies/mahaguru-1985
+1984,"S. P. Bhayankar","V. B. Rajendra Prasad","Akkineni Nageswara Rao","Krishnam Raju",,No TMDB ID,http://localhost:3000/movies/s-p-bhayankar-1984
+1984,"Paapi Pet Ka Sawaal Hai","Sohanlal Kanwar","Jaya Prada","Jaya Prada",1484258,Has TMDB (no genres),http://localhost:3000/movies/paapi-pet-ka-sawaal-hai-1984
+1984,"Naya Kadam","K Raghavendra Rao","Sridevi","Padmini Kolhapure",619094,Has TMDB (no genres),http://localhost:3000/movies/naya-kadam-1984
+1984,"Mera Faisla","S V Rajendra Singh Babu","Jaya Prada","Rati Agnihotri",304324,Has TMDB (no genres),http://localhost:3000/movies/mera-faisla-1984
+1984,"Sardar&#91;41&#93;","","Jaya Prada","",,No TMDB ID,http://localhost:3000/movies/sardar-91-41-93-1984
+1984,"Awaaz","Shakti Samanta","Jaya Prada","Jaya Prada",447165,Has TMDB (no genres),http://localhost:3000/movies/awaaz-1984
+1984,"Insaaf Kaun Karega","Sudarshan Nag","Jaya Prada","Rajinikanth",331566,Has TMDB (no genres),http://localhost:3000/movies/insaaf-kaun-karega-1984
+1984,"Dharm Aur Qanoon","","Rajesh Khanna","Asha Parekh",533722,Has TMDB (no genres),http://localhost:3000/movies/dharm-aur-qanoon-1984
+1984,"Gift","K Raghavendra Rao","Jeetendra","Sridevi",559919,Has TMDB (no genres),http://localhost:3000/movies/gift-1984
+1984,"Maqsad","K. Bapayya","","",304175,Has TMDB (no genres),http://localhost:3000/movies/maqsad-1984
+1983,"Pelli Chesi Choopistham","N. A. Pendyala","Chandra Mohan","Vijaya Santhi",,No TMDB ID,http://localhost:3000/movies/pelli-chesi-choopistham-1983
+1983,"Patnam Vachhina Pasipapa (Tamil Dubbed Azhakia Kanne 1982)","J. Mahendran","Sarath Babu","Suhasini",,No TMDB ID,http://localhost:3000/movies/patnam-vachhina-pasipapa-tamil-dubbed-azhakia-kanne-1982-1983
+1983,"Chattaniki Veyi Kallu","Vijaya Nirmala","Krishna","Jaya Sudha",,No TMDB ID,http://localhost:3000/movies/chattaniki-veyi-kallu-1983
+1983,"Ramudu Kadu Krishnudu","Dasari Narayana Rao","Akkineni Nageswara Rao","Jayasudha",,No TMDB ID,http://localhost:3000/movies/ramudu-kadu-krishnudu-1983
+1983,"Amayakudu Kadhu Asadhyudu","Vijaya Nirmala","Krishna","Jayasudha",,No TMDB ID,http://localhost:3000/movies/amayakudu-kadhu-asadhyudu-1983
+1983,"Jaani Dost","","Dharmendra","Parveen Babi",304713,Has TMDB (no genres),http://localhost:3000/movies/jaani-dost-1983
+1983,"Qayamat","Raj N. Sippy","Jaya Prada","Smita Patil",215334,Has TMDB (no genres),http://localhost:3000/movies/qayamat-1983
+1983,"Shubha Muhurtam","","","",,No TMDB ID,http://localhost:3000/movies/shubha-muhurtam-1983
+1982,"Aththaku Thagga Allullu","Rama Narayanan","Vijayasanthi","Radha",,No TMDB ID,http://localhost:3000/movies/aththaku-thagga-allullu-1982
+1982,"Daiviyin Thiruvilaiyadal","K. S. Gopalakrishnan","Nagesh","Sridevi",949471,Has TMDB (no genres),http://localhost:3000/movies/daiviyin-thiruvilaiyadal-1982
+1982,"Madhura Swapnam","","","",,No TMDB ID,http://localhost:3000/movies/madhura-swapnam-1982
+1982,"Trishulam","","","",,No TMDB ID,http://localhost:3000/movies/trishulam-1982
+1982,"Talli Kodukula Anubandham","","","",,No TMDB ID,http://localhost:3000/movies/talli-kodukula-anubandham-1982
+1982,"Yuvaraju","Dasari Narayana Rao","Akkineni Nageswara Rao","Jayasudha",626994,Has TMDB (no genres),http://localhost:3000/movies/yuvaraju-1982
+1982,"Swayamvaram","Dasari Narayana Rao","Sobhan Babu","Jaya Prada",1229862,Has TMDB (no genres),http://localhost:3000/movies/swayamvaram-1982
+1982,"Meghasandesham","","","",,No TMDB ID,http://localhost:3000/movies/meghasandesham-1982
+1982,"Krishnarajunulu","Dasari Narayana Rao","Krishna","",1605246,Has TMDB (no genres),http://localhost:3000/movies/krishnarajunulu-1982
+1982,"Nizhal Thedum Nenjangal","","","",,No TMDB ID,http://localhost:3000/movies/nizhal-thedum-nenjangal-1982
+1982,"Pokkiri Raja","S. P. Muthuraman","Sridevi","Sridevi",331553,Has TMDB (no genres),http://localhost:3000/movies/pokkiri-raja-1982
+1982,"Dil-E-Nadaan","C. V. Sridhar","Jaya Prada","Jaya Prada",514727,Has TMDB (no genres),http://localhost:3000/movies/dil-e-nadaan-1982
+1981,"Adavaallu Meeku Joharulu","","","",,No TMDB ID,http://localhost:3000/movies/adavaallu-meeku-joharulu-1981
+1981,"Paravathi Parameshwarulu","","","",,No TMDB ID,http://localhost:3000/movies/paravathi-parameshwarulu-1981
+1981,"Gharana Gangulu","Katta Subba Rao","Sobhan Babu","",304239,Has TMDB (no genres),http://localhost:3000/movies/gharana-gangulu-1981
+1980,"Kodallu Vastunnaru Jagratha","Katta Subba Rao","Sobhan Babu","Saradha",,No TMDB ID,http://localhost:3000/movies/kodallu-vastunnaru-jagratha-1980
+1980,"Inimai Idho Idho","","","",,No TMDB ID,http://localhost:3000/movies/inimai-idho-idho-1980
+1980,"Takkar","K. Bapayya","","",1325080,Has TMDB (no genres),http://localhost:3000/movies/takkar-1980
+1980,"Agni Sanskaram","","","",,No TMDB ID,http://localhost:3000/movies/agni-sanskaram-1980
+1980,"Rakta Sambandham","","","",,No TMDB ID,http://localhost:3000/movies/rakta-sambandham-1980
+1979,"Toorpu Velle Railu","Bapu","Jyothi","Mohan",,No TMDB ID,http://localhost:3000/movies/toorpu-velle-railu-1979
+1979,"Pagalil Oru Iravu","I V Sasi","Vijaykumar","Sridevi",1085259,Has TMDB (no genres),http://localhost:3000/movies/pagalil-oru-iravu-1979
+1979,"Sri Madvirata Parvam","N. T. Rama Rao","N.T. Rama Rao","Nandamuri Balakrishna",,No TMDB ID,http://localhost:3000/movies/sri-madvirata-parvam-1979
+1979,"Sargam","K. Viswanath","Jaya Prada","Jaya Prada",83832,Has TMDB (no genres),http://localhost:3000/movies/sargam-1979
+1979,"Lok Parlok","Rama Rao Tatineni","Jaya Prada","Jaya Prada",304302,Has TMDB (no genres),http://localhost:3000/movies/lok-parlok-1979
+1979,"Q12985478","","","",,No TMDB ID,http://localhost:3000/movies/q12985478-1979
+1979,"Sri Rambantu","","","",,No TMDB ID,http://localhost:3000/movies/sri-rambantu-1979
+1979,"Amar Deep","","","",377063,Has TMDB (no genres),http://localhost:3000/movies/amar-deep-1979
+1979,"Ashwadhamavu","","","",765117,Has TMDB (no genres),http://localhost:3000/movies/ashwadhamavu-1979
+1978,"டாக்ஸி டிரைவர்","N. S. Manian","","",846919,Has TMDB (no genres),http://localhost:3000/movies/-1978
+1978,"Sri Rama Raksha","T. Rama Rao","Akkineni Nageswara Rao","Vanisri",,No TMDB ID,http://localhost:3000/movies/sri-rama-raksha-1978
+1978,"Karunai Ullam","","","",,No TMDB ID,http://localhost:3000/movies/karunai-ullam-1978
+1978,"Q16311395","","","",,No TMDB ID,http://localhost:3000/movies/q16311395-1978
+1977,"Q12982331","","","",,No TMDB ID,http://localhost:3000/movies/q12982331-1977
+1977,"Bhadrakali","","Jaya Prada","Rani Chandra",824751,Has TMDB (no genres),http://localhost:3000/movies/bhadrakali-1977
+1977,"Jeevana Theeralu","","","",,No TMDB ID,http://localhost:3000/movies/jeevana-theeralu-1977
+1977,"Nirakudam","A. Bhimsingh","Kamal Haasan","Sridevi",747472,Has TMDB (no genres),http://localhost:3000/movies/nirakudam-1977
+1973,"Bala Mitrula Katha","K","Gummadi","Suryakantham",1471128,Has TMDB (no genres),http://localhost:3000/movies/bala-mitrula-katha-1973
+1973,"Bangaru Babu","V. B. Rajendra Prasad","Akkineni Nageswara Rao","",304942,Has TMDB (no genres),http://localhost:3000/movies/bangaru-babu-1973
+1972,"Bangarada Manushya","Siddalingaiah","Dr. Rajkumar","Bharathi Rao",310767,Has TMDB (no genres),http://localhost:3000/movies/bangarada-manushya-1972
+1972,"Iddaru Ammayilu","","","",307469,Has TMDB (no genres),http://localhost:3000/movies/iddaru-ammayilu-1972
+1972,"Amma Mata","","","",,No TMDB ID,http://localhost:3000/movies/amma-mata-1972
+1972,"Bala Mitrula Katha","","","",1471128,Has TMDB (no genres),http://localhost:3000/movies/bala-mitrula-katha-1972
+1972,"Kanimuthu Paappa","S. P. Muthuraman","","",964309,Has TMDB (no genres),http://localhost:3000/movies/kanimuthu-paappa-1972
+1971,"Sri Krishna Vijayamu","K. Viswanath","N.T. Rama Rao","Jayalalithaa",,No TMDB ID,http://localhost:3000/movies/sri-krishna-vijayamu-1971
+1971,"Kathiki Kankanam","K. S. R. Das","","",964105,Has TMDB (no genres),http://localhost:3000/movies/kathiki-kankanam-1971
+1971,"Aana Valarthiya Vanampadiyude Makan","P Subramaniam","","",963869,Has TMDB (no genres),http://localhost:3000/movies/aana-valarthiya-vanampadiyude-makan-1971
+1970,"Maa Manchi Akkayya","K. Pratyagatma","Krishna","Jamuna",,No TMDB ID,http://localhost:3000/movies/maa-manchi-akkayya-1970
+1970,"Ali Baba 40 Dongalu","B. Vittalacharya","N.T. Rama Rao","Jayalalithaa J",489433,Has TMDB (no genres),http://localhost:3000/movies/ali-baba-40-dongalu-1970
+1970,"Agni Pareeksha","K. Varaprasadarao","Gummadi","Sridevi",950158,Has TMDB (no genres),http://localhost:3000/movies/agni-pareeksha-1970
+1969,"Aathmeeyulu","V. Madhusudhan Rao","Akkineni Nageswara Rao","",685559,Has TMDB (no genres),http://localhost:3000/movies/aathmeeyulu-1969
+1969,"Nam Naadu","Jambulingam","","",285384,Has TMDB (no genres),http://localhost:3000/movies/nam-naadu-1969
+1968,"Neerkimi Neervedhaptha Charithra","Narayana Rao","Gummadi","Vijaya Nirmala",,No TMDB ID,http://localhost:3000/movies/neerkimi-neervedhaptha-charithra-1968
+1967,"Shri Krishnavataram","","","",,No TMDB ID,http://localhost:3000/movies/shri-krishnavataram-1967
+1966,"Shri Krishna Pandaviyam","","","",,No TMDB ID,http://localhost:3000/movies/shri-krishna-pandaviyam-1966
+1965,"Naadi Aada Janme","A. C. Tirulokachandar","Savitri","N. T. Rama Rao",307555,Has TMDB (no genres),http://localhost:3000/movies/naadi-aada-janme-1965
+1965,"Poojaikku Vandha Malar","","","",,No TMDB ID,http://localhost:3000/movies/poojaikku-vandha-malar-1965
+1965,"Bangaru Panjaram","","","",301075,Has TMDB (no genres),http://localhost:3000/movies/bangaru-panjaram-1965
+1964,"Kai Koduttha Dheivam","","","",,No TMDB ID,http://localhost:3000/movies/kai-koduttha-dheivam-1964
+1964,"Ganga Ki Lahren","","","",306154,Has TMDB (no genres),http://localhost:3000/movies/ganga-ki-lahren-1964
+1963,"Sri Krishnarjuna Yuddhamu","K. V. Reddy","N.T. Rama Rao","A. Nageswara Rao",,No TMDB ID,http://localhost:3000/movies/sri-krishnarjuna-yuddhamu-1963
+1962,"Paarthaal Pasi Theerum","","","",,No TMDB ID,http://localhost:3000/movies/paarthaal-pasi-theerum-1962
+1961,"Bharya Bharthalu","Kolli Pratyagatma","Akkineni Nageswara Rao","",307390,Has TMDB (no genres),http://localhost:3000/movies/bharya-bharthalu-1961
+1960,"Kuravanji","","","",,No TMDB ID,http://localhost:3000/movies/kuravanji-1960
+1959,"Veera Pandya Katta Brahmana","B. R. Panthulu","Sivaji Ganesan","Gemini Ganesan",,No TMDB ID,http://localhost:3000/movies/veera-pandya-katta-brahmana-1959
+1959,"Appu Chesi Pappu Koodu","L V Prasad","N.T. Rama Rao","Savitri",307129,Has TMDB (no genres),http://localhost:3000/movies/appu-chesi-pappu-koodu-1959
+1959,"Manjal Mahimai","Adurthi Subba Rao","Akkineni Nageswara Rao","",515095,Has TMDB (no genres),http://localhost:3000/movies/manjal-mahimai-1959
+1959,"Pelli Naati Pramanalu","Kadri Venkata Reddy","Akkineni Nageswara Rao","",395741,Has TMDB (no genres),http://localhost:3000/movies/pelli-naati-pramanalu-1959
+1958,"Padhi Bhakti","","","",,No TMDB ID,http://localhost:3000/movies/padhi-bhakti-1958
+1958,"Kaathavaraayan","","","",,No TMDB ID,http://localhost:3000/movies/kaathavaraayan-1958
+1958,"Annaiyin Aanai","Chitrapu Narayana Rao","","",757971,Has TMDB (no genres),http://localhost:3000/movies/annaiyin-aanai-1958
+1958,"Women's Authority","Adurthi Subba Rao","Akkineni Nageswara Rao","",697952,Has TMDB (no genres),http://localhost:3000/movies/women-s-authority-1958
+1957,"Bhagyarekha","B.N. Reddi","N.T. Rama Rao","",307748,Has TMDB (no genres),http://localhost:3000/movies/bhagyarekha-1957
+1957,"Pathini Deivam","","","",,No TMDB ID,http://localhost:3000/movies/pathini-deivam-1957
+1955,"Sri Jagannatha Mahatyamu","Katuri Mohana Rao","Srinadh","Y. Jogarao",,No TMDB ID,http://localhost:3000/movies/sri-jagannatha-mahatyamu-1955
+1954,"Achintya Apeksha Ratnavali","S. M. Sriramulu Naidu","N.T. Rama Rao","P. Bhanumathi",,No TMDB ID,http://localhost:3000/movies/achintya-apeksha-ratnavali-1954
+1953,"Pakka Inti Ammayi","C. Pullaiah","Relangi","Anjali Devi",,No TMDB ID,http://localhost:3000/movies/pakka-inti-ammayi-1953
+1953,"Bratuku Theruvu","","","",307324,Has TMDB (no genres),http://localhost:3000/movies/bratuku-theruvu-1953
+1952,"Aada bratuku (1952 film)","B.A.SubbaRao","K.Raghuramaiah","Sriranjani Jr",,No TMDB ID,http://localhost:3000/movies/aada-bratuku-1952-film-1952
+1952,"Adarsham","","","",,No TMDB ID,http://localhost:3000/movies/adarsham-1952
+1944,"Seeta Rama Jananam","Ghantasala Balaramayya","A. Nageswara Rao","Tripurasundari",,No TMDB ID,http://localhost:3000/movies/seeta-rama-jananam-1944
+1942,"Shanta Bala Nagamma","S V S Rama Rao","M Krishna Rao","Kumari",,No TMDB ID,http://localhost:3000/movies/shanta-bala-nagamma-1942

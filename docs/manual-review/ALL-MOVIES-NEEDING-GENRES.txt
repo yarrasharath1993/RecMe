@@ -1,0 +1,162 @@
+═══════════════════════════════════════════════════════════════════════
+              286 MOVIES NEEDING GENRES - MANUAL REVIEW
+═══════════════════════════════════════════════════════════════════════
+
+INSTRUCTIONS:
+1. Review each batch of 60 movies
+2. Add genres based on:
+   - TMDB lookup (if TMDB ID available)
+   - Wikipedia/IMDb research
+   - Movie knowledge
+3. Common genres: Action, Drama, Romance, Comedy, Thriller, Horror, Family, Fantasy, Historical, Mythology
+
+LEGEND:
+  ✓ = Has TMDB ID (can auto-enrich)
+  ✗ = No TMDB ID (needs manual research)
+
+═══════════════════════════════════════════════════════════════════════
+BATCH 1/5: MOVIES 1-60 (2023-2009)
+═══════════════════════════════════════════════════════════════════════
+
+1. 'Salaar: Part 2 – Shouryanga Parvam (2023) ✗ - PLACEHOLDER/UNRELEASED
+2. Best Actor in a Negative Role (Tamil) (2021) ✗ - AWARD ENTRY (DELETE)
+3. Bomma Adirindi Dimma Tirigindi (2021) ✓ TMDB:823441
+4. Family - A Made at Home Short Film (2020) ✓ TMDB:1129970
+5. 2 Hours Love (2019) ✓ TMDB:631934
+6. Nanne Preethse: I Love You (2019) ✓ TMDB:628368
+7. Kavacha (2019) ✓ TMDB:590906
+8. Police officer (2019) ✓ TMDB:749574
+9. N.T.R: Kathanayukudu (2019) ✗ - Biographical/Drama
+10. Premier Padmini (2019) ✓ TMDB:658152
+11. Ee Nagariniki Emaindi (2018) ✗ - Comedy/Drama
+12. ch ravi kishore babu (2018) ✗ - UNCLEAR ENTRY
+13. Ammachi Yemba Nenapu (2018) ✓ TMDB:586119
+14. Operation 2019 (2018) ✓ TMDB:791058
+15. Aatwaja (2018) ✓ TMDB:1017859
+16. Anaganaga Oka Durga (2017) ✓ TMDB:485855
+17. Jayanth C. Paranjee (2017) ✗ - UNCLEAR
+18. Best Actor in a Negative Role (2017) ✗ - AWARD ENTRY (DELETE)
+19. Shuddhi (2017) ✓ TMDB:453419
+20. Vennello Hai Hai (2016) ✓ TMDB:401902
+21. Ethiri En 3 (2016) ✓ TMDB:280880
+22. Best Actor in a Negative Role (Malayalam) (2016) ✗ - AWARD ENTRY (DELETE)
+23. Special Jury Award (2016) ✗ - AWARD ENTRY (DELETE)
+24. Ranveer Ching Returns (2016) ✗ - Commercial/Short
+25. Shivalinga (2016) ✓ TMDB:414206
+26. Ranna (2015) ✓ TMDB:417878
+27. Singam 123 (2015) ✗ - Comedy/Parody
+28. Dagudumoota Dandakore (2015) ✗
+29. Anandam Malli Modalaindi (2015) ✗ - Romance
+30. Yavvanam Oka Fantasy (2015) ✓ TMDB:526288
+31. Well, If You Know Me (2015) ✗ - UNCLEAR
+32. IIFA Utsavam (2015) ✗ - AWARD SHOW (DELETE)
+33. Best Actor in a Negative Role (Telugu) (2014) ✗ - AWARD ENTRY (DELETE)
+34. Best Villain (2014) ✗ - AWARD ENTRY (DELETE)
+35. Exploring ''Shiva'' Movie After 25 Years (2014) ✓ TMDB:1328515 - Documentary
+36. Ambareesha (2014) ✓ TMDB:465027
+37. Sri Vasavi Vaibhavam (2013) ✓ TMDB:313294 - Devotional/Mythology
+38. Bunny N Cherry (2013) ✗ - Comedy
+39. Prema Oka Maikam (2013) ✓ TMDB:226076
+40. Galaate (2013) ✓ TMDB:536239
+41. Thadaka (2013) ✓ TMDB:705897
+42. Ramaiya Vasta Vaiya (2013) ✗ - Romance/Drama
+43. Godfather (2012) ✓ TMDB:755450
+44. Yamaho Yama: in America (2012) ✗ - Comedy/Fantasy
+45. Krantiveera Sangolli Rayanna (2012) ✗ - Historical/Biographical
+46. Paagan (2012) ✓ TMDB:146847
+47. Ethiri En 3 (2012) ✓ TMDB:280880
+48. 6 (2012) ✓ TMDB:1199881
+49. Rasaleela (2012) ✓ TMDB:143510
+50. Saarathi (2011) ✓ TMDB:463207
+51. Bhale Mogudu Bhale Pellam (2011) ✗ - Family/Drama
+52. Badrinadh (2011) ✗ - Action/Drama
+53. Kalabha Mazha (2011) ✗
+54. Marana Porali (2011) ✗
+55. Payanam (2011) ✓ TMDB:1285853 - Thriller
+56. Alasyam Amrutham (2010) ✓ TMDB:307736
+57. Betting Bangaraju (2010) ✗ - Comedy
+58. Shubhapradam (2010) ✗ - Family/Drama
+59. Super (2010) ✓ TMDB:123196
+60. Sesh Sangat (2009) ✓ TMDB:173998
+
+═══════════════════════════════════════════════════════════════════════
+BATCH 2/5: MOVIES 61-120 (2009-1996)
+═══════════════════════════════════════════════════════════════════════
+
+61-120: [Mostly 2000s-1990s films, many with TMDB IDs]
+- Includes Hindi/Tamil crossover films
+- Several Jagapathi Babu, Jaya Prada films
+- Mix of action, drama, romance genres
+- Some award entries to delete
+
+═══════════════════════════════════════════════════════════════════════
+BATCH 3/5: MOVIES 121-180 (1995-1987)
+═══════════════════════════════════════════════════════════════════════
+
+121-180: [Classic 1990s-1980s films]
+- Many Sridevi, Jaya Prada, Rajinikanth films
+- Hindi-Telugu crossovers
+- Action, drama, romance typical of era
+- Several missing TMDB IDs
+
+═══════════════════════════════════════════════════════════════════════
+BATCH 4/5: MOVIES 181-240 (1986-1977)
+═══════════════════════════════════════════════════════════════════════
+
+181-240: [Golden age Telugu cinema]
+- NTR, ANR, Krishna films
+- Historical/mythology common
+- Family dramas prevalent
+- Many without TMDB IDs
+
+═══════════════════════════════════════════════════════════════════════
+BATCH 5/5: MOVIES 241-286 (1973-1942)
+═══════════════════════════════════════════════════════════════════════
+
+241-286: [Classic Telugu cinema]
+- NTR, Savitri, Dr. Rajkumar films
+- Mythology and historical films common
+- Family dramas, devotional films
+- Most lack TMDB IDs (pre-digital era)
+
+═══════════════════════════════════════════════════════════════════════
+QUICK ACTIONS
+═══════════════════════════════════════════════════════════════════════
+
+PRIORITY 1 - DELETE (Award Entries):
+- Best Actor in a Negative Role (Tamil) (2021)
+- Best Actor in a Negative Role (2017)
+- Best Actor in a Negative Role (Malayalam) (2016)
+- Special Jury Award (2016)
+- Best Actor in a Negative Role (Telugu) (2014)
+- Best Villain (2014)
+- IIFA Utsavam (2015)
+- Karnataka State Film Awards (1998)
+- Special Jury Award (1989)
+- Best Supporting Actor – Telugu (2005)
+
+PRIORITY 2 - AUTO-ENRICH (159 movies with TMDB IDs):
+Can be enriched automatically using existing scripts
+
+PRIORITY 3 - MANUAL RESEARCH (127 movies without TMDB IDs):
+Require Wikipedia/IMDb research for genre classification
+
+═══════════════════════════════════════════════════════════════════════
+SUMMARY
+═══════════════════════════════════════════════════════════════════════
+
+Total Movies:                 286
+- With TMDB ID:              159 (can auto-enrich)
+- Without TMDB ID:           127 (need research)
+- Award Entries to Delete:    10 (identified above)
+
+Effective Movies:            276 (after deleting awards)
+- Auto-enrichable:           159 (58%)
+- Need manual work:          117 (42%)
+
+═══════════════════════════════════════════════════════════════════════
+
+Use command to view specific batch:
+  npx tsx scripts/display-genres-batches.ts --batch=N
+
+where N is 1-5

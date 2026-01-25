@@ -1,0 +1,12 @@
+Title,Year,Issue,Confidence,Fix,Reason
+"Anji",2004,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115063 not found"
+"Tagore",2003,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 54170 not found"
+"Annayya",2000,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115059 not found"
+"Big Boss",1995,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 410217 not found"
+"Rikshavodu",1995,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115051 not found"
+"Stuartpuram Police Station",1991,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115038 not found"
+"Naagu",1984,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115013 not found"
+"Devanthakudu",1984,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115008 not found"
+"Sangharshana",1983,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 115000 not found"
+"Yamakinkarudu",1982,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 279345 not found"
+"Radha My Darling",1982,wrong_tmdb_language,80%,clear_tmdb,"TMDB ID 279347 not found"

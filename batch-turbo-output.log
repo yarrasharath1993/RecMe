@@ -1,0 +1,782 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              SMART CONTINUOUS BATCH PROCESSOR                        ║
+║              TURBO First → Auto-Fallback to FAST on Errors          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total actors: 144
+  Batch size: 5
+  Total batches: 29
+  Starting from batch: 7
+  Strategy: Try TURBO → Fallback to FAST if errors → Retry failed batches
+
+
+╔════════════════════════════════════════════════════════╗
+║          BATCH  7 - 🚀 TURBO MODE (10x)          ║
+╚════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║       BATCH ACTOR DISCOVERY & ENRICHMENT                             ║
+║       Process all actors with full pipeline                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Fetching actors from database...
+
+  Mode: EXECUTE | Speed: 🚀 TURBO (10x)
+  Batch: 7 (actors 31-35 of 73)
+  Actors in this batch: 5
+
+  1. Roja
+  2. Mahesh Babu
+  3. No Female Lead
+  4. Sobhan Babu
+  5. Suhasini
+
+================================================================================
+  Processing: Roja
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Roja
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Roja" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Roja" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 80 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB actor search failed for Roja: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13484:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchActor (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:44:22)
+    at async fetchTMDBFilmography (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:114:19)
+    at async main (/Users/sharathchandra/Projects/telugu-portal/scripts/discover-add-actor-films.ts:276:23) {
+  [cause]: Error: Client network socket disconnected before secure TLS connection was established
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+      at TLSSocket.emit (node:events:536:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+    code: 'ECONNRESET',
+    path: undefined,
+    host: 'api.themoviedb.org',
+    port: 443,
+    localAddress: null
+  }
+}
+TMDB: Actor "Roja" not found
+Wikipedia: Fetching filmography for "Roja"...
+Wikipedia: Found 0 films in filmography for "Roja"
+Wikidata: Searching for "Roja"...
+Wikidata: Found actor ID Q3520208
+Wikidata: Found 46 films for "Roja"
+  ✓ Wikidata: 46 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 45
+  • Already in database: 80
+  • Missing films: 35
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 0
+  • Supporting roles: 45
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 35 missing films...
+  ✓ Added: Chembaruthi (1992)
+  ✓ Added: Uzhaippali (1993)
+  ✓ Added: Indhu (1994)
+  ✓ Added: Athiradi Padai (1994)
+  ✓ Added: Shubha Lagnam (1994)
+  ✓ Added: Asuran (1995)
+  ✓ Added: Makkal Aatchi (1995)
+  ✓ Added: Raja Muthirai (1995)
+  ✓ Added: Tamizh Selvan (1996)
+  ✓ Added: Adimai Changili (1997)
+  ✓ Added: Kadavul (1997)
+  ✓ Added: En Aasai Rasave (1998)
+  ✓ Added: Unnidathil Ennai Koduthen (1998)
+  ✓ Added: Chinna Durai (1999)
+  ✓ Added: Chinna Raja (1999)
+  ✓ Added: Mugham (1999)
+  ✓ Added: Eazhaiyin Sirippil (2000)
+  ✓ Added: Sandhitha Velai (2000)
+  ✓ Added: Thirunelveli (2000)
+  ✓ Added: Mitta Miraasu (2001)
+  ✓ Added: Sonnal Thaan Kaadhala (2001)
+  ✓ Added: Kottai Mariamman (2001)
+  ✓ Added: Angala Parameswari (2002)
+  ✓ Added: Malayali Mamanu Vanakkam (2002)
+  ✓ Added: Kottai Mariamman (2002)
+  ✓ Added: Arasu (2003)
+  ✓ Added: Maurya (2004)
+  ✓ Added: Pasa Kiligal (2006)
+  ✓ Added: Parijatham (2006)
+  ✓ Added: Kuttrapathirikai (2007)
+
+✅ Successfully added 30/35 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/roja-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Roja
+  Total films found: 45
+  Already in database: 80
+  Missing films: 35
+  Added to database: 30
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 0
+    Supporting: 45
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Roja, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Roja
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 2
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: No issues found
+
+  YEAR DISTRIBUTION:
+    1970s: 2 films
+  📝 Full audit saved: docs/ROJA_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 100 movies
+  Concurrency: 100
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Roja"
+  Filter: Actor: Roja
+
+  Found 2 movies to process
+
+  Processing...
+
+  [████████████████████] 100% (2/2) | Enriched: 0
+
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     2 movies
+  Enriched:      0 movies
+  Not found:     2
+  Updated in DB: 0
+  Success rate:  0%
+
+  By Source:
+    TMDB:      0
+    Wikipedia: 0
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Mahesh Babu
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Mahesh Babu
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Mahesh Babu" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Mahesh" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 31 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB actor search failed for Mahesh Babu: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13484:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchActor (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:44:22)
+    at async fetchTMDBFilmography (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:114:19)
+    at async main (/Users/sharathchandra/Projects/telugu-portal/scripts/discover-add-actor-films.ts:276:23) {
+  [cause]: Error: Client network socket disconnected before secure TLS connection was established
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+      at TLSSocket.emit (node:events:536:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+    code: 'ECONNRESET',
+    path: undefined,
+    host: 'api.themoviedb.org',
+    port: 443,
+    localAddress: null
+  }
+}
+TMDB: Actor "Mahesh Babu" not found
+Wikipedia: Fetching filmography for "Mahesh Babu"...
+Wikipedia: Found 0 films in filmography for "Mahesh Babu"
+Wikidata: Searching for "Mahesh Babu"...
+Wikidata: Actor "Mahesh Babu" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 0
+  • Already in database: 31
+  • Missing films: 0
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 0
+  • Supporting roles: 0
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/mahesh-babu-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Mahesh Babu
+  Total films found: 0
+  Already in database: 31
+  Missing films: 0
+  Added to database: 0
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 0
+    Supporting: 0
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Mahesh Babu
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1999
+  Database films: 31
+  Wikipedia films: ~1979
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 pre-debut films, 2 potential duplicates, Count mismatch: DB=31, Wiki=~1979
+
+  PRE-DEBUT FILMS (1):
+    • Vāranāsi (null) - Before 1999
+
+  POTENTIAL DUPLICATES (2):
+    • "Raja Kumarudu" (1999) ↔ "Rajakumarudu" (1999) [100%]
+    • "Athidhi" (2007) ↔ "Athidi" (2007) [86%]
+
+  YEAR DISTRIBUTION:
+    0s: 1 films
+    1990s: 2 films
+    2000s: 14 films
+    2010s: 11 films
+    2020s: 3 films
+  📝 Full audit saved: docs/MAHESH_BABU_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 100 movies
+  Concurrency: 100
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Mahesh Babu"
+  Filter: Actor: Mahesh Babu
+
+  Found 31 movies to process
+
+  Processing...
+
+  [████████████████████] 100% (31/31) | Enriched: 24
+
+
+
+
+  Applying updates to database...
+
+  Updated 24 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     31 movies
+  Enriched:      24 movies
+  Not found:     7
+  Updated in DB: 24
+  Success rate:  77%
+
+  By Source:
+    TMDB:      13
+    Wikipedia: 6
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: No Female Lead
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: No Female Lead
+Mode: EXECUTE
+
+📥 Fetching existing movies for "No Female Lead" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "No" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 158 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB actor search failed for No Female Lead: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13484:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchActor (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:44:22)
+    at async fetchTMDBFilmography (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/tmdb-filmography.ts:114:19)
+    at async main (/Users/sharathchandra/Projects/telugu-portal/scripts/discover-add-actor-films.ts:276:23) {
+  [cause]: Error: Client network socket disconnected before secure TLS connection was established
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+      at TLSSocket.emit (node:events:536:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+    code: 'ECONNRESET',
+    path: undefined,
+    host: 'api.themoviedb.org',
+    port: 443,
+    localAddress: null
+  }
+}
+TMDB: Actor "No Female Lead" not found
+Wikipedia: Fetching filmography for "No Female Lead"...
+Wikipedia: No content found for "No Female Lead"
+Wikidata: Searching for "No Female Lead"...
+Wikidata: Actor "No Female Lead" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 0
+  • Already in database: 158
+  • Missing films: 0
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 0
+  • Supporting roles: 0
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/no-female-lead-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: No Female Lead
+  Total films found: 0
+  Already in database: 158
+  Missing films: 0
+  Added to database: 0
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 0
+    Supporting: 0
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for No Female Lead, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: No Female Lead
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 0
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: No issues found
+
+  YEAR DISTRIBUTION:
+  📝 Full audit saved: docs/NO_FEMALE_LEAD_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 100 movies
+  Concurrency: 100
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "No Female Lead"
+  Filter: Actor: No Female Lead
+
+  Found 0 movies to process
+
+  ✅ No movies need processing.
+
+================================================================================
+  Processing: Sobhan Babu
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Sobhan Babu
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Sobhan Babu" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Sobhan" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 76 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1208885 for "Sobhan Babu"
+TMDB: Found 59 films for "Sobhan Babu"
+TMDB: 59 Telugu/Unknown language films
+  ✓ TMDB: 59 films
+Wikipedia: Fetching filmography for "Sobhan Babu"...
+Wikipedia: Found 0 films in filmography for "Sobhan Babu"
+Wikidata: Searching for "Sobhan Babu"...
+Wikidata: Found actor ID Q1802784
+Wikidata: Found 40 films for "Sobhan Babu"
+  ✓ Wikidata: 40 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 85
+  • Already in database: 76
+  • Missing films: 68
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 42
+  • Supporting roles: 43
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 68 missing films...
+  ✓ Added: Gharana Gangulu (1981)
+
+✅ Successfully added 1/68 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/sobhan-babu-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Sobhan Babu
+  Total films found: 85
+  Already in database: 76
+  Missing films: 68
+  Added to database: 1
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 42
+    Supporting: 43
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Sobhan Babu
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1963
+  Database films: 76
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 potential duplicates
+
+  POTENTIAL DUPLICATES (1):
+    • "Kotha Jeevithalu" (1980) ↔ "Kotha Jeevithalu" (1981) [100%]
+
+  YEAR DISTRIBUTION:
+    1960s: 5 films
+    1970s: 32 films
+    1980s: 33 films
+    1990s: 6 films
+  📝 Full audit saved: docs/SOBHAN_BABU_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 100 movies
+  Concurrency: 100
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Sobhan Babu"
+  Filter: Actor: Sobhan Babu
+
+  Found 76 movies to process
+
+  Processing...
+
+BookMyShow scraping failed for Chinnaari Chittibaau (1981): TypeError: fetch failed
+    at node:internal/deps/undici/undici:13484:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async scrapeBookMyShowCredits (/Users/sharathchandra/Projects/telugu-portal/scripts/lib/bookmyshow-scraper.ts:330:24)
+    at async Object.tryBookMyShow (/Users/sharathchandra/Projects/telugu-portal/scripts/enrich-cast-crew.ts:957:25)
+    at async enrichMovie (/Users/sharathchandra/Projects/telugu-portal/scripts/enrich-cast-crew.ts:1037:24)
+    at async <anonymous> (/Users/sharathchandra/Projects/telugu-portal/scripts/enrich-cast-crew.ts:1253:28)
+    at async Promise.all (index 27)
+    at async main (/Users/sharathchandra/Projects/telugu-portal/scripts/enrich-cast-crew.ts:1257:30) {
+  [cause]: Error: getaddrinfo ENOTFOUND in.bookmyshow.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'in.bookmyshow.com'
+  }
+}
+  [████████████████████] 100% (76/76) | Enriched: 15
+
+
+
+
+  Applying updates to database...
+
+  Updated 15 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     76 movies
+  Enriched:      15 movies
+  Not found:     61
+  Updated in DB: 15
+  Success rate:  20%
+
+  By Source:
+    TMDB:      6
+    Wikipedia: 1
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Suhasini
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Suhasini
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Suhasini" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Suhasini" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 42 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1892000 for "Suhasini"
+TMDB: Found 2 films for "Suhasini"
+TMDB: 2 Telugu/Unknown language films
+  ✓ TMDB: 2 films
+Wikipedia: Fetching filmography for "Suhasini"...
+Wikipedia: Found 0 films in filmography for "Suhasini"
+Wikidata: Searching for "Suhasini"...
+Wikidata: Found actor ID Q19898504
+Wikidata: Found 3 films for "Suhasini"
+  ✓ Wikidata: 3 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 5
+  • Already in database: 42
+  • Missing films: 5
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 1
+  • Supporting roles: 4
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 5 missing films...
+  ✓ Added: Shubha Muhurtam (1983)
+  ✓ Added: సుందరానికి తొందరెక్కువ (2006)
+
+✅ Successfully added 2/5 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/suhasini-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Suhasini
+  Total films found: 5
+  Already in database: 42
+  Missing films: 5
+  Added to database: 2
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 1
+    Supporting: 4
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Suhasini, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Suhasini
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 0
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: No issues found
+
+  YEAR DISTRIBUTION:
+  📝 Full audit saved: docs/SUHASINI_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 100 movies
+  Concurrency: 100
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Suhasini"
+  Filter: Actor: Suhasini
+
+  Found 0 movies to process
+
+  ✅ No movies need processing.
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       BATCH SUMMARY                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Batch: 7
+  Duration: 5.4 minutes
+  Actors processed: 5
+
+  Results:
+
+    ✅ Roja                           - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Mahesh Babu                    - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ No Female Lead                 - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Sobhan Babu                    - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Suhasini                       - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+
+  Success rate: 100%
+
+  💡 To process next batch (36-40):
+     npx tsx scripts/batch-discover-all-actors.ts --batch=8 --execute

@@ -1,0 +1,16 @@
+{
+  "actor": "Nani",
+  "timestamp": "2026-01-11T13:56:38.816Z",
+  "totalAnomalies": 0,
+  "byType": {
+    "flagged": 0,
+    "reportOnly": 0
+  },
+  "byCategory": {
+    "duplicates": 0,
+    "wrongAttribution": 0,
+    "missingFields": 0,
+    "conflicts": 0
+  },
+  "anomalies": []
+}

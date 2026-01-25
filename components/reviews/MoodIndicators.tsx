@@ -191,7 +191,7 @@ export function MoodIndicators({ activeMood, onMoodSelect, compact = false }: Mo
           return (
             <Link
               key={mood.id}
-              href={`/reviews?${mood.query}`}
+              href={`/movies?${mood.query}`}
               className={`group flex items-center gap-2 px-3 py-2 rounded-xl bg-gradient-to-r ${mood.bgGradient} border border-[var(--border-primary)]/30 hover:border-gray-600 transition-all hover:scale-105`}
             >
               <Icon className={`w-4 h-4 ${mood.color}`} />

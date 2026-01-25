@@ -1,9 +1,42 @@
 {
-  "started_at": "2026-01-09T21:57:31.499Z",
-  "last_phase": "tagline",
-  "completed_phases": [],
-  "failed_phases": [],
-  "phase_stats": {},
+  "started_at": "2026-01-12T15:30:10.290Z",
+  "last_phase": "telugu-synopsis",
+  "completed_phases": [
+    "genres-direct",
+    "tagline"
+  ],
+  "failed_phases": [
+    "auto-tags"
+  ],
+  "phase_stats": {
+    "genres-direct": {
+      "processed": 0,
+      "enriched": 0,
+      "failed": 0,
+      "anomalies": 0,
+      "duration_ms": 6722,
+      "started_at": "2026-01-12T15:30:10.292Z",
+      "ended_at": "2026-01-12T15:30:17.014Z"
+    },
+    "auto-tags": {
+      "processed": 0,
+      "enriched": 0,
+      "failed": 1,
+      "anomalies": 0,
+      "duration_ms": 4951,
+      "started_at": "2026-01-12T15:30:17.015Z",
+      "ended_at": "2026-01-12T15:30:21.967Z"
+    },
+    "tagline": {
+      "processed": 0,
+      "enriched": 0,
+      "failed": 0,
+      "anomalies": 0,
+      "duration_ms": 264131,
+      "started_at": "2026-01-12T15:30:30.240Z",
+      "ended_at": "2026-01-12T15:34:54.372Z"
+    }
+  },
   "resumable": true,
-  "session_id": "enrich-1767995851501-n9dfoy"
+  "session_id": "enrich-1768231810292-wxlkte"
 }

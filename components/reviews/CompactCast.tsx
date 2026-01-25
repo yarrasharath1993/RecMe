@@ -1,10 +1,12 @@
 'use client';
 
 import { 
-  User, Clapperboard, Music, Camera, Film, ChevronRight, Star,
+  User, Clapperboard, Music, Camera, Film, ChevronRight,
   Megaphone, Pencil, Palette
 } from 'lucide-react';
 import { useState } from 'react';
+import Link from 'next/link';
+import { slugify } from '@/lib/utils/slugify';
 
 interface CastMember {
   role: string;
@@ -23,9 +25,6 @@ interface CrewData {
 
 interface CompactCastProps {
   cast: CastMember[];
-  performances?: {
-    lead_actors?: Array<{ name: string; score: number; career_significance?: string }>;
-  };
   crew?: CrewData;
   compact?: boolean;
 }
@@ -103,14 +102,8 @@ const getStyle = (icon: string) => {
   return roleStyles[icon] || roleStyles.actor;
 };
 
-// Score color based on rating
-const getScoreColor = (score: number) => {
-  if (score >= 8) return 'bg-emerald-500/20 text-emerald-400 border-emerald-600/30';
-  if (score >= 6) return 'bg-yellow-500/20 text-yellow-400 border-yellow-600/30';
-  return 'bg-orange-500/20 text-orange-400 border-orange-600/30';
-};
 
-export function CompactCast({ cast, performances, crew, compact = false }: CompactCastProps) {
+export function CompactCast({ cast, crew, compact = false }: CompactCastProps) {
   const [showAll, setShowAll] = useState(false);
   
   // Filter out empty cast members
@@ -142,6 +135,7 @@ export function CompactCast({ cast, performances, crew, compact = false }: Compa
         {visibleCast.map((member, i) => {
           const style = getStyle(member.icon);
           const Icon = style.Icon;
+          const profileUrl = `/movies?profile=${slugify(member.name)}`;
           
           return (
             <div 
@@ -152,9 +146,12 @@ export function CompactCast({ cast, performances, crew, compact = false }: Compa
                 <Icon className="w-3 h-3" />
               </div>
               <div className="flex flex-col min-w-0">
-                <span className="text-[var(--text-primary)] text-xs font-medium truncate max-w-[80px]">
+                <Link 
+                  href={profileUrl}
+                  className="text-[var(--text-primary)] text-xs font-medium truncate max-w-[80px] hover:text-orange-400 transition-colors"
+                >
                   {member.name}
-                </span>
+                </Link>
                 <span className="text-[var(--text-tertiary)] text-[9px] uppercase tracking-wider">
                   {member.role}
                 </span>
@@ -171,32 +168,27 @@ export function CompactCast({ cast, performances, crew, compact = false }: Compa
       {visibleCast.map((member, i) => {
         const style = getStyle(member.icon);
         const Icon = style.Icon;
-        const performance = performances?.lead_actors?.find(a => 
-          a.name.toLowerCase().includes(member.name.toLowerCase().split(' ')[0])
-        );
+        const profileUrl = `/movies?profile=${slugify(member.name)}`;
         
         return (
           <div 
             key={i} 
-            className={`group flex items-center gap-2.5 px-3 py-2 rounded-lg bg-gradient-to-r ${style.bg} border ${style.borderColor} hover:border-gray-600 transition-all cursor-default`}
+            className={`group flex items-center gap-2.5 px-3 py-2 rounded-lg bg-gradient-to-r ${style.bg} border ${style.borderColor} hover:border-gray-600 transition-all`}
           >
             <div className={`p-1.5 rounded-md bg-[var(--bg-primary)]/50 ${style.iconColor}`}>
               <Icon className="w-3.5 h-3.5" />
             </div>
             <div className="flex flex-col min-w-0">
-              <span className="text-[var(--text-primary)] text-sm font-medium truncate max-w-[120px]">
+              <Link 
+                href={profileUrl}
+                className="text-[var(--text-primary)] text-sm font-medium truncate max-w-[120px] hover:text-orange-400 transition-colors cursor-pointer"
+              >
                 {member.name}
-              </span>
+              </Link>
               <span className="text-[var(--text-tertiary)] text-[10px] uppercase tracking-wider">
                 {member.role}
               </span>
             </div>
-            {performance && performance.score > 0 && (
-              <div className={`flex items-center gap-1 px-1.5 py-0.5 rounded border text-[10px] font-bold ${getScoreColor(performance.score)}`}>
-                <Star className="w-2.5 h-2.5 fill-current" />
-                {performance.score}
-              </div>
-            )}
           </div>
         );
       })}

@@ -10,6 +10,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Film, Calendar, Clapperboard, TrendingUp } from 'lucide-react';
 import type { FilmographyItem } from '@/lib/celebrity/types';
+import { MoviePlaceholderStatic } from '@/components/movies/MoviePlaceholder';
 
 interface FilmographyGridProps {
   filmography: FilmographyItem[];
@@ -138,12 +139,33 @@ function GroupTab({
   );
 }
 
-function MovieCard({ movie }: { movie: FilmographyItem }) {
+function MovieCard({ movie }: { movie: FilmographyItem & { role?: string; roles?: string[]; language?: string } }) {
   const [imageError, setImageError] = useState(false);
+
+  // Language display helper
+  const getLanguageLabel = (lang?: string) => {
+    // Return full language name
+    return lang || '';
+  };
+
+  // Role display helper
+  const getRoleLabel = (role?: string) => {
+    const labels: Record<string, string> = {
+      'actor': 'Acted',
+      'actress': 'Acted',
+      'director': 'Directed',
+      'producer': 'Produced',
+      'music_director': 'Music',
+      'writer': 'Written',
+      'supporting': 'Supporting',
+      'cameo': 'Cameo',
+    };
+    return role ? labels[role] : '';
+  };
 
   return (
     <Link
-      href={`/reviews/${movie.slug}`}
+      href={`/movies/${movie.slug}`}
       className="group relative"
     >
       <div 
@@ -160,13 +182,12 @@ function MovieCard({ movie }: { movie: FilmographyItem }) {
             onError={() => setImageError(true)}
           />
         ) : (
-          <div 
-            className="w-full h-full flex items-center justify-center p-2 text-center bg-[var(--bg-secondary)]"
-          >
-            <span className="text-xs text-[var(--text-secondary)] line-clamp-3">
-              {movie.title_en}
-            </span>
-          </div>
+          <MoviePlaceholderStatic
+            title={movie.title_en || movie.movie_title || 'Untitled'}
+            titleTe={movie.title_te}
+            year={movie.release_year || 0}
+            size="xs"
+          />
         )}
 
         {/* Verdict badge */}
@@ -183,6 +204,30 @@ function MovieCard({ movie }: { movie: FilmographyItem }) {
         {movie.is_blockbuster && (
           <div className="absolute top-1 left-1 text-sm">🔥</div>
         )}
+
+        {/* Hover overlay with language and role */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+          <div className="absolute bottom-0 left-0 right-0 p-2 space-y-1">
+            <div className="flex items-center gap-1 flex-wrap text-[10px]">
+              {movie.language && (
+                <span className="px-1.5 py-0.5 bg-blue-500/80 rounded text-white font-medium">
+                  {getLanguageLabel(movie.language)}
+                </span>
+              )}
+              {movie.roles && movie.roles.length > 0 ? (
+                movie.roles.map(role => (
+                  <span key={role} className="px-1.5 py-0.5 bg-orange-500/80 rounded text-white font-medium">
+                    {getRoleLabel(role)}
+                  </span>
+                ))
+              ) : movie.role ? (
+                <span className="px-1.5 py-0.5 bg-orange-500/80 rounded text-white font-medium">
+                  {getRoleLabel(movie.role)}
+                </span>
+              ) : null}
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Info */}

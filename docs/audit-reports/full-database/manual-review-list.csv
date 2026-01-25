@@ -1,0 +1,146 @@
+Category,Priority,MovieID,Title,Year,Issue,Details,ActionNeeded
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, unknown_variation","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, unknown_variation","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, unknown_variation","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"93.3%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"88.9%% title similarity, typo_or_spelling","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"92.9%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"92.0%% title similarity, typo_or_spelling","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"85.7%% title similarity, typo_or_spelling","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"87.5%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, unknown_variation","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Fuzzy Duplicates,high,,undefined vs undefined,,Potential duplicate,"100.0%% title similarity, transliteration_variant","Review and merge if same movie, or mark as distinct"
+Data Quality,critical,f04c0dcd-bbf6-4fd7-ba75-32b5b9f5d1a3,AA22xA6,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,ede2f145-a46a-439a-8c6f-1c755c69f76f,Mysaa,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,bc217391-6aa5-411d-abc4-76e86c134894,Janakiram,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,f08bd1ee-a329-4ea7-a792-d28f876a4d4c,Anaganaga Oka Rowdy,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,2526bbf3-a8c0-4df8-9c26-67e54e88ee82,Sahaa,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,072c7874-a382-4808-8eb7-c8db98c77de2,Edhureetha,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9b7b604c-6907-4c79-bd7f-dd22d1a3f974,Devara 2,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,4ecb9fda-2af1-4d4b-a558-a86735425de6,Reppa,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,bb4d0170-7d8a-4e31-9294-bef20df5563c,As Time Echoes,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,a34582fd-a861-45ab-8b5f-4190d6296bba,Umapathi,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,50d562f6-70b0-4a8f-8795-564a24b2da9a,Oh..! Sukumari,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,62ff2985-5995-4c9d-84ef-0393342a97db,Pushpa 3 - The Rampage,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,2ac29b5b-1f24-42ed-af0c-399e037111e2,Takshakudu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,b4a1cdb1-e53a-40e9-9c0f-00de7e170a96,Comrade Kalyan,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,436f66ec-1b0c-455c-a0a3-20dd786fb3cd,Illicit Relationship,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,0dc041e2-92cc-4311-8c8e-170204298d94,Euphoria,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,90b5d473-918b-4b28-890d-60ac4ed76174,Band Melam,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,49842167-e1c4-4ad1-a9c1-ee7a7646b3ea,Nakshatra Poratam,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9349ed3e-531e-4ea2-9b1d-e374a03958cd,Asuragana Rudra,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,f2fada23-de4c-4eee-9897-215d64ca016e,Garividi Lakshmi,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9bec9780-8787-4fa4-9e6f-9fb2c81a9576,DQ 41,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,ae3cab6e-41b0-4e78-a727-23c2ad3370ca,HaiLesso,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,3eb55434-d09a-4eac-a09b-3055c4288ae3,Arrtham,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9396deb5-cca0-421d-ad51-b167b7b43f42,The Conversation,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9f9c3808-a7cc-4f7d-ab7c-39f5848907de,ENE Repeat,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,6e2f5c00-1ac9-4f3f-ae56-0e979bb76eca,Kirathaka,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,5798b7f3-85a4-460a-bb56-6aa857f4e46e,Biker,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,3ff67cd3-d93a-4537-a19a-f59251a1601e,Vrushakarma,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,72f9afc4-80ad-492d-a4ab-ccfe556ac936,Kalki 2898-AD: Part 2,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,43e130d6-060e-4219-b50c-dc85bd1b810f,Hey Bhagawan!,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,e0973669-9b4b-4044-8c09-6beb72785090,Abhiram,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,8e786a19-ecf6-44ef-974e-e884b386f9ad,Haindava,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,3e471652-0904-4a9a-9886-f9308acfef8e,Amaran in the City: Chapter 1,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,d91f34c8-3676-4c36-9e45-b027b9b665d1,Maate Mantramu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,c3b46098-a11b-483a-8bb8-c51df5765eb6,Peddarikam,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,83ad612c-edba-4341-8fe4-edd696416774,Maa Inti Bangaram,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,ea8c7a5b-c303-4233-8c92-2ff664b7303f,Anumana Pakshi,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,4edf9132-9816-4c57-a569-1c152f688f2d,Legacy,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,a98974a0-cbb4-44c0-b9e8-7d0e8647890e,Vāranāsi,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,478902c9-5e7d-4d66-8b1b-1a660afc616f,Sambarala Yetti Gattu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,d5389cd2-eec6-415e-bf8b-e45b1bf082ff,Bad Boy Karthik,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,710aeabe-bb55-44a4-a8b3-279f1defca5b,What The Fish,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,9c2982d1-29e1-43f1-b6dc-00d7e9b7c889,Nagabandham,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,473fbd46-477a-477b-80fc-2ecfa5e239cf,They Call Him OG 2,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,5f4d9c51-1e09-4009-9619-aa368c3620e1,Paramanandham Shishyulu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,dcade0cb-1150-4282-833c-6a29bfd04d5a,Naa Katha,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,a2d270c7-61e6-4a39-ae6a-0e30f31321d2,Natudu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,27c2e806-ab67-4458-a9be-a1efab1c8082,Mirai Jaithraya,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,013511a1-e008-49d6-96a8-585884586002,Lenin,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,234da35c-e92e-44a6-99a2-916b40c02752,Magic,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,74bf13e0-bbe3-48de-8eae-3d9b9ba00c5c,Inner City Blues,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,896c1568-8d27-4a3f-a1c4-687724bd0ed4,Patta Pagalu,,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,high,1ccb2d27-a3bc-4c80-857d-8184e720042a,Akhanda 2,2025,missing_fields,Movie information is incomplete,Research and fix missing fields or delete if invalid
+Data Quality,critical,26e1907c-3d92-483a-adb1-6b629b32ad03,Making Squid Game: The Challenge,2023,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,043bb7f8-1808-417b-9655-4d1fd3b01b4d,'Salaar: Part 2 – Shouryanga Parvam,2023,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,critical,15a92e36-c03d-4b2f-bdac-949c833516b5,Drama Juniors 4 Telugu,2023,missing_fields,Movie cannot be properly displayed or searched,Research and fix missing fields or delete if invalid
+Data Quality,high,c35a3d9b-0401-4ca1-b2da-c854bef0cf07,F3,2022,missing_fields,Movie information is incomplete,Research and fix missing fields or delete if invalid
+Data Quality,critical,6673c226-ee9f-452a-b03b-3211acecef37,Hunting Season,2025,tv_show,Pattern detected: season,Research and fix missing fields or delete if invalid
+Data Quality,high,f04c0dcd-bbf6-4fd7-ba75-32b5b9f5d1a3,AA22xA6,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,ede2f145-a46a-439a-8c6f-1c755c69f76f,Mysaa,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,bc217391-6aa5-411d-abc4-76e86c134894,Janakiram,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,f08bd1ee-a329-4ea7-a792-d28f876a4d4c,Anaganaga Oka Rowdy,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,2526bbf3-a8c0-4df8-9c26-67e54e88ee82,Sahaa,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,072c7874-a382-4808-8eb7-c8db98c77de2,Edhureetha,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,9b7b604c-6907-4c79-bd7f-dd22d1a3f974,Devara 2,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,4ecb9fda-2af1-4d4b-a558-a86735425de6,Reppa,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,bb4d0170-7d8a-4e31-9294-bef20df5563c,As Time Echoes,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,a34582fd-a861-45ab-8b5f-4190d6296bba,Umapathi,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,50d562f6-70b0-4a8f-8795-564a24b2da9a,Oh..! Sukumari,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,62ff2985-5995-4c9d-84ef-0393342a97db,Pushpa 3 - The Rampage,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,2ac29b5b-1f24-42ed-af0c-399e037111e2,Takshakudu,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,b4a1cdb1-e53a-40e9-9c0f-00de7e170a96,Comrade Kalyan,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,436f66ec-1b0c-455c-a0a3-20dd786fb3cd,Illicit Relationship,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,0dc041e2-92cc-4311-8c8e-170204298d94,Euphoria,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,90b5d473-918b-4b28-890d-60ac4ed76174,Band Melam,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,49842167-e1c4-4ad1-a9c1-ee7a7646b3ea,Nakshatra Poratam,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,9349ed3e-531e-4ea2-9b1d-e374a03958cd,Asuragana Rudra,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,f2fada23-de4c-4eee-9897-215d64ca016e,Garividi Lakshmi,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,9bec9780-8787-4fa4-9e6f-9fb2c81a9576,DQ 41,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,ae3cab6e-41b0-4e78-a727-23c2ad3370ca,HaiLesso,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,3eb55434-d09a-4eac-a09b-3055c4288ae3,Arrtham,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,9396deb5-cca0-421d-ad51-b167b7b43f42,The Conversation,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,9f9c3808-a7cc-4f7d-ab7c-39f5848907de,ENE Repeat,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,6e2f5c00-1ac9-4f3f-ae56-0e979bb76eca,Kirathaka,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,5798b7f3-85a4-460a-bb56-6aa857f4e46e,Biker,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,3ff67cd3-d93a-4537-a19a-f59251a1601e,Vrushakarma,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,72f9afc4-80ad-492d-a4ab-ccfe556ac936,Kalki 2898-AD: Part 2,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,43e130d6-060e-4219-b50c-dc85bd1b810f,Hey Bhagawan!,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,e0973669-9b4b-4044-8c09-6beb72785090,Abhiram,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,8e786a19-ecf6-44ef-974e-e884b386f9ad,Haindava,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,3e471652-0904-4a9a-9886-f9308acfef8e,Amaran in the City: Chapter 1,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,d91f34c8-3676-4c36-9e45-b027b9b665d1,Maate Mantramu,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,c3b46098-a11b-483a-8bb8-c51df5765eb6,Peddarikam,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,83ad612c-edba-4341-8fe4-edd696416774,Maa Inti Bangaram,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,ea8c7a5b-c303-4233-8c92-2ff664b7303f,Anumana Pakshi,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,4edf9132-9816-4c57-a569-1c152f688f2d,Legacy,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,a98974a0-cbb4-44c0-b9e8-7d0e8647890e,Vāranāsi,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,478902c9-5e7d-4d66-8b1b-1a660afc616f,Sambarala Yetti Gattu,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,d5389cd2-eec6-415e-bf8b-e45b1bf082ff,Bad Boy Karthik,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Data Quality,high,710aeabe-bb55-44a4-a8b3-279f1defca5b,What The Fish,,inconsistency,Telugu movie without Telugu title (title_te),Research and fix missing fields or delete if invalid
+Attribution Issues,high,35514c0c-110a-40dc-b06f-21a5972f7133,105 Minuttess,2024,Same person listed as both hero and heroine,Same person listed as both hero and heroine,Verify cast/crew attribution from reliable sources
+Attribution Issues,high,1f8fa34e-41ed-4a79-8581-421273cd1d21,The Trial,2023,Same person listed as both hero and heroine,Same person listed as both hero and heroine,Verify cast/crew attribution from reliable sources
+Attribution Issues,high,dd1b498e-7532-4802-a339-5cb803c1a6c9,Babli Bouncer,2022,Same person listed as both hero and heroine,Same person listed as both hero and heroine,Verify cast/crew attribution from reliable sources

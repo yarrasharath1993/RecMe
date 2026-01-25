@@ -1,0 +1,39 @@
+Slug,Title,Year,Category,Reason,Missing Fields,Action,TMDB Found
+"1st-iifa-utsavam-2015","1st IIFA Utsavam",2015,manual_research,"Not found in TMDB - needs manual research","director, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"balu-abcdefg-2005","Balu ABCDEFG",2005,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"prince-of-peace-2012","Prince of Peace",2012,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"bhale-mogudu-bhale-pellam-2011","Bhale Mogudu Bhale Pellam",2011,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"andaru-dongale-dorikithe-2004","Andaru Dongale Dorikithe",2004,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"apparao-driving-school-2004","Apparao Driving School",2004,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"iddaru-attala-muddula-alludu-2006","Iddaru Attala Muddula Alludu",2006,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"dagudumoota-dandakore-2015","Dagudumoota Dandakore",2015,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"palanati-brahmanaidu-2003","Palanati Brahmanaidu",2003,manual_research,"Not found in TMDB - needs manual research","director, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"vamsoddarakudu-2000","Vamsoddarakudu",2000,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"padma-vibhushan-2011","Padma Vibhushan",2011,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"best-supporting-actress-tamil-2002","Best Supporting Actress - Tamil",2002,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"national-film-awards-2003","National Film Awards",2003,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"best-actress-tamil-2001","Best Actress - Tamil",2001,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"best-actress-kannada-2004","Best Actress – Kannada",2004,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"premaku-swagatham-2002","Premaku Swagatham",2002,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"jayam-manade-raa-2000","Jayam Manade Raa",2000,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"sangolli-rayanna-2012","Sangolli Rayanna",2012,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"indian-idol-2021","Indian Idol",2021,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"sri-renukadevi-2003","Sri Renukadevi",2003,manual_research,"Not found in TMDB - needs manual research","director, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"overall-contribution-to-telugu-film-industry-2007","Overall Contribution to Telugu Film Industry",2007,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"sesh-sangat-2009","Sesh Sangat",2009,manual_research,"Not found in TMDB - needs manual research","genres, synopsis, poster","MANUAL RESEARCH needed",No
+"drama-juniors-4-telugu-2023","Drama Juniors 4 Telugu",2023,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, poster","DELETE - not a movie",No
+"perfect-pati-2018","Perfect Pati",2018,manual_research,"Not found in TMDB - needs manual research","director, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"ee-snehatheerathu-2004","Ee Snehatheerathu",2004,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"the-kapil-sharma-show-season-2-2021","The Kapil Sharma Show season 2",2021,delete_non_movie,"Award show/TV show/Non-movie entry","director, genres, synopsis, poster","DELETE - not a movie",No
+"kizhakku-kadalkarai-salai-2006","Kizhakku Kadalkarai Salai",2006,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"sakutumba-saparivaara-sametham-2000","Sakutumba Saparivaara Sametham",2000,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"o-baby-yentha-sakkagunnave-2019","O Baby! Yentha Sakkagunnave",2019,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"kana-kandaen-2005","Kana Kandaen",2005,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"meri-warrant-2010","Meri Warrant",2010,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"mayajalam-2006","Mayajalam",2006,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"vallamai-tharayo-2008","Vallamai Tharayo",2008,enrich_tmdb,"Found in TMDB - can auto-enrich","synopsis, poster","AUTO-ENRICH from TMDB",Yes
+"roja-kootam-2002","Roja Kootam",2002,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"nambiar-2014","Nambiar",2014,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis","MANUAL RESEARCH needed",No
+"-2016","మెంటల్",2016,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"joot-2004","Joot",2004,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No
+"ethiri-en-3-2012","Ethiri En 3",2012,manual_research,"Not found in TMDB - needs manual research","director, cast, genres, synopsis, poster","MANUAL RESEARCH needed",No

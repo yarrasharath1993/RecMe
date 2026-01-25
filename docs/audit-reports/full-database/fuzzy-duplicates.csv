@@ -1,0 +1,43 @@
+ID1,Title1,Year1,ID2,Title2,Year2,TitleSimilarity,YearDiff,Confidence,LikelyReason,ManualReview
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,100.0%,0,85.0%,transliteration_variant,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,100.0%,0,85.0%,transliteration_variant,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,100.0%,0,85.0%,transliteration_variant,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,100.0%,0,85.0%,unknown_variation,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,100.0%,0,85.0%,transliteration_variant,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,unknown_variation,no
+81abff45-e199-4bbe-927c-15dd9f42b37e,Parasakthi,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,100.0%,0,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,100.0%,0,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,100.0%,0,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,100.0%,0,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,transliteration_variant,no
+1250a707-9ca0-4b53-91e8-dc7dba4644f3,Fauji,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,100.0%,0,85.0%,transliteration_variant,no
+5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,100.0%,0,85.0%,transliteration_variant,no
+5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,100.0%,0,85.0%,transliteration_variant,no
+5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,transliteration_variant,no
+5840de84-5312-4692-b58d-0968f722b4ef,Dacoit,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,100.0%,0,85.0%,transliteration_variant,no
+06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,100.0%,0,85.0%,transliteration_variant,no
+06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,transliteration_variant,no
+06f3f75f-deac-4135-8aaa-69079d66d428,Toxic: A Fairy Tale for Grown-Ups,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,100.0%,0,85.0%,transliteration_variant,no
+19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,unknown_variation,no
+19b0b6c1-8d9a-4b52-bd5b-1311969b76d0,Peddi,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,100.0%,0,85.0%,transliteration_variant,no
+3500c2bf-3823-4b04-8aa3-0b9483d8d272,The Raja Saab,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+16903466-e6f6-46ff-9d24-f7a2f136871c,Dragon,2026,42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,100.0%,1,85.0%,transliteration_variant,no
+4ac2b5ff-e664-4f48-bcad-a0923b4ad192,Chaurya Paatham,2025,a7aa9ae5-0409-421d-94d3-0ac211987208,Chaurya Paatam,2025,93.3%,0,90.0%,transliteration_variant,no
+42fb455f-0652-4b60-9f35-5cbc0fdc2f74,Guard: Revenge for Love,2025,24166679-2203-4ffb-97f7-48e25b85db71,Aranmanai 4,2024,100.0%,1,85.0%,transliteration_variant,no
+d852880a-c354-4066-913a-2c56b4773c29,The Gorge,2025,b483f1d3-f4c0-45ea-9fec-df2806ee79fb,The Forge,2024,88.9%,1,80.0%,typo_or_spelling,yes
+6db57a76-9fb2-48f8-af66-7b2aba84cc5a,Leela Vinodham,2024,4f01db6e-a4b8-41f9-8ffc-0c8a1207eb34,Leela Vinodam,2024,92.9%,0,90.0%,transliteration_variant,no
+6b72d6ba-32a7-40dc-9368-f118bcaa7864,Brahmmavaram P.S. Paridhilo,2024,be363d50-2d30-4761-a90b-154aa028e9c8,Brahmavaram PS Paridilo,2024,92.0%,0,90.0%,typo_or_spelling,no
+24166679-2203-4ffb-97f7-48e25b85db71,Aranmanai 4,2024,f120b7da-6bd9-40da-90d4-f65d523e7b8a,Karungaapiyam,2023,100.0%,1,85.0%,transliteration_variant,no
+e74ffe4e-64e6-4ded-b620-e1137f21b005,Kranthi,2023,027732ac-4660-47b7-a956-a80ea7d728ff,Kranti,2023,85.7%,0,80.0%,typo_or_spelling,yes
+10e3ce19-4d77-4cbc-8146-1a1c6c7ddefc,Rangamarthanda,2023,a25ca87c-833f-4f51-9468-240e827e3fd7,Ranga Maarthaanda,2023,87.5%,0,80.0%,transliteration_variant,yes
+f120b7da-6bd9-40da-90d4-f65d523e7b8a,Karungaapiyam,2023,b12c42ea-27cf-4795-bcad-1417512c9a2c,Ammu,2022,100.0%,1,85.0%,transliteration_variant,no
+f120b7da-6bd9-40da-90d4-f65d523e7b8a,Karungaapiyam,2023,4576fe1c-6263-40a7-a093-eb76eb120865,Maha,2022,100.0%,1,85.0%,transliteration_variant,no
+f120b7da-6bd9-40da-90d4-f65d523e7b8a,Karungaapiyam,2023,dd1b498e-7532-4802-a339-5cb803c1a6c9,Babli Bouncer,2022,100.0%,1,85.0%,transliteration_variant,no
+b12c42ea-27cf-4795-bcad-1417512c9a2c,Ammu,2022,4576fe1c-6263-40a7-a093-eb76eb120865,Maha,2022,100.0%,0,85.0%,unknown_variation,no
+b12c42ea-27cf-4795-bcad-1417512c9a2c,Ammu,2022,dd1b498e-7532-4802-a339-5cb803c1a6c9,Babli Bouncer,2022,100.0%,0,85.0%,transliteration_variant,no
+4576fe1c-6263-40a7-a093-eb76eb120865,Maha,2022,dd1b498e-7532-4802-a339-5cb803c1a6c9,Babli Bouncer,2022,100.0%,0,85.0%,transliteration_variant,no

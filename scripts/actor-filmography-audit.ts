@@ -30,10 +30,10 @@ const supabase = createClient(
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 
 // ============================================================
-// TYPES
+// TYPES (Exported for programmatic use)
 // ============================================================
 
-interface Movie {
+export interface AuditMovie {
   id: string;
   title_en: string;
   release_year: number;
@@ -42,29 +42,34 @@ interface Movie {
   director: string | null;
   our_rating: number | null;
   cast_members: any[];
+  tmdb_id?: number;
+  slug?: string;
 }
 
-interface MoviePair {
+export interface MoviePair {
   movie1: { id: string; title: string; year: number };
   movie2: { id: string; title: string; year: number };
   similarity: number;
 }
 
-interface FilmographyAudit {
+export interface FilmographyAudit {
   actorName: string;
   debutYear: number;
   wikipediaFilmCount: number | null;
   databaseFilmCount: number;
-  preDebutFilms: Movie[];
-  likelySupportingRoles: Movie[];
+  preDebutFilms: AuditMovie[];
+  likelySupportingRoles: AuditMovie[];
   duplicates: MoviePair[];
-  invalidEntries: Movie[];
+  invalidEntries: AuditMovie[];
   yearDistribution: Record<number, number>;
   summary: string;
 }
 
-// Known actor debut years
-const KNOWN_DEBUT_YEARS: Record<string, number> = {
+// Alias for backwards compatibility
+type Movie = AuditMovie;
+
+// Known actor debut years (Exported for programmatic use)
+export const KNOWN_DEBUT_YEARS: Record<string, number> = {
   'chiranjeevi': 1978,
   'krishna': 1965,
   'ntr': 1949,
@@ -74,7 +79,9 @@ const KNOWN_DEBUT_YEARS: Record<string, number> = {
   'sobhan babu': 1963,
   'mohan babu': 1977,
   'venkatesh': 1986,
+  'daggubati venkatesh': 1986,
   'nagarjuna': 1986,
+  'akkineni nagarjuna': 1986,
   'balakrishna': 1974,
   'nandamuri balakrishna': 1974,
   'mahesh babu': 1999,
@@ -83,11 +90,31 @@ const KNOWN_DEBUT_YEARS: Record<string, number> = {
   'allu arjun': 2003,
   'prabhas': 2002,
   'jr ntr': 2001,
+  'ntr jr': 2001,
+  // New generation actors
+  'nani': 2008,
+  'natural star nani': 2008,
+  'allari naresh': 2001,
+  'ravi teja': 1999,
+  'vijay deverakonda': 2011,
+  'ram pothineni': 2006,
+  'nithiin': 2002,
+  'nithin': 2002,
+  'sharwanand': 2003,
+  'rana daggubati': 2010,
+  'varun tej': 2014,
+  'naga chaitanya': 2009,
+  'akhil akkineni': 2015,
+  'sai dharam tej': 2014,
+  'bellamkonda sreenivas': 2014,
+  'sundeep kishan': 2009,
+  'naveen polishetty': 2019,
+  'vishwak sen': 2018,
 };
 
-// Patterns for detecting invalid entries
+// Patterns for detecting invalid entries (production houses, HTML, etc.)
+// NOTE: Removed two-word name pattern - too many false positives with valid Telugu titles
 const INVALID_PATTERNS = [
-  /^[A-Z][a-z]+\s+[A-Z][a-z]+$/,  // Simple "First Last" pattern (likely person name)
   /productions?$/i,
   /films?$/i,
   /entertainments?$/i,
@@ -98,16 +125,16 @@ const INVALID_PATTERNS = [
 ];
 
 // ============================================================
-// DUPLICATE DETECTION
+// DUPLICATE DETECTION (Exported for programmatic use)
 // ============================================================
 
-function normalizeTitle(title: string): string {
+export function normalizeTitle(title: string): string {
   return title.toLowerCase()
     .replace(/[^a-z0-9]/g, '')
     .replace(/\s+/g, '');
 }
 
-function calculateSimilarity(title1: string, title2: string): number {
+export function calculateSimilarity(title1: string, title2: string): number {
   const norm1 = normalizeTitle(title1);
   const norm2 = normalizeTitle(title2);
   
@@ -145,7 +172,7 @@ function calculateSimilarity(title1: string, title2: string): number {
   return 1 - distance / maxLen;
 }
 
-function findDuplicates(movies: Movie[]): MoviePair[] {
+export function findDuplicates(movies: AuditMovie[]): MoviePair[] {
   const duplicates: MoviePair[] = [];
   const checked = new Set<string>();
 
@@ -174,27 +201,29 @@ function findDuplicates(movies: Movie[]): MoviePair[] {
 }
 
 // ============================================================
-// INVALID ENTRY DETECTION
+// INVALID ENTRY DETECTION (Exported for programmatic use)
 // ============================================================
 
-function isInvalidEntry(movie: Movie): boolean {
+export function isInvalidEntry(movie: AuditMovie): boolean {
   const title = movie.title_en;
   
-  // Check against known patterns
+  // Check against known patterns (production houses, HTML, templates)
   for (const pattern of INVALID_PATTERNS) {
     if (pattern.test(title)) {
       return true;
     }
   }
 
-  // Check if title looks like a person name (two capitalized words only)
-  const words = title.split(' ').filter(w => w.length > 0);
-  if (words.length === 2 && 
-      words.every(w => /^[A-Z][a-z]+$/.test(w)) &&
-      !title.includes('-')) {
-    // Likely a person name, but check if it's a known movie title pattern
-    const knownPatterns = ['rowdy', 'raja', 'rani', 'raju', 'babu', 'dada'];
-    if (!knownPatterns.some(p => title.toLowerCase().includes(p))) {
+  // Don't flag two-word titles as person names - too many false positives
+  // Telugu film titles like "Ashta Chamma", "Ninnu Kori", "Hi Nanna" are valid
+  // Only flag if it exactly matches a known actor/person name pattern
+  const knownPersonPatterns = [
+    /^(Mr|Mrs|Ms|Dr)\.\s/i,  // Titles like "Mr. X"
+    /^[A-Z]\.\s?[A-Z][a-z]+$/,  // "K. Raghavendra" style names
+  ];
+  
+  for (const pattern of knownPersonPatterns) {
+    if (pattern.test(title)) {
       return true;
     }
   }
@@ -430,10 +459,10 @@ export async function auditActorFilmography(
 }
 
 // ============================================================
-// REPORT GENERATION
+// REPORT GENERATION (Exported for programmatic use)
 // ============================================================
 
-function generateCSVReport(audit: FilmographyAudit): string {
+export function generateCSVReport(audit: FilmographyAudit): string {
   const lines: string[] = [
     'Category,Title,Year,Current Hero,Director,Issue'
   ];

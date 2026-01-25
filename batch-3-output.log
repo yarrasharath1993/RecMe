@@ -1,0 +1,1039 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║       BATCH ACTOR DISCOVERY & ENRICHMENT                             ║
+║       Process all actors with full pipeline                          ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Batch: 3 (actors 11-15 of 30)
+  Actors in this batch: 5
+
+  1. Krishnam Raju
+  2. Akkineni Nageswara Rao
+  3. Soundarya
+  4. Jaya Prada
+  5. Srikanth
+
+================================================================================
+  Processing: Krishnam Raju
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Krishnam Raju
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Krishnam Raju" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Krishnam" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 163 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 1335737 for "Krishnam Raju"
+TMDB: Found 42 films for "Krishnam Raju"
+TMDB: 42 Telugu/Unknown language films
+  ✓ TMDB: 42 films
+Wikipedia: Fetching filmography for "Krishnam Raju"...
+Wikipedia: Found 3 films in filmography for "Krishnam Raju"
+  ✓ Wikipedia: 3 films
+Wikidata: Searching for "Krishnam Raju"...
+Wikidata: Found actor ID Q6437529
+Wikidata: Found 42 films for "Krishnam Raju"
+  ✓ Wikidata: 42 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 69
+  • Already in database: 163
+  • Missing films: 51
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 31
+  • Supporting roles: 37
+  • Cameo appearances: 1
+  • Voice roles: 0
+
+✅ Auto-adding 51 missing films...
+  ✓ Added: Naidugaari Kutumbam (1996)
+  ✓ Added: Rajamahal (1972)
+  ✓ Added: Maa Nanna Ki Pelli (1997)
+  ✓ Added: Samardhudu (2009)
+  ✓ Added: Time Pass (2001)
+  ✓ Added: Vamsodharakudu (2000)
+  ✓ Added: Anthima Theerpu (1988)
+  ✓ Added: Bala Mitrula Katha (1972)
+  ✓ Added: Amaradeepam (1977)
+  ✓ Added: Jeevana Theeralu (1977)
+  ✓ Added: Adavaallu Meeku Joharulu (1981)
+  ✓ Added: Madhura Swapnam (1982)
+  ✓ Added: Trishulam (1982)
+  ✓ Added: Talli Kodukula Anubandham (1982)
+  ✓ Added: Antima Theerpu (1988)
+  ✓ Added: Maa Nannaki Pelli (1997)
+  ✓ Added: Vamsoddarakudu (2000)
+
+✅ Successfully added 17/51 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/krishnam-raju-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Krishnam Raju
+  Total films found: 69
+  Already in database: 163
+  Missing films: 51
+  Added to database: 17
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 31
+    Supporting: 37
+    Cameo: 1
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Krishnam Raju
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1965
+  Database films: 166
+  Wikipedia films: ~190
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 4 potential duplicates, Count mismatch: DB=166, Wiki=~190
+
+  POTENTIAL DUPLICATES (4):
+    • "Manavoori Pandavulu" (1978) ↔ "Mana Voori Pandavulu" (1978) [100%]
+    • "Ooruki Monagadu" (1981) ↔ "Ooriki Monagadu" (1981) [93%]
+    • "Trisulam" (1982) ↔ "Trisulam" (1983) [100%]
+    • "Maa Nannaku Pelli" (1997) ↔ "Maa Nanna Ki Pelli" (1997) [93%]
+
+  YEAR DISTRIBUTION:
+    1970s: 78 films
+    1980s: 80 films
+    1990s: 6 films
+    2000s: 2 films
+  📝 Full audit saved: docs/KRISHNAM_RAJU_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Krishnam Raju"
+  Filter: Actor: Krishnam Raju
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 13  [████████████████░░░░] 80% (40/50) | Enriched: 20  [████████████████████] 100% (50/50) | Enriched: 24
+
+
+
+
+  Applying updates to database...
+
+  Updated 24 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      24 movies
+  Not found:     26
+  Updated in DB: 24
+  Success rate:  48%
+
+  By Source:
+    TMDB:      12
+    Wikipedia: 12
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Akkineni Nageswara Rao
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Akkineni Nageswara Rao
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Akkineni Nageswara Rao" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Akkineni" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 225 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 237254 for "Akkineni Nageswara Rao"
+TMDB: Found 112 films for "Akkineni Nageswara Rao"
+TMDB: 112 Telugu/Unknown language films
+  ✓ TMDB: 112 films
+Wikipedia: Fetching filmography for "Akkineni Nageswara Rao"...
+Wikipedia: Found 3 films in filmography for "Akkineni Nageswara Rao"
+  ✓ Wikipedia: 3 films
+Wikidata: Searching for "Akkineni Nageswara Rao"...
+Wikidata: Actor "Akkineni Nageswara Rao" not found
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 115
+  • Already in database: 225
+  • Missing films: 83
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 105
+  • Supporting roles: 9
+  • Cameo appearances: 1
+  • Voice roles: 0
+
+✅ Auto-adding 83 missing films...
+  ✓ Added: Bharatha Vilas (1973)
+  ✓ Added: Poongothai (1953)
+  ✓ Added: Matharkula Manikkam (1956)
+  ✓ Added: Kalyana Parisu (1959)
+  ✓ Added: Manithan Maravillai (1961)
+  ✓ Added: Or Iravu (1951)
+  ✓ Added: Bharya Bharthalu (1961)
+  ✓ Added: Pelli Naati Pramanalu (1959)
+  ✓ Added: Manjal Mahimai (1959)
+  ✓ Added: Yuvaraju (1982)
+  ✓ Added: Women's Authority (1958)
+  ✓ Added: Bangaru Babu (1973)
+  ✓ Added: Aathmeeyulu (1969)
+  ✓ Added: Padma Shri (1968)
+  ✓ Added: Padma Bhushan (1988)
+  ✓ Added: Padma Vibhushan (2011)
+
+✅ Successfully added 16/83 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/akkineni-nageswara-rao-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Akkineni Nageswara Rao
+  Total films found: 115
+  Already in database: 225
+  Missing films: 83
+  Added to database: 16
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 105
+    Supporting: 9
+    Cameo: 1
+    Voice: 0
+
+[2/3] Data Validation...
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Akkineni Nageswara Rao
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1941
+  Database films: 237
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 6 potential duplicates, 1 invalid entries
+
+  POTENTIAL DUPLICATES (6):
+    • "Pellinaati Pramanalu" (1959) ↔ "Pelli Naati Pramanalu" (1959) [100%]
+    • "Bharya Bhartalu" (1961) ↔ "Bharya Bharthalu" (1961) [93%]
+    • "Paruvu-Prathishta" (1963) ↔ "Paruvu-Prathishtta" (1963) [94%]
+    • "Raitu Kutumbam" (1971) ↔ "Raitu Kutumbam" (1972) [100%]
+    • "Geeta" (1973) ↔ "Geetaanjali" (1973) [90%]
+    • "Srivari Muchatlu" (1980) ↔ "Srivari Muchatlu" (1981) [100%]
+
+  INVALID ENTRIES (1):
+    • Dr. Anand (1966)
+
+  YEAR DISTRIBUTION:
+    1940s: 18 films
+    1950s: 56 films
+    1960s: 64 films
+    1970s: 62 films
+    1980s: 24 films
+    1990s: 11 films
+    2000s: 1 films
+    2010s: 1 films
+  📝 Full audit saved: docs/AKKINENI_NAGESWARA_RAO_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Akkineni Nageswara Rao"
+  Filter: Actor: Akkineni Nageswara Rao
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 9  [████████████████░░░░] 80% (40/50) | Enriched: 20  [████████████████████] 100% (50/50) | Enriched: 27
+
+
+
+
+  Applying updates to database...
+
+  Updated 27 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      27 movies
+  Not found:     23
+  Updated in DB: 27
+  Success rate:  54%
+
+  By Source:
+    TMDB:      5
+    Wikipedia: 19
+    Wikidata:  0
+    Combined:  0
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Soundarya
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Soundarya
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Soundarya" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Soundarya" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 54 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 288587 for "Soundarya"
+TMDB: Found 67 films for "Soundarya"
+TMDB: 67 Telugu/Unknown language films
+  ✓ TMDB: 67 films
+Wikipedia: Fetching filmography for "Soundarya"...
+Wikipedia: Found 8 films in filmography for "Soundarya"
+  ✓ Wikipedia: 8 films
+Wikidata: Searching for "Soundarya"...
+Wikidata: Found actor ID Q3501376
+Wikidata: Found 37 films for "Soundarya"
+  ✓ Wikidata: 37 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 85
+  • Already in database: 54
+  • Missing films: 50
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 72
+  • Supporting roles: 13
+  • Cameo appearances: 0
+  • Voice roles: 0
+
+✅ Auto-adding 50 missing films...
+  ✓ Added: Vijaya Dashami (2003)
+  ✓ Added: Senathipathi (1996)
+  ✓ Added: Thavasi (2001)
+  ✓ Added: Chokka Thangam (2003)
+  ✓ Added: Muthu Kaalai (1995)
+  ✓ Added: Ponnumani (1993)
+  ✓ Added: Sooryavansham (1999)
+  ✓ Added: Mannavaru Sinnavaru (1999)
+  ✓ Added: Anna Chellelu (1993)
+  ✓ Added: Ivan (2002)
+  ✓ Added: Anthapuram (1999)
+  ✓ Added: Ammoru (1995)
+  ✓ Added: Kilichundan Mampazham (2003)
+  ✓ Added: Nagadevathe (2000)
+  ✓ Added: Kadhala Kadhala (1998)
+  ✓ Added: Chilakapacha Kapuram (1995)
+  ✓ Added: Kalasi Naduddam (2001)
+  ✓ Added: Naanu Nanna Hendtheeru (1999)
+  ✓ Added: Naa Manasista Raa (2001)
+  ✓ Added: Filmfare Awards South (1995)
+  ✓ Added: Best Actress (1996)
+  ✓ Added: Karnataka State Film Awards (1998)
+  ✓ Added: Filmfare Awards South (1999)
+  ✓ Added: Best Actress - Tamil (2001)
+  ✓ Added: Best Supporting Actress - Tamil (2002)
+  ✓ Added: National Film Awards (2003)
+  ✓ Added: Best Actress – Kannada (2004)
+  ✓ Added: Anthapuram (1998)
+  ✓ Added: Kaathala Kaathala (1998)
+  ✓ Added: Doni Sagali (1998)
+  ✓ Added: Mannavaru Chinnavaru (1999)
+  ✓ Added: Premaku Velayara (1999)
+  ✓ Added: Jayam Manade Raa (2000)
+  ✓ Added: Dweepa (2002)
+  ✓ Added: Premaku Swagatham (2002)
+
+✅ Successfully added 35/50 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/soundarya-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Soundarya
+  Total films found: 85
+  Already in database: 54
+  Missing films: 50
+  Added to database: 35
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 72
+    Supporting: 13
+    Cameo: 0
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Soundarya, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Soundarya
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 30
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 1 potential duplicates
+
+  POTENTIAL DUPLICATES (1):
+    • "Anthahpuram" (1998) ↔ "Anthapuram" (1999) [91%]
+
+  YEAR DISTRIBUTION:
+    1990s: 17 films
+    2000s: 13 films
+  📝 Full audit saved: docs/SOUNDARYA_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Soundarya"
+  Filter: Actor: Soundarya
+
+  Found 30 movies to process
+
+  Processing...
+
+  [█████████████░░░░░░░] 67% (20/30) | Enriched: 14  [████████████████████] 100% (30/30) | Enriched: 23
+
+
+
+
+  Applying updates to database...
+
+  Updated 23 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     30 movies
+  Enriched:      23 movies
+  Not found:     7
+  Updated in DB: 23
+  Success rate:  77%
+
+  By Source:
+    TMDB:      20
+    Wikipedia: 0
+    Wikidata:  0
+    Combined:  2
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Jaya Prada
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Jaya Prada
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Jaya Prada" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Jaya" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 137 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 238016 for "Jaya Prada"
+TMDB: Found 139 films for "Jaya Prada"
+TMDB: 139 Telugu/Unknown language films
+  ✓ TMDB: 139 films
+Wikipedia: Fetching filmography for "Jaya Prada"...
+Wikipedia: Found 60 films in filmography for "Jaya Prada"
+  ✓ Wikipedia: 60 films
+Wikidata: Searching for "Jaya Prada"...
+Wikidata: Found actor ID Q3518383
+Wikidata: Found 73 films for "Jaya Prada"
+  ✓ Wikidata: 73 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 186
+  • Already in database: 137
+  • Missing films: 155
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 131
+  • Supporting roles: 53
+  • Cameo appearances: 2
+  • Voice roles: 0
+
+✅ Auto-adding 155 missing films...
+  ✓ Added: Justice Rudramadevi (1990)
+  ✓ Added: The Desire: A Journey of a Woman (2011)
+  ✓ Added: Hoshiyar (1985)
+  ✓ Added: Maidan-E-Jung (1995)
+  ✓ Added: Ninaithaale Inikkum (1979)
+  ✓ Added: Manmadha Leelai (1976)
+  ✓ Added: Sharaabi (1984)
+  ✓ Added: Pranayam (2011)
+  ✓ Added: Singhasan (1986)
+  ✓ Added: Ramachandra Boss & Co (2023)
+  ✓ Added: Shabdavedhi (2000)
+  ✓ Added: Devadoothan (2000)
+  ✓ Added: Souten Ki Beti (1989)
+  ✓ Added: Ezhai Jaathi (1993)
+  ✓ Added: Aami Sei Meye (1998)
+  ✓ Added: Habba (1999)
+  ✓ Added: Qayamat (1983)
+  ✓ Added: Jaadugar (1989)
+  ✓ Added: Maa (1992)
+  ✓ Added: Archana Aaradhana (1985)
+  ✓ Added: Sesh Sanghat (2009)
+  ✓ Added: Haisiyat (1984)
+  ✓ Added: Gangaa Jamunaa Saraswathi (1988)
+  ✓ Added: Kaviratna Kalidasa (1983)
+  ✓ Added: Sindoor (1987)
+  ✓ Added: Aatwaja (2018)
+  ✓ Added: Girija Kalyanam (1990)
+  ✓ Added: Swayamvaram (1982)
+  ✓ Added: Haqeeqat (1985)
+  ✓ Added: Insaaf Kaun Karega (1984)
+  ✓ Added: Sanaadi Appanna (1977)
+  ✓ Added: Chauraha (1994)
+  ✓ Added: Aaj Ka Arjun (1990)
+  ✓ Added: Ganga Tere Desh Mein (1988)
+  ✓ Added: Kohram (1999)
+  ✓ Added: Takkar (1980)
+  ✓ Added: Elaan-E-Jung (1989)
+  ✓ Added: Fauzi (2026)
+  ✓ Added: Sur Sangam (1985)
+  ✓ Added: Khal-Naaikaa (1993)
+  ✓ Added: Tathastu (2006)
+  ✓ Added: Awaaz (1984)
+  ✓ Added: Ghar Ghar Ki Kahani (1988)
+  ✓ Added: Rajjo (2013)
+  ✓ Added: Deha (2007)
+  ✓ Added: Thanedaar (1990)
+  ✓ Added: Hum Bhi Insaan Hain (1989)
+  ✓ Added: Keni (2018)
+  ✓ Added: Shehzaade (1989)
+  ✓ Added: Swami Vivekananda (1998)
+  ✓ Added: Dil-E-Nadaan (1982)
+  ✓ Added: Mardon Wali Baat (1988)
+  ✓ Added: Kanoon Ki Zanjeer (1990)
+  ✓ Added: Dharm Aur Qanoon (1984)
+  ✓ Added: Zabardast (1985)
+  ✓ Added: Sanjog (1985)
+  ✓ Added: Swarag Se Sunder (1986)
+  ✓ Added: Sapnon Ka Mandir (1991)
+  ✓ Added: Mera Faisla (1984)
+  ✓ Added: Jeevan Yudh (1997)
+  ✓ Added: Majboor (1989)
+  ✓ Added: Indrajeet (1991)
+  ✓ Added: Zulm-O-Sitam (1998)
+  ✓ Added: Kundan (1993)
+  ✓ Added: Loh Purush (1999)
+  ✓ Added: Paappi Devataa (1995)
+  ✓ Added: Pataal Bhairavi (1985)
+  ✓ Added: Veerta (1993)
+  ✓ Added: Zakhmi Zameen (1990)
+  ✓ Added: Main Awara Hoon (1983)
+  ✓ Added: Insaniyat Ke Devta (1993)
+  ✓ Added: Sarhad Paar (2006)
+  ✓ Added: Raaj (2009)
+  ✓ Added: Sargam (1979)
+  ✓ Added: Ee Bandhana (2007)
+  ✓ Added: Kraanthiveera Sangolli Raayanna (2012)
+  ✓ Added: Pyar Ke Do Pal (1986)
+  ✓ Added: Muddat (1986)
+  ✓ Added: Kaamchor (1982)
+  ✓ Added: Veer (1995)
+  ✓ Added: Tyagi (1992)
+  ✓ Added: Dhartiputra (1993)
+  ✓ Added: Lok Parlok (1979)
+  ✓ Added: Paraya Ghar (1989)
+  ✓ Added: Huliya Halina Mevu (1979)
+  ✓ Added: Paapi Pet Ka Sawaal Hai (1984)
+  ✓ Added: Himapatha (1995)
+  ✓ Added: Manmatha Leelai (1976)
+  ✓ Added: Bhadrakali (1977)
+  ✓ Added: Sardar&#91;41&#93; (1984)
+  ✓ Added: Majboor (1990)
+  ✓ Added: Insaniyat (1994)
+  ✓ Added: Sri Renukadevi (2003)
+  ✓ Added: Dasavathaaram (2008)
+  ✓ Added: Sesh Sangat (2009)
+  ✓ Added: The Desire (2010)
+  ✓ Added: Krantiveera Sangolli Rayanna (2012)
+  ✓ Added: Kinar (2018)
+  ✓ Added: Ramachandra Boss &amp; Co (2023)
+  ✓ Added: Perfect Pati (2018)
+  ✓ Added: The Kapil Sharma Show season 2 (2021)
+  ✓ Added: Indian Idol (2021)
+  ❌ Failed to add "Sasural Simar Ka 2": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Drama Juniors 4 Telugu (2023)
+  ✓ Added: Ninaithale Inikkum (1979)
+  ✓ Added: Overall Contribution to Telugu Film Industry (2007)
+  ✓ Added: Seeta Kalyanam (1976)
+  ✓ Added: Sita Swayamvar (1976)
+  ✓ Added: Meghasandesham (1982)
+  ✓ Added: Saagara Sangamam (1983)
+  ✓ Added: Mera Saathi (1985)
+  ✓ Added: Aisa Pyaar Kahan (1986)
+  ✓ Added: Pyaar Ke Do Pal (1986)
+  ✓ Added: Kanoon Ki Awaaz (1989)
+  ✓ Added: Gharana (1989)
+  ✓ Added: Q12427728 (1990)
+  ✓ Added: Swami Vivekananda (1994)
+  ✓ Added: Ee Snehatheerathu (2004)
+  ✓ Added: Sangolli Rayanna (2012)
+
+✅ Successfully added 118/155 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/jaya-prada-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Jaya Prada
+  Total films found: 186
+  Already in database: 137
+  Missing films: 155
+  Added to database: 118
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 131
+    Supporting: 53
+    Cameo: 2
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Jaya Prada, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Jaya Prada
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 82
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 6 potential duplicates
+
+  POTENTIAL DUPLICATES (6):
+    • "Manmadha Leelai" (1976) ↔ "Manmatha Leelai" (1976) [93%]
+    • "Ninaithaale Inikkum" (1979) ↔ "Ninaithale Inikkum" (1979) [94%]
+    • "Majboor" (1989) ↔ "Majboor" (1990) [100%]
+    • "Sesh Sangat" (2009) ↔ "Sesh Sanghat" (2009) [91%]
+    • "The Desire" (2010) ↔ "The Desire: A Journey of a Woman" (2011) [90%]
+    • "Kraanthiveera Sangolli Raayanna" (2012) ↔ "Krantiveera Sangolli Rayanna" (2012) [90%]
+
+  YEAR DISTRIBUTION:
+    1970s: 9 films
+    1980s: 27 films
+    1990s: 24 films
+    2000s: 9 films
+    2010s: 9 films
+    2020s: 4 films
+  📝 Full audit saved: docs/JAYA_PRADA_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Jaya Prada"
+  Filter: Actor: Jaya Prada
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 12  [████████████████░░░░] 80% (40/50) | Enriched: 32  [████████████████████] 100% (50/50) | Enriched: 42
+
+
+
+
+  Applying updates to database...
+
+  Updated 42 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      42 movies
+  Not found:     8
+  Updated in DB: 42
+  Success rate:  84%
+
+  By Source:
+    TMDB:      25
+    Wikipedia: 1
+    Wikidata:  0
+    Combined:  13
+
+  ✅ Enrichment complete!
+
+================================================================================
+  Processing: Srikanth
+================================================================================
+
+
+[1/3] Film Discovery...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║              FILM DISCOVERY & AUTO-ADD                               ║
+║              (Find missing films from multiple sources)              ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Actor: Srikanth
+Mode: EXECUTE
+
+📥 Fetching existing movies for "Srikanth" from database...
+Error fetching supporting movies: {
+  code: '22P02',
+  details: 'Token "Srikanth" is invalid.',
+  hint: null,
+  message: 'invalid input syntax for type json'
+}
+✓ Found 141 existing movies in database
+
+📥 Discovering films from multiple sources...
+TMDB: Found actor ID 581891 for "Srikanth"
+TMDB: Found 58 films for "Srikanth"
+TMDB: 58 Telugu/Unknown language films
+  ✓ TMDB: 58 films
+Wikipedia: Fetching filmography for "Srikanth"...
+Wikipedia: Found 0 films in filmography for "Srikanth"
+Wikidata: Searching for "Srikanth"...
+Wikidata: Found actor ID Q6810525
+Wikidata: Found 93 films for "Srikanth"
+  ✓ Wikidata: 93 films
+
+🔍 Cross-referencing and deduplicating...
+  ✓ Total unique films: 131
+  • Already in database: 141
+  • Missing films: 102
+
+🎭 Classifying roles...
+  • Child actor roles: 0
+  • Lead roles: 49
+  • Supporting roles: 81
+  • Cameo appearances: 1
+  • Voice roles: 0
+
+✅ Auto-adding 102 missing films...
+  ✓ Added: Echo (2023)
+  ✓ Added: Kannai Nambathe (2023)
+  ✓ Added: Bagheera (2023)
+  ✓ Added: Amala (2023)
+  ✓ Added: Drohi (2010)
+  ✓ Added: Roja Koottam (2002)
+  ✓ Added: Parthibhan Kanavu (2003)
+  ✓ Added: Oru Naal Oru Kanavu (2005)
+  ✓ Added: April Maadhathil (2002)
+  ✓ Added: Kana Kanden (2005)
+  ✓ Added: Hero (2012)
+  ✓ Added: Poo (2008)
+  ✓ Added: Sadhurangam (2011)
+  ✓ Added: Maya Puthagam (2024)
+  ✓ Added: Paagan (2012)
+  ✓ Added: Buddy (2013)
+  ✓ Added: Anandapuram Diaries (2024)
+  ✓ Added: Coffee With Kadhal (2022)
+  ✓ Added: Rasikkum Seemane (2010)
+  ✓ Added: Uyir (2006)
+  ✓ Added: Kizhakku Kadarkarai Salai (2006)
+  ✓ Added: Mercury Pookkal (2006)
+  ✓ Added: Varnajalam (2004)
+  ✓ Added: Bose (2004)
+  ✓ Added: Uppukandam Brothers Back In Action (2011)
+  ✓ Added: Ethiri En 3 (2016)
+  ✓ Added: Nambiyaar (2016)
+  ✓ Added: Aadavari Matalaku Ardhalu Verule (2007)
+  ✓ Added: Indira Vizha (2009)
+  ✓ Added: Operation Laila (2024)
+  ✓ Added: Sathamindri Mutham Tha (2024)
+  ✓ Added: Joot (2003)
+  ✓ Added: All over the heart (2003)
+  ✓ Added: Sowkarpettai (2016)
+  ✓ Added: Om Shanthi Om (2015)
+  ✓ Added: Bambara Kannaley (2005)
+  ✓ Added: Rocky: The Revenge (2019)
+  ✓ Added: Mirugaa (2021)
+  ❌ Failed to add "Kathai Thiraikathai Vasanam Iyakkam": Could not find the 'notes' column of 'movies' in the schema cache
+  ✓ Added: Maha (2022)
+  ✓ Added: Vallamai Tharayo (2008)
+  ✓ Added: Dinasari (2025)
+  ✓ Added: Konjam Kadhal Konjam Modhal (2025)
+  ✓ Added: Blackmail (2025)
+  ✓ Added: The Bed (2026)
+  ✓ Added: Q12982331 (1977)
+  ✓ Added: Karunai Ullam (1978)
+  ✓ Added: Q16311395 (1978)
+  ✓ Added: Q12985478 (1979)
+  ✓ Added: Manasulo Maata (1996)
+  ✓ Added: Egire Pavuramaa (1997)
+  ✓ Added: Ooyala (1998)
+  ✓ Added: Aayanagaru (1998)
+  ✓ Added: Preyasi Rave (1999)
+  ✓ Added: Sakutumba Saparivaara Sametham (2000)
+  ✓ Added: Roja Kootam (2002)
+  ✓ Added: Parthiban Kanavu (2003)
+  ✓ Added: Manasellam (2003)
+  ✓ Added: Joot (2004)
+  ✓ Added: Swarabhishekam (2004)
+  ✓ Added: Kana Kandaen (2005)
+  ✓ Added: Sankranthi (2005)
+  ✓ Added: Kizhakku Kadalkarai Salai (2006)
+  ✓ Added: Mayajalam (2006)
+  ✓ Added: Meri Warrant (2010)
+  ✓ Added: Ethiri En 3 (2012)
+  ✓ Added: Nambiar (2014)
+  ✓ Added: Om Shanti Om (2015)
+  ✓ Added: Sowkarpettai (2015)
+  ✓ Added: Sarainodu (2016)
+  ✓ Added: మెంటల్ (2016)
+
+✅ Successfully added 70/102 films
+
+📝 Report saved: /Users/sharathchandra/Projects/telugu-portal/docs/srikanth-discovery-report.csv
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        DISCOVERY SUMMARY                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Actor: Srikanth
+  Total films found: 131
+  Already in database: 141
+  Missing films: 102
+  Added to database: 70
+
+  Role breakdown:
+    Child actor: 0
+    Lead: 49
+    Supporting: 81
+    Cameo: 1
+    Voice: 0
+
+[2/3] Data Validation...
+  ⚠️  Debut year not known for Srikanth, using 1950
+
+══════════════════════════════════════════════════════════════════════
+FILMOGRAPHY AUDIT: Srikanth
+══════════════════════════════════════════════════════════════════════
+  Debut Year: 1950
+  Database films: 173
+
+──────────────────────────────────────────────────────────────────────
+AUDIT RESULTS
+──────────────────────────────────────────────────────────────────────
+
+  Summary: 2 potential duplicates, 1 invalid entries
+
+  POTENTIAL DUPLICATES (2):
+    • "Vinodham" (1996) ↔ "Vinodam" (1996) [88%]
+    • "Evandoi Srivaru" (2006) ↔ "Evandoi Sreevaru" (2006) [87%]
+
+  INVALID ENTRIES (1):
+    • B. Gopal (2001)
+
+  YEAR DISTRIBUTION:
+    1990s: 34 films
+    2000s: 84 films
+    2010s: 29 films
+    2020s: 26 films
+  📝 Full audit saved: docs/SRIKANTH_AUDIT.json
+
+[3/3] Quick Enrichment (Cast/Crew)...
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           CAST & CREW ENRICHMENT SCRIPT (v4.0)                       ║
+║   Sources: TMDB, IMDb, Wikipedia, Wikidata, MovieBuff, JioSaavn     ║
+║   Extended: Music Director, Producer, 5 Supporting, Crew             ║
+║   Enhanced: IMDb scraper + Telugu Wikipedia parser                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  Concurrency: 20
+  Extended mode: No
+  Discover mode: No
+  Actor filter: "Srikanth"
+  Filter: Actor: Srikanth
+
+  Found 50 movies to process
+
+  Processing...
+
+  [████████░░░░░░░░░░░░] 40% (20/50) | Enriched: 20  [████████████████░░░░] 80% (40/50) | Enriched: 38  [████████████████████] 100% (50/50) | Enriched: 48
+
+
+
+
+  Applying updates to database...
+
+  Updated 48 movies in database
+
+
+═══════════════════════════════════════════════════════════════════
+📊 ENRICHMENT SUMMARY
+═══════════════════════════════════════════════════════════════════
+  Processed:     50 movies
+  Enriched:      48 movies
+  Not found:     2
+  Updated in DB: 48
+  Success rate:  96%
+
+  By Source:
+    TMDB:      40
+    Wikipedia: 6
+    Wikidata:  0
+    Combined:  2
+
+  ✅ Enrichment complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       BATCH SUMMARY                                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Batch: 3
+  Duration: 20.7 minutes
+  Actors processed: 5
+
+  Results:
+
+    ✅ Krishnam Raju                  - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Akkineni Nageswara Rao         - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Soundarya                      - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Jaya Prada                     - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+    ✅ Srikanth                       - Discovery: ✅ | Validation: ✅ | Enrichment: ✅
+
+  Success rate: 100%
+
+  💡 To process next batch (16-20):
+     npx tsx scripts/batch-discover-all-actors.ts --batch=4 --execute

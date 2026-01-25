@@ -254,7 +254,7 @@ export function BottomMenu({ popularItems, recentItems, className = '' }: Bottom
             {/* View All Link */}
             {currentItems.length > 5 && (
               <Link
-                href={activeTab === 'popular' ? '/reviews?sort=popular' : '/reviews?sort=recent'}
+                href={activeTab === 'popular' ? '/movies?sort=popular' : '/movies?sort=recent'}
                 className="block text-center py-3 text-sm font-medium text-[var(--brand-primary)] hover:underline"
               >
                 View All →

@@ -1,0 +1,269 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+ghost_entry,"Anji",2004,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Shankar Dada M.B.B.S.",2004,hero,"Chiranjeevi","Omid Djalili",60%,"Only 1 source suggests Omid Djalili - manual review recommended",flag_review
+ghost_entry,"S.P. Parasuram",1994,hero,"Chiranjeevi","Adolf Jahr",60%,"Only 1 source suggests Adolf Jahr - manual review recommended",flag_review
+ghost_entry,"Mugguru Monagallu",1994,hero,"Chiranjeevi","Leslie Klug",60%,"Only 1 source suggests Leslie Klug - manual review recommended",flag_review
+ghost_entry,"Muta Mestri",1993,hero,"Chiranjeevi","Bharat",60%,"Only 1 source suggests Bharat - manual review recommended",flag_review
+ghost_entry,"Rowdy Alludu",1991,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rudraveena",1988,hero,"Chiranjeevi","Kichiemon Nakamura II",60%,"Only 1 source suggests Kichiemon Nakamura II - manual review recommended",flag_review
+ghost_entry,"Kirathakudu",1986,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Devanthakudu",1984,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Challenge",1984,hero,"Chiranjeevi","Jorge Negrete",60%,"Only 1 source suggests Jorge Negrete - manual review recommended",flag_review
+ghost_entry,"Abhilasha",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Khaidi",1983,hero,"Chiranjeevi","చిరంజీవి",60%,"Only 1 source suggests చిరంజీవి - manual review recommended",flag_review
+ghost_entry,"Tingu Rangadu",1982,hero,"Chiranjeevi","Stephanie Leonidas",60%,"Only 1 source suggests Stephanie Leonidas - manual review recommended",flag_review
+ghost_entry,"Rani Kasula Rangamma",1981,hero,"Chiranjeevi","Moon Lee Choi-Fung",60%,"Only 1 source suggests Moon Lee Choi-Fung - manual review recommended",flag_review
+ghost_entry,"Aarani Mantalu",1980,hero,"Chiranjeevi","R. Nandintsetseg",60%,"Only 1 source suggests R. Nandintsetseg - manual review recommended",flag_review
+ghost_entry,"Master",1997,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Indra",2002,hero,"Chiranjeevi","Makoto Shinkai",60%,"Only 1 source suggests Makoto Shinkai - manual review recommended",flag_review
+ghost_entry,"Kondaveeti Donga",1990,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Marana Mrudangam",1988,hero,"Chiranjeevi","Luke Perry",60%,"Only 1 source suggests Luke Perry - manual review recommended",flag_review
+ghost_entry,"Aradhana",1987,hero,"Chiranjeevi","Thalles Roberto",60%,"Only 1 source suggests Thalles Roberto - manual review recommended",flag_review
+ghost_entry,"Chantabbai",1986,hero,"Chiranjeevi","Michael Ontkean",60%,"Only 1 source suggests Michael Ontkean - manual review recommended",flag_review
+ghost_entry,"Vijetha",1985,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Goonda",1984,hero,"Chiranjeevi","Lucien Baroux",60%,"Only 1 source suggests Lucien Baroux - manual review recommended",flag_review
+ghost_entry,"Subhalekha",1982,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Illanta Sandadi",1982,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Nyayam Kavali",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Mogudu Kaavali",1980,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Nakili Manishi",1980,hero,"Chiranjeevi","David Lam Wai",60%,"Only 1 source suggests David Lam Wai - manual review recommended",flag_review
+ghost_entry,"Punnami Naagu",1980,hero,"Chiranjeevi","Joey Wong",60%,"Only 1 source suggests Joey Wong - manual review recommended",flag_review
+ghost_entry,"Chattaniki Kallu Levu",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Kothala Raayudu",1979,hero,"Chiranjeevi","Kunchacko Boban",60%,"Only 1 source suggests Kunchacko Boban - manual review recommended",flag_review
+ghost_entry,"State Rowdy",1989,hero,"Chiranjeevi","Moe Howard",60%,"Only 1 source suggests Moe Howard - manual review recommended",flag_review
+ghost_entry,"Oorukichina Maata",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Mahanagaramlo Mayagadu",1984,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Sangharshana",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Billa Ranga",1982,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Manchu Pallaki",1982,hero,"Chiranjeevi","Stephanie Leonidas",60%,"Only 1 source suggests Stephanie Leonidas - manual review recommended",flag_review
+ghost_entry,"Veta",1986,hero,"Chiranjeevi","Cemile Ilker",60%,"Only 1 source suggests Cemile Ilker - manual review recommended",flag_review
+ghost_entry,"Prema Pichollu",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Hitler",1997,hero,"Chiranjeevi","Allari Naresh",60%,"Only 1 source suggests Allari Naresh - manual review recommended",flag_review
+ghost_entry,"Yamudiki Mogudu",1988,hero,"Chiranjeevi","Moe Howard",60%,"Only 1 source suggests Moe Howard - manual review recommended",flag_review
+ghost_entry,"Antima Teerpu",1988,hero,"Chiranjeevi","Alexander Bakshaev",60%,"Only 1 source suggests Alexander Bakshaev - manual review recommended",flag_review
+ghost_entry,"Rakshasudu",1986,hero,"Chiranjeevi","Campbell Scott",60%,"Only 1 source suggests Campbell Scott - manual review recommended",flag_review
+ghost_entry,"Agni Samskaram",1980,hero,"Chiranjeevi","Lotta Losten",60%,"Only 1 source suggests Lotta Losten - manual review recommended",flag_review
+ghost_entry,"Kodama Simham",1990,hero,"Chiranjeevi","Arthur Franz",60%,"Only 1 source suggests Arthur Franz - manual review recommended",flag_review
+ghost_entry,"Jagadeka Veerudu Athiloka Sundari",1990,hero,"Chiranjeevi","Sean P. Donahue",60%,"Only 1 source suggests Sean P. Donahue - manual review recommended",flag_review
+ghost_entry,"Chakravarthy",1987,hero,"Chiranjeevi","Mel Blanc",60%,"Only 1 source suggests Mel Blanc - manual review recommended",flag_review
+ghost_entry,"Magadheerudu",1986,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Simhapuri Simham",1983,hero,"Chiranjeevi","Matt Smith",60%,"Only 1 source suggests Matt Smith - manual review recommended",flag_review
+ghost_entry,"Inti Guttu",1984,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Kirayi Rowdylu",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Adavi Donga",1985,hero,"Chiranjeevi","Rosângela Dias",60%,"Only 1 source suggests Rosângela Dias - manual review recommended",flag_review
+ghost_entry,"Yamakinkarudu",1982,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rana",1984,hero,"Chiranjeevi","Roberta Fattor",60%,"Only 1 source suggests Roberta Fattor - manual review recommended",flag_review
+ghost_entry,"Bandhalu Anubandhalu",1982,hero,"Chiranjeevi","Viveca Lindfors",60%,"Only 1 source suggests Viveca Lindfors - manual review recommended",flag_review
+ghost_entry,"Radha My Darling",1982,hero,"Chiranjeevi","చిరంజీవి",60%,"Only 1 source suggests చిరంజీవి - manual review recommended",flag_review
+ghost_entry,"I Love You",1979,hero,"Chiranjeevi","Kenichi Matsuyama",60%,"Only 1 source suggests Kenichi Matsuyama - manual review recommended",flag_review
+ghost_entry,"Mega 159",2026,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Auto Jaani",2026,hero,"Chiranjeevi","Élie Semoun",60%,"Only 1 source suggests Élie Semoun - manual review recommended",flag_review
+ghost_entry,"Tirugu Leni Manishi",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Intlo Ramayya Veedhilo Krishnayya",1982,hero,"Chiranjeevi","Ada Choi Siu-Fan",60%,"Only 1 source suggests Ada Choi Siu-Fan - manual review recommended",flag_review
+ghost_entry,"Mana Shankara Vara Prasad Garu",2026,hero,"Chiranjeevi","Rodrigo Ramirez",60%,"Only 1 source suggests Rodrigo Ramirez - manual review recommended",flag_review
+ghost_entry,"Alluda Majaka",1995,hero,"Chiranjeevi","Aleksey Batalov",60%,"Only 1 source suggests Aleksey Batalov - manual review recommended",flag_review
+ghost_entry,"Manchi Donga",1988,hero,"Chiranjeevi","Burton Cummings",60%,"Only 1 source suggests Burton Cummings - manual review recommended",flag_review
+ghost_entry,"Parvathi Parameswarulu",1981,hero,"Chiranjeevi","Gavin McInnes",60%,"Only 1 source suggests Gavin McInnes - manual review recommended",flag_review
+ghost_entry,"Mrugaraju",2001,hero,"Chiranjeevi","Silvio Orlando",60%,"Only 1 source suggests Silvio Orlando - manual review recommended",flag_review
+ghost_entry,"Annayya",2000,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Iddaru Mitrulu",1999,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Choodalani Vundi",1998,hero,"Chiranjeevi","Guy Madison",60%,"Only 1 source suggests Guy Madison - manual review recommended",flag_review
+ghost_entry,"Bavagaru Bagunnara",1998,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Big Boss",1995,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rudranetra",1989,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Donga Mogudu",1987,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Kondaveeti Raja",1986,hero,"Chiranjeevi","Florian David Fitz",60%,"Only 1 source suggests Florian David Fitz - manual review recommended",flag_review
+ghost_entry,"Chattamtho Poratam",1985,hero,"Chiranjeevi","చిరంజీవి",60%,"Only 1 source suggests చిరంజీవి - manual review recommended",flag_review
+ghost_entry,"Jwala",1985,hero,"Chiranjeevi","Kayo Matsuo",60%,"Only 1 source suggests Kayo Matsuo - manual review recommended",flag_review
+ghost_entry,"Naagu",1984,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Koteeswarudu",1984,hero,"Chiranjeevi","Nizhalgal Ravi",60%,"Only 1 source suggests Nizhalgal Ravi - manual review recommended",flag_review
+ghost_entry,"Hero",1984,hero,"Chiranjeevi","Piotr Rogucki",60%,"Only 1 source suggests Piotr Rogucki - manual review recommended",flag_review
+ghost_entry,"Gudachari No.1",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Jaggu",1982,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Vishwambhara",2026,hero,"Chiranjeevi","Su Ling Chan",60%,"Only 1 source suggests Su Ling Chan - manual review recommended",flag_review
+ghost_entry,"Jebu Donga",1987,hero,"Chiranjeevi","Franco Franchi",60%,"Only 1 source suggests Franco Franchi - manual review recommended",flag_review
+ghost_entry,"Donga",1985,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rustum",1984,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Srirasthu Subhamasthu",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Maga Maharaju",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rakta Sindhuram",1985,hero,"Chiranjeevi","Antoine Bonnaire",60%,"Only 1 source suggests Antoine Bonnaire - manual review recommended",flag_review
+ghost_entry,"Palleturi Monagadu",1983,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Tagore",2003,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Stuvartpuram Dongalu",1991,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Sneham Kosam",1999,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Patnam Vachina Pativrathalu",1981,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Love In Singapore",1980,hero,"Chiranjeevi","Esteban Bigliardi",60%,"Only 1 source suggests Esteban Bigliardi - manual review recommended",flag_review
+ghost_entry,"Khaidi No.786",1988,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Punadhirallu",1979,hero,"Chiranjeevi","Faidon Georgitsis",60%,"Only 1 source suggests Faidon Georgitsis - manual review recommended",flag_review
+ghost_entry,"Kukka Katuku Cheppu Debba",1979,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Rikshavodu",1995,hero,"Chiranjeevi","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Inspector Pratap",1988,hero,"Chiranjeevi","Franco Franchi",60%,"Only 1 source suggests Franco Franchi - manual review recommended",flag_review
+ghost_entry,"Kotta Alludu",1979,hero,"Chiranjeevi","Marcello Conte",60%,"Only 1 source suggests Marcello Conte - manual review recommended",flag_review
+ghost_entry,"Allullostunnaru",1984,hero,"Chiranjeevi","Lucio Dalla",60%,"Only 1 source suggests Lucio Dalla - manual review recommended",flag_review
+ghost_entry,"Maro Maya Bazaar",1983,hero,"Chiranjeevi","Martin Thompson",60%,"Only 1 source suggests Martin Thompson - manual review recommended",flag_review
+conflicting_data,"Godfather",2022,tmdb_id,"863931","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sye Raa Narasimha Reddy",2019,tmdb_id,"496495","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Shankar Dada Zindabad",2007,tmdb_id,"63811","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jai Chiranjeeva",2005,tmdb_id,"117415","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Anji",2004,tmdb_id,"115063","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Daddy",2001,tmdb_id,"278422","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Shankar Dada M.B.B.S.",2004,tmdb_id,"42171","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"S.P. Parasuram",1994,tmdb_id,"318859","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mugguru Monagallu",1994,tmdb_id,"115049","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Muta Mestri",1993,tmdb_id,"115045","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rowdy Alludu",1991,tmdb_id,"108503","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Attaku Yamudu Ammayiki Mogudu",1989,tmdb_id,"279124","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rudraveena",1988,tmdb_id,"40149","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Swayamkrushi",1987,tmdb_id,"43231","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kirathakudu",1986,tmdb_id,"115019","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Devanthakudu",1984,tmdb_id,"115008","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Challenge",1984,tmdb_id,"115011","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Abhilasha",1983,tmdb_id,"115003","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Khaidi",1983,tmdb_id,"115001","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Tingu Rangadu",1982,tmdb_id,"114996","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chandipriya",1980,tmdb_id,"441221","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rani Kasula Rangamma",1981,tmdb_id,"303501","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Aarani Mantalu",1980,tmdb_id,"1152060","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Master",1997,tmdb_id,"101370","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Stuartpuram Police Station",1991,tmdb_id,"115038","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Indra",2002,tmdb_id,"37910","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Khaidi No. 150",2017,tmdb_id,"412326","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kondaveeti Donga",1990,tmdb_id,"115035","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gang Leader",1991,tmdb_id,"410214","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Trinetrudu",1988,tmdb_id,"115032","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Marana Mrudangam",1988,tmdb_id,"115033","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Pasivadi Pranam",1987,tmdb_id,"108500","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Aradhana",1987,tmdb_id,"115027","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chantabbai",1986,tmdb_id,"41913","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Vijetha",1985,tmdb_id,"109629","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Agni Gundam",1984,tmdb_id,"115012","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Goonda",1984,tmdb_id,"115006","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mantri Gari Viyyankudu",1983,tmdb_id,"115002","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Shivudu Shivudu Shivudu",1983,tmdb_id,"279338","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Subhalekha",1982,tmdb_id,"114997","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Illanta Sandadi",1982,tmdb_id,"279344","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Nyayam Kavali",1981,tmdb_id,"114995","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mogudu Kaavali",1980,tmdb_id,"114633","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Nakili Manishi",1980,tmdb_id,"303498","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Punnami Naagu",1980,tmdb_id,"303496","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chattaniki Kallu Levu",1981,tmdb_id,"114993","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kothala Raayudu",1979,tmdb_id,"358316","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"State Rowdy",1989,tmdb_id,"115034","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Oorukichina Maata",1981,tmdb_id,"320390","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sri Rama Bantu",1979,tmdb_id,"1301213","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mahanagaramlo Mayagadu",1984,tmdb_id,"318857","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sangharshana",1983,tmdb_id,"115000","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Billa Ranga",1982,tmdb_id,"114997","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Manchu Pallaki",1982,tmdb_id,"114996","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Veta",1986,tmdb_id,"115020","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jathara",1980,tmdb_id,"417180","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Prema Pichollu",1983,tmdb_id,"114999","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Bhola Shankar",2023,tmdb_id,"864221","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Hitler",1997,tmdb_id,"115053","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Aapadbandhavudu",1992,tmdb_id,"115042","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gharana Mogudu",1992,tmdb_id,"43232","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Yamudiki Mogudu",1988,tmdb_id,"115029","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Antima Teerpu",1988,tmdb_id,"320392","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rakshasudu",1986,tmdb_id,"115021","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rojulu Marayi",1984,tmdb_id,"279126","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Roshagadu",1983,tmdb_id,"279339","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Agni Samskaram",1980,tmdb_id,"1540960","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kodama Simham",1990,tmdb_id,"115037","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jagadeka Veerudu Athiloka Sundari",1990,tmdb_id,"108501","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chakravarthy",1987,tmdb_id,"115024","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Magadheerudu",1986,tmdb_id,"115022","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Simhapuri Simham",1983,tmdb_id,"369145","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Inti Guttu",1984,tmdb_id,"115009","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kirayi Rowdylu",1981,tmdb_id,"114994","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rakta Bandham",1980,tmdb_id,"320385","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mondi Ghatam",1982,tmdb_id,"279346","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Adavi Donga",1985,tmdb_id,"441006","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Yamakinkarudu",1982,tmdb_id,"279345","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chanakya Sapatham",1986,tmdb_id,"279121","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rana",1984,tmdb_id,"369151","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Bandhalu Anubandhalu",1982,tmdb_id,"318855","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Dhairyavanthudu",1986,tmdb_id,"369150","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Radha My Darling",1982,tmdb_id,"279347","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"I Love You",1979,tmdb_id,"311029","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Thathayya Premaleelalu",1980,tmdb_id,"1298416","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sitadevi",1982,tmdb_id,"114631","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mega 159",2026,tmdb_id,"1382410","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Auto Jaani",2026,tmdb_id,"341935","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Tirugu Leni Manishi",1981,tmdb_id,"313177","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Intlo Ramayya Veedhilo Krishnayya",1982,tmdb_id,"114983","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mana Shankara Vara Prasad Garu",2026,tmdb_id,"1146313","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Raja Vikramarka",1990,tmdb_id,"279123","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Idi Pellantara",1982,tmdb_id,"1536091","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Alluda Majaka",1995,tmdb_id,"56391","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mechanic Alludu",1993,tmdb_id,"115046","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Manchi Donga",1988,tmdb_id,"115028","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Aalaya Sikharam",1983,tmdb_id,"115005","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Parvathi Parameswarulu",1981,tmdb_id,"417242","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Stalin",2006,tmdb_id,"242911","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Mrugaraju",2001,tmdb_id,"56399","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Annayya",2000,tmdb_id,"115059","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Iddaru Mitrulu",1999,tmdb_id,"115057","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Choodalani Vundi",1998,tmdb_id,"37911","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Bavagaru Bagunnara",1998,tmdb_id,"108502","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Big Boss",1995,tmdb_id,"410217","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rudranetra",1989,tmdb_id,"115040","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Donga Mogudu",1987,tmdb_id,"115025","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kondaveeti Raja",1986,tmdb_id,"115023","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Yuddha Bhoomi",1988,tmdb_id,"279127","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Chattamtho Poratam",1985,tmdb_id,"115015","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jwala",1985,tmdb_id,"115018","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Naagu",1984,tmdb_id,"115013","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Koteeswarudu",1984,tmdb_id,"318858","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Hero",1984,tmdb_id,"115007","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gudachari No.1",1983,tmdb_id,"115004","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jaggu",1982,tmdb_id,"114998","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Vishwambhara",2026,tmdb_id,"1211111","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jebu Donga",1987,tmdb_id,"115026","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Donga",1985,tmdb_id,"115014","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rustum",1984,tmdb_id,"115010","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Srirasthu Subhamasthu",1981,tmdb_id,"320389","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Maga Maharaju",1983,tmdb_id,"115000","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rakta Sindhuram",1985,tmdb_id,"115017","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Palleturi Monagadu",1983,tmdb_id,"114999","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Tagore",2003,tmdb_id,"54170","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Stuvartpuram Dongalu",1991,tmdb_id,"410228","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sneham Kosam",1999,tmdb_id,"109630","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Patnam Vachina Pativrathalu",1981,tmdb_id,"114992","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Love In Singapore",1980,tmdb_id,"1537233","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Puli Bebbuli",1983,tmdb_id,"279340","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Khaidi No.786",1988,tmdb_id,"115031","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Punadhirallu",1979,tmdb_id,"303494","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Andarivadu",2005,tmdb_id,"115066","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Waltair Veerayya",2023,tmdb_id,"989017","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Acharya",2022,tmdb_id,"679919","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kukka Katuku Cheppu Debba",1979,tmdb_id,"417277","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Rikshavodu",1995,tmdb_id,"115051","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Pranam Khareedu",1978,tmdb_id,"279365","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Inspector Pratap",1988,tmdb_id,"115030","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kotta Alludu",1979,tmdb_id,"246011","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Lankeswarudu",1989,tmdb_id,"279128","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Todu Dongalu",1981,tmdb_id,"279353","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Allullostunnaru",1984,tmdb_id,"369147","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Maro Maya Bazaar",1983,tmdb_id,"410211","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+missing_field,"Godfather",2022,editor,"-","Venu Gopal Rao",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Sye Raa Narasimha Reddy",2019,editor,"-","Sreekar Prasad",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Shankar Dada Zindabad",2007,editor,"-","Marthand K Venkatesh",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Jai Chiranjeeva",2005,editor,"-","Kotagiri Venkateswara Rao",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Mana ShankaraVaraPrasad Garu",2026,movie,"-","Add Mana ShankaraVaraPrasad Garu (2026) as lead",95%,"",flag_review
+missing_field,"Jagadguru Adi Shankara",2013,movie,"-","Add Jagadguru Adi Shankara (2013) as lead",95%,"",flag_review
+missing_field,"Sri Manjunatha",2001,movie,"-","Add Sri Manjunatha (2001) as lead",95%,"",flag_review
+missing_field,"Alludaa Majakaa",1995,movie,"-","Add Alludaa Majakaa (1995) as lead",95%,"",flag_review
+missing_field,"Chanakya Shapadham",1986,movie,"-","Add Chanakya Shapadham (1986) as lead",95%,"",flag_review
+missing_field,"Dairyavanthudu",1986,movie,"-","Add Dairyavanthudu (1986) as lead",95%,"",flag_review
+missing_field,"Puli",1985,movie,"-","Add Puli (1985) as lead",95%,"",flag_review
+missing_field,"Chattam Tho Poratam",1985,movie,"-","Add Chattam Tho Poratam (1985) as lead",95%,"",flag_review
+missing_field,"Simhapoori Simham",1983,movie,"-","Add Simhapoori Simham (1983) as lead",95%,"",flag_review
+missing_field,"Ooriki Ichina Maata",1981,movie,"-","Add Ooriki Ichina Maata (1981) as lead",95%,"",flag_review
+missing_field,"Prema Tarangalu",1980,movie,"-","Add Prema Tarangalu (1980) as lead",95%,"",flag_review
+missing_field,"Mosagadu",1980,movie,"-","Add Mosagadu (1980) as lead",95%,"",flag_review
+missing_field,"Kottapeta Rowdy",1980,movie,"-","Add Kottapeta Rowdy (1980) as lead",95%,"",flag_review
+missing_field,"Idi Katha Kaadu",1979,movie,"-","Add Idi Katha Kaadu (1979) as lead",95%,"",flag_review
+missing_field,"Bruce Lee - The Fighter",2015,movie,"-","Add Bruce Lee - The Fighter (2015) as cameo",90%,"",flag_review
+missing_field,"Style",2006,movie,"-","Add Style (2006) as cameo",90%,"",flag_review
+missing_field,"Hands Up",2000,movie,"-","Add Hands Up (2000) as cameo",90%,"",flag_review
+missing_field,"Manavoori Pandavulu",1978,movie,"-","Add Manavoori Pandavulu (1978) as support",85%,"",flag_review

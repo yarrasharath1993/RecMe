@@ -1,0 +1,439 @@
+{
+  "actor": "Daggubati Venkatesh",
+  "timestamp": "2026-01-10T23:34:41.338Z",
+  "total_movies": 131,
+  "issues": {
+    "duplicates": [
+      {
+        "slug": "drushyam-2-the-resumption-2021",
+        "title": "Drushyam 2: The Resumption",
+        "year": 2021,
+        "duplicate_of": "drushyam-2-2021",
+        "tmdb_id": 847767
+      },
+      {
+        "slug": "aadavari-matalaku-ardhalu-verule-2007",
+        "title": "Aadavari Matalaku Ardhalu Verule",
+        "year": 2007,
+        "duplicate_of": "aadavari-matalaku-arthale-verule-2007",
+        "tmdb_id": 80826
+      },
+      {
+        "slug": "pavitra-bandham-1996",
+        "title": "Pavitra Bandham",
+        "year": 1996,
+        "duplicate_of": "pavithra-bandham-1996",
+        "tmdb_id": 279477
+      },
+      {
+        "slug": "sundarakanda-1992",
+        "title": "Sundarakanda",
+        "year": 1992,
+        "duplicate_of": "sundara-kanda-1992",
+        "tmdb_id": null
+      }
+    ],
+    "wrong_attribution": [
+      {
+        "slug": "shadow-2013",
+        "title": "Shadow",
+        "year": 2013,
+        "tmdb_id": 37813,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Jake Muxworthy, Karina Testa, Nuot Arquint, Chris Coppola, Ottaviano Blitch, Matt Patresi, Emilio De Marchi, Gianpiero Cognoli"
+      },
+      {
+        "slug": "bodyguard-2012",
+        "title": "Bodyguard",
+        "year": 2012,
+        "tmdb_id": 898801,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Lei Mu, Liwei Li"
+      },
+      {
+        "slug": "alasyam-amrutham-2010",
+        "title": "Alasyam Amrutham",
+        "year": 2010,
+        "tmdb_id": 307736,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Nikhil Siddhartha, Arvind Krishna, Madalasa Sharma"
+      },
+      {
+        "slug": "charminar-2003",
+        "title": "Charminar",
+        "year": 2003,
+        "tmdb_id": 510446,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Ashwin Kumar, Hemanth Menon, Harshika Poonacha, Manoj Guinness"
+      },
+      {
+        "slug": "dhanush-2003",
+        "title": "Dhanush",
+        "year": 2003,
+        "tmdb_id": 1515149,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Vishnuvardhan, Sangeeta Bijlani, Roopa Ganguly, Suresh Oberoi, Sadashiv Amrapurkar, Karan Shah, Amita Nangia, Dalip Tahil, Tiku Talsania, Jack Gaud"
+      },
+      {
+        "slug": "friends-2002",
+        "title": "Friends",
+        "year": 2002,
+        "tmdb_id": 1515332,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Vasu, Shyam, Hari, Sharan, Master Anand, Ruthika, Mimicry Dayanad, Kashi, Tennis Krishna, Rekha Das"
+      },
+      {
+        "slug": "manasunna-maaraju-2000",
+        "title": "Manasunna Maaraju",
+        "year": 2000,
+        "tmdb_id": 1073095,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Dr. Rajasekhar, Laya, Rajitha, Kota Srinivasa Rao, Flora Saini, Brahmanandam, Manorama"
+      },
+      {
+        "slug": "telangana-1999",
+        "title": "Telangana",
+        "year": 1999,
+        "tmdb_id": 308202,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Jagapati Babu, Smriti Irani, Meera Nandan, Sanga Pratap Kumar"
+      },
+      {
+        "slug": "maa-balaji-1999",
+        "title": "Maa Balaji",
+        "year": 1999,
+        "tmdb_id": 413587,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: "
+      },
+      {
+        "slug": "rajahamsa-1998",
+        "title": "Rajahamsa",
+        "year": 1998,
+        "tmdb_id": 596201,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Gowrishankar, Ranjani Raghavan, Yamuna, Sridhar"
+      },
+      {
+        "slug": "naga-kanya-1992",
+        "title": "Naga Kanya",
+        "year": 1992,
+        "tmdb_id": 992296,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Suresh, Nirosha, Ranganath"
+      },
+      {
+        "slug": "sundara-kanda-1992",
+        "title": "Sundara Kanda",
+        "year": 1992,
+        "tmdb_id": 408395,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: K. Bhagyaraj, Bhanupriya, Sindhuja, Junior Balaiah"
+      },
+      {
+        "slug": "shanti-kranti-1991",
+        "title": "Shanti Kranti",
+        "year": 1991,
+        "tmdb_id": 66253,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: V. Ravichandran, Nagarjuna Akkineni, Rajinikanth, Juhi Chawla Mehta, Ramesh Aravind, Anant Nag, Khushboo, Srinath, Jaishankar, Alok Nath"
+      },
+      {
+        "slug": "bharat-bandh-1991",
+        "title": "Bharat Bandh",
+        "year": 1991,
+        "tmdb_id": 920267,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Archana, Vinod Kumar, Rahman"
+      },
+      {
+        "slug": "sarpayagam-1991",
+        "title": "Sarpayagam",
+        "year": 1991,
+        "tmdb_id": 278181,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Sobhan Babu, Roja Selvamani, Vani Viswanath, Brahmanandam, Raghunatha Reddy"
+      },
+      {
+        "slug": "police-bharya-1990",
+        "title": "Police Bharya",
+        "year": 1990,
+        "tmdb_id": 1063004,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Naresh, Seetha, Gollapudi Maruti Rao, Ahuti Prasad, Potti Prasad, Janaki"
+      },
+      {
+        "slug": "iddaru-iddare-1990",
+        "title": "Iddaru Iddare",
+        "year": 1990,
+        "tmdb_id": 577357,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Nageshwara Rao Akkineni, Nagarjuna Akkineni, Ramya Krishnan, Kota Srinivasa Rao, K R Vijaya"
+      },
+      {
+        "slug": "agni-1989",
+        "title": "Agni",
+        "year": 1989,
+        "tmdb_id": 1079595,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Nagarjuna Akkineni, Shanti Priya, Rao Gopal Rao, Kaikala Satyanarayana, Vanisri, Mohan Babu, Allu Ramalingaiah, Rallapalli Narasimha, Brahmanandam, Narra Venkateswara Rao"
+      },
+      {
+        "slug": "sutradharulu-1989",
+        "title": "Sutradharulu",
+        "year": 1989,
+        "tmdb_id": 105356,
+        "details": "Daggubati Venkatesh not found in TMDB cast. Top cast: Nageshwara Rao Akkineni, Bhanuchander, Ramya Krishnan, Sujatha, K R Vijaya, Kaikala Satyanarayana, Murali Mohan, Saakshi Ranga Rao, Kota Shankar Rao"
+      }
+    ],
+    "no_verification": [
+      {
+        "slug": "nagamani-2010",
+        "title": "Nagamani",
+        "year": 2010
+      },
+      {
+        "slug": "evadaithe-nakenti-2007",
+        "title": "Evadaithe Nakenti",
+        "year": 2007
+      },
+      {
+        "slug": "sankranti-2005",
+        "title": "Sankranti",
+        "year": 2005
+      },
+      {
+        "slug": "shivashankar-2004",
+        "title": "Shivashankar",
+        "year": 2004
+      },
+      {
+        "slug": "vasantam-2003",
+        "title": "Vasantam",
+        "year": 2003
+      },
+      {
+        "slug": "bobbili-vamsam-1999",
+        "title": "Bobbili Vamsam",
+        "year": 1999
+      },
+      {
+        "slug": "suprabhatam-1998",
+        "title": "Suprabhatam",
+        "year": 1998
+      },
+      {
+        "slug": "all-rounder-1998",
+        "title": "All Rounder",
+        "year": 1998
+      },
+      {
+        "slug": "jai-bajarangabhali-1997",
+        "title": "Jai Bajarangabhali",
+        "year": 1997
+      },
+      {
+        "slug": "chinnabbayi-1997",
+        "title": "Chinnabbayi",
+        "year": 1997
+      },
+      {
+        "slug": "veedevadandi-babu-1997",
+        "title": "Veedevadandi Babu",
+        "year": 1997
+      },
+      {
+        "slug": "amma-durgamma-1996",
+        "title": "Amma Durgamma",
+        "year": 1996
+      },
+      {
+        "slug": "chinnabbayi-1996",
+        "title": "Chinnabbayi",
+        "year": 1996
+      },
+      {
+        "slug": "family-1996",
+        "title": "Family",
+        "year": 1996
+      },
+      {
+        "slug": "ayanaku-iddaru-1995",
+        "title": "Ayanaku Iddaru",
+        "year": 1995
+      },
+      {
+        "slug": "kunti-putrudu-1993",
+        "title": "Kunti Putrudu",
+        "year": 1993
+      },
+      {
+        "slug": "ratha-sarathi-1993",
+        "title": "Ratha Sarathi",
+        "year": 1993
+      },
+      {
+        "slug": "abbaigaru-1993",
+        "title": "Abbaigaru",
+        "year": 1993
+      },
+      {
+        "slug": "prema-drohi-1992",
+        "title": "Prema Drohi",
+        "year": 1992
+      },
+      {
+        "slug": "police-brothers-1992",
+        "title": "Police Brothers",
+        "year": 1992
+      },
+      {
+        "slug": "raguluthunna-bharatham-1992",
+        "title": "Raguluthunna Bharatham",
+        "year": 1992
+      },
+      {
+        "slug": "naga-bala-1992",
+        "title": "Naga Bala",
+        "year": 1992
+      },
+      {
+        "slug": "chakravyuham-1992",
+        "title": "Chakravyuham",
+        "year": 1992
+      },
+      {
+        "slug": "sundarakanda-1992",
+        "title": "Sundarakanda",
+        "year": 1992
+      },
+      {
+        "slug": "ahankari-1992",
+        "title": "Ahankari",
+        "year": 1992
+      },
+      {
+        "slug": "champion-1992",
+        "title": "Champion",
+        "year": 1992
+      },
+      {
+        "slug": "donga-police-1992",
+        "title": "Donga Police",
+        "year": 1992
+      },
+      {
+        "slug": "prardhana-1991",
+        "title": "Prardhana",
+        "year": 1991
+      },
+      {
+        "slug": "athiradhudu-1991",
+        "title": "Athiradhudu",
+        "year": 1991
+      },
+      {
+        "slug": "siva-shakthi-1991",
+        "title": "Siva Shakthi",
+        "year": 1991
+      },
+      {
+        "slug": "chanti-1991",
+        "title": "Chanti",
+        "year": 1991
+      },
+      {
+        "slug": "bhargava-1991",
+        "title": "Bhargava",
+        "year": 1991
+      },
+      {
+        "slug": "alajadi-1990",
+        "title": "Alajadi",
+        "year": 1990
+      },
+      {
+        "slug": "sathruvu-1990",
+        "title": "Sathruvu",
+        "year": 1990
+      },
+      {
+        "slug": "agni-sakshi-1990",
+        "title": "Agni Sakshi",
+        "year": 1990
+      },
+      {
+        "slug": "adadhi-1990",
+        "title": "Adadhi",
+        "year": 1990
+      },
+      {
+        "slug": "ankusam-1990",
+        "title": "Ankusam",
+        "year": 1990
+      },
+      {
+        "slug": "qaidi-dada-1990",
+        "title": "Qaidi Dada",
+        "year": 1990
+      },
+      {
+        "slug": "bharata-nari-1989",
+        "title": "Bharata Nari",
+        "year": 1989
+      },
+      {
+        "slug": "naga-pournami-1989",
+        "title": "Naga Pournami",
+        "year": 1989
+      },
+      {
+        "slug": "preminchi-choodu-1989",
+        "title": "Preminchi Choodu",
+        "year": 1989
+      },
+      {
+        "slug": "poola-rangadu-1989",
+        "title": "Poola Rangadu",
+        "year": 1989
+      },
+      {
+        "slug": "dhruva-nakshatram-1989",
+        "title": "Dhruva Nakshatram",
+        "year": 1989
+      },
+      {
+        "slug": "gaduggai-1989",
+        "title": "Gaduggai",
+        "year": 1989
+      },
+      {
+        "slug": "bazaar-rowdy-1988",
+        "title": "Bazaar Rowdy",
+        "year": 1988
+      },
+      {
+        "slug": "raktha-tilakam-1988",
+        "title": "Raktha Tilakam",
+        "year": 1988
+      },
+      {
+        "slug": "varasudochadu-1988",
+        "title": "Varasudochadu",
+        "year": 1988
+      },
+      {
+        "slug": "ajeyudu-1987",
+        "title": "Ajeyudu",
+        "year": 1987
+      },
+      {
+        "slug": "bharatamlo-arjunudu-1987",
+        "title": "Bharatamlo Arjunudu",
+        "year": 1987
+      },
+      {
+        "slug": "bharathamlo-arjunudu-1987",
+        "title": "Bharathamlo Arjunudu",
+        "year": 1987
+      },
+      {
+        "slug": "chinnari-devatha-1987",
+        "title": "Chinnari Devatha",
+        "year": 1987
+      },
+      {
+        "slug": "kaliyuga-krishnudu-1986",
+        "title": "Kaliyuga Krishnudu",
+        "year": 1986
+      },
+      {
+        "slug": "devalayam-1985",
+        "title": "Devalayam",
+        "year": 1985
+      }
+    ]
+  }
+}

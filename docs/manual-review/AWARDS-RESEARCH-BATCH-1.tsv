@@ -1,0 +1,48 @@
+slug	name_en	occupation	wikipedia_url	awards_found	status	notes
+# BATCH 1: TOP 20 LEGENDS NEEDING AWARDS RESEARCH
+# 
+# MAJOR AWARDS TO SEARCH FOR:
+# 1. National Film Awards (most prestigious) - https://en.wikipedia.org/wiki/National_Film_Awards
+# 2. Filmfare Awards South - https://en.wikipedia.org/wiki/Filmfare_Awards_South
+# 3. Nandi Awards (AP state) - https://en.wikipedia.org/wiki/Nandi_Awards
+# 4. SIIMA Awards - https://en.wikipedia.org/wiki/South_Indian_International_Movie_Awards
+# 5. Padma Awards (Civilian) - Padma Shri, Padma Bhushan, Padma Vibhushan
+# 6. Dadasaheb Phalke Award - Lifetime achievement
+#
+# INSTRUCTIONS:
+# 1. Visit Wikipedia page → look for "Awards" or "Honors" section
+# 2. Check IMDb awards page (if available)
+# 3. List all major awards in "awards_found" column (comma-separated)
+# 4. Format: "Award Name (Year) - Category [for Movie]"
+# 5. Mark status as DONE when complete
+# 6. We'll batch-import these afterwards
+
+celeb-murali-mohan	Murali Mohan	Actor	https://en.wikipedia.org/wiki/Murali_Mohan		PENDING	
+celeb-k	K. S. Ravikumar	Director	https://en.wikipedia.org/wiki/K._S._Ravikumar		PENDING	
+celeb-ramya-krishna	Ramya Krishna	Actress	https://en.wikipedia.org/wiki/Ramya_Krishna		PENDING	
+celeb-kanta-rao	Kanta Rao	Actor	https://en.wikipedia.org/wiki/Kanta_Rao		PENDING	
+celeb-kodi-ramakrishna	Kodi Ramakrishna	Director	https://en.wikipedia.org/wiki/Kodi_Ramakrishna		PENDING	
+celeb-suman	Suman	Actor	https://en.wikipedia.org/wiki/Suman_(actor)		PENDING	
+celeb-kodandarami-reddy	A. Kodandarami Reddy	Director	https://en.wikipedia.org/wiki/A._Kodandarami_Reddy		PENDING	
+celeb-roja	Roja	Actress/Politician	https://en.wikipedia.org/wiki/Roja_(actress)		PENDING	
+anjali-devi	Anjali Devi	Actress	https://en.wikipedia.org/wiki/Anjali_Devi		PENDING	
+krishnam-raju	Krishnam Raju	Actor	https://en.wikipedia.org/wiki/Krishnam_Raju		PENDING	
+nandamuri-balakrishna	Nandamuri Balakrishna	Actor	https://en.wikipedia.org/wiki/Nandamuri_Balakrishna		PENDING	
+celeb-arjun	Arjun Sarja	Actor	https://en.wikipedia.org/wiki/Arjun_Sarja		PENDING	
+celeb-b	B. Gopal	Director	https://en.wikipedia.org/wiki/B._Gopal		PENDING	
+celeb-k-vasu	K. Vasu	Director	https://en.wikipedia.org/wiki/K._Vasu		PENDING	
+celeb-naresh	Naresh	Actor	https://en.wikipedia.org/wiki/Naresh_(actor)		PENDING	
+celeb-teja	Teja	Director	https://en.wikipedia.org/wiki/Teja_(director)		PENDING	
+celeb-ajay	Ajay	Actor	https://en.wikipedia.org/wiki/Ajay_(actor)		PENDING	
+celeb-ramakrishna	Ramakrishna	Actor	https://en.wikipedia.org/wiki/Ramakrishna_(actor)		PENDING	
+celeb-lakshmi	Lakshmi	Actress	https://en.wikipedia.org/wiki/Lakshmi_(actress)		PENDING	
+celeb-brahmanandam	Brahmanandam	Actor/Comedian	https://en.wikipedia.org/wiki/Brahmanandam		PENDING	
+
+# EXAMPLE OF COMPLETED ENTRY:
+# chiranjeevi	Chiranjeevi	Actor	https://en.wikipedia.org/wiki/Chiranjeevi	Padma Bhushan (2006); Padma Vibhushan (2024); Nandi Award Best Actor (1987, 1988, 1990); Filmfare Best Actor (1987, 1988, 1989); Raghupathi Venkaiah Award (2016); Honorary Doctorate (2006)	DONE	15 major awards found
+
+# PROGRESS TRACKER
+# Total: 20
+# Completed: 0
+# Remaining: 20
+# Estimated time: 5-6 hours (15-20 minutes per profile for comprehensive research)

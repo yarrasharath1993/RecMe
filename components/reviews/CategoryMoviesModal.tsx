@@ -197,7 +197,7 @@ export function CategoryMoviesModal({
               {movies.map((movie) => (
                 <Link
                   key={movie.id}
-                  href={`/reviews/${movie.slug}`}
+                  href={`/movies/${movie.slug}`}
                   onClick={onClose}
                   className="group relative rounded-lg overflow-hidden bg-[var(--bg-secondary)] hover:ring-2 hover:ring-orange-500 transition-all"
                 >

@@ -1,0 +1,101 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            QUICK ENRICHMENT PIPELINE (3 PHASES)                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Fetching movies...
+  ✅ Loaded 1000 movies
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 1: TRAILERS                                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🎬 840 movies need trailers
+  Progress: 5/840 (2 added)
+  Progress: 55/840 (8 added)
+  Progress: 105/840 (12 added)
+  Progress: 155/840 (18 added)
+  Progress: 205/840 (30 added)
+  Progress: 255/840 (35 added)
+  Progress: 305/840 (41 added)
+  Progress: 355/840 (41 added)
+  Progress: 405/840 (48 added)
+  Progress: 455/840 (57 added)
+  Progress: 505/840 (63 added)
+  Progress: 555/840 (75 added)
+  Progress: 605/840 (80 added)
+  Progress: 655/840 (86 added)
+  Progress: 705/840 (92 added)
+  Progress: 755/840 (99 added)
+  Progress: 805/840 (104 added)
+  ✅ Trailers enriched: 106
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 2: AUTO-TAGS                                                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🏷️  984 movies need tags
+  ✅ Tags applied: 15
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  PHASE 3: SYNOPSIS TRANSLATION                                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📝 404 movies need Telugu synopsis
+  Progress: 1/404 (1 translated)
+  Progress: 11/404 (11 translated)
+  Progress: 21/404 (21 translated)
+  Progress: 31/404 (31 translated)
+  Progress: 41/404 (41 translated)
+  Progress: 51/404 (51 translated)
+  Progress: 61/404 (61 translated)
+  Progress: 71/404 (71 translated)
+  Progress: 81/404 (81 translated)
+  Progress: 91/404 (91 translated)
+  Progress: 101/404 (101 translated)
+  Progress: 111/404 (111 translated)
+  Progress: 121/404 (121 translated)
+  Progress: 131/404 (131 translated)
+  Progress: 141/404 (141 translated)
+  Progress: 151/404 (151 translated)
+  Progress: 161/404 (161 translated)
+  Progress: 171/404 (171 translated)
+  Progress: 181/404 (181 translated)
+  Progress: 191/404 (191 translated)
+  Progress: 201/404 (201 translated)
+  Progress: 211/404 (211 translated)
+  Progress: 221/404 (221 translated)
+  Progress: 231/404 (231 translated)
+  Progress: 241/404 (241 translated)
+  Progress: 251/404 (251 translated)
+  Progress: 261/404 (261 translated)
+  Progress: 271/404 (271 translated)
+  Progress: 281/404 (281 translated)
+  Progress: 291/404 (291 translated)
+  Progress: 301/404 (301 translated)
+  Progress: 311/404 (311 translated)
+  Progress: 321/404 (321 translated)
+  Progress: 331/404 (331 translated)
+  Progress: 341/404 (341 translated)
+  Progress: 351/404 (351 translated)
+  Progress: 361/404 (361 translated)
+  Progress: 371/404 (371 translated)
+  Progress: 381/404 (381 translated)
+  Progress: 391/404 (391 translated)
+  Progress: 401/404 (401 translated)
+  ✅ Synopsis translated: 404
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            PIPELINE COMPLETE!                                         ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 1000
+  Duration: 13.1 minutes
+
+  ✅ Trailers added: 106
+  ✅ Tags applied: 15
+  ✅ Synopsis translated: 404
+
+  Total enrichments: 525
+

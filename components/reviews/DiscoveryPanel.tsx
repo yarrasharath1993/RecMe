@@ -26,12 +26,12 @@ interface DiscoveryPanelProps {
 // ============================================================
 
 const QUICK_PICKS = [
-  { id: 'top-10', label: 'Top 10', icon: '🏆', description: 'Highest rated', link: '/reviews?sort=rating&limit=10', gradient: 'from-yellow-500/20 to-amber-500/10' },
-  { id: 'best-2024', label: 'Best of 2024', icon: '⭐', description: 'Year\'s finest', link: '/reviews?year=2024&sort=rating', gradient: 'from-orange-500/20 to-red-500/10' },
-  { id: 'hidden-gems', label: 'Hidden Gems', icon: '💎', description: 'Underrated picks', link: '/reviews/hidden-gems', gradient: 'from-purple-500/20 to-pink-500/10' },
-  { id: 'blockbusters', label: 'Blockbusters', icon: '🎬', description: 'Box office hits', link: '/reviews/blockbusters', gradient: 'from-blue-500/20 to-cyan-500/10' },
-  { id: 'classics', label: 'Classics', icon: '🎭', description: 'Timeless films', link: '/reviews/classics', gradient: 'from-amber-500/20 to-yellow-500/10' },
-  { id: 'underrated', label: 'Underrated', icon: '📺', description: 'Overlooked gems', link: '/reviews?underrated=true', gradient: 'from-teal-500/20 to-emerald-500/10' },
+  { id: 'top-10', label: 'Top 10', icon: '🏆', description: 'Highest rated', link: '/movies?sort=rating&limit=10', gradient: 'from-yellow-500/20 to-amber-500/10' },
+  { id: 'best-2024', label: 'Best of 2024', icon: '⭐', description: 'Year\'s finest', link: '/movies?year=2024&sort=rating', gradient: 'from-orange-500/20 to-red-500/10' },
+  { id: 'hidden-gems', label: 'Hidden Gems', icon: '💎', description: 'Underrated picks', link: '/movies/hidden-gems', gradient: 'from-purple-500/20 to-pink-500/10' },
+  { id: 'blockbusters', label: 'Blockbusters', icon: '🎬', description: 'Box office hits', link: '/movies/blockbusters', gradient: 'from-blue-500/20 to-cyan-500/10' },
+  { id: 'classics', label: 'Classics', icon: '🎭', description: 'Timeless films', link: '/movies/classics', gradient: 'from-amber-500/20 to-yellow-500/10' },
+  { id: 'underrated', label: 'Underrated', icon: '📺', description: 'Overlooked gems', link: '/movies?underrated=true', gradient: 'from-teal-500/20 to-emerald-500/10' },
 ];
 
 // Random genres for Surprise Me

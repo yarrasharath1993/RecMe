@@ -1,0 +1,201 @@
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║              ENRICH GENRES FROM TMDB                                  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Phase 1: Recent Movies (2020+)...
+
+  ✓ Found 80 recent movies to enrich
+
+  Processing 80 movies in batches of 5...
+
+  Batch 1/16
+    Lenin (2026)
+      Current: [Drama]
+    Anantha (2026)
+      Current: [Drama]
+    Aakasam Lo Oka Tara (2026)
+      Current: [Drama]
+    Vanaveera (2026)
+      Current: [Action]
+    Sahakutumbaanaam (2026)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ✓ Updated: [Mystery]
+  Batch 2/16
+    Arjun Chakravarthy (2025)
+      Current: [Drama]
+    Guard: Revenge for Love (2025)
+      Current: [Drama]
+    Akhanda 2: Thaandavam (2025)
+      Current: [Action]
+    Vaamana (2025)
+      Current: [Action]
+    Paradha (2025)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 3/16
+    Shambhala (2025)
+      Current: [Drama]
+    Daaku Maharaaj (2025)
+      Current: [Action]
+    Ramam Raghavam (2025)
+      Current: [Drama]
+    Die My Love (2025)
+      Current: [Drama]
+    Goodbye June (2025)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Documentary]
+  Batch 4/16
+    Robinhood (2025)
+      Current: [Action]
+    Marty Supreme (2025)
+      Current: [Drama]
+    1000 Waala (2025)
+      Current: [Action]
+    Maa Nanna Superhero (2024)
+      Current: [Drama]
+    Anthima Theerpu (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Drama, Comedy]
+  Batch 5/16
+    Ruslaan (2024)
+      Current: [Action]
+    Zebra (2024)
+      Current: [Drama]
+    Leela Vinodam (2024)
+      Current: [Drama]
+    Double Engine (2024)
+      Current: [Drama]
+    Drinker Sai (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 6/16
+    Prathinidhi 2 (2024)
+      Current: [Drama]
+    Committee Kurrollu (2024)
+      Current: [Drama]
+    Sarkaaru Noukari (2024)
+      Current: [Drama]
+    Narudi Brathuku Natana (2024)
+      Current: [Drama]
+    Akshara (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 7/16
+    Sheeshmahal (2024)
+      Current: [Drama]
+    Utsavam (2024)
+      Current: [Drama]
+    Laggam (2024)
+      Current: [Drama]
+    Sam Anton (2024)
+      Current: [Drama]
+    Pekamedalu (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 8/16
+    Aattam (2024)
+      Current: [Drama]
+    Raajadhani Files (2024)
+      Current: [Drama]
+    Sriranga Neethulu (2024)
+      Current: [Drama]
+    Dheera (2024)
+      Current: [Action]
+    Ground (2024)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 9/16
+    Krishnamma (2024)
+      Current: [Action]
+    12th Fail (2023)
+      Current: [Drama]
+    Kaathal - The Core (2023)
+      Current: [Drama]
+    Karna (2023)
+      Current: [Drama]
+    Kill Shot (2023)
+      Current: [Action]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 10/16
+    Saachi (2023)
+      Current: [Drama]
+    Simón (2023)
+      Current: [Drama]
+    Nikamma (2022)
+      Current: [Action]
+    Kadaisi Vivasayi (2022)
+      Current: [Drama]
+    Panchatantra Kathalu (2022)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ✓ Updated: [Animation, Action, Fantasy]
+  Batch 11/16
+    Darja (2022)
+      Current: [Action]
+    Ranasthali (2022)
+      Current: [Action]
+    Happy Birthday (2022)
+      Current: [Drama]
+    Nenu C/o Nuvvu (2022)
+      Current: [Drama]
+    Mukundan Unni Associates™ (2022)
+      Current: [Action]
+      ⚠ No genres from TMDB
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+      ⊘ No change needed
+  Batch 12/16
+    Pogaru (2021)
+      Current: [Action]
+    The Great Indian Kitchen (2021)
+      Current: [Drama]
+    Seetimaarr (2021)
+      Current: [Action]
+    Aakashavaani (2021)
+      Current: [Drama]
+    Gamanam (2021)
+      Current: [Drama]
+      ⊘ No change needed
+      ⊘ No change needed
+      ⚠ No genres from TMDB

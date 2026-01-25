@@ -1,0 +1,412 @@
+{
+  "actor": "Pawan",
+  "timestamp": "2026-01-11T21:05:50.511Z",
+  "totalAnomalies": 37,
+  "byType": {
+    "flagged": 9,
+    "reportOnly": 28
+  },
+  "byCategory": {
+    "duplicates": 5,
+    "wrongAttribution": 0,
+    "missingFields": 28,
+    "conflicts": 3
+  },
+  "anomalies": [
+    {
+      "type": "duplicate",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta",
+      "confidence": 0.9333333333333333,
+      "details": "Duplicate of \"Gokulamlo Seetha\" (1997) - 93% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Khushi",
+      "year": 2001,
+      "slug": "khushi",
+      "confidence": 0.8333333333333334,
+      "details": "Duplicate of \"Kushi\" (2001) - 83% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Komaram Puli",
+      "year": 2010,
+      "slug": "komaram-puli",
+      "confidence": 0.9,
+      "details": "Duplicate of \"Puli\" (2010) - 90% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Attarintiki Daredi",
+      "year": 2013,
+      "slug": "attarintiki-daredi",
+      "confidence": 0.8888888888888888,
+      "details": "Duplicate of \"Atharintiki Daaredi\" (2013) - 89% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Hari Hara Veera Mallu",
+      "year": 2025,
+      "slug": "hari-hara-veera-mallu",
+      "confidence": 0.9,
+      "details": "Duplicate of \"Hari Hara Veera Mallu: Part 1 – Sword vs Spirit\" (2025) - 90% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "They Call Him OG 2",
+      "year": null,
+      "slug": "they-call-him-og-2",
+      "confidence": 0.85,
+      "details": "Released 1996 years before Pawan's debut (1996)",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Ustaad Bhagat Singh",
+      "year": 2026,
+      "slug": "ustaad-bhagat-singh-2026",
+      "field": "tmdb_id",
+      "currentValue": "1022788",
+      "confidence": 0.8,
+      "details": "TMDB movie is zh, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Pancharangi",
+      "year": 2010,
+      "slug": "pancharangi-2010",
+      "field": "tmdb_id",
+      "currentValue": "229430",
+      "confidence": 0.8,
+      "details": "TMDB movie is kn, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Khushi",
+      "year": 2001,
+      "slug": "khushi-2001",
+      "field": "tmdb_id",
+      "currentValue": "10757",
+      "confidence": 0.8,
+      "details": "TMDB movie is hi, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "missing_field",
+      "movie": "They Call Him OG 2",
+      "year": null,
+      "slug": "they-call-him-og-2-tba",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "They Call Him OG 2",
+      "year": null,
+      "slug": "they-call-him-og-2-tba",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Double Engine",
+      "year": 2024,
+      "slug": "double-engine-2024",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Pancharangi",
+      "year": 2010,
+      "slug": "pancharangi-2010",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Pancharangi",
+      "year": 2010,
+      "slug": "pancharangi-2010",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Pancharangi",
+      "year": 2010,
+      "slug": "pancharangi-2010",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Pancharangi",
+      "year": 2010,
+      "slug": "pancharangi-2010",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Balu",
+      "year": 2005,
+      "slug": "balu-2005",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Balu",
+      "year": 2005,
+      "slug": "balu-2005",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Thammudu",
+      "year": 1999,
+      "slug": "thammudu-1999",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Thammudu",
+      "year": 1999,
+      "slug": "thammudu-1999",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Thammudu",
+      "year": 1999,
+      "slug": "thammudu-1999",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Thammudu",
+      "year": 1999,
+      "slug": "thammudu-1999",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Suswagatham",
+      "year": 1998,
+      "slug": "suswagatham-1998",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Suswagatham",
+      "year": 1998,
+      "slug": "suswagatham-1998",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Tholi Prema",
+      "year": 1998,
+      "slug": "tholi-prema-1998",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Tholi Prema",
+      "year": 1998,
+      "slug": "tholi-prema-1998",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Tholi Prema",
+      "year": 1998,
+      "slug": "tholi-prema-1998",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta-1997",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta-1997",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta-1997",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta-1997",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seeta",
+      "year": 1997,
+      "slug": "gokulamlo-seeta-1997",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seetha",
+      "year": 1997,
+      "slug": "gokulamlo-seetha-1997",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seetha",
+      "year": 1997,
+      "slug": "gokulamlo-seetha-1997",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Gokulamlo Seetha",
+      "year": 1997,
+      "slug": "gokulamlo-seetha-1997",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Akkada Ammayi Ikkada Abbayi",
+      "year": 1996,
+      "slug": "akkada-ammayi-ikkada-abbayi-1996",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Akkada Ammayi Ikkada Abbayi",
+      "year": 1996,
+      "slug": "akkada-ammayi-ikkada-abbayi-1996",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    }
+  ]
+}

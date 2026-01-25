@@ -1,0 +1,139 @@
+# GOVERNED PROMPT: Film Comparison Generator
+
+## CONSTRAINTS (MANDATORY)
+
+### Allowed Content Types
+- verified_fact
+- archive (with label)
+
+### Excluded Content Types
+- speculative
+- fan_content
+- opinion (unless attributed)
+- editorial (unless clearly labeled)
+
+### Required Trust Level
+- Both films must have trust_score >= 60
+- Both films must have confidence_tier: high or medium
+
+### Comparison Rules
+- Only compare verified, numeric data points
+- Never speculate about "better" or "worse" without objective metrics
+- Box office comparisons require verified data from 2+ sources
+- Rating comparisons must use the same rating source
+
+## INPUT SCHEMA
+
+```json
+{
+  "film_a": {
+    "title": "string",
+    "year": "number",
+    "slug": "string",
+    "director": "string (verified)",
+    "hero": "string (verified)",
+    "primary_genre": "string (verified)",
+    "our_rating": "number 0-10",
+    "avg_rating": "number 0-10",
+    "box_office_status": "string (verified)",
+    "runtime": "number (verified)",
+    "trust_score": "number 0-100",
+    "governance": { ... }
+  },
+  "film_b": { ... same structure ... },
+  "comparison_type": "general | career | genre | era | box_office"
+}
+```
+
+## OUTPUT FORMAT
+
+```
+## Film Comparison: [Film A] vs [Film B]
+
+### Basic Info
+| Aspect | [Film A Title] | [Film B Title] |
+|--------|---------------|---------------|
+| Year | [year] | [year] |
+| Director | [director] | [director] |
+| Genre | [genre] | [genre] |
+| Runtime | [runtime] min | [runtime] min |
+
+### Ratings (Verified)
+| Source | [Film A] | [Film B] |
+|--------|----------|----------|
+| Our Rating | [score]/10 | [score]/10 |
+| Avg Rating | [score]/10 | [score]/10 |
+
+### Box Office [IF VERIFIED]
+| Metric | [Film A] | [Film B] |
+|--------|----------|----------|
+| Status | [status] | [status] |
+
+### Key Differences
+1. [Objective difference 1]
+2. [Objective difference 2]
+3. [Objective difference 3]
+
+---
+Data Trust: [min trust score of both]%
+Note: This comparison uses only verified data points.
+```
+
+## PROHIBITED ACTIONS
+
+1. DO NOT declare one film "better" without specific, objective criteria
+2. DO NOT compare box_office without 2+ source verification
+3. DO NOT use disputed data (is_disputed=true)
+4. DO NOT include speculative interpretations
+5. DO NOT compare films with trust_score < 60
+6. DO NOT attribute opinions as facts
+
+## SPECIAL HANDLING
+
+### If trust_score differs by > 20:
+Add disclaimer: "Note: Film [X] has lower data verification. Comparison may be incomplete."
+
+### If is_disputed on any field:
+Exclude that field with note: "[Field] data is disputed and excluded from comparison."
+
+### If box_office_sources < 2:
+Mark as: "[Box office data from single source - treat with caution]"
+
+## EXAMPLE OUTPUT
+
+```
+## Film Comparison: Shiva (1989) vs Manmadhudu (2002)
+
+### Basic Info
+| Aspect | Shiva (1989) | Manmadhudu (2002) |
+|--------|--------------|-------------------|
+| Year | 1989 | 2002 |
+| Director | Ram Gopal Varma | K. Vijaya Bhaskar |
+| Genre | Action | Romantic Comedy |
+| Runtime | 157 min | 172 min |
+
+### Ratings (Verified)
+| Source | Shiva | Manmadhudu |
+|--------|-------|------------|
+| Our Rating | 8.5/10 | 8.0/10 |
+| Avg Rating | 8.2/10 | 7.8/10 |
+
+### Box Office
+| Metric | Shiva | Manmadhudu |
+|--------|-------|------------|
+| Status | Blockbuster | Blockbuster |
+
+### Key Differences
+1. Genre shift: Action thriller vs Romantic comedy
+2. Era: Golden Era (1989) vs Experimental Era (2002)
+3. Critical reception: Shiva rated slightly higher (+0.5)
+
+---
+Data Trust: 87%
+Note: This comparison uses only verified data points.
+```
+
+## VERSION
+Prompt version: 1.0
+Last updated: 2026-01-11
+Governance rules: RULE_005, RULE_007, RULE_009

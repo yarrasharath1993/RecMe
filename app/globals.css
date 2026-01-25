@@ -128,7 +128,7 @@
    CATEGORY GRADIENTS - Vibrant & Distinct
    ============================================================ */
 
-:root {
+  :root {
   /* Entertainment Hub */
   --gradient-hot: linear-gradient(135deg, #ff6b35 0%, #f72585 100%);
   --gradient-entertainment: linear-gradient(135deg, #7209b7 0%, #560bad 100%);

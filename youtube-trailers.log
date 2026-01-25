@@ -1,0 +1,734 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         YOUTUBE TRAILER ENRICHMENT                                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading movies without trailers (prioritized)...
+  ✅ Loaded 33 movies to process
+
+  🎬 Searching for trailers...
+
+  [1/33] Funky (2026)
+    ✓ Trailer found and saved
+  [2/33] Rowdy Janardhana (2026)
+    ✓ Trailer found and saved
+  [3/33] The Paradise (2026)
+    ✓ Trailer found and saved
+  [4/33] Rao Bahadur (2026)
+    ✓ Trailer found and saved
+  [5/33] Swayambhu (2026)
+    ✓ Trailer found and saved
+  [6/33] Baahubali: The Epic (2025)
+    ✓ Trailer found and saved
+  [7/33] Arjun Chakravarthy (2025)
+    ✓ Trailer found and saved
+  [8/33] Guard: Revenge for Love (2025)
+    ✓ Trailer found and saved
+  [9/33] Anaganaga (2025)
+    ✓ Trailer found and saved
+  [10/33] 8 Vasantalu (2025)
+    ✓ Trailer found and saved
+
+  Progress: 10/33 (10 found, 0 not found)
+
+  [11/33] Paanch Minar (2025)
+    ✓ Trailer found and saved
+  [12/33] Court: State vs. A Nobody (2025)
+    ✓ Trailer found and saved
+  [13/33] Little Hearts (2025)
+    ✓ Trailer found and saved
+  [14/33] (MAD)² (2025)
+    ✓ Trailer found and saved
+  [15/33] HIT: The Third Case (2025)
+    ✓ Trailer found and saved
+  [16/33] Kuberaa (2025)
+    ✓ Trailer found and saved
+  [17/33] Mokshapatam (2025)
+    ✓ Trailer found and saved
+  [18/33] Mowgli (2025)
+    ✓ Trailer found and saved
+  [19/33] Paradha (2025)
+    ✓ Trailer found and saved
+  [20/33] Shambhala (2025)
+    ✓ Trailer found and saved
+
+  Progress: 20/33 (20 found, 0 not found)
+
+  [21/33] Subham (2025)
+    ✓ Trailer found and saved
+  [22/33] Mazaka (2025)
+    ✓ Trailer found and saved
+  [23/33] Dhandoraa (2025)
+    ✓ Trailer found and saved
+  [24/33] AA22xA6 (N/A)
+    ✓ Trailer found and saved
+  [25/33] Janakiram (N/A)
+    ✓ Trailer found and saved
+  [26/33] Anaganaga Oka Rowdy (N/A)
+    ✓ Trailer found and saved
+  [27/33] Sahaa (N/A)
+    ✓ Trailer found and saved
+  [28/33] Edhureetha (N/A)
+    ✓ Trailer found and saved
+  [29/33] Devara 2 (N/A)
+    ✓ Trailer found and saved
+  [30/33] Reppa (N/A)
+    ⚠️  No trailer found
+
+  Progress: 30/33 (29 found, 1 not found)
+
+  [31/33] As Time Echoes (N/A)
+    ✓ Trailer found and saved
+  [32/33] Umapathi (N/A)
+    ✓ Trailer found and saved
+  [33/33] Oh..! Sukumari (N/A)
+    ✓ Trailer found and saved
+
+  ✅ Trailer search complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies searched: 33
+  Duration: 1.4 minutes
+
+  ✅ Trailers found: 32
+  ⚠️  Trailers not found: 1
+  ❌ Errors: 0
+
+  Success rate: 97.0%
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+
+  💡 To process more movies (respecting daily quota):
+     npx tsx scripts/enrich-trailers-youtube.ts --execute --limit=100
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         YOUTUBE TRAILER ENRICHMENT                                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading movies without trailers (prioritized)...
+  ✅ Loaded 200 movies to process
+
+  🎬 Searching for trailers...
+
+  [1/200] Ponton's Heart (2025)
+    ✓ Trailer found and saved
+  [2/200] Sarangapani Jathakam (2025)
+    ✓ Trailer found and saved
+  [3/200] Andhra King Taluka (2025)
+    ✓ Trailer found and saved
+  [4/200] Jack (2025)
+    ✓ Trailer found and saved
+  [5/200] Kingdom (2025)
+    ✓ Trailer found and saved
+  [6/200] The Girlfriend (2025)
+    ✓ Trailer found and saved
+  [7/200] Uppu Kappurambu (2025)
+    ✓ Trailer found and saved
+  [8/200] Arjun Son of Vyjayanthi (2025)
+    ✓ Trailer found and saved
+  [9/200] Telusu Kada (2025)
+    ✓ Trailer found and saved
+  [10/200] Odela 2 (2025)
+    ✓ Trailer found and saved
+
+  Progress: 10/200 (10 found, 0 not found)
+
+  [11/200] Thammudu (2025)
+    ✓ Trailer found and saved
+  [12/200] Thandel (2025)
+    ✓ Trailer found and saved
+  [13/200] Baapu (2025)
+    ✓ Trailer found and saved
+  [14/200] Thala (2025)
+    ✓ Trailer found and saved
+  [15/200] The Great Pre-Wedding Show (2025)
+    ✓ Trailer found and saved
+  [16/200] Premante (2025)
+    ✓ Trailer found and saved
+  [17/200] Sundarakanda (2025)
+    ✓ Trailer found and saved
+  [18/200] Robinhood (2025)
+    ✓ Trailer found and saved
+  [19/200] They Call Him OG (2025)
+    ✓ Trailer found and saved
+  [20/200] Brahma Anandam (2025)
+    ✓ Trailer found and saved
+
+  Progress: 20/200 (20 found, 0 not found)
+
+  [21/200] Enuguthondam Ghatikachalam (2025)
+    ✓ Trailer found and saved
+  [22/200] Kishkindhapuri (2025)
+    ✓ Trailer found and saved
+  [23/200] 14 Days (girlfriend Intlo) (2025)
+    ✓ Trailer found and saved
+  [24/200] Sankranthiki Vasthunam (2025)
+    ✓ Trailer found and saved
+  [25/200] #Single (2025)
+    ✓ Trailer found and saved
+  [26/200] Santhana Prapthirasthu (2025)
+    ✓ Trailer found and saved
+  [27/200] Daaku Maharaaj (2025)
+    ✓ Trailer found and saved
+  [28/200] Laila (2025)
+    ✓ Trailer found and saved
+  [29/200] Akkada Ammayi Ikkada Abbayi (2025)
+    ✓ Trailer found and saved
+  [30/200] Mass Jathara (2025)
+    ✓ Trailer found and saved
+
+  Progress: 30/200 (30 found, 0 not found)
+
+  [31/200] 28 Degree Celsius (2025)
+    ✓ Trailer found and saved
+  [32/200] 11:11 (2025)
+    ✓ Trailer found and saved
+  [33/200] 12A Railway Colony (2025)
+    ✓ Trailer found and saved
+  [34/200] Hathya (2025)
+    ✓ Trailer found and saved
+  [35/200] Kannappa (2025)
+    ✓ Trailer found and saved
+  [36/200] Game Changer (2025)
+    ✓ Trailer found and saved
+  [37/200] Jatadhara (2025)
+    ✓ Trailer found and saved
+  [38/200] Blind Spot (2025)
+    ✓ Trailer found and saved
+  [39/200] Raju Weds Rambai (2025)
+    ✓ Trailer found and saved
+  [40/200] Junior (2025)
+    ✓ Trailer found and saved
+
+  Progress: 40/200 (40 found, 0 not found)
+
+  [41/200] Chaurya Paatam (2025)
+    ✓ Trailer found and saved
+  [42/200] Daksha: The Deadly Conspiracy (2025)
+    ✓ Trailer found and saved
+  [43/200] Show Time (2025)
+    ✓ Trailer found and saved
+  [44/200] Chaurya Paatham (2025)
+    ✓ Trailer found and saved
+  [45/200] K-Ramp (2025)
+    ✓ Trailer found and saved
+  [46/200] Bhairavam (2025)
+    ✓ Trailer found and saved
+  [47/200] 35 - Chinna Katha Kaadu (2024)
+    ✓ Trailer found and saved
+  [48/200] Prasanna Vadanam (2024)
+    ✓ Trailer found and saved
+  [49/200] Lucky Baskhar (2024)
+    ✓ Trailer found and saved
+  [50/200] Happy Ending (2024)
+    ✓ Trailer found and saved
+
+  Progress: 50/200 (50 found, 0 not found)
+
+  [51/200] Bhamakalapam 2 (2024)
+    ✓ Trailer found and saved
+  [52/200] Devaki Nandana Vasudeva (2024)
+    ✓ Trailer found and saved
+  [53/200] Pekamedalu (2024)
+    ✓ Trailer found and saved
+  [54/200] Alanaati Ramachandrudu (2024)
+    ✓ Trailer found and saved
+  [55/200] Yevam (2024)
+    ✓ Trailer found and saved
+  [56/200] Shivam Bhaje (2024)
+    ✓ Trailer found and saved
+  [57/200] Sriranga Neethulu (2024)
+    ✓ Trailer found and saved
+  [58/200] Harom Hara (2024)
+    ✓ Trailer found and saved
+  [59/200] Sarkaaru Noukari (2024)
+    ✓ Trailer found and saved
+  [60/200] RRR: Behind & Beyond (2024)
+    ✓ Trailer found and saved
+
+  Progress: 60/200 (60 found, 0 not found)
+
+  [61/200] Double Engine (2024)
+    ✓ Trailer found and saved
+  [62/200] Masthu Shades Unnai Ra (2024)
+    ✓ Trailer found and saved
+  [63/200] Zebra (2024)
+    ✓ Trailer found and saved
+  [64/200] Gaami (2024)
+    ✓ Trailer found and saved
+  [65/200] Aarambham (2024)
+    ✓ Trailer found and saved
+  [66/200] Committee Kurrollu (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [67/200] Geethanjali Malli Vachindi (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [68/200] Saripodhaa Sanivaaram (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [69/200] Maruthi Nagar Subramanyam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [70/200] Ambajipeta Marriage Band (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 70/200 (65 found, 0 not found)
+
+  [71/200] Hanu-man (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [72/200] The Birthday Boy (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [73/200] (Tillu)² (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [74/200] Kalki 2898-AD (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [75/200] Parakramam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [76/200] Pushpa 2 - The Rule (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [77/200] Raju Gari Ammayi Naidu Gari Abbayi (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [78/200] Aay (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [79/200] Bhaje Vaayu Vegam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [80/200] Uruku Patela (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 80/200 (65 found, 0 not found)
+
+  [81/200] Mathu Vadalara 2 (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [82/200] Naa Saami Ranga (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [83/200] Ground (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [84/200] Chaari 111 (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [85/200] Ooru Peru Bhairavakona (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [86/200] 105 Minuttess (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [87/200] Akshara (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [88/200] Sam Anton (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [89/200] Aham Reboot (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [90/200] Crime Reel (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 90/200 (65 found, 0 not found)
+
+  [91/200] Rush (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [92/200] Prasannavadanam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [93/200] Roti Kapda Romance (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [94/200] Sandeham (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [95/200] 100 Crores (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [96/200] Drinker Sai (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [97/200] Bhoothaddam Bhaskar Narayana (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [98/200] Srikakulam Sherlockholmes (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [99/200] Yatra 2 (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [100/200] Raajadhani Files (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 100/200 (65 found, 0 not found)
+
+  [101/200] Sheeshmahal (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [102/200] Mercy Killing (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [103/200] Pranaya Godari (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [104/200] Gangs of Godavari (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [105/200] Palik (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [106/200] Janaka Aithe Ganaka (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [107/200] Fear (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [108/200] Brahmmavaram P.S. Paridhilo (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [109/200] Akkada Varu Ikkada Unnaru (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [110/200] Sarangadhariya (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 110/200 (65 found, 0 not found)
+
+  [111/200] Aa Okkati Adakku (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [112/200] Love Mouli (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [113/200] Maa Nanna Superhero (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [114/200] Alanaati Ramchandrudu (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [115/200] Tenant (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [116/200] Bhavanam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [117/200] Bhale Unnade (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [118/200] Leela Vinodham (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [119/200] Om Bheem Bush (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [120/200] Tom And Jerry (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 120/200 (65 found, 0 not found)
+
+  [121/200] Srikakulam Sherlock Holmes (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [122/200] Operation Raavan (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [123/200] Kotha Rangula Prapancham (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [124/200] Eagle (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [125/200] Market Mahalakshmi (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [126/200] Anthima Theerpu (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [127/200] Guntur Kaaram (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [128/200] Saindhav (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [129/200] Gam Gam Ganesha (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [130/200] Vey Dharuvey (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 130/200 (65 found, 0 not found)
+
+  [131/200] Operation Valentine (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [132/200] Mechanic Rocky (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [133/200] Matka (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [134/200] 1980 Lo Radhekrishna (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [135/200] Laggam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [136/200] Raju Yadav (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [137/200] Valari (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [138/200] LifeStories (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [139/200] Darling (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [140/200] The Family Star (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 140/200 (65 found, 0 not found)
+
+  [141/200] Bachhala Malli (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [142/200] Double iSmart (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [143/200] Razakar: The Silent Genocide of Hyderabad (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [144/200] Kalinga (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [145/200] Love Me If You Dare (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [146/200] Dhoom Dhaam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [147/200] Appudo Ippudo Eppudo (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [148/200] Theppa Samudram (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [149/200] Honeymoon Express (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [150/200] Buddy (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 150/200 (65 found, 0 not found)
+
+  [151/200] Siddharth Roy (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [152/200] Viswam (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [153/200] Mr Bachchan (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [154/200] Bhimaa (2024)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [155/200] Martin Luther King (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [156/200] Vimanam (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [157/200] Malli Pelli (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [158/200] O Saathiya (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [159/200] Hi Nanna (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [160/200] Mem Famous (2023)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 160/200 (65 found, 0 not found)
+
+  [161/200] Reppa (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [162/200] Pushpa 3 - The Rampage (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [163/200] Takshakudu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [164/200] Comrade Kalyan (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [165/200] Illicit Relationship (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [166/200] Euphoria (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [167/200] Band Melam (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [168/200] Nakshatra Poratam (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [169/200] Asuragana Rudra (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [170/200] Garividi Lakshmi (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 170/200 (65 found, 0 not found)
+
+  [171/200] DQ 41 (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [172/200] HaiLesso (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [173/200] Arrtham (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [174/200] ENE Repeat (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [175/200] Kirathaka (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [176/200] Biker (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [177/200] Vrushakarma (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [178/200] Kalki 2898-AD: Part 2 (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [179/200] Abhiram (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [180/200] Haindava (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 180/200 (65 found, 0 not found)
+
+  [181/200] Amaran in the City: Chapter 1 (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [182/200] Peddarikam (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [183/200] Maa Inti Bangaram (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [184/200] Anumana Pakshi (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [185/200] Legacy (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [186/200] Hey Bhagawan! (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [187/200] Maate Mantramu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [188/200] What The Fish (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [189/200] Nagabandham (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [190/200] They Call Him OG 2 (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 190/200 (65 found, 0 not found)
+
+  [191/200] Sambarala Yetti Gattu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [192/200] Bad Boy Karthik (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [193/200] Mirai Jaithraya (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [194/200] Paramanandham Shishyulu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [195/200] Naa Katha (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [196/200] Natudu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [197/200] Patta Pagalu (N/A)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [198/200] Baahubali: the Eternal War - Part 1 (2027)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [199/200] Honey (2026)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+  [200/200] Psych Siddhartha (2026)
+  ❌ YouTube API quota exceeded
+    ⚠️  No trailer found
+
+  Progress: 200/200 (65 found, 0 not found)
+
+
+  ✅ Trailer search complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies searched: 200
+  Duration: 7.3 minutes
+
+  ✅ Trailers found: 65
+  ⚠️  Trailers not found: 0
+  ❌ Errors: 135
+
+  Success rate: 32.5%
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+
+  💡 To process more movies (respecting daily quota):
+     npx tsx scripts/enrich-trailers-youtube.ts --execute --limit=100
+

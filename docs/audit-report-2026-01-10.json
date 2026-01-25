@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-01-10T23:13:16.294Z",
+  "stats": {
+    "totalMovies": 131,
+    "totalIssues": 2,
+    "bySeverity": {
+      "HIGH": 2
+    },
+    "byType": {
+      "ACTOR_TOO_YOUNG": 2
+    },
+    "byDecade": {
+      "1980": 2
+    },
+    "actorsWithIssues": [
+      "Daggubati Venkatesh",
+      "Meena"
+    ]
+  },
+  "issues": [
+    {
+      "movieId": "2cd406a9-d579-4d47-a3f4-4e2d32212048",
+      "slug": "chinnari-devatha-1987",
+      "title": "Chinnari Devatha",
+      "dbYear": 1987,
+      "hero": "Daggubati Venkatesh",
+      "heroine": "Meena",
+      "director": "Kodi Ramakrishna",
+      "issueType": "ACTOR_TOO_YOUNG",
+      "details": "Meena was only 11 years old in 1987 (born 1976) - verify if this is a child role",
+      "severity": "HIGH",
+      "suggestedFix": "If not a child role, verify correct year or cast",
+      "autoFixable": false
+    },
+    {
+      "movieId": "dd582a50-5b5a-4dfb-9208-622da11d3956",
+      "slug": "sutradharulu-1989",
+      "title": "Sutradharulu",
+      "dbYear": 1989,
+      "hero": "Daggubati Venkatesh",
+      "heroine": "Meena",
+      "director": "Kodandarami Reddy",
+      "issueType": "ACTOR_TOO_YOUNG",
+      "details": "Meena was only 13 years old in 1989 (born 1976) - verify if this is a child role",
+      "severity": "HIGH",
+      "suggestedFix": "If not a child role, verify correct year or cast",
+      "autoFixable": false
+    }
+  ]
+}

@@ -49,6 +49,9 @@ const LIMIT = parseInt(getArg('limit', '100'));
 const EXECUTE = hasFlag('execute');
 const DECADE = getArg('decade', '');
 const VERBOSE = hasFlag('verbose') || hasFlag('v');
+const ACTOR = getArg('actor', '');
+const DIRECTOR = getArg('director', '');
+const SLUG = getArg('slug', '');
 
 // ============================================================
 // TYPES
@@ -311,6 +314,9 @@ async function main(): Promise<void> {
   console.log(`  Mode: ${EXECUTE ? chalk.green('EXECUTE') : chalk.yellow('DRY RUN')}`);
   console.log(`  Limit: ${LIMIT} movies`);
   if (DECADE) console.log(`  Decade: ${DECADE}s`);
+  if (ACTOR) console.log(`  Actor filter: "${ACTOR}"`);
+  if (DIRECTOR) console.log(`  Director filter: "${DIRECTOR}"`);
+  if (SLUG) console.log(`  Slug filter: "${SLUG}"`);
 
   // Build query for movies without audience_fit
   let query = supabase
@@ -318,16 +324,31 @@ async function main(): Promise<void> {
     .select(`
       id, title_en, release_year, genres, age_rating, trigger_warnings,
       mood_tags, avg_rating, runtime_minutes, is_blockbuster,
-      audience_fit, watch_recommendation
+      audience_fit, watch_recommendation, hero, director
     `)
     .eq('language', 'Telugu')
-    .or('audience_fit.is.null,audience_fit.eq.{}')
     .order('release_year', { ascending: false })
     .limit(LIMIT);
+
+  // Only filter for missing audience_fit if no specific filters
+  if (!ACTOR && !DIRECTOR && !SLUG) {
+    query = query.or('audience_fit.is.null,audience_fit.eq.{}');
+  }
 
   if (DECADE) {
     const startYear = parseInt(DECADE);
     query = query.gte('release_year', startYear).lt('release_year', startYear + 10);
+  }
+  
+  // Apply actor/director/slug filters
+  if (ACTOR) {
+    query = query.ilike('hero', `%${ACTOR}%`);
+  }
+  if (DIRECTOR) {
+    query = query.ilike('director', `%${DIRECTOR}%`);
+  }
+  if (SLUG) {
+    query = query.eq('slug', SLUG);
   }
 
   const { data: movies, error } = await query;

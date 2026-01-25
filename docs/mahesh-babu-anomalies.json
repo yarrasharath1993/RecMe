@@ -1,0 +1,235 @@
+{
+  "actor": "Mahesh Babu",
+  "timestamp": "2026-01-11T13:38:47.244Z",
+  "totalAnomalies": 21,
+  "byType": {
+    "flagged": 7,
+    "reportOnly": 14
+  },
+  "byCategory": {
+    "duplicates": 1,
+    "wrongAttribution": 1,
+    "missingFields": 14,
+    "conflicts": 0
+  },
+  "anomalies": [
+    {
+      "type": "duplicate",
+      "movie": "Athidi",
+      "year": 2007,
+      "slug": "athidi",
+      "confidence": 0.8571428571428572,
+      "details": "Duplicate of \"Athidhi\" (2007) - 86% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Vāranāsi",
+      "year": null,
+      "slug": "vāranāsi",
+      "confidence": 0.85,
+      "details": "Released 1999 years before Mahesh Babu's debut (1999)",
+      "action": "flag_review"
+    },
+    {
+      "type": "ghost_entry",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu",
+      "confidence": 0.75,
+      "details": "Title appears to be invalid (person name, production house, etc.)",
+      "action": "flag_review"
+    },
+    {
+      "type": "ghost_entry",
+      "movie": "Takkari Donga",
+      "year": 2002,
+      "slug": "takkari-donga",
+      "confidence": 0.75,
+      "details": "Title appears to be invalid (person name, production house, etc.)",
+      "action": "flag_review"
+    },
+    {
+      "type": "ghost_entry",
+      "movie": "Sarileru Neekevvaru",
+      "year": 2020,
+      "slug": "sarileru-neekevvaru",
+      "confidence": 0.75,
+      "details": "Title appears to be invalid (person name, production house, etc.)",
+      "action": "flag_review"
+    },
+    {
+      "type": "ghost_entry",
+      "movie": "Guntur Kaaram",
+      "year": 2024,
+      "slug": "guntur-kaaram",
+      "confidence": 0.75,
+      "details": "Title appears to be invalid (person name, production house, etc.)",
+      "action": "flag_review"
+    },
+    {
+      "type": "wrong_attribution",
+      "movie": "Bobby",
+      "year": 2002,
+      "slug": "bobby-2002",
+      "suggestedValue": "Bobby Brederlow",
+      "confidence": 0.9,
+      "details": "Mahesh Babu not found in TMDB cast. Top cast: Bobby Brederlow, Veronica Ferres, Markus Knüfken, Steffen Groth, Hansa Czypionka, Margret Völker, August Schmölzer, Karlheinz Hackl, Raidar Müller-Elmau",
+      "action": "flag_review"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nijam",
+      "year": 2003,
+      "slug": "nijam-2003",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "music_director",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing music_director",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    }
+  ]
+}

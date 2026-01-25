@@ -1,0 +1,29 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         BULK SYNOPSIS TRANSLATION                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading movies needing Telugu synopsis...
+  ✅ Loaded 0 movies to translate
+
+  🔄 Starting translation...
+
+
+  ✅ Translation complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 0
+  Duration: 0.0 minutes
+
+  ✅ Synopses translated: 0
+  ❌ Failed: 0
+  Success rate: 0%
+
+  Average: NaN translations/minute
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

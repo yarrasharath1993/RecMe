@@ -1,0 +1,133 @@
+{
+  "actorName": "Pawan Kalyan",
+  "debutYear": 1996,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 37,
+  "preDebutFilms": [
+    {
+      "id": "473fbd46-477a-477b-80fc-2ecfa5e239cf",
+      "title_en": "They Call Him OG 2",
+      "release_year": null,
+      "hero": "Pawan Kalyan",
+      "heroine": "No Female Lead",
+      "director": "Sujeeth",
+      "our_rating": 5.3,
+      "cast_members": [
+        "{\"name\":\"Pawan Kalyan\",\"character\":\"Ojas \\\"OG\\\" Ghambeera\",\"order\":0,\"gender\":2,\"tmdb_id\":237048,\"profile_path\":\"/5vbrrJgkH79UV4PSQupwc8TFw8i.jpg\"}",
+        "{\"name\":\"Jackie Shroff\",\"character\":\"Roy\",\"order\":1,\"gender\":2,\"tmdb_id\":86014,\"profile_path\":\"/1UNJypgEyuihUW2avLLVYj76jie.jpg\"}",
+        "{\"name\":\"Lal\",\"character\":\"Ibrahim\",\"order\":2,\"gender\":2,\"tmdb_id\":182174,\"profile_path\":\"/ds3eeWA56YFeeuWP6WUs1ok58FK.jpg\"}",
+        "{\"name\":\"Prakash Raj\",\"character\":\"Sathya Dada\",\"order\":3,\"gender\":2,\"tmdb_id\":89153,\"profile_path\":\"/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg\"}",
+        "{\"name\":\"Arjun Das\",\"character\":\"Arjun\",\"order\":4,\"gender\":2,\"tmdb_id\":2483439,\"profile_path\":\"/20RDzfTjpfRHxLYBfnIYXs7vcri.jpg\"}",
+        "{\"name\":\"Emraan Hashmi\",\"character\":\"Omkar \\\"Omi Bhau\\\" Varthaman\",\"order\":5,\"gender\":2,\"tmdb_id\":85969,\"profile_path\":\"/kflgvFCFZnpTRbKmJWn5T0G5EKI.jpg\"}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "2993e243-e5c2-414b-9956-323b851d0a4d",
+        "title": "Gokulamlo Seeta",
+        "year": 1997
+      },
+      "movie2": {
+        "id": "a88d93b2-6efc-4948-83cc-20aefc0c1caf",
+        "title": "Gokulamlo Seetha",
+        "year": 1997
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "5ae7783b-2ac6-434b-a50e-67634be08dd8",
+        "title": "Khushi",
+        "year": 2001
+      },
+      "movie2": {
+        "id": "882aed35-fcfe-47ec-8a51-cd55066c23ae",
+        "title": "Kushi",
+        "year": 2001
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "80571942-aba6-47a4-b88d-5c898f765292",
+        "title": "Puli",
+        "year": 2010
+      },
+      "movie2": {
+        "id": "e3b958c0-0d56-4f6a-bbe3-b392751a88fc",
+        "title": "Komaram Puli",
+        "year": 2010
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "a44c52b9-0359-4cc6-b70e-e7142983c20c",
+        "title": "60th Filmfare Awards South",
+        "year": 2012
+      },
+      "movie2": {
+        "id": "c2d2d546-11e6-4bb3-a79c-6ad3593aea8e",
+        "title": "61st Filmfare Awards South",
+        "year": 2013
+      },
+      "similarity": 0.8695652173913043
+    },
+    {
+      "movie1": {
+        "id": "66d74b10-a8dd-48b5-997b-e1478e058f9d",
+        "title": "Attarintiki Daredi",
+        "year": 2013
+      },
+      "movie2": {
+        "id": "e340b679-da05-4adf-bcf2-fda5502574b3",
+        "title": "Atharintiki Daaredi",
+        "year": 2013
+      },
+      "similarity": 0.8888888888888888
+    },
+    {
+      "movie1": {
+        "id": "2d957e9a-4ec8-4360-89bd-43183063698b",
+        "title": "Hari Hara Veera Mallu",
+        "year": 2025
+      },
+      "movie2": {
+        "id": "061e48a7-85c5-4bd9-af6c-afc7da7a0f4e",
+        "title": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
+        "year": 2025
+      },
+      "similarity": 0.9
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "0": 1,
+    "1996": 1,
+    "1997": 2,
+    "1998": 2,
+    "1999": 2,
+    "2000": 1,
+    "2001": 3,
+    "2003": 1,
+    "2004": 1,
+    "2005": 1,
+    "2006": 1,
+    "2008": 2,
+    "2010": 2,
+    "2011": 1,
+    "2012": 3,
+    "2013": 3,
+    "2015": 2,
+    "2016": 1,
+    "2017": 1,
+    "2021": 1,
+    "2022": 1,
+    "2025": 3,
+    "2026": 1
+  },
+  "summary": "1 pre-debut films, 6 potential duplicates"
+}

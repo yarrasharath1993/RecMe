@@ -1,0 +1,340 @@
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║              FIX NON-STANDARD GENRES                                  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Scanning database for non-standard genres...
+
+  ✓ Found 99 movies with non-standard genres
+
+  Genre Mappings:
+
+    "Biographical" → Drama
+    "Biography" → Drama
+    "Biopic" → Drama
+    "Historical" → History
+    "Art" → Drama
+    "Coming-of-age" → Drama
+    "Mass" → Action
+    "Sports" → Drama
+    "Sci-Fi" → Science Fiction
+    "Suspense" → Thriller
+    "Supernatural" → Fantasy
+    "Epic" → Adventure
+    "TV Movie" REMOVE
+    "Teen" → Drama
+
+  Applying fixes...
+
+  As Time Echoes (null)
+    Art, Drama, Mystery → Drama, Mystery
+    ✓ Updated
+  Nilakanta (2026)
+    Biographical, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Kingdom (2025)
+    Art, Documentary, Social → Documentary, Drama, Social
+    ✓ Updated
+  Daaku Maharaaj (2025)
+    Action, Mass → Action
+    ✓ Updated
+  Parakramam (2024)
+    Action, Drama, Sports → Action, Drama
+    ✓ Updated
+  LifeStories (2024)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Masthu Shades Unnai Ra (2024)
+    Art, Comedy, Drama → Comedy, Drama
+    ✓ Updated
+  Love Mouli (2024)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Shukra (2021)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Pranavam (2021)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Crossword Mysteries: Abracadaver (2020)
+    Crime, Mystery, TV Movie → Crime, Mystery
+    ✓ Updated
+  RBD: Ser o Parecer (En Vivo) (2020)
+    Music, TV Movie → Music
+    ✓ Updated
+  We Bare Bears: The Movie (2020)
+    Adventure, Animation, Comedy, Family, TV Movie → Adventure, Animation, Comedy, Family
+    ✓ Updated
+  IIT Krishnamurthy (2020)
+    Coming-of-age, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Eureka (2019)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Jersey (2019)
+    Drama, Sports → Drama
+    ✓ Updated
+  Ek (2019)
+    Comedy, TV Movie → Comedy
+    ✓ Updated
+  Nowhere to Be Found (2019)
+    Drama, TV Movie, Thriller → Drama, Thriller
+    ✓ Updated
+  Steven Universe: The Movie (2019)
+    Adventure, Animation, Fantasy, Music, Science Fiction, TV Movie → Adventure, Animation, Fantasy, Music, Science Fiction
+    ✓ Updated
+  Tholu Bommalata (2019)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Darpanam (2019)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Hawaa (2019)
+    Art, Drama, Family → Drama, Family
+    ✓ Updated
+  N.t.r: Mahanayakudu (2019)
+    Biography, Drama → Drama
+    ✓ Updated
+  N.T.R: Kathanayakudu (2019)
+    Biography, Drama → Drama
+    ✓ Updated
+  N.T.R: Kathanayakudu (2019)
+    Biography, Drama → Drama
+    ✓ Updated
+  N.T.R: Kathanayukudu (2019)
+    Biography, Drama → Drama
+    ✓ Updated
+  John Mulaney: Kid Gorgeous at Radio City (2018)
+    Comedy, TV Movie → Comedy
+    ✓ Updated
+  Believe Me: The Abduction of Lisa McVey (2018)
+    Crime, Drama, TV Movie → Crime, Drama
+    ✓ Updated
+  Ego (2018)
+    Art, Drama, Social → Drama, Social
+    ✓ Updated
+  Parichayam (2018)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Chitrangada (2017)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Darshakudu (2017)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Gautamiputra Satakarni (2017)
+    Action, Biographical, Period → Action, Drama, Period
+    ✓ Updated
+  Guru (2017)
+    Biographical, Drama, Sports → Drama
+    ✓ Updated
+  Lemonade (2016)
+    Music, TV Movie → Music
+    ✓ Updated
+  Sherlock: The Abominable Bride (2016)
+    Crime, Drama, Mystery, TV Movie, Thriller → Crime, Drama, Mystery, Thriller
+    ✓ Updated
+  Siddhartha (2016)
+    Biographical, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Kerintha (2015)
+    Coming-of-age, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Star Wars Rebels: The Siege of Lothal (2015)
+    Adventure, Animation, Science Fiction, TV Movie → Adventure, Animation, Science Fiction
+    ✓ Updated
+  Rudhramadevi (2015)
+    Biographical, Drama, Period → Drama, Period
+    ✓ Updated
+  Adithya (Creative Genius) (2015)
+    Art, Biographical, Drama → Drama
+    ✓ Updated
+  Unlocking Sherlock (2014)
+    Documentary, TV Movie → Documentary
+    ✓ Updated
+  Amrutham Chandamamalo (2014)
+    Comedy, Sci-Fi → Comedy, Science Fiction
+    ✓ Updated
+  Transformers Prime: Beast Hunters - Predacons Rising (2013)
+    Action, Animation, Science Fiction, TV Movie → Action, Animation, Science Fiction
+    ✓ Updated
+  The Wizards Return: Alex vs. Alex (2013)
+    Comedy, Family, Fantasy, TV Movie → Comedy, Family, Fantasy
+    ✓ Updated
+  Doctor Who: The Time of the Doctor (2013)
+    Drama, Science Fiction, TV Movie → Drama, Science Fiction
+    ✓ Updated
+  Kamina (2013)
+    Coming-of-age, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Memu Vayasuku Vacham (2012)
+    Coming-of-age, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Krantiveera Sangolli Rayanna (2012)
+    Historical, War → History, War
+    ✓ Updated
+  Dhoni (2012)
+    Biographical, Drama, Sports → Drama
+    ✓ Updated
+  Solo (2011)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Golconda High School (2011)
+    Drama, Family, Sports → Drama, Family
+    ✓ Updated
+  Rakta Charitra (2010)
+    Action, Biographical → Action, Drama
+    ✓ Updated
+  Super (2010)
+    Action, Sci-Fi → Action, Science Fiction
+    ✓ Updated
+  A Heartland Christmas (2010)
+    Family, TV Movie → Family
+    ✓ Updated
+  Komaram Bheem (2010)
+    Action, Biographical, Drama → Action, Drama
+    ✓ Updated
+  Diary (2009)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Prayers for Bobby (2009)
+    Drama, History, TV Movie → Drama, History
+    ✓ Updated
+  Doctor Who: The Waters of Mars (2009)
+    Adventure, Drama, Horror, Mystery, Science Fiction, TV Movie → Adventure, Drama, Horror, Mystery, Science Fiction
+    ✓ Updated
+  Amaravathi (2009)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Rent: Filmed Live on Broadway (2008)
+    Drama, Romance, TV Movie → Drama, Romance
+    ✓ Updated
+  Louis C.K.: Chewed Up (2008)
+    Comedy, TV Movie → Comedy
+    ✓ Updated
+  Black & White (2008)
+    Art, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Uppalapati Narayana Rao (2007)
+    Biographical, Drama, Romance → Drama, Romance
+    ✓ Updated
+  Viyabari (2007)
+    Family, Sci-Fi → Family, Science Fiction
+    ✓ Updated
+  Sri Ramadasu (2006)
+    Biographical, Drama, Mythological, Period → Drama, Mythological, Period
+    ✓ Updated
+  Codename: Kids Next Door: Operation Z.E.R.O. (2006)
+    Action, Adventure, Animation, Comedy, Family, Fantasy, Mystery, Science Fiction, TV Movie → Action, Adventure, Animation, Comedy, Family, Fantasy, Mystery, Science Fiction
+    ✓ Updated
+  Teen Titans: Trouble in Tokyo (2006)
+    Action, Animation, Science Fiction, TV Movie → Action, Animation, Science Fiction
+    ✓ Updated
+  Kamli (2006)
+    Art, Drama, Social → Drama, Social
+    ✓ Updated
+  Happy (2006)
+    Drama, TV Movie → Drama
+    ✓ Updated
+  Nayakudu (2005)
+    Biographical, Drama, Social → Drama, Social
+    ✓ Updated
+  Subash Chandra Bose (2005)
+    Action, Biographical, Drama, Period → Action, Drama, Period
+    ✓ Updated
+  Something the Lord Made (2004)
+    Drama, TV Movie → Drama
+    ✓ Updated
+  Shivashankar (2004)
+    TV Movie, Thriller → Thriller
+    ✓ Updated
+  Kabaddi Kabaddi (2003)
+    Drama, Romance, Sports → Drama, Romance
+    ✓ Updated
+  LOC: Kargil (2003)
+    Action, Historical, War → Action, History, War
+    ✓ Updated
+  Hollywood (2002)
+    Comedy, Sci-Fi → Comedy, Science Fiction
+    ✓ Updated
+  9/11 (2002)
+    Documentary, TV Movie → Documentary
+    ✓ Updated
+  6 Teens (2001)
+    Coming-of-age, Drama, Family, Romance → Drama, Family, Romance
+    ✓ Updated
+  The Scooby-Doo Project (1999)
+    Animation, Comedy, Horror, Mystery, TV Movie → Animation, Comedy, Horror, Mystery
+    ✓ Updated
+  Annamayya (1997)
+    Biographical, Drama, Musical, Mythological → Drama, Musical, Mythological
+    ✓ Updated
+  Best Actress (1996)
+    Comedy, Crime, TV Movie → Comedy, Crime
+    ✓ Updated
+  Joseph (1995)
+    Adventure, Drama, TV Movie → Adventure, Drama
+    ✓ Updated
+  Srinatha Kavi Sarvabhowmudu (1993)
+    Biographical, Period Drama → Drama, Period Drama
+    ✓ Updated
+  Doctor Ambedkar (1992)
+    Biographical, Drama, Social → Drama, Social
+    ✓ Updated
+  Bhale Khaideelu (1992)
+    Drama, Family, Romance, Sports → Drama, Family, Romance
+    ✓ Updated
+  Champion (1992)
+    Drama, Romance, Sports → Drama, Romance
+    ✓ Updated
+  Ashwini (1991)
+    Biographical → Drama
+    ✓ Updated
+  Brahmarshi Vishwamitra (1991)
+    Biographical, Drama, Mythological, Period → Drama, Mythological, Period
+    ✓ Updated
+  Into the Woods (1991)
+    Drama, Fantasy, Music, TV Movie → Drama, Fantasy, Music
+    ✓ Updated
+  Sutradhaarulu (1989)
+    Art, Drama, Family, Romance → Drama, Family, Romance
+    ✓ Updated
+  Karaikkal Ammaiyar (1982)
+    Biographical, Drama, Mythological, Period → Drama, Mythological, Period
+    ✓ Updated
+  Tyagayya (1981)
+    Biographical, Drama, Musical, Period → Drama, Musical, Period
+    ✓ Updated
+  Maha Purushudu (1981)
+    Biographical, Drama, Family, Romance → Drama, Family, Romance
+    ✓ Updated
+  Manavude Mahaneeyudu (1980)
+    Biographical, Drama, Family, Romance → Drama, Family, Romance
+    ✓ Updated
+  Nayakudu Vinayakudu (1980)
+    Biographical, Drama, Family → Drama, Family
+    ✓ Updated
+  Chakradhari (1977)
+    Biographical, Drama, Mythological → Drama, Mythological
+    ✓ Updated
+  Veerapandiya Kattabomman (1959)
+    Biography → Drama
+    ✓ Updated
+  Mahatma Gandhi (1941)
+    Biographical, Drama, Period → Drama, Period
+    ✓ Updated
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║                   FIX COMPLETE                                        ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+  Total Movies Scanned:     99
+  ✓ Successfully Fixed:     99
+  ✗ Failed:                 0
+
+
+
+  ✅ Non-standard genres have been mapped to standard genres!
+
+  Run audit again to verify: npx tsx scripts/audit-genre-quality-complete.ts
+

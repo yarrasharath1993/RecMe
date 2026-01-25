@@ -1,0 +1,8 @@
+ID,Type,Entity,Name,Field,Current Value,Suggested Value,Confidence,Details
+"52a7f8fa-17c5-4ad6-9571-40b5e4957056","missing_director","movie","Creating The Queen's Gambit","director","","",0.7,"Missing or unknown director"
+"26e1907c-3d92-483a-adb1-6b629b32ad03","missing_director","movie","Making Squid Game: The Challenge","director","","",0.7,"Missing or unknown director"
+"847595de-1dfd-4c2e-863b-86ce800ea35f","missing_director","movie","RBD: Ser o Parecer (En Vivo)","director","","",0.7,"Missing or unknown director"
+"cf48dc2a-a14e-43d5-9488-0fd1f55a7802","missing_hero","movie","Piper","hero","","",0.7,"Missing or unknown hero"
+"873c2b3e-a7dd-4ef7-a250-a9d2f4902f65","missing_hero","movie","Koyaanisqatsi","hero","","",0.7,"Missing or unknown hero"
+"04fe3514-9717-4dfb-ae9c-7a3c4d750f95","missing_hero","movie","Kitbull","hero","","",0.7,"Missing or unknown hero"
+"59a879a1-5485-4938-9cae-f028847b3684","duplicate_movie","movie","Akasha Ramanna","title_en","Akasha Ramanna","Keep: Aakasa Ramanna (047137fc-29b7-4ec6-a73d-8fede9d2df8c)",0.9166666666666666,"92% similar to "Aakasa Ramanna""

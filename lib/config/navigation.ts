@@ -56,7 +56,7 @@ export const CATEGORY_META: Record<string, CategoryMeta> = {
   },
   movies: {
     id: 'movies',
-    href: '/reviews',
+    href: '/movies',
     label: 'Movies',
     labelTe: 'సినిమాలు',
     description: 'Movie reviews and ratings',
@@ -219,7 +219,7 @@ export const MORE_MENU_SECTIONS: MenuSection[] = [
 
 // Category bar items for horizontal navigation
 export const CATEGORY_BAR: NavItem[] = [
-  { id: 'movies', href: '/reviews', label: 'Movies', labelTe: 'సినిమాలు', emoji: '🎬' },
+  { id: 'movies', href: '/movies', label: 'Movies', labelTe: 'సినిమాలు', emoji: '🎬' },
   { id: 'gossip', href: '/category/gossip', label: 'Gossip', labelTe: 'గాసిప్', emoji: '🌶️' },
   { id: 'entertainment', href: '/category/entertainment', label: 'Entertainment', labelTe: 'వినోదం', emoji: '🎭' },
   { id: 'sports', href: '/category/sports', label: 'Sports', labelTe: 'స్పోర్ట్స్', emoji: '🏆' },
@@ -322,7 +322,7 @@ export function getLocalizedSectionTitle(section: MenuSection, lang: 'en' | 'te'
 export function getMainNavItems(): NavItem[] {
   return [
     { id: 'news', href: '/category/news', label: 'News', labelTe: 'వార్తలు' },
-    { id: 'movies', href: '/reviews', label: 'Movies', labelTe: 'సినిమాలు' },
+    { id: 'movies', href: '/movies', label: 'Movies', labelTe: 'సినిమాలు' },
     { id: 'gossip', href: '/category/gossip', label: 'Gossip', labelTe: 'గాసిప్' },
     { id: 'photos', href: '/photos', label: 'Photos', labelTe: 'ఫోటోలు' },
     { id: 'videos', href: '/videos', label: 'Videos', labelTe: 'వీడియోలు' },

@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-01-13T09:42:52.279Z",
+  "mode": "dry_run",
+  "summary": {
+    "successful": 9,
+    "failed": 0,
+    "totalFields": 109
+  },
+  "results": [
+    {
+      "celebrityId": "bd03d4e0-7ac8-46d0-be57-956c3fc0f048",
+      "name": "Aadi",
+      "slug": "celeb-aadi",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "3c8c9b48-081b-4839-8866-3adad4d9b47a",
+      "name": "Aadi Saikumar",
+      "slug": "celeb-aadi-saikumar",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "13c0381f-afc9-4947-bb98-b8706166a6ac",
+      "name": "Aamani",
+      "slug": "celeb-aamani",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "b1ea7116-8403-4044-a23c-84edcb963146",
+      "name": "Abbas",
+      "slug": "celeb-abbas",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "8d6e0f82-63bf-411d-841c-da28ef95a243",
+      "name": "Adivi Sesh",
+      "slug": "celeb-adivi-sesh",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "fe7d9533-23cc-49e0-aea4-c3c967c55626",
+      "name": "Adurthi Subba Rao",
+      "slug": "celeb-adurthi-subba-rao",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "ed29fc31-a5fc-4072-b086-b9f4750599d8",
+      "name": "Aishwarya Rai Bachchan",
+      "slug": "aishwarya-rai-bachchan",
+      "success": true,
+      "fieldsUpdated": 12
+    },
+    {
+      "celebrityId": "d6e855cd-0052-4bbb-8edb-9474ef269a7d",
+      "name": "Ajay",
+      "slug": "celeb-ajay",
+      "success": true,
+      "fieldsUpdated": 13
+    },
+    {
+      "celebrityId": "7ea66985-c6f8-4f52-a51b-1dc9fd3f184d",
+      "name": "Akkineni Nagarjuna",
+      "slug": "akkineni-nagarjuna",
+      "success": true,
+      "fieldsUpdated": 9
+    }
+  ]
+}

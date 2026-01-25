@@ -1,0 +1,140 @@
+{
+  "actorName": "Prabhas",
+  "debutYear": 2002,
+  "wikipediaFilmCount": 24,
+  "databaseFilmCount": 40,
+  "preDebutFilms": [
+    {
+      "id": "5ac3e442-bd12-42a0-85e3-0c8fc5dcf899",
+      "title_en": "Fauzi",
+      "release_year": null,
+      "hero": "Prabhas",
+      "heroine": "Iman Esmail",
+      "director": "Hanu Raghavapudi",
+      "our_rating": 5.3,
+      "cast_members": [
+        "{\"name\":\"Prabhas\",\"character\":\"Fauzi\",\"order\":0,\"role\":\"lead\"}",
+        "{\"name\":\"Iman Esmail\",\"order\":1,\"role\":\"lead\"}",
+        "{\"name\":\"Mithun Chakraborty\",\"order\":2,\"role\":\"supporting\"}",
+        "{\"name\":\"Jaya Prada\",\"order\":3,\"role\":\"supporting\"}",
+        "{\"name\":\"Anupam Kher\",\"order\":4,\"role\":\"supporting\"}",
+        "{\"name\":\"Chaithra J Achar\",\"order\":5,\"role\":\"supporting\"}",
+        "{\"name\":\"Rahul Ravindran\",\"order\":6,\"role\":\"supporting\"}",
+        "{\"name\":\"Master Dharshan\",\"character\":\"Young Fauzi\",\"order\":7,\"role\":\"supporting\"}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "67c96f0a-4e77-4119-8ab9-549507384eba",
+        "title": "Filmfare Awards South",
+        "year": 2004
+      },
+      "movie2": {
+        "id": "d76fe86a-74fc-4bad-b428-d9abb690cc21",
+        "title": "Filmfare Awards South",
+        "year": 2005
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "8ebec8fd-093d-4baf-82ae-5e92096430af",
+        "title": "Chatrapathi",
+        "year": 2005
+      },
+      "movie2": {
+        "id": "1d706415-def9-4ac3-aca0-0f2235fde909",
+        "title": "Chhatrapati",
+        "year": 2005
+      },
+      "similarity": 0.8181818181818181
+    },
+    {
+      "movie1": {
+        "id": "bde64f74-a7f6-4aee-97bb-b7e20634f220",
+        "title": "Bāhubali 2: The Conclusion",
+        "year": 2017
+      },
+      "movie2": {
+        "id": "f877228c-8b80-4202-8d42-89e448307f78",
+        "title": "Baahubali: The Conclusion",
+        "year": 2017
+      },
+      "similarity": 0.8636363636363636
+    },
+    {
+      "movie1": {
+        "id": "10ba590f-9b6c-44e6-ac5a-ba965d006cde",
+        "title": "Bāhubali: The Epic",
+        "year": 2025
+      },
+      "movie2": {
+        "id": "dd38c3da-0f8b-4883-a74a-c9bb53e3280a",
+        "title": "Baahubali: The Epic",
+        "year": 2025
+      },
+      "similarity": 0.875
+    },
+    {
+      "movie1": {
+        "id": "3500c2bf-3823-4b04-8aa3-0b9483d8d272",
+        "title": "The Raja Saab",
+        "year": 2026
+      },
+      "movie2": {
+        "id": "565a96a9-ebff-4cdf-ae39-bdb26c4acfb6",
+        "title": "The Rajasaab",
+        "year": 2026
+      },
+      "similarity": 1
+    }
+  ],
+  "invalidEntries": [
+    {
+      "id": "7fe274a6-5e93-45f4-a157-fc50e6cb61c1",
+      "title_en": "Mr. Perfect",
+      "release_year": 2011,
+      "hero": "Prabhas",
+      "heroine": "Kajal Aggarwal",
+      "director": "Dasaradh",
+      "our_rating": 7.5,
+      "cast_members": [
+        "{\"name\":\"Prabhas\",\"character\":\"Vicky\",\"order\":0,\"gender\":2,\"tmdb_id\":237045,\"profile_path\":\"/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg\"}",
+        "{\"name\":\"Kajal Aggarwal\",\"character\":\"Priya\",\"order\":1,\"gender\":1,\"tmdb_id\":113809,\"profile_path\":\"/hwByD8t8LI46EdXZbeuKcmJ4UqX.jpg\"}",
+        "{\"name\":\"Taapsee Pannu\",\"character\":\"Maggy\",\"order\":2,\"gender\":1,\"tmdb_id\":550167,\"profile_path\":\"/micyQ84KdF7rVu05SYkMxk8VGq4.jpg\"}",
+        "{\"name\":\"Murali Mohan\",\"character\":\"Priya's Father\",\"order\":3,\"gender\":2,\"tmdb_id\":584682,\"profile_path\":\"/otex9PxT1wXvvR4ATVG5lZH5UDV.jpg\"}",
+        "{\"name\":\"Prakash Raj\",\"character\":\"Maggi's Father\",\"order\":4,\"gender\":2,\"tmdb_id\":89153,\"profile_path\":\"/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg\"}",
+        "{\"name\":\"Sayaji Shinde\",\"character\":\"Maggi's Uncle\",\"order\":5,\"gender\":2,\"tmdb_id\":146937,\"profile_path\":\"/r4VBYop4XktGuSZ0wozRqJbEzMH.jpg\"}",
+        "{\"name\":\"Brahmanandam\",\"character\":\"\",\"order\":6,\"gender\":2,\"tmdb_id\":113810,\"profile_path\":\"/zh6nWEIy3l1dsZA9EDuDezq867b.jpg\"}",
+        "{\"name\":\"Master Bharath\",\"character\":\"\",\"order\":7,\"gender\":2,\"tmdb_id\":1486677,\"profile_path\":\"/nKsOmyYVY0miS1siMqsMxOK1OpN.jpg\"}",
+        "{\"name\":\"Satyadev Kancharana\",\"character\":\"\",\"order\":8,\"gender\":2,\"tmdb_id\":1546410,\"profile_path\":\"/uIf1HM99iDVf9vdJwXPMgggOHkA.jpg\"}"
+      ]
+    }
+  ],
+  "yearDistribution": {
+    "0": 1,
+    "2002": 2,
+    "2003": 1,
+    "2004": 3,
+    "2005": 4,
+    "2007": 1,
+    "2008": 1,
+    "2009": 2,
+    "2010": 3,
+    "2011": 2,
+    "2012": 1,
+    "2013": 2,
+    "2015": 2,
+    "2017": 3,
+    "2019": 1,
+    "2022": 1,
+    "2023": 2,
+    "2025": 2,
+    "2026": 5,
+    "2027": 1
+  },
+  "summary": "1 pre-debut films, 5 potential duplicates, 1 invalid entries"
+}

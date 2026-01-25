@@ -1,0 +1,8 @@
+HIGH PRIORITY MOVIES (1)
+Completeness 40-60% - Should be enriched soon
+
+1. 'Salaar: Part 2 – Shouryanga Parvam (2023) - 40% complete
+   Issues: No director, No hero, No heroine, No English synopsis, No poster, No backdrop, No genres, No runtime, No TMDB ID, No Telugu title
+   TMDB ID: None
+   URL: http://localhost:3000/movies/salaar-part-2-shouryanga-parvam-2023
+

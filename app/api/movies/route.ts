@@ -6,6 +6,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
+import { detectCategories, type SpecialCategory } from '@/lib/movies/special-categories';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -30,6 +31,7 @@ export async function GET(request: NextRequest) {
   const underrated = searchParams.get('underrated') === 'true';
   const blockbuster = searchParams.get('blockbuster') === 'true';
   const classic = searchParams.get('classic') === 'true';
+  const specialCategory = searchParams.get('specialCategory');
   
   // Sorting
   const sortBy = searchParams.get('sortBy') || 'rating';
@@ -39,6 +41,7 @@ export async function GET(request: NextRequest) {
     let query = supabase
       .from('movies')
       .select('*')
+      .eq('is_published', true)
       .eq('language', language);
 
     // Apply filters
@@ -78,6 +81,10 @@ export async function GET(request: NextRequest) {
     if (classic) {
       query = query.eq('is_classic', true);
     }
+    
+    // Note: specialCategory filter will be applied after fetching
+    // because we need to handle both database column and auto-detection fallback
+    const hasSpecialCategoryFilter = !!specialCategory;
 
     // Apply sorting
     const sortColumn = sortBy === 'rating' ? 'our_rating' : 
@@ -88,7 +95,11 @@ export async function GET(request: NextRequest) {
     query = query.order(sortColumn, { ascending: sortOrder === 'asc', nullsFirst: false });
     
     // Apply pagination
-    query = query.range(offset, offset + limit - 1);
+    // For special category filtering, fetch a larger batch to account for filtering
+    // Then filter and paginate the results
+    const fetchLimit = hasSpecialCategoryFilter ? 200 : limit;
+    const fetchOffset = hasSpecialCategoryFilter ? 0 : offset;
+    query = query.range(fetchOffset, fetchOffset + fetchLimit - 1);
 
     const { data: movies, error } = await query;
 
@@ -97,8 +108,38 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ movies: [], error: error.message }, { status: 500 });
     }
 
+    // Apply special category filter with fallback to auto-detection
+    let filteredMovies = movies || [];
+    if (hasSpecialCategoryFilter && specialCategory) {
+      filteredMovies = (movies || []).filter(movie => {
+        // First, check if movie has special_categories column populated
+        if (movie.special_categories && Array.isArray(movie.special_categories) && movie.special_categories.length > 0) {
+          return movie.special_categories.includes(specialCategory as SpecialCategory);
+        }
+        
+        // Fallback: Auto-detect categories if column is empty/NULL
+        const detectedCategories = detectCategories({
+          id: movie.id,
+          title_en: movie.title_en,
+          genres: movie.genres,
+          our_rating: movie.our_rating,
+          avg_rating: movie.avg_rating,
+          is_blockbuster: movie.is_blockbuster,
+          is_classic: movie.is_classic,
+          is_underrated: movie.is_underrated,
+          tone: movie.tone,
+          era: movie.era,
+        });
+        
+        return detectedCategories.includes(specialCategory as SpecialCategory);
+      });
+      
+      // Apply pagination to filtered results
+      filteredMovies = filteredMovies.slice(offset, offset + limit);
+    }
+
     // Map to MovieCard format
-    const mappedMovies = (movies || []).map(m => ({
+    const mappedMovies = filteredMovies.map(m => ({
       id: m.id,
       title_en: m.title_en || m.title,
       title_te: m.title_te,
@@ -119,7 +160,8 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json({
       movies: mappedMovies,
-      total: movies?.length || 0,
+      total: filteredMovies.length,
+      hasMore: hasSpecialCategoryFilter ? filteredMovies.length >= limit : (movies?.length || 0) >= limit,
     });
   } catch (error) {
     console.error('Movies API error:', error);

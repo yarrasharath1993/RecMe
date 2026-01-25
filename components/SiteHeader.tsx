@@ -206,7 +206,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
   
   const menuItems = [
     { href: '/', label: 'Home', labelTe: 'హోమ్', emoji: '🏠' },
-    { href: '/reviews', label: 'Movies', labelTe: 'సినిమాలు', emoji: '🎬' },
+    { href: '/movies', label: 'Movies', labelTe: 'సినిమాలు', emoji: '🎬' },
     { href: '/category/gossip', label: 'Gossip', labelTe: 'గాసిప్', emoji: '🌶️' },
     { href: '/category/entertainment', label: 'Entertainment', labelTe: 'వినోదం', emoji: '🎭' },
     { href: '/category/sports', label: 'Sports', labelTe: 'స్పోర్ట్స్', emoji: '🏆' },

@@ -1,0 +1,4 @@
+MovieID,Title,Year,Actor,Role,Issue,Reason,Confidence,RecommendedFix
+35514c0c-110a-40dc-b06f-21a5972f7133,105 Minuttess,2024,Hansika Motwani,hero,impossible_pairing,Same person listed as both hero and heroine,100.0%,Check data entry error
+1f8fa34e-41ed-4a79-8581-421273cd1d21,The Trial,2023,Spandana Palli,hero,impossible_pairing,Same person listed as both hero and heroine,100.0%,Check data entry error
+dd1b498e-7532-4802-a339-5cb803c1a6c9,Babli Bouncer,2022,Tamannaah Bhatia,hero,impossible_pairing,Same person listed as both hero and heroine,100.0%,Check data entry error

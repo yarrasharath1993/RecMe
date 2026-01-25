@@ -1,0 +1,1675 @@
+{
+  "actor": "Pawan",
+  "timestamp": "2026-01-11T20:06:44.850Z",
+  "totalFilms": 33,
+  "filmography": [
+    {
+      "year": null,
+      "title": "They Call Him OG 2",
+      "slug": "they-call-him-og-2-tba",
+      "hero": "Pawan Kalyan",
+      "heroine": "No Female Lead",
+      "director": "Sujeeth",
+      "musicDirector": "S. Thaman",
+      "writer": "Sujeeth",
+      "producer": "DVV Danayya",
+      "tmdbId": 1553748,
+      "genres": [
+        "Thriller",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Lal",
+          "role": "Ibrahim",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Sathya Dada",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Arjun Das",
+          "role": "Arjun",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Emraan Hashmi",
+          "role": "Omkar \"Omi Bhau\" Varthaman",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2026,
+      "title": "Ustaad Bhagat Singh",
+      "slug": "ustaad-bhagat-singh-2026",
+      "hero": "Pawan Kalyan",
+      "heroine": "Sreeleela",
+      "director": "Harish Shankar",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Sherry Wu",
+      "editor": "Sabrina Zhao",
+      "writer": "Sabrina Zhao",
+      "producer": "Naveen Yerneni",
+      "tmdbId": 1022788,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Raashii Khanna",
+          "role": "Shloka",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nawab Shah",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Avinash",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Gautami Tadimalla",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Narra Srinu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2025,
+      "title": "They Call Him OG",
+      "slug": "they-call-him-og-2025",
+      "hero": "Pawan Kalyan",
+      "heroine": "Priyanka Arul Mohan",
+      "director": "Sujeeth",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "Ravi K. Chandran",
+      "editor": "Naveen Nooli",
+      "writer": "Sujeeth",
+      "producer": "DVV Danayya",
+      "tmdbId": 1080365,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Priyanka Arul Mohan",
+          "role": "Kanmani",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Satya Dada",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sriya Reddy",
+          "role": "Geetha",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Arjun Das",
+          "role": "Arjun",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ajay Ghosh",
+          "role": "Politician",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2025,
+      "title": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
+      "slug": "hari-hara-veera-mallu-part-1-sword-vs-spirit-2025",
+      "hero": "Pawan Kalyan",
+      "heroine": "Bobby Deol",
+      "director": "Jyothi Krishna",
+      "musicDirector": "M.M. Keeravaani",
+      "cinematographer": "Gnana Shekar V. S.",
+      "editor": "Praveen K. L.",
+      "writer": "Radha Krishna Jagarlamudi",
+      "producer": "A. Dayakar Rao",
+      "tmdbId": 727121,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nidhhi Agerwal",
+          "role": "Panchami",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Vissanna",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sunil Varma",
+          "role": "Subbana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Raghu Babu",
+          "role": "Munimanikhyam",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Subbaraju",
+          "role": "Abbanna",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2025,
+      "title": "Hari Hara Veera Mallu",
+      "slug": "hari-hara-veera-mallu-2025",
+      "hero": "Pawan Kalyan",
+      "heroine": "Bobby Deol",
+      "director": "Jyothi Krishna",
+      "musicDirector": "M.M. Keeravaani",
+      "cinematographer": "Gnana Shekar V. S.",
+      "editor": "Praveen K. L.",
+      "writer": "Radha Krishna Jagarlamudi",
+      "producer": "A. Dayakar Rao",
+      "tmdbId": 727121,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Nidhhi Agerwal",
+          "role": "Panchami",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Vissanna",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sunil Varma",
+          "role": "Subbana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Raghu Babu",
+          "role": "Munimanikhyam",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Subbaraju",
+          "role": "Abbanna",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2024,
+      "title": "Double Engine",
+      "slug": "double-engine-2024",
+      "hero": "Pawan Ramesh",
+      "heroine": "Gayatri Gupta",
+      "director": "Camp Sasi",
+      "musicDirector": "Vivek Sagar",
+      "cinematographer": "Shashank Raghavula",
+      "editor": "Rohit Penumatsa",
+      "producer": "Siddharth Rallapalli",
+      "tmdbId": 1026439,
+      "genres": [
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rohit Narasimha",
+          "role": "Narsing",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Raju Shivaratri",
+          "role": "Mouli",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kommidi Vishwender Reddy",
+          "role": "Gopi's Grandfather",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sai Kiran Yadav",
+          "role": "Kishore",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Gayatri Gupta",
+          "role": "Danny's Sister",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2022,
+      "title": "Bheemla Nayak",
+      "slug": "bheemla-nayak-2022",
+      "hero": "Pawan Kalyan",
+      "heroine": "Nithya Menen",
+      "director": "Sagar Chandra",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "Ravi K. Chandran",
+      "editor": "Naveen Nooli",
+      "writer": "Trivikram Srinivas",
+      "producer": "Suryadevara Naga Vamsi",
+      "tmdbId": 811942,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Samuthirakani",
+          "role": "Jeevan Kumar",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Murali Sharma",
+          "role": "CI Kodanda Ram",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nithya Menen",
+          "role": "Suguna",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Samyuktha",
+          "role": "Daniel's wife",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rao Ramesh",
+          "role": "Nagaraju",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2021,
+      "title": "Vakeel Saab",
+      "slug": "vakeel-saab-2021",
+      "hero": "Pawan Kalyan",
+      "heroine": "Shruti Haasan",
+      "director": "Venu Sriram",
+      "musicDirector": "S. Thaman",
+      "cinematographer": "P. S. Vinod",
+      "editor": "Prawin Pudi",
+      "writer": "Venu Sriram",
+      "producer": "Shirish",
+      "tmdbId": 673732,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Shruti Haasan",
+          "role": "Satyadev's Wife",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nivetha Thomas",
+          "role": "Vemula Pallavi",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Anjali",
+          "role": "Zareena",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Ananya Nagalla",
+          "role": "Divya Nayak",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mukesh Rishi",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2017,
+      "title": "Katamarayudu",
+      "slug": "katamarayudu-2017",
+      "hero": "Pawan Kalyan",
+      "heroine": "Tarun Arora",
+      "director": "Kishore Kumar Pardasani",
+      "musicDirector": "Anup Rubens",
+      "cinematographer": "Prasad Murella",
+      "editor": "Gautham Raju",
+      "writer": "Deepak Raja",
+      "producer": "Sharath Marar",
+      "tmdbId": 440794,
+      "genres": [
+        "Action",
+        "Drama",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Rao Ramesh",
+          "role": "Narsappa",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Linga Babu / Lingam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ajay",
+          "role": "Konda Babu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Siva Balaji",
+          "role": "Sivarayudu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kamal Kamaraju",
+          "role": "Katamarayudu's Younger Brother",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2016,
+      "title": "Sardaar Gabbar Singh",
+      "slug": "sardaar-gabbar-singh-2016",
+      "hero": "Pawan Kalyan",
+      "heroine": "Kajal Aggarwal",
+      "director": "Bobby Kolli",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Arthur Wilson",
+      "editor": "Gautham Raju",
+      "writer": "Pawan Kalyan",
+      "producer": "Pawan Kalyan",
+      "tmdbId": 371811,
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sharad Kelkar",
+          "role": "Bhairao Singh",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Shekhar Singh",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Samba",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Krishna Bhagavan",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Kabir Duhan Singh",
+          "role": "Dhanu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2015,
+      "title": "Gopala Gopala",
+      "slug": "gopala-gopala-2015",
+      "hero": "Pawan Kalyan",
+      "heroine": "Madhu Shalini",
+      "director": "Kishore Kumar Pardasani",
+      "musicDirector": "Anup Rubens",
+      "cinematographer": "Jayanan Vincent",
+      "editor": "Gautham Raju",
+      "writer": "Kishore Kumar",
+      "producer": "Daggubati Suresh Babu",
+      "tmdbId": 279449,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Social"
+      ],
+      "supportingCast": [
+        {
+          "name": "Shriya Saran",
+          "role": "Meenakshi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Mithun Chakraborty",
+          "role": "Leeladhara Swamy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Posani Krishna Murali",
+          "role": "Siddheswar Maharaj",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Diksha Panth",
+          "role": "Gopika Matha",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ashish Vidhyarthi",
+          "role": "Shankar Narayana",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2013,
+      "title": "Atharintiki Daaredi",
+      "slug": "atharintiki-daaredi-2013",
+      "hero": "Pawan Kalyan",
+      "heroine": "Samantha",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Prasad Murella",
+      "editor": "Prawin Pudi",
+      "writer": "Trivikram Srinivas",
+      "producer": "BVSN Prasad",
+      "tmdbId": 224061,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Pranitha Subhash",
+          "role": "Prameela",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Boman Irani",
+          "role": "Raghunandan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nadhiya",
+          "role": "Sunanda",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Siddhappa",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Nurse Paddu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2013,
+      "title": "Attarintiki Daredi",
+      "slug": "attarintiki-daredi-2013",
+      "hero": "Pawan Kalyan",
+      "heroine": "Samantha Prabhu",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Prasad Murella",
+      "editor": "Prawin Pudi",
+      "writer": "Trivikram Srinivas",
+      "producer": "BVSN Prasad",
+      "tmdbId": 224061,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Pranitha Subhash",
+          "role": "Prameela",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Boman Irani",
+          "role": "Raghunandan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nadhiya",
+          "role": "Sunanda",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Siddhappa",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Nurse Paddu",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2012,
+      "title": "Gabbar Singh",
+      "slug": "gabbar-singh-2012",
+      "hero": "Pawan Kalyan",
+      "heroine": "Shruti Haasan",
+      "director": "Harish Shankar",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Jayanan Vincent",
+      "editor": "Gautham Raju",
+      "writer": "Satish Vegesna",
+      "producer": "Bandla Ganesh",
+      "tmdbId": 111836,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ali Basha",
+          "role": "Samba",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Heroine Father",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Abhimanyu Singh",
+          "role": "Siddhappa Naidu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Tanikella Bharani",
+          "role": "Mavayya",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Recovery Ranjit Kumar",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2012,
+      "title": "Cameraman Ganga Tho Rambabu",
+      "slug": "cameraman-ganga-tho-rambabu-2012",
+      "hero": "Pawan Kalyan",
+      "heroine": "Tamannaah Bhatia",
+      "director": "Puri Jagannadh",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Shyam K. Naidu",
+      "editor": "S. R. Sekhar",
+      "writer": "Puri Jagannadh",
+      "producer": "DVV Danayya",
+      "tmdbId": 138667,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Brahmanandam",
+          "role": "Bobby",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ali Basha",
+          "role": "SRK",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Ex-Chief Minister Jawahar Naidu",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Rana Prathap Naidu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Nassar",
+          "role": "Chandrasekhara Reddy",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2011,
+      "title": "Panjaa",
+      "slug": "panjaa-2011",
+      "hero": "Pawan Kalyan",
+      "heroine": "Adivi Sesh",
+      "director": "Vishnuvardhan",
+      "musicDirector": "Yuvan Shankar Raja",
+      "cinematographer": "P. S. Vinod",
+      "editor": "Sreekar Prasad",
+      "writer": "Vishnu Varadhan",
+      "producer": "Shobu Yarlagadda",
+      "tmdbId": 80539,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Anjali Lavania",
+          "role": "Jahnavi",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Jackie Shroff",
+          "role": "Bhagavan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Atul Kulkarni",
+          "role": "Kulkarni",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Paparayudu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tanikella Bharani",
+          "role": "Guruvayya",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Pancharangi",
+      "slug": "pancharangi-2010",
+      "hero": "Pawan Kumar",
+      "heroine": "Nidhi Subbaiah",
+      "director": "Yogaraj Bhat",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": 229430,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Anant Nag",
+          "type": "supporting",
+          "character": "Wanderer (Nameless)"
+        },
+        {
+          "name": "Ramya Barna",
+          "type": "supporting",
+          "character": "Latha"
+        },
+        {
+          "name": "Padmaja Rao",
+          "type": "supporting",
+          "character": "Padma"
+        },
+        {
+          "name": "Nagendra Shah",
+          "type": "supporting",
+          "character": "Narayan Rao"
+        },
+        {
+          "name": "Raju Talikote",
+          "type": "supporting",
+          "character": "Raju Talikote"
+        },
+        {
+          "name": "Mithra",
+          "type": "supporting",
+          "character": "Keshavananda Swamiji"
+        },
+        {
+          "name": "Diganth Manchale",
+          "type": "supporting",
+          "character": "Bharath Kumar"
+        },
+        {
+          "name": "Priyanka Upendra",
+          "type": "supporting",
+          "character": "Cameo"
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Komaram Puli",
+      "slug": "komaram-puli-2010",
+      "hero": "Pawan Kalyan",
+      "heroine": "Nikisha Patel",
+      "director": "S.J. Surya",
+      "musicDirector": "A.R. Rahman",
+      "cinematographer": "Binod Pradhan",
+      "editor": "V. T. Vijayan",
+      "writer": "S. J. Suryah",
+      "producer": "Singanamala Ramesh",
+      "tmdbId": 199800,
+      "genres": [
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "supportingCast": [
+        {
+          "name": "Manoj Bajpayee",
+          "role": "Al Saleem",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Assistant Commissioner of Police",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Basha",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Saranya Ponvannan",
+          "role": "Puli's Mother",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Charan Raj",
+          "role": "Inspector General of Police",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2010,
+      "title": "Puli",
+      "slug": "puli-2010",
+      "hero": "Pawan Kalyan",
+      "heroine": "Nikeesa Patel",
+      "director": "S.J. Surya",
+      "musicDirector": "S. J. Surya",
+      "cinematographer": "Binod Pradhan",
+      "editor": "V. T. Vijayan",
+      "writer": "S. J. Suryah",
+      "producer": "Pawan Kalyan",
+      "tmdbId": 199800,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "supportingCast": [
+        {
+          "name": "Manoj Bajpayee",
+          "role": "Al Saleem",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Nassar",
+          "role": "Assistant Commissioner of Police",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Basha",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Saranya Ponvannan",
+          "role": "Puli's Mother",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Charan Raj",
+          "role": "Inspector General of Police",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2008,
+      "title": "Jalsa",
+      "slug": "jalsa-2008",
+      "hero": "Pawan Kalyan",
+      "heroine": "Ileana D'Cruz",
+      "director": "Trivikram Srinivas",
+      "musicDirector": "Devi Sri Prasad",
+      "cinematographer": "Rasool Ellore",
+      "editor": "Sreekar Prasad",
+      "writer": "Trivikram Srinivas",
+      "producer": "Allu Aravind",
+      "tmdbId": 73578,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Parvati Melton",
+          "role": "Jyo",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kamalinee Mukherjee",
+          "role": "Indu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Rammohan Reddy",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Mukesh Rishi",
+          "role": "Damodar Reddy",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Pranav",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2006,
+      "title": "Annavaram",
+      "slug": "annavaram-2006",
+      "hero": "Pawan Kalyan",
+      "heroine": "Asin",
+      "director": "Bhimaneni Srinivasa Rao",
+      "musicDirector": "Ramana Gogula",
+      "cinematographer": "Sethu Sriram",
+      "editor": "Gautham Raju",
+      "writer": "Bhimaneni Srinivasa Rao",
+      "producer": "R. B. Choudary",
+      "tmdbId": 199806,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Asin Thottumkal",
+          "role": "Aishwarya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Siva Balaji",
+          "role": "Varam's husband",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Venu Madhav",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Gayatri Bhargavi",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Lal",
+          "role": "Puranapool Ganga",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2005,
+      "title": "Balu",
+      "slug": "balu-2005",
+      "hero": "Pawan Kalyan",
+      "heroine": "Shriya Saran",
+      "director": "A. Karunakaran",
+      "musicDirector": "Mani Sharma",
+      "editor": "Kotagiri Venkateswara Rao",
+      "producer": "C. Ashwini Dutt",
+      "tmdbId": 115268,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Neha Oberoi",
+          "role": "Indu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Gulshan Grover",
+          "role": "Khan",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Taj Banjara Hotel Manager",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "M. S. Narayana",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2004,
+      "title": "Gudumba Shankar",
+      "slug": "gudumba-shankar-2004",
+      "hero": "Pawan Kalyan",
+      "heroine": "Meera Jasmine",
+      "director": "Veera Shankar Bairisetty",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Yusuf Khan",
+      "writer": "Pawan Kalyan",
+      "producer": "Nagendra Babu",
+      "tmdbId": 117093,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Ashish Vidhyarthi",
+          "role": "Kumaraswamy",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Parabrahma Swamy",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Sayaji Shinde",
+          "role": "'Bejawada' Narayana",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Devudu",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rajan P Dev",
+          "role": "Kumaraswamy's uncle (Mama)",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2003,
+      "title": "Johnny",
+      "slug": "johnny-2003",
+      "hero": "Pawan Kalyan",
+      "heroine": "Renu Desai",
+      "director": "Pawan Kalyan",
+      "musicDirector": "Ramana Gogula",
+      "cinematographer": "Chota K. Naidu",
+      "editor": "Yusuf Khan",
+      "writer": "Pawan Kalyan",
+      "producer": "Allu Aravind",
+      "tmdbId": 281954,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Mallikarjuna Rao",
+          "role": "Anthony",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "M. S. Narayana",
+          "role": "Lingam",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Geetha",
+          "role": "Johnny's mother",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Raghuvaran",
+          "role": "Ravishankar Damle",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Lillete Dubey",
+          "role": "Smitha",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2001,
+      "title": "Kushi",
+      "slug": "kushi-2001",
+      "hero": "Pawan Kalyan",
+      "heroine": "Bhumika Chawla",
+      "director": "Sj Surya",
+      "musicDirector": "Mani Sharma",
+      "cinematographer": "P. C. Sreeram",
+      "editor": "Kola Bhaskar",
+      "writer": "S. J. Suryah",
+      "producer": "A. M. Rathnam",
+      "tmdbId": 81070,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Sudhakar",
+          "role": "Venky",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sivaji Sontineni",
+          "role": "Babu",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Nassar",
+          "role": "Siddhu's Father",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Janaki Sabesh",
+          "role": "Siddhu's Mother",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Vijayakumar",
+          "role": "Madhu's Father",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2001,
+      "title": "Khushi",
+      "slug": "khushi-2001",
+      "hero": "Pawan Kalyan",
+      "heroine": "Kajol",
+      "director": "Karan Johar",
+      "musicDirector": "Babloo Chakravorty",
+      "cinematographer": "Kiran Deohans",
+      "editor": "Sanjay Sankla",
+      "writer": "Sheena Parikh",
+      "producer": "Yash Johar",
+      "tmdbId": 10757,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "supportingCast": [
+        {
+          "name": "Hrithik Roshan",
+          "role": "Rohan Raichand",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Kajol",
+          "role": "Anjali Sharma Raichand",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Jaya Bachchan",
+          "role": "Nandini Chandran Raichand",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kareena Kapoor Khan",
+          "role": "Pooja “Poo” Sharma Raichand",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Rani Mukerji",
+          "role": "Naina Kapoor",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 2000,
+      "title": "Badri",
+      "slug": "badri-2000",
+      "hero": "Pawan Kalyan",
+      "heroine": "Ameesha Patel",
+      "director": "Puri Jagannadh",
+      "musicDirector": "Ramana Gogula",
+      "cinematographer": "Madhu Ambat",
+      "editor": "Marthand K Venkatesh",
+      "writer": "Puri Jagannadh",
+      "producer": "Trivikrama Rao T.",
+      "tmdbId": 80921,
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "supportingCast": [
+        {
+          "name": "Renu Desai",
+          "role": "Vennela",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "role": "Nanda",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Badri's Father",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Brahmanandam",
+          "role": "Gangaraju",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1999,
+      "title": "Thammudu",
+      "slug": "thammudu-1999",
+      "hero": "Pawan Kalyan",
+      "heroine": "Preeti Jhangiani",
+      "director": "P.A. Arun Prasad",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": 199808,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Preeti Jhangiani",
+          "role": "Jaanu",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Aditi Gowitrikar",
+          "role": "Lovely",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Ali Basha",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Kitty",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1998,
+      "title": "Suswagatham",
+      "slug": "suswagatham-1998",
+      "hero": "Pawan Kalyan",
+      "heroine": "Devayani",
+      "director": "Bhimaneni Srinivasa Rao",
+      "musicDirector": "S A Rajkumar",
+      "writer": "Bhimaneni Srinivasa Rao",
+      "producer": "R. B. Choudary",
+      "tmdbId": 199812,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [
+        {
+          "name": "Raghuvaran",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Prakash Raj",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Karan",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Sudhakar",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Tirupati Prakash",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1998,
+      "title": "Tholi Prema",
+      "slug": "tholi-prema-1998",
+      "hero": "Pawan Kalyan",
+      "heroine": "Keerthi Reddy",
+      "director": "A. Karunakaran",
+      "musicDirector": "Deva",
+      "producer": "G.V.G. Raju",
+      "tmdbId": 112846,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "supportingCast": [
+        {
+          "name": "Vasuki Anand",
+          "role": "Priya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Ali Basha",
+          "role": "Friend",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Venu Madhav",
+          "role": "Arnold Sekhar",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Achyuth",
+          "role": "Anil",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Narra Venkateswara Rao",
+          "role": "Viswanatham",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1997,
+      "title": "Gokulamlo Seeta",
+      "slug": "gokulamlo-seeta-1997",
+      "hero": "Pawan Kalyan",
+      "heroine": "Raasi",
+      "director": "Muthyala Subbaiah",
+      "musicDirector": null,
+      "producer": null,
+      "tmdbId": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family"
+      ],
+      "supportingCast": [],
+      "boxOffice": {}
+    },
+    {
+      "year": 1997,
+      "title": "Gokulamlo Seetha",
+      "slug": "gokulamlo-seetha-1997",
+      "hero": "Pawan Kalyan",
+      "heroine": "Raasi",
+      "director": "Muthyala Subbaiah",
+      "musicDirector": null,
+      "writer": "Posani Krishna Murali",
+      "producer": null,
+      "tmdbId": 99158,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Family",
+        "Mythological"
+      ],
+      "supportingCast": [
+        {
+          "name": "Kota Srinivasa Rao",
+          "role": "Muddukrishnayya",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sudhakar",
+          "role": "Baburao",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Srihari",
+          "role": "Hari",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Harish Kumar",
+          "role": "Bhaskar",
+          "type": "supporting",
+          "order": 4
+        }
+      ],
+      "boxOffice": {}
+    },
+    {
+      "year": 1996,
+      "title": "Akkada Ammayi Ikkada Abbayi",
+      "slug": "akkada-ammayi-ikkada-abbayi-1996",
+      "hero": "Pawan Kalyan",
+      "heroine": "Chandramohan",
+      "director": "E.V.V. Satyanarayana",
+      "musicDirector": "Saluri Koteswara Rao",
+      "writer": "E.V.V. Satyanarayana",
+      "producer": "Allu Aravind",
+      "tmdbId": 115050,
+      "genres": [
+        "Romance",
+        "Action"
+      ],
+      "supportingCast": [
+        {
+          "name": "Chandramohan",
+          "role": "Actor",
+          "type": "supporting",
+          "order": 1
+        },
+        {
+          "name": "Sarath Babu",
+          "role": "Actor",
+          "type": "supporting",
+          "order": 2
+        },
+        {
+          "name": "Brahmanandam",
+          "type": "supporting",
+          "order": 3
+        },
+        {
+          "name": "Allu Ramalingaiah",
+          "type": "supporting",
+          "order": 4
+        },
+        {
+          "name": "Mallikarjuna Rao",
+          "type": "supporting",
+          "order": 5
+        }
+      ],
+      "boxOffice": {}
+    }
+  ],
+  "statistics": {
+    "byDecade": [
+      [
+        "2020s",
+        7
+      ],
+      [
+        "2010s",
+        11
+      ],
+      [
+        "2000s",
+        9
+      ],
+      [
+        "1990s",
+        6
+      ]
+    ],
+    "missingFields": {
+      "cinematographer": 9,
+      "editor": 8,
+      "writer": 6,
+      "producer": 4,
+      "tmdbId": 1
+    },
+    "genreDistribution": {
+      "Thriller": 6,
+      "Action": 21,
+      "Drama": 26,
+      "Adventure": 2,
+      "Crime": 3,
+      "Family": 8,
+      "Comedy": 10,
+      "Social": 1,
+      "Romance": 12,
+      "Mythological": 1
+    }
+  }
+}

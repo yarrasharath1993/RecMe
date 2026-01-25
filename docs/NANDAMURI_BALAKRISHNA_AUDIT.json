@@ -1,0 +1,149 @@
+{
+  "actorName": "Nandamuri Balakrishna",
+  "debutYear": 1974,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 112,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "91e5fe29-5156-4caa-9817-c3dff311a487",
+        "title": "Babayi-Abbayi",
+        "year": 1985
+      },
+      "movie2": {
+        "id": "8868395b-8036-4af6-8619-e638c8204a38",
+        "title": "Babai Abbai",
+        "year": 1985
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "87175f47-a41d-450d-af6d-c448b0c04f2a",
+        "title": "President Gari Abbai",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "11be01bd-2da0-4f01-9d87-91197d07fc4b",
+        "title": "President Gari Abbayi",
+        "year": 1987
+      },
+      "similarity": 0.9473684210526316
+    },
+    {
+      "movie1": {
+        "id": "b681af63-0529-49c0-bf1f-8c4dabb254ca",
+        "title": "Ramu",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "6aaac076-8828-4d7e-8708-60a28f478133",
+        "title": "Bhargava Ramudu",
+        "year": 1987
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "b681af63-0529-49c0-bf1f-8c4dabb254ca",
+        "title": "Ramu",
+        "year": 1987
+      },
+      "movie2": {
+        "id": "970c55f6-d79e-4ec4-be98-6656351f98a8",
+        "title": "Ramudu Bheemudu",
+        "year": 1988
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "22d3f412-3466-4bfb-a6f3-9f4c09a2d5ca",
+        "title": "Raktabhishekam",
+        "year": 1988
+      },
+      "movie2": {
+        "id": "c3255dab-e2f2-4feb-be39-fa6e52bc135a",
+        "title": "Rakthabishekam",
+        "year": 1988
+      },
+      "similarity": 0.8571428571428572
+    },
+    {
+      "movie1": {
+        "id": "c6efaa79-6ff2-4644-9db6-c340dc605278",
+        "title": "Okka Magadu",
+        "year": 2008
+      },
+      "movie2": {
+        "id": "8bfff226-c4b1-4935-8c99-ffbbafe0966c",
+        "title": "Okka Magaadu",
+        "year": 2008
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "697e154c-74d8-40c9-b3bc-ba02c42bf95a",
+        "title": "N.T.R: Kathanayakudu",
+        "year": 2019
+      },
+      "movie2": {
+        "id": "1e7029d7-6cff-4e8e-af10-de40d73395cd",
+        "title": "N.t.r: Mahanayakudu",
+        "year": 2019
+      },
+      "similarity": 0.875
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1975": 1,
+    "1976": 1,
+    "1977": 1,
+    "1979": 2,
+    "1982": 2,
+    "1983": 3,
+    "1984": 4,
+    "1985": 4,
+    "1986": 8,
+    "1987": 10,
+    "1988": 6,
+    "1989": 3,
+    "1990": 6,
+    "1991": 2,
+    "1992": 3,
+    "1993": 3,
+    "1994": 4,
+    "1995": 1,
+    "1996": 4,
+    "1997": 3,
+    "1998": 3,
+    "1999": 3,
+    "2000": 2,
+    "2001": 1,
+    "2002": 2,
+    "2003": 1,
+    "2004": 2,
+    "2006": 1,
+    "2007": 1,
+    "2008": 3,
+    "2009": 1,
+    "2010": 1,
+    "2011": 2,
+    "2012": 2,
+    "2014": 1,
+    "2015": 1,
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 3,
+    "2020": 1,
+    "2021": 1,
+    "2023": 2,
+    "2025": 3
+  },
+  "summary": "7 potential duplicates"
+}

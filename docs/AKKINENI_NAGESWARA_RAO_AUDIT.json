@@ -1,0 +1,156 @@
+{
+  "actorName": "Akkineni Nageswara Rao",
+  "debutYear": 1941,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 237,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "5565703a-2ac0-4331-bd44-4188e7b075f7",
+        "title": "Pellinaati Pramanalu",
+        "year": 1959
+      },
+      "movie2": {
+        "id": "987e6d65-39f5-4471-bf79-868d1eb9dfae",
+        "title": "Pelli Naati Pramanalu",
+        "year": 1959
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "af61a7a2-d24e-4dfb-a9eb-012c57d293c8",
+        "title": "Bharya Bhartalu",
+        "year": 1961
+      },
+      "movie2": {
+        "id": "59be6310-4454-4dd0-9e5f-fc26a11673e4",
+        "title": "Bharya Bharthalu",
+        "year": 1961
+      },
+      "similarity": 0.9333333333333333
+    },
+    {
+      "movie1": {
+        "id": "94f94f70-8c8c-4d26-bb30-29bdaed05c9c",
+        "title": "Paruvu-Prathishta",
+        "year": 1963
+      },
+      "movie2": {
+        "id": "76cf0363-bde6-475e-afb4-73c205ddeda8",
+        "title": "Paruvu-Prathishtta",
+        "year": 1963
+      },
+      "similarity": 0.9411764705882353
+    },
+    {
+      "movie1": {
+        "id": "e49cf91c-3bde-46f4-9ade-74817d1bf579",
+        "title": "Raitu Kutumbam",
+        "year": 1971
+      },
+      "movie2": {
+        "id": "08a86362-b112-4d6c-9b90-25e79dc960c7",
+        "title": "Raitu Kutumbam",
+        "year": 1972
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "d1ff01ab-8c56-4104-8d8f-49fc29e816cb",
+        "title": "Geeta",
+        "year": 1973
+      },
+      "movie2": {
+        "id": "b9512ef0-4eff-449b-97fc-fbf364adb75b",
+        "title": "Geetaanjali",
+        "year": 1973
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "9b5fd4b3-d8ba-4bdb-bef2-1ada70b6f6f0",
+        "title": "Srivari Muchatlu",
+        "year": 1980
+      },
+      "movie2": {
+        "id": "fe569dd4-0bff-4b5b-a21c-ba2ddd1df78a",
+        "title": "Srivari Muchatlu",
+        "year": 1981
+      },
+      "similarity": 1
+    }
+  ],
+  "invalidEntries": [
+    {
+      "id": "c3eae04a-83ca-4c70-a9a6-9c308c6f5dff",
+      "title_en": "Dr. Anand",
+      "release_year": 1966,
+      "hero": "Akkineni Nageswara Rao",
+      "heroine": "Kanchana",
+      "director": "V. Madhusudhana Rao",
+      "our_rating": 7.5,
+      "cast_members": []
+    }
+  ],
+  "yearDistribution": {
+    "1941": 1,
+    "1942": 2,
+    "1943": 1,
+    "1945": 1,
+    "1946": 2,
+    "1947": 3,
+    "1948": 7,
+    "1949": 1,
+    "1950": 6,
+    "1951": 6,
+    "1952": 8,
+    "1953": 6,
+    "1954": 5,
+    "1955": 4,
+    "1956": 6,
+    "1957": 6,
+    "1958": 2,
+    "1959": 7,
+    "1960": 7,
+    "1961": 7,
+    "1962": 7,
+    "1963": 6,
+    "1964": 5,
+    "1965": 7,
+    "1966": 6,
+    "1967": 3,
+    "1968": 9,
+    "1969": 7,
+    "1970": 6,
+    "1971": 14,
+    "1972": 10,
+    "1973": 11,
+    "1974": 6,
+    "1975": 1,
+    "1976": 4,
+    "1977": 3,
+    "1978": 4,
+    "1979": 3,
+    "1980": 3,
+    "1981": 5,
+    "1982": 4,
+    "1983": 3,
+    "1984": 4,
+    "1985": 3,
+    "1988": 2,
+    "1990": 3,
+    "1991": 1,
+    "1992": 3,
+    "1994": 2,
+    "1996": 1,
+    "1998": 1,
+    "2000": 1,
+    "2011": 1
+  },
+  "summary": "6 potential duplicates, 1 invalid entries"
+}

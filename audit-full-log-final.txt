@@ -1,0 +1,1658 @@
+
+═══════════════════════════════════════════════════════════════
+  COMPREHENSIVE FILMOGRAPHY AUDIT
+═══════════════════════════════════════════════════════════════
+
+Fetching celebrities with Wikipedia URLs...
+
+✓ Loaded 184 celebrities with Wikipedia URLs
+
+
+Progress: 1/184
+
+[A. Chandra] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 2/184
+
+[Aadi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: celeb-aadi-attribution.csv
+
+Progress: 3/184
+
+[Abbas] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 4/184
+
+[Abhirami] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 5/184
+
+[Aditi Rao Hydari] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 24 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: aditi-rao-hydari-attribution.csv
+
+Progress: 6/184
+
+[Aishwarya Rai Bachchan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 2 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 2
+  ❌ Missing: 0
+  Saved: aishwarya-rai-bachchan-attribution.csv
+
+Progress: 7/184
+
+[Ajay] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 8/184
+
+[Akkineni Nagarjuna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 9/184
+
+[Aksha Pardasany] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 16 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: aksha-pardasany-attribution.csv
+
+Progress: 10/184
+
+[Ali] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 4 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 3
+  ❌ Missing: 0
+  Saved: celeb-ali-attribution.csv
+
+Progress: 11/184
+
+[Ali Basha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 4 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 3
+  ❌ Missing: 0
+  Saved: celeb-ali-basha-attribution.csv
+
+Progress: 12/184
+
+[Allu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 48 movies on Wikipedia
+  ✓ Attributed: 11
+  ⚠️  Needs attribution: 37
+  ❌ Missing: 0
+  Saved: celeb-allu-attribution.csv
+
+Progress: 13/184
+
+[Amala] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 42 movies on Wikipedia
+  ✓ Attributed: 20
+  ⚠️  Needs attribution: 22
+  ❌ Missing: 0
+  Saved: celeb-amala-attribution.csv
+
+Progress: 14/184
+
+[Amulya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 15 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 15
+  ❌ Missing: 0
+  Saved: amulya-attribution.csv
+
+Progress: 15/184
+
+[Anandhi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 16/184
+
+[Anjali] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: celeb-anjali-attribution.csv
+
+Progress: 17/184
+
+[Annu Kapoor] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 44 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 42
+  ❌ Missing: 0
+  Saved: annu-kapoor-attribution.csv
+
+Progress: 18/184
+
+[Anurag Basu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 22 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 22
+  ❌ Missing: 0
+  Saved: anurag-basu-attribution.csv
+
+Progress: 19/184
+
+[Anusha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 50 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 48
+  ❌ Missing: 0
+  Saved: celeb-anusha-attribution.csv
+
+Progress: 20/184
+
+[Anushka Shetty] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 21/184
+
+[Archana] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 26 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 22
+  ❌ Missing: 0
+  Saved: celeb-archana-attribution.csv
+
+Progress: 22/184
+
+[Arjun] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 23/184
+
+[Ashwini] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 13 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 13
+  ❌ Missing: 0
+  Saved: celeb-ashwini-attribution.csv
+
+Progress: 24/184
+
+[B] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 25/184
+
+[B Saroja Devi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 26/184
+
+[Bapu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 27/184
+
+[Bellamkonda Srinivas] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 10 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 3
+  ❌ Missing: 0
+  Saved: celeb-bellamkonda-srinivas-attribution.csv
+
+Progress: 28/184
+
+[Bhanumathi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 29/184
+
+[Bhaskar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 7 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: celeb-bhaskar-attribution.csv
+
+Progress: 30/184
+
+[Bhavana] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 23 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: celeb-bhavana-attribution.csv
+
+Progress: 31/184
+
+[BVS Rama Rao] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 32/184
+
+[Camp Sasi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 33/184
+
+[Chandra Mohan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 58 movies on Wikipedia
+  ✓ Attributed: 34
+  ⚠️  Needs attribution: 24
+  ❌ Missing: 0
+  Saved: celeb-chandra-mohan-attribution.csv
+
+Progress: 34/184
+
+[Chiranjeevi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 13 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 8
+  ❌ Missing: 0
+  Saved: chiranjeevi-attribution.csv
+
+Progress: 35/184
+
+[Devi Prasad] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 36/184
+
+[Divya Vani] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 37/184
+
+[G Varalakshmi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 117 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 103
+  ❌ Missing: 0
+  Saved: g-varalakshmi-attribution.csv
+
+Progress: 38/184
+
+[G. Ram Prasad] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 39/184
+
+[Geetha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 118 movies on Wikipedia
+  ✓ Attributed: 31
+  ⚠️  Needs attribution: 87
+  ❌ Missing: 0
+  Saved: celeb-geetha-attribution.csv
+
+Progress: 40/184
+
+[Genelia D'Souza] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 32 movies on Wikipedia
+  ✓ Attributed: 6
+  ⚠️  Needs attribution: 26
+  ❌ Missing: 0
+  Saved: genelia-dsouza-attribution.csv
+
+Progress: 41/184
+
+[Gopichand] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 42/184
+
+[Gowri Munjal] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 6 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: gowri-munjal-attribution.csv
+
+Progress: 43/184
+
+[Gummadi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 48 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 41
+  ❌ Missing: 0
+  Saved: gummadi-attribution.csv
+
+Progress: 44/184
+
+[Haranath] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 45/184
+
+[Hariprriya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 8 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: hariprriya-attribution.csv
+
+Progress: 46/184
+
+[Indraja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 28 movies on Wikipedia
+  ✓ Attributed: 6
+  ⚠️  Needs attribution: 22
+  ❌ Missing: 0
+  Saved: celeb-indraja-attribution.csv
+
+Progress: 47/184
+
+[Jaishankar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 48/184
+
+[Jamuna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 49/184
+
+[Janaki] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 60 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 52
+  ❌ Missing: 0
+  Saved: celeb-janaki-attribution.csv
+
+Progress: 50/184
+
+[Jayanthi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 51/184
+
+[Jeeva] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 70 movies on Wikipedia
+  ✓ Attributed: 10
+  ⚠️  Needs attribution: 60
+  ❌ Missing: 0
+  Saved: celeb-jeeva-attribution.csv
+
+Progress: 52/184
+
+[K] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 38 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 38
+  ❌ Missing: 0
+  Saved: celeb-k-attribution.csv
+
+Progress: 53/184
+
+[K. Bapayya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 54/184
+
+[K. Murali Mohan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 55/184
+
+[K.S.R. Das] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 104 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 104
+  ❌ Missing: 0
+  Saved: celeb-k-s-r-das-attribution.csv
+
+Progress: 56/184
+
+[Kalyani] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 32 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 31
+  ❌ Missing: 0
+  Saved: celeb-kalyani-attribution.csv
+
+Progress: 57/184
+
+[Kanchana] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 64 movies on Wikipedia
+  ✓ Attributed: 18
+  ⚠️  Needs attribution: 46
+  ❌ Missing: 0
+  Saved: kanchana-attribution.csv
+
+Progress: 58/184
+
+[Karthik] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 45 movies on Wikipedia
+  ✓ Attributed: 12
+  ⚠️  Needs attribution: 33
+  ❌ Missing: 0
+  Saved: celeb-karthik-attribution.csv
+
+Progress: 59/184
+
+[Kaveri] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 32 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 27
+  ❌ Missing: 0
+  Saved: celeb-kaveri-attribution.csv
+
+Progress: 60/184
+
+[Kavitha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 10 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 10
+  ❌ Missing: 0
+  Saved: celeb-kavitha-attribution.csv
+
+Progress: 61/184
+
+[Khushboo] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 1 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: celeb-khushboo-attribution.csv
+
+Progress: 62/184
+
+[Krasna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 63/184
+
+[Krishna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 64/184
+
+[Krishna Kumari] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 29 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 24
+  ❌ Missing: 0
+  Saved: krishna-kumari-attribution.csv
+
+Progress: 65/184
+
+[Krithi Shetty] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 7 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 3
+  ❌ Missing: 0
+  Saved: celeb-254e75a3-attribution.csv
+
+Progress: 66/184
+
+[KVAS] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 20 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 20
+  ❌ Missing: 0
+  Saved: celeb-kvas-attribution.csv
+
+Progress: 67/184
+
+[Lakshmi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 138 movies on Wikipedia
+  ✓ Attributed: 25
+  ⚠️  Needs attribution: 113
+  ❌ Missing: 0
+  Saved: celeb-lakshmi-attribution.csv
+
+Progress: 68/184
+
+[Latha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 106 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 92
+  ❌ Missing: 0
+  Saved: celeb-latha-attribution.csv
+
+Progress: 69/184
+
+[Laya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 12 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 10
+  ❌ Missing: 0
+  Saved: celeb-laya-attribution.csv
+
+Progress: 70/184
+
+[M. Mallikarjuna Rao] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 71/184
+
+[M. Radhakrishnan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 72/184
+
+[Madan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 73/184
+
+[Madhavi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 82 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 74
+  ❌ Missing: 0
+  Saved: celeb-madhavi-attribution.csv
+
+Progress: 74/184
+
+[Manjula] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 29 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 26
+  ❌ Missing: 0
+  Saved: manjula-attribution.csv
+
+Progress: 75/184
+
+[Medha Shankr] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 8 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: medha-shankr-attribution.csv
+
+Progress: 76/184
+
+[Meena] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 78 movies on Wikipedia
+  ✓ Attributed: 13
+  ⚠️  Needs attribution: 65
+  ❌ Missing: 0
+  Saved: celeb-meena-attribution.csv
+
+Progress: 77/184
+
+[Mohan Gandhi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 78/184
+
+[Mokksha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 8 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: celeb-b885ee4f-attribution.csv
+
+Progress: 79/184
+
+[Mouli] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 80/184
+
+[N.T. Rama Rao Jr.] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 81/184
+
+[Nagma] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 23 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 20
+  ❌ Missing: 0
+  Saved: celeb-nagma-attribution.csv
+
+Progress: 82/184
+
+[Namrata Shirodkar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 9 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 8
+  ❌ Missing: 0
+  Saved: namrata-shirodkar-attribution.csv
+
+Progress: 83/184
+
+[Nandamuri Balakrishna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 1 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: celeb-nandamuri-balakrishna-attribution.csv
+
+Progress: 84/184
+
+[Nandita Raj] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 85/184
+
+[Nandu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 19 movies on Wikipedia
+  ✓ Attributed: 9
+  ⚠️  Needs attribution: 10
+  ❌ Missing: 0
+  Saved: celeb-nandu-attribution.csv
+
+Progress: 86/184
+
+[Nandu Vijay Krishna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 19 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: celeb-nandu-vijay-krishna-attribution.csv
+
+Progress: 87/184
+
+[Nani] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 88/184
+
+[Naresh] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 62 movies on Wikipedia
+  ✓ Attributed: 13
+  ⚠️  Needs attribution: 49
+  ❌ Missing: 0
+  Saved: celeb-naresh-attribution.csv
+
+Progress: 89/184
+
+[Naresh Agastya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 90/184
+
+[Nayanthara] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 91/184
+
+[Neelakanta] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 10 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 10
+  ❌ Missing: 0
+  Saved: celeb-neelakanta-attribution.csv
+
+Progress: 92/184
+
+[Neha Solanki] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 93/184
+
+[Nisha Aggarwal] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 5 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: nisha-aggarwal-attribution.csv
+
+Progress: 94/184
+
+[Ntr] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 7 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: celeb-ntr-attribution.csv
+
+Progress: 95/184
+
+[P. Chandrasekhara Reddy] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 96/184
+
+[P. Sambasiva Rao] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 97/184
+
+[Padmini] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 98/184
+
+[Poorna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 26 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: celeb-poorna-attribution.csv
+
+Progress: 99/184
+
+[Poornima] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 45 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 44
+  ❌ Missing: 0
+  Saved: celeb-poornima-attribution.csv
+
+Progress: 100/184
+
+[Prabhas] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 7 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: prabhas-attribution.csv
+
+Progress: 101/184
+
+[Prema] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 102/184
+
+[Priyanka Sharma] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 103/184
+
+[R. S. Prakash] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 104/184
+
+[Raashi Singh] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 105/184
+
+[Raasi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 19 movies on Wikipedia
+  ✓ Attributed: 11
+  ⚠️  Needs attribution: 8
+  ❌ Missing: 0
+  Saved: celeb-raasi-attribution.csv
+
+Progress: 106/184
+
+[Radha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 41 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 34
+  ❌ Missing: 0
+  Saved: celeb-radha-attribution.csv
+
+Progress: 107/184
+
+[Rahul Sankrityan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 108/184
+
+[Raja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 9
+  ⚠️  Needs attribution: 2
+  ❌ Missing: 0
+  Saved: celeb-raja-attribution.csv
+
+Progress: 109/184
+
+[Raja Babu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 22 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: celeb-raja-babu-attribution.csv
+
+Progress: 110/184
+
+[Rajani] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 111/184
+
+[Rajasekhar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 35 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 21
+  ❌ Missing: 0
+  Saved: celeb-rajasekhar-attribution.csv
+
+Progress: 112/184
+
+[Rajashree] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 58 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 58
+  ❌ Missing: 0
+  Saved: celeb-rajashree-attribution.csv
+
+Progress: 113/184
+
+[Rajendra Prasad] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 114/184
+
+[Rajinikanth] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 115/184
+
+[Ram] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 24 movies on Wikipedia
+  ✓ Attributed: 15
+  ⚠️  Needs attribution: 9
+  ❌ Missing: 0
+  Saved: celeb-ram-attribution.csv
+
+Progress: 116/184
+
+[Ram Charan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 117/184
+
+[Ramakrishna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 32 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 32
+  ❌ Missing: 0
+  Saved: celeb-ramakrishna-attribution.csv
+
+Progress: 118/184
+
+[Rambha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 65 movies on Wikipedia
+  ✓ Attributed: 20
+  ⚠️  Needs attribution: 45
+  ❌ Missing: 0
+  Saved: celeb-rambha-attribution.csv
+
+Progress: 119/184
+
+[Rasika Dugal] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 42 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 41
+  ❌ Missing: 0
+  Saved: rasika-dugal-attribution.csv
+
+Progress: 120/184
+
+[Ravi Teja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 9
+  ⚠️  Needs attribution: 2
+  ❌ Missing: 0
+  Saved: celeb-ravi-teja-attribution.csv
+
+Progress: 121/184
+
+[Ravi Varma] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 122/184
+
+[Rekha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 123/184
+
+[Revathi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 124/184
+
+[Rohit] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 10 movies on Wikipedia
+  ✓ Attributed: 9
+  ⚠️  Needs attribution: 1
+  ❌ Missing: 0
+  Saved: celeb-rohit-attribution.csv
+
+Progress: 125/184
+
+[Roja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 84 movies on Wikipedia
+  ✓ Attributed: 28
+  ⚠️  Needs attribution: 56
+  ❌ Missing: 0
+  Saved: celeb-roja-attribution.csv
+
+Progress: 126/184
+
+[Roshan Kanakala] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 127/184
+
+[S S Nayak] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 128/184
+
+[S. D. Lal] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 129/184
+
+[Sada] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 130/184
+
+[Sagar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 9
+  ❌ Missing: 0
+  Saved: celeb-sagar-attribution.csv
+
+Progress: 131/184
+
+[Sai Kumar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 77 movies on Wikipedia
+  ✓ Attributed: 18
+  ⚠️  Needs attribution: 59
+  ❌ Missing: 0
+  Saved: celeb-sai-kumar-attribution.csv
+
+Progress: 132/184
+
+[Samantha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 133/184
+
+[Samyuktha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 12 movies on Wikipedia
+  ✓ Attributed: 6
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: samyuktha-attribution.csv
+
+Progress: 134/184
+
+[Sara Arjun] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 22 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 17
+  ❌ Missing: 0
+  Saved: celeb-76bfd159-attribution.csv
+
+Progress: 135/184
+
+[Sarath] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 4 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: celeb-sarath-attribution.csv
+
+Progress: 136/184
+
+[Sarath Babu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 59 movies on Wikipedia
+  ✓ Attributed: 24
+  ⚠️  Needs attribution: 35
+  ❌ Missing: 0
+  Saved: celeb-sarath-babu-attribution.csv
+
+Progress: 137/184
+
+[Saritha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 107 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 104
+  ❌ Missing: 0
+  Saved: celeb-saritha-attribution.csv
+
+Progress: 138/184
+
+[Sasikumar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 139/184
+
+[Satyanarayana] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 60 movies on Wikipedia
+  ✓ Attributed: 34
+  ⚠️  Needs attribution: 26
+  ❌ Missing: 0
+  Saved: celeb-satyanarayana-attribution.csv
+
+Progress: 140/184
+
+[Savitri] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 141/184
+
+[Sayali Bhagat] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: sayali-bhagat-attribution.csv
+
+Progress: 142/184
+
+[Sharada] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 91 movies on Wikipedia
+  ✓ Attributed: 36
+  ⚠️  Needs attribution: 55
+  ❌ Missing: 0
+  Saved: sharada-attribution.csv
+
+Progress: 143/184
+
+[Sharath] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 144/184
+
+[Sheena Shahabadi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 9 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: sheena-shahabadi-attribution.csv
+
+Progress: 145/184
+
+[Shiva Krishna] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 146/184
+
+[Siddharth] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 46 movies on Wikipedia
+  ✓ Attributed: 18
+  ⚠️  Needs attribution: 28
+  ❌ Missing: 0
+  Saved: celeb-siddharth-attribution.csv
+
+Progress: 147/184
+
+[Simran] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 148/184
+
+[Siva] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 149/184
+
+[Siva Nageshwara Rao] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 150/184
+
+[Sivaji Sontineni] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 29 movies on Wikipedia
+  ✓ Attributed: 4
+  ⚠️  Needs attribution: 25
+  ❌ Missing: 0
+  Saved: celeb-sivaji-sontineni-attribution.csv
+
+Progress: 151/184
+
+[Sneha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 25 movies on Wikipedia
+  ✓ Attributed: 6
+  ⚠️  Needs attribution: 19
+  ❌ Missing: 0
+  Saved: celeb-sneha-attribution.csv
+
+Progress: 152/184
+
+[Soundarya] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 8 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: celeb-soundarya-attribution.csv
+
+Progress: 153/184
+
+[Sridevi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 24 movies on Wikipedia
+  ✓ Attributed: 20
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: sridevi-attribution.csv
+
+Progress: 154/184
+
+[Srikanth] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 44 movies on Wikipedia
+  ✓ Attributed: 23
+  ⚠️  Needs attribution: 21
+  ❌ Missing: 0
+  Saved: srikanth-attribution.csv
+
+Progress: 155/184
+
+[Srikanth Meka] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 44 movies on Wikipedia
+  ✓ Attributed: 16
+  ⚠️  Needs attribution: 28
+  ❌ Missing: 0
+  Saved: srikanth-meka-attribution.csv
+
+Progress: 156/184
+
+[Suhas] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 157/184
+
+[Suhasini] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 127 movies on Wikipedia
+  ✓ Attributed: 20
+  ⚠️  Needs attribution: 107
+  ❌ Missing: 0
+  Saved: celeb-suhasini-attribution.csv
+
+Progress: 158/184
+
+[Sujatha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 76 movies on Wikipedia
+  ✓ Attributed: 8
+  ⚠️  Needs attribution: 68
+  ❌ Missing: 0
+  Saved: celeb-sujatha-attribution.csv
+
+Progress: 159/184
+
+[Sukumar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 160/184
+
+[Suman] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 161/184
+
+[Sushmita Sen] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 14
+  ❌ Missing: 0
+  Saved: sushmita-sen-attribution.csv
+
+Progress: 162/184
+
+[Swetaa Varma] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 163/184
+
+[Tabu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 164/184
+
+[Tarun] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 19 movies on Wikipedia
+  ✓ Attributed: 14
+  ⚠️  Needs attribution: 5
+  ❌ Missing: 0
+  Saved: celeb-tarun-attribution.csv
+
+Progress: 165/184
+
+[Teja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 24 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 24
+  ❌ Missing: 0
+  Saved: celeb-teja-attribution.csv
+
+Progress: 166/184
+
+[Thiruveer Reddy] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 12 movies on Wikipedia
+  ✓ Attributed: 5
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: celeb-thiruveer-reddy-attribution.csv
+
+Progress: 167/184
+
+[Trisha] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 168/184
+
+[Trisha Krishnan] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 169/184
+
+[Tulasi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 43 movies on Wikipedia
+  ✓ Attributed: 7
+  ⚠️  Needs attribution: 36
+  ❌ Missing: 0
+  Saved: celeb-tulasi-attribution.csv
+
+Progress: 170/184
+
+[Tulip Joshi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 12 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 11
+  ❌ Missing: 0
+  Saved: tulip-joshi-attribution.csv
+
+Progress: 171/184
+
+[Urvashi] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 172/184
+
+[V. Ramachandra Rao] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 173/184
+
+[V.K. Prakash] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 21 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 21
+  ❌ Missing: 0
+  Saved: vk-prakash-attribution.csv
+
+Progress: 174/184
+
+[Vamsy] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 34 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 34
+  ❌ Missing: 0
+  Saved: celeb-vamsy-attribution.csv
+
+Progress: 175/184
+
+[Vasanthkumar Reddy] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 176/184
+
+[Veera] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 5 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 4
+  ❌ Missing: 0
+  Saved: veera-attribution.csv
+
+Progress: 177/184
+
+[Veerabhadram] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 0
+  ⚠️  Needs attribution: 14
+  ❌ Missing: 0
+  Saved: celeb-veerabhadram-attribution.csv
+
+Progress: 178/184
+
+[Vikram] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  API returned 0 movies, trying HTML fallback...
+  Found 0 movies on Wikipedia
+
+Progress: 179/184
+
+[Vikram Kumar] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 11 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 10
+  ❌ Missing: 0
+  Saved: celeb-vikram-kumar-attribution.csv
+
+Progress: 180/184
+
+[Vineeth] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 67 movies on Wikipedia
+  ✓ Attributed: 3
+  ⚠️  Needs attribution: 64
+  ❌ Missing: 0
+  Saved: celeb-vineeth-attribution.csv
+
+Progress: 181/184
+
+[Vishnu] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 25 movies on Wikipedia
+  ✓ Attributed: 19
+  ⚠️  Needs attribution: 6
+  ❌ Missing: 0
+  Saved: celeb-vishnu-attribution.csv
+
+Progress: 182/184
+
+[Yukti Thareja] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 14 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 12
+  ❌ Missing: 0
+  Saved: celeb-cced3713-attribution.csv
+
+Progress: 183/184
+
+[Zarina Wahab] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 57 movies on Wikipedia
+  ✓ Attributed: 2
+  ⚠️  Needs attribution: 55
+  ❌ Missing: 0
+  Saved: zarina-wahab-attribution.csv
+
+Progress: 184/184
+
+[Zeenat Aman] Fetching Wikipedia filmography...
+  Trying Wikipedia API...
+  Found 8 movies on Wikipedia
+  ✓ Attributed: 1
+  ⚠️  Needs attribution: 7
+  ❌ Missing: 0
+  Saved: zeenat-aman-attribution.csv
+
+═══════════════════════════════════════════════════════════════
+  AUDIT SUMMARY
+═══════════════════════════════════════════════════════════════
+
+Actors Processed:           184
+Movies Scraped:             3729
+✓ Properly Attributed:      779
+⚠️  Needs Attribution:       2950 (79%)
+❌ Missing from DB:         0 (0%)
+
+⚠️  CRITICAL: 2950 movies exist in DB but need re-attribution!
+
+Reports saved in: /Users/sharathchandra/Projects/telugu-portal/attribution-audits/
+
+═══════════════════════════════════════════════════════════════
+

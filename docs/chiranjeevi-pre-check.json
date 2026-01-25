@@ -1,0 +1,21 @@
+{
+  "actor": "Chiranjeevi",
+  "standardName": "Chiranjeevi",
+  "dbCount": 140,
+  "tmdbCount": 122,
+  "wikiCount": null,
+  "expectedCount": 122,
+  "discrepancy": 18,
+  "nameVariationsFound": [],
+  "spellingDuplicatesFound": 0,
+  "hasMultipleTmdbIds": false,
+  "tmdbIds": [
+    147079
+  ],
+  "issues": [
+    "Database has 18 more films than TMDB - likely ghost entries or duplicates"
+  ],
+  "recommendations": [
+    "Run full validation to identify ghost entries"
+  ]
+}

@@ -20,6 +20,8 @@ import {
 import { SimilarMoviesCarousel, type SimilarSection } from '@/components/reviews/SimilarMoviesCarousel';
 import type { MoodPreference, EraPreference, RecommendMePreferences } from '@/lib/movies/recommend-me';
 import { applyVisualConfidenceBoost, type SimilarSectionWithVisual } from '@/lib/movies/similarity-engine';
+import type { SpecialCategory } from '@/lib/movies/special-categories';
+import { getCategoryLabel, getCategoryEmoji } from '@/lib/movies/special-categories';
 
 // ============================================================
 // TYPES
@@ -210,6 +212,9 @@ export function RecommendMeModal({
   const [moods, setMoods] = useState<MoodPreference[]>([]);
   const [era, setEra] = useState<EraPreference[]>(prefillEra ? [prefillEra] : []);
   
+  // Special categories
+  const [specialCategories, setSpecialCategories] = useState<SpecialCategory[]>([]);
+  
   // Toggles
   const [familyFriendly, setFamilyFriendly] = useState(false);
   const [blockbustersOnly, setBlockbustersOnly] = useState(false);
@@ -277,12 +282,19 @@ export function RecommendMeModal({
     );
   };
 
+  const toggleSpecialCategory = (category: SpecialCategory) => {
+    setSpecialCategories(prev =>
+      prev.includes(category) ? prev.filter(c => c !== category) : [...prev, category]
+    );
+  };
+
   // Reset all preferences
   const handleReset = () => {
     setLanguages(['Telugu']);
     setGenres([]);
     setMoods([]);
     setEra([]);
+    setSpecialCategories([]);
     setFamilyFriendly(false);
     setBlockbustersOnly(false);
     setHiddenGems(false);
@@ -305,6 +317,7 @@ export function RecommendMeModal({
         genres: genres.length > 0 ? genres : undefined,
         moods: moods.length > 0 ? moods : undefined,
         era: era.length > 0 ? era : undefined,
+        specialCategories: specialCategories.length > 0 ? specialCategories : undefined,
         familyFriendly,
         blockbustersOnly,
         hiddenGems,
@@ -333,7 +346,7 @@ export function RecommendMeModal({
     } finally {
       setLoading(false);
     }
-  }, [languages, genres, moods, era, familyFriendly, blockbustersOnly, hiddenGems, highlyRatedOnly, prioritizeVisuals]);
+  }, [languages, genres, moods, era, specialCategories, familyFriendly, blockbustersOnly, hiddenGems, highlyRatedOnly, prioritizeVisuals]);
 
   // Close on escape key
   useEffect(() => {
@@ -462,6 +475,37 @@ export function RecommendMeModal({
                       onClick={() => toggleEra(e.value)}
                     >
                       {e.label}
+                    </Chip>
+                  ))}
+                </div>
+              </PreferenceSection>
+
+              {/* Special Categories */}
+              <PreferenceSection
+                title="Watch Mood"
+                icon={<Heart className="w-4 h-4" />}
+                defaultOpen={false}
+              >
+                <div className="flex flex-wrap gap-2">
+                  {([
+                    'stress-buster',
+                    'popcorn',
+                    'group-watch',
+                    'watch-with-special-one',
+                    'weekend-binge',
+                    'family-night',
+                    'laugh-riot',
+                    'mind-benders',
+                    'cult-classics',
+                    'horror-night',
+                  ] as SpecialCategory[]).map(category => (
+                    <Chip
+                      key={category}
+                      selected={specialCategories.includes(category)}
+                      onClick={() => toggleSpecialCategory(category)}
+                      icon={getCategoryEmoji(category)}
+                    >
+                      {getCategoryLabel(category)}
                     </Chip>
                   ))}
                 </div>

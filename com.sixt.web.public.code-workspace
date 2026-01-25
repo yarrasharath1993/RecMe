@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Sixt/com.sixt.web.public"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"apple-app-site-association": "json",
+			".env": "dotenv"
+		}
+	}
+}

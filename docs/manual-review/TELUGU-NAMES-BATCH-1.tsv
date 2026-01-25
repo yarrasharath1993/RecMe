@@ -1,0 +1,65 @@
+id	name_en	name_te	occupation	wikipedia_url	imdb_url	notes	status
+# BATCH 1: TOP 50 PROFILES NEEDING TELUGU NAMES
+# Instructions: 
+# 1. Visit the Wikipedia/IMDb URLs
+# 2. Find the Telugu name (usually in first line or infobox)
+# 3. Copy-paste the Telugu script into name_te column
+# 4. Mark status as DONE when complete
+# 5. Add any notes if name is uncertain or needs verification
+
+# Example rows (fill in name_te column):
+vikram	Vikram		Actor	https://en.wikipedia.org/wiki/Vikram_(actor)	https://www.imdb.com/name/nm1417314/		PENDING
+celeb-ali	Ali (actor)		Actor	https://en.wikipedia.org/wiki/Ali_(Telugu_actor)	N/A		PENDING
+celeb-ajay	Ajay		Actor	https://en.wikipedia.org/wiki/Ajay_(actor)	https://www.imdb.com/name/nm2496992/		PENDING
+celeb-ramya-krishna	Ramya Krishna		Actress	https://en.wikipedia.org/wiki/Ramya_Krishna	https://www.imdb.com/name/nm0471447/		PENDING
+celeb-suman	Suman		Actor	https://en.wikipedia.org/wiki/Suman_(actor)	https://www.imdb.com/name/nm5896360/		PENDING
+celeb-daggubati-venkatesh	Venkatesh		Actor	https://en.wikipedia.org/wiki/Venkatesh_(actor)	https://www.imdb.com/name/nm0893142/		PENDING
+celeb-vijaya-nirmala	Vijaya Nirmala		Actress/Director	https://en.wikipedia.org/wiki/Vijaya_Nirmala	N/A		PENDING
+jayasudha	Jayasudha		Actress	https://en.wikipedia.org/wiki/Jayasudha	https://www.imdb.com/name/nm0419707/		PENDING
+celeb-vishnu	Vishnu Manchu		Actor	https://en.wikipedia.org/wiki/Vishnu_Manchu	https://www.imdb.com/name/nm5425954/		PENDING
+celeb-ram	Ram Pothineni		Actor	https://en.wikipedia.org/wiki/Ram_Pothineni	https://www.imdb.com/name/nm3591496/		PENDING
+celeb-srikanth	Srikanth		Actor	https://en.wikipedia.org/wiki/Srikanth_(Telugu_actor)	https://www.imdb.com/name/nm0820241/		PENDING
+celeb-ramakrishna	Ramakrishna		Actor	https://en.wikipedia.org/wiki/Ramakrishna_(actor)	https://www.imdb.com/name/nm5984985/		PENDING
+celeb-krishna-kumari	Krishna Kumari		Actress	https://en.wikipedia.org/wiki/Krishna_Kumari	N/A		PENDING
+celeb-sridevi	Sridevi		Actress	https://en.wikipedia.org/wiki/Sridevi	https://www.imdb.com/name/nm0004437/		PENDING
+celeb-vanisri	Vanisri		Actress	https://en.wikipedia.org/wiki/Vanisri	https://www.imdb.com/name/nm0889148/		PENDING
+sobhan-babu	Sobhan Babu		Actor	https://en.wikipedia.org/wiki/Sobhan_Babu	N/A		PENDING
+celeb-teja	Teja		Director	https://en.wikipedia.org/wiki/Teja_(director)	N/A		PENDING
+celeb-meena	Meena		Actress	https://en.wikipedia.org/wiki/Meena_(actress)	https://www.imdb.com/name/nm0576169/		PENDING
+celeb-siddharth	Siddharth		Actor	https://en.wikipedia.org/wiki/Siddharth_(actor)	https://www.imdb.com/name/nm1413459/		PENDING
+celeb-suresh	Suresh		Actor	https://en.wikipedia.org/wiki/Suresh_(actor)	https://www.imdb.com/name/nm0839596/		PENDING
+celeb-sarath	Sarath		Director	https://en.wikipedia.org/wiki/Sarath	https://www.imdb.com/name/nm7977184/		PENDING
+celeb-lakshmi	Lakshmi		Actress	https://en.wikipedia.org/wiki/Lakshmi_(actress)	https://www.imdb.com/name/nm0482285/		PENDING
+celeb-ravi-teja	Ravi Teja		Actor	https://en.wikipedia.org/wiki/Ravi_Teja	https://www.imdb.com/name/nm0712433/		PENDING
+nandamuri-balakrishna	Nandamuri Balakrishna		Actor	https://en.wikipedia.org/wiki/Nandamuri_Balakrishna	https://www.imdb.com/name/nm0049395/		PENDING
+celeb-siva	Siva		Director	https://en.wikipedia.org/wiki/Siva_(director)	https://www.imdb.com/name/nm11105263/		PENDING
+celeb-dasari-narayana-rao	Dasari Narayana Rao		Director	https://en.wikipedia.org/wiki/Dasari_Narayana_Rao	https://www.imdb.com/name/nm0201927/		PENDING
+celeb-kanta-rao	Kanta Rao		Actor	https://en.wikipedia.org/wiki/Kanta_Rao	https://www.imdb.com/name/nm0710564/		PENDING
+celeb-arjun	Arjun Sarja		Actor	https://en.wikipedia.org/wiki/Arjun_Sarja	https://www.imdb.com/name/nm1019296/		PENDING
+celeb-kodi-ramakrishna	Kodi Ramakrishna		Director	https://en.wikipedia.org/wiki/Kodi_Ramakrishna	https://www.imdb.com/name/nm0707952/		PENDING
+allari-naresh	Allari Naresh		Actor	https://en.wikipedia.org/wiki/Allari_Naresh	https://www.imdb.com/name/nm2863651/		PENDING
+celeb-k-vasu	K. Vasu		Director	https://en.wikipedia.org/wiki/K._Vasu	https://www.imdb.com/name/nm0890862/		PENDING
+celeb-roja	Roja		Actress	https://en.wikipedia.org/wiki/Roja_(actress)	https://www.imdb.com/name/nm6446078/		PENDING
+celeb-karthik	Karthik		Actor	https://en.wikipedia.org/wiki/Karthik_(actor)	N/A		PENDING
+celeb-savitri	Savitri		Actress	https://en.wikipedia.org/wiki/Savitri_(actress)	https://www.imdb.com/name/nm0767800/		PENDING
+celeb-krishnam-raju	Krishnam Raju		Actor	https://en.wikipedia.org/wiki/Krishnam_Raju	https://www.imdb.com/name/nm0471464/		PENDING
+celeb-n-t-rama-rao	N. T. Rama Rao		Actor/Politician	https://en.wikipedia.org/wiki/N._T._Rama_Rao	https://www.imdb.com/name/nm0004417/		PENDING
+celeb-sukumar	Sukumar		Director	https://en.wikipedia.org/wiki/Sukumar_(director)	https://www.imdb.com/name/nm1335875/		PENDING
+celeb-kodandarami-reddy	A. Kodandarami Reddy		Director	https://en.wikipedia.org/wiki/A._Kodandarami_Reddy	https://www.imdb.com/name/nm0004630/		PENDING
+celeb-murali-mohan	Murali Mohan		Actor	https://en.wikipedia.org/wiki/Murali_Mohan	https://www.imdb.com/name/nm0613514/		PENDING
+celeb-tamannaah-bhatia	Tamannaah Bhatia		Actress	https://en.wikipedia.org/wiki/Tamannaah_Bhatia	https://www.imdb.com/name/nm1961459/		PENDING
+celeb-krishna	Krishna		Actor	https://en.wikipedia.org/wiki/Krishna_(Telugu_actor)	https://www.imdb.com/name/nm0315553/		PENDING
+celeb-k-raghavendra-rao	K. Raghavendra Rao		Director	https://en.wikipedia.org/wiki/K._Raghavendra_Rao	https://www.imdb.com/name/nm0706484/		PENDING
+celeb-kamal-haasan	Kamal Haasan		Actor	https://en.wikipedia.org/wiki/Kamal_Haasan	https://www.imdb.com/name/nm0352032/		PENDING
+celeb-bhaskar	Bhaskar		Director	https://en.wikipedia.org/wiki/Bhaskar_(director)	N/A		PENDING
+celeb-soundarya	Soundarya		Actress	https://en.wikipedia.org/wiki/Soundarya	https://www.imdb.com/name/nm0815897/		PENDING
+celeb-jaya-prada	Jaya Prada		Actress	https://en.wikipedia.org/wiki/Jaya_Prada	https://www.imdb.com/name/nm0419685/		PENDING
+anjali-devi	Anjali Devi		Actress	https://en.wikipedia.org/wiki/Anjali_Devi	https://www.imdb.com/name/nm0222432/		PENDING
+celeb-satyanarayana	Satyanarayana		Actor	https://en.wikipedia.org/wiki/Satyanarayana_(actor)	https://www.imdb.com/name/nm0004467/		PENDING
+celeb-naresh	Naresh		Actor	https://en.wikipedia.org/wiki/Naresh_(actor)	https://www.imdb.com/name/nm0621418/		PENDING
+
+# PROGRESS TRACKER
+# Total: 50
+# Completed: 0
+# Remaining: 50
+# Estimated time: 2-3 hours (3-4 minutes per profile)

@@ -1,0 +1,121 @@
+id,slug,title_en,release_year,field,db_value,consensus_value,confidence,sources_agree,sources_disagree,anomaly_type,auto_fixable
+e3cb9de7-3cee-42d6-8f65-f089dc752bd7,"khuda-gawah-1992","Khuda Gawah",1992,music_director,"Laxmikant Shantaram Kudalkar","from many films which made me confident that he is",0.64,"greatandhra","",WRONG,false
+e3cb9de7-3cee-42d6-8f65-f089dc752bd7,"khuda-gawah-1992","Khuda Gawah",1992,cinematographer,"","W. B. Rao",0.64,"tmdb","",MISSING,false
+e3cb9de7-3cee-42d6-8f65-f089dc752bd7,"khuda-gawah-1992","Khuda Gawah",1992,editor,"","A.R. Rajendran",0.64,"tmdb","",MISSING,false
+e3cb9de7-3cee-42d6-8f65-f089dc752bd7,"khuda-gawah-1992","Khuda Gawah",1992,writer,"","Santosh Saroj",0.64,"tmdb","",MISSING,false
+5205c2dc-2f36-48c9-9807-3153e897adbd,"gundagardi-1997","Gundagardi",1997,hero,"Aditya Pancholi","Dharmendra",0.98,"tmdb,letterboxd","",WRONG,true
+5205c2dc-2f36-48c9-9807-3153e897adbd,"gundagardi-1997","Gundagardi",1997,heroine,"Prathyusha","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ec4dc19f-6743-47c2-ab4c-1110ee1708c6,"gumrah-1993","Gumrah",1993,hero,"Sridevi","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ec4dc19f-6743-47c2-ab4c-1110ee1708c6,"gumrah-1993","Gumrah",1993,heroine,"Sridevi","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ec4dc19f-6743-47c2-ab4c-1110ee1708c6,"gumrah-1993","Gumrah",1993,writer,"","Robin Bhatt",0.64,"tmdb","",MISSING,false
+1f339783-8a95-40dc-a318-fdb69edc331e,"marana-porali-2011","Poraali",2011,hero,"Sasikumar","M. Sasikumar",0.98,"tmdb,letterboxd","",WRONG,true
+1f339783-8a95-40dc-a318-fdb69edc331e,"marana-porali-2011","Poraali",2011,heroine,"Swati Reddy","",0.40,"","tmdb,letterboxd",CONFLICT,false
+1f339783-8a95-40dc-a318-fdb69edc331e,"marana-porali-2011","Poraali",2011,cinematographer,"","S. R. Kathir",0.64,"tmdb","",MISSING,false
+1f339783-8a95-40dc-a318-fdb69edc331e,"marana-porali-2011","Poraali",2011,editor,"","A. L. Ramesh",0.64,"tmdb","",MISSING,false
+1f339783-8a95-40dc-a318-fdb69edc331e,"marana-porali-2011","Poraali",2011,writer,"","Samuthirakani",0.64,"tmdb","",MISSING,false
+97aec26f-f735-4dc8-91af-15d154c31483,"lava-kusa-1963","Lava Kusa",1963,hero,"N. T. Rama Rao","N.T. Rama Rao",0.75,"tmdb,letterboxd","wikidata",WRONG,false
+97aec26f-f735-4dc8-91af-15d154c31483,"lava-kusa-1963","Lava Kusa",1963,director,"Chittajalu Pullayya","",0.40,"","tmdb,wikidata",CONFLICT,false
+97aec26f-f735-4dc8-91af-15d154c31483,"lava-kusa-1963","Lava Kusa",1963,writer,"","Balijepalli Lakshmikantha Kavi",0.64,"tmdb","",MISSING,false
+f8b96466-024c-4d02-8a09-fffb160f34cb,"aatagadu-1980","Aatagadu",1980,hero,"N. T. Rama Rao","N.T. Rama Rao",0.75,"tmdb,letterboxd","wikidata",WRONG,false
+f8b96466-024c-4d02-8a09-fffb160f34cb,"aatagadu-1980","Aatagadu",1980,director,"T. Rama Rao","",0.40,"","tmdb,wikidata",CONFLICT,false
+29218ade-c41f-448c-aa67-f8fc2d9397e6,"sakthi-2011","Sakthi",2011,hero,"Jr NTR","",0.40,"","tmdb,letterboxd",CONFLICT,false
+29218ade-c41f-448c-aa67-f8fc2d9397e6,"sakthi-2011","Sakthi",2011,heroine,"Ileana D'Cruz","",0.40,"","tmdb,letterboxd",CONFLICT,false
+29218ade-c41f-448c-aa67-f8fc2d9397e6,"sakthi-2011","Sakthi",2011,director,"Meher Ramesh","",0.40,"","tmdb,greatandhra",CONFLICT,false
+29218ade-c41f-448c-aa67-f8fc2d9397e6,"sakthi-2011","Sakthi",2011,music_director,"Mani Sharma","Bill for MSG Costs",0.64,"greatandhra","",WRONG,false
+29218ade-c41f-448c-aa67-f8fc2d9397e6,"sakthi-2011","Sakthi",2011,cinematographer,"","Sameer Reddy",0.64,"tmdb","",MISSING,false
+f6532d02-3fed-4bc6-8b73-74655fac0921,"adutha-varisu-1983","Adutha Varisu",1983,cinematographer,"","M. Kesavan",0.64,"tmdb","",MISSING,false
+f6532d02-3fed-4bc6-8b73-74655fac0921,"adutha-varisu-1983","Adutha Varisu",1983,editor,"","C. Lancy",0.64,"tmdb","",MISSING,false
+f6532d02-3fed-4bc6-8b73-74655fac0921,"adutha-varisu-1983","Adutha Varisu",1983,writer,"","Panchu Arunachalam",0.64,"tmdb","",MISSING,false
+2111caa0-9735-4117-babb-100976548d20,"coffee-with-kadhal-2022","Coffee With Kadhal",2022,hero,"Srikanth","Jiiva",0.98,"tmdb,letterboxd","",WRONG,true
+2111caa0-9735-4117-babb-100976548d20,"coffee-with-kadhal-2022","Coffee With Kadhal",2022,heroine,"Malavika Sharma","",0.40,"","tmdb,letterboxd",CONFLICT,false
+2111caa0-9735-4117-babb-100976548d20,"coffee-with-kadhal-2022","Coffee With Kadhal",2022,cinematographer,"","E  Krishnasamy",0.64,"tmdb","",MISSING,false
+2111caa0-9735-4117-babb-100976548d20,"coffee-with-kadhal-2022","Coffee With Kadhal",2022,editor,"","Fenny Oliver",0.64,"tmdb","",MISSING,false
+2111caa0-9735-4117-babb-100976548d20,"coffee-with-kadhal-2022","Coffee With Kadhal",2022,writer,"","A. Mahaakerthi",0.64,"tmdb","",MISSING,false
+81445621-1081-48b7-a013-bf0a78872346,"friends-2002","Friends",2002,hero,"Jagapathi Babu","",0.40,"","tmdb,letterboxd",CONFLICT,false
+81445621-1081-48b7-a013-bf0a78872346,"friends-2002","Friends",2002,heroine,"Shilpa Shetty","Sean Bury",0.69,"letterboxd","",WRONG,false
+81445621-1081-48b7-a013-bf0a78872346,"friends-2002","Friends",2002,director,"Suresh Krissna","M.D. Shridhar",0.71,"tmdb","",WRONG,false
+81445621-1081-48b7-a013-bf0a78872346,"friends-2002","Friends",2002,writer,"","M.D. Shridhar",0.64,"tmdb","",MISSING,false
+96a5274d-ff56-4bd2-bf4c-fdf100536b5f,"mugguru-monagallu-1983","Mugguru Monagallu",1983,hero,"Sobhan Babu","Chiranjeevi",0.92,"tmdb,letterboxd,wikidata","",WRONG,true
+96a5274d-ff56-4bd2-bf4c-fdf100536b5f,"mugguru-monagallu-1983","Mugguru Monagallu",1983,heroine,"Sujatha","Ramya Krishnan",0.98,"tmdb,letterboxd","",WRONG,true
+96a5274d-ff56-4bd2-bf4c-fdf100536b5f,"mugguru-monagallu-1983","Mugguru Monagallu",1983,director,"Abhilash Reddy Gopidi","K Raghavendra Rao",0.96,"tmdb,wikidata","",WRONG,true
+47c4a635-d27d-4136-847b-e9e093ca958d,"antaku-mundu-aa-taruvaata-2013","Antaku Mundu Aa Taruvaata",2013,hero,"Sumanth Ashwin","Johnny Delgado",0.71,"tmdb","",WRONG,false
+47c4a635-d27d-4136-847b-e9e093ca958d,"antaku-mundu-aa-taruvaata-2013","Antaku Mundu Aa Taruvaata",2013,heroine,"Eesha Rebba","Cherry Pie Picache",0.71,"tmdb","",WRONG,false
+47c4a635-d27d-4136-847b-e9e093ca958d,"antaku-mundu-aa-taruvaata-2013","Antaku Mundu Aa Taruvaata",2013,director,"Mohankrishna Indraganti","Brillante Mendoza",0.71,"tmdb","",WRONG,false
+47c4a635-d27d-4136-847b-e9e093ca958d,"antaku-mundu-aa-taruvaata-2013","Antaku Mundu Aa Taruvaata",2013,editor,"","Mark Philipp Espina",0.64,"tmdb","",MISSING,false
+47c4a635-d27d-4136-847b-e9e093ca958d,"antaku-mundu-aa-taruvaata-2013","Antaku Mundu Aa Taruvaata",2013,writer,"","Brillante Mendoza",0.64,"tmdb","",MISSING,false
+b54d0fb2-e726-40e3-85e0-f9c1e10b948e,"nuvvila-2011","Nuvvila",2011,hero,"Yami Gautam Dhar","",0.40,"","tmdb,letterboxd,wikidata",CONFLICT,false
+b54d0fb2-e726-40e3-85e0-f9c1e10b948e,"nuvvila-2011","Nuvvila",2011,heroine,"Remya Nambeesan","",0.40,"","tmdb,letterboxd",CONFLICT,false
+b54d0fb2-e726-40e3-85e0-f9c1e10b948e,"nuvvila-2011","Nuvvila",2011,editor,"","Marthand K Venkatesh",0.64,"tmdb","",MISSING,false
+ddd938c2-458a-4f51-8389-74a5d7e12c0d,"pontons-heart-2025","Ponton's Heart",2025,hero,"Marija Labudović","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ddd938c2-458a-4f51-8389-74a5d7e12c0d,"pontons-heart-2025","Ponton's Heart",2025,heroine,"Jadranka Mamić","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ddd938c2-458a-4f51-8389-74a5d7e12c0d,"pontons-heart-2025","Ponton's Heart",2025,writer,"","Antonio Gabelić",0.64,"tmdb","",MISSING,false
+5ae41f9e-7f4c-4809-a82a-bfaefc8f229a,"vangaveeti-2016","Vangaveeti",2016,music_director,"Ravi Shankar","launch",0.66,"idlebrain","",WRONG,false
+5ae41f9e-7f4c-4809-a82a-bfaefc8f229a,"vangaveeti-2016","Vangaveeti",2016,cinematographer,"","helps in bringing the period effect for the film",0.66,"idlebrain","",MISSING,false
+5ae41f9e-7f4c-4809-a82a-bfaefc8f229a,"vangaveeti-2016","Vangaveeti",2016,editor,"","is alright",0.66,"idlebrain","",MISSING,false
+e3149662-508b-4c9b-8ecd-ae16a2d148ba,"veera-2011","Veera",2011,hero,"Ravi Teja","",0.40,"","tmdb,letterboxd,wikidata",CONFLICT,false
+e3149662-508b-4c9b-8ecd-ae16a2d148ba,"veera-2011","Veera",2011,heroine,"Kajal Aggarwal","",0.40,"","tmdb,letterboxd",CONFLICT,false
+e3149662-508b-4c9b-8ecd-ae16a2d148ba,"veera-2011","Veera",2011,editor,"","Marthand K Venkatesh",0.64,"tmdb","",MISSING,false
+e3149662-508b-4c9b-8ecd-ae16a2d148ba,"veera-2011","Veera",2011,writer,"","ion",0.61,"cinejosh","",MISSING,false
+4bf3e6e9-856f-453e-bde9-9382875b513c,"n-a-2019","Eric Burdon - Rock 'n' Roll Animal",2019,heroine,"Sridevi","",0.40,"","tmdb,letterboxd",CONFLICT,false
+4bf3e6e9-856f-453e-bde9-9382875b513c,"n-a-2019","Eric Burdon - Rock 'n' Roll Animal",2019,editor,"","Marek Weinhold",0.64,"tmdb","",MISSING,false
+ceaeee6f-363e-43ca-a3f1-8ea374d85ab5,"ananda-bhairavi-1983","Ananda Bhairavi",1983,heroine,"Rajani","",0.40,"","tmdb,letterboxd",CONFLICT,false
+ceaeee6f-363e-43ca-a3f1-8ea374d85ab5,"ananda-bhairavi-1983","Ananda Bhairavi",1983,director,"Jandhyala","Jandhyala Subramanya Sastry",0.96,"tmdb,wikidata","",WRONG,true
+122cb544-1f3b-41e6-97b9-2726c09591a2,"roberrt-2021","Roberrt",2021,hero,"Jagapathi Babu","Darshan Thoogudeepa Srinivas",0.98,"tmdb,letterboxd","",WRONG,true
+122cb544-1f3b-41e6-97b9-2726c09591a2,"roberrt-2021","Roberrt",2021,heroine,"Sonal Monteiro","",0.40,"","tmdb,letterboxd",CONFLICT,false
+122cb544-1f3b-41e6-97b9-2726c09591a2,"roberrt-2021","Roberrt",2021,cinematographer,"","Sudhakar S Raj",0.64,"tmdb","",MISSING,false
+122cb544-1f3b-41e6-97b9-2726c09591a2,"roberrt-2021","Roberrt",2021,editor,"","M. Raju Reddy",0.64,"tmdb","",MISSING,false
+122cb544-1f3b-41e6-97b9-2726c09591a2,"roberrt-2021","Roberrt",2021,writer,"","Tharun Sudhir",0.64,"tmdb","",MISSING,false
+1a875f10-3238-4b42-a00f-8830efd3ca37,"uppukandam-brothers-back-in-action-2011","Uppukandam Brothers Back In Action",2011,heroine,"Vani Viswanath","",0.40,"","tmdb,letterboxd",CONFLICT,false
+decd57fe-3ad2-44c8-be73-a5c8c8e81e63,"1st-iifa-utsavam-2015","1st IIFA Utsavam",2015,writer,"","James Huang",0.64,"tmdb","",MISSING,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,hero,"Mohan Babu","Vijayakanth",0.71,"tmdb","",WRONG,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,heroine,"Radha","Isha Koppikar",0.71,"tmdb","",WRONG,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,director,"K. Raghavendra Rao","Tirupathi Swamy",0.71,"tmdb","",WRONG,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,cinematographer,"","S. K. Boopathy",0.64,"tmdb","",MISSING,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,editor,"","Saleem",0.64,"tmdb","",MISSING,false
+6f8c17b2-9553-422a-bbb6-3858a1629e97,"agni-jwala-1983","Agni Jwala",1983,writer,"","Kabilan",0.64,"tmdb","",MISSING,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,hero,"Kamalakar","Elias Koteas",0.71,"tmdb","",WRONG,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,heroine,"Zabyn Khan","Embeth Davidtz",0.71,"tmdb","",WRONG,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,director,"Kranthi Kumar","Eric Mendelsohn",0.71,"tmdb","",WRONG,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,cinematographer,"","Kasper Tuxen",0.64,"tmdb","",MISSING,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,editor,"","Eric Mendelsohn",0.64,"tmdb","",MISSING,false
+89f7128d-d86e-4396-a9e9-c95e9cee716f,"sanchalanam-2011","Sanchalanam",2011,writer,"","Eric Mendelsohn",0.64,"tmdb","",MISSING,false
+072f4698-7762-469a-bf69-a62c7bce0d6a,"sreeram-2002","Sreeram",2002,editor,"","Marthand K Venkatesh",0.64,"tmdb","",MISSING,false
+072f4698-7762-469a-bf69-a62c7bce0d6a,"sreeram-2002","Sreeram",2002,writer,"","Dharani",0.64,"tmdb","",MISSING,false
+d75c4f63-8542-4216-8028-b19a8fd48b48,"auto-driver-1998","Auto Driver",1998,director,"Longjam Meena Devi","",0.40,"","tmdb,wikidata",CONFLICT,false
+3b1c9dba-77b2-4239-aa33-c6c0d267d4f6,"poster-2021","Poster",2021,hero,"Shivaji Raja","",0.40,"","tmdb,letterboxd",CONFLICT,false
+3b1c9dba-77b2-4239-aa33-c6c0d267d4f6,"poster-2021","Poster",2021,heroine,"Raashi Singh","",0.40,"","tmdb,letterboxd",CONFLICT,false
+3b1c9dba-77b2-4239-aa33-c6c0d267d4f6,"poster-2021","Poster",2021,director,"TMR","",0.40,"","tmdb,cinejosh",CONFLICT,false
+9a78ec2d-737e-4275-8101-af80545874fa,"adavi-simhalu-1983","Adavi Simhalu",1983,heroine,"No Female Lead","",0.40,"","tmdb,letterboxd",CONFLICT,false
+9a78ec2d-737e-4275-8101-af80545874fa,"adavi-simhalu-1983","Adavi Simhalu",1983,cinematographer,"","K. S. Prakash Rao",0.64,"tmdb","",MISSING,false
+9a78ec2d-737e-4275-8101-af80545874fa,"adavi-simhalu-1983","Adavi Simhalu",1983,editor,"","Kotagiri Venkateswara Rao",0.64,"tmdb","",MISSING,false
+9a78ec2d-737e-4275-8101-af80545874fa,"adavi-simhalu-1983","Adavi Simhalu",1983,writer,"","Satyanand Pydipalli",0.64,"tmdb","",MISSING,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,hero,"Tanish","Ajith Kumar",0.71,"tmdb","",WRONG,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,heroine,"Bhama","Laila",0.71,"tmdb","",WRONG,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,director,"Lakshman","P. Vasu",0.71,"tmdb","",WRONG,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,cinematographer,"","Sekhar V. Joseph",0.64,"tmdb","",MISSING,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,editor,"","Suresh Urs",0.64,"tmdb","",MISSING,false
+69140673-da4f-43dd-ba0e-f1affc24b0f0,"manchivadu-2011","Manchivadu",2011,writer,"","Mahesh Bhatt",0.64,"tmdb","",MISSING,false
+de7c0f9e-4e74-49d1-baed-d154aa001843,"agni-pravesam-1990","Agni Pravesam",1990,hero,"Sudhakar","Kou Machida",0.71,"tmdb","",WRONG,false
+de7c0f9e-4e74-49d1-baed-d154aa001843,"agni-pravesam-1990","Agni Pravesam",1990,director,"Yandamuri Veerendranath","Nobutaka Yamaoka",0.71,"tmdb","",WRONG,false
+0a8cd905-ca30-4001-aa83-dea0fb82eb1d,"bharya-bharthala-sawal-1983","Bharya Bharthala Sawal",1983,director,"P. Chandrasekhara Reddy","Johan Chiaramonte",0.71,"tmdb","",WRONG,false
+b1190ba4-d0e3-48d5-b742-0ad4b169a2e1,"hyderabad-blues-1998","Hyderabad Blues",1998,editor,"","Renu Saluja",0.64,"tmdb","",MISSING,false
+b1190ba4-d0e3-48d5-b742-0ad4b169a2e1,"hyderabad-blues-1998","Hyderabad Blues",1998,writer,"","Nagesh Kukunoor",0.64,"tmdb","",MISSING,false
+9114b54a-fd7d-4837-a184-e86f28bda7e7,"upendra-gadi-adda-2023","Upendra Gadi Adda",2023,hero,"Kancharapalem Subba Rao","",0.40,"","tmdb,letterboxd",CONFLICT,false
+25b9fa59-1897-48c0-9a94-35e2b2e7e84c,"life-anubavinchu-raja-2020","Life Anubavinchu Raja",2020,hero,"Ravi Teja Nannimala","",0.40,"","tmdb,letterboxd",CONFLICT,false
+25b9fa59-1897-48c0-9a94-35e2b2e7e84c,"life-anubavinchu-raja-2020","Life Anubavinchu Raja",2020,heroine,"Shruti Sharan Shetty","",0.40,"","tmdb,letterboxd",CONFLICT,false
+25b9fa59-1897-48c0-9a94-35e2b2e7e84c,"life-anubavinchu-raja-2020","Life Anubavinchu Raja",2020,director,"Suresh Thirumur","",0.40,"","tmdb,greatandhra",CONFLICT,false
+1f876ebb-b748-46bb-80d5-9467d5cbf862,"chandamama-raave-asap-2021","Chandamama Raave Asap",2021,hero,"No Hero Lead","Divya Sripada",0.69,"letterboxd","",WRONG,false
+1f876ebb-b748-46bb-80d5-9467d5cbf862,"chandamama-raave-asap-2021","Chandamama Raave Asap",2021,heroine,"Divya Sripada","",0.40,"","tmdb,letterboxd",CONFLICT,false
+c06aa00b-8b63-4232-9185-f2ff8c3c19df,"panjaa-2011","Panjaa",2011,heroine,"Adivi Sesh","Sarah-Jane Dias",0.98,"tmdb,letterboxd","",WRONG,true
+c06aa00b-8b63-4232-9185-f2ff8c3c19df,"panjaa-2011","Panjaa",2011,director,"Vishnuvardhan","Vishnu Varadhan",0.71,"tmdb","",WRONG,false
+c06aa00b-8b63-4232-9185-f2ff8c3c19df,"panjaa-2011","Panjaa",2011,cinematographer,"","P. S. Vinod",0.64,"tmdb","",MISSING,false
+c06aa00b-8b63-4232-9185-f2ff8c3c19df,"panjaa-2011","Panjaa",2011,editor,"","Sreekar Prasad",0.64,"tmdb","",MISSING,false
+c06aa00b-8b63-4232-9185-f2ff8c3c19df,"panjaa-2011","Panjaa",2011,writer,"","Vishnu Varadhan",0.64,"tmdb","",MISSING,false
+03ed5923-c608-48a4-b45d-a628c47b840a,"kanne-donga-1983","Kanne Donga",1983,director,"A. Kodandarami Reddy","Anne Paris",0.71,"tmdb","",WRONG,false
+03ed5923-c608-48a4-b45d-a628c47b840a,"kanne-donga-1983","Kanne Donga",1983,editor,"","Anny Danché",0.64,"tmdb","",MISSING,false
+20e7afd8-8034-46bb-a3f8-2ee51cfcb5c7,"welcome-back-2015","Welcome Back",2015,hero,"Shruti Haasan","John Abraham",0.98,"tmdb,letterboxd","",WRONG,true
+20e7afd8-8034-46bb-a3f8-2ee51cfcb5c7,"welcome-back-2015","Welcome Back",2015,cinematographer,"","Uttam Dhakal",0.64,"tmdb","",MISSING,false
+20e7afd8-8034-46bb-a3f8-2ee51cfcb5c7,"welcome-back-2015","Welcome Back",2015,editor,"","Ashfaq Makrani",0.64,"tmdb","",MISSING,false
+20e7afd8-8034-46bb-a3f8-2ee51cfcb5c7,"welcome-back-2015","Welcome Back",2015,writer,"","Raaj Shaandilyaa",0.64,"tmdb","",MISSING,false
+32c231ed-8459-4832-9292-9198bb1e7e4d,"telugu-veera-levara-1995","Telugu Veera Levara",1995,heroine,"Soundarya","",0.40,"","tmdb,letterboxd",CONFLICT,false
+32c231ed-8459-4832-9292-9198bb1e7e4d,"telugu-veera-levara-1995","Telugu Veera Levara",1995,director,"E. V. V. Satyanarayana","E.V.V. Satyanarayana",0.71,"tmdb","",WRONG,false

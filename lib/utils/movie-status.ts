@@ -9,6 +9,7 @@ export interface MovieLike {
   avg_rating?: number | null;
   our_rating?: number | null;
   status?: string;
+  slug?: string;
 }
 
 /**
@@ -22,22 +23,35 @@ export function isReleaseDateUnknown(movie: MovieLike): boolean {
  * Check if a movie is upcoming (not yet released)
  */
 export function isMovieUpcoming(movie: MovieLike): boolean {
+  // If slug ends with -tba, it's definitely unreleased
+  if (movie.slug && movie.slug.endsWith('-tba')) {
+    return true;
+  }
+
   // If status is upcoming/announced
   if (movie.status === 'upcoming' || movie.status === 'announced' || movie.status === 'in_production') {
     return true;
   }
 
+  const currentYear = new Date().getFullYear();
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
   // If release year is in the future
-  if (movie.release_year && movie.release_year > new Date().getFullYear()) {
+  if (movie.release_year && movie.release_year > currentYear) {
     return true;
   }
 
-  // If release date exists and is in the future
+  // If release year is current year but no release date (likely unreleased)
+  // OR release date exists and is in the future
   if (movie.release_date) {
     const releaseDate = new Date(movie.release_date);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
     return releaseDate > today;
+  } else if (movie.release_year === currentYear) {
+    // Current year with no release date - treat as upcoming unless we're very late in the year
+    // For now, if it's the current year and no date, assume it's upcoming
+    // (This handles cases like "swayambhu-2026" where movie hasn't released yet)
+    return true;
   }
 
   // If no release info at all, treat as TBA/upcoming

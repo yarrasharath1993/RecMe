@@ -2,20 +2,20 @@
 
 /**
  * Card Primitive Component
- * 
+ *
  * A flexible container component with elevation and theme support.
  * Uses design tokens for consistent styling across themes.
- * 
+ *
  * @example
  * // Basic card
  * <Card>Content here</Card>
- * 
+ *
  * // Elevated card with padding
  * <Card elevation="lg" padding="lg">Premium content</Card>
- * 
+ *
  * // Interactive card
  * <Card variant="interactive" onClick={handleClick}>Clickable</Card>
- * 
+ *
  * // Card with header
  * <Card>
  *   <Card.Header>Title</Card.Header>
@@ -67,16 +67,16 @@ const variantStyles: Record<CardVariant, string> = {
   default: `
     border border-[var(--border-primary)]
   `.replace(/\s+/g, ' ').trim(),
-  
+
   outlined: `
     border-2 border-[var(--border-secondary)]
     bg-transparent
   `.replace(/\s+/g, ' ').trim(),
-  
+
   elevated: `
     border border-[var(--border-primary)]/50
   `.replace(/\s+/g, ' ').trim(),
-  
+
   interactive: `
     border border-[var(--border-primary)]
     cursor-pointer
@@ -86,7 +86,7 @@ const variantStyles: Record<CardVariant, string> = {
     hover:bg-[var(--bg-hover)]
     active:scale-[0.99]
   `.replace(/\s+/g, ' ').trim(),
-  
+
   ghost: `
     bg-transparent
     border-none
@@ -210,6 +210,3 @@ CardWithParts.Body = CardBody;
 CardWithParts.Footer = CardFooter;
 
 export default CardWithParts;
-
-
-

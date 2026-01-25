@@ -269,11 +269,17 @@ async function main() {
   const limitArg = args.find(a => a.startsWith('--limit='));
   const concurrencyArg = args.find(a => a.startsWith('--concurrency='));
   const decadeArg = args.find(a => a.startsWith('--decade='));
+  const actorArg = args.find(a => a.startsWith('--actor='));
+  const directorArg = args.find(a => a.startsWith('--director='));
+  const slugArg = args.find(a => a.startsWith('--slug='));
   const recentOnly = args.includes('--recent');
   const oldOnly = args.includes('--old');
   const limit = limitArg ? parseInt(limitArg.split('=')[1]) : 500;
   const concurrency = concurrencyArg ? parseInt(concurrencyArg.split('=')[1]) : 25;
   const decade = decadeArg ? parseInt(decadeArg.split('=')[1]) : null;
+  const actor = actorArg ? actorArg.split('=')[1] : null;
+  const director = directorArg ? directorArg.split('=')[1] : null;
+  const slug = slugArg ? slugArg.split('=')[1] : null;
   
   console.log(chalk.cyan.bold(`
 ╔══════════════════════════════════════════════════════════════╗
@@ -288,6 +294,9 @@ async function main() {
   if (decade) console.log(`  Decade: ${decade}s`);
   if (recentOnly) console.log(`  Filter: 2010+ only`);
   if (oldOnly) console.log(`  Filter: Pre-1990 only`);
+  if (actor) console.log(`  Actor filter: "${actor}"`);
+  if (director) console.log(`  Director filter: "${director}"`);
+  if (slug) console.log(`  Slug filter: "${slug}"`);
   console.log(`  Sources: TMDB → Wikipedia → Wikimedia → Archive\n`);
   
   // Build query with filters
@@ -295,7 +304,7 @@ async function main() {
   
   let query = supabase
     .from('movies')
-    .select('id, title_en, release_year, poster_url, tmdb_id')
+    .select('id, title_en, release_year, poster_url, tmdb_id, hero, director')
     .eq('language', 'Telugu')
     .or('poster_url.is.null,poster_url.ilike.%placeholder%');
   
@@ -306,6 +315,17 @@ async function main() {
     query = query.gte('release_year', 2010);
   } else if (oldOnly) {
     query = query.lt('release_year', 1990);
+  }
+  
+  // Apply actor/director/slug filters
+  if (actor) {
+    query = query.ilike('hero', `%${actor}%`);
+  }
+  if (director) {
+    query = query.ilike('director', `%${director}%`);
+  }
+  if (slug) {
+    query = query.eq('slug', slug);
   }
   
   const { data: movies, error } = await query

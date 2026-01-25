@@ -1,0 +1,48 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           TELUGU SYNOPSIS ENRICHMENT v2.0                            ║
+║   Sources: Te Wiki → Translate → En Wiki → Wikidata → Generated      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Mode: EXECUTE
+  Limit: 50 movies
+  High Confidence Only: NO
+  High Confidence Threshold: 65%
+
+  Confidence Tiers:
+    Telugu Wikipedia:       95% (HIGH)
+    English Wiki Translated: 85% (HIGH)
+    TMDB Overview Translated: 80% (HIGH)
+    Wikidata Telugu:         70% (MEDIUM)
+    Basic Generated:         30% (LOW - not counted)
+
+  Found 50 movies to process
+
+  Processed: 10/50  Processed: 20/50  Processed: 30/50  Processed: 40/50  Processed: 50/50
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 ENRICHMENT SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Results:
+    Total enriched:       50 movies
+    Skipped (had one):     0 movies
+    Low conf skipped:      0 movies
+  
+  Source Distribution:
+    english_wikipedia_translated: 32
+    generated_basic             : 15
+    english_synopsis_translated : 3
+
+  Confidence Distribution:
+    High (≥65%):    35 ✓ Counts as enriched
+    Medium (40-64%):    0 ~ Partial
+    Low (<40%):        15 ✗ Does NOT count
+
+  Effective Enrichment Rate: 70.0% (high confidence only)
+
+  Applying changes to database...
+
+  ✅ Updated 50/50 movies
+     - High confidence: 35
+     - Lower confidence: 15

@@ -1,0 +1,6 @@
+"Status","Wikipedia Title","Wikipedia Year","Role","Cast Type","DB Movie ID","DB Title","DB Year","Current Attribution","Match %","Suggested Field","Action"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Yemaindi Ee Vela","2010","Actor","","14b59532-7129-4a6d-85af-52e019750068","Yemaindi Ee Vela","2010","Not attributed","100","cast","Add Nisha Aggarwal as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Solo","2011","Actor","","4b54476c-f00e-4a6d-8691-212f7395a3ea","Solo","2011","Not attributed","100","cast","Add Nisha Aggarwal as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Ishtam","2012","Actor","","b54d0fb2-e726-40e3-85e0-f9c1e10b948e","Nuvvila","2011","Not attributed","90","cast","Add Nisha Aggarwal as Cast Member"
+"⚠️ EXISTS_NOT_ATTRIBUTED","Bhaiyya Bhaiyya","2014","Actor","","5d76dd8d-9df6-444a-aceb-23797b93cf1e","Welcome obama","2013","Not attributed","90","cast","Add Nisha Aggarwal as Cast Member"
+"✓ ATTRIBUTED","Sukumarudu","2013","Actor","","1e7f9d33-49db-4a3d-8e22-a034eeb7f5f1","Sukumarudu","2013","Heroine: Nisha Aggarwal","100","","None"

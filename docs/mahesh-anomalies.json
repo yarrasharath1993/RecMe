@@ -1,0 +1,319 @@
+{
+  "actor": "Mahesh",
+  "timestamp": "2026-01-11T20:07:58.676Z",
+  "totalAnomalies": 28,
+  "byType": {
+    "flagged": 4,
+    "reportOnly": 24
+  },
+  "byCategory": {
+    "duplicates": 2,
+    "wrongAttribution": 0,
+    "missingFields": 24,
+    "conflicts": 1
+  },
+  "anomalies": [
+    {
+      "type": "duplicate",
+      "movie": "Athidhi",
+      "year": 2007,
+      "slug": "athidhi",
+      "confidence": 0.8571428571428572,
+      "details": "Duplicate of \"Athidi\" (2007) - 86% similar",
+      "action": "flag_review"
+    },
+    {
+      "type": "duplicate",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "confidence": 0.85,
+      "details": "Similar title to \"Rajakumarudu\" (1999)",
+      "action": "flag_review"
+    },
+    {
+      "type": "pre_debut",
+      "movie": "Vāranāsi",
+      "year": null,
+      "slug": "vāranāsi",
+      "confidence": 0.85,
+      "details": "Released 1999 years before Mahesh's debut (1999)",
+      "action": "flag_review"
+    },
+    {
+      "type": "conflicting_data",
+      "movie": "Bobby",
+      "year": 2002,
+      "slug": "bobby-2002",
+      "field": "tmdb_id",
+      "currentValue": "299127",
+      "confidence": 0.8,
+      "details": "TMDB movie is de, not Telugu",
+      "action": "flag_review"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Drinker Sai",
+      "year": 2024,
+      "slug": "drinker-sai-2024",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Mao Oori Cinema",
+      "year": 2023,
+      "slug": "mao-oori-cinema-2023",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Spyder",
+      "year": 2017,
+      "slug": "spyder-2017",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Sivaji",
+      "year": 2010,
+      "slug": "sivaji-2010",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Athidi",
+      "year": 2007,
+      "slug": "athidi-2007",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Okkade",
+      "year": 2005,
+      "slug": "okkade-2005",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Nijam",
+      "year": 2003,
+      "slug": "nijam-2003",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Murari",
+      "year": 2001,
+      "slug": "murari-2001",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Yuvaraju",
+      "year": 2000,
+      "slug": "yuvaraju-2000",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Rajakumarudu",
+      "year": 1999,
+      "slug": "rajakumarudu-1999",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "cinematographer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing cinematographer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "editor",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing editor",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "writer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing writer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "producer",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing producer",
+      "action": "report_only"
+    },
+    {
+      "type": "missing_field",
+      "movie": "Raja Kumarudu",
+      "year": 1999,
+      "slug": "raja-kumarudu-1999",
+      "field": "tmdb_id",
+      "currentValue": null,
+      "confidence": 0.6,
+      "details": "Missing tmdb_id",
+      "action": "report_only"
+    }
+  ]
+}

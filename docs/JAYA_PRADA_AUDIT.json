@@ -1,0 +1,123 @@
+{
+  "actorName": "Jaya Prada",
+  "debutYear": 1950,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 82,
+  "preDebutFilms": [],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "24ba1e30-9491-429d-ba3f-d5f456e97bb5",
+        "title": "Manmadha Leelai",
+        "year": 1976
+      },
+      "movie2": {
+        "id": "db8c82b3-67e6-47fd-80c9-12979c8123ff",
+        "title": "Manmatha Leelai",
+        "year": 1976
+      },
+      "similarity": 0.9285714285714286
+    },
+    {
+      "movie1": {
+        "id": "53183cdc-9aec-4d6a-9489-240077ed3532",
+        "title": "Ninaithaale Inikkum",
+        "year": 1979
+      },
+      "movie2": {
+        "id": "d4b91187-1ab7-41c0-961e-353fd5b01ad2",
+        "title": "Ninaithale Inikkum",
+        "year": 1979
+      },
+      "similarity": 0.9444444444444444
+    },
+    {
+      "movie1": {
+        "id": "265c9456-3b66-40c7-91e0-eb98dcefc518",
+        "title": "Majboor",
+        "year": 1989
+      },
+      "movie2": {
+        "id": "befd2890-b6e0-4a1c-9d43-0bee6cc738ce",
+        "title": "Majboor",
+        "year": 1990
+      },
+      "similarity": 1
+    },
+    {
+      "movie1": {
+        "id": "7064c032-a15f-4d90-bfaa-68d67cc73a71",
+        "title": "Sesh Sangat",
+        "year": 2009
+      },
+      "movie2": {
+        "id": "53f37cd5-1107-4396-93f0-5aa6ba836667",
+        "title": "Sesh Sanghat",
+        "year": 2009
+      },
+      "similarity": 0.9090909090909091
+    },
+    {
+      "movie1": {
+        "id": "c218798b-a4ca-42dc-b7c6-a6a407ab9524",
+        "title": "The Desire",
+        "year": 2010
+      },
+      "movie2": {
+        "id": "34d9230d-7747-4309-a697-b49fa8eccb65",
+        "title": "The Desire: A Journey of a Woman",
+        "year": 2011
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "3a6bfe19-b983-417b-92fc-48c1515cdb99",
+        "title": "Krantiveera Sangolli Rayanna",
+        "year": 2012
+      },
+      "movie2": {
+        "id": "1cfa647b-00b0-4798-98f9-a75e589e35d5",
+        "title": "Kraanthiveera Sangolli Raayanna",
+        "year": 2012
+      },
+      "similarity": 0.896551724137931
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "1976": 2,
+    "1977": 2,
+    "1979": 5,
+    "1982": 3,
+    "1983": 4,
+    "1984": 7,
+    "1985": 4,
+    "1986": 2,
+    "1988": 2,
+    "1989": 5,
+    "1990": 6,
+    "1991": 2,
+    "1992": 2,
+    "1993": 5,
+    "1994": 2,
+    "1995": 3,
+    "1997": 1,
+    "1998": 2,
+    "1999": 1,
+    "2000": 2,
+    "2003": 1,
+    "2006": 1,
+    "2007": 2,
+    "2008": 1,
+    "2009": 2,
+    "2010": 1,
+    "2011": 2,
+    "2012": 2,
+    "2018": 4,
+    "2021": 2,
+    "2023": 2
+  },
+  "summary": "6 potential duplicates"
+}

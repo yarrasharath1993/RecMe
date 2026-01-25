@@ -1,0 +1,51 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+ghost_entry,"Khushi",2001,hero,"Pawan Kalyan","Amitabh Bachchan",60%,"Only 1 source suggests Amitabh Bachchan - manual review recommended",flag_review
+ghost_entry,"Gokulamlo Seeta",1997,hero,"Pawan Kalyan","-",40%,"No cast data found in any source - manual review required",report_only
+ghost_entry,"Ustaad Bhagat Singh",2026,hero,"Pawan Kalyan","-",40%,"No cast data found in any source - manual review required",report_only
+conflicting_data,"Gopala Gopala",2015,tmdb_id,"279449","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Balu",2005,tmdb_id,"115268","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Hari Hara Veera Mallu",2025,tmdb_id,"727121","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Sardaar Gabbar Singh",2016,tmdb_id,"371811","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Annavaram",2006,tmdb_id,"199806","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Khushi",2001,tmdb_id,"10757","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Bheemla Nayak",2022,tmdb_id,"811942","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Attarintiki Daredi",2013,tmdb_id,"224061","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Vakeel Saab",2021,tmdb_id,"673732","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Katamarayudu",2017,tmdb_id,"440794","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gabbar Singh",2012,tmdb_id,"111836","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Tholi Prema",1998,tmdb_id,"112846","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Puli",2010,tmdb_id,"199800","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gudumba Shankar",2004,tmdb_id,"117093","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Thammudu",1999,tmdb_id,"199808","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Komaram Puli",2010,tmdb_id,"199800","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Johnny",2003,tmdb_id,"281954","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Suswagatham",1998,tmdb_id,"199812","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Gokulamlo Seetha",1997,tmdb_id,"99158","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Akkada Ammayi Ikkada Abbayi",1996,tmdb_id,"115050","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"They Call Him OG 2",,tmdb_id,"1553748","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Panjaa",2011,tmdb_id,"80539","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",2025,tmdb_id,"727121","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Jalsa",2008,tmdb_id,"73578","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Cameraman Ganga Tho Rambabu",2012,tmdb_id,"138667","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Kushi",2001,tmdb_id,"81070","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Badri",2000,tmdb_id,"80921","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Atharintiki Daaredi",2013,tmdb_id,"224061","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"Ustaad Bhagat Singh",2026,tmdb_id,"1022788","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+conflicting_data,"They Call Him OG",2025,tmdb_id,"1080365","-",70%,"TMDB ID not found - ID should be cleared",flag_review
+missing_field,"Gopala Gopala",2015,cinematographer,"-","Jayanan Vincent",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Gopala Gopala",2015,editor,"-","Gautham Raju",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Gopala Gopala",2015,writer,"-","Kishore Kumar",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Balu",2005,editor,"-","Kotagiri Venkateswara Rao",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Hari Hara Veera Mallu",2025,cinematographer,"-","Gnana Shekar V. S.",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Hari Hara Veera Mallu",2025,editor,"-","Praveen K. L.",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Hari Hara Veera Mallu",2025,writer,"-","Sai Madhav Burra",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Sardaar Gabbar Singh",2016,cinematographer,"-","Arthur Wilson",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Sardaar Gabbar Singh",2016,editor,"-","Gautham Raju",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Sardaar Gabbar Singh",2016,writer,"-","Pawan Kalyan",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"Annavaram",2006,editor,"-","Gautham Raju",64%,"Multi-source consensus from 1 source(s)",flag_review
+missing_field,"BRO",2023,movie,"-","Add BRO (2023) as lead",95%,"",flag_review
+missing_field,"Agnyaathavaasi",2018,movie,"-","Add Agnyaathavaasi (2018) as lead",95%,"",flag_review
+missing_field,"Teen Maar",2011,movie,"-","Add Teen Maar (2011) as lead",95%,"",flag_review
+missing_field,"Bangaram",2006,movie,"-","Add Bangaram (2006) as lead",95%,"",flag_review
+missing_field,"Shankar Dada Zindabad",2007,movie,"-","Add Shankar Dada Zindabad (2007) as cameo",90%,"",flag_review
+missing_field,"Shankar Dada M.B.B.S.",2004,movie,"-","Add Shankar Dada M.B.B.S. (2004) as cameo",90%,"",flag_review

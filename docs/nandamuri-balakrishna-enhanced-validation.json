@@ -1,0 +1,114 @@
+{
+  "actor": "Nandamuri Balakrishna",
+  "timestamp": "2026-01-12T18:42:20.428Z",
+  "dbCount": 111,
+  "tmdbCount": 0,
+  "wikiCount": 0,
+  "issues": [
+    {
+      "id": "spelling-dupe-fe408381-6105-4f49-9023-3f4b57612a90",
+      "movieId": "fe408381-6105-4f49-9023-3f4b57612a90",
+      "slug": "aswamedham-1992",
+      "title": "Aswamedham",
+      "year": 1992,
+      "issueType": "spelling_duplicate",
+      "confidence": 1,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "delete",
+        "reason": "Spelling duplicate of \"Ashwamedham\" (100% similar)"
+      }
+    },
+    {
+      "id": "spelling-dupe-22d3f412-3466-4bfb-a6f3-9f4c09a2d5ca",
+      "movieId": "22d3f412-3466-4bfb-a6f3-9f4c09a2d5ca",
+      "slug": "raktabhishekam-1988",
+      "title": "Raktabhishekam",
+      "year": 1988,
+      "issueType": "spelling_duplicate",
+      "confidence": 1,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "delete",
+        "reason": "Spelling duplicate of \"Rakthabishekam\" (100% similar)"
+      }
+    },
+    {
+      "id": "spelling-dupe-9591da03-fd53-46ec-8801-67086b9ccf0b",
+      "movieId": "9591da03-fd53-46ec-8801-67086b9ccf0b",
+      "slug": "seetarama-kalyanam-1986",
+      "title": "Seetarama Kalyanam",
+      "year": 1986,
+      "issueType": "spelling_duplicate",
+      "confidence": 1,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "delete",
+        "reason": "Spelling duplicate of \"Seetharama Kalyanam\" (100% similar)"
+      }
+    },
+    {
+      "id": "spelling-dupe-8868395b-8036-4af6-8619-e638c8204a38",
+      "movieId": "8868395b-8036-4af6-8619-e638c8204a38",
+      "slug": "babai-abbai-1985",
+      "title": "Babai Abbai",
+      "year": 1985,
+      "issueType": "spelling_duplicate",
+      "confidence": 0.9090909090909091,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "delete",
+        "reason": "Spelling duplicate of \"Babayi-Abbayi\" (91% similar)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-15163a90-4e90-4bf5-afe2-a703cb931be4",
+      "movieId": "15163a90-4e90-4bf5-afe2-a703cb931be4",
+      "slug": "sultan-1999",
+      "title": "Sultan",
+      "year": 1999,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "update_tmdb",
+        "newValue": 280342,
+        "reason": "Wrong TMDB: current is en (\"Dire Straits: Sultans of Swing, The Very Best of Dire Straits\"), found Telugu version (280342)"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-733f6fa8-c3df-4af2-9744-3f95dfb59220",
+      "movieId": "733f6fa8-c3df-4af2-9744-3f95dfb59220",
+      "slug": "bhale-donga-1989",
+      "title": "Bhale Donga",
+      "year": 1989,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 779733 is en (\"Bhale Donga\"), not Telugu - cleared"
+      }
+    },
+    {
+      "id": "tmdb-wrong-lang-4fed503c-518d-46e7-b1c4-7338f7065e01",
+      "movieId": "4fed503c-518d-46e7-b1c4-7338f7065e01",
+      "slug": "inspector-pratap-1988",
+      "title": "Inspector Pratap",
+      "year": 1988,
+      "issueType": "wrong_tmdb_language",
+      "confidence": 0.95,
+      "action": "auto_fix",
+      "fix": {
+        "operation": "clear_tmdb",
+        "reason": "TMDB ID 115030 is it (\"The Honored Society\"), not Telugu - cleared"
+      }
+    }
+  ],
+  "summary": {
+    "autoFixed": 7,
+    "flaggedForReview": 0,
+    "reportOnly": 0,
+    "manualReviewRate": 0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "actorName": "Allu Arjun",
+  "debutYear": 2003,
+  "wikipediaFilmCount": 2001,
+  "databaseFilmCount": 25,
+  "preDebutFilms": [
+    {
+      "id": "f04c0dcd-bbf6-4fd7-ba75-32b5b9f5d1a3",
+      "title_en": "AA22xA6",
+      "release_year": null,
+      "hero": "Allu Arjun",
+      "heroine": "Deepika Padukone",
+      "director": "Atlee",
+      "our_rating": 5.3,
+      "cast_members": [
+        "{\"name\":\"Allu Arjun\",\"order\":0}",
+        "{\"name\":\"Deepika Padukone\",\"order\":1}",
+        "{\"name\":\"Mrunal Thakur\",\"order\":2}",
+        "{\"name\":\"Janhvi Kapoor\",\"order\":3}",
+        "{\"name\":\"Rashmika Mandanna\",\"order\":4}",
+        "{\"name\":\"Ramya Krishnan\",\"order\":5}",
+        "{\"name\":\"Yogi Babu\",\"order\":6}"
+      ]
+    },
+    {
+      "id": "62ff2985-5995-4c9d-84ef-0393342a97db",
+      "title_en": "Pushpa 3 - The Rampage",
+      "release_year": null,
+      "hero": "Allu Arjun",
+      "heroine": "Rashmika Mandanna",
+      "director": "Sukumar",
+      "our_rating": 5.8,
+      "cast_members": [
+        "{\"name\":\"Allu Arjun\",\"character\":\"Pushpa Raj\",\"order\":0,\"gender\":2,\"tmdb_id\":108215,\"profile_path\":\"/kZ8sliadIFNmToMCtIduLgXXqsS.jpg\"}",
+        "{\"name\":\"Rashmika Mandanna\",\"character\":\"Srivalli\",\"order\":1,\"gender\":1,\"tmdb_id\":1752056,\"profile_path\":\"/c1wQq0OAzU9nFhGYn4iOoi7dmqD.jpg\"}",
+        "{\"name\":\"Fahadh Faasil\",\"character\":\"Bhanwar Singh Shekhawat\",\"order\":2,\"gender\":2,\"tmdb_id\":1072750,\"profile_path\":\"/wmkwZWFHqMptqdt4HacMIAe8OBP.jpg\"}",
+        "{\"name\":\"Jagadeesh Bandari\",\"character\":\"Kesava\",\"order\":3,\"gender\":2,\"tmdb_id\":2198106,\"profile_path\":\"/cntovFhpWby0XJdMszCJCTrLk2g.jpg\"}",
+        "{\"name\":\"Rao Ramesh\",\"character\":\"Bhumireddy Siddappa Naidu\",\"order\":4,\"gender\":2,\"tmdb_id\":586629,\"profile_path\":\"/jzO0wN21tEcmz0haekvliQU91JM.jpg\"}",
+        "{\"name\":\"Ajay\",\"character\":\"Molleti Mohan Raj\",\"order\":5,\"gender\":2,\"tmdb_id\":586625,\"profile_path\":\"/uByCHJa3eaCL0SgFGDYYLlsVggC.jpg\"}",
+        "{\"name\":\"Kalpalatha\",\"character\":\"Parvathamma\",\"order\":6,\"gender\":1,\"tmdb_id\":2489504,\"profile_path\":\"/j3sKWeC05kHdnpOmCgbv1XBaQt8.jpg\"}",
+        "{\"name\":\"Pavani Karanam\",\"character\":\"Molleti Kaveri\",\"order\":7,\"gender\":1,\"tmdb_id\":4097387,\"profile_path\":\"/v6U8bCFGs6PmYnYoiB6XbEtBtDc.jpg\"}",
+        "{\"name\":\"Shri Tej\",\"character\":\"Molleti Dharma Raj\",\"order\":8,\"gender\":2,\"tmdb_id\":2277737,\"profile_path\":\"/y6dgQSfgby9axsePHsXnHRPHSH1.jpg\"}"
+      ]
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "f188ee91-4f9b-4941-9d09-0024c61efb3f",
+        "title": "Julayi",
+        "year": 2012
+      },
+      "movie2": {
+        "id": "89be3527-1b38-4d02-bff7-fc0278ca3a17",
+        "title": "Julai",
+        "year": 2012
+      },
+      "similarity": 0.8333333333333334
+    },
+    {
+      "movie1": {
+        "id": "194c7618-2043-44d2-b174-7b89d03a52a1",
+        "title": "S/O Satyamurthy",
+        "year": 2015
+      },
+      "movie2": {
+        "id": "59ec3108-917d-4a37-a89f-d7525c96b227",
+        "title": "Son of Satyamurthy",
+        "year": 2015
+      },
+      "similarity": 0.8125
+    },
+    {
+      "movie1": {
+        "id": "684e56d2-0361-465f-a168-776fc99e61c5",
+        "title": "DJ: Duvvada Jagannadham",
+        "year": 2017
+      },
+      "movie2": {
+        "id": "2efc24f0-9d76-4a74-8914-5b7ca4f1a97a",
+        "title": "Duvvada Jagannadham",
+        "year": 2017
+      },
+      "similarity": 0.9
+    },
+    {
+      "movie1": {
+        "id": "8f8f196a-52cd-4d63-93f8-94c484a7fe73",
+        "title": "Naa Peru Surya - Naa Illu India",
+        "year": 2018
+      },
+      "movie2": {
+        "id": "89ae6843-16f4-46f2-b4ca-d8b56d4b7e64",
+        "title": "Naa Peru Surya",
+        "year": 2018
+      },
+      "similarity": 0.9
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "0": 2,
+    "2004": 1,
+    "2006": 1,
+    "2007": 1,
+    "2008": 1,
+    "2009": 1,
+    "2010": 2,
+    "2011": 1,
+    "2012": 2,
+    "2013": 1,
+    "2014": 2,
+    "2015": 2,
+    "2016": 1,
+    "2017": 2,
+    "2018": 2,
+    "2020": 1,
+    "2021": 1,
+    "2024": 1
+  },
+  "summary": "2 pre-debut films, 4 potential duplicates, Count mismatch: DB=25, Wiki=~2001"
+}

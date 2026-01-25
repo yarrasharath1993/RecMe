@@ -497,7 +497,7 @@ export default function DataIntelligencePage() {
                       ✏️ Edit Sections
                     </button>
                     <Link
-                      href={`/reviews/${selectedMovie.slug || selectedMovie.id}`}
+                      href={`/movies/${selectedMovie.slug || selectedMovie.id}`}
                       className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
                       target="_blank"
                     >

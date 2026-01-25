@@ -1,0 +1,28 @@
+MovieID,Title,Year,Metric,Value,Mean,StdDev,ZScore,Category
+bb4d0170-7d8a-4e31-9294-bef20df5563c,As Time Echoes,,runtime_minutes,75,132.95,23.63,2.45,moderate_outlier
+dcade0cb-1150-4282-833c-6a29bfd04d5a,Naa Katha,,runtime_minutes,85,132.95,23.63,2.03,moderate_outlier
+a1229efe-49e4-44a0-8938-456545f63027,Pink Floyd: Live at Pompeii,2025,runtime_minutes,62,132.95,23.63,3.00,extreme_outlier
+eb082268-e3bc-4fd3-856d-223803ff01c5,Kannappa,2025,runtime_minutes,182,132.95,23.63,2.08,moderate_outlier
+10ba590f-9b6c-44e6-ac5a-ba965d006cde,Bāhubali: The Epic,2025,runtime_minutes,224,132.95,23.63,3.85,extreme_outlier
+ddbe0d65-c237-40cc-a807-f1774aa28f87,Altered,2025,runtime_minutes,85,132.95,23.63,2.03,moderate_outlier
+59843167-1e83-4ef0-8e4b-4fb33f6aad15,Dhurandhar,2025,runtime_minutes,212,132.95,23.63,3.34,extreme_outlier
+dd38c3da-0f8b-4883-a74a-c9bb53e3280a,Baahubali: The Epic,2025,runtime_minutes,224,132.95,23.63,3.85,extreme_outlier
+b5c08365-d3c6-4966-a295-2b7d3413d592,Ocean With David Attenborough,2025,runtime_minutes,85,132.95,23.63,2.03,moderate_outlier
+4cc2e762-f0be-4387-9505-d03f4a803946,Predator: Killer of Killers,2025,runtime_minutes,85,132.95,23.63,2.03,moderate_outlier
+e6fefce9-c7f4-465b-a661-82eae88439db,Avatar: Fire and Ash,2025,runtime_minutes,198,132.95,23.63,2.75,moderate_outlier
+f5eb03f0-0a13-416d-b467-740e89b826da,The Naked Gun,2025,runtime_minutes,85,132.95,23.63,2.03,moderate_outlier
+6e7551a6-845f-4d84-a4e7-bdb071576ec4,Good Boy,2025,runtime_minutes,73,132.95,23.63,2.54,moderate_outlier
+c5fa9d9a-54eb-4a1a-9e6f-52d3dbcd675d,Kuberaa,2025,runtime_minutes,185,132.95,23.63,2.20,moderate_outlier
+0f234118-13bc-4164-9d75-aeabc7037150,Aay,2024,runtime_minutes,217,132.95,23.63,3.56,extreme_outlier
+2bf9a911-89ad-4f8f-be79-ad90f0d1a5ee,Rush,2024,runtime_minutes,73,132.95,23.63,2.54,moderate_outlier
+98c168d5-2b1e-4f9e-ad3e-5e4a6d1d7d70,Pushpa 2 - The Rule,2024,runtime_minutes,201,132.95,23.63,2.88,moderate_outlier
+6ce230d4-8465-438d-b70b-45875ed2f91c,Baby,2023,runtime_minutes,189,132.95,23.63,2.37,moderate_outlier
+f3c2c8ce-6907-4ac1-a5ce-3a058c7270df,Once Upon a Studio,2023,runtime_minutes,9,132.95,23.63,5.24,extreme_outlier
+88204f3f-335d-4338-a9f2-504ddd10546a,Oppenheimer,2023,runtime_minutes,181,132.95,23.63,2.03,moderate_outlier
+26e1907c-3d92-483a-adb1-6b629b32ad03,Making Squid Game: The Challenge,2023,runtime_minutes,30,132.95,23.63,4.36,extreme_outlier
+b7004ded-7991-48d0-8a0a-e3ada5dbfb66,Animal,2023,runtime_minutes,201,132.95,23.63,2.88,moderate_outlier
+60ce68fe-654f-4f4a-bf2f-6a3d1ac5cc1b,"The Boy, the Mole, the Fox and the Horse",2022,runtime_minutes,35,132.95,23.63,4.14,extreme_outlier
+5cd59aa6-ccb7-4f2d-ab41-939e9fa50102,The Elephant Whisperers,2022,runtime_minutes,40,132.95,23.63,3.93,extreme_outlier
+56e4bc94-54a9-4260-a846-59aa1de97897,Cobra,2022,runtime_minutes,183,132.95,23.63,2.12,moderate_outlier
+634a1010-7072-4836-9ce3-9c56bf9413fa,Avatar: The Way of Water,2022,runtime_minutes,192,132.95,23.63,2.50,moderate_outlier
+23e394bf-3cdd-403b-88d7-fc9b2014394f,Son of India,2022,runtime_minutes,84,132.95,23.63,2.07,moderate_outlier

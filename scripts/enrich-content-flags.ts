@@ -38,7 +38,10 @@ config({ path: resolve(process.cwd(), '.env.local') });
 
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
-const RATE_LIMIT_DELAY = 300;
+
+// Check for --fast flag to reduce rate limiting (use with caution)
+const FAST_MODE = process.argv.includes('--fast');
+const RATE_LIMIT_DELAY = FAST_MODE ? 50 : 300; // 50ms in fast mode, 300ms normally
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -57,6 +60,9 @@ const hasFlag = (name: string): boolean =>
 const LIMIT = parseInt(getArg('limit', '200'));
 const EXECUTE = hasFlag('execute') && !hasFlag('dry');
 const DECADE = getArg('decade', '');
+const ACTOR = getArg('actor', '');
+const DIRECTOR = getArg('director', '');
+const SLUG = getArg('slug', '');
 const VERBOSE = hasFlag('verbose') || hasFlag('v');
 
 // ============================================================
@@ -475,6 +481,9 @@ async function main(): Promise<void> {
   console.log(`  Mode: ${EXECUTE ? chalk.green('EXECUTE') : chalk.yellow('DRY RUN')}`);
   console.log(`  Limit: ${LIMIT} movies`);
   if (DECADE) console.log(`  Decade: ${DECADE}s`);
+  if (ACTOR) console.log(`  Actor filter: "${ACTOR}"`);
+  if (DIRECTOR) console.log(`  Director filter: "${DIRECTOR}"`);
+  if (SLUG) console.log(`  Slug filter: "${SLUG}"`);
 
   // Build query
   let query = supabase
@@ -488,9 +497,19 @@ async function main(): Promise<void> {
     .order('release_year', { ascending: false })
     .limit(LIMIT);
 
+  // Apply filters
   if (DECADE) {
     const startYear = parseInt(DECADE);
     query = query.gte('release_year', startYear).lt('release_year', startYear + 10);
+  }
+  if (ACTOR) {
+    query = query.ilike('hero', `%${ACTOR}%`);
+  }
+  if (DIRECTOR) {
+    query = query.ilike('director', `%${DIRECTOR}%`);
+  }
+  if (SLUG) {
+    query = query.eq('slug', SLUG);
   }
 
   const { data: movies, error } = await query;

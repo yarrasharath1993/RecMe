@@ -1,0 +1,49 @@
+
+⚠️  EXECUTE MODE - Movies will be created!
+
+═══════════════════════════════════════════════════════════════
+  ADD 19 TELUGU ORIGINAL FILMS
+═══════════════════════════════════════════════════════════════
+
+
+📅 2020s (2 movies)
+
+  ✓ Created: Hari Hara Veera Mallu: Part 1 (2025) - ID: 07c31d3e-baa5-453d-88bc-b5bdf310e874
+  ✓ Created: RAM: Rapid Action Mission (2024) - ID: 040ddcba-f26c-4f3f-91bc-4db2c9a2e4a1
+
+📅 2010s (11 movies)
+
+  ✓ Created: Puli (2010) - ID: ce10b8b5-245d-469a-b55d-b4c2f108162a
+  ✓ Created: Namo Bhootatma (2014) - ID: ad33e0e2-5e98-4fa4-970f-f95ca7b48fd9
+  ✓ Created: Duvvada Jagannadham (2017) - ID: 5e5f9bb1-90ff-442e-bd8d-e42d4d93d5ec
+  ✓ Created: Racha (2012) - ID: c463acc5-022f-4e94-b825-911c7771d20d
+  ✓ Created: 180 (2011) - ID: eba88f6f-8c0c-413e-8d5c-ce79e819d9d5
+  ✓ Created: Gangstars (2018) - ID: 75205db6-7f5c-4c7b-92a0-e672fd5ecb3f
+  ✓ Created: Sambho Siva Sambho (2010) - ID: c134973d-ea27-441d-b105-d3fb2b842a36
+  ✗ Failed: Awe
+    Error: duplicate key value violates unique constraint "movies_slug_key"
+  ✓ Created: Malli Raava (2017) - ID: 213dc566-3403-41ac-8380-234e5784dcd1
+  ✓ Created: Nuvvu Thopu Raa (2019) - ID: 062b470b-d318-4807-b0d1-ec3f397eb1bc
+  ✓ Created: Ramachari (2013) - ID: 98d46d93-0218-4a28-adcb-1083c20b749b
+
+📅 2000s (6 movies)
+
+  ✓ Created: New (2004) - ID: 4a6d1ca1-23f0-41b0-8b45-71b3e9cdaa1a
+  ✓ Created: Sri (2005) - ID: e6595263-95bf-4367-8546-4fb01a826425
+  ✓ Created: Saleem (2009) - ID: 0eaaf73f-be42-495a-8e06-8d51913bd1c3
+  ✓ Created: Balu ABCDEFG (2005) - ID: 5bf0d726-d43d-48dd-bf72-431d80289f32
+  ✓ Created: Bahumati (2007) - ID: bfe1a69d-c450-4823-a729-595dfaadb13b
+  ✓ Created: Yamagola Malli Modalayindi (2007) - ID: 0de10b81-eb30-45b0-87ab-bf011c2acbc9
+
+═══════════════════════════════════════════════════════════════
+  SUMMARY
+═══════════════════════════════════════════════════════════════
+
+Total Movies:           19
+Already Exists:         18
+
+✓ Created:              0 movies
+✗ Failed:               1 movies
+
+═══════════════════════════════════════════════════════════════
+

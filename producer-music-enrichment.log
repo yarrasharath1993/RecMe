@@ -1,0 +1,194 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║         PRODUCER & MUSIC DIRECTOR ENRICHMENT                         ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  📋 Loading all Telugu movies from database...
+    Loaded 1000 movies...
+    Loaded 2000 movies...
+    Loaded 3000 movies...
+    Loaded 4000 movies...
+    Loaded 5000 movies...
+    Loaded 5610 movies...
+  ✅ Loaded 5610 movies total
+
+  🎬 1942 movies need producer/music director
+     (4364 have TMDB IDs)
+
+  Progress: 5/1942 (7 fields enriched)
+  TMDB API error for 226871: 404 Not Found
+  Progress: 55/1942 (77 fields enriched)
+  Progress: 105/1942 (139 fields enriched)
+  Progress: 155/1942 (185 fields enriched)
+  TMDB API error for 581290: 404 Not Found
+  Progress: 205/1942 (248 fields enriched)
+  TMDB API error for 137397: 404 Not Found
+  Progress: 255/1942 (307 fields enriched)
+  TMDB API error for 647418: 404 Not Found
+  TMDB API error for 1146312: 404 Not Found
+  TMDB API error for 218636: 404 Not Found
+  TMDB API error for 218636: 404 Not Found
+  TMDB API error for 148590: 404 Not Found
+  TMDB API error for 1116123: 404 Not Found
+  TMDB API error for 248232: 404 Not Found
+  TMDB API error for 566899: 404 Not Found
+  Progress: 305/1942 (337 fields enriched)
+  TMDB API error for 647417: 404 Not Found
+  TMDB API error for 307214: 404 Not Found
+  Progress: 355/1942 (375 fields enriched)
+  TMDB API error for 793444: 404 Not Found
+  TMDB API error for 150036: 404 Not Found
+  TMDB API error for 216835: 404 Not Found
+  TMDB API error for 441414: 404 Not Found
+  TMDB API error for 112467: 404 Not Found
+  Progress: 405/1942 (399 fields enriched)
+  TMDB API error for 604470: 404 Not Found
+  TMDB API error for 581290: 404 Not Found
+  TMDB API error for 303359: 404 Not Found
+  Progress: 455/1942 (433 fields enriched)
+  TMDB API error for 131661: 404 Not Found
+  TMDB API error for 114633: 404 Not Found
+  Progress: 505/1942 (475 fields enriched)
+  TMDB API error for 1612081: 404 Not Found
+  TMDB API error for 137354: 404 Not Found
+  TMDB API error for 148589: 404 Not Found
+  TMDB API error for 433393: 404 Not Found
+  TMDB API error for 418141: 404 Not Found
+  TMDB API error for 441012: 404 Not Found
+  TMDB API error for 433402: 404 Not Found
+  TMDB API error for 1324336: 404 Not Found
+  TMDB API error for 441007: 404 Not Found
+  TMDB API error for 137403: 404 Not Found
+  TMDB API error for 137390: 404 Not Found
+  TMDB API error for 137396: 404 Not Found
+  TMDB API error for 1229856: 404 Not Found
+  TMDB API error for 137393: 404 Not Found
+  TMDB API error for 441005: 404 Not Found
+  TMDB API error for 137401: 404 Not Found
+  Progress: 555/1942 (489 fields enriched)
+  TMDB API error for 216834: 404 Not Found
+  TMDB API error for 1116154: 404 Not Found
+  TMDB API error for 303361: 404 Not Found
+  TMDB API error for 434480: 404 Not Found
+  Progress: 605/1942 (526 fields enriched)
+  Progress: 655/1942 (565 fields enriched)
+  Progress: 705/1942 (611 fields enriched)
+  Progress: 755/1942 (634 fields enriched)
+  TMDB API error for 100913: 404 Not Found
+  Progress: 805/1942 (661 fields enriched)
+  TMDB API error for 1324325: 404 Not Found
+  TMDB API error for 434463: 404 Not Found
+  TMDB API error for 6694628: 404 Not Found
+  Progress: 855/1942 (678 fields enriched)
+  TMDB API error for 281858: 404 Not Found
+  TMDB API error for 214777: 404 Not Found
+  TMDB API error for 248257: 404 Not Found
+  TMDB API error for 1116153: 404 Not Found
+  TMDB API error for 112472: 404 Not Found
+  Progress: 905/1942 (705 fields enriched)
+  TMDB API error for 281881: 404 Not Found
+  TMDB API error for 256336: 404 Not Found
+  TMDB API error for 307227: 404 Not Found
+  Progress: 955/1942 (741 fields enriched)
+  TMDB API error for 505857: 404 Not Found
+  TMDB API error for 137391: 404 Not Found
+  TMDB API error for 47350: 404 Not Found
+  TMDB API error for 218633: 404 Not Found
+  Progress: 1005/1942 (775 fields enriched)
+  TMDB API error for 248236: 404 Not Found
+  Progress: 1055/1942 (804 fields enriched)
+  TMDB API error for 137407: 404 Not Found
+  TMDB API error for 303370: 404 Not Found
+  TMDB API error for 218637: 404 Not Found
+  Progress: 1105/1942 (834 fields enriched)
+  TMDB API error for 307206: 404 Not Found
+  TMDB API error for 218639: 404 Not Found
+  Progress: 1155/1942 (864 fields enriched)
+  TMDB API error for 137406: 404 Not Found
+  TMDB API error for 112466: 404 Not Found
+  TMDB API error for 433392: 404 Not Found
+  TMDB API error for 137405: 404 Not Found
+  TMDB API error for 281882: 404 Not Found
+  TMDB API error for 281865: 404 Not Found
+  TMDB API error for 1116138: 404 Not Found
+  Progress: 1205/1942 (892 fields enriched)
+  TMDB API error for 137371: 404 Not Found
+  TMDB API error for 441013: 404 Not Found
+  TMDB API error for 281887: 404 Not Found
+  Progress: 1255/1942 (934 fields enriched)
+  TMDB API error for 434456: 404 Not Found
+  TMDB API error for 112465: 404 Not Found
+  TMDB API error for 47348: 404 Not Found
+  Progress: 1305/1942 (972 fields enriched)
+  TMDB API error for 1116137: 404 Not Found
+  TMDB API error for 442664: 404 Not Found
+  Progress: 1355/1942 (1005 fields enriched)
+  TMDB API error for 307243: 404 Not Found
+  TMDB API error for 257571: 404 Not Found
+  Progress: 1405/1942 (1035 fields enriched)
+  TMDB API error for 137387: 404 Not Found
+  TMDB API error for 137351: 404 Not Found
+  TMDB API error for 112469: 404 Not Found
+  Progress: 1455/1942 (1065 fields enriched)
+  TMDB API error for 647419: 404 Not Found
+  TMDB API error for 441004: 404 Not Found
+  TMDB API error for 441009: 404 Not Found
+  Progress: 1505/1942 (1088 fields enriched)
+  TMDB API error for 103703: 404 Not Found
+  TMDB API error for 137384: 404 Not Found
+  TMDB API error for 307208: 404 Not Found
+  TMDB API error for 647414: 404 Not Found
+  Progress: 1555/1942 (1122 fields enriched)
+  TMDB API error for 47346: 404 Not Found
+  TMDB API error for 442645: 404 Not Found
+  Progress: 1605/1942 (1152 fields enriched)
+  TMDB API error for 137368: 404 Not Found
+  TMDB API error for 137363: 404 Not Found
+  TMDB API error for 505886: 404 Not Found
+  TMDB API error for 647416: 404 Not Found
+  TMDB API error for 137356: 404 Not Found
+  Progress: 1655/1942 (1168 fields enriched)
+  TMDB API error for 531230: 404 Not Found
+  TMDB API error for 433404: 404 Not Found
+  TMDB API error for 441010: 404 Not Found
+  TMDB API error for 281868: 404 Not Found
+  Progress: 1705/1942 (1193 fields enriched)
+  Progress: 1755/1942 (1227 fields enriched)
+  TMDB API error for 112463: 404 Not Found
+  TMDB API error for 110373: 404 Not Found
+  TMDB API error for 112468: 404 Not Found
+  TMDB API error for 441011: 404 Not Found
+  TMDB API error for 1229861: 404 Not Found
+  Progress: 1805/1942 (1259 fields enriched)
+  TMDB API error for 314115: 404 Not Found
+  TMDB API error for 281886: 404 Not Found
+  TMDB API error for 307235: 404 Not Found
+  TMDB API error for 1116155: 404 Not Found
+  TMDB API error for 307216: 404 Not Found
+  TMDB API error for 536398: 404 Not Found
+  Progress: 1855/1942 (1287 fields enriched)
+  TMDB API error for 137351: 404 Not Found
+  TMDB API error for 1116156: 404 Not Found
+  TMDB API error for 248234: 404 Not Found
+  TMDB API error for 112475: 404 Not Found
+  Progress: 1905/1942 (1308 fields enriched)
+  TMDB API error for 433390: 404 Not Found
+  TMDB API error for 134267: 404 Not Found
+  Progress: 1942/1942 (1317 fields enriched)
+
+  ✅ Enrichment complete!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║            ENRICHMENT COMPLETE!                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  Total movies processed: 1942
+  Duration: 11.7 minutes
+
+  ✅ Producers added: 676
+  ✅ Music Directors added: 641
+  Total enrichments: 1317
+
+  💡 Run audit to see improvements:
+     npx tsx scripts/audit-movie-data-completeness.ts
+

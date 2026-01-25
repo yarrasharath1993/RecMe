@@ -1,0 +1,153 @@
+# GOVERNED PROMPT: Entity Summary Generator
+
+## CONSTRAINTS (MANDATORY)
+
+### Allowed Content Types
+- verified_fact
+- archive (with "historical data" label)
+- editorial (with "editorial view" label)
+
+### Excluded Content Types
+- speculative
+- fan_content (unless explicitly labeled)
+- promotional
+- opinion (unless clearly attributed)
+
+### Required Trust Level
+- Minimum trust_score: 50
+- Minimum confidence_tier: medium
+
+### Excluded Fields
+- unverified_family_claims
+- disputed_data
+- governance_flagged content
+- content marked is_disputed=true
+
+### Required Attribution
+- Always cite source if available
+- Never present speculation as fact
+- Label editorial opinions clearly
+
+## INPUT SCHEMA
+
+The following fields may be provided:
+
+```json
+{
+  "person": {
+    "name": "string (required)",
+    "industry_title": "string (optional, verified)",
+    "usp": "string (optional, verified)",
+    "brand_pillars": ["array of strings", "optional"],
+    "legacy_impact": "string (optional, editorial)",
+    "biography": "string (optional, may be editorial)"
+  },
+  "career_stats": {
+    "total_movies": "number (verified)",
+    "first_year": "number (verified)",
+    "last_year": "number (verified)",
+    "avg_rating": "number (verified)",
+    "hit_rate": "number (verified)"
+  },
+  "eras": [
+    {
+      "name": "string",
+      "years": "string",
+      "themes": ["array"],
+      "key_films": ["verified film slugs"]
+    }
+  ],
+  "achievements": {
+    "awards": ["verified awards only"],
+    "milestones": ["verified milestones"]
+  },
+  "governance": {
+    "trust_score": "number 0-100",
+    "confidence_tier": "high|medium|low|unverified",
+    "content_type": "verified_fact|archive|editorial|speculative"
+  }
+}
+```
+
+## OUTPUT FORMAT
+
+Generate a summary following this structure:
+
+```
+[ENTITY NAME] - Summary
+
+## Quick Facts (verified_fact only)
+- Total films: [number]
+- Career span: [first_year] - [last_year] ([decades] decades)
+- Avg rating: [rating]/10
+- Hit rate: [percentage]%
+
+## Career Overview
+[2-3 sentences using ONLY verified facts]
+
+## Notable Achievements
+- [Award 1] (year) - for [film]
+- [Award 2] (year) - for [film]
+
+## Career Phases
+[For each era with verified data]
+
+---
+Trust Score: [score]% | Generated: [timestamp]
+```
+
+## PROHIBITED ACTIONS
+
+1. DO NOT invent awards or achievements
+2. DO NOT claim relationships without verified family_relationships
+3. DO NOT include speculative content in main summary
+4. DO NOT use is_disputed=true data
+5. DO NOT generate content for entities with trust_score < 50
+6. DO NOT present editorial content as verified fact
+
+## ERROR HANDLING
+
+If trust_score < 50:
+  Return: "Insufficient verified data for summary generation. Trust score: [score]%"
+
+If confidence_tier == "unverified":
+  Return: "This entity has not been verified. Summary unavailable."
+
+If content_type == "speculative":
+  Return: "Speculative content cannot be summarized as fact."
+
+## EXAMPLE OUTPUT
+
+```
+Akkineni Nagarjuna - Summary
+
+## Quick Facts
+- Total films: 100+
+- Career span: 1986 - 2026 (4 decades)
+- Avg rating: 7.2/10
+- Hit rate: 68%
+
+## Career Overview
+Akkineni Nagarjuna has maintained a 40-year career in Telugu cinema, spanning multiple genres from action to devotional films. His filmography includes verified blockbusters across different decades.
+
+## Notable Achievements
+- National Film Award - Special Mention (1997) - for Annamayya
+- Nandi Award for Best Actor (1989) - for Geethanjali
+
+## Career Phases
+### Golden Era (1986-2000)
+Key themes: Raw action, Romance, Devotion
+Signature films: Shiva, Geethanjali, Ninne Pelladata, Annamayya
+
+### Experimental Era (2001-2020)
+Key themes: Urban comedy, Dual roles, Genre mixing
+Signature films: Manmadhudu, Oopiri, Soggade Chinni Nayana
+
+---
+Trust Score: 85% | Generated: 2026-01-11T10:30:00Z
+```
+
+## VERSION
+Prompt version: 1.0
+Last updated: 2026-01-11
+Governance rules: RULE_002, RULE_005

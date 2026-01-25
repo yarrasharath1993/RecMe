@@ -1,0 +1,38 @@
+Type,Movie,Year,Field,Current Value,Suggested Value,Confidence,Details,Action
+duplicate,"Gokulamlo Seeta",1997,-,"-","-",93%,"Duplicate of ""Gokulamlo Seetha"" (1997) - 93% similar",flag_review
+duplicate,"Khushi",2001,-,"-","-",83%,"Duplicate of ""Kushi"" (2001) - 83% similar",flag_review
+duplicate,"Komaram Puli",2010,-,"-","-",90%,"Duplicate of ""Puli"" (2010) - 90% similar",flag_review
+duplicate,"Attarintiki Daredi",2013,-,"-","-",89%,"Duplicate of ""Atharintiki Daaredi"" (2013) - 89% similar",flag_review
+duplicate,"Hari Hara Veera Mallu",2025,-,"-","-",90%,"Duplicate of ""Hari Hara Veera Mallu: Part 1 – Sword vs Spirit"" (2025) - 90% similar",flag_review
+pre_debut,"They Call Him OG 2",,-,"-","-",85%,"Released 1996 years before Pawan's debut (1996)",flag_review
+conflicting_data,"Ustaad Bhagat Singh",2026,tmdb_id,"1022788","-",80%,"TMDB movie is zh, not Telugu",flag_review
+conflicting_data,"Pancharangi",2010,tmdb_id,"229430","-",80%,"TMDB movie is kn, not Telugu",flag_review
+conflicting_data,"Khushi",2001,tmdb_id,"10757","-",80%,"TMDB movie is hi, not Telugu",flag_review
+missing_field,"They Call Him OG 2",,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"They Call Him OG 2",,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Double Engine",2024,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Pancharangi",2010,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Pancharangi",2010,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Pancharangi",2010,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Pancharangi",2010,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Balu",2005,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Balu",2005,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Thammudu",1999,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Thammudu",1999,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Thammudu",1999,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Thammudu",1999,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Suswagatham",1998,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Suswagatham",1998,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Tholi Prema",1998,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Tholi Prema",1998,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Tholi Prema",1998,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Gokulamlo Seeta",1997,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Gokulamlo Seeta",1997,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Gokulamlo Seeta",1997,writer,"-","-",60%,"Missing writer",report_only
+missing_field,"Gokulamlo Seeta",1997,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Gokulamlo Seeta",1997,tmdb_id,"-","-",60%,"Missing tmdb_id",report_only
+missing_field,"Gokulamlo Seetha",1997,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Gokulamlo Seetha",1997,editor,"-","-",60%,"Missing editor",report_only
+missing_field,"Gokulamlo Seetha",1997,producer,"-","-",60%,"Missing producer",report_only
+missing_field,"Akkada Ammayi Ikkada Abbayi",1996,cinematographer,"-","-",60%,"Missing cinematographer",report_only
+missing_field,"Akkada Ammayi Ikkada Abbayi",1996,editor,"-","-",60%,"Missing editor",report_only

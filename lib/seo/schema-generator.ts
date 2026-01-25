@@ -48,7 +48,7 @@ export function generateMovieSchema(movie: MovieSchemaData): object {
       worstRating: 1,
     } : undefined,
     image: movie.posterUrl,
-    url: `https://teluguportal.com/reviews/${movie.slug}`,
+    url: `https://teluguportal.com/movies/${movie.slug}`,
   };
 }
 

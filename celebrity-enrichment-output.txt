@@ -1,0 +1,994 @@
+
+═══════════════════════════════════════════════════════════════
+  CELEBRITY METADATA ENRICHMENT FROM WIKIPEDIA
+═══════════════════════════════════════════════════════════════
+
+Fetching celebrities with Wikipedia URLs...
+
+✓ Found 184 celebrities to enrich
+
+
+[1/184] A. Chandra
+  → Enriching: A. Chandra
+     URL: https://en.wikipedia.org/wiki/A._Chandra
+    ✓ Extracted:  (confidence: 0%)
+
+[2/184] Aadi
+  → Enriching: Aadi
+     URL: https://en.wikipedia.org/wiki/Aadi_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[3/184] Abbas
+  → Enriching: Abbas
+     URL: https://en.wikipedia.org/wiki/Abbas_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, 1 awards (confidence: 75%)
+
+[4/184] Abhirami
+  → Enriching: Abhirami
+     URL: https://en.wikipedia.org/wiki/Abhirami_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[5/184] Aditi Rao Hydari
+  → Enriching: Aditi Rao Hydari
+     URL: https://en.wikipedia.org/wiki/Aditi_Rao_Hydari
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[6/184] Aishwarya Rai Bachchan
+  → Enriching: Aishwarya Rai Bachchan
+     URL: https://en.wikipedia.org/wiki/Aishwarya_Rai_Bachchan
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[7/184] Ajay
+  → Enriching: Ajay
+     URL: https://en.wikipedia.org/wiki/Ajay_(Telugu_actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[8/184] Akkineni Nagarjuna
+  → Enriching: Akkineni Nagarjuna
+     URL: https://en.wikipedia.org/wiki/Nagarjuna_Akkineni
+    ✓ Extracted:  (confidence: 0%)
+
+[9/184] Aksha Pardasany
+  → Enriching: Aksha Pardasany
+     URL: https://en.wikipedia.org/wiki/Aksha_Pardasany
+    ✓ Extracted: bio, 1 occupations, family (confidence: 50%)
+
+[10/184] Ali
+  → Enriching: Ali
+     URL: https://en.wikipedia.org/wiki/Ali_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 10/184 processed, 10 enriched (100.0%)
+
+[11/184] Ali Basha
+  → Enriching: Ali Basha
+     URL: https://en.wikipedia.org/wiki/Ali_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[12/184] Allu
+  → Enriching: Allu
+     URL: https://en.wikipedia.org/wiki/Allu_Ramalingaiah
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[13/184] Amala
+  → Enriching: Amala
+     URL: https://en.wikipedia.org/wiki/Amala_Akkineni
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[14/184] Amulya
+  → Enriching: Amulya
+     URL: https://en.wikipedia.org/wiki/Amulya
+    ✓ Extracted: bio, birthplace, 1 occupations, family (confidence: 55%)
+
+[15/184] Anandhi
+  → Enriching: Anandhi
+     URL: https://en.wikipedia.org/wiki/Anandhi
+    ✓ Extracted: bio (confidence: 25%)
+
+[16/184] Anjali
+  → Enriching: Anjali
+     URL: https://en.wikipedia.org/wiki/Anjali_(actress)
+    ✓ Extracted: bio, DOB, birthplace (confidence: 40%)
+
+[17/184] Annu Kapoor
+  → Enriching: Annu Kapoor
+     URL: https://en.wikipedia.org/wiki/Annu_Kapoor
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[18/184] Anurag Basu
+  → Enriching: Anurag Basu
+     URL: https://en.wikipedia.org/wiki/Anurag_Basu
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, social (confidence: 55%)
+
+[19/184] Anusha
+  → Enriching: Anusha
+     URL: https://en.wikipedia.org/wiki/Anusha_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[20/184] Anushka Shetty
+  → Enriching: Anushka Shetty
+     URL: https://en.wikipedia.org/wiki/Anushka_Shetty
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, education (confidence: 55%)
+
+📊 Progress: 20/184 processed, 20 enriched (100.0%)
+
+[21/184] Archana
+  → Enriching: Archana
+     URL: https://en.wikipedia.org/wiki/Archana_(actress)
+    ✓ Extracted: bio, birthplace, 1 occupations (confidence: 40%)
+
+[22/184] Arjun
+  → Enriching: Arjun
+     URL: https://en.wikipedia.org/wiki/Arjun_Sarja
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, 1 awards (confidence: 75%)
+
+[23/184] Ashwini
+  → Enriching: Ashwini
+     URL: https://en.wikipedia.org/wiki/Ashwini_(actress)
+    ✓ Extracted: bio, DOB, birthplace (confidence: 40%)
+
+[24/184] B
+  → Enriching: B
+     URL: https://en.wikipedia.org/wiki/B._Jaya
+    ✓ Extracted:  (confidence: 0%)
+
+[25/184] B Saroja Devi
+  → Enriching: B Saroja Devi
+     URL: https://en.wikipedia.org/wiki/B._Saroja_Devi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[26/184] Bapu
+  → Enriching: Bapu
+     URL: https://en.wikipedia.org/wiki/Bapu_(film_director)
+    ✓ Extracted:  (confidence: 0%)
+
+[27/184] Bellamkonda Srinivas
+  → Enriching: Bellamkonda Srinivas
+     URL: https://en.wikipedia.org/wiki/Bellamkonda_Sreenivas
+    ✓ Extracted:  (confidence: 0%)
+
+[28/184] Bhanumathi
+  → Enriching: Bhanumathi
+     URL: https://en.wikipedia.org/wiki/P._Bhanumathi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, 1 awards (confidence: 75%)
+
+[29/184] Bhaskar
+  → Enriching: Bhaskar
+     URL: https://en.wikipedia.org/wiki/Bhaskar_(director)
+    ✓ Extracted: birthplace, 4 occupations, education (confidence: 20%)
+
+[30/184] Bhavana
+  → Enriching: Bhavana
+     URL: https://en.wikipedia.org/wiki/Bhavana_(Malayalam_actress)
+    ✓ Extracted:  (confidence: 0%)
+
+📊 Progress: 30/184 processed, 30 enriched (100.0%)
+
+[31/184] BVS Rama Rao
+  → Enriching: BVS Rama Rao
+     URL: https://en.wikipedia.org/wiki/B._V._S._Rama_Rao
+    ✓ Extracted:  (confidence: 0%)
+
+[32/184] Camp Sasi
+  → Enriching: Camp Sasi
+     URL: https://en.wikipedia.org/wiki/Camp_Sasi
+    ✓ Extracted:  (confidence: 0%)
+
+[33/184] Chandra Mohan
+  → Enriching: Chandra Mohan
+     URL: https://en.wikipedia.org/wiki/Chandra_Mohan_(Telugu_actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[34/184] Chiranjeevi
+  → Enriching: Chiranjeevi
+     URL: https://en.wikipedia.org/wiki/Chiranjeevi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[35/184] Devi Prasad
+  → Enriching: Devi Prasad
+     URL: https://en.wikipedia.org/wiki/Devi_Prasad_(director)
+    ✓ Extracted:  (confidence: 0%)
+
+[36/184] Divya Vani
+  → Enriching: Divya Vani
+     URL: https://en.wikipedia.org/wiki/Divyavani
+    ✓ Extracted:  (confidence: 0%)
+
+[37/184] G Varalakshmi
+  → Enriching: G Varalakshmi
+     URL: https://en.wikipedia.org/wiki/G._Varalakshmi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[38/184] G. Ram Prasad
+  → Enriching: G. Ram Prasad
+     URL: https://en.wikipedia.org/wiki/G._Ram_Prasad
+    ✓ Extracted:  (confidence: 0%)
+
+[39/184] Geetha
+  → Enriching: Geetha
+     URL: https://en.wikipedia.org/wiki/Geetha_(actress)
+    ✓ Extracted: bio, birthplace, 1 occupations, family, 1 awards (confidence: 65%)
+
+[40/184] Genelia D'Souza
+  → Enriching: Genelia D'Souza
+     URL: https://en.wikipedia.org/wiki/Genelia_D%27Souza
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 40/184 processed, 40 enriched (100.0%)
+
+[41/184] Gopichand
+  → Enriching: Gopichand
+     URL: https://en.wikipedia.org/wiki/Gopichand_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, height (confidence: 70%)
+
+[42/184] Gowri Munjal
+  → Enriching: Gowri Munjal
+     URL: https://en.wikipedia.org/wiki/Gowri_Munjal
+    ✓ Extracted: bio, birthplace, 1 occupations, height (confidence: 45%)
+
+[43/184] Gummadi
+  → Enriching: Gummadi
+     URL: https://en.wikipedia.org/wiki/Gummadi_Venkateswara_Rao
+    ✓ Extracted:  (confidence: 0%)
+
+[44/184] Haranath
+  → Enriching: Haranath
+     URL: https://en.wikipedia.org/wiki/Haranath_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[45/184] Hariprriya
+  → Enriching: Hariprriya
+     URL: https://en.wikipedia.org/wiki/Hariprriya
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[46/184] Indraja
+  → Enriching: Indraja
+     URL: https://en.wikipedia.org/wiki/Indraja
+    ✓ Extracted: bio, birthplace, 1 occupations, family (confidence: 55%)
+
+[47/184] Jaishankar
+  → Enriching: Jaishankar
+     URL: https://en.wikipedia.org/wiki/Jaishankar
+    ✓ Extracted:  (confidence: 0%)
+
+[48/184] Jamuna
+  → Enriching: Jamuna
+     URL: https://en.wikipedia.org/wiki/Jamuna_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[49/184] Janaki
+  → Enriching: Janaki
+     URL: https://en.wikipedia.org/wiki/Sowcar_Janaki
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[50/184] Jayanthi
+  → Enriching: Jayanthi
+     URL: https://en.wikipedia.org/wiki/Jayanthi_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 50/184 processed, 50 enriched (100.0%)
+
+[51/184] Jeeva
+  → Enriching: Jeeva
+     URL: https://en.wikipedia.org/wiki/Jeeva_(Telugu_actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[52/184] K
+  → Enriching: K
+     URL: https://en.wikipedia.org/wiki/K._Viswanath
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[53/184] K. Bapayya
+  → Enriching: K. Bapayya
+     URL: https://en.wikipedia.org/wiki/K._Bapayya
+    ✓ Extracted: bio, birthplace, 1 occupations, family (confidence: 55%)
+
+[54/184] K. Murali Mohan
+  → Enriching: K. Murali Mohan
+     URL: https://en.wikipedia.org/wiki/K._Murali_Mohan_Rao
+    ✓ Extracted:  (confidence: 0%)
+
+[55/184] K.S.R. Das
+  → Enriching: K.S.R. Das
+     URL: https://en.wikipedia.org/wiki/K._S._R._Das
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[56/184] Kalyani
+  → Enriching: Kalyani
+     URL: https://en.wikipedia.org/wiki/Kalyani_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[57/184] Kanchana
+  → Enriching: Kanchana
+     URL: https://en.wikipedia.org/wiki/Kanchana_(actress)
+    ✓ Extracted: bio, DOB, 1 occupations (confidence: 45%)
+
+[58/184] Karthik
+  → Enriching: Karthik
+     URL: https://en.wikipedia.org/wiki/Karthik_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[59/184] Kaveri
+  → Enriching: Kaveri
+     URL: https://en.wikipedia.org/wiki/Kaveri_(actress)
+    ✓ Extracted: bio, birthplace, 1 occupations, family (confidence: 55%)
+
+[60/184] Kavitha
+  → Enriching: Kavitha
+     URL: https://en.wikipedia.org/wiki/Kavitha_(actress)
+    ✓ Extracted: bio, DOB, 2 occupations, family (confidence: 60%)
+
+📊 Progress: 60/184 processed, 60 enriched (100.0%)
+
+[61/184] Khushboo
+  → Enriching: Khushboo
+     URL: https://en.wikipedia.org/wiki/Khushbu_Sundar
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[62/184] Krasna
+  → Enriching: Krasna
+     URL: https://en.wikipedia.org/wiki/Norman_Krasna
+    ✓ Extracted: bio, DOB, birthplace, family (confidence: 55%)
+
+[63/184] Krishna
+  → Enriching: Krishna
+     URL: https://en.wikipedia.org/wiki/Krishna_(Telugu_actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[64/184] Krishna Kumari
+  → Enriching: Krishna Kumari
+     URL: https://en.wikipedia.org/wiki/Krishna_Kumari_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[65/184] Krithi Shetty
+  → Enriching: Krithi Shetty
+     URL: https://en.wikipedia.org/wiki/Krithi_Shetty
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, social (confidence: 55%)
+
+[66/184] KVAS
+  → Enriching: KVAS
+     URL: https://en.wikipedia.org/wiki/K._V._Anand
+    ✓ Extracted: bio, DOB, birthplace, 3 occupations, family, education (confidence: 70%)
+
+[67/184] Lakshmi
+  → Enriching: Lakshmi
+     URL: https://en.wikipedia.org/wiki/Lakshmi_(actress)
+    ✓ Extracted: bio, DOB, birthplace, family (confidence: 55%)
+
+[68/184] Latha
+  → Enriching: Latha
+     URL: https://en.wikipedia.org/wiki/Latha_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[69/184] Laya
+  → Enriching: Laya
+     URL: https://en.wikipedia.org/wiki/Laya_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[70/184] M. Mallikarjuna Rao
+  → Enriching: M. Mallikarjuna Rao
+     URL: https://en.wikipedia.org/wiki/Mallikarjuna_Rao_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+📊 Progress: 70/184 processed, 70 enriched (100.0%)
+
+[71/184] M. Radhakrishnan
+  → Enriching: M. Radhakrishnan
+     URL: https://en.wikipedia.org/wiki/M._Radhakrishnan
+    ✓ Extracted:  (confidence: 0%)
+
+[72/184] Madan
+  → Enriching: Madan
+     URL: https://en.wikipedia.org/wiki/Madan_(director)
+    ✓ Extracted:  (confidence: 0%)
+
+[73/184] Madhavi
+  → Enriching: Madhavi
+     URL: https://en.wikipedia.org/wiki/Madhavi_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[74/184] Manjula
+  → Enriching: Manjula
+     URL: https://en.wikipedia.org/wiki/Manjula_Vijayakumar
+    ✓ Extracted: bio, DOB, 1 occupations, family (confidence: 60%)
+
+[75/184] Medha Shankr
+  → Enriching: Medha Shankr
+     URL: https://en.wikipedia.org/wiki/Medha_Shankr
+    ✓ Extracted: DOB, birthplace, 1 occupations, education (confidence: 30%)
+
+[76/184] Meena
+  → Enriching: Meena
+     URL: https://en.wikipedia.org/wiki/Meena_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[77/184] Mohan Gandhi
+  → Enriching: Mohan Gandhi
+     URL: https://en.wikipedia.org/wiki/Mohan_Gandhi
+    ✓ Extracted:  (confidence: 0%)
+
+[78/184] Mokksha
+  → Enriching: Mokksha
+     URL: https://en.wikipedia.org/wiki/Mokksha
+    ✓ Extracted: bio, birthplace, 1 occupations (confidence: 40%)
+
+[79/184] Mouli
+  → Enriching: Mouli
+     URL: https://en.wikipedia.org/wiki/Mouli_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[80/184] N.T. Rama Rao Jr.
+  → Enriching: N.T. Rama Rao Jr.
+     URL: https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 80/184 processed, 80 enriched (100.0%)
+
+[81/184] Nagma
+  → Enriching: Nagma
+     URL: https://en.wikipedia.org/wiki/Nagma
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, education (confidence: 55%)
+
+[82/184] Namrata Shirodkar
+  → Enriching: Namrata Shirodkar
+     URL: https://en.wikipedia.org/wiki/Namrata_Shirodkar
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[83/184] Nandamuri Balakrishna
+  → Enriching: Nandamuri Balakrishna
+     URL: https://en.wikipedia.org/wiki/Nandamuri_Balakrishna
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[84/184] Nandita Raj
+  → Enriching: Nandita Raj
+     URL: https://en.wikipedia.org/wiki/Nandita_Raj
+    ✓ Extracted:  (confidence: 0%)
+
+[85/184] Nandu
+  → Enriching: Nandu
+     URL: https://en.wikipedia.org/wiki/Nandu_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[86/184] Nandu Vijay Krishna
+  → Enriching: Nandu Vijay Krishna
+     URL: https://en.wikipedia.org/wiki/Nandu_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[87/184] Nani
+  → Enriching: Nani
+     URL: https://en.wikipedia.org/wiki/Nani_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[88/184] Naresh
+  → Enriching: Naresh
+     URL: https://en.wikipedia.org/wiki/Naresh_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, 1 awards (confidence: 75%)
+
+[89/184] Naresh Agastya
+  → Enriching: Naresh Agastya
+     URL: https://en.wikipedia.org/wiki/Naresh_Agastya
+    ✓ Extracted:  (confidence: 0%)
+
+[90/184] Nayanthara
+  → Enriching: Nayanthara
+     URL: https://en.wikipedia.org/wiki/Nayanthara
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+📊 Progress: 90/184 processed, 90 enriched (100.0%)
+
+[91/184] Neelakanta
+  → Enriching: Neelakanta
+     URL: https://en.wikipedia.org/wiki/Neelakanta_(director)
+    ✓ Extracted: bio, birthplace, 2 occupations, 2 awards, education (confidence: 55%)
+
+[92/184] Neha Solanki
+  → Enriching: Neha Solanki
+     URL: https://en.wikipedia.org/wiki/Neha_Solanki
+    ✓ Extracted:  (confidence: 0%)
+
+[93/184] Nisha Aggarwal
+  → Enriching: Nisha Aggarwal
+     URL: https://en.wikipedia.org/wiki/Nisha_Agarwal
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[94/184] Ntr
+  → Enriching: Ntr
+     URL: https://en.wikipedia.org/wiki/N._T._Rama_Rao
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[95/184] P. Chandrasekhara Reddy
+  → Enriching: P. Chandrasekhara Reddy
+     URL: https://en.wikipedia.org/wiki/P._Chandrasekhara_Reddy
+    ✓ Extracted:  (confidence: 0%)
+
+[96/184] P. Sambasiva Rao
+  → Enriching: P. Sambasiva Rao
+     URL: https://en.wikipedia.org/wiki/Ardharathiri
+    ✓ Extracted: bio (confidence: 25%)
+
+[97/184] Padmini
+  → Enriching: Padmini
+     URL: https://en.wikipedia.org/wiki/Padmini_(actress)
+    ✓ Extracted: bio, DOB, birthplace, family (confidence: 55%)
+
+[98/184] Poorna
+  → Enriching: Poorna
+     URL: https://en.wikipedia.org/wiki/Shamna_Kasim
+    ✓ Extracted: bio, DOB, birthplace, 2 occupations, family, social (confidence: 70%)
+
+[99/184] Poornima
+  → Enriching: Poornima
+     URL: https://en.wikipedia.org/wiki/Poornima_Bhagyaraj
+    ✓ Extracted: bio, DOB, birthplace, family, social (confidence: 60%)
+
+[100/184] Prabhas
+  → Enriching: Prabhas
+     URL: https://en.wikipedia.org/wiki/Prabhas
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+📊 Progress: 100/184 processed, 100 enriched (100.0%)
+
+[101/184] Prema
+  → Enriching: Prema
+     URL: https://en.wikipedia.org/wiki/Prema_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[102/184] Priyanka Sharma
+  → Enriching: Priyanka Sharma
+     URL: https://en.wikipedia.org/wiki/Priyanka_Sharma_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[103/184] R. S. Prakash
+  → Enriching: R. S. Prakash
+     URL: https://en.wikipedia.org/wiki/R._S._Prakash
+    ✓ Extracted:  (confidence: 0%)
+
+[104/184] Raashi Singh
+  → Enriching: Raashi Singh
+     URL: https://en.wikipedia.org/wiki/Raashi_Singh
+    ✓ Extracted:  (confidence: 0%)
+
+[105/184] Raasi
+  → Enriching: Raasi
+     URL: https://en.wikipedia.org/wiki/Raasi_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[106/184] Radha
+  → Enriching: Radha
+     URL: https://en.wikipedia.org/wiki/Radha_(actress)
+    ✓ Extracted: bio, DOB, birthplace, family (confidence: 55%)
+
+[107/184] Rahul Sankrityan
+  → Enriching: Rahul Sankrityan
+     URL: https://en.wikipedia.org/wiki/Rahul_Sankrityan
+    ✓ Extracted:  (confidence: 0%)
+
+[108/184] Raja
+  → Enriching: Raja
+     URL: https://en.wikipedia.org/wiki/Raja_Abel
+    ✓ Extracted:  (confidence: 0%)
+
+[109/184] Raja Babu
+  → Enriching: Raja Babu
+     URL: https://en.wikipedia.org/wiki/Raja_Babu_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 2 occupations, family (confidence: 65%)
+
+[110/184] Rajani
+  → Enriching: Rajani
+     URL: https://en.wikipedia.org/wiki/Rajani_(actress)
+    ✓ Extracted: bio, DOB, birthplace, family (confidence: 55%)
+
+📊 Progress: 110/184 processed, 110 enriched (100.0%)
+
+[111/184] Rajasekhar
+  → Enriching: Rajasekhar
+     URL: https://en.wikipedia.org/wiki/Rajasekhar_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[112/184] Rajashree
+  → Enriching: Rajashree
+     URL: https://en.wikipedia.org/wiki/Rajashree_(actress)
+    ✓ Extracted: bio, 1 occupations, family, social (confidence: 55%)
+
+[113/184] Rajendra Prasad
+  → Enriching: Rajendra Prasad
+     URL: https://en.wikipedia.org/wiki/Rajendra_Prasad_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[114/184] Rajinikanth
+  → Enriching: Rajinikanth
+     URL: https://en.wikipedia.org/wiki/Rajinikanth
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[115/184] Ram
+  → Enriching: Ram
+     URL: https://en.wikipedia.org/wiki/Ram_Pothineni
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[116/184] Ram Charan
+  → Enriching: Ram Charan
+     URL: https://en.wikipedia.org/wiki/Ram_Charan
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social (confidence: 70%)
+
+[117/184] Ramakrishna
+  → Enriching: Ramakrishna
+     URL: https://en.wikipedia.org/wiki/Ramakrishna_(Telugu_actor)
+    ✓ Extracted: bio, DOB, birthplace, family, known for 1 (confidence: 65%)
+
+[118/184] Rambha
+  → Enriching: Rambha
+     URL: https://en.wikipedia.org/wiki/Rambha_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[119/184] Rasika Dugal
+  → Enriching: Rasika Dugal
+     URL: https://en.wikipedia.org/wiki/Rasika_Dugal
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, known for 1, social (confidence: 80%)
+
+[120/184] Ravi Teja
+  → Enriching: Ravi Teja
+     URL: https://en.wikipedia.org/wiki/Ravi_Teja
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+📊 Progress: 120/184 processed, 120 enriched (100.0%)
+
+[121/184] Ravi Varma
+  → Enriching: Ravi Varma
+     URL: https://en.wikipedia.org/wiki/Ravi_Varma_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[122/184] Rekha
+  → Enriching: Rekha
+     URL: https://en.wikipedia.org/wiki/Rekha_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[123/184] Revathi
+  → Enriching: Revathi
+     URL: https://en.wikipedia.org/wiki/Revathi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[124/184] Rohit
+  → Enriching: Rohit
+     URL: https://en.wikipedia.org/wiki/Rohit_(Telugu_actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[125/184] Roja
+  → Enriching: Roja
+     URL: https://en.wikipedia.org/wiki/Roja_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[126/184] Roshan Kanakala
+  → Enriching: Roshan Kanakala
+     URL: https://en.wikipedia.org/wiki/Roshan_Kanakala
+    ✓ Extracted:  (confidence: 0%)
+
+[127/184] S S Nayak
+  → Enriching: S S Nayak
+     URL: https://en.wikipedia.org/wiki/S._S._Nayak
+    ✓ Extracted:  (confidence: 0%)
+
+[128/184] S. D. Lal
+  → Enriching: S. D. Lal
+     URL: https://en.wikipedia.org/wiki/S._D._Lall
+    ✓ Extracted:  (confidence: 0%)
+
+[129/184] Sada
+  → Enriching: Sada
+     URL: https://en.wikipedia.org/wiki/Sada_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[130/184] Sagar
+  → Enriching: Sagar
+     URL: https://en.wikipedia.org/wiki/Sagar_(actor)
+    ✓ Extracted: bio, 1 occupations, family (confidence: 50%)
+
+📊 Progress: 130/184 processed, 130 enriched (100.0%)
+
+[131/184] Sai Kumar
+  → Enriching: Sai Kumar
+     URL: https://en.wikipedia.org/wiki/Sai_Kumar_(Telugu_actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[132/184] Samantha
+  → Enriching: Samantha
+     URL: https://en.wikipedia.org/wiki/Samantha_Ruth_Prabhu
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social, education (confidence: 75%)
+
+[133/184] Samyuktha
+  → Enriching: Samyuktha
+     URL: https://en.wikipedia.org/wiki/Samyuktha_Menon
+    ✓ Extracted:  (confidence: 0%)
+
+[134/184] Sara Arjun
+  → Enriching: Sara Arjun
+     URL: https://en.wikipedia.org/wiki/Sara_Arjun
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[135/184] Sarath
+  → Enriching: Sarath
+     URL: https://en.wikipedia.org/wiki/Sarath_Kumar
+    ✓ Extracted:  (confidence: 0%)
+
+[136/184] Sarath Babu
+  → Enriching: Sarath Babu
+     URL: https://en.wikipedia.org/wiki/Sarath_Babu
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[137/184] Saritha
+  → Enriching: Saritha
+     URL: https://en.wikipedia.org/wiki/Saritha
+    ✓ Extracted: bio, birthplace, 1 occupations, family, 10 awards (confidence: 65%)
+
+[138/184] Sasikumar
+  → Enriching: Sasikumar
+     URL: https://en.wikipedia.org/wiki/Sasikumar
+    ✓ Extracted:  (confidence: 0%)
+
+[139/184] Satyanarayana
+  → Enriching: Satyanarayana
+     URL: https://en.wikipedia.org/wiki/Kaikala_Satyanarayana
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[140/184] Savitri
+  → Enriching: Savitri
+     URL: https://en.wikipedia.org/wiki/Savitri_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 140/184 processed, 140 enriched (100.0%)
+
+[141/184] Sayali Bhagat
+  → Enriching: Sayali Bhagat
+     URL: https://en.wikipedia.org/wiki/Sayali_Bhagat
+    ✓ Extracted: bio, birthplace, 2 occupations, family, education (confidence: 60%)
+
+[142/184] Sharada
+  → Enriching: Sharada
+     URL: https://en.wikipedia.org/wiki/Sharada_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[143/184] Sharath
+  → Enriching: Sharath
+     URL: https://en.wikipedia.org/wiki/Sharath_(director)
+    ✓ Extracted:  (confidence: 0%)
+
+[144/184] Sheena Shahabadi
+  → Enriching: Sheena Shahabadi
+     URL: https://en.wikipedia.org/wiki/Sheena_Shahabadi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[145/184] Shiva Krishna
+  → Enriching: Shiva Krishna
+     URL: https://en.wikipedia.org/wiki/Siva_Krishna
+    ✓ Extracted:  (confidence: 0%)
+
+[146/184] Siddharth
+  → Enriching: Siddharth
+     URL: https://en.wikipedia.org/wiki/Siddharth_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social, education (confidence: 75%)
+
+[147/184] Simran
+  → Enriching: Simran
+     URL: https://en.wikipedia.org/wiki/Simran_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social (confidence: 70%)
+
+[148/184] Siva
+  → Enriching: Siva
+     URL: https://en.wikipedia.org/wiki/Siva_(director)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[149/184] Siva Nageshwara Rao
+  → Enriching: Siva Nageshwara Rao
+     URL: https://en.wikipedia.org/wiki/Sivanageswara_Rao
+    ✓ Extracted:  (confidence: 0%)
+
+[150/184] Sivaji Sontineni
+  → Enriching: Sivaji Sontineni
+     URL: https://en.wikipedia.org/wiki/Sivaji_(Telugu_actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+📊 Progress: 150/184 processed, 150 enriched (100.0%)
+
+[151/184] Sneha
+  → Enriching: Sneha
+     URL: https://en.wikipedia.org/wiki/Sneha_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[152/184] Soundarya
+  → Enriching: Soundarya
+     URL: https://en.wikipedia.org/wiki/Soundarya
+    ✓ Extracted: bio, DOB, birthplace, 2 occupations, family (confidence: 65%)
+
+[153/184] Sridevi
+  → Enriching: Sridevi
+     URL: https://en.wikipedia.org/wiki/Sridevi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social (confidence: 70%)
+
+[154/184] Srikanth
+  → Enriching: Srikanth
+     URL: https://en.wikipedia.org/wiki/Srikanth_(actor,_born_1968)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[155/184] Srikanth Meka
+  → Enriching: Srikanth Meka
+     URL: https://en.wikipedia.org/wiki/Meka_Srikanth
+    ✓ Extracted:  (confidence: 0%)
+
+[156/184] Suhas
+  → Enriching: Suhas
+     URL: https://en.wikipedia.org/wiki/Suhas_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[157/184] Suhasini
+  → Enriching: Suhasini
+     URL: https://en.wikipedia.org/wiki/Suhasini_Maniratnam
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[158/184] Sujatha
+  → Enriching: Sujatha
+     URL: https://en.wikipedia.org/wiki/Sujatha_(actress)
+    ✓ Extracted: DOB, birthplace, 1 occupations, family (confidence: 40%)
+
+[159/184] Sukumar
+  → Enriching: Sukumar
+     URL: https://en.wikipedia.org/wiki/Sukumar_(director)
+    ✓ Extracted:  (confidence: 0%)
+
+[160/184] Suman
+  → Enriching: Suman
+     URL: https://en.wikipedia.org/wiki/Suman_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 160/184 processed, 160 enriched (100.0%)
+
+[161/184] Sushmita Sen
+  → Enriching: Sushmita Sen
+     URL: https://en.wikipedia.org/wiki/Sushmita_Sen
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[162/184] Swetaa Varma
+  → Enriching: Swetaa Varma
+     URL: https://en.wikipedia.org/wiki/Swetaa_Varma
+    ✓ Extracted:  (confidence: 0%)
+
+[163/184] Tabu
+  → Enriching: Tabu
+     URL: https://en.wikipedia.org/wiki/Tabu_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[164/184] Tarun
+  → Enriching: Tarun
+     URL: https://en.wikipedia.org/wiki/Tarun_(actor)
+    ✓ Extracted:  (confidence: 0%)
+
+[165/184] Teja
+  → Enriching: Teja
+     URL: https://en.wikipedia.org/wiki/Teja_(director)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, known for 4 (confidence: 75%)
+
+[166/184] Thiruveer Reddy
+  → Enriching: Thiruveer Reddy
+     URL: https://en.wikipedia.org/wiki/Thiruveer
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[167/184] Trisha
+  → Enriching: Trisha
+     URL: https://en.wikipedia.org/wiki/Trisha_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[168/184] Trisha Krishnan
+  → Enriching: Trisha Krishnan
+     URL: https://en.wikipedia.org/wiki/Trisha_(actress)
+    ✓ Extracted:  (confidence: 0%)
+
+[169/184] Tulasi
+  → Enriching: Tulasi
+     URL: https://en.wikipedia.org/wiki/Tulasi_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[170/184] Tulip Joshi
+  → Enriching: Tulip Joshi
+     URL: https://en.wikipedia.org/wiki/Tulip_Joshi
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 170/184 processed, 170 enriched (100.0%)
+
+[171/184] Urvashi
+  → Enriching: Urvashi
+     URL: https://en.wikipedia.org/wiki/Urvashi_(actress)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[172/184] V. Ramachandra Rao
+  → Enriching: V. Ramachandra Rao
+     URL: https://en.wikipedia.org/wiki/V._Ramachandra_Rao
+    ✓ Extracted:  (confidence: 0%)
+
+[173/184] V.K. Prakash
+  → Enriching: V.K. Prakash
+     URL: https://en.wikipedia.org/wiki/V._K._Prakash
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, 1 awards, social (confidence: 80%)
+
+[174/184] Vamsy
+  → Enriching: Vamsy
+     URL: https://en.wikipedia.org/wiki/Vamsy
+    ✓ Extracted: bio, DOB, birthplace, 4 occupations (confidence: 50%)
+
+[175/184] Vasanthkumar Reddy
+  → Enriching: Vasanthkumar Reddy
+     URL: https://en.wikipedia.org/wiki/Vasanth_(director)
+    ✓ Extracted:  (confidence: 0%)
+
+[176/184] Veera
+  → Enriching: Veera
+     URL: https://en.wikipedia.org/wiki/Veera_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations (confidence: 50%)
+
+[177/184] Veerabhadram
+  → Enriching: Veerabhadram
+     URL: https://en.wikipedia.org/wiki/Veerabhadram_Chowdary
+    ✓ Extracted: bio, 1 occupations (confidence: 35%)
+
+[178/184] Vikram
+  → Enriching: Vikram
+     URL: https://en.wikipedia.org/wiki/Vikram_(actor)
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, education (confidence: 70%)
+
+[179/184] Vikram Kumar
+  → Enriching: Vikram Kumar
+     URL: https://en.wikipedia.org/wiki/Vikram_Kumar
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[180/184] Vineeth
+  → Enriching: Vineeth
+     URL: https://en.wikipedia.org/wiki/Vineeth
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+📊 Progress: 180/184 processed, 180 enriched (100.0%)
+
+[181/184] Vishnu
+  → Enriching: Vishnu
+     URL: https://en.wikipedia.org/wiki/Vishnu_Manchu
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[182/184] Yukti Thareja
+  → Enriching: Yukti Thareja
+     URL: https://en.wikipedia.org/wiki/Yukti_Thareja
+    ✓ Extracted: bio, DOB, 1 occupations (confidence: 45%)
+
+[183/184] Zarina Wahab
+  → Enriching: Zarina Wahab
+     URL: https://en.wikipedia.org/wiki/Zarina_Wahab
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family (confidence: 65%)
+
+[184/184] Zeenat Aman
+  → Enriching: Zeenat Aman
+     URL: https://en.wikipedia.org/wiki/Zeenat_Aman
+    ✓ Extracted: bio, DOB, birthplace, 1 occupations, family, social, education (confidence: 75%)
+
+═══════════════════════════════════════════════════════════════
+  ✓ ENRICHMENT COMPLETE
+═══════════════════════════════════════════════════════════════
+
+Summary:
+  • Celebrities processed: 184
+  • Successfully enriched: 184 (100.0%)
+  • Wikipedia requests: 368
+  • Output file: /Users/sharathchandra/Projects/telugu-portal/celebrity-wiki-enrichments.json
+
+Field Coverage:
+  • Biography (EN): 121/184 (65.8%)
+  • Biography (TE): 0/184 (0.0%)
+  • Date of Birth: 106/184 (57.6%)
+  • Place of Birth: 114/184 (62.0%)
+  • Occupation: 113/184 (61.4%)
+  • Family: 95/184 (51.6%)
+  • Known For: 3/184 (1.6%)
+  • Awards: 8/184 (4.3%)
+  • Social Links: 13/184 (7.1%)
+  • Height: 2/184 (1.1%)
+  • Education: 23/184 (12.5%)
+
+📝 Next steps:
+  1. Review celebrity-wiki-enrichments.json
+  2. Run migration to create staging tables
+  3. Import enrichments to database for review
+

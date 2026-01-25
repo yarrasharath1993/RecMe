@@ -1,0 +1,62 @@
+{
+  "actorName": "Ram Charan",
+  "debutYear": 2007,
+  "wikipediaFilmCount": null,
+  "databaseFilmCount": 15,
+  "preDebutFilms": [
+    {
+      "id": "2645d8a8-f97b-422f-8d9c-eae1b59bbe80",
+      "title_en": "RRR",
+      "release_year": 2004,
+      "hero": "Jr. NTR, Ram Charan",
+      "heroine": "Alia Bhatt",
+      "director": "S. S. Rajamouli",
+      "our_rating": 8.8,
+      "cast_members": []
+    }
+  ],
+  "likelySupportingRoles": [],
+  "duplicates": [
+    {
+      "movie1": {
+        "id": "8841bdb2-9e5c-4744-bcd3-46e78fee7b1d",
+        "title": "Govindudu Andarivaadele",
+        "year": 2014
+      },
+      "movie2": {
+        "id": "3d5dfeca-78bc-4921-afe3-9a69c5d104cd",
+        "title": "Govindudu Andarivadele",
+        "year": 2014
+      },
+      "similarity": 0.9545454545454546
+    },
+    {
+      "movie1": {
+        "id": "d4263a63-58cf-4938-9d47-78e95c02f244",
+        "title": "Bruce Lee",
+        "year": 2015
+      },
+      "movie2": {
+        "id": "c6b03603-0209-4c43-b658-5ce7fa051a82",
+        "title": "Bruce Lee: The Fighter",
+        "year": 2015
+      },
+      "similarity": 0.9
+    }
+  ],
+  "invalidEntries": [],
+  "yearDistribution": {
+    "2004": 1,
+    "2007": 1,
+    "2009": 1,
+    "2010": 1,
+    "2013": 2,
+    "2014": 3,
+    "2015": 2,
+    "2018": 1,
+    "2019": 1,
+    "2025": 1,
+    "2026": 1
+  },
+  "summary": "1 pre-debut films, 2 potential duplicates"
+}

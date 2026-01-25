@@ -50,6 +50,9 @@ const DECADE = getArg('decade', '');
 const VERBOSE = hasFlag('verbose') || hasFlag('v');
 const ONLY_EMPTY = hasFlag('only-empty');
 const CONCURRENCY = parseInt(getArg('concurrency', '20'));
+const ACTOR = getArg('actor', '');
+const DIRECTOR = getArg('director', '');
+const SLUG = getArg('slug', '');
 
 // ============================================================
 // TYPES
@@ -455,11 +458,14 @@ async function main(): Promise<void> {
   console.log(`  Concurrency: ${CONCURRENCY}`);
   console.log(`  Only empty: ${ONLY_EMPTY ? 'Yes' : 'No'}`);
   if (DECADE) console.log(`  Decade: ${DECADE}s`);
+  if (ACTOR) console.log(`  Actor filter: "${ACTOR}"`);
+  if (DIRECTOR) console.log(`  Director filter: "${DIRECTOR}"`);
+  if (SLUG) console.log(`  Slug filter: "${SLUG}"`);
 
   // Build query for movies without/with few genres
   let query = supabase
     .from('movies')
-    .select('id, title_en, title_te, release_year, tmdb_id, genres')
+    .select('id, title_en, title_te, release_year, tmdb_id, genres, hero, director')
     .eq('language', 'Telugu')
     .order('release_year', { ascending: false })
     .limit(LIMIT);
@@ -471,6 +477,17 @@ async function main(): Promise<void> {
   if (DECADE) {
     const startYear = parseInt(DECADE);
     query = query.gte('release_year', startYear).lt('release_year', startYear + 10);
+  }
+  
+  // Apply actor/director/slug filters
+  if (ACTOR) {
+    query = query.ilike('hero', `%${ACTOR}%`);
+  }
+  if (DIRECTOR) {
+    query = query.ilike('director', `%${DIRECTOR}%`);
+  }
+  if (SLUG) {
+    query = query.eq('slug', SLUG);
   }
 
   const { data: movies, error } = await query;
