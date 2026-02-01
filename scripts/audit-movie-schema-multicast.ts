@@ -47,12 +47,39 @@ async function auditMovieSchema() {
   console.log('\nField Types:');
   console.log(`  hero: ${typeof firstMovie.hero} ${Array.isArray(firstMovie.hero) ? '(ARRAY)' : '(STRING)'}`);
   console.log(`  heroine: ${typeof firstMovie.heroine} ${Array.isArray(firstMovie.heroine) ? '(ARRAY)' : '(STRING)'}`);
+  console.log(`  heroes: ${typeof (firstMovie as any).heroes} ${Array.isArray((firstMovie as any).heroes) ? `(ARRAY, ${(firstMovie as any).heroes?.length} items)` : '(MISSING/NULL)'}`);
+  console.log(`  heroines: ${typeof (firstMovie as any).heroines} ${Array.isArray((firstMovie as any).heroines) ? `(ARRAY, ${(firstMovie as any).heroines?.length} items)` : '(MISSING/NULL)'}`);
   console.log(`  director: ${typeof firstMovie.director} ${Array.isArray(firstMovie.director) ? '(ARRAY)' : '(STRING)'}`);
   console.log(`  producer: ${typeof firstMovie.producer} ${Array.isArray(firstMovie.producer) ? '(ARRAY)' : '(STRING)'}`);
   console.log(`  music_director: ${typeof firstMovie.music_director} ${Array.isArray(firstMovie.music_director) ? '(ARRAY)' : '(STRING)'}`);
   console.log(`  actors: ${typeof firstMovie.actors} ${Array.isArray(firstMovie.actors) ? '(ARRAY)' : '(STRING/NULL)'}`);
   console.log(`  producers: ${typeof firstMovie.producers} ${Array.isArray(firstMovie.producers) ? '(ARRAY)' : '(STRING/NULL)'}`);
   console.log(`  supporting_cast: ${typeof firstMovie.supporting_cast} ${Array.isArray(firstMovie.supporting_cast) ? '(ARRAY)' : '(STRING/NULL)'}`);
+
+  // Validation: heroes/heroines backfill
+  const { count: withHeroes } = await supabase
+    .from('movies')
+    .select('id', { count: 'exact', head: true })
+    .eq('is_published', true)
+    .not('heroes', 'is', null);
+  const { count: withHeroines } = await supabase
+    .from('movies')
+    .select('id', { count: 'exact', head: true })
+    .eq('is_published', true)
+    .not('heroines', 'is', null);
+  const { count: totalPublished } = await supabase
+    .from('movies')
+    .select('id', { count: 'exact', head: true })
+    .eq('is_published', true);
+  console.log('\nBackfill validation (published movies):');
+  console.log(`  Total published: ${totalPublished ?? 0}`);
+  console.log(`  With heroes[] populated: ${withHeroes ?? 0}`);
+  console.log(`  With heroines[] populated: ${withHeroines ?? 0}`);
+  if ((withHeroes ?? 0) > 0 && (withHeroines ?? 0) > 0) {
+    console.log('  ✅ heroes/heroines columns in use.');
+  } else {
+    console.log('  ⚠️ Run backfill-heroes-heroines.sql if heroes/heroines are empty.');
+  }
 
   // Check for potential multi-hero indicators
   console.log('\n' + '='.repeat(80));

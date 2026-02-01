@@ -171,7 +171,7 @@ export async function GET(request: NextRequest) {
     // ============================================================
     const { data: movies, error: moviesError } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, release_year, poster_url, our_rating, director, hero')
+      .select('id, title_en, title_te, slug, release_year, poster_url, our_rating, director, hero, heroes, heroines')
       .eq('is_published', true)
       .eq('language', 'Telugu')
       .or(`title_en.ilike.%${query}%,title_te.ilike.%${query}%`)
@@ -192,7 +192,7 @@ export async function GET(request: NextRequest) {
     // ============================================================
     const { data: actorMovies, error: actorError } = await supabase
       .from('movies')
-      .select('hero, heroine, director, music_director, our_rating, title_en, release_year')
+      .select('hero, heroine, heroes, heroines, director, music_director, our_rating, title_en, release_year')
       .eq('is_published', true)
       .eq('language', 'Telugu')
       .or(`hero.ilike.%${query}%,heroine.ilike.%${query}%,director.ilike.%${query}%,music_director.ilike.%${query}%`)

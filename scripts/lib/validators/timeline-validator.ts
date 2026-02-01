@@ -102,129 +102,100 @@ function extractHeroines(movie: MovieForTimeline): string[] {
 // ACTOR CAREER DATA EXTRACTION
 // ============================================================
 
-/**
- * Build actor career data from database
- * Finds debut year, last film year, and full filmography
- */
-async function getActorCareerData(
-  supabase: SupabaseClient,
-  actorName: string
-): Promise<ActorCareerData | null> {
-  // Get celebrity info first
-  const { data: celeb, error: celebError } = await supabase
-    .from('celebrities')
-    .select('debut_year, death_year, date_of_birth')
-    .ilike('name_en', actorName)
-    .single();
+/** Normalize name for matching (lowercase, trim). */
+function norm(name: string): string {
+  return name.toLowerCase().trim();
+}
 
-  // Get all movies featuring this actor
-  const { data: heroMovies } = await supabase
-    .from('movies')
-    .select('title_en, release_year')
-    .ilike('hero', actorName)
-    .not('release_year', 'is', null)
-    .order('release_year', { ascending: true });
-
-  const { data: heroineMovies } = await supabase
-    .from('movies')
-    .select('title_en, release_year')
-    .ilike('heroine', actorName)
-    .not('release_year', 'is', null)
-    .order('release_year', { ascending: true });
-
-  const { data: hero2Movies } = await supabase
-    .from('movies')
-    .select('title_en, release_year')
-    .ilike('hero2', actorName)
-    .not('release_year', 'is', null)
-    .order('release_year', { ascending: true });
-
-  const { data: heroine2Movies } = await supabase
-    .from('movies')
-    .select('title_en, release_year')
-    .ilike('heroine2', actorName)
-    .not('release_year', 'is', null)
-    .order('release_year', { ascending: true });
-
-  const { data: directorMovies } = await supabase
-    .from('movies')
-    .select('title_en, release_year')
-    .ilike('director', actorName)
-    .not('release_year', 'is', null)
-    .order('release_year', { ascending: true });
-
-  // Combine all filmography
-  const filmography: Array<{ title: string; year: number; role: string }> = [];
-  
-  if (heroMovies) {
-    filmography.push(...heroMovies.map(m => ({ title: m.title_en, year: m.release_year!, role: 'hero' })));
-  }
-  if (heroineMovies) {
-    filmography.push(...heroineMovies.map(m => ({ title: m.title_en, year: m.release_year!, role: 'heroine' })));
-  }
-  if (hero2Movies) {
-    filmography.push(...hero2Movies.map(m => ({ title: m.title_en, year: m.release_year!, role: 'hero2' })));
-  }
-  if (heroine2Movies) {
-    filmography.push(...heroine2Movies.map(m => ({ title: m.title_en, year: m.release_year!, role: 'heroine2' })));
-  }
-  if (directorMovies) {
-    filmography.push(...directorMovies.map(m => ({ title: m.title_en, year: m.release_year!, role: 'director' })));
-  }
-
-  if (filmography.length === 0) {
-    return null;
-  }
-
-  // Sort by year
-  filmography.sort((a, b) => a.year - b.year);
-
-  // Calculate debut and last film year from actual filmography
-  const debutYearFromFilms = filmography[0].year;
-  const lastFilmYearFromFilms = filmography[filmography.length - 1].year;
-
-  // Use celebrity debut_year if available, otherwise use calculated
-  const debutYear = celeb?.debut_year || debutYearFromFilms;
-  const deathYear = celeb?.death_year || null;
-  
-  // Calculate birth year if date_of_birth exists
-  let birthYear: number | null = null;
-  if (celeb?.date_of_birth) {
-    const dob = new Date(celeb.date_of_birth);
-    birthYear = dob.getFullYear();
-  }
-
-  return {
-    name: actorName,
-    debutYear,
-    lastFilmYear: lastFilmYearFromFilms,
-    deathYear,
-    retirementYear: null, // We don't track this in DB currently
-    birthYear,
-    totalFilms: filmography.length,
-    filmography,
-  };
+/** Check if celebrity name matches actor name (exact or contains). */
+function celebMatchesActor(celebName: string | null, actorName: string): boolean {
+  if (!celebName) return false;
+  const a = norm(actorName);
+  const c = norm(celebName);
+  return c === a || c.includes(a) || a.includes(c);
 }
 
 /**
- * Batch get actor career data for multiple actors
+ * Build career data from the movie batch we already have (no per-actor DB queries).
+ * Then fetch celebrities in one batched query and merge death_year / date_of_birth / optional debut_year.
  */
 async function getActorCareerDataBatch(
   supabase: SupabaseClient,
+  movies: MovieForTimeline[],
   actorNames: string[]
 ): Promise<Map<string, ActorCareerData>> {
   const uniqueNames = [...new Set(actorNames.filter(n => n))];
-  const careerData = new Map<string, ActorCareerData>();
+  console.log(`  Fetching career data for ${uniqueNames.length} actors (from batch + 1 celeb query)...`);
 
-  console.log(`  Fetching career data for ${uniqueNames.length} actors...`);
+  // 1. Build debut/last year and filmography from the passed-in movies only (no extra queries)
+  const actorYears = new Map<string, number[]>();
+  const actorFilmography = new Map<string, Array<{ title: string; year: number; role: string }>>();
 
-  for (const name of uniqueNames) {
-    const data = await getActorCareerData(supabase, name);
-    if (data) {
-      careerData.set(name.toLowerCase(), data);
-    }
+  for (const movie of movies) {
+    const year = movie.release_year ?? 0;
+    if (year < 1900 || year > 2030) continue;
+
+    const add = (name: string, role: string) => {
+      if (!name) return;
+      const key = norm(name);
+      if (!actorYears.has(key)) {
+        actorYears.set(key, []);
+        actorFilmography.set(key, []);
+      }
+      actorYears.get(key)!.push(year);
+      actorFilmography.get(key)!.push({ title: movie.title_en || '', year, role });
+    };
+
+    extractHeroes(movie).forEach(h => add(h, 'hero'));
+    extractHeroines(movie).forEach(h => add(h, 'heroine'));
+    if (movie.director) add(movie.director, 'director');
   }
 
+  // 2. Fetch all celebrities in one query; match by name in memory
+  let celebs: Array<{ name_en: string | null; debut_year: number | null; death_year: number | null; date_of_birth: string | null }> = [];
+  const { data: allCelebs } = await supabase
+    .from('celebrities')
+    .select('name_en, debut_year, death_year, date_of_birth')
+    .limit(10000);
+  if (allCelebs) celebs = allCelebs;
+
+  const careerData = new Map<string, ActorCareerData>();
+
+  for (const name of uniqueNames) {
+    const key = norm(name);
+    const years = actorYears.get(key);
+    if (!years || years.length === 0) continue;
+
+    const filmography = actorFilmography.get(key) ?? [];
+    filmography.sort((a, b) => a.year - b.year);
+    const debutYearFromFilms = Math.min(...years);
+    const lastFilmYearFromFilms = Math.max(...years);
+
+    const celeb = celebs.find(c => celebMatchesActor(c.name_en, name));
+    const debutYear = celeb?.debut_year ?? debutYearFromFilms;
+    const deathYear = celeb?.death_year ?? null;
+    let birthYear: number | null = null;
+    if (celeb?.date_of_birth) {
+      try {
+        birthYear = new Date(celeb.date_of_birth).getFullYear();
+      } catch {
+        // ignore
+      }
+    }
+
+    careerData.set(key, {
+      name,
+      debutYear,
+      lastFilmYear: lastFilmYearFromFilms,
+      deathYear,
+      retirementYear: null,
+      birthYear,
+      totalFilms: filmography.length,
+      filmography,
+    });
+  }
+
+  console.log(`  Loaded career data for ${careerData.size} actors`);
   return careerData;
 }
 
@@ -376,9 +347,8 @@ export async function validateTimelines(
     if (movie.director) allActorNames.push(movie.director);
   }
 
-  // Batch fetch career data
-  const careerDataMap = await getActorCareerDataBatch(supabase, allActorNames);
-  console.log(`  Loaded career data for ${careerDataMap.size} actors`);
+  // Build career data from this movie batch + one celeb query (no per-actor queries)
+  const careerDataMap = await getActorCareerDataBatch(supabase, movies, allActorNames);
 
   const timelineIssues: TimelineIssue[] = [];
 

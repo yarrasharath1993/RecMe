@@ -109,12 +109,12 @@ function parseArgs(): AuditConfig {
 // DATA FETCHING
 // ============================================================
 
+const FETCH_PAGE_SIZE = 1000;
+
 async function fetchMovies(config: AuditConfig): Promise<any[]> {
   console.log(chalk.blue.bold('\n📥 Fetching movies from database...'));
 
-  let query = supabase
-    .from('movies')
-    .select(`
+  const selectCols = `
       id,
       title_en,
       title_te,
@@ -134,23 +134,48 @@ async function fetchMovies(config: AuditConfig): Promise<any[]> {
       mood_tags,
       avg_rating,
       total_reviews
-    `)
-    .order('release_year', { ascending: false });
+    `;
 
   if (config.sampleSize) {
     console.log(chalk.yellow(`  (Using sample of ${config.sampleSize} movies for testing)`));
-    query = query.limit(config.sampleSize);
+    const { data, error } = await supabase
+      .from('movies')
+      .select(selectCols)
+      .order('release_year', { ascending: false })
+      .limit(config.sampleSize);
+    if (error) {
+      console.error(chalk.red('  ❌ Error fetching movies:'), error.message);
+      throw error;
+    }
+    console.log(chalk.green(`  ✅ Fetched ${data?.length || 0} movies`));
+    return data || [];
   }
 
-  const { data, error } = await query;
-
-  if (error) {
-    console.error(chalk.red('  ❌ Error fetching movies:'), error.message);
-    throw error;
+  // Paginate to fetch all movies (Supabase caps at 1000 per request)
+  const all: any[] = [];
+  let offset = 0;
+  let hasMore = true;
+  while (hasMore) {
+    const { data, error } = await supabase
+      .from('movies')
+      .select(selectCols)
+      .order('release_year', { ascending: false })
+      .range(offset, offset + FETCH_PAGE_SIZE - 1);
+    if (error) {
+      console.error(chalk.red('  ❌ Error fetching movies:'), error.message);
+      throw error;
+    }
+    const page = data || [];
+    all.push(...page);
+    offset += FETCH_PAGE_SIZE;
+    hasMore = page.length === FETCH_PAGE_SIZE;
+    if (page.length > 0) {
+      console.log(chalk.gray(`  Fetched ${all.length} movies...`));
+    }
   }
 
-  console.log(chalk.green(`  ✅ Fetched ${data?.length || 0} movies`));
-  return data || [];
+  console.log(chalk.green(`  ✅ Fetched ${all.length} movies`));
+  return all;
 }
 
 // ============================================================

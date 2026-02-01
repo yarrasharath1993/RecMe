@@ -4,6 +4,7 @@ import { exec } from 'child_process';
 import { promisify } from 'util';
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'fs';
 import { join } from 'path';
+import { getAllowedRunScriptActions } from '@/lib/execution/allowlist';
 
 const execAsync = promisify(exec);
 
@@ -15,6 +16,12 @@ interface RunnerConfig {
   telegram_chat_id?: string;
   whatsapp_enabled: boolean;
   log_file: string;
+  /** Optional: path to approved handoff JSON; if set and execute_handoff, run allowlisted scripts from actions */
+  handoff_path?: string;
+  /** Run allowlisted run_script actions from handoff (only when approved_by === 'human') */
+  execute_handoff: boolean;
+  /** If true, only log what would be run; do not execute */
+  dry_run_handoff: boolean;
 }
 
 async function runClawDBot() {
@@ -24,6 +31,11 @@ async function runClawDBot() {
   console.log(`[${timestamp}] ClawDBot Runner: Starting...`);
 
   try {
+    // 0. Optional: run allowlisted scripts from approved handoff
+    if (config.handoff_path && (config.execute_handoff || config.dry_run_handoff)) {
+      await runApprovedHandoff(config);
+    }
+
     // 1. Collect latest reports (from existing pipelines or DB)
     const reports = await collectLatestReports();
 
@@ -226,8 +238,56 @@ function loadConfig(): RunnerConfig {
     telegram_bot_token: process.env.TELEGRAM_BOT_TOKEN,
     telegram_chat_id: process.env.TELEGRAM_CHAT_ID,
     whatsapp_enabled: process.env.WHATSAPP_ENABLED === 'true',
-    log_file: process.env.CLAWDBOT_LOG_FILE || join(process.cwd(), 'logs', 'clawdbot-runner.log')
+    log_file: process.env.CLAWDBOT_LOG_FILE || join(process.cwd(), 'logs', 'clawdbot-runner.log'),
+    handoff_path: process.env.CLAWDBOT_APPROVED_HANDOFF,
+    execute_handoff: process.env.CLAWDBOT_EXECUTE_HANDOFF === 'true',
+    dry_run_handoff: process.env.CLAWDBOT_DRY_RUN_HANDOFF === 'true',
   };
+}
+
+/**
+ * If approved handoff file exists and approved_by === 'human', run allowlisted run_script actions.
+ * With dry_run_handoff, only log what would be run.
+ */
+async function runApprovedHandoff(config: RunnerConfig): Promise<void> {
+  const path = config.handoff_path!;
+  if (!existsSync(path)) {
+    console.log(`[Handoff] No file at ${path}, skipping`);
+    return;
+  }
+  let handoff: { approved_by?: string; actions?: unknown[] };
+  try {
+    handoff = JSON.parse(readFileSync(path, 'utf-8'));
+  } catch (e) {
+    console.warn('[Handoff] Failed to parse handoff file:', e);
+    return;
+  }
+  if (handoff.approved_by !== 'human') {
+    console.log('[Handoff] approved_by is not "human", skipping execution');
+    return;
+  }
+  const actions = Array.isArray(handoff.actions) ? handoff.actions : [];
+  const allowed = getAllowedRunScriptActions(actions);
+  if (allowed.length === 0) {
+    console.log('[Handoff] No allowlisted run_script actions');
+    return;
+  }
+  if (config.dry_run_handoff) {
+    console.log('[Handoff] Dry run - would execute:', allowed.map(a => `${a.script_name} ${(a.args ?? []).join(' ')}`.trim()));
+    return;
+  }
+  for (const action of allowed) {
+    const args = (action.args ?? []).join(' ');
+    const command = args ? `npm run ${action.script_name} -- ${args}` : `npm run ${action.script_name}`;
+    console.log(`[Handoff] Running: ${command}`);
+    try {
+      const { stdout, stderr } = await execAsync(command);
+      if (stdout) console.log(stdout);
+      if (stderr) console.warn(stderr);
+    } catch (e) {
+      console.error(`[Handoff] Failed: ${command}`, e);
+    }
+  }
 }
 
 // Main execution

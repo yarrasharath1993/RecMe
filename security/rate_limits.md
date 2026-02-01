@@ -47,6 +47,16 @@
 
 ---
 
+## Planning and Adversarial Agents
+
+Planner (`lib/ai/planner.ts`) and Antigravity (`lib/ai/tester.ts`) use the same Groq/OpenAI chain via smart-key-manager:
+- **Planner**: Prefer quality (llama-3.3-70b-versatile, mixtral); 1 request per run.
+- **Antigravity**: Prefer fast (llama-3.1-8b-instant); 1 request per run.
+
+Same provider rate limits and cooldowns apply. No separate limits.
+
+---
+
 ## Rate Limit Enforcement
 
 ### Enforcement Mechanisms

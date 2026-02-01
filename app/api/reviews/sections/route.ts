@@ -94,7 +94,7 @@ async function handleSearch(query: string, language: string) {
     // Search movies
     const { data: movies } = await supabase
       .from('movies')
-      .select('id, title_en, title_te, slug, poster_url, release_year, director, hero')
+      .select('id, title_en, title_te, slug, poster_url, release_year, director, hero, heroes, heroines')
       .or(`title_en.ilike.%${query}%,title_te.ilike.%${query}%,director.ilike.%${query}%,hero.ilike.%${query}%`)
       .eq('language', language)
       .limit(10);

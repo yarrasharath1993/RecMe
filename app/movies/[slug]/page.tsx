@@ -137,6 +137,8 @@ async function getMovieData(slug: string) {
       director: movie.director,
       hero: movie.hero,
       heroine: movie.heroine,
+      heroes: movie.heroes,
+      heroines: movie.heroines,
       music_director: movie.music_director,
       producer: movie.producer,
       supporting_cast: movie.supporting_cast,

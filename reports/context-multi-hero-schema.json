@@ -1,0 +1,4 @@
+{
+  "validation_summary": "Schema extension goal: movies currently have single hero (string) and single heroine (string). Need to support multiple heroes and multiple heroines/leads. Example: Seethamma Vakitlo Sirimalle Chettu (2013) has Hero 1, Hero 2, Heroine 1, Heroine 2. Similar multi-starrers exist across the catalog.",
+  "governance_summary": "Existing docs: MULTI-HERO-SUPPORT-SUMMARY.md (phases: DB schema, API updates, testing), multi-cast-migration.sql, scripts migrate-to-multi-cast-schema.ts and audit-movie-schema-multicast.ts. Entity relations table (entity_relations) already has role_type hero/heroine. Keep backward compatibility: retain hero/heroine as deprecated; add heroes[] and heroines[] (TEXT[]). UI: movie page and profile API must read from heroes/heroines when present and fall back to hero/heroine."
+}

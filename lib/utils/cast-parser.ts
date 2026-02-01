@@ -20,6 +20,9 @@ export interface ParsedCastMember {
 export interface MovieCastData {
   hero?: string;
   heroine?: string;
+  /** Multi-hero/heroine arrays (preferred when present) */
+  heroes?: string[];
+  heroines?: string[];
   director?: string;
   music_director?: string;
   producer?: string;
@@ -81,28 +84,22 @@ export function parseCastMembers(movie: MovieCastData): ParsedCastMember[] {
     });
   }
 
-  // 2. Collect all heroes from multiple sources
+  // 2. Collect all heroes from multiple sources (prefer heroes[] when present)
   const heroes: { name: string; number: number }[] = [];
-  
-  // From hero field (comma-separated)
-  splitNames(movie.hero).forEach((name, idx) => {
-    heroes.push({ name, number: idx + 1 });
+  const heroNames = (movie.heroes?.length ? movie.heroes.filter(n => n && n !== 'N/A') : splitNames(movie.hero));
+  heroNames.forEach((name, idx) => {
+    heroes.push({ name: name.trim(), number: idx + 1 });
   });
-  
-  // From supporting_cast with type "hero2", "hero3", etc.
   if (movie.supporting_cast) {
     movie.supporting_cast
       .filter(c => c.name && c.type && /^hero\d*$/i.test(c.type))
       .forEach(c => {
         const num = extractTypeNumber(c.type!);
-        // Only add if this number slot isn't already filled
         if (!heroes.some(h => h.number === num)) {
           heroes.push({ name: c.name, number: num });
         }
       });
   }
-  
-  // Sort heroes by number and add to cast
   heroes.sort((a, b) => a.number - b.number);
   heroes.forEach((hero, idx) => {
     const label = heroes.length > 1 ? `Hero ${idx + 1}` : 'Hero';
@@ -114,15 +111,12 @@ export function parseCastMembers(movie: MovieCastData): ParsedCastMember[] {
     });
   });
 
-  // 3. Collect all heroines from multiple sources
+  // 3. Collect all heroines from multiple sources (prefer heroines[] when present)
   const heroines: { name: string; number: number }[] = [];
-  
-  // From heroine field (comma-separated)
-  splitNames(movie.heroine).forEach((name, idx) => {
-    heroines.push({ name, number: idx + 1 });
+  const heroineNames = (movie.heroines?.length ? movie.heroines.filter(n => n && n !== 'N/A') : splitNames(movie.heroine));
+  heroineNames.forEach((name, idx) => {
+    heroines.push({ name: name.trim(), number: idx + 1 });
   });
-  
-  // From supporting_cast with type "heroine2", "heroine3", etc.
   if (movie.supporting_cast) {
     movie.supporting_cast
       .filter(c => c.name && c.type && /^heroine\d*$/i.test(c.type))
@@ -133,8 +127,6 @@ export function parseCastMembers(movie: MovieCastData): ParsedCastMember[] {
         }
       });
   }
-  
-  // Sort heroines by number and add to cast
   heroines.sort((a, b) => a.number - b.number);
   heroines.forEach((heroine, idx) => {
     const label = heroines.length > 1 ? `Heroine ${idx + 1}` : 'Heroine';

@@ -62,6 +62,9 @@ export interface Movie {
   director?: string;
   hero?: string;
   heroine?: string;
+  /** Multi-hero/heroine arrays (preferred when present); backfilled from hero/heroine */
+  heroes?: string[];
+  heroines?: string[];
   music_director?: string;
   producer?: string;
   cinematographer?: string;

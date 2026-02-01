@@ -425,6 +425,68 @@ Centralized AI access with automatic fallback and key rotation
 
 ---
 
+### 11. Planner (planning agent)
+
+#### File
+`lib/ai/planner.ts`, `scripts/intel/planner.ts`
+
+#### Model
+- Primary: Groq (preferQuality: llama-3.3-70b-versatile, mixtral)
+- Fallback: OpenAI
+
+#### Purpose
+Generate structured plans from validation report, trend summary, or governance summary (Claude-like planning role).
+
+#### Frequency
+- On-demand (manual script execution: `npm run planner`)
+- Estimated: 1 request per run
+
+#### Cost Risk
+- **Level**: Low
+- **Reason**: Single request per run, manual execution
+- **Mitigation**: Rate limiting, optional audit log only
+
+#### Escalation Path
+1. Rate limit → Try next model
+2. All models fail → Return null
+
+#### Token Intent Label
+- **Label**: `analysis`
+- **Reason**: Planning from context
+
+---
+
+### 12. Antigravity (adversarial testing agent)
+
+#### File
+`lib/ai/tester.ts`, `scripts/intel/antigravity.ts`
+
+#### Model
+- Primary: Groq (preferFast: llama-3.1-8b-instant)
+- Fallback: OpenAI
+
+#### Purpose
+Adversarial review of plans or ClawDBot analysis: critiques, edge cases, suggested tests.
+
+#### Frequency
+- On-demand (manual script execution: `npm run antigravity`)
+- Estimated: 1 request per run
+
+#### Cost Risk
+- **Level**: Low
+- **Reason**: Single request per run, fast model
+- **Mitigation**: Rate limiting, optional audit log only
+
+#### Escalation Path
+1. Rate limit → Try next model
+2. All models fail → Return null
+
+#### Token Intent Label
+- **Label**: `validation`
+- **Reason**: Adversarial testing
+
+---
+
 ## Cost Escalation Risks
 
 ### High Risk Scenarios

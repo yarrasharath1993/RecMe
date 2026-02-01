@@ -188,33 +188,48 @@ function aggregateCollaborators(
     movies: Array<{ title: string; year: number; slug: string; rating?: number }>;
   }>();
 
-  for (const movie of movies) {
-    const name = movie[field] as string | null;
-    if (!name) continue;
+  const splitNames = (s: string | null | undefined): string[] => {
+    if (!s || s === 'N/A') return [];
+    return s.split(',').map(n => n.trim()).filter(Boolean);
+  };
 
-    const rating = movie.our_rating || movie.avg_rating;
-    const existing = collabMap.get(name);
-    
-    if (existing) {
-      existing.count++;
-      if (rating) existing.ratings.push(rating);
-      existing.movies.push({
-        title: movie.title_en,
-        year: movie.release_year,
-        slug: movie.slug,
-        rating,
-      });
+  for (const movie of movies) {
+    let names: string[];
+    if (field === 'hero') {
+      const arr = movie.heroes as string[] | null | undefined;
+      names = Array.isArray(arr) && arr.length > 0 ? arr.filter(n => n && n !== 'N/A') : splitNames(movie.hero as string);
+    } else if (field === 'heroine') {
+      const arr = movie.heroines as string[] | null | undefined;
+      names = Array.isArray(arr) && arr.length > 0 ? arr.filter(n => n && n !== 'N/A') : splitNames(movie.heroine as string);
     } else {
-      collabMap.set(name, {
-        count: 1,
-        ratings: rating ? [rating] : [],
-        movies: [{
+      const name = movie[field] as string | null;
+      names = name ? splitNames(name) : [];
+    }
+    const rating = movie.our_rating || movie.avg_rating;
+    for (const name of names) {
+      if (!name) continue;
+      const existing = collabMap.get(name);
+      if (existing) {
+        existing.count++;
+        if (rating) existing.ratings.push(rating);
+        existing.movies.push({
           title: movie.title_en,
           year: movie.release_year,
           slug: movie.slug,
           rating,
-        }],
-      });
+        });
+      } else {
+        collabMap.set(name, {
+          count: 1,
+          ratings: rating ? [rating] : [],
+          movies: [{
+            title: movie.title_en,
+            year: movie.release_year,
+            slug: movie.slug,
+            rating,
+          }],
+        });
+      }
     }
   }
 
@@ -495,7 +510,7 @@ export async function GET(
         id, title_en, title_te, slug, release_year, our_rating, avg_rating,
         poster_url, director, music_director, cinematographer, writer, editor, producer,
         is_blockbuster, is_classic, is_underrated, genres, era, tone,
-        hero, heroine, supporting_cast, crew, awards, language
+        hero, heroine, heroes, heroines, supporting_cast, crew, awards, language
       `)
       .eq('is_published', true)
       // NO language filter - show all languages (Telugu, Hindi, Tamil, etc.)
@@ -752,8 +767,16 @@ export async function GET(
         }
       }
       
-      const fields = [movie.hero, movie.heroine, movie.director, movie.music_director, movie.producer, movie.writer];
-      
+      const fields = [
+        movie.hero,
+        movie.heroine,
+        movie.director,
+        movie.music_director,
+        movie.producer,
+        movie.writer,
+        ...(Array.isArray(movie.heroes) ? movie.heroes : []),
+        ...(Array.isArray(movie.heroines) ? movie.heroines : []),
+      ];
       return fields.some(field => {
         if (!field) return false;
         
@@ -863,8 +886,12 @@ export async function GET(
       return false;
     };
     
-    const actorMovies = filteredMovies.filter(m => matchesPersonInField(m.hero));
-    const actressMovies = filteredMovies.filter(m => matchesPersonInField(m.heroine));
+    const actorMovies = filteredMovies.filter(m =>
+      matchesPersonInField(m.hero) || (Array.isArray(m.heroes) && m.heroes.some(h => matchesPersonInField(h)))
+    );
+    const actressMovies = filteredMovies.filter(m =>
+      matchesPersonInField(m.heroine) || (Array.isArray(m.heroines) && m.heroines.some(h => matchesPersonInField(h)))
+    );
     const directorMovies = filteredMovies.filter(m => matchesPersonInField(m.director));
     const producerMovies = filteredMovies.filter(m => matchesPersonInField(m.producer));
     const musicDirectorMovies = filteredMovies.filter(m => matchesPersonInField(m.music_director));
