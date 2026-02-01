@@ -1,246 +1,209 @@
-import { createClient } from '@supabase/supabase-js';
+#!/usr/bin/env npx tsx
+/**
+ * Apply manual review decisions to filmography analysis
+ */
+
 import * as fs from 'fs';
 import * as path from 'path';
-import chalk from 'chalk';
-import { config } from 'dotenv';
-import { resolve } from 'path';
 
-config({ path: resolve(process.cwd(), '.env.local') });
+// Missing Movies Actions
+const MISSING_MOVIES_ACTIONS: Record<string, {
+  role: 'hero' | 'supporting' | 'cameo' | 'delete';
+  notes?: string;
+  yearCorrection?: number;
+}> = {
+  // Items 1-6: Hero
+  'Punnami Naagu': { role: 'hero' },
+  'Mondi Ghatam': { role: 'hero' },
+  'Mantri Gari Viyyankudu': { role: 'hero' },
+  'Intiguttu': { role: 'hero' },
+  'Puli': { role: 'hero' },
+  'Adavi Donga': { role: 'hero' },
+  
+  // Items 7-14: Supporting
+  'Mana Voori Pandavulu': { role: 'supporting' },
+  'Agni Sanskaram': { role: 'supporting' },
+  'Prema Tarangalu': { role: 'supporting' },
+  'Thodu Dongalu': { role: 'supporting' },
+  'Ooriki Ichina Maata': { role: 'supporting' },
+  'Paravathi Parameshwarulu': { role: 'supporting' },
+  'Shivudu Shivudu Shivudu': { role: 'supporting' },
+  'Allullostunnaru': { role: 'supporting' },
+  
+  // Items 15-22: RECLASSIFY as Hero (duplicates)
+  'Kodama Simham': { role: 'hero', notes: 'Reclassify as Hero' },
+  'Swayam Krushi': { role: 'hero', notes: 'Duplicate of Swayamkrushi - merge' },
+  'Yudda Bhoomi': { role: 'hero', notes: 'Reclassify as Hero' },
+  'Lankeshwarudu': { role: 'hero', notes: 'Duplicate of Lankeswarudu - merge' },
+  'Pratibandh': { role: 'hero', notes: 'Reclassify as Hero' },
+  'Mutha Mestri': { role: 'hero', notes: 'Duplicate of Muta Mestri - merge' },
+  'The Gentleman': { role: 'hero', notes: 'Reclassify as Hero' },
+  'S. P. Parasuram': { role: 'hero', notes: 'Duplicate of S.P. Parasuram - merge' },
+  
+  // Special cases
+  'తెలుగోడు': { role: 'delete', notes: 'Invalid entry - DELETE' },
+  'Hands Up!': { role: 'cameo', notes: 'Special appearance' },
+  'Andarivaadu': { role: 'hero', notes: 'Hero (Dual role)' },
+  'State Rowdy': { role: 'hero', yearCorrection: 1989, notes: 'Change year to 1989' },
+  'Magadheera': { role: 'cameo', notes: 'Special appearance' }
+};
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-);
+// Wrong Attributions Actions
+const WRONG_ATTRIBUTIONS_ACTIONS: Record<string, {
+  role: 'hero' | 'supporting' | 'co-lead' | 'antagonist' | 'cameo';
+  yearCorrection?: number;
+  notes?: string;
+  language?: string;
+}> = {
+  'Patnam Vachina Pativrathalu': { 
+    role: 'hero', 
+    yearCorrection: 1982,
+    notes: 'Primary male lead (Gopi) - often mistaken for supporting'
+  },
+  'Oorukichina Maata': { role: 'co-lead', notes: 'Co-Lead/Supporting' },
+  'Parvathi Parameswarulu': { role: 'supporting' },
+  'Rakta Bandham': { role: 'supporting' },
+  'I Love You': { role: 'supporting' },
+  'Ranuva Veeran': { 
+    role: 'antagonist', 
+    language: 'Tamil',
+    notes: 'Antagonist/Supporting (Tamil film)'
+  },
+  'Idi Katha Kaadu': { 
+    role: 'antagonist', 
+    notes: 'Antagonist (Role: Subanakhar)'
+  },
+  'Priya': { 
+    role: 'supporting', 
+    language: 'Tamil',
+    notes: 'Supporting (Tamil film)'
+  },
+  'Oorukichchina Maata': { 
+    role: 'co-lead', 
+    notes: 'Merge with Oorukichina Maata (spelling variation)'
+  },
+  'Todu Dongalu': { role: 'co-lead', notes: 'Co-Lead (alongside Krishna)' },
+  'Allullostunnaru': { role: 'co-lead' },
+  'Aadavaallu Meeku Joharlu': { role: 'cameo', notes: 'Reclassify to Cameo' },
+  'Prema Natakam': { role: 'cameo', notes: 'Reclassify to Cameo' },
+  'Family': { role: 'cameo', notes: 'Cameo (Short Film)' },
+  'Tayaramma Bangarayya': { role: 'cameo', notes: 'Cameo/Guest Appearance' },
+  'Parvathi Parameshwarulu': { 
+    role: 'supporting', 
+    notes: 'Merge with Parvathi Parameswarulu (spelling variation)'
+  }
+};
 
-// Manual decisions from user review
-const APPROVED_MOVIE_NUMBERS = [2, 3, 6, 9, 11, 12, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
-const REJECTED_MOVIE_NUMBERS = [1, 4, 5, 7, 8, 13, 15];
-
-interface Attribution {
-  movieNumber: number;
-  movieId: string;
-  actor: string;
-  wikiTitle: string;
-  dbTitle: string;
-  wikiYear: number;
-  dbYear: number;
-  decision: string;
+function normalizeTitle(title: string): string {
+  return title.toLowerCase().trim();
 }
 
-function parseManualReviewCsv(csvPath: string): Attribution[] {
-  const attributions: Attribution[] = [];
-  const content = fs.readFileSync(csvPath, 'utf-8');
-  const lines = content.split('\n').slice(1); // Skip header
+function main() {
+  const analysisPath = path.join(__dirname, '../reports/chiranjeevi-filmography-analysis.json');
+  const analysisContent = fs.readFileSync(analysisPath, 'utf-8');
+  const analysisData = JSON.parse(analysisContent);
   
-  for (const line of lines) {
-    if (!line.trim()) continue;
-    
-    const parts = line.split(',');
-    const movieNumber = parseInt(parts[0]);
-    
-    // Only process approved movies
-    if (!APPROVED_MOVIE_NUMBERS.includes(movieNumber)) continue;
-    
-    // Get actor (with quotes removed)
-    const actor = parts[1].replace(/"/g, '');
-    const wikiTitle = parts[2].replace(/"/g, '');
-    const dbTitle = parts[3].replace(/"/g, '');
-    const wikiYear = parseInt(parts[4]) || 0;
-    const dbYear = parseInt(parts[5]) || 0;
-    
-    // Need to get movie ID from MISMATCH-DECISIONS.csv
-    attributions.push({
-      movieNumber,
-      movieId: '', // Will fill from other CSV
-      actor,
-      wikiTitle,
-      dbTitle,
-      wikiYear,
-      dbYear,
-      decision: 'APPROVE'
+  const filmographyData = analysisData.outputs[0].data;
+  
+  console.log('Applying manual review decisions...');
+  
+  // Update missing movies
+  let updatedMissing = 0;
+  let deletedMissing = 0;
+  filmographyData.missingMovies = filmographyData.missingMovies
+    .map((movie: any) => {
+      const action = MISSING_MOVIES_ACTIONS[movie.title_en];
+      if (!action) return movie;
+      
+      if (action.role === 'delete') {
+        deletedMissing++;
+        return null; // Mark for deletion
+      }
+      
+      updatedMissing++;
+      const updated = {
+        ...movie,
+        role: action.role,
+        recommended_action: action.role === 'hero' ? 'add' : action.role === 'cameo' ? 'add_cameo' : 'add_supporting',
+        priority: action.role === 'hero' ? 'high' : 'medium',
+        notes: action.notes
+      };
+      
+      if (action.yearCorrection) {
+        updated.release_year = action.yearCorrection;
+        updated.notes = `${updated.notes || ''} Year corrected to ${action.yearCorrection}`.trim();
+      }
+      
+      return updated;
+    })
+    .filter((movie: any) => movie !== null); // Remove deleted entries
+  
+  console.log(`Updated ${updatedMissing} missing movies, deleted ${deletedMissing}`);
+  
+  // Update wrong attributions
+  let updatedWrong = 0;
+  filmographyData.wrongAttributions = filmographyData.wrongAttributions
+    .map((attr: any) => {
+      const action = WRONG_ATTRIBUTIONS_ACTIONS[attr.title_en];
+      if (!action) return attr;
+      
+      // Skip reattribution entries (already handled)
+      if (attr.issue === 'wrong_attribution' && attr.recommended_action === 'reattribute') {
+        return attr;
+      }
+      
+      updatedWrong++;
+      const updated = {
+        ...attr,
+        issue: 'wrong_role',
+        recommended_action: 'reclassify',
+        priority: action.role === 'hero' ? 'high' : 'medium',
+        correctRole: action.role,
+        notes: action.notes,
+        language: action.language || attr.language
+      };
+      
+      if (action.yearCorrection) {
+        updated.release_year = action.yearCorrection;
+        updated.notes = `${updated.notes || ''} Year corrected to ${action.yearCorrection}`.trim();
+      }
+      
+      // Update fix steps
+      updated.fix_steps = [
+        `Reclassify ${attr.title_en} (${updated.release_year}) to ${action.role}`,
+        `Update role field to: ${action.role}`,
+        action.language ? `Update language to: ${action.language}` : null,
+        action.notes ? `Note: ${action.notes}` : null
+      ].filter(step => step !== null);
+      
+      return updated;
     });
-  }
   
-  return attributions;
-}
-
-function enrichWithMovieIds(attributions: Attribution[]): Attribution[] {
-  const mismatchContent = fs.readFileSync('MISMATCH-DECISIONS.csv', 'utf-8');
-  const lines = mismatchContent.split('\n');
+  console.log(`Updated ${updatedWrong} wrong attributions`);
   
-  const enriched: Attribution[] = [];
+  // Update statistics
+  filmographyData.statistics.missingCount = filmographyData.missingMovies.length;
+  filmographyData.statistics.wrongAttributionCount = filmographyData.wrongAttributions.length;
   
-  for (const attr of attributions) {
-    // Find matching line in mismatch decisions
-    for (const line of lines) {
-      if (!line.trim()) continue;
-      
-      const parts = line.split('","').map(p => p.replace(/^"|"$/g, ''));
-      const actor = parts[1];
-      const wikiTitle = parts[2];
-      const dbTitle = parts[3];
-      const wikiYear = parts[4];
-      const dbYear = parts[5];
-      
-      if (actor === attr.actor && 
-          wikiTitle === attr.wikiTitle && 
-          dbTitle === attr.dbTitle &&
-          wikiYear === attr.wikiYear.toString() &&
-          dbYear === attr.dbYear.toString()) {
-        
-        enriched.push({
-          ...attr,
-          movieId: parts[0]
-        });
-        break;
-      }
-    }
-  }
+  // Update summary
+  const highPriorityMissing = filmographyData.missingMovies.filter((m: any) => m.priority === 'high').length;
+  const highPriorityWrong = filmographyData.wrongAttributions.filter((w: any) => w.priority === 'high').length;
   
-  return enriched;
-}
-
-async function applyAttribution(attr: Attribution, dryRun: boolean): Promise<boolean> {
-  // Fetch current movie data
-  const { data: movie, error: fetchError } = await supabase
-    .from('movies')
-    .select('id, title_en, cast_members, supporting_cast')
-    .eq('id', attr.movieId)
-    .single();
+  filmographyData.summary = `Filmography analysis for ${filmographyData.statistics.totalDiscovered} discovered films. ${filmographyData.statistics.totalInDatabase} films in database (${Math.round((filmographyData.statistics.totalInDatabase / filmographyData.statistics.totalDiscovered) * 100)}% coverage). ${filmographyData.statistics.missingCount} missing films identified (${highPriorityMissing} high priority). ${filmographyData.statistics.wrongAttributionCount} wrong attributions detected (${highPriorityWrong} high priority). Manual review completed.`;
   
-  if (!movie || fetchError) {
-    console.log(chalk.red(`  ✗ Movie not found: ${attr.dbTitle} (ID: ${attr.movieId})`));
-    if (fetchError) console.log(chalk.red(`     Error: ${fetchError.message}`));
-    return false;
-  }
+  // Update timestamp
+  filmographyData.timestamp = new Date().toISOString();
   
-  // Check if already attributed
-  const actorLower = attr.actor.toLowerCase();
-  const supportingCast = (movie.supporting_cast as any) || [];
-  const castMembers = movie.cast_members || [];
+  // Write updated JSON
+  analysisData.outputs[0].data = filmographyData;
+  fs.writeFileSync(analysisPath, JSON.stringify(analysisData, null, 2), 'utf-8');
   
-  const alreadyInSupporting = Array.isArray(supportingCast) && supportingCast.some((entry: any) => 
-    entry.name && entry.name.toLowerCase().includes(actorLower)
-  );
-  
-  const alreadyInCast = Array.isArray(castMembers) && castMembers.some((entry: any) => {
-    if (typeof entry === 'string') return entry.toLowerCase().includes(actorLower);
-    if (entry && entry.name) return entry.name.toLowerCase().includes(actorLower);
-    return false;
-  });
-  
-  if (alreadyInSupporting || alreadyInCast) {
-    console.log(chalk.gray(`  ○ Already attributed: ${movie.title_en}`));
-    return true;
-  }
-  
-  // Add to supporting_cast
-  const nextOrder = Array.isArray(supportingCast) ? supportingCast.length + 1 : 1;
-  const newEntry = {
-    name: attr.actor,
-    role: 'Actor',
-    order: nextOrder,
-    type: 'supporting'
-  };
-  
-  const newValue = Array.isArray(supportingCast) 
-    ? [...supportingCast, newEntry]
-    : [newEntry];
-  
-  if (dryRun) {
-    console.log(chalk.yellow(`  → Would add "${attr.actor}" to: ${movie.title_en} (Wiki: ${attr.wikiYear}, DB: ${attr.dbYear})`));
-    return true;
-  }
-  
-  // Apply update
-  const { error } = await supabase
-    .from('movies')
-    .update({ supporting_cast: newValue })
-    .eq('id', attr.movieId);
-  
-  if (error) {
-    console.log(chalk.red(`  ✗ Failed: ${movie.title_en}`));
-    console.log(chalk.red(`    Error: ${error.message}`));
-    return false;
-  }
-  
-  console.log(chalk.green(`  ✓ Updated: ${movie.title_en} (added ${attr.actor})`));
-  return true;
-}
-
-async function main() {
-  const args = process.argv.slice(2);
-  const dryRun = !args.includes('--execute');
-  
-  if (dryRun) {
-    console.log(chalk.yellow('\n⚠️  DRY RUN MODE - No changes will be made'));
-    console.log(chalk.gray('Use --execute to apply changes\n'));
-  } else {
-    console.log(chalk.red('\n⚠️  EXECUTE MODE - Changes will be applied!\n'));
-  }
-  
-  console.log(chalk.bold('═══════════════════════════════════════════════════════════════'));
-  console.log(chalk.bold('  APPLY MANUAL REVIEW DECISIONS'));
-  console.log(chalk.bold('═══════════════════════════════════════════════════════════════\n'));
-  
-  console.log(chalk.cyan('📖 Reading manual review decisions...\n'));
-  
-  const csvPath = path.join(process.cwd(), 'MANUAL-REVIEW-SIMPLE.csv');
-  let attributions = parseManualReviewCsv(csvPath);
-  
-  console.log(chalk.green(`✓ Found ${attributions.length} approved movies\n`));
-  console.log(chalk.red(`✗ Rejected ${REJECTED_MOVIE_NUMBERS.length} movies (different films)\n`));
-  
-  // Enrich with movie IDs
-  attributions = enrichWithMovieIds(attributions);
-  
-  console.log(chalk.cyan(`📊 Matched ${attributions.length} movies with database IDs\n`));
-  
-  // Group by actor
-  const byActor = attributions.reduce((acc, attr) => {
-    if (!acc[attr.actor]) acc[attr.actor] = [];
-    acc[attr.actor].push(attr);
-    return acc;
-  }, {} as Record<string, Attribution[]>);
-  
-  let totalFixed = 0;
-  let totalFailed = 0;
-  
-  for (const [actor, attrs] of Object.entries(byActor)) {
-    console.log(chalk.blue(`\n[${actor}] - ${attrs.length} movies`));
-    
-    for (const attr of attrs) {
-      const success = await applyAttribution(attr, dryRun);
-      
-      if (success) {
-        totalFixed++;
-      } else {
-        totalFailed++;
-      }
-    }
-  }
-  
-  console.log(chalk.bold('\n═══════════════════════════════════════════════════════════════'));
-  console.log(chalk.bold('  SUMMARY'));
-  console.log(chalk.bold('═══════════════════════════════════════════════════════════════\n'));
-  
-  console.log(chalk.green(`✓ Approved:             ${APPROVED_MOVIE_NUMBERS.length} movies`));
-  console.log(chalk.red(`✗ Rejected:             ${REJECTED_MOVIE_NUMBERS.length} movies (correctly identified as different films)`));
-  
-  if (dryRun) {
-    console.log(chalk.yellow(`\nWould fix:              ${totalFixed} attributions`));
-  } else {
-    console.log(chalk.green(`\n✓ Fixed:                ${totalFixed} attributions`));
-    console.log(chalk.red(`✗ Failed:               ${totalFailed} attributions`));
-  }
-  
-  console.log(chalk.bold('\n═══════════════════════════════════════════════════════════════\n'));
-  
-  if (!dryRun && totalFixed > 0) {
-    console.log(chalk.green('✅ Phase 2B Complete!'));
-    console.log(chalk.cyan(`\nNew Total: ${734 + totalFixed} movies attributed`));
-    console.log(chalk.cyan('\nNext: Focus on 474 truly missing movies\n'));
-  }
+  console.log(`\n=== Manual Review Decisions Applied ===`);
+  console.log(`Missing Movies: ${filmographyData.missingMovies.length} (${updatedMissing} updated, ${deletedMissing} deleted)`);
+  console.log(`Wrong Attributions: ${filmographyData.wrongAttributions.length} (${updatedWrong} updated)`);
+  console.log(`High Priority Missing: ${highPriorityMissing}`);
+  console.log(`High Priority Wrong: ${highPriorityWrong}`);
+  console.log(`\nUpdated file: ${analysisPath}`);
 }
 
 main();

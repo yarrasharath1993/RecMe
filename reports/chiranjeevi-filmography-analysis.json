@@ -1,0 +1,799 @@
+{
+  "outputs": [
+    {
+      "type": "filmography_analysis",
+      "data": {
+        "actor": "Chiranjeevi",
+        "timestamp": "2026-01-28T21:14:21.904Z",
+        "missingMovies": [
+          {
+            "film_id": "muta mestri-1993",
+            "title_en": "Muta Mestri",
+            "release_year": 1993,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikipedia"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "review",
+            "priority": "low",
+            "explanation": "Muta Mestri (1993) is missing from database. Role: hero, Language: Telugu. Found in: wikipedia. Confidence: 50%."
+          },
+          {
+            "film_id": "mana voori pandavulu-1978",
+            "title_en": "Mana Voori Pandavulu",
+            "release_year": 1978,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Mana Voori Pandavulu (1978) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "agni sanskaram-1980",
+            "title_en": "Agni Sanskaram",
+            "release_year": 1980,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Agni Sanskaram (1980) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "prema tarangalu-1980",
+            "title_en": "Prema Tarangalu",
+            "release_year": 1980,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Prema Tarangalu (1980) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "punnami naagu-1980",
+            "title_en": "Punnami Naagu",
+            "release_year": 1980,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Punnami Naagu (1980) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "thodu dongalu-1981",
+            "title_en": "Thodu Dongalu",
+            "release_year": 1981,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Thodu Dongalu (1981) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "ooriki ichina maata-1981",
+            "title_en": "Ooriki Ichina Maata",
+            "release_year": 1981,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Ooriki Ichina Maata (1981) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "paravathi parameshwarulu-1981",
+            "title_en": "Paravathi Parameshwarulu",
+            "release_year": 1981,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Paravathi Parameshwarulu (1981) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "mondi ghatam-1982",
+            "title_en": "Mondi Ghatam",
+            "release_year": 1982,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Mondi Ghatam (1982) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "shivudu shivudu shivudu-1983",
+            "title_en": "Shivudu Shivudu Shivudu",
+            "release_year": 1983,
+            "role": "supporting",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_supporting",
+            "priority": "medium",
+            "explanation": "Shivudu Shivudu Shivudu (1983) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "mantri gari viyyankudu-1983",
+            "title_en": "Mantri Gari Viyyankudu",
+            "release_year": 1983,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Mantri Gari Viyyankudu (1983) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "intiguttu-1984",
+            "title_en": "Intiguttu",
+            "release_year": 1984,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Intiguttu (1984) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "puli-1985",
+            "title_en": "Puli",
+            "release_year": 1985,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Puli (1985) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "adavi donga-1985",
+            "title_en": "Adavi Donga",
+            "release_year": 1985,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Adavi Donga (1985) is missing from database. Role: hero, Language: Telugu. Found in: wikidata. Confidence: 50%."
+          },
+          {
+            "film_id": "kodama simham-1986",
+            "title_en": "Kodama Simham",
+            "release_year": 1986,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Kodama Simham (1986) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Reclassify as Hero"
+          },
+          {
+            "film_id": "swayam krushi-1987",
+            "title_en": "Swayam Krushi",
+            "release_year": 1987,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Swayam Krushi (1987) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Duplicate of Swayamkrushi - merge"
+          },
+          {
+            "film_id": "yudda bhoomi-1988",
+            "title_en": "Yudda Bhoomi",
+            "release_year": 1988,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Yudda Bhoomi (1988) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Reclassify as Hero"
+          },
+          {
+            "film_id": "lankeshwarudu-1989",
+            "title_en": "Lankeshwarudu",
+            "release_year": 1989,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Lankeshwarudu (1989) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Duplicate of Lankeswarudu - merge"
+          },
+          {
+            "film_id": "pratibandh-1990",
+            "title_en": "Pratibandh",
+            "release_year": 1990,
+            "role": "hero",
+            "language": "Hindi",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Pratibandh (1990) is missing from database. Role: supporting, Language: Hindi. Found in: wikidata. Confidence: 50%.",
+            "notes": "Reclassify as Hero"
+          },
+          {
+            "film_id": "mutha mestri-1993",
+            "title_en": "Mutha Mestri",
+            "release_year": 1993,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Mutha Mestri (1993) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Duplicate of Muta Mestri - merge"
+          },
+          {
+            "film_id": "the gentleman-1994",
+            "title_en": "The Gentleman",
+            "release_year": 1994,
+            "role": "hero",
+            "language": "Hindi",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "The Gentleman (1994) is missing from database. Role: supporting, Language: Hindi. Found in: wikidata. Confidence: 50%.",
+            "notes": "Reclassify as Hero"
+          },
+          {
+            "film_id": "s p parasuram-1994",
+            "title_en": "S. P. Parasuram",
+            "release_year": 1994,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "S. P. Parasuram (1994) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Duplicate of S.P. Parasuram - merge"
+          },
+          {
+            "film_id": "hands up-2000",
+            "title_en": "Hands Up!",
+            "release_year": 2000,
+            "role": "cameo",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_cameo",
+            "priority": "medium",
+            "explanation": "Hands Up! (2000) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Special appearance"
+          },
+          {
+            "film_id": "andarivaadu-2005",
+            "title_en": "Andarivaadu",
+            "release_year": 2005,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "Andarivaadu (2005) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Hero (Dual role)"
+          },
+          {
+            "film_id": "state rowdy-2007",
+            "title_en": "State Rowdy",
+            "release_year": 1989,
+            "role": "hero",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add",
+            "priority": "high",
+            "explanation": "State Rowdy (2007) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Change year to 1989 Year corrected to 1989"
+          },
+          {
+            "film_id": "magadheera-2009",
+            "title_en": "Magadheera",
+            "release_year": 2009,
+            "role": "cameo",
+            "language": "Telugu",
+            "confidence": 0.5,
+            "sources": [
+              "wikidata"
+            ],
+            "reason": "not_in_db",
+            "recommended_action": "add_cameo",
+            "priority": "medium",
+            "explanation": "Magadheera (2009) is missing from database. Role: supporting, Language: Telugu. Found in: wikidata. Confidence: 50%.",
+            "notes": "Special appearance"
+          }
+        ],
+        "wrongAttributions": [
+          {
+            "movie_id": "5973ce9c-b7e7-4fc0-a43f-ab09adfdd15c",
+            "title_en": "Patnam Vachina Pativrathalu",
+            "release_year": 1982,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "high",
+            "explanation": "Patnam Vachina Pativrathalu (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Patnam Vachina Pativrathalu (1982) to hero",
+              "Update role field to: hero",
+              "Note: Primary male lead (Gopi) - often mistaken for supporting"
+            ],
+            "correctRole": "hero",
+            "notes": "Primary male lead (Gopi) - often mistaken for supporting Year corrected to 1982"
+          },
+          {
+            "movie_id": "bad23a45-b24e-4161-a67f-d98d03feb151",
+            "title_en": "Oorukichina Maata",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Oorukichina Maata (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Oorukichina Maata (1981) to co-lead",
+              "Update role field to: co-lead",
+              "Note: Co-Lead/Supporting"
+            ],
+            "correctRole": "co-lead",
+            "notes": "Co-Lead/Supporting"
+          },
+          {
+            "movie_id": "38b39aa5-8be6-4e49-b527-79966a1fec8a",
+            "title_en": "Parvathi Parameswarulu",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Parvathi Parameswarulu (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Parvathi Parameswarulu (1981) to supporting",
+              "Update role field to: supporting"
+            ],
+            "correctRole": "supporting"
+          },
+          {
+            "movie_id": "faa9448d-9e59-4838-adf9-83721c48b5a1",
+            "title_en": "Rakta Bandham",
+            "release_year": 1980,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Rakta Bandham (1980) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Rakta Bandham (1980) to supporting",
+              "Update role field to: supporting"
+            ],
+            "correctRole": "supporting"
+          },
+          {
+            "movie_id": "1f9e8e7e-7b84-4697-bfa3-62ba27865e41",
+            "title_en": "I Love You",
+            "release_year": 1979,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "I Love You (1979) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify I Love You (1979) to supporting",
+              "Update role field to: supporting"
+            ],
+            "correctRole": "supporting"
+          },
+          {
+            "movie_id": "09b41687-6bbe-41b0-8517-0ca359c82514",
+            "title_en": "Priya",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Priya (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Priya (1981) to supporting",
+              "Update role field to: supporting",
+              "Update language to: Tamil",
+              "Note: Supporting (Tamil film)"
+            ],
+            "correctRole": "supporting",
+            "notes": "Supporting (Tamil film)",
+            "language": "Tamil"
+          },
+          {
+            "movie_id": "a26197b6-a811-4fb5-83d6-63cb57561d07",
+            "title_en": "Oorukichchina Maata",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Oorukichchina Maata (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Oorukichchina Maata (1981) to co-lead",
+              "Update role field to: co-lead",
+              "Note: Merge with Oorukichina Maata (spelling variation)"
+            ],
+            "correctRole": "co-lead",
+            "notes": "Merge with Oorukichina Maata (spelling variation)"
+          },
+          {
+            "movie_id": "6b4c4ddb-8a69-4a0c-9ed6-96156638df75",
+            "title_en": "Todu Dongalu",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Todu Dongalu (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Todu Dongalu (1981) to co-lead",
+              "Update role field to: co-lead",
+              "Note: Co-Lead (alongside Krishna)"
+            ],
+            "correctRole": "co-lead",
+            "notes": "Co-Lead (alongside Krishna)"
+          },
+          {
+            "movie_id": "29c1e06c-d275-4e83-9ec3-8e6ce429423e",
+            "title_en": "Allullostunnaru",
+            "release_year": 1984,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Allullostunnaru (1984) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Allullostunnaru (1984) to co-lead",
+              "Update role field to: co-lead"
+            ],
+            "correctRole": "co-lead"
+          },
+          {
+            "movie_id": "2947c764-97bf-4467-b456-a776f342fb4a",
+            "title_en": "Aadavaallu Meeku Joharlu",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Aadavaallu Meeku Joharlu (1981) is a cameo/special appearance. Verify attribution.",
+            "fix_steps": [
+              "Reclassify Aadavaallu Meeku Joharlu (1981) to cameo",
+              "Update role field to: cameo",
+              "Note: Reclassify to Cameo"
+            ],
+            "correctRole": "cameo",
+            "notes": "Reclassify to Cameo"
+          },
+          {
+            "movie_id": "0da16b75-fecb-4550-a817-4ad88c3d3ada",
+            "title_en": "Prema Natakam",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Prema Natakam (1981) is a cameo/special appearance. Verify attribution.",
+            "fix_steps": [
+              "Reclassify Prema Natakam (1981) to cameo",
+              "Update role field to: cameo",
+              "Note: Reclassify to Cameo"
+            ],
+            "correctRole": "cameo",
+            "notes": "Reclassify to Cameo"
+          },
+          {
+            "movie_id": "f4ba78ce-1601-4a4f-b1d6-4140c6bd99b4",
+            "title_en": "Family",
+            "release_year": 2020,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Family (2020) is a cameo/special appearance. Verify attribution.",
+            "fix_steps": [
+              "Reclassify Family (2020) to cameo",
+              "Update role field to: cameo",
+              "Note: Cameo (Short Film)"
+            ],
+            "correctRole": "cameo",
+            "notes": "Cameo (Short Film)"
+          },
+          {
+            "movie_id": "85ab0d14-5d4c-4765-b96f-78a8e07ac658",
+            "title_en": "Tayaramma Bangarayya",
+            "release_year": 1979,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Tayaramma Bangarayya (1979) is a cameo/special appearance. Verify attribution.",
+            "fix_steps": [
+              "Reclassify Tayaramma Bangarayya (1979) to cameo",
+              "Update role field to: cameo",
+              "Note: Cameo/Guest Appearance"
+            ],
+            "correctRole": "cameo",
+            "notes": "Cameo/Guest Appearance"
+          },
+          {
+            "movie_id": "74481881-3ea9-4194-a3aa-2a26182e4ca0",
+            "title_en": "Ranuva Veeran",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Ranuva Veeran (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Ranuva Veeran (1981) to antagonist",
+              "Update role field to: antagonist",
+              "Update language to: Tamil",
+              "Note: Antagonist/Supporting (Tamil film)"
+            ],
+            "correctRole": "antagonist",
+            "notes": "Antagonist/Supporting (Tamil film)",
+            "language": "Tamil"
+          },
+          {
+            "movie_id": "0d030ff9-f660-4262-878b-34541d411b0a",
+            "title_en": "Idi Katha Kaadu",
+            "release_year": 1979,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Idi Katha Kaadu (1979) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Idi Katha Kaadu (1979) to antagonist",
+              "Update role field to: antagonist",
+              "Note: Antagonist (Role: Subanakhar)"
+            ],
+            "correctRole": "antagonist",
+            "notes": "Antagonist (Role: Subanakhar)"
+          },
+          {
+            "movie_id": "06506eed-73d6-43dd-af5e-66030ac47b65",
+            "title_en": "Parvathi Parameshwarulu",
+            "release_year": 1981,
+            "issue": "wrong_role",
+            "confidence": 0.7,
+            "recommended_action": "reclassify",
+            "priority": "medium",
+            "explanation": "Parvathi Parameshwarulu (1981) is in database but not found in any discovery sources. This might indicate incorrect attribution.",
+            "fix_steps": [
+              "Reclassify Parvathi Parameshwarulu (1981) to supporting",
+              "Update role field to: supporting",
+              "Note: Merge with Parvathi Parameswarulu (spelling variation)"
+            ],
+            "correctRole": "supporting",
+            "notes": "Merge with Parvathi Parameswarulu (spelling variation)"
+          },
+          {
+            "movie_id": "1e238a2f-0a89-4f4d-ad21-2e996c6de275",
+            "title_en": "Rojulu Marayi",
+            "release_year": 1984,
+            "issue": "wrong_attribution",
+            "confidence": 0.9,
+            "recommended_action": "reattribute",
+            "priority": "high",
+            "explanation": "Rojulu Marayi (1984) is incorrectly attributed to Chiranjeevi. Family drama. Not a Chiranjeevi film. IMDB confirms his absence. Correct actors: Murali Mohan, Kavitha.",
+            "fix_steps": [
+              "Remove Chiranjeevi from hero/cast fields for Rojulu Marayi (1984)",
+              "Reattribute to correct actors: Murali Mohan, Kavitha",
+              "Update movie attribution in appropriate fields (hero, supporting_cast, etc.)",
+              "Verify attribution matches actual cast"
+            ],
+            "correctActors": "Murali Mohan, Kavitha",
+            "notes": "Family drama. Not a Chiranjeevi film. IMDB confirms his absence."
+          },
+          {
+            "movie_id": "b29ee1b0-1588-47ae-a0b5-4155e772ffef",
+            "title_en": "Chalaki Chellamma",
+            "release_year": 1982,
+            "issue": "wrong_attribution",
+            "confidence": 0.9,
+            "recommended_action": "reattribute",
+            "priority": "high",
+            "explanation": "Chalaki Chellamma (1982) is incorrectly attributed to Chiranjeevi. Chiranjeevi does not appear in this cast. Correct actors: Karthik, Kavitha.",
+            "fix_steps": [
+              "Remove Chiranjeevi from hero/cast fields for Chalaki Chellamma (1982)",
+              "Reattribute to correct actors: Karthik, Kavitha",
+              "Update movie attribution in appropriate fields (hero, supporting_cast, etc.)",
+              "Verify attribution matches actual cast"
+            ],
+            "correctActors": "Karthik, Kavitha",
+            "notes": "Chiranjeevi does not appear in this cast."
+          },
+          {
+            "movie_id": "6e8cd683-3c1c-4c2f-8736-a53c35e9e2de",
+            "title_en": "Rudra Tandava",
+            "release_year": 2015,
+            "issue": "wrong_attribution",
+            "confidence": 0.9,
+            "recommended_action": "reattribute",
+            "priority": "high",
+            "explanation": "Rudra Tandava (2015) is incorrectly attributed to Chiranjeevi. Kannada action film. Chiranjeevi has no role or cameo. Correct actors: Kishore, Radhika Kumaraswamy.",
+            "fix_steps": [
+              "Remove Chiranjeevi from hero/cast fields for Rudra Tandava (2015)",
+              "Reattribute to correct actors: Kishore, Radhika Kumaraswamy",
+              "Update movie attribution in appropriate fields (hero, supporting_cast, etc.)",
+              "Verify attribution matches actual cast"
+            ],
+            "correctActors": "Kishore, Radhika Kumaraswamy",
+            "notes": "Kannada action film. Chiranjeevi has no role or cameo."
+          },
+          {
+            "movie_id": "612c3546-294d-4b95-94f9-64fec0f04238",
+            "title_en": "Okkadunnadu",
+            "release_year": 2007,
+            "issue": "wrong_attribution",
+            "confidence": 0.9,
+            "recommended_action": "reattribute",
+            "priority": "high",
+            "explanation": "Okkadunnadu (2007) is incorrectly attributed to Chiranjeevi. Directed by Chandra Sekhar Yeleti. Chiranjeevi is not in the cast. Correct actors: Gopichand, Mahesh Manjrekar.",
+            "fix_steps": [
+              "Remove Chiranjeevi from hero/cast fields for Okkadunnadu (2007)",
+              "Reattribute to correct actors: Gopichand, Mahesh Manjrekar",
+              "Update movie attribution in appropriate fields (hero, supporting_cast, etc.)",
+              "Verify attribution matches actual cast"
+            ],
+            "correctActors": "Gopichand, Mahesh Manjrekar",
+            "notes": "Directed by Chandra Sekhar Yeleti. Chiranjeevi is not in the cast."
+          },
+          {
+            "movie_id": "110d9fdb-568d-4f26-aeff-60174356eb0f",
+            "title_en": "Aatagara",
+            "release_year": 2015,
+            "issue": "wrong_attribution",
+            "confidence": 0.9,
+            "recommended_action": "reattribute",
+            "priority": "high",
+            "explanation": "Aatagara (2015) is incorrectly attributed to Chiranjeevi. Kannada mystery thriller starring Chiranjeevi Sarja (the late Kannada actor). Database confused the \"Megastar\" with his namesake. Correct actors: Chiranjeevi Sarja.",
+            "fix_steps": [
+              "Remove Chiranjeevi from hero/cast fields for Aatagara (2015)",
+              "Reattribute to correct actors: Chiranjeevi Sarja",
+              "Update movie attribution in appropriate fields (hero, supporting_cast, etc.)",
+              "Verify attribution matches actual cast",
+              "Update name to Chiranjeevi Sarja to prevent future cross-linking"
+            ],
+            "correctActors": "Chiranjeevi Sarja",
+            "notes": "Kannada mystery thriller starring Chiranjeevi Sarja (the late Kannada actor). Database confused the \"Megastar\" with his namesake."
+          }
+        ],
+        "statistics": {
+          "totalDiscovered": 146,
+          "totalInDatabase": 149,
+          "missingCount": 26,
+          "wrongAttributionCount": 21,
+          "roleBreakdown": {
+            "hero": 7,
+            "supporting": 20
+          },
+          "languageBreakdown": {
+            "Telugu": 25,
+            "Hindi": 2
+          },
+          "sourceBreakdown": {
+            "wikipedia": 1,
+            "wikidata": 26
+          }
+        },
+        "recommendations": {
+          "addMovies": [],
+          "fixAttributions": []
+        },
+        "summary": "Filmography analysis for 146 discovered films. 149 films in database (102% coverage). 26 missing films identified (16 high priority). 21 wrong attributions detected (6 high priority). Manual review completed."
+      }
+    }
+  ]
+}

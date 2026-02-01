@@ -505,6 +505,9 @@ export interface WikipediaFilmographyEntry {
   role?: string;
   notes?: string;
   language?: string;
+  crewRoles?: string[]; // e.g., ['Producer', 'Director', 'Writer']
+  isCameo?: boolean;
+  isSpecialAppearance?: boolean;
 }
 
 /**
@@ -607,12 +610,58 @@ function parseFilmographyFromHTML(html: string): WikipediaFilmographyEntry[] {
       
       if (!title || title.length < 2) continue;
       
+      // Extract role and notes
+      const roleCell = cells.length > 2 ? cells[2] : '';
+      const notesCell = cells.length > 3 ? cells[3] : '';
+      const combinedText = `${roleCell} ${notesCell}`.toLowerCase();
+      
+      // Detect crew roles
+      const crewRoles: string[] = [];
+      const crewKeywords: Record<string, string[]> = {
+        'Producer': ['producer', 'produced by', 'production'],
+        'Director': ['director', 'directed by', 'direction'],
+        'Writer': ['writer', 'screenplay', 'story', 'dialogue', 'written by', 'script'],
+        'Music Director': ['music', 'music director', 'composer', 'bgm', 'background music'],
+        'Cinematographer': ['cinematography', 'cinematographer', 'dop', 'director of photography', 'camera'],
+        'Editor': ['editor', 'editing', 'edited by'],
+        'Choreographer': ['choreography', 'choreographer', 'dance'],
+        'Lyricist': ['lyricist', 'lyrics', 'songwriter'],
+        'Art Director': ['art director', 'production designer'],
+        'Costume Designer': ['costume', 'costume designer'],
+      };
+      
+      for (const [roleName, keywords] of Object.entries(crewKeywords)) {
+        if (keywords.some(keyword => combinedText.includes(keyword))) {
+          crewRoles.push(roleName);
+        }
+      }
+      
+      // Detect cameo/special appearance
+      const isCameo = combinedText.includes('cameo') || combinedText.includes('guest');
+      const isSpecialAppearance = combinedText.includes('special appearance') || 
+                                  combinedText.includes('special') ||
+                                  combinedText.includes('guest appearance');
+      
+      // Detect language
+      const languageMatch = combinedText.match(/(telugu|tamil|hindi|kannada|malayalam)/i);
+      const language = languageMatch ? languageMatch[1].charAt(0).toUpperCase() + languageMatch[1].slice(1) : undefined;
+      
+      // If no language found, check if role cell contains language
+      let detectedLanguage = language;
+      if (!detectedLanguage && roleCell.match(/Telugu|Tamil|Hindi|Kannada|Malayalam/)) {
+        const langMatch = roleCell.match(/(Telugu|Tamil|Hindi|Kannada|Malayalam)/);
+        detectedLanguage = langMatch ? langMatch[1] : undefined;
+      }
+      
       films.push({
         year,
         title,
-        role: cells.length > 2 ? cells[2] : undefined,
-        notes: cells.length > 3 ? cells[3] : undefined,
-        language: cells.length > 2 && cells[2].match(/Telugu|Tamil|Hindi|Kannada|Malayalam/) ? cells[2] : undefined,
+        role: roleCell || undefined,
+        notes: notesCell || undefined,
+        language: detectedLanguage,
+        crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+        isCameo: isCameo || undefined,
+        isSpecialAppearance: isSpecialAppearance || undefined,
       });
     }
   }

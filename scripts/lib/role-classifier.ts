@@ -5,7 +5,7 @@
  * based on film metadata and actor information.
  */
 
-import type { DiscoveredFilm } from './film-discovery-engine';
+import type { DiscoveredFilm, CrewRoleType } from './film-discovery-engine';
 
 export type RoleType = 'child_actor' | 'lead' | 'supporting' | 'cameo' | 'voice' | 'unknown';
 
@@ -14,6 +14,8 @@ export interface RoleClassification {
   isPrimaryRole: boolean;
   appearsAs?: 'younger_version' | 'flashback' | 'guest' | 'special_appearance' | null;
   confidence: number;
+  crewRoles?: CrewRoleType[]; // Multiple crew roles possible (e.g., actor + producer)
+  languages?: string[]; // Multi-language support
 }
 
 // Known actor birth years for accurate child actor detection
@@ -129,7 +131,7 @@ function getAppearanceType(film: DiscoveredFilm): RoleClassification['appearsAs'
 }
 
 /**
- * Classify actor's role in a film
+ * Classify actor's role in a film (including crew roles)
  */
 export function classifyActorRole(
   film: DiscoveredFilm,
@@ -138,13 +140,21 @@ export function classifyActorRole(
   // Get actor birth year
   const birthYear = getActorBirthYear(actorName);
   
-  // Check for child actor role
-  if (birthYear && isChildActorRole(film.release_year, birthYear)) {
+  // Collect crew roles from film
+  const crewRoles: CrewRoleType[] = film.crewRoles || [];
+  
+  // Collect languages
+  const languages: string[] = film.languages || (film.language ? [film.language] : []);
+  
+  // Check for child actor role (only if no crew roles, or crew roles are secondary)
+  if (birthYear && isChildActorRole(film.release_year, birthYear) && crewRoles.length === 0) {
     return {
       type: 'child_actor',
       isPrimaryRole: false,
       appearsAs: getAppearanceType(film),
       confidence: 0.95,
+      crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+      languages: languages.length > 0 ? languages : undefined,
     };
   }
   
@@ -155,6 +165,8 @@ export function classifyActorRole(
       isPrimaryRole: false,
       appearsAs: null,
       confidence: 0.90,
+      crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+      languages: languages.length > 0 ? languages : undefined,
     };
   }
   
@@ -165,6 +177,8 @@ export function classifyActorRole(
       isPrimaryRole: false,
       appearsAs: getAppearanceType(film),
       confidence: 0.85,
+      crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+      languages: languages.length > 0 ? languages : undefined,
     };
   }
   
@@ -175,15 +189,19 @@ export function classifyActorRole(
       isPrimaryRole: true,
       appearsAs: null,
       confidence: 0.90,
+      crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+      languages: languages.length > 0 ? languages : undefined,
     };
   }
   
-  // Default to supporting
+  // Default to supporting (but may have crew roles)
   return {
     type: 'supporting',
-    isPrimaryRole: false,
+    isPrimaryRole: crewRoles.length === 0, // Primary if no crew roles
     appearsAs: getAppearanceType(film),
     confidence: 0.75,
+    crewRoles: crewRoles.length > 0 ? crewRoles : undefined,
+    languages: languages.length > 0 ? languages : undefined,
   };
 }
 

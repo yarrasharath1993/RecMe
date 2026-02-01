@@ -246,7 +246,16 @@
     "fix:image-issues": "npx tsx scripts/fix-image-issues.ts",
     "fix:image-issues:dry": "npx tsx scripts/fix-image-issues.ts --dry-run",
     "fix:image-issues:duplicates": "npx tsx scripts/fix-image-issues.ts --duplicates",
-    "fix:image-issues:orphans": "npx tsx scripts/fix-image-issues.ts --orphans"
+    "fix:image-issues:orphans": "npx tsx scripts/fix-image-issues.ts --orphans",
+    "clawdbot": "npx tsx scripts/intel/clawdbot.ts",
+    "clawdbot:fresh": "npx tsx scripts/intel/clawdbot-wrapper.ts",
+    "chiranjeevi:collect": "npx tsx scripts/collect-chiranjeevi-filmography.ts",
+    "chiranjeevi:analyze": "npx tsx scripts/intel/clawdbot.ts --filmography-report=reports/chiranjeevi-filmography-discovery.json --output=reports/chiranjeevi-filmography-analysis.json",
+    "chiranjeevi:execute": "npx tsx scripts/execute-chiranjeevi-fixes.ts",
+    "clawdbot:validation": "npx tsx scripts/intel/clawdbot.ts --validation-report",
+    "clawdbot:governance": "npx tsx scripts/intel/clawdbot.ts --governance-report",
+    "clawdbot:trends": "npx tsx scripts/intel/clawdbot.ts --trend-input --generate-ideas --generate-drafts",
+    "clawdbot:run": "npx tsx scripts/runners/clawdbot-runner.ts"
   },
   "dependencies": {
     "@auth/core": "^0.41.0",

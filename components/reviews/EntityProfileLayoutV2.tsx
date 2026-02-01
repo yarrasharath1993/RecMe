@@ -184,6 +184,7 @@ interface ProfileData {
     producer: RoleStats;
     supporting: RoleStats;
     cameo: RoleStats;
+    villain?: RoleStats;
   };
   achievements: Achievements;
   collaborators: CollaboratorsByRole;
@@ -276,6 +277,7 @@ export function EntityProfileLayoutV2({
       data.roles.producer,
       data.roles.supporting,
       data.roles.cameo,
+      data.roles.villain,
     ];
 
     for (const roleStats of allRoles) {
@@ -343,7 +345,7 @@ export function EntityProfileLayoutV2({
       .sort((a, b) => parseInt(b.decade) - parseInt(a.decade));
   }, [allMovies]);
 
-  // Get active roles for hero
+  // Get active roles for hero (include Supporting and Cameo so they show in filmography)
   const activeRoles = useMemo(() => {
     if (!data) return [];
     const roles: string[] = [];
@@ -351,6 +353,9 @@ export function EntityProfileLayoutV2({
     if (data.roles.actress?.count > 0) roles.push('Actress');
     if (data.roles.director?.count > 0) roles.push('Director');
     if (data.roles.producer?.count > 0) roles.push('Producer');
+    if (data.roles.supporting?.count > 0) roles.push('Supporting');
+    if (data.roles.cameo?.count > 0) roles.push('Cameo');
+    if (data.roles.villain?.count > 0) roles.push('Villain');
     return roles;
   }, [data]);
 

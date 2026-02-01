@@ -1,0 +1,283 @@
+{
+  "outputs": [
+    {
+      "type": "validation_analysis",
+      "data": {
+        "total_issues": 27,
+        "critical_count": 0,
+        "high_count": 27,
+        "medium_count": 0,
+        "low_count": 0,
+        "explanations": [
+          {
+            "issue_id": "tmdb-wrong-lang-vishwambhara",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Vishwambhara (2026) - TMDB ID 1211111 is xx (\"Horologist\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-anji",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Anji (2004) - TMDB ID 115063 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-shankar-dada",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Shankar Dada M.B.B.S. (2004) - current is en (\"The Infidel\"), should be Telugu version (148884) Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-tagore",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Tagore (2003) - TMDB ID 54170 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-indra",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Indra (2002) - current is ja (\"Voices of a Distant Star\"), should be Telugu version (25882) Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-mrugaraju",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Mrugaraju (2001) - current is it (\"August Vacation\"), should be Telugu version (137374) Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-annayya",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Annayya (2000) - TMDB ID 115059 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-big-boss",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Big Boss (1995) - TMDB ID 410217 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-rikshavodu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Rikshavodu (1995) - TMDB ID 115051 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-stuartpuram",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Stuartpuram Police Station (1991) - TMDB ID 115038 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-manchi-donga",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Manchi Donga (1988) - TMDB ID 115028 is en (\"The Guess Who - Running Back Thru Canada\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-dhairyavanthudu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Dhairyavanthudu (1986) - TMDB ID 369150 is fr (\"Eric Antoine - Magic Délirium\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-adavi-donga",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Adavi Donga (1985) - TMDB ID 441006 is pt (\"Meu Cachorro, Meu Amante\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-chiranjeevi",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Chiranjeevi (1985) - TMDB ID 279309 is en (\"Chiranjeevi\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-allullostunnaru",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Allullostunnaru (1984) - TMDB ID 369147 is it (\"Il Santo Patrono\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-inti-guttu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Inti Guttu (1984) - TMDB ID 115009 is en (\"Front 242: Moments in Budapest\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-naagu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Naagu (1984) - TMDB ID 115013 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-devanthakudu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Devanthakudu (1984) - TMDB ID 115008 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-allulu-vasthunnaru",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Allulu Vasthunnaru (1984) - TMDB ID 279321 is en (\"Allulu Vasthunnaru\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-mahanagaramlo",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Mahanagaramlo Mayagadu (1984) - TMDB ID 318857 is ml (\"Maram\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-palletoori",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Palletoori Monagadu (1983) - TMDB ID 279342 is en (\"Palletoori Monagadu\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-mantri-gari",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Mantri Gari Viyyankudu (1983) - TMDB ID 115002 is nl (\"Hemel\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-simhapuri",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Simhapuri Simham (1983) - TMDB ID 369145 is en (\"Doctor Who: The Snowmen\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-sangharshana",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Sangharshana (1983) - TMDB ID 115000 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-wrong-roshagadu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "Wrong TMDB language: Roshagadu (1983) - TMDB ID 279339 is en (\"Roshagadu\"), not Telugu Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-yamakinkarudu",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Yamakinkarudu (1982) - TMDB ID 279345 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "tmdb-notfound-radha",
+            "severity": "high",
+            "field": "tmdb_id",
+            "explanation": "TMDB ID not found: Radha My Darling (1982) - TMDB ID 279347 not found Field: tmdb_id. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          }
+        ],
+        "overall_health": "degraded",
+        "summary": "Found 27 validation issues (27 high severity). Overall health needs review."
+      }
+    },
+    {
+      "type": "editorial_ideas",
+      "data": {
+        "generated_at": "2026-01-28T18:42:00.566Z",
+        "ideas": [
+          {
+            "idea_id": "idea-validation-issue-1769625720566",
+            "title": "Validation Issue Analysis: tmdb_id",
+            "category": "analysis",
+            "priority": "medium",
+            "rationale": "High-severity validation issue in tmdb_id field requires investigation.",
+            "data_points": [
+              "Field: tmdb_id",
+              "Severity: high",
+              "Recommended action: manual_review"
+            ],
+            "target_audience": "Data quality team",
+            "estimated_engagement": "low",
+            "related_entities": [],
+            "suggested_angle": "Analyze why tmdb_id validation is failing and propose solutions"
+          }
+        ],
+        "high_priority_count": 0,
+        "summary": "Generated 1 editorial idea (1 analysis)"
+      }
+    },
+    {
+      "type": "social_drafts",
+      "data": {
+        "generated_at": "2026-01-28T18:42:00.568Z",
+        "drafts": [
+          {
+            "draft_id": "draft-validation-degraded-1769625720568",
+            "platform": "telegram",
+            "type": "alert",
+            "content": "📢 System Status\n\nValidation health is degraded: 27 high severity issues.\n\nReview recommended.",
+            "metadata": {
+              "priority": "medium",
+              "requires_approval": false,
+              "tags": [
+                "validation",
+                "status"
+              ]
+            }
+          }
+        ],
+        "summary": "Generated 1 social media draft (1 alert)"
+      }
+    }
+  ]
+}

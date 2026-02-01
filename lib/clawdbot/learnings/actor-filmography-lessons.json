@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "source_actor": "Chiranjeevi",
+  "source_date": "2026-01-29",
+  "description": "Structured lessons from Chiranjeevi filmography manual review for reuse on any actor.",
+  "role_corrections": {
+    "hero_to_villain": {
+      "pattern": "Actor in hero but played antagonist",
+      "action": "Clear hero; add to supporting_cast with type 'villain', optional role/character",
+      "example": "47 Rojulu (Kumar), Mosagadu"
+    },
+    "supporting_to_hero": {
+      "pattern": "Actor in supporting_cast but was lead/anti-hero",
+      "action": "Set hero = Actor; remove from supporting_cast",
+      "example": "I Love You (Ramesh)"
+    },
+    "hero_to_supporting": {
+      "pattern": "Bilingual: hero in one language, supporting in another",
+      "action": "Clear hero; add to supporting_cast with type 'supporting'",
+      "example": "Kaali (Telugu hero, Tamil supporting)"
+    },
+    "supporting_to_cameo": {
+      "pattern": "Guest/special appearance",
+      "action": "Update supporting_cast entry type to 'cameo', optional role e.g. 'Himself', 'Lord Shiva'",
+      "example": "Sipayi, Jagadguru Adi Shankara"
+    }
+  },
+  "removals": {
+    "not_in_filmography": {
+      "pattern": "Film title similar to real one but not in actor's filmography",
+      "action": "Remove actor from hero and supporting_cast; set hero to correct lead",
+      "example": "Rakta Sambandham (not Chiranjeevi's film)"
+    }
+  },
+  "duplicates": {
+    "transliteration_variants": {
+      "pattern": "Same film, two rows (spelling/transliteration variants)",
+      "action": "Keep one row (preferred title); delete the other movie row",
+      "examples": ["Oorukichchina Maata / Oorukichina Maata", "Bruce Lee / Bruce Lee: The Fighter"]
+    }
+  },
+  "add_missing": {
+    "cameo": {
+      "pattern": "Film exists; actor had cameo not in DB",
+      "action": "Add to supporting_cast with type 'cameo', role e.g. 'Himself'",
+      "example": "Prema Natakam"
+    },
+    "villain": {
+      "pattern": "Film exists (e.g. other language); actor was antagonist",
+      "action": "Add to supporting_cast with type 'villain'; ensure is_published true",
+      "example": "Ranuva Veeran (Tamil)"
+    }
+  },
+  "supporting_cast_types": ["supporting", "cameo", "villain", "antagonist"],
+  "scripts": {
+    "export_filmography": "scripts/export-chiranjeevi-filmography-for-verification.ts",
+    "apply_role_corrections": "scripts/apply-chiranjeevi-manual-review-corrections.ts",
+    "add_missing_roles": "scripts/add-chiranjeevi-prema-natakam-ranuva-veeran.ts",
+    "publish_movie": "scripts/publish-prema-natakam.ts"
+  },
+  "playbook_doc": "docs/clawdbot/ACTOR_FILMOGRAPHY_CORRECTION_PLAYBOOK.md"
+}

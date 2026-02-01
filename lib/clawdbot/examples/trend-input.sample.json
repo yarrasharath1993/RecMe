@@ -1,0 +1,70 @@
+{
+  "period_start": "2026-01-20T00:00:00Z",
+  "period_end": "2026-01-25T00:00:00Z",
+  "data_points": [
+    {
+      "timestamp": "2026-01-20T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 1000
+    },
+    {
+      "timestamp": "2026-01-21T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 1500
+    },
+    {
+      "timestamp": "2026-01-22T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 2200
+    },
+    {
+      "timestamp": "2026-01-23T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 3000
+    },
+    {
+      "timestamp": "2026-01-24T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 3500
+    },
+    {
+      "timestamp": "2026-01-25T00:00:00Z",
+      "category": "movie",
+      "entity_id": "movie-123",
+      "entity_name": "Baahubali 2",
+      "metric": "views",
+      "value": 4000
+    },
+    {
+      "timestamp": "2026-01-20T00:00:00Z",
+      "category": "celebrity",
+      "entity_id": "celebrity-456",
+      "entity_name": "Prabhas",
+      "metric": "engagement",
+      "value": 500
+    },
+    {
+      "timestamp": "2026-01-25T00:00:00Z",
+      "category": "celebrity",
+      "entity_id": "celebrity-456",
+      "entity_name": "Prabhas",
+      "metric": "engagement",
+      "value": 800
+    }
+  ]
+}

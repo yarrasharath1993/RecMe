@@ -1,0 +1,31 @@
+{
+  "report_id": "actor-filmography-correction-chiranjeevi-2026-01-29",
+  "generated_at": "2026-01-29T00:00:00Z",
+  "actor": "Chiranjeevi",
+  "description": "Summary of manual review corrections applied to Chiranjeevi filmography. For ClawDBot analysis and reuse for other actors.",
+  "decisions": [
+    { "entity_id": "47-rojulu-1981", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.95, "trust_level": "verified", "correction_type": "role_fix", "from": "hero", "to": "villain", "note": "Antagonist Kumar" },
+    { "entity_id": "mosagadu-1980", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.95, "trust_level": "verified", "correction_type": "role_fix", "from": "hero", "to": "villain", "note": "First negative role" },
+    { "entity_id": "i-love-you-1979", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.95, "trust_level": "verified", "correction_type": "role_fix", "from": "supporting", "to": "hero", "note": "Anti-hero Ramesh" },
+    { "entity_id": "kaali-1980", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.9, "trust_level": "verified", "correction_type": "role_fix", "from": "hero", "to": "supporting", "note": "Telugu hero / Tamil supporting" },
+    { "entity_id": "sipayi-1996", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.9, "trust_level": "verified", "correction_type": "role_fix", "from": "supporting", "to": "cameo", "note": "Kannada guest" },
+    { "entity_id": "jagadguru-adi-shankara-2013", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.9, "trust_level": "verified", "correction_type": "role_fix", "from": "supporting", "to": "cameo", "note": "Lord Shiva" },
+    { "entity_id": "rakta-sambandham-1980", "entity_type": "movie", "decision": "rejected", "rule_violations": ["not_in_filmography"], "trust_score": 0.3, "trust_level": "unverified", "correction_type": "removal", "note": "Not his film; hero set to Murali Mohan" },
+    { "entity_id": "oorukichchina-maata-1981", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Oorukichina Maata" },
+    { "entity_id": "parvathi-parameswarulu-1981", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Paravathi Parameshwarulu" },
+    { "entity_id": "todu-dongalu-1981", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Thodu Dongalu" },
+    { "entity_id": "allulu-vasthunnaru-1984", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Allullostunnaru" },
+    { "entity_id": "intiguttu-1984", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Inti Guttu" },
+    { "entity_id": "bruce-lee-2015", "entity_type": "movie", "decision": "rejected", "rule_violations": ["duplicate"], "trust_score": 0, "trust_level": "unverified", "correction_type": "duplicate_deleted", "kept": "Bruce Lee: The Fighter" },
+    { "entity_id": "prema-natakam-1981", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.9, "trust_level": "verified", "correction_type": "add_role", "to": "cameo", "note": "Special appearance as himself" },
+    { "entity_id": "ranuva-veeran-1981", "entity_type": "movie", "decision": "approved", "rule_violations": [], "trust_score": 0.9, "trust_level": "verified", "correction_type": "add_role", "to": "villain", "note": "Tamil; antagonist opposite Rajinikanth" }
+  ],
+  "summary": {
+    "role_fixes": 6,
+    "removals": 1,
+    "duplicates_deleted": 6,
+    "roles_added": 2,
+    "playbook_path": "docs/clawdbot/ACTOR_FILMOGRAPHY_CORRECTION_PLAYBOOK.md",
+    "lessons_path": "lib/clawdbot/learnings/actor-filmography-lessons.json"
+  }
+}

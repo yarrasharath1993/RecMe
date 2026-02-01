@@ -1,0 +1,301 @@
+{
+  "outputs": [
+    {
+      "type": "validation_analysis",
+      "data": {
+        "total_issues": 80,
+        "critical_count": 20,
+        "high_count": 3,
+        "medium_count": 3,
+        "low_count": 1,
+        "explanations": [
+          {
+            "issue_id": "duplicate-1",
+            "severity": "high",
+            "field": "slug",
+            "explanation": "Duplicate movie: Drushyam 2: The Resumption (2021) - duplicate of drushyam-2-2021 Field: slug. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "duplicate-2",
+            "severity": "high",
+            "field": "slug",
+            "explanation": "Duplicate movie: Aadavari Matalaku Ardhalu Verule (2007) - duplicate of aadavari-matalaku-arthale-verule-2007 Field: slug. Sources: TMDB. Confidence: 90%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.9
+          },
+          {
+            "issue_id": "duplicate-3",
+            "severity": "high",
+            "field": "slug",
+            "explanation": "Duplicate movie: Pavitra Bandham (1996) - duplicate of pavithra-bandham-1996 Field: slug. Sources: TMDB. Confidence: 90%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.9
+          },
+          {
+            "issue_id": "duplicate-4",
+            "severity": "medium",
+            "field": "slug",
+            "explanation": "Duplicate movie: Sundarakanda (1992) - duplicate of sundara-kanda-1992 Field: slug. Confidence: 75%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.75
+          },
+          {
+            "issue_id": "wrong-attribution-1",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Shadow (2013) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-2",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Bodyguard (2012) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-3",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Alasyam Amrutham (2010) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-4",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Charminar (2003) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-5",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Dhanush (2003) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-6",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Friends (2002) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-7",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Manasunna Maaraju (2000) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-8",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Telangana (1999) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-9",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Maa Balaji (1999) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 90%.",
+            "recommended_action": "investigate",
+            "confidence": 0.9
+          },
+          {
+            "issue_id": "wrong-attribution-10",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Rajahamsa (1998) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-11",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Naga Kanya (1992) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-12",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Sundara Kanda (1992) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-13",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Shanti Kranti (1991) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-14",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Bharat Bandh (1991) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-15",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Sarpayagam (1991) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-16",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Police Bharya (1990) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-17",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Iddaru Iddare (1990) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-18",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Agni (1989) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-19",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: Sutradharulu (1989) - Daggubati Venkatesh not found in TMDB cast Field: hero. Sources: TMDB. Confidence: 95%.",
+            "recommended_action": "investigate",
+            "confidence": 0.95
+          },
+          {
+            "issue_id": "wrong-attribution-20",
+            "severity": "critical",
+            "field": "hero",
+            "explanation": "Wrong attribution: 20 movies with wrong hero attribution to Daggubati Venkatesh Field: hero. Sources: TMDB. Confidence: 90%.",
+            "recommended_action": "investigate",
+            "confidence": 0.9
+          },
+          {
+            "issue_id": "no-verification-1",
+            "severity": "medium",
+            "field": "tmdb_id",
+            "explanation": "No TMDB verification: Nagamani (2010) - missing TMDB ID Field: tmdb_id. Confidence: 70%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.7
+          },
+          {
+            "issue_id": "no-verification-2",
+            "severity": "medium",
+            "field": "tmdb_id",
+            "explanation": "No TMDB verification: Evadaithe Nakenti (2007) - missing TMDB ID Field: tmdb_id. Confidence: 70%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.7
+          },
+          {
+            "issue_id": "no-verification-summary",
+            "severity": "low",
+            "field": "tmdb_id",
+            "explanation": "56 movies missing TMDB verification - requires manual review Field: tmdb_id. Confidence: 60%.",
+            "recommended_action": "manual_review",
+            "confidence": 0.6
+          }
+        ],
+        "overall_health": "critical",
+        "summary": "Found 27 validation issues (20 critical, 3 high, 3 medium, 1 low severity). Overall health requires immediate attention."
+      }
+    },
+    {
+      "type": "editorial_ideas",
+      "data": {
+        "generated_at": "2026-01-28T18:33:56.700Z",
+        "ideas": [
+          {
+            "idea_id": "idea-validation-critical-1769625236700",
+            "title": "Data Quality Crisis: Addressing Critical Validation Issues",
+            "category": "analysis",
+            "priority": "high",
+            "rationale": "System has 20 critical validation issues requiring immediate attention.",
+            "data_points": [
+              "20 critical issues",
+              "3 high severity issues",
+              "Overall health: critical"
+            ],
+            "target_audience": "Technical team and data quality stakeholders",
+            "estimated_engagement": "medium",
+            "related_entities": [],
+            "suggested_headline": "Critical Data Quality Issues Detected - Action Required",
+            "suggested_angle": "Investigate root causes and implement fixes for critical validation failures"
+          },
+          {
+            "idea_id": "idea-validation-issue-1769625236700",
+            "title": "Validation Issue Analysis: slug",
+            "category": "analysis",
+            "priority": "medium",
+            "rationale": "High-severity validation issue in slug field requires investigation.",
+            "data_points": [
+              "Field: slug",
+              "Severity: high",
+              "Recommended action: manual_review"
+            ],
+            "target_audience": "Data quality team",
+            "estimated_engagement": "low",
+            "related_entities": [],
+            "suggested_angle": "Analyze why slug validation is failing and propose solutions"
+          }
+        ],
+        "high_priority_count": 1,
+        "summary": "Generated 2 editorial ideas (2 analysis). 1 high-priority idea requires immediate attention."
+      }
+    },
+    {
+      "type": "social_drafts",
+      "data": {
+        "generated_at": "2026-01-28T18:33:56.701Z",
+        "drafts": [
+          {
+            "draft_id": "draft-validation-critical-1769625236701",
+            "platform": "telegram",
+            "type": "alert",
+            "content": "⚠️ System Alert\n\nCritical validation issues detected: 20 critical, 3 high severity.\n\nAction required. Please review.",
+            "metadata": {
+              "priority": "high",
+              "requires_approval": true,
+              "tags": [
+                "validation",
+                "alert",
+                "critical"
+              ]
+            }
+          }
+        ],
+        "summary": "Generated 1 social media draft (1 alert). 1 draft requires approval before sending."
+      }
+    }
+  ]
+}

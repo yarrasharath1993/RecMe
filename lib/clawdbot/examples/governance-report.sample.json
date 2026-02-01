@@ -1,0 +1,38 @@
+{
+  "report_id": "governance-2026-01-25",
+  "generated_at": "2026-01-25T10:00:00Z",
+  "decisions": [
+    {
+      "entity_id": "movie-123",
+      "entity_type": "movie",
+      "decision": "approved",
+      "rule_violations": [],
+      "trust_score": 0.92,
+      "trust_level": "verified"
+    },
+    {
+      "entity_id": "movie-456",
+      "entity_type": "movie",
+      "decision": "flagged",
+      "rule_violations": ["source_tier_requirement"],
+      "trust_score": 0.68,
+      "trust_level": "medium"
+    },
+    {
+      "entity_id": "celebrity-789",
+      "entity_type": "celebrity",
+      "decision": "rejected",
+      "rule_violations": ["verification_freshness", "source_conflict"],
+      "trust_score": 0.35,
+      "trust_level": "unverified"
+    },
+    {
+      "entity_id": "review-101",
+      "entity_type": "review",
+      "decision": "approved",
+      "rule_violations": [],
+      "trust_score": 0.88,
+      "trust_level": "high"
+    }
+  ]
+}

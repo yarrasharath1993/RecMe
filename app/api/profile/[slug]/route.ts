@@ -4,6 +4,9 @@ import { normalizeSlugForSearch } from '@/lib/utils/slugify';
 import fs from 'fs';
 import path from 'path';
 
+// Ensure profile is always fresh (no cached filmography)
+export const dynamic = 'force-dynamic';
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
@@ -137,6 +140,7 @@ interface ProfileResponse {
     writer: RoleStats;
     supporting: RoleStats;
     cameo: RoleStats;
+    villain?: RoleStats;
   };
   eras: ActorEra[];
   career_stats: CareerStats;
@@ -301,7 +305,7 @@ function calculateRoleStats(
       poster_url: m.poster_url,
       is_blockbuster: m.is_blockbuster,
       is_classic: m.is_classic,
-      role_type: m.role_type,
+      role_type: m.role_type ?? roleName ?? undefined,
       character: m.character,
       role: roleName,
       roles: movieRolesMap?.get(m.id) || (roleName ? [roleName] : []),
@@ -502,34 +506,47 @@ export async function GET(
       return NextResponse.json({ error: 'Failed to fetch movies' }, { status: 500 });
     }
 
-    // Part B: Query movies where person appears ONLY in supporting_cast
-    // This catches supporting roles, cameos, and special appearances not covered above
-    const { data: supportingCastMovies } = await supabase
-      .from('movies')
-      .select(`
-        id, title_en, title_te, slug, release_year, our_rating, avg_rating,
-        poster_url, director, music_director, cinematographer, writer, editor, producer,
-        is_blockbuster, is_classic, is_underrated, genres, era, tone,
-        hero, heroine, supporting_cast, crew, awards, language
-      `)
-      .eq('is_published', true)
-      // NO language filter - show all languages
-      .not('supporting_cast', 'is', null);
-
-    // Filter supporting_cast movies where the person appears
+    // Part B: Movies where person appears ONLY in supporting_cast (supporting/cameo roles)
     const mainMovieIds = new Set((mainMovies || []).map(m => m.id));
     const personNameLower = personName!.toLowerCase();
-    
-    const additionalSupportingMovies = (supportingCastMovies || []).filter(movie => {
-      // Skip if already in main movies
+    const searchWords = personNameLower.split(/\s+/).filter(w => w.length >= 2); // e.g. ['chiranjeevi']
+
+    const personMatchesSupportingCast = (cast: any[]): boolean => {
+      if (!Array.isArray(cast)) return false;
+      for (const member of cast) {
+        let memberName: string | null = null;
+        if (typeof member === 'string') memberName = member;
+        else if (typeof member === 'object' && member?.name) memberName = String(member.name);
+        if (!memberName) continue;
+        const mLower = memberName.toLowerCase();
+        if (mLower.includes(personNameLower) || personNameLower.includes(mLower)) return true;
+        if (searchWords.some(w => mLower.includes(w))) return true;
+      }
+      return false;
+    };
+
+    // Paginate: fetch all published movies with non-null supporting_cast (server may cap at 1000 per request)
+    const PAGE_SIZE = 1000;
+    let supportingCastMovies: any[] = [];
+    let page = 0;
+    let hasMore = true;
+    while (hasMore) {
+      const { data: pageData } = await supabase
+        .from('movies')
+        .select('id, title_en, title_te, slug, release_year, our_rating, avg_rating, poster_url, director, music_director, cinematographer, writer, editor, producer, is_blockbuster, is_classic, is_underrated, genres, era, tone, hero, heroine, supporting_cast, crew, awards, language')
+        .eq('is_published', true)
+        .not('supporting_cast', 'is', null)
+        .range(page * PAGE_SIZE, (page + 1) * PAGE_SIZE - 1);
+      const rows = pageData || [];
+      supportingCastMovies = supportingCastMovies.concat(rows);
+      hasMore = rows.length === PAGE_SIZE;
+      page += 1;
+    }
+
+    const additionalSupportingMovies = supportingCastMovies.filter(movie => {
       if (mainMovieIds.has(movie.id)) return false;
-      
-      // Check if person is in supporting_cast
       const cast = Array.isArray(movie.supporting_cast) ? movie.supporting_cast : [];
-      return cast.some((member: any) => 
-        typeof member === 'object' && 
-        member.name?.toLowerCase().includes(personNameLower)
-      );
+      return personMatchesSupportingCast(cast);
     });
 
     // Filter out false positives from ilike query
@@ -605,6 +622,115 @@ export async function GET(
         // Exclude if only producer matches (that's S. Rajinikanth, not actor)
         if (producerIsSRajini && !matchesHero && !matchesDirector) {
           return false; // Exclude S. Rajinikanth producer movies from actor profile
+        }
+      }
+
+      // Chiranjeevi (Megastar) vs Chiranjeevi Sarja (Kannada actor) – exclude Sarja's films from Megastar profile
+      if (personNameLower2.includes('chiranjeevi') && !personNameLower2.includes('sarja')) {
+        const heroLower = (movie.hero || '').toLowerCase();
+        if (heroLower.includes('chiranjeevi') && heroLower.includes('sarja')) {
+          return false; // e.g. Aatagara (2015) – stars Chiranjeevi Sarja, not Megastar
+        }
+      }
+
+      // Krishna (actor Ghattamaneni) – exclude other "Krishna" namesakes from actor Krishna profile
+      // When slug is "krishna" and personName is "Krishna", exclude: Krishna Vamsi (director), Ramya Krishna (heroine), Krishnam Raju (hero), SV Krishna Reddy (director)
+      if (slug === 'krishna' && personNameLower2 === 'krishna') {
+        const directorLower = (movie.director || '').toLowerCase();
+        const writerLower = (movie.writer || '').toLowerCase();
+        const producerLower = (movie.producer || '').toLowerCase();
+        const heroLower = (movie.hero || '').toLowerCase();
+        const heroineLower = (movie.heroine || '').toLowerCase();
+        const matchesDirectorVamsi = directorLower.includes('krishna') && directorLower.includes('vamsi');
+        const matchesWriterVamsi = writerLower.includes('krishna') && writerLower.includes('vamsi');
+        const matchesProducerVamsi = producerLower.includes('krishna') && producerLower.includes('vamsi');
+        const matchesDirectorReddy = (directorLower.includes('krishna') && directorLower.includes('reddy')) || directorLower.includes('krishna reddy');
+        const matchesWriterReddy = (writerLower.includes('krishna') && writerLower.includes('reddy')) || writerLower.includes('krishna reddy');
+        const matchesProducerReddy = (producerLower.includes('krishna') && producerLower.includes('reddy')) || producerLower.includes('krishna reddy');
+        const matchesHero = heroLower.includes('krishna');
+        const matchesHeroine = heroineLower.includes('krishna');
+        // Exclude if only director/writer/producer matches Krishna Vamsi (not hero/heroine)
+        if ((matchesDirectorVamsi || matchesWriterVamsi || matchesProducerVamsi) && !matchesHero && !matchesHeroine) {
+          return false; // Krishna Vamsi (director) – not actor Krishna
+        }
+        // Exclude if only director/writer/producer matches SV Krishna Reddy (not hero/heroine)
+        if ((matchesDirectorReddy || matchesWriterReddy || matchesProducerReddy) && !matchesHero && !matchesHeroine) {
+          return false; // SV Krishna Reddy (director) – not actor Krishna
+        }
+        // Exclude if only heroine matches Ramya Krishna (hero does not have Krishna)
+        if (heroineLower.includes('ramya') && heroineLower.includes('krishna') && !heroLower.includes('krishna')) {
+          return false; // Ramya Krishna (heroine) – not actor Krishna
+        }
+        // Exclude if only hero matches Krishnam Raju (the only "krishna" in hero is inside "Krishnam Raju")
+        if (heroLower.includes('krishnam raju') && !heroLower.replace(/krishnam raju/g, '').includes('krishna')) {
+          return false; // Krishnam Raju (hero) – not actor Krishna
+        }
+      }
+
+      // Ramya Krishna (actress) – exclude actor Krishna, Krishnam Raju, Krishna Vamsi, SV Krishna Reddy from her profile
+      if ((slug === 'ramya-krishna' || slug === 'ramya-krishnan') && personNameLower2.includes('ramya') && personNameLower2.includes('krishna')) {
+        const directorLower = (movie.director || '').toLowerCase();
+        const writerLower = (movie.writer || '').toLowerCase();
+        const producerLower = (movie.producer || '').toLowerCase();
+        const heroLower = (movie.hero || '').toLowerCase();
+        const heroineLower = (movie.heroine || '').toLowerCase();
+        const matchesDirectorVamsi = directorLower.includes('krishna') && directorLower.includes('vamsi');
+        const matchesDirectorReddy = (directorLower.includes('krishna') && directorLower.includes('reddy')) || directorLower.includes('krishna reddy');
+        const matchesHeroineRamya = heroineLower.includes('ramya') && heroineLower.includes('krishna');
+        // Exclude if only hero has Krishna (actor) and heroine is not Ramya Krishna
+        if (heroLower.includes('krishna') && !matchesHeroineRamya) {
+          return false; // Actor Krishna's movie – not Ramya Krishna
+        }
+        // Exclude if only hero has Krishnam Raju (no Ramya Krishna in cast)
+        if (heroLower.includes('krishnam raju') && !matchesHeroineRamya) {
+          return false; // Krishnam Raju's movie – not Ramya Krishna
+        }
+        // Exclude if only director/writer/producer matches Krishna Vamsi or SV Krishna Reddy (not heroine Ramya Krishna)
+        if ((matchesDirectorVamsi || matchesDirectorReddy) && !matchesHeroineRamya) {
+          return false; // Director-only match – not Ramya Krishna
+        }
+      }
+
+      // Krishnam Raju (actor) – exclude actor Krishna, Ramya Krishna, Krishna Vamsi, SV Krishna Reddy from his profile
+      if (slug === 'krishnam-raju' && personNameLower2.includes('krishnam') && personNameLower2.includes('raju')) {
+        const directorLower = (movie.director || '').toLowerCase();
+        const writerLower = (movie.writer || '').toLowerCase();
+        const producerLower = (movie.producer || '').toLowerCase();
+        const heroLower = (movie.hero || '').toLowerCase();
+        const heroineLower = (movie.heroine || '').toLowerCase();
+        const matchesDirectorVamsi = directorLower.includes('krishna') && directorLower.includes('vamsi');
+        const matchesDirectorReddy = (directorLower.includes('krishna') && directorLower.includes('reddy')) || directorLower.includes('krishna reddy');
+        const matchesHeroKrishnam = heroLower.includes('krishnam') && heroLower.includes('raju');
+        const matchesHeroineRamya = heroineLower.includes('ramya') && heroineLower.includes('krishna');
+        // Exclude if only hero has actor Krishna (not Krishnam Raju)
+        if (heroLower.includes('krishna') && !heroLower.includes('krishnam raju')) {
+          return false; // Actor Krishna – not Krishnam Raju
+        }
+        // Exclude if only heroine has Ramya Krishna (hero is not Krishnam Raju)
+        if (matchesHeroineRamya && !matchesHeroKrishnam) {
+          return false; // Ramya Krishna's movie – not Krishnam Raju
+        }
+        // Exclude if only director/writer/producer matches Krishna Vamsi or SV Krishna Reddy (not hero Krishnam Raju)
+        if ((matchesDirectorVamsi || matchesDirectorReddy) && !matchesHeroKrishnam) {
+          return false; // Director-only match – not Krishnam Raju
+        }
+      }
+
+      // SV Krishna Reddy (director) – exclude actor Krishna, Ramya Krishna, Krishnam Raju from his profile (show only director/writer/producer matches)
+      const svKrishnaReddySlug = slug === 'sv-krishna-reddy' || slug === 's-v-krishna-reddy';
+      if (svKrishnaReddySlug && personNameLower2.includes('krishna') && personNameLower2.includes('reddy')) {
+        const directorLower = (movie.director || '').toLowerCase();
+        const writerLower = (movie.writer || '').toLowerCase();
+        const producerLower = (movie.producer || '').toLowerCase();
+        const heroLower = (movie.hero || '').toLowerCase();
+        const heroineLower = (movie.heroine || '').toLowerCase();
+        const matchesDirectorReddy = (directorLower.includes('krishna') && directorLower.includes('reddy')) || directorLower.includes('krishna reddy');
+        const matchesWriterReddy = (writerLower.includes('krishna') && writerLower.includes('reddy')) || writerLower.includes('krishna reddy');
+        const matchesProducerReddy = (producerLower.includes('krishna') && producerLower.includes('reddy')) || producerLower.includes('krishna reddy');
+        const matchesCrewReddy = matchesDirectorReddy || matchesWriterReddy || matchesProducerReddy;
+        // Exclude if only hero/heroine has "Krishna" (actor Krishna, Ramya Krishna, Krishnam Raju) and crew does not have SV Krishna Reddy
+        if (!matchesCrewReddy && (heroLower.includes('krishna') || heroineLower.includes('krishna'))) {
+          return false; // Actor/actress match – not SV Krishna Reddy (director)
         }
       }
       
@@ -744,25 +870,35 @@ export async function GET(
     const musicDirectorMovies = filteredMovies.filter(m => matchesPersonInField(m.music_director));
     const writerMovies = filteredMovies.filter(m => matchesPersonInField(m.writer));
 
-    // Check supporting cast for cameos and supporting roles
-    // Extended type to include role_type and character for supporting/cameo movies
+    // Check supporting cast for cameos, supporting, and villain roles
+    // Extended type to include role_type and character for supporting/cameo/villain movies
     type MovieWithRole = typeof filteredMovies[0] & { role_type?: string; character?: string };
     const supportingMovies: MovieWithRole[] = [];
     const cameoMovies: MovieWithRole[] = [];
+    const villainMovies: MovieWithRole[] = [];
     
     for (const movie of filteredMovies) {
       if (!movie.supporting_cast) continue;
       const cast = Array.isArray(movie.supporting_cast) ? movie.supporting_cast : [];
       
       for (const member of cast) {
-        if (typeof member === 'object' && member.name?.toLowerCase().includes(personName!.toLowerCase())) {
-          if (member.type === 'cameo' || member.type === 'special') {
-            cameoMovies.push({ ...movie, role_type: 'cameo', character: member.role });
-          } else {
-            supportingMovies.push({ ...movie, role_type: 'supporting', character: member.role });
-          }
-          break;
+        let memberName: string | null = null;
+        if (typeof member === 'string') memberName = member;
+        else if (typeof member === 'object' && member?.name) memberName = String(member.name);
+        if (!memberName) continue;
+        const mLower = memberName.toLowerCase();
+        const pLower = personName!.toLowerCase();
+        const matches = mLower.includes(pLower) || pLower.includes(mLower) || pLower.split(/\s+/).some(w => w.length >= 2 && mLower.includes(w));
+        if (!matches) continue;
+        const memberType = (typeof member === 'object' && member?.type) ? String(member.type).toLowerCase() : '';
+        if (memberType === 'villain' || memberType === 'antagonist') {
+          villainMovies.push({ ...movie, role_type: 'villain', character: typeof member === 'object' ? member.role : undefined });
+        } else if (member.type === 'cameo' || member.type === 'special') {
+          cameoMovies.push({ ...movie, role_type: 'cameo', character: typeof member === 'object' ? member.role : undefined });
+        } else {
+          supportingMovies.push({ ...movie, role_type: 'supporting', character: typeof member === 'object' ? member.role : undefined });
         }
+        break;
       }
     }
 
@@ -779,6 +915,7 @@ export async function GET(
       { movies: writerMovies, role: 'writer' },
       { movies: supportingMovies, role: 'supporting' },
       { movies: cameoMovies, role: 'cameo' },
+      { movies: villainMovies, role: 'villain' },
     ].forEach(({ movies, role }) => {
       movies.forEach(m => {
         const existing = movieRoles.get(m.id) || [];
@@ -797,6 +934,7 @@ export async function GET(
       writer: calculateRoleStats(writerMovies, 'writer', movieRoles),
       supporting: calculateRoleStats(supportingMovies, 'supporting', movieRoles),
       cameo: calculateRoleStats(cameoMovies, 'cameo', movieRoles),
+      villain: villainMovies.length > 0 ? calculateRoleStats(villainMovies, 'villain', movieRoles) : undefined,
     };
 
     // Step 7: Aggregate collaborators (for actors, use their movies)
@@ -827,6 +965,7 @@ export async function GET(
       ...writerMovies,
       ...supportingMovies,
       ...cameoMovies,
+      ...villainMovies,
     ].map(m => m.id))].map(id => filteredMovies.find(m => m.id === id)!);
 
     const years = allRoleMovies.map(m => m.release_year).filter((y): y is number => y !== null);

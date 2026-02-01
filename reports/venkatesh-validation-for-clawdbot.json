@@ -1,0 +1,223 @@
+{
+  "report_id": "venkatesh-filmography-validation-2026-01-10",
+  "generated_at": "2026-01-10T23:34:41.338Z",
+  "total_issues": 80,
+  "issues": [
+    {
+      "id": "duplicate-1",
+      "severity": "high",
+      "field": "slug",
+      "message": "Duplicate movie: Drushyam 2: The Resumption (2021) - duplicate of drushyam-2-2021",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "duplicate-2",
+      "severity": "high",
+      "field": "slug",
+      "message": "Duplicate movie: Aadavari Matalaku Ardhalu Verule (2007) - duplicate of aadavari-matalaku-arthale-verule-2007",
+      "confidence": 0.90,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "duplicate-3",
+      "severity": "high",
+      "field": "slug",
+      "message": "Duplicate movie: Pavitra Bandham (1996) - duplicate of pavithra-bandham-1996",
+      "confidence": 0.90,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "duplicate-4",
+      "severity": "medium",
+      "field": "slug",
+      "message": "Duplicate movie: Sundarakanda (1992) - duplicate of sundara-kanda-1992",
+      "confidence": 0.75,
+      "sources": []
+    },
+    {
+      "id": "wrong-attribution-1",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Shadow (2013) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-2",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Bodyguard (2012) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-3",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Alasyam Amrutham (2010) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-4",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Charminar (2003) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-5",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Dhanush (2003) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-6",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Friends (2002) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-7",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Manasunna Maaraju (2000) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-8",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Telangana (1999) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-9",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Maa Balaji (1999) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.90,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-10",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Rajahamsa (1998) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-11",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Naga Kanya (1992) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-12",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Sundara Kanda (1992) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-13",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Shanti Kranti (1991) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-14",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Bharat Bandh (1991) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-15",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Sarpayagam (1991) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-16",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Police Bharya (1990) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-17",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Iddaru Iddare (1990) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-18",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Agni (1989) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-19",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: Sutradharulu (1989) - Daggubati Venkatesh not found in TMDB cast",
+      "confidence": 0.95,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "wrong-attribution-20",
+      "severity": "critical",
+      "field": "hero",
+      "message": "Wrong attribution: 20 movies with wrong hero attribution to Daggubati Venkatesh",
+      "confidence": 0.90,
+      "sources": ["TMDB"]
+    },
+    {
+      "id": "no-verification-1",
+      "severity": "medium",
+      "field": "tmdb_id",
+      "message": "No TMDB verification: Nagamani (2010) - missing TMDB ID",
+      "confidence": 0.70,
+      "sources": []
+    },
+    {
+      "id": "no-verification-2",
+      "severity": "medium",
+      "field": "tmdb_id",
+      "message": "No TMDB verification: Evadaithe Nakenti (2007) - missing TMDB ID",
+      "confidence": 0.70,
+      "sources": []
+    },
+    {
+      "id": "no-verification-summary",
+      "severity": "low",
+      "field": "tmdb_id",
+      "message": "56 movies missing TMDB verification - requires manual review",
+      "confidence": 0.60,
+      "sources": []
+    }
+  ]
+}

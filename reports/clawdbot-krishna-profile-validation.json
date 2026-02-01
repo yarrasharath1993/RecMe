@@ -1,0 +1,33 @@
+{
+  "report_id": "clawdbot-krishna-profile-validation-2026-01",
+  "generated_at": "2026-01-29T00:00:00Z",
+  "title": "Krishna profile showing data of other persons with 'Krishna' in name",
+  "description": "Profile slug 'krishna' (actor Ghattamaneni Krishna) was returning movies where director/writer/producer was 'Krishna Vamsi' or other persons with 'Krishna' in name. Root cause: API uses searchTerm = last word of personName ('krishna') and queries hero, heroine, director, producer, writer – so all persons containing 'Krishna' were matched.",
+  "total_issues": 2,
+  "issues": [
+    {
+      "id": "krishna-1",
+      "severity": "high",
+      "field": "profile_matching",
+      "message": "Profile slug 'krishna' matched movies where director/writer/producer is 'Krishna Vamsi' (different person). Single-word searchTerm 'krishna' caused over-inclusion.",
+      "confidence": 0.95,
+      "sources": ["profile API", "user report"],
+      "recommended_action": "Exclude movies where the ONLY match is director/writer/producer and the name contains 'Vamsi' (Krishna Vamsi) from actor Krishna profile."
+    },
+    {
+      "id": "krishna-2",
+      "severity": "medium",
+      "field": "name_disambiguation",
+      "message": "No disambiguation rule for 'Krishna' (actor) vs 'Krishna Vamsi' (director) in name-disambiguation.json. Similar to Chiranjeevi vs Chiranjeevi Sarja handling.",
+      "confidence": 0.9,
+      "sources": ["lib/utils/name-disambiguation.json", "app/api/profile/[slug]/route.ts"],
+      "recommended_action": "Add slug-level exclusion in profile API when slug is 'krishna' and personName is 'Krishna': exclude director/writer/producer-only matches containing 'Vamsi'."
+    }
+  ],
+  "fix_applied": {
+    "file": "app/api/profile/[slug]/route.ts",
+    "change": "Added Krishna (actor) vs Krishna Vamsi (director) exclusion: when slug === 'krishna' and personName === 'Krishna', exclude movies where ONLY director/writer/producer matches and name contains 'vamsi' (hero/heroine not matching)."
+  },
+  "playbook_reference": "docs/clawdbot/ACTOR_FILMOGRAPHY_CORRECTION_PLAYBOOK.md",
+  "lessons_for_other_actors": "For single-word or common names (e.g. Krishna, Teja, Ram), add slug-level or person-level exclusion rules when a different person shares part of the name (e.g. Krishna Vamsi, Ravi Teja). Use same pattern as Chiranjeevi/Sarja and Krishna/Vamsi."
+}

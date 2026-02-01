@@ -16,6 +16,8 @@ import type { Database } from '../../types/database';
 
 type Movie = Database['public']['Tables']['movies']['Row'];
 
+export type CrewRoleType = 'Producer' | 'Director' | 'Writer' | 'Music Director' | 'Cinematographer' | 'Editor' | 'Choreographer' | 'Lyricist' | 'Art Director' | 'Costume Designer' | 'Production Designer';
+
 export interface DiscoveredFilm {
   title_en: string;
   title_te?: string;
@@ -28,11 +30,25 @@ export interface DiscoveredFilm {
   language: string;
   character_name?: string;
   credits?: string; // e.g., "Special Appearance", "Guest Role"
+  crewRoles?: CrewRoleType[]; // All crew roles (producer, director, writer, etc.)
+  languages?: string[]; // Multi-language support
+  roleNotes?: string; // Additional role information
 }
 
 export interface MissingFilm extends DiscoveredFilm {
   reason: 'not_in_db' | 'different_spelling' | 'missing_year';
   matchedExisting?: Partial<Movie>;
+}
+
+export interface WrongAttribution {
+  movie: Movie;
+  issue: 'not_in_sources' | 'wrong_role' | 'wrong_field' | 'duplicate';
+  currentRole?: string;
+  correctRole?: string;
+  currentField?: string;
+  correctField?: string;
+  confidence: number;
+  discoveredFilm?: DiscoveredFilm;
 }
 
 export interface DiscoveryResult {
@@ -122,6 +138,7 @@ export function calculateConfidence(sourceCount: number): number {
 
 /**
  * Find films missing from database
+ * Note: existingMovies should include movies from ALL fields (hero, heroine, supporting_cast, producer, director, etc.)
  */
 export async function findMissingFilms(
   discoveredFilms: DiscoveredFilm[],
@@ -131,8 +148,9 @@ export async function findMissingFilms(
   
   for (const film of discoveredFilms) {
     let found = false;
+    let matchedExisting: Partial<Movie> | undefined;
     
-    // Check if film exists in database
+    // Check if film exists in database (by title + year)
     for (const existing of existingMovies) {
       const titleMatches = titlesMatch(film.title_en, existing.title_en || '');
       const yearMatches = 
@@ -140,6 +158,7 @@ export async function findMissingFilms(
       
       if (titleMatches && yearMatches) {
         found = true;
+        matchedExisting = existing;
         break;
       }
     }
@@ -148,11 +167,88 @@ export async function findMissingFilms(
       missing.push({
         ...film,
         reason: 'not_in_db',
+        matchedExisting,
       });
     }
   }
   
   return missing;
+}
+
+/**
+ * Detect wrong attributions (movies in DB but not in sources, or wrong role/field)
+ */
+export function detectWrongAttributions(
+  discoveredFilms: DiscoveredFilm[],
+  existingMovies: Movie[],
+  actorName: string
+): WrongAttribution[] {
+  const wrongAttributions: WrongAttribution[] = [];
+  const actorNameLower = actorName.toLowerCase();
+  
+  // Create a map of discovered films by title+year for quick lookup
+  const discoveredMap = new Map<string, DiscoveredFilm>();
+  for (const film of discoveredFilms) {
+    const key = `${normalizeTitle(film.title_en)}-${film.release_year}`;
+    discoveredMap.set(key, film);
+  }
+  
+  for (const existing of existingMovies) {
+    const key = `${normalizeTitle(existing.title_en || '')}-${existing.release_year || 0}`;
+    const discovered = discoveredMap.get(key);
+    
+    // Check if actor is attributed in this movie
+    const isAttributed = 
+      (existing.hero && existing.hero.toLowerCase().includes(actorNameLower)) ||
+      (existing.heroine && existing.heroine.toLowerCase().includes(actorNameLower)) ||
+      (existing.producer && existing.producer.toLowerCase().includes(actorNameLower)) ||
+      (existing.director && existing.director.toLowerCase().includes(actorNameLower)) ||
+      (existing.music_director && existing.music_director.toLowerCase().includes(actorNameLower)) ||
+      (existing.cinematographer && existing.cinematographer.toLowerCase().includes(actorNameLower)) ||
+      (Array.isArray(existing.supporting_cast) && existing.supporting_cast.some((c: any) => 
+        (typeof c === 'string' && c.toLowerCase().includes(actorNameLower)) ||
+        (typeof c === 'object' && c.name && c.name.toLowerCase().includes(actorNameLower))
+      )) ||
+      (existing.crew && typeof existing.crew === 'object' && 
+       Object.values(existing.crew).some((v: any) => 
+         typeof v === 'string' && v.toLowerCase().includes(actorNameLower)
+       ));
+    
+    if (!isAttributed) continue; // Skip movies where actor is not attributed
+    
+    if (!discovered) {
+      // Movie exists in DB but not found in discovered sources
+      wrongAttributions.push({
+        movie: existing,
+        issue: 'not_in_sources',
+        confidence: 0.7,
+      });
+      continue;
+    }
+    
+    // Check if role matches (simplified check - can be enhanced)
+    // This is a basic implementation - the ClawDBot analyzer will do more detailed analysis
+    const hasCrewRole = discovered.crewRoles && discovered.crewRoles.length > 0;
+    const isLeadInDiscovered = discovered.role === 'hero' || discovered.role === 'heroine';
+    const isHeroInDB = existing.hero && existing.hero.toLowerCase().includes(actorNameLower);
+    const isProducerInDB = existing.producer && existing.producer.toLowerCase().includes(actorNameLower);
+    
+    // If discovered has crew role but DB has actor role (or vice versa)
+    if (hasCrewRole && isHeroInDB && !isLeadInDiscovered) {
+      wrongAttributions.push({
+        movie: existing,
+        issue: 'wrong_role',
+        currentRole: 'hero',
+        correctRole: discovered.crewRoles?.[0] || 'crew',
+        currentField: 'hero',
+        correctField: 'producer', // Simplified
+        confidence: 0.8,
+        discoveredFilm: discovered,
+      });
+    }
+  }
+  
+  return wrongAttributions;
 }
 
 /**

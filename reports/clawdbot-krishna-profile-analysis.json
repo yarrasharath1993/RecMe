@@ -1,0 +1,42 @@
+{
+  "outputs": [
+    {
+      "type": "validation_analysis",
+      "data": {
+        "total_issues": 2,
+        "critical_count": 0,
+        "high_count": 1,
+        "medium_count": 1,
+        "low_count": 0,
+        "explanations": [
+          {
+            "issue_id": "krishna-1",
+            "severity": "high",
+            "field": "profile_matching",
+            "explanation": "Profile slug 'krishna' matched movies where director/writer/producer is 'Krishna Vamsi' (different person). Single-word searchTerm 'krishna' caused over-inclusion. Field: profile_matching. Sources: profile API, user report. Confidence: 95%.",
+            "recommended_action": "auto_fix",
+            "confidence": 0.95,
+            "source_disagreement": [
+              "profile API",
+              "user report"
+            ]
+          },
+          {
+            "issue_id": "krishna-2",
+            "severity": "medium",
+            "field": "name_disambiguation",
+            "explanation": "No disambiguation rule for 'Krishna' (actor) vs 'Krishna Vamsi' (director) in name-disambiguation.json. Similar to Chiranjeevi vs Chiranjeevi Sarja handling. Field: name_disambiguation. Sources: lib/utils/name-disambiguation.json, app/api/profile/[slug]/route.ts. Confidence: 90%.",
+            "recommended_action": "auto_fix",
+            "confidence": 0.9,
+            "source_disagreement": [
+              "lib/utils/name-disambiguation.json",
+              "app/api/profile/[slug]/route.ts"
+            ]
+          }
+        ],
+        "overall_health": "degraded",
+        "summary": "Found 2 validation issues (1 high, 1 medium severity). Overall health needs review."
+      }
+    }
+  ]
+}
